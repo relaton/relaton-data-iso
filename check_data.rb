@@ -10,16 +10,21 @@ require "relaton_iso_bib"
 # @param [Array, String, Hash] src source element
 # @param [Array, String, Hash] dest destination element
 #
-# @return [<Type>] <description>
+# @return [Array<Hash, Array, String, false>, false] not equal elements
 #
 def compare(src, dest) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
-  if !src.is_a?(dest.class) && !(dest.is_a?(Array) || src.is_a?(Array))
+  if !src.is_a?(dest.class) && !(dest.is_a?(Array) || src.is_a?(Array)) &&
+      !((dest.is_a?(Hash) && dest["content"]) || (src.is_a?(Hash) && src["content"]))
     return ["- #{src.to_s[0..70]}#{src.to_s.size > 70 ? '...' : ''}",
             "+ #{dest.to_s[0..70]}#{dest.to_s.size > 70 ? '...' : ''}"]
   elsif dest.is_a?(Array)
     return compare src, dest.first
   elsif src.is_a?(Array)
     return compare src.first, dest
+  elsif dest.is_a?(Hash) && dest["content"] && src.is_a?(String)
+    return compare src, dest["content"]
+  elsif src.is_a?(Hash) && src["content"] && dest.is_a?(String)
+    return compare src["content"], dest
   end
   case src
   when Array
@@ -36,6 +41,13 @@ def compare(src, dest) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize, 
   end
 end
 
+#
+# Remove falsey values from array
+#
+# @param [Array<Hash, Array, String, false>] arr error messages
+#
+# @return [Array<Hash, Array, String>] error messages without falsey values
+#
 def compact(arr)
   result = arr.select { |v| v }
   return unless result.any?
