@@ -7,7 +7,8 @@ on:
     branches: [ master, main ]
     tags: [ v* ]
   pull_request:
+  workflow_dispatch:
 
 jobs:
-  rake:
+  check-data:
     uses: relaton/support/.github/workflows/check-data.yml@master
