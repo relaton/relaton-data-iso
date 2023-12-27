@@ -3,9 +3,9 @@
 require 'relaton_iso'
 
 # Run data fetcher
-RelatonIso::DataFetcher.fetch
+# RelatonIso::DataFetcher.fetch
 
-index_file = RelatonIso::HitCollection::INDEX_FILE
+index_file = RelatonIso::HitCollection::INDEXFILE
 index = Relaton::Index.find_or_create :iso, file: index_file
 Dir["static/**/*.yaml"].each do |f|
   hash = YAML.load_file f
