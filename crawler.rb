@@ -15,3 +15,5 @@ Dir["static/**/*.yaml"].each do |f|
   index.add_or_update pubid.to_s, f
 end
 index.save
+
+`git add #{RelatonIso::Queue::FILE}`

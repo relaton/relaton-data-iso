@@ -4,6 +4,12 @@
 require "yaml"
 require "relaton_iso_bib"
 
+def fix_doctype(hash)
+  if hash["doctype"].is_a? String
+    hash["doctype"] = { "type" => hash["doctype"] }
+  end
+end
+
 #
 # Compare elements of source and destination
 #
@@ -93,6 +99,7 @@ path = ARGV.first || "data/*.{yaml,yml}"
 errors = false
 Dir[path].each do |f|
   yaml = YAML.load_file(f)
+  fix_doctype yaml
   hash = RelatonIsoBib::HashConverter.hash_to_bib yaml
   item = RelatonIsoBib::IsoBibliographicItem.new(**hash)
   if (messages = compare(yaml, item.to_hash))&.any?
