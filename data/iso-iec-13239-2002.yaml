@@ -1,0 +1,351 @@
+---
+schema-version: v1.2.8
+id: ISO/IEC13239-2002
+title:
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Telecommunications and information exchange between systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: High-level data link control (HDLC) procedures
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Telecommunications and information exchange between
+    systems - High-level data link control (HDLC) procedures
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Télécommunications et échange d'information entre systèmes
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Procédures de commande de liaison de données à haut niveau (HDLC)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Technologies de l'information - Télécommunications et échange d'information
+    entre systèmes - Procédures de commande de liaison de données à haut niveau (HDLC)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/37010.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:37010:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/03/70/37010.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO/IEC 13239:2002
+  type: ISO
+  primary: true
+- id: ISO/IEC 13239:2002(E)
+  type: iso-reference
+- id: urn:iso:std:iso-iec:13239:stage-90.93
+  type: URN
+docnumber: '13239'
+date:
+- type: published
+  value: 2002-07
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: 2002-07
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    This International Standard specifies the frame structures, the elements of procedures, the classes of procedures, the content
+    and format of the general purpose Exchange Identification (XID) frame, and a means for resolution/negotiation of a data link
+    layer address in switched environments for data communication systems using bit-oriented high-level data link control
+    (HDLC) procedures.
+    NOTE The use of the phrase "bit-oriented", referring to the HDLC control procedures, pertains to the allocation of a non-integral number
+    of bits to various subfields used for HDLC control purposes. However, the frame as an entirety may be constructed from octet-oriented units
+    (e.g., start-stop mode) for transmission purposes.
+    The frame structure portion defines the relative positions of the various components of the basic frame format and the nonbasic
+    frame format. The mechanisms used to achieve bit pattern independence (transparency), where and when required, within
+    the frame are also defined. In addition, three frame checking sequences (FCS) are specified; the rules for address field
+    extension are defined; and the addressing conventions available are described.
+    The elements of procedures portion specifies elements of data link control procedures for synchronous or start/stop, codetransparent
+    data transmission using independent frame numbering in both directions.
+    These HDLC elements of procedures are defined specifically in terms of the actions that occur on receipt of commands at a
+    secondary station, a tributary station, a peer station, or a combined station.
+    This International Standard is intended to cover a wide range of applications; for example one-way, two-way alternate or twoway
+    simultaneous data communication between data stations which are usually buffered, including operations on different
+    types of data circuits; for example multipoint/point-to-point, duplex/half-duplex, switched/non-switched, synchronous/startstop,
+    etc.
+    The defined elements of procedures are to be considered as a common basis for establishing different types of data link control
+    procedures. This International Standard does not define any single system and should not be regarded as a specification for a
+    data communication system. Not all of the commands or responses are required for any particular system implementation.
+    The classes of procedures portion describes the HDLC unbalanced classes of procedures, the HDLC balanced class of
+    procedures, and the HDLC connectionless classes of procedures for synchronous or start/stop data transmission.
+    For the unbalanced classes, the data link consists of a primary station plus one or more secondary stations and operates in
+    either the normal response mode or the asynchronous response mode in a point-to-point or multipoint configuration. For the
+    balanced class, the data link consists of two combined stations and operates in the asynchronous balanced mode in a point-topoint
+    configuration. For the unbalanced connectionless class, the data link consists of a control station plus one or more
+    tributary stations and operates in the unbalanced connectionless-mode in a point-to-point or multipoint configuration. For the
+    balanced connectionless class, the data link consists of two peer stations and operates in the balanced connectionless-mode in a
+    point-to-point configuration. In each class, a basic repertoire of commands and responses is defined, but the capability of the
+    data link may be modified by the use of optional functions.
+    Balanced operation is intended for use in circumstances which require equal control at either end of the data link. Operational
+    requirements are covered in accordance with the overall HDLC architecture.
+    The content and format of the Exchange Identification (XID) frame portion builds on the fact that the principal use of the XID
+    frame is to exchange data link information between two or more HDLC stations. For the purpose of this International Standard,
+    ISO/IEC 13239:2002(E)
+    2 © ISO/IEC 2002 ? All rights reserved
+    data link information shall include any and all essential operational characteristics such as identification, authentication and/or
+    selection of optional functions and facilities concerning each station. This International Standard defines a single-exchange
+    negotiation procedure for establishing operational characteristics when either one or more stations are capable of providing
+    multiple selections.
+    This International Standard provides a means for exchanging the necessary information to establish, at a minimum, a data link
+    connection between two correspondents wishing to communicate. It describes a general purpose XID frame information field
+    content and format for that purpose.
+    It defines encoding for information related to the basic HDLC standards only. Mechanisms are provided to permit the general
+    purpose XID frame information field to be used to negotiate private parameters in a single XID exchange simultaneously with
+    negotiation of the defined basic parameters.
+    This International Standard does not limit or restrict the use of the XID frame information field from defining other standard
+    formats for use in specific applications.
+    The following are examples of potential uses of the XID command/response frame interchange:
+    a) Identification of the calling and called stations when using circuit switched networks (including switched network backup
+    applications).
+    b) Identification of stations operating on non-switched networks requiring identification at start-up.
+    c) The XID command frame with an individual, group or all-station address may be used to solicit XID response frame(s)
+    from other station(s) on the data link, prior to or following data link establishment.
+    d) Negotiation of the Frame Check Sequence (FCS) to be used for subsequent information interchange, by stations that
+    support both 16-bit FCS and 32-bit FCS capabilities.
+    e) Convey higher layer information that may be required prior to data link establishment.
+    f) Transmission of an XID response frame at any respond opportunity to request an XID exchange to modify some of the
+    operational parameters (for example, window size) following data link establishment.
+    g) Negotiation of the number of protected bits in the frame when an Unnumbered Information with Header check (UIH)
+    frame is used.
+    The means for resolution/negotiation of a data link layer address in switched environments portion is applicable to data stations
+    employing HDLC balanced classes of procedures which provide the XID command/response capability with the two specific
+    parameter fields, identified below. It is used to select a pair of operational link addresses when preassigned, system designated
+    addresses are not known on an a priori basis; e.g., switched circuited data links. Additional XID frame functions (including the
+    exchange of operational parameters, command/response support, higher layer information, etc.) may be accomplished in
+    conjunction with data link layer address determination or following address determination, with additional XID frame
+    exchanges.
+    NOTE Address resolution procedures for situations where the remote DTE does not support XID frames, the "all-station"
+    address, or complete address support capabilities as defined in clause 8 below are not within the scope of this International
+    Standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    This International Standard specifies the frame structures, the elements of procedures, the classes of procedures, the content
+    and format of the general purpose Exchange Identification (XID) frame, and a means for resolution/negotiation of a data link
+    layer address in switched environments for data communication systems using bit-oriented high-level data link control
+    (HDLC) procedures.
+    NOTE The use of the phrase "bit-oriented", referring to the HDLC control procedures, pertains to the allocation of a non-integral number
+    of bits to various subfields used for HDLC control purposes. However, the frame as an entirety may be constructed from octet-oriented units
+    (e.g., start-stop mode) for transmission purposes.
+    The frame structure portion defines the relative positions of the various components of the basic frame format and the nonbasic
+    frame format. The mechanisms used to achieve bit pattern independence (transparency), where and when required, within
+    the frame are also defined. In addition, three frame checking sequences (FCS) are specified; the rules for address field
+    extension are defined; and the addressing conventions available are described.
+    The elements of procedures portion specifies elements of data link control procedures for synchronous or start/stop, codetransparent
+    data transmission using independent frame numbering in both directions.
+    These HDLC elements of procedures are defined specifically in terms of the actions that occur on receipt of commands at a
+    secondary station, a tributary station, a peer station, or a combined station.
+    This International Standard is intended to cover a wide range of applications; for example one-way, two-way alternate or twoway
+    simultaneous data communication between data stations which are usually buffered, including operations on different
+    types of data circuits; for example multipoint/point-to-point, duplex/half-duplex, switched/non-switched, synchronous/startstop,
+    etc.
+    The defined elements of procedures are to be considered as a common basis for establishing different types of data link control
+    procedures. This International Standard does not define any single system and should not be regarded as a specification for a
+    data communication system. Not all of the commands or responses are required for any particular system implementation.
+    The classes of procedures portion describes the HDLC unbalanced classes of procedures, the HDLC balanced class of
+    procedures, and the HDLC connectionless classes of procedures for synchronous or start/stop data transmission.
+    For the unbalanced classes, the data link consists of a primary station plus one or more secondary stations and operates in
+    either the normal response mode or the asynchronous response mode in a point-to-point or multipoint configuration. For the
+    balanced class, the data link consists of two combined stations and operates in the asynchronous balanced mode in a point-topoint
+    configuration. For the unbalanced connectionless class, the data link consists of a control station plus one or more
+    tributary stations and operates in the unbalanced connectionless-mode in a point-to-point or multipoint configuration. For the
+    balanced connectionless class, the data link consists of two peer stations and operates in the balanced connectionless-mode in a
+    point-to-point configuration. In each class, a basic repertoire of commands and responses is defined, but the capability of the
+    data link may be modified by the use of optional functions.
+    Balanced operation is intended for use in circumstances which require equal control at either end of the data link. Operational
+    requirements are covered in accordance with the overall HDLC architecture.
+    The content and format of the Exchange Identification (XID) frame portion builds on the fact that the principal use of the XID
+    frame is to exchange data link information between two or more HDLC stations. For the purpose of this International Standard,
+    ISO/IEC 13239:2002(E)
+    2 © ISO/IEC 2002 ? All rights reserved
+    data link information shall include any and all essential operational characteristics such as identification, authentication and/or
+    selection of optional functions and facilities concerning each station. This International Standard defines a single-exchange
+    negotiation procedure for establishing operational characteristics when either one or more stations are capable of providing
+    multiple selections.
+    This International Standard provides a means for exchanging the necessary information to establish, at a minimum, a data link
+    connection between two correspondents wishing to communicate. It describes a general purpose XID frame information field
+    content and format for that purpose.
+    It defines encoding for information related to the basic HDLC standards only. Mechanisms are provided to permit the general
+    purpose XID frame information field to be used to negotiate private parameters in a single XID exchange simultaneously with
+    negotiation of the defined basic parameters.
+    This International Standard does not limit or restrict the use of the XID frame information field from defining other standard
+    formats for use in specific applications.
+    The following are examples of potential uses of the XID command/response frame interchange:
+    a) Identification of the calling and called stations when using circuit switched networks (including switched network backup
+    applications).
+    b) Identification of stations operating on non-switched networks requiring identification at start-up.
+    c) The XID command frame with an individual, group or all-station address may be used to solicit XID response frame(s)
+    from other station(s) on the data link, prior to or following data link establishment.
+    d) Negotiation of the Frame Check Sequence (FCS) to be used for subsequent information interchange, by stations that
+    support both 16-bit FCS and 32-bit FCS capabilities.
+    e) Convey higher layer information that may be required prior to data link establishment.
+    f) Transmission of an XID response frame at any respond opportunity to request an XID exchange to modify some of the
+    operational parameters (for example, window size) following data link establishment.
+    g) Negotiation of the number of protected bits in the frame when an Unnumbered Information with Header check (UIH)
+    frame is used.
+    The means for resolution/negotiation of a data link layer address in switched environments portion is applicable to data stations
+    employing HDLC balanced classes of procedures which provide the XID command/response capability with the two specific
+    parameter fields, identified below. It is used to select a pair of operational link addresses when preassigned, system designated
+    addresses are not known on an a priori basis; e.g., switched circuited data links. Additional XID frame functions (including the
+    exchange of operational parameters, command/response support, higher layer information, etc.) may be accomplished in
+    conjunction with data link layer address determination or following address determination, with additional XID frame
+    exchanges.
+    NOTE Address resolution procedures for situations where the remote DTE does not support XID frames, the "all-station"
+    address, or complete address support capabilities as defined in clause 8 below are not within the scope of this International
+    Standard.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '90'
+  substage:
+    value: '93'
+copyright:
+- owner:
+  - name:
+    - content: ISO/IEC
+  from: '2002'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC3309-1993
+    type: standard
+    docid:
+    - id: ISO/IEC 3309:1993
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/IEC 3309:1993
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC4335-1993
+    type: standard
+    docid:
+    - id: ISO/IEC 4335:1993
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/IEC 4335:1993
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC7809-1993
+    type: standard
+    docid:
+    - id: ISO/IEC 7809:1993
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/IEC 7809:1993
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC8885-1993
+    type: standard
+    docid:
+    - id: ISO/IEC 8885:1993
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/IEC 8885:1993
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC13239-2000
+    type: standard
+    docid:
+    - id: ISO/IEC 13239:2000
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/IEC 13239:2000
+      format: text/plain
+place:
+- Geneva
+fetched: '2024-01-17'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Telecommunications and information exchange between systems
+    number: 1
+    type: IEC
+    identifier: ISO/IEC JTC 1/SC 6
+ics:
+- code: 35.100.20
+  text: Data link layer
+structuredidentifier:
+  project_number: ISO 13239
+  type: ISO
+ext:
+  schema-version: v1.0.0

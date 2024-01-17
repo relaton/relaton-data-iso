@@ -1,0 +1,218 @@
+---
+schema-version: v1.2.8
+id: ISO/IEC16500-6-1999
+title:
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Generic digital audio-visual systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 6: Information representation'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Generic digital audio-visual systems - Part 6:
+    Information representation'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Systèmes audiovisuels numériques génériques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 6: Représentation des informations'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Systèmes audiovisuels numériques génériques
+    - Partie 6: Représentation des informations'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/31014.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:31014:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/03/10/31014.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO/IEC 16500-6:1999
+  type: ISO
+  primary: true
+- id: ISO/IEC 16500-6:1999(E)
+  type: iso-reference
+- id: urn:iso:std:iso-iec:16500:-6:stage-90.93
+  type: URN
+docnumber: '16500'
+date:
+- type: published
+  value: 1999-12
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: 1999-12
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    This part of ISO/IEC 16500 takes a practical approach to the specification of Information Representation. Just the
+    information types that cannot be dispensed with in producing the set of DAVIC applications (viz. broadcast, movies
+    on demand, home shopping, etc.) are specified. The approach taken in this part of ISO/IEC 16500 starts by defining
+    the various monomedia information types. They include character, text, fonts, service information, audio, video, and
+    graphics. Consistent with DAVIC principles, one tool is selected for the encoding of each information type.
+    Multimedia components comprise one or more monomedia components. This part of ISO/IEC 16500 defines the way
+    in which multimedia information is coded and exchanged. This includes the definition of a virtual machine and a set
+    of APIs to support interoperable exchange of program code. Finally, this part of ISO/IEC 16500 defines a Reference
+    Decoder Model for contents decoding which provides constraints on content. The major problem addressed by the
+    model is to ensure interoperability of applications by specifying memory and behaviour constraints for contents
+    decoding by a hypothetical STU, without specifying the internal design of an STU. An application built according to
+    the reference decoder model will be an "ISO/IEC 16500 conforming application" and will successfully execute on a
+    STU that is compliant to ISO/IEC 16500.
+    For each monomedia and multimedia component the coding format is specified, as well as applicable constraints for
+    coding of the components. Three types of monomedia components are distinguished. Monomedia components which
+    are included within other monomedia components, such as characters within text, are of type implied. Non-implied
+    monomedia components that do not require synchronization with a time base at play back, are of type stand-alone.
+    Finally, non-implied monomedia components of which the presentation may require synchronization with a time base
+    are of type stream. This part of ISO/IEC 16500 defines which type each DAVIC defined monomedia component may
+    take, and specifies that the coded representation of monomedia components of type stream are packetized in PES
+    packets (for definition of PES packets refer to ISO/IEC 13818-1). PES packets permit (1) to include time stamps to
+    support mutual synchronisation of multiple monomedia components in reference to a common time base and (2) to
+    define timing and buffer behaviour in a common reference model for contents decoding. While there are various
+    ways to deliver the monomedia and multimedia components to the STU, This part of ISO/IEC 16500 defines how the
+    components are carried in an MPEG-2 Transport Stream.
+    DAVIC specifies a number of different profiles. In a specific profile there may be support of a subset of the
+    monomedia components. Each STU that complies to a specific profile of DAVIC shall be capable of decoding and
+    presenting each monomedia and multimedia component permitted within that profile.
+    This part of ISO/IEC 16500 also specifies methods for packaging of contents and metadata. The way in which
+    content is packaged for delivery is independent of the way in which content data is delivered to the SPS (it may be
+    delivered to a Service Provider either on physical media or over a transmission system). All programming content is
+    represented in the DAVIC system as multimedia components. Multimedia components comprise one or more
+    monomedia components coupled with the logical relationships between the monomedia components. The multimedia
+    components will be created by content providers for input to the servers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    This part of ISO/IEC 16500 takes a practical approach to the specification of Information Representation. Just the
+    information types that cannot be dispensed with in producing the set of DAVIC applications (viz. broadcast, movies
+    on demand, home shopping, etc.) are specified. The approach taken in this part of ISO/IEC 16500 starts by defining
+    the various monomedia information types. They include character, text, fonts, service information, audio, video, and
+    graphics. Consistent with DAVIC principles, one tool is selected for the encoding of each information type.
+    Multimedia components comprise one or more monomedia components. This part of ISO/IEC 16500 defines the way
+    in which multimedia information is coded and exchanged. This includes the definition of a virtual machine and a set
+    of APIs to support interoperable exchange of program code. Finally, this part of ISO/IEC 16500 defines a Reference
+    Decoder Model for contents decoding which provides constraints on content. The major problem addressed by the
+    model is to ensure interoperability of applications by specifying memory and behaviour constraints for contents
+    decoding by a hypothetical STU, without specifying the internal design of an STU. An application built according to
+    the reference decoder model will be an "ISO/IEC 16500 conforming application" and will successfully execute on a
+    STU that is compliant to ISO/IEC 16500.
+    For each monomedia and multimedia component the coding format is specified, as well as applicable constraints for
+    coding of the components. Three types of monomedia components are distinguished. Monomedia components which
+    are included within other monomedia components, such as characters within text, are of type implied. Non-implied
+    monomedia components that do not require synchronization with a time base at play back, are of type stand-alone.
+    Finally, non-implied monomedia components of which the presentation may require synchronization with a time base
+    are of type stream. This part of ISO/IEC 16500 defines which type each DAVIC defined monomedia component may
+    take, and specifies that the coded representation of monomedia components of type stream are packetized in PES
+    packets (for definition of PES packets refer to ISO/IEC 13818-1). PES packets permit (1) to include time stamps to
+    support mutual synchronisation of multiple monomedia components in reference to a common time base and (2) to
+    define timing and buffer behaviour in a common reference model for contents decoding. While there are various
+    ways to deliver the monomedia and multimedia components to the STU, This part of ISO/IEC 16500 defines how the
+    components are carried in an MPEG-2 Transport Stream.
+    DAVIC specifies a number of different profiles. In a specific profile there may be support of a subset of the
+    monomedia components. Each STU that complies to a specific profile of DAVIC shall be capable of decoding and
+    presenting each monomedia and multimedia component permitted within that profile.
+    This part of ISO/IEC 16500 also specifies methods for packaging of contents and metadata. The way in which
+    content is packaged for delivery is independent of the way in which content data is delivered to the SPS (it may be
+    delivered to a Service Provider either on physical media or over a transmission system). All programming content is
+    represented in the DAVIC system as multimedia components. Multimedia components comprise one or more
+    monomedia components coupled with the logical relationships between the monomedia components. The multimedia
+    components will be created by content providers for input to the servers.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '90'
+  substage:
+    value: '93'
+copyright:
+- owner:
+  - name:
+    - content: ISO/IEC
+  from: '1999'
+place:
+- Geneva
+fetched: '2024-01-17'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Coding of audio, picture, multimedia and hypermedia information
+    number: 1
+    type: IEC
+    identifier: ISO/IEC JTC 1/SC 29
+ics:
+- code: 35.040.40
+  text: Coding of audio, video, multimedia and hypermedia information
+structuredidentifier:
+  project_number: ISO 16500
+  part: '6'
+  type: ISO
+ext:
+  schema-version: v1.0.0
