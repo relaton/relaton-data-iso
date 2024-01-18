@@ -1,0 +1,308 @@
+---
+schema-version: v1.2.8
+id: ISO10303-242-2020
+title:
+- content: Industrial automation systems and integration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Product data representation and exchange
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 242: Application protocol: Managed model-based 3D engineering'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Industrial automation systems and integration - Product data representation
+    and exchange - Part 242: Application protocol: Managed model-based 3D engineering'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Systèmes d'automatisation industrielle et intégration
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Représentation et échange de données de produits
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 242: Protocole d''application: Gestion des modèles 3D d''ingénierie'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Systèmes d''automatisation industrielle et intégration - Représentation
+    et échange de données de produits - Partie 242: Protocole d''application: Gestion
+    des modèles 3D d''ingénierie'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/66654.html
+  type: src
+- content: https://www.iso.org/contents/data/standard/06/66/66654.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO 10303-242:2020
+  type: ISO
+  primary: true
+- id: ISO 10303-242:2020(E)
+  type: iso-reference
+- id: urn:iso:std:iso:10303:-242:stage-95.99
+  type: URN
+docnumber: '10303'
+date:
+- type: published
+  value: 2020-04
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: 2020-04
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "This document specifies the application module for\n         AP242 managed
+    model based 3D engineering.       \n         \n      \n\n         The following
+    are within the scope of \n         this document:\n         \n      \n- products
+    of automotive, aerospace and other mechanical manufacturers and of their suppliers,\n
+    \                  including parts, assemblies of parts, tools, assemblies of
+    tools, and raw materials;\n         \n- engineering and product data for the purpose
+    of long-term archiving and retrieval;\n- product data management\n               \n
+    \           breakdown data representing a parent-child structures, such as functional,
+    physical, system or zonal breakdowns. A breakdown\n                  is made of
+    breakdown element;\n               product definition data and configuration control
+    data for managing large numbers of variants of products during the design\n                  phase;\n
+    \              data describing the changes that have occurred during the design
+    phase, including tracking of the versions of a product and\n                  of
+    the data related to the documentation of the change process;\n               delta
+    change: data describing the exchange of differences with respect to a set of data
+    previously sent;identification of standard parts, based on international, national,
+    or industrial standards;release and approval data for product data;data that identify
+    the supplier of a product and related contract information;properties of parts
+    or of tools;references to product documentation represented in a format other
+    than those specified by ISO 10303;product manufacturing information, covering
+    the design and manufacturing planning phase;identification of physically realized
+    parts or of tools, including assembly of physically realized products and recording\n
+    \                 of test results.\n               \n                  \n         \n-
+    process planning\n            \n            process plan information describing
+    the relationships between parts and the tools used to manufacture them\n                         and
+    to manage the relationships between intermediate stages of part or tool development.\n
+    \              \n                  \n         \n- mechanical design\n            \n
+    \           different types of geometry models, including:\n                       \n
+    \                 2D- and 3D-wireframe geometry model;geometrically bounded surface
+    geometry model;topologically bounded surface geometry model;faceted-boundary geometry
+    model;boundary geometry model;compound shape geometry model;constructive solid
+    geometry model;parametric and constrained geometry model;2D-sketch model;3D tessellated
+    geometry model;3D scan data;curved triangles.\n                              \n
+    \              representation of the shape of parts or tools that is a combination
+    of two or more of different types of geometry models;data that pertains to the
+    presentation of the shape of the product;representation of portions of the shape
+    of a part or a tool by manufacturing features;data defining surface conditions;dimensional
+    and geometrical tolerance data;quality criteria and inspection results of given
+    three dimensional product shape data;product documentation as annotated 3D models
+    and as drawings.\n                  \n         \n- message\n            \n            data
+    that identify a message and an envelope.\n                  \n               \n
+    \                 \n         \n- interface\n            \n            data representing
+    the interfaces with version management mechanism and the definition of connection
+    with connectors.\n                  \n               \n                  \n         \n-
+    mating\n            \n            data representing the detailed assembly information
+    on how the involved part occurrences are mated together and which constraints\n
+    \                 apply.\n                  \n               \n                  \n
+    \        \n- kinematics\n            \n            simulation data for the description
+    of kinematic structures and motion.\n                  \n         \n- analysis
+    management\n            \n            data representing an analysis, managed in
+    versions and the link to the result of the analysis.\n                  \n         \n-
+    composite design\n            \n            definition of composite structural
+    parts;the association of the constituents of composite and metallic parts with
+    the constituent shape model;the depiction of composite laminate tables describing
+    the material, stacking sequence and ply orientation;\n                  \n               constituents
+    of the composite or a portion of the composite with a defined shape;\n                  \n
+    \              the identification of material specifications from internal and
+    external sources and their properties for a specific operating\n                  environment.\n
+    \                 \n               \n                  \n         \n- electrical
+    harness assembly design\n            \n            electrical wire harnesses design;physical
+    electrical harness model for design and construction;electrical connectivity information
+    in multilevel assemblies;wire and cable list data;definition of wire, cable and
+    connector features.\n                  \n         \n- additive manufacturing part
+    design\n            \n            build information.\n                  \n         \n-
+    requirements management\n            \n            verification and validation.\n
+    \                 \n         "
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: "This document specifies the application module for\n         AP242 managed
+    model based 3D engineering.       \n         \n      \n\n         The following
+    are within the scope of \n         this document:\n         \n      \n- products
+    of automotive, aerospace and other mechanical manufacturers and of their suppliers,\n
+    \                  including parts, assemblies of parts, tools, assemblies of
+    tools, and raw materials;\n         \n- engineering and product data for the purpose
+    of long-term archiving and retrieval;\n- product data management\n               \n
+    \           breakdown data representing a parent-child structures, such as functional,
+    physical, system or zonal breakdowns. A breakdown\n                  is made of
+    breakdown element;\n               product definition data and configuration control
+    data for managing large numbers of variants of products during the design\n                  phase;\n
+    \              data describing the changes that have occurred during the design
+    phase, including tracking of the versions of a product and\n                  of
+    the data related to the documentation of the change process;\n               delta
+    change: data describing the exchange of differences with respect to a set of data
+    previously sent;identification of standard parts, based on international, national,
+    or industrial standards;release and approval data for product data;data that identify
+    the supplier of a product and related contract information;properties of parts
+    or of tools;references to product documentation represented in a format other
+    than those specified by ISO 10303;product manufacturing information, covering
+    the design and manufacturing planning phase;identification of physically realized
+    parts or of tools, including assembly of physically realized products and recording\n
+    \                 of test results.\n               \n                  \n         \n-
+    process planning\n            \n            process plan information describing
+    the relationships between parts and the tools used to manufacture them\n                         and
+    to manage the relationships between intermediate stages of part or tool development.\n
+    \              \n                  \n         \n- mechanical design\n            \n
+    \           different types of geometry models, including:\n                       \n
+    \                 2D- and 3D-wireframe geometry model;geometrically bounded surface
+    geometry model;topologically bounded surface geometry model;faceted-boundary geometry
+    model;boundary geometry model;compound shape geometry model;constructive solid
+    geometry model;parametric and constrained geometry model;2D-sketch model;3D tessellated
+    geometry model;3D scan data;curved triangles.\n                              \n
+    \              representation of the shape of parts or tools that is a combination
+    of two or more of different types of geometry models;data that pertains to the
+    presentation of the shape of the product;representation of portions of the shape
+    of a part or a tool by manufacturing features;data defining surface conditions;dimensional
+    and geometrical tolerance data;quality criteria and inspection results of given
+    three dimensional product shape data;product documentation as annotated 3D models
+    and as drawings.\n                  \n         \n- message\n            \n            data
+    that identify a message and an envelope.\n                  \n               \n
+    \                 \n         \n- interface\n            \n            data representing
+    the interfaces with version management mechanism and the definition of connection
+    with connectors.\n                  \n               \n                  \n         \n-
+    mating\n            \n            data representing the detailed assembly information
+    on how the involved part occurrences are mated together and which constraints\n
+    \                 apply.\n                  \n               \n                  \n
+    \        \n- kinematics\n            \n            simulation data for the description
+    of kinematic structures and motion.\n                  \n         \n- analysis
+    management\n            \n            data representing an analysis, managed in
+    versions and the link to the result of the analysis.\n                  \n         \n-
+    composite design\n            \n            definition of composite structural
+    parts;the association of the constituents of composite and metallic parts with
+    the constituent shape model;the depiction of composite laminate tables describing
+    the material, stacking sequence and ply orientation;\n                  \n               constituents
+    of the composite or a portion of the composite with a defined shape;\n                  \n
+    \              the identification of material specifications from internal and
+    external sources and their properties for a specific operating\n                  environment.\n
+    \                 \n               \n                  \n         \n- electrical
+    harness assembly design\n            \n            electrical wire harnesses design;physical
+    electrical harness model for design and construction;electrical connectivity information
+    in multilevel assemblies;wire and cable list data;definition of wire, cable and
+    connector features.\n                  \n         \n- additive manufacturing part
+    design\n            \n            build information.\n                  \n         \n-
+    requirements management\n            \n            verification and validation.\n
+    \                 \n         "
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '95'
+  substage:
+    value: '99'
+copyright:
+- owner:
+  - name:
+    - content: ISO
+  from: '2020'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO10303-242-2014
+    type: standard
+    docid:
+    - id: ISO 10303-242:2014
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO 10303-242:2014
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO10303-242-2014/Cor1-2016
+    type: standard
+    docid:
+    - id: ISO 10303-242:2014/Cor 1:2016
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO 10303-242:2014/Cor 1:2016
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO10303-242-2022
+    type: standard
+    docid:
+    - id: ISO 10303-242:2022
+      type: ISO
+      primary: true
+    date:
+    - type: circulated
+      value: '2022-12-19'
+    formattedref:
+      content: ISO 10303-242:2022
+      format: text/plain
+place:
+- Geneva
+fetched: '2024-01-17'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Industrial data
+    number: 184
+    type: TC
+    identifier: ISO/TC 184/SC 4
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+structuredidentifier:
+  project_number: ISO 10303
+  part: '242'
+  type: ISO
+ext:
+  schema-version: v1.0.0

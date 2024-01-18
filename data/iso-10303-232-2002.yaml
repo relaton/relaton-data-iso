@@ -1,0 +1,252 @@
+---
+schema-version: v1.2.8
+id: ISO10303-232-2002
+title:
+- content: Industrial automation systems and integration
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Product data representation and exchange
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 232: Application protocol: Technical data packaging core information
+    and exchange'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Industrial automation systems and integration - Product data representation
+    and exchange - Part 232: Application protocol: Technical data packaging core information
+    and exchange'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Systèmes d'automatisation industrielle et intégration
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Représentation et échange de données de produits
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 232: Protocole d''application: Information centrale et échange
+    de paquetage de données techniques'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Systèmes d''automatisation industrielle et intégration - Représentation
+    et échange de données de produits - Partie 232: Protocole d''application: Information
+    centrale et échange de paquetage de données techniques'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/27831.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:27831:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/02/78/27831.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO 10303-232:2002
+  type: ISO
+  primary: true
+- id: ISO 10303-232:2002(E)
+  type: iso-reference
+- id: urn:iso:std:iso:10303:-232:stage-90.93
+  type: URN
+docnumber: '10303'
+date:
+- type: published
+  value: 2002-06
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: 2002-06
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    This part of ISO 10303 specifies the use of the integrated resources necessary for the scope and information requirements for Technical Data Packages (TDPs) (see 3.5.28) to be exchanged among product data management systems.
+    Each enterprise uses content, format, and the level of configuration control as parameters when establishing its product exchange or access requirements among business partners. Because of the diverse set of products, product data, and lifecycle processes PDM systems support, this part of ISO 10303 allows many combinations of these parameters and their values.
+    Using a defined set of these parameters, the disclosure of product information needs to be sufficient to satisfy the business purpose of the TDP.
+    NOTE 1 TDPs may be prepared to a level where the product information is sufficient to evaluate a product definition concept. Or a TDP may be prepared to a level where the product information is sufficient to enable full design disclosure (see 3.5.9).
+    Requirements for this part of ISO 10303 were derived from functions that create and use TDPs and reside throughout the product's life cycle. The key informational aspects addressed in this part of ISO 10303 are shared and exchanged throughout the product's life cycle.
+    NOTE 2 Within a product's life cycle, there are many functions that create and use the technical information about a product. Figure 3 illustrates the functional usage of technical data within each life cycle phase of a product. The largest percentage of the technical data is developed in the concept development, concept and validation, and product and process development lifecycle phases. The operations and support lifecycle phase, for most products or commodities, is the longest and is impacted the greatest by the quality and usability of the TDP information. The production lifecycle phase typically has the second largest usage of the information contained within the TDP. In the production and product process development lifecycle phase, TDP data is used to build and deliver the product.
+    NOTE 3 The application activity model in annex F provides a graphical representation of the processes and information flows that are the basis for the definition of the scope of this part of ISO 10303.
+    Figure 3 -- Functional usage of technical data
+    EXAMPLE 1 The following represent different types of Technical Data Packages through a product's life cycle:
+    - Conceptual Design Drawings and Associated Lists;
+    - Developmental Design Drawings and Associated Lists;
+    - Product Drawings and Associated Lists;
+    - Commercial Drawings and Associated Lists;
+    - Special Inspection Equipment Drawings and Associated Lists;
+    - Special Tooling Drawings and Associated Lists.
+    NOTE 4 Definitions for the preceding types of TDPs are given in Clause 3.5.
+    The content, form, and format of the data are critical to the core information content for exchange or access of the TDP. The following are within the scope of this part of ISO 10303:
+    - All products and their commodity types;
+    NOTE 5 This part of ISO 10303 is defined independently of product or commodity.
+    -- Product definition data and product configuration control data pertaining to the concept development, concept and validation, product and process development, production, operations and support, and retirement phases of a product (herein called the product life cycle);
+    NOTE 6 ISO 10303 standards are referenced throughout the documentation of the requirements of this part of ISO 10303. This part utilizes ISO 10303 standards through the use of application interpreted constructs.
+    - Relationship of the product to a technical data package element (see 3.5.27);
+    - Identification of drawings related to the product that require configuration control, exchange, or access;
+    - The data content requirements for parts lists, data lists, index lists, indentured data lists, and other associated lists that are associated to a drawing or a product data set (see 3.5 for definitions);
+    - The data content requirements for product data set that represent geometric product shape;
+    - Identification of files containing shape information and the positioning information needed to place components in an assembly;
+    - Identification of alternate geometric representations of the product definition data by different disciplines during the product life cycle;
+    - Identification of any group of technical data related to the product that needs configuration control exchange or access;
+    EXAMPLE 2 A finite element analysis (models, controls, and results) and testing reports are each a group of technical data.
+    - Identification of specifications and standards that define or describe the product or product unique processes;
+    - Identification of documentation that define or describe change activity to the product or product related documentation;
+    EXAMPLE 3 Change activity is documented in the form of Drawing Revision Notices, Engineering Change Notices, and Drawing Change Notices.
+    - The Identification of standard parts (see 3.5.26) for the purpose of their inclusion in a product's design;
+    - The visual presentation for human understanding of the associated list data and the product data set;
+    - The data requirements for configuration control exchange of Technical Data Packages;
+    NOTE 7 Identification of document version will be defined by this part of ISO 10303.
+    - The identification and relationship of Technical Data Package elements within a TDP exchange;
+    - The identification of file and file format for Technical Data Package elements;
+    NOTE 8 File and file format information may be defined by this part of ISO 10303, another part of ISO 10303, National Standards or through mutual agreement between the sending and receiving parties of the TDP elements.
+    - The identification of digital and non-digital media for specific technical data package elements.
+    EXAMPLE 4 Digital media could include floppy disk, diskette, compact disk, and 9-track tape.
+    EXAMPLE 5 Non-digital media could include paper, mylar, aperture card, and vellum.
+    The following are outside the scope of this part of ISO 10303:
+    - Data content requirements for technological data used in, or resulting from, the analysis or test of a design that is used as evidence for consideration of a change to a design;
+    NOTE 9 A product data set may contain analysis or test data in a format other than this part of ISO 10303.
+    - Data content requirements for technological data that results in changes to the design during the initial design evolution prior to release;
+    NOTE 10 Changes prior to release are considered informal change activity.
+    NOTE 11 ISO 10303-209 [4] defines requirements for informal change activity prior to engineering release.
+    - Data content requirements for business management data for a design project;
+    EXAMPLE 6 Business data could include schedule, cost, time standards, risk, and related management information.
+    - Data content requirements for alternate representations of the data by different disciplines outside of that required to define, manufacture, or procure the product;
+    - Data content requirements for definition of digital or non-digital media for a TDP exchange;
+    - Data content requirements for definition of procedures to record the digital TDP files to digital media.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    This part of ISO 10303 specifies the use of the integrated resources necessary for the scope and information requirements for Technical Data Packages (TDPs) (see 3.5.28) to be exchanged among product data management systems.
+    Each enterprise uses content, format, and the level of configuration control as parameters when establishing its product exchange or access requirements among business partners. Because of the diverse set of products, product data, and lifecycle processes PDM systems support, this part of ISO 10303 allows many combinations of these parameters and their values.
+    Using a defined set of these parameters, the disclosure of product information needs to be sufficient to satisfy the business purpose of the TDP.
+    NOTE 1 TDPs may be prepared to a level where the product information is sufficient to evaluate a product definition concept. Or a TDP may be prepared to a level where the product information is sufficient to enable full design disclosure (see 3.5.9).
+    Requirements for this part of ISO 10303 were derived from functions that create and use TDPs and reside throughout the product's life cycle. The key informational aspects addressed in this part of ISO 10303 are shared and exchanged throughout the product's life cycle.
+    NOTE 2 Within a product's life cycle, there are many functions that create and use the technical information about a product. Figure 3 illustrates the functional usage of technical data within each life cycle phase of a product. The largest percentage of the technical data is developed in the concept development, concept and validation, and product and process development lifecycle phases. The operations and support lifecycle phase, for most products or commodities, is the longest and is impacted the greatest by the quality and usability of the TDP information. The production lifecycle phase typically has the second largest usage of the information contained within the TDP. In the production and product process development lifecycle phase, TDP data is used to build and deliver the product.
+    NOTE 3 The application activity model in annex F provides a graphical representation of the processes and information flows that are the basis for the definition of the scope of this part of ISO 10303.
+    Figure 3 -- Functional usage of technical data
+    EXAMPLE 1 The following represent different types of Technical Data Packages through a product's life cycle:
+    - Conceptual Design Drawings and Associated Lists;
+    - Developmental Design Drawings and Associated Lists;
+    - Product Drawings and Associated Lists;
+    - Commercial Drawings and Associated Lists;
+    - Special Inspection Equipment Drawings and Associated Lists;
+    - Special Tooling Drawings and Associated Lists.
+    NOTE 4 Definitions for the preceding types of TDPs are given in Clause 3.5.
+    The content, form, and format of the data are critical to the core information content for exchange or access of the TDP. The following are within the scope of this part of ISO 10303:
+    - All products and their commodity types;
+    NOTE 5 This part of ISO 10303 is defined independently of product or commodity.
+    -- Product definition data and product configuration control data pertaining to the concept development, concept and validation, product and process development, production, operations and support, and retirement phases of a product (herein called the product life cycle);
+    NOTE 6 ISO 10303 standards are referenced throughout the documentation of the requirements of this part of ISO 10303. This part utilizes ISO 10303 standards through the use of application interpreted constructs.
+    - Relationship of the product to a technical data package element (see 3.5.27);
+    - Identification of drawings related to the product that require configuration control, exchange, or access;
+    - The data content requirements for parts lists, data lists, index lists, indentured data lists, and other associated lists that are associated to a drawing or a product data set (see 3.5 for definitions);
+    - The data content requirements for product data set that represent geometric product shape;
+    - Identification of files containing shape information and the positioning information needed to place components in an assembly;
+    - Identification of alternate geometric representations of the product definition data by different disciplines during the product life cycle;
+    - Identification of any group of technical data related to the product that needs configuration control exchange or access;
+    EXAMPLE 2 A finite element analysis (models, controls, and results) and testing reports are each a group of technical data.
+    - Identification of specifications and standards that define or describe the product or product unique processes;
+    - Identification of documentation that define or describe change activity to the product or product related documentation;
+    EXAMPLE 3 Change activity is documented in the form of Drawing Revision Notices, Engineering Change Notices, and Drawing Change Notices.
+    - The Identification of standard parts (see 3.5.26) for the purpose of their inclusion in a product's design;
+    - The visual presentation for human understanding of the associated list data and the product data set;
+    - The data requirements for configuration control exchange of Technical Data Packages;
+    NOTE 7 Identification of document version will be defined by this part of ISO 10303.
+    - The identification and relationship of Technical Data Package elements within a TDP exchange;
+    - The identification of file and file format for Technical Data Package elements;
+    NOTE 8 File and file format information may be defined by this part of ISO 10303, another part of ISO 10303, National Standards or through mutual agreement between the sending and receiving parties of the TDP elements.
+    - The identification of digital and non-digital media for specific technical data package elements.
+    EXAMPLE 4 Digital media could include floppy disk, diskette, compact disk, and 9-track tape.
+    EXAMPLE 5 Non-digital media could include paper, mylar, aperture card, and vellum.
+    The following are outside the scope of this part of ISO 10303:
+    - Data content requirements for technological data used in, or resulting from, the analysis or test of a design that is used as evidence for consideration of a change to a design;
+    NOTE 9 A product data set may contain analysis or test data in a format other than this part of ISO 10303.
+    - Data content requirements for technological data that results in changes to the design during the initial design evolution prior to release;
+    NOTE 10 Changes prior to release are considered informal change activity.
+    NOTE 11 ISO 10303-209 [4] defines requirements for informal change activity prior to engineering release.
+    - Data content requirements for business management data for a design project;
+    EXAMPLE 6 Business data could include schedule, cost, time standards, risk, and related management information.
+    - Data content requirements for alternate representations of the data by different disciplines outside of that required to define, manufacture, or procure the product;
+    - Data content requirements for definition of digital or non-digital media for a TDP exchange;
+    - Data content requirements for definition of procedures to record the digital TDP files to digital media.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '90'
+  substage:
+    value: '93'
+copyright:
+- owner:
+  - name:
+    - content: ISO
+  from: '2002'
+place:
+- Geneva
+fetched: '2024-01-17'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Industrial data
+    number: 184
+    type: TC
+    identifier: ISO/TC 184/SC 4
+ics:
+- code: 25.040.40
+  text: Industrial process measurement and control
+structuredidentifier:
+  project_number: ISO 10303
+  part: '232'
+  type: ISO
+ext:
+  schema-version: v1.0.0
