@@ -1,0 +1,222 @@
+---
+schema-version: v1.2.8
+id: ISO14819-1-2013
+title:
+- content: Intelligent transport systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Traffic and travel information messages via traffic message coding
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 1: Coding protocol for Radio Data System'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Intelligent transport systems - Traffic and travel information messages
+    via traffic message coding - Part 1: Coding protocol for Radio Data System'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Systèmes intelligents de transport
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Informations sur le trafic et le tourisme via le codage de messages sur
+    le trafic
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 1: Protocole de codage pour le système de radiodiffusion de données
+    (RDS)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Systèmes intelligents de transport - Informations sur le trafic et le
+    tourisme via le codage de messages sur le trafic - Partie 1: Protocole de codage
+    pour le système de radiodiffusion de données (RDS)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/59230.html
+  type: src
+- content: https://www.iso.org/contents/data/standard/05/92/59230.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO 14819-1:2013
+  type: ISO
+  primary: true
+- id: ISO 14819-1:2013(E)
+  type: iso-reference
+- id: urn:iso:std:iso:14819:-1:stage-95.99
+  type: URN
+docnumber: '14819'
+date:
+- type: published
+  value: 2013-12
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: 2013-12
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: ISO 14819-1:2013 describes the ALERT-C protocol concept and message structure
+    used to achieve densely coded messages to be carried in the RDS-TMC feature.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: "1.1  Généralités  \nLe protocole ALERT-C est conçu pour fournir la plupart
+    des messages d'information du conducteur orientés évènements. Il est prévu de
+    définir ultérieurement de nombreuses extensions de protocole, et de fait, quelques
+    informations de guidage routier orientées état ont été incluses.\nLa section présentation
+    du protocole ALERT-C spécifie les messages pouvant être présentés à l'utilisateur
+    conformément aux exigences générales fixées ci-dessus. Elle définit la structure
+    et le contenu des messages ainsi que leur présentation à l'utilisateur final.\nLes
+    messages RDS-TMC sont indépendants de la langue et peuvent être présentés dans
+    celle qui est choisie par l'utilisateur. Le protocole ALERT-C exploite une liste
+    d'événements normalisée (voir ISO 14819‑2) de messages avec leurs valeurs de code
+    qui inclue aussi les problèmes liés au trafic ou d'ordre météorologique.\nALERT-C
+    définit deux catégories d'informations contenues dans les messages: les éléments
+    de base et les éléments optionnels. En principe, les données de base sont présentes
+    dans tous les messages. Les informations optionnelles peuvent être ajoutées aux
+    messages en cas de nécessité.\nLes messages utilisateur RDS-TMC normalisés permettent
+    de délivrer les cinq éléments de base suivants, afin de disposer d'une information
+    radiodiffusée explicite:\n1)    Description de l'événement, donnant les détails
+    relatifs aux conditions météorologiques ou aux problèmes de trafic (par exemple:
+    embouteillage provoqué par un accident) ainsi que, le cas échéant, leur gravité
+    (par exemple: longueur du bouchon résultant).\n2)    Localisation, indiquant la
+    zone, la section de route ou le point où est située la source du problème.\n3)
+    \   Direction et étendue, identifiant les zones adjacentes, portions ou points
+    particuliers également touchés par l'incident, ainsi que, le cas échéant, le sens
+    du trafic affecté.\n4)    Durée, donnant une indication de la durée prévue du
+    problème.\n5)    Conseil de déviation, indiquant s'il est ou non conseillé aux
+    utilisateurs finaux de rechercher et d'emprunter un itinéraire alternatif.\nDes
+    informations optionnelles peuvent être ajoutées à n'importe quel message, au moyen
+    d'un ou plusieurs groupes de données RDS complémentaires. Cet ajout optionnel
+    permet l'obtention d'un plus grand nombre de détails ou le traitement de situations
+    inhabituelles. En principe, il est possible d'ajouter un nombre indéfini de champs
+    complémentaires au message de base, à l'unique réserve que la longueur du message
+    ne dépasse pas cinq groupes RDS.\nLa section gestion de messages traite des fonctions
+    de gestion des messages du RDS-TMC. Le protocole ALERT-C opère une distinction
+    entre des messages utilisateur et des messages système. Les messages utilisateur
+    sont ceux qui sont potentiellement portés à la connaissance de l'utilisateur final,
+    comme défini à la section présentation. Les messages système ne sont utiles qu'au
+    terminal RDS-TMC, pour les besoins de la gestion de messages.\nLa couche transmission
+    opère la diffusion des messages par voie hertzienne. Le protocole ALERT-C, utilisé
+    en RDS-TMC, reprend l'approche fondamentale d'un travail précédent, dont le but
+    était de coder la plupart des messages avec un seul groupe RDS.\nL'information
+    RDS-TMC comprend à la fois des messages système et des messages utilisateur. L'information
+    système se rapporte au service TMC en particulier, et détaille les paramètres
+    dont le terminal a besoin pour trouver, identifier et décoder l'information TMC.
+    L'information système est transmise dans les groupes de type 3A et certains groupes
+    de type 8A.\nLes messages utilisateur contiennent les détails des évènements liés
+    au trafic; ils peuvent utiliser un ou plusieurs groupes de type 8A. La plupart
+    des messages peuvent être émis en utilisant un groupe 8A unique, cependant des
+    messages avec plus de détails d'information (par exemple un conseil de déviation)
+    peuvent utiliser jusqu'à 5 groupes de type 8A.\nLa «liste d'événements» utilisée
+    par ALERT-C contient la description de tous les événements. Elle est décrite dans
+    l'EN ISO 14819‑2."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '95'
+  substage:
+    value: '99'
+copyright:
+- owner:
+  - name:
+    - content: ISO
+  from: '2013'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO14819-1-2003
+    type: standard
+    docid:
+    - id: ISO 14819-1:2003
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO 14819-1:2003
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO14819-1-2021
+    type: standard
+    docid:
+    - id: ISO 14819-1:2021
+      type: ISO
+      primary: true
+    date:
+    - type: circulated
+      value: '2021-03-05'
+    formattedref:
+      content: ISO 14819-1:2021
+      format: text/plain
+place:
+- Geneva
+fetched: '2024-01-18'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Intelligent transport systems
+    number: 204
+    type: TC
+    identifier: ISO/TC 204
+ics:
+- code: 03.220.20
+  text: Road transport
+- code: 35.240.60
+  text: IT applications in transport
+structuredidentifier:
+  project_number: ISO 14819
+  part: '1'
+  type: ISO
+ext:
+  schema-version: v1.0.0
