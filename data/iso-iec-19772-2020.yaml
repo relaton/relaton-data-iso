@@ -1,0 +1,194 @@
+---
+schema-version: v1.2.8
+id: ISO/IEC19772-2020
+title:
+- content: Information security
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Authenticated encryption
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Information security - Authenticated encryption
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Sécurité de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Chiffrement authentifié
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Sécurité de l'information - Chiffrement authentifié
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/81550.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:81550:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/08/15/81550.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO/IEC 19772:2020
+  type: ISO
+  primary: true
+- id: ISO/IEC 19772:2020(E)
+  type: iso-reference
+- id: urn:iso:std:iso-iec:19772:stage-60.60
+  type: URN
+docnumber: '19772'
+date:
+- type: published
+  value: 2020-11
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '2'
+revdate: 2020-11
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "This document specifies five methods for authenticated encryption, i.e.
+    defined ways of processing a data string with the following security objectives:\n—
+    \    data confidentiality, i.e. protection against unauthorized disclosure of
+    data;\n—     data integrity, i.e. protection that enables the recipient of data
+    to verify that it has not been modified;\n—     data origin authentication, i.e.
+    protection that enables the recipient of data to verify the identity of the data
+    originator.\nAll five methods specified in this document are based on a block
+    cipher algorithm, and require the originator and the recipient of the protected
+    data to share a secret key for this block cipher. \nKey management is outside
+    the scope of this document. Key management techniques are defined in ISO/IEC 11770
+    (all parts).\nFour of the mechanisms in this document, namely mechanisms 3, 4,
+    5 (AAD variant only) and 6, allow data to be authenticated which is not encrypted.
+    That is, these mechanisms allow a data string that is to be protected to be divided
+    into two parts, D, the data string that is to be encrypted and integrity-protected,
+    and A (the additional authenticated data) that is integrity-protected but not
+    encrypted. In all cases, the string A can be empty.\nNOTE     Examples of types
+    of data that can need to be sent in unencrypted form, but whose integrity is to
+    be protected, include addresses, port numbers, sequence numbers, protocol version
+    numbers and other network protocol fields that indicate how the plaintext is to
+    be handled, forwarded or processed."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: "This document specifies five methods for authenticated encryption, i.e.
+    defined ways of processing a data string with the following security objectives:\n—
+    \    data confidentiality, i.e. protection against unauthorized disclosure of
+    data;\n—     data integrity, i.e. protection that enables the recipient of data
+    to verify that it has not been modified;\n—     data origin authentication, i.e.
+    protection that enables the recipient of data to verify the identity of the data
+    originator.\nAll five methods specified in this document are based on a block
+    cipher algorithm, and require the originator and the recipient of the protected
+    data to share a secret key for this block cipher. \nKey management is outside
+    the scope of this document. Key management techniques are defined in ISO/IEC 11770
+    (all parts).\nFour of the mechanisms in this document, namely mechanisms 3, 4,
+    5 (AAD variant only) and 6, allow data to be authenticated which is not encrypted.
+    That is, these mechanisms allow a data string that is to be protected to be divided
+    into two parts, D, the data string that is to be encrypted and integrity-protected,
+    and A (the additional authenticated data) that is integrity-protected but not
+    encrypted. In all cases, the string A can be empty.\nNOTE     Examples of types
+    of data that can need to be sent in unencrypted form, but whose integrity is to
+    be protected, include addresses, port numbers, sequence numbers, protocol version
+    numbers and other network protocol fields that indicate how the plaintext is to
+    be handled, forwarded or processed."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '60'
+  substage:
+    value: '60'
+copyright:
+- owner:
+  - name:
+    - content: ISO/IEC
+  from: '2020'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC19772-2009
+    type: standard
+    docid:
+    - id: ISO/IEC 19772:2009
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/IEC 19772:2009
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/IEC19772-2009/Cor1-2014
+    type: standard
+    docid:
+    - id: ISO/IEC 19772:2009/Cor 1:2014
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/IEC 19772:2009/Cor 1:2014
+      format: text/plain
+place:
+- Geneva
+fetched: '2024-01-19'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Information security, cybersecurity and privacy protection
+    number: 1
+    type: IEC
+    identifier: ISO/IEC JTC 1/SC 27
+ics:
+- code: '35.030'
+  text: IT Security
+structuredidentifier:
+  project_number: ISO 19772
+  type: ISO
+ext:
+  schema-version: v1.0.0

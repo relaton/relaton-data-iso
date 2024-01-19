@@ -1,0 +1,176 @@
+---
+schema-version: v1.2.8
+id: ISO/IEC9314-8-1998
+title:
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Fibre Distributed Data Interface (FDDI)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 8: Media Access Control-2 (MAC-2)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Information technology - Fibre Distributed Data Interface (FDDI) - Part
+    8: Media Access Control-2 (MAC-2)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Interface de données distribuées sur fibre (FDDI)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 8: Contrôle d''accès du milieu 2 (MAC-2)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Technologies de l''information - Interface de données distribuées sur
+    fibre (FDDI) - Partie 8: Contrôle d''accès du milieu 2 (MAC-2)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/3345.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:3345:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/00/33/3345.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO/IEC 9314-8:1998
+  type: ISO
+  primary: true
+- id: ISO/IEC 9314-8:1998(E)
+  type: iso-reference
+- id: urn:iso:std:iso-iec:9314:-8:stage-90.93
+  type: URN
+docnumber: '9314'
+date:
+- type: published
+  value: 1998-10
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: 1998-10
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    This part of ISO/IEC 9314 specifies the Media Access Control (MAC), the middle sublayer of the Data Link Layer (DLL), for Fibre Distributed Data Interface (FDDI).FDDI (ISO/IEC 9314) provides a high-bandwidth (100 Mbit/s), general-purpose interconnection among information processing systems, subsystems and peripheral equipment, using fibre optics or other transmission media. FDDI can be configured to support a sustained data transfer rate of at least 80 Mbit/s (10 Mbyte/s). FDDI provides connectivity for many nodes distributed over distances of many kilometres in extent. Certain default parameter values for FDDI (e.g. timer settings) are calculated on the basis of up to 1 000 transmission links or up to 200 km total fibre path length (typically corresponding to 500 nodes and 100 km of dual fibre cable, respectively); however, the FDDI protocols can support much larger networks by increasing these parameter values.
+    As shown in figure 1, ISO/IEC 9314 consists of
+    a) A Physical Layer (PL), which is divided into two sublayers:
+    1) A Physical Medium Dependent (PMD), which provides the digital baseband pointto-point communication between nodes in the FDDI network. The PMD provides all services necessary to transport a suitably coded digital bit stream from node to node. The PMD defines and characterizes the fibre-optic drivers and receivers, medium-dependent code requirements, cables, connectors, power budgets, optical bypass provisions, and physical-hardware-related characteristics. It specifies the point of interconnectability for conforming FDDI attachments. The initial PMD standard, ISO/IEC 9314-3, defines attachment to multi-mode fibre. Additional PMD sublayer standards are being developed for attachment to single-mode fibreand SONET.
+    2) A Physical Layer Protocol (PHY), which provides connection between the PMD and the Data Link Layer. PHY establishes clock synchronization with the upstream code-bit data stream and decodes this incoming code-bit stream into an equivalent symbol stream for use by the higher layers. PHY provides encoding and decoding between data and control indicator symbols and code bits, medium conditioning and initializing, the synchronization of incoming and outgoing code-bit clocks, and the delineation of octet boundaries as required for the transmission of informationto or from higher layers. Information to be transmitted on the medium is encoded by the PHY using a group transmission code.
+    b) A Data Link Layer (DLL), which is divided into two or more sublayers:
+    1) An optional Hybrid Ring Control (HRC), which provides multiplexing of packet and circuit switched data on the shared FDDI medium. HRC comprises two internal components, a Hybrid Multiplexer (H-MUX) and an isochronous MAC (I-MAC). H-MUX maintains a synchronous 125 µs cycle structure and multiplexes the packet and circuit switched data streams, and I-MAC provides access to circuit switched channels.
+    2) A Media Access Control (MAC), which provides fair and deterministic access to the medium, address recognition, and generation and verification of frame check sequences. Its primary function is the delivery of packet data, including frame generation, repetition, and removal. The definition of MAC is contained in this part of ISO/IEC 9314.
+    3) An optional Logical Link Control (LLC), which provides a common protocol for any required packet data adaptation services between MAC and the Network Layer. LLC is not specified by FDDI.
+    4) An optional Circuit Switching Multiplexer (CS-MUX), which provides a common protocol for any required circuit data adaptation services between I-MAC and the Network Layer. CS-MUX is not specified by FDDI.
+    c) A Station Management (SMT), which provides the control necessary at the node level to manage the processes under way in the various FDDI layers such that a node may work cooperatively on a ring. SMT provides services such as control of configuration management, fault isolation and recovery, and scheduling policies.
+    The MAC definition contained herein is designed to be as independent as possible from both the physical medium and the speed of operation. Concepts employed in ISO/IEC 8802-5, dealing with Token Ring MAC operation have been modified to accommodate the higher FDDI speeds, while retaining a similar set of services and facilities.
+    ISO/IEC 9314 specifies the interfaces, functions, and operations necessary to ensure interoperability between conforming FDDI implementations. This part of ISO/IEC 9314 provides a functional description. Conforming implementations may employ any design technique that does not violate interoperability. Implementations that conform to this part of ISO/IEC 9314 shall also be interoperable with implementations that conform to ISO 9314-2 if the additional capability of hybrid mode operation (as defined in this document) is not being used. Implementers are encouraged to consult ISO 9314-2 in addition to this part of ISO/IEC 9314.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    This part of ISO/IEC 9314 specifies the Media Access Control (MAC), the middle sublayer of the Data Link Layer (DLL), for Fibre Distributed Data Interface (FDDI).FDDI (ISO/IEC 9314) provides a high-bandwidth (100 Mbit/s), general-purpose interconnection among information processing systems, subsystems and peripheral equipment, using fibre optics or other transmission media. FDDI can be configured to support a sustained data transfer rate of at least 80 Mbit/s (10 Mbyte/s). FDDI provides connectivity for many nodes distributed over distances of many kilometres in extent. Certain default parameter values for FDDI (e.g. timer settings) are calculated on the basis of up to 1 000 transmission links or up to 200 km total fibre path length (typically corresponding to 500 nodes and 100 km of dual fibre cable, respectively); however, the FDDI protocols can support much larger networks by increasing these parameter values.
+    As shown in figure 1, ISO/IEC 9314 consists of
+    a) A Physical Layer (PL), which is divided into two sublayers:
+    1) A Physical Medium Dependent (PMD), which provides the digital baseband pointto-point communication between nodes in the FDDI network. The PMD provides all services necessary to transport a suitably coded digital bit stream from node to node. The PMD defines and characterizes the fibre-optic drivers and receivers, medium-dependent code requirements, cables, connectors, power budgets, optical bypass provisions, and physical-hardware-related characteristics. It specifies the point of interconnectability for conforming FDDI attachments. The initial PMD standard, ISO/IEC 9314-3, defines attachment to multi-mode fibre. Additional PMD sublayer standards are being developed for attachment to single-mode fibreand SONET.
+    2) A Physical Layer Protocol (PHY), which provides connection between the PMD and the Data Link Layer. PHY establishes clock synchronization with the upstream code-bit data stream and decodes this incoming code-bit stream into an equivalent symbol stream for use by the higher layers. PHY provides encoding and decoding between data and control indicator symbols and code bits, medium conditioning and initializing, the synchronization of incoming and outgoing code-bit clocks, and the delineation of octet boundaries as required for the transmission of informationto or from higher layers. Information to be transmitted on the medium is encoded by the PHY using a group transmission code.
+    b) A Data Link Layer (DLL), which is divided into two or more sublayers:
+    1) An optional Hybrid Ring Control (HRC), which provides multiplexing of packet and circuit switched data on the shared FDDI medium. HRC comprises two internal components, a Hybrid Multiplexer (H-MUX) and an isochronous MAC (I-MAC). H-MUX maintains a synchronous 125 µs cycle structure and multiplexes the packet and circuit switched data streams, and I-MAC provides access to circuit switched channels.
+    2) A Media Access Control (MAC), which provides fair and deterministic access to the medium, address recognition, and generation and verification of frame check sequences. Its primary function is the delivery of packet data, including frame generation, repetition, and removal. The definition of MAC is contained in this part of ISO/IEC 9314.
+    3) An optional Logical Link Control (LLC), which provides a common protocol for any required packet data adaptation services between MAC and the Network Layer. LLC is not specified by FDDI.
+    4) An optional Circuit Switching Multiplexer (CS-MUX), which provides a common protocol for any required circuit data adaptation services between I-MAC and the Network Layer. CS-MUX is not specified by FDDI.
+    c) A Station Management (SMT), which provides the control necessary at the node level to manage the processes under way in the various FDDI layers such that a node may work cooperatively on a ring. SMT provides services such as control of configuration management, fault isolation and recovery, and scheduling policies.
+    The MAC definition contained herein is designed to be as independent as possible from both the physical medium and the speed of operation. Concepts employed in ISO/IEC 8802-5, dealing with Token Ring MAC operation have been modified to accommodate the higher FDDI speeds, while retaining a similar set of services and facilities.
+    ISO/IEC 9314 specifies the interfaces, functions, and operations necessary to ensure interoperability between conforming FDDI implementations. This part of ISO/IEC 9314 provides a functional description. Conforming implementations may employ any design technique that does not violate interoperability. Implementations that conform to this part of ISO/IEC 9314 shall also be interoperable with implementations that conform to ISO 9314-2 if the additional capability of hybrid mode operation (as defined in this document) is not being used. Implementers are encouraged to consult ISO 9314-2 in addition to this part of ISO/IEC 9314.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '90'
+  substage:
+    value: '93'
+copyright:
+- owner:
+  - name:
+    - content: ISO/IEC
+  from: '1998'
+place:
+- Geneva
+fetched: '2024-01-19'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Interconnection of information technology equipment
+    number: 1
+    type: IEC
+    identifier: ISO/IEC JTC 1/SC 25
+ics:
+- code: '35.200'
+  text: Interface and interconnection equipment
+structuredidentifier:
+  project_number: ISO 9314
+  part: '8'
+  type: ISO
+ext:
+  schema-version: v1.0.0

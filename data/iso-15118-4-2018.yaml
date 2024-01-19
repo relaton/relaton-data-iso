@@ -1,0 +1,191 @@
+---
+schema-version: v1.2.8
+id: ISO15118-4-2018
+title:
+- content: Road vehicles
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Vehicle to grid communication interface
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 4: Network and application protocol conformance test'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Road vehicles - Vehicle to grid communication interface - Part 4: Network
+    and application protocol conformance test'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Véhicules routiers
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Interface de communication entre véhicule et réseau électrique
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 4: Essai de conformité du protocole d''application et du réseau'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Véhicules routiers - Interface de communication entre véhicule et réseau
+    électrique - Partie 4: Essai de conformité du protocole d''application et du réseau'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/61724.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:61724:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/06/17/61724.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO 15118-4:2018
+  type: ISO
+  primary: true
+- id: ISO 15118-4:2018(E)
+  type: iso-reference
+- id: urn:iso:std:iso:15118:-4:stage-90.92
+  type: URN
+docnumber: '15118'
+date:
+- type: published
+  value: 2018-02
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: 2018-02
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    ISO 15118-4:2018 specifies conformance tests in the form of an Abstract Test Suite (ATS) for a System Under Test (SUT) implementing an EVCC or SECC according to ISO 15118-2. These conformance tests specify the testing of capabilities and behaviors of an SUT as well as checking what is observed against the conformance requirements specified in ISO 15118-2 and against what the supplier states the SUT implementation's capabilities are.
+    The capability tests within the ATS check that the observable capabilities of the SUT are in accordance with the static conformance requirements defined in ISO 15118-2. The behavior tests of the ATS examine an implementation as thoroughly as is practical over the full range of dynamic conformance requirements defined in ISO 15118-2 and within the capabilities of the SUT (see NOTE).
+    A test architecture is described in correspondence to the ATS. The conformance test cases in this document are described leveraging this test architecture and are specified in TTCN-3 Core Language for ISO/OSI Network Layer (Layer 3) and above. The conformance test cases for the Data Link Layer (Layer 2) and Physical Layer (Layer 1) are described in ISO 15118-5. Test cases with overlapping scopes are explicitly detailed.
+    This document does not include specific tests of other standards referenced within ISO 15118-2, e.g. IETF RFCs. Furthermore, the conformance tests specified in this document do not include the assessment of performance nor robustness or reliability of an implementation. They cannot provide judgments on the physical realization of abstract service primitives, how a system is implemented, how it provides any requested service, nor the environment of the protocol implementation. Furthermore, the test cases defined in this document only consider the communication protocol defined ISO 15118-2. Power flow between the EVSE and the EV is not considered.
+    NOTE 1    Practical limitations make it impossible to define an exhaustive test suite, and economic considerations can restrict testing even further. Hence, the purpose of this document is to increase the probability that different implementations are able to interwork. This is achieved by verifying them by means of a protocol test suite, thereby increasing the confidence that each implementation conforms to the protocol specification. However, the specified protocol test suite cannot guarantee conformance to the specification since it detects errors rather than their absence. Thus conformance to a test suite alone cannot guarantee interworking. What it does do is give confidence that an implementation has the required capabilities and that its behavior conforms consistently in representative instances of communication.
+    NOTE 2    This document has some interdependencies to the conformance tests defined in ISO 15118-5 which result from ISO/OSI cross layer dependencies in the underlying protocol specification (e.g. for sleep mode)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    Le présent document spécifie des tests de conformité sous la forme d'une suite de tests abstraits (ATS) pour un système à tester (SUT) implémentant un EVCC ou un SECC conformément à la norme ISO 15118-2. Ces tests de conformité spécifient le contrôle des capacités et des comportements d'un SUT ainsi que la vérification de ce qui est observé en comparaison des exigences de conformité spécifiées dans la norme ISO 15118-2 et en comparaison des capacités de l'implémentation du SUT formulées par le fournisseur.
+    Les tests de capacités compris dans l'ATS vérifient que les capacités observables du SUT sont conformes aux exigences de conformité statiques définies dans la norme ISO 15118-2. Les tests de comportement de l'ATS examinent une implémentation de la manière la plus approfondie possible sur l'ensemble de l'éventail des exigences de conformité dynamiques définies dans la norme ISO 15118-2 et dans les limites des capacités du SUT (voir NOTE).
+    Une architecture de test est décrite en rapport avec l'ATS. Dans le présent document, les cas de test de conformité sont décrits en s'appuyant sur cette architecture de test et sont spécifiés en langage noyau TTCN-3 pour la couche réseau (Couche 3) ISO/OSI et supérieures. Les cas de test de conformité pour la couche liaison de données (Couche 2) et la couche physique (Couche 1) sont décrits dans la norme ISO 15118-5. Des cas de test dont les domaines d'application se recoupent sont détaillés de manière explicite.
+    Le présent document n'inclut pas les tests spécifiques d'autres normes données en référence dans la norme ISO 15118-2, par ex., les RFC de l'IETF. En outre, les tests de conformité spécifiés dans le présent document n'incluent pas l'évaluation du rendement, de la robustesse ou encore de la fiabilité d'une implémentation. Ils ne peuvent servir à la formulation de jugements sur la réalisation physique de primitives de service abstraites, sur la manière dont un système est implémenté, sur la manière dont il fournit un quelconque service requis, ou sur l'environnement de l'implémentation du protocole. En outre, les cas de test définis dans le présent document prennent uniquement en considération le protocole de communication défini dans la norme ISO 15118-2. Le flux d'énergie entre l'EVSE et l'EV n'est pas pris en compte.
+    NOTE 1    Les limitations pratiques empêchent la définition d'une suite de tests exhaustive, et des considérations économiques peuvent restreindre le test encore davantage. Par conséquent, le présent document a pour but d'accroître la probabilité d'interopérabilité de différentes implémentations. Cela est réalisé en les vérifiant au moyen d'une suite de tests de protocole qui permet ainsi d'augmenter la certitude selon laquelle chaque implémentation est conforme à la spécification du protocole. Cependant, la suite de tests de protocole spécifiée ne peut garantir une conformité à la spécification étant donné qu'elle détecte les erreurs plutôt que leur absence. Par conséquent, la conformité d'une suite de tests ne peut garantir à elle seule une interopérabilité. En revanche, cela apporte la garantie qu'une implémentation présente les capacités requises et que son comportement est systématiquement conforme dans des instances représentatives de communication.
+    NOTE 2    Le présent document présente certaines interdépendances avec les tests de conformité définis dans la norme ISO 15118-5 qui découlent de dépendances inter-couches ISO/OSI dans la spécification du protocole sous-jacent (par ex., pour un mode veille)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '90'
+  substage:
+    value: '92'
+copyright:
+- owner:
+  - name:
+    - content: ISO
+  from: '2018'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO/AWI15118-4
+    type: standard
+    docid:
+    - id: ISO/AWI 15118-4
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/AWI 15118-4
+      format: text/plain
+- type: obsoletes
+  bibitem:
+    id: ISO/DIS15118-4
+    type: standard
+    docid:
+    - id: ISO/DIS 15118-4
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/DIS 15118-4
+      format: text/plain
+- type: updates
+  bibitem:
+    id: ISO15118-4-2018/DAmd1
+    type: standard
+    docid:
+    - id: ISO 15118-4:2018/DAmd 1
+      type: ISO
+      primary: true
+    date:
+    - type: circulated
+      value: '2023-12-21'
+    formattedref:
+      content: ISO 15118-4:2018/DAmd 1
+      format: text/plain
+place:
+- Geneva
+fetched: '2024-01-19'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Data communication
+    number: 22
+    type: TC
+    identifier: ISO/TC 22/SC 31
+ics:
+- code: '43.120'
+  text: Electric road vehicles
+structuredidentifier:
+  project_number: ISO 15118
+  part: '4'
+  type: ISO
+ext:
+  schema-version: v1.0.0

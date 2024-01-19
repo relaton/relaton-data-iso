@@ -1,0 +1,228 @@
+---
+schema-version: v1.2.8
+id: ISO/IEC14752-2000
+title:
+- content: Information technology
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Open Distributed Processing
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Protocol support for computational interactions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Information technology - Open Distributed Processing - Protocol support
+    for computational interactions
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Technologies de l'information
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Traitement réparti ouvert
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: Prise en charge des protocoles pour les interactions informatiques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: Technologies de l'information - Traitement réparti ouvert - Prise en charge
+    des protocoles pour les interactions informatiques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/25488.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:25488:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/02/54/25488.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO/IEC 14752:2000
+  type: ISO
+  primary: true
+- id: ISO/IEC 14752:2000(E)
+  type: iso-reference
+- id: urn:iso:std:iso-iec:14752:stage-90.20
+  type: URN
+docnumber: '14752'
+date:
+- type: published
+  value: 2000-04
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+    url: www.iec.ch
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: 2000-04
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    This Recommendation | International Standard is based on the framework of abstractions and concepts developed in the
+    Reference Model for Open Distributed Processing (ITU-T Rec. X.902 | ISO/IEC 10746-2 and ITU-T Rec. X.903 |
+    ISO/IEC 10746-3).
+    This Recommendation | International Standard defines how interactions between computational objects in a
+    computational specification of a system relate to protocol support for those interactions in an engineering specification of
+    that system. In particular it:
+    ? defines a General Interworking Framework (GIF);
+    ? within the GIF, defines a set of facilities each comprising a set of functionally-related service primitives as
+    abstract definitions of the interactions of basic engineering objects and channel objects;
+    ? defines the parameters of the service primitives of the GIF;
+    ? defines the permitted sequence of the service primitives by means of state tables;
+    ? specifies, in annexes, the mapping of the GIF service primitives and their parameters to the messages and
+    fields of particular protocols.
+    As specified in this Recommendation | International Standard, the GIF defines protocol support for a pragmatic subset of
+    the possible computational interactions defined in ITU-T Rec. X.903 | ISO/IEC 10746-3. It is also restricted in the
+    features of the protocol support and the supported transparencies.
+    The GIF, as specified here, defines:
+    ? support for computational operations, but not for streams;
+    ? support using stub, binder and protocol objects hierarchically, such that any interaction at the interworking
+    reference point of the supporting protocol object supports liaisons of one of those objects or of the basic
+    engineering object, and any interaction to support those liaisons is passed via that interworking reference
+    point; and
+    ? interactions at a single interworking reference point, from the perspective of one side; interceptors are not
+    explicitly considered;
+    NOTE 1 ? It is intended that the GIF could be extended, in a future amendment, to support streams and flows. The present
+    specification is restricted to areas that are technically stable.
+    The GIF supports at least some forms of:
+    ? access transparency; and
+    ? location transparency.
+    The GIF as specified here also supports a limited equivalent of relocation transparency. Other transparencies are not
+    addressed in this present specification.
+    NOTE 2 ? It is intended that the GIF could be extended, in future amendments, to support additional transparencies.
+    The GIF does not explicitly model Quality of Service requirements.
+    The application of security-related issues to the GIF are not included in the current text and are for further study.
+    The set of mappings to particular protocols specified in annexes to this Recommendation | International Standard is not
+    exhaustive. The GIF could be mapped to other protocols.
+    NOTE 3 ? In particular, a mapping to the DCOM protocol family would be a candidate for an additional annex.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    La présente Recommandation | Norme internationale est fondée sur le cadre d'abstractions et de concepts élaborés dans le
+    modèle de référence pour le traitement réparti ouvert (Rec. UIT-T X.902 | ISO/CEI 10746-2 et Rec. UIT-T X.903 |
+    ISO/CEI 10746-3).
+    La présente Recommandation | Norme internationale définit la manière dont les interactions entre objets de traitement,
+    contenues dans une spécification de traitement de système, s'associent au protocole support pour les interactions
+    contenues dans une spécification d'ingénierie de ce système. Plus précisément:
+    ? elle définit un cadre d'interfonctionnement général (GIF);
+    ? elle définit, à l'intérieur de ce cadre, un ensemble de capacités composées chacune d'un ensemble de
+    primitives de service en relation fonctionnelle sous forme de définitions abstraites des interactions entre
+    objets d'ingénierie de base et objets de canal;
+    ? elle définit les paramètres des primitives de service du cadre GIF;
+    ? elle définit au moyen de tables d'états la séquence des primitives de service admise;
+    ? elle spécifie, dans ses annexes, le mappage des primitives de service du cadre GIF, ainsi que de leurs
+    paramètres, dans les messages et dans les champs de protocoles particuliers.
+    Comme spécifié dans la présente Recommandation | Norme internationale, le cadre GIF définit le support protocolaire
+    pour un sous-ensemble pragmatique des interactions de traitement possibles selon les définitions figurant dans la
+    Rec. UIT-T X.903 | ISO/CEI 10746-3. Son domaine est également limité aux caractéristiques du protocole support et aux
+    transparences prises en charge.
+    Le cadre GIF, tel que spécifié ici, définit:
+    ? la prise en charge des opérations de traitement informatique mais non celle des flux composites;
+    ? le support hiérarchique au moyen d'objets talon, de lien et de protocole, de façon que toute interaction, au
+    point de référence d'interfonctionnement de l'objet de protocole support, prenne en charge les liaisons de
+    l'un de ces objets ou de l'objet d'ingénierie de base, et de façon que toute interaction prenant en charge ces
+    liaisons soit transmise par ce point de référence d'interfonctionnement;
+    ? les interactions intervenant à un unique point de référence d'interfonctionnement, tel que vu de l'une des
+    extrémités; les intercepteurs ne sont pas explicitement pris en compte.
+    NOTE 1 ? Une possibilité d'extension du cadre GIF est prévue, dans un futur amendement, afin de prendre en charge les flux
+    composites et individuels. La présente Spécification est limitée aux domaines qui sont techniquement stables.
+    Le cadre GIF prend en charge au moins certaines formes:
+    ? de transparence d'accès;
+    ? de transparence de localisation.
+    Le cadre GIF qui est spécifié ci-après prend également en charge un équivalent limité de la transparence de
+    relocalisation. Les autres transparences ne sont pas traitées dans la présente Spécification.
+    NOTE 2 ? Une possibilité d'extension du cadre GIF est prévue dans de futurs amendements afin de prendre en charge des
+    transparences supplémentaires.
+    Le cadre GIF ne modélise pas explicitement les besoins en matière de qualité de service.
+    L'application des questions de sécurité au cadre GIF n'est pas incluse dans le texte présent et appelle un complément
+    d'étude.
+    L'ensemble des mappages avec des protocoles particuliers spécifiés dans les annexes de la présente Recommandation |
+    Norme internationale n'est pas exhaustif. Le cadre GIF pourrait être mappé avec d'autres protocoles.
+    NOTE 3 ? En particulier, le mappage avec la famille de protocoles DCOM serait possible et pourrait être décrit dans une nouvelle
+    annexe.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '90'
+  substage:
+    value: '20'
+copyright:
+- owner:
+  - name:
+    - content: ISO/IEC
+  from: '2000'
+place:
+- Geneva
+fetched: '2024-01-19'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Software and systems engineering
+    number: 1
+    type: IEC
+    identifier: ISO/IEC JTC 1/SC 7
+ics:
+- code: '35.080'
+  text: Software
+structuredidentifier:
+  project_number: ISO 14752
+  type: ISO
+ext:
+  schema-version: v1.0.0
