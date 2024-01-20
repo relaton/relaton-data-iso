@@ -1,0 +1,255 @@
+---
+schema-version: v1.2.8
+id: ISO24627-3-2021
+title:
+- content: Language resource management
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Comprehensive Annotation Framework (ComAF)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 3: Diagrammatic semantic authoring (DSA)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Language resource management - Comprehensive Annotation Framework (ComAF)
+    - Part 3: Diagrammatic semantic authoring (DSA)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Gestion des ressources linguistiques
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Cadre global d’annotation (ComAF)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 3: Création sémantique diagrammatique (DSA)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Gestion des ressources linguistiques - Cadre global d’annotation (ComAF)
+    - Partie 3: Création sémantique diagrammatique (DSA)'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/74582.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:74582:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/07/45/74582.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO 24627-3:2021
+  type: ISO
+  primary: true
+- id: ISO 24627-3:2021(E)
+  type: iso-reference
+- id: urn:iso:std:iso:24627:-3:stage-60.60
+  type: URN
+docnumber: '24627'
+date:
+- type: published
+  value: 2021-02
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '1'
+revdate: 2021-02
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: This document specifies how to represent (not visualize) documents (instance
+    data, not data schemas) as graphs. It does not specify how to visualize or operate
+    on document data, but it aims at making documents easier for people to compose
+    and comprehend by allowing for various graph-based flexible user interfaces, possibly
+    incorporating document-visualization practices (see Introduction). In this connection,
+    this document does not specify annotations to existing documents either, but rather
+    it specifies a schema of documents with explicit logical structures.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    ISO/TC 37/SC 4
+    Date:  2021-02
+    ISO 24627-3:2021(F)
+    ISO/TC 37/SC 4/GT 5
+    Secrétariat:   KATS
+    Gestion des ressources linguistiques — Cadre global d'annotation (ComAF) — Partie 3: Création sémantique diagrammatique (DSA)
+    Language Resource management — Comprehensive annotation framework (ComAF) — Part 3: Diagrammatic semantic authoring (DSA)
+    DOCUMENT PROTÉGÉ PAR COPYRIGHT
+    Droits de reproduction réservés. Sauf indication contraire, aucune partie de cette publication ne peut être reproduite ni utilisée sous quelque forme que ce soit et par aucun procédé, électronique ou mécanique, y compris la photocopie, l'affichage sur l'internet ou sur un Intranet, sans autorisation écrite préalable. Les demandes d'autorisation peuvent être adressées à l'ISO à l'adresse ci-après ou au comité membre de l'ISO dans le pays du demandeur.
+    ISO copyright office
+    Ch. de Blandonnet 8 ? CP 401
+    CH-1214 Vernier, Geneva, Switzerland
+    Tel.  + 41 22 749 01 11
+    Fax  + 41 22 749 09 47
+    copyright@iso.org
+    www.iso.org
+    Sommaire                                                                                                       Page
+    Avant-propos........................................................................................................................................ 4
+    Introduction.......................................................................................................................................... 5
+    1          Domaine d'application........................................................................................................... 1
+    2          Références normatives........................................................................................................... 1
+    3          Termes et définitions............................................................................................................... 1
+    4          Spécification............................................................................................................................. 2
+    Annexe A (informative)  Exemples...................................................................................................... 4
+    Bibliographie...................................................................................................................................... 10
+    Avant-propos
+    L'ISO (Organisation internationale de normalisation) est une fédération mondiale d'organismes nationaux de normalisation (comités membres de l'ISO). L'élaboration des Normes internationales est en général confiée aux comités techniques de l'ISO. Chaque comité membre intéressé par une étude a le droit de faire partie du comité technique créé à cet effet. Les organisations internationales, gouvernementales et non gouvernementales, en liaison avec l'ISO participent également aux travaux. L'ISO collabore étroitement avec la Commission électrotechnique internationale (IEC) en ce qui concerne la normalisation électrotechnique.
+    Les procédures utilisées pour élaborer le présent document et celles destinées à sa mise à jour sont décrites dans les Directives ISO/IEC, Partie 1. Il convient, en particulier, de prendre note des différents critères d'approbation requis pour les différents types de documents ISO. Le présent document a été rédigé conformément aux règles de rédaction données dans les Directives ISO/IEC, Partie 2 (voir www.iso.org/directives).
+    L'attention est attirée sur le fait que certains des éléments du présent document peuvent faire l'objet de droits de propriété intellectuelle ou de droits analogues. L'ISO ne saurait être tenue pour responsable de ne pas avoir identifié de tels droits de propriété et averti de leur existence. Les détails concernant les références aux droits de propriété intellectuelle ou autres droits analogues identifiés lors de l'élaboration du document sont indiqués dans l'Introduction et/ou dans la liste des déclarations de brevets reçues par l'ISO (voir www.iso.org/brevets).
+    Les appellations commerciales éventuellement mentionnées dans le présent document sont données pour information, par souci de commodité, à l'intention des utilisateurs et ne sauraient constituer un engagement.
+    Pour une explication de la nature volontaire des normes, la signification des termes et expressions spécifiques de l'ISO liés à l'évaluation de la conformité, ou pour toute information au sujet de l'adhésion de l'ISO aux principes de l'Organisation mondiale du commerce (OMC) concernant les obstacles techniques au commerce (OTC), voir le lien suivant : www.iso.org/iso/fr/avant-propos.html.
+    Le présent document a été élaboré par le comité technique ISO/TC 37, Langage et terminologie, sous-comité SC 4, Gestion des ressources linguistiques.
+    Une liste de toutes les parties de la série ISO 24627 se trouve sur le site web de l'ISO.
+    Il convient que l'utilisateur adresse tout retour d'information ou toute question concernant le présent document à l'organisme national de normalisation de son pays. Une liste exhaustive desdits organismes se trouve à l'adresse www.iso.org/fr/members.html.
+    Introduction
+    Les graphes (diagrammes composés de nœuds et de liens) sont utilisés depuis des décennies pour représenter et visualiser à la fois des documents (données d'instance) et des schémas de données. Le présent document concerne la représentation (et non la visualisation) de documents (et non de schémas de données) basée sur des graphes.
+    La représentation et la visualisation de documents basées sur des graphes sont traitées par des cartes conceptuelles[15], des cartes mentales, des cartes d'arguments, etc. La linguistique théorique et l'intelligence artificielle utilisent aussi une visualisation du contenu basée sur des graphes, associée à un réseau sémantique, un espace mental[10], une structure de représentation du discours[13], etc.
+    La visualisation des schémas de données (ou ontologies, terminologies, métamodèles, etc.) basée sur des graphes est une pratique plus courante. Les ontologies sont souvent visualisées sous forme de graphes dans lesquels les nœuds sont des classes (et des types de données) et les liens des propriétés (relations). L'ISO 24156-1 spécifie une visualisation de la modélisation conceptuelle basée sur le langage UML. D'autres métamodèles sont généralement aussi représentés sous forme de diagrammes similaires.
+    Le présent document fournit un schéma de données pour les documents de graphes, afin de faciliter la composition et la compréhension en rendant la structure logique du document explicite. Il ne concerne pas les visualisations ou les manipulations des graphes et il ne définit pas non plus les annotations de documents existants, mais il traite plutôt de la représentation graphique/diagrammatique des documents pour les besoins de la création sémantique, c'est-à-dire pour que les personnes visualisent et manipulent directement des structures syntactiques/sémantiques sur des écrans d'ordinateur ou leurs futures alternatives. La linéarité des documents textuels traditionnels est due à la linéarité des langages parlés, qui contraint l'interaction entre les personnes et les documents, et qui rend difficiles la lecture et l'écriture. La DSA définit des documents graphiques/diagrammatiques avec des structures plus explicites que dans le texte, afin de faciliter leur lecture et écriture. Les documents basés sur la DSA, associés à des interfaces utilisateur impliquant des visualisations appropriées et des opérations simples, peuvent améliorer la collaboration entre les personnes, et entre les personnes et les machines.
+    La DSA traite principalement des structures syntactiques ou documentaires. Elle traite aussi de certaines structures sémantiques fragmentaires, mais une autre spécification peut fournir une sémantique plus systématique (mappage formel entre documents et leurs significations ou formes logiques), pour que les machines puissent mieux « comprendre » les documents basés sur la DSA et donc mieux assister le partage d'informations et l'obtention d'un consensus entre les personnes.
+    La Figure 1 illustre un flux de travail impliquant la DSA et d'autres types de documents. Les documents basés sur la DSA dans la moitié supérieure peuvent être convertis automatiquement (tout en préservant le contenu propositionnel) à partir de et vers des documents compréhensibles par les machines, sur la base de normes appropriées concernant les représentations et annotations sémantiques. Il est possible de générer automatiquement des documents textuels traditionnels à partir de ces documents compréhensibles par les machines (tout en préservant également le contenu propositionnel), bien que la conversion inverse ne puisse généralement pas être automatisée. Comme les documents basés sur la DSA (associés à des interfaces utilisateur appropriées) sont plus faciles à composer et à interpréter par les personnes que les documents textuels, les personnes peuvent généralement toucher et voir les documents basés sur la DSA, tandis que les documents traditionnels peuvent être utilisés pour les procédures métiers (telles que les demandes de brevets) et les présentations orales.
+    Figure 1 — Flux de travail d'un document impliquant la DSA
+    La DSA est un métamodèle minimal pour l'ISO/TS 24617-5 (SemAF-DS), qui repose à son tour sur l'ISO/IEC 15938.5/Amd.1 (MPEG-7 MDS AMD1 ― Schème descriptif linguistique). Les documents compréhensibles par les machines sur la Figure 1 sont supposés utiliser d'autres normes, notamment l'ISO 24615 (SynAF), l'ISO 24612 (LAF) et l'ISO 24617 (SemAF), tout en incorporant des aperçus tirés d'autres littératures pertinentes[1][8][9][10][11][12][13][14][15][16][17][18].
+    Gestion des ressources linguistiques — Cadre global d'annotation (ComAF) — Partie 3 : Création sémantique diagrammatique (DSA)
+    Le présent document spécifie comment représenter (et non visualiser) des documents (données d'instance et non schémas de données) sous forme de graphes. Il ne spécifie pas comment visualiser ou utiliser des données documentaires, mais il vise à rendre les documents plus faciles à composer et à comprendre par les personnes en offrant diverses interfaces utilisateur flexibles incorporant éventuellement les pratiques de visualisation de documents (voir l'Introduction). À cet égard, le présent document ne spécifie pas non plus les annotations de documents existants, mais il spécifie plutôt un schéma de documents avec des structures logiques explicites.
+    Le présent document ne contient aucune référence normative.
+    Pour les besoins du présent document, les termes et définitions suivants s'appliquent.
+    L'ISO et l'IEC tiennent à jour des bases de données terminologiques destinées à être utilisées en normalisation, consultables aux adresses suivantes :
+    —          ISO Online browsing platform : disponible à l'adresse https://www.iso.org/obp
+    —          IEC Electropedia : disponible à l'adresse http://www.electropedia.org/
+    3.1
+    hypernœud
+    nœud qui est un segment de graphe
+    3.2
+    segment
+    partie référençable d'un document basé sur la DSA, qui est soit un segment de graphe, soit un segment de données (texte, image, audio, vidéo, etc.)
+    3.3
+    création sémantique
+    composition de documents rendant leurs structures logiques explicites
+    La Figure 2 illustre la DSA, qui est un métamodèle (ontologie) de documents de graphes. Chaque partie marquable (référençable) d'un document basé sur la DSA est appelée un segment. Chaque document basé sur la DSA proprement dit est aussi un segment.
+    Figure 2 — Métamodèle DSA (ontologie)
+    Un segment de graphe doit être un graphe orienté étiqueté comprenant des nœuds et des liens. Un nœud doit être un segment, et un lien doit être une relation entre deux nœuds terminaux (segments source et destination).
+    Un nœud dans un segment de graphe peut être un autre segment de graphe. Un nœud qui est un segment de graphe est appelé un hypernœud. Un segment de graphe peut donc intégrer d'autres segments de graphes sous forme d'hypernœuds, ceux-ci étant rarement utilisés dans les cartes conceptuelles. Arbitrairement, les gros documents basés sur la DSA peuvent donc être constitués de petits segments de graphes qui sont des hypernœuds les uns des autres.
+    Un segment de données peut intégrer de plus petits segments de donnée en tant que constituants. Par exemple, un discours peut être un segment de texte/audio/vidéo intégrant des énoncés de phrases en tant que plus petits segments de textes/audio/vidéo, qui peuvent à leur tour intégrer des segments de textes/audio/vidéo encore plus petits, tels que des expressions, et ainsi de suite.
+    La DSA est exactement le métamodèle de la Figure 2, qui spécifie formellement des documents de graphes multimodaux impliquant des hypernœuds, mais qui ne spécifie pas comment les visualiser ou les utiliser. Les visualisations diagrammatiques dans l'Annexe A ne font pas partie de la DSA, elles sont fournies à titre d'exemples informatifs. Les utilisateurs de la DSA peuvent adopter toutes sortes de visualisations diagrammatiques dans la mesure où les structures logiques des documents sont rendues assez explicites.
+    Annexe A (informative)  Exemples
+    A.1  Segments de graphe
+    Sur la Figure A.1, les segments de graphes sont visualisés sous forme de cadres à bords arrondis. Le segment de graphe plus petit est un hypernœud dans le plus grand. La plupart des nœuds sur la Figure A.1 sont des segments de textes, mais les nœuds peuvent aussi correspondre à d'autres types de segments. Les liens dans cet exemple représentent les relations du discours et les rôles thématiques. Par exemple, une « mine » et une « gaine » sont les constituants d'un « crayon » et la fonction d'une « gomme » est d'« effacer principalement le texte écrit au crayon ».
+    Figure A.1 — Segment de graphe représentant une partie d'un document de brevet
+    Dans l'ensemble du présent document, les anaphores sont soulignées et leurs antécédents sont en caractères gras. Les relations anaphoriques peuvent être visualisées explicitement sous forme de liens tels que ceux illustrés sur la Figure A.2. Certains nœuds terminaux de ces liens anaphoriques sont des segments de textes intégrés dans des segments de graphes/de textes plus grands, et ces nœuds terminaux n'appartiennent donc pas aux graphes auxquels les relations anaphoriques appartiennent. L'un des problèmes rencontrés est le fait que si un graphe contient un trop grand nombre de ces relations anaphoriques, il est difficile à comprendre et à composer par les personnes. Ce problème est en partie résolu en visualisant les graphes sous forme d'arbres.
+    Figure A.2 — Liens anaphoriques dans un segment de graphe
+    Certains segments de graphes peuvent être présentés visuellement sous forme d'arbres. Dans le présent document, un tel arbre est inclus dans un cadre et contient trois nœuds commençant par des puces, sauf le nœud racine qui n'a pas de puce. Dans l'arborescence illustrée sur la Figure A.3, toutes les puces représentent une sorte d'élaboration, c'est-à-dire que le nœud enfant élabore le nœud parent en décrivant les détails (par exemple les parties) du référent du nœud parent. On doit choisir le bon nœud racine dans l'arborescence afin de bénéficier d'une interprétation uniforme des puces. Il convient d'utiliser une étiquette de relation plus spécifique à la place d'une simple puce si un nœud n'élabore pas son parent. Dans le présent document, les segments de textes sont inclus dans des cadres comme illustré sur la Figure A.2, mais ces cadres sont omis lorsque les segments de textes sont des nœuds d'arbres, comme sur la Figure A.3.
+    Figure A.3 — Un arbre représentant un rapport de pathologie
+    Les arbres peuvent aussi simplifier les présentations visuelles des documents, car une résolution par anaphore est souvent facile lorsque des antécédents « c-commandent » (commandent au moyen des constituants) des anaphores. L'expression A c-commande une autre expression B si et seulement si le nœud de l'arbre contenant A sous forme de constituant syntactique direct domine le nœud contenant B. Par exemple, une « tumeur de type 2 de 6,5 x 5 cm » c-commande (et est l'antécédent de) le sujet manquant de « exposition » sur la Figure A.3. Si toutes ces relations anaphoriques sont rendues visuellement explicites par des liens sur cette figure, on obtient le résultat illustré sur la Figure A.4.
+    Figure A.4 — Anaphores faciles à résoudre à l'aide de relations à c-commande
+    La visualisation plus simple de la Figure A.3 est probablement meilleure pour l'interface utilisateur que celle de la Figure A.4, car toutes les relations anaphoriques marquées par les flèches sur la Figure A.3 sont faciles à résoudre à condition qu'elles respectent les relations à c-commande. Pour identifier l'antécédent du sujet manquant de « exposition », la condition à c-commande se limite aux candidats « tumeur de type 2 de 6,5 x 5 cm » et « spécimen entier de gastrectomie », tout en excluant « face séreuse », « marge orale », « ulcère de 3 x 2 cm », « circonférence anale », et ainsi de suite. L'antécédent est « tumeur de type 2 de 6,5 x 5 cm », car une tumeur peut être exposée, contrairement à un spécimen entier, cet élément de connaissance du domaine de pathologie étant plutôt facile à incorporer dans la base de connaissances pour un système de traitement des langues naturelles facilitant la composition ou la compréhension de ces documents basés sur la DSA. Toutefois, des liens anaphoriques visuellement explicites sont nécessaires lorsque les antécédents ne c-commandent pas les anaphores.
+    A.2  Segments de données
+    Le métamodèle DSA peut être élargi de sorte qu'un segment de données (segment de texte/audio en particulier) puisse accompagner une annotation syntactique. Ainsi, un segment de données peut être visualisé diagrammatiquement sous la forme d'un cadre en deux parties comme illustré sur la Figure A.5.
+    Figure A.5 — Segment de texte terminal
+    La moitié supérieure grisée du cadre sur la Figure A.5 contient une annotation syntactique du segment. La moitié inférieure correspond au segment de données proprement dit dans un segment de données terminal. Cette partie inférieure d'un segment de données peut intégrer récursivement de plus petits segments de données et, avec la partie d'annotation syntactique, peut spécifier partiellement la structure syntactique du segment de données complet, comme illustré sur la Figure A.6, où le sens de gauche à droite parmi les segments de textes intégrés reflète l'ordre temporel de ces segments.
+    Figure A.6 — Segment de texte « Tom est parti » contenant deux segments de textes plus petits
+    Un segment de données peut contenir des relations entre des segments de données plus petits, qui peuvent être des dépendances comme sur la Figure A.7.
+    Figure A.7 — Dépendance et structures de constituants visualisées dans des segments de textes
+    Ces visualisations peuvent être simplifiées en introduisant une convention pour marquer les constituants syntactiques principaux avec des bordures épaisses, comme sur la Figure A.8.
+    Figure A.8 — Visualisation simplifiée des relations complément/élément principal
+    Un segment de données peut être élaboré par d'autres segments DSA, ce qui est souvent le cas avec des segments de données non textuels, comme sur la Figure A.9, où les flèches représentent des relations d'élaboration. Le segment d'image complet est élaboré par un segment de texte « spécimen entier de gastrectomie » et les segments d'images intégrés sont élaborés par d'autres segments de textes et de graphes (visualisés sous forme d'arbres).
+    Figure A.9 — Un segment d'image augmentant le segment de la Figure A.3
+    Comme dans une vue d'arborescence, une anaphore est souvent facile à résoudre si l'antécédent c-commande l'anaphore due à la constitution des segments d'images. La relation de c-commande est valable lorsque le segment d'image constituant élaboré par le segment de texte/graphe contenant directement l'antécédent intègre le segment d'image élaboré par le segment de texte/graphe contenant l'anaphore. Sur la Figure A.9, par exemple, « spécimen entier de gastrectomie » en tant qu'élaboration du segment d'image complet c-commande toutes les anaphores (expressions soulignées) dans les élaborations des segments d'images intégrés, où les liens grisés représentent des relations d'élaboration. Toutes les anaphores peuvent être résolues de la même manière que sur la Figure A.4 et peuvent donc être laissées implicites dans une visualisation similaire à celle de la Figure A.3. Le segment de niveau supérieur sur la Figure A.9 est un segment de graphe composé de deux nœuds (la plus grande image et le segment de texte « spécimen entier de gastrectomie ») et d'un lien (la relation d'élaboration) qui les relie.
+    Bibliographie
+    [1]       ISO 24156‑1:2014, Notations graphiques pour la modélisation des concepts en terminologie et ses relations avec UML — Partie 1: Lignes directrices pour l'application de la notation UML dans le travail terminologique
+    [2]       ISO 24615‑2:2018, Gestion de ressources linguistiques — Cadre d'annotation syntaxique (SynAF) — Partie 2: Sérialisation XML (vocabulaire Tiger)
+    [3]       ISO 24612:2012, Gestion des ressources linguistiques — Cadre d'annotation linguistique (LAF)
+    [4]       ISO 24617‑1:2012, Gestion des ressources langagières — Cadre d'annotation sémantique (SemAF) — Partie 1: Temps et événements (SemAF-Time, ISO-TimeML)
+    [5]       ISO 24617‑2:2012, Gestion des ressources langagières — Cadre d'annotation sémantique (SemAF) — Partie 2: Actes de dialogue
+    [6]       ISO/TS 24617‑5:2014, Gestion de ressources langagières — Cadre d'annotation sémantique (SemAF) — Partie 5: Structures de discours (SemAF-DS)
+    [7]       ISO/IEC 15938‑5:2003/Amd.1:2004, Technologies de l'information — Interface de description du contenu multimédia — Partie 5: Schémas de description multimédia/ — Amendement 1: Extensions de schémas de description multimédia
+    [8]       N. Asher & A. Lascarides (2003) Logics of Conversation. Cambridge University Press.
+    [9]       L. Carlson, D. Marcu, M. E. Okurowski (2003) Building a Discourse-Tagged Corpus in the Framework of Rhetorical Structure Theory. J. van Kuppevelt & R. Smith (eds.) Current Directions in Discourse and Dialogue, 85-112, Kluwer Academic Publishers.
+    [10]     Gilles Fauconnier (1994) Mental Spaces: Aspects of Meaning Construction in Natural Language. New York: Cambridge University Press.
+    [11]     J. Haji, et al. (2006) Prague Dependency Treebank 2.0. Linguistic Data Consortium, Philadelphia.
+    [12]     K. Hasida (1991) Reducing Complexity of Constraint-Based Grammars. In J. Barwise, J. M. Gawron, G. Plotkin, and S. Tutiya (eds.) Situation Theory and Its Applications, Volume 2, 405-424.
+    [13]     Hans. Kamp (1981) A theory of truth and semantic representation. In Jeroen Groenendijk, et al. (eds.) Formal Methods in the Study of Language. Mathematical Centre Tract 135, University of Amsterdam.
+    [14]     W. Mann & S. Thompson (1988) Rhetorical Structure Theory: A Theory of Text Organisation. Text, 8(3) 243-281.
+    [15]     J. D. Novak (2010) Learning, Creating, and Using Knowledge: Concept maps as facilitative tools in schools and corporations. Journal of e-Learning and Knowledge Society, 6(3), 21-30.
+    [16]     M. Palmer, D. Gildea, P. Kingsbury (2005) The Proposition Bank: An Annotated Corpus of Semantic Roles. Computational Linguistics, 31(1), 71-105.
+    [17]     Prasad R., Dinesh N., Lee A., Miltsakaki E., Robaldo L., Joshi A. et al. (2008) The Penn Discourse Treebank 2.0. Proceedings of the 6th International Conference on Language Resources and Evaluation.
+    [18]     The Penn Treebank Project. https://www.cis.upenn.edu/~treebank/
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '60'
+  substage:
+    value: '60'
+copyright:
+- owner:
+  - name:
+    - content: ISO
+  from: '2021'
+place:
+- Geneva
+fetched: '2024-01-20'
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Language resource management
+    number: 37
+    type: TC
+    identifier: ISO/TC 37/SC 4
+ics:
+- code: '01.020'
+  text: Terminology (principles and coordination)
+structuredidentifier:
+  project_number: ISO 24627
+  part: '3'
+  type: ISO
+ext:
+  schema-version: v1.0.0
