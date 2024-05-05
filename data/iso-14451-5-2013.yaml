@@ -76,7 +76,7 @@ docid:
   primary: true
 - id: ISO 14451-5:2013(E)
   type: iso-reference
-- id: urn:iso:std:iso:14451:-5:stage-90.93
+- id: urn:iso:std:iso:14451:-5:stage-90.92
   type: URN
 docnumber: '14451'
 date:
@@ -122,14 +122,25 @@ docstatus:
   stage:
     value: '90'
   substage:
-    value: '93'
+    value: '92'
 copyright:
 - owner:
   - name:
     - content: ISO
   from: '2013'
 relation:
-- type: updates
+- type: obsoletes
+  bibitem:
+    id: ISO/AWI14451-5
+    type: standard
+    docid:
+    - id: ISO/AWI 14451-5
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/AWI 14451-5
+      format: text/plain
+- type: obsoletes
   bibitem:
     id: ISO/WD14451-5
     type: standard
@@ -137,9 +148,6 @@ relation:
     - id: ISO/WD 14451-5
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      value: '2024-02-22'
     formattedref:
       content: ISO/WD 14451-5
       format: text/plain
