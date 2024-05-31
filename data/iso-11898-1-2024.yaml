@@ -1,0 +1,169 @@
+---
+schema-version: v1.2.8
+id: ISO11898-1-2024
+title:
+- content: Road vehicles
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Controller area network (CAN)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 1: Data link layer and physical coding sublayer'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Road vehicles - Controller area network (CAN) - Part 1: Data link layer
+    and physical coding sublayer'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Véhicules routiers
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Gestionnaire de réseau de communication (CAN)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 1: Couche liaison de données et sous-couche de codage physique'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Véhicules routiers - Gestionnaire de réseau de communication (CAN) - Partie
+    1: Couche liaison de données et sous-couche de codage physique'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/86384.html
+  type: src
+- content: https://www.iso.org/obp/ui/en/#!iso:std:86384:en
+  type: obp
+- content: https://www.iso.org/contents/data/standard/08/63/86384.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO 11898-1:2024
+  type: ISO
+  primary: true
+- id: ISO 11898-1:2024(E)
+  type: iso-reference
+- id: urn:iso:std:iso:11898:-1:stage-60.60
+  type: URN
+docnumber: '11898'
+date:
+- type: published
+  value: 2024-05
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '3'
+revdate: 2024-05
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: |-
+    This document specifies the controller area network (CAN) data link layer (DLL) and the physical coding sub-layer (PCS). The CAN DLL features data fields of up to 2048 byte when the CAN extended data field length (XL) frame format is used.
+    This document divides the CAN DLL into the logical link control (LLC) and the medium access control (MAC) sub-layers. The DLL’s service data unit (SDU), which interfaces the LLC and the MAC, is implemented by means of the LLC frame. The LLC frame also features the service data unit type (SDT) and the virtual CAN channel identifier (VCID), which provide higher-layer protocol configuration and identification information. How the higher-layer functions are handled is not specified in this document. There are five implementation options:
+    1)       support of the CAN classic frame format only, not tolerating the CAN flexible data rate (FD) frame format;
+    2)       support of the CAN classic frame format and tolerating the CAN FD frame format;
+    3)       support of the CAN classic frame format and the CAN FD frame format;
+    4)       support of the CAN classic frame format, the CAN FD frame format and the CAN XL frame format;
+    5)       support of the CAN FD frame format for CAN FD light responders (Annex A).
+    NOTE            Nodes of the first option can communicate with nodes of the third and fourth option when only the CAN classic frame format is used. Nodes of the first option cannot communicate with nodes of the fifth option: any attempt at communication generates error frames. Therefore, new designs implementing the fourth option can communicate with all other nodes.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    This document specifies the controller area network (CAN) data link layer (DLL) and the physical coding sub-layer (PCS). The CAN DLL features data fields of up to 2048 byte when the CAN extended data field length (XL) frame format is used.
+    This document divides the CAN DLL into the logical link control (LLC) and the medium access control (MAC) sub-layers. The DLL’s service data unit (SDU), which interfaces the LLC and the MAC, is implemented by means of the LLC frame. The LLC frame also features the service data unit type (SDT) and the virtual CAN channel identifier (VCID), which provide higher-layer protocol configuration and identification information. How the higher-layer functions are handled is not specified in this document. There are five implementation options:
+    1)       support of the CAN classic frame format only, not tolerating the CAN flexible data rate (FD) frame format;
+    2)       support of the CAN classic frame format and tolerating the CAN FD frame format;
+    3)       support of the CAN classic frame format and the CAN FD frame format;
+    4)       support of the CAN classic frame format, the CAN FD frame format and the CAN XL frame format;
+    5)       support of the CAN FD frame format for CAN FD light responders (Annex A).
+    NOTE            Nodes of the first option can communicate with nodes of the third and fourth option when only the CAN classic frame format is used. Nodes of the first option cannot communicate with nodes of the fifth option: any attempt at communication generates error frames. Therefore, new designs implementing the fourth option can communicate with all other nodes.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '60'
+  substage:
+    value: '60'
+copyright:
+- owner:
+  - name:
+    - content: ISO
+  from: '2024'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO11898-1-2015
+    type: standard
+    docid:
+    - id: ISO 11898-1:2015
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO 11898-1:2015
+      format: text/plain
+place:
+- Geneva
+doctype:
+  type: international-standard
+editorialgroup:
+  technical_committee:
+  - name: Data communication
+    number: 22
+    type: TC
+    identifier: ISO/TC 22/SC 31
+ics:
+- code: 43.040.15
+  text: Car informatics. On board computer systems
+structuredidentifier:
+  project_number: ISO 11898
+  part: '1'
+  type: ISO
+ext:
+  schema-version: v1.0.0
