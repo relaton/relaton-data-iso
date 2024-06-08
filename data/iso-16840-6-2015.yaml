@@ -62,7 +62,7 @@ docid:
   primary: true
 - id: ISO 16840-6:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso:16840:-6:stage-90.93
+- id: urn:iso:std:iso:16840:-6:stage-90.92
   type: URN
 docnumber: '16840'
 date:
@@ -116,14 +116,25 @@ docstatus:
   stage:
     value: '90'
   substage:
-    value: '93'
+    value: '92'
 copyright:
 - owner:
   - name:
-    - content: ISO
+    - content: ''
   from: '2015'
 relation:
-- type: updates
+- type: obsoletes
+  bibitem:
+    id: ISO/CD16840-6
+    type: standard
+    docid:
+    - id: ISO/CD 16840-6
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/CD 16840-6
+      format: text/plain
+- type: obsoletes
   bibitem:
     id: ISO/WD16840-6
     type: standard
@@ -131,9 +142,6 @@ relation:
     - id: ISO/WD 16840-6
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      value: '2023-10-11'
     formattedref:
       content: ISO/WD 16840-6
       format: text/plain
