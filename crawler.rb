@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-require 'relaton_iso'
+require "relaton_iso"
+
+ENV["GITHUB_TOKEN"] = ARGV.last if ARGV.last
 
 # Run data fetcher
 RelatonIso::DataFetcher.fetch

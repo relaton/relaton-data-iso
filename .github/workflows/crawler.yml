@@ -17,3 +17,5 @@ on:
 jobs:
   crawl:
     uses: relaton/support/.github/workflows/crawler.yml@main
+    secrets:
+      args: ${{ secrets.GITHUB_TOKEN }}
