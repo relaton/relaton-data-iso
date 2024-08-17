@@ -2,6 +2,9 @@
 
 require "relaton_iso"
 
+puts "ARGV"
+pp ARGV
+puts ARGV.last
 ENV["GITHUB_TOKEN"] = ARGV.last if ARGV.last
 
 # Run data fetcher
