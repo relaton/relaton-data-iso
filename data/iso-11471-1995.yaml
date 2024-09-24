@@ -60,7 +60,7 @@ docid:
   primary: true
 - id: ISO 11471:1995(E)
   type: iso-reference
-- id: urn:iso:std:iso:11471:stage-90.93
+- id: urn:iso:std:iso:11471:stage-90.92
   type: URN
 docnumber: '11471'
 date:
@@ -104,14 +104,25 @@ docstatus:
   stage:
     value: '90'
   substage:
-    value: '93'
+    value: '92'
 copyright:
 - owner:
   - name:
     - content: ISO
   from: '1995'
 relation:
-- type: updates
+- type: obsoletes
+  bibitem:
+    id: ISO/CD11471
+    type: standard
+    docid:
+    - id: ISO/CD 11471
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/CD 11471
+      format: text/plain
+- type: obsoletes
   bibitem:
     id: ISO/DIS11471
     type: standard
@@ -119,9 +130,6 @@ relation:
     - id: ISO/DIS 11471
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      value: '2024-01-07'
     formattedref:
       content: ISO/DIS 11471
       format: text/plain
