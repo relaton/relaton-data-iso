@@ -75,7 +75,7 @@ docid:
   primary: true
 - id: ISO 6530:2005(E)
   type: iso-reference
-- id: urn:iso:std:iso:6530:stage-90.93
+- id: urn:iso:std:iso:6530:stage-90.92
   type: URN
 docnumber: '6530'
 date:
@@ -121,7 +121,7 @@ docstatus:
   stage:
     value: '90'
   substage:
-    value: '93'
+    value: '92'
 copyright:
 - owner:
   - name:
@@ -139,7 +139,18 @@ relation:
     formattedref:
       content: ISO 6530:1990
       format: text/plain
-- type: updates
+- type: obsoletes
+  bibitem:
+    id: ISO/AWI6530
+    type: standard
+    docid:
+    - id: ISO/AWI 6530
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/AWI 6530
+      format: text/plain
+- type: obsoletes
   bibitem:
     id: ISO/WD6530
     type: standard
@@ -147,9 +158,6 @@ relation:
     - id: ISO/WD 6530
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      value: '2024-09-13'
     formattedref:
       content: ISO/WD 6530
       format: text/plain
