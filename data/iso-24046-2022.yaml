@@ -76,7 +76,7 @@ docid:
   primary: true
 - id: ISO 24046:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:24046:stage-90.93
+- id: urn:iso:std:iso:24046:stage-90.92
   type: URN
 docnumber: '24046'
 date:
@@ -120,14 +120,25 @@ docstatus:
   stage:
     value: '90'
   substage:
-    value: '93'
+    value: '92'
 copyright:
 - owner:
   - name:
     - content: ISO
   from: '2022'
 relation:
-- type: updates
+- type: obsoletes
+  bibitem:
+    id: ISO/CD24046
+    type: standard
+    docid:
+    - id: ISO/CD 24046
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/CD 24046
+      format: text/plain
+- type: obsoletes
   bibitem:
     id: ISO/DIS24046
     type: standard
@@ -135,9 +146,6 @@ relation:
     - id: ISO/DIS 24046
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      value: '2024-09-15'
     formattedref:
       content: ISO/DIS 24046
       format: text/plain
