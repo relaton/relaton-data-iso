@@ -53,7 +53,7 @@ docid:
   primary: true
 - id: ISO 8743:1997(E)
   type: iso-reference
-- id: urn:iso:std:iso:8743:stage-90.93
+- id: urn:iso:std:iso:8743:stage-90.92
   type: URN
 docnumber: '8743'
 date:
@@ -89,7 +89,7 @@ docstatus:
   stage:
     value: '90'
   substage:
-    value: '93'
+    value: '92'
 copyright:
 - owner:
   - name:
@@ -107,7 +107,18 @@ relation:
     formattedref:
       content: ISO 8743:1986
       format: text/plain
-- type: updates
+- type: obsoletes
+  bibitem:
+    id: ISO/AWI8743
+    type: standard
+    docid:
+    - id: ISO/AWI 8743
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/AWI 8743
+      format: text/plain
+- type: obsoletes
   bibitem:
     id: ISO/DIS8743
     type: standard
@@ -115,9 +126,6 @@ relation:
     - id: ISO/DIS 8743
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      value: '2024-10-23'
     formattedref:
       content: ISO/DIS 8743
       format: text/plain
