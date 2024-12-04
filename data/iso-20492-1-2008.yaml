@@ -74,7 +74,7 @@ docid:
   primary: true
 - id: ISO 20492-1:2008(E)
   type: iso-reference
-- id: urn:iso:std:iso:20492:-1:stage-90.93
+- id: urn:iso:std:iso:20492:-1:stage-90.92
   type: URN
 docnumber: '20492'
 date:
@@ -122,14 +122,25 @@ docstatus:
   stage:
     value: '90'
   substage:
-    value: '93'
+    value: '92'
 copyright:
 - owner:
   - name:
     - content: ISO
   from: '2008'
 relation:
-- type: updates
+- type: obsoletes
+  bibitem:
+    id: ISO/CD20492-1
+    type: standard
+    docid:
+    - id: ISO/CD 20492-1
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/CD 20492-1
+      format: text/plain
+- type: obsoletes
   bibitem:
     id: ISO/DIS20492-1
     type: standard
@@ -137,9 +148,6 @@ relation:
     - id: ISO/DIS 20492-1
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      value: '2024-10-04'
     formattedref:
       content: ISO/DIS 20492-1
       format: text/plain
