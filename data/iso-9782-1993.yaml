@@ -74,7 +74,7 @@ docid:
   primary: true
 - id: ISO 9782:1993(E)
   type: iso-reference
-- id: urn:iso:std:iso:9782:stage-90.60
+- id: urn:iso:std:iso:9782:stage-90.92
   type: URN
 docnumber: '9782'
 date:
@@ -130,27 +130,39 @@ docstatus:
   stage:
     value: '90'
   substage:
-    value: '60'
+    value: '92'
 copyright:
 - owner:
   - name:
     - content: ISO
   from: '1993'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO/CD9782
+    type: standard
+    docid:
+    - id: ISO/CD 9782
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/CD 9782
+      format: text/plain
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Composites and reinforcement fibres
-    number: 61
-    type: TC
-    identifier: ISO/TC 61/SC 13
-ics:
-- code: '83.120'
-  text: Reinforced plastics
-structuredidentifier:
-  project_number: ISO 9782
-  type: ISO
 ext:
   schema-version: v1.0.3
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: Composites and reinforcement fibres
+      number: 61
+      type: TC
+      identifier: ISO/TC 61/SC 13
+  ics:
+  - code: '83.120'
+    text: Reinforced plastics
+  structuredidentifier:
+    project_number: ISO 9782
+    type: ISO

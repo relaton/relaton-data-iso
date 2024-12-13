@@ -60,7 +60,7 @@ docid:
   primary: true
 - id: ISO/TS 42501:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:42501:stage-60.60
+- id: urn:iso:std:iso:ts:42501:stage-90.92
   type: URN
 docnumber: '42501'
 date:
@@ -104,31 +104,43 @@ abstract:
   format: text/plain
 docstatus:
   stage:
-    value: '60'
+    value: '90'
   substage:
-    value: '60'
+    value: '92'
 copyright:
 - owner:
   - name:
     - content: ISO/TS
   from: '2022'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO/AWI42501
+    type: standard
+    docid:
+    - id: ISO/AWI 42501
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO/AWI 42501
+      format: text/plain
 place:
 - Geneva
-doctype:
-  type: technical-specification
-editorialgroup:
-  technical_committee:
-  - name: Sharing economy
-    number: 324
-    type: TC
-    identifier: ISO/TC 324
-ics:
-- code: 03.080.01
-  text: Services in general
-- code: 35.240.63
-  text: IT applications in trade
-structuredidentifier:
-  project_number: ISO 42501
-  type: ISO
 ext:
   schema-version: v1.0.3
+  doctype:
+    type: technical-specification
+  editorialgroup:
+    technical_committee:
+    - name: Sharing economy
+      number: 324
+      type: TC
+      identifier: ISO/TC 324
+  ics:
+  - code: 03.080.01
+    text: Services in general
+  - code: 35.240.63
+    text: IT applications in trade
+  structuredidentifier:
+    project_number: ISO 42501
+    type: ISO
