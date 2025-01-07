@@ -99,6 +99,31 @@ language:
 - fr
 script:
 - Latn
+abstract:
+- content: |-
+    This document describes the “public transport information service” (PTS) application, which is intended to cover all modes of public (i.e. collective) transport, both for inter-urban and intra-urban travel. The PTS application is designed to allow the efficient and language-independent delivery of public transport information directly from a service provider to end-users.
+    The PTS application design is based on three main use cases.
+    —     Provision of alert information: an alert is a warning that indicates an emergency situation. This case is specifically relevant for broadcast/push mode, for major deviations or disruptions which are relevant for a large number of travellers. A dedicated alert request is also defined and can be used if a backchannel is available.
+    —     Timetable information, both scheduled and real time: this information is in some cases relevant for broadcast, e.g. in case of large events for the transport modalities to/from the event site. A dedicated timetable request is also defined and can be used if a backchannel is available.
+    —     Individual requests for trip information (backchannel is required).
+    The PTS application focuses on providing core information regarding public transport in order to ensure the compactness of the TPEG application. Specific information as provided in typical public transport apps (e.g. fare information) is not in the scope of this document.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    This document describes the “public transport information service” (PTS) application, which is intended to cover all modes of public (i.e. collective) transport, both for inter-urban and intra-urban travel. The PTS application is designed to allow the efficient and language-independent delivery of public transport information directly from a service provider to end-users.
+    The PTS application design is based on three main use cases.
+    —     Provision of alert information: an alert is a warning that indicates an emergency situation. This case is specifically relevant for broadcast/push mode, for major deviations or disruptions which are relevant for a large number of travellers. A dedicated alert request is also defined and can be used if a backchannel is available.
+    —     Timetable information, both scheduled and real time: this information is in some cases relevant for broadcast, e.g. in case of large events for the transport modalities to/from the event site. A dedicated timetable request is also defined and can be used if a backchannel is available.
+    —     Individual requests for trip information (backchannel is required).
+    The PTS application focuses on providing core information regarding public transport in order to ensure the compactness of the TPEG application. Specific information as provided in typical public transport apps (e.g. fare information) is not in the scope of this document.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: '60'
@@ -127,6 +152,5 @@ ext:
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: ISO 21219
-    part: '13'
+    project_number: '78397'
     type: ISO
