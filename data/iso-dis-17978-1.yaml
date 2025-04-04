@@ -1,0 +1,201 @@
+---
+schema-version: v1.2.9
+id: ISO/DIS17978-1
+title:
+- content: Road vehicles
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Service-oriented vehicle diagnostics (SOVD)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Part 1: General information, definitions, rules and basic principles'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Road vehicles - Service-oriented vehicle diagnostics (SOVD) - Part 1:
+    General information, definitions, rules and basic principles'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+  type: main
+- content: Véhicules routiers
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-intro
+- content: Diagnostic Véhicule Orienté Services (SOVD)
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-main
+- content: 'Partie 1: Informations générales, définitions, règles et principes de
+    base'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: title-part
+- content: 'Véhicules routiers - Diagnostic Véhicule Orienté Services (SOVD) - Partie
+    1: Informations générales, définitions, règles et principes de base'
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+  type: main
+link:
+- content: https://www.iso.org/standard/85133.html
+  type: src
+- content: https://www.iso.org/contents/data/standard/08/51/85133.detail.rss
+  type: rss
+type: standard
+docid:
+- id: ISO/DIS 17978-1
+  type: ISO
+  primary: true
+- id: ISO/DIS 17978-1(E)
+  type: iso-reference
+- id: urn:iso:std:iso:17978:-1:stage-draft
+  type: URN
+docnumber: '17978'
+contributor:
+- organization:
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+    url: www.iso.org
+  role:
+  - type: publisher
+edition:
+  content: '1'
+language:
+- en
+- fr
+script:
+- Latn
+abstract:
+- content: "This series of documents defines the use cases and their associated APIs
+    for the SOVD and fall within the scope already defined by ISO 20077-1 \"ExVe”.\nThe
+    methodology adopted for the implementation of an SOVD API is intended to follow
+    the definitions in ISO 20077 (all parts) regarding “Extended Vehicle (ExVe)” (definitions,
+    basic principles, rules, uses cases, API, etc...). \nIt specifies the way to diagnose
+    the vehicle via High Performance Computer (HPC) and  Electronic Control Unit (ECU).
+    The SOVD API provides, in the ExVe perimeter a unified access to ECUs and HPCs.
+    This access can be performed remotely (e.g., backend or cloud), nearby in the
+    repair shop (e.g., repair shop test equipment), or in the vehicle (e.g., on-board
+    application).\nThe SOVD API leverages existing technologies: \n• The API follows
+    the Representational State Transfer (REST) principles and uses Javascript Object
+    Notation (JSON) for encoding the transmitted data.\n• SOVD uses Hypertext Transfer
+    Protocol (HTTP) 1.1 but for achieving the best communication performance HTTP/2
+    is recommended. No HTTP/2 specific features are used.\n• The SOVD API utilizes
+    the OpenAPI specification to define the API as well as the diagnostic capabilities
+    of the vehicle.\n• The authentication and authorization of clients builds upon
+    OpenID Connect and Open Authentication (OAuth) 2.0, but a vehicle manufacturer
+    may use other authentication mechanism like certificates if required.\nThe SOVD
+    API provides the following functions in the perimeter of the Extended Vehicle:\n•
+    Clients can access the faults, including reading the fault entries, reading environment
+    data, and deleting fault entries.\n• Measurements and identifications from all
+    entities in the vehicle can be read. In addition, identifications may be written
+    as well.\n• SOVD supports the execution of routines, I/O controls, and software
+    functions. Their execution can only be performed in certain modes or states. Thus,
+    an SOVD client can set the component into a specific mode.\n• The configuration
+    of a vehicle (e.g., equipment, country, customer demand, variant coding etc.)
+    can be read and written using the SOVD API.\n• SOVD provides an interface to initiate
+    and monitor a software update for a vehicle\n• SOVD provides access to Extended
+    Vehicle logging information \nWith these features SOVD covers the entire chain
+    of the vehicle life cycle: engineering (development), manufacturing (production),
+    storage park, sales, vehicle operation (usage), maintenance and repair, technical
+    inspection, recycling (re-use).\nThis document provides general information, specifies
+    common definitions applicable for SOVD and defines overall rules and basic principles."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: "This series of documents defines the use cases and their associated APIs
+    for the SOVD and fall within the scope already defined by ISO 20077-1 \"ExVe”.\nThe
+    methodology adopted for the implementation of an SOVD API is intended to follow
+    the definitions in ISO 20077 (all parts) regarding “Extended Vehicle (ExVe)” (definitions,
+    basic principles, rules, uses cases, API, etc...). \nIt specifies the way to diagnose
+    the vehicle via High Performance Computer (HPC) and  Electronic Control Unit (ECU).
+    The SOVD API provides, in the ExVe perimeter a unified access to ECUs and HPCs.
+    This access can be performed remotely (e.g., backend or cloud), nearby in the
+    repair shop (e.g., repair shop test equipment), or in the vehicle (e.g., on-board
+    application).\nThe SOVD API leverages existing technologies: \n• The API follows
+    the Representational State Transfer (REST) principles and uses Javascript Object
+    Notation (JSON) for encoding the transmitted data.\n• SOVD uses Hypertext Transfer
+    Protocol (HTTP) 1.1 but for achieving the best communication performance HTTP/2
+    is recommended. No HTTP/2 specific features are used.\n• The SOVD API utilizes
+    the OpenAPI specification to define the API as well as the diagnostic capabilities
+    of the vehicle.\n• The authentication and authorization of clients builds upon
+    OpenID Connect and Open Authentication (OAuth) 2.0, but a vehicle manufacturer
+    may use other authentication mechanism like certificates if required.\nThe SOVD
+    API provides the following functions in the perimeter of the Extended Vehicle:\n•
+    Clients can access the faults, including reading the fault entries, reading environment
+    data, and deleting fault entries.\n• Measurements and identifications from all
+    entities in the vehicle can be read. In addition, identifications may be written
+    as well.\n• SOVD supports the execution of routines, I/O controls, and software
+    functions. Their execution can only be performed in certain modes or states. Thus,
+    an SOVD client can set the component into a specific mode.\n• The configuration
+    of a vehicle (e.g., equipment, country, customer demand, variant coding etc.)
+    can be read and written using the SOVD API.\n• SOVD provides an interface to initiate
+    and monitor a software update for a vehicle\n• SOVD provides access to Extended
+    Vehicle logging information \nWith these features SOVD covers the entire chain
+    of the vehicle life cycle: engineering (development), manufacturing (production),
+    storage park, sales, vehicle operation (usage), maintenance and repair, technical
+    inspection, recycling (re-use).\nThis document provides general information, specifies
+    common definitions applicable for SOVD and defines overall rules and basic principles."
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: '40'
+  substage:
+    value: '00'
+copyright:
+- owner:
+  - name:
+    - content: ISO/DIS
+  from: '2025'
+place:
+- Geneva
+ext:
+  schema-version: v1.0.3
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: Data communication
+      number: 22
+      type: TC
+      identifier: ISO/TC 22/SC 31
+  ics:
+  - code: 01.040.43
+    text: Road vehicle engineering (Vocabularies)
+  - code: 43.040.15
+    text: Car informatics. On board computer systems
+  structuredidentifier:
+    project_number: '85133'
+    type: ISO
