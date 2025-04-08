@@ -1,145 +1,127 @@
 ---
-schema-version: v1.2.9
 id: ISO14222-2013
-title:
-- content: Space environment (natural and artificial)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Earth upper atmosphere
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Space environment (natural and artificial) - Earth upper atmosphere
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Environnement spatial (naturel et artificiel)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Haute atmosphère terrestre
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Environnement spatial (naturel et artificiel) - Haute atmosphère terrestre
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/54507.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/05/45/54507.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 14222:2013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space environment (natural and artificial)
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Earth upper atmosphere
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space environment (natural and artificial) - Earth upper atmosphere
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Environnement spatial (naturel et artificiel)
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Haute atmosphère terrestre
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Environnement spatial (naturel et artificiel) - Haute atmosphère terrestre
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/54507.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/45/54507.detail.rss
+docidentifier:
+- content: ISO 14222:2013
   type: ISO
   primary: true
-- id: ISO 14222:2013(E)
+- content: ISO 14222:2013(E)
   type: iso-reference
-- id: urn:iso:std:iso:14222:stage-95.99
+- content: urn:iso:std:iso:14222:stage-95.99
   type: URN
 docnumber: '14222'
 date:
 - type: published
-  value: 2013-09
+  at: 2013-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2013-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 14222:2013 specifies the structure of Earth's atmosphere above 120
+- language: en
+  script: Latn
+  content: ISO 14222:2013 specifies the structure of Earth's atmosphere above 120
     km, provides accepted empirical models that can specify the details of the atmosphere,
     and uses annexes to describe the details of those models. Its purpose is to create
     a standard method for specifying Earth atmosphere properties (densities, etc.)
     in the low Earth orbit regime for space systems and materials users.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: ISO 14222:2013 specifies the structure of Earth's atmosphere above 120
+- language: fr
+  script: Latn
+  content: ISO 14222:2013 specifies the structure of Earth's atmosphere above 120
     km, provides accepted empirical models that can specify the details of the atmosphere,
     and uses annexes to describe the details of those models. Its purpose is to create
     a standard method for specifying Earth atmosphere properties (densities, etc.)
     in the low Earth orbit regime for space systems and materials users.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO14222-2022
     type: standard
-    docid:
-    - id: ISO 14222:2022
+    formattedref: ISO 14222:2022
+    docidentifier:
+    - content: ISO 14222:2022
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-03-23'
-    formattedref:
-      content: ISO 14222:2022
-      format: text/plain
+      at: '2022-03-23'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Space systems and operations
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 14
+      content: Space systems and operations
   ics:
   - code: '49.140'
     text: Space systems and operations
   structuredidentifier:
-    project_number: '54507'
     type: ISO
+    project_number:
+      content: '54507'

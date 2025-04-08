@@ -1,78 +1,67 @@
 ---
-schema-version: v1.2.9
 id: ISO/DTS14064-4
+type: standard
+schema_version: v1.4.1
 title:
-- content: Greenhouse gases
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Greenhouse gases
   type: title-main
-- content: 'Part 4: Quantification and reporting of greenhouse gas emissions for organizations
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 4: Quantification and reporting of greenhouse gas emissions for organizations
     — Guidance for the application of ISO 14064-1'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: 'Greenhouse gases - Part 4: Quantification and reporting of greenhouse
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Greenhouse gases - Part 4: Quantification and reporting of greenhouse
     gas emissions for organizations — Guidance for the application of ISO 14064-1'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Gaz à effet de serre
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Gaz à effet de serre
   type: title-main
-- content: 'Partie 4: Quantification et rapport des émissions de gaz à effet de serre
-    pour les organismes — Recommandations relatives à l''application de l''ISO 14064-1'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 4: Quantification et rapport des émissions de gaz à effet de serre
+    pour les organismes — Recommandations relatives à l''application de l''ISO 14064-1'
   type: title-part
-- content: 'Gaz à effet de serre - Partie 4: Quantification et rapport des émissions
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Gaz à effet de serre - Partie 4: Quantification et rapport des émissions
     de gaz à effet de serre pour les organismes — Recommandations relatives à l''application
     de l''ISO 14064-1'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/86109.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/61/86109.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/DTS 14064-4
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86109.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/61/86109.detail.rss
+docidentifier:
+- content: ISO/DTS 14064-4
   type: ISO
   primary: true
-- id: ISO/DTS 14064-4(E)
+- content: ISO/DTS 14064-4(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:14064:-4:stage-draft
+- content: urn:iso:std:iso:ts:14064:-4:stage-draft
   type: URN
 docnumber: '14064'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -81,7 +70,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document describes the principles, concepts and methods relating
+- language: en
+  script: Latn
+  content: "This document describes the principles, concepts and methods relating
     to the quantification and reporting of direct and indirect greenhouse gas (GHG)
     emissions for an organization. It provides guidance for the application of ISO
     14064 1 to greenhouse gas inventory at the organization level, for the quantification
@@ -98,12 +89,9 @@ abstract:
     and non-exhaustive. The values of the emission or removal factors mentioned in
     the examples are given for illustrative purposes only. A non-exhaustive list of
     database references is provided in Annex A (informative)"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document describes the principles, concepts and methods relating
+- language: fr
+  script: Latn
+  content: "This document describes the principles, concepts and methods relating
     to the quantification and reporting of direct and indirect greenhouse gas (GHG)
     emissions for an organization. It provides guidance for the application of ISO
     14064 1 to greenhouse gas inventory at the organization level, for the quantification
@@ -120,48 +108,43 @@ abstract:
     and non-exhaustive. The values of the emission or removal factors mentioned in
     the examples are given for illustrative purposes only. A non-exhaustive list of
     database references is provided in Annex A (informative)"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DTS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DTS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TR14069-2013
     type: standard
-    docid:
-    - id: ISO/TR 14069:2013
+    formattedref: ISO/TR 14069:2013
+    docidentifier:
+    - content: ISO/TR 14069:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TR 14069:2013
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Greenhouse gas and climate change management and related activities
-      number: 207
+    - number: 207
       type: TC
       identifier: ISO/TC 207/SC 7
+      content: Greenhouse gas and climate change management and related activities
   ics:
   - code: 13.020.40
     text: Pollution, pollution control and conservation
   structuredidentifier:
-    project_number: '86109'
     type: ISO
+    project_number:
+      content: '86109'

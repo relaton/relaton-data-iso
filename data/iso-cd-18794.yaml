@@ -1,87 +1,72 @@
 ---
-schema-version: v1.2.9
 id: ISO/CD18794
-title:
-- content: Coffee
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Sensory analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Coffee - Sensory analysis - Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Café
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Analyse sensorielle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Café - Analyse sensorielle - Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/87695.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/76/87695.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 18794
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Coffee
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Sensory analysis
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vocabulary
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Coffee - Sensory analysis - Vocabulary
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Café
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Analyse sensorielle
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vocabulaire
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Café - Analyse sensorielle - Vocabulaire
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/87695.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/76/87695.detail.rss
+docidentifier:
+- content: ISO/CD 18794
   type: ISO
   primary: true
-- id: ISO/CD 18794(E)
+- content: ISO/CD 18794(E)
   type: iso-reference
-- id: urn:iso:std:iso:18794:stage-draft
+- content: urn:iso:std:iso:18794:stage-draft
   type: URN
 docnumber: '18794'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -90,63 +75,57 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 18794 defines terms relating to coffee sensory analysis.
     ISO 18794 covers definitions applicable to green, roasted and ground coffee, coffee extracts and soluble coffee.
     The terms are given under the following headings:
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 18794 defines terms relating to coffee sensory analysis.
     ISO 18794 covers definitions applicable to green, roasted and ground coffee, coffee extracts and soluble coffee.
     The terms are given under the following headings:
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO18794-2018
     type: standard
-    docid:
-    - id: ISO 18794:2018
+    formattedref: ISO 18794:2018
+    docidentifier:
+    - content: ISO 18794:2018
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 18794:2018
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Coffee
-    number: 34
-    type: TC
-    identifier: ISO/TC 34/SC 15
-ics:
-- code: 01.040.67
-  text: Food technology (Vocabularies)
-- code: 67.140.20
-  text: Coffee and coffee substitutes
-structuredidentifier:
-  project_number: ISO 18794
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 34
+      type: TC
+      identifier: ISO/TC 34/SC 15
+      content: Coffee
+  ics:
+  - code: 01.040.67
+    text: Food technology (Vocabularies)
+  - code: 67.140.20
+    text: Coffee and coffee substitutes
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 18794

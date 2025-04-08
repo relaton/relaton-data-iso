@@ -1,98 +1,85 @@
 ---
-schema-version: v1.2.9
 id: ISO9296-1988
-title:
-- content: Acoustics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Declared noise emission values of computer and business equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Acoustics - Declared noise emission values of computer and business equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Acoustique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Valeurs déclarées d'émission acoustique des matériels informatiques et
-    de bureau
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Acoustique - Valeurs déclarées d'émission acoustique des matériels informatiques
-    et de bureau
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/16951.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/69/16951.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9296:1988
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Acoustics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Declared noise emission values of computer and business equipment
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Acoustics - Declared noise emission values of computer and business equipment
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Acoustique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Valeurs déclarées d'émission acoustique des matériels informatiques et
+    de bureau
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Acoustique - Valeurs déclarées d'émission acoustique des matériels informatiques
+    et de bureau
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/16951.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/69/16951.detail.rss
+docidentifier:
+- content: ISO 9296:1988
   type: ISO
   primary: true
-- id: ISO 9296:1988(E)
+- content: ISO 9296:1988(E)
   type: iso-reference
-- id: urn:iso:std:iso:9296:stage-95.99
+- content: urn:iso:std:iso:9296:stage-95.99
   type: URN
 docnumber: '9296'
 date:
 - type: published
-  value: 1988-04
+  at: 1988-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1988-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the method of determining these values; acoustical and product
+- language: en
+  script: Latn
+  content: Specifies the method of determining these values; acoustical and product
     information to be given in technical documents supplied to users by the manufacturer;
     the method for verifying the declared noise emission values given by the manufacturers.The
     basic values are the declared A-weighted sound power level and the declared A-weighted
     sound pressure level, at the operator or bystander positions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "La présente Norme internationale s'applique aux matériels informatiques
+- language: fr
+  script: Latn
+  content: "La présente Norme internationale s'applique aux matériels informatiques
     et de bureau. Elle spécifie : \n- la méthode de détermination des valeurs déclarées
     d'émission acoustique ; \n- la nature des informations acoustiques et techniques
     devant figurer dans la documentation technique fournie par le constructeur aux
@@ -116,53 +103,48 @@ abstract:
     \ de pression acoustique, le niveau de puissance acoustique pondéré\n  A est déclaré
     en bels, tandis que le niveau de pression acoustique\n  pondéré A est déclaré
     en décibels."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO9296-2017
     type: standard
-    docid:
-    - id: ISO 9296:2017
+    formattedref: ISO 9296:2017
+    docidentifier:
+    - content: ISO 9296:2017
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2017-08-17'
-    formattedref:
-      content: ISO 9296:2017
-      format: text/plain
+      at: '2017-08-17'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Noise
-      number: 43
+    - number: 43
       type: TC
       identifier: ISO/TC 43/SC 1
+      content: Noise
   ics:
   - code: '35.020'
     text: Information technology (IT) in general
   - code: 17.140.20
     text: Noise emitted by machines and equipment
   structuredidentifier:
-    project_number: '16951'
     type: ISO
+    project_number:
+      content: '16951'

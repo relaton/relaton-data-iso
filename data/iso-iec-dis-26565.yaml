@@ -1,83 +1,73 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECDIS26565
-title:
-- content: Software and systems engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Tools and methods for product line maturity framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Software and systems engineering - Tools and methods for product line maturity
-    framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Software and systems engineering
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Tools and methods for product line maturity framework
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Software and systems engineering - Tools and methods for product line maturity
-    framework
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81436.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/14/81436.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC DIS 26565
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software and systems engineering
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Tools and methods for product line maturity framework
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Software and systems engineering - Tools and methods for product line maturity
+    framework
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Software and systems engineering
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Tools and methods for product line maturity framework
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Software and systems engineering - Tools and methods for product line maturity
+    framework
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81436.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/14/81436.detail.rss
+docidentifier:
+- content: ISO/IEC DIS 26565
   type: ISO
   primary: true
-- id: ISO/IEC DIS 26565(E)
+- content: ISO/IEC DIS 26565(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:26565:stage-draft
+- content: urn:iso:std:iso-iec:26565:stage-draft
   type: URN
 docnumber: '26565'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -86,7 +76,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document, within the context of methods and tools that support adoption,
+- language: en
+  script: Latn
+  content: "This document, within the context of methods and tools that support adoption,
     construction, operation, and \nmanagement of product line maturity framework,\n—
     specifies processes for managing, operationalizing, and supporting product line
     maturity framework (those processes are described in terms of purpose, inputs,
@@ -95,12 +87,9 @@ abstract:
     tasks and methods.\n\nThis document does not concern the processes and capabilities
     of methods and tools for a single system \nbut rather deals with those for a family
     of products."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document, within the context of methods and tools that support adoption,
+- language: fr
+  script: Latn
+  content: "This document, within the context of methods and tools that support adoption,
     construction, operation, and \nmanagement of product line maturity framework,\n—
     specifies processes for managing, operationalizing, and supporting product line
     maturity framework (those processes are described in terms of purpose, inputs,
@@ -109,38 +98,36 @@ abstract:
     tasks and methods.\n\nThis document does not concern the processes and capabilities
     of methods and tools for a single system \nbut rather deals with those for a family
     of products."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Software and systems engineering
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
   ics:
   - code: '01.110'
     text: Technical product documentation
   - code: '35.080'
     text: Software
   structuredidentifier:
-    project_number: '81436'
     type: ISO
+    project_number:
+      content: '81436'

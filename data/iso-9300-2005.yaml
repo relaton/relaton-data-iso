@@ -1,84 +1,75 @@
 ---
-schema-version: v1.2.9
 id: ISO9300-2005
-title:
-- content: Measurement of gas flow by means of critical flow Venturi nozzles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Measurement of gas flow by means of critical flow Venturi nozzles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Mesure de débit de gaz au moyen de Venturi-tuyères en régime critique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Mesure de débit de gaz au moyen de Venturi-tuyères en régime critique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/34272.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/42/34272.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9300:2005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of gas flow by means of critical flow Venturi nozzles
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Measurement of gas flow by means of critical flow Venturi nozzles
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mesure de débit de gaz au moyen de Venturi-tuyères en régime critique
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mesure de débit de gaz au moyen de Venturi-tuyères en régime critique
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/34272.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/42/34272.detail.rss
+docidentifier:
+- content: ISO 9300:2005
   type: ISO
   primary: true
-- id: ISO 9300:2005(E)
+- content: ISO 9300:2005(E)
   type: iso-reference
-- id: urn:iso:std:iso:9300:stage-95.99
+- content: urn:iso:std:iso:9300:stage-95.99
   type: URN
 docnumber: '9300'
 date:
 - type: published
-  value: 2005-08
+  at: 2005-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2005-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 9300:2005 specifies the geometry and method of use (installation in
+- language: en
+  script: Latn
+  content: ISO 9300:2005 specifies the geometry and method of use (installation in
     a system and operating conditions) of critical flow Venturi nozzles (CFVN) used
     to determine the mass flow-rate of a gas flowing through a system. It also gives
     the information necessary for calculating the flow-rate and its associated uncertainty.
     It is applicable to Venturi nozzles in which the gas flow accelerates to the critical
     velocity at the throat (this being equal to the local sonic velocity), and only
     where there is steady flow of single-phase gases.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: L'ISO 9300:2005 spécifie la géométrie et le mode d'emploi (installation
+- language: fr
+  script: Latn
+  content: L'ISO 9300:2005 spécifie la géométrie et le mode d'emploi (installation
     dans un circuit et conditions opératoires) de Venturi-tuyères en régime critique
     (CFVN) utilisés pour déterminer le débit-masse de gaz traversant le circuit. Elle
     donne également les informations nécessaires au calcul du débit et de l'incertitude
@@ -86,62 +77,54 @@ abstract:
     est accéléré jusqu'à atteindre la vitesse critique au col (la vitesse d'un écoulement
     critique est égale à la vitesse locale du son), et uniquement lorsqu'il existe
     un écoulement stationnaire monophasique de gaz.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO9300-1990
     type: standard
-    docid:
-    - id: ISO 9300:1990
+    formattedref: ISO 9300:1990
+    docidentifier:
+    - content: ISO 9300:1990
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 9300:1990
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO9300-2022
     type: standard
-    docid:
-    - id: ISO 9300:2022
+    formattedref: ISO 9300:2022
+    docidentifier:
+    - content: ISO 9300:2022
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-06-16'
-    formattedref:
-      content: ISO 9300:2022
-      format: text/plain
+      at: '2022-06-16'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Pressure differential devices
-      number: 30
+    - number: 30
       type: TC
       identifier: ISO/TC 30/SC 2
+      content: Pressure differential devices
   ics:
   - code: 17.120.10
     text: Flow in closed conduits
   structuredidentifier:
-    project_number: '34272'
     type: ISO
+    project_number:
+      content: '34272'

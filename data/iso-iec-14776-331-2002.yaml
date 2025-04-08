@@ -1,152 +1,134 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC14776-331-2002
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Small Computer System Interface (SCSI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 331: Stream Commands (SSC)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Small Computer System Interface (SCSI) - Part
-    331: Stream Commands (SSC)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Interface de petit ordinateur (SCSI)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 331: Commandes de courant d''informations (SSC)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Interface de petit ordinateur (SCSI)
-    - Partie 331: Commandes de courant d''informations (SSC)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/35213.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:35213:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/52/35213.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 14776-331:2002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Small Computer System Interface (SCSI)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 331: Stream Commands (SSC)'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Small Computer System Interface (SCSI) - Part
+    331: Stream Commands (SSC)'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interface de petit ordinateur (SCSI)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 331: Commandes de courant d''informations (SSC)'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Interface de petit ordinateur (SCSI)
+    - Partie 331: Commandes de courant d''informations (SSC)'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/35213.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:35213:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/52/35213.detail.rss
+docidentifier:
+- content: ISO/IEC 14776-331:2002
   type: ISO
   primary: true
-- id: ISO/IEC 14776-331:2002(E)
+- content: ISO/IEC 14776-331:2002(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:14776:-331:stage-90.93
+- content: urn:iso:std:iso-iec:14776:-331:stage-90.93
   type: URN
 docnumber: '14776'
 date:
 - type: published
-  value: 2002-09
+  at: 2002-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2002-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This part of ISO/IEC 14776 defines the command set extensions to facilitate operation of SCSI stream devices. This standard in conjunction with ANSI INCITS 351-2001 fully specifies the standard command set for the SCSI stream device class.The objective of this standard (SSC) is to provide the following:
     a) permit an application client to communicate over a SCSI service delivery subsystem, with a logical unit that declares itself to be a sequential access device or printer device in the device type field of the INQUIRY command response data;b) define commands unique to each type of SCSI stream device;c) define commands to manage the operation of SCSI stream devices; andd) define the differences between the types of SCSI stream devices.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This part of ISO/IEC 14776 defines the command set extensions to facilitate operation of SCSI stream devices. This standard in conjunction with ANSI INCITS 351-2001 fully specifies the standard command set for the SCSI stream device class.The objective of this standard (SSC) is to provide the following:
     a) permit an application client to communicate over a SCSI service delivery subsystem, with a logical unit that declares itself to be a sequential access device or printer device in the device type field of the INQUIRY command response data;b) define commands unique to each type of SCSI stream device;c) define commands to manage the operation of SCSI stream devices; andd) define the differences between the types of SCSI stream devices.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Interconnection of information technology equipment
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 25
+      content: Interconnection of information technology equipment
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment
   structuredidentifier:
-    project_number: '35213'
     type: ISO
+    project_number:
+      content: '35213'

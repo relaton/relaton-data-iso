@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO19141-2008
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Schema for moving features
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Schema for moving features
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Schéma des entités mobiles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Schéma des entités mobiles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/41445.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:41445:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/14/41445.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19141:2008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Schema for moving features
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Schema for moving features
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Schéma des entités mobiles
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Schéma des entités mobiles
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/41445.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41445:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/14/41445.detail.rss
+docidentifier:
+- content: ISO 19141:2008
   type: ISO
   primary: true
-- id: ISO 19141:2008(E)
+- content: ISO 19141:2008(E)
   type: iso-reference
-- id: urn:iso:std:iso:19141:stage-90.93
+- content: urn:iso:std:iso:19141:stage-90.93
   type: URN
 docnumber: '19141'
 date:
 - type: published
-  value: 2008-06
+  at: 2008-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2008-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 19141:2008 defines a method to describe the geometry of a feature that moves as a rigid body. Such movement has the following characteristics.
     - The feature moves within any domain composed of spatial objects as specified in ISO 19107.
     - The feature may move along a planned route, but it may deviate from the planned route.
@@ -100,12 +90,9 @@ abstract:
     - The change of non-spatial attributes of features.
     - The feature's geometric representation cannot be embedded in a geometric complex that contains the geometric representations of other features, since this would require the other features' representations to be updated as the feature moves.
     Because ISO 19141:2008 is concerned with the geometric description of feature movement, it does not specify a mechanism for describing feature motion in terms of geographic identifiers. This is done, in part, in ISO 19133.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 19141:2008 définit une méthode permettant de décrire la géométrie d'une entité mobile se déplaçant comme un corps rigide. Ce type de déplacement présente les caractéristiques suivantes.
     - L'entité se déplace à l'intérieur d'un domaine composé d'objets spatiaux conformément à l'ISO 19107.
     - L'entité peut se déplacer le long d'un itinéraire planifié, mais elle peut s'en écarter.
@@ -123,36 +110,34 @@ abstract:
     - La modification des attributs non spatiaux des entités.
     - La représentation géométrique de l'entité ne peut pas être présente dans un complexe géométrique comportant des représentations géométriques d'autres entités, car cela impliquerait une mise à jour des représentations des autres entités en même temps que le déplacement de l'entité.
     Étant donné que l'ISO 19141:2008 couvre la description géométrique du déplacement de l'entité, elle ne spécifie pas un mécanisme consistant à décrire le mouvement des entités en termes d'identificateurs géographiques. Ce mécanisme est présenté en partie dans l'ISO 19133.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '41445'
     type: ISO
+    project_number:
+      content: '41445'

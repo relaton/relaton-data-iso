@@ -1,140 +1,126 @@
 ---
-schema-version: v1.2.9
 id: ISO/SAE21434-2021
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cybersecurity engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Road vehicles - Cybersecurity engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Ingénierie de la cybersécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Véhicules routiers - Ingénierie de la cybersécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/70918.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:70918:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/09/70918.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/SAE 21434:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Cybersecurity engineering
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Cybersecurity engineering
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ingénierie de la cybersécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Ingénierie de la cybersécurité
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/70918.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:70918:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/09/70918.detail.rss
+docidentifier:
+- content: ISO/SAE 21434:2021
   type: ISO
   primary: true
-- id: ISO/SAE 21434:2021(E)
+- content: ISO/SAE 21434:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso-sae:21434:stage-60.60
+- content: urn:iso:std:iso-sae:21434:stage-published
   type: URN
 docnumber: '21434'
 date:
 - type: published
-  value: 2021-08
+  at: 2021-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.sae.org
     name:
     - content: SAE International
     abbreviation:
       content: SAE
-    url: www.sae.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2021-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies engineering requirements for cybersecurity risk management regarding concept, product development, production, operation, maintenance and decommissioning of electrical and electronic (E/E) systems in road vehicles, including their components and interfaces.
     A framework is defined that includes requirements for cybersecurity processes and a common language for communicating and managing cybersecurity risk.
     This document is applicable to series production road vehicle E/E systems, including their components and interfaces, whose development or modification began after the publication of this document.
     This document does not prescribe specific technology or solutions related to cybersecurity.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies engineering requirements for cybersecurity risk management regarding concept, product development, production, operation, maintenance and decommissioning of electrical and electronic (E/E) systems in road vehicles, including their components and interfaces.
     A framework is defined that includes requirements for cybersecurity processes and a common language for communicating and managing cybersecurity risk.
     This document is applicable to series production road vehicle E/E systems, including their components and interfaces, whose development or modification began after the publication of this document.
     This document does not prescribe specific technology or solutions related to cybersecurity.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/SAE
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO/SAE
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Electrical and electronic components and general system aspects
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 32
+      content: Electrical and electronic components and general system aspects
   ics:
   - code: 43.040.15
     text: Car informatics. On board computer systems
   structuredidentifier:
-    project_number: '70918'
     type: ISO
+    project_number:
+      content: '70918'

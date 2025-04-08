@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO15782-1-2009
-title:
-- content: Certificate management for financial services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Public key certificates'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Certificate management for financial services - Part 1: Public key certificates'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Gestion de certificats pour les services financiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Certificats de clé publique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Gestion de certificats pour les services financiers - Partie 1: Certificats
-    de clé publique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/46547.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/65/46547.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 15782-1:2009
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Certificate management for financial services
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Public key certificates'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Certificate management for financial services - Part 1: Public key certificates'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de certificats pour les services financiers
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Certificats de clé publique'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Gestion de certificats pour les services financiers - Partie 1: Certificats
+    de clé publique'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/46547.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/65/46547.detail.rss
+docidentifier:
+- content: ISO 15782-1:2009
   type: ISO
   primary: true
-- id: ISO 15782-1:2009(E)
+- content: ISO 15782-1:2009(E)
   type: iso-reference
-- id: urn:iso:std:iso:15782:-1:stage-95.99
+- content: urn:iso:std:iso:15782:-1:stage-95.99
   type: URN
 docnumber: '15782'
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2009-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 15782-1:2009 defines a certificate management system for financial industry use for legal and natural persons that includes
     - credentials and certificate contents,
     - Certification Authority systems, including certificates for digital signatures and for encryption key management,
@@ -96,12 +86,9 @@ abstract:
     - Certificate Policy and Certification Practices requirements, or
     - Attribute Certificates.
     While ISO 15782-1:2009 provides for the generation of certificates that could include a public key used for encryption key management, it does not address the generation or transport of keys used for encryption.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 15782-1:2009 defines a certificate management system for financial industry use for legal and natural persons that includes
     - credentials and certificate contents,
     - Certification Authority systems, including certificates for digital signatures and for encryption key management,
@@ -116,62 +103,54 @@ abstract:
     - Certificate Policy and Certification Practices requirements, or
     - Attribute Certificates.
     While ISO 15782-1:2009 provides for the generation of certificates that could include a public key used for encryption key management, it does not address the generation or transport of keys used for encryption.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO15782-1-2003
     type: standard
-    docid:
-    - id: ISO 15782-1:2003
+    formattedref: ISO 15782-1:2003
+    docidentifier:
+    - content: ISO 15782-1:2003
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 15782-1:2003
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO21188-2018
     type: standard
-    docid:
-    - id: ISO 21188:2018
+    formattedref: ISO 21188:2018
+    docidentifier:
+    - content: ISO 21188:2018
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2018-04-09'
-    formattedref:
-      content: ISO 21188:2018
-      format: text/plain
+      at: '2018-04-09'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: 35.240.40
     text: IT applications in banking
   structuredidentifier:
-    project_number: '46547'
     type: ISO
+    project_number:
+      content: '46547'

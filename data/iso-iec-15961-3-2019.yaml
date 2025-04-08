@@ -1,114 +1,101 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC15961-3-2019
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Data protocol for radio frequency identification (RFID) for item management
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Data protocol for radio frequency identification (RFID) for item management
   type: title-main
-- content: 'Part 3: RFID data constructs'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: RFID data constructs'
   type: title-part
-- content: 'Information technology - Data protocol for radio frequency identification
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Data protocol for radio frequency identification
     (RFID) for item management - Part 3: RFID data constructs'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Protocole de données relatif à l'identification par radiofréquence (RFID)
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Protocole de données relatif à l'identification par radiofréquence (RFID)
     pour la gestion d'objets
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Partie 3: Constructions de données RFID'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Constructions de données RFID'
   type: title-part
-- content: 'Technologies de l''information - Protocole de données relatif à l''identification
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Protocole de données relatif à l''identification
     par radiofréquence (RFID) pour la gestion d''objets - Partie 3: Constructions
     de données RFID'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/43632.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:43632:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/36/43632.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC 15961-3:2019
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/43632.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:43632:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/36/43632.detail.rss
+docidentifier:
+- content: ISO/IEC 15961-3:2019
   type: ISO
   primary: true
-- id: ISO/IEC 15961-3:2019(E)
+- content: ISO/IEC 15961-3:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:15961:-3:stage-90.93
+- content: urn:iso:std:iso-iec:15961:-3:stage-90.93
   type: URN
 docnumber: '15961'
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies rules and code structures associated with the data constructs for RFID for item management. In particular, it:
     —          defines the application family identifier (AFI), including the range of code values that are available to use for RFID for item management;
     —          defines the data format, including the range of code values that are available to use for RFID for item management;
@@ -116,12 +103,9 @@ abstract:
     —          specifies the function of the Object Identifier for the Unique Item Identifier (UII);
     —          specifies the function of the Object Identifier for other item attendant data.
     NOTE       Conventionally in International Standards, long numbers are separated by a space character as a "thousands separator". This convention has not been followed in this document because the arcs of an Object Identifier are defined by a space separator (according to ISO/IEC 8824 and ISO/IEC 8825). As the correct representation of these arcs is vital to this document, all numeric values have no space separators except to denote a node between two arcs of an Object Identifier. For additional clarity, Object Identifiers are presented in bold text.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies rules and code structures associated with the data constructs for RFID for item management. In particular, it:
     —          defines the application family identifier (AFI), including the range of code values that are available to use for RFID for item management;
     —          defines the data format, including the range of code values that are available to use for RFID for item management;
@@ -129,48 +113,43 @@ abstract:
     —          specifies the function of the Object Identifier for the Unique Item Identifier (UII);
     —          specifies the function of the Object Identifier for other item attendant data.
     NOTE       Conventionally in International Standards, long numbers are separated by a space character as a "thousands separator". This convention has not been followed in this document because the arcs of an Object Identifier are defined by a space separator (according to ISO/IEC 8824 and ISO/IEC 8825). As the correct representation of these arcs is vital to this document, all numeric values have no space separators except to denote a node between two arcs of an Object Identifier. For additional clarity, Object Identifiers are presented in bold text.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC15961-2004
     type: standard
-    docid:
-    - id: ISO/IEC 15961:2004
+    formattedref: ISO/IEC 15961:2004
+    docidentifier:
+    - content: ISO/IEC 15961:2004
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 15961:2004
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Automatic identification and data capture techniques
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 31
+      content: Automatic identification and data capture techniques
   ics:
   - code: 35.040.50
     text: Automatic identification and data capture techniques
   structuredidentifier:
-    project_number: '43632'
     type: ISO
+    project_number:
+      content: '43632'

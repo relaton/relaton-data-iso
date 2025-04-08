@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO21058-2019
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Dimethyl Ether (DME) refuelling connector
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Road vehicles - Dimethyl Ether (DME) refuelling connector
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Connecteur de remplissage en Dimethyl Ether (DME)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Véhicules routiers - Connecteur de remplissage en Dimethyl Ether (DME)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/69794.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:69794:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/97/69794.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 21058:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Dimethyl Ether (DME) refuelling connector
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Dimethyl Ether (DME) refuelling connector
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Connecteur de remplissage en Dimethyl Ether (DME)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Connecteur de remplissage en Dimethyl Ether (DME)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/69794.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:69794:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/97/69794.detail.rss
+docidentifier:
+- content: ISO 21058:2019
   type: ISO
   primary: true
-- id: ISO 21058:2019(E)
+- content: ISO 21058:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:21058:stage-90.93
+- content: urn:iso:std:iso:21058:stage-90.93
   type: URN
 docnumber: '21058'
 date:
 - type: published
-  value: 2019-12
+  at: 2019-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document applies only to Dimethyl Ether refuelling connectors hereinafter referred to as devices, constructed entirely of new, unused parts and materials. Dimethyl Ether refuelling connectors consist of the following components, as applicable:
     a)   Nozzle (mounted on dispenser side).
     b)   Receptacle (mounted on vehicle).
@@ -91,12 +81,9 @@ abstract:
     This document applies to connectors which prevent Dimethyl Ether vehicles from being fuelled by fuel station dispensers for other gaseous fuels.
     This document is applicable to: Dimethyl Ether in accordance with ISO 16861.
     NOTE       All references to pressures (kPa) throughout this document are considered gauge pressures unless otherwise specified.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document s'applique uniquement aux pistolets et les réceptacles de remplissage en Diméthyl Éther, ci-après dénommés appareils, construits entièrement à partir de pièces neuves et non utilisées, et de matériaux. Les connecteurs de remplissage en Diméthyl Éther sont composés, le cas échéant, des éléments suivants:
     a) pistolet (fixé sur le côté borne de remplissage),
     b) réceptacle (fixé sur le véhicule).
@@ -105,36 +92,34 @@ abstract:
     Ce document s'applique aux connecteurs qui empêchent les véhicules fonctionnant au Diméthyl Éther d'être alimentés par des bornes de stations de remplissage pour d'autres carburants gazeux.
     Ce document est applicable au Diméthyl Éther conformément à la norme ISO 16861.
     NOTE            Toutes les références aux pressions (kPa) dans le présent document sont considérées comme des pressions manométriques, sauf indication contraire.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Specific aspects for gaseous fuels
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 41
+      content: Specific aspects for gaseous fuels
   ics:
   - code: 43.060.40
     text: Fuel systems
   structuredidentifier:
-    project_number: '69794'
     type: ISO
+    project_number:
+      content: '69794'

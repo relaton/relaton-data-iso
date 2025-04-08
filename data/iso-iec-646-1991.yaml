@@ -1,150 +1,133 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC646-1991
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: ISO 7-bit coded character set for information interchange
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - ISO 7-bit coded character set for information
-    interchange
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Jeu ISO de caractères codés à 7 éléments pour l'échange d'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information - Jeu ISO de caractères codés à 7 éléments
-    pour l'échange d'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/4777.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:4777:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/00/47/4777.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 646:1991
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: ISO 7-bit coded character set for information interchange
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - ISO 7-bit coded character set for information
+    interchange
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Jeu ISO de caractères codés à 7 éléments pour l'échange d'information
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Jeu ISO de caractères codés à 7 éléments
+    pour l'échange d'information
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/4777.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4777:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/47/4777.detail.rss
+docidentifier:
+- content: ISO/IEC 646:1991
   type: ISO
   primary: true
-- id: ISO/IEC 646:1991(E)
+- content: ISO/IEC 646:1991(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:646:stage-90.93
+- content: urn:iso:std:iso-iec:646:stage-90.93
   type: URN
 docnumber: '646'
 date:
 - type: published
-  value: 1991-12
+  at: 1991-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 1991-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies a set of 128 control and graphic characters such as letters,
+- language: en
+  script: Latn
+  content: Specifies a set of 128 control and graphic characters such as letters,
     digits and symbols with their coded representation. Applies to alphabets of the
     Latin script.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Specifies a set of 128 control and graphic characters such as letters,
+- language: fr
+  script: Latn
+  content: Specifies a set of 128 control and graphic characters such as letters,
     digits and symbols with their coded representation. Applies to alphabets of the
     Latin script.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO646-1983
     type: standard
-    docid:
-    - id: ISO 646:1983
+    formattedref: ISO 646:1983
+    docidentifier:
+    - content: ISO 646:1983
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 646:1983
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coded character sets
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 2
+      content: Coded character sets
   ics:
   - code: 35.040.10
     text: Coding of character sets
   structuredidentifier:
-    project_number: '4777'
     type: ISO
+    project_number:
+      content: '4777'

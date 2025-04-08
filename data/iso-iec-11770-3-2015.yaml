@@ -1,221 +1,188 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC11770-3-2015
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Security techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Key management -- Part 3: Mechanisms using asymmetric techniques'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Security techniques - Key management -- Part
-    3: Mechanisms using asymmetric techniques'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Techniques de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Gestion de clés -- Partie 3: Mécanismes utilisant des techniques asymétriques'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Techniques de sécurité - Gestion de clés
-    -- Partie 3: Mécanismes utilisant des techniques asymétriques'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/60237.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/06/02/60237.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 11770-3:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Key management -- Part 3: Mechanisms using asymmetric techniques'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Key management -- Part
+    3: Mechanisms using asymmetric techniques'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques de sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Gestion de clés -- Partie 3: Mécanismes utilisant des techniques asymétriques'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Techniques de sécurité - Gestion de clés
+    -- Partie 3: Mécanismes utilisant des techniques asymétriques'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/60237.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/02/60237.detail.rss
+docidentifier:
+- content: ISO/IEC 11770-3:2015
   type: ISO
   primary: true
-- id: ISO/IEC 11770-3:2015(E)
+- content: ISO/IEC 11770-3:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:11770:-3:stage-95.99
+- content: urn:iso:std:iso-iec:11770:-3:stage-95.99
   type: URN
 docnumber: '11770'
 date:
 - type: published
-  value: 2015-08
+  at: 2015-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2015-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 11770-3:2015 defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals: a) establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B by key agreement. In a secret key agreement mechanism, the secret key is computed as the result of a data exchange between the two entities A and B. Neither of them should be able to predetermine the value of the shared secret key; b) establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B via key transport. In a secret key transport mechanism, the secret key is chosen by one entity A and is transferred to another entity B, suitably protected by asymmetric techniques; and c) make an entity's public key available to other entities via key transport. In a public key transport mechanism, the public key of entity A shall be transferred to other entities in an authenticated way, but not requiring secrecy.
     Some of the mechanisms of ISO/IEC 11770-3:2015 are based on the corresponding authentication mechanisms in ISO/IEC 9798‑3.
     ISO/IEC 11770-3:2015 does not cover certain aspects of key management, such as key lifecycle management, mechanisms to generate or validate asymmetric key pairs, and mechanisms to store, archive, delete, destroy, etc. keys.
     While ISO/IEC 11770-3:2015 does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means such as smart cards, etc.
     ISO/IEC 11770-3:2015 does not specify the transformations used in the key management mechanisms.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 11770-3:2015 defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals: a) establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B by key agreement. In a secret key agreement mechanism, the secret key is computed as the result of a data exchange between the two entities A and B. Neither of them should be able to predetermine the value of the shared secret key; b) establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B via key transport. In a secret key transport mechanism, the secret key is chosen by one entity A and is transferred to another entity B, suitably protected by asymmetric techniques; and c) make an entity's public key available to other entities via key transport. In a public key transport mechanism, the public key of entity A shall be transferred to other entities in an authenticated way, but not requiring secrecy.
     Some of the mechanisms of ISO/IEC 11770-3:2015 are based on the corresponding authentication mechanisms in ISO/IEC 9798‑3.
     ISO/IEC 11770-3:2015 does not cover certain aspects of key management, such as key lifecycle management, mechanisms to generate or validate asymmetric key pairs, and mechanisms to store, archive, delete, destroy, etc. keys.
     While ISO/IEC 11770-3:2015 does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means such as smart cards, etc.
     ISO/IEC 11770-3:2015 does not specify the transformations used in the key management mechanisms.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC11770-3-2008
     type: standard
-    docid:
-    - id: ISO/IEC 11770-3:2008
+    formattedref: ISO/IEC 11770-3:2008
+    docidentifier:
+    - content: ISO/IEC 11770-3:2008
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 11770-3:2008
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEC11770-3-2008/Cor1-2009
     type: standard
-    docid:
-    - id: ISO/IEC 11770-3:2008/Cor 1:2009
+    formattedref: ISO/IEC 11770-3:2008/Cor 1:2009
+    docidentifier:
+    - content: ISO/IEC 11770-3:2008/Cor 1:2009
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 11770-3:2008/Cor 1:2009
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC11770-3-2021
     type: standard
-    docid:
-    - id: ISO/IEC 11770-3:2021
+    formattedref: ISO/IEC 11770-3:2021
+    docidentifier:
+    - content: ISO/IEC 11770-3:2021
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-10-22'
-    formattedref:
-      content: ISO/IEC 11770-3:2021
-      format: text/plain
+      at: '2021-10-22'
 - type: updates
   bibitem:
-    id: ISO/IEC11770-3-2015/Cor1-2016
     type: standard
-    docid:
-    - id: ISO/IEC 11770-3:2015/Cor 1:2016
+    formattedref: ISO/IEC 11770-3:2015/Cor 1:2016
+    docidentifier:
+    - content: ISO/IEC 11770-3:2015/Cor 1:2016
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-10-22'
-    formattedref:
-      content: ISO/IEC 11770-3:2015/Cor 1:2016
-      format: text/plain
+      at: '2021-10-22'
 - type: updates
   bibitem:
-    id: ISO/IEC11770-3-2015/Amd1-2017
     type: standard
-    docid:
-    - id: ISO/IEC 11770-3:2015/Amd 1:2017
+    formattedref: ISO/IEC 11770-3:2015/Amd 1:2017
+    docidentifier:
+    - content: ISO/IEC 11770-3:2015/Amd 1:2017
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-10-22'
-    formattedref:
-      content: ISO/IEC 11770-3:2015/Amd 1:2017
-      format: text/plain
+      at: '2021-10-22'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '60237'
     type: ISO
+    project_number:
+      content: '60237'

@@ -1,168 +1,144 @@
 ---
-schema-version: v1.2.9
 id: ISO76-1987
-title:
-- content: Rolling bearings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Static load ratings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Rolling bearings - Static load ratings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Roulements
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Charges statiques de base
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Roulements - Charges statiques de base
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/3721.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/37/3721.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 76:1987
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Rolling bearings
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Static load ratings
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Rolling bearings - Static load ratings
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Roulements
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Charges statiques de base
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Roulements - Charges statiques de base
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/3721.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/37/3721.detail.rss
+docidentifier:
+- content: ISO 76:1987
   type: ISO
   primary: true
-- id: ISO 76:1987(E)
+- content: ISO 76:1987(E)
   type: iso-reference
-- id: urn:iso:std:iso:76:stage-95.99
+- content: urn:iso:std:iso:76:stage-95.99
   type: URN
 docnumber: '76'
 date:
 - type: published
-  value: 1987-02
+  at: 1987-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1987-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: 'This second edition cancels and replaces the first edition (ISO 76 : 1978),
+- language: en
+  script: Latn
+  content: 'This second edition cancels and replaces the first edition (ISO 76 : 1978),
     of which it constitutes a technical revision. Specifies methods of calculating.
     Does not apply to designs where the rolling elements operate directly on a shaft
     or housing surface.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 'This second edition cancels and replaces the first edition (ISO 76 : 1978),
+- language: fr
+  script: Latn
+  content: 'This second edition cancels and replaces the first edition (ISO 76 : 1978),
     of which it constitutes a technical revision. Specifies methods of calculating.
     Does not apply to designs where the rolling elements operate directly on a shaft
     or housing surface.'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO76-1978
     type: standard
-    docid:
-    - id: ISO 76:1978
+    formattedref: ISO 76:1978
+    docidentifier:
+    - content: ISO 76:1978
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 76:1978
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO76-2006
     type: standard
-    docid:
-    - id: ISO 76:2006
+    formattedref: ISO 76:2006
+    docidentifier:
+    - content: ISO 76:2006
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2006-05-05'
-    formattedref:
-      content: ISO 76:2006
-      format: text/plain
+      at: '2006-05-05'
 - type: updates
   bibitem:
-    id: ISO76-1987/Amd1-1999
     type: standard
-    docid:
-    - id: ISO 76:1987/Amd 1:1999
+    formattedref: ISO 76:1987/Amd 1:1999
+    docidentifier:
+    - content: ISO 76:1987/Amd 1:1999
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2006-05-05'
-    formattedref:
-      content: ISO 76:1987/Amd 1:1999
-      format: text/plain
+      at: '2006-05-05'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Load ratings and life
-      number: 4
+    - number: 4
       type: TC
       identifier: ISO/TC 4/SC 8
+      content: Load ratings and life
   ics:
   - code: 21.100.20
     text: Rolling bearings
   structuredidentifier:
-    project_number: '3721'
     type: ISO
+    project_number:
+      content: '3721'

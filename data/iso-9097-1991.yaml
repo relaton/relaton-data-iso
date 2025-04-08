@@ -1,128 +1,113 @@
 ---
-schema-version: v1.2.9
 id: ISO9097-1991
-title:
-- content: Small craft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Electric fans
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Small craft - Electric fans
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Navires de plaisance
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Ventilateurs électriques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Navires de plaisance - Ventilateurs électriques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/16691.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/66/16691.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9097:1991
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Small craft
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electric fans
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Small craft - Electric fans
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Navires de plaisance
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ventilateurs électriques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Navires de plaisance - Ventilateurs électriques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/16691.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/66/16691.detail.rss
+docidentifier:
+- content: ISO 9097:1991
   type: ISO
   primary: true
-- id: ISO 9097:1991(E)
+- content: ISO 9097:1991(E)
   type: iso-reference
-- id: urn:iso:std:iso:9097:stage-95.99
+- content: urn:iso:std:iso:9097:stage-95.99
   type: URN
 docnumber: '9097'
 date:
 - type: published
-  value: 1991-10
+  at: 1991-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1991-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies requirements and describes test methods for measuring the airflow
+- language: en
+  script: Latn
+  content: Specifies requirements and describes test methods for measuring the airflow
     of fans intended for use in engine compartments and similar spaces. Applies to
     fans rated for less than 50 V (d.c.).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale prescrit les caractéristiques des ventilateurs utilisés dans les compartiments moteurs, les cuisines et autres espaces des navires de plaisance où une ventilation mécanique est souhaitable, et prescrit les méthodes d'essai permettant d'en mesurer le débit. Elle est applicable aux ventilateurs marins électriques conçus pour fonctionner à moins de 50 V en courant continu. Ces ventilateurs peuvent être de type centrifuge ou axial.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Small craft
-      number: 188
+    - number: 188
       type: TC
       identifier: ISO/TC 188
+      content: Small craft
   ics:
   - code: '23.120'
     text: Ventilators. Fans. Air-conditioners
   - code: '47.080'
     text: Small craft
   structuredidentifier:
-    project_number: '16691'
     type: ISO
+    project_number:
+      content: '16691'

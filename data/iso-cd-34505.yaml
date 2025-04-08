@@ -1,89 +1,74 @@
 ---
-schema-version: v1.2.8
 id: ISO/CD34505
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Test scenarios for automated driving systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Scenario evaluation and test case generation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Road vehicles - Test scenarios for automated driving systems - Scenario
-    evaluation and test case generation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Scénarios d'essai pour les systèmes de conduite automatisée
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Évaluation de scénarios et génération de cas de test
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Véhicules routiers - Scénarios d'essai pour les systèmes de conduite automatisée
-    - Évaluation de scénarios et génération de cas de test
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78954.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/07/89/78954.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 34505
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Test scenarios for automated driving systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Scenario evaluation and test case generation
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Test scenarios for automated driving systems - Scenario
+    evaluation and test case generation
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Scénarios d'essai pour les systèmes de conduite automatisée
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Évaluation de scénarios et génération de cas de test
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Scénarios d'essai pour les systèmes de conduite automatisée
+    - Évaluation de scénarios et génération de cas de test
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78954.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/89/78954.detail.rss
+docidentifier:
+- content: ISO/CD 34505
   type: ISO
   primary: true
-- id: ISO/CD 34505(E)
+- content: ISO/CD 34505(E)
   type: iso-reference
-- id: urn:iso:std:iso:34505:stage-draft
+- content: urn:iso:std:iso:34505:stage-draft
   type: URN
 docnumber: '34505'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -92,7 +77,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This standard defines a methodology to evaluate the test scenarios and
+- language: en
+  script: Latn
+  content: "This standard defines a methodology to evaluate the test scenarios and
     provides a procedure extending test scenarios to test cases for a given function
     in a traceable way based on the testability. This standard also defines necessary
     characteristics of a test case that include but not limited to test initialization,
@@ -102,12 +89,9 @@ abstract:
     e.g. frequency, criticality, complexity, and the relation between the test scenario
     and the tested function, e.g. coverage of ODD.  \nThe contents are intended to
     be applied to Level 3 and higher ADS defined in ISO/SAE 22736."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This standard defines a methodology to evaluate the test scenarios and
+- language: fr
+  script: Latn
+  content: "This standard defines a methodology to evaluate the test scenarios and
     provides a procedure extending test scenarios to test cases for a given function
     in a traceable way based on the testability. This standard also defines necessary
     characteristics of a test case that include but not limited to test initialization,
@@ -117,36 +101,35 @@ abstract:
     e.g. frequency, criticality, complexity, and the relation between the test scenario
     and the tested function, e.g. coverage of ODD.  \nThe contents are intended to
     be applied to Level 3 and higher ADS defined in ISO/SAE 22736."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Vehicle dynamics, chassis components and driving automation systems testing
-    number: 22
-    type: TC
-    identifier: ISO/TC 22/SC 33
-ics:
-- code: '43.020'
-  text: Road vehicles in general
-structuredidentifier:
-  project_number: ISO 34505
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 22
+      type: TC
+      identifier: ISO/TC 22/SC 33
+      content: Vehicle dynamics, chassis components and driving automation systems
+        testing
+  ics:
+  - code: '43.020'
+    text: Road vehicles in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 34505

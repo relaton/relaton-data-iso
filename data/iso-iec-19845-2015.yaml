@@ -1,143 +1,129 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC19845-2015
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Universal business language version 2.1 (UBL v2.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Universal business language version 2.1 (UBL v2.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologie de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Langage d'affaire universel, version 2.1 (UBL v2.1)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologie de l'information - Langage d'affaire universel, version 2.1
-    (UBL v2.1)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/66370.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:66370:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/63/66370.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 19845:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Universal business language version 2.1 (UBL v2.1)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Universal business language version 2.1 (UBL v2.1)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langage d'affaire universel, version 2.1 (UBL v2.1)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie de l'information - Langage d'affaire universel, version 2.1
+    (UBL v2.1)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/66370.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:66370:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/63/66370.detail.rss
+docidentifier:
+- content: ISO/IEC 19845:2015
   type: ISO
   primary: true
-- id: ISO/IEC 19845:2015(E)
+- content: ISO/IEC 19845:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:19845:stage-90.60
+- content: urn:iso:std:iso-iec:19845:stage-90.60
   type: URN
 docnumber: '19845'
 date:
 - type: published
-  value: 2015-12
+  at: 2015-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2015-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 19845:2015 specifies the OASIS Universal Business Language (UBL), which defines a generic XML interchange format for business documents that can be restricted or extended to meet the requirements of particular industries. Specifically, UBL provides the following:
     -      A suite of structured business objects and their associated semantics expressed as reusable data components and common business documents.
     -      A library of XML schemas for reusable data components such as "Address", "Item", and "Payment", the common data elements of everyday business documents.
     -      A set of XML schemas for common business documents such as "Order", "Despatch Advice", and "Invoice" that are constructed from the UBL library components and can be used in generic procurement and transportation contexts.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 19845:2015 specifies the OASIS Universal Business Language (UBL), which defines a generic XML interchange format for business documents that can be restricted or extended to meet the requirements of particular industries. Specifically, UBL provides the following:
     -      A suite of structured business objects and their associated semantics expressed as reusable data components and common business documents.
     -      A library of XML schemas for reusable data components such as "Address", "Item", and "Payment", the common data elements of everyday business documents.
     -      A set of XML schemas for common business documents such as "Order", "Despatch Advice", and "Invoice" that are constructed from the UBL library components and can be used in generic procurement and transportation contexts.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '66370'
     type: ISO
+    project_number:
+      content: '66370'

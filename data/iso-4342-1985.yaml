@@ -1,146 +1,127 @@
 ---
-schema-version: v1.2.9
 id: ISO4342-1985
-title:
-- content: Numerical control of machines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: NC processor input
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Basic part program reference language
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Numerical control of machines - NC processor input - Basic part program
-    reference language
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Commande numérique des machines
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Données d'entrée des processeurs CN
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Langage de référence de base pour programme de pièce
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Commande numérique des machines - Données d'entrée des processeurs CN -
-    Langage de référence de base pour programme de pièce
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/10220.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:10220:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/02/10220.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 4342:1985
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Numerical control of machines
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: NC processor input
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Basic part program reference language
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Numerical control of machines - NC processor input - Basic part program
+    reference language
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Commande numérique des machines
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Données d'entrée des processeurs CN
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langage de référence de base pour programme de pièce
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Commande numérique des machines - Données d'entrée des processeurs CN -
+    Langage de référence de base pour programme de pièce
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/10220.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:10220:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/02/10220.detail.rss
+docidentifier:
+- content: ISO 4342:1985
   type: ISO
   primary: true
-- id: ISO 4342:1985(E)
+- content: ISO 4342:1985(E)
   type: iso-reference
-- id: urn:iso:std:iso:4342:stage-90.93
+- content: urn:iso:std:iso:4342:stage-90.93
   type: URN
 docnumber: '4342'
 date:
 - type: published
-  value: 1985-12
+  at: 1985-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1985-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Defines a higher-level symbolic part-programming language which is processed
+- language: en
+  script: Latn
+  content: Defines a higher-level symbolic part-programming language which is processed
     by a digital computer to produce a NC machine program. Annex A gives rules for
     representing the RL on punched cards; annex B contains syntax description on the
     reference language; a list of recommended synonyms is given in annex C; annex
     D includes an alphabetical list of major words and locations.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale définit un langage symbolique de niveau supérieur de programmation de pièce, traité par un calculateur numérique pour produire un programme-machine de commande numérique. Ce langage s'applique principalement aux machines-outils à commande numérique. C'est un langage de référence, ce qui ne veut pas nécessairement dire que l'ensemble du langage doit être rendu effectif. Des parties, ou «sous ensembles» du langage pourront être rendus effectifs pour s'adapter à des circonstances particulières.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Industrial cyber and physical device control
-      number: 184
+    - number: 184
       type: TC
       identifier: ISO/TC 184/SC 1
+      content: Industrial cyber and physical device control
   ics:
   - code: 25.040.20
     text: Numerically controlled machines
   structuredidentifier:
-    project_number: '10220'
     type: ISO
+    project_number:
+      content: '10220'

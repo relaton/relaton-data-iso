@@ -1,93 +1,81 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECDIS19777-5
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Computer graphics, image processing and environmental data representation—
+  format: text/plain
+- language: en
+  script: Latn
+  content: Computer graphics, image processing and environmental data representation—
     Extensible 3D (X3D) language bindings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Part 5: Part 5 — C#'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 5: Part 5 — C#'
   type: title-part
-- content: 'Information technology - Computer graphics, image processing and environmental
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Computer graphics, image processing and environmental
     data representation— Extensible 3D (X3D) language bindings - Part 5: Part 5 —
     C#'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
   type: title-main
-- content: 'Partie 5: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 5: Titre manque'
   type: title-part
-- content: 'Titre manque - Partie 5: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Titre manque - Partie 5: Titre manque'
   type: main
-link:
-- content: https://www.iso.org/standard/83754.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:83754:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/37/83754.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC DIS 19777-5
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83754.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:83754:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/37/83754.detail.rss
+docidentifier:
+- content: ISO/IEC DIS 19777-5
   type: ISO
   primary: true
-- id: ISO/IEC DIS 19777-5(E)
+- content: ISO/IEC DIS 19777-5(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:19777:-5:stage-draft
+- content: urn:iso:std:iso-iec:19777:-5:stage-draft
   type: URN
 docnumber: '19777'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -96,50 +84,47 @@ language:
 script:
 - Latn
 abstract:
-- content: "This work specifies a C language binding interface for the ISO/IEC 19775-1
+- language: en
+  script: Latn
+  content: "This work specifies a C language binding interface for the ISO/IEC 19775-1
     Extensible 3D standard. This work includes the following:\n1.\tEnsure text is
     consistent with 19775-2 Extensible 3D (X3D) Scene access interface\n2.\tChanges
     to improve overall document consistency"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This work specifies a C language binding interface for the ISO/IEC 19775-1
+- language: fr
+  script: Latn
+  content: "This work specifies a C language binding interface for the ISO/IEC 19775-1
     Extensible 3D standard. This work includes the following:\n1.\tEnsure text is
     consistent with 19775-2 Extensible 3D (X3D) Scene access interface\n2.\tChanges
     to improve overall document consistency"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Computer graphics, image processing and environmental data representation
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 24
-ics:
-- code: '35.140'
-  text: Computer graphics
-structuredidentifier:
-  project_number: ISO 19777
-  part: '5'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 24
+      content: Computer graphics, image processing and environmental data representation
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 5
+      content: ISO 19777

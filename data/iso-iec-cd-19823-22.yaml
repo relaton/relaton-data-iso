@@ -1,99 +1,85 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECCD19823-22
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Conformance test methods for security service crypto suites
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Conformance test methods for security service crypto suites
   type: title-main
-- content: 'Part 22: Crypto suite SPECK'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 22: Crypto suite SPECK'
   type: title-part
-- content: 'Information technology - Conformance test methods for security service
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Conformance test methods for security service
     crypto suites - Part 22: Crypto suite SPECK'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Méthodes d'essai de conformité pour les suites cryptographiques des services
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Méthodes d'essai de conformité pour les suites cryptographiques des services
     de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Partie 22: Suite cryptographique SPECK'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 22: Suite cryptographique SPECK'
   type: title-part
-- content: 'Technologies de l''information - Méthodes d''essai de conformité pour
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Méthodes d''essai de conformité pour
     les suites cryptographiques des services de sécurité - Partie 22: Suite cryptographique
     SPECK'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/88960.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/89/88960.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC CD 19823-22
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88960.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/89/88960.detail.rss
+docidentifier:
+- content: ISO/IEC CD 19823-22
   type: ISO
   primary: true
-- id: ISO/IEC CD 19823-22(E)
+- content: ISO/IEC CD 19823-22(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:19823:-22:stage-draft
+- content: urn:iso:std:iso-iec:19823:-22:stage-draft
   type: URN
 docnumber: '19823'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -102,7 +88,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document describes methods for determining conformance to the security crypto suite defined in ISO/IEC 29167‑22.
     This document contains conformance tests for all mandatory functions.
     The conformance parameters are the following:
@@ -110,12 +98,9 @@ abstract:
     — protocol including commands and replies;
     — nominal values and tolerances.
     Unless otherwise specified, the tests in this document are intended to be applied exclusively to RFID tags and interrogators defined in the ISO/IEC 18000‑ series using ISO/IEC 29167‑22.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document describes methods for determining conformance to the security crypto suite defined in ISO/IEC 29167‑22.
     This document contains conformance tests for all mandatory functions.
     The conformance parameters are the following:
@@ -123,49 +108,44 @@ abstract:
     — protocol including commands and replies;
     — nominal values and tolerances.
     Unless otherwise specified, the tests in this document are intended to be applied exclusively to RFID tags and interrogators defined in the ISO/IEC 18000‑ series using ISO/IEC 29167‑22.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC19823-22-2019
     type: standard
-    docid:
-    - id: ISO/IEC 19823-22:2019
+    formattedref: ISO/IEC 19823-22:2019
+    docidentifier:
+    - content: ISO/IEC 19823-22:2019
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 19823-22:2019
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Automatic identification and data capture techniques
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 31
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: ISO 19823
-  part: '22'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 31
+      content: Automatic identification and data capture techniques
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 22
+      content: ISO 19823

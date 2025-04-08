@@ -1,161 +1,139 @@
 ---
-schema-version: v1.2.9
 id: ISO13606-2-2008
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Electronic health record communication
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Archetype interchange specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Health informatics - Electronic health record communication - Part 2:
-    Archetype interchange specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Communication du dossier de santé informatisé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2: Spécification d''échange d''archétype'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Informatique de santé - Communication du dossier de santé informatisé
-    - Partie 2: Spécification d''échange d''archétype'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/50119.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/05/01/50119.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 13606-2:2008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electronic health record communication
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Archetype interchange specification'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Health informatics - Electronic health record communication - Part 2:
+    Archetype interchange specification'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Communication du dossier de santé informatisé
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Spécification d''échange d''archétype'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Informatique de santé - Communication du dossier de santé informatisé
+    - Partie 2: Spécification d''échange d''archétype'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/50119.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/01/50119.detail.rss
+docidentifier:
+- content: ISO 13606-2:2008
   type: ISO
   primary: true
-- id: ISO 13606-2:2008(E)
+- content: ISO 13606-2:2008(E)
   type: iso-reference
-- id: urn:iso:std:iso:13606:-2:stage-95.99
+- content: urn:iso:std:iso:13606:-2:stage-95.99
   type: URN
 docnumber: '13606'
 date:
 - type: published
-  value: 2008-12
+  at: 2008-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2008-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 13606-2:2008 specifies the information architecture required for interoperable communications between systems and services that need or provide EHR data. ISO 13606-2:2008 is not intended to specify the internal architecture or database design of such systems.
     The subject of the record or record extract to be communicated is an individual person, and the scope of the communication is predominantly with respect to that person's care.
     Uses of healthcare records for other purposes such as administration, management, research and epidemiology, which require aggregations of individual people's records, are not the focus of ISO 13606-2:2008 but such secondary uses could also find this docuement useful.
     ISO 13606-2:2008 defines an archetype model to be used to represent archetypes when communicated between repositories, and between archetype services. It defines an optional serialized representation, which may be used as an exchange format for communicating individual archetypes. Such communication might, for example, be between archetype libraries or between an archetype service and an EHR persistence or validation service.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 13606-2:2008 specifies the information architecture required for interoperable communications between systems and services that need or provide EHR data. ISO 13606-2:2008 is not intended to specify the internal architecture or database design of such systems.
     The subject of the record or record extract to be communicated is an individual person, and the scope of the communication is predominantly with respect to that person's care.
     Uses of healthcare records for other purposes such as administration, management, research and epidemiology, which require aggregations of individual people's records, are not the focus of ISO 13606-2:2008 but such secondary uses could also find this docuement useful.
     ISO 13606-2:2008 defines an archetype model to be used to represent archetypes when communicated between repositories, and between archetype services. It defines an optional serialized representation, which may be used as an exchange format for communicating individual archetypes. Such communication might, for example, be between archetype libraries or between an archetype service and an EHR persistence or validation service.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO13606-2-2019
     type: standard
-    docid:
-    - id: ISO 13606-2:2019
+    formattedref: ISO 13606-2:2019
+    docidentifier:
+    - content: ISO 13606-2:2019
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2019-06-07'
-    formattedref:
-      content: ISO 13606-2:2019
-      format: text/plain
+      at: '2019-06-07'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '50119'
     type: ISO
+    project_number:
+      content: '50119'

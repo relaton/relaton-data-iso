@@ -1,76 +1,65 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS3151-2
-title:
-- content: Visualization elements of PLM-MES interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: 3D error feedback in heavy industry'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Visualization elements of PLM-MES interface - Part 2: 3D error feedback
-    in heavy industry'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Titre manque - Partie 2: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84702.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:84702:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/47/84702.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 3151-2
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Visualization elements of PLM-MES interface
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: 3D error feedback in heavy industry'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Visualization elements of PLM-MES interface - Part 2: 3D error feedback
+    in heavy industry'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Titre manque'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Titre manque - Partie 2: Titre manque'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84702.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:84702:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/47/84702.detail.rss
+docidentifier:
+- content: ISO/DIS 3151-2
   type: ISO
   primary: true
-- id: ISO/DIS 3151-2(E)
+- content: ISO/DIS 3151-2(E)
   type: iso-reference
-- id: urn:iso:std:iso:3151:-2:stage-draft
+- content: urn:iso:std:iso:3151:-2:stage-draft
   type: URN
 docnumber: '3151'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -79,7 +68,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Scope of the proposed deliverable
 
     This part of the standard specifies a data model of visualization elements for 3D data exchange for error information feedback between Product Lifecycle Management (PLM) and Manufacturing Execution System (MES or MOM: Manufacturing Operations Management) in the plant industry.
@@ -94,12 +85,9 @@ abstract:
     a) Information model of visualization elements for the industry of products with simple and short-lifespan products.
     b) The definition of the method of the data model representing the visualization elements of the PLM-MES interface.
     c) Overall coverage of the PLM-MES interface. A larger outline is covered in ISO TR 3151-1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Scope of the proposed deliverable
 
     This part of the standard specifies a data model of visualization elements for 3D data exchange for error information feedback between Product Lifecycle Management (PLM) and Manufacturing Execution System (MES or MOM: Manufacturing Operations Management) in the plant industry.
@@ -114,37 +102,35 @@ abstract:
     a) Information model of visualization elements for the industry of products with simple and short-lifespan products.
     b) The definition of the method of the data model representing the visualization elements of the PLM-MES interface.
     c) Overall coverage of the PLM-MES interface. A larger outline is covered in ISO TR 3151-1.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Industrial data
-    number: 184
-    type: TC
-    identifier: ISO/TC 184/SC 4
-ics:
-- code: 25.040.40
-  text: Industrial process measurement and control
-structuredidentifier:
-  project_number: ISO 3151
-  part: '2'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 184
+      type: TC
+      identifier: ISO/TC 184/SC 4
+      content: Industrial data
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 2
+      content: ISO 3151

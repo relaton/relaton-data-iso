@@ -1,151 +1,133 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTR10730-1993
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Open Systems Interconnection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Tutorial on naming and addressing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Open Systems Interconnection - Tutorial on naming
-    and addressing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Interconnexion de systèmes ouverts (OSI)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Tutoriel sur la dénomination et l'adressage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Interconnexion de systèmes ouverts (OSI)
-    - Tutoriel sur la dénomination et l'adressage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/18823.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/88/18823.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TR 10730:1993
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Open Systems Interconnection
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Tutorial on naming and addressing
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Open Systems Interconnection - Tutorial on naming
+    and addressing
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interconnexion de systèmes ouverts (OSI)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Tutoriel sur la dénomination et l'adressage
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Interconnexion de systèmes ouverts (OSI)
+    - Tutoriel sur la dénomination et l'adressage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/18823.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/88/18823.detail.rss
+docidentifier:
+- content: ISO/IEC TR 10730:1993
   type: ISO
   primary: true
-- id: ISO/IEC TR 10730:1993(E)
+- content: ISO/IEC TR 10730:1993(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:tr:10730:stage-95.99
+- content: urn:iso:std:iso-iec:tr:10730:stage-95.99
   type: URN
 docnumber: '10730'
 date:
 - type: published
-  value: 1993-04
+  at: 1993-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1993-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Introduces the main concepts and mechanisms which are defined in ISO 7498-3
+- language: en
+  script: Latn
+  content: Introduces the main concepts and mechanisms which are defined in ISO 7498-3
     to fulfil the needs for Naming and Addressing objects in the Open Systems Interconnection
     Environment. Also includes the rationale for some of the important decisions made
     in the Naming and Addressing architecture.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     Le présent Rapport technique présente les principaux concepts et les mécanismes définis dans l'ISO 7498-3 pour répondre aux besoins de dénomination et d'adressage d'objets dans l'environnement d'interconnexion de systèmes ouverts (OSI). Il explique également certaines décisions importantes prises en ce qui concerne l'architecture de dénomination et d'adressage. Bien que l'ISO 7498-3 ne définisse pas de forme spécifique de nom et d'adresse, le présent Rapport technique donne des exemples de formes spécifiques de nom définies dans d'autres normes OSI publiées montrant ainsi comment les concepts et mécanismes définis dans l'ISO 7498-3 ont été appliqués.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: 35.100.01
     text: Open systems interconnection in general
   structuredidentifier:
-    project_number: '18823'
     type: ISO
+    project_number:
+      content: '18823'

@@ -1,165 +1,141 @@
 ---
-schema-version: v1.2.9
 id: ISO10240-2004
-title:
-- content: Small craft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Owner's manual
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Small craft - Owner's manual
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Petits navires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Manuel du propriétaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Petits navires - Manuel du propriétaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/33291.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/32/33291.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 10240:2004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Small craft
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Owner's manual
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Small craft - Owner's manual
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Petits navires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Manuel du propriétaire
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Petits navires - Manuel du propriétaire
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/33291.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/32/33291.detail.rss
+docidentifier:
+- content: ISO 10240:2004
   type: ISO
   primary: true
-- id: ISO 10240:2004(E)
+- content: ISO 10240:2004(E)
   type: iso-reference
-- id: urn:iso:std:iso:10240:stage-95.99
+- content: urn:iso:std:iso:10240:stage-95.99
   type: URN
 docnumber: '10240'
 date:
 - type: published
-  value: 2004-10
+  at: 2004-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2004-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 10240:2004 specifies the information that shall be included in the
+- language: en
+  script: Latn
+  content: ISO 10240:2004 specifies the information that shall be included in the
     owner's manual of small craft of hull length up to 24 m.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: L'ISO 10240:2004 spécifie les informations devant être incluses dans le
+- language: fr
+  script: Latn
+  content: L'ISO 10240:2004 spécifie les informations devant être incluses dans le
     manuel du propriétaire des petits navires d'une longueur de coque inférieure ou
     égale à 24 m.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO10240-1995
     type: standard
-    docid:
-    - id: ISO 10240:1995
+    formattedref: ISO 10240:1995
+    docidentifier:
+    - content: ISO 10240:1995
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 10240:1995
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO10240-2019
     type: standard
-    docid:
-    - id: ISO 10240:2019
+    formattedref: ISO 10240:2019
+    docidentifier:
+    - content: ISO 10240:2019
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2019-12-20'
-    formattedref:
-      content: ISO 10240:2019
-      format: text/plain
+      at: '2019-12-20'
 - type: updates
   bibitem:
-    id: ISO10240-2004/Amd1-2015
     type: standard
-    docid:
-    - id: ISO 10240:2004/Amd 1:2015
+    formattedref: ISO 10240:2004/Amd 1:2015
+    docidentifier:
+    - content: ISO 10240:2004/Amd 1:2015
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2019-12-20'
-    formattedref:
-      content: ISO 10240:2004/Amd 1:2015
-      format: text/plain
+      at: '2019-12-20'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Small craft
-      number: 188
+    - number: 188
       type: TC
       identifier: ISO/TC 188
+      content: Small craft
   ics:
   - code: '47.080'
     text: Small craft
   structuredidentifier:
-    project_number: '33291'
     type: ISO
+    project_number:
+      content: '33291'

@@ -1,156 +1,135 @@
 ---
-schema-version: v1.2.9
 id: ISO1942-2020
-title:
-- content: Dentistry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Dentistry - Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Médecine bucco-dentaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Médecine bucco-dentaire - Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/72249.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:72249:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/22/72249.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 1942:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dentistry
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vocabulary
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Dentistry - Vocabulary
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Médecine bucco-dentaire
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vocabulaire
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Médecine bucco-dentaire - Vocabulaire
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/72249.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:72249:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/22/72249.detail.rss
+docidentifier:
+- content: ISO 1942:2020
   type: ISO
   primary: true
-- id: ISO 1942:2020(E)
+- content: ISO 1942:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:1942:stage-60.60
+- content: urn:iso:std:iso:1942:stage-published
   type: URN
 docnumber: '1942'
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2020-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines terms used in dental product standards.
     This document aims to facilitate the standard development process and the comprehension of standards, and to improve communication with the FDI World Dental Federation, the World Health Organization and other organizations interested in standardization.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document définit les termes utilisés dans les normes de produits pour le domaine dentaire.
     Le présent document vise à faciliter le processus d'élaboration des normes et la compréhension des normes, et à améliorer la communication avec la Fédération dentaire internationale (FDI), l'Organisation mondiale de la santé et d'autres organismes concernés par le domaine de la normalisation.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO1942-2009
     type: standard
-    docid:
-    - id: ISO 1942:2009
+    formattedref: ISO 1942:2009
+    docidentifier:
+    - content: ISO 1942:2009
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 1942:2009
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO1942-2020/DAmd1
     type: standard
-    docid:
-    - id: ISO 1942:2020/DAmd 1
+    formattedref: ISO 1942:2020/DAmd 1
+    docidentifier:
+    - content: ISO 1942:2020/DAM 1
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2020-10-20'
-    formattedref:
-      content: ISO 1942:2020/DAmd 1
-      format: text/plain
+      at: '2020-10-20'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Terminology
-      number: 106
+    - number: 106
       type: TC
       identifier: ISO/TC 106/SC 3
+      content: Terminology
   ics:
   - code: 01.040.11
     text: Health care technology (Vocabularies)
   - code: 11.060.01
     text: Dentistry in general
   structuredidentifier:
-    project_number: '72249'
     type: ISO
+    project_number:
+      content: '72249'

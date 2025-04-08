@@ -1,87 +1,72 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS561
-title:
-- content: Coal
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Coal preparation plant
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Graphical symbols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Coal - Coal preparation plant - Graphical symbols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Coal
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Coal preparation plant
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Graphical symbols
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Coal - Coal preparation plant - Graphical symbols
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78497.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/07/84/78497.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 561
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Coal
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Coal preparation plant
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Graphical symbols
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Coal - Coal preparation plant - Graphical symbols
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Coal
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Coal preparation plant
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Graphical symbols
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Coal - Coal preparation plant - Graphical symbols
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78497.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/84/78497.detail.rss
+docidentifier:
+- content: ISO/DIS 561
   type: ISO
   primary: true
-- id: ISO/DIS 561(E)
+- content: ISO/DIS 561(E)
   type: iso-reference
-- id: urn:iso:std:iso:561:stage-draft
+- content: urn:iso:std:iso:561:stage-draft
   type: URN
 docnumber: '561'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -89,40 +74,39 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '98'
+    content: '98'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO561-1989
     type: standard
-    docid:
-    - id: ISO 561:1989
+    formattedref: ISO 561:1989
+    docidentifier:
+    - content: ISO 561:1989
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 561:1989
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: 'Coal preparation: Terminology and performance'
-      number: 27
+    - number: 27
       type: TC
       identifier: ISO/TC 27/SC 1
+      content: 'Coal preparation: Terminology and performance'
   ics:
   - code: '73.120'
     text: Equipment for processing of minerals
@@ -130,5 +114,6 @@ ext:
     text: Graphical symbols for use on mechanical engineering and construction drawings,
       diagrams, plans, maps and in relevant technical product documentation
   structuredidentifier:
-    project_number: '78497'
     type: ISO
+    project_number:
+      content: '78497'

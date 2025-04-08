@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECCD8801
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information Technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information Technology
   type: title-intro
-- content: 3D Printing and Scanning-- 3D scanned and labeled data Standard Operating
-    Procedure (SOP) for evaluation of modelling from 3D scanned data
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 3D Printing and Scanning-- 3D scanned and labeled data Standard Operating
+    Procedure (SOP) for evaluation of modelling from 3D scanned data
   type: title-main
-- content: Information Technology - 3D Printing and Scanning-- 3D scanned and labeled
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information Technology - 3D Printing and Scanning-- 3D scanned and labeled
     data Standard Operating Procedure (SOP) for evaluation of modelling from 3D scanned
     data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
   type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
   type: main
-link:
-- content: https://www.iso.org/standard/84597.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/45/84597.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC CD 8801
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84597.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/45/84597.detail.rss
+docidentifier:
+- content: ISO/IEC CD 8801
   type: ISO
   primary: true
-- id: ISO/IEC CD 8801(E)
+- content: ISO/IEC CD 8801(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:8801:stage-draft
+- content: urn:iso:std:iso-iec:8801:stage-draft
   type: URN
 docnumber: '8801'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -80,53 +72,50 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document describes a standard operating procedure (SOP) of a test dataset for the evaluation of modelling from 3D scanned data in the aspect of Information Technology.
 
     This document classifies the main task phases and defines the required tasks in each phase on test data SOP.
 
     This document defines essential requirements of test data for evaluation of modelling from 3D scanned data and describing how to check them.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document describes a standard operating procedure (SOP) of a test dataset for the evaluation of modelling from 3D scanned data in the aspect of Information Technology.
 
     This document classifies the main task phases and defines the required tasks in each phase on test data SOP.
 
     This document defines essential requirements of test data for evaluation of modelling from 3D scanned data and describing how to check them.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Information technology
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1
-ics:
-- code: '35.020'
-  text: Information technology (IT) in general
-structuredidentifier:
-  project_number: ISO 8801
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1
+      content: Information technology
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 8801

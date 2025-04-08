@@ -1,92 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS15801
-title:
-- content: Document management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Electronically stored information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Requirements for trustworthiness and reliability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Document management - Electronically stored information - Requirements
-    for trustworthiness and reliability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Gestion de document
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Information stockée électroniquement
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Exigences pour contribuer à l'intégrité et à la fiabilité des informations
-    stockées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Gestion de document - Information stockée électroniquement - Exigences
-    pour contribuer à l'intégrité et à la fiabilité des informations stockées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86917.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:86917:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/69/86917.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 15801
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Document management
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electronically stored information
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Requirements for trustworthiness and reliability
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Document management - Electronically stored information - Requirements
+    for trustworthiness and reliability
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de document
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information stockée électroniquement
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences pour contribuer à l'intégrité et à la fiabilité des informations
+    stockées
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de document - Information stockée électroniquement - Exigences
+    pour contribuer à l'intégrité et à la fiabilité des informations stockées
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86917.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:86917:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/69/86917.detail.rss
+docidentifier:
+- content: ISO/DIS 15801
   type: ISO
   primary: true
-- id: ISO/DIS 15801(E)
+- content: ISO/DIS 15801(E)
   type: iso-reference
-- id: urn:iso:std:iso:15801:stage-draft
+- content: urn:iso:std:iso:15801:stage-draft
   type: URN
 docnumber: '15801'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -95,61 +80,55 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the implementation and operation of information management systems that stores and make available for use electronically stored information (ESI) in a trustworthy and reliable manner. Such ESI can be of any type, including “page based” information, information in databases and audio/video information.
     This document is for use by any organization that uses information management systems to store trustworthy ESI over time.  Such systems incorporate policies, procedures, technology and audit requirements that ensure that trustworthiness of the ESI is maintained.
     This document does not cover processes used to evaluate whether ESI can be considered to be trustworthy prior to it being stored or imported into the system. However, it can be used to demonstrate that, once the electronic information is stored, output from the system will be a true and accurate reproduction of the ESI created and/or imported.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies the implementation and operation of information management systems that stores and make available for use electronically stored information (ESI) in a trustworthy and reliable manner. Such ESI can be of any type, including “page based” information, information in databases and audio/video information.
     This document is for use by any organization that uses information management systems to store trustworthy ESI over time.  Such systems incorporate policies, procedures, technology and audit requirements that ensure that trustworthiness of the ESI is maintained.
     This document does not cover processes used to evaluate whether ESI can be considered to be trustworthy prior to it being stored or imported into the system. However, it can be used to demonstrate that, once the electronic information is stored, output from the system will be a true and accurate reproduction of the ESI created and/or imported.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TR15801-2017
     type: standard
-    docid:
-    - id: ISO/TR 15801:2017
+    formattedref: ISO/TR 15801:2017
+    docidentifier:
+    - content: ISO/TR 15801:2017
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TR 15801:2017
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Quality, preservation and integrity of information
-      number: 171
+    - number: 171
       type: TC
       identifier: ISO/TC 171/SC 1
+      content: Quality, preservation and integrity of information
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '86917'
     type: ISO
+    project_number:
+      content: '86917'

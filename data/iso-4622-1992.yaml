@@ -1,96 +1,83 @@
 ---
-schema-version: v1.2.9
 id: ISO4622-1992
-title:
-- content: Paints and varnishes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Pressure test for stackability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Paints and varnishes - Pressure test for stackability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Peintures et vernis
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Essai de pression pour aptitude à l'empilement
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Peintures et vernis - Essai de pression pour aptitude à l'empilement
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/10570.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/05/10570.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 4622:1992
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Paints and varnishes
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Pressure test for stackability
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Paints and varnishes - Pressure test for stackability
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Peintures et vernis
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essai de pression pour aptitude à l'empilement
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Peintures et vernis - Essai de pression pour aptitude à l'empilement
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/10570.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/05/10570.detail.rss
+docidentifier:
+- content: ISO 4622:1992
   type: ISO
   primary: true
-- id: ISO 4622:1992(E)
+- content: ISO 4622:1992(E)
   type: iso-reference
-- id: urn:iso:std:iso:4622:stage-95.99
+- content: urn:iso:std:iso:4622:stage-95.99
   type: URN
 docnumber: '4622'
 date:
 - type: published
-  value: 1992-12
+  at: 1992-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1992-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies a test method for determining, under standard conditions, whether
+- language: en
+  script: Latn
+  content: Specifies a test method for determining, under standard conditions, whether
     a single-coat film or a multi-coat system of paints after a specified drying period
     is sufficiently dry to resist damage when two painted surfaces or one painted
     surface and another surface are placed in contact under pressure. For any particular
     application, it needs to be completed by supplementary information.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "\nLa présente Norme internationale fait partie d'une série de normes traitant
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale fait partie d'une série de normes traitant
     de l'échantillonnage et des essais des peintures, vernis et produits assimilés.
     Elle prescrit une méthode d'essai pour déterminer, dans des conditions normalisées,
     si un feuil en simple couche ou un système multicouche de peintures ou de produits
@@ -100,62 +87,54 @@ abstract:
     les conditions auxquelles sont soumis des articles peints lorsqu'ils sont empilés
     les uns sur les autres.  \nNOTE 1 Dans certains pays, l'essai est qualifié d'essai
     «bloc».\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO4622-1980
     type: standard
-    docid:
-    - id: ISO 4622:1980
+    formattedref: ISO 4622:1980
+    docidentifier:
+    - content: ISO 4622:1980
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 4622:1980
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO9117-2-2010
     type: standard
-    docid:
-    - id: ISO 9117-2:2010
+    formattedref: ISO 9117-2:2010
+    docidentifier:
+    - content: ISO 9117-2:2010
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2010-02-25'
-    formattedref:
-      content: ISO 9117-2:2010
-      format: text/plain
+      at: '2010-02-25'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: General test methods for paints and varnishes
-      number: 35
+    - number: 35
       type: TC
       identifier: ISO/TC 35/SC 9
+      content: General test methods for paints and varnishes
   ics:
   - code: '87.040'
     text: Paints and varnishes
   structuredidentifier:
-    project_number: '10570'
     type: ISO
+    project_number:
+      content: '10570'

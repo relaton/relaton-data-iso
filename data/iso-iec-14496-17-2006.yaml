@@ -1,156 +1,138 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC14496-17-2006
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Coding of audio-visual objects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 17: Streaming text format'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Coding of audio-visual objects - Part 17: Streaming
-    text format'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Codage des objets audiovisuels
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 17: Format de texte en flux'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
-    17: Format de texte en flux'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/39478.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:39478:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/94/39478.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 14496-17:2006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Coding of audio-visual objects
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 17: Streaming text format'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Coding of audio-visual objects - Part 17: Streaming
+    text format'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Codage des objets audiovisuels
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 17: Format de texte en flux'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
+    17: Format de texte en flux'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/39478.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:39478:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/94/39478.detail.rss
+docidentifier:
+- content: ISO/IEC 14496-17:2006
   type: ISO
   primary: true
-- id: ISO/IEC 14496-17:2006(E)
+- content: ISO/IEC 14496-17:2006(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:14496:-17:stage-90.60
+- content: urn:iso:std:iso-iec:14496:-17:stage-90.60
   type: URN
 docnumber: '14496'
 date:
 - type: published
-  value: 2006-04
+  at: 2006-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2006-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 14496-17:2006 was developed in response to the need for a generic method for coding of text at very low bitrate as one of the multimedia components within an audiovisual presentation. ISO/IEC 14496-17:2006 allows for example subtitles and Karaoke song texts to be coded and transported as separate text streams at bitrates that are sufficently low for use in mobile services over IP. Target applications are in particular found in areas with severe transmission bandwidth constraints, such as mobile services over IP. However, services over broadband IP, over broadcast channels and over optical media may also benefit from the low bandwidth of ISO/IEC 14496-17:2006 text streams.
     ISO/IEC 14496-17:2006 specifies a text stream as a concatenation of text access units. A text access unit contains text information of a specific format. For each text stream, the format of the text information within the text access units is signalled. Each text access unit within a text stream is intended to be displayed at a specific instance in time. Note that ISO/IEC 14496-17:2006 signals the format of the text contained in text access units, but that it does not contain any text format specification.
     Within ISO/IEC 14496-17:2006, a particular instance of text streams are 3GPP text streams. Each text access unit contained in a 3GPP text stream carries 3GPP Timed Text data, as specified in 3GPP TS 26.245. For 3GPP text streams, ISO/IEC 14496-17:2006 defines a generic framing structure suitable for transport of 3GPP text streams across a variety of networks, such as RTP for transport over IP, and MPEG-2 Systems for use in media such as broadcast and optical discs.
     The flexible framing structure for text streams, consisting of so-called TTUs (Timed Text Units), allows for easy and convenient adaptation to the various transport layers. By using TTUs, multiple small text access units can be aggregated into one transport packet, but TTUs can also be used to fragment large text access units across multiple transport packets, while providing a reasonable level of error resilience in case of packet loss or non-recoverable packet errors. For each transport layer, the most suitable TTU structure can be chosen. If so desired, the text access units can be re-partitioned into TTUs for most effective adaptation to other transport systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 14496-17:2006 was developed in response to the need for a generic method for coding of text at very low bitrate as one of the multimedia components within an audiovisual presentation. ISO/IEC 14496-17:2006 allows for example subtitles and Karaoke song texts to be coded and transported as separate text streams at bitrates that are sufficently low for use in mobile services over IP. Target applications are in particular found in areas with severe transmission bandwidth constraints, such as mobile services over IP. However, services over broadband IP, over broadcast channels and over optical media may also benefit from the low bandwidth of ISO/IEC 14496-17:2006 text streams.
     ISO/IEC 14496-17:2006 specifies a text stream as a concatenation of text access units. A text access unit contains text information of a specific format. For each text stream, the format of the text information within the text access units is signalled. Each text access unit within a text stream is intended to be displayed at a specific instance in time. Note that ISO/IEC 14496-17:2006 signals the format of the text contained in text access units, but that it does not contain any text format specification.
     Within ISO/IEC 14496-17:2006, a particular instance of text streams are 3GPP text streams. Each text access unit contained in a 3GPP text stream carries 3GPP Timed Text data, as specified in 3GPP TS 26.245. For 3GPP text streams, ISO/IEC 14496-17:2006 defines a generic framing structure suitable for transport of 3GPP text streams across a variety of networks, such as RTP for transport over IP, and MPEG-2 Systems for use in media such as broadcast and optical discs.
     The flexible framing structure for text streams, consisting of so-called TTUs (Timed Text Units), allows for easy and convenient adaptation to the various transport layers. By using TTUs, multiple small text access units can be aggregated into one transport packet, but TTUs can also be used to fragment large text access units across multiple transport packets, while providing a reasonable level of error resilience in case of packet loss or non-recoverable packet errors. For each transport layer, the most suitable TTU structure can be chosen. If so desired, the text access units can be re-partitioned into TTUs for most effective adaptation to other transport systems.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    project_number: '39478'
     type: ISO
+    project_number:
+      content: '39478'

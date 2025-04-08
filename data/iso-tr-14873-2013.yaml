@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO/TR14873-2013
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Statistics and quality issues for web archiving
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - Statistics and quality issues for web archiving
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Statistiques et indicateurs de qualité pour l'archivage du web
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Statistiques et indicateurs de qualité pour
-    l'archivage du web
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/55211.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:55211:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/52/55211.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TR 14873:2013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Statistics and quality issues for web archiving
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - Statistics and quality issues for web archiving
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Statistiques et indicateurs de qualité pour l'archivage du web
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Statistiques et indicateurs de qualité pour
+    l'archivage du web
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/55211.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:55211:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/52/55211.detail.rss
+docidentifier:
+- content: ISO/TR 14873:2013
   type: ISO
   primary: true
-- id: ISO/TR 14873:2013(E)
+- content: ISO/TR 14873:2013(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:14873:stage-60.60
+- content: urn:iso:std:iso:tr:14873:stage-published
   type: URN
 docnumber: '14873'
 date:
 - type: published
-  value: 2013-12
+  at: 2013-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2013-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO/TR 14873:2013 defines statistics, terms and quality criteria for Web
+- language: en
+  script: Latn
+  content: "ISO/TR 14873:2013 defines statistics, terms and quality criteria for Web
     archiving. It considers the needs and practices across a wide range of organisations
     such as libraries, archives, museums, research centres and heritage foundations.
     \nISO/TR 14873:2013 is intended for professionals directly involved in Web archiving.
@@ -93,12 +83,9 @@ abstract:
     computer science, management and librarianship.\nISO/TR 14873:2013 essentially
     focuses on Web archiving principles and methods and does not encompass alternative
     ways of collecting Internet resources."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO/TR 14873:2013 defines statistics, terms and quality criteria for Web
+- language: fr
+  script: Latn
+  content: "ISO/TR 14873:2013 defines statistics, terms and quality criteria for Web
     archiving. It considers the needs and practices across a wide range of organisations
     such as libraries, archives, museums, research centres and heritage foundations.
     \nISO/TR 14873:2013 is intended for professionals directly involved in Web archiving.
@@ -108,36 +95,34 @@ abstract:
     computer science, management and librarianship.\nISO/TR 14873:2013 essentially
     focuses on Web archiving principles and methods and does not encompass alternative
     ways of collecting Internet resources."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TR
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TR
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Quality - Statistics and performance evaluation
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 8
+      content: Quality - Statistics and performance evaluation
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '55211'
     type: ISO
+    project_number:
+      content: '55211'

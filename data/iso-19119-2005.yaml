@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO19119-2005
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Services
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Services
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/39890.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/98/39890.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19119:2005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Services
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Services
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Services
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/39890.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/98/39890.detail.rss
+docidentifier:
+- content: ISO 19119:2005
   type: ISO
   primary: true
-- id: ISO 19119:2005(E)
+- content: ISO 19119:2005(E)
   type: iso-reference
-- id: urn:iso:std:iso:19119:stage-95.99
+- content: urn:iso:std:iso:19119:stage-95.99
   type: URN
 docnumber: '19119'
 date:
 - type: published
-  value: 2005-02
+  at: 2005-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2005-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 19119:2005 identifies and defines the architecture patterns for service
+- language: en
+  script: Latn
+  content: ISO 19119:2005 identifies and defines the architecture patterns for service
     interfaces used for geographic information, defines its relationship to the Open
     Systems Environment model, presents a geographic services taxonomy and a list
     of example geographic services placed in the services taxonomy. It also prescribes
@@ -88,12 +78,9 @@ abstract:
     platform-specific service specifications, and provides guidelines for the selection
     and specification of geographic services from both platform-neutral and platform-specific
     perspectives.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: L'ISO 19119:2005 identifie et définit des schémas architecturaux relatifs
+- language: fr
+  script: Latn
+  content: L'ISO 19119:2005 identifie et définit des schémas architecturaux relatifs
     aux interfaces de service utilisées pour les informations géographiques et des
     relations avec le modèle OSE (Environnement de systèmes ouverts), présente une
     taxonomie des services géographiques et une liste d'exemples de services géographiques
@@ -103,65 +90,57 @@ abstract:
     directrices pour la sélection et la spécification des services géographiques suivant
     des perspectives aussi bien propres à la plate-forme qu'applicables à toutes les
     plates-formes.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO19119-2016
     type: standard
-    docid:
-    - id: ISO 19119:2016
+    formattedref: ISO 19119:2016
+    docidentifier:
+    - content: ISO 19119:2016
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2016-01-18'
-    formattedref:
-      content: ISO 19119:2016
-      format: text/plain
+      at: '2016-01-18'
 - type: updates
   bibitem:
-    id: ISO19119-2005/Amd1-2008
     type: standard
-    docid:
-    - id: ISO 19119:2005/Amd 1:2008
+    formattedref: ISO 19119:2005/Amd 1:2008
+    docidentifier:
+    - content: ISO 19119:2005/Amd 1:2008
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2016-01-18'
-    formattedref:
-      content: ISO 19119:2005/Amd 1:2008
-      format: text/plain
+      at: '2016-01-18'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '39890'
     type: ISO
+    project_number:
+      content: '39890'

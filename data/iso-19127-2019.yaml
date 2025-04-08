@@ -1,153 +1,132 @@
 ---
-schema-version: v1.2.9
 id: ISO19127-2019
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Geodetic register
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Geodetic register
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Registre géodésiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Registre géodésiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/67252.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:67252:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/72/67252.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19127:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geodetic register
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Geodetic register
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Registre géodésiques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Registre géodésiques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/67252.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:67252:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/72/67252.detail.rss
+docidentifier:
+- content: ISO 19127:2019
   type: ISO
   primary: true
-- id: ISO 19127:2019(E)
+- content: ISO 19127:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:19127:stage-90.92
+- content: urn:iso:std:iso:19127:stage-90.92
   type: URN
 docnumber: '19127'
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This document defines the management and operations of the ISO geodetic
+- language: en
+  script: Latn
+  content: This document defines the management and operations of the ISO geodetic
     register and identifies the data elements, in accordance with ISO 19111:2007 and
     the core schema within ISO 19135‑1:2015, required within the geodetic register.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document defines the management and operations of the ISO geodetic
+- language: fr
+  script: Latn
+  content: This document defines the management and operations of the ISO geodetic
     register and identifies the data elements, in accordance with ISO 19111:2007 and
     the core schema within ISO 19135‑1:2015, required within the geodetic register.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS19127-2005
     type: standard
-    docid:
-    - id: ISO/TS 19127:2005
+    formattedref: ISO/TS 19127:2005
+    docidentifier:
+    - content: ISO/TS 19127:2005
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 19127:2005
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/CD19127
     type: standard
-    docid:
-    - id: ISO/CD 19127
+    formattedref: ISO/CD 19127
+    docidentifier:
+    - content: ISO/CD 19127
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/CD 19127
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: '07.040'
     text: Astronomy. Geodesy. Geography
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '67252'
     type: ISO
+    project_number:
+      content: '67252'

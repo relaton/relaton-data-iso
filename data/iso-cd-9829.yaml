@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/CD9829
-title:
-- content: Healthcare organization management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Pandemic response
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Contact tracing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Healthcare organization management - Pandemic response - Contact tracing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85550.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/55/85550.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 9829
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Healthcare organization management
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Pandemic response
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Contact tracing
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Healthcare organization management - Pandemic response - Contact tracing
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85550.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/55/85550.detail.rss
+docidentifier:
+- content: ISO/CD 9829
   type: ISO
   primary: true
-- id: ISO/CD 9829(E)
+- content: ISO/CD 9829(E)
   type: iso-reference
-- id: urn:iso:std:iso:9829:stage-draft
+- content: urn:iso:std:iso:9829:stage-draft
   type: URN
 docnumber: '9829'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -76,57 +65,54 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document specifies the contact tracing of the confirmed cases of
+- language: en
+  script: Latn
+  content: "This document specifies the contact tracing of the confirmed cases of
     infectious diseases for a public health emergency (PHE) response. The scope of
     the document includes:\n\n\x9F overview and general procedures of contact tracing\n\n\x9F
     requirements and privacy protection guidance in contact tracing The procedures
     given in this document may be applicable to the contact tracing except that the
     procedures do not follow the regulations or laws, where the procedures are applied."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document specifies the contact tracing of the confirmed cases of
+- language: fr
+  script: Latn
+  content: "This document specifies the contact tracing of the confirmed cases of
     infectious diseases for a public health emergency (PHE) response. The scope of
     the document includes:\n\n\x9F overview and general procedures of contact tracing\n\n\x9F
     requirements and privacy protection guidance in contact tracing The procedures
     given in this document may be applicable to the contact tracing except that the
     procedures do not follow the regulations or laws, where the procedures are applied."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Healthcare organization management
-    number: 304
-    type: TC
-    identifier: ISO/TC 304
-ics:
-- code: '13.100'
-  text: Occupational safety. Industrial hygiene
-- code: 03.100.01
-  text: Company organization and management in general
-- code: 11.020.10
-  text: Health care services in general
-structuredidentifier:
-  project_number: ISO 9829
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 304
+      type: TC
+      identifier: ISO/TC 304
+      content: Healthcare organization management
+  ics:
+  - code: '13.100'
+    text: Occupational safety. Industrial hygiene
+  - code: 03.100.01
+    text: Company organization and management in general
+  - code: 11.020.10
+    text: Health care services in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 9829

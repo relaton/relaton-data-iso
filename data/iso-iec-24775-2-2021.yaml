@@ -1,110 +1,97 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC24775-2-2021
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Storage management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Common Architecture'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Storage management - Part 2: Common Architecture'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information technology
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Storage management
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Common Architecture'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Storage management - Part 2: Common Architecture'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81142.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:81142:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/11/81142.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 24775-2:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Storage management
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Common Architecture'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Storage management - Part 2: Common Architecture'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Storage management
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Part 2: Common Architecture'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Information technology - Storage management - Part 2: Common Architecture'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81142.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81142:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/11/81142.detail.rss
+docidentifier:
+- content: ISO/IEC 24775-2:2021
   type: ISO
   primary: true
-- id: ISO/IEC 24775-2:2021(E)
+- content: ISO/IEC 24775-2:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:24775:-2:stage-60.60
+- content: urn:iso:std:iso-iec:24775:-2:stage-published
   type: URN
 docnumber: '24775'
 date:
 - type: published
-  value: 2021-03
+  at: 2021-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2021-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Storage Management Technical Specification, Part 2 Common Architecture, 1.8.0 Rev 4 defines the core architecture and protocols in SMI-S. The components of SMI-S architecture include:
     - Transport - communicating management information between constituents of the management system
     - Health and fault management - detecting failures through monitoring the state of storage components
@@ -114,12 +101,9 @@ abstract:
     - Service discovery - techniques clients use to discover SMI-S services
     - Installation and upgrade - recommendations for implementations
     - Compliance - requirement for compliance to the standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Storage Management Technical Specification, Part 2 Common Architecture, 1.8.0 Rev 4 defines the core architecture and protocols in SMI-S. The components of SMI-S architecture include:
     - Transport - communicating management information between constituents of the management system
     - Health and fault management - detecting failures through monitoring the state of storage components
@@ -129,48 +113,43 @@ abstract:
     - Service discovery - techniques clients use to discover SMI-S services
     - Installation and upgrade - recommendations for implementations
     - Compliance - requirement for compliance to the standard
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC24775-2-2014
     type: standard
-    docid:
-    - id: ISO/IEC 24775-2:2014
+    formattedref: ISO/IEC 24775-2:2014
+    docidentifier:
+    - content: ISO/IEC 24775-2:2014
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 24775-2:2014
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment
   structuredidentifier:
-    project_number: '81142'
     type: ISO
+    project_number:
+      content: '81142'

@@ -1,68 +1,59 @@
 ---
-schema-version: v1.2.8
 id: ISO/DIS55000
-title:
-- content: Asset management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Overview, principles and vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Asset management - Overview, principles and vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83053.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:83053:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/30/83053.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 55000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Asset management
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Overview, principles and vocabulary
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Asset management - Overview, principles and vocabulary
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83053.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:83053:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/30/83053.detail.rss
+docidentifier:
+- content: ISO/DIS 55000
   type: ISO
   primary: true
-- id: ISO/DIS 55000(E)
+- content: ISO/DIS 55000(E)
   type: iso-reference
-- id: urn:iso:std:iso:55000:stage-draft
+- content: urn:iso:std:iso:55000:stage-draft
   type: URN
 docnumber: '55000'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -71,62 +62,56 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 55000:2014 provides an overview of asset management, its principles and terminology, and the expected benefits from adopting asset management.
     ISO 55000:2014 can be applied to all types of assets and by all types and sizes of organizations.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 55000:2014 donne un aperçu général de la gestion d'actifs, de ses principes et de la terminologie, ainsi que des bénéfices susceptibles d'être obtenus grâce à la mise en oeuvre d'une gestion d'actifs.
     L'ISO 55000:2014 peut être appliquée à tous les types d'actifs ainsi que par tous les types et toutes les tailles d'organisations.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO55000-2014
     type: standard
-    docid:
-    - id: ISO 55000:2014
+    formattedref: ISO 55000:2014
+    docidentifier:
+    - content: ISO 55000:2014
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 55000:2014
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Asset management
-    number: 251
-    type: TC
-    identifier: ISO/TC 251
-ics:
-- code: 01.040.03
-  text: Services. Company organization, management and quality. Administration. Transport.
-    Sociology. (Vocabularies)
-- code: 03.100.01
-  text: Company organization and management in general
-structuredidentifier:
-  project_number: ISO 55000
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 251
+      type: TC
+      identifier: ISO/TC 251
+      content: Asset management
+  ics:
+  - code: 01.040.03
+    text: Services. Company organization, management and quality. Administration.
+      Transport. Sociology. (Vocabularies)
+  - code: 03.100.01
+    text: Company organization and management in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 55000

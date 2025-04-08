@@ -1,116 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO10202-6-1994
+type: standard
+schema_version: v1.4.1
 title:
-- content: Financial transaction cards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Financial transaction cards
   type: title-intro
-- content: Security architecture of financial transaction systems using integrated
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security architecture of financial transaction systems using integrated
     circuit cards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Part 6: Cardholder verification'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 6: Cardholder verification'
   type: title-part
-- content: 'Financial transaction cards - Security architecture of financial transaction
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Financial transaction cards - Security architecture of financial transaction
     systems using integrated circuit cards - Part 6: Cardholder verification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Cartes de transactions financières
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Cartes de transactions financières
   type: title-intro
-- content: Architecture de sécurité des systèmes de transactions financières utilisant
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Architecture de sécurité des systèmes de transactions financières utilisant
     des cartes à circuit intégré
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Partie 6: Vérification du porteur de carte'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 6: Vérification du porteur de carte'
   type: title-part
-- content: 'Cartes de transactions financières - Architecture de sécurité des systèmes
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Cartes de transactions financières - Architecture de sécurité des systèmes
     de transactions financières utilisant des cartes à circuit intégré - Partie 6:
     Vérification du porteur de carte'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/18233.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/82/18233.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 10202-6:1994
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/18233.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/82/18233.detail.rss
+docidentifier:
+- content: ISO 10202-6:1994
   type: ISO
   primary: true
-- id: ISO 10202-6:1994(E)
+- content: ISO 10202-6:1994(E)
   type: iso-reference
-- id: urn:iso:std:iso:10202:-6:stage-95.99
+- content: urn:iso:std:iso:10202:-6:stage-95.99
   type: URN
 docnumber: '10202'
 date:
 - type: published
-  value: 1994-12
+  at: 1994-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1994-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the requirements for the security of cardholder verification
+- language: en
+  script: Latn
+  content: Specifies the requirements for the security of cardholder verification
     when a discrete cardholder identification value (CIV), e.g. a personal identification
     number (PIN), is used in conjunction with an integrated circuit card (ICC), which
     may or may not contain magnetic stripes. The purpose of cardholder verification
     is to determine that the card presenter is the cardholder. ISO 9564-1 applies
     except for the clauses which cover those aspects specific to the use of an ICC.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "\nLa présente partie de l'ISO 10202 prescrit les mesures de sécurité associées
+- language: fr
+  script: Latn
+  content: "\nLa présente partie de l'ISO 10202 prescrit les mesures de sécurité associées
     à la vérification du porteur de carte à circuit intégré (ICC), munie ou non de
     pistes magnétiques, à l'aide d'un identificateur de titulaire de carte (CIV) discret,
     tel qu'un numéro personnel d'identification (PIN). L'objectif de la vérification
@@ -135,36 +118,34 @@ abstract:
     soit au niveau du fichier de données communes (CDF), soit au niveau du fichier
     de données d'application (ADF).  \nNOTE 2 Les termes émetteur de la carte et prestataire
     s'étendent aux agents agréés par l'un o\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    project_number: '18233'
     type: ISO
+    project_number:
+      content: '18233'

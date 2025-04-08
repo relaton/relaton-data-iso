@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO3915-1981
-title:
-- content: Plastics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Measurement of resistivity of conductive plastics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Plastics - Measurement of resistivity of conductive plastics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Plastiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mesurage de la résistivité des plastiques conducteurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Plastiques - Mesurage de la résistivité des plastiques conducteurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/9547.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/95/9547.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3915:1981
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Plastics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Measurement of resistivity of conductive plastics
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Plastics - Measurement of resistivity of conductive plastics
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Plastiques
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mesurage de la résistivité des plastiques conducteurs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Plastiques - Mesurage de la résistivité des plastiques conducteurs
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/9547.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/95/9547.detail.rss
+docidentifier:
+- content: ISO 3915:1981
   type: ISO
   primary: true
-- id: ISO 3915:1981(E)
+- content: ISO 3915:1981(E)
   type: iso-reference
-- id: urn:iso:std:iso:3915:stage-95.99
+- content: urn:iso:std:iso:3915:stage-95.99
   type: URN
 docnumber: '3915'
 date:
 - type: published
-  value: 1981-11
+  at: 1981-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1981-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the requirements for the laboratory testing of the resistivity
+- language: en
+  script: Latn
+  content: Specifies the requirements for the laboratory testing of the resistivity
     of specially prepared specimens of plastics made conductive by the incorporation
     of carbon black. The test is suitable for materials having a resistivity of less
     than 104 Ohm x m. A stable d.c. current is passed between electrodes at the ends
@@ -88,59 +78,51 @@ abstract:
     drop between the two potential electrodes, set on the test piece while the current
     flows, is measured with an electrometer. The resistance of the portion of the
     test piece between the potential electrodes is independent of contact resistances.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale spécifie les conditions requises pour l'essai en laboratoire de la résistivité transversale 'éprouvettes de plastique spécialement préparées et rendues conductrices par l'addition de noir de carbone. L'essai convient à des matériaux ayant une résistivité inférieure à 10 puissance 6 ohms.cm (10 puissance 4 ohms.m). Le résultat n'est pas la résistivité transversale au sens strict, à cause de la conduction de surface, mais les effets de cette dernière sont généralement négligeables.  Le principe de la méthode d'essai à quatre bornes est obligatoire et il faut absolument s'en tenir, dans le cas d'essais de référence, aux recommandations en matière de dimensions d'éprouvette et de modèle d'électrode; cependant, il peut être parfois nécessaire d'effectuer l'essai sur une languette plus large et des électrodes d'un modèle différent.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1981'
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO3915-2022
     type: standard
-    docid:
-    - id: ISO 3915:2022
+    formattedref: ISO 3915:2022
+    docidentifier:
+    - content: ISO 3915:2022
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-02-18'
-    formattedref:
-      content: ISO 3915:2022
-      format: text/plain
+      at: '2022-02-18'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Physical-chemical properties
-      number: 61
+    - number: 61
       type: TC
       identifier: ISO/TC 61/SC 5
+      content: Physical-chemical properties
   ics:
   - code: 83.080.01
     text: Plastics in general
   structuredidentifier:
-    project_number: '9547'
     type: ISO
+    project_number:
+      content: '9547'

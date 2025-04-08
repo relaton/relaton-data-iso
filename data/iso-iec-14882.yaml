@@ -1,94 +1,85 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC14882
-title:
-- content: Programming languages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: C++
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Programming languages - C++
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Langages de programmation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: C++
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Langages de programmation - C++
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83626.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/36/83626.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 14882
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Programming languages
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: C++
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Programming languages - C++
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langages de programmation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: C++
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langages de programmation - C++
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83626.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/36/83626.detail.rss
+docidentifier:
+- content: ISO/IEC 14882
   type: ISO
   primary: true
-- id: ISO/IEC 14882(E)
+- content: ISO/IEC 14882(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:14882:stage-60.00
+- content: urn:iso:std:iso-iec:14882:stage-published
   type: URN
 docnumber: '14882'
 date:
 - type: published
-  value: 2024-10
+  at: 2024-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '7'
-revdate: 2024-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies requirements for implementations of the C++ programming language. The first such requirement is that they implement the language, so this document also defines C++. Other requirements
     and relaxations of the first requirement appear at various places within this document.
     C++ is a general purpose programming language based on the C programming language as described in
@@ -96,12 +87,9 @@ abstract:
     many facilities beyond those provided by C, including additional data types, classes, templates, exceptions,
     namespaces, operator overloading, function name overloading, references, free store management operators,
     and additional library facilities.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies requirements for implementations of the C++ programming language. The first such requirement is that they implement the language, so this document also defines C++. Other requirements
     and relaxations of the first requirement appear at various places within this document.
     C++ is a general purpose programming language based on the C programming language as described in
@@ -109,48 +97,43 @@ abstract:
     many facilities beyond those provided by C, including additional data types, classes, templates, exceptions,
     namespaces, operator overloading, function name overloading, references, free store management operators,
     and additional library facilities.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC14882-2020
     type: standard
-    docid:
-    - id: ISO/IEC 14882:2020
+    formattedref: ISO/IEC 14882:2020
+    docidentifier:
+    - content: ISO/IEC 14882:2020
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 14882:2020
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Programming languages, their environments and system software interfaces
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 22
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-structuredidentifier:
-  project_number: ISO 14882
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 14882

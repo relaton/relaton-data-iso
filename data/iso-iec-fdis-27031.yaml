@@ -1,84 +1,74 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECFDIS27031
-title:
-- content: Cybersecurity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Information and communication technology readiness for business continuity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Cybersecurity - Information and communication technology readiness for
-    business continuity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Cybersécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Préparation des technologies de l'information et de la communication pour
-    la continuité d'activité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Cybersécurité - Préparation des technologies de l'information et de la
-    communication pour la continuité d'activité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/80975.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/09/80975.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC FDIS 27031
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Cybersecurity
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and communication technology readiness for business continuity
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Cybersecurity - Information and communication technology readiness for
+    business continuity
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cybersécurité
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Préparation des technologies de l'information et de la communication pour
+    la continuité d'activité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cybersécurité - Préparation des technologies de l'information et de la
+    communication pour la continuité d'activité
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/80975.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/09/80975.detail.rss
+docidentifier:
+- content: ISO/IEC FDIS 27031
   type: ISO
   primary: true
-- id: ISO/IEC FDIS 27031(E)
+- content: ISO/IEC FDIS 27031(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:27031:stage-draft
+- content: urn:iso:std:iso-iec:27031:stage-draft
   type: URN
 docnumber: '27031'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -87,7 +77,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document describes the concepts and principles of information and communication technology (ICT) readiness for business continuity (IRBC). It provides a framework of methods and processes to identify and specify aspects for improving an organization's ICT readiness to ensure business continuity.
      
     This document serves the following business continuity objectives for ICT:
@@ -97,12 +89,9 @@ abstract:
      
     This document applies to all types and sizes of organizations.
     This document describes how the ICT department plan and prepare to contribute to the resilience objectives desired by the organization.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document describes the concepts and principles of information and communication technology (ICT) readiness for business continuity (IRBC). It provides a framework of methods and processes to identify and specify aspects for improving an organization's ICT readiness to ensure business continuity.
      
     This document serves the following business continuity objectives for ICT:
@@ -112,50 +101,45 @@ abstract:
      
     This document applies to all types and sizes of organizations.
     This document describes how the ICT department plan and prepare to contribute to the resilience objectives desired by the organization.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC27031-2011
     type: standard
-    docid:
-    - id: ISO/IEC 27031:2011
+    formattedref: ISO/IEC 27031:2011
+    docidentifier:
+    - content: ISO/IEC 27031:2011
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 27031:2011
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Information security, cybersecurity and privacy protection
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 27
-ics:
-- code: '35.030'
-  text: IT Security
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: ISO 27031
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 27031

@@ -1,151 +1,132 @@
 ---
-schema-version: v1.2.9
 id: ISO4873-1986
-title:
-- content: Information processing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: ISO 8-bit code for information interchange
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Structure and rules for implementation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information processing - ISO 8-bit code for information interchange - Structure
-    and rules for implementation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Traitement de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Code ISO à 8 éléments pour l'échange d'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Structure et règles de matérialisation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Traitement de l'information - Code ISO à 8 éléments pour l'échange d'information
-    - Structure et règles de matérialisation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/10858.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/08/10858.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 4873:1986
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information processing
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: ISO 8-bit code for information interchange
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Structure and rules for implementation
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information processing - ISO 8-bit code for information interchange - Structure
+    and rules for implementation
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Traitement de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Code ISO à 8 éléments pour l'échange d'information
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Structure et règles de matérialisation
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Traitement de l'information - Code ISO à 8 éléments pour l'échange d'information
+    - Structure et règles de matérialisation
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/10858.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/08/10858.detail.rss
+docidentifier:
+- content: ISO 4873:1986
   type: ISO
   primary: true
-- id: ISO 4873:1986(E)
+- content: ISO 4873:1986(E)
   type: iso-reference
-- id: urn:iso:std:iso:4873:stage-95.99
+- content: urn:iso:std:iso:4873:stage-95.99
   type: URN
 docnumber: '4873'
 date:
 - type: published
-  value: 1986-07
+  at: 1986-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1986-07
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO4873-1979
     type: standard
-    docid:
-    - id: ISO 4873:1979
+    formattedref: ISO 4873:1979
+    docidentifier:
+    - content: ISO 4873:1979
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 4873:1979
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC4873-1991
     type: standard
-    docid:
-    - id: ISO/IEC 4873:1991
+    formattedref: ISO/IEC 4873:1991
+    docidentifier:
+    - content: ISO/IEC 4873:1991
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1991-12-16'
-    formattedref:
-      content: ISO/IEC 4873:1991
-      format: text/plain
+      at: '1991-12-16'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coded character sets
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 2
+      content: Coded character sets
   ics:
   - code: 35.040.10
     text: Coding of character sets
   structuredidentifier:
-    project_number: '10858'
     type: ISO
+    project_number:
+      content: '10858'

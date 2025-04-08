@@ -1,68 +1,59 @@
 ---
-schema-version: v1.2.8
 id: ISO/DIS1171
-title:
-- content: Coal and coke
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Ash
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Coal and coke - Ash
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86977.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:86977:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/69/86977.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 1171
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Coal and coke
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Ash
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Coal and coke - Ash
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86977.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:86977:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/69/86977.detail.rss
+docidentifier:
+- content: ISO/DIS 1171
   type: ISO
   primary: true
-- id: ISO/DIS 1171(E)
+- content: ISO/DIS 1171(E)
   type: iso-reference
-- id: urn:iso:std:iso:1171:stage-draft
+- content: urn:iso:std:iso:1171:stage-draft
   type: URN
 docnumber: '1171'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '5'
 language:
@@ -71,57 +62,51 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO 1171:2010 specifies a method for the determination of the ash of all
+- language: en
+  script: Latn
+  content: ISO 1171:2010 specifies a method for the determination of the ash of all
     solid mineral fuels.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: ISO 1171:2010 specifies a method for the determination of the ash of all
+- language: fr
+  script: Latn
+  content: ISO 1171:2010 specifies a method for the determination of the ash of all
     solid mineral fuels.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO1171-2010
     type: standard
-    docid:
-    - id: ISO 1171:2010
+    formattedref: ISO 1171:2010
+    docidentifier:
+    - content: ISO 1171:2010
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 1171:2010
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Methods of analysis
-    number: 27
-    type: TC
-    identifier: ISO/TC 27/SC 5
-ics:
-- code: 75.160.10
-  text: Solid fuels
-structuredidentifier:
-  project_number: ISO 1171
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 27
+      type: TC
+      identifier: ISO/TC 27/SC 5
+      content: Methods of analysis
+  ics:
+  - code: 75.160.10
+    text: Solid fuels
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 1171

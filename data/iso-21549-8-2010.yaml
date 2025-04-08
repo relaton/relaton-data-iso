@@ -1,112 +1,95 @@
 ---
-schema-version: v1.2.9
 id: ISO21549-8-2010
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Patient healthcard data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 8: Links'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Health informatics - Patient healthcard data - Part 8: Links'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Données relatives aux cartes de santé des patients
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 8: Liens'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Informatique de santé - Données relatives aux cartes de santé des patients
-    - Partie 8: Liens'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/35024.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/50/35024.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 21549-8:2010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Patient healthcard data
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 8: Links'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Health informatics - Patient healthcard data - Part 8: Links'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Données relatives aux cartes de santé des patients
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 8: Liens'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Informatique de santé - Données relatives aux cartes de santé des patients
+    - Partie 8: Liens'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/35024.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/50/35024.detail.rss
+docidentifier:
+- content: ISO 21549-8:2010
   type: ISO
   primary: true
-- id: ISO 21549-8:2010(E)
+- content: ISO 21549-8:2010(E)
   type: iso-reference
-- id: urn:iso:std:iso:21549:-8:stage-95.20
+- content: urn:iso:std:iso:21549:-8:stage-95.20
   type: URN
 docnumber: '21549'
 date:
 - type: published
-  value: 2010-06
+  at: 2010-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2010-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 21549‑8:2010 defines a way to facilitate access to distributed patient
+- language: en
+  script: Latn
+  content: ISO 21549‑8:2010 defines a way to facilitate access to distributed patient
     records and/or administrative information using healthcards. It defines the structure
     and elements of “links” typically stored in healthcards and representing references
     to individual patients' records as well as to subcomponents of them. Access control
     mechanisms, data protection mechanisms, access methods and other security services
     are outside the scope of ISO 21549‑8:2010.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: L'ISO 21549-8:2010 définit un moyen permettant de faciliter l'accès à des
+- language: fr
+  script: Latn
+  content: L'ISO 21549-8:2010 définit un moyen permettant de faciliter l'accès à des
     dossiers patient et/ou à des informations administratives disséminés, à l'aide
     de cartes de santé. Elle définit la structure et les éléments de «liens» typiquement
     stockés dans les cartes de santé et qui correspondent aux références à des dossiers
@@ -114,36 +97,34 @@ abstract:
     de contrôle d'accès, les mécanismes de protection des données, les méthodes d'accès
     et autres services de sécurité ne relèvent pas du domaine d'application de la
     présente partie de l'ISO 21549-8:2010.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '35024'
     type: ISO
+    project_number:
+      content: '35024'

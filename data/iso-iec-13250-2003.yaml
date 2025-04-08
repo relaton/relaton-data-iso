@@ -1,109 +1,96 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC13250-2003
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: SGML applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Topic maps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - SGML applications - Topic maps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Applications SGML
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Plans relatifs à des sujets
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Applications SGML - Plans relatifs à des
-    sujets
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/38068.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/80/38068.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 13250:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: SGML applications
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Topic maps
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - SGML applications - Topic maps
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Applications SGML
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Plans relatifs à des sujets
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Applications SGML - Plans relatifs à des
+    sujets
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/38068.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/80/38068.detail.rss
+docidentifier:
+- content: ISO/IEC 13250:2003
   type: ISO
   primary: true
-- id: ISO/IEC 13250:2003(E)
+- content: ISO/IEC 13250:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:13250:stage-95.99
+- content: urn:iso:std:iso-iec:13250:stage-95.99
   type: URN
 docnumber: '13250'
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2003-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 13250:2003 (2nd edition) specifies two syntaxes for the interchange
+- language: en
+  script: Latn
+  content: "ISO/IEC 13250:2003 (2nd edition) specifies two syntaxes for the interchange
     of Topic Maps. One of these syntaxes is based on the ISO/IEC 10744:1997 (HyTime)
     meta-DTD (meta Document Type Definition), and it is itself specified as a meta-DTD.
     The other, called XTM (XML Topic Maps), is specified as an eXtensible Markup Language
@@ -115,12 +102,9 @@ abstract:
     and the distinct roles that are played in instances of associations, and\n-  scopes,
     expressed as sets of subjects, within the context of which specific associations
     are meant to be understood as valid and/or relevant."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO/IEC 13250:2003 (2nd edition) specifies two syntaxes for the interchange
+- language: fr
+  script: Latn
+  content: "ISO/IEC 13250:2003 (2nd edition) specifies two syntaxes for the interchange
     of Topic Maps. One of these syntaxes is based on the ISO/IEC 10744:1997 (HyTime)
     meta-DTD (meta Document Type Definition), and it is itself specified as a meta-DTD.
     The other, called XTM (XML Topic Maps), is specified as an eXtensible Markup Language
@@ -132,118 +116,98 @@ abstract:
     and the distinct roles that are played in instances of associations, and\n-  scopes,
     expressed as sets of subjects, within the context of which specific associations
     are meant to be understood as valid and/or relevant."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC13250-2000
     type: standard
-    docid:
-    - id: ISO/IEC 13250:2000
+    formattedref: ISO/IEC 13250:2000
+    docidentifier:
+    - content: ISO/IEC 13250:2000
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 13250:2000
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC13250-2-2006
     type: standard
-    docid:
-    - id: ISO/IEC 13250-2:2006
+    formattedref: ISO/IEC 13250-2:2006
+    docidentifier:
+    - content: ISO/IEC 13250-2:2006
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-09-07'
-    formattedref:
-      content: ISO/IEC 13250-2:2006
-      format: text/plain
+      at: '2021-09-07'
 - type: updates
   bibitem:
-    id: ISO/IEC13250-3-2007
     type: standard
-    docid:
-    - id: ISO/IEC 13250-3:2007
+    formattedref: ISO/IEC 13250-3:2007
+    docidentifier:
+    - content: ISO/IEC 13250-3:2007
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-09-07'
-    formattedref:
-      content: ISO/IEC 13250-3:2007
-      format: text/plain
+      at: '2021-09-07'
 - type: updates
   bibitem:
-    id: ISO/IEC13250-4-2009
     type: standard
-    docid:
-    - id: ISO/IEC 13250-4:2009
+    formattedref: ISO/IEC 13250-4:2009
+    docidentifier:
+    - content: ISO/IEC 13250-4:2009
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-09-07'
-    formattedref:
-      content: ISO/IEC 13250-4:2009
-      format: text/plain
+      at: '2021-09-07'
 - type: updates
   bibitem:
-    id: ISO/IEC13250-5-2015
     type: standard
-    docid:
-    - id: ISO/IEC 13250-5:2015
+    formattedref: ISO/IEC 13250-5:2015
+    docidentifier:
+    - content: ISO/IEC 13250-5:2015
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-09-07'
-    formattedref:
-      content: ISO/IEC 13250-5:2015
-      format: text/plain
+      at: '2021-09-07'
 - type: updates
   bibitem:
-    id: ISO/IEC13250-6-2010
     type: standard
-    docid:
-    - id: ISO/IEC 13250-6:2010
+    formattedref: ISO/IEC 13250-6:2010
+    docidentifier:
+    - content: ISO/IEC 13250-6:2010
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-09-07'
-    formattedref:
-      content: ISO/IEC 13250-6:2010
-      format: text/plain
+      at: '2021-09-07'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Document description and processing languages
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 34
+      content: Document description and processing languages
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '38068'
     type: ISO
+    project_number:
+      content: '38068'

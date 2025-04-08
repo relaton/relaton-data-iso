@@ -1,171 +1,147 @@
 ---
-schema-version: v1.2.9
 id: ISO8730-1990
-title:
-- content: Banking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Requirements for message authentication (wholesale)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Banking - Requirements for message authentication (wholesale)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Opérations bancaires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Spécifications liées à l'authentification des messages (service aux entreprises)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Opérations bancaires - Spécifications liées à l'authentification des messages
-    (service aux entreprises)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/16136.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/61/16136.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8730:1990
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Banking
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Requirements for message authentication (wholesale)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Banking - Requirements for message authentication (wholesale)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Opérations bancaires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Spécifications liées à l'authentification des messages (service aux entreprises)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Opérations bancaires - Spécifications liées à l'authentification des messages
+    (service aux entreprises)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/16136.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/61/16136.detail.rss
+docidentifier:
+- content: ISO 8730:1990
   type: ISO
   primary: true
-- id: ISO 8730:1990(E)
+- content: ISO 8730:1990(E)
   type: iso-reference
-- id: urn:iso:std:iso:8730:stage-95.99
+- content: urn:iso:std:iso:8730:stage-95.99
   type: URN
 docnumber: '8730'
 date:
 - type: published
-  value: 1990-05
+  at: 1990-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1990-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Operation implies acceptance of the responsibility for their MAC (message
+- language: en
+  script: Latn
+  content: Operation implies acceptance of the responsibility for their MAC (message
     authentication code) by the correspondent financial institutions. Specifies the
     method by which authentication algorithms are to be approved for inclusion in
     ISO 8731. It specifies a technique for protecting either the whole of the message
     or specified elements within it. The authentication of messages is independent
     of the transmission process used. This IS is designated for use with symmetric
     algorithms where sender and receiver use the same key.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale est conçue pour être utilisée par des institutions échangeant des messages financiers. Elle peut servir à authentifier des messages transmis par un service de télécommunication ou tout autre mode de transmission. La présente Norme internationale spécifie les méthodes à utiliser pour protéger l'authenticité de messages financiers liés à l'activité d'entreprise échangés par des institutions (entre banques, entre une banque et une société ou un gouvernement), en recourant à un code d'authentification de messages (MAC). Elle spécifie la méthode d'approbation des algorithmes d'authentification en vue de leur intégration à l'ISO 8731. L'application de la présente Norme internationale n'est pas une garantie contre la fraude interne, qu'elle soit du fait de l'expéditeur ou du destinataire, par exemple la contrefaçon d'un MAC par le destinataire. La présente Norme internationale spécifie une technique de protection de message, dans sa totalité ou dans certains de ses éléments. Les données présentées à l'authentification peuvent être formatées sous une forme à choisir parmi cinq options. Ces spécifications peuvent être complétées par un groupe d'institutions financières présentant des intérêts communs et qui ont pris des dispositions fonctionnelles propres (par exemple un consortium bancaire, un regroupement géographique, un réseau d'exploitation, un accord de secteur industriel). Le choix de l'option appropr 1129iée permet une authentification des messages compatibles avec le système de transmission utilisé. La protection de l'intégrité s'applique uniquement aux éléments d'authentification choisis. Les altérations des autres parties du message ne sont pas décelées. Il incombe aux utilisateurs de garantir l'intégrité de la présentation des données (voir annexe B). La présente Norme internationale offre un moyen de protection contre la répétition et la perte; une méthode est décrite à l'annexe C. La présente Norme internationale
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO8730-1986
     type: standard
-    docid:
-    - id: ISO 8730:1986
+    formattedref: ISO 8730:1986
+    docidentifier:
+    - content: ISO 8730:1986
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 8730:1986
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO16609-2004
     type: standard
-    docid:
-    - id: ISO 16609:2004
+    formattedref: ISO 16609:2004
+    docidentifier:
+    - content: ISO 16609:2004
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2004-02-27'
-    formattedref:
-      content: ISO 16609:2004
-      format: text/plain
+      at: '2004-02-27'
 - type: updates
   bibitem:
-    id: ISO8730-1990/Cor1-1999
     type: standard
-    docid:
-    - id: ISO 8730:1990/Cor 1:1999
+    formattedref: ISO 8730:1990/Cor 1:1999
+    docidentifier:
+    - content: ISO 8730:1990/Cor 1:1999
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2004-02-27'
-    formattedref:
-      content: ISO 8730:1990/Cor 1:1999
-      format: text/plain
+      at: '2004-02-27'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: 35.240.40
     text: IT applications in banking
   structuredidentifier:
-    project_number: '16136'
     type: ISO
+    project_number:
+      content: '16136'

@@ -1,115 +1,102 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC10175-3-2000
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Text and office systems
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Text and office systems
   type: title-main
-- content: 'Document Printing Application (DPA) -- Part 3: Management abstract service
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Document Printing Application (DPA) -- Part 3: Management abstract service
     definitions and procedures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: 'Information technology - Text and office systems - Document Printing Application
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Text and office systems - Document Printing Application
     (DPA) -- Part 3: Management abstract service definitions and procedures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Bureautique
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Bureautique
   type: title-main
-- content: 'Application impression de documents (DPA) -- Partie 3: Définitions et
-    procédures de service abstrait de gestion'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Application impression de documents (DPA) -- Partie 3: Définitions et
+    procédures de service abstrait de gestion'
   type: title-part
-- content: 'Technologies de l''information - Bureautique - Application impression
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Bureautique - Application impression
     de documents (DPA) -- Partie 3: Définitions et procédures de service abstrait
     de gestion'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/24322.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:24322:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/02/43/24322.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC 10175-3:2000
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/24322.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:24322:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/43/24322.detail.rss
+docidentifier:
+- content: ISO/IEC 10175-3:2000
   type: ISO
   primary: true
-- id: ISO/IEC 10175-3:2000(E)
+- content: ISO/IEC 10175-3:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:10175:-3:stage-90.93
+- content: urn:iso:std:iso-iec:10175:-3:stage-90.93
   type: URN
 docnumber: '10175'
 date:
 - type: published
-  value: 2000-12
+  at: 2000-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2000-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     The Document Printing Application is one component of a coordinated set of facilities and standards needed to
     satisfy the printing requirements of the modern distributed office. Together, the capabilities provided can enable
     users to create and produce high-quality office documents in a consistent and unambiguous manner within a
@@ -130,12 +117,9 @@ abstract:
     - specifies the requirements for conformance with the Document Printing Application for these additional
     administrative functions.
     See clause 1 of ISO/IEC 10175-1 for a more extensive description of the Document Printing Application.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     The Document Printing Application is one component of a coordinated set of facilities and standards needed to
     satisfy the printing requirements of the modern distributed office. Together, the capabilities provided can enable
     users to create and produce high-quality office documents in a consistent and unambiguous manner within a
@@ -156,36 +140,34 @@ abstract:
     - specifies the requirements for conformance with the Document Printing Application for these additional
     administrative functions.
     See clause 1 of ISO/IEC 10175-1 for a more extensive description of the Document Printing Application.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 35.240.20
     text: IT applications in office work
   structuredidentifier:
-    project_number: '24322'
     type: ISO
+    project_number:
+      content: '24322'

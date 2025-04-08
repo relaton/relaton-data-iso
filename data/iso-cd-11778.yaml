@@ -1,66 +1,57 @@
 ---
-schema-version: v1.2.8
 id: ISO/CD11778
-title:
-- content: Brand evaluation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Tourism City
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Brand evaluation - Tourism City
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83901.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/39/83901.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 11778
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Brand evaluation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Tourism City
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Brand evaluation - Tourism City
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83901.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/39/83901.detail.rss
+docidentifier:
+- content: ISO/CD 11778
   type: ISO
   primary: true
-- id: ISO/CD 11778(E)
+- content: ISO/CD 11778(E)
   type: iso-reference
-- id: urn:iso:std:iso:11778:stage-draft
+- content: urn:iso:std:iso:11778:stage-draft
   type: URN
 docnumber: '11778'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -69,47 +60,44 @@ language:
 script:
 - Latn
 abstract:
-- content: The proposed deliverable will include the measurement model, measurement
+- language: en
+  script: Latn
+  content: The proposed deliverable will include the measurement model, measurement
     index and measurement process of the brand evaluation of tourism city.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: The proposed deliverable will include the measurement model, measurement
+- language: fr
+  script: Latn
+  content: The proposed deliverable will include the measurement model, measurement
     index and measurement process of the brand evaluation of tourism city.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Brand evaluation
-    number: 289
-    type: TC
-    identifier: ISO/TC 289
-ics:
-- code: '03.140'
-  text: Patents. Intellectual property
-- code: 03.200.01
-  text: Leisure and tourism in general
-structuredidentifier:
-  project_number: ISO 11778
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 289
+      type: TC
+      identifier: ISO/TC 289
+      content: Brand evaluation
+  ics:
+  - code: '03.140'
+    text: Patents. Intellectual property
+  - code: 03.200.01
+    text: Leisure and tourism in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 11778

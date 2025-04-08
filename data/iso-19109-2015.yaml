@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO19109-2015
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Rules for application schema
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Rules for application schema
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Règles de schéma d'application
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Règles de schéma d'application
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/59193.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:59193:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/91/59193.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19109:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Rules for application schema
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Rules for application schema
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Règles de schéma d'application
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Règles de schéma d'application
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/59193.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:59193:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/91/59193.detail.rss
+docidentifier:
+- content: ISO 19109:2015
   type: ISO
   primary: true
-- id: ISO 19109:2015(E)
+- content: ISO 19109:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso:19109:stage-90.92
+- content: urn:iso:std:iso:19109:stage-90.92
   type: URN
 docnumber: '19109'
 date:
 - type: published
-  value: 2015-12
+  at: 2015-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2015-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 19109:2015 defines rules for creating and documenting application schemas, including principles for the definition of features.
     The scope of this International Standard includes the following:
     -      conceptual modelling of features and their properties from a universe of discourse;
@@ -99,12 +89,9 @@ abstract:
     -      implementation of the application schema in a computer environment;
     -      computer system and application software design;
     -      programming.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 19109:2015 définit des règles relatives à la création et la documentation de schémas d'application, y compris les principes de définition des entités.
     Le domaine d'application de la présente Norme internationale inclut les éléments suivants:
     -      la modélisation conceptuelle des entités et de leurs propriétés par rapport à un univers du discours;
@@ -121,59 +108,51 @@ abstract:
     -      l'implémentation du schéma d'application dans un environnement informatique;
     -      le système informatique et la conception du logiciel d'application;
     -      la programmation.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19109-2005
     type: standard
-    docid:
-    - id: ISO 19109:2005
+    formattedref: ISO 19109:2005
+    docidentifier:
+    - content: ISO 19109:2005
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19109:2005
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/FDIS19109
     type: standard
-    docid:
-    - id: ISO/FDIS 19109
+    formattedref: ISO/FDIS 19109
+    docidentifier:
+    - content: ISO/FDIS 19109
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/FDIS 19109
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '59193'
     type: ISO
+    project_number:
+      content: '59193'

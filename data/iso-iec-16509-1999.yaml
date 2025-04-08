@@ -1,96 +1,87 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC16509-1999
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Year 2000 terminology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Year 2000 terminology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologie de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Terminologie de l'an 2000
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologie de l'information - Terminologie de l'an 2000
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/31005.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:31005:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/10/31005.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 16509:1999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Year 2000 terminology
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Year 2000 terminology
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Terminologie de l'an 2000
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie de l'information - Terminologie de l'an 2000
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/31005.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:31005:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/10/31005.detail.rss
+docidentifier:
+- content: ISO/IEC 16509:1999
   type: ISO
   primary: true
-- id: ISO/IEC 16509:1999(E)
+- content: ISO/IEC 16509:1999(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:16509:stage-90.93
+- content: urn:iso:std:iso-iec:16509:stage-90.93
   type: URN
 docnumber: '16509'
 date:
 - type: published
-  value: 1999-10
+  at: 1999-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1999-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     1.1 Scope
     This standard identiÞes terms and concepts pertinent to the resolution of the Year 2000 issue, including the
     rollover from the year 1999 to 2000, incorrect recognition of leap years, and values in date Þelds used for
@@ -117,12 +108,9 @@ abstract:
     1.3 Conformance
     Vendors who claim that their products conform to this standard declare that their use of the term ÒYear 2000
     CompliantÓ is in accordance with the deÞnition in this standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     1.1 Scope
     This standard identiÞes terms and concepts pertinent to the resolution of the Year 2000 issue, including the
     rollover from the year 1999 to 2000, incorrect recognition of leap years, and values in date Þelds used for
@@ -149,38 +137,36 @@ abstract:
     1.3 Conformance
     Vendors who claim that their products conform to this standard declare that their use of the term ÒYear 2000
     CompliantÓ is in accordance with the deÞnition in this standard.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   - code: 01.040.35
     text: Information technology (Vocabularies)
   structuredidentifier:
-    project_number: '31005'
     type: ISO
+    project_number:
+      content: '31005'

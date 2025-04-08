@@ -1,98 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC20013-2020
-title:
-- content: Information technology for learning, education and training
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Reference framework of e-Portfolio information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology for learning, education and training - Reference
-    framework of e-Portfolio information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information pour l'apprentissage, l'éducation et la formation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cadre de référence pour l'information des e-Portfolios
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information pour l'apprentissage, l'éducation et la formation
-    - Cadre de référence pour l'information des e-Portfolios
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78913.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78913:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/89/78913.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 20013:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology for learning, education and training
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Reference framework of e-Portfolio information
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology for learning, education and training - Reference
+    framework of e-Portfolio information
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information pour l'apprentissage, l'éducation et la formation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cadre de référence pour l'information des e-Portfolios
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information pour l'apprentissage, l'éducation et la formation
+    - Cadre de référence pour l'information des e-Portfolios
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78913.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78913:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/89/78913.detail.rss
+docidentifier:
+- content: ISO/IEC 20013:2020
   type: ISO
   primary: true
-- id: ISO/IEC 20013:2020(E)
+- content: ISO/IEC 20013:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:20013:stage-60.60
+- content: urn:iso:std:iso-iec:20013:stage-published
   type: URN
 docnumber: '20013'
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a reference framework of e-Portfolio implementation that can be used to inform and support development of ITLET systems that meet the requirements of learners, instructors, e-learning service providers and others in contexts such as K-12 education, higher education, training and personal development.
     The reference framework identifies content and functional components that support e-Portfolio systems. It addresses interoperability issues required for data exchange between these components and among the various categories.
     This document:
@@ -106,12 +97,9 @@ abstract:
     —     authentication of the identity of an IT or ITLET system user;
     —     how e-Portfolios might integrate with ITLET systems; and,
     —     specific requirements of e-Portfolios or e-Portfolio systems to meet jurisdictional domain requirements.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies a reference framework of e-Portfolio implementation that can be used to inform and support development of ITLET systems that meet the requirements of learners, instructors, e-learning service providers and others in contexts such as K-12 education, higher education, training and personal development.
     The reference framework identifies content and functional components that support e-Portfolio systems. It addresses interoperability issues required for data exchange between these components and among the various categories.
     This document:
@@ -125,50 +113,45 @@ abstract:
     —     authentication of the identity of an IT or ITLET system user;
     —     how e-Portfolios might integrate with ITLET systems; and,
     —     specific requirements of e-Portfolios or e-Portfolio systems to meet jurisdictional domain requirements.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IECTS20013-2015
     type: standard
-    docid:
-    - id: ISO/IEC TS 20013:2015
+    formattedref: ISO/IEC TS 20013:2015
+    docidentifier:
+    - content: ISO/IEC TS 20013:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC TS 20013:2015
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology for learning, education and training
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 36
+      content: Information technology for learning, education and training
   ics:
   - code: 03.100.30
     text: Management of human resources
   - code: 35.240.90
     text: IT applications in education
   structuredidentifier:
-    project_number: '78913'
     type: ISO
+    project_number:
+      content: '78913'

@@ -1,87 +1,72 @@
 ---
-schema-version: v1.2.8
 id: ISO/CD13909-2
-title:
-- content: Coal and coke
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mechanical sampling
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Coal'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Coal and coke - Mechanical sampling - Part 2: Coal'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Charbon et coke
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Échantillonnage mécanique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2: Charbon'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Charbon et coke - Échantillonnage mécanique - Partie 2: Charbon'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/87037.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/70/87037.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 13909-2
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Coal and coke
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Mechanical sampling
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Coal'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Coal and coke - Mechanical sampling - Part 2: Coal'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Charbon et coke
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Échantillonnage mécanique
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Charbon'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Charbon et coke - Échantillonnage mécanique - Partie 2: Charbon'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/87037.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/70/87037.detail.rss
+docidentifier:
+- content: ISO/CD 13909-2
   type: ISO
   primary: true
-- id: ISO/CD 13909-2(E)
+- content: ISO/CD 13909-2(E)
   type: iso-reference
-- id: urn:iso:std:iso:13909:-2:stage-draft
+- content: urn:iso:std:iso:13909:-2:stage-draft
   type: URN
 docnumber: '13909'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -90,62 +75,56 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 13909-2:1016 specifies procedures and requirements for the design and establishment of mechanical samplers for the sampling of coal from moving streams and describes the methods of sampling used.
     It does not cover mechanical sampling from stationary lots which is dealt with in ISO 13909‑3[1].
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 13909-2:1016 specifies procedures and requirements for the design and establishment of mechanical samplers for the sampling of coal from moving streams and describes the methods of sampling used.
     It does not cover mechanical sampling from stationary lots which is dealt with in ISO 13909‑3[1].
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO13909-2-2016
     type: standard
-    docid:
-    - id: ISO 13909-2:2016
+    formattedref: ISO 13909-2:2016
+    docidentifier:
+    - content: ISO 13909-2:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 13909-2:2016
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Sampling
-    number: 27
-    type: TC
-    identifier: ISO/TC 27/SC 4
-ics:
-- code: '73.040'
-  text: Coals
-- code: 75.160.10
-  text: Solid fuels
-structuredidentifier:
-  project_number: ISO 13909
-  part: '2'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 27
+      type: TC
+      identifier: ISO/TC 27/SC 4
+      content: Sampling
+  ics:
+  - code: '73.040'
+    text: Coals
+  - code: 75.160.10
+    text: Solid fuels
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 2
+      content: ISO 13909

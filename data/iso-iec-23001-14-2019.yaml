@@ -1,173 +1,152 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC23001-14-2019
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: MPEG systems technologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 14: Partial file format'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - MPEG systems technologies - Part 14: Partial
-    file format'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Technologies des systèmes MPEG
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 14: Format de fichier partiel'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
-    14: Format de fichier partiel'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/74415.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:74415:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/44/74415.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 23001-14:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: MPEG systems technologies
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 14: Partial file format'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG systems technologies - Part 14: Partial
+    file format'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies des systèmes MPEG
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 14: Format de fichier partiel'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
+    14: Format de fichier partiel'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/74415.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74415:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/44/74415.detail.rss
+docidentifier:
+- content: ISO/IEC 23001-14:2019
   type: ISO
   primary: true
-- id: ISO/IEC 23001-14:2019(E)
+- content: ISO/IEC 23001-14:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:23001:-14:stage-90.60
+- content: urn:iso:std:iso-iec:23001:-14:stage-90.60
   type: URN
 docnumber: '23001'
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This document specifies the partial file format, which is a generic format
+- language: en
+  script: Latn
+  content: This document specifies the partial file format, which is a generic format
     for describing file partially received over lossy communication channels. This
     format contains the correctly received data, missing block identification, and
     repair information such as location of the file or high-level original indexing
     information. This format can be used with any file formats, and provides additional
     helper tools for formats deriving from ISO/IEC 14496-12.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document specifies the partial file format, which is a generic format
+- language: fr
+  script: Latn
+  content: This document specifies the partial file format, which is a generic format
     for describing file partially received over lossy communication channels. This
     format contains the correctly received data, missing block identification, and
     repair information such as location of the file or high-level original indexing
     information. This format can be used with any file formats, and provides additional
     helper tools for formats deriving from ISO/IEC 14496-12.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC23001-14-2019/Amd1-2021
     type: standard
-    docid:
-    - id: ISO/IEC 23001-14:2019/Amd 1:2021
+    formattedref: ISO/IEC 23001-14:2019/Amd 1:2021
+    docidentifier:
+    - content: ISO/IEC 23001-14:2019/Amd 1:2021
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-06-04'
-    formattedref:
-      content: ISO/IEC 23001-14:2019/Amd 1:2021
-      format: text/plain
+      at: '2024-06-04'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    project_number: '74415'
     type: ISO
+    project_number:
+      content: '74415'

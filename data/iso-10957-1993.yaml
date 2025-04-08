@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO10957-1993
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: International standard music number (ISMN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - International standard music number (ISMN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Numéro international normalisé de la musique (ISMN)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Numéro international normalisé de la musique
-    (ISMN)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/18931.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/89/18931.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 10957:1993
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: International standard music number (ISMN)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - International standard music number (ISMN)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Numéro international normalisé de la musique (ISMN)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Numéro international normalisé de la musique
+    (ISMN)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/18931.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/89/18931.detail.rss
+docidentifier:
+- content: ISO 10957:1993
   type: ISO
   primary: true
-- id: ISO 10957:1993(E)
+- content: ISO 10957:1993(E)
   type: iso-reference
-- id: urn:iso:std:iso:10957:stage-95.99
+- content: urn:iso:std:iso:10957:stage-95.99
   type: URN
 docnumber: '10957'
 date:
 - type: published
-  value: 1993-12
+  at: 1993-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1993-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: 'Specifies a means of uniquely identifying printed music publications.
+- language: en
+  script: Latn
+  content: 'Specifies a means of uniquely identifying printed music publications.
     Standardizes and promotes internationally the use of numbers on printed music
     publications in order that one edition of a title or one separate component of
     an edition can be distinguished from all other editions or components by means
@@ -89,59 +79,51 @@ abstract:
     preceded by the letters ISMN, the letter M as a prefix, a publisher identifier,
     an item identifier, a check digit. Also specifies the location of the number on
     printed music publications.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale prescrit un moyen d'identifier de manière univoque les publications musicales imprimées. Elle a pour objet de normaliser et de promouvoir à l'échelle internationale l'usage d'un système de numérotation des publications musicales imprimées permettant de distinguer de toutes les autres, au moyen d'un numéro international normalisé de la musique (ISMN) qui lui est propre, une édition d'un titre ou une composante d'une édition. À cette fin, la présente Norme internationale précise la composition d'un numéro international normalisé de la musique et prescrit l'emplacement du numéro sur les publications musicales imprimées. La présente Norme internationale est applicable aux publications musicales imprimées destinées à la vente, à la location ou à la diffusion gratuite, ou simplement à des fins de copyright. L'ISMN peut également servir à identifier des documents produits sur d'autres supports qui font partie intégrante d'une publication musicale (par exemple un enregistrement sonore qui, avec la musique imprimée, forme une composition). L'ISMN ne doit pas, cependant, servir à identifier des documents produits sur d'autres supports qui sont diffusés séparément [par exemple un enregistrement sonore ou vidéo, auquel s'applique l'ISO 3901 (code international normalisé des enregistrements   25)].
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO10957-2009
     type: standard
-    docid:
-    - id: ISO 10957:2009
+    formattedref: ISO 10957:2009
+    docidentifier:
+    - content: ISO 10957:2009
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2009-07-30'
-    formattedref:
-      content: ISO 10957:2009
-      format: text/plain
+      at: '2009-07-30'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Identification and description
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 9
+      content: Identification and description
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '18931'
     type: ISO
+    project_number:
+      content: '18931'

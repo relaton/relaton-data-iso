@@ -1,156 +1,138 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC23002-3-2007
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: MPEG video technologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: Representation of auxiliary video and supplemental information'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - MPEG video technologies - Part 3: Representation
-    of auxiliary video and supplemental information'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Technologies vidéo MPEG
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Représentation de vidéo auxiliaire et des informations complémentaires'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Technologies vidéo MPEG - Partie 3: Représentation
-    de vidéo auxiliaire et des informations complémentaires'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/44354.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:44354:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/43/44354.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 23002-3:2007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: MPEG video technologies
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: Representation of auxiliary video and supplemental information'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG video technologies - Part 3: Representation
+    of auxiliary video and supplemental information'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies vidéo MPEG
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Représentation de vidéo auxiliaire et des informations complémentaires'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Technologies vidéo MPEG - Partie 3: Représentation
+    de vidéo auxiliaire et des informations complémentaires'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/44354.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:44354:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/43/44354.detail.rss
+docidentifier:
+- content: ISO/IEC 23002-3:2007
   type: ISO
   primary: true
-- id: ISO/IEC 23002-3:2007(E)
+- content: ISO/IEC 23002-3:2007(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:23002:-3:stage-90.60
+- content: urn:iso:std:iso-iec:23002:-3:stage-90.60
   type: URN
 docnumber: '23002'
 date:
 - type: published
-  value: 2007-10
+  at: 2007-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2007-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 23002-3:2007 defines auxiliary video streams as data coded as video sequences and supplementing a primary video sequence. Depth maps and parallax maps are the first specified types of auxiliary video streams, relating to stereoscopic-view video content. In this context, ISO/IEC 23002-3:2007 specifies syntax and semantics for conveying information describing the interpretation of auxiliary video streams.
     Syntax for such information is specified in ISO/IEC 23002-3:2007 as a stream of data referred to as a supplemental information (SI) message stream. Provisions for extensibility have been included, so that additional types of data can be defined in future extensions of the current SI message stream syntax by ISO/IEC.
     An SI message stream can contain several concatenated SI messages, hence conveying various types of information. The auxiliary video SI (AVSI) is the only currently-defined type of SI (other than reserved SI message types that are reserved for future specification by ISO/IEC and are to be ignored by decoders if present). An AVSI message characterizes the interpretation of an auxiliary video sequence that accompanies a primary video sequence. For instance, an AVSI can indicate that the auxiliary video represents depth map information, and can provide parameters for the proper interpretation of the auxiliary video as such depth information. The means for identifying the primary video stream and the auxiliary video stream to which these messages pertain is a system-level issue that is outside the scope of ISO/IEC 23002-3:2007.
     Although the auxiliary video SI is the only type of SI that is currently specified in ISO/IEC 23002-3:2007, the SI message format has been defined in a generic fashion so that it can potentially be used for purposes other than aiding in the interpretation of auxiliary video sequences. Any kind of data could potentially be carried in the SI message format.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 23002-3:2007 defines auxiliary video streams as data coded as video sequences and supplementing a primary video sequence. Depth maps and parallax maps are the first specified types of auxiliary video streams, relating to stereoscopic-view video content. In this context, ISO/IEC 23002-3:2007 specifies syntax and semantics for conveying information describing the interpretation of auxiliary video streams.
     Syntax for such information is specified in ISO/IEC 23002-3:2007 as a stream of data referred to as a supplemental information (SI) message stream. Provisions for extensibility have been included, so that additional types of data can be defined in future extensions of the current SI message stream syntax by ISO/IEC.
     An SI message stream can contain several concatenated SI messages, hence conveying various types of information. The auxiliary video SI (AVSI) is the only currently-defined type of SI (other than reserved SI message types that are reserved for future specification by ISO/IEC and are to be ignored by decoders if present). An AVSI message characterizes the interpretation of an auxiliary video sequence that accompanies a primary video sequence. For instance, an AVSI can indicate that the auxiliary video represents depth map information, and can provide parameters for the proper interpretation of the auxiliary video as such depth information. The means for identifying the primary video stream and the auxiliary video stream to which these messages pertain is a system-level issue that is outside the scope of ISO/IEC 23002-3:2007.
     Although the auxiliary video SI is the only type of SI that is currently specified in ISO/IEC 23002-3:2007, the SI message format has been defined in a generic fashion so that it can potentially be used for purposes other than aiding in the interpretation of auxiliary video sequences. Any kind of data could potentially be carried in the SI message format.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    project_number: '44354'
     type: ISO
+    project_number:
+      content: '44354'

@@ -1,81 +1,71 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECCD9837-1
-title:
-- content: Software and systems engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Systems resilience concepts'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Software and systems engineering - Part 1: Systems resilience concepts'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Titre manque - Partie 1: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83604.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/36/83604.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC CD 9837-1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software and systems engineering
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Systems resilience concepts'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Software and systems engineering - Part 1: Systems resilience concepts'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Titre manque'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Titre manque - Partie 1: Titre manque'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83604.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/36/83604.detail.rss
+docidentifier:
+- content: ISO/IEC CD 9837-1
   type: ISO
   primary: true
-- id: ISO/IEC CD 9837-1(E)
+- content: ISO/IEC CD 9837-1(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:9837:-1:stage-draft
+- content: urn:iso:std:iso-iec:9837:-1:stage-draft
   type: URN
 docnumber: '9837'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -83,34 +73,37 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Software and systems engineering
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 7
-ics:
-- code: '35.080'
-  text: Software
-- code: 01.040.35
-  text: Information technology (Vocabularies)
-structuredidentifier:
-  project_number: ISO 9837
-  part: '1'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 1
+      content: ISO 9837

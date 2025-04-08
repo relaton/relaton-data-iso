@@ -1,147 +1,129 @@
 ---
-schema-version: v1.2.9
 id: ISO19117-2012
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Portrayal
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Portrayal
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Présentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Présentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/46226.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:46226:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/62/46226.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19117:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Portrayal
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Portrayal
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Présentation
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Présentation
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/46226.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:46226:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/62/46226.detail.rss
+docidentifier:
+- content: ISO 19117:2012
   type: ISO
   primary: true
-- id: ISO 19117:2012(E)
+- content: ISO 19117:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso:19117:stage-90.93
+- content: urn:iso:std:iso:19117:stage-90.93
   type: URN
 docnumber: '19117'
 date:
 - type: published
-  value: 2012-12
+  at: 2012-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2012-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 19117:2012 specifies a conceptual schema for describing symbols, portrayal
+- language: en
+  script: Latn
+  content: ISO 19117:2012 specifies a conceptual schema for describing symbols, portrayal
     functions that map geospatial features to symbols, and the collection of symbols
     and portrayal functions into portrayal catalogues. This conceptual schema can
     be used in the design of portrayal systems. It allows feature data to be separate
     from portrayal data, permitting data to be portrayed in a dataset independent
     manner.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: L'ISO 19117:2012 spécifie un schéma conceptuel pour la description des
+- language: fr
+  script: Latn
+  content: L'ISO 19117:2012 spécifie un schéma conceptuel pour la description des
     symboles, les fonctions de présentation qui font correspondre des symboles aux
     entités géospatiales ainsi que la collection des fonctions de présentation et
     de symboles dans des catalogues de présentation. Ce schéma conceptuel peut être
     utilisé dans la conception de systèmes de présentation. Il permet aux données
     d'entité d'être séparées des données de présentation, permettant aux données d'être
     présentées dans un ensemble de données de façon indépendante.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19117-2005
     type: standard
-    docid:
-    - id: ISO 19117:2005
+    formattedref: ISO 19117:2005
+    docidentifier:
+    - content: ISO 19117:2005
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19117:2005
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '46226'
     type: ISO
+    project_number:
+      content: '46226'

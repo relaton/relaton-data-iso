@@ -1,90 +1,80 @@
 ---
-schema-version: v1.2.9
 id: ISO3301-1975
-title:
-- content: Statistical interpretation of data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Comparison of two means in the case of paired observations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Statistical interpretation of data - Comparison of two means in the case
-    of paired observations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Interprétation statistique des données
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Comparaison de deux moyennes dans le cas d'observations appariées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Interprétation statistique des données - Comparaison de deux moyennes dans
-    le cas d'observations appariées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/8540.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:8540:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/00/85/8540.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3301:1975
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Statistical interpretation of data
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Comparison of two means in the case of paired observations
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Statistical interpretation of data - Comparison of two means in the case
+    of paired observations
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interprétation statistique des données
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Comparaison de deux moyennes dans le cas d'observations appariées
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interprétation statistique des données - Comparaison de deux moyennes dans
+    le cas d'observations appariées
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/8540.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:8540:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/85/8540.detail.rss
+docidentifier:
+- content: ISO 3301:1975
   type: ISO
   primary: true
-- id: ISO 3301:1975(E)
+- content: ISO 3301:1975(E)
   type: iso-reference
-- id: urn:iso:std:iso:3301:stage-90.93
+- content: urn:iso:std:iso:3301:stage-90.93
   type: URN
 docnumber: '3301'
 date:
 - type: published
-  value: 1975-08
+  at: 1975-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1975-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: A method is specified for comparing the mean of a population of differences
+- language: en
+  script: Latn
+  content: A method is specified for comparing the mean of a population of differences
     with zero or any other preassigned value. It may be applied to establish a difference
     between two treatments, where "treatment" should be understood in a wide sense,
     e.g. as a test method, measuring instrument or laboratory involved, and is applicable
@@ -92,12 +82,9 @@ abstract:
     of independent random items and the distribution of the differences is normal
     or approximately normal. If the distribution deviates from the normal, it remains
     valid provided the sample size is sufficiently large (100 and more).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: A method is specified for comparing the mean of a population of differences
+- language: fr
+  script: Latn
+  content: A method is specified for comparing the mean of a population of differences
     with zero or any other preassigned value. It may be applied to establish a difference
     between two treatments, where "treatment" should be understood in a wide sense,
     e.g. as a test method, measuring instrument or laboratory involved, and is applicable
@@ -105,36 +92,34 @@ abstract:
     of independent random items and the distribution of the differences is normal
     or approximately normal. If the distribution deviates from the normal, it remains
     valid provided the sample size is sufficiently large (100 and more).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Applications of statistical methods
-      number: 69
+    - number: 69
       type: TC
       identifier: ISO/TC 69
+      content: Applications of statistical methods
   ics:
   - code: 03.120.30
     text: Application of statistical methods
   structuredidentifier:
-    project_number: '8540'
     type: ISO
+    project_number:
+      content: '8540'

@@ -1,110 +1,97 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC9945-2-1993
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Portable Operating System Interface (POSIX)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Shell and Utilities'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Portable Operating System Interface (POSIX) -
-    Part 2: Shell and Utilities'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Interface pour la portabilité des systèmes (POSIX)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2: Enveloppe et services'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Interface pour la portabilité des systèmes
-    (POSIX) - Partie 2: Enveloppe et services'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/17841.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/78/17841.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 9945-2:1993
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Portable Operating System Interface (POSIX)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Shell and Utilities'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Portable Operating System Interface (POSIX) -
+    Part 2: Shell and Utilities'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interface pour la portabilité des systèmes (POSIX)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Enveloppe et services'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Interface pour la portabilité des systèmes
+    (POSIX) - Partie 2: Enveloppe et services'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/17841.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/78/17841.detail.rss
+docidentifier:
+- content: ISO/IEC 9945-2:1993
   type: ISO
   primary: true
-- id: ISO/IEC 9945-2:1993(E)
+- content: ISO/IEC 9945-2:1993(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:9945:-2:stage-95.99
+- content: urn:iso:std:iso-iec:9945:-2:stage-95.99
   type: URN
 docnumber: '9945'
 date:
 - type: published
-  value: 1993-12
+  at: 1993-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1993-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This part of ISO/IEC 9945 defines a standard source-code-level interface to command interpretation, or "shell," services and common utility programs for applica- tion programs. These services and programs are complementary to those specified by ISO/IEC 9945-1: 1990 (IEEE Std 1003.1-1990) {8}, hereinafter referred to as "POSIX.1 {8}." When the User Portability Utilities Option is included, this part of ISO/IEC 9945 has additional scope. The list of utilities and features is extended to provide a common interactive environment for system users and program developers. 
     This part of ISO/IEC 9945 has been designed to be used by both application programmers and system implementors. When the User Portability Utilities Option is included, it is also to be used by system users and program developers. How- ever, it is intended to be a reference document and not a tutorial on the use of the services, the utilities, or the interrelationships between the utilities. 
     The emphasis of this part of ISO/IEC 9945 without the User Portability Utilities Option is on the shell and utility functionality required by application programs (including "shell scripts") and not on the direct interactive use of the shell command language or the utilities by humans. When the User Portability Utilities Option is included, the emphasis is extended to support terminal users in a consistent manner across all conforming systems. There are three constraining factors that limit this user portability scope:
@@ -119,12 +106,9 @@ abstract:
     For language interfaces, or functions, this part of ISO/IEC 9945 has been defined exclusively at the source-code level. The objective is that a conforming portable application source program can be translated to execute on a conforming implementation. This part of ISO/IEC 9945 assumes that the source program may need to be retranslated to produce target code for a new environment prior to execution in that environment. 
     There is no requirement that the base operating system supporting the shell and utilities be one that fully conforms to ISO/1EC 9945-1: 1990 {8}. (The base system could contain a subset of POSIX.1 {8} functionality, enough to support the require- ments for this part of ISO/IEC 9945 as described in 2.9.1, but it could not claim full conformance to all of POSIX.l {8}.) Furthermore, there is no requirement that the shell command interpreter or any of the standard utilities be written as POSIX.1 {8} conforming programs or be written in any particular language. 
     Although not requiring a fully conforming POSIX.1 {8} base, this part of ISO/IEC 9945 is based upon documentation and the knowledge of existing programs that assume an interface and architecture similar to that described by POSIX.1 {8}. Any questions regarding the definition of terms or the semantics of an underlying concept should be referred to POSIX.1 {8}. 
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This part of ISO/IEC 9945 defines a standard source-code-level interface to command interpretation, or "shell," services and common utility programs for applica- tion programs. These services and programs are complementary to those specified by ISO/IEC 9945-1: 1990 (IEEE Std 1003.1-1990) {8}, hereinafter referred to as "POSIX.1 {8}." When the User Portability Utilities Option is included, this part of ISO/IEC 9945 has additional scope. The list of utilities and features is extended to provide a common interactive environment for system users and program developers. 
     This part of ISO/IEC 9945 has been designed to be used by both application programmers and system implementors. When the User Portability Utilities Option is included, it is also to be used by system users and program developers. How- ever, it is intended to be a reference document and not a tutorial on the use of the services, the utilities, or the interrelationships between the utilities. 
     The emphasis of this part of ISO/IEC 9945 without the User Portability Utilities Option is on the shell and utility functionality required by application programs (including "shell scripts") and not on the direct interactive use of the shell command language or the utilities by humans. When the User Portability Utilities Option is included, the emphasis is extended to support terminal users in a consistent manner across all conforming systems. There are three constraining factors that limit this user portability scope:
@@ -139,93 +123,79 @@ abstract:
     For language interfaces, or functions, this part of ISO/IEC 9945 has been defined exclusively at the source-code level. The objective is that a conforming portable application source program can be translated to execute on a conforming implementation. This part of ISO/IEC 9945 assumes that the source program may need to be retranslated to produce target code for a new environment prior to execution in that environment. 
     There is no requirement that the base operating system supporting the shell and utilities be one that fully conforms to ISO/1EC 9945-1: 1990 {8}. (The base system could contain a subset of POSIX.1 {8} functionality, enough to support the require- ments for this part of ISO/IEC 9945 as described in 2.9.1, but it could not claim full conformance to all of POSIX.l {8}.) Furthermore, there is no requirement that the shell command interpreter or any of the standard utilities be written as POSIX.1 {8} conforming programs or be written in any particular language. 
     Although not requiring a fully conforming POSIX.1 {8} base, this part of ISO/IEC 9945 is based upon documentation and the knowledge of existing programs that assume an interface and architecture similar to that described by POSIX.1 {8}. Any questions regarding the definition of terms or the semantics of an underlying concept should be referred to POSIX.1 {8}. 
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC9945-1-2002
     type: standard
-    docid:
-    - id: ISO/IEC 9945-1:2002
+    formattedref: ISO/IEC 9945-1:2002
+    docidentifier:
+    - content: ISO/IEC 9945-1:2002
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2002-12-13'
-    formattedref:
-      content: ISO/IEC 9945-1:2002
-      format: text/plain
+      at: '2002-12-13'
 - type: updates
   bibitem:
-    id: ISO/IEC9945-2-2002
     type: standard
-    docid:
-    - id: ISO/IEC 9945-2:2002
+    formattedref: ISO/IEC 9945-2:2002
+    docidentifier:
+    - content: ISO/IEC 9945-2:2002
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2002-12-13'
-    formattedref:
-      content: ISO/IEC 9945-2:2002
-      format: text/plain
+      at: '2002-12-13'
 - type: updates
   bibitem:
-    id: ISO/IEC9945-3-2002
     type: standard
-    docid:
-    - id: ISO/IEC 9945-3:2002
+    formattedref: ISO/IEC 9945-3:2002
+    docidentifier:
+    - content: ISO/IEC 9945-3:2002
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2002-12-13'
-    formattedref:
-      content: ISO/IEC 9945-3:2002
-      format: text/plain
+      at: '2002-12-13'
 - type: updates
   bibitem:
-    id: ISO/IEC9945-4-2002
     type: standard
-    docid:
-    - id: ISO/IEC 9945-4:2002
+    formattedref: ISO/IEC 9945-4:2002
+    docidentifier:
+    - content: ISO/IEC 9945-4:2002
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2002-12-13'
-    formattedref:
-      content: ISO/IEC 9945-4:2002
-      format: text/plain
+      at: '2002-12-13'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '17841'
     type: ISO
+    project_number:
+      content: '17841'

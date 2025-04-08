@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
 id: ISO10781-2023
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: HL7 Electronic Health Record-System Functional Model, Release 2.1 (EHR
-    FM)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - HL7 Electronic Health Record-System Functional Model,
-    Release 2.1 (EHR FM)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Modèle fonctionnel d'un système de dossier de santé informatisé, publication
-    2.1 (EHR FM)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Modèle fonctionnel d'un système de dossier de santé
-    informatisé, publication 2.1 (EHR FM)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84722.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:84722:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/47/84722.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 10781:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: HL7 Electronic Health Record-System Functional Model, Release 2.1 (EHR
+    FM)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - HL7 Electronic Health Record-System Functional Model,
+    Release 2.1 (EHR FM)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modèle fonctionnel d'un système de dossier de santé informatisé, publication
+    2.1 (EHR FM)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Modèle fonctionnel d'un système de dossier de santé
+    informatisé, publication 2.1 (EHR FM)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84722.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:84722:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/47/84722.detail.rss
+docidentifier:
+- content: ISO 10781:2023
   type: ISO
   primary: true
-- id: ISO 10781:2023(E)
+- content: ISO 10781:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:10781:stage-60.60
+- content: urn:iso:std:iso:10781:stage-published
   type: URN
 docnumber: '10781'
 date:
 - type: published
-  value: 2023-11
+  at: 2023-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2023-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This document provides a reference list of functions that may be present
+- language: en
+  script: Latn
+  content: This document provides a reference list of functions that may be present
     in an Electronic Health Record System (EHR-S). The function list is described
     from a user perspective with the intent to enable consistent expression of system
     functionality. This EHR-S Functional Model, through the creation of Functional
@@ -94,12 +84,9 @@ abstract:
     common understanding of functions sought or available in a given setting (e.g.
     intensive care, cardiology, office practice in one country or primary care in
     another country).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Ce document fournit une liste de référence de fonctions pouvant figurer
+- language: fr
+  script: Latn
+  content: Ce document fournit une liste de référence de fonctions pouvant figurer
     dans un système de dossier informatisé de santé (S-DIS). Cette liste de fonctions,
     décrite du point de vue de l'utilisateur, a pour objet d'exprimer de manière cohérente
     la fonctionnalité du système. Le présent Modèle fonctionnel de S-DIS, par la création
@@ -107,48 +94,43 @@ abstract:
     offre une description normalisée et favorise une compréhension commune des fonctions
     envisagées ou disponibles dans un établissement donné (par exemple, soins intensifs,
     cardiologie, cabinet dans un pays donné ou soins primaires dans un autre pays).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/HL710781-2015
     type: standard
-    docid:
-    - id: ISO/HL7 10781:2015
+    formattedref: ISO/HL7 10781:2015
+    docidentifier:
+    - content: ISO/HL7 10781:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/HL7 10781:2015
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '84722'
     type: ISO
+    project_number:
+      content: '84722'

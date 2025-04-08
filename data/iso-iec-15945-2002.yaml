@@ -1,114 +1,101 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC15945-2002
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Security techniques
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Security techniques
   type: title-main
-- content: Specification of TTP services to support the application of digital signatures
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Specification of TTP services to support the application of digital signatures
   type: title-part
-- content: Information technology - Security techniques - Specification of TTP services
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Security techniques - Specification of TTP services
     to support the application of digital signatures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Techniques de sécurité
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques de sécurité
   type: title-main
-- content: Spécification de services de tiers de confiance TTP pour la prise en charge
-    des applications de signature numérique
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Spécification de services de tiers de confiance TTP pour la prise en charge
+    des applications de signature numérique
   type: title-part
-- content: Technologies de l'information - Techniques de sécurité - Spécification
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Techniques de sécurité - Spécification
     de services de tiers de confiance TTP pour la prise en charge des applications
     de signature numérique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/29578.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:29578:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/02/95/29578.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC 15945:2002
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/29578.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:29578:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/95/29578.detail.rss
+docidentifier:
+- content: ISO/IEC 15945:2002
   type: ISO
   primary: true
-- id: ISO/IEC 15945:2002(E)
+- content: ISO/IEC 15945:2002(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:15945:stage-90.60
+- content: urn:iso:std:iso-iec:15945:stage-90.60
   type: URN
 docnumber: '15945'
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2002-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This Recommendation | International Standard will define those TTP services needed to support the application of digital
     signatures for the purpose of non-repudiation of creation of documents.
     This Recommendation | International Standard will also define interfaces and protocols to enable interoperability
@@ -144,12 +131,9 @@ abstract:
     the services described in this Recommendation | International Standard will need to specify how legal regulations and the other
     aspects mentioned before will be fulfilled by the TTP. In particular, the policy has to specify how the validity of digital signatures
     and certificates is determined.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente Recommandation | Norme internationale définit les services TTP nécessaires à la prise en charge des
     applications de signature numérique aux fins de non-répudiation de création de documents.
     La présente Recommandation | Norme internationale définit également les interfaces et protocoles permettant
@@ -186,36 +170,34 @@ abstract:
     autorités d'enregistrement). Evidemment, la politique des TTP offrant les services décrits dans la présente Recommandation |
     Norme internationale devra spécifier comment les règlements juridiques et les autres aspects susmentionnés seront respectés par le
     TTP. La politique doit en particulier spécifier comment la validité des signatures et des certificats numériques est déterminée.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '29578'
     type: ISO
+    project_number:
+      content: '29578'

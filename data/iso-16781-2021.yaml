@@ -1,140 +1,122 @@
 ---
-schema-version: v1.2.9
 id: ISO16781-2021
-title:
-- content: Space systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Simulation requirements for control system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Space systems - Simulation requirements for control system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes spatiaux
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Exigences de simulation pour le système de contrôle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Systèmes spatiaux - Exigences de simulation pour le système de contrôle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/79695.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:79695:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/96/79695.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 16781:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Simulation requirements for control system
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space systems - Simulation requirements for control system
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes spatiaux
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences de simulation pour le système de contrôle
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes spatiaux - Exigences de simulation pour le système de contrôle
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/79695.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:79695:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/96/79695.detail.rss
+docidentifier:
+- content: ISO 16781:2021
   type: ISO
   primary: true
-- id: ISO 16781:2021(E)
+- content: ISO 16781:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso:16781:stage-60.60
+- content: urn:iso:std:iso:16781:stage-published
   type: URN
 docnumber: '16781'
 date:
 - type: published
-  value: 2021-03
+  at: 2021-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2021-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document establishes the requirements for simulation of the space control system, including the objective, architecture and procedure, etc. This document is applicable to four phases of control system development, including conceptual design, detailed design, prototype and integrated system.
     The control system referred to in this document is the flight control system for guidance, navigation and control (GNC) of space systems which include launch vehicle, satellite and spaceship, etc. This document establishes a minimum set of requirements for simulation of the flight control system, and provides guidance to engineers on what to simulate in each phase of control system development. The requirements are generic in nature because of their broad applicability to all types of simulations. Implementation details of the requirements are addressed in project-specific standards, requirements, and handbooks, etc.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document establishes the requirements for simulation of the space control system, including the objective, architecture and procedure, etc. This document is applicable to four phases of control system development, including conceptual design, detailed design, prototype and integrated system.
     The control system referred to in this document is the flight control system for guidance, navigation and control (GNC) of space systems which include launch vehicle, satellite and spaceship, etc. This document establishes a minimum set of requirements for simulation of the flight control system, and provides guidance to engineers on what to simulate in each phase of control system development. The requirements are generic in nature because of their broad applicability to all types of simulations. Implementation details of the requirements are addressed in project-specific standards, requirements, and handbooks, etc.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO16781-2013
     type: standard
-    docid:
-    - id: ISO 16781:2013
+    formattedref: ISO 16781:2013
+    docidentifier:
+    - content: ISO 16781:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 16781:2013
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Space systems and operations
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 14
+      content: Space systems and operations
   ics:
   - code: '49.140'
     text: Space systems and operations
   structuredidentifier:
-    project_number: '79695'
     type: ISO
+    project_number:
+      content: '79695'

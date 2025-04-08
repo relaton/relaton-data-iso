@@ -1,99 +1,86 @@
 ---
-schema-version: v1.2.9
 id: ISO10007-2003
-title:
-- content: Quality management systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Guidelines for configuration management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Quality management systems - Guidelines for configuration management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de management de la qualité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Lignes directrices pour la gestion de la configuration
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Systèmes de management de la qualité - Lignes directrices pour la gestion
-    de la configuration
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/36644.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/66/36644.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 10007:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Quality management systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Guidelines for configuration management
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Quality management systems - Guidelines for configuration management
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de management de la qualité
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Lignes directrices pour la gestion de la configuration
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de management de la qualité - Lignes directrices pour la gestion
+    de la configuration
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/36644.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/66/36644.detail.rss
+docidentifier:
+- content: ISO 10007:2003
   type: ISO
   primary: true
-- id: ISO 10007:2003(E)
+- content: ISO 10007:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso:10007:stage-95.99
+- content: urn:iso:std:iso:10007:stage-95.99
   type: URN
 docnumber: '10007'
 date:
 - type: published
-  value: 2003-06
+  at: 2003-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2003-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 10007:2003 gives guidance on the use of configuration management within
+- language: en
+  script: Latn
+  content: "ISO 10007:2003 gives guidance on the use of configuration management within
     an organization. It is applicable to the support of products from concept to disposal.\nIt
     first outlines the responsibilities and authorities before describing the configuration
     management process that includes configuration management planning, configuration
     identification, change control, configuration status accounting and configuration
     audit. \nSince ISO 10007:2003 is a guidance document, it is not intended to be
     used for certification/registration purposes."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "L'ISO 10007:2003 donne des recommandations pour l'utilisation de la gestion
+- language: fr
+  script: Latn
+  content: "L'ISO 10007:2003 donne des recommandations pour l'utilisation de la gestion
     de la configuration au sein de l'organisme. Elle est applicable en support des
     produits depuis leur conception jusqu'à leur retrait de service.\nL'ISO 10007:2003
     met tout d'abord en évidence les responsabilités et les autorités avant de décrire
@@ -102,64 +89,56 @@ abstract:
     de l'état de la configuration, ainsi que les audits de la configuration. \nIl
     convient de noter que l'ISO 10007:2003 est un document destiné à servir de guide
     et n'a pas pour objectif d'être utilisé à des fins de certification."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO10007-1995
     type: standard
-    docid:
-    - id: ISO 10007:1995
+    formattedref: ISO 10007:1995
+    docidentifier:
+    - content: ISO 10007:1995
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 10007:1995
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO10007-2017
     type: standard
-    docid:
-    - id: ISO 10007:2017
+    formattedref: ISO 10007:2017
+    docidentifier:
+    - content: ISO 10007:2017
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2017-04-07'
-    formattedref:
-      content: ISO 10007:2017
-      format: text/plain
+      at: '2017-04-07'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Quality systems
-      number: 176
+    - number: 176
       type: TC
       identifier: ISO/TC 176/SC 2
+      content: Quality systems
   ics:
   - code: 03.100.70
     text: Management systems
   - code: 03.120.10
     text: Quality management and quality assurance
   structuredidentifier:
-    project_number: '36644'
     type: ISO
+    project_number:
+      content: '36644'

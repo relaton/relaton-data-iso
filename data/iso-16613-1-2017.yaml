@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
 id: ISO16613-1-2017
-title:
-- content: Graphic technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Variable content replacement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Using PDF/X for variable content replacement (PDF/VCR-1)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Graphic technology - Variable content replacement - Part 1: Using PDF/X
-    for variable content replacement (PDF/VCR-1)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologie graphique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Remplacement du contenu variable
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Utilisation de PDF/X pour le remplacement du contenu  variable
-    (PDF/VCR-1)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologie graphique - Remplacement du contenu variable - Partie 1: Utilisation
-    de PDF/X pour le remplacement du contenu  variable (PDF/VCR-1)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/65429.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:65429:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/54/65429.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 16613-1:2017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Graphic technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Variable content replacement
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Using PDF/X for variable content replacement (PDF/VCR-1)'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Graphic technology - Variable content replacement - Part 1: Using PDF/X
+    for variable content replacement (PDF/VCR-1)'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie graphique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Remplacement du contenu variable
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Utilisation de PDF/X pour le remplacement du contenu  variable
+    (PDF/VCR-1)'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologie graphique - Remplacement du contenu variable - Partie 1: Utilisation
+    de PDF/X pour le remplacement du contenu  variable (PDF/VCR-1)'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/65429.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:65429:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/54/65429.detail.rss
+docidentifier:
+- content: ISO 16613-1:2017
   type: ISO
   primary: true
-- id: ISO 16613-1:2017(E)
+- content: ISO 16613-1:2017(E)
   type: iso-reference
-- id: urn:iso:std:iso:16613:-1:stage-90.93
+- content: urn:iso:std:iso:16613:-1:stage-90.93
   type: URN
 docnumber: '16613'
 date:
 - type: published
-  value: 2017-08
+  at: 2017-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2017-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 16613-1:2017 enables variable data printing applications using PDF template-based variable content substitution where
     -      a PDF template file containing pages with variable content substitution fields (placeholders) is delivered ahead of a print production run and may be reused across multiple print production runs, and
     -      PDF-based variable data substitution content is provided during print production and merged with the PDF template to produce final form variable content page output.
@@ -114,12 +100,9 @@ abstract:
     NOTE 2       A conforming PDF/VCR-1 template file contains all necessary information for variable content printing by adding matching substitution content. Generating the substitution content usually requires additional information not present in the template file.
     The template file format defined in this document is based on the ISO 15930 (PDF/X) family of standard formats for the representation of a single or multiple page template containing both static content and stylized variable content placeholders.
     The variable data format defined in this document is based on the CSV file format defined in RFC 4180. It supports the representation of substitution content data that can be merged into the template's variable content placeholders to produce complete page content utilizing the full PDF graphics model.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 16613-1:2017 enables variable data printing applications using PDF template-based variable content substitution where
     -      a PDF template file containing pages with variable content substitution fields (placeholders) is delivered ahead of a print production run and may be reused across multiple print production runs, and
     -      PDF-based variable data substitution content is provided during print production and merged with the PDF template to produce final form variable content page output.
@@ -134,38 +117,36 @@ abstract:
     NOTE 2       A conforming PDF/VCR-1 template file contains all necessary information for variable content printing by adding matching substitution content. Generating the substitution content usually requires additional information not present in the template file.
     The template file format defined in this document is based on the ISO 15930 (PDF/X) family of standard formats for the representation of a single or multiple page template containing both static content and stylized variable content placeholders.
     The variable data format defined in this document is based on the CSV file format defined in RFC 4180. It supports the representation of substitution content data that can be merged into the template's variable content placeholders to produce complete page content utilizing the full PDF graphics model.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Graphic technology
-      number: 130
+    - number: 130
       type: TC
       identifier: ISO/TC 130
+      content: Graphic technology
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   - code: 37.100.99
     text: Other standards related to graphic technology
   structuredidentifier:
-    project_number: '65429'
     type: ISO
+    project_number:
+      content: '65429'

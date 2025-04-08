@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTS23465-3-2023
-title:
-- content: Card and security devices for personal identification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Programming interface for security devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: Proxy'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Card and security devices for personal identification - Programming interface
-    for security devices - Part 3: Proxy'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Cartes et dispositifs de sécurité pour l’identification personnelle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: L'interface du logiciel pour dispositifs de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Proxy'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Cartes et dispositifs de sécurité pour l’identification personnelle -
-    L''interface du logiciel pour dispositifs de sécurité - Partie 3: Proxy'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78005.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78005:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/80/78005.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TS 23465-3:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Card and security devices for personal identification
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Programming interface for security devices
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: Proxy'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Card and security devices for personal identification - Programming interface
+    for security devices - Part 3: Proxy'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cartes et dispositifs de sécurité pour l’identification personnelle
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: L'interface du logiciel pour dispositifs de sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Proxy'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Cartes et dispositifs de sécurité pour l’identification personnelle -
+    L''interface du logiciel pour dispositifs de sécurité - Partie 3: Proxy'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78005.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78005:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/80/78005.detail.rss
+docidentifier:
+- content: ISO/IEC TS 23465-3:2023
   type: ISO
   primary: true
-- id: ISO/IEC TS 23465-3:2023(E)
+- content: ISO/IEC TS 23465-3:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:ts:23465:-3:stage-60.60
+- content: urn:iso:std:iso-iec:ts:23465:-3:stage-published
   type: URN
 docnumber: '23465'
 date:
 - type: published
-  value: 2023-05
+  at: 2023-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2023-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document describes the software (SW) layer called “proxy”. It supports the programming interface to security devices and the application using this API to access the application related security devices defined in ISO/IEC TS 23465-2.
     This document is applicable to:
     —     proxy requirements, functionality and layers;
@@ -114,12 +101,9 @@ abstract:
     —     data structures related to security device handling;
     —     translation for security device communication;
     —     serialization/de-serialization syntax and methods.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document describes the software (SW) layer called “proxy”. It supports the programming interface to security devices and the application using this API to access the application related security devices defined in ISO/IEC TS 23465-2.
     This document is applicable to:
     —     proxy requirements, functionality and layers;
@@ -127,36 +111,34 @@ abstract:
     —     data structures related to security device handling;
     —     translation for security device communication;
     —     serialization/de-serialization syntax and methods.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Cards and security devices for personal identification
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 17
+      content: Cards and security devices for personal identification
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    project_number: '78005'
     type: ISO
+    project_number:
+      content: '78005'

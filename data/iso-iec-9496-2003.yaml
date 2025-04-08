@@ -1,148 +1,131 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC9496-2003
-title:
-- content: CHILL
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: The ITU-T programming language
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: CHILL - The ITU-T programming language
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: CHILL
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Le langage de programmation de l'UIT-T
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: CHILL - Le langage de programmation de l'UIT-T
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/34084.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:34084:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/40/34084.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 9496:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CHILL
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: The ITU-T programming language
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: CHILL - The ITU-T programming language
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: CHILL
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Le langage de programmation de l'UIT-T
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: CHILL - Le langage de programmation de l'UIT-T
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/34084.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:34084:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/40/34084.detail.rss
+docidentifier:
+- content: ISO/IEC 9496:2003
   type: ISO
   primary: true
-- id: ISO/IEC 9496:2003(E)
+- content: ISO/IEC 9496:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:9496:stage-90.93
+- content: urn:iso:std:iso-iec:9496:stage-90.93
   type: URN
 docnumber: '9496'
 date:
 - type: published
-  value: 2003-12
+  at: 2003-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '4'
-revdate: 2003-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 9496:2003 defines the ITU-T programming language CHILL. CHILL is a strongly typed, block structured and object-oriented language designed primarily for the implementation of large and complex embedded systems.
     CHILL was designed to provide reliability and run time efficiency, at the same time sufficient flexibility and powerfulness to encompass the required range of applications. CHILL also provides facilities that encourage piecewise and modular development of large systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 9496:2003 defines the ITU-T programming language CHILL. CHILL is a strongly typed, block structured and object-oriented language designed primarily for the implementation of large and complex embedded systems.
     CHILL was designed to provide reliability and run time efficiency, at the same time sufficient flexibility and powerfulness to encompass the required range of applications. CHILL also provides facilities that encourage piecewise and modular development of large systems.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC9496-1998
     type: standard
-    docid:
-    - id: ISO/IEC 9496:1998
+    formattedref: ISO/IEC 9496:1998
+    docidentifier:
+    - content: ISO/IEC 9496:1998
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 9496:1998
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '34084'
     type: ISO
+    project_number:
+      content: '34084'

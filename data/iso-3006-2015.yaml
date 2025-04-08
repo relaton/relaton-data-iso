@@ -1,159 +1,138 @@
 ---
-schema-version: v1.2.9
 id: ISO3006-2015
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Passenger car wheels for road use
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Test methods
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Road vehicles - Passenger car wheels for road use - Test methods
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Roues pour voitures particulières pour utilisation sur routes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Méthodes d'essai
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Véhicules routiers - Roues pour voitures particulières pour utilisation
-    sur routes - Méthodes d'essai
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/60208.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:60208:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/02/60208.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3006:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Passenger car wheels for road use
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Test methods
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Passenger car wheels for road use - Test methods
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Roues pour voitures particulières pour utilisation sur routes
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Méthodes d'essai
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Roues pour voitures particulières pour utilisation
+    sur routes - Méthodes d'essai
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/60208.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:60208:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/02/60208.detail.rss
+docidentifier:
+- content: ISO 3006:2015
   type: ISO
   primary: true
-- id: ISO 3006:2015(E)
+- content: ISO 3006:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso:3006:stage-90.93
+- content: urn:iso:std:iso:3006:stage-90.93
   type: URN
 docnumber: '3006'
 date:
 - type: published
-  value: 2015-06
+  at: 2015-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '5'
-revdate: 2015-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 3006:2015 specifies two laboratory methods for testing certain essential fatigue strength characteristics of wheels intended for road use on passenger cars as defined in ISO 3833.
     The test methods are
     a)    dynamic cornering fatigue test;
     b)    dynamic radial fatigue test.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 3006:2015 spécifie deux méthodes d'essai de laboratoire destinées à évaluer certaines caractéristiques essentielles de résistance à la fatigue des roues de voitures particulières, définies dans l'ISO 3833, pour utilisation sur routes.
     Ces méthodes d'essai dynamique sont les suivantes:
     a)    l'essai de fatigue en virage;
     b)    l'essai de fatigue radiale.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO3006-2005
     type: standard
-    docid:
-    - id: ISO 3006:2005
+    formattedref: ISO 3006:2005
+    docidentifier:
+    - content: ISO 3006:2005
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 3006:2005
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Vehicle dynamics, chassis components and driving automation systems testing
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 33
+      content: Vehicle dynamics, chassis components and driving automation systems
+        testing
   ics:
   - code: 43.040.50
     text: Transmissions, suspensions
   structuredidentifier:
-    project_number: '60208'
     type: ISO
+    project_number:
+      content: '60208'

@@ -1,160 +1,138 @@
 ---
-schema-version: v1.2.9
 id: ISO3897-1992
-title:
-- content: Photography
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Processed photographic plates
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Storage practices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Photography - Processed photographic plates - Storage practices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Photographie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Plaques photographiques développées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Directives pour l'archivage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Photographie - Plaques photographiques développées - Directives pour l'archivage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/9508.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/95/9508.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3897:1992
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Photography
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Processed photographic plates
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Storage practices
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Photography - Processed photographic plates - Storage practices
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Photographie
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Plaques photographiques développées
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Directives pour l'archivage
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Photographie - Plaques photographiques développées - Directives pour l'archivage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/9508.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/95/9508.detail.rss
+docidentifier:
+- content: ISO 3897:1992
   type: ISO
   primary: true
-- id: ISO 3897:1992(E)
+- content: ISO 3897:1992(E)
   type: iso-reference
-- id: urn:iso:std:iso:3897:stage-95.99
+- content: urn:iso:std:iso:3897:stage-95.99
   type: URN
 docnumber: '3897'
 date:
 - type: published
-  value: 1992-12
+  at: 1992-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 1992-12
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO3897-1976
     type: standard
-    docid:
-    - id: ISO 3897:1976
+    formattedref: ISO 3897:1976
+    docidentifier:
+    - content: ISO 3897:1976
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 3897:1976
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO3897-1986
     type: standard
-    docid:
-    - id: ISO 3897:1986
+    formattedref: ISO 3897:1986
+    docidentifier:
+    - content: ISO 3897:1986
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 3897:1986
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO3897-1997
     type: standard
-    docid:
-    - id: ISO 3897:1997
+    formattedref: ISO 3897:1997
+    docidentifier:
+    - content: ISO 3897:1997
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1997-12-04'
-    formattedref:
-      content: ISO 3897:1997
-      format: text/plain
+      at: '1997-12-04'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Photography
-      number: 42
+    - number: 42
       type: TC
       identifier: ISO/TC 42
+      content: Photography
   ics:
   - code: 37.040.20
     text: Photographic paper, films and plates. Cartridges
   structuredidentifier:
-    project_number: '9508'
     type: ISO
+    project_number:
+      content: '9508'

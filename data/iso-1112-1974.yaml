@@ -1,124 +1,112 @@
 ---
-schema-version: v1.2.9
 id: ISO1112-1974
-title:
-- content: Horology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Functional and non-functional jewels
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Horology - Functional and non-functional jewels
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Horlogerie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Pierres fonctionnelles et non fonctionnelles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Horlogerie - Pierres fonctionnelles et non fonctionnelles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/5635.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/56/5635.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 1112:1974
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Horology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Functional and non-functional jewels
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Horology - Functional and non-functional jewels
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Horlogerie
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Pierres fonctionnelles et non fonctionnelles
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Horlogerie - Pierres fonctionnelles et non fonctionnelles
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/5635.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/56/5635.detail.rss
+docidentifier:
+- content: ISO 1112:1974
   type: ISO
   primary: true
-- id: ISO 1112:1974(E)
+- content: ISO 1112:1974(E)
   type: iso-reference
-- id: urn:iso:std:iso:1112:stage-95.99
+- content: urn:iso:std:iso:1112:stage-95.99
   type: URN
 docnumber: '1112'
 date:
 - type: published
-  value: 1974-10
+  at: 1974-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1974-10
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO1112-1999
     type: standard
-    docid:
-    - id: ISO 1112:1999
+    formattedref: ISO 1112:1999
+    docidentifier:
+    - content: ISO 1112:1999
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1999-08-19'
-    formattedref:
-      content: ISO 1112:1999
-      format: text/plain
+      at: '1999-08-19'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Horology
-      number: 114
+    - number: 114
       type: TC
       identifier: ISO/TC 114
+      content: Horology
   ics:
   - code: 39.040.01
     text: Horology in general
   structuredidentifier:
-    project_number: '5635'
     type: ISO
+    project_number:
+      content: '5635'

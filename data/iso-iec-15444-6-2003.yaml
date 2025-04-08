@@ -1,110 +1,97 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC15444-6-2003
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: JPEG 2000 image coding system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 6: Compound image file format'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - JPEG 2000 image coding system - Part 6: Compound
-    image file format'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Système de codage d'images JPEG 2000
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 6: Format de fichier d''image de composant'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Système de codage d''images JPEG 2000
-    - Partie 6: Format de fichier d''image de composant'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/35458.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/54/35458.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 15444-6:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: JPEG 2000 image coding system
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 6: Compound image file format'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - JPEG 2000 image coding system - Part 6: Compound
+    image file format'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Système de codage d'images JPEG 2000
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 6: Format de fichier d''image de composant'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Système de codage d''images JPEG 2000
+    - Partie 6: Format de fichier d''image de composant'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/35458.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/54/35458.detail.rss
+docidentifier:
+- content: ISO/IEC 15444-6:2003
   type: ISO
   primary: true
-- id: ISO/IEC 15444-6:2003(E)
+- content: ISO/IEC 15444-6:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:15444:-6:stage-95.99
+- content: urn:iso:std:iso-iec:15444:-6:stage-95.99
   type: URN
 docnumber: '15444'
 date:
 - type: published
-  value: 2003-10
+  at: 2003-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2003-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 15444-6:2003 defines a normative but optional file format for storing compound images using the JPEG 2000 file format family architecture. A compound image is an image that may contain scanned images, synthetic images or both, and that preferably requires a mix of continuous tone and bi-level compression methods. Besides defining a binary container for a mix of continuous-tone and bi-level images, this format defines a composition model that describes how the multiple images are combined to generate a compound image. This composition model is based on the multi-layer Mixed Raster Content (MRC) imaging model, defined in ITU-T T.44 | ISO/IEC 16485.
     The name of the file format defined in this part of ISO/IEC 15444 is JPEG 200 Multi-layer or JPM. A JPM file uses the file format architecture specified in ITU-T Rec T.800 | ISO/IEC 15444-1. Therefore, a JPM file is a contiguous sequence of boxes. It uses boxes defined for the JP2 file format in ITU-T Rec T.800 | ISO/IEC 15444-1 and the JPX file format defined in ITU-T Rec T.801 | ISO/IEC 15444-2. When stored in traditional computer file systems, files that conform to this International Standard should have the file extension .jpm. On Macintosh file systems, the type code should be 'jpm\040'.
     ISO/IEC 15444-6:2003 is useful for applications that store multiple pages, images with mixed content, and/or images that need more structure than provided in JP2. A JPM file stores a compound image document as a sequence of pages, each of which consists of a sequence of layout objects, each of which in turn consists of an MRC mask-image object pair. A JPM file can support MRC-encoded data, binary-only objects and pages, JPEG 2000-compressed objects and pages, or a mixture of all. Each of these elements (page, layout object, mask/image object) may have a label and associated metadata.
@@ -115,12 +102,9 @@ abstract:
     - a mechanism for grouping multiple images in a hierarchy of layout objects, pages and page collections,
     - a mechanism for storing JPEG 2000 and other compressed image data formats,
     - a mechanism by which metadata can be included in files specified by ISO/IEC 15444-6:2003.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 15444-6:2003 defines a normative but optional file format for storing compound images using the JPEG 2000 file format family architecture. A compound image is an image that may contain scanned images, synthetic images or both, and that preferably requires a mix of continuous tone and bi-level compression methods. Besides defining a binary container for a mix of continuous-tone and bi-level images, this format defines a composition model that describes how the multiple images are combined to generate a compound image. This composition model is based on the multi-layer Mixed Raster Content (MRC) imaging model, defined in ITU-T T.44 | ISO/IEC 16485.
     The name of the file format defined in this part of ISO/IEC 15444 is JPEG 200 Multi-layer or JPM. A JPM file uses the file format architecture specified in ITU-T Rec T.800 | ISO/IEC 15444-1. Therefore, a JPM file is a contiguous sequence of boxes. It uses boxes defined for the JP2 file format in ITU-T Rec T.800 | ISO/IEC 15444-1 and the JPX file format defined in ITU-T Rec T.801 | ISO/IEC 15444-2. When stored in traditional computer file systems, files that conform to this International Standard should have the file extension .jpm. On Macintosh file systems, the type code should be 'jpm\040'.
     ISO/IEC 15444-6:2003 is useful for applications that store multiple pages, images with mixed content, and/or images that need more structure than provided in JP2. A JPM file stores a compound image document as a sequence of pages, each of which consists of a sequence of layout objects, each of which in turn consists of an MRC mask-image object pair. A JPM file can support MRC-encoded data, binary-only objects and pages, JPEG 2000-compressed objects and pages, or a mixture of all. Each of these elements (page, layout object, mask/image object) may have a label and associated metadata.
@@ -131,65 +115,57 @@ abstract:
     - a mechanism for grouping multiple images in a hierarchy of layout objects, pages and page collections,
     - a mechanism for storing JPEG 2000 and other compressed image data formats,
     - a mechanism by which metadata can be included in files specified by ISO/IEC 15444-6:2003.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC15444-6-2013
     type: standard
-    docid:
-    - id: ISO/IEC 15444-6:2013
+    formattedref: ISO/IEC 15444-6:2013
+    docidentifier:
+    - content: ISO/IEC 15444-6:2013
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2013-07-15'
-    formattedref:
-      content: ISO/IEC 15444-6:2013
-      format: text/plain
+      at: '2013-07-15'
 - type: updates
   bibitem:
-    id: ISO/IEC15444-6-2003/Amd1-2007
     type: standard
-    docid:
-    - id: ISO/IEC 15444-6:2003/Amd 1:2007
+    formattedref: ISO/IEC 15444-6:2003/Amd 1:2007
+    docidentifier:
+    - content: ISO/IEC 15444-6:2003/Amd 1:2007
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2013-07-15'
-    formattedref:
-      content: ISO/IEC 15444-6:2003/Amd 1:2007
-      format: text/plain
+      at: '2013-07-15'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.30
     text: Coding of graphical and photographical information
   structuredidentifier:
-    project_number: '35458'
     type: ISO
+    project_number:
+      content: '35458'

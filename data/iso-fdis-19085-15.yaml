@@ -1,87 +1,72 @@
 ---
-schema-version: v1.2.9
 id: ISO/FDIS19085-15
-title:
-- content: Woodworking machines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Safety
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 15: Presses'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Woodworking machines - Safety - Part 15: Presses'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Machines à bois
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 15: Presses'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Machines à bois - Sécurité - Partie 15: Presses'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83923.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/39/83923.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/FDIS 19085-15
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Woodworking machines
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Safety
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 15: Presses'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Woodworking machines - Safety - Part 15: Presses'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Machines à bois
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 15: Presses'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Machines à bois - Sécurité - Partie 15: Presses'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83923.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/39/83923.detail.rss
+docidentifier:
+- content: ISO/FDIS 19085-15
   type: ISO
   primary: true
-- id: ISO/FDIS 19085-15(E)
+- content: ISO/FDIS 19085-15(E)
   type: iso-reference
-- id: urn:iso:std:iso:19085:-15:stage-draft
+- content: urn:iso:std:iso:19085:-15:stage-draft
   type: URN
 docnumber: '19085'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -90,7 +75,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document gives the safety requirements and measures for stationary:
     — cold presses;
     — hot presses;
@@ -125,12 +112,9 @@ abstract:
     — presses for producing chipboard, fibreboard, OSB;
     — machines intended for use in potentially explosive atmosphere;
     — machines manufactured before the date of its publication as an international standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document gives the safety requirements and measures for stationary:
     — cold presses;
     — hot presses;
@@ -165,50 +149,45 @@ abstract:
     — presses for producing chipboard, fibreboard, OSB;
     — machines intended for use in potentially explosive atmosphere;
     — machines manufactured before the date of its publication as an international standard.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/FDIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19085-15-2021
     type: standard
-    docid:
-    - id: ISO 19085-15:2021
+    formattedref: ISO 19085-15:2021
+    docidentifier:
+    - content: ISO 19085-15:2021
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19085-15:2021
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Woodworking machines
-      number: 39
+    - number: 39
       type: TC
       identifier: ISO/TC 39/SC 4
+      content: Woodworking machines
   ics:
   - code: '13.110'
     text: Safety of machinery
   - code: 79.120.10
     text: Woodworking machines
   structuredidentifier:
-    project_number: '83923'
     type: ISO
+    project_number:
+      content: '83923'

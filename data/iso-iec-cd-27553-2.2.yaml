@@ -1,91 +1,79 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECCD27553-2.2
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information security, cybersecurity and privacy protection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information security, cybersecurity and privacy protection
   type: title-intro
-- content: Security and privacy requirements for authentication using biometrics on
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security and privacy requirements for authentication using biometrics on
     mobile devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Part 2: Remote modes'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Remote modes'
   type: title-part
-- content: 'Information security, cybersecurity and privacy protection - Security
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information security, cybersecurity and privacy protection - Security
     and privacy requirements for authentication using biometrics on mobile devices
     - Part 2: Remote modes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
   type: title-main
-- content: 'Partie 2: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Titre manque'
   type: title-part
-- content: 'Titre manque - Partie 2: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Titre manque - Partie 2: Titre manque'
   type: main
-link:
-- content: https://www.iso.org/standard/82891.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/28/82891.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC CD 27553-2.2
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/82891.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/28/82891.detail.rss
+docidentifier:
+- content: ISO/IEC CD 27553-2.2
   type: ISO
   primary: true
-- id: ISO/IEC CD 27553-2.2(E)
+- content: ISO/IEC CD 27553-2.2(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:27553:-2:stage-draft.v2
+- content: urn:iso:std:iso-iec:27553:-2:stage-draft.v2
   type: URN
 docnumber: '27553'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -94,7 +82,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document provides high level security and privacy requirements for
+- language: en
+  script: Latn
+  content: "This document provides high level security and privacy requirements for
     authentication using biometrics on mobile devices, including security and privacy
     requirements for functional components, for communication, for storage and for
     remote processing. \nThis document is applicable to remote modes, i.e., the cases
@@ -106,12 +96,9 @@ abstract:
     before authentication procedure are out of scope for this document.\nThe use of
     biometric identification as part of the authentication procedure is out of scope
     for this document."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document provides high level security and privacy requirements for
+- language: fr
+  script: Latn
+  content: "This document provides high level security and privacy requirements for
     authentication using biometrics on mobile devices, including security and privacy
     requirements for functional components, for communication, for storage and for
     remote processing. \nThis document is applicable to remote modes, i.e., the cases
@@ -123,37 +110,35 @@ abstract:
     before authentication procedure are out of scope for this document.\nThe use of
     biometric identification as part of the authentication procedure is out of scope
     for this document."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Information security, cybersecurity and privacy protection
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 27
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: ISO 27553
-  part: '2'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 2
+      content: ISO 27553

@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO5128-2023
-title:
-- content: Acoustics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Measurement of interior vehicle noise
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Acoustics - Measurement of interior vehicle noise
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Acoustique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mesurage du bruit intérieur des véhicules
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Acoustique - Mesurage du bruit intérieur des véhicules
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/77369.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:77369:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/73/77369.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 5128:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Acoustics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Measurement of interior vehicle noise
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Acoustics - Measurement of interior vehicle noise
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Acoustique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mesurage du bruit intérieur des véhicules
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Acoustique - Mesurage du bruit intérieur des véhicules
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/77369.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:77369:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/73/77369.detail.rss
+docidentifier:
+- content: ISO 5128:2023
   type: ISO
   primary: true
-- id: ISO 5128:2023(E)
+- content: ISO 5128:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:5128:stage-60.60
+- content: urn:iso:std:iso:5128:stage-published
   type: URN
 docnumber: '5128'
 date:
 - type: published
-  value: 2023-09
+  at: 2023-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2023-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies an engineering method for measuring the interior sound of road vehicles of categories M and N under typical driving conditions. It does not apply to agricultural tractors and field machinery.
     It specifies the conditions for obtaining reproducible and comparable measurements of sound pressure levels inside a vehicle.
     These measurements are used to obtain a representative average sound level during a typical driving cycle to enable assessment of adverse effects on human health.
@@ -93,12 +83,9 @@ abstract:
     —    monitoring tests, in order to check that the sound inside the vehicles has not changed since delivery, or between individual units of a consignment of vehicles.
     This document does evaluate the exposure to interior sound of vehicles in a way as it is commonly used for scientific effects on human health.
     It does not assess maximum interior sound of a vehicle under extreme driving situations, as today’s measured maximum sound pressure levels inside vehicles are far away from the risk to create instantaneous hearing damages.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies an engineering method for measuring the interior sound of road vehicles of categories M and N under typical driving conditions. It does not apply to agricultural tractors and field machinery.
     It specifies the conditions for obtaining reproducible and comparable measurements of sound pressure levels inside a vehicle.
     These measurements are used to obtain a representative average sound level during a typical driving cycle to enable assessment of adverse effects on human health.
@@ -109,50 +96,45 @@ abstract:
     —    monitoring tests, in order to check that the sound inside the vehicles has not changed since delivery, or between individual units of a consignment of vehicles.
     This document does evaluate the exposure to interior sound of vehicles in a way as it is commonly used for scientific effects on human health.
     It does not assess maximum interior sound of a vehicle under extreme driving situations, as today’s measured maximum sound pressure levels inside vehicles are far away from the risk to create instantaneous hearing damages.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO5128-1980
     type: standard
-    docid:
-    - id: ISO 5128:1980
+    formattedref: ISO 5128:1980
+    docidentifier:
+    - content: ISO 5128:1980
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 5128:1980
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Noise
-      number: 43
+    - number: 43
       type: TC
       identifier: ISO/TC 43/SC 1
+      content: Noise
   ics:
   - code: '43.020'
     text: Road vehicles in general
   - code: 17.140.30
     text: Noise emitted by means of transport
   structuredidentifier:
-    project_number: '77369'
     type: ISO
+    project_number:
+      content: '77369'

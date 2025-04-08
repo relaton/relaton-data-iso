@@ -1,156 +1,135 @@
 ---
-schema-version: v1.2.9
 id: ISO2789-2003
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: International library statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - International library statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Statistiques internationales de bibliothèques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Statistiques internationales de bibliothèques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/28236.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/82/28236.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2789:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: International library statistics
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - International library statistics
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Statistiques internationales de bibliothèques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Statistiques internationales de bibliothèques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/28236.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/82/28236.detail.rss
+docidentifier:
+- content: ISO 2789:2003
   type: ISO
   primary: true
-- id: ISO 2789:2003(E)
+- content: ISO 2789:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso:2789:stage-95.99
+- content: urn:iso:std:iso:2789:stage-95.99
   type: URN
 docnumber: '2789'
 date:
 - type: published
-  value: 2003-02
+  at: 2003-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2003-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 2789:2003 provides guidance for the library and information services
+- language: en
+  script: Latn
+  content: ISO 2789:2003 provides guidance for the library and information services
     community on the collection and reporting of statistics for the purposes of international
     reporting, to ensure conformity between countries for those statistical measures
     that are frequently used by library managers but do not qualify for international
     reporting, to encourage good practice in the use of statistics for the management
     of library and information services, and to specify data provision required by
     ISO 11620.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 2789:2002 fournit des règles à la communauté des bibliothèques et des services d'information pour la collecte et la présentation de statistiques
     - en vue de l'établissement de synthèses au plan international, - pour assurer la conformité entre pays de mesures statistiques fréquemment utilisées par les gestionnaires de bibliothèques mais sans pour autant servir à l'établissement de synthèses internationales, - pour encourager une bonne pratique des statistiques dans la gestion des bibliothèques et des services d'information, et - pour définir les données exigées par l'ISO 11620.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO2789-1991
     type: standard
-    docid:
-    - id: ISO 2789:1991
+    formattedref: ISO 2789:1991
+    docidentifier:
+    - content: ISO 2789:1991
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 2789:1991
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO2789-2006
     type: standard
-    docid:
-    - id: ISO 2789:2006
+    formattedref: ISO 2789:2006
+    docidentifier:
+    - content: ISO 2789:2006
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2006-09-22'
-    formattedref:
-      content: ISO 2789:2006
-      format: text/plain
+      at: '2006-09-22'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Quality - Statistics and performance evaluation
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 8
+      content: Quality - Statistics and performance evaluation
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '28236'
     type: ISO
+    project_number:
+      content: '28236'

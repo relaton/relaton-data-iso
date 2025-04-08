@@ -1,96 +1,87 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC23271-2012
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Common Language Infrastructure (CLI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Common Language Infrastructure (CLI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Infrastructure commune de langage (ICL)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information - Infrastructure commune de langage (ICL)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/58046.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:58046:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/80/58046.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 23271:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Common Language Infrastructure (CLI)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Common Language Infrastructure (CLI)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Infrastructure commune de langage (ICL)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Infrastructure commune de langage (ICL)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/58046.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:58046:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/80/58046.detail.rss
+docidentifier:
+- content: ISO/IEC 23271:2012
   type: ISO
   primary: true
-- id: ISO/IEC 23271:2012(E)
+- content: ISO/IEC 23271:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:23271:stage-90.93
+- content: urn:iso:std:iso-iec:23271:stage-90.93
   type: URN
 docnumber: '23271'
 date:
 - type: published
-  value: 2012-02
+  at: 2012-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2012-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 23271:2012 defines the Common Language Infrastructure (CLI) in which applications written in multiple high-level languages can be executed in different system environments without the need to rewrite those applications to take into consideration the unique characteristics of those environments. It consists of six partitions.
     - Partition I describes the overall architecture of the CLI, and provides the normative description of the Common Type System (CTS), the Virtual Execution System (VES), and the Common Language Specification (CLS). It also provides an informative description of the metadata.
     - Partition II provides the normative description of the metadata: its physical layout (as a file format), its logical contents (as a set of tables and their relationships), and its semantics (as seen from a hypothetical assembler, ILAsm).
@@ -98,12 +89,9 @@ abstract:
     - Partition IV provides an overview of the CLI Libraries, and a specification of their factoring into Profiles and Libraries. A companion file, CLILibrary.xml, considered to be part of this partition, but distributed in XML format, provides details of each class, value type, and interface in the CLI Libraries.
     - Partition V describes a standard way to interchange debugging information between CLI producers and consumers.
     - Partition VI contains some sample programs written in CIL Assembly Language (ILAsm), information about a particular implementation of an assembler, a machine-readable description of the CIL instruction set which can be used to derive parts of the grammar used by this assembler as well as other tools that manipulate CIL, a set of guidelines used in the design of the libraries of Partition IV, and portability considerations.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 23271:2012 defines the Common Language Infrastructure (CLI) in which applications written in multiple high-level languages can be executed in different system environments without the need to rewrite those applications to take into consideration the unique characteristics of those environments. It consists of six partitions.
     - Partition I describes the overall architecture of the CLI, and provides the normative description of the Common Type System (CTS), the Virtual Execution System (VES), and the Common Language Specification (CLS). It also provides an informative description of the metadata.
     - Partition II provides the normative description of the metadata: its physical layout (as a file format), its logical contents (as a set of tables and their relationships), and its semantics (as seen from a hypothetical assembler, ILAsm).
@@ -111,48 +99,43 @@ abstract:
     - Partition IV provides an overview of the CLI Libraries, and a specification of their factoring into Profiles and Libraries. A companion file, CLILibrary.xml, considered to be part of this partition, but distributed in XML format, provides details of each class, value type, and interface in the CLI Libraries.
     - Partition V describes a standard way to interchange debugging information between CLI producers and consumers.
     - Partition VI contains some sample programs written in CIL Assembly Language (ILAsm), information about a particular implementation of an assembler, a machine-readable description of the CIL instruction set which can be used to derive parts of the grammar used by this assembler as well as other tools that manipulate CIL, a set of guidelines used in the design of the libraries of Partition IV, and portability considerations.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC23271-2006
     type: standard
-    docid:
-    - id: ISO/IEC 23271:2006
+    formattedref: ISO/IEC 23271:2006
+    docidentifier:
+    - content: ISO/IEC 23271:2006
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 23271:2006
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '58046'
     type: ISO
+    project_number:
+      content: '58046'

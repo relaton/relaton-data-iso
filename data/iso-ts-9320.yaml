@@ -1,132 +1,117 @@
 ---
-schema-version: v1.2.9
 id: ISO/TS9320
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Standardized data set for transfer of hemodialysis patients
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - Standardized data set for transfer of hemodialysis
-    patients
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Ensemble de données normalisées pour le transfert des patients en hémodialyse
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Ensemble de données normalisées pour le transfert
-    des patients en hémodialyse
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83443.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/34/83443.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TS 9320
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Standardized data set for transfer of hemodialysis patients
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Standardized data set for transfer of hemodialysis
+    patients
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ensemble de données normalisées pour le transfert des patients en hémodialyse
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Ensemble de données normalisées pour le transfert
+    des patients en hémodialyse
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83443.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/34/83443.detail.rss
+docidentifier:
+- content: ISO/TS 9320
   type: ISO
   primary: true
-- id: ISO/TS 9320(E)
+- content: ISO/TS 9320(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:9320:stage-60.00
+- content: urn:iso:std:iso:ts:9320:stage-published
   type: URN
 docnumber: '9320'
 date:
 - type: published
-  value: 2024-08
+  at: 2024-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "The document defines data set which is required for safe and timely hemodialysis
+- language: en
+  script: Latn
+  content: "The document defines data set which is required for safe and timely hemodialysis
     procedure for ESRD patient. \n\nThis document \n-\tDefines mandatory data fields\n\n-\tDefines
     required data fields\n\n-\tDefines optional data fields \n\n-\tProvide use case\n\n-\tDoes
     not cover quality requirements of hemodialysis, hemodialysis procedure.\n\n-\t
     Does not cover hemodialysis System"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "The document defines data set which is required for safe and timely hemodialysis
+- language: fr
+  script: Latn
+  content: "The document defines data set which is required for safe and timely hemodialysis
     procedure for ESRD patient. \n\nThis document \n-\tDefines mandatory data fields\n\n-\tDefines
     required data fields\n\n-\tDefines optional data fields \n\n-\tProvide use case\n\n-\tDoes
     not cover quality requirements of hemodialysis, hemodialysis procedure.\n\n-\t
     Does not cover hemodialysis System"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TS
 place:
-- Geneva
-doctype:
-  type: technical-specification
-editorialgroup:
-  technical_committee:
-  - name: Health informatics
-    number: 215
-    type: TC
-    identifier: ISO/TC 215
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
-structuredidentifier:
-  project_number: ISO 9320
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: technical-specification
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 215
+      type: TC
+      identifier: ISO/TC 215
+      content: Health informatics
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 9320

@@ -1,173 +1,152 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC23290-2002
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Telecommunications and information exchange between systems
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
   type: title-main
-- content: Private Integrated Services Network -- Mapping functions for the tunnelling
-    of QSIG through H.323 networks
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Private Integrated Services Network -- Mapping functions for the tunnelling
+    of QSIG through H.323 networks
   type: title-part
-- content: Information technology - Telecommunications and information exchange between
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
     systems - Private Integrated Services Network -- Mapping functions for the tunnelling
     of QSIG through H.323 networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Télécommunications et échange d'information entre systèmes
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Télécommunications et échange d'information entre systèmes
   type: title-main
-- content: Réseau privé avec intégration de services -- Fonctions d'application pour
-    l'emploi de l'action tunnel de QSIG à travers les réseaux H.323
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Réseau privé avec intégration de services -- Fonctions d'application pour
+    l'emploi de l'action tunnel de QSIG à travers les réseaux H.323
   type: title-part
-- content: Technologies de l'information - Télécommunications et échange d'information
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Télécommunications et échange d'information
     entre systèmes - Réseau privé avec intégration de services -- Fonctions d'application
     pour l'emploi de l'action tunnel de QSIG à travers les réseaux H.323
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/36788.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/67/36788.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC 23290:2002
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/36788.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/67/36788.detail.rss
+docidentifier:
+- content: ISO/IEC 23290:2002
   type: ISO
   primary: true
-- id: ISO/IEC 23290:2002(E)
+- content: ISO/IEC 23290:2002(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:23290:stage-95.99
+- content: urn:iso:std:iso-iec:23290:stage-95.99
   type: URN
 docnumber: '23290'
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2002-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 23290:2002 specifies functions for using an H.323 packet network in order to interconnect two Private Integrated services Network eXchanges (PINXs) forming part of a Private Integrated Services Network (PISN). Interconnection is achieved by carrying the inter-PINX signalling protocol over the H.323 call signalling channel, making use of the protocol tunnelling facilities of H.323, and inter-PINX user information (e.g., voice) over logical channels established through H.323. Each logical channel usually represents a unidirectional media stream conveyed by means of the Real-time Transport Protocol (RTP). The inter-PINX signalling protocol is assumed to be QSIG, as specified in ISO/IEC 11572, ISO/IEC 11582 and other International Standards.
     ISO/IEC 23290:2002 provides for an on-demand type of interconnection, where a separate H.323 call is established at the start of each PISN call and cleared down at the end of that call. A semi-permanent scenario where a single H.323 call with an indefinite lifetime carries QSIG on behalf of many PISN calls is described as an additional option.
     In the scenarios covered in ISO/IEC 23290:2002, the PINXs participating in a call are not necessarily aware of the H.323 network providing the interconnection, and the features available are those of the QSIG network. This is different from a scenario where true interworking between QSIG and H.323 (i.e. QSIG-H.323-QSIG) is used to connect two PISNs or two parts of the same PISN. In this latter case all networks participate in a call on equal terms, and features are limited to those available in all networks and supported by the gateways. This latter scenario is outside the scope of ISO/IEC 23290:2002.
     ISO/IEC 23290:2002 is applicable to PINXs that can be interconnected to form a PISN using QSIG as the inter-PINX signalling protocol.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 23290:2002 specifies functions for using an H.323 packet network in order to interconnect two Private Integrated services Network eXchanges (PINXs) forming part of a Private Integrated Services Network (PISN). Interconnection is achieved by carrying the inter-PINX signalling protocol over the H.323 call signalling channel, making use of the protocol tunnelling facilities of H.323, and inter-PINX user information (e.g., voice) over logical channels established through H.323. Each logical channel usually represents a unidirectional media stream conveyed by means of the Real-time Transport Protocol (RTP). The inter-PINX signalling protocol is assumed to be QSIG, as specified in ISO/IEC 11572, ISO/IEC 11582 and other International Standards.
     ISO/IEC 23290:2002 provides for an on-demand type of interconnection, where a separate H.323 call is established at the start of each PISN call and cleared down at the end of that call. A semi-permanent scenario where a single H.323 call with an indefinite lifetime carries QSIG on behalf of many PISN calls is described as an additional option.
     In the scenarios covered in ISO/IEC 23290:2002, the PINXs participating in a call are not necessarily aware of the H.323 network providing the interconnection, and the features available are those of the QSIG network. This is different from a scenario where true interworking between QSIG and H.323 (i.e. QSIG-H.323-QSIG) is used to connect two PISNs or two parts of the same PISN. In this latter case all networks participate in a call on equal terms, and features are limited to those available in all networks and supported by the gateways. This latter scenario is outside the scope of ISO/IEC 23290:2002.
     ISO/IEC 23290:2002 is applicable to PINXs that can be interconnected to form a PISN using QSIG as the inter-PINX signalling protocol.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC23290-2004
     type: standard
-    docid:
-    - id: ISO/IEC 23290:2004
+    formattedref: ISO/IEC 23290:2004
+    docidentifier:
+    - content: ISO/IEC 23290:2004
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2004-10-07'
-    formattedref:
-      content: ISO/IEC 23290:2004
-      format: text/plain
+      at: '2004-10-07'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 33.040.35
     text: Telephone networks
   structuredidentifier:
-    project_number: '36788'
     type: ISO
+    project_number:
+      content: '36788'

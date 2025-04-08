@@ -1,65 +1,58 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS5909
-title:
-- content: Business processes and data interchange of DLT based electronic Bill of
-    Lading
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Business processes and data interchange of DLT based electronic Bill of
-    Lading
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Business processes and data interchange of DLT based electronic Bill of
-    Lading
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Business processes and data interchange of DLT based electronic Bill of
-    Lading
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84288.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:84288:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/42/84288.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 5909
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Business processes and data interchange of DLT based electronic Bill of
+    Lading
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Business processes and data interchange of DLT based electronic Bill of
+    Lading
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Business processes and data interchange of DLT based electronic Bill of
+    Lading
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Business processes and data interchange of DLT based electronic Bill of
+    Lading
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84288.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:84288:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/42/84288.detail.rss
+docidentifier:
+- content: ISO/DIS 5909
   type: ISO
   primary: true
-- id: ISO/DIS 5909(E)
+- content: ISO/DIS 5909(E)
   type: iso-reference
-- id: urn:iso:std:iso:5909:stage-draft
+- content: urn:iso:std:iso:5909:stage-draft
   type: URN
 docnumber: '5909'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -68,7 +61,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "1) Processes of blockchain negotiable BoL based on different types of
+- language: en
+  script: Latn
+  content: "1) Processes of blockchain negotiable BoL based on different types of
     use cases. When BoL is used in this document, it means negotiable maritime bill
     of lading.\n -Typical business process and roles of related parties; \n -Classification
     principle: different types of BoL, multi-ports transport and different parties
@@ -80,12 +75,9 @@ abstract:
     data authorized rules\nNotes: Reuse UN/CEFACT global Bill of Lading (Waybill)
     subset of MMT-RDM; if any additional data elements required, to align and harmonize
     with MMT-RDM."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "1) Processes of blockchain negotiable BoL based on different types of
+- language: fr
+  script: Latn
+  content: "1) Processes of blockchain negotiable BoL based on different types of
     use cases. When BoL is used in this document, it means negotiable maritime bill
     of lading.\n -Typical business process and roles of related parties; \n -Classification
     principle: different types of BoL, multi-ports transport and different parties
@@ -97,36 +89,34 @@ abstract:
     data authorized rules\nNotes: Reuse UN/CEFACT global Bill of Lading (Waybill)
     subset of MMT-RDM; if any additional data elements required, to align and harmonize
     with MMT-RDM."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Processes, data elements and documents in commerce, industry and administration
-      number: 154
+    - number: 154
       type: TC
       identifier: ISO/TC 154
+      content: Processes, data elements and documents in commerce, industry and administration
   ics:
   - code: 35.240.63
     text: IT applications in trade
   structuredidentifier:
-    project_number: '84288'
     type: ISO
+    project_number:
+      content: '84288'

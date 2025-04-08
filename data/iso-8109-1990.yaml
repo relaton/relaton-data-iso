@@ -1,153 +1,131 @@
 ---
-schema-version: v1.2.9
 id: ISO8109-1990
-title:
-- content: Banking and related financial services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Securities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Format of Eurobonds
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Banking and related financial services - Securities - Format of Eurobonds
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Banque et services financiers liés aux opérations bancaires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Valeurs mobilières
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Format des Eurobonds
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Banque et services financiers liés aux opérations bancaires - Valeurs mobilières
-    - Format des Eurobonds
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/15157.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/51/15157.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8109:1990
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Banking and related financial services
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Securities
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Format of Eurobonds
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Banking and related financial services - Securities - Format of Eurobonds
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Banque et services financiers liés aux opérations bancaires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Valeurs mobilières
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Format des Eurobonds
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Banque et services financiers liés aux opérations bancaires - Valeurs mobilières
+    - Format des Eurobonds
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/15157.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/51/15157.detail.rss
+docidentifier:
+- content: ISO 8109:1990
   type: ISO
   primary: true
-- id: ISO 8109:1990(E)
+- content: ISO 8109:1990(E)
   type: iso-reference
-- id: urn:iso:std:iso:8109:stage-95.99
+- content: urn:iso:std:iso:8109:stage-95.99
   type: URN
 docnumber: '8109'
 date:
 - type: published
-  value: 1990-11
+  at: 1990-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1990-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the format characteristics of Eurobonds, for example, physical
+- language: en
+  script: Latn
+  content: Specifies the format characteristics of Eurobonds, for example, physical
     representation with regard to size, paper, printing, layout and contents. This
     second edition cancels and replaces the first edition (1985).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale contient des données spécifiques ayant trait au format, c'est-à-dire à la présentation matérielle des Eurobonds : dimension, papier, présentation générale et contenu; elle décrit ainsi l'aspect que doivent avoir les Eurobonds, quel que soit l'émetteur et quel que soit le pays dans lequel les «bonds» sont émis, ceci dans la mesure où leur format n'est pas réglementé par une institution nationale. La présente Norme internationale s'applique aux Eurobonds tels qu'ils sont définis à l'article 3. Cependant, toute loi, règle, réglementation ou condition émise par une bourse de valeurs et qui serait contradictoire aura priorité, qu'elle ait ou non force de loi. Au cas où lesdits règlements ne s'appliqueraient pas spécifiquement, ou encore si leur observation avait une portée moindre que celle de la présente Norme internationale, c'est cette dernière qui prévaudrait.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO8109-1985
     type: standard
-    docid:
-    - id: ISO 8109:1985
+    formattedref: ISO 8109:1985
+    docidentifier:
+    - content: ISO 8109:1985
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 8109:1985
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Reference data for financial services
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 8
+      content: Reference data for financial services
   ics:
   - code: '03.060'
     text: Finances. Banking. Monetary systems. Insurance
   structuredidentifier:
-    project_number: '15157'
     type: ISO
+    project_number:
+      content: '15157'

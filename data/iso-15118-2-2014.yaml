@@ -1,104 +1,90 @@
 ---
-schema-version: v1.2.9
 id: ISO15118-2-2014
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vehicle-to-Grid Communication Interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Network and application protocol requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Road vehicles - Vehicle-to-Grid Communication Interface - Part 2: Network
-    and application protocol requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Interface de communication entre véhicule et réseau électrique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2: Exigences du protocole d''application et du réseau'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Véhicules routiers - Interface de communication entre véhicule et réseau
-    électrique - Partie 2: Exigences du protocole d''application et du réseau'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/55366.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:55366:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/53/55366.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 15118-2:2014
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vehicle-to-Grid Communication Interface
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Network and application protocol requirements'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Road vehicles - Vehicle-to-Grid Communication Interface - Part 2: Network
+    and application protocol requirements'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interface de communication entre véhicule et réseau électrique
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Exigences du protocole d''application et du réseau'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Véhicules routiers - Interface de communication entre véhicule et réseau
+    électrique - Partie 2: Exigences du protocole d''application et du réseau'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/55366.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:55366:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/53/55366.detail.rss
+docidentifier:
+- content: ISO 15118-2:2014
   type: ISO
   primary: true
-- id: ISO 15118-2:2014(E)
+- content: ISO 15118-2:2014(E)
   type: iso-reference
-- id: urn:iso:std:iso:15118:-2:stage-90.92
+- content: urn:iso:std:iso:15118:-2:stage-90.92
   type: URN
 docnumber: '15118'
 date:
 - type: published
-  value: 2014-04
+  at: 2014-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2014-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 15118-2:2014 specifies the communication between battery electric
+- language: en
+  script: Latn
+  content: "ISO 15118-2:2014 specifies the communication between battery electric
     vehicles (BEV) or plug-in hybrid electric vehicles (PHEV) and the Electric Vehicle
     Supply Equipment. The application layer message set defined in ISO 15118-2:2014
     is designed to support the energy transfer from an EVSE to an EV. ISO 15118-1
@@ -112,68 +98,57 @@ abstract:
     and IPv6. In addition, it describes how data link layer services can be accessed
     from a layer 3 perspective. The Data Link Layer and Physical Layer functionality
     is described in ISO 15118-3."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie la communication entre les véhicules électriques à batterie (VEB) ou les véhicules électriques hybrides rechargeables (VEHR) et l'infrastructure de recharge pour véhicules électriques. L'ensemble de messages de la couche application défini dans le présent document est conçu pour prendre en charge le transfert d'énergie entre une IRVE et un VE. L'ISO 15118-1 contient des éléments de cas d'utilisation supplémentaires (ID des éléments de cas d'utilisation de la Partie 1 : F4 et F5) décrivant le transfert d'énergie bidirectionnel. L'implémentation de ces cas d'utilisation nécessite des améliorations de l'ensemble de messages de la couche application défini dans le présent document. Les définitions de ces exigences supplémentaires feront l'objet de la prochaine révision du présent document.
     Le présent document a pour but de décrire de manière détaillée la communication entre un VE (VEB ou VEHR) et une IRVE. Les aspects spécifiés permettent de détecter un véhicule dans un réseau de communication, et de permettre une communication basée sur le protocole Internet (IP) entre le contrôleur de communication du véhicule électrique (EVCC) et le contrôleur de communication de l'infrastructure de recharge (SECC).
     Le présent document définit les messages, le modèle de données, le format de représentation de données basé sur XML/EXI, l'utilisation de V2GTP, TLS, TCP et IPv6. De plus, il décrit comment accéder aux services de la couche liaison de données à partir de la couche 3. La fonctionnalité de la couche liaison de données et de la couche physique est décrite dans l'ISO 15118-3.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/AWI15118-2
     type: standard
-    docid:
-    - id: ISO/AWI 15118-2
+    formattedref: ISO/AWI 15118-2
+    docidentifier:
+    - content: ISO/AWI 15118-2
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/AWI 15118-2
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/DIS15118-2
     type: standard
-    docid:
-    - id: ISO/DIS 15118-2
+    formattedref: ISO/DIS 15118-2
+    docidentifier:
+    - content: ISO/DIS 15118-2
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 15118-2
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Data communication
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 31
+      content: Data communication
   ics:
   - code: '43.120'
     text: Electric road vehicles
   structuredidentifier:
-    project_number: '55366'
     type: ISO
+    project_number:
+      content: '55366'

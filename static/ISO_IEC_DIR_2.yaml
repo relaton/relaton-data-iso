@@ -1,47 +1,51 @@
+---
+type: standard
+schema_version: v1.4.1
 title:
-- type: title-main
+- language: en
+  script: Latn
   content: ISO/IEC Directives, Part 2
-  language: en
+  type: title-main
+- language: en
   script: Latn
-- type: title-part
   content: Principles and rules for the structure and drafting of ISO and IEC documents
-  language: en
+  type: title-part
+- language: fr
   script: Latn
-- type: title-main
   content: Directives ISO/CEI, Partie 2
-  language: fr
+  type: title-main
+- language: fr
   script: Latn
-- type: title-part
   content: Principes et règles de structure et de rédaction des documents ISO et IEC
-  language: fr
-  script: Latn
-
-link:
+  type: title-part
+source:
 - type: src
   content: https://www.iso.org/sites/directives/current/part2/index.xhtml
-
-type: standard
-doctype: directive
-
-docid:
-  id: ISO/IEC DIR 2
+docidentifier:
+- content: ISO/IEC DIR 2
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2021-05-01'
-
-edition: "9"
-
+- type: published
+  at: '2021-05-01'
+edition:
+  content: '9'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
+- from: '2021'
   owner:
-    name: International Organization for Standardization
-    abbreviation: ISO
-    url: www.iso.org
-  from: '2021'
+  - organization:
+      uri:
+      - content: www.iso.org
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

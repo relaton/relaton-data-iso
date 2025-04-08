@@ -1,155 +1,132 @@
 ---
-schema-version: v1.2.9
 id: ISO8159-1987
-title:
-- content: Textiles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Morphology of fibres and yarns
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Textiles - Morphology of fibres and yarns - Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Textiles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Morphologie des fibres et fils
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Textiles - Morphologie des fibres et fils - Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/15243.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:15243:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/52/15243.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8159:1987
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Textiles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Morphology of fibres and yarns
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vocabulary
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Textiles - Morphology of fibres and yarns - Vocabulary
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Textiles
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Morphologie des fibres et fils
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vocabulaire
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Textiles - Morphologie des fibres et fils - Vocabulaire
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/15243.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:15243:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/52/15243.detail.rss
+docidentifier:
+- content: ISO 8159:1987
   type: ISO
   primary: true
-- id: ISO 8159:1987(E)
+- content: ISO 8159:1987(E)
   type: iso-reference
-- id: urn:iso:std:iso:8159:stage-90.92
+- content: urn:iso:std:iso:8159:stage-90.92
   type: URN
 docnumber: '8159'
 date:
 - type: published
-  value: 1987-04
+  at: 1987-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1987-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Defines the principal terms used to described the various forms into which
+- language: en
+  script: Latn
+  content: Defines the principal terms used to described the various forms into which
     textile fibres can be assembled, up to and including cabled yarns. Only contains
     terms of general application. Terms and/or definitions which are specific to particular
     fibres (such as hemp, silk, textile glass, metal fibre, carbon fibre, etc) are
     excluded.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Defines the principal terms used to described the various forms into which
+- language: fr
+  script: Latn
+  content: Defines the principal terms used to described the various forms into which
     textile fibres can be assembled, up to and including cabled yarns. Only contains
     terms of general application. Terms and/or definitions which are specific to particular
     fibres (such as hemp, silk, textile glass, metal fibre, carbon fibre, etc) are
     excluded.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/DIS8159
     type: standard
-    docid:
-    - id: ISO/DIS 8159
+    formattedref: ISO/DIS 8159
+    docidentifier:
+    - content: ISO/DIS 8159
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 8159
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Fibres and yarns
-      number: 38
+    - number: 38
       type: TC
       identifier: ISO/TC 38/SC 23
+      content: Fibres and yarns
   ics:
   - code: 01.040.59
     text: Textile and leather technology (Vocabularies)
@@ -158,5 +135,6 @@ ext:
   - code: 59.080.20
     text: Yarns
   structuredidentifier:
-    project_number: '15243'
     type: ISO
+    project_number:
+      content: '15243'

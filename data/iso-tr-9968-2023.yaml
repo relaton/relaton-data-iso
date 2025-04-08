@@ -1,107 +1,93 @@
 ---
-schema-version: v1.2.9
 id: ISO/TR9968-2023
+type: standard
+schema_version: v1.4.1
 title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles
   type: title-intro
-- content: Functional safety
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Functional safety
   type: title-main
-- content: Application to generic rechargeable energy storage systems for new energy
+  format: text/plain
+- language: en
+  script: Latn
+  content: Application to generic rechargeable energy storage systems for new energy
     vehicle
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: Road vehicles - Functional safety - Application to generic rechargeable
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Functional safety - Application to generic rechargeable
     energy storage systems for new energy vehicle
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
   type: title-intro
-- content: Sécurité fonctionnelle
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Sécurité fonctionnelle
   type: title-main
-- content: Application des systèmes génériques rechargeables de stockage d'énergie
-    aux véhicules utilisant les énergies nouvelles
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Application des systèmes génériques rechargeables de stockage d'énergie
+    aux véhicules utilisant les énergies nouvelles
   type: title-part
-- content: Véhicules routiers - Sécurité fonctionnelle - Application des systèmes
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Sécurité fonctionnelle - Application des systèmes
     génériques rechargeables de stockage d'énergie aux véhicules utilisant les énergies
     nouvelles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/83638.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:83638:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/36/83638.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/TR 9968:2023
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83638.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:83638:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/36/83638.detail.rss
+docidentifier:
+- content: ISO/TR 9968:2023
   type: ISO
   primary: true
-- id: ISO/TR 9968:2023(E)
+- content: ISO/TR 9968:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:9968:stage-60.60
+- content: urn:iso:std:iso:tr:9968:stage-published
   type: URN
 docnumber: '9968'
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2023-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document is intended to be applied to the usage of ISO 26262 methodology for rechargeable energy storage systems (RESS), for example, lithium-ion battery systems, that are installed in series-production road vehicles, excluding mopeds.
     This document does not address unique E/E systems in special vehicles such as E/E systems designed for drivers with disabilities.
     This document provides:
@@ -109,12 +95,9 @@ abstract:
     b)       various examples elaborating the generic framework;
     c)        topics which could be considered in future editions of the ISO 26262 series.
     RESS includes BMS, cells, harnesses, connectivity, etc. In order to achieve product safety non-E/E functional safety requirements need to be fulfilled by the other technology itself without the support of E/E technology. These requirements are not in scope of this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document is intended to be applied to the usage of ISO 26262 methodology for rechargeable energy storage systems (RESS), for example, lithium-ion battery systems, that are installed in series-production road vehicles, excluding mopeds.
     This document does not address unique E/E systems in special vehicles such as E/E systems designed for drivers with disabilities.
     This document provides:
@@ -122,36 +105,34 @@ abstract:
     b)       various examples elaborating the generic framework;
     c)        topics which could be considered in future editions of the ISO 26262 series.
     RESS includes BMS, cells, harnesses, connectivity, etc. In order to achieve product safety non-E/E functional safety requirements need to be fulfilled by the other technology itself without the support of E/E technology. These requirements are not in scope of this document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TR
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TR
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Electrical and electronic components and general system aspects
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 32
+      content: Electrical and electronic components and general system aspects
   ics:
   - code: 43.040.10
     text: Electrical and electronic equipment
   structuredidentifier:
-    project_number: '83638'
     type: ISO
+    project_number:
+      content: '83638'

@@ -1,75 +1,64 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS6289
-title:
-- content: Skis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Skis - Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Skis
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Skis - Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/88022.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:88022:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/80/88022.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 6289
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Skis
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vocabulary
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Skis - Vocabulary
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Skis
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vocabulaire
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Skis - Vocabulaire
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88022.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:88022:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/80/88022.detail.rss
+docidentifier:
+- content: ISO/DIS 6289
   type: ISO
   primary: true
-- id: ISO/DIS 6289(E)
+- content: ISO/DIS 6289(E)
   type: iso-reference
-- id: urn:iso:std:iso:6289:stage-draft
+- content: urn:iso:std:iso:6289:stage-draft
   type: URN
 docnumber: '6289'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -78,70 +67,61 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO 6289:2003 defines terms for the specification of important characteristics
+- language: en
+  script: Latn
+  content: ISO 6289:2003 defines terms for the specification of important characteristics
     of alpine, cross-country skis (XC-skis) and snowboards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: L'ISO 6289:2003 définit des termes relatifs à la spécification des caractéristiques
+- language: fr
+  script: Latn
+  content: L'ISO 6289:2003 définit des termes relatifs à la spécification des caractéristiques
     importantes des skis alpins, des skis de fond (skis XC) et des surfs des neiges.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO6289-2003
     type: standard
-    docid:
-    - id: ISO 6289:2003
+    formattedref: ISO 6289:2003
+    docidentifier:
+    - content: ISO 6289:2003
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 6289:2003
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO6289-2003/Cor1-2005
     type: standard
-    docid:
-    - id: ISO 6289:2003/Cor 1:2005
+    formattedref: ISO 6289:2003/Cor 1:2005
+    docidentifier:
+    - content: ISO 6289:2003/Cor 1:2005
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 6289:2003/Cor 1:2005
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Snowsports equipment
-    number: 83
-    type: TC
-    identifier: ISO/TC 83/SC 4
-ics:
-- code: 01.040.97
-  text: Domestic and commercial equipment. Entertainment. Sports (Vocabularies)
-- code: 97.220.20
-  text: Winter sports equipment
-structuredidentifier:
-  project_number: ISO 6289
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 83
+      type: TC
+      identifier: ISO/TC 83/SC 4
+      content: Snowsports equipment
+  ics:
+  - code: 01.040.97
+    text: Domestic and commercial equipment. Entertainment. Sports (Vocabularies)
+  - code: 97.220.20
+    text: Winter sports equipment
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 6289

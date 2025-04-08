@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO22166-1-2021
-title:
-- content: Robotics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Modularity for service robots
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: General requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Robotics - Modularity for service robots - Part 1: General requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Robotique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Modularité des robots de service
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Prescriptions générales'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Robotique - Modularité des robots de service - Partie 1: Prescriptions
-    générales'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/72715.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:72715:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/27/72715.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 22166-1:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Robotics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Modularity for service robots
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: General requirements'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Robotics - Modularity for service robots - Part 1: General requirements'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Robotique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modularité des robots de service
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Prescriptions générales'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Robotique - Modularité des robots de service - Partie 1: Prescriptions
+    générales'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/72715.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:72715:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/27/72715.detail.rss
+docidentifier:
+- content: ISO 22166-1:2021
   type: ISO
   primary: true
-- id: ISO 22166-1:2021(E)
+- content: ISO 22166-1:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso:22166:-1:stage-60.60
+- content: urn:iso:std:iso:22166:-1:stage-published
   type: URN
 docnumber: '22166'
 date:
 - type: published
-  value: 2021-02
+  at: 2021-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2021-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document presents requirements and guidelines on the specification of modular frameworks, on open modular design and on the integration of modules for realising service robots in various environments, including personal and professional sectors.
     The document is targeted at the following user groups:
     —     modular service robot framework developers who specify performance frameworks in an unambiguous way;
@@ -106,12 +92,9 @@ abstract:
     This document includes guidelines on how to apply existing safety and security standards to service robot modules.
     This document is not a safety standard.
     This document applies specifically to service robots, although the modularity principles presented in this document can be utilized by framework developers, module manufacturers, and module integrators from other fields not necessarily restricted to robotics.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document presents requirements and guidelines on the specification of modular frameworks, on open modular design and on the integration of modules for realising service robots in various environments, including personal and professional sectors.
     The document is targeted at the following user groups:
     —     modular service robot framework developers who specify performance frameworks in an unambiguous way;
@@ -120,36 +103,34 @@ abstract:
     This document includes guidelines on how to apply existing safety and security standards to service robot modules.
     This document is not a safety standard.
     This document applies specifically to service robots, although the modularity principles presented in this document can be utilized by framework developers, module manufacturers, and module integrators from other fields not necessarily restricted to robotics.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Robotics
-      number: 299
+    - number: 299
       type: TC
       identifier: ISO/TC 299
+      content: Robotics
   ics:
   - code: 25.040.30
     text: Industrial robots. Manipulators
   structuredidentifier:
-    project_number: '72715'
     type: ISO
+    project_number:
+      content: '72715'

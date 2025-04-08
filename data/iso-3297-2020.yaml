@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO3297-2020
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: International standard serial number  (ISSN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - International standard serial number  (ISSN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Numéro international normalisé des publications en série (ISSN)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Numéro international normalisé des publications
-    en série (ISSN)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/73846.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/07/38/73846.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3297:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: International standard serial number  (ISSN)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - International standard serial number  (ISSN)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Numéro international normalisé des publications en série (ISSN)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Numéro international normalisé des publications
+    en série (ISSN)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/73846.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/38/73846.detail.rss
+docidentifier:
+- content: ISO 3297:2020
   type: ISO
   primary: true
-- id: ISO 3297:2020(E)
+- content: ISO 3297:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:3297:stage-95.99
+- content: urn:iso:std:iso:3297:stage-95.99
   type: URN
 docnumber: '3297'
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '6'
-revdate: 2020-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines and promotes the use of a standard code (ISSN) for the unique identification of serials and other continuing resources.
     Each International Standard Serial Number (ISSN) is a unique identifier for a serial or other continuing resource in a defined medium whether print or electronic.
     This document also allows for grouping related continuing resources into clusters identified by a separately-prefixed ISSN as defined in this document.
@@ -90,12 +80,9 @@ abstract:
     —     ongoing integrating resources that are updated, such as loose-leaf publications, updating websites, blogs, institutional repositories, directories and databases.
     Monographs, sound and video recordings, notated music publications, audiovisual works, textual works and musical works have their own standard identifiers and are not specifically mentioned in this document. Such items can carry an ISSN in addition to their appropriate identifiers when they are part of a continuing resource.
     NOTE    This document does not contain any operational guidance for its practical implementation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "Le présent document définit et encourage l'emploi d'un code normalisé
+- language: fr
+  script: Latn
+  content: "Le présent document définit et encourage l'emploi d'un code normalisé
     (ISSN), destiné à l'identification unique des publications en série et des autres
     ressources continues.\nChaque Numéro international normalisé des publications
     en série (ISSN) est l'identifiant unique d'une publication en série ou d'une autre
@@ -120,62 +107,54 @@ abstract:
     leur identifiant dédié lorsqu'ils font partie d'une publication en série ou d'une
     ressource continue.\nNOTE    Le présent document ne contient pas de recommandations
     pour sa mise en pratique. "
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO3297-2017
     type: standard
-    docid:
-    - id: ISO 3297:2017
+    formattedref: ISO 3297:2017
+    docidentifier:
+    - content: ISO 3297:2017
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 3297:2017
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO3297-2022
     type: standard
-    docid:
-    - id: ISO 3297:2022
+    formattedref: ISO 3297:2022
+    docidentifier:
+    - content: ISO 3297:2022
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-06-17'
-    formattedref:
-      content: ISO 3297:2022
-      format: text/plain
+      at: '2022-06-17'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Identification and description
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 9
+      content: Identification and description
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '73846'
     type: ISO
+    project_number:
+      content: '73846'

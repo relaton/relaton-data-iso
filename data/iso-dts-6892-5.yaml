@@ -1,89 +1,74 @@
 ---
-schema-version: v1.2.9
 id: ISO/DTS6892-5
-title:
-- content: Metallic materials
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Tensile testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 5: Specification for testing miniaturised test pieces'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Metallic materials - Tensile testing - Part 5: Specification for testing
-    miniaturised test pieces'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Matériaux métalliques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Essais de traction
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 5: Spécifications pour l''utilisation d''éprouvettes d''essai miniaturisées'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Matériaux métalliques - Essais de traction - Partie 5: Spécifications
-    pour l''utilisation d''éprouvettes d''essai miniaturisées'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/88005.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/80/88005.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DTS 6892-5
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Metallic materials
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Tensile testing
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 5: Specification for testing miniaturised test pieces'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Metallic materials - Tensile testing - Part 5: Specification for testing
+    miniaturised test pieces'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Matériaux métalliques
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essais de traction
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 5: Spécifications pour l''utilisation d''éprouvettes d''essai miniaturisées'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Matériaux métalliques - Essais de traction - Partie 5: Spécifications
+    pour l''utilisation d''éprouvettes d''essai miniaturisées'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88005.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/80/88005.detail.rss
+docidentifier:
+- content: ISO/DTS 6892-5
   type: ISO
   primary: true
-- id: ISO/DTS 6892-5(E)
+- content: ISO/DTS 6892-5(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:6892:-5:stage-draft
+- content: urn:iso:std:iso:ts:6892:-5:stage-draft
   type: URN
 docnumber: '6892'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -92,7 +77,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document provides specifications for testing miniaturised metallic
+- language: en
+  script: Latn
+  content: "This document provides specifications for testing miniaturised metallic
     test pieces where not enough material is available for test pieces according to
     ISO 6892-1 [1]. \n\nThe guidelines in this document are not intended to replace
     the requirements of the standard method described in ISO 6892-1.\n\nThis document
@@ -101,12 +88,9 @@ abstract:
     [2].\n\nNOTE 2    Further information on the performance of miniaturised test
     pieces in tensile testing and the comparability of respective results is available
     in [3-9]."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document provides specifications for testing miniaturised metallic
+- language: fr
+  script: Latn
+  content: "This document provides specifications for testing miniaturised metallic
     test pieces where not enough material is available for test pieces according to
     ISO 6892-1 [1]. \n\nThe guidelines in this document are not intended to replace
     the requirements of the standard method described in ISO 6892-1.\n\nThis document
@@ -115,37 +99,35 @@ abstract:
     [2].\n\nNOTE 2    Further information on the performance of miniaturised test
     pieces in tensile testing and the comparability of respective results is available
     in [3-9]."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DTS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DTS
 place:
-- Geneva
-doctype:
-  type: technical-specification
-editorialgroup:
-  technical_committee:
-  - name: Uniaxial testing
-    number: 164
-    type: TC
-    identifier: ISO/TC 164/SC 1
-ics:
-- code: 77.040.10
-  text: Mechanical testing of metals
-structuredidentifier:
-  project_number: ISO 6892
-  part: '5'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: technical-specification
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 164
+      type: TC
+      identifier: ISO/TC 164/SC 1
+      content: Uniaxial testing
+  ics:
+  - code: 77.040.10
+    text: Mechanical testing of metals
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 5
+      content: ISO 6892

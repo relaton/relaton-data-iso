@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO525-2020
-title:
-- content: Bonded abrasive products
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Shape types, designation and marking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Bonded abrasive products - Shape types, designation and marking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Produits abrasifs agglomérés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Types de forme, désignation et marquage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Produits abrasifs agglomérés - Types de forme, désignation et marquage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78476.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78476:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/84/78476.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 525:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Bonded abrasive products
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Shape types, designation and marking
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Bonded abrasive products - Shape types, designation and marking
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Produits abrasifs agglomérés
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Types de forme, désignation et marquage
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Produits abrasifs agglomérés - Types de forme, désignation et marquage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78476.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78476:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/84/78476.detail.rss
+docidentifier:
+- content: ISO 525:2020
   type: ISO
   primary: true
-- id: ISO 525:2020(E)
+- content: ISO 525:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:525:stage-60.60
+- content: urn:iso:std:iso:525:stage-published
   type: URN
 docnumber: '525'
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '5'
-revdate: 2020-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document is applicable for bonded abrasive products in general.
     NOTE 1    Bonded abrasive products are e.g. grinding wheels, segments, sticks and stones.
     This document specifies:
@@ -94,12 +84,9 @@ abstract:
     f)          marking requirements.
     NOTE 2    This document is general and is complemented by ISO 603 (all parts) that is applicable for dimensions, by ISO 6103 that is applicable for permissible unbalance and by ISO 13942 that is applicable for limit deviations and tolerances.
     This document is not applicable for superabrasive products and coated abrasive products.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document est applicable aux produits abrasifs agglomérés en général.
     NOTE 1    Les produits abrasifs agglomérés sont, par exemple, les meules, segments, bâtons rodoirs et pierres à main.
     Le présent document spécifie:
@@ -111,48 +98,43 @@ abstract:
     f)     les exigences de marquage.
     NOTE 2    Le présent document est général et il est complété par l'ISO 603 (toutes les parties) qui est applicables aux dimensions, par l'ISO 6103 qui est applicable au balourd admissible et par l'ISO 13942 qui est applicable aux écarts limites et tolérances.
     Le présent document n'est pas applicable aux produits superabrasifs, ni aux produits abrasifs appliqués.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO525-2013
     type: standard
-    docid:
-    - id: ISO 525:2013
+    formattedref: ISO 525:2013
+    docidentifier:
+    - content: ISO 525:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 525:2013
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Grinding wheels and abrasives
-      number: 29
+    - number: 29
       type: TC
       identifier: ISO/TC 29/SC 5
+      content: Grinding wheels and abrasives
   ics:
   - code: 25.100.70
     text: Abrasives
   structuredidentifier:
-    project_number: '78476'
     type: ISO
+    project_number:
+      content: '78476'

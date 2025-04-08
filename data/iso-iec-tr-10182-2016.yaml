@@ -1,172 +1,151 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTR10182-2016
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Programming languages, their environments and system software interfaces
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Programming languages, their environments and system software interfaces
   type: title-main
-- content: Guidelines for language bindings
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Guidelines for language bindings
   type: title-part
-- content: Information technology - Programming languages, their environments and
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Programming languages, their environments and
     system software interfaces - Guidelines for language bindings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Langages de programmation, leurs environnements et interfaces logicielles
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langages de programmation, leurs environnements et interfaces logicielles
     des systèmes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: Techniques d'interface pour les normes de langages de programmation
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques d'interface pour les normes de langages de programmation
   type: title-part
-- content: Technologies de l'information - Langages de programmation, leurs environnements
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Langages de programmation, leurs environnements
     et interfaces logicielles des systèmes - Techniques d'interface pour les normes
     de langages de programmation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/67465.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:67465:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/74/67465.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC TR 10182:2016
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/67465.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:67465:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/74/67465.detail.rss
+docidentifier:
+- content: ISO/IEC TR 10182:2016
   type: ISO
   primary: true
-- id: ISO/IEC TR 10182:2016(E)
+- content: ISO/IEC TR 10182:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:tr:10182:stage-60.60
+- content: urn:iso:std:iso-iec:tr:10182:stage-published
   type: URN
 docnumber: '10182'
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2016-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC TR 10182:2016 is based on experience gained in the standardization of two major areas in information processing. One area covers programming languages. The other area is composed of the services necessary to an application program to achieve a goal. The services are divided into coherent groups, each referred to as a SYSTEM FACILITY, that are accessed through a FUNCTIONAL INTERFACE. The specification of a system facility, referred to as a FUNCTIONAL SPECIFICATION, defines a collection of SYSTEM FUNCTIONS, each of which carries out some well-defined service.
     Since in principle there is no reason why a particular system facility should not be used by a program, regardless of the language in which is written, is the practice of system facility specifiers to define an 'abstract' functional interface that is language independent. In this way, the concepts in a particular system facility may be refined by experts in that area without regard for language peculiarities. An internally coherent view of a particular system facility is defined, relating the system functions to each other in a consistent way and relating the system functions to other layers within the system facility, including protocols for communication with other objects in the total system.
     However, if these two areas are standardized independently, it is not possible to guarantee that programs from one operating environment can be moved to another, even if the programs are written in a standard programming language and use only standard system facilities. A language binding of a system facility to a programming language provides language syntax that maps the system facility's functional interface. This allows a program written in the language to access the system functions constituting the system facility in a standard way. The purpose of a language binding is to achieve portability of a program that uses particular facilities in a particular language. Examples of system facilities that have had language bindings developed for them are GKS, NDL, and SQL (see Clause 3). It is anticipated that further language binding development will be required. Some system facilities currently being standardized have no language bindings and additional system facilities will be standardized. There is a possibility of n × m language bindings, where n is the number of languages and m the number of system facilities.
     The scope of this Technical Report is to classify language binding methods, reporting on particular instances in detail, and to produce suggested guidelines for future language binding standards.
     Note that the language bindings and the abstract facility interfaces must have a compatible run time representation, but the abstract facility does not necessarily have to be written in the host language. For example, if the application program is using a Pascal language binding and the corresponding facility is written in FORTRAN, there must be a compatible run time representation in that operating environment. How this compatibility is achieved is outside the scope of these guidelines. This is generally a property of the operating environment defined by the implementor, and is reviewed briefly in this Technical Report.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC TR 10182:2016 is based on experience gained in the standardization of two major areas in information processing. One area covers programming languages. The other area is composed of the services necessary to an application program to achieve a goal. The services are divided into coherent groups, each referred to as a SYSTEM FACILITY, that are accessed through a FUNCTIONAL INTERFACE. The specification of a system facility, referred to as a FUNCTIONAL SPECIFICATION, defines a collection of SYSTEM FUNCTIONS, each of which carries out some well-defined service.
     Since in principle there is no reason why a particular system facility should not be used by a program, regardless of the language in which is written, is the practice of system facility specifiers to define an 'abstract' functional interface that is language independent. In this way, the concepts in a particular system facility may be refined by experts in that area without regard for language peculiarities. An internally coherent view of a particular system facility is defined, relating the system functions to each other in a consistent way and relating the system functions to other layers within the system facility, including protocols for communication with other objects in the total system.
     However, if these two areas are standardized independently, it is not possible to guarantee that programs from one operating environment can be moved to another, even if the programs are written in a standard programming language and use only standard system facilities. A language binding of a system facility to a programming language provides language syntax that maps the system facility's functional interface. This allows a program written in the language to access the system functions constituting the system facility in a standard way. The purpose of a language binding is to achieve portability of a program that uses particular facilities in a particular language. Examples of system facilities that have had language bindings developed for them are GKS, NDL, and SQL (see Clause 3). It is anticipated that further language binding development will be required. Some system facilities currently being standardized have no language bindings and additional system facilities will be standardized. There is a possibility of n × m language bindings, where n is the number of languages and m the number of system facilities.
     The scope of this Technical Report is to classify language binding methods, reporting on particular instances in detail, and to produce suggested guidelines for future language binding standards.
     Note that the language bindings and the abstract facility interfaces must have a compatible run time representation, but the abstract facility does not necessarily have to be written in the host language. For example, if the application program is using a Pascal language binding and the corresponding facility is written in FORTRAN, there must be a compatible run time representation in that operating environment. How this compatibility is achieved is outside the scope of these guidelines. This is generally a property of the operating environment defined by the implementor, and is reviewed briefly in this Technical Report.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IECTR10182-1993
     type: standard
-    docid:
-    - id: ISO/IEC TR 10182:1993
+    formattedref: ISO/IEC TR 10182:1993
+    docidentifier:
+    - content: ISO/IEC TR 10182:1993
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC TR 10182:1993
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '67465'
     type: ISO
+    project_number:
+      content: '67465'

@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/FDIS209
-title:
-- content: Wrought aluminium and aluminium alloys
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Chemical composition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Wrought aluminium and aluminium alloys - Chemical composition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Aluminium et alliages d’aluminium corroyés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Composition chimique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Aluminium et alliages d’aluminium corroyés - Composition chimique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86374.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/63/86374.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/FDIS 209
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Wrought aluminium and aluminium alloys
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Chemical composition
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Wrought aluminium and aluminium alloys - Chemical composition
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Aluminium et alliages d’aluminium corroyés
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Composition chimique
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Aluminium et alliages d’aluminium corroyés - Composition chimique
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86374.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/63/86374.detail.rss
+docidentifier:
+- content: ISO/FDIS 209
   type: ISO
   primary: true
-- id: ISO/FDIS 209(E)
+- content: ISO/FDIS 209(E)
   type: iso-reference
-- id: urn:iso:std:iso:209:stage-draft
+- content: urn:iso:std:iso:209:stage-draft
   type: URN
 docnumber: '209'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -76,57 +65,51 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the chemical composition limits of wrought products
+- language: en
+  script: Latn
+  content: This document specifies the chemical composition limits of wrought products
     and ingots intended to be wrought in aluminium and aluminium alloys.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: L'ISO 209:2007 spécifie les désignations indiquant la composition chimique
+- language: fr
+  script: Latn
+  content: L'ISO 209:2007 spécifie les désignations indiquant la composition chimique
     de l'aluminium et des alliages d'aluminium corroyés.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/FDIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO209-2007
     type: standard
-    docid:
-    - id: ISO 209:2007
+    formattedref: ISO 209:2007
+    docidentifier:
+    - content: ISO 209:2007
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 209:2007
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Wrought aluminium and aluminium alloys
-    number: 79
-    type: TC
-    identifier: ISO/TC 79/SC 6
-ics:
-- code: 77.150.10
-  text: Aluminium products
-structuredidentifier:
-  project_number: ISO 209
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 79
+      type: TC
+      identifier: ISO/TC 79/SC 6
+      content: Wrought aluminium and aluminium alloys
+  ics:
+  - code: 77.150.10
+    text: Aluminium products
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 209

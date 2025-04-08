@@ -1,152 +1,131 @@
 ---
-schema-version: v1.2.9
 id: ISO643-2003
-title:
-- content: Steels
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Micrographic determination of the apparent grain size
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Steels - Micrographic determination of the apparent grain size
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Aciers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Détermination micrographique de la grosseur de grain apparente
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Aciers - Détermination micrographique de la grosseur de grain apparente
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/30694.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/06/30694.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 643:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Steels
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Micrographic determination of the apparent grain size
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Steels - Micrographic determination of the apparent grain size
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Aciers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Détermination micrographique de la grosseur de grain apparente
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Aciers - Détermination micrographique de la grosseur de grain apparente
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/30694.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/06/30694.detail.rss
+docidentifier:
+- content: ISO 643:2003
   type: ISO
   primary: true
-- id: ISO 643:2003(E)
+- content: ISO 643:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso:643:stage-95.99
+- content: urn:iso:std:iso:643:stage-95.99
   type: URN
 docnumber: '643'
 date:
 - type: published
-  value: 2003-02
+  at: 2003-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2003-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 643 specifies a micrographic method of determining apparent ferritic or austenitic grain size in steels. It describes the methods of revealing grain boundaries and of estimating the mean grain size of specimens with unimodal size distribution.
     Although grains are three-dimensional in shape, the metallographic sectioning plane can cut through a grain at any point from a grain corner, to the maximum diameter of the grain, thus producing a range of apparent grain sizes on the two-dimensional plane, even in a sample with a perfectly consistent grain size.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 643:2003 spécifie une méthode de détermination micrographique de la grosseur apparente du grain ferritique ou austénitique des aciers. Elle précise les méthodes de mise en évidence des joints de grains et d'estimation de la grosseur moyenne de grain d'un échantillon ayant une distribution granulométrique unimodale.
     Bien que les grains soient de forme tridimensionnelle, le plan de la préparation métallographique peut couper un grain en tout point, passant par un coin du grain ou au travers du diamètre maximal du grain ou entre les deux, produisant de ce fait une gamme de grosseurs de grain apparentes sur le plan bidimensionnel, même dans le cas d'un échantillon présentant une grosseur de grain parfaitement cohérente.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO643-1983
     type: standard
-    docid:
-    - id: ISO 643:1983
+    formattedref: ISO 643:1983
+    docidentifier:
+    - content: ISO 643:1983
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 643:1983
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO643-2012
     type: standard
-    docid:
-    - id: ISO 643:2012
+    formattedref: ISO 643:2012
+    docidentifier:
+    - content: ISO 643:2012
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2012-12-10'
-    formattedref:
-      content: ISO 643:2012
-      format: text/plain
+      at: '2012-12-10'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Methods of testing (other than mechanical tests and chemical analysis)
-      number: 17
+    - number: 17
       type: TC
       identifier: ISO/TC 17/SC 7
+      content: Methods of testing (other than mechanical tests and chemical analysis)
   ics:
   - code: 77.040.99
     text: Other methods of testing of metals
   structuredidentifier:
-    project_number: '30694'
     type: ISO
+    project_number:
+      content: '30694'

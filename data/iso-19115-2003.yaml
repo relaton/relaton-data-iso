@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO19115-2003
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Metadata
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Metadata
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Métadonnées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Métadonnées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/26020.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/60/26020.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19115:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Metadata
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Metadata
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Métadonnées
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Métadonnées
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/26020.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/60/26020.detail.rss
+docidentifier:
+- content: ISO 19115:2003
   type: ISO
   primary: true
-- id: ISO 19115:2003(E)
+- content: ISO 19115:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso:19115:stage-95.99
+- content: urn:iso:std:iso:19115:stage-95.99
   type: URN
 docnumber: '19115'
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2003-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 19115:2003 defines the schema required for describing geographic information and services. It provides information about the identification, the extent, the quality, the spatial and temporal schema, spatial reference, and distribution of digital geographic data.
     ISO 19115:2003 is applicable to:
     - the cataloguing of datasets, clearinghouse activities, and the full description of datasets;
@@ -92,12 +82,9 @@ abstract:
     - a method for extending metadata to fit specialized needs.
     Though ISO 19115:2003 is applicable to digital data, its principles can be extended to many other forms of geographic data such as maps, charts, and textual documents as well as non-geographic data.
     NOTE Certain mandatory metadata elements may not apply to these other forms of data.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 19115:2003 defines the schema required for describing geographic information and services. It provides information about the identification, the extent, the quality, the spatial and temporal schema, spatial reference, and distribution of digital geographic data.
     ISO 19115:2003 is applicable to:
     - the cataloguing of datasets, clearinghouse activities, and the full description of datasets;
@@ -109,65 +96,57 @@ abstract:
     - a method for extending metadata to fit specialized needs.
     Though ISO 19115:2003 is applicable to digital data, its principles can be extended to many other forms of geographic data such as maps, charts, and textual documents as well as non-geographic data.
     NOTE Certain mandatory metadata elements may not apply to these other forms of data.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO19115-1-2014
     type: standard
-    docid:
-    - id: ISO 19115-1:2014
+    formattedref: ISO 19115-1:2014
+    docidentifier:
+    - content: ISO 19115-1:2014
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2014-03-19'
-    formattedref:
-      content: ISO 19115-1:2014
-      format: text/plain
+      at: '2014-03-19'
 - type: updates
   bibitem:
-    id: ISO19115-2003/Cor1-2006
     type: standard
-    docid:
-    - id: ISO 19115:2003/Cor 1:2006
+    formattedref: ISO 19115:2003/Cor 1:2006
+    docidentifier:
+    - content: ISO 19115:2003/Cor 1:2006
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2014-03-19'
-    formattedref:
-      content: ISO 19115:2003/Cor 1:2006
-      format: text/plain
+      at: '2014-03-19'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '26020'
     type: ISO
+    project_number:
+      content: '26020'

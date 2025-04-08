@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO5158-2023
-title:
-- content: Mobile financial services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Customer identification guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Mobile financial services - Customer identification guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Services financiers mobiles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Lignes directrices relatives à l'identification des clients
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Services financiers mobiles - Lignes directrices relatives à l'identification
-    des clients
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/80948.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:80948:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/09/80948.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 5158:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Mobile financial services
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Customer identification guidelines
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Mobile financial services - Customer identification guidelines
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services financiers mobiles
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Lignes directrices relatives à l'identification des clients
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services financiers mobiles - Lignes directrices relatives à l'identification
+    des clients
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/80948.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:80948:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/09/80948.detail.rss
+docidentifier:
+- content: ISO 5158:2023
   type: ISO
   primary: true
-- id: ISO 5158:2023(E)
+- content: ISO 5158:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:5158:stage-60.60
+- content: urn:iso:std:iso:5158:stage-published
   type: URN
 docnumber: '5158'
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2023-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides guidelines for customer identification in mobile financial services (MFS), including:
     —    a general framework of customer identification for MFS;
     —    the multi-dimensional overall identity assurance level (AL) of an MFS customer and its evaluation criteria;
@@ -91,12 +81,9 @@ abstract:
     This document also contains annexes which demonstrate how to apply the ALs in practice, through (e)KYC use cases in different regions, for example.
     This document is applicable to various kinds of MFS providers, including but not limited to commercial banks and third-party payment service providers.
     This document is applicable to identifying natural persons. Identifying legal entities, known as (e)KYB, is out of the scope of this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document provides guidelines for customer identification in mobile financial services (MFS), including:
     —    a general framework of customer identification for MFS;
     —    the multi-dimensional overall identity assurance level (AL) of an MFS customer and its evaluation criteria;
@@ -104,36 +91,34 @@ abstract:
     This document also contains annexes which demonstrate how to apply the ALs in practice, through (e)KYC use cases in different regions, for example.
     This document is applicable to various kinds of MFS providers, including but not limited to commercial banks and third-party payment service providers.
     This document is applicable to identifying natural persons. Identifying legal entities, known as (e)KYB, is out of the scope of this document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: '03.060'
     text: Finances. Banking. Monetary systems. Insurance
   structuredidentifier:
-    project_number: '80948'
     type: ISO
+    project_number:
+      content: '80948'

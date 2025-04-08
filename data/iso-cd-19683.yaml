@@ -1,76 +1,65 @@
 ---
-schema-version: v1.2.9
 id: ISO/CD19683
-title:
-- content: Space systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Design qualification and acceptance tests of small spacecraft and units
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Space systems - Design qualification and acceptance tests of small spacecraft
-    and units
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes spatiaux
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Qualification de la conception et essais de réception des petits véhicules
-    spatiaux
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Systèmes spatiaux - Qualification de la conception et essais de réception
-    des petits véhicules spatiaux
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86540.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/65/86540.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 19683
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Design qualification and acceptance tests of small spacecraft and units
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space systems - Design qualification and acceptance tests of small spacecraft
+    and units
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes spatiaux
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualification de la conception et essais de réception des petits véhicules
+    spatiaux
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes spatiaux - Qualification de la conception et essais de réception
+    des petits véhicules spatiaux
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86540.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/65/86540.detail.rss
+docidentifier:
+- content: ISO/CD 19683
   type: ISO
   primary: true
-- id: ISO/CD 19683(E)
+- content: ISO/CD 19683(E)
   type: iso-reference
-- id: urn:iso:std:iso:19683:stage-draft
+- content: urn:iso:std:iso:19683:stage-draft
   type: URN
 docnumber: '19683'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -79,63 +68,57 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 19683:2017 provides test methods and test requirements for design qualification and/or acceptance of small spacecraft or units. It provides the minimum test requirements and test methods to qualify the design and manufacturing methods of commercial small spacecraft and their units and to accept the final products.
     ISO 19683:2017 places emphasis on achieving reliability against infant mortality after satellite launch to orbit while maintaining low cost and fast delivery.
     ISO 19683:2017 is applied to satellites whose development methods are different from the ones used for traditional satellites that have little room for risk tolerance, as shown in Figure 1. The scope of this document encompasses different categories of small spacecraft, so-called mini-, micro, nano-, pico- and femto-, as well as CubeSat, spacecraft. Therefore, for the sake of convenience, the term "small spacecraft" is used throughout this document as a generic term.
     ISO 19683:2017 includes CubeSat, as long as it is developed with the untraditional processes.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 19683:2017 provides test methods and test requirements for design qualification and/or acceptance of small spacecraft or units. It provides the minimum test requirements and test methods to qualify the design and manufacturing methods of commercial small spacecraft and their units and to accept the final products.
     ISO 19683:2017 places emphasis on achieving reliability against infant mortality after satellite launch to orbit while maintaining low cost and fast delivery.
     ISO 19683:2017 is applied to satellites whose development methods are different from the ones used for traditional satellites that have little room for risk tolerance, as shown in Figure 1. The scope of this document encompasses different categories of small spacecraft, so-called mini-, micro, nano-, pico- and femto-, as well as CubeSat, spacecraft. Therefore, for the sake of convenience, the term "small spacecraft" is used throughout this document as a generic term.
     ISO 19683:2017 includes CubeSat, as long as it is developed with the untraditional processes.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19683-2017
     type: standard
-    docid:
-    - id: ISO 19683:2017
+    formattedref: ISO 19683:2017
+    docidentifier:
+    - content: ISO 19683:2017
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19683:2017
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Space systems and operations
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 14
+      content: Space systems and operations
   ics:
   - code: '49.140'
     text: Space systems and operations
   structuredidentifier:
-    project_number: '86540'
     type: ISO
+    project_number:
+      content: '86540'

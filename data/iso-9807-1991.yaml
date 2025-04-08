@@ -1,143 +1,125 @@
 ---
-schema-version: v1.2.9
 id: ISO9807-1991
-title:
-- content: Banking and related financial services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Requirements for message authentication (retail)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Banking and related financial services - Requirements for message authentication
-    (retail)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Banque et services financiers liés aux opérations bancaires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Spécifications liées à l'authentification des messages (service aux particuliers)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Banque et services financiers liés aux opérations bancaires - Spécifications
-    liées à l'authentification des messages (service aux particuliers)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/17681.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/76/17681.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9807:1991
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Banking and related financial services
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Requirements for message authentication (retail)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Banking and related financial services - Requirements for message authentication
+    (retail)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Banque et services financiers liés aux opérations bancaires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Spécifications liées à l'authentification des messages (service aux particuliers)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Banque et services financiers liés aux opérations bancaires - Spécifications
+    liées à l'authentification des messages (service aux particuliers)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/17681.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/76/17681.detail.rss
+docidentifier:
+- content: ISO 9807:1991
   type: ISO
   primary: true
-- id: ISO 9807:1991(E)
+- content: ISO 9807:1991(E)
   type: iso-reference
-- id: urn:iso:std:iso:9807:stage-95.99
+- content: urn:iso:std:iso:9807:stage-95.99
   type: URN
 docnumber: '9807'
 date:
 - type: published
-  value: 1991-12
+  at: 1991-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1991-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies procedures to be used for protecting the integrity of retail
+- language: en
+  script: Latn
+  content: Specifies procedures to be used for protecting the integrity of retail
     banking messages and for verifying that the message originated from an authorized
     source. Describes the method by which algorithms are approved.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale prescrit des procédures à utiliser pour protéger l'intégrité des messages du service aux particuliers et pour vérifier que le message a pour origine une source autorisée. Elle décrit également la méthode permettant d'approuver les algorithmes utilisés pour l'authentification des messages du service aux particuliers. Les règles relatives à la représentation des données ne sont pas spécifiées bien qu'il soit nécessaire que les deux correspondants utilisent les mêmes manières de représenter les données. Les procédures sont également indépendantes du processus de transmission utilisé. Une liste des algorithmes approuvés pour le calcul du code d'authentification de message (MAC) est donnée dans l'annexe A. La méthode à utiliser pour approuver les algorithmes d'authentification est donnée dans l'annexe B. La procédure permettant d'empêcher toute détermination exhaustive des clés est donnée dans l'annexe C. L'annexe D fournit un guide pour le choix des éléments d'authentification. L'annexe E donne des informations générales sur la protection contre la fraude interne de l'expéditeur et du destinataire, par exemple falsification d'un code d'authentification de message (MAC) par le destinataire, tandis que l'annexe F décrit une méthode pour la génération de clé pseudo-aléatoire. L'annexe G donne des références bibliographiques. L  481a présente Norme internationale ne prescrit pas a) le chiffrement pour la protection des messages contre toute divulgation non autorisée; ni b) la protection contre la perte ou la duplication des messages, qu'elle soit accidentelle ou intentionnelle. La présente Norme internationale s'adresse aux institutions responsables de la mise en oeuvre de techniques permettant l'authentification de messages utilisés dans le service aux particuliers.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO16609-2004
     type: standard
-    docid:
-    - id: ISO 16609:2004
+    formattedref: ISO 16609:2004
+    docidentifier:
+    - content: ISO 16609:2004
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2004-02-27'
-    formattedref:
-      content: ISO 16609:2004
-      format: text/plain
+      at: '2004-02-27'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: 35.240.40
     text: IT applications in banking
   structuredidentifier:
-    project_number: '17681'
     type: ISO
+    project_number:
+      content: '17681'

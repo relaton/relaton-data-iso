@@ -1,89 +1,72 @@
 ---
-schema-version: v1.2.7
-id: ISO/FDIS21622-3.2
-title:
-- content: Irrigation techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Remote monitoring and control for irrigation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: Interoperability'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Irrigation techniques - Remote monitoring and control for irrigation -
-    Part 3: Interoperability'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Techniques d’irrigation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Surveillance et commande à distance pour l’irrigation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Interoperability'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Techniques d’irrigation - Surveillance et commande à distance pour l’irrigation
-    - Partie 3: Interoperability'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/76901.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/07/69/76901.detail.rss
-  type: rss
+id: ISO2162232024
 type: standard
-docid:
-- id: ISO/FDIS 21622-3.2
+schema_version: v1.4.1
+fetched: '2025-04-08'
+title:
+- language: en
+  script: Latn
+  content: Irrigation techniques
+  type: title-intro
+- language: en
+  script: Latn
+  content: Remote monitoring and control for irrigation
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 3: Interoperability'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Irrigation techniques - Remote monitoring and control for irrigation -
+    Part 3: Interoperability'
+  type: main
+- language: fr
+  script: Latn
+  content: Irrigation techniques
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Remote monitoring and control for irrigation
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Part 3: Interoperability'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Irrigation techniques - Remote monitoring and control for irrigation -
+    Part 3: Interoperability'
+  type: main
+source:
+- type: src
+  content: https://www.iso.org/standard/76901.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:76901:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/69/76901.detail.rss
+docidentifier:
+- content: ISO 21622-3:2024
   type: ISO
   primary: true
-- id: ISO 21622-3.2(E)
+- content: ISO 21622-3:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso:21622:-3:stage-draft.v2
+- content: urn:iso:std:iso:21622:-3:stage-60.60
   type: URN
 docnumber: '21622'
+date:
+- type: published
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -91,33 +74,53 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+abstract:
+- language: en
+  script: Latn
+  content: |-
+    This document establishes requirements for interoperability among systems developed for management and/or control of irrigation facilities. It can be applied under any technological platform and irrigation system, regardless of the water management scheme, with the exception of irrigation mobile machinery, including centre pivots and linear irrigation machines. Due to the dynamic nature of these machines, associated control systems and specific safety requirements, the applicability of exchangeable data for irrigation mechanical move systems was not fully determined at the time of this publication.
+    This document does not define hardware or software requirements for any of the systems to which it applies. It only concerns externally visible interfaces and places no restriction on the underlying implementations. It has been designed to avoid interference with proprietary solutions subjected to intellectual property. From the point of view of the data exchange, and to guarantee interoperability based on the previous premises, this document defines three communication interfaces (interface with management, interface with events and interface with subsystems) and the architecture to which these interfaces apply. Three levels of architecture has been defined to accommodate these interfaces:
+    —    The Management Level, where any MIS conforming with this document is located. Out of all available data exchange methods, each MIS only implements those required to execute its functionalities.
+    —    The Higher Control Level: coordination. At this level is performed the data integration among RMCS and the access control to it. A software element, called coordination broker, ensures this integration and allows the use of different technologies in its interfaces.
+    —    The Lower Control Level: RMCS. These can also be referred to as irrigation subsystems. The RMCS perform the duties of the irrigation entity(s) under its control.
+    A coordination broker can be developed as a product by any of these manufacturers or by an independent developer using the standard specifications for this kind of software.
+- language: fr
+  script: Latn
+  content: |-
+    This document establishes requirements for interoperability among systems developed for management and/or control of irrigation facilities. It can be applied under any technological platform and irrigation system, regardless of the water management scheme, with the exception of irrigation mobile machinery, including centre pivots and linear irrigation machines. Due to the dynamic nature of these machines, associated control systems and specific safety requirements, the applicability of exchangeable data for irrigation mechanical move systems was not fully determined at the time of this publication.
+    This document does not define hardware or software requirements for any of the systems to which it applies. It only concerns externally visible interfaces and places no restriction on the underlying implementations. It has been designed to avoid interference with proprietary solutions subjected to intellectual property. From the point of view of the data exchange, and to guarantee interoperability based on the previous premises, this document defines three communication interfaces (interface with management, interface with events and interface with subsystems) and the architecture to which these interfaces apply. Three levels of architecture has been defined to accommodate these interfaces:
+    —    The Management Level, where any MIS conforming with this document is located. Out of all available data exchange methods, each MIS only implements those required to execute its functionalities.
+    —    The Higher Control Level: coordination. At this level is performed the data integration among RMCS and the access control to it. A software element, called coordination broker, ensures this integration and allows the use of different technologies in its interfaces.
+    —    The Lower Control Level: RMCS. These can also be referred to as irrigation subsystems. The RMCS perform the duties of the irrigation entity(s) under its control.
+    A coordination broker can be developed as a product by any of these manufacturers or by an independent developer using the standard specifications for this kind of software.
+status:
   stage:
-    value: '50'
+    content: '60'
   substage:
-    value: '20'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2023'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
-fetched: '2024-01-08'
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Irrigation and drainage equipment and systems
-    number: 23
-    type: TC
-    identifier: ISO/TC 23/SC 18
-ics:
-- code: 65.060.35
-  text: Irrigation and drainage equipment
-structuredidentifier:
-  project_number: ISO 21622
-  part: '3'
-  type: ISO
+- {}
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 23
+      type: TC
+      identifier: ISO/TC 23/SC 18
+      content: Irrigation and drainage equipment and systems
+  ics:
+  - code: 65.060.35
+    text: Irrigation and drainage equipment
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: '76901'

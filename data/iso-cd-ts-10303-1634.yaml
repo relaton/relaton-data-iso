@@ -1,91 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO/CDTS10303-1634
+type: standard
+schema_version: v1.4.1
 title:
-- content: Industrial automation systems and integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Industrial automation systems and integration
   type: title-intro
-- content: Product data representation and exchange
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Product data representation and exchange
   type: title-main
-- content: 'Part 1634: Application module: Assembly component placement requirements'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1634: Application module: Assembly component placement requirements'
   type: title-part
-- content: 'Industrial automation systems and integration - Product data representation
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 1634: Application module: Assembly component placement requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Systèmes d'automatisation industrielle et intégration
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-- content: Représentation et échange de données de produits
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Représentation et échange de données de produits
   type: title-main
-- content: 'Partie 1634: Module d''application: Exigences de positionnement d''un
-    composant d''assemblage'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1634: Module d''application: Exigences de positionnement d''un
+    composant d''assemblage'
   type: title-part
-- content: 'Systèmes d''automatisation industrielle et intégration - Représentation
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 1634: Module d''application: Exigences
     de positionnement d''un composant d''assemblage'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/89774.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/97/89774.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/CD TS 10303-1634
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/89774.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/97/89774.detail.rss
+docidentifier:
+- content: ISO/CD TS 10303-1634
   type: ISO
   primary: true
-- id: ISO/CD TS 10303-1634(E)
+- content: ISO/CD TS 10303-1634(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:10303:-1634:stage-draft
+- content: urn:iso:std:iso:ts:10303:-1634:stage-draft
   type: URN
 docnumber: '10303'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '6'
 language:
@@ -94,7 +79,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/TS 10303-1634 specifies the application module for Assembly component placement requirements.
     The following are within the scope of ISO/TS 10303-1634:
     the representation of information needed to describe the constraints restricting where components are to be placed in an assembly. These restrictions might be to keep components within a region, or might be restrictions to keep components out of a region. Components might be grouped and requirements assigned to a group. Constraints might be applied between specific categories of components. Items which are considered by the responsible organization to be the basis of the requirement might be identified. Module attribute data population is restricted to that related to the discrete assembly view.
@@ -108,12 +95,9 @@ abstract:
     - assignment of component groups to restriction volumes;
     - description of property based component keepout regions on the interconnect substrate;
     - description of property based component keepin regions on the interconnect substrate.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/TS 10303-1634 specifies the application module for Assembly component placement requirements.
     The following are within the scope of ISO/TS 10303-1634:
     the representation of information needed to describe the constraints restricting where components are to be placed in an assembly. These restrictions might be to keep components within a region, or might be restrictions to keep components out of a region. Components might be grouped and requirements assigned to a group. Constraints might be applied between specific categories of components. Items which are considered by the responsible organization to be the basis of the requirement might be identified. Module attribute data population is restricted to that related to the discrete assembly view.
@@ -127,49 +111,44 @@ abstract:
     - assignment of component groups to restriction volumes;
     - description of property based component keepout regions on the interconnect substrate;
     - description of property based component keepin regions on the interconnect substrate.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS10303-1634-2018
     type: standard
-    docid:
-    - id: ISO/TS 10303-1634:2018
+    formattedref: ISO/TS 10303-1634:2018
+    docidentifier:
+    - content: ISO/TS 10303-1634:2018
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 10303-1634:2018
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Industrial data
-    number: 184
-    type: TC
-    identifier: ISO/TC 184/SC 4
-ics:
-- code: 35.240.50
-  text: IT applications in industry
-structuredidentifier:
-  project_number: ISO 10303
-  part: '1634'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 184
+      type: TC
+      identifier: ISO/TC 184/SC 4
+      content: Industrial data
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 1634
+      content: ISO 10303

@@ -1,137 +1,122 @@
 ---
-schema-version: v1.2.9
 id: ISO2553-1984
-title:
-- content: Welds
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Symbolic representation on drawings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Welds - Symbolic representation on drawings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Soudures
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Représentations symboliques sur les dessins
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Soudures - Représentations symboliques sur les dessins
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/7500.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/75/7500.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2553:1984
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Welds
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Symbolic representation on drawings
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Welds - Symbolic representation on drawings
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Soudures
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Représentations symboliques sur les dessins
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Soudures - Représentations symboliques sur les dessins
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/7500.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/75/7500.detail.rss
+docidentifier:
+- content: ISO 2553:1984
   type: ISO
   primary: true
-- id: ISO 2553:1984(E)
+- content: ISO 2553:1984(E)
   type: iso-reference
-- id: urn:iso:std:iso:2553:stage-95.99
+- content: urn:iso:std:iso:2553:stage-95.99
   type: URN
 docnumber: '2553'
 date:
 - type: published
-  value: 1984-12
+  at: 1984-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1984-12
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO2553-1974
     type: standard
-    docid:
-    - id: ISO 2553:1974
+    formattedref: ISO 2553:1974
+    docidentifier:
+    - content: ISO 2553:1974
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 2553:1974
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO2553-1992
     type: standard
-    docid:
-    - id: ISO 2553:1992
+    formattedref: ISO 2553:1992
+    docidentifier:
+    - content: ISO 2553:1992
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1992-10-15'
-    formattedref:
-      content: ISO 2553:1992
-      format: text/plain
+      at: '1992-10-15'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Representation and terms
-      number: 44
+    - number: 44
       type: TC
       identifier: ISO/TC 44/SC 7
+      content: Representation and terms
   ics:
   - code: 01.100.20
     text: Mechanical engineering drawings
   - code: 25.160.40
     text: Welded joints and welds
   structuredidentifier:
-    project_number: '7500'
     type: ISO
+    project_number:
+      content: '7500'

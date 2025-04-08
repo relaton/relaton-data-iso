@@ -1,184 +1,160 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC10118-1-2016
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Security techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Hash-functions -- Part 1: General'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Security techniques - Hash-functions -- Part
-    1: General'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Techniques de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Fonctions de hachage -- Partie 1: Généralités'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Techniques de sécurité - Fonctions de
-    hachage -- Partie 1: Généralités'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/64213.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:64213:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/42/64213.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 10118-1:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Hash-functions -- Part 1: General'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Hash-functions -- Part
+    1: General'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques de sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Fonctions de hachage -- Partie 1: Généralités'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Techniques de sécurité - Fonctions de
+    hachage -- Partie 1: Généralités'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/64213.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:64213:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/42/64213.detail.rss
+docidentifier:
+- content: ISO/IEC 10118-1:2016
   type: ISO
   primary: true
-- id: ISO/IEC 10118-1:2016(E)
+- content: ISO/IEC 10118-1:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:10118:-1:stage-90.93
+- content: urn:iso:std:iso-iec:10118:-1:stage-90.93
   type: URN
 docnumber: '10118'
 date:
 - type: published
-  value: 2016-10
+  at: 2016-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2016-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 10118-1:2016 specifies hash-functions and is therefore applicable to the provision of authentication, integrity and non-repudiation services. Hash-functions map strings of bits of variable (but usually upper bounded) length to fixed-length strings of bits, using a specified algorithm. They can be used for
     -      reducing a message to a short imprint for input to a digital signature mechanism, and
     -      committing the user to a given string of bits without revealing this string.
     NOTE          The hash-functions specified in ISO/IEC 10118 (all parts) do not involve the use of secret keys. However, these hash-functions may be used, in conjunction with secret keys, to build message authentication codes. Message Authentication Codes (MACs) provide data origin authentication as well as message integrity. Techniques for computing a MAC using a hash-function are specified in ISO/IEC 9797‑2 [1].
     ISO/IEC 10118-1:2016 contains definitions, symbols, abbreviations and requirements that are common to all the other parts of ISO/IEC 10118. The criteria used to select the algorithms specified in subsequent parts of ISO/IEC 10118 are defined in Annex B of this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 10118-1:2016 specifies hash-functions and is therefore applicable to the provision of authentication, integrity and non-repudiation services. Hash-functions map strings of bits of variable (but usually upper bounded) length to fixed-length strings of bits, using a specified algorithm. They can be used for
     -      reducing a message to a short imprint for input to a digital signature mechanism, and
     -      committing the user to a given string of bits without revealing this string.
     NOTE          The hash-functions specified in ISO/IEC 10118 (all parts) do not involve the use of secret keys. However, these hash-functions may be used, in conjunction with secret keys, to build message authentication codes. Message Authentication Codes (MACs) provide data origin authentication as well as message integrity. Techniques for computing a MAC using a hash-function are specified in ISO/IEC 9797‑2 [1].
     ISO/IEC 10118-1:2016 contains definitions, symbols, abbreviations and requirements that are common to all the other parts of ISO/IEC 10118. The criteria used to select the algorithms specified in subsequent parts of ISO/IEC 10118 are defined in Annex B of this document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC10118-1-2000
     type: standard
-    docid:
-    - id: ISO/IEC 10118-1:2000
+    formattedref: ISO/IEC 10118-1:2000
+    docidentifier:
+    - content: ISO/IEC 10118-1:2000
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 10118-1:2000
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC10118-1-2016/Amd1-2021
     type: standard
-    docid:
-    - id: ISO/IEC 10118-1:2016/Amd 1:2021
+    formattedref: ISO/IEC 10118-1:2016/Amd 1:2021
+    docidentifier:
+    - content: ISO/IEC 10118-1:2016/Amd 1:2021
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-05-19'
-    formattedref:
-      content: ISO/IEC 10118-1:2016/Amd 1:2021
-      format: text/plain
+      at: '2022-05-19'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '64213'
     type: ISO
+    project_number:
+      content: '64213'

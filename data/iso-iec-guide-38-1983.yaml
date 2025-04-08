@@ -1,142 +1,129 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECGuide38-1983
-title:
-- content: Withdrawn
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Withdrawn
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Annulé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Annulé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/19744.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/97/19744.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC Guide 38:1983
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Withdrawn
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Withdrawn
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Annulé
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Annulé
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/19744.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/97/19744.detail.rss
+docidentifier:
+- content: ISO/IEC Guide 38:1983
   type: ISO
   primary: true
-- id: ISO/IEC Guide 38:1983(E)
+- content: ISO/IEC Guide 38:1983(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:guide:38:stage-95.99
+- content: urn:iso:std:iso-iec:guide:38:stage-95.99
   type: URN
 docnumber: '38'
 date:
 - type: published
-  value: 1983-12
+  at: 1983-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1983-12
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISOGuide24-1978
     type: standard
-    docid:
-    - id: ISO Guide 24:1978
+    formattedref: ISO Guide 24:1978
+    docidentifier:
+    - content: ISO Guide 24:1978
       type: ISO
       primary: true
-    formattedref:
-      content: ISO Guide 24:1978
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IECGuide25-1990
     type: standard
-    docid:
-    - id: ISO/IEC Guide 25:1990
+    formattedref: ISO/IEC Guide 25:1990
+    docidentifier:
+    - content: ISO/IEC Guide 25:1990
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1993-02-11'
-    formattedref:
-      content: ISO/IEC Guide 25:1990
-      format: text/plain
+      at: '1993-02-11'
 - type: updates
   bibitem:
-    id: ISO/IECGuide58-1993
     type: standard
-    docid:
-    - id: ISO/IEC Guide 58:1993
+    formattedref: ISO/IEC Guide 58:1993
+    docidentifier:
+    - content: ISO/IEC Guide 58:1993
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1993-02-11'
-    formattedref:
-      content: ISO/IEC Guide 58:1993
-      format: text/plain
+      at: '1993-02-11'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: guide
+    content: guide
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Committee on conformity assessment
-      type: CASCO
+    - type: CASCO
       identifier: ISO/CASCO
+      content: Committee on conformity assessment
   ics:
   - code: 47.020.01
     text: General standards related to shipbuilding and marine structures
   structuredidentifier:
-    project_number: '19744'
     type: ISO
+    project_number:
+      content: '19744'

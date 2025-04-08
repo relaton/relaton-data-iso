@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC29168-1-2023
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Open systems interconnection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Object identifier resolution system'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Open systems interconnection - Part 1: Object
-    identifier resolution system'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Interconnexion de systèmes ouverts (OSI)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Système de résolution d''identificateur d''objet'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
-    - Partie 1: Système de résolution d''identificateur d''objet'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/82104.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:82104:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/21/82104.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 29168-1:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Open systems interconnection
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Object identifier resolution system'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Open systems interconnection - Part 1: Object
+    identifier resolution system'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interconnexion de systèmes ouverts (OSI)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Système de résolution d''identificateur d''objet'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
+    - Partie 1: Système de résolution d''identificateur d''objet'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/82104.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:82104:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/21/82104.detail.rss
+docidentifier:
+- content: ISO/IEC 29168-1:2023
   type: ISO
   primary: true
-- id: ISO/IEC 29168-1:2023(E)
+- content: ISO/IEC 29168-1:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:29168:-1:stage-60.60
+- content: urn:iso:std:iso-iec:29168:-1:stage-published
   type: URN
 docnumber: '29168'
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2023-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This document specifies the OID resolution system, including the overall
+- language: en
+  script: Latn
+  content: "This document specifies the OID resolution system, including the overall
     architecture and a DNS-based resolution mechanism.\nIt specifies the means for
     inserting any application-defined information associated with an OID node into
     the DNS (see clause 6) and the means of retrieval of that information using the
@@ -129,12 +116,9 @@ abstract:
     and prohibits the use of other resource records of a similar form but with different
     semantics (in DNS zone files in the ORS domain) – see 6.2. It does not otherwise
     restrict the general use of DNS zone files."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document specifies the OID resolution system, including the overall
+- language: fr
+  script: Latn
+  content: "This document specifies the OID resolution system, including the overall
     architecture and a DNS-based resolution mechanism.\nIt specifies the means for
     inserting any application-defined information associated with an OID node into
     the DNS (see clause 6) and the means of retrieval of that information using the
@@ -157,48 +141,43 @@ abstract:
     and prohibits the use of other resource records of a similar form but with different
     semantics (in DNS zone files in the ORS domain) – see 6.2. It does not otherwise
     restrict the general use of DNS zone files."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC29168-1-2011
     type: standard
-    docid:
-    - id: ISO/IEC 29168-1:2011
+    formattedref: ISO/IEC 29168-1:2011
+    docidentifier:
+    - content: ISO/IEC 29168-1:2011
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 29168-1:2011
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 35.100.01
     text: Open systems interconnection in general
   structuredidentifier:
-    project_number: '82104'
     type: ISO
+    project_number:
+      content: '82104'

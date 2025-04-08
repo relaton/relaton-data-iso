@@ -1,168 +1,147 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC20933-2019
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Distributed application platforms and services (DAPS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Framework for distributed real-time access systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Distributed application platforms and services
-    (DAPS) - Framework for distributed real-time access systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Services et plate-formes d'application distribuées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Structure pour les contrôles d'accès diffusés en temps réel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Services et plate-formes d'application
-    distribuées - Structure pour les contrôles d'accès diffusés en temps réel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/74404.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:74404:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/44/74404.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 20933:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Distributed application platforms and services (DAPS)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Framework for distributed real-time access systems
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Distributed application platforms and services
+    (DAPS) - Framework for distributed real-time access systems
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services et plate-formes d'application distribuées
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Structure pour les contrôles d'accès diffusés en temps réel
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Services et plate-formes d'application
+    distribuées - Structure pour les contrôles d'accès diffusés en temps réel
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/74404.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74404:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/44/74404.detail.rss
+docidentifier:
+- content: ISO/IEC 20933:2019
   type: ISO
   primary: true
-- id: ISO/IEC 20933:2019(E)
+- content: ISO/IEC 20933:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:20933:stage-90.60
+- content: urn:iso:std:iso-iec:20933:stage-90.60
   type: URN
 docnumber: '20933'
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2019-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a framework for a distributed real-time Access system. It includes:
     1)    an ID triggered modular system architecture, the functions of the modules, the semantics of messages those modules exchange, and elements of messages;
     2)    the system behaviour from the time it receives an access request until the time it sends the result along with the sequence;
     3)    performance measurement mechanisms using a time stamping function that can be employed for the evaluation of the system.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies a framework for a distributed real-time Access system. It includes:
     1)    an ID triggered modular system architecture, the functions of the modules, the semantics of messages those modules exchange, and elements of messages;
     2)    the system behaviour from the time it receives an access request until the time it sends the result along with the sequence;
     3)    performance measurement mechanisms using a time stamping function that can be employed for the evaluation of the system.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC20933-2016
     type: standard
-    docid:
-    - id: ISO/IEC 20933:2016
+    formattedref: ISO/IEC 20933:2016
+    docidentifier:
+    - content: ISO/IEC 20933:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 20933:2016
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: '35.210'
     text: Cloud computing
   structuredidentifier:
-    project_number: '74404'
     type: ISO
+    project_number:
+      content: '74404'

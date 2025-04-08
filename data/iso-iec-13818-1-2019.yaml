@@ -1,110 +1,97 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC13818-1-2019
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Generic coding of moving pictures and associated audio information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Systems'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Generic coding of moving pictures and associated
-    audio information - Part 1: Systems'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Codage générique des images animées et du son associé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Systèmes'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Codage générique des images animées et
-    du son associé - Partie 1: Systèmes'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/75928.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/07/59/75928.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 13818-1:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Generic coding of moving pictures and associated audio information
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Systems'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Generic coding of moving pictures and associated
+    audio information - Part 1: Systems'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Codage générique des images animées et du son associé
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Systèmes'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Codage générique des images animées et
+    du son associé - Partie 1: Systèmes'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/75928.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/59/75928.detail.rss
+docidentifier:
+- content: ISO/IEC 13818-1:2019
   type: ISO
   primary: true
-- id: ISO/IEC 13818-1:2019(E)
+- content: ISO/IEC 13818-1:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:13818:-1:stage-95.99
+- content: urn:iso:std:iso-iec:13818:-1:stage-95.99
   type: URN
 docnumber: '13818'
 date:
 - type: published
-  value: 2019-06
+  at: 2019-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '7'
-revdate: 2019-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This Recommendation | International Standard specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in Parts 2 and 3 of ISO/IEC 13818. The system layer supports six basic functions:
     1)    the synchronization of multiple compressed streams on decoding;
     2)    the interleaving of multiple compressed streams into a single stream;
@@ -114,12 +101,9 @@ abstract:
     6)    multiplexing and signalling of various components in a system stream.
     A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream is either a transport stream or a program stream. Both streams are constructed from PES packets and packets containing other necessary information. Both stream types support multiplexing of video and audio compressed streams from one program with a common time base. The transport stream additionally supports the multiplexing of video and audio compressed streams from multiple programs with independent time bases. For almost error-free environments the program stream is generally more appropriate, supporting software processing of program information. The transport stream is more suitable for use in environments where errors are likely.
     A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream, whether a transport stream or a program stream, is constructed in two layers: the outermost layer is the system layer, and the innermost is the compression layer. The system layer provides the functions necessary for using one or more compressed data streams in a system. The video and audio parts of this Specification define the compression coding layer for audio and video data. Coding of other types of data is not defined by this Specification, but is supported by the system layer provided that the other types of data adhere to the constraints defined in 2.7.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This Recommendation | International Standard specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in Parts 2 and 3 of ISO/IEC 13818. The system layer supports six basic functions:
     1)    the synchronization of multiple compressed streams on decoding;
     2)    the interleaving of multiple compressed streams into a single stream;
@@ -129,101 +113,84 @@ abstract:
     6)    multiplexing and signalling of various components in a system stream.
     A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream is either a transport stream or a program stream. Both streams are constructed from PES packets and packets containing other necessary information. Both stream types support multiplexing of video and audio compressed streams from one program with a common time base. The transport stream additionally supports the multiplexing of video and audio compressed streams from multiple programs with independent time bases. For almost error-free environments the program stream is generally more appropriate, supporting software processing of program information. The transport stream is more suitable for use in environments where errors are likely.
     A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream, whether a transport stream or a program stream, is constructed in two layers: the outermost layer is the system layer, and the innermost is the compression layer. The system layer provides the functions necessary for using one or more compressed data streams in a system. The video and audio parts of this Specification define the compression coding layer for audio and video data. Coding of other types of data is not defined by this Specification, but is supported by the system layer provided that the other types of data adhere to the constraints defined in 2.7.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC13818-1-2018
     type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2018
+    formattedref: ISO/IEC 13818-1:2018
+    docidentifier:
+    - content: ISO/IEC 13818-1:2018
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 13818-1:2018
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEC13818-1-2018/Amd1-2018
     type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2018/Amd 1:2018
+    formattedref: ISO/IEC 13818-1:2018/Amd 1:2018
+    docidentifier:
+    - content: ISO/IEC 13818-1:2018/Amd 1:2018
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 13818-1:2018/Amd 1:2018
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC13818-1-2022
     type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2022
+    formattedref: ISO/IEC 13818-1:2022
+    docidentifier:
+    - content: ISO/IEC 13818-1:2022
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-09-30'
-    formattedref:
-      content: ISO/IEC 13818-1:2022
-      format: text/plain
+      at: '2022-09-30'
 - type: updates
   bibitem:
-    id: ISO/IEC13818-1-2019/Cor1-2020
     type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2019/Cor 1:2020
+    formattedref: ISO/IEC 13818-1:2019/Cor 1:2020
+    docidentifier:
+    - content: ISO/IEC 13818-1:2019/Cor 1:2020
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-09-30'
-    formattedref:
-      content: ISO/IEC 13818-1:2019/Cor 1:2020
-      format: text/plain
+      at: '2022-09-30'
 - type: updates
   bibitem:
-    id: ISO/IEC13818-1-2019/Amd1-2020
     type: standard
-    docid:
-    - id: ISO/IEC 13818-1:2019/Amd 1:2020
+    formattedref: ISO/IEC 13818-1:2019/Amd 1:2020
+    docidentifier:
+    - content: ISO/IEC 13818-1:2019/Amd 1:2020
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-09-30'
-    formattedref:
-      content: ISO/IEC 13818-1:2019/Amd 1:2020
-      format: text/plain
+      at: '2022-09-30'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    project_number: '75928'
     type: ISO
+    project_number:
+      content: '75928'

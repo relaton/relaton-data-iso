@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO16000-37-2019
-title:
-- content: Indoor air
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 37: Measurement of PM2,5 mass concentration'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Indoor air - Part 37: Measurement of PM2,5 mass concentration'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Air intérieur
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 37: Mesure de la concentration massique en PM2,5'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Air intérieur - Partie 37: Mesure de la concentration massique en PM2,5'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/66283.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:66283:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/62/66283.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 16000-37:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Indoor air
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 37: Measurement of PM2,5 mass concentration'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Indoor air - Part 37: Measurement of PM2,5 mass concentration'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Air intérieur
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 37: Mesure de la concentration massique en PM2,5'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Air intérieur - Partie 37: Mesure de la concentration massique en PM2,5'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/66283.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:66283:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/62/66283.detail.rss
+docidentifier:
+- content: ISO 16000-37:2019
   type: ISO
   primary: true
-- id: ISO 16000-37:2019(E)
+- content: ISO 16000-37:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:16000:-37:stage-90.93
+- content: urn:iso:std:iso:16000:-37:stage-90.93
   type: URN
 docnumber: '16000'
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the measurement methods and strategies for determining the PM2,5 mass concentrations of suspended particulate matter (PM) in indoor air. It can also be used for determining PM10 mass concentration.
     The reference method principle consists of collecting PM2,5 on a filter after separation of the particles by an impaction head and weighing them by means of a balance.
     Measurement procedure and main requirements are similar to the conditions specified in EN 12341.
@@ -91,12 +81,9 @@ abstract:
     The lower range of application of this document is 2 µg/m3 of PM2,5 (i.e. the limit of detection of the standard measurement method expressed as its uncertainty).
     This document does not cover the determination of bioaerosols or the chemical characterization of particles. For the measurement and assessment of dust composition, see the relevant technical rules in the International Standards in the ISO 16000 series.
     This document does not cover passenger compartments of vehicles and public transport systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies the measurement methods and strategies for determining the PM2,5 mass concentrations of suspended particulate matter (PM) in indoor air. It can also be used for determining PM10 mass concentration.
     The reference method principle consists of collecting PM2,5 on a filter after separation of the particles by an impaction head and weighing them by means of a balance.
     Measurement procedure and main requirements are similar to the conditions specified in EN 12341.
@@ -105,36 +92,34 @@ abstract:
     The lower range of application of this document is 2 µg/m3 of PM2,5 (i.e. the limit of detection of the standard measurement method expressed as its uncertainty).
     This document does not cover the determination of bioaerosols or the chemical characterization of particles. For the measurement and assessment of dust composition, see the relevant technical rules in the International Standards in the ISO 16000 series.
     This document does not cover passenger compartments of vehicles and public transport systems.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Indoor air
-      number: 146
+    - number: 146
       type: TC
       identifier: ISO/TC 146/SC 6
+      content: Indoor air
   ics:
   - code: 13.040.20
     text: Ambient atmospheres
   structuredidentifier:
-    project_number: '66283'
     type: ISO
+    project_number:
+      content: '66283'

@@ -1,150 +1,131 @@
 ---
-schema-version: v1.2.9
 id: ISO20530-1-2020
+type: standard
+schema_version: v1.4.1
 title:
-- content: Intelligent transport systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems
   type: title-intro
-- content: Information for emergency service support via personal ITS station
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Information for emergency service support via personal ITS station
   type: title-main
-- content: 'Part 1: General requirements and technical definition'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: General requirements and technical definition'
   type: title-part
-- content: 'Intelligent transport systems - Information for emergency service support
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Intelligent transport systems - Information for emergency service support
     via personal ITS station - Part 1: General requirements and technical definition'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Systèmes de transport intelligents
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transport intelligents
   type: title-intro
-- content: Informations pour le support des services d'urgence par l'intermédiaire
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informations pour le support des services d'urgence par l'intermédiaire
     d'une station ITS personnelle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Partie 1: Exigences générales et définition technique'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Exigences générales et définition technique'
   type: title-part
-- content: 'Systèmes de transport intelligents - Informations pour le support des
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes de transport intelligents - Informations pour le support des
     services d''urgence par l''intermédiaire d''une station ITS personnelle - Partie
     1: Exigences générales et définition technique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/68266.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:68266:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/82/68266.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 20530-1:2020
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/68266.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:68266:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/82/68266.detail.rss
+docidentifier:
+- content: ISO 20530-1:2020
   type: ISO
   primary: true
-- id: ISO 20530-1:2020(E)
+- content: ISO 20530-1:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:20530:-1:stage-60.60
+- content: urn:iso:std:iso:20530:-1:stage-published
   type: URN
 docnumber: '20530'
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines the use cases and general requirements for supporting emergency services via P-ITS-S. Any automotive-related service providers can refer to this document for developing eCall service systems into eCall non-supportive vehicles.
     The P-ITS-S acts as a monitoring and data transmitting device which gathers a vehicle's speed, impact and airbag deployment signal to assess the accident occurrence and type of accident. Once gathered data has been determined as an accident, accident related information is sent to an emergency service centre.
     Only notable events, such as an airbag-deployed event, rollover and stationary accident, are concerned by this document. In addition, the vehicle data gathering device requirement and implementation methodology for the emergency service are not applicable to this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines the use cases and general requirements for supporting emergency services via P-ITS-S. Any automotive-related service providers can refer to this document for developing eCall service systems into eCall non-supportive vehicles.
     The P-ITS-S acts as a monitoring and data transmitting device which gathers a vehicle's speed, impact and airbag deployment signal to assess the accident occurrence and type of accident. Once gathered data has been determined as an accident, accident related information is sent to an emergency service centre.
     Only notable events, such as an airbag-deployed event, rollover and stationary accident, are concerned by this document. In addition, the vehicle data gathering device requirement and implementation methodology for the emergency service are not applicable to this document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.01
     text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '68266'
     type: ISO
+    project_number:
+      content: '68266'

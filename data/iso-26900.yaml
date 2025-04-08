@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.8
 id: ISO26900
-title:
-- content: Space data and information transfer systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Orbit data messages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Space data and information transfer systems - Orbit data messages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de transfert des informations et données spatiales
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Messages pour données d'orbites
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Systèmes de transfert des informations et données spatiales - Messages
-    pour données d'orbites
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85529.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/55/85529.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 26900
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space data and information transfer systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Orbit data messages
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space data and information transfer systems - Orbit data messages
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transfert des informations et données spatiales
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Messages pour données d'orbites
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transfert des informations et données spatiales - Messages
+    pour données d'orbites
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85529.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/55/85529.detail.rss
+docidentifier:
+- content: ISO 26900
   type: ISO
   primary: true
-- id: ISO 26900(E)
+- content: ISO 26900(E)
   type: iso-reference
-- id: urn:iso:std:iso:26900:stage-60.00
+- content: urn:iso:std:iso:26900:stage-published
   type: URN
 docnumber: '26900'
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2024-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies four standard message formats for use in transferring spacecraft orbit information between space agencies and commercial or governmental spacecraft operators:  The Orbit Parameter Message (OPM), the Orbit Mean-Elements Message (OMM), the Orbit Ephemeris Message (OEM), and the Orbit Comprehensive Message (OCM).  Such exchanges are used for:
     a)     pre-flight planning for tracking or navigation support;
     b)    scheduling tracking support;
@@ -96,12 +86,9 @@ abstract:
     The recommended Orbit Data Message format is ASCII (reference [4]).
     This document describes both ‘Keyword = Value Notation’ (KVN) as well as Extensible Markup Language (XML) (reference [5]) formatted messages.  Selection of KVN or XML format should be mutually agreed between message exchange partners.
     NOTE   –    As currently specified, an OPM, OMM, or OEM file is to represent orbit data for a single spacecraft, and the OCM is to represent orbit data for either a single spacecraft or single parent spacecraft of a parent/child spacecraft deployment scenario.  It is possible that the architecture may support multiple spacecraft per file; this could be considered in the future.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies four standard message formats for use in transferring spacecraft orbit information between space agencies and commercial or governmental spacecraft operators:  The Orbit Parameter Message (OPM), the Orbit Mean-Elements Message (OMM), the Orbit Ephemeris Message (OEM), and the Orbit Comprehensive Message (OCM).  Such exchanges are used for:
     a)     pre-flight planning for tracking or navigation support;
     b)    scheduling tracking support;
@@ -116,48 +103,43 @@ abstract:
     The recommended Orbit Data Message format is ASCII (reference [4]).
     This document describes both ‘Keyword = Value Notation’ (KVN) as well as Extensible Markup Language (XML) (reference [5]) formatted messages.  Selection of KVN or XML format should be mutually agreed between message exchange partners.
     NOTE   –    As currently specified, an OPM, OMM, or OEM file is to represent orbit data for a single spacecraft, and the OCM is to represent orbit data for either a single spacecraft or single parent spacecraft of a parent/child spacecraft deployment scenario.  It is possible that the architecture may support multiple spacecraft per file; this could be considered in the future.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO26900-2012
     type: standard
-    docid:
-    - id: ISO 26900:2012
+    formattedref: ISO 26900:2012
+    docidentifier:
+    - content: ISO 26900:2012
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 26900:2012
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Space systems and operations
-    number: 20
-    type: TC
-    identifier: ISO/TC 20/SC 14
-ics:
-- code: '49.140'
-  text: Space systems and operations
-structuredidentifier:
-  project_number: ISO 26900
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 20
+      type: TC
+      identifier: ISO/TC 20/SC 14
+      content: Space systems and operations
+  ics:
+  - code: '49.140'
+    text: Space systems and operations
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 26900

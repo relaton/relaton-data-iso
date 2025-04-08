@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO17485-2006
-title:
-- content: Bevel gears
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: ISO system of accuracy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Bevel gears - ISO system of accuracy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Engrenages coniques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Système ISO d'exactitude
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Engrenages coniques - Système ISO d'exactitude
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/33094.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:33094:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/30/33094.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 17485:2006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Bevel gears
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: ISO system of accuracy
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Bevel gears - ISO system of accuracy
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Engrenages coniques
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Système ISO d'exactitude
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Engrenages coniques - Système ISO d'exactitude
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/33094.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:33094:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/30/33094.detail.rss
+docidentifier:
+- content: ISO 17485:2006
   type: ISO
   primary: true
-- id: ISO 17485:2006(E)
+- content: ISO 17485:2006(E)
   type: iso-reference
-- id: urn:iso:std:iso:17485:stage-90.93
+- content: urn:iso:std:iso:17485:stage-90.93
   type: URN
 docnumber: '17485'
 date:
 - type: published
-  value: 2006-06
+  at: 2006-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2006-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 17485:2006 establishes a classification system that can be used to
+- language: en
+  script: Latn
+  content: "ISO 17485:2006 establishes a classification system that can be used to
     communicate geometrical accuracy specifications of unassembled bevel gears, hypoid
     gears, and gear pairs. It defines gear tooth accuracy terms, and specifies the
     structure of the gear accuracy grade system and allowable values.\nISO 17485:2006
@@ -97,12 +87,9 @@ abstract:
     the users of this International Standard are cautioned against the direct application
     of tolerance values to a projected performance of unassembled (loose) gears when
     they are assembled."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "L'ISO 17485:2006 établit un système de classification qui peut être utilisé
+- language: fr
+  script: Latn
+  content: "L'ISO 17485:2006 établit un système de classification qui peut être utilisé
     pour transmettre les spécifications relatives à l'exactitude géométrique relative
     aux engrenages coniques, roues hypoïdes et engrenages non assemblés. Elle spécifie
     les définitions de termes relatifs à l'exactitude des dentures, la structure du
@@ -120,36 +107,34 @@ abstract:
     Par conséquent, les utilisateurs de l'ISO 17485:2006 sont mis en garde contre
     l'application directe de valeurs de tolérances qui y figurent par rapport à celles
     obtenues après leur montage dans le carter.."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Gears
-      number: 60
+    - number: 60
       type: TC
       identifier: ISO/TC 60
+      content: Gears
   ics:
   - code: '21.200'
     text: Gears
   structuredidentifier:
-    project_number: '33094'
     type: ISO
+    project_number:
+      content: '33094'

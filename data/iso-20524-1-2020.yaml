@@ -1,106 +1,92 @@
 ---
-schema-version: v1.2.9
 id: ISO20524-1-2020
+type: standard
+schema_version: v1.4.1
 title:
-- content: Intelligent transport systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems
   type: title-intro
-- content: Geographic Data Files (GDF) GDF5.1
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Geographic Data Files (GDF) GDF5.1
   type: title-main
-- content: 'Part 1: Application independent map data shared between multiple sources'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Application independent map data shared between multiple sources'
   type: title-part
-- content: 'Intelligent transport systems - Geographic Data Files (GDF) GDF5.1 - Part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Intelligent transport systems - Geographic Data Files (GDF) GDF5.1 - Part
     1: Application independent map data shared between multiple sources'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Systèmes de transport intelligents
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transport intelligents
   type: title-intro
-- content: Fichiers de données géographiques (GDF) GDF5.1
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Fichiers de données géographiques (GDF) GDF5.1
   type: title-main
-- content: 'Partie 1: Données cartographiques partagées entre sources multiples et
-    indépendantes des applications'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Données cartographiques partagées entre sources multiples et
+    indépendantes des applications'
   type: title-part
-- content: 'Systèmes de transport intelligents - Fichiers de données géographiques
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes de transport intelligents - Fichiers de données géographiques
     (GDF) GDF5.1 - Partie 1: Données cartographiques partagées entre sources multiples
     et indépendantes des applications'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/68244.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:68244:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/82/68244.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 20524-1:2020
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/68244.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:68244:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/82/68244.detail.rss
+docidentifier:
+- content: ISO 20524-1:2020
   type: ISO
   primary: true
-- id: ISO 20524-1:2020(E)
+- content: ISO 20524-1:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:20524:-1:stage-90.20
+- content: urn:iso:std:iso:20524:-1:stage-90.20
   type: URN
 docnumber: '20524'
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the conceptual and logical data model and physical encoding formats for geographic databases for Intelligent Transport Systems (ITS) applications and services. It includes a specification of potential contents of such databases (data dictionaries for Features, Attributes and Relationships), a specification of how these contents shall be represented, and of how relevant information about the database itself may be specified (metadata).
     The focus of this document is on ITS applications and services and it emphasizes road and road-related information. ITS applications and services, however, also require information in addition to road and road-related information.
     EXAMPLE 1    ITS applications and services need information about addressing systems in order to specify locations and/or destinations. Consequently, information about the administrative and postal subdivisions of an area is essential.
@@ -108,12 +94,9 @@ abstract:
     EXAMPLE 3    Point-of-Interest (POI) or service information is a key feature of traveller information. It adds value to end-user ITS applications and services.
     Typical ITS applications and services targeted by this document are in-vehicle or portable navigation systems, traffic management centres, or services linked with road management systems, including public transport systems.
     The Conceptual Data Model has a broader focus than ITS applications and services. It is application independent, allowing for future harmonization of this document with other geographic database standards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie le modèle de données conceptuel et logique, ainsi que les formats de codage physique pour les bases de données géographiques destinées aux applications et services pour Systèmes de transport intelligents (STI). Il comporte une spécification du contenu potentiel de ces bases de données (dictionnaires de données pour les entités, attributs et relations), une spécification de la manière dont leur contenu doit être représenté et de la façon dont les informations pertinentes relatives à la base de données elle-même peuvent être spécifiées (métadonnées).
     Le présent document est axé sur les applications et services STI et met l’accent sur les informations routières et connexes. Cependant, les applications et services STI nécessitent également des informations complémentaires aux informations routières et connexes.
     EXEMPLE 1         Les applications et services STI nécessitent des informations relatives aux systèmes d’adressage afin de spécifier les emplacements et/ou les destinations. Par conséquent, les informations sur les subdivisions administratives et postales d’une zone sont indispensables.
@@ -121,50 +104,45 @@ abstract:
     EXEMPLE 3         Les informations relatives aux points d’intérêt (POI) ou aux services constituent un élément clé des informations destinées aux voyageurs. Elles apportent de la valeur ajoutée aux applications et services STI destinés à l’utilisateur final.
     Les applications et services STI typiques ciblés par le présent document sont les systèmes de navigation embarqués ou portatifs, les systèmes de gestion du trafic ou les services liés aux systèmes de gestion de la circulation routière, y compris les systèmes de transport public.
     Le modèle de données conceptuel a une portée plus étendue que les applications et services STI. Il est indépendant des applications et permettra une future harmonisation du présent document avec d’autres normes relatives aux bases de données géographiques.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO14825-2011
     type: standard
-    docid:
-    - id: ISO 14825:2011
+    formattedref: ISO 14825:2011
+    docidentifier:
+    - content: ISO 14825:2011
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 14825:2011
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '68244'
     type: ISO
+    project_number:
+      content: '68244'

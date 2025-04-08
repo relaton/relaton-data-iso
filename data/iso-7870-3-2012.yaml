@@ -1,152 +1,131 @@
 ---
-schema-version: v1.2.9
 id: ISO7870-3-2012
-title:
-- content: Control charts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: Acceptance control charts'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Control charts - Part 3: Acceptance control charts'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Cartes de contrôle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Cartes de contrôle pour acceptation'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Cartes de contrôle - Partie 3: Cartes de contrôle pour acceptation'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/40175.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/01/40175.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 7870-3:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Control charts
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: Acceptance control charts'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Control charts - Part 3: Acceptance control charts'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cartes de contrôle
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Cartes de contrôle pour acceptation'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Cartes de contrôle - Partie 3: Cartes de contrôle pour acceptation'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/40175.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/01/40175.detail.rss
+docidentifier:
+- content: ISO 7870-3:2012
   type: ISO
   primary: true
-- id: ISO 7870-3:2012(E)
+- content: ISO 7870-3:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso:7870:-3:stage-95.99
+- content: urn:iso:std:iso:7870:-3:stage-95.99
   type: URN
 docnumber: '7870'
 date:
 - type: published
-  value: 2012-03
+  at: 2012-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2012-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 7870-3:2012 gives guidance on the uses of acceptance control charts and establishes general procedures for determining sample sizes, action limits and decision criteria. This chart should be used only when: a) the within subgroup variation is in-control and the variation is estimated efficiently; b) a high level of process capability has been achieved.
     This chart is typically used when the process variable under study is normally distributed, however, it can be applied to a non-normal distribution. Examples are included to illustrate a variety of circumstances in which this technique has advantages and to provide details of the determination of the sample size, the action limits and the decision criteria.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 7870-3:2012 gives guidance on the uses of acceptance control charts and establishes general procedures for determining sample sizes, action limits and decision criteria. This chart should be used only when: a) the within subgroup variation is in-control and the variation is estimated efficiently; b) a high level of process capability has been achieved.
     This chart is typically used when the process variable under study is normally distributed, however, it can be applied to a non-normal distribution. Examples are included to illustrate a variety of circumstances in which this technique has advantages and to provide details of the determination of the sample size, the action limits and the decision criteria.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO7966-1993
     type: standard
-    docid:
-    - id: ISO 7966:1993
+    formattedref: ISO 7966:1993
+    docidentifier:
+    - content: ISO 7966:1993
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 7966:1993
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO7870-3-2020
     type: standard
-    docid:
-    - id: ISO 7870-3:2020
+    formattedref: ISO 7870-3:2020
+    docidentifier:
+    - content: ISO 7870-3:2020
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2020-05-29'
-    formattedref:
-      content: ISO 7870-3:2020
-      format: text/plain
+      at: '2020-05-29'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Applications of statistical methods in product and process management
-      number: 69
+    - number: 69
       type: TC
       identifier: ISO/TC 69/SC 4
+      content: Applications of statistical methods in product and process management
   ics:
   - code: 03.120.30
     text: Application of statistical methods
   structuredidentifier:
-    project_number: '40175'
     type: ISO
+    project_number:
+      content: '40175'

@@ -1,95 +1,85 @@
 ---
-schema-version: v1.2.9
 id: ISO23386-2020
+type: standard
+schema_version: v1.4.1
 title:
-- content: Building information modelling and other digital processes used in construction
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Building information modelling and other digital processes used in construction
   type: title-intro
-- content: Methodology to describe, author and maintain properties in interconnected
-    data dictionaries
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Methodology to describe, author and maintain properties in interconnected
+    data dictionaries
   type: title-main
-- content: Building information modelling and other digital processes used in construction
+  format: text/plain
+- language: en
+  script: Latn
+  content: Building information modelling and other digital processes used in construction
     - Methodology to describe, author and maintain properties in interconnected data
     dictionaries
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Modélisation des informations de la construction et autres processus numériques
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modélisation des informations de la construction et autres processus numériques
     utilisés en construction
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-intro
-- content: Méthodologie de description, de création et de gestion des propriétés dans
-    les dictionnaires de données interconnectés
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Méthodologie de description, de création et de gestion des propriétés dans
+    les dictionnaires de données interconnectés
   type: title-main
-- content: Modélisation des informations de la construction et autres processus numériques
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modélisation des informations de la construction et autres processus numériques
     utilisés en construction - Méthodologie de description, de création et de gestion
     des propriétés dans les dictionnaires de données interconnectés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/75401.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:75401:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/54/75401.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 23386:2020
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/75401.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:75401:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/54/75401.detail.rss
+docidentifier:
+- content: ISO 23386:2020
   type: ISO
   primary: true
-- id: ISO 23386:2020(E)
+- content: ISO 23386:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:23386:stage-90.20
+- content: urn:iso:std:iso:23386:stage-90.20
   type: URN
 docnumber: '23386'
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document establishes the rules for defining properties used in construction and a methodology for authoring and maintaining them, for a confident and seamless digital share among stakeholders following a BIM process.
     Regarding the definition of properties and groups of properties, this document provides:
     —     definitions of properties and groups of properties as a list of attributes;
@@ -104,12 +94,9 @@ abstract:
     —     an established governance model for a data dictionary;
     —     a framework for a network of data dictionaries.
     It is not in the scope of this document to provide the content of the interconnected data dictionaries.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document établit les règles de définition des propriétés utilisées dans la construction, ainsi qu'une méthodologie pour leur création et leur gestion, en vue d'un partage numérique fluide et fiable entre les parties intéressées selon un processus BIM.
     Concernant la définition des propriétés et des groupes de propriétés, le présent document fournit:
     —     les définitions des propriétés et groupes de propriétés sous forme de listes d'attributs;
@@ -124,37 +111,35 @@ abstract:
     —     un modèle de gouvernance établi pour un dictionnaire de données;
     —     le cadre d'un réseau de dictionnaires de données.
     Fournir le contenu des dictionnaires de données interconnectés n'entre pas dans le domaine d'application du présent document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Organization and digitization of information about buildings and civil
-        engineering works, including building information modelling (BIM)
-      number: 59
+    - number: 59
       type: TC
       identifier: ISO/TC 59/SC 13
+      content: Organization and digitization of information about buildings and civil
+        engineering works, including building information modelling (BIM)
   ics:
   - code: 35.240.67
     text: IT applications in building and construction industry
   structuredidentifier:
-    project_number: '75401'
     type: ISO
+    project_number:
+      content: '75401'

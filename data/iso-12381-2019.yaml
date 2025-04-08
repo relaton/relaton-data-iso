@@ -1,91 +1,81 @@
 ---
-schema-version: v1.2.9
 id: ISO12381-2019
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Explicit time-related expressions for healthcare-specific problems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - Explicit time-related expressions for healthcare-specific
-    problems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Expressions relatives au temps explicites utilisées dans le domaine de
-    la santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Expressions relatives au temps explicites utilisées
-    dans le domaine de la santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/74356.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:74356:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/43/74356.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 12381:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Explicit time-related expressions for healthcare-specific problems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Explicit time-related expressions for healthcare-specific
+    problems
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Expressions relatives au temps explicites utilisées dans le domaine de
+    la santé
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Expressions relatives au temps explicites utilisées
+    dans le domaine de la santé
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/74356.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74356:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/43/74356.detail.rss
+docidentifier:
+- content: ISO 12381:2019
   type: ISO
   primary: true
-- id: ISO 12381:2019(E)
+- content: ISO 12381:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:12381:stage-90.60
+- content: urn:iso:std:iso:12381:stage-90.60
   type: URN
 docnumber: '12381'
 date:
 - type: published
-  value: 2019-07
+  at: 2019-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a set of representational primitives and semantic relations needed for an unambiguous representation of explicit time-related expressions in health informatics. This document does not introduce or force a specific ontology of time, nor does it force the use of a fixed representation scheme for such an ontology. Rather this document provides a set of principles for syntactic and semantic representation that allow the comparability of specific ontologies on time, and the exchange of time-related information that is expressed explicitly.
     This document applies to both the representation of actual phenomena occurring in the real world (e.g. registrations in medical records) and to the description of concepts (e.g. medical knowledge bases).
     This document is applicable to
@@ -97,12 +87,9 @@ abstract:
     —          representing what is true in time,
     —          reasoning about time, or
     —          representation of metrological time.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document définit un ensemble de primitives de représentation et de relations sémantiques nécessaires à la représentation univoque des expressions relatives au temps explicites en informatique de santé. Le présent document ne présente ni n'impose aucune ontologie spécifique du temps, et il n'impose pas non plus l'utilisation d'un système de représentation fixe pour ce type ontologie. En revanche, il fournit un ensemble de principes de représentation syntaxique et sémantique permettant de comparer des ontologies spécifiques du temps et d'échanger des informations relatives au temps exprimées de manière explicite.
     Le présent document s'applique à la représentation de phénomènes réels survenant dans le monde réel (enregistrements dans des dossiers médicaux, par exemple) et à la description de concepts (bases de connaissances médicales, par exemple).
     Le présent document est applicable:
@@ -114,36 +101,34 @@ abstract:
     —          représenter ce qui est vrai dans le temps;
     —          développer un raisonnement concernant le temps; ou
     —          représenter le temps métrologique.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '74356'
     type: ISO
+    project_number:
+      content: '74356'

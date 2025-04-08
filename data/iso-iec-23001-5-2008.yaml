@@ -1,154 +1,136 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC23001-5-2008
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: MPEG systems technologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 5: Bitstream Syntax Description Language (BSDL)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - MPEG systems technologies - Part 5: Bitstream
-    Syntax Description Language (BSDL)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Technologies des systèmes MPEG
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 5: Langage de description de la syntaxe bitstream (BSDL)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
-    5: Langage de description de la syntaxe bitstream (BSDL)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/50094.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:50094:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/00/50094.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 23001-5:2008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: MPEG systems technologies
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 5: Bitstream Syntax Description Language (BSDL)'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG systems technologies - Part 5: Bitstream
+    Syntax Description Language (BSDL)'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies des systèmes MPEG
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 5: Langage de description de la syntaxe bitstream (BSDL)'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
+    5: Langage de description de la syntaxe bitstream (BSDL)'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/50094.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:50094:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/00/50094.detail.rss
+docidentifier:
+- content: ISO/IEC 23001-5:2008
   type: ISO
   primary: true
-- id: ISO/IEC 23001-5:2008(E)
+- content: ISO/IEC 23001-5:2008(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:23001:-5:stage-90.60
+- content: urn:iso:std:iso-iec:23001:-5:stage-90.60
   type: URN
 docnumber: '23001'
 date:
 - type: published
-  value: 2008-02
+  at: 2008-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2008-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 23001-5:2008 specifies BSDL (Bitstream Syntax Description Language), a language based on W3C XML Schema to describe the structure of a bitstream with an XML document named BS Description.
     BSDL provides a normative grammar to describe in XML the high-level syntax of a bitstream; the resulting XML document is called a Bitstream Syntax Description (BS Description, BSD). This description is not meant to replace the original binary format, but acts as an additional layer, similar to metadata. In most cases, it will not describe the bitstream on a bit-per-bit basis, but rather address its high-level structure, e.g., how the bitstream is organized in layers or packets of data. Furthermore, the BS Description is itself scalable, which means it may describe the bitstream at different syntactic layers, e.g., finer or coarser levels of detail, depending on the application.
     This language was initially developed in the context of Digital Item Adaptation (ISO/IEC 21000-7) as a generic tool for adapting scalable multimedia content. However, its use is not restricted to adaptation and may be relevant for any application parsing a bitstream. This is why ISO/IEC 23001-5:2008 extracts the BSDL specification from ISO/IEC 21000-7 to make it available to other contexts.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 23001-5:2008 specifies BSDL (Bitstream Syntax Description Language), a language based on W3C XML Schema to describe the structure of a bitstream with an XML document named BS Description.
     BSDL provides a normative grammar to describe in XML the high-level syntax of a bitstream; the resulting XML document is called a Bitstream Syntax Description (BS Description, BSD). This description is not meant to replace the original binary format, but acts as an additional layer, similar to metadata. In most cases, it will not describe the bitstream on a bit-per-bit basis, but rather address its high-level structure, e.g., how the bitstream is organized in layers or packets of data. Furthermore, the BS Description is itself scalable, which means it may describe the bitstream at different syntactic layers, e.g., finer or coarser levels of detail, depending on the application.
     This language was initially developed in the context of Digital Item Adaptation (ISO/IEC 21000-7) as a generic tool for adapting scalable multimedia content. However, its use is not restricted to adaptation and may be relevant for any application parsing a bitstream. This is why ISO/IEC 23001-5:2008 extracts the BSDL specification from ISO/IEC 21000-7 to make it available to other contexts.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    project_number: '50094'
     type: ISO
+    project_number:
+      content: '50094'

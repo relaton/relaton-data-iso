@@ -1,139 +1,124 @@
 ---
-schema-version: v1.2.9
 id: ISO20414-2020
-title:
-- content: Fire safety engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Verification and validation protocol for building fire evacuation models
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Fire safety engineering - Verification and validation protocol for building
-    fire evacuation models
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Ingénierie de la sécurité incendie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Protocole de vérification et de validation de modèles d'évacuation dans
-    un bâtiment en cas d'incendie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Ingénierie de la sécurité incendie - Protocole de vérification et de validation
-    de modèles d'évacuation dans un bâtiment en cas d'incendie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78348.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78348:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/83/78348.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 20414:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fire safety engineering
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Verification and validation protocol for building fire evacuation models
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Fire safety engineering - Verification and validation protocol for building
+    fire evacuation models
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ingénierie de la sécurité incendie
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Protocole de vérification et de validation de modèles d'évacuation dans
+    un bâtiment en cas d'incendie
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ingénierie de la sécurité incendie - Protocole de vérification et de validation
+    de modèles d'évacuation dans un bâtiment en cas d'incendie
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78348.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78348:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/83/78348.detail.rss
+docidentifier:
+- content: ISO 20414:2020
   type: ISO
   primary: true
-- id: ISO 20414:2020(E)
+- content: ISO 20414:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:20414:stage-60.60
+- content: urn:iso:std:iso:20414:stage-published
   type: URN
 docnumber: '20414'
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document describes a protocol for the verification and validation of building fire evacuation models. This document mostly addresses evacuation model components as they are in microscopic (agent-based) models. Nevertheless, it can be adopted (entirely or partially) for macroscopic models if the model is able to represent the components under consideration.
     The area of application of the evacuation models discussed in this document includes performance-based design of buildings and the review of the effectiveness of evacuation planning and procedures. The evacuation process is represented with evacuation models in which people's movement and their interaction with the environment make use of human behaviour in fire theories and empirical observations[5]. The simulation of evacuation is represented using mathematical models and/or agent‑to‑agent and agent-to-environment rules.
     The area of application of this document relates to buildings. This document is not intended to cover aspects of transportation systems in motion (e.g. trains, ships) since specific ad-hoc additional tests may be required for addressing the simulation of human behaviour during evacuation in these types of systems[6].
     This document includes a list of components for verification and validation testing as well as a methodology for the analysis and assessment of accuracy associated with evacuation models. The procedure for the analysis of acceptance criteria is also included.
     A comprehensive list of components for testing is presented in this document, since the scope of the testing has not been artificially restricted to a set of straightforward applications. Nevertheless, the application of evacuation models as a design tool can be affected by the numbers of variables affecting human behaviour under consideration. A high number of influences can hamper the acceptance of the results obtained given the level of complexity associated with the results. Simpler calculation methods, such as macroscopic models, capacity analyses or flow calculations, are affected to a lower extent by the need to aim at high fidelity modelling. In contrast, more sophisticated calculation methods (i.e. agent-based models) rely more on the ability to demonstrate that the simulation is able to represent different emergent behaviours. For this reason, the components for testing are divided into different categories, enabling the evacuation model tester to test an evacuation model both in relation to the degree of sophistication embedded in the model as well as the specific scope of the model application.
     In Annex A, a reporting template is provided to provide guidance to users regarding a format for presenting test results and exemplary application of verification and validation tests are presented in Annex B.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document décrit un protocole pour la vérification et la validation des modèles d'évacuation incendie des bâtiments. Le présent document aborde principalement les composants des modèles d'évacuation tels qu'ils sont utilisés dans les modèles microscopiques (basés sur des agents). Il peut néanmoins être adopté (en tout ou en partie) pour des modèles macroscopiques si le modèle est en mesure de représenter les composants pris en considération.
     Le domaine d'application des modèles d'évacuation dont il est question dans le présent document comprend la conception des bâtiments basée sur les performances et l'examen de l'efficacité de la planification et des procédures d'évacuation. Le processus d'évacuation est représenté par des modèles d'évacuation dans lesquels le mouvement des personnes et leur interaction avec l'environnement font appel au comportement humain dans les théories portant sur les incendies et les observations empiriques[5]. La simulation de l'évacuation est représentée à l'aide de modèles mathématiques et/ou de règles agent à agent et agent à environnement.
     Le domaine d'application du présent document concerne les bâtiments. L'objectif du présent document n'est pas de couvrir les aspects des systèmes de transport en mouvement (par exemple, trains, navires), dans la mesure où des tests supplémentaires ad hoc spécifiques peuvent être requis pour simuler le comportement humain pendant l'évacuation de ces types de systèmes[6].
     Le présent document comprend une liste de composants pour les tests de vérification et de validation ainsi qu'une méthodologie pour l'analyse et l'évaluation de l'exactitude associée aux modèles d'évacuation. La procédure d'analyse des critères d'acceptation est également incluse.
     Une liste complète des composants à tester est présentée dans le présent document, dans la mesure où le domaine d'application des tests n'a pas été artificiellement restreint à un ensemble d'applications simples. Toutefois, l'application des modèles d'évacuation comme outil de conception peut être affectée par le nombre de variables influant sur les comportements humains étudiés. Un grand nombre d'influences peut entraver l'acceptation des résultats obtenus étant donné le niveau de complexité associé aux résultats. Les méthodes de calculs plus simples telles que les modèles macroscopiques, les analyses de capacité ou les calculs de flux sont affectées dans une moindre mesure par la nécessité de viser une modélisation à haute fidélité. En revanche, les méthodes de calcul plus sophistiquées (c'est-à-dire les modèles basés sur des agents) reposent davantage sur la capacité à démontrer que la simulation est capable de représenter différents comportements émergents. Pour cette raison, les composants à tester sont divisés en différentes catégories, de sorte que le modèle d'évacuation puisse être testé à la fois en fonction du degré de sophistication intégré au modèle et du domaine d'application spécifique de l'application du modèle.
     L'Annexe A présente un modèle de rapport destiné à fournir des recommandations aux utilisateurs en ce qui concerne le format de présentation des résultats de test. L'Annexe B présente un exemple d'application des tests de vérification et de validation.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Fire safety engineering
-      number: 92
+    - number: 92
       type: TC
       identifier: ISO/TC 92/SC 4
+      content: Fire safety engineering
   ics:
   - code: 13.220.01
     text: Protection against fire in general
   structuredidentifier:
-    project_number: '78348'
     type: ISO
+    project_number:
+      content: '78348'

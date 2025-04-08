@@ -1,90 +1,80 @@
 ---
-schema-version: v1.2.9
 id: ISO27730-2012
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: International standard collection identifier (ISCI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - International standard collection identifier
-    (ISCI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Identifiant international normalisé des collections (ISCI)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Identifiant international normalisé des
-    collections (ISCI)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/44293.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:44293:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/42/44293.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 27730:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: International standard collection identifier (ISCI)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - International standard collection identifier
+    (ISCI)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Identifiant international normalisé des collections (ISCI)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Identifiant international normalisé des
+    collections (ISCI)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/44293.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:44293:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/42/44293.detail.rss
+docidentifier:
+- content: ISO 27730:2012
   type: ISO
   primary: true
-- id: ISO 27730:2012(E)
+- content: ISO 27730:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso:27730:stage-90.93
+- content: urn:iso:std:iso:27730:stage-90.93
   type: URN
 docnumber: '27730'
 date:
 - type: published
-  value: 2012-04
+  at: 2012-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2012-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard establishes the specifications for the International Standard Collection
     Identifier (ISCI) as a unique international identification system for each collection, fonds and (archival) series,
     and part(s) of collections, fonds and series. This International Standard establishes the specifications for the
@@ -95,12 +85,9 @@ abstract:
     The ISCI is intended for use by organizations that manage collections of cultural materials. These include
     cultural heritage institutions such as libraries, museums and archives, as well as other types of organizations
     such as publishers operating in the supply chain of cultural materials.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente Norme internationale établit les spécifications de l'identifiant normalisé des collections (ISCI) comme
     système international d'identification unique pour chaque collection, fonds et série archivistique et des parties
     de collections, de fonds et de séries archivistiques. La présente Norme internationale définit les spécifications
@@ -114,36 +101,34 @@ abstract:
     NOTE Le profil d'application des collections Dublin Core facilite la description des collections, des fonds et des séries
     archivistiques en général, en offrant un ensemble d'éléments de métadonnées à cet effet. Ces éléments forment le socle
     des éléments recommandés des métadonnées énumérées dans la présente Norme internationale.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Identification and description
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 9
+      content: Identification and description
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '44293'
     type: ISO
+    project_number:
+      content: '44293'

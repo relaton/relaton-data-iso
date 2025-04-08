@@ -1,208 +1,178 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC19566-5-2023
-title:
-- content: Information technologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: JPEG systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 5: JPEG universal metadata box format (JUMBF)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technologies - JPEG systems - Part 5: JPEG universal metadata
-    box format (JUMBF)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Systèmes JPEG
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 5: Format universel de fichier de métadonnées pour JPEG (JUMBF)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Systèmes JPEG - Partie 5: Format universel
-    de fichier de métadonnées pour JPEG (JUMBF)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84635.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:84635:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/46/84635.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 19566-5:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technologies
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: JPEG systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 5: JPEG universal metadata box format (JUMBF)'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technologies - JPEG systems - Part 5: JPEG universal metadata
+    box format (JUMBF)'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes JPEG
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 5: Format universel de fichier de métadonnées pour JPEG (JUMBF)'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Systèmes JPEG - Partie 5: Format universel
+    de fichier de métadonnées pour JPEG (JUMBF)'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84635.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:84635:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/46/84635.detail.rss
+docidentifier:
+- content: ISO/IEC 19566-5:2023
   type: ISO
   primary: true
-- id: ISO/IEC 19566-5:2023(E)
+- content: ISO/IEC 19566-5:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:19566:-5:stage-90.92
+- content: urn:iso:std:iso-iec:19566:-5:stage-90.92
   type: URN
 docnumber: '19566'
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2023-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This document describes the JPEG universal metadata box format (JUMBF),
+- language: en
+  script: Latn
+  content: This document describes the JPEG universal metadata box format (JUMBF),
     which provides a universal format to embed any type of metadata in any box-based
     JPEG file format. This document defines the syntax of the JUMBF box and the mechanism
     to assign specific content types. In particular, this document specifies XML,
     JSON, CBOR, Embedded File, codestream and UUID types. In addition, this document
     defines the syntax to reference or request the embedded metadata content within
     or outside the image.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document describes the JPEG universal metadata box format (JUMBF),
+- language: fr
+  script: Latn
+  content: This document describes the JPEG universal metadata box format (JUMBF),
     which provides a universal format to embed any type of metadata in any box-based
     JPEG file format. This document defines the syntax of the JUMBF box and the mechanism
     to assign specific content types. In particular, this document specifies XML,
     JSON, CBOR, Embedded File, codestream and UUID types. In addition, this document
     defines the syntax to reference or request the embedded metadata content within
     or outside the image.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC19566-5-2019
     type: standard
-    docid:
-    - id: ISO/IEC 19566-5:2019
+    formattedref: ISO/IEC 19566-5:2019
+    docidentifier:
+    - content: ISO/IEC 19566-5:2019
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 19566-5:2019
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEC19566-5-2019/Amd1-2021
     type: standard
-    docid:
-    - id: ISO/IEC 19566-5:2019/Amd 1:2021
+    formattedref: ISO/IEC 19566-5:2019/Amd 1:2021
+    docidentifier:
+    - content: ISO/IEC 19566-5:2019/Amd 1:2021
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 19566-5:2019/Amd 1:2021
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IECAWI19566-5
     type: standard
-    docid:
-    - id: ISO/IEC AWI 19566-5
+    formattedref: ISO/IEC AWI 19566-5
+    docidentifier:
+    - content: ISO/IEC AWI 19566-5
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC AWI 19566-5
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC19566-5-2023/Amd1-2025
     type: standard
-    docid:
-    - id: ISO/IEC 19566-5:2023/Amd 1:2025
+    formattedref: ISO/IEC 19566-5:2023/Amd 1:2025
+    docidentifier:
+    - content: ISO/IEC 19566-5:2023/Amd 1:2025
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2025-01-26'
-    formattedref:
-      content: ISO/IEC 19566-5:2023/Amd 1:2025
-      format: text/plain
+      at: '2025-01-26'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.30
     text: Coding of graphical and photographical information
   structuredidentifier:
-    project_number: '84635'
     type: ISO
+    project_number:
+      content: '84635'

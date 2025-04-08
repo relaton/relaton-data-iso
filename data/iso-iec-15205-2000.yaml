@@ -1,96 +1,87 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC15205-2000
-title:
-- content: SBus
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Chip and module interconnect bus
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: SBus - Chip and module interconnect bus
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: SBus
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Norme pour bus d'interconnexion de jeton et module
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: SBus - Norme pour bus d'interconnexion de jeton et module
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/26748.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:26748:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/02/67/26748.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 15205:2000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SBus
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Chip and module interconnect bus
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: SBus - Chip and module interconnect bus
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: SBus
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Norme pour bus d'interconnexion de jeton et module
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: SBus - Norme pour bus d'interconnexion de jeton et module
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/26748.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26748:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/67/26748.detail.rss
+docidentifier:
+- content: ISO/IEC 15205:2000
   type: ISO
   primary: true
-- id: ISO/IEC 15205:2000(E)
+- content: ISO/IEC 15205:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:15205:stage-90.93
+- content: urn:iso:std:iso-iec:15205:stage-90.93
   type: URN
 docnumber: '15205'
 date:
 - type: published
-  value: 2000-06
+  at: 2000-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2000-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     SBus is a high performance computer I/O interface for connecting integrated circuits and SBus Cards to a computer system motherboard. This standard defines the mechanical, electrical, environmental, and protocol requirements for the design of SBus Cards and the computer system motherboard that supports those cards.
     Every SBus Card shall implement appropriate self-descriptive and initialization firmware using FCode, which is similar to the Forth programming language. The details of this firmware standard are beyond the scope of this standard.1) In addition, other software interfaces may be used for communication with SBus Cards.
     SBus is intended to provide a high performance I/O bus interface with a small mechanical form factor. The small size, high levels of integration, and low power usage of SBus Cards enable them to be used in laptop computers, compact desktop computers, and other applications requiring similar characteristics. SBus Cards are mounted in a plane parallel to the motherboard of the computer system, allowing the computer system to have a low profile. SBus is not designed as a general purpose backplane bus.
@@ -100,12 +91,9 @@ abstract:
     IEEE Std 1275:1994, IEEE Standard for Boot (Initialization Configuration) Firmware: Core Requirements and Practices2)
      1) A firmware interface standard is under consideration.
      2) IEEE publications are available from the Institute of Electrical and Electronics Engineers, 445 Hoes Lane, P.O. Box 1331, Piscataway, NJ 08855-1331, USA (standards.ieee.org/).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     SBus is a high performance computer I/O interface for connecting integrated circuits and SBus Cards to a computer system motherboard. This standard defines the mechanical, electrical, environmental, and protocol requirements for the design of SBus Cards and the computer system motherboard that supports those cards.
     Every SBus Card shall implement appropriate self-descriptive and initialization firmware using FCode, which is similar to the Forth programming language. The details of this firmware standard are beyond the scope of this standard.1) In addition, other software interfaces may be used for communication with SBus Cards.
     SBus is intended to provide a high performance I/O bus interface with a small mechanical form factor. The small size, high levels of integration, and low power usage of SBus Cards enable them to be used in laptop computers, compact desktop computers, and other applications requiring similar characteristics. SBus Cards are mounted in a plane parallel to the motherboard of the computer system, allowing the computer system to have a low profile. SBus is not designed as a general purpose backplane bus.
@@ -115,36 +103,34 @@ abstract:
     IEEE Std 1275:1994, IEEE Standard for Boot (Initialization Configuration) Firmware: Core Requirements and Practices2)
      1) A firmware interface standard is under consideration.
      2) IEEE publications are available from the Institute of Electrical and Electronics Engineers, 445 Hoes Lane, P.O. Box 1331, Piscataway, NJ 08855-1331, USA (standards.ieee.org/).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Interconnection of information technology equipment
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 25
+      content: Interconnection of information technology equipment
   ics:
   - code: '35.160'
     text: Microprocessor systems
   structuredidentifier:
-    project_number: '26748'
     type: ISO
+    project_number:
+      content: '26748'

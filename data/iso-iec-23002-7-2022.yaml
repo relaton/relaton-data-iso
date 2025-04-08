@@ -1,178 +1,154 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC23002-7-2022
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: MPEG video technologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 7: Versatile supplemental enhancement information messages for coded
-    video bitstreams'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - MPEG video technologies - Part 7: Versatile supplemental
-    enhancement information messages for coded video bitstreams'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Technologies vidéo MPEG
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 7: Messages d''améliorations complémentaires polyvalents pour les
-    flux binaires vidéo codés'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Technologies vidéo MPEG - Partie 7: Messages
-    d''améliorations complémentaires polyvalents pour les flux binaires vidéo codés'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83530.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/35/83530.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 23002-7:2022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: MPEG video technologies
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 7: Versatile supplemental enhancement information messages for coded
+    video bitstreams'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG video technologies - Part 7: Versatile supplemental
+    enhancement information messages for coded video bitstreams'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies vidéo MPEG
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 7: Messages d''améliorations complémentaires polyvalents pour les
+    flux binaires vidéo codés'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Technologies vidéo MPEG - Partie 7: Messages
+    d''améliorations complémentaires polyvalents pour les flux binaires vidéo codés'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83530.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/35/83530.detail.rss
+docidentifier:
+- content: ISO/IEC 23002-7:2022
   type: ISO
   primary: true
-- id: ISO/IEC 23002-7:2022(E)
+- content: ISO/IEC 23002-7:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:23002:-7:stage-95.99
+- content: urn:iso:std:iso-iec:23002:-7:stage-95.99
   type: URN
 docnumber: '23002'
 date:
 - type: published
-  value: 2022-10
+  at: 2022-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2022-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the syntax and semantics of video usability information (VUI) parameters and supplemental enhancement information (SEI) messages. The VUI parameters and SEI messages defined in this document are designed to be conveyed within coded video bitstreams in a manner specified in a video coding specification or to be conveyed by other means determined by the specifications for systems that make use of such coded video bitstreams. This document is particularly intended for use with coded video bitstreams as specified by Rec. ITU‑T H.266 | ISO/IEC 23090-3, although it is drafted in a manner intended to be sufficiently generic that it can also be used with other types of coded video bitstreams.
     VUI parameters and SEI messages can assist in processes related to decoding, display or other purposes. However, unless otherwise specified in a referencing specification, the interpretation and use of the VUI parameters and SEI messages specified in this document is not a required functionality of a video decoder or receiving video system. Although semantics are specified for the VUI parameters and SEI messages, decoders and receiving video systems can simply ignore the content of the VUI parameters and SEI messages or can use them in a manner that somewhat differs from what is specified in this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies the syntax and semantics of video usability information (VUI) parameters and supplemental enhancement information (SEI) messages. The VUI parameters and SEI messages defined in this document are designed to be conveyed within coded video bitstreams in a manner specified in a video coding specification or to be conveyed by other means determined by the specifications for systems that make use of such coded video bitstreams. This document is particularly intended for use with coded video bitstreams as specified by Rec. ITU‑T H.266 | ISO/IEC 23090-3, although it is drafted in a manner intended to be sufficiently generic that it can also be used with other types of coded video bitstreams.
     VUI parameters and SEI messages can assist in processes related to decoding, display or other purposes. However, unless otherwise specified in a referencing specification, the interpretation and use of the VUI parameters and SEI messages specified in this document is not a required functionality of a video decoder or receiving video system. Although semantics are specified for the VUI parameters and SEI messages, decoders and receiving video systems can simply ignore the content of the VUI parameters and SEI messages or can use them in a manner that somewhat differs from what is specified in this document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC23002-7-2021
     type: standard
-    docid:
-    - id: ISO/IEC 23002-7:2021
+    formattedref: ISO/IEC 23002-7:2021
+    docidentifier:
+    - content: ISO/IEC 23002-7:2021
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 23002-7:2021
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC23002-7-2024
     type: standard
-    docid:
-    - id: ISO/IEC 23002-7:2024
+    formattedref: ISO/IEC 23002-7:2024
+    docidentifier:
+    - content: ISO/IEC 23002-7:2024
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-10-31'
-    formattedref:
-      content: ISO/IEC 23002-7:2024
-      format: text/plain
+      at: '2024-10-31'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    project_number: '83530'
     type: ISO
+    project_number:
+      content: '83530'

@@ -1,140 +1,122 @@
 ---
-schema-version: v1.2.9
 id: ISO18626-2021
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Interlibrary loan transactions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - Interlibrary loan transactions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Transactions de prêt interbibliothèques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Transactions de prêt interbibliothèques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/79013.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:79013:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/90/79013.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 18626:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Interlibrary loan transactions
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - Interlibrary loan transactions
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Transactions de prêt interbibliothèques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Transactions de prêt interbibliothèques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/79013.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:79013:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/90/79013.detail.rss
+docidentifier:
+- content: ISO 18626:2021
   type: ISO
   primary: true
-- id: ISO 18626:2021(E)
+- content: ISO 18626:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso:18626:stage-60.60
+- content: urn:iso:std:iso:18626:stage-published
   type: URN
 docnumber: '18626'
 date:
 - type: published
-  value: 2021-12
+  at: 2021-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2021-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This document specifies the transactions between libraries or libraries
+- language: en
+  script: Latn
+  content: This document specifies the transactions between libraries or libraries
     and other agencies to handle requests for library items and the following exchange
     of messages.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document specifies the transactions between libraries or libraries
+- language: fr
+  script: Latn
+  content: This document specifies the transactions between libraries or libraries
     and other agencies to handle requests for library items and the following exchange
     of messages.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO18626-2017
     type: standard
-    docid:
-    - id: ISO 18626:2017
+    formattedref: ISO 18626:2017
+    docidentifier:
+    - content: ISO 18626:2017
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 18626:2017
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical interoperability
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 4
+      content: Technical interoperability
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '79013'
     type: ISO
+    project_number:
+      content: '79013'

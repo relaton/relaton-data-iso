@@ -1,110 +1,97 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC15444-5-2003
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'JPEG 2000 image coding system: Reference software'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 5:'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - JPEG 2000 image coding system: Reference software
-    - Part 5:'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Système de codage d''images JPEG 2000: Logiciel de référence'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 5:'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Système de codage d''images JPEG 2000:
-    Logiciel de référence - Partie 5:'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/33877.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/38/33877.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 15444-5:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'JPEG 2000 image coding system: Reference software'
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 5:'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - JPEG 2000 image coding system: Reference software
+    - Part 5:'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Système de codage d''images JPEG 2000: Logiciel de référence'
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 5:'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Système de codage d''images JPEG 2000:
+    Logiciel de référence - Partie 5:'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/33877.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/38/33877.detail.rss
+docidentifier:
+- content: ISO/IEC 15444-5:2003
   type: ISO
   primary: true
-- id: ISO/IEC 15444-5:2003(E)
+- content: ISO/IEC 15444-5:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:15444:-5:stage-95.99
+- content: urn:iso:std:iso-iec:15444:-5:stage-95.99
   type: URN
 docnumber: '15444'
 date:
 - type: published
-  value: 2003-11
+  at: 2003-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2003-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 15444-5:2003 provides two independently created software reference
+- language: en
+  script: Latn
+  content: "ISO/IEC 15444-5:2003 provides two independently created software reference
     implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC
     15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set
     of lossless and lossy compression methods for coding continuous-tone, bi-level,
@@ -120,12 +107,9 @@ abstract:
     a JPEG 2000 codestream for decoding to a range of selected widely available image
     formats (Note that the reference software does not implement a conforming JP2
     file reader.);\n- some additional tools to help with evaluation and testing."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO/CEI 15444-5:2003 contient deux implémentations de référence de l'ISO/CEI 15444-1 sous forme de logiciels créés indépendamment l'un de l'autre, afin d'aider les personnes chargées de l'implémentation de l'ISO/CEI 15444-1 à tester et à comprendre son contenu. L'ISO/CEI 15444-1 définit un ensemble de méthodes de compression sans perte et avec perte pour le codage d'images numériques fixes à modelé continu, monochromes, en échelle de gris ou en couleur.
     Les logiciels de référence ne sont donnés qu'à titre indicatif. L'ISO/CEI 15444-5:2003 ne définit pas d'autres parties du système de codage d'images JPEG 2000.
     Chaque version des logiciels de référence contient un code source, qui peut être compilé pour offrir les fonctionnalités suivantes:
@@ -135,79 +119,68 @@ abstract:
     -- décodage d'un flux codé JPEG 2000 en une série de formats d'images courants;
     -- traitement partiel d'un fichier JP2 en vue de l'extraction d'un flux codé JPEG 2000 nécessaire au décodage d'une série de formats d'images courants (noter que les logiciels de référence n'implémentent pas un lecteur de fichier JP2 conforme);
     -- d'autres outils permettant de procéder à une évaluation et à des essais.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC15444-5-2015
     type: standard
-    docid:
-    - id: ISO/IEC 15444-5:2015
+    formattedref: ISO/IEC 15444-5:2015
+    docidentifier:
+    - content: ISO/IEC 15444-5:2015
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2015-10-14'
-    formattedref:
-      content: ISO/IEC 15444-5:2015
-      format: text/plain
+      at: '2015-10-14'
 - type: updates
   bibitem:
-    id: ISO/IEC15444-5-2003/Amd1-2003
     type: standard
-    docid:
-    - id: ISO/IEC 15444-5:2003/Amd 1:2003
+    formattedref: ISO/IEC 15444-5:2003/Amd 1:2003
+    docidentifier:
+    - content: ISO/IEC 15444-5:2003/Amd 1:2003
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2015-10-14'
-    formattedref:
-      content: ISO/IEC 15444-5:2003/Amd 1:2003
-      format: text/plain
+      at: '2015-10-14'
 - type: updates
   bibitem:
-    id: ISO/IEC15444-5-2003/Amd2-2015
     type: standard
-    docid:
-    - id: ISO/IEC 15444-5:2003/Amd 2:2015
+    formattedref: ISO/IEC 15444-5:2003/Amd 2:2015
+    docidentifier:
+    - content: ISO/IEC 15444-5:2003/Amd 2:2015
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2015-10-14'
-    formattedref:
-      content: ISO/IEC 15444-5:2003/Amd 2:2015
-      format: text/plain
+      at: '2015-10-14'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.30
     text: Coding of graphical and photographical information
   structuredidentifier:
-    project_number: '33877'
     type: ISO
+    project_number:
+      content: '33877'

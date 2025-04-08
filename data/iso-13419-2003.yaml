@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO13419-2003
-title:
-- content: Space data and information transfer systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Packet telemetry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Space data and information transfer systems - Packet telemetry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de transfert des informations et données spatiales
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Télémesure par paquets
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Systèmes de transfert des informations et données spatiales - Télémesure
-    par paquets
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/36479.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/64/36479.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 13419:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space data and information transfer systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Packet telemetry
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space data and information transfer systems - Packet telemetry
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transfert des informations et données spatiales
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Télémesure par paquets
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transfert des informations et données spatiales - Télémesure
+    par paquets
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/36479.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/64/36479.detail.rss
+docidentifier:
+- content: ISO 13419:2003
   type: ISO
   primary: true
-- id: ISO 13419:2003(E)
+- content: ISO 13419:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso:13419:stage-95.99
+- content: urn:iso:std:iso:13419:stage-95.99
   type: URN
 docnumber: '13419'
 date:
 - type: published
-  value: 2003-02
+  at: 2003-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2003-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 13419:2003 specifies the requirements for spacecraft packet telemetry
+- language: en
+  script: Latn
+  content: "ISO 13419:2003 specifies the requirements for spacecraft packet telemetry
     systems. Packet telemetry is a concept which facilitates the transmission of space-acquired
     data from source to user in a standardized highly automated manner. Packet telemetry
     provides a mechanism for implementing common data transport structures and protocols,
@@ -103,12 +93,9 @@ abstract:
     degree of flexibility in the design of spacecraft data acquisition systems; however,
     compatibility with the packet telemetry concept may be realized by only implementing
     a narrow subset of these capabilities. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO 13419:2003 specifies the requirements for spacecraft packet telemetry
+- language: fr
+  script: Latn
+  content: "ISO 13419:2003 specifies the requirements for spacecraft packet telemetry
     systems. Packet telemetry is a concept which facilitates the transmission of space-acquired
     data from source to user in a standardized highly automated manner. Packet telemetry
     provides a mechanism for implementing common data transport structures and protocols,
@@ -130,48 +117,43 @@ abstract:
     degree of flexibility in the design of spacecraft data acquisition systems; however,
     compatibility with the packet telemetry concept may be realized by only implementing
     a narrow subset of these capabilities. "
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO13419-1997
     type: standard
-    docid:
-    - id: ISO 13419:1997
+    formattedref: ISO 13419:1997
+    docidentifier:
+    - content: ISO 13419:1997
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 13419:1997
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Space data and information transfer systems
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 13
+      content: Space data and information transfer systems
   ics:
   - code: '49.140'
     text: Space systems and operations
   structuredidentifier:
-    project_number: '36479'
     type: ISO
+    project_number:
+      content: '36479'

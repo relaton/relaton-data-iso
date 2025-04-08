@@ -1,152 +1,134 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC23001-3-2008
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: MPEG systems technologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: XML IPMP messages'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - MPEG systems technologies - Part 3: XML IPMP
-    messages'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Technologies des systèmes MPEG
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Messages XML IPMP'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
-    3: Messages XML IPMP'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/46387.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:46387:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/63/46387.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 23001-3:2008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: MPEG systems technologies
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: XML IPMP messages'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - MPEG systems technologies - Part 3: XML IPMP
+    messages'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies des systèmes MPEG
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Messages XML IPMP'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
+    3: Messages XML IPMP'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/46387.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:46387:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/63/46387.detail.rss
+docidentifier:
+- content: ISO/IEC 23001-3:2008
   type: ISO
   primary: true
-- id: ISO/IEC 23001-3:2008(E)
+- content: ISO/IEC 23001-3:2008(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:23001:-3:stage-90.60
+- content: urn:iso:std:iso-iec:23001:-3:stage-90.60
   type: URN
 docnumber: '23001'
 date:
 - type: published
-  value: 2008-10
+  at: 2008-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2008-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 23001-3:2008 specifies XML IPMP messages which are a simple and natural extension of the IPMP Information Descriptors defined in ISO/IEC 21000-4. They allow dispatching of the IPMP information related to a protected content element retrieved from the associated digital item to the modules in charge of performing the IPMP operations required to access the protected content element. Furthermore, the XML IPMP Messages provide a standard API allowing the exchange of IPMP information (e.g. decryption keys, authentication information, licenses, etc.) between the modules – the IPMP Tools – in charge of providing access to the protected content elements (e.g. audio/visual resources).
     The API specified by ISO/IEC 23001-3:2008 is based on a set of XML messages defining the format of the information exchanged between the various components on a device, or between two devices. Most of the IPMP Messages defined in this specification are a translation of the messages originally defined in ISO/IEC 13818-11 and ISO/IEC 14496-13 from the binary representation into an XML representation. A number of these XML messages have been adapted in order to harmonise ISO/IEC 13818-11 and ISO/IEC 14496-13 in the MPEG-21 Multimedia Framework and with ISO/IEC 21000-4 specifically. Additionally, a number of new XML messages have been defined to support extended IPMP requirements such as the separation between the IPMP algorithms and the logic enabling them to communicate with the other components in a device.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 23001-3:2008 specifies XML IPMP messages which are a simple and natural extension of the IPMP Information Descriptors defined in ISO/IEC 21000-4. They allow dispatching of the IPMP information related to a protected content element retrieved from the associated digital item to the modules in charge of performing the IPMP operations required to access the protected content element. Furthermore, the XML IPMP Messages provide a standard API allowing the exchange of IPMP information (e.g. decryption keys, authentication information, licenses, etc.) between the modules – the IPMP Tools – in charge of providing access to the protected content elements (e.g. audio/visual resources).
     The API specified by ISO/IEC 23001-3:2008 is based on a set of XML messages defining the format of the information exchanged between the various components on a device, or between two devices. Most of the IPMP Messages defined in this specification are a translation of the messages originally defined in ISO/IEC 13818-11 and ISO/IEC 14496-13 from the binary representation into an XML representation. A number of these XML messages have been adapted in order to harmonise ISO/IEC 13818-11 and ISO/IEC 14496-13 in the MPEG-21 Multimedia Framework and with ISO/IEC 21000-4 specifically. Additionally, a number of new XML messages have been defined to support extended IPMP requirements such as the separation between the IPMP algorithms and the logic enabling them to communicate with the other components in a device.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    project_number: '46387'
     type: ISO
+    project_number:
+      content: '46387'

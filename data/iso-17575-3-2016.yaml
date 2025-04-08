@@ -1,104 +1,90 @@
 ---
-schema-version: v1.2.9
 id: ISO17575-3-2016
-title:
-- content: Electronic fee collection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Application interface definition for autonomous systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: Context data'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Electronic fee collection - Application interface definition for autonomous
-    systems - Part 3: Context data'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Perception du télépéage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Définition de l'interface d'application pour les systèmes autonomes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Données du contexte'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Perception du télépéage - Définition de l''interface d''application pour
-    les systèmes autonomes - Partie 3: Données du contexte'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/64163.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:64163:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/41/64163.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 17575-3:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electronic fee collection
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Application interface definition for autonomous systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: Context data'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Electronic fee collection - Application interface definition for autonomous
+    systems - Part 3: Context data'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception du télépéage
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Définition de l'interface d'application pour les systèmes autonomes
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Données du contexte'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Perception du télépéage - Définition de l''interface d''application pour
+    les systèmes autonomes - Partie 3: Données du contexte'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/64163.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:64163:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/41/64163.detail.rss
+docidentifier:
+- content: ISO 17575-3:2016
   type: ISO
   primary: true
-- id: ISO 17575-3:2016(E)
+- content: ISO 17575-3:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso:17575:-3:stage-90.93
+- content: urn:iso:std:iso:17575:-3:stage-90.93
   type: URN
 docnumber: '17575'
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2016-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 17575-3:2016 defines the content, semantics and format of the data exchange between a Front End (OBE plus optional proxy) and the corresponding Back End in autonomous toll systems. It defines the data elements used to specify and describe the toll context details. Context data are transmitted from the Back End to the Front End to configure it for the charging processes of the associated toll context.
     In ISO 17575, context data is the description of the properties of a single instance of an electronic fee collection (EFC) context. This single instance of an EFC context operates according to one of the basic tolling principles such as
     -      road section charging,
@@ -116,12 +102,9 @@ abstract:
     Annex C provides a graphical presentation of the structure of the toll context data.
     Annexes D, E and F contain further information and descriptions, which may support the understanding and the implementation of the rules specified in this part of ISO 17575.
     Annex G provides information how this part of ISO 17575 can be used in a European Electronic Toll Service (EETS) environment, with reference to EU Decision 2009/750.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 17575-3:2016 définit le contenu, la sémantique et le format de l'échange de données réalisé entre un système frontal (équipement embarqué et proxy facultatif) et le système central associé dans les systèmes autonomes de péage. Elle définit les éléments de données utilisés pour spécifier et décrire le contexte de péage en détail. Les données du contexte sont transmises depuis le système central vers le système frontal, afin de le configurer pour les processus de tarification du contexte de péage associé.
     Dans la norme ISO 17575, les données du contexte correspondent à la description des propriétés d'une seule instance d'un contexte de perception électronique de télépéage (EFC). Cette instance unique de perception électronique de télépéage fonctionne selon l'un des principes basiques de tarification:
     -      tarification de portion routière,
@@ -139,61 +122,53 @@ abstract:
     L'Annexe C comprend une représentation graphique de la structure des données de contexte de péage.
     Les Annexes D, E et F contiennent des informations et des descriptions supplémentaires pouvant aider à mieux comprendre et implémenter les règles spécifiées dans la présente partie de l'ISO 17575.
     L'Annexe G fournit des informations sur la manière dont la présente partie de l'ISO 17575 peut être utilisée dans un environnement de Service Européen de Télépéage (SET), en référence à la Décision de l'UE 2009/750.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS17575-3-2011
     type: standard
-    docid:
-    - id: ISO/TS 17575-3:2011
+    formattedref: ISO/TS 17575-3:2011
+    docidentifier:
+    - content: ISO/TS 17575-3:2011
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 17575-3:2011
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/TS17575-3-2011/Cor1-2013
     type: standard
-    docid:
-    - id: ISO/TS 17575-3:2011/Cor 1:2013
+    formattedref: ISO/TS 17575-3:2011/Cor 1:2013
+    docidentifier:
+    - content: ISO/TS 17575-3:2011/Cor 1:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 17575-3:2011/Cor 1:2013
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '64163'
     type: ISO
+    project_number:
+      content: '64163'

@@ -1,97 +1,84 @@
 ---
-schema-version: v1.2.9
 id: ISO525-2013
-title:
-- content: Bonded abrasive products
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: General requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Bonded abrasive products - General requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Produits abrasifs agglomérés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Exigences générales
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Produits abrasifs agglomérés - Exigences générales
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/40211.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/02/40211.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 525:2013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Bonded abrasive products
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: General requirements
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Bonded abrasive products - General requirements
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Produits abrasifs agglomérés
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences générales
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Produits abrasifs agglomérés - Exigences générales
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/40211.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/02/40211.detail.rss
+docidentifier:
+- content: ISO 525:2013
   type: ISO
   primary: true
-- id: ISO 525:2013(E)
+- content: ISO 525:2013(E)
   type: iso-reference
-- id: urn:iso:std:iso:525:stage-95.99
+- content: urn:iso:std:iso:525:stage-95.99
   type: URN
 docnumber: '525'
 date:
 - type: published
-  value: 2013-03
+  at: 2013-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '4'
-revdate: 2013-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 525:2013 is applicable to bonded abrasive products (e.g. grinding
+- language: en
+  script: Latn
+  content: "ISO 525:2013 is applicable to bonded abrasive products (e.g. grinding
     wheels, segments, sticks and stones) in general, excluding superabrasive products
     and coated abrasive products.\nISO 525:2013 specifies: \n- the ISO type number
     and shape;\n- dimensional symbols;\n- standard profiles;\n- requirements for dimensions,
     limit deviations and tolerances as well as permissible unbalance;\n- the specification
     mark; \n- the marking requirements."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 525:2013 est applicable aux produits abrasifs agglomérés en général (par exemple: meules, segments, bâtons rodoirs et pierres à main), à l'exclusion des produits super abrasifs et des produits abrasifs appliqués.
     L'ISO 525:2013 spécifie:
     - le numéro de type ISO et la forme;
@@ -100,62 +87,54 @@ abstract:
     - les exigences de dimensions, les écarts limites et les tolérances aussi bien que le balourd admissible;
     - la marque de spécification;
     - les exigences de marquage.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO525-1999
     type: standard
-    docid:
-    - id: ISO 525:1999
+    formattedref: ISO 525:1999
+    docidentifier:
+    - content: ISO 525:1999
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 525:1999
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO525-2020
     type: standard
-    docid:
-    - id: ISO 525:2020
+    formattedref: ISO 525:2020
+    docidentifier:
+    - content: ISO 525:2020
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2020-10-12'
-    formattedref:
-      content: ISO 525:2020
-      format: text/plain
+      at: '2020-10-12'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Grinding wheels and abrasives
-      number: 29
+    - number: 29
       type: TC
       identifier: ISO/TC 29/SC 5
+      content: Grinding wheels and abrasives
   ics:
   - code: 25.100.70
     text: Abrasives
   structuredidentifier:
-    project_number: '40211'
     type: ISO
+    project_number:
+      content: '40211'

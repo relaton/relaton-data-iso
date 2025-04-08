@@ -1,104 +1,90 @@
 ---
-schema-version: v1.2.9
 id: ISO17575-1-2016
-title:
-- content: Electronic fee collection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Application interface definition for autonomous systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Charging'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Electronic fee collection - Application interface definition for autonomous
-    systems - Part 1: Charging'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Perception du télépéage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Définition de l'interface d'application pour les systèmes autonomes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Imputation'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Perception du télépéage - Définition de l''interface d''application pour
-    les systèmes autonomes - Partie 1: Imputation'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/64161.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:64161:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/41/64161.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 17575-1:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electronic fee collection
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Application interface definition for autonomous systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Charging'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Electronic fee collection - Application interface definition for autonomous
+    systems - Part 1: Charging'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception du télépéage
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Définition de l'interface d'application pour les systèmes autonomes
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Imputation'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Perception du télépéage - Définition de l''interface d''application pour
+    les systèmes autonomes - Partie 1: Imputation'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/64161.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:64161:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/41/64161.detail.rss
+docidentifier:
+- content: ISO 17575-1:2016
   type: ISO
   primary: true
-- id: ISO 17575-1:2016(E)
+- content: ISO 17575-1:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso:17575:-1:stage-90.93
+- content: urn:iso:std:iso:17575:-1:stage-90.93
   type: URN
 docnumber: '17575'
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2016-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 17575-1:2016 defines the format and semantics of the data exchange between a Front End (OBE plus optional proxy) and corresponding Back Ends in autonomous toll schemes. It defines the data elements that are used to generate charge reports containing information about the road usage of a vehicle for certain time intervals, sent from the Front End to the Back End. It also defines the data that can be used to re-configure the ongoing process of gathering charge relevant information in the Front End. The scope is shown in Figure 1.
     The constitution of the charge report is dependent on configuration data that are assumed to be present in the Front End. The assembly of charge reports can be configured for each individual toll scheme according to local needs. Charge reports generated in accordance with this part of ISO 17575 are consistent with the requirements derived from the architectural concept defined in ISO 17573:2010.
     The definitions in ISO 17575-1:2016 comprise
@@ -113,12 +99,9 @@ abstract:
     The protocol implementation conformity statements (PICS) proforma are provided in Annex B.
     Annex C provides a graphical presentation of the structure of the data elements described in Clause 7.
     Annex D provides information on how this part of ISO 17575 can be used in EETS environment and how the requirements that are specified in the EU-Decision 2009/750 are addressed by this standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 17575-1:2016 définit le format et la sémantique pour l'échange de données entre un système frontal (OBE plus proxy optionnel) et des systèmes centraux correspondants dans des systèmes de péage autonomes. Elle définit les éléments de données utilisés pour générer des rapports de perception contenant des informations sur l'utilisation du réseau routier par un véhicule pendant des intervalles de temps donnés, envoyées du système frontal au système central. Elle définit également les données qui peuvent être utilisées pour reconfigurer le processus de collecte permanente des informations d'imputation pertinentes dans le système frontal. Son domaine d'application est représenté à la Figure 1.
     La constitution d'un rapport de perception dépend des données de configuration supposées être présentes dans le système frontal. L'ensemble des rapports de perception peut être configuré pour chaque système de péage individuel selon les besoins locaux. Les rapports de perception générés conformément à la présente partie de l'ISO 17575 concordent avec les exigences dérivées du concept architectural défini dans l'ISO 17573:2010.
     Dans l'ISO 17575-1:2016, les définitions comprennent
@@ -133,61 +116,53 @@ abstract:
     Les formulaires PICS (déclaration de conformité d'implémentation de protocole) sont fournis en Annexe B.
     L'Annexe C comprend une représentation graphique de la structure des éléments de données décrits à l'Article 7.
     L'Annexe D fournit des informations sur la façon dont la présente partie de l'ISO 17575 peut être appliquée dans un environnement SET et sur la manière dont la présente norme couvre les exigences spécifiées dans la Décision de la Commission 2009/750.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS17575-1-2010
     type: standard
-    docid:
-    - id: ISO/TS 17575-1:2010
+    formattedref: ISO/TS 17575-1:2010
+    docidentifier:
+    - content: ISO/TS 17575-1:2010
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 17575-1:2010
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/TS17575-1-2010/Cor1-2013
     type: standard
-    docid:
-    - id: ISO/TS 17575-1:2010/Cor 1:2013
+    formattedref: ISO/TS 17575-1:2010/Cor 1:2013
+    docidentifier:
+    - content: ISO/TS 17575-1:2010/Cor 1:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 17575-1:2010/Cor 1:2013
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '64161'
     type: ISO
+    project_number:
+      content: '64161'

@@ -1,96 +1,84 @@
 ---
-schema-version: v1.2.9
 id: ISO18910-2000
-title:
-- content: Imaging materials
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Photographic film and paper —- Determination of curl
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Imaging materials - Photographic film and paper —- Determination of curl
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Matériaux pour l'image
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: " Films et papiers photographiques"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Détermination de l'incurvation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Matériaux pour l'image -  Films et papiers photographiques - Détermination
-    de l'incurvation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/31934.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:31934:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/19/31934.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 18910:2000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Imaging materials
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Photographic film and paper —- Determination of curl
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Imaging materials - Photographic film and paper —- Determination of curl
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Matériaux pour l'image
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: " Films et papiers photographiques"
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Détermination de l'incurvation
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Matériaux pour l'image -  Films et papiers photographiques - Détermination
+    de l'incurvation
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/31934.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:31934:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/19/31934.detail.rss
+docidentifier:
+- content: ISO 18910:2000
   type: ISO
   primary: true
-- id: ISO 18910:2000(E)
+- content: ISO 18910:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso:18910:stage-90.20
+- content: urn:iso:std:iso:18910:stage-90.20
   type: URN
 docnumber: '18910'
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2000-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard specifies methods for determining and quantitatively expressing the curl characteristics
     of unprocessed and processed photographic film and paper in sheet, roll or strip formats.
     It specifies three measuring methods: method A involves the determination of curl when the specimen is held in a
@@ -98,12 +86,9 @@ abstract:
     not comparable because of the differences in specimen configuration and size.
     These methods are not intended for use in determining the curl characteristics of photographic materials during
     processing or drying.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This International Standard specifies methods for determining and quantitatively expressing the curl characteristics
     of unprocessed and processed photographic film and paper in sheet, roll or strip formats.
     It specifies three measuring methods: method A involves the determination of curl when the specimen is held in a
@@ -111,48 +96,43 @@ abstract:
     not comparable because of the differences in specimen configuration and size.
     These methods are not intended for use in determining the curl characteristics of photographic materials during
     processing or drying.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO4330-1994
     type: standard
-    docid:
-    - id: ISO 4330:1994
+    formattedref: ISO 4330:1994
+    docidentifier:
+    - content: ISO 4330:1994
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 4330:1994
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Photography
-      number: 42
+    - number: 42
       type: TC
       identifier: ISO/TC 42
+      content: Photography
   ics:
   - code: 37.040.20
     text: Photographic paper, films and plates. Cartridges
   structuredidentifier:
-    project_number: '31934'
     type: ISO
+    project_number:
+      content: '31934'

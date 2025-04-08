@@ -1,76 +1,65 @@
 ---
-schema-version: v1.2.9
 id: ISO/DTS21193
-title:
-- content: Electronic fee collection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Requirements for EFC application interfaces on common media
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Electronic fee collection - Requirements for EFC application interfaces
-    on common media
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Perception du télépéage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Exigences relatives aux interfaces d'application de télépéage sur média
-    commun
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Perception du télépéage - Exigences relatives aux interfaces d'application
-    de télépéage sur média commun
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/89587.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/95/89587.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DTS 21193
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electronic fee collection
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Requirements for EFC application interfaces on common media
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electronic fee collection - Requirements for EFC application interfaces
+    on common media
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception du télépéage
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences relatives aux interfaces d'application de télépéage sur média
+    commun
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception du télépéage - Exigences relatives aux interfaces d'application
+    de télépéage sur média commun
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/89587.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/95/89587.detail.rss
+docidentifier:
+- content: ISO/DTS 21193
   type: ISO
   primary: true
-- id: ISO/DTS 21193(E)
+- content: ISO/DTS 21193(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:21193:stage-draft
+- content: urn:iso:std:iso:ts:21193:stage-draft
   type: URN
 docnumber: '21193'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -79,7 +68,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines requirements to support information exchanges among related entities of a common payment scheme. It defines:
     a)   electronic fee collection (EFC) functional requirements for a common payment medium;
     b)   an application structure in a common payment medium;
@@ -92,12 +83,9 @@ abstract:
     —     concrete implementation specifications for implementation of security for an EFC system;
     —     detailed specifications required for privacy-friendly EFC implementations;
     —     any financial transactions of the CSRP.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines requirements to support information exchanges among related entities of a common payment scheme. It defines:
     a)   electronic fee collection (EFC) functional requirements for a common payment medium;
     b)   an application structure in a common payment medium;
@@ -110,50 +98,45 @@ abstract:
     —     concrete implementation specifications for implementation of security for an EFC system;
     —     detailed specifications required for privacy-friendly EFC implementations;
     —     any financial transactions of the CSRP.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DTS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DTS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS21193-2019
     type: standard
-    docid:
-    - id: ISO/TS 21193:2019
+    formattedref: ISO/TS 21193:2019
+    docidentifier:
+    - content: ISO/TS 21193:2019
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 21193:2019
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: technical-specification
-editorialgroup:
-  technical_committee:
-  - name: Intelligent transport systems
-    number: 204
-    type: TC
-    identifier: ISO/TC 204
-ics:
-- code: 03.220.20
-  text: Road transport
-- code: 35.240.60
-  text: IT applications in transport
-structuredidentifier:
-  project_number: ISO 21193
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: technical-specification
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 204
+      type: TC
+      identifier: ISO/TC 204
+      content: Intelligent transport systems
+  ics:
+  - code: 03.220.20
+    text: Road transport
+  - code: 35.240.60
+    text: IT applications in transport
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 21193

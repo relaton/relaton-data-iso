@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/CD13208
-title:
-- content: Biodiversity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Biodiversity - Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Biodiversité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Biodiversité - Vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84346.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/43/84346.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 13208
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Biodiversity
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vocabulary
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Biodiversity - Vocabulary
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Biodiversité
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vocabulaire
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Biodiversité - Vocabulaire
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84346.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/43/84346.detail.rss
+docidentifier:
+- content: ISO/CD 13208
   type: ISO
   primary: true
-- id: ISO/CD 13208(E)
+- content: ISO/CD 13208(E)
   type: iso-reference
-- id: urn:iso:std:iso:13208:stage-draft
+- content: urn:iso:std:iso:13208:stage-draft
   type: URN
 docnumber: '13208'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -76,49 +65,46 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines the terms and definitions in the field of biodiversity. It includes terms from the observation of biodiversity loss (climate change, pollution, invasive species, erosion, soil degradation, deforestation, etc.) to the means of action to protect it (measurement, monitoring and assessment, restoration, conservation and protection, and sustainable use). The three dimensions are covered: genetic diversity, species diversity and ecosystem diversity.
     This document is applicable to organizations related to biodiversity, including governments, NGOs, companies, and organizations supporting biodiversity research and practice.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines the terms and definitions in the field of biodiversity. It includes terms from the observation of biodiversity loss (climate change, pollution, invasive species, erosion, soil degradation, deforestation, etc.) to the means of action to protect it (measurement, monitoring and assessment, restoration, conservation and protection, and sustainable use). The three dimensions are covered: genetic diversity, species diversity and ecosystem diversity.
     This document is applicable to organizations related to biodiversity, including governments, NGOs, companies, and organizations supporting biodiversity research and practice.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Biodiversity
-    number: 331
-    type: TC
-    identifier: ISO/TC 331
-ics:
-- code: 01.040.13
-  text: Environment. Health protection. Safety (Vocabularies)
-- code: 13.020.20
-  text: Environmental economics. Sustainability
-structuredidentifier:
-  project_number: ISO 13208
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 331
+      type: TC
+      identifier: ISO/TC 331
+      content: Biodiversity
+  ics:
+  - code: 01.040.13
+    text: Environment. Health protection. Safety (Vocabularies)
+  - code: 13.020.20
+    text: Environmental economics. Sustainability
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 13208

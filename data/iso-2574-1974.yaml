@@ -1,138 +1,122 @@
 ---
-schema-version: v1.2.9
 id: ISO2574-1974
-title:
-- content: Aircraft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Electrical cables
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Identification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Aircraft - Electrical cables - Identification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Aéronefs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Câbles électriques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Marquage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Aéronefs - Câbles électriques - Marquage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/7535.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/75/7535.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2574:1974
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Aircraft
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electrical cables
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Identification
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Aircraft - Electrical cables - Identification
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Aéronefs
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Câbles électriques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Marquage
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Aéronefs - Câbles électriques - Marquage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/7535.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/75/7535.detail.rss
+docidentifier:
+- content: ISO 2574:1974
   type: ISO
   primary: true
-- id: ISO 2574:1974(E)
+- content: ISO 2574:1974(E)
   type: iso-reference
-- id: urn:iso:std:iso:2574:stage-95.99
+- content: urn:iso:std:iso:2574:stage-95.99
   type: URN
 docnumber: '2574'
 date:
 - type: published
-  value: 1974-11
+  at: 1974-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1974-11
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO2574-1994
     type: standard
-    docid:
-    - id: ISO 2574:1994
+    formattedref: ISO 2574:1994
+    docidentifier:
+    - content: ISO 2574:1994
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1994-05-19'
-    formattedref:
-      content: ISO 2574:1994
-      format: text/plain
+      at: '1994-05-19'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Aerospace electrical requirements
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 1
+      content: Aerospace electrical requirements
   ics:
   - code: '49.060'
     text: Aerospace electric equipment and systems
   structuredidentifier:
-    project_number: '7535'
     type: ISO
+    project_number:
+      content: '7535'

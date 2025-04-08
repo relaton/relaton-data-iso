@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO923-2000
-title:
-- content: Coal cleaning equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Performance evaluation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Coal cleaning equipment - Performance evaluation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Équipement pour l'épuration du charbon
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Évaluation des résultats
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Équipement pour l'épuration du charbon - Évaluation des résultats
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/1590.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/15/1590.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 923:2000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Coal cleaning equipment
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Performance evaluation
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Coal cleaning equipment - Performance evaluation
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Équipement pour l'épuration du charbon
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Évaluation des résultats
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Équipement pour l'épuration du charbon - Évaluation des résultats
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/1590.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/15/1590.detail.rss
+docidentifier:
+- content: ISO 923:2000
   type: ISO
   primary: true
-- id: ISO 923:2000(E)
+- content: ISO 923:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso:923:stage-95.99
+- content: urn:iso:std:iso:923:stage-95.99
   type: URN
 docnumber: '923'
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2000-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard describes the principles and methods for evaluating the performance of equipment
     used for cleaning operations. Testing and sampling procedures are specified and methods of presenting test
     results are detailed. Performance parameters are recommended and defined and their determination is formulated,
@@ -90,12 +80,9 @@ abstract:
     a) dense-medium separators;
     b) jigs;
     c) other separators.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This International Standard describes the principles and methods for evaluating the performance of equipment
     used for cleaning operations. Testing and sampling procedures are specified and methods of presenting test
     results are detailed. Performance parameters are recommended and defined and their determination is formulated,
@@ -105,62 +92,54 @@ abstract:
     a) dense-medium separators;
     b) jigs;
     c) other separators.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO923-1975
     type: standard
-    docid:
-    - id: ISO 923:1975
+    formattedref: ISO 923:1975
+    docidentifier:
+    - content: ISO 923:1975
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 923:1975
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO923-2022
     type: standard
-    docid:
-    - id: ISO 923:2022
+    formattedref: ISO 923:2022
+    docidentifier:
+    - content: ISO 923:2022
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-11-04'
-    formattedref:
-      content: ISO 923:2022
-      format: text/plain
+      at: '2022-11-04'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: 'Coal preparation: Terminology and performance'
-      number: 27
+    - number: 27
       type: TC
       identifier: ISO/TC 27/SC 1
+      content: 'Coal preparation: Terminology and performance'
   ics:
   - code: '73.120'
     text: Equipment for processing of minerals
   structuredidentifier:
-    project_number: '1590'
     type: ISO
+    project_number:
+      content: '1590'

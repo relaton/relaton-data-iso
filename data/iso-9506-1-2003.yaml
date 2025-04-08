@@ -1,159 +1,137 @@
 ---
-schema-version: v1.2.9
 id: ISO9506-1-2003
-title:
-- content: Industrial automation systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Manufacturing Message Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Service definition'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Industrial automation systems - Manufacturing Message Specification -
-    Part 1: Service definition'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes d'automatisation industrielle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Spécification de messagerie industrielle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Définition des services'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Systèmes d''automatisation industrielle - Spécification de messagerie
-    industrielle - Partie 1: Définition des services'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/37079.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:37079:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/70/37079.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9506-1:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial automation systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Manufacturing Message Specification
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Service definition'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Industrial automation systems - Manufacturing Message Specification -
+    Part 1: Service definition'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes d'automatisation industrielle
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Spécification de messagerie industrielle
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Définition des services'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes d''automatisation industrielle - Spécification de messagerie
+    industrielle - Partie 1: Définition des services'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/37079.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:37079:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/70/37079.detail.rss
+docidentifier:
+- content: ISO 9506-1:2003
   type: ISO
   primary: true
-- id: ISO 9506-1:2003(E)
+- content: ISO 9506-1:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso:9506:-1:stage-90.20
+- content: urn:iso:std:iso:9506:-1:stage-90.20
   type: URN
 docnumber: '9506'
 date:
 - type: published
-  value: 2003-08
+  at: 2003-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2003-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 9506 is an Application Layer communication specification, in accord with the OSI communication model. It provides a set of services appropriate to communications between automated equipment and systems that interrogate or control them. Its description of interactions follow the client server model. It is suitable for use over any network that supports full-duplex, reliable communication, such as the Internet.
     ISO 9506-1:2003 provides a set of abstract models of information objects that may be found in such automated systems, and the specifications of a set of abstract services that operate on these models.
     Part 2 provides the protocol for the messages to be exchanged between client and server to realize support for the abstract services defined in Part 1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 9506 is an Application Layer communication specification, in accord with the OSI communication model. It provides a set of services appropriate to communications between automated equipment and systems that interrogate or control them. Its description of interactions follow the client server model. It is suitable for use over any network that supports full-duplex, reliable communication, such as the Internet.
     ISO 9506-1:2003 provides a set of abstract models of information objects that may be found in such automated systems, and the specifications of a set of abstract services that operate on these models.
     Part 2 provides the protocol for the messages to be exchanged between client and server to realize support for the abstract services defined in Part 1.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO9506-1-2000
     type: standard
-    docid:
-    - id: ISO 9506-1:2000
+    formattedref: ISO 9506-1:2000
+    docidentifier:
+    - content: ISO 9506-1:2000
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 9506-1:2000
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Interoperability, integration, and architectures for enterprise systems
-        and automation applications
-      number: 184
+    - number: 184
       type: TC
       identifier: ISO/TC 184/SC 5
+      content: Interoperability, integration, and architectures for enterprise systems
+        and automation applications
   ics:
   - code: 25.040.40
     text: Industrial process measurement and control
   structuredidentifier:
-    project_number: '37079'
     type: ISO
+    project_number:
+      content: '37079'

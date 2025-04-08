@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.8
 id: ISO/DTR6231
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Standardizing graphical content
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - Standardizing graphical content
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Normalisation du contenu graphique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Normalisation du contenu graphique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/82114.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/21/82114.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DTR 6231
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Standardizing graphical content
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Standardizing graphical content
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Normalisation du contenu graphique
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Normalisation du contenu graphique
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/82114.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/21/82114.detail.rss
+docidentifier:
+- content: ISO/DTR 6231
   type: ISO
   primary: true
-- id: ISO/DTR 6231(E)
+- content: ISO/DTR 6231(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:6231:stage-draft
+- content: urn:iso:std:iso:tr:6231:stage-draft
   type: URN
 docnumber: '6231'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -75,31 +64,34 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DTR
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DTR
 place:
-- Geneva
-doctype:
-  type: technical-report
-editorialgroup:
-  technical_committee:
-  - name: Health informatics
-    number: 215
-    type: TC
-    identifier: ISO/TC 215
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
-structuredidentifier:
-  project_number: ISO 6231
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: technical-report
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 215
+      type: TC
+      identifier: ISO/TC 215
+      content: Health informatics
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 6231

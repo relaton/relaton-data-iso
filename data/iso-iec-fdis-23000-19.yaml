@@ -1,97 +1,83 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECFDIS23000-19
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Multimedia application format (MPEG-A)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 19: Common media application format (CMAF) for segmented media'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Multimedia application format (MPEG-A) - Part
-    19: Common media application format (CMAF) for segmented media'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format pour application multimédia (MPEG-A)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 19: Format CMAF (Common Media Application Format) pour médias segmentés'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Format pour application multimédia (MPEG-A)
-    - Partie 19: Format CMAF (Common Media Application Format) pour médias segmentés'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85623.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/56/85623.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC FDIS 23000-19
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Multimedia application format (MPEG-A)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 19: Common media application format (CMAF) for segmented media'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia application format (MPEG-A) - Part
+    19: Common media application format (CMAF) for segmented media'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Format pour application multimédia (MPEG-A)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 19: Format CMAF (Common Media Application Format) pour médias segmentés'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Format pour application multimédia (MPEG-A)
+    - Partie 19: Format CMAF (Common Media Application Format) pour médias segmentés'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85623.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/56/85623.detail.rss
+docidentifier:
+- content: ISO/IEC FDIS 23000-19
   type: ISO
   primary: true
-- id: ISO/IEC FDIS 23000-19(E)
+- content: ISO/IEC FDIS 23000-19(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:23000:-19:stage-draft
+- content: urn:iso:std:iso-iec:23000:-19:stage-draft
   type: URN
 docnumber: '23000'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -100,7 +86,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the CMAF multimedia format, which contains segmented media objects optimized for streaming delivery and decoding on end user devices in adaptive multimedia presentations.
     CMAF specifies a track format derived from the ISO base media file format, then derives addressable media objects from CMAF tracks that can be used for storage and delivery.
     CMAF specifies sets of tracks that share encoding and packaging constraints that enable the selection of multiple tracks to form a multimedia presentation and allow seamless switching of alternative encodings of the same content at different bit rates, frame rates, resolution, etc.
@@ -108,12 +96,9 @@ abstract:
     CMAF specifies media profiles and brands that constrain media encoding and packaging of CMAF tracks to enable seamless adaptive switching of tracks and allow devices to identify compatible content by its brand.
     CMAF specifies presentation profiles that conditionally require sets of CMAF tracks conforming to specified media profiles and allow content creators and devices to identify compatible multimedia presentations.
     CMAF enables extensibility by specifying how new media profiles and presentation profiles can be specified and identified and includes guidelines for those specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies the CMAF multimedia format, which contains segmented media objects optimized for streaming delivery and decoding on end user devices in adaptive multimedia presentations.
     CMAF specifies a track format derived from the ISO base media file format, then derives addressable media objects from CMAF tracks that can be used for storage and delivery.
     CMAF specifies sets of tracks that share encoding and packaging constraints that enable the selection of multiple tracks to form a multimedia presentation and allow seamless switching of alternative encodings of the same content at different bit rates, frame rates, resolution, etc.
@@ -121,74 +106,63 @@ abstract:
     CMAF specifies media profiles and brands that constrain media encoding and packaging of CMAF tracks to enable seamless adaptive switching of tracks and allow devices to identify compatible content by its brand.
     CMAF specifies presentation profiles that conditionally require sets of CMAF tracks conforming to specified media profiles and allow content creators and devices to identify compatible multimedia presentations.
     CMAF enables extensibility by specifying how new media profiles and presentation profiles can be specified and identified and includes guidelines for those specifications.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC23000-19-2020
     type: standard
-    docid:
-    - id: ISO/IEC 23000-19:2020
+    formattedref: ISO/IEC 23000-19:2020
+    docidentifier:
+    - content: ISO/IEC 23000-19:2020
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 23000-19:2020
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEC23000-19-2020/Amd1-2021
     type: standard
-    docid:
-    - id: ISO/IEC 23000-19:2020/Amd 1:2021
+    formattedref: ISO/IEC 23000-19:2020/Amd 1:2021
+    docidentifier:
+    - content: ISO/IEC 23000-19:2020/Amd 1:2021
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 23000-19:2020/Amd 1:2021
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IECFDIS23000-19/DAmd1
     type: standard
-    docid:
-    - id: ISO/IEC FDIS 23000-19/DAmd 1
+    formattedref: ISO/IEC FDIS 23000-19/DAmd 1
+    docidentifier:
+    - content: ISO/IEC FDIS 23000-19/DAM 1
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2023-11-29'
-    formattedref:
-      content: ISO/IEC FDIS 23000-19/DAmd 1
-      format: text/plain
+      at: '2023-11-29'
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Coding of audio, picture, multimedia and hypermedia information
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 29
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: ISO 23000
-  part: '19'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 19
+      content: ISO 23000

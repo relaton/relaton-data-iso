@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTR10021-11-1999
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Message Handling Systems (MHS): MHS Routing'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Guide for messaging systems managers -- Part 11:'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Message Handling Systems (MHS): MHS Routing -
-    Guide for messaging systems managers -- Part 11:'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Systèmes de messagerie (MHS): Routage MHS'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Guide pour les gestionnaires des systèmes de messagerie -- Partie 11:'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Systèmes de messagerie (MHS): Routage
-    MHS - Guide pour les gestionnaires des systèmes de messagerie -- Partie 11:'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/17968.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:17968:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/79/17968.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TR 10021-11:1999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Message Handling Systems (MHS): MHS Routing'
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Guide for messaging systems managers -- Part 11:'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Message Handling Systems (MHS): MHS Routing -
+    Guide for messaging systems managers -- Part 11:'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes de messagerie (MHS): Routage MHS'
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Guide pour les gestionnaires des systèmes de messagerie -- Partie 11:'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Systèmes de messagerie (MHS): Routage
+    MHS - Guide pour les gestionnaires des systèmes de messagerie -- Partie 11:'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/17968.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:17968:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/79/17968.detail.rss
+docidentifier:
+- content: ISO/IEC TR 10021-11:1999
   type: ISO
   primary: true
-- id: ISO/IEC TR 10021-11:1999(E)
+- content: ISO/IEC TR 10021-11:1999(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:tr:10021:-11:stage-90.93
+- content: urn:iso:std:iso-iec:tr:10021:-11:stage-90.93
   type: URN
 docnumber: '10021'
 date:
 - type: published
-  value: 1999-12
+  at: 1999-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1999-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This Recommendation | Technical Report specifies the means by which the administrator of various aspects of an MHS
     system may configure information into the directory for MTAs to use to determine the routing of messages.
     ITU-T Rec. X.412 | ISO/IEC 10021-10 provides a set of directory structures that may be configured in many different
@@ -120,12 +107,9 @@ abstract:
     ISO/IEC 10021-1 defines the user-oriented services provided by the MHS. ITU-T Rec. X.402 | ISO/IEC 10021-2
     provides an architectural overview of the MHS. ITU-T Rec. X.411 | ISO/IEC 10021-4 defines the abstract-service of the
     Message Transfer System. ITU-T Rec. X.412 | ISO/IEC 10021-10 defines MHS Routing using the directory.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente Recommandation | Rapport technique spécifie les moyens par lesquels l'administrateur de divers aspects d'un
     système MHS peut configurer dans l'annuaire des informations que des agents MTA pourront utiliser pour définir le
     routage de messages.
@@ -145,36 +129,34 @@ abstract:
     UIT-T X.402 | ISO/CEI 10021-2 donne un aperçu général architectural du système MHS. La Rec. UIT-T X.411 |
     ISO/CEI 10021-4 définit le service abstrait du système de transfert de messages (MTS). La Rec. UIT-T X.412 | ISO/CEI
     10021-10 définit le routage MHS au moyen de l'annuaire.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 35.240.20
     text: IT applications in office work
   structuredidentifier:
-    project_number: '17968'
     type: ISO
+    project_number:
+      content: '17968'

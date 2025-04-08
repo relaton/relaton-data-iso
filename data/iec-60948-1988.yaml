@@ -1,106 +1,97 @@
 ---
-schema-version: v1.2.9
 id: IEC60948-1988
-title:
-- content: Numeric keyboard for home electronic systems (HES)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Numeric keyboard for home electronic systems (HES)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Clavier numérique pour systèmes électroniques domestiques (SED)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Clavier numérique pour systèmes électroniques domestiques (SED)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/82002.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:82002:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/20/82002.detail.rss
-  type: rss
 type: standard
-docid:
-- id: IEC 60948:1988
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Numeric keyboard for home electronic systems (HES)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Numeric keyboard for home electronic systems (HES)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Clavier numérique pour systèmes électroniques domestiques (SED)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Clavier numérique pour systèmes électroniques domestiques (SED)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/82002.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:82002:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/20/82002.detail.rss
+docidentifier:
+- content: IEC 60948:1988
   type: ISO
   primary: true
-- id: IEC 60948:1988(E)
+- content: IEC 60948:1988(E)
   type: iso-reference
-- id: urn:iso:std:iec:60948:stage-60.60
+- content: urn:iso:std:iec:60948:stage-published
   type: URN
 docnumber: '60948'
 date:
 - type: published
-  value: 1988-06
+  at: 1988-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1988-06
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: IEC
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - content: IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: IEC948-1988
     type: standard
-    docid:
-    - id: IEC 948:1988
+    formattedref: IEC 948:1988
+    docidentifier:
+    - content: IEC 948:1988
       type: ISO
       primary: true
-    formattedref:
-      content: IEC 948:1988
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Interconnection of information technology equipment
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 25
+      content: Interconnection of information technology equipment
   ics:
   - code: '97.120'
     text: Automatic controls for household use
@@ -109,5 +100,6 @@ ext:
   - code: 35.240.99
     text: IT applications in other fields
   structuredidentifier:
-    project_number: '82002'
     type: IEC
+    project_number:
+      content: '82002'

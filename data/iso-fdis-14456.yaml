@@ -1,74 +1,63 @@
 ---
-schema-version: v1.2.8
 id: ISO/FDIS14456
-title:
-- content: Gas cylinders
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Gas properties and associated classification (FTSC) codes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Gas cylinders - Gas properties and associated classification (FTSC) codes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Bouteilles à gaz
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Propriétés des gaz et codes de classification associés (FTSC)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Bouteilles à gaz - Propriétés des gaz et codes de classification associés
-    (FTSC)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83857.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/38/83857.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/FDIS 14456
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Gas cylinders
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Gas properties and associated classification (FTSC) codes
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Gas cylinders - Gas properties and associated classification (FTSC) codes
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Bouteilles à gaz
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Propriétés des gaz et codes de classification associés (FTSC)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Bouteilles à gaz - Propriétés des gaz et codes de classification associés
+    (FTSC)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83857.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/38/83857.detail.rss
+docidentifier:
+- content: ISO/FDIS 14456
   type: ISO
   primary: true
-- id: ISO/FDIS 14456(E)
+- content: ISO/FDIS 14456(E)
   type: iso-reference
-- id: urn:iso:std:iso:14456:stage-draft
+- content: urn:iso:std:iso:14456:stage-draft
   type: URN
 docnumber: '14456'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -77,71 +66,62 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO 14456:2015 gives a list of FTSC (fire potential, i.e. "oxidizing potential
+- language: en
+  script: Latn
+  content: ISO 14456:2015 gives a list of FTSC (fire potential, i.e. "oxidizing potential
     and flammability", toxicity, state of the gas, and corrosiveness) codes determined
     according to the relevant properties of gases and of some liquids that are transported
     under pressure.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 14456:2015 fournit une liste de codes FTSC (potentiel incendiaire, c'est-à-dire «potentiel d'oxydation et inflammabilité», toxicité, état du gaz et corrosivité) déterminés en fonction des propriétés correspondantes des gaz et de certains liquides transportés sous pression.
     Elle ne traite pas de la compatibilité des matériaux avec les contenus gazeux, qui est traitée par l'ISO 11114 (toutes les parties).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/FDIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO14456-2015
     type: standard
-    docid:
-    - id: ISO 14456:2015
+    formattedref: ISO 14456:2015
+    docidentifier:
+    - content: ISO 14456:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 14456:2015
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO14456-2015/Amd1-2019
     type: standard
-    docid:
-    - id: ISO 14456:2015/Amd 1:2019
+    formattedref: ISO 14456:2015/Amd 1:2019
+    docidentifier:
+    - content: ISO 14456:2015/Amd 1:2019
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 14456:2015/Amd 1:2019
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Cylinder fittings
-    number: 58
-    type: TC
-    identifier: ISO/TC 58/SC 2
-ics:
-- code: 23.020.35
-  text: Gas cylinders
-structuredidentifier:
-  project_number: ISO 14456
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 58
+      type: TC
+      identifier: ISO/TC 58/SC 2
+      content: Cylinder fittings
+  ics:
+  - code: 23.020.35
+    text: Gas cylinders
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 14456

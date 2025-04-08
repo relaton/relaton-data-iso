@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
 id: ISO2697-1999
-title:
-- content: Diesel engines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Fuel nozzles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Size "S"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Diesel engines - Fuel nozzles - Size "S"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Moteurs diesels
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Injecteurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Taille "S"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Moteurs diesels - Injecteurs - Taille "S"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/30214.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:30214:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/02/30214.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2697:1999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Diesel engines
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Fuel nozzles
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Size "S"
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Diesel engines - Fuel nozzles - Size "S"
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Moteurs diesels
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Injecteurs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Taille "S"
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Moteurs diesels - Injecteurs - Taille "S"
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/30214.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:30214:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/02/30214.detail.rss
+docidentifier:
+- content: ISO 2697:1999
   type: ISO
   primary: true
-- id: ISO 2697:1999(E)
+- content: ISO 2697:1999(E)
   type: iso-reference
-- id: urn:iso:std:iso:2697:stage-90.20
+- content: urn:iso:std:iso:2697:stage-90.20
   type: URN
 docnumber: '2697'
 date:
 - type: published
-  value: 1999-12
+  at: 1999-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1999-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard specifies the essential dimensional requirements for size "S" fuel nozzles used in diesel
     engines.
     These requirements allow the assembly and interchangeability of the nozzles in the corresponding nozzle holders.
@@ -104,12 +90,9 @@ abstract:
     A1 and A2) and pintle nozzles (type B).
     NOTE Type A1 and type B nozzles are the preferred types. The non-preferred hole type, short-stem nozzle, type C, is
     shown in annex A.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente Norme internationale spécifie les caractéristiques dimensionnelles essentielles des injecteurs taille
     «S» utilisés sur les moteurs diesels.
     Ces caractéristiques permettent le montage et l'interchangeabilité des injecteurs sur les porte-injecteurs
@@ -118,48 +101,43 @@ abstract:
     trous (types A1 et A2), et les injecteurs à téton (type B).
     NOTE Les injecteurs type A1 et type B sont les types préférés. L'injecteur court, à trous, type C, non préféré, est décrit
     dans l'annexe A.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO2697-1974
     type: standard
-    docid:
-    - id: ISO 2697:1974
+    formattedref: ISO 2697:1974
+    docidentifier:
+    - content: ISO 2697:1974
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 2697:1974
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Propulsion, powertrain and powertrain fluids
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 34
+      content: Propulsion, powertrain and powertrain fluids
   ics:
   - code: 43.060.40
     text: Fuel systems
   structuredidentifier:
-    project_number: '30214'
     type: ISO
+    project_number:
+      content: '30214'

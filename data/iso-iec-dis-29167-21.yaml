@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECDIS29167-21
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Automatic identification and data capture techniques
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Automatic identification and data capture techniques
   type: title-main
-- content: 'Part 21: Crypto suite SIMON security services for air interface communications'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 21: Crypto suite SIMON security services for air interface communications'
   type: title-part
-- content: 'Information technology - Automatic identification and data capture techniques
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Automatic identification and data capture techniques
     - Part 21: Crypto suite SIMON security services for air interface communications'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Techniques automatiques d'identification et de capture de données
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques automatiques d'identification et de capture de données
   type: title-main
-- content: 'Partie 21: Services de sécurité par suite cryptographique SIMON pour communications
-    par interface radio'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 21: Services de sécurité par suite cryptographique SIMON pour communications
+    par interface radio'
   type: title-part
-- content: 'Technologies de l''information - Techniques automatiques d''identification
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Techniques automatiques d''identification
     et de capture de données - Partie 21: Services de sécurité par suite cryptographique
     SIMON pour communications par interface radio'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/89591.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:89591:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/95/89591.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC DIS 29167-21
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/89591.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:89591:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/95/89591.detail.rss
+docidentifier:
+- content: ISO/IEC DIS 29167-21
   type: ISO
   primary: true
-- id: ISO/IEC DIS 29167-21(E)
+- content: ISO/IEC DIS 29167-21(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:29167:-21:stage-draft
+- content: urn:iso:std:iso-iec:29167:-21:stage-draft
   type: URN
 docnumber: '29167'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -104,63 +90,57 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines the crypto suite for SIMON for the ISO/IEC 18000 air interfaces standards for radio frequency identification (RFID) devices. Its purpose is to provide a common crypto suite for security for RFID devices that can be referred by ISO committees for air interface standards and application standards. The crypto suite is defined in alignment with existing air interfaces.
     SIMON is a symmetric block cipher that is parameterized in both its block length and key length. In this standard, a variety of block/key length options are supported.
     This document defines various methods of use for the cipher.
     A Tag and an Interrogator can support one, a subset, or all of the specified options, clearly stating what is supported.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines the crypto suite for SIMON for the ISO/IEC 18000 air interfaces standards for radio frequency identification (RFID) devices. Its purpose is to provide a common crypto suite for security for RFID devices that can be referred by ISO committees for air interface standards and application standards. The crypto suite is defined in alignment with existing air interfaces.
     SIMON is a symmetric block cipher that is parameterized in both its block length and key length. In this standard, a variety of block/key length options are supported.
     This document defines various methods of use for the cipher.
     A Tag and an Interrogator can support one, a subset, or all of the specified options, clearly stating what is supported.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC29167-21-2018
     type: standard
-    docid:
-    - id: ISO/IEC 29167-21:2018
+    formattedref: ISO/IEC 29167-21:2018
+    docidentifier:
+    - content: ISO/IEC 29167-21:2018
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 29167-21:2018
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Automatic identification and data capture techniques
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 31
+      content: Automatic identification and data capture techniques
   ics:
   - code: 35.040.50
     text: Automatic identification and data capture techniques
   structuredidentifier:
-    project_number: '89591'
     type: ISO
+    project_number:
+      content: '89591'

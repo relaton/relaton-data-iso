@@ -1,111 +1,98 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC11770-5-2020
-title:
-- content: Information security
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Key management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 5: Group key management'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information security - Key management - Part 5: Group key management'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Sécurité de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Gestion de clés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 5: Gestion de clés de groupe'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Sécurité de l''information - Gestion de clés - Partie 5: Gestion de clés
-    de groupe'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/75295.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:75295:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/52/75295.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 11770-5:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information security
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Key management
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 5: Group key management'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information security - Key management - Part 5: Group key management'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sécurité de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de clés
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 5: Gestion de clés de groupe'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Sécurité de l''information - Gestion de clés - Partie 5: Gestion de clés
+    de groupe'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/75295.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:75295:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/52/75295.detail.rss
+docidentifier:
+- content: ISO/IEC 11770-5:2020
   type: ISO
   primary: true
-- id: ISO/IEC 11770-5:2020(E)
+- content: ISO/IEC 11770-5:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:11770:-5:stage-60.60
+- content: urn:iso:std:iso-iec:11770:-5:stage-published
   type: URN
 docnumber: '11770'
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2020-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies mechanisms to establish shared symmetric keys between groups of entities. It defines:
     —     symmetric key-based key establishment mechanisms for multiple entities with a key distribution centre (KDC); and
     —     symmetric key establishment mechanisms based on a general tree-based logical key structure with both individual rekeying and batch rekeying.
@@ -113,12 +100,9 @@ abstract:
     This document also describes the required content of messages which carry keying material or are necessary to set up the conditions under which the keying material can be established.
     This document does not specify information that has no relation with key establishment mechanisms, nor does it specify other messages such as error messages. The explicit format of messages is not within the scope of this document.
     This document does not specify the means to be used to establish the initial secret keys required to be shared between each entity and the KDC, nor key lifecycle management. This document also does not explicitly address the issue of interdomain key management.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies mechanisms to establish shared symmetric keys between groups of entities. It defines:
     —     symmetric key-based key establishment mechanisms for multiple entities with a key distribution centre (KDC); and
     —     symmetric key establishment mechanisms based on a general tree-based logical key structure with both individual rekeying and batch rekeying.
@@ -126,48 +110,43 @@ abstract:
     This document also describes the required content of messages which carry keying material or are necessary to set up the conditions under which the keying material can be established.
     This document does not specify information that has no relation with key establishment mechanisms, nor does it specify other messages such as error messages. The explicit format of messages is not within the scope of this document.
     This document does not specify the means to be used to establish the initial secret keys required to be shared between each entity and the KDC, nor key lifecycle management. This document also does not explicitly address the issue of interdomain key management.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC11770-5-2011
     type: standard
-    docid:
-    - id: ISO/IEC 11770-5:2011
+    formattedref: ISO/IEC 11770-5:2011
+    docidentifier:
+    - content: ISO/IEC 11770-5:2011
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 11770-5:2011
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '75295'
     type: ISO
+    project_number:
+      content: '75295'

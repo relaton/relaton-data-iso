@@ -1,157 +1,136 @@
 ---
-schema-version: v1.2.9
 id: ISO15189-2022
-title:
-- content: Medical laboratories
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Requirements for quality and competence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Medical laboratories - Requirements for quality and competence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Laboratoires médicaux
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Exigences concernant la qualité et la compétence
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Laboratoires médicaux - Exigences concernant la qualité et la compétence
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/76677.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:76677:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/66/76677.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 15189:2022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Medical laboratories
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Requirements for quality and competence
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Medical laboratories - Requirements for quality and competence
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Laboratoires médicaux
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences concernant la qualité et la compétence
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Laboratoires médicaux - Exigences concernant la qualité et la compétence
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/76677.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:76677:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/66/76677.detail.rss
+docidentifier:
+- content: ISO 15189:2022
   type: ISO
   primary: true
-- id: ISO 15189:2022(E)
+- content: ISO 15189:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:15189:stage-60.60
+- content: urn:iso:std:iso:15189:stage-published
   type: URN
 docnumber: '15189'
 date:
 - type: published
-  value: 2022-12
+  at: 2022-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '4'
-revdate: 2022-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies requirements for quality and competence in medical laboratories.
     This document is applicable to medical laboratories in developing their management systems and assessing their competence. It is also applicable for confirming or recognizing the competence of medical laboratories by laboratory users, regulatory authorities and accreditation bodies.
     This document is also applicable to point-of-care testing (POCT).
     NOTE            International, national, or regional regulations or requirements can also apply to specific topics covered in this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie les exigences concernant la qualité et la compétence des laboratoires médicaux (laboratoires de biologie médicale et autres laboratoires médicaux comme les structures d’anatomie et de cytologie pathologiques).
     Le présent document est également applicable aux laboratoires médicaux dans le cadre de l’élaboration de leur système de management et de l’évaluation de leur compétence. Il est également applicable par les utilisateurs des laboratoires, les autorités réglementaires et les organismes d’accréditation pour confirmer ou reconnaître la compétence des laboratoires médicaux.
     Le présent document est applicable aux examens de biologie médicale délocalisée (EBMD).
     NOTE          Des réglementations ou exigences internationales, nationales ou régionales peuvent également s’appliquer à des sujets spécifiques traités dans le présent document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO15189-2012
     type: standard
-    docid:
-    - id: ISO 15189:2012
+    formattedref: ISO 15189:2012
+    docidentifier:
+    - content: ISO 15189:2012
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 15189:2012
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO22870-2016
     type: standard
-    docid:
-    - id: ISO 22870:2016
+    formattedref: ISO 22870:2016
+    docidentifier:
+    - content: ISO 22870:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 22870:2016
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Medical laboratories and in vitro diagnostic systems
-      number: 212
+    - number: 212
       type: TC
       identifier: ISO/TC 212
+      content: Medical laboratories and in vitro diagnostic systems
   ics:
   - code: 03.120.10
     text: Quality management and quality assurance
   - code: 11.100.01
     text: Laboratory medicine in general
   structuredidentifier:
-    project_number: '76677'
     type: ISO
+    project_number:
+      content: '76677'

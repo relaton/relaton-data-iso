@@ -1,100 +1,86 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEEEFDIS11073-10425
+type: standard
+schema_version: v1.4.1
 title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics
   type: title-intro
-- content: Device interoperability
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Device interoperability
   type: title-main
-- content: 'Part 10425: Personal health device communication — Device specialization
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 10425: Personal health device communication — Device specialization
     — Continuous Glucose Monitor (CGM)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: 'Health informatics - Device interoperability - Part 10425: Personal health
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Health informatics - Device interoperability - Part 10425: Personal health
     device communication — Device specialization — Continuous Glucose Monitor (CGM)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
   type: title-intro
-- content: Interopérabilité des dispositifs
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Interopérabilité des dispositifs
   type: title-main
-- content: 'Partie 10425: Communication entre dispositifs de santé personnels — Spécialisation
-    des dispositifs — Glucomètre continu (CGM)'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 10425: Communication entre dispositifs de santé personnels — Spécialisation
+    des dispositifs — Glucomètre continu (CGM)'
   type: title-part
-- content: 'Informatique de santé - Interopérabilité des dispositifs - Partie 10425:
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Informatique de santé - Interopérabilité des dispositifs - Partie 10425:
     Communication entre dispositifs de santé personnels — Spécialisation des dispositifs
     — Glucomètre continu (CGM)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/88164.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/81/88164.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEEE FDIS 11073-10425
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88164.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/81/88164.detail.rss
+docidentifier:
+- content: ISO/IEEE FDIS 11073-10425
   type: ISO
   primary: true
-- id: ISO/IEEE FDIS 11073-10425(E)
+- content: ISO/IEEE FDIS 11073-10425(E)
   type: iso-reference
-- id: urn:iso:std:iso-ieee:11073:-10425:stage-draft
+- content: urn:iso:std:iso-ieee:11073:-10425:stage-draft
   type: URN
 docnumber: '11073'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.ieee.org
     name:
     - content: Institute of Electrical and Electronics Engineers
     abbreviation:
       content: IEEE
-    url: www.ieee.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -103,7 +89,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard establishes a normative definition of communication between
+- language: en
+  script: Latn
+  content: This standard establishes a normative definition of communication between
     personal health continuous glucose monitor (CGM) devices (agents) and managers
     (e.g., cell phones, personal computers, personal health appliances, set top boxes)
     in a manner that enables plug-and-play interoperability. It leverages work done
@@ -115,12 +103,9 @@ abstract:
     In this context, CGM refers to the measurement of the level of glucose in the
     body on a regular (typically 5 minute) basis through a sensor continuously attached
     to the person.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: La présente norme établit une définition normative de la communication
+- language: fr
+  script: Latn
+  content: La présente norme établit une définition normative de la communication
     entre des dispositifs de santé personnels (agents) du type glucomètre continu
     (CGM) et des gestionnaires (par exemple, téléphones cellulaires, ordinateurs personnels,
     équipements de santé personnels et boîtiers décodeurs) d'une manière qui permet
@@ -133,49 +118,44 @@ abstract:
     de fonctionnalités de communication pour les dispositifs CGM. Dans ce contexte,
     CGM désigne la mesure régulière du niveau de glucose dans l'organisme (généralement
     toutes les 5 minutes) par le biais d'une sonde fixée en permanence sur la personne.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEEE
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEEE
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEEE11073-10425-2019
     type: standard
-    docid:
-    - id: ISO/IEEE 11073-10425:2019
+    formattedref: ISO/IEEE 11073-10425:2019
+    docidentifier:
+    - content: ISO/IEEE 11073-10425:2019
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEEE 11073-10425:2019
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Health informatics
-    number: 215
-    type: TC
-    identifier: ISO/TC 215
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
-structuredidentifier:
-  project_number: ISO 11073
-  part: '10425'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 215
+      type: TC
+      identifier: ISO/TC 215
+      content: Health informatics
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 10425
+      content: ISO 11073

@@ -1,158 +1,136 @@
 ---
-schema-version: v1.2.9
 id: ISO15765-1-2011
+type: standard
+schema_version: v1.4.1
 title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles
   type: title-intro
-- content: Diagnostic communication over Controller Area Network (DoCAN)
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Diagnostic communication over Controller Area Network (DoCAN)
   type: title-main
-- content: 'Part 1: General information and use case definition'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: General information and use case definition'
   type: title-part
-- content: 'Road vehicles - Diagnostic communication over Controller Area Network
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Road vehicles - Diagnostic communication over Controller Area Network
     (DoCAN) - Part 1: General information and use case definition'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
   type: title-intro
-- content: Communication de diagnostic sur gestionnaire de réseau de communication
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Communication de diagnostic sur gestionnaire de réseau de communication
     (DoCAN)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Partie 1: Informations générales et définition de cas d''usage'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Informations générales et définition de cas d''usage'
   type: title-part
-- content: 'Véhicules routiers - Communication de diagnostic sur gestionnaire de réseau
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Véhicules routiers - Communication de diagnostic sur gestionnaire de réseau
     de communication (DoCAN) - Partie 1: Informations générales et définition de cas
     d''usage'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/54498.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/05/44/54498.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 15765-1:2011
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/54498.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/44/54498.detail.rss
+docidentifier:
+- content: ISO 15765-1:2011
   type: ISO
   primary: true
-- id: ISO 15765-1:2011(E)
+- content: ISO 15765-1:2011(E)
   type: iso-reference
-- id: urn:iso:std:iso:15765:-1:stage-95.99
+- content: urn:iso:std:iso:15765:-1:stage-95.99
   type: URN
 docnumber: '15765'
 date:
 - type: published
-  value: 2011-10
+  at: 2011-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2011-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 15765-1:2011 gives an overview of the structure and the partitioning of ISO 15765, and shows the relationships between the different parts. It also defines the diagnostic network architecture. The terminology defined in this part is common for all diagnostic networks and is used throughout all parts of ISO 15765.
     The diagnostic communication over controller area network (DoCAN) protocol supports the standardized service primitive interface as specified in ISO 14229‑2.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 15765-1:2011 gives an overview of the structure and the partitioning of ISO 15765, and shows the relationships between the different parts. It also defines the diagnostic network architecture. The terminology defined in this part is common for all diagnostic networks and is used throughout all parts of ISO 15765.
     The diagnostic communication over controller area network (DoCAN) protocol supports the standardized service primitive interface as specified in ISO 14229‑2.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO15765-1-2004
     type: standard
-    docid:
-    - id: ISO 15765-1:2004
+    formattedref: ISO 15765-1:2004
+    docidentifier:
+    - content: ISO 15765-1:2004
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 15765-1:2004
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Data communication
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 31
+      content: Data communication
   ics:
   - code: '43.180'
     text: Diagnostic, maintenance and test equipment
   - code: 43.040.15
     text: Car informatics. On board computer systems
   structuredidentifier:
-    project_number: '54498'
     type: ISO
+    project_number:
+      content: '54498'

@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
 id: ISO22078-2020
+type: standard
+schema_version: v1.4.1
 title:
-- content: Intelligent transport systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems
   type: title-intro
-- content: Bicyclist detection and collision mitigation systems (BDCMS)
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Bicyclist detection and collision mitigation systems (BDCMS)
   type: title-main
-- content: Performance requirements and test procedures
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Performance requirements and test procedures
   type: title-part
-- content: Intelligent transport systems - Bicyclist detection and collision mitigation
+  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems - Bicyclist detection and collision mitigation
     systems (BDCMS) - Performance requirements and test procedures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Systèmes de transport intelligents
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transport intelligents
   type: title-intro
-- content: Systèmes de détection des cyclistes et d’atténuation des collisions (BDCMS)
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de détection des cyclistes et d’atténuation des collisions (BDCMS)
   type: title-main
-- content: Exigences de performance et procédures d'essai
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences de performance et procédures d'essai
   type: title-part
-- content: Systèmes de transport intelligents - Systèmes de détection des cyclistes
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transport intelligents - Systèmes de détection des cyclistes
     et d’atténuation des collisions (BDCMS) - Exigences de performance et procédures
     d'essai
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/72508.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:72508:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/25/72508.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 22078:2020
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/72508.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:72508:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/25/72508.detail.rss
+docidentifier:
+- content: ISO 22078:2020
   type: ISO
   primary: true
-- id: ISO 22078:2020(E)
+- content: ISO 22078:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:22078:stage-90.20
+- content: urn:iso:std:iso:22078:stage-90.20
   type: URN
 docnumber: '22078'
 date:
 - type: published
-  value: 2020-02
+  at: 2020-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the concept of operation, minimum functionality, system requirements, system interfaces, and test procedures for bicyclist detection and collision mitigation systems (BDCMS). It also defines the system test criteria necessary to verify that a given implementation meets the requirements of this document. Implementation choices are left to system designers, wherever possible.
     BDCMS are fundamentally intended to provide emergency braking (EB) of equipped vehicles in order to mitigate collision severity between the subject vehicle (SV) and a bicyclist. BDCMS detect bicyclists forward of the SV, determine if the detected bicyclists are in a hazardous situation with respect to the SV, and initiate EB if a hazardous situation exists and a collision is imminent. Systems that include other countermeasures such as evasive steering are outside the scope of this document.
     This document defines two types of BDCMS (based on operation in different ambient illuminance) and two classes of BDCMS (based on operation on different vehicle size classes), as depicted in Table 1. This document does not apply to motorcycles. The operational design domain is public roads. BDCMS is not intended for off-road use.
@@ -107,12 +93,9 @@ abstract:
     Licensable motor vehicles intended for use on public roads (i.e. motorcycles, cars, light trucks, buses, motor coaches), and other heavy vehicles as hazards are outside the scope of this document and are covered under ISO 22839.
     Pedestrians are outside the scope of this document and are covered under ISO 19237.
     Annex A contains informative information relative to BDCMS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies the concept of operation, minimum functionality, system requirements, system interfaces, and test procedures for bicyclist detection and collision mitigation systems (BDCMS). It also defines the system test criteria necessary to verify that a given implementation meets the requirements of this document. Implementation choices are left to system designers, wherever possible.
     BDCMS are fundamentally intended to provide emergency braking (EB) of equipped vehicles in order to mitigate collision severity between the subject vehicle (SV) and a bicyclist. BDCMS detect bicyclists forward of the SV, determine if the detected bicyclists are in a hazardous situation with respect to the SV, and initiate EB if a hazardous situation exists and a collision is imminent. Systems that include other countermeasures such as evasive steering are outside the scope of this document.
     This document defines two types of BDCMS (based on operation in different ambient illuminance) and two classes of BDCMS (based on operation on different vehicle size classes), as depicted in Table 1. This document does not apply to motorcycles. The operational design domain is public roads. BDCMS is not intended for off-road use.
@@ -120,38 +103,36 @@ abstract:
     Licensable motor vehicles intended for use on public roads (i.e. motorcycles, cars, light trucks, buses, motor coaches), and other heavy vehicles as hazards are outside the scope of this document and are covered under ISO 22839.
     Pedestrians are outside the scope of this document and are covered under ISO 19237.
     Annex A contains informative information relative to BDCMS.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 35.240.60
     text: IT applications in transport
   - code: 43.040.80
     text: Crash protection and restraint systems
   structuredidentifier:
-    project_number: '72508'
     type: ISO
+    project_number:
+      content: '72508'

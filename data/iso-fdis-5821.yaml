@@ -1,88 +1,73 @@
 ---
-schema-version: v1.2.9
 id: ISO/FDIS5821
-title:
-- content: Resistance welding
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Spot welding electrodes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Female electrode caps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Resistance welding - Spot welding electrodes - Female electrode caps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Soudage par résistance
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Électrodes pour soudage par points
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Embouts amovibles femelles d'électrodes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Soudage par résistance - Électrodes pour soudage par points - Embouts amovibles
-    femelles d'électrodes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86485.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/64/86485.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/FDIS 5821
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Resistance welding
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Spot welding electrodes
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Female electrode caps
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Resistance welding - Spot welding electrodes - Female electrode caps
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Soudage par résistance
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Électrodes pour soudage par points
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Embouts amovibles femelles d'électrodes
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Soudage par résistance - Électrodes pour soudage par points - Embouts amovibles
+    femelles d'électrodes
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86485.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/64/86485.detail.rss
+docidentifier:
+- content: ISO/FDIS 5821
   type: ISO
   primary: true
-- id: ISO/FDIS 5821(E)
+- content: ISO/FDIS 5821(E)
   type: iso-reference
-- id: urn:iso:std:iso:5821:stage-draft
+- content: urn:iso:std:iso:5821:stage-draft
   type: URN
 docnumber: '5821'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -91,59 +76,53 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 5821:2009 specifies the dimensions and tolerances of resistance spot welding electrode caps, where a female taper is used to fix the cap to an electrode adaptor.
     ISO 5821:2009 applies only to electrode caps for which the electrode force given for diameters 13 mm, 16mm and 20 mm (taper 1:10) and for diameters 12,7 mm, 15,8 mm and 19,1 mm (taper 1:9,6) is not exceeded.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 5821:2009 spécifie les dimensions et les tolérances des embouts amovibles de pointes d'électrodes pour le soudage par résistance par points, lorsqu'un cône femelle est utilisé pour fixer la pointe d'électrode à un embout amovible.
     L'ISO 5821:2009 ne s'applique qu'aux embouts de pointes d'électrodes pour lesquels la force d'électrode donnée pour les diamètres 13 mm, 16 mm et 20 mm (cône 1:10) ainsi que pour les diamètres 12,7 mm, 15,8 mm et 19,1 mm (cône 1:9,6) n'excède pas les valeurs consignées.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/FDIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO5821-2009
     type: standard
-    docid:
-    - id: ISO 5821:2009
+    formattedref: ISO 5821:2009
+    docidentifier:
+    - content: ISO 5821:2009
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 5821:2009
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Resistance welding and allied mechanical joining
-      number: 44
+    - number: 44
       type: TC
       identifier: ISO/TC 44/SC 6
+      content: Resistance welding and allied mechanical joining
   ics:
   - code: 25.160.30
     text: Welding equipment
   structuredidentifier:
-    project_number: '86485'
     type: ISO
+    project_number:
+      content: '86485'

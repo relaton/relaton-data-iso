@@ -1,161 +1,139 @@
 ---
-schema-version: v1.2.9
 id: ISO20302-2022
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Health cards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Numbering system and registration procedure for issuer identifiers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Health informatics - Health cards - Numbering system and registration procedure
-    for issuer identifiers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cartes de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Système de numérotation et mode opératoire d'enregistrement pour les identificateurs
-    d'émetteur
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Informatique de santé - Cartes de santé - Système de numérotation et mode
-    opératoire d'enregistrement pour les identificateurs d'émetteur
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/79931.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:79931:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/99/79931.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 20302:2022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health cards
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Numbering system and registration procedure for issuer identifiers
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Health cards - Numbering system and registration procedure
+    for issuer identifiers
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cartes de santé
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Système de numérotation et mode opératoire d'enregistrement pour les identificateurs
+    d'émetteur
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Cartes de santé - Système de numérotation et mode
+    opératoire d'enregistrement pour les identificateurs d'émetteur
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/79931.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:79931:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/99/79931.detail.rss
+docidentifier:
+- content: ISO 20302:2022
   type: ISO
   primary: true
-- id: ISO 20302:2022(E)
+- content: ISO 20302:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:20302:stage-60.60
+- content: urn:iso:std:iso:20302:stage-published
   type: URN
 docnumber: '20302'
 date:
 - type: published
-  value: 2022-01
+  at: 2022-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2022-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a numbering system and registration procedure for identifying both healthcare application providers and health card holders in order to exchange information through the use of cards issued for healthcare services.
     This document focuses on the machine-readable cards of ID-1 type defined in ISO/IEC 7810 that are issued for healthcare services provided in a service area that crosses the national borders of two or more countries/areas.
     This document applies to healthcare data cards where the issuer and the application provider are the same party.
     This document applies directly, or refers, to existing International Standards for physical characteristics and recording techniques. Security issues follow the requirements of each healthcare data card system.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies a numbering system and registration procedure for identifying both healthcare application providers and health card holders in order to exchange information through the use of cards issued for healthcare services.
     This document focuses on the machine-readable cards of ID-1 type defined in ISO/IEC 7810 that are issued for healthcare services provided in a service area that crosses the national borders of two or more countries/areas.
     This document applies to healthcare data cards where the issuer and the application provider are the same party.
     This document applies directly, or refers, to existing International Standards for physical characteristics and recording techniques. Security issues follow the requirements of each healthcare data card system.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO20302-2014
     type: standard
-    docid:
-    - id: ISO 20302:2014
+    formattedref: ISO 20302:2014
+    docidentifier:
+    - content: ISO 20302:2014
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 20302:2014
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '79931'
     type: ISO
+    project_number:
+      content: '79931'

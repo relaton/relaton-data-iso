@@ -1,100 +1,87 @@
 ---
-schema-version: v1.2.9
 id: ISO25177-2019
-title:
-- content: Soil quality
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Field soil description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Soil quality - Field soil description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Qualité du sol
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Description du sol sur le terrain
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Qualité du sol - Description du sol sur le terrain
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/69585.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:69585:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/95/69585.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 25177:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Soil quality
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Field soil description
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Soil quality - Field soil description
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité du sol
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Description du sol sur le terrain
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité du sol - Description du sol sur le terrain
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/69585.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:69585:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/95/69585.detail.rss
+docidentifier:
+- content: ISO 25177:2019
   type: ISO
   primary: true
-- id: ISO 25177:2019(E)
+- content: ISO 25177:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:25177:stage-90.60
+- content: urn:iso:std:iso:25177:stage-90.60
   type: URN
 docnumber: '25177'
 date:
 - type: published
-  value: 2019-09
+  at: 2019-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2019-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides guidance on the description of soil in the field and its environmental context. It is applicable to natural, near-natural, urban and industrial sites. The soil observations and measurements can be made on a project site level, on a plot level, on layer or horizon level and on specific soil constituents.
     It also provides guidance on how to describe layers of anthropogenic (artificial) material or layers that were not modified by pedogenic processes in the strict sense and how to describe coarse material of natural or artificial origin.
     This document can be used in combination with other publications that provide guidance or requirements regarding specific aspects of soil observations and measurements.
     NOTE 1    It might not be possible or necessary to record data under all the headings listed in Clauses 4 to 11.
     NOTE 2    Overall guidance for presentation of information from soil surveys is given in ISO 15903.
     NOTE 3    The guidance provided assumes that sampling will be done in accordance with ISO 18400.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "Le présent document fournit des recommandations sur la description du
+- language: fr
+  script: Latn
+  content: "Le présent document fournit des recommandations sur la description du
     sol sur le terrain et de son contexte environnemental. Il est applicable aux sites
     naturels, quasi-naturels, urbains et industriels. Les observations et les mesurages
     du sol peuvent être effectués sur un site de projet, sur une parcelle, sur une
@@ -110,48 +97,43 @@ abstract:
     recommandations générales pour la présentation des informations issues des études
     de sol.\nNOTE 3    Les recommandations fournies partent du principe que l'échantillonnage
     sera effectué conformément à l'ISO 18400. "
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO25177-2008
     type: standard
-    docid:
-    - id: ISO 25177:2008
+    formattedref: ISO 25177:2008
+    docidentifier:
+    - content: ISO 25177:2008
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 25177:2008
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Soil quality
-      number: 190
+    - number: 190
       type: TC
       identifier: ISO/TC 190
+      content: Soil quality
   ics:
   - code: 13.080.01
     text: Soil quality and pedology in general
   structuredidentifier:
-    project_number: '69585'
     type: ISO
+    project_number:
+      content: '69585'

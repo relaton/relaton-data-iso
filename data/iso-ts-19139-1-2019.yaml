@@ -1,156 +1,134 @@
 ---
-schema-version: v1.2.9
 id: ISO/TS19139-1-2019
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: XML schema implementation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Encoding rules'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Geographic information - XML schema implementation - Part 1: Encoding
-    rules'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Implémentation de schémas XML
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Règles de codage'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information géographique - Implémentation de schémas XML - Partie 1: Règles
-    de codage'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/67253.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:67253:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/72/67253.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TS 19139-1:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: XML schema implementation
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Encoding rules'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Geographic information - XML schema implementation - Part 1: Encoding
+    rules'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Implémentation de schémas XML
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Règles de codage'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Information géographique - Implémentation de schémas XML - Partie 1: Règles
+    de codage'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/67253.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:67253:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/72/67253.detail.rss
+docidentifier:
+- content: ISO/TS 19139-1:2019
   type: ISO
   primary: true
-- id: ISO/TS 19139-1:2019(E)
+- content: ISO/TS 19139-1:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:19139:-1:stage-90.93
+- content: urn:iso:std:iso:ts:19139:-1:stage-90.93
   type: URN
 docnumber: '19139'
 date:
 - type: published
-  value: 2019-03
+  at: 2019-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines XML based encoding rules for conceptual schemas specifying types that describe geographic resources. The encoding rules support the UML profile as used in the UML models commonly used in the standards developed by ISO/TC 211. The encoding rules use XML schema for the output data structure schema.
     The encoding rules described in this document are not applicable for encoding UML application schema for geographic features (see ISO 19136 for those rules).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines XML based encoding rules for conceptual schemas specifying types that describe geographic resources. The encoding rules support the UML profile as used in the UML models commonly used in the standards developed by ISO/TC 211. The encoding rules use XML schema for the output data structure schema.
     The encoding rules described in this document are not applicable for encoding UML application schema for geographic features (see ISO 19136 for those rules).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TS
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS19139-2007
     type: standard
-    docid:
-    - id: ISO/TS 19139:2007
+    formattedref: ISO/TS 19139:2007
+    docidentifier:
+    - content: ISO/TS 19139:2007
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 19139:2007
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '67253'
     type: ISO
+    project_number:
+      content: '67253'

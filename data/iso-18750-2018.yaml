@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO18750-2018
-title:
-- content: Intelligent transport systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Co-operative ITS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Local dynamic map
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Intelligent transport systems - Co-operative ITS - Local dynamic map
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Système de transports intelligents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Systèmes coopératifs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Carte locale dynamique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Système de transports intelligents - Systèmes coopératifs - Carte locale
-    dynamique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/69433.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:69433:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/94/69433.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 18750:2018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Intelligent transport systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Co-operative ITS
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Local dynamic map
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems - Co-operative ITS - Local dynamic map
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Système de transports intelligents
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes coopératifs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Carte locale dynamique
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Système de transports intelligents - Systèmes coopératifs - Carte locale
+    dynamique
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/69433.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:69433:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/94/69433.detail.rss
+docidentifier:
+- content: ISO 18750:2018
   type: ISO
   primary: true
-- id: ISO 18750:2018(E)
+- content: ISO 18750:2018(E)
   type: iso-reference
-- id: urn:iso:std:iso:18750:stage-90.92
+- content: urn:iso:std:iso:18750:stage-90.92
   type: URN
 docnumber: '18750'
 date:
 - type: published
-  value: 2018-05
+  at: 2018-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2018-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document:
     —    describes the functionality of a "Local Dynamic Map" (LDM) in the context of the "Bounded Secured Managed Domain" (BSMD);
     —    specifies:
@@ -112,12 +98,9 @@ abstract:
     —    procedures in an LDM considering:
     —    means to maintain the content and integrity of the data store;
     —    mechanisms supporting several LDMs in a single ITS station unit.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Ce document
     —    décrit la fonctionnalité d’une «Carte dynamique locale» (LDM) dans le contexte du «Domaine délimité géré de manière sécurisée» (BSMD).
     —    spécifie
@@ -132,64 +115,56 @@ abstract:
     —    les procédures d’une LDM tenant compte
     —    des modalités de maintien du contenu et de l’intégrité du magasin de données,
     —    les mécanismes soutenant plusieurs LDM dans une unité de station ITS unique.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS18750-2015
     type: standard
-    docid:
-    - id: ISO/TS 18750:2015
+    formattedref: ISO/TS 18750:2015
+    docidentifier:
+    - content: ISO/TS 18750:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 18750:2015
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO18750
     type: standard
-    docid:
-    - id: ISO 18750
+    formattedref: ISO 18750
+    docidentifier:
+    - content: ISO 18750
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2023-10-31'
-    formattedref:
-      content: ISO 18750
-      format: text/plain
+      at: '2023-10-31'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '69433'
     type: ISO
+    project_number:
+      content: '69433'

@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO/TS25237-2008
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Pseudonymization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - Pseudonymization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Pseudonymisation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Pseudonymisation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/42807.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/28/42807.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TS 25237:2008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Pseudonymization
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Pseudonymization
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Pseudonymisation
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Pseudonymisation
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/42807.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/28/42807.detail.rss
+docidentifier:
+- content: ISO/TS 25237:2008
   type: ISO
   primary: true
-- id: ISO/TS 25237:2008(E)
+- content: ISO/TS 25237:2008(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:25237:stage-95.99
+- content: urn:iso:std:iso:ts:25237:stage-95.99
   type: URN
 docnumber: '25237'
 date:
 - type: published
-  value: 2008-12
+  at: 2008-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2008-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/TS 25237:2008 contains principles and requirements for privacy protection using pseudonymization services for the protection of personal health information. ISO/TS 25237:2008 is applicable to organizations who make a claim of trustworthiness for operations engaged in pseudonymization services.
     ISO/TS 25237:2008:
     - defines one basic concept for pseudonymization;
@@ -90,12 +80,9 @@ abstract:
     - specifies a policy framework and minimal requirements for trustworthy practices for the operations of a pseudonymization service;
     - specifies a policy framework and minimal requirements for controlled re-identification;
     - specifies interfaces for the interoperability of services interfaces.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/TS 25237:2008 contains principles and requirements for privacy protection using pseudonymization services for the protection of personal health information. ISO/TS 25237:2008 is applicable to organizations who make a claim of trustworthiness for operations engaged in pseudonymization services.
     ISO/TS 25237:2008:
     - defines one basic concept for pseudonymization;
@@ -105,51 +92,46 @@ abstract:
     - specifies a policy framework and minimal requirements for trustworthy practices for the operations of a pseudonymization service;
     - specifies a policy framework and minimal requirements for controlled re-identification;
     - specifies interfaces for the interoperability of services interfaces.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TS
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TS
 relation:
 - type: updates
   bibitem:
-    id: ISO25237-2017
     type: standard
-    docid:
-    - id: ISO 25237:2017
+    formattedref: ISO 25237:2017
+    docidentifier:
+    - content: ISO 25237:2017
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2018-07-24'
-    formattedref:
-      content: ISO 25237:2017
-      format: text/plain
+      at: '2018-07-24'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '42807'
     type: ISO
+    project_number:
+      content: '42807'

@@ -1,107 +1,94 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC/IEEEDIS15026-1
-title:
-- content: Systems and software engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Systems and software assurance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Concepts and vocabulary'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Systems and software engineering - Systems and software assurance - Part
-    1: Concepts and vocabulary'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Ingénierie des systèmes et du logiciel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Assurance des systèmes et du logiciel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Concepts et vocabulaire'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Ingénierie des systèmes et du logiciel - Assurance des systèmes et du
-    logiciel - Partie 1: Concepts et vocabulaire'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/89808.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:89808:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/98/89808.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC/IEEE DIS 15026-1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Systems and software engineering
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Systems and software assurance
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Concepts and vocabulary'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Systems and software engineering - Systems and software assurance - Part
+    1: Concepts and vocabulary'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ingénierie des systèmes et du logiciel
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Assurance des systèmes et du logiciel
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Concepts et vocabulaire'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Ingénierie des systèmes et du logiciel - Assurance des systèmes et du
+    logiciel - Partie 1: Concepts et vocabulaire'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/89808.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:89808:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/98/89808.detail.rss
+docidentifier:
+- content: ISO/IEC/IEEE DIS 15026-1
   type: ISO
   primary: true
-- id: ISO/IEC/IEEE DIS 15026-1(E)
+- content: ISO/IEC/IEEE DIS 15026-1(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec-ieee:15026:-1:stage-draft
+- content: urn:iso:std:iso-iec-ieee:15026:-1:stage-draft
   type: URN
 docnumber: '15026'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.ieee.org
     name:
     - content: Institute of Electrical and Electronics Engineers
     abbreviation:
       content: IEEE
-    url: www.ieee.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -110,65 +97,59 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines assurance-related terms and establishes an organized set of concepts and relationships to form a basis for shared understanding across user communities for assurance. It provides information to users of the other parts of ISO/IEC/IEEE 15026 including the combined use of multiple parts. The essential concept introduced by ISO/IEC/IEEE 15026 (all parts) is the statement of claims in an assurance case and the support of those claims through argumentation and evidence. These claims are in the context of assurance for properties of systems and software within life cycle processes for the system or software product.
     Assurance for a service being operated and managed on an ongoing basis is not covered in ISO/IEC/IEEE 15026 (all parts).
     A variety of potential users of ISO/IEC/IEEE 15026 (all parts) exists including developers and maintainers of assurance cases and those who wish to develop, sustain, evaluate or acquire a system that possesses requirements for specific properties in such a way as to be more certain of those properties and their requirements. ISO/IEC/IEEE 15026 (all parts) uses concepts and terms consistent with ISO/IEC/IEEE 12207 and ISO/IEC/IEEE 15288 and generally consistent with the ISO/IEC 25000 series, but the potential users of ISO/IEC/IEEE 15026 (all parts) need to understand the differences from concepts and terms to which they may be accustomed. This document attempts to clarify these differences.
     The primary purpose of this document is to aid users of the other parts of ISO/IEC/IEEE 15026 by providing context, concepts and explanations for assurance, assurance cases and integrity levels. While essential to assurance practice, details regarding exactly how to measure, demonstrate or analyse particular properties are not covered. These are the subjects of more specialized standards of which a number are referenced and included in the Bibliography.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines assurance-related terms and establishes an organized set of concepts and relationships to form a basis for shared understanding across user communities for assurance. It provides information to users of the other parts of ISO/IEC/IEEE 15026 including the combined use of multiple parts. The essential concept introduced by ISO/IEC/IEEE 15026 (all parts) is the statement of claims in an assurance case and the support of those claims through argumentation and evidence. These claims are in the context of assurance for properties of systems and software within life cycle processes for the system or software product.
     Assurance for a service being operated and managed on an ongoing basis is not covered in ISO/IEC/IEEE 15026 (all parts).
     A variety of potential users of ISO/IEC/IEEE 15026 (all parts) exists including developers and maintainers of assurance cases and those who wish to develop, sustain, evaluate or acquire a system that possesses requirements for specific properties in such a way as to be more certain of those properties and their requirements. ISO/IEC/IEEE 15026 (all parts) uses concepts and terms consistent with ISO/IEC/IEEE 12207 and ISO/IEC/IEEE 15288 and generally consistent with the ISO/IEC 25000 series, but the potential users of ISO/IEC/IEEE 15026 (all parts) need to understand the differences from concepts and terms to which they may be accustomed. This document attempts to clarify these differences.
     The primary purpose of this document is to aid users of the other parts of ISO/IEC/IEEE 15026 by providing context, concepts and explanations for assurance, assurance cases and integrity levels. While essential to assurance practice, details regarding exactly how to measure, demonstrate or analyse particular properties are not covered. These are the subjects of more specialized standards of which a number are referenced and included in the Bibliography.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC/IEEE
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC/IEEE
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC/IEEE15026-1-2019
     type: standard
-    docid:
-    - id: ISO/IEC/IEEE 15026-1:2019
+    formattedref: ISO/IEC/IEEE 15026-1:2019
+    docidentifier:
+    - content: ISO/IEC/IEEE 15026-1:2019
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 15026-1:2019
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Software and systems engineering
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
   ics:
   - code: '35.080'
     text: Software
   - code: 01.040.35
     text: Information technology (Vocabularies)
   structuredidentifier:
-    project_number: '89808'
     type: ISO
+    project_number:
+      content: '89808'

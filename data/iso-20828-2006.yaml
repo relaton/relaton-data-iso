@@ -1,94 +1,81 @@
 ---
-schema-version: v1.2.9
 id: ISO20828-2006
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Security certificate management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Road vehicles - Security certificate management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Gestion des certificats de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Véhicules routiers - Gestion des certificats de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/41891.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/18/41891.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 20828:2006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security certificate management
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Security certificate management
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion des certificats de sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Gestion des certificats de sécurité
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/41891.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/18/41891.detail.rss
+docidentifier:
+- content: ISO 20828:2006
   type: ISO
   primary: true
-- id: ISO 20828:2006(E)
+- content: ISO 20828:2006(E)
   type: iso-reference
-- id: urn:iso:std:iso:20828:stage-95.99
+- content: urn:iso:std:iso:20828:stage-95.99
   type: URN
 docnumber: '20828'
 date:
 - type: published
-  value: 2006-07
+  at: 2006-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2006-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 20828:2006 establishes a uniform practice for the issuing and management of security certificates for use in Public Key Infrastructure applications. Assuming that all entities, intending to set up a secure data exchange to other entities based on private and public keys, are able to provide their own certificate, the certificate management scheme guarantees that the entities get all additional information needed to establish trust to other entities, from a single source in a simple and unified format. The certificate management is flexible with respect to the relations between Certification Authorities, not requesting any hierarchical structure. It does not prescribe centralized directories or the like, being accessible by all entities involved. With these properties the management scheme is optimised for applications in the automotive domain.
     ISO 20828:2006 details the role and responsibilities of the Certification Authority relating to certificate issuing and distribution. It specifies how to handle certificate validity and certificate policies. This is the prerequisite for each entity to make sure it can actually trust another entity when intending to exchange data of a specific kind with it.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "L'ISO 20828:2006 établit des pratiques uniformes pour la délivrance et
+- language: fr
+  script: Latn
+  content: "L'ISO 20828:2006 établit des pratiques uniformes pour la délivrance et
     la gestion de certificats de sécurité destinés à être utilisés dans des applications
     d'infrastructure à clé publique. En supposant que toutes les entités, ayant l'intention
     de réaliser un échange de données sécurisé avec d'autres entités sur la base de
@@ -107,36 +94,34 @@ abstract:
     politiques de certificats. Chaque entité doit au préalable s'assurer qu'elle peut
     réellement faire confiance à une autre entité au moment où elle envisage d'échanger
     des données d'un certain type avec cette dernière."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Data communication
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 31
+      content: Data communication
   ics:
   - code: '43.020'
     text: Road vehicles in general
   structuredidentifier:
-    project_number: '41891'
     type: ISO
+    project_number:
+      content: '41891'

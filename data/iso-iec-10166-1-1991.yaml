@@ -1,114 +1,101 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC10166-1-1991
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Text and office systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Document Filing and Retrieval (DFR) -- Part 1: Abstract service definition
-    and procedures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Text and office systems - Document Filing and
-    Retrieval (DFR) -- Part 1: Abstract service definition and procedures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Bureautique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Classement et récupération de documents -- Partie 1: Procédures et définition
-    de service abstrait'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Bureautique - Classement et récupération
-    de documents -- Partie 1: Procédures et définition de service abstrait'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/18177.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:18177:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/81/18177.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 10166-1:1991
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Text and office systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Document Filing and Retrieval (DFR) -- Part 1: Abstract service definition
+    and procedures'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Text and office systems - Document Filing and
+    Retrieval (DFR) -- Part 1: Abstract service definition and procedures'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Bureautique
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Classement et récupération de documents -- Partie 1: Procédures et définition
+    de service abstrait'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Bureautique - Classement et récupération
+    de documents -- Partie 1: Procédures et définition de service abstrait'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/18177.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:18177:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/81/18177.detail.rss
+docidentifier:
+- content: ISO/IEC 10166-1:1991
   type: ISO
   primary: true
-- id: ISO/IEC 10166-1:1991(E)
+- content: ISO/IEC 10166-1:1991(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:10166:-1:stage-90.93
+- content: urn:iso:std:iso-iec:10166:-1:stage-90.93
   type: URN
 docnumber: '10166'
 date:
 - type: published
-  value: 1991-12
+  at: 1991-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1991-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This part of ISO/IEC 10166 specifies the Document Filing and Retrieval Abstract Service that enables a user to communicate with a remote Document Filing and Retrieval server (DFR-Server) in Order to access a remote document store.
     This part of ISO/IEC 10166 - specifies a client-server type model in accordance with the Distributed-Office-Application Model [ISO/IEC 10031-11;
     - specifies functions and Services provided by Document Filing and Retrieval servers;
@@ -127,12 +114,9 @@ abstract:
     - supports searching for, ordering, retrieval, and deletion of Single documents or groups of
     - supports management of different Versions of a document, including such concepts as “previous Version”, ” next Version” and “last Version”; - supports protection against unauthorized storage and retrieval of documents;
     - supports the control of concurrent access to DFR objects.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente partie de l'ISO/CEI 10166 définit le service abstrait de classement et de récupération de documents qui permet à un utilisateur de communiquer avec un serveur de classement et de récupération de documents (serveur DFR) afin d'accéder à une unité distante de stockage de documents. La présente partie de l'ISO/CEI 10166 spécifie
     - un modèle du type client-serveur selon le modèle d'application de bureau distribuée [ISO/CEI 10031-1] ;
     - les fonctions et les services fournis par les serveurs DFR ;
@@ -148,121 +132,101 @@ abstract:
     - prise en charge du classement et de l'établissement des références des documents en dehors de l'unité de stockage (par exemple, documents sur papier) ;
     - prise en charge de l'affectation d'attributs à des documents, des groupes, des références et de listes de résultats de recherche, indépendamment du contenu ;
     - prise en charge du stockage, de la récupération et de la suppression de documents dans une unité de stockage, quel que soit leur contenu ;
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC10166-1-1991/Cor1-1994
     type: standard
-    docid:
-    - id: ISO/IEC 10166-1:1991/Cor 1:1994
+    formattedref: ISO/IEC 10166-1:1991/Cor 1:1994
+    docidentifier:
+    - content: ISO/IEC 10166-1:1991/Cor 1:1994
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2001-08-13'
-    formattedref:
-      content: ISO/IEC 10166-1:1991/Cor 1:1994
-      format: text/plain
+      at: '2001-08-13'
 - type: updates
   bibitem:
-    id: ISO/IEC10166-1-1991/Cor2-1994
     type: standard
-    docid:
-    - id: ISO/IEC 10166-1:1991/Cor 2:1994
+    formattedref: ISO/IEC 10166-1:1991/Cor 2:1994
+    docidentifier:
+    - content: ISO/IEC 10166-1:1991/Cor 2:1994
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2001-08-13'
-    formattedref:
-      content: ISO/IEC 10166-1:1991/Cor 2:1994
-      format: text/plain
+      at: '2001-08-13'
 - type: updates
   bibitem:
-    id: ISO/IEC10166-1-1991/Cor3-1994
     type: standard
-    docid:
-    - id: ISO/IEC 10166-1:1991/Cor 3:1994
+    formattedref: ISO/IEC 10166-1:1991/Cor 3:1994
+    docidentifier:
+    - content: ISO/IEC 10166-1:1991/Cor 3:1994
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2001-08-13'
-    formattedref:
-      content: ISO/IEC 10166-1:1991/Cor 3:1994
-      format: text/plain
+      at: '2001-08-13'
 - type: updates
   bibitem:
-    id: ISO/IEC10166-1-1991/Cor4-1998
     type: standard
-    docid:
-    - id: ISO/IEC 10166-1:1991/Cor 4:1998
+    formattedref: ISO/IEC 10166-1:1991/Cor 4:1998
+    docidentifier:
+    - content: ISO/IEC 10166-1:1991/Cor 4:1998
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2001-08-13'
-    formattedref:
-      content: ISO/IEC 10166-1:1991/Cor 4:1998
-      format: text/plain
+      at: '2001-08-13'
 - type: updates
   bibitem:
-    id: ISO/IEC10166-1-1991/Amd1-1995
     type: standard
-    docid:
-    - id: ISO/IEC 10166-1:1991/Amd 1:1995
+    formattedref: ISO/IEC 10166-1:1991/Amd 1:1995
+    docidentifier:
+    - content: ISO/IEC 10166-1:1991/Amd 1:1995
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2001-08-13'
-    formattedref:
-      content: ISO/IEC 10166-1:1991/Amd 1:1995
-      format: text/plain
+      at: '2001-08-13'
 - type: updates
   bibitem:
-    id: ISO/IEC10166-1-1991/Amd2-1996
     type: standard
-    docid:
-    - id: ISO/IEC 10166-1:1991/Amd 2:1996
+    formattedref: ISO/IEC 10166-1:1991/Amd 2:1996
+    docidentifier:
+    - content: ISO/IEC 10166-1:1991/Amd 2:1996
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2001-08-13'
-    formattedref:
-      content: ISO/IEC 10166-1:1991/Amd 2:1996
-      format: text/plain
+      at: '2001-08-13'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 35.240.20
     text: IT applications in office work
   structuredidentifier:
-    project_number: '18177'
     type: ISO
+    project_number:
+      content: '18177'

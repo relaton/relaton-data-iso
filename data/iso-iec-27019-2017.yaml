@@ -1,113 +1,100 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC27019-2017
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Security techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information security controls for the energy utility industry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Security techniques - Information security controls
-    for the energy utility industry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Techniques de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Mesures de sécurité de l'information pour l'industrie des opérateurs de
-    l'énergie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Techniques de sécurité - Mesures de sécurité
-    de l'information pour l'industrie des opérateurs de l'énergie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/68091.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/06/80/68091.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 27019:2017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information security controls for the energy utility industry
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Security techniques - Information security controls
+    for the energy utility industry
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques de sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mesures de sécurité de l'information pour l'industrie des opérateurs de
+    l'énergie
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Techniques de sécurité - Mesures de sécurité
+    de l'information pour l'industrie des opérateurs de l'énergie
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/68091.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/80/68091.detail.rss
+docidentifier:
+- content: ISO/IEC 27019:2017
   type: ISO
   primary: true
-- id: ISO/IEC 27019:2017(E)
+- content: ISO/IEC 27019:2017(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:27019:stage-95.99
+- content: urn:iso:std:iso-iec:27019:stage-95.99
   type: URN
 docnumber: '27019'
 date:
 - type: published
-  value: 2017-10
+  at: 2017-10
 - type: corrected
-  value: 2019-08
+  at: 2019-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2017-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 27019:2017 provides guidance based on ISO/IEC 27002:2013 applied to process control systems used by the energy utility industry for controlling and monitoring the production or generation, transmission, storage and distribution of electric power, gas, oil and heat, and for the control of associated supporting processes. This includes in particular the following:
     -      central and distributed process control, monitoring and automation technology as well as information systems used for their operation, such as programming and parameterization devices;
     -      digital controllers and automation components such as control and field devices or Programmable Logic Controllers (PLCs), including digital sensor and actuator elements;
@@ -123,12 +110,9 @@ abstract:
     -      remote maintenance systems for above-mentioned systems.
     ISO/IEC 27019:2017 does not apply to the process control domain of nuclear facilities. This domain is covered by IEC 62645.
     ISO/IEC 27019:2017 also includes a requirement to adapt the risk assessment and treatment processes described in ISO/IEC 27001:2013 to the energy utility industry-sector?specific guidance provided in this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document contient des recommandations basées sur l'ISO/IEC 27002:2013 appliquées aux systèmes de contrôle des processus utilisés par l'industrie des opérateurs de l'énergie pour contrôler et surveiller la production, le transport, le stockage et la distribution de l'électricité, du gaz, du pétrole et de la chaleur, ainsi que pour le contrôle des processus support associés. Cela inclut en particulier:
     —          les technologies de contrôle et de surveillance des processus centralisées et distribuées, des automates et des systèmes d'information utilisés pour leur fonctionnement, tels que les dispositifs de programmation et de paramétrage;
     —          les contrôleurs numériques et les composants d'automates tels que les équipements de contrôle et de terrain ou les automates programmables (PLC), y compris les capteurs et actionneurs numériques;
@@ -144,62 +128,54 @@ abstract:
     —          les systèmes de maintenance à distance pour les systèmes mentionnés ci-dessus.
     Le présent document ne s'applique pas au domaine du contrôle de processus des installations nucléaires. Ce domaine est couvert par l'IEC 62645.
     Le présent document contient également une exigence relative à l'adaptation de l'appréciation des risques et des processus de traitement décrits dans l'ISO/IEC 27001:2013 aux recommandations spécifiques à l'industrie des opérateurs de l'énergie fournies dans le présent document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IECTR27019-2013
     type: standard
-    docid:
-    - id: ISO/IEC TR 27019:2013
+    formattedref: ISO/IEC TR 27019:2013
+    docidentifier:
+    - content: ISO/IEC TR 27019:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC TR 27019:2013
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC27019-2024
     type: standard
-    docid:
-    - id: ISO/IEC 27019:2024
+    formattedref: ISO/IEC 27019:2024
+    docidentifier:
+    - content: ISO/IEC 27019:2024
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-10-18'
-    formattedref:
-      content: ISO/IEC 27019:2024
-      format: text/plain
+      at: '2024-10-18'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '68091'
     type: ISO
+    project_number:
+      content: '68091'

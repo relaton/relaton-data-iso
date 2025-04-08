@@ -1,144 +1,126 @@
 ---
-schema-version: v1.2.9
 id: ISO2789-2022
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: International library statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - International library statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Statistiques internationales de bibliothèques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Statistiques internationales de bibliothèques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78525.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78525:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/85/78525.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2789:2022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: International library statistics
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - International library statistics
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Statistiques internationales de bibliothèques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Statistiques internationales de bibliothèques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78525.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78525:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/85/78525.detail.rss
+docidentifier:
+- content: ISO 2789:2022
   type: ISO
   primary: true
-- id: ISO 2789:2022(E)
+- content: ISO 2789:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:2789:stage-60.60
+- content: urn:iso:std:iso:2789:stage-published
   type: URN
 docnumber: '2789'
 date:
 - type: published
-  value: 2022-09
+  at: 2022-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '6'
-revdate: 2022-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies rules for the library and information services community on the collection and reporting of statistics:
     —    for the purposes of international reporting;
     —    to ensure conformity between countries for those statistical measures that are frequently used by library managers, but do not qualify for international reporting;
     —    to encourage good practice in the use of statistics for the management of library and information services.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document fournit des règles à la communauté des bibliothèques et des services d'information pour la collecte et la présentation de statistiques :
     —     en vue de l'établissement de synthèses sur le plan international ;
     —     pour assurer la conformité entre pays de mesures statistiques fréquemment utilisées par les gestionnaires de bibliothèques sans pour autant servir à l'établissement de synthèses internationales ;
     —     pour encourager une bonne pratique des statistiques dans la gestion des bibliothèques et des services d'information.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO2789-2013
     type: standard
-    docid:
-    - id: ISO 2789:2013
+    formattedref: ISO 2789:2013
+    docidentifier:
+    - content: ISO 2789:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 2789:2013
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Quality - Statistics and performance evaluation
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 8
+      content: Quality - Statistics and performance evaluation
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '78525'
     type: ISO
+    project_number:
+      content: '78525'

@@ -1,121 +1,110 @@
 ---
-schema-version: v1.2.9
 id: IEC559-1989
-title:
-- content: Binary floating-point arithmetic for microprocessor systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Binary floating-point arithmetic for microprocessor systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Arithmétique binaire en virgule flottante pour systèmes à microprocesseurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Arithmétique binaire en virgule flottante pour systèmes à microprocesseurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/19706.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/97/19706.detail.rss
-  type: rss
 type: standard
-docid:
-- id: IEC 559:1989
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Binary floating-point arithmetic for microprocessor systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Binary floating-point arithmetic for microprocessor systems
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Arithmétique binaire en virgule flottante pour systèmes à microprocesseurs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Arithmétique binaire en virgule flottante pour systèmes à microprocesseurs
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/19706.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/97/19706.detail.rss
+docidentifier:
+- content: IEC 559:1989
   type: ISO
   primary: true
-- id: IEC 559:1989(E)
+- content: IEC 559:1989(E)
   type: iso-reference
-- id: urn:iso:std:iec:559:stage-95.99
+- content: urn:iso:std:iec:559:stage-95.99
   type: URN
 docnumber: '559'
 date:
 - type: published
-  value: 1989-02
+  at: 1989-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1989-02
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: IEC
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - content: IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: IEC559-1982
     type: standard
-    docid:
-    - id: IEC 559:1982
+    formattedref: IEC 559:1982
+    docidentifier:
+    - content: IEC 559:1982
       type: ISO
       primary: true
-    formattedref:
-      content: IEC 559:1982
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE60559-2011
     type: standard
-    docid:
-    - id: ISO/IEC/IEEE 60559:2011
+    formattedref: ISO/IEC/IEEE 60559:2011
+    docidentifier:
+    - content: ISO/IEC/IEEE 60559:2011
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2012-02-14'
-    formattedref:
-      content: ISO/IEC/IEEE 60559:2011
-      format: text/plain
+      at: '2012-02-14'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Interconnection of information technology equipment
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 25
+      content: Interconnection of information technology equipment
   ics:
   - code: '35.160'
     text: Microprocessor systems
   structuredidentifier:
-    project_number: '19706'
     type: IEC
+    project_number:
+      content: '19706'

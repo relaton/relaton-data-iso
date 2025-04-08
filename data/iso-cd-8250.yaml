@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/CD8250
-title:
-- content: Cleanliness of medical devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Process design and test methods
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Cleanliness of medical devices - Process design and test methods
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Cleanliness of medical devices
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Process design and test methods
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Cleanliness of medical devices - Process design and test methods
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83092.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/30/83092.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 8250
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Cleanliness of medical devices
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Process design and test methods
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Cleanliness of medical devices - Process design and test methods
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cleanliness of medical devices
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Process design and test methods
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cleanliness of medical devices - Process design and test methods
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83092.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/30/83092.detail.rss
+docidentifier:
+- content: ISO/CD 8250
   type: ISO
   primary: true
-- id: ISO/CD 8250(E)
+- content: ISO/CD 8250(E)
   type: iso-reference
-- id: urn:iso:std:iso:8250:stage-draft
+- content: urn:iso:std:iso:8250:stage-draft
   type: URN
 docnumber: '8250'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -76,7 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document specifies requirements to \n•\tensure the required cleanliness
+- language: en
+  script: Latn
+  content: "This document specifies requirements to \n•\tensure the required cleanliness
     of medical devices in their delivery state;\n•\tensure the cleanliness of a medical
     device which is required for the execution of manufacturing processes.\nNOTE 1\tThere
     are usually many steps within the manufac¬turing process which are necessary to
@@ -101,12 +92,9 @@ abstract:
     addition, this document is not applicable to the following medical devices:\n•\tequipment
     (e.g. sterilizers and washers/washer-disinfectors);\n•\tliquid or gaseous medical
     devices;\n•\tabsorbable medical devices;\nsoftware."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document specifies requirements to \n•\tensure the required cleanliness
+- language: fr
+  script: Latn
+  content: "This document specifies requirements to \n•\tensure the required cleanliness
     of medical devices in their delivery state;\n•\tensure the cleanliness of a medical
     device which is required for the execution of manufacturing processes.\nNOTE 1\tThere
     are usually many steps within the manufac¬turing process which are necessary to
@@ -131,36 +119,34 @@ abstract:
     addition, this document is not applicable to the following medical devices:\n•\tequipment
     (e.g. sterilizers and washers/washer-disinfectors);\n•\tliquid or gaseous medical
     devices;\n•\tabsorbable medical devices;\nsoftware."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '98'
+    content: '98'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Biological and clinical evaluation of medical devices
-      number: 194
+    - number: 194
       type: TC
       identifier: ISO/TC 194
+      content: Biological and clinical evaluation of medical devices
   ics:
   - code: 11.040.01
     text: Medical equipment in general
   structuredidentifier:
-    project_number: '83092'
     type: ISO
+    project_number:
+      content: '83092'

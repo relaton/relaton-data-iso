@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC20968-2002
-title:
-- content: Software engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mk II Function Point Analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Counting Practices Manual
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Software engineering - Mk II Function Point Analysis - Counting Practices
-    Manual
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Génie logiciel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Analyse des points fonctionnels Mk II
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Manuel des pratiques de comptage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Génie logiciel - Analyse des points fonctionnels Mk II - Manuel des pratiques
-    de comptage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/35603.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:35603:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/56/35603.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 20968:2002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software engineering
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Mk II Function Point Analysis
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Counting Practices Manual
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Software engineering - Mk II Function Point Analysis - Counting Practices
+    Manual
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Génie logiciel
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Analyse des points fonctionnels Mk II
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Manuel des pratiques de comptage
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Génie logiciel - Analyse des points fonctionnels Mk II - Manuel des pratiques
+    de comptage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/35603.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:35603:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/56/35603.detail.rss
+docidentifier:
+- content: ISO/IEC 20968:2002
   type: ISO
   primary: true
-- id: ISO/IEC 20968:2002(E)
+- content: ISO/IEC 20968:2002(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:20968:stage-90.93
+- content: urn:iso:std:iso-iec:20968:stage-90.93
   type: URN
 docnumber: '20968'
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2002-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 20968:2002 specifies the set of definitions, conventions and activities
+- language: en
+  script: Latn
+  content: "ISO/IEC 20968:2002 specifies the set of definitions, conventions and activities
     of the MkII FPA Functional Size Measurement Method.\nThe method can be used to
     measure the functional size of any software application that can be described
     in terms of logical transactions, each comprising an input, process and output
@@ -120,12 +107,9 @@ abstract:
     II FPA is independent of the project management method to be used and of the development
     method employed. It is a measure of the logical, business requirements, independent
     of how they are implemented."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO/IEC 20968:2002 specifies the set of definitions, conventions and activities
+- language: fr
+  script: Latn
+  content: "ISO/IEC 20968:2002 specifies the set of definitions, conventions and activities
     of the MkII FPA Functional Size Measurement Method.\nThe method can be used to
     measure the functional size of any software application that can be described
     in terms of logical transactions, each comprising an input, process and output
@@ -139,36 +123,34 @@ abstract:
     II FPA is independent of the project management method to be used and of the development
     method employed. It is a measure of the logical, business requirements, independent
     of how they are implemented."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Software and systems engineering
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
   ics:
   - code: '35.080'
     text: Software
   structuredidentifier:
-    project_number: '35603'
     type: ISO
+    project_number:
+      content: '35603'

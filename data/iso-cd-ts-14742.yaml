@@ -1,77 +1,66 @@
 ---
-schema-version: v1.2.9
 id: ISO/CDTS14742
-title:
-- content: Financial services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Recommendations and requirements on cryptographic algorithms and their
-    use
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Financial services - Recommendations and requirements on cryptographic
-    algorithms and their use
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Financial services
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Recommendations and requirements on cryptographic algorithms and their
-    use
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Financial services - Recommendations and requirements on cryptographic
-    algorithms and their use
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84609.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/46/84609.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD TS 14742
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Financial services
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Recommendations and requirements on cryptographic algorithms and their
+    use
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Financial services - Recommendations and requirements on cryptographic
+    algorithms and their use
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Financial services
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Recommendations and requirements on cryptographic algorithms and their
+    use
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Financial services - Recommendations and requirements on cryptographic
+    algorithms and their use
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84609.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/46/84609.detail.rss
+docidentifier:
+- content: ISO/CD TS 14742
   type: ISO
   primary: true
-- id: ISO/CD TS 14742(E)
+- content: ISO/CD TS 14742(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:14742:stage-draft
+- content: urn:iso:std:iso:ts:14742:stage-draft
   type: URN
 docnumber: '14742'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -80,7 +69,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document provides a list of recommended ISO cryptographic algorithms
+- language: en
+  script: Latn
+  content: "This document provides a list of recommended ISO cryptographic algorithms
     for use within applicable ISO TC68 – Financial Services standards.  It also provides
     strategic guidance on key lengths and associated parameters and usage dates.\n\nThis
     document deals primarily with recommendations regarding algorithms and key lengths.
@@ -95,12 +86,9 @@ abstract:
     which this document refers may contain necessary implementation information as
     well as more detailed guidance regarding choice of security parameters, security
     analysis, and other implementation considerations."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document provides a list of recommended ISO cryptographic algorithms
+- language: fr
+  script: Latn
+  content: "This document provides a list of recommended ISO cryptographic algorithms
     for use within applicable ISO TC68 – Financial Services standards.  It also provides
     strategic guidance on key lengths and associated parameters and usage dates.\n\nThis
     document deals primarily with recommendations regarding algorithms and key lengths.
@@ -115,48 +103,43 @@ abstract:
     which this document refers may contain necessary implementation information as
     well as more detailed guidance regarding choice of security parameters, security
     analysis, and other implementation considerations."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TR14742-2010
     type: standard
-    docid:
-    - id: ISO/TR 14742:2010
+    formattedref: ISO/TR 14742:2010
+    docidentifier:
+    - content: ISO/TR 14742:2010
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TR 14742:2010
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: 35.240.40
     text: IT applications in banking
   structuredidentifier:
-    project_number: '84609'
     type: ISO
+    project_number:
+      content: '84609'

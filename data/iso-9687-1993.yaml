@@ -1,95 +1,82 @@
 ---
-schema-version: v1.2.9
 id: ISO9687-1993
-title:
-- content: Dental equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Graphical symbols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Dental equipment - Graphical symbols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Matériel dentaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Symboles graphiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Matériel dentaire - Symboles graphiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/17542.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/75/17542.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9687:1993
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dental equipment
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Graphical symbols
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Dental equipment - Graphical symbols
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Matériel dentaire
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Symboles graphiques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Matériel dentaire - Symboles graphiques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/17542.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/75/17542.detail.rss
+docidentifier:
+- content: ISO 9687:1993
   type: ISO
   primary: true
-- id: ISO 9687:1993(E)
+- content: ISO 9687:1993(E)
   type: iso-reference
-- id: urn:iso:std:iso:9687:stage-95.99
+- content: urn:iso:std:iso:9687:stage-95.99
   type: URN
 docnumber: '9687'
 date:
 - type: published
-  value: 1993-02
+  at: 1993-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1993-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: The 153 symbols specified are to be used on the appropriate piece of equipment
+- language: en
+  script: Latn
+  content: The 153 symbols specified are to be used on the appropriate piece of equipment
     and in documents pertaining to dental equipment pieces, e.g. in instructions for
     use. The symbols are selected specifically for all kinds of dental equipment.
     The majority of them are taken from the relevant IEC and ISO International Standards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "\nLa présente Norme internationale s'applique au matériel dentaire. Elle
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale s'applique au matériel dentaire. Elle
     spécifie les symboles graphiques qui sont à utiliser sur la partie du matériel
     et dans les documents afférents aux parties du matériel dentaire, par exemple
     dans les instructions d'emploi. Les symboles sont choisis spécifiquement pour
@@ -105,53 +92,48 @@ abstract:
     de tous les symboles graphiques utilisés dans les Normes internationales. 3 Pour
     la combinaison des symboles, voir ISO 3461. Les symboles 1 à 9 sont surtout utilisés
     dans la documentation des produits techniques (voir ISO 3461).\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO9687-2015
     type: standard
-    docid:
-    - id: ISO 9687:2015
+    formattedref: ISO 9687:2015
+    docidentifier:
+    - content: ISO 9687:2015
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2015-01-31'
-    formattedref:
-      content: ISO 9687:2015
-      format: text/plain
+      at: '2015-01-31'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Dental equipment
-      number: 106
+    - number: 106
       type: TC
       identifier: ISO/TC 106/SC 6
+      content: Dental equipment
   ics:
   - code: 01.080.20
     text: Graphical symbols for use on specific equipment
   - code: 11.060.20
     text: Dental equipment
   structuredidentifier:
-    project_number: '17542'
     type: ISO
+    project_number:
+      content: '17542'

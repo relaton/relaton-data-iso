@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO19136-1-2020
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Geography Markup Language (GML)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Fundamentals'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Geographic information - Geography Markup Language (GML) - Part 1: Fundamentals'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Langage de balisage en géographie (GML)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Principes de base'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information géographique - Langage de balisage en géographie (GML) - Partie
-    1: Principes de base'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/75676.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:75676:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/56/75676.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19136-1:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geography Markup Language (GML)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Fundamentals'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Geographic information - Geography Markup Language (GML) - Part 1: Fundamentals'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langage de balisage en géographie (GML)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Principes de base'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Information géographique - Langage de balisage en géographie (GML) - Partie
+    1: Principes de base'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/75676.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:75676:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/56/75676.detail.rss
+docidentifier:
+- content: ISO 19136-1:2020
   type: ISO
   primary: true
-- id: ISO 19136-1:2020(E)
+- content: ISO 19136-1:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:19136:-1:stage-90.20
+- content: urn:iso:std:iso:19136:-1:stage-90.20
   type: URN
 docnumber: '19136'
 date:
 - type: published
-  value: 2020-01
+  at: 2020-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     The Geography Markup Language (GML) is an XML encoding in accordance with ISO 19118 for the transport and storage of geographic information modelled in accordance with the conceptual modelling framework used in the ISO 19100 series of International Standards and including both the spatial and non-spatial properties of geographic features.
     This document defines the XML Schema syntax, mechanisms and conventions that:
     —     provide an open, vendor-neutral framework for the description of geospatial application schemas for the transport and storage of geographic information in XML;
@@ -108,12 +94,9 @@ abstract:
     —     increase the ability of organizations to share geographic application schemas and the information they describe.
     Implementers can decide to store geographic application schemas and information in GML, or they can decide to convert from some other storage format on demand and use GML only for schema and data transport.
     NOTE    If an ISO 19109 conformant application schema described in UML is used as the basis for the storage and transportation of geographic information, this document provides normative rules for the mapping of such an application schema to a GML application schema in XML Schema and, as such, to an XML encoding for data with a logical structure in accordance with the ISO 19109 conformant application schema.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le langage GML (Geography Markup Language, Langage de balisage en géographie) est un codage XML conforme à l'ISO 19118 pour le transport et le stockage des informations géographiques modélisées conformément au cadre de modélisation conceptuelle utilisé dans la série de Normes internationales ISO 19100, et comprenant les propriétés spatiales et non spatiales des entités géographiques.
     Le présent document définit la syntaxe, les mécanismes et les conventions du schéma XML qui:
     —          offrent un cadre ouvert indépendant du fournisseur pour la description des schémas d'application géospatiale pour le transport et le stockage des informations géographiques en langage XML;
@@ -124,48 +107,43 @@ abstract:
     —          augmentent les possibilités d'organisation pour partager des schémas d'application géographique et les informations qu'ils décrivent.
     Les implémenteurs peuvent choisir de stocker les schémas d'application géographique et les informations en GML, ou de les convertir à la demande à partir d'un autre format de stockage et d'utiliser GML uniquement pour le schéma et le transport des données.
     NOTE    Si un schéma d'application conforme à l'ISO 19109 décrit en langage UML est utilisé comme base du stockage et du transport des informations géographiques, le présent document donne les règles normatives de mise en correspondance de ce type de schéma d'application avec le schéma d'application GML en langage XML Schema et, en tant que tel, avec le codage XML pour les données dotées d'une structure logique conformément au schéma d'application conforme à l'ISO 19109.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19136-2007
     type: standard
-    docid:
-    - id: ISO 19136:2007
+    formattedref: ISO 19136:2007
+    docidentifier:
+    - content: ISO 19136:2007
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19136:2007
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '75676'
     type: ISO
+    project_number:
+      content: '75676'

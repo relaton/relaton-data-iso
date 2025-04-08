@@ -1,89 +1,74 @@
 ---
-schema-version: v1.2.9
 id: ISO/FDIS18724
-title:
-- content: Water quality
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Determination of dissolved chromium(VI) in water
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Photometric method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Water quality - Determination of dissolved chromium(VI) in water - Photometric
-    method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Qualité de l'eau
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Détermination du chrome dissous(VI) dans l'eau
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Méthode photométrique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Qualité de l'eau - Détermination du chrome dissous(VI) dans l'eau - Méthode
-    photométrique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85399.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/53/85399.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/FDIS 18724
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Water quality
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Determination of dissolved chromium(VI) in water
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Photometric method
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Water quality - Determination of dissolved chromium(VI) in water - Photometric
+    method
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité de l'eau
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Détermination du chrome dissous(VI) dans l'eau
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Méthode photométrique
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité de l'eau - Détermination du chrome dissous(VI) dans l'eau - Méthode
+    photométrique
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85399.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/53/85399.detail.rss
+docidentifier:
+- content: ISO/FDIS 18724
   type: ISO
   primary: true
-- id: ISO/FDIS 18724(E)
+- content: ISO/FDIS 18724(E)
   type: iso-reference
-- id: urn:iso:std:iso:18724:stage-draft
+- content: urn:iso:std:iso:18724:stage-draft
   type: URN
 docnumber: '18724'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -91,65 +76,59 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/FDIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO11083-1994
     type: standard
-    docid:
-    - id: ISO 11083:1994
+    formattedref: ISO 11083:1994
+    docidentifier:
+    - content: ISO 11083:1994
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 11083:1994
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO18412-2005
     type: standard
-    docid:
-    - id: ISO 18412:2005
+    formattedref: ISO 18412:2005
+    docidentifier:
+    - content: ISO 18412:2005
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 18412:2005
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO23913-2006
     type: standard
-    docid:
-    - id: ISO 23913:2006
+    formattedref: ISO 23913:2006
+    docidentifier:
+    - content: ISO 23913:2006
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 23913:2006
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Physical, chemical and biochemical methods
-      number: 147
+    - number: 147
       type: TC
       identifier: ISO/TC 147/SC 2
+      content: Physical, chemical and biochemical methods
   ics:
   - code: 13.060.50
     text: Examination of water for chemical substances
   structuredidentifier:
-    project_number: '85399'
     type: ISO
+    project_number:
+      content: '85399'

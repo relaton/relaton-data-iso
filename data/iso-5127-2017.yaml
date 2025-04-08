@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO5127-2017
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Foundation and vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - Foundation and vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Fondations et vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Fondations et vocabulaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/59743.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:59743:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/97/59743.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 5127:2017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Foundation and vocabulary
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - Foundation and vocabulary
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Fondations et vocabulaire
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Fondations et vocabulaire
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/59743.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:59743:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/97/59743.detail.rss
+docidentifier:
+- content: ISO 5127:2017
   type: ISO
   primary: true
-- id: ISO 5127:2017(E)
+- content: ISO 5127:2017(E)
   type: iso-reference
-- id: urn:iso:std:iso:5127:stage-90.93
+- content: urn:iso:std:iso:5127:stage-90.93
   type: URN
 docnumber: '5127'
 date:
 - type: published
-  value: 2017-05
+  at: 2017-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2017-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: 'ISO 5127:2017 provides a concept system and general vocabulary for the
+- language: en
+  script: Latn
+  content: 'ISO 5127:2017 provides a concept system and general vocabulary for the
     field of documentation within the whole information field. It has been created
     with a balanced representation of major work areas in mind: documentation, libraries,
     archives, media, museums, records management, conservation as well as legal aspects
@@ -90,12 +80,9 @@ abstract:
     to that of ISO/TC 46: standardization of practices relating to libraries, documentation
     and information centres, publishing, archives, records management, museum documentation,
     indexing and abstracting services, and information science.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 'ISO 5127:2017 provides a concept system and general vocabulary for the
+- language: fr
+  script: Latn
+  content: 'ISO 5127:2017 provides a concept system and general vocabulary for the
     field of documentation within the whole information field. It has been created
     with a balanced representation of major work areas in mind: documentation, libraries,
     archives, media, museums, records management, conservation as well as legal aspects
@@ -103,64 +90,56 @@ abstract:
     to that of ISO/TC 46: standardization of practices relating to libraries, documentation
     and information centres, publishing, archives, records management, museum documentation,
     indexing and abstracting services, and information science.'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO5127-2001
     type: standard
-    docid:
-    - id: ISO 5127:2001
+    formattedref: ISO 5127:2001
+    docidentifier:
+    - content: ISO 5127:2001
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 5127:2001
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/WD5127
     type: standard
-    docid:
-    - id: ISO/WD 5127
+    formattedref: ISO/WD 5127
+    docidentifier:
+    - content: ISO/WD 5127
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2025-02-21'
-    formattedref:
-      content: ISO/WD 5127
-      format: text/plain
+      at: '2025-02-21'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information and documentation
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46
+      content: Information and documentation
   ics:
   - code: 01.040.01
     text: Generalities. Terminology. Standardization. Documentation (Vocabularies)
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '59743'
     type: ISO
+    project_number:
+      content: '59743'

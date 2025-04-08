@@ -1,88 +1,79 @@
 ---
-schema-version: v1.2.7
 id: ISO11644-2022
-title:
-- content: Leather
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Test for adhesion of finish
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Leather - Test for adhesion of finish
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Cuir
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Essai d'adhérence de la couche de finissage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Cuir - Essai d'adhérence de la couche de finissage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81924.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:81924:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/19/81924.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 11644:2022
+schema_version: v1.4.1
+fetched: '2024-01-16'
+title:
+- language: en
+  script: Latn
+  content: Leather
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Test for adhesion of finish
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Leather - Test for adhesion of finish
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cuir
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essai d'adhérence de la couche de finissage
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cuir - Essai d'adhérence de la couche de finissage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81924.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81924:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/19/81924.detail.rss
+docidentifier:
+- content: ISO 11644:2022
   type: ISO
   primary: true
-- id: ISO 11644:2022(E)
+- content: ISO 11644:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:11644:stage-60.60
+- content: urn:iso:std:iso:11644:stage-published
   type: URN
 docnumber: '11644'
 date:
 - type: published
-  value: 2022-10
+  at: 2022-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2022-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a method for measuring the adhesion of the finish to leather or the adhesion between two adjacent layers of the finish.
     The method is valid for all finished flexible leathers with a smooth surface that can be bonded to an adherent plate without the adhesive penetrating into the finish. Preliminary experiments can be necessary to determine whether these conditions are met.
     This test method applies to finished leathers with a thick finish-coat.
@@ -92,12 +83,9 @@ abstract:
     —    pull-up;
     —    suede;
     —    perforated leather.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie une méthode permettant de mesurer l'adhérence de la couche de finissage au cuir ou l'adhérence entre deux couches de finissage adjacentes.
     Cette méthode convient pour tous les cuirs souples finis ayant une surface lisse pouvant être collée à une plaque d'adhérence sans pénétration de la colle à l'intérieur de la couche de finissage. Des expériences préliminaires peuvent s'avérer nécessaires pour s'assurer du respect de ces conditions.
     Cette méthode d'essai s’applique à des cuirs finis à couche de finissage épaisse.
@@ -107,48 +95,42 @@ abstract:
     —    le cuir «pull-up»,
     —    le cuir «suède»,
     —    le cuir perforé.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO11644-2009
     type: standard
-    docid:
-    - id: ISO 11644:2009
+    formattedref: ISO 11644:2009
+    docidentifier:
+    - content: ISO 11644:2009
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 11644:2009
-      format: text/plain
 place:
-- Geneva
-fetched: '2024-01-16'
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: International Union of Leather Technologists and Chemists Societies
-    type: TC
-    identifier: IULTCS
-ics:
-- code: 59.140.30
-  text: Leather and furs
-structuredidentifier:
-  project_number: ISO 11644
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - type: TC
+      identifier: IULTCS
+      content: International Union of Leather Technologists and Chemists Societies
+  ics:
+  - code: 59.140.30
+    text: Leather and furs
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 11644

@@ -1,152 +1,131 @@
 ---
-schema-version: v1.2.9
 id: ISO2709-1996
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format for information exchange
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - Format for information exchange
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format pour l'échange d'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Format pour l'échange d'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/7675.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/76/7675.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2709:1996
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Format for information exchange
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - Format for information exchange
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Format pour l'échange d'information
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Format pour l'échange d'information
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/7675.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/76/7675.detail.rss
+docidentifier:
+- content: ISO 2709:1996
   type: ISO
   primary: true
-- id: ISO 2709:1996(E)
+- content: ISO 2709:1996(E)
   type: iso-reference
-- id: urn:iso:std:iso:2709:stage-95.99
+- content: urn:iso:std:iso:2709:stage-95.99
   type: URN
 docnumber: '2709'
 date:
 - type: published
-  value: 1996-08
+  at: 1996-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 1996-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the requirements for a generalized exchange format suitable for
+- language: en
+  script: Latn
+  content: Specifies the requirements for a generalized exchange format suitable for
     bibliographic descriptions. Describes a framework for communications between data
     processing systems. Replaces the second edition.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale fixe les prescriptions relatives à un format d'échange général qui contiendra des notices donnant les descriptions des documents de tout type susceptibles d'être inclus dans une bibliographie, ainsi que d'autres sortes de notices. Elle ne précise ni la taille ni le contenu des enregistrements, et n'attribue aucune valeur aux étiquettes, aux indicateurs ou aux identificateurs, ces spécifications étant définies en fonction du format de mise en oeuvre d'une application particulière. La présente Norme internationale définit une structure générale, un cadre destiné spécifiquement aux communications entre systèmes de traitement de l'information et non pas à l'exploitation à l'intérieur de ces systèmes.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO2709-1981
     type: standard
-    docid:
-    - id: ISO 2709:1981
+    formattedref: ISO 2709:1981
+    docidentifier:
+    - content: ISO 2709:1981
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 2709:1981
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO2709-2008
     type: standard
-    docid:
-    - id: ISO 2709:2008
+    formattedref: ISO 2709:2008
+    docidentifier:
+    - content: ISO 2709:2008
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2008-06-30'
-    formattedref:
-      content: ISO 2709:2008
-      format: text/plain
+      at: '2008-06-30'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical interoperability
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 4
+      content: Technical interoperability
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '7675'
     type: ISO
+    project_number:
+      content: '7675'

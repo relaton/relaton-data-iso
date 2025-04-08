@@ -1,171 +1,150 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC6522-1992
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Programming languages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: PL/1 general purpose subset
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Programming languages - PL/1 general purpose subset
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Langages de programmation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Sous-ensemble PL/1 pour usage général
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Langages de programmation - Sous-ensemble
-    PL/1 pour usage général
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/12907.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:12907:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/29/12907.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 6522:1992
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Programming languages
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: PL/1 general purpose subset
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Programming languages - PL/1 general purpose subset
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langages de programmation
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sous-ensemble PL/1 pour usage général
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Langages de programmation - Sous-ensemble
+    PL/1 pour usage général
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/12907.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:12907:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/29/12907.detail.rss
+docidentifier:
+- content: ISO/IEC 6522:1992
   type: ISO
   primary: true
-- id: ISO/IEC 6522:1992(E)
+- content: ISO/IEC 6522:1992(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:6522:stage-90.93
+- content: urn:iso:std:iso-iec:6522:stage-90.93
   type: URN
 docnumber: '6522'
 date:
 - type: published
-  value: 1992-11
+  at: 1992-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1992-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: The language defined is different from those of previous PL/I standards,
+- language: en
+  script: Latn
+  content: The language defined is different from those of previous PL/I standards,
     although substantially upward compatible, at the source program and semantic level.
     The differences are summarized in appendix A. Specifies the syntax and semantics
     of conforming PL/I programs. Defines a conforming processor (or conforming implementation)
     only in terms of those conforming programs. The definition is accomplished by
     specifying a conceptual PL/I machine which translates and interprets intended
     PL/I programs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: The language defined is different from those of previous PL/I standards,
+- language: fr
+  script: Latn
+  content: The language defined is different from those of previous PL/I standards,
     although substantially upward compatible, at the source program and semantic level.
     The differences are summarized in appendix A. Specifies the syntax and semantics
     of conforming PL/I programs. Defines a conforming processor (or conforming implementation)
     only in terms of those conforming programs. The definition is accomplished by
     specifying a conceptual PL/I machine which translates and interprets intended
     PL/I programs.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO6522-1985
     type: standard
-    docid:
-    - id: ISO 6522:1985
+    formattedref: ISO 6522:1985
+    docidentifier:
+    - content: ISO 6522:1985
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 6522:1985
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '12907'
     type: ISO
+    project_number:
+      content: '12907'

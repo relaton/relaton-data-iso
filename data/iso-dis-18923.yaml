@@ -1,90 +1,75 @@
 ---
-schema-version: v1.2.8
 id: ISO/DIS18923
-title:
-- content: Imaging materials
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Polyester-base magnetic tape
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Storage practices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Imaging materials - Polyester-base magnetic tape - Storage practices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Matériaux pour image
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Bande magnétique à base de polyester
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Pratiques d'emmagasinage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Matériaux pour image - Bande magnétique à base de polyester - Pratiques
-    d'emmagasinage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/87442.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:87442:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/74/87442.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 18923
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Imaging materials
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Polyester-base magnetic tape
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Storage practices
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Imaging materials - Polyester-base magnetic tape - Storage practices
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Matériaux pour image
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Bande magnétique à base de polyester
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Pratiques d'emmagasinage
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Matériaux pour image - Bande magnétique à base de polyester - Pratiques
+    d'emmagasinage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/87442.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:87442:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/74/87442.detail.rss
+docidentifier:
+- content: ISO/DIS 18923
   type: ISO
   primary: true
-- id: ISO/DIS 18923(E)
+- content: ISO/DIS 18923(E)
   type: iso-reference
-- id: urn:iso:std:iso:18923:stage-draft
+- content: urn:iso:std:iso:18923:stage-draft
   type: URN
 docnumber: '18923'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -93,7 +78,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard provides recommendations concerning the storage conditions, storage facilities,
     enclosures, and inspection for recorded polyester-base magnetic tapes in roll form. It covers analog and digital
     tape and includes tape made for audio, video, instrumentation and computer use.
@@ -103,12 +90,9 @@ abstract:
     Deviations from these recommendations, whether before or after recording, may result in shortened life
     expectancy. For example, adverse conditions during shipment, handling, or usage.
     This International Standard is not applicable to "work" or "use" copies (see informative annex C).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This International Standard provides recommendations concerning the storage conditions, storage facilities,
     enclosures, and inspection for recorded polyester-base magnetic tapes in roll form. It covers analog and digital
     tape and includes tape made for audio, video, instrumentation and computer use.
@@ -118,48 +102,43 @@ abstract:
     Deviations from these recommendations, whether before or after recording, may result in shortened life
     expectancy. For example, adverse conditions during shipment, handling, or usage.
     This International Standard is not applicable to "work" or "use" copies (see informative annex C).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ''
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - {}
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO18923-2000
     type: standard
-    docid:
-    - id: ISO 18923:2000
+    formattedref: ISO 18923:2000
+    docidentifier:
+    - content: ISO 18923:2000
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 18923:2000
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Photography
-    number: 42
-    type: TC
-    identifier: ISO/TC 42
-ics:
-- code: 37.040.99
-  text: Other standards related to photography
-structuredidentifier:
-  project_number: ISO 18923
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 42
+      type: TC
+      identifier: ISO/TC 42
+      content: Photography
+  ics:
+  - code: 37.040.99
+    text: Other standards related to photography
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 18923

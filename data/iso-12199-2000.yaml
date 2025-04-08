@@ -1,76 +1,70 @@
 ---
-schema-version: v1.2.9
 id: ISO12199-2000
-title:
-- content: Alphabetical ordering of multilingual terminological and lexicographical
-    data represented in the Latin alphabet
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Alphabetical ordering of multilingual terminological and lexicographical
-    data represented in the Latin alphabet
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Mise en ordre alphabétique des données lexicographiques et terminologiques
-    multilingues représentées dans l'alphabet latin
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Mise en ordre alphabétique des données lexicographiques et terminologiques
-    multilingues représentées dans l'alphabet latin
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/33300.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/33/33300.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 12199:2000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Alphabetical ordering of multilingual terminological and lexicographical
+    data represented in the Latin alphabet
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Alphabetical ordering of multilingual terminological and lexicographical
+    data represented in the Latin alphabet
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mise en ordre alphabétique des données lexicographiques et terminologiques
+    multilingues représentées dans l'alphabet latin
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mise en ordre alphabétique des données lexicographiques et terminologiques
+    multilingues représentées dans l'alphabet latin
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/33300.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/33/33300.detail.rss
+docidentifier:
+- content: ISO 12199:2000
   type: ISO
   primary: true
-- id: ISO 12199:2000(E)
+- content: ISO 12199:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso:12199:stage-95.99
+- content: urn:iso:std:iso:12199:stage-95.99
   type: URN
 docnumber: '12199'
 date:
 - type: published
-  value: 2000-08
+  at: 2000-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2000-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard specifies the sequence of characters to be used in the alphabetical ordering of
     multilingual terminological and lexicographical data (terms, term elements, or words) represented in the Latin
     alphabet. Character sets of languages represented in the Latin alphabet are taken into account insofar as
@@ -88,12 +82,9 @@ abstract:
     Standard for a number of languages that use the Latin alphabet.
     Normative annex G gives a formal description of the rules laid down in the main part of this International Standard
     conforming with ISO/IEC 14651.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This International Standard specifies the sequence of characters to be used in the alphabetical ordering of
     multilingual terminological and lexicographical data (terms, term elements, or words) represented in the Latin
     alphabet. Character sets of languages represented in the Latin alphabet are taken into account insofar as
@@ -111,51 +102,46 @@ abstract:
     Standard for a number of languages that use the Latin alphabet.
     Normative annex G gives a formal description of the rules laid down in the main part of this International Standard
     conforming with ISO/IEC 14651.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO12199-2022
     type: standard
-    docid:
-    - id: ISO 12199:2022
+    formattedref: ISO 12199:2022
+    docidentifier:
+    - content: ISO 12199:2022
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-06-14'
-    formattedref:
-      content: ISO 12199:2022
-      format: text/plain
+      at: '2022-06-14'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Terminology workflow and language coding
-      number: 37
+    - number: 37
       type: TC
       identifier: ISO/TC 37/SC 2
+      content: Terminology workflow and language coding
   ics:
   - code: '01.020'
     text: Terminology (principles and coordination)
   structuredidentifier:
-    project_number: '33300'
     type: ISO
+    project_number:
+      content: '33300'

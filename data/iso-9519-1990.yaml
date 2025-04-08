@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO9519-1990
-title:
-- content: Shipbuilding and marine structures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Rungs for dog-step ladders
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Shipbuilding and marine structures - Rungs for dog-step ladders
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Construction navale et structures maritimes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Échelons pour marchepieds
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Construction navale et structures maritimes - Échelons pour marchepieds
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/17252.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/72/17252.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9519:1990
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Shipbuilding and marine structures
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Rungs for dog-step ladders
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Shipbuilding and marine structures - Rungs for dog-step ladders
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Construction navale et structures maritimes
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Échelons pour marchepieds
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Construction navale et structures maritimes - Échelons pour marchepieds
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/17252.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/72/17252.detail.rss
+docidentifier:
+- content: ISO 9519:1990
   type: ISO
   primary: true
-- id: ISO 9519:1990(E)
+- content: ISO 9519:1990(E)
   type: iso-reference
-- id: urn:iso:std:iso:9519:stage-95.99
+- content: urn:iso:std:iso:9519:stage-95.99
   type: URN
 docnumber: '9519'
 date:
 - type: published
-  value: 1990-11
+  at: 1990-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1990-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "\nLa présente Norme internationale prescrit les types, les dimensions,
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale prescrit les types, les dimensions,
     le matériau, la fabrication et la désignation des échelons pour marchepieds; elle
     prescrit également le mode d'installation et la composition des différents échelons
     constituant le marchepied. Les marchepieds, formés d'échelons séparés soudés à
@@ -92,62 +82,54 @@ abstract:
     1 Les utilisateurs de la présente Norme internationale devront noter qu'ils auront
     également à respecter les éventuels règlements et prescriptions réglementaires
     applicables au type de navire ou de structure maritime considéré.\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO5487-1981
     type: standard
-    docid:
-    - id: ISO 5487:1981
+    formattedref: ISO 5487:1981
+    docidentifier:
+    - content: ISO 5487:1981
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 5487:1981
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO9519-2023
     type: standard
-    docid:
-    - id: ISO 9519:2023
+    formattedref: ISO 9519:2023
+    docidentifier:
+    - content: ISO 9519:2023
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2023-08-31'
-    formattedref:
-      content: ISO 9519:2023
-      format: text/plain
+      at: '2023-08-31'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Ship design
-      number: 8
+    - number: 8
       type: TC
       identifier: ISO/TC 8/SC 8
+      content: Ship design
   ics:
   - code: 47.020.50
     text: Deck equipment and installations
   structuredidentifier:
-    project_number: '17252'
     type: ISO
+    project_number:
+      content: '17252'

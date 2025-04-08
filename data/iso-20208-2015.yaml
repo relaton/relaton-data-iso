@@ -1,130 +1,115 @@
 ---
-schema-version: v1.2.9
 id: ISO20208-2015
-title:
-- content: Space data and information transfer systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Delta-DOR Raw Data Exchange Format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Space data and information transfer systems - Delta-DOR Raw Data Exchange
-    Format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de transfert des informations et données spatiales
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format d'échange des données brutes Delta-DOR
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Systèmes de transfert des informations et données spatiales - Format d'échange
-    des données brutes Delta-DOR
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/67303.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:67303:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/73/67303.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 20208:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space data and information transfer systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Delta-DOR Raw Data Exchange Format
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space data and information transfer systems - Delta-DOR Raw Data Exchange
+    Format
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transfert des informations et données spatiales
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Format d'échange des données brutes Delta-DOR
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transfert des informations et données spatiales - Format d'échange
+    des données brutes Delta-DOR
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/67303.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:67303:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/73/67303.detail.rss
+docidentifier:
+- content: ISO 20208:2015
   type: ISO
   primary: true
-- id: ISO 20208:2015(E)
+- content: ISO 20208:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso:20208:stage-90.93
+- content: urn:iso:std:iso:20208:stage-90.93
   type: URN
 docnumber: '20208'
 date:
 - type: published
-  value: 2015-08
+  at: 2015-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2015-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Delta-DOR (Delta Differential One-Way Ranging) is a Very Long Baseline Interferometry (VLBI) technique that can be used in conjunction with Doppler and ranging data to improve spacecraft navigation by more efficiently determining spacecraft angular position in the plane of sky. It involves the use of multiple ground stations, possibly belonging to different agencies, for simultaneous acquisition of either spacecraft or quasar signals (see reference [D2]).
     This Delta-DOR Raw Data Exchange Format (RDEF) Recommended Standard specifies a standard format for use in exchanging Delta-DOR raw data among space agencies. Delta-DOR raw data exchange is required every time the data correlation involves at least one participating station not belonging to the agency responsible for the correlation. ISO 20208:2015 includes specifications on the parameter fields that the data format has been designed to meet. For exchanges where these specifications do not capture the needs of the participating agencies another mechanism may be selected.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Delta-DOR (Delta Differential One-Way Ranging) is a Very Long Baseline Interferometry (VLBI) technique that can be used in conjunction with Doppler and ranging data to improve spacecraft navigation by more efficiently determining spacecraft angular position in the plane of sky. It involves the use of multiple ground stations, possibly belonging to different agencies, for simultaneous acquisition of either spacecraft or quasar signals (see reference [D2]).
     This Delta-DOR Raw Data Exchange Format (RDEF) Recommended Standard specifies a standard format for use in exchanging Delta-DOR raw data among space agencies. Delta-DOR raw data exchange is required every time the data correlation involves at least one participating station not belonging to the agency responsible for the correlation. ISO 20208:2015 includes specifications on the parameter fields that the data format has been designed to meet. For exchanges where these specifications do not capture the needs of the participating agencies another mechanism may be selected.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Space data and information transfer systems
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 13
+      content: Space data and information transfer systems
   ics:
   - code: '49.140'
     text: Space systems and operations
   structuredidentifier:
-    project_number: '67303'
     type: ISO
+    project_number:
+      content: '67303'

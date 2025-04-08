@@ -1,164 +1,142 @@
 ---
-schema-version: v1.2.9
 id: ISO13492-2019
-title:
-- content: Financial services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Key-management-related data element
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Application and usage of ISO 8583-1 data elements for encryption
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Financial services - Key-management-related data element - Application
-    and usage of ISO 8583-1 data elements for encryption
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Financial services
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Key-management-related data element
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Application and usage of ISO 8583-1 data elements for encryption
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Financial services - Key-management-related data element - Application
-    and usage of ISO 8583-1 data elements for encryption
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/73992.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:73992:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/39/73992.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 13492:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Financial services
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Key-management-related data element
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Application and usage of ISO 8583-1 data elements for encryption
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Financial services - Key-management-related data element - Application
+    and usage of ISO 8583-1 data elements for encryption
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Financial services
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Key-management-related data element
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Application and usage of ISO 8583-1 data elements for encryption
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Financial services - Key-management-related data element - Application
+    and usage of ISO 8583-1 data elements for encryption
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/73992.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:73992:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/39/73992.detail.rss
+docidentifier:
+- content: ISO 13492:2019
   type: ISO
   primary: true
-- id: ISO 13492:2019(E)
+- content: ISO 13492:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:13492:stage-90.93
+- content: urn:iso:std:iso:13492:stage-90.93
   type: URN
 docnumber: '13492'
 date:
 - type: published
-  value: 2019-10
+  at: 2019-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2019-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document describes a data element related to key management which can be transmitted either in transaction messages to convey information about cryptographic keys used to secure the current transaction, or in cryptographic service messages to convey information about cryptographic keys to be used to secure future transactions.
     This document addresses the requirements for the use of the data element related to key management within ISO 8583-1, using the following two ISO 8583-1 data elements for DEA and TDEA:
     —     security related control information (data element 53);
     —     key management data (data element 96).
     The data element related to key management for DEA and TDEA is constructed from the concatenation of two ISO 8583-1 message elements, data element 53 — security related control information, and data element 96 — key management data. It conveys information about the associated transaction's cryptographic key(s) and is divided into subfields including a control field, a key-set identifier and additional optional information. For AES implementations, the data elements are summarized in one field.
     This document is applicable to either symmetric or asymmetric cipher systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document describes a data element related to key management which can be transmitted either in transaction messages to convey information about cryptographic keys used to secure the current transaction, or in cryptographic service messages to convey information about cryptographic keys to be used to secure future transactions.
     This document addresses the requirements for the use of the data element related to key management within ISO 8583-1, using the following two ISO 8583-1 data elements for DEA and TDEA:
     —     security related control information (data element 53);
     —     key management data (data element 96).
     The data element related to key management for DEA and TDEA is constructed from the concatenation of two ISO 8583-1 message elements, data element 53 — security related control information, and data element 96 — key management data. It conveys information about the associated transaction's cryptographic key(s) and is divided into subfields including a control field, a key-set identifier and additional optional information. For AES implementations, the data elements are summarized in one field.
     This document is applicable to either symmetric or asymmetric cipher systems.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO13492-2007
     type: standard
-    docid:
-    - id: ISO 13492:2007
+    formattedref: ISO 13492:2007
+    docidentifier:
+    - content: ISO 13492:2007
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 13492:2007
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: 35.240.40
     text: IT applications in banking
   structuredidentifier:
-    project_number: '73992'
     type: ISO
+    project_number:
+      content: '73992'

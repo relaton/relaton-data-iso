@@ -1,145 +1,127 @@
 ---
-schema-version: v1.2.9
 id: ISO24611-2012
-title:
-- content: Language resource management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Morpho-syntactic annotation framework (MAF)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Language resource management - Morpho-syntactic annotation framework (MAF)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Gestion des ressources langagières
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cadre d'annotation morphosyntaxique (MAF)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Gestion des ressources langagières - Cadre d'annotation morphosyntaxique
-    (MAF)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/51934.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:51934:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/19/51934.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 24611:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Language resource management
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Morpho-syntactic annotation framework (MAF)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Language resource management - Morpho-syntactic annotation framework (MAF)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion des ressources langagières
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cadre d'annotation morphosyntaxique (MAF)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion des ressources langagières - Cadre d'annotation morphosyntaxique
+    (MAF)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/51934.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:51934:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/19/51934.detail.rss
+docidentifier:
+- content: ISO 24611:2012
   type: ISO
   primary: true
-- id: ISO 24611:2012(E)
+- content: ISO 24611:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso:24611:stage-90.92
+- content: urn:iso:std:iso:24611:stage-90.92
   type: URN
 docnumber: '24611'
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2012-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 24611:2012 provides a framework for the representation of annotations
+- language: en
+  script: Latn
+  content: ISO 24611:2012 provides a framework for the representation of annotations
     of word-forms in texts; such annotations concern tokens, their relationship with
     lexical units, and their morpho-syntactic properties.It describes a metamodel
     for morpho-syntactic annotation that relates to a reference to the data categories
     contained in the ISOCat data category registry (DCR, as defined in ISO 12620).
     It also describes an XML serialization for morpho-syntactic annotations, with
     equivalences to the guidelines of the TEI (text encoding initiative).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 24611:2012 fournit un cadre pour la représentation des annotations des mots-formes dans les textes; ces  annotations concernent les segments, leurs relations avec les unités lexicales, et leurs propriétés morphosyntaxiques.
     Elle présente un métamodèle pour l'annotation morphosyntaxique qui référence les catégories de données dans le registre des catégories de données ISOCat (DCR tel que défini dans l'ISO 12620). Elle décrit aussi une sérialisation XML pour l'annotation morphosyntaxique, avec les équivalences des lignes directrices de la TEI (Text Encoding Initiative).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/DIS24611-1
     type: standard
-    docid:
-    - id: ISO/DIS 24611-1
+    formattedref: ISO/DIS 24611-1
+    docidentifier:
+    - content: ISO/DIS 24611-1
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 24611-1
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Language resource management
-      number: 37
+    - number: 37
       type: TC
       identifier: ISO/TC 37/SC 4
+      content: Language resource management
   ics:
   - code: '01.020'
     text: Terminology (principles and coordination)
   structuredidentifier:
-    project_number: '51934'
     type: ISO
+    project_number:
+      content: '51934'

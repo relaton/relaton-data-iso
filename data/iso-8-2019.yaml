@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO8-2019
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Presentation and identification of periodicals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - Presentation and identification of periodicals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Présentation et identification des périodiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Présentation et identification des périodiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/67723.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:67723:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/77/67723.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Presentation and identification of periodicals
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - Presentation and identification of periodicals
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Présentation et identification des périodiques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Présentation et identification des périodiques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/67723.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:67723:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/77/67723.detail.rss
+docidentifier:
+- content: ISO 8:2019
   type: ISO
   primary: true
-- id: ISO 8:2019(E)
+- content: ISO 8:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:8:stage-90.93
+- content: urn:iso:std:iso:8:stage-90.93
   type: URN
 docnumber: '8'
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2019-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document establishes the minimum characteristics required for the presentation and identification of periodicals including not only the obvious traditional elements that print periodicals typically display (e.g. title, ISSN, publisher, date), but also the "footprints" of periodicals published on digital dynamic media that enable them to be traced along the path of their history, such as changes of URL and publisher or content provider. Furthermore, this document provides information about persistent identifiers, using ISSN, and citation of periodicals (especially when published online or digitized and when titles have changed). It also makes specific recommendations for presentation and identification aspects of retrospective digitization of periodicals.
     This document is applicable to a subcategory of continuing resources identifiable as "periodicals" (see Clause 3).
     NOTE 1    For the purposes of this document, newspapers are not considered to be periodicals; therefore, specialized information relevant only to newspapers is not included.
@@ -102,12 +92,9 @@ abstract:
     —          special considerations for retrospective digitization;
     —          usage of persistent identifiers for identification of periodical titles and articles;
     —          long-term preservation of periodical information across time.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document a pour objet d'établir les caractéristiques minimales requises en matière de présentation et d'identification des périodiques comprenant non seulement les éléments habituels évidents, généralement présents dans les périodiques imprimés (par exemple titre, ISSN, éditeur, date), mais également les éléments de traçabilité portés par les périodiques publiés sur un support dynamique numérique qui permettent de reconstituer leur parcours au fil du temps, tels que les changements d'URL et d'éditeur ou de fournisseur de contenu. Par ailleurs, le présent document fournit des informations sur les identifiants pérennes, utilisant l'ISSN, et sur les citations des périodiques (en particulier lorsqu'ils ont été publiés en ligne ou numérisés et lorsque les titres ont été modifiés). Il émet également des recommandations spécifiques en matière de présentation et d'identification des périodiques rétronumérisés.
     Le présent document s'applique à une sous-catégorie de ressources continues identifiables en tant que «périodiques» (voir Article 3).
     NOTE 1    Pour les besoins du présent document, les journaux ne sont pas considérés comme des périodiques; par conséquent, les informations concernant uniquement les journaux ne sont pas incluses.
@@ -127,48 +114,43 @@ abstract:
     —          aspects spécifiques à la rétronumérisation;
     —          utilisation d'identifiants pérennes pour l'identification des titres et des articles du périodique;
     —          conservation à long terme des informations du périodique au cours du temps.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO8-1977
     type: standard
-    docid:
-    - id: ISO 8:1977
+    formattedref: ISO 8:1977
+    docidentifier:
+    - content: ISO 8:1977
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 8:1977
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information and documentation
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46
+      content: Information and documentation
   ics:
   - code: 01.140.40
     text: Publishing
   structuredidentifier:
-    project_number: '67723'
     type: ISO
+    project_number:
+      content: '67723'

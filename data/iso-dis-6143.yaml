@@ -1,79 +1,68 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS6143
-title:
-- content: Gas analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Comparison methods for determining and checking the composition of calibration
-    gas mixtures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Gas analysis - Comparison methods for determining and checking the composition
-    of calibration gas mixtures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Analyse des gaz
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Méthodes de comparaison pour la détermination et la vérification de la
-    composition des mélanges de gaz d’étalonnage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Analyse des gaz - Méthodes de comparaison pour la détermination et la vérification
-    de la composition des mélanges de gaz d’étalonnage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85579.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:85579:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/55/85579.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 6143
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Gas analysis
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Comparison methods for determining and checking the composition of calibration
+    gas mixtures
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Gas analysis - Comparison methods for determining and checking the composition
+    of calibration gas mixtures
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Analyse des gaz
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Méthodes de comparaison pour la détermination et la vérification de la
+    composition des mélanges de gaz d’étalonnage
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Analyse des gaz - Méthodes de comparaison pour la détermination et la vérification
+    de la composition des mélanges de gaz d’étalonnage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85579.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:85579:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/55/85579.detail.rss
+docidentifier:
+- content: ISO/DIS 6143
   type: ISO
   primary: true
-- id: ISO/DIS 6143(E)
+- content: ISO/DIS 6143(E)
   type: iso-reference
-- id: urn:iso:std:iso:6143:stage-draft
+- content: urn:iso:std:iso:6143:stage-draft
   type: URN
 docnumber: '6143'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -82,7 +71,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard provides methods for
     _ determining the composition of a calibration gas mixture by comparison with appropriate reference gas
     mixtures,
@@ -97,12 +88,9 @@ abstract:
     instead of prospective calibration gas mixtures (i.e. gas mixtures which are intended for use as calibration gas mixtures). Such
     applications, however, require appropriate care and consideration of additional uncertainty components, for example concerning
     the effect of matrix differences between the reference gases used for calibration and the analysed sample.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente Norme internationale décrit des méthodes pour
     a) déterminer la composition d'un mélange de gaz pour étalonnage par comparaison avec des mélanges
     appropriés de gaz de référence,
@@ -118,48 +106,43 @@ abstract:
     employés commemélanges de gaz pour étalonnage). Toutefois, ces applications requièrent une attention particulière et la prise
     en compte de composantes supplémentaires de l'incertitude, concernant, par exemple, l'effet des différences de matrice entre
     les gaz de référence utilisés pour l'étalonnage et l'échantillon analysé.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO6143-2001
     type: standard
-    docid:
-    - id: ISO 6143:2001
+    formattedref: ISO 6143:2001
+    docidentifier:
+    - content: ISO 6143:2001
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 6143:2001
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Analysis of gases
-      number: 158
+    - number: 158
       type: TC
       identifier: ISO/TC 158
+      content: Analysis of gases
   ics:
   - code: 71.040.40
     text: Chemical analysis
   structuredidentifier:
-    project_number: ISO 6143
     type: ISO
+    project_number:
+      content: ISO 6143

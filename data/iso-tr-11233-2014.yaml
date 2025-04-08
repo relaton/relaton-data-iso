@@ -1,142 +1,123 @@
 ---
-schema-version: v1.2.9
 id: ISO/TR11233-2014
-title:
-- content: Space systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Orbit determination and estimation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Process for describing techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Space systems - Orbit determination and estimation - Process for describing
-    techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes spatiaux
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Détermination et estimation de l'orbite
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Processus pour la description des techniques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Systèmes spatiaux - Détermination et estimation de l'orbite - Processus
-    pour la description des techniques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/57531.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/05/75/57531.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TR 11233:2014
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Orbit determination and estimation
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Process for describing techniques
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space systems - Orbit determination and estimation - Process for describing
+    techniques
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes spatiaux
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Détermination et estimation de l'orbite
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Processus pour la description des techniques
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes spatiaux - Détermination et estimation de l'orbite - Processus
+    pour la description des techniques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/57531.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/75/57531.detail.rss
+docidentifier:
+- content: ISO/TR 11233:2014
   type: ISO
   primary: true
-- id: ISO/TR 11233:2014(E)
+- content: ISO/TR 11233:2014(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:11233:stage-95.99
+- content: urn:iso:std:iso:tr:11233:stage-95.99
   type: URN
 docnumber: '11233'
 date:
 - type: published
-  value: 2014-04
+  at: 2014-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2014-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/TR 11233:2014 prescribes the manner in which orbit determination and estimation techniques are to be described so that parties can plan operations with sufficient margin to accommodate different individual approaches to orbit determination and estimation. ISO/TR 11233:2014 does not require the exchange of orbit data nor does it prescribe a method of performing orbit determination. It only prescribes the information that shall accompany such data so that collaborating satellite owners/operators understand the similarities and differences between their independent orbit determination processes.
     All satellite owners/operators are entitled to a preferred approach to physical approximations, numerical implementation, and computational execution of orbit determination and estimation of future states of their satellites. Mission demands should determine the architecture (speed of execution, required precision, etc.). ISO/TR 11233:2014 will enable stakeholders to describe their techniques in a manner that is uniformly understood. Implementation details that can have proprietary or competitive advantage need not be revealed.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/TR 11233:2014 prescribes the manner in which orbit determination and estimation techniques are to be described so that parties can plan operations with sufficient margin to accommodate different individual approaches to orbit determination and estimation. ISO/TR 11233:2014 does not require the exchange of orbit data nor does it prescribe a method of performing orbit determination. It only prescribes the information that shall accompany such data so that collaborating satellite owners/operators understand the similarities and differences between their independent orbit determination processes.
     All satellite owners/operators are entitled to a preferred approach to physical approximations, numerical implementation, and computational execution of orbit determination and estimation of future states of their satellites. Mission demands should determine the architecture (speed of execution, required precision, etc.). ISO/TR 11233:2014 will enable stakeholders to describe their techniques in a manner that is uniformly understood. Implementation details that can have proprietary or competitive advantage need not be revealed.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TR
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TR
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Space systems and operations
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 14
+      content: Space systems and operations
   ics:
   - code: '49.140'
     text: Space systems and operations
   structuredidentifier:
-    project_number: '57531'
     type: ISO
+    project_number:
+      content: '57531'

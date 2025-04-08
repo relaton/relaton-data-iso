@@ -1,88 +1,73 @@
 ---
-schema-version: v1.2.9
 id: ISO/DTR8955
-title:
-- content: Railway infrastructure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Track quality evaluation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Chord-based method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Railway infrastructure - Track quality evaluation - Chord-based method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Applications ferroviaires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Qualité géométrique de la voie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Méthode sur la base du cordeau
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Applications ferroviaires - Qualité géométrique de la voie - Méthode sur
-    la base du cordeau
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83402.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/34/83402.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DTR 8955
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Railway infrastructure
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Track quality evaluation
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Chord-based method
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Railway infrastructure - Track quality evaluation - Chord-based method
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Applications ferroviaires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité géométrique de la voie
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Méthode sur la base du cordeau
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Applications ferroviaires - Qualité géométrique de la voie - Méthode sur
+    la base du cordeau
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83402.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/34/83402.detail.rss
+docidentifier:
+- content: ISO/DTR 8955
   type: ISO
   primary: true
-- id: ISO/DTR 8955(E)
+- content: ISO/DTR 8955(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:8955:stage-draft
+- content: urn:iso:std:iso:tr:8955:stage-draft
   type: URN
 docnumber: '8955'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -90,31 +75,34 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DTR
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DTR
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Infrastructure
-      number: 269
+    - number: 269
       type: TC
       identifier: ISO/TC 269/SC 1
+      content: Infrastructure
   ics:
   - code: '45.080'
     text: Rails and railway components
   structuredidentifier:
-    project_number: '83402'
     type: ISO
+    project_number:
+      content: '83402'

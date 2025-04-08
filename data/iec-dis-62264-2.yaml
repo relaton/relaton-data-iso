@@ -1,76 +1,65 @@
 ---
-schema-version: v1.2.9
 id: IEC/DIS62264-2
-title:
-- content: Enterprise-control system integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Objects and attributes for enterprise-control system integration'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Enterprise-control system integration - Part 2: Objects and attributes
-    for enterprise-control system integration'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Intégration des systèmes entreprise-contrôle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2: Objets et attributs pour l''intégration des systèmes de commande
-    d''entreprise'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Intégration des systèmes entreprise-contrôle - Partie 2: Objets et attributs
-    pour l''intégration des systèmes de commande d''entreprise'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86536.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/65/86536.detail.rss
-  type: rss
 type: standard
-docid:
-- id: IEC/DIS 62264-2
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Enterprise-control system integration
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Objects and attributes for enterprise-control system integration'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Enterprise-control system integration - Part 2: Objects and attributes
+    for enterprise-control system integration'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Intégration des systèmes entreprise-contrôle
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Objets et attributs pour l''intégration des systèmes de commande
+    d''entreprise'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Intégration des systèmes entreprise-contrôle - Partie 2: Objets et attributs
+    pour l''intégration des systèmes de commande d''entreprise'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86536.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/65/86536.detail.rss
+docidentifier:
+- content: IEC/DIS 62264-2
   type: ISO
   primary: true
-- id: IEC/DIS 62264-2(E)
+- content: IEC/DIS 62264-2(E)
   type: iso-reference
-- id: urn:iso:std:iec:62264:-2:stage-draft
+- content: urn:iso:std:iec:62264:-2:stage-draft
   type: URN
 docnumber: '62264'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -79,66 +68,60 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This part of IEC 62264 specifies generic interface content exchanged between manufacturing control functions and other enterprise functions. The interface considered is between Level 3 manufacturing systems and Level 4 business systems in the hierarchical model defined in IEC 62264-1. The goal is to reduce the risk, cost, and errors associated with implementing the interface.
     Since this standard covers many domains, and there are many different standards in those domains, the semantics of this standard are described at a level intended to enable the other standards to be mapped to these semantics. To this end this standard defines a set of elements contained in the generic interface, together with a mechanism for extending those elements for implementations.
     The scope of IEC 62264-2 is limited to the definition of object models and attributes of the exchanged information defined in IEC 62264-1.
     This part of IEC 62264 standard does not define attributes to represent the object relationships.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente partie de la CEI 62264 spécifie le contenu de l'interface générique échangé entre les fonctions de commande de fabrication et d'autres fonctions d'entreprise. L'interface considérée est comprise entre les systèmes de fabrication de niveau 3 et les systèmes métier de niveau 4 du modèle hiérarchique défini dans la CEI 62264-1. Il s'agit de réduire les risques, les coûts et les erreurs liés à la mise en œuvre de l'interface.
     Dans la mesure où la présente Norme couvre de nombreux domaines, et où il existe de nombreuses normes différentes dans lesdits domaines, la sémantique de la présente norme est décrite à un niveau permettant d'adapter les autres normes à cette sémantique. La présente Norme définit ainsi un ensemble d'éléments contenus dans l’interface générique, ainsi qu'un mécanisme d'extension de ces éléments en vue de leurs différentes mises en œuvre.
     Le domaine d'application de la CEI 62264-2 se limite à la définition des modèles d’objets et des attributs des informations échangées définis dans la CEI 62264-1.
     La présente partie de la CEI 62264 ne définit pas les attributs permettant de représenter les relations entre les objets.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: IEC/DIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: IEC/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: IEC62264-2-2015
     type: standard
-    docid:
-    - id: IEC 62264-2:2015
+    formattedref: IEC 62264-2:2015
+    docidentifier:
+    - content: IEC 62264-2:2015
       type: ISO
       primary: true
-    formattedref:
-      content: IEC 62264-2:2015
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Interoperability, integration, and architectures for enterprise systems
-        and automation applications
-      number: 184
+    - number: 184
       type: TC
       identifier: ISO/TC 184/SC 5
+      content: Interoperability, integration, and architectures for enterprise systems
+        and automation applications
   ics:
   - code: 25.040.40
     text: Industrial process measurement and control
   - code: 35.240.50
     text: IT applications in industry
   structuredidentifier:
-    project_number: '86536'
     type: IEC
+    project_number:
+      content: '86536'

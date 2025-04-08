@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO349-1975
-title:
-- content: Hard coal
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Audibert-Arnu dilatometer test
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Hard coal - Audibert-Arnu dilatometer test
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Houille
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Essai au dilatomètre Audibert-Arnu
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Houille - Essai au dilatomètre Audibert-Arnu
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/4300.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/43/4300.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 349:1975
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Hard coal
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Audibert-Arnu dilatometer test
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Hard coal - Audibert-Arnu dilatometer test
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Houille
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essai au dilatomètre Audibert-Arnu
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Houille - Essai au dilatomètre Audibert-Arnu
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/4300.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/43/4300.detail.rss
+docidentifier:
+- content: ISO 349:1975
   type: ISO
   primary: true
-- id: ISO 349:1975(E)
+- content: ISO 349:1975(E)
   type: iso-reference
-- id: urn:iso:std:iso:349:stage-95.99
+- content: urn:iso:std:iso:349:stage-95.99
   type: URN
 docnumber: '349'
 date:
 - type: published
-  value: 1975-01
+  at: 1975-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1975-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies a method for determining the swelling properties of hard coal
+- language: en
+  script: Latn
+  content: Specifies a method for determining the swelling properties of hard coal
     when heated under standard conditions in a dilatometer. In performing the method
     a pencil made of powdered coal formed under pressure is inserted into a precisely
     calibrated narrow tube and topped by a calibrated steel rod which slides in the
@@ -88,12 +78,9 @@ abstract:
     regular readings of the displacement of the rod as a function of the temperature
     and expressing the displacements observed as percentages of the original length
     of the penicl a curve is plotted.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Specifies a method for determining the swelling properties of hard coal
+- language: fr
+  script: Latn
+  content: Specifies a method for determining the swelling properties of hard coal
     when heated under standard conditions in a dilatometer. In performing the method
     a pencil made of powdered coal formed under pressure is inserted into a precisely
     calibrated narrow tube and topped by a calibrated steel rod which slides in the
@@ -101,51 +88,46 @@ abstract:
     regular readings of the displacement of the rod as a function of the temperature
     and expressing the displacements observed as percentages of the original length
     of the penicl a curve is plotted.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO349-2020
     type: standard
-    docid:
-    - id: ISO 349:2020
+    formattedref: ISO 349:2020
+    docidentifier:
+    - content: ISO 349:2020
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2020-01-13'
-    formattedref:
-      content: ISO 349:2020
-      format: text/plain
+      at: '2020-01-13'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Methods of analysis
-      number: 27
+    - number: 27
       type: TC
       identifier: ISO/TC 27/SC 5
+      content: Methods of analysis
   ics:
   - code: '73.040'
     text: Coals
   structuredidentifier:
-    project_number: '4300'
     type: ISO
+    project_number:
+      content: '4300'

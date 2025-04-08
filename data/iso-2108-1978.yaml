@@ -1,124 +1,112 @@
 ---
-schema-version: v1.2.9
 id: ISO2108-1978
-title:
-- content: Documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: International standard book numbering (ISBN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Documentation - International standard book numbering (ISBN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Système international pour la numérotation des livres (ISBN)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Documentation - Système international pour la numérotation des livres (ISBN)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/6897.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/68/6897.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2108:1978
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: International standard book numbering (ISBN)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Documentation - International standard book numbering (ISBN)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Système international pour la numérotation des livres (ISBN)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Documentation - Système international pour la numérotation des livres (ISBN)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/6897.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/68/6897.detail.rss
+docidentifier:
+- content: ISO 2108:1978
   type: ISO
   primary: true
-- id: ISO 2108:1978(E)
+- content: ISO 2108:1978(E)
   type: iso-reference
-- id: urn:iso:std:iso:2108:stage-95.99
+- content: urn:iso:std:iso:2108:stage-95.99
   type: URN
 docnumber: '2108'
 date:
 - type: published
-  value: 1978-11
+  at: 1978-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1978-11
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO2108-1992
     type: standard
-    docid:
-    - id: ISO 2108:1992
+    formattedref: ISO 2108:1992
+    docidentifier:
+    - content: ISO 2108:1992
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1992-05-14'
-    formattedref:
-      content: ISO 2108:1992
-      format: text/plain
+      at: '1992-05-14'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Identification and description
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 9
+      content: Identification and description
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '6897'
     type: ISO
+    project_number:
+      content: '6897'

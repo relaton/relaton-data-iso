@@ -1,166 +1,150 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC/IEEE32430-2021
-title:
-- content: Software engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Trial use standard for software non-functional sizing measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Software engineering - Trial use standard for software non-functional sizing
-    measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Ingénierie du logiciel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Norme expérimentale pour la quantification des caractéristiques non fonctionnelles
-    des logiciels
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Ingénierie du logiciel - Norme expérimentale pour la quantification des
-    caractéristiques non fonctionnelles des logiciels
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81913.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/19/81913.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC/IEEE 32430:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software engineering
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Trial use standard for software non-functional sizing measurements
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Software engineering - Trial use standard for software non-functional sizing
+    measurements
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ingénierie du logiciel
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Norme expérimentale pour la quantification des caractéristiques non fonctionnelles
+    des logiciels
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ingénierie du logiciel - Norme expérimentale pour la quantification des
+    caractéristiques non fonctionnelles des logiciels
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81913.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/19/81913.detail.rss
+docidentifier:
+- content: ISO/IEC/IEEE 32430:2021
   type: ISO
   primary: true
-- id: ISO/IEC/IEEE 32430:2021(E)
+- content: ISO/IEC/IEEE 32430:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec-ieee:32430:stage-95.99
+- content: urn:iso:std:iso-iec-ieee:32430:stage-95.99
   type: URN
 docnumber: '32430'
 date:
 - type: published
-  value: 2021-10
+  at: 2021-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.ieee.org
     name:
     - content: Institute of Electrical and Electronics Engineers
     abbreviation:
       content: IEEE
-    url: www.ieee.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2021-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines a method for the sizing of non-functional software requirements. It complements ISO/ IEC 20926:2009, which defines a method for the sizing of functional user requirements (FUR).1
     This document also describes the complementarity of functional and non-functional sizes, so that sizing both functional and non-functional requirements (NFR) do not overlap. It also describes how non-functional size, together with functional size, should be used for measuring the performance of software projects, setting benchmarks, and estimating the cost and duration of software projects.
     In general, there are many types of non-functional software requirements. Moreover, non-functional aspects evolve over time and may include additional aspects in the as technology advances. This standard does not intend to define the type of NFR for a given context. Users may choose ISO 25010:2011 or any other standard for the definition of NFR. It is assumed that users will size the NFR based on the definitions they use.
     This document covers a subset of non-functional types. It is expected that, with time, the state of the art can improve and that potential future versions of this standard can define an extended coverage. The ultimate goal is a version that, together with ISO/IEC 20926:2009, covers every aspect that may be required of any prospective piece of software, including aspects such as process and project directives that are hard or impossible to trace to the software's algorithm or data. The combination of functional and non-functional size would then correspond to the total size necessary to bring the software into existence.
     Calculating the effort and duration of the implementation of the NFR is outside the scope of this standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines a method for the sizing of non-functional software requirements. It complements ISO/ IEC 20926:2009, which defines a method for the sizing of functional user requirements (FUR).1
     This document also describes the complementarity of functional and non-functional sizes, so that sizing both functional and non-functional requirements (NFR) do not overlap. It also describes how non-functional size, together with functional size, should be used for measuring the performance of software projects, setting benchmarks, and estimating the cost and duration of software projects.
     In general, there are many types of non-functional software requirements. Moreover, non-functional aspects evolve over time and may include additional aspects in the as technology advances. This standard does not intend to define the type of NFR for a given context. Users may choose ISO 25010:2011 or any other standard for the definition of NFR. It is assumed that users will size the NFR based on the definitions they use.
     This document covers a subset of non-functional types. It is expected that, with time, the state of the art can improve and that potential future versions of this standard can define an extended coverage. The ultimate goal is a version that, together with ISO/IEC 20926:2009, covers every aspect that may be required of any prospective piece of software, including aspects such as process and project directives that are hard or impossible to trace to the software's algorithm or data. The combination of functional and non-functional size would then correspond to the total size necessary to bring the software into existence.
     Calculating the effort and duration of the implementation of the NFR is outside the scope of this standard.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC/IEEE
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC/IEEE
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE32430-2025
     type: standard
-    docid:
-    - id: ISO/IEC/IEEE 32430:2025
+    formattedref: ISO/IEC/IEEE 32430:2025
+    docidentifier:
+    - content: ISO/IEC/IEEE 32430:2025
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2025-02-06'
-    formattedref:
-      content: ISO/IEC/IEEE 32430:2025
-      format: text/plain
+      at: '2025-02-06'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Software and systems engineering
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
   ics:
   - code: '35.080'
     text: Software
   structuredidentifier:
-    project_number: '81913'
     type: ISO
+    project_number:
+      content: '81913'

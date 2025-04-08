@@ -1,97 +1,83 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECFDIS21122-1
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: JPEG XS low-latency lightweight image coding system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Core coding system'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - JPEG XS low-latency lightweight image coding
-    system - Part 1: Core coding system'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Système de codage d'images léger à faible latence JPEG XS
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Système de codage de noyau'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Système de codage d''images léger à faible
-    latence JPEG XS - Partie 1: Système de codage de noyau'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85247.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/52/85247.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC FDIS 21122-1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: JPEG XS low-latency lightweight image coding system
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Core coding system'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - JPEG XS low-latency lightweight image coding
+    system - Part 1: Core coding system'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Système de codage d'images léger à faible latence JPEG XS
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Système de codage de noyau'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Système de codage d''images léger à faible
+    latence JPEG XS - Partie 1: Système de codage de noyau'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85247.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/52/85247.detail.rss
+docidentifier:
+- content: ISO/IEC FDIS 21122-1
   type: ISO
   primary: true
-- id: ISO/IEC FDIS 21122-1(E)
+- content: ISO/IEC FDIS 21122-1(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:21122:-1:stage-draft
+- content: urn:iso:std:iso-iec:21122:-1:stage-draft
   type: URN
 docnumber: '21122'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -100,68 +86,62 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines the syntax and an accompanying decompression process that is capable to represent continuous-tone grey-scale, or continuous-tone colour digital images without visual loss at moderate compression rates. Typical compression rates are between 2:1 and 6:1 but can also be higher depending on the nature of the image. In particular, the syntax and the decoding process specified in this document allow lightweight encoder and decoder implementations that limit the end-to-end latency to a fraction of the frame size. However, the definition of transmission channel buffer models necessary to ensure such latency is beyond the scope of this document.
     This document:
     —    specifies decoding processes for converting compressed image data to reconstructed image data;
     —    specifies a codestream syntax containing information for interpreting the compressed image data;
     —    provides guidance on encoding processes for converting source image data to compressed image data.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines the syntax and an accompanying decompression process that is capable to represent continuous-tone grey-scale, or continuous-tone colour digital images without visual loss at moderate compression rates. Typical compression rates are between 2:1 and 6:1 but can also be higher depending on the nature of the image. In particular, the syntax and the decoding process specified in this document allow lightweight encoder and decoder implementations that limit the end-to-end latency to a fraction of the frame size. However, the definition of transmission channel buffer models necessary to ensure such latency is beyond the scope of this document.
     This document:
     —    specifies decoding processes for converting compressed image data to reconstructed image data;
     —    specifies a codestream syntax containing information for interpreting the compressed image data;
     —    provides guidance on encoding processes for converting source image data to compressed image data.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC21122-1-2022
     type: standard
-    docid:
-    - id: ISO/IEC 21122-1:2022
+    formattedref: ISO/IEC 21122-1:2022
+    docidentifier:
+    - content: ISO/IEC 21122-1:2022
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 21122-1:2022
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Coding of audio, picture, multimedia and hypermedia information
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 29
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-structuredidentifier:
-  project_number: ISO 21122
-  part: '1'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 1
+      content: ISO 21122

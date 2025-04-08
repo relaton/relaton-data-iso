@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS18490
-title:
-- content: Non-destructive testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Evaluation of vision acuity of NDT personnel
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Non-destructive testing - Evaluation of vision acuity of NDT personnel
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Essais non destructifs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Évaluation de l'acuité visuelle du personnel END
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Essais non destructifs - Évaluation de l'acuité visuelle du personnel END
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/88640.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/86/88640.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 18490
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Non-destructive testing
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Evaluation of vision acuity of NDT personnel
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Non-destructive testing - Evaluation of vision acuity of NDT personnel
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essais non destructifs
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Évaluation de l'acuité visuelle du personnel END
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essais non destructifs - Évaluation de l'acuité visuelle du personnel END
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88640.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/86/88640.detail.rss
+docidentifier:
+- content: ISO/DIS 18490
   type: ISO
   primary: true
-- id: ISO/DIS 18490(E)
+- content: ISO/DIS 18490(E)
   type: iso-reference
-- id: urn:iso:std:iso:18490:stage-draft
+- content: urn:iso:std:iso:18490:stage-draft
   type: URN
 docnumber: '18490'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -76,63 +65,57 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 18490:2015 specifies the form of the optotype, the quality requirements for the chart, the test procedure, and the acceptance level for near vision acuity of NDT personnel. It also addresses the qualification requirements for personnel permitted to carry out the test.
     ISO 18490:2015 only addresses near vision acuity under defined conditions similar to those encountered during routine NDT inspection. It does not address an individual's overall visual acuity and users are advised to consider the need for a general eye examination by specialist medical personnel to ensure general vision acuity is appropriate for job function.
     ISO 18490:2015 does not address colour vision requirements.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 18490:2015 spécifie la forme de l'optotype, les exigences de qualité requises de la mire, la procédure d'essai et le niveau d'acceptation pour l'acuité de la vision de près du personnel END. Il aborde également les exigences relatives à la qualification du personnel autorisé à effectuer ces contrôles.
     L'ISO 18490:2015 traite uniquement de l'acuité de la vision proche dans des conditions définies, similaires à celles rencontrées lors des contrôles END de routine. Elle n'aborde pas l'acuité visuelle générale des individus. Il est conseillé aux utilisateurs d'envisager de procéder à un examen général d'ophtalmologie chez un médecin spécialiste afin de s'assurer que leur acuité visuelle générale est adaptée à leur activité professionnelle.
     L'ISO 18490:2015 ne contient pas d'exigences relatives à la vision des couleurs.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO18490-2015
     type: standard
-    docid:
-    - id: ISO 18490:2015
+    formattedref: ISO 18490:2015
+    docidentifier:
+    - content: ISO 18490:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 18490:2015
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Personnel qualification
-      number: 135
+    - number: 135
       type: TC
       identifier: ISO/TC 135/SC 7
+      content: Personnel qualification
   ics:
   - code: '19.100'
     text: Non-destructive testing
   - code: 03.100.30
     text: Management of human resources
   structuredidentifier:
-    project_number: '88640'
     type: ISO
+    project_number:
+      content: '88640'

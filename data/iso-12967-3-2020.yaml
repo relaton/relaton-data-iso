@@ -1,164 +1,142 @@
 ---
-schema-version: v1.2.9
 id: ISO12967-3-2020
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Service architecture (HISA)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: Computational viewpoint'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Health informatics - Service architecture (HISA) - Part 3: Computational
-    viewpoint'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Architecture de service
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Point de vue informatique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Informatique de santé - Architecture de service - Partie 3: Point de vue
-    informatique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/71039.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:71039:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/10/71039.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 12967-3:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Service architecture (HISA)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: Computational viewpoint'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Health informatics - Service architecture (HISA) - Part 3: Computational
+    viewpoint'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Architecture de service
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Point de vue informatique'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Informatique de santé - Architecture de service - Partie 3: Point de vue
+    informatique'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/71039.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:71039:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/10/71039.detail.rss
+docidentifier:
+- content: ISO 12967-3:2020
   type: ISO
   primary: true
-- id: ISO 12967-3:2020(E)
+- content: ISO 12967-3:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:12967:-3:stage-60.60
+- content: urn:iso:std:iso:12967:-3:stage-published
   type: URN
 docnumber: '12967'
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2020-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the fundamental characteristics of the computational model implemented by a specific architectural layer of the information system (i.e. the service architecture) to provide a comprehensive and integrated interface to the common enterprise information and to support the fundamental business processes of the healthcare organization, as defined in ISO 12967‑1. The computational model is specified without any explicit or implicit assumption about the physical technologies, tools or solutions to adopt for its physical implementation in the various target scenarios. The specification is nevertheless formal, complete and non-ambiguous enough to allow implementers to derive an efficient design of the system in the specific technological environment which will be selected for the physical implementation.
     The computational model specified in this document provides the basis for ensuring consistency between different engineering and technology specifications (including programming languages and communication mechanisms) since they are intended to be consistent with the same computational object model. This consistency allows open inter-working and portability of components in the resulting implementation.
     This document does not aim at representing a fixed, complete, specification of all possible interfaces that might be necessary for any requirement of any healthcare enterprise. It specifies only a set of characteristics — in terms of overall organization and individual computational objects, identified as fundamental and common to all healthcare organizations, and that are satisfied by the computational model implemented by the service architecture.
     Preserving consistency with the provisions of this document, physical implementations of the computational model specified in this document can allow extensions in order to support additional and local requirements. Extensions can include both the definition of additional properties of the objects of the computational model specified in this document and the implementation of entirely new objects.
     Also, the computational model specified in this document can be extendable over time according to the evolution of the applicable standardization initiatives, in accordance to the methodology defined in ISO 12967‑1:2020, Clause 7, which identifies a set of healthcare common information services, describing the requirements behind them and the methodology through which they will be used.
     The information services specified in this document are only the minimal set identifiable according to the identified requirements of the healthcare enterprise, and constituting the service architecture (i.e. the integration platform) to serve as the basis for healthcare applications, e.g. EHR or patient administration.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie les caractéristiques fondamentales du modèle de traitement mis en place par une couche architecturale spécifique du système d'informations (c'est-à-dire l'architecture de service) pour assurer une interface cohérente et intégrée aux données d'entreprise communes et prendre en charge les processus métier fondamentaux de l'organisme de santé, tel que défini dans l'ISO 12967-1. Le modèle de traitement est spécifié sans émettre d'hypothèse explicite ou implicite sur les technologies physiques, les outils ou les solutions à adopter pour sa mise en œuvre physique dans le cadre des différents scénarios cible. La spécification n'en est pas moins formelle, exhaustive et sans ambiguïté, afin de permettre aux implémenteurs de prévoir une conception efficace du système dans l'environnement technologique spécifique sélectionné pour sa mise en œuvre physique.
     Le modèle de traitement spécifié dans le présent document fournit la base permettant de garantir la cohérence des différentes spécifications d'ingénierie et de technologie (notamment des langages de programmation et des mécanismes de communication) étant donné qu'elles sont censées être conformes au même modèle d'objet de traitement. Cette cohérence permet de garantir l'interfonctionnement ouvert et la portabilité des composants dans la mise en place finale.
     Le présent document n'a pas pour objet d'être une représentation fixe et exhaustive de toutes les interfaces possibles susceptibles d'être nécessaires aux exigences d'une entreprise de santé. Il spécifie simplement un ensemble de caractéristiques (en termes d'objets organisationnels globaux et de traitement individuels) identifiées comme étant essentielles et communes à tous les organismes de santé et que le modèle de traitement mis en place par l'architecture de service doit satisfaire.
     Tout en préservant la cohérence avec les dispositions du présent document, les mises en place physiques du modèle de traitement spécifié dans le présent document peuvent permettre des extensions afin de répondre à des exigences supplémentaires et locales. Les extensions peuvent inclure aussi bien la définition de propriétés supplémentaires d'objets du modèle de traitement spécifié dans le présent document que la mise en œuvre d'objets totalement nouveaux.
     De même, le modèle de traitement spécifié dans le présent document peut être étendu dans le temps en fonction de l'évolution des initiatives de normalisation applicables, conformément à la méthodologie définie dans l'ISO 12967-1:2020, Article 7, qui identifie un ensemble de services d'informations communs au domaine de la santé, en décrivant les exigences sous-jacentes et la méthodologie en fonction de laquelle ils seront utilisés.
     Les services d'informations spécifiés dans le présent document ne correspondent qu'au plus petit ensemble de services d'informations identifiable en fonction des exigences identifiées de l'entreprise de santé et constituant l'architecture de service (c'est-à-dire la plateforme d'intégration) servant de base aux applications de santé, par exemple DIS ou administration des patients.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO12967-3-2009
     type: standard
-    docid:
-    - id: ISO 12967-3:2009
+    formattedref: ISO 12967-3:2009
+    docidentifier:
+    - content: ISO 12967-3:2009
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 12967-3:2009
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '71039'
     type: ISO
+    project_number:
+      content: '71039'

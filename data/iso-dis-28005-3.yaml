@@ -1,83 +1,70 @@
 ---
-schema-version: v1.2.8
 id: ISO/DIS28005-3
-title:
-- content: Ships and marine technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Electronic port clearance (EPC)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: Data elements for ship and port operation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Ships and marine technology - Electronic port clearance (EPC) - Part 3:
-    Data elements for ship and port operation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Titre manque - Partie 3: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83631.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:83631:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/36/83631.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 28005-3
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Ships and marine technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electronic port clearance (EPC)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: Data elements for ship and port operation'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Ships and marine technology - Electronic port clearance (EPC) - Part 3:
+    Data elements for ship and port operation'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Titre manque'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Titre manque - Partie 3: Titre manque'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83631.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:83631:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/36/83631.detail.rss
+docidentifier:
+- content: ISO/DIS 28005-3
   type: ISO
   primary: true
-- id: ISO/DIS 28005-3(E)
+- content: ISO/DIS 28005-3(E)
   type: iso-reference
-- id: urn:iso:std:iso:28005:-3:stage-draft
+- content: urn:iso:std:iso:28005:-3:stage-draft
   type: URN
 docnumber: '28005'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -86,7 +73,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides technical specifications to facilitate an efficient exchange of electronic information between ships and shore, for coastal transit and port calls, with specific focus on the operational data exchange. It specifies requirements for the safety, security and efficiency enhancement of information.
     This document provides the definition of core data elements for use in electronic port clearance (EPC) messages. It does not define any structuring of messages; it is a general data dictionary for safety, security and operation-related maritime information. Details about message formats and applications are defined in ISO 28005-1.
     The data elements in this document are a superset of the data elements and the data model defined in the IMO Compendium on Facilitation and Electronic Business. The mapping between data elements in this standard and the data elements in the IMO Compendium isdefined in Annex A.
@@ -105,12 +94,9 @@ abstract:
     ·        Waste Delivery Report
     ·        Advanced Passenger Information
     ·        Verified Gross Mass
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document provides technical specifications to facilitate an efficient exchange of electronic information between ships and shore, for coastal transit and port calls, with specific focus on the operational data exchange. It specifies requirements for the safety, security and efficiency enhancement of information.
     This document provides the definition of core data elements for use in electronic port clearance (EPC) messages. It does not define any structuring of messages; it is a general data dictionary for safety, security and operation-related maritime information. Details about message formats and applications are defined in ISO 28005-1.
     The data elements in this document are a superset of the data elements and the data model defined in the IMO Compendium on Facilitation and Electronic Business. The mapping between data elements in this standard and the data elements in the IMO Compendium isdefined in Annex A.
@@ -129,39 +115,37 @@ abstract:
     ·        Waste Delivery Report
     ·        Advanced Passenger Information
     ·        Verified Gross Mass
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Intermodal and Short Sea Shipping
-    number: 8
-    type: TC
-    identifier: ISO/TC 8/SC 11
-ics:
-- code: 35.240.60
-  text: IT applications in transport
-- code: 47.020.99
-  text: Other standards related to shipbuilding and marine structures
-structuredidentifier:
-  project_number: ISO 28005
-  part: '3'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 8
+      type: TC
+      identifier: ISO/TC 8/SC 11
+      content: Intermodal and Short Sea Shipping
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  - code: 47.020.99
+    text: Other standards related to shipbuilding and marine structures
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 3
+      content: ISO 28005

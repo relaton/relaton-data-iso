@@ -1,77 +1,66 @@
 ---
-schema-version: v1.2.9
 id: IEC/DIS61400-4
-title:
-- content: Wind energy generation systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 4: Design requirements for wind turbine gearboxes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Wind energy generation systems - Part 4: Design requirements for wind
-    turbine gearboxes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de génération d’énergie éolienne
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 4: Exigences de conception des boîtes de vitesses des éoliennes'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Systèmes de génération d’énergie éolienne - Partie 4: Exigences de conception
-    des boîtes de vitesses des éoliennes'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81370.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:81370:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/13/81370.detail.rss
-  type: rss
 type: standard
-docid:
-- id: IEC/DIS 61400-4
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Wind energy generation systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 4: Design requirements for wind turbine gearboxes'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Wind energy generation systems - Part 4: Design requirements for wind
+    turbine gearboxes'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de génération d’énergie éolienne
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 4: Exigences de conception des boîtes de vitesses des éoliennes'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes de génération d’énergie éolienne - Partie 4: Exigences de conception
+    des boîtes de vitesses des éoliennes'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81370.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81370:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/13/81370.detail.rss
+docidentifier:
+- content: IEC/DIS 61400-4
   type: ISO
   primary: true
-- id: IEC/DIS 61400-4(E)
+- content: IEC/DIS 61400-4(E)
   type: iso-reference
-- id: urn:iso:std:iec:61400:-4:stage-draft
+- content: urn:iso:std:iec:61400:-4:stage-draft
   type: URN
 docnumber: '61400'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -79,46 +68,46 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: IEC/DIS
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: IEC/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: IEC61400-4-2012
     type: standard
-    docid:
-    - id: IEC 61400-4:2012
+    formattedref: IEC 61400-4:2012
+    docidentifier:
+    - content: IEC 61400-4:2012
       type: ISO
       primary: true
-    formattedref:
-      content: IEC 61400-4:2012
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Gears
-    number: 60
-    type: TC
-    identifier: ISO/TC 60
-ics:
-- code: '21.200'
-  text: Gears
-- code: '27.180'
-  text: Wind turbine energy systems
-structuredidentifier:
-  project_number: IEC 61400
-  part: '4'
-  type: IEC
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 60
+      type: TC
+      identifier: ISO/TC 60
+      content: Gears
+  ics:
+  - code: '21.200'
+    text: Gears
+  - code: '27.180'
+    text: Wind turbine energy systems
+  structuredidentifier:
+    type: IEC
+    project_number:
+      part: 4
+      content: IEC 61400

@@ -1,75 +1,64 @@
 ---
-schema-version: v1.2.9
 id: ISO/DTR18155
-title:
-- content: Railway applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Principles of train detection for operations and services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Railway applications - Principles of train detection for operations and
-    services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Applications ferroviaires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Principes de détection des trains pour les opérations et services
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Applications ferroviaires - Principes de détection des trains pour les
-    opérations et services
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85197.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/51/85197.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DTR 18155
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Railway applications
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Principles of train detection for operations and services
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Railway applications - Principles of train detection for operations and
+    services
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Applications ferroviaires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Principes de détection des trains pour les opérations et services
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Applications ferroviaires - Principes de détection des trains pour les
+    opérations et services
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85197.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/51/85197.detail.rss
+docidentifier:
+- content: ISO/DTR 18155
   type: ISO
   primary: true
-- id: ISO/DTR 18155(E)
+- content: ISO/DTR 18155(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:18155:stage-draft
+- content: urn:iso:std:iso:tr:18155:stage-draft
   type: URN
 docnumber: '18155'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -78,7 +67,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     The scope of this document is to provide generic principles of train detection, related operation management principles, and to show the link between them. It provides non-technical guidance for supporting the choice of a suitable train detection method relating to railway operation.
     It includes:
     - the generic principles of train detection.
@@ -90,12 +81,9 @@ abstract:
     It excludes:
     - any technical requirements of specific train detection devices which are in the scope of IEC/TC9.
     - technical aspects of any future train detection technology covered in IEC/TC9.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     The scope of this document is to provide generic principles of train detection, related operation management principles, and to show the link between them. It provides non-technical guidance for supporting the choice of a suitable train detection method relating to railway operation.
     It includes:
     - the generic principles of train detection.
@@ -107,38 +95,36 @@ abstract:
     It excludes:
     - any technical requirements of specific train detection devices which are in the scope of IEC/TC9.
     - technical aspects of any future train detection technology covered in IEC/TC9.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DTR
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DTR
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Operations and services
-      number: 269
+    - number: 269
       type: TC
       identifier: ISO/TC 269/SC 3
+      content: Operations and services
   ics:
   - code: '93.100'
     text: Construction of railways
   - code: 45.060.01
     text: Railway rolling stock in general
   structuredidentifier:
-    project_number: '85197'
     type: ISO
+    project_number:
+      content: '85197'

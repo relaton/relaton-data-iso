@@ -1,65 +1,68 @@
+---
+type: standard
+schema_version: v1.4.1
 title:
-- type: title-intro
+- language: en
+  script: Latn
   content: ISO/IEC Directives Part 1 + IEC Supplement
-  language: en
+  type: title-intro
+- language: en
   script: Latn
-- type: title-main
   content: Procedures for the technical work
-  language: en
+  type: title-main
+- language: en
   script: Latn
-- type: title-part
   content: Procedures specific to IEC
-  language: en
+  type: title-part
+- language: fr
   script: Latn
-- type: title-intro
   content: Directives ISO/IEC Partie 1 + Supplément IEC
-  language: fr
-  script: Latn
+  type: title-intro
   format: text/plain
-- type: title-main
+- language: fr
+  script: Latn
   content: Procédure pour les travaux techniques
-  language: fr
+  type: title-main
+- language: fr
   script: Latn
-- type: title-part
   content: Procédures spécifiques à l'CEI
-  language: fr
-  script: Latn
-
-link:
+  type: title-part
+source:
 - type: src
   content: https://web.archive.org/web/20220308023307/https://www.iec.ch/members_experts/refdocs/iec/isoiecdir1-consolidatedIECsup%7Bed16.0.RLV%7Den.pdf
-
-type: standard
-doctype: directive
-
-docid:
-  id: ISO/IEC DIR 1 + IEC SUP:2020-05
+docidentifier:
+- content: ISO/IEC DIR 1 + IEC SUP:2020-05
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2020-05-13'
-
-edition: "16"
-
+- type: published
+  at: '2020-05-13'
+edition:
+  content: '16'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
+- from: '2003'
   owner:
-    name: International Electrotechnical Commission
-    abbreviation: IEC
-    url: iec.ch
-  from: '2003'
-
+  - organization:
+      uri:
+      - content: iec.ch
+      name:
+      - content: International Electrotechnical Commission
+      abbreviation:
+        content: IEC
 relation:
-  - type: partOf
-    bibitem:
-      formattedref: ISO/IEC DIR 1 + IEC SUP
-      docid:
-        - id: ISO/IEC DIR 1 + IEC SUP
-          type: ISO
-          primary: true
+- type: partOf
+  bibitem:
+    formattedref: ISO/IEC DIR 1 + IEC SUP
+    docidentifier:
+    - content: ISO/IEC DIR 1 + IEC SUP
+      type: ISO
+      primary: true
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

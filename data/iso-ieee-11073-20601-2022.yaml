@@ -1,108 +1,97 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEEE11073-20601-2022
+type: standard
+schema_version: v1.4.1
 title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics
   type: title-intro
-- content: Device interoperability
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Device interoperability
   type: title-main
-- content: 'Part 20601: Personal health device communication — Application profile
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 20601: Personal health device communication — Application profile
     — Optimized exchange protocol'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: 'Health informatics - Device interoperability - Part 20601: Personal health
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Health informatics - Device interoperability - Part 20601: Personal health
     device communication — Application profile — Optimized exchange protocol'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Informatique de santé —Interopérabilité des dispositifs
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé —Interopérabilité des dispositifs
   type: title-main
-- content: 'Partie 20601: Communication entre dispositifs de santé personnels — Profil
-    d''application — Protocole d''échange optimisé'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 20601: Communication entre dispositifs de santé personnels — Profil
+    d''application — Protocole d''échange optimisé'
   type: title-part
-- content: 'Informatique de santé —Interopérabilité des dispositifs - Partie 20601:
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Informatique de santé —Interopérabilité des dispositifs - Partie 20601:
     Communication entre dispositifs de santé personnels — Profil d''application —
     Protocole d''échange optimisé'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/84781.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:84781:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/47/84781.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEEE 11073-20601:2022
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84781.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:84781:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/47/84781.detail.rss
+docidentifier:
+- content: ISO/IEEE 11073-20601:2022
   type: ISO
   primary: true
-- id: ISO/IEEE 11073-20601:2022(E)
+- content: ISO/IEEE 11073-20601:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso-ieee:11073:-20601:stage-60.60
+- content: urn:iso:std:iso-ieee:11073:-20601:stage-published
   type: URN
 docnumber: '11073'
 date:
 - type: published
-  value: 2022-12
+  at: 2022-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.ieee.org
     name:
     - content: Institute of Electrical and Electronics Engineers
     abbreviation:
       content: IEEE
-    url: www.ieee.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2022-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Within the context of the ISO/IEEE 11073 personal health device standard
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 personal health device standard
     family, this document defines an optimized exchange protocol and modeling techniques
     to be used by implementers of personal health devices to create interoperability
     between device types and vendors. This document establishes a common framework
@@ -111,12 +100,9 @@ abstract:
     to provide presentation capabilities and services needed to perform communication
     tasks. The protocol is optimized to personal health usage requirements and leverages
     commonly used methods and tools wherever possible.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Within the context of the ISO/IEEE 11073 personal health device standard
+- language: fr
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 personal health device standard
     family, this document defines an optimized exchange protocol and modeling techniques
     to be used by implementers of personal health devices to create interoperability
     between device types and vendors. This document establishes a common framework
@@ -125,59 +111,51 @@ abstract:
     to provide presentation capabilities and services needed to perform communication
     tasks. The protocol is optimized to personal health usage requirements and leverages
     commonly used methods and tools wherever possible.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEEE
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEEE
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEEE11073-20601-2016
     type: standard
-    docid:
-    - id: ISO/IEEE 11073-20601:2016
+    formattedref: ISO/IEEE 11073-20601:2016
+    docidentifier:
+    - content: ISO/IEEE 11073-20601:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEEE 11073-20601:2016
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEEE11073-20601-2016/Cor1-2016
     type: standard
-    docid:
-    - id: ISO/IEEE 11073-20601:2016/Cor 1:2016
+    formattedref: ISO/IEEE 11073-20601:2016/Cor 1:2016
+    docidentifier:
+    - content: ISO/IEEE 11073-20601:2016/Cor 1:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEEE 11073-20601:2016/Cor 1:2016
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '84781'
     type: ISO
+    project_number:
+      content: '84781'

@@ -1,110 +1,97 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTS27100-2020
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cybersecurity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Overview and concepts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Cybersecurity - Overview and concepts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information technology
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cybersecurity
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Overview and concepts
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Cybersecurity - Overview and concepts
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/72434.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:72434:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/24/72434.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TS 27100:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Cybersecurity
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Overview and concepts
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Cybersecurity - Overview and concepts
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cybersecurity
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Overview and concepts
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information technology - Cybersecurity - Overview and concepts
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/72434.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:72434:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/24/72434.detail.rss
+docidentifier:
+- content: ISO/IEC TS 27100:2020
   type: ISO
   primary: true
-- id: ISO/IEC TS 27100:2020(E)
+- content: ISO/IEC TS 27100:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:ts:27100:stage-90.93
+- content: urn:iso:std:iso-iec:ts:27100:stage-90.93
   type: URN
 docnumber: '27100'
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides an overview of cybersecurity.
     This document:
     —     describes cybersecurity and relevant concepts, including how it is related to and different from information security;
@@ -112,12 +99,9 @@ abstract:
     —     does not cover all terms and definitions applicable to cybersecurity; and
     —     does not limit other standards in defining new cybersecurity-related terms for use.
     This document is applicable to all types and sizes of organization (e.g. commercial enterprises, government agencies, not-for-profit organizations).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document provides an overview of cybersecurity.
     This document:
     —     describes cybersecurity and relevant concepts, including how it is related to and different from information security;
@@ -125,36 +109,34 @@ abstract:
     —     does not cover all terms and definitions applicable to cybersecurity; and
     —     does not limit other standards in defining new cybersecurity-related terms for use.
     This document is applicable to all types and sizes of organization (e.g. commercial enterprises, government agencies, not-for-profit organizations).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '72434'
     type: ISO
+    project_number:
+      content: '72434'

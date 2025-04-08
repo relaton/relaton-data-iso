@@ -1,97 +1,88 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC13712-1-1995
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Remote Operations: Concepts, model and notation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Information technology - Remote Operations: Concepts, model and notation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Opérations distantes: Concepts, modèle et notation'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Technologies de l''information - Opérations distantes: Concepts, modèle
-    et notation'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/22301.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:22301:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/02/23/22301.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 13712-1:1995
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Remote Operations: Concepts, model and notation'
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Remote Operations: Concepts, model and notation'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Opérations distantes: Concepts, modèle et notation'
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Opérations distantes: Concepts, modèle
+    et notation'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/22301.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:22301:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/23/22301.detail.rss
+docidentifier:
+- content: ISO/IEC 13712-1:1995
   type: ISO
   primary: true
-- id: ISO/IEC 13712-1:1995(E)
+- content: ISO/IEC 13712-1:1995(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:13712:-1:stage-90.93
+- content: urn:iso:std:iso-iec:13712:-1:stage-90.93
   type: URN
 docnumber: '13712'
 date:
 - type: published
-  value: 1995-09
+  at: 1995-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1995-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Describes the concepts and model of ROS. It uses ASN.1 to specify information
+- language: en
+  script: Latn
+  content: Describes the concepts and model of ROS. It uses ASN.1 to specify information
     object classes corresponding to the fundamental concepts of ROS, such as operation
     and error. This in turn provides a notation so that designers can specify particular
     instances of those classes, e.g. particular operations and errors. It provides
@@ -99,12 +90,9 @@ abstract:
     remote from one another. These PDUs are used in the OSI realization of ROS, which
     are specified in the respective Recommendations (International Standards). Partial
     revision of ISO/IEC 9072-1 und ISO/IEC 9072-2.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Describes the concepts and model of ROS. It uses ASN.1 to specify information
+- language: fr
+  script: Latn
+  content: Describes the concepts and model of ROS. It uses ASN.1 to specify information
     object classes corresponding to the fundamental concepts of ROS, such as operation
     and error. This in turn provides a notation so that designers can specify particular
     instances of those classes, e.g. particular operations and errors. It provides
@@ -112,87 +100,73 @@ abstract:
     remote from one another. These PDUs are used in the OSI realization of ROS, which
     are specified in the respective Recommendations (International Standards). Partial
     revision of ISO/IEC 9072-1 und ISO/IEC 9072-2.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC9072-1-1989
     type: standard
-    docid:
-    - id: ISO/IEC 9072-1:1989
+    formattedref: ISO/IEC 9072-1:1989
+    docidentifier:
+    - content: ISO/IEC 9072-1:1989
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 9072-1:1989
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEC9072-2-1989
     type: standard
-    docid:
-    - id: ISO/IEC 9072-2:1989
+    formattedref: ISO/IEC 9072-2:1989
+    docidentifier:
+    - content: ISO/IEC 9072-2:1989
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 9072-2:1989
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC13712-1-1995/Cor1-1996
     type: standard
-    docid:
-    - id: ISO/IEC 13712-1:1995/Cor 1:1996
+    formattedref: ISO/IEC 13712-1:1995/Cor 1:1996
+    docidentifier:
+    - content: ISO/IEC 13712-1:1995/Cor 1:1996
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2001-06-28'
-    formattedref:
-      content: ISO/IEC 13712-1:1995/Cor 1:1996
-      format: text/plain
+      at: '2001-06-28'
 - type: updates
   bibitem:
-    id: ISO/IEC13712-1-1995/Amd1-1996
     type: standard
-    docid:
-    - id: ISO/IEC 13712-1:1995/Amd 1:1996
+    formattedref: ISO/IEC 13712-1:1995/Amd 1:1996
+    docidentifier:
+    - content: ISO/IEC 13712-1:1995/Amd 1:1996
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2001-06-28'
-    formattedref:
-      content: ISO/IEC 13712-1:1995/Amd 1:1996
-      format: text/plain
+      at: '2001-06-28'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: 35.240.20
     text: IT applications in office work
   structuredidentifier:
-    project_number: '22301'
     type: ISO
+    project_number:
+      content: '22301'

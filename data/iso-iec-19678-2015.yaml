@@ -1,96 +1,87 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC19678-2015
-title:
-- content: Information Technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: BIOS Protection Guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information Technology - BIOS Protection Guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Lignes directrices de protection BIOS
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information - Lignes directrices de protection BIOS
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/65998.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:65998:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/59/65998.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 19678:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information Technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: BIOS Protection Guidelines
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information Technology - BIOS Protection Guidelines
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Lignes directrices de protection BIOS
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Lignes directrices de protection BIOS
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/65998.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:65998:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/59/65998.detail.rss
+docidentifier:
+- content: ISO/IEC 19678:2015
   type: ISO
   primary: true
-- id: ISO/IEC 19678:2015(E)
+- content: ISO/IEC 19678:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:19678:stage-90.60
+- content: urn:iso:std:iso-iec:19678:stage-90.60
   type: URN
 docnumber: '19678'
 date:
 - type: published
-  value: 2015-05
+  at: 2015-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2015-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 19678:2015 provides requirements and guidelines for preventing the
+- language: en
+  script: Latn
+  content: "ISO 19678:2015 provides requirements and guidelines for preventing the
     unauthorized modification of Basic Input/Output System (BIOS) firmware on PC client
     systems. Unauthorized modification of BIOS firmware by malicious software constitutes
     a significant threat because of the BIOS's unique and privileged position within
@@ -108,12 +99,9 @@ abstract:
     for managing the BIOS in an operational environment. \nWhile this International
     Standard focuses on current and future x86 and x64 client platforms, the controls
     and procedures are independent of any particular system design."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO 19678:2015 provides requirements and guidelines for preventing the
+- language: fr
+  script: Latn
+  content: "ISO 19678:2015 provides requirements and guidelines for preventing the
     unauthorized modification of Basic Input/Output System (BIOS) firmware on PC client
     systems. Unauthorized modification of BIOS firmware by malicious software constitutes
     a significant threat because of the BIOS's unique and privileged position within
@@ -131,36 +119,34 @@ abstract:
     for managing the BIOS in an operational environment. \nWhile this International
     Standard focuses on current and future x86 and x64 client platforms, the controls
     and procedures are independent of any particular system design."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: '35.080'
     text: Software
   structuredidentifier:
-    project_number: '65998'
     type: ISO
+    project_number:
+      content: '65998'

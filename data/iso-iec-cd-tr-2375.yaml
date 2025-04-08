@@ -1,69 +1,64 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECCDTR2375
-title:
-- content: Information technology – Registered escape sequences and coded character
-    sets
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology – Registered escape sequences and coded character
-    sets
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85288.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/52/85288.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC CD TR 2375
+schema_version: v1.4.1
+fetched: '2024-01-17'
+title:
+- language: en
+  script: Latn
+  content: Information technology – Registered escape sequences and coded character
+    sets
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology – Registered escape sequences and coded character
+    sets
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85288.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/52/85288.detail.rss
+docidentifier:
+- content: ISO/IEC CD TR 2375
   type: ISO
   primary: true
-- id: ISO/IEC CD TR 2375(E)
+- content: ISO/IEC CD TR 2375(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:tr:2375:stage-draft
+- content: urn:iso:std:iso-iec:tr:2375:stage-draft
   type: URN
 docnumber: '2375'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -72,7 +67,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 2375:2003 specifies the procedures to be followed for preparing, maintaining, and publishing a register of escape sequences and of the coded character sets they identify.
     The registration process specified in ISO/IEC 2375:2003 is not a procedure for standardization of characters or coded character sets. Organizations that wish ISO and/or IEC to create an international standard for a coded character set or that wish ISO and/or IEC to code additional characters into ISO/IEC 10646 need to follow the ISO/IEC procedures for doing so.
     In particular,
@@ -82,12 +79,9 @@ abstract:
     The use of these escape sequences includes code extension, that is, the provision of additional sets of characters, or of additional control functions, in accordance with ISO/IEC 2022.
     An escape sequence registered in accordance with ISO/IEC 2375:2003 serves as an identification of the character, the set of characters, or the control function associated with it in the register.
     The registration itself does not specify the rules in accordance with which a character or character set identified by an escape sequence is to be used. Rather, the registration identifies the documents (for example, standards) which specify such rules.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 2375:2003 specifies the procedures to be followed for preparing, maintaining, and publishing a register of escape sequences and of the coded character sets they identify.
     The registration process specified in ISO/IEC 2375:2003 is not a procedure for standardization of characters or coded character sets. Organizations that wish ISO and/or IEC to create an international standard for a coded character set or that wish ISO and/or IEC to code additional characters into ISO/IEC 10646 need to follow the ISO/IEC procedures for doing so.
     In particular,
@@ -97,49 +91,43 @@ abstract:
     The use of these escape sequences includes code extension, that is, the provision of additional sets of characters, or of additional control functions, in accordance with ISO/IEC 2022.
     An escape sequence registered in accordance with ISO/IEC 2375:2003 serves as an identification of the character, the set of characters, or the control function associated with it in the register.
     The registration itself does not specify the rules in accordance with which a character or character set identified by an escape sequence is to be used. Rather, the registration identifies the documents (for example, standards) which specify such rules.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC2375-2003
     type: standard
-    docid:
-    - id: ISO/IEC 2375:2003
+    formattedref: ISO/IEC 2375:2003
+    docidentifier:
+    - content: ISO/IEC 2375:2003
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 2375:2003
-      format: text/plain
 place:
-- Geneva
-fetched: '2024-01-17'
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Coded character sets
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 2
-ics:
-- code: 35.040.10
-  text: Coding of character sets
-structuredidentifier:
-  project_number: ISO 2375
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 2
+      content: Coded character sets
+  ics:
+  - code: 35.040.10
+    text: Coding of character sets
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 2375

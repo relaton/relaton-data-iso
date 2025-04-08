@@ -1,98 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTR5891-2024
-title:
-- content: Information security, cybersecurity and privacy protection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Hardware monitoring technology for hardware security assessment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information security, cybersecurity and privacy protection - Hardware monitoring
-    technology for hardware security assessment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Sécurité de l’information, cybersécurité et protection de la vie privée
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Technologie de surveillance des matériels pour l'évaluation de leur sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Sécurité de l’information, cybersécurité et protection de la vie privée
-    - Technologie de surveillance des matériels pour l'évaluation de leur sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81806.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:81806:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/18/81806.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TR 5891:2024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information security, cybersecurity and privacy protection
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Hardware monitoring technology for hardware security assessment
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information security, cybersecurity and privacy protection - Hardware monitoring
+    technology for hardware security assessment
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sécurité de l’information, cybersécurité et protection de la vie privée
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie de surveillance des matériels pour l'évaluation de leur sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sécurité de l’information, cybersécurité et protection de la vie privée
+    - Technologie de surveillance des matériels pour l'évaluation de leur sécurité
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81806.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81806:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/18/81806.detail.rss
+docidentifier:
+- content: ISO/IEC TR 5891:2024
   type: ISO
   primary: true
-- id: ISO/IEC TR 5891:2024(E)
+- content: ISO/IEC TR 5891:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:tr:5891:stage-60.60
+- content: urn:iso:std:iso-iec:tr:5891:stage-published
   type: URN
 docnumber: '5891'
 date:
 - type: published
-  value: 2024-04
+  at: 2024-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This document surveys and summarizes the existing hardware monitoring
+- language: en
+  script: Latn
+  content: "This document surveys and summarizes the existing hardware monitoring
     methods, including research efforts and industrial applications. The explored
     monitoring technologies are classified by applied area, carrier type, target entity,
     objective pattern, and method of deployment. Moreover, this document summarizes
@@ -106,12 +97,9 @@ abstract:
     monitored target is for the post-silicon phase, not for the design-house phase
     (e.g. an RTL or netlist design);\n—     monitoring is only applied to the runtime
     system."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document surveys and summarizes the existing hardware monitoring
+- language: fr
+  script: Latn
+  content: "This document surveys and summarizes the existing hardware monitoring
     methods, including research efforts and industrial applications. The explored
     monitoring technologies are classified by applied area, carrier type, target entity,
     objective pattern, and method of deployment. Moreover, this document summarizes
@@ -125,36 +113,34 @@ abstract:
     monitored target is for the post-silicon phase, not for the design-house phase
     (e.g. an RTL or netlist design);\n—     monitoring is only applied to the runtime
     system."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '81806'
     type: ISO
+    project_number:
+      content: '81806'

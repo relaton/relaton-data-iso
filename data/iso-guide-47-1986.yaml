@@ -1,72 +1,66 @@
 ---
-schema-version: v1.2.9
 id: ISOGuide47-1986
-title:
-- content: Presentation of translations of ISO publications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Presentation of translations of ISO publications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Présentation des traductions des publications de l'ISO
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Présentation des traductions des publications de l'ISO
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/19753.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/97/19753.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO Guide 47:1986
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Presentation of translations of ISO publications
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Presentation of translations of ISO publications
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Présentation des traductions des publications de l'ISO
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Présentation des traductions des publications de l'ISO
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/19753.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/97/19753.detail.rss
+docidentifier:
+- content: ISO Guide 47:1986
   type: ISO
   primary: true
-- id: ISO Guide 47:1986(E)
+- content: ISO Guide 47:1986(E)
   type: iso-reference
-- id: urn:iso:std:iso:guide:47:stage-95.99
+- content: urn:iso:std:iso:guide:47:stage-95.99
   type: URN
 docnumber: '47'
 date:
 - type: published
-  value: 1986-10
+  at: 1986-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1986-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This Guide establishes rules for the presentation of translations of ISO
+- language: en
+  script: Latn
+  content: This Guide establishes rules for the presentation of translations of ISO
     publications into languages other than the official ISO languages. It applies
     to translations of draft International Standards, International Standards, Technical
     Reports, Guides, other copyrighted ISO publications. It does not apply to translations
@@ -74,12 +68,9 @@ abstract:
     or regional standards. This Guide has been drawn up with the object of achieving
     a degree of uniformity in the presentation of these translations so that their
     origin and status may be easily recognized.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This Guide establishes rules for the presentation of translations of ISO
+- language: fr
+  script: Latn
+  content: This Guide establishes rules for the presentation of translations of ISO
     publications into languages other than the official ISO languages. It applies
     to translations of draft International Standards, International Standards, Technical
     Reports, Guides, other copyrighted ISO publications. It does not apply to translations
@@ -87,35 +78,33 @@ abstract:
     or regional standards. This Guide has been drawn up with the object of achieving
     a degree of uniformity in the presentation of these translations so that their
     origin and status may be easily recognized.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: guide
+    content: guide
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical Management Board - groups
-      type: TMBG
+    - type: TMBG
       identifier: ISO/TMBG
+      content: Technical Management Board - groups
   ics:
   - code: '01.120'
     text: Standardization. General rules
   structuredidentifier:
-    project_number: '19753'
     type: ISO
+    project_number:
+      content: '19753'

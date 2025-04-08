@@ -1,97 +1,88 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC9579-2000
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Remote database access for SQL with security enhancement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Remote database access for SQL with security enhancement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Accès à la base de données à distance pour SQL avec sécurité accrue
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information - Accès à la base de données à distance pour
-    SQL avec sécurité accrue
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/30615.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:30615:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/06/30615.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 9579:2000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Remote database access for SQL with security enhancement
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Remote database access for SQL with security enhancement
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Accès à la base de données à distance pour SQL avec sécurité accrue
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Accès à la base de données à distance pour
+    SQL avec sécurité accrue
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/30615.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:30615:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/06/30615.detail.rss
+docidentifier:
+- content: ISO/IEC 9579:2000
   type: ISO
   primary: true
-- id: ISO/IEC 9579:2000(E)
+- content: ISO/IEC 9579:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:9579:stage-90.93
+- content: urn:iso:std:iso-iec:9579:stage-90.93
   type: URN
 docnumber: '9579'
 date:
 - type: published
-  value: 2000-02
+  at: 2000-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2000-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard, Remote Database Access for SQL (RDA), defines a model for the remote
     interaction of an SQL-client and one or more SQL-servers through communication media, and defines
     the encoding of messages, the semantics of messages and associated facilities for mediating the
@@ -131,12 +122,9 @@ abstract:
     ? mechanisms for recovery in the event that transaction co-ordination fails,
     ? mechanisms for storage integrity and confidentiality using cryptography,
     ? mechanisms to counter Denial of Service attacks.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This International Standard, Remote Database Access for SQL (RDA), defines a model for the remote
     interaction of an SQL-client and one or more SQL-servers through communication media, and defines
     the encoding of messages, the semantics of messages and associated facilities for mediating the
@@ -176,48 +164,43 @@ abstract:
     ? mechanisms for recovery in the event that transaction co-ordination fails,
     ? mechanisms for storage integrity and confidentiality using cryptography,
     ? mechanisms to counter Denial of Service attacks.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC9579-1999
     type: standard
-    docid:
-    - id: ISO/IEC 9579:1999
+    formattedref: ISO/IEC 9579:1999
+    docidentifier:
+    - content: ISO/IEC 9579:1999
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 9579:1999
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Data management and interchange
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 32
+      content: Data management and interchange
   ics:
   - code: 35.100.70
     text: Application layer
   structuredidentifier:
-    project_number: '30615'
     type: ISO
+    project_number:
+      content: '30615'

@@ -1,82 +1,74 @@
 ---
-schema-version: v1.2.9
 id: ISO/TS22692-2020
-title:
-- content: Genomics informatics— Quality control metrics for DNA sequencing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Genomics informatics— Quality control metrics for DNA sequencing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique génomique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mesures de contrôle de la qualité pour le séquençage de l'ADN
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique génomique - Mesures de contrôle de la qualité pour le séquençage
-    de l'ADN
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/73693.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:73693:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/36/73693.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TS 22692:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Genomics informatics— Quality control metrics for DNA sequencing
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Genomics informatics— Quality control metrics for DNA sequencing
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique génomique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mesures de contrôle de la qualité pour le séquençage de l'ADN
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique génomique - Mesures de contrôle de la qualité pour le séquençage
+    de l'ADN
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/73693.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:73693:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/36/73693.detail.rss
+docidentifier:
+- content: ISO/TS 22692:2020
   type: ISO
   primary: true
-- id: ISO/TS 22692:2020(E)
+- content: ISO/TS 22692:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:22692:stage-90.92
+- content: urn:iso:std:iso:ts:22692:stage-90.92
   type: URN
 docnumber: '22692'
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This document identifies quality metrics for the detection of DNA variants
+- language: en
+  script: Latn
+  content: "This document identifies quality metrics for the detection of DNA variants
     using next generation sequencing (NGS) technology. It also defines the data types,
     relationships, optionality, cardinalities and terminology bindings of the data.
     \nThis document provides a basis for sharing and for the application of \"high
@@ -90,12 +82,9 @@ abstract:
     other than NGS, such as the Sanger sequencing,\n—          targets other than
     genome, such as transcriptome or proteome, or\n—          specimens of species
     other than humans."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document identifies quality metrics for the detection of DNA variants
+- language: fr
+  script: Latn
+  content: "This document identifies quality metrics for the detection of DNA variants
     using next generation sequencing (NGS) technology. It also defines the data types,
     relationships, optionality, cardinalities and terminology bindings of the data.
     \nThis document provides a basis for sharing and for the application of \"high
@@ -109,48 +98,43 @@ abstract:
     other than NGS, such as the Sanger sequencing,\n—          targets other than
     genome, such as transcriptome or proteome, or\n—          specimens of species
     other than humans."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TS
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/CD22692
     type: standard
-    docid:
-    - id: ISO/CD 22692
+    formattedref: ISO/CD 22692
+    docidentifier:
+    - content: ISO/CD 22692
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/CD 22692
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Genomics Informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215/SC 1
+      content: Genomics Informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '73693'
     type: ISO
+    project_number:
+      content: '73693'

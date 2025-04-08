@@ -1,98 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC19513-2017
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Object Management Group Unified Profile for DoDAF and MODAF (UPDM), 2.1.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Object Management Group Unified Profile for DoDAF
-    and MODAF (UPDM), 2.1.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Profil unifié pour DoDAF et MODAF (UPDM) de l'OMG, 2.1.1
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information - Profil unifié pour DoDAF et MODAF (UPDM)
-    de l'OMG, 2.1.1
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/65355.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:65355:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/53/65355.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 19513:2017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Object Management Group Unified Profile for DoDAF and MODAF (UPDM), 2.1.1
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Object Management Group Unified Profile for DoDAF
+    and MODAF (UPDM), 2.1.1
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Profil unifié pour DoDAF et MODAF (UPDM) de l'OMG, 2.1.1
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Profil unifié pour DoDAF et MODAF (UPDM)
+    de l'OMG, 2.1.1
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/65355.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:65355:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/53/65355.detail.rss
+docidentifier:
+- content: ISO/IEC 19513:2017
   type: ISO
   primary: true
-- id: ISO/IEC 19513:2017(E)
+- content: ISO/IEC 19513:2017(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:19513:stage-90.60
+- content: urn:iso:std:iso-iec:19513:stage-90.60
   type: URN
 docnumber: '19513'
 date:
 - type: published
-  value: 2017-10
+  at: 2017-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2017-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: 'This International Standard provides a specification language, UPDM, that
+- language: en
+  script: Latn
+  content: 'This International Standard provides a specification language, UPDM, that
     is readily understandable not only by the community of architects of information
     technology systems but also by a wide range of end users including executives
     and enterprise management that sponsor such systems, program managers that oversee
@@ -117,12 +108,9 @@ abstract:
     in Figure 1.1, addresses DoDAF and MODAF Viewpoints as well as enabling extensions
     to new architecture perspectives (e.g., Services views, Custom views, Logistics
     views cost views, etc.). MODAF terminology has been used for simplicity.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 'This International Standard provides a specification language, UPDM, that
+- language: fr
+  script: Latn
+  content: 'This International Standard provides a specification language, UPDM, that
     is readily understandable not only by the community of architects of information
     technology systems but also by a wide range of end users including executives
     and enterprise management that sponsor such systems, program managers that oversee
@@ -147,36 +135,34 @@ abstract:
     in Figure 1.1, addresses DoDAF and MODAF Viewpoints as well as enabling extensions
     to new architecture perspectives (e.g., Services views, Custom views, Logistics
     views cost views, etc.). MODAF terminology has been used for simplicity.'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: '35.080'
     text: Software
   structuredidentifier:
-    project_number: '65355'
     type: ISO
+    project_number:
+      content: '65355'

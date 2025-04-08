@@ -1,142 +1,126 @@
 ---
-schema-version: v1.2.9
 id: ISO/CIE17166-2019
-title:
-- content: Erythema reference action spectrum and standard erythema dose
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Erythema reference action spectrum and standard erythema dose
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Spectre d'action érythémale de référence et dose érythémale normalisée
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Spectre d'action érythémale de référence et dose érythémale normalisée
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/74167.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:74167:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/41/74167.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CIE 17166:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Erythema reference action spectrum and standard erythema dose
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Erythema reference action spectrum and standard erythema dose
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Spectre d'action érythémale de référence et dose érythémale normalisée
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Spectre d'action érythémale de référence et dose érythémale normalisée
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/74167.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74167:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/41/74167.detail.rss
+docidentifier:
+- content: ISO/CIE 17166:2019
   type: ISO
   primary: true
-- id: ISO/CIE 17166:2019(E)
+- content: ISO/CIE 17166:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso-cie:17166:stage-90.92
+- content: urn:iso:std:iso-cie:17166:stage-90.92
   type: URN
 docnumber: '17166'
 date:
 - type: published
-  value: 2019-05
+  at: 2019-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: cie.co.at
     name:
     - content: " International Commission on Illumination"
     abbreviation:
       content: CIE
-    url: cie.co.at
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This document specifies the erythema reference action spectrum, ser(λ),
+- language: en
+  script: Latn
+  content: This document specifies the erythema reference action spectrum, ser(λ),
     and the standard erythema dose (SED).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document specifies the erythema reference action spectrum, ser(λ),
+- language: fr
+  script: Latn
+  content: This document specifies the erythema reference action spectrum, ser(λ),
     and the standard erythema dose (SED).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CIE
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CIE
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO17166-1999
     type: standard
-    docid:
-    - id: ISO 17166:1999
+    formattedref: ISO 17166:1999
+    docidentifier:
+    - content: ISO 17166:1999
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 17166:1999
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/CIECD17166
     type: standard
-    docid:
-    - id: ISO/CIE CD 17166
+    formattedref: ISO/CIE CD 17166
+    docidentifier:
+    - content: ISO/CIE CD 17166
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/CIE CD 17166
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: International Commission on Illumination
-      type: TC
+    - type: TC
       identifier: CIE
+      content: International Commission on Illumination
   ics:
   - code: 17.180.20
     text: Colours and measurement of light
   structuredidentifier:
-    project_number: '74167'
     type: ISO
+    project_number:
+      content: '74167'

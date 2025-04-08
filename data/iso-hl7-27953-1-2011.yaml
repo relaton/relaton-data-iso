@@ -1,106 +1,92 @@
 ---
-schema-version: v1.2.9
 id: ISO/HL727953-1-2011
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Individual case safety reports (ICSRs) in pharmacovigilance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Framework for adverse event reporting'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Health informatics - Individual case safety reports (ICSRs) in pharmacovigilance
-    - Part 1: Framework for adverse event reporting'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Rapports de sécurité de cas individuel (ICSRs) en pharmacovigilance
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Cadre pour rapporter un événement défavorable'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Informatique de santé - Rapports de sécurité de cas individuel (ICSRs)
-    en pharmacovigilance - Partie 1: Cadre pour rapporter un événement défavorable'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/53824.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:53824:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/38/53824.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/HL7 27953-1:2011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Individual case safety reports (ICSRs) in pharmacovigilance
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Framework for adverse event reporting'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Health informatics - Individual case safety reports (ICSRs) in pharmacovigilance
+    - Part 1: Framework for adverse event reporting'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Rapports de sécurité de cas individuel (ICSRs) en pharmacovigilance
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Cadre pour rapporter un événement défavorable'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Informatique de santé - Rapports de sécurité de cas individuel (ICSRs)
+    en pharmacovigilance - Partie 1: Cadre pour rapporter un événement défavorable'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/53824.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:53824:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/38/53824.detail.rss
+docidentifier:
+- content: ISO/HL7 27953-1:2011
   type: ISO
   primary: true
-- id: ISO/HL7 27953-1:2011(E)
+- content: ISO/HL7 27953-1:2011(E)
   type: iso-reference
-- id: urn:iso:std:iso-hl7:27953:-1:stage-90.93
+- content: urn:iso:std:iso-hl7:27953:-1:stage-90.93
   type: URN
 docnumber: '7'
 date:
 - type: published
-  value: 2011-12
+  at: 2011-12
 - type: corrected
-  value: 2012-10
+  at: 2012-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2011-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 27953-1:2011 seeks to establish an international framework for data
+- language: en
+  script: Latn
+  content: "ISO 27953-1:2011 seeks to establish an international framework for data
     exchange and information sharing by providing a common messaging format for transmission
     of ICSRs for adverse drug reactions (ADR), adverse events (AE), product problems
     and consumer complaints that can occur upon the administration or use of one or
@@ -112,45 +98,40 @@ abstract:
     domains. \nThe data elements used in ISO 27953-1:2011 were identified as consistent
     across many of the use cases and can be applied to a variety of reporting scenarios.
     Specific reporting requirements within organizations or regions might vary."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 27953-1:2011 vise à établir un cadre de travail international pour l'échange de données et le partage de l'information en proposant un format de messagerie commun pour la transmission des ICSR relatifs aux effets indésirables des médicaments (EI), aux effets indésirables (EI), aux problèmes liés à un produit et aux plaintes de consommateurs qui peuvent se produire pendant l'administration ou l'utilisation d'un ou plusieurs produits.
     Le format de messagerie est basé sur le Modèle d'information de référence (RIM) HL7 et peut être étendu ou restreint pour s'adapter à diverses exigences de déclaration de cas d'utilisation, tel que décrit dans la section de scénario du présent scrutin. L'ISO 27953-1:2011 sera harmonisée au fil du temps avec d'autres normes HL7 relatives à la déclaration d'incident de sécurité de santé publique et du patient afin de contribuer à garantir que les concepts de base et le vocabulaire de la messagerie sont harmonisés dans les domaines de Déclaration de santé publique et réglementaires.
     Les éléments de données utilisés dans l'ISO 27953-1:2011 ont été jugés pertinents dans un grand nombre des cas d'utilisation et peuvent s'appliquer à une variété de scénarios de déclaration. Les exigences spécifiques de déclaration pouvant varier au sein des organismes ou des régions.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/HL7
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: ISO/HL7
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '53824'
     type: ISO
+    project_number:
+      content: '53824'

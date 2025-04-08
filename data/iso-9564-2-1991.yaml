@@ -1,156 +1,134 @@
 ---
-schema-version: v1.2.9
 id: ISO9564-2-1991
-title:
-- content: Banking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Personal Identification Number management and security
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Approved algorithm(s) for PIN encipherment'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Banking - Personal Identification Number management and security - Part
-    2: Approved algorithm(s) for PIN encipherment'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Banque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Gestion et sécurité du numéro personnel d'identification
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2: Algorithme(s) approuvé(s) pour le chiffrement du PIN'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Banque - Gestion et sécurité du numéro personnel d''identification - Partie
-    2: Algorithme(s) approuvé(s) pour le chiffrement du PIN'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/17310.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/73/17310.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9564-2:1991
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Banking
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Personal Identification Number management and security
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Approved algorithm(s) for PIN encipherment'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Banking - Personal Identification Number management and security - Part
+    2: Approved algorithm(s) for PIN encipherment'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Banque
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion et sécurité du numéro personnel d'identification
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Algorithme(s) approuvé(s) pour le chiffrement du PIN'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Banque - Gestion et sécurité du numéro personnel d''identification - Partie
+    2: Algorithme(s) approuvé(s) pour le chiffrement du PIN'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/17310.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/73/17310.detail.rss
+docidentifier:
+- content: ISO 9564-2:1991
   type: ISO
   primary: true
-- id: ISO 9564-2:1991(E)
+- content: ISO 9564-2:1991(E)
   type: iso-reference
-- id: urn:iso:std:iso:9564:-2:stage-95.99
+- content: urn:iso:std:iso:9564:-2:stage-95.99
   type: URN
 docnumber: '9564'
 date:
 - type: published
-  value: 1991-12
+  at: 1991-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1991-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the definition of the data encryption algorithm (DEA) as given
+- language: en
+  script: Latn
+  content: Specifies the definition of the data encryption algorithm (DEA) as given
     in ANSI X3.92:1981.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente partie de l'ISO 9564 prescrit les algorithmes approuvés pour le chiffrement des numéros personnels d'identification (PIN).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO9564-2-2005
     type: standard
-    docid:
-    - id: ISO 9564-2:2005
+    formattedref: ISO 9564-2:2005
+    docidentifier:
+    - content: ISO 9564-2:2005
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2005-01-24'
-    formattedref:
-      content: ISO 9564-2:2005
-      format: text/plain
+      at: '2005-01-24'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: 35.240.40
     text: IT applications in banking
   structuredidentifier:
-    project_number: '17310'
     type: ISO
+    project_number:
+      content: '17310'

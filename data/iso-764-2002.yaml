@@ -1,154 +1,133 @@
 ---
-schema-version: v1.2.9
 id: ISO764-2002
-title:
-- content: Horology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Magnetic resistant watches
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Horology - Magnetic resistant watches
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Horlogerie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Montres antimagnétiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Horlogerie - Montres antimagnétiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/23033.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/30/23033.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 764:2002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Horology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Magnetic resistant watches
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Horology - Magnetic resistant watches
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Horlogerie
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Montres antimagnétiques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Horlogerie - Montres antimagnétiques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/23033.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/30/23033.detail.rss
+docidentifier:
+- content: ISO 764:2002
   type: ISO
   primary: true
-- id: ISO 764:2002(E)
+- content: ISO 764:2002(E)
   type: iso-reference
-- id: urn:iso:std:iso:764:stage-95.99
+- content: urn:iso:std:iso:764:stage-95.99
   type: URN
 docnumber: '764'
 date:
 - type: published
-  value: 2002-07
+  at: 2002-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2002-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 764 specifies the minimum requirements and test methods for magnetic resistant watches.
     It is based on the simulation of an accidental exposure of a watch to a direct current magnetic field of 4 800 A/m.
     Annex A deals with watches designated as magnetic resistant with an additional indication of intensity of a magnetic field exceeding 4 800 A/m.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente Norme Internationale spécifie les exigences minimales ainsi que les méthodes d'essai pour les montres antimagnétiques.
     Elle est basée sur la simulation d'une exposition accidentelle d'une montre à un champ magnétique continu de 4 800 A/m.
     L'annexe A traite les montres désignées comme antimagnétiques avec une indication supplémentaire précisant l'intensité du champ magnétique supérieur à 4 800 A/m.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO764-1984
     type: standard
-    docid:
-    - id: ISO 764:1984
+    formattedref: ISO 764:1984
+    docidentifier:
+    - content: ISO 764:1984
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 764:1984
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO764-2020
     type: standard
-    docid:
-    - id: ISO 764:2020
+    formattedref: ISO 764:2020
+    docidentifier:
+    - content: ISO 764:2020
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2020-02-21'
-    formattedref:
-      content: ISO 764:2020
-      format: text/plain
+      at: '2020-02-21'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Antimagnetism
-      number: 114
+    - number: 114
       type: TC
       identifier: ISO/TC 114/SC 12
+      content: Antimagnetism
   ics:
   - code: 39.040.10
     text: Watches
   structuredidentifier:
-    project_number: '23033'
     type: ISO
+    project_number:
+      content: '23033'

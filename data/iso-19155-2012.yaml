@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO19155-2012
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Place Identifier (PI) architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Place Identifier (PI) architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Architecture d'identifiants de lieu (IL)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Architecture d'identifiants de lieu (IL)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/32573.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:32573:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/25/32573.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19155:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Place Identifier (PI) architecture
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Place Identifier (PI) architecture
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Architecture d'identifiants de lieu (IL)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Architecture d'identifiants de lieu (IL)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/32573.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:32573:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/25/32573.detail.rss
+docidentifier:
+- content: ISO 19155:2012
   type: ISO
   primary: true
-- id: ISO 19155:2012(E)
+- content: ISO 19155:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso:19155:stage-90.93
+- content: urn:iso:std:iso:19155:stage-90.93
   type: URN
 docnumber: '19155'
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2012-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 19155:2012 specifies an architecture that defines a reference model
+- language: en
+  script: Latn
+  content: "ISO 19155:2012 specifies an architecture that defines a reference model
     with an encoding method for an identifier of a place. The concept of \"place\"
     within ISO 19155:2012 includes \"places\" not only in the real world but also
     those in the virtual world. These \"places\" are identified using either coordinate
@@ -94,45 +84,40 @@ abstract:
     based services, emergency management services and other application domains that
     require a common architecture, across specific domains, for the representation
     of place descriptions using coordinate, geographic, or virtual world identifiers. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 19155:2012 spécifie une architecture qui définit un modèle de référence avec une méthode de codage d'un identifiant de lieu. Le concept de «lieu» dans l'ISO 19155:2012 intègre les «lieux» non seulement du monde réel, mais également du monde virtuel. Ces «lieux» sont identifiés à partir soit d'identifiants sous forme de coordonnées, soit d'identifiants géographiques, soit d'identifiants du monde virtuel tels que les URI. Dans l'ISO 19155:2012, l'Identifiant de lieu «PI» se rapporte à l'identifiant d'un lieu.
     Le modèle de référence définit un système permettant de faire concorder de multiples identifiants de lieu avec un seul et même lieu. En outre, ce modèle de référence comporte également la définition d'une structure de données et d'un jeu d'interfaces de service.
     L'ISO 19155:2012 s'applique aux services s'appuyant sur la localisation, aux services de gestion des situations d'urgence et à d'autres domaines d'application qui nécessitent une architecture commune à des domaines spécifiques, pour représenter des descriptions de lieux utilisant des identifiants sous forme de coordonnées, des identifiants géographiques ou des identifiants du monde virtuel.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '32573'
     type: ISO
+    project_number:
+      content: '32573'

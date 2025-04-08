@@ -1,88 +1,73 @@
 ---
-schema-version: v1.2.8
 id: ISO/FDIS21636-1
-title:
-- content: Language coding
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: A framework for language varieties
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Vocabulary'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Language coding - A framework for language varieties - Part 1: Vocabulary'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Codage des langues
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Identification et description des variétés de langues
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Termes et définitions'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Codage des langues - Identification et description des variétés de langues
-    - Partie 1: Termes et définitions'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84965.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/49/84965.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/FDIS 21636-1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Language coding
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: A framework for language varieties
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Vocabulary'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Language coding - A framework for language varieties - Part 1: Vocabulary'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Codage des langues
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Identification et description des variétés de langues
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Termes et définitions'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Codage des langues - Identification et description des variétés de langues
+    - Partie 1: Termes et définitions'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84965.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/49/84965.detail.rss
+docidentifier:
+- content: ISO/FDIS 21636-1
   type: ISO
   primary: true
-- id: ISO/FDIS 21636-1(E)
+- content: ISO/FDIS 21636-1(E)
   type: iso-reference
-- id: urn:iso:std:iso:21636:-1:stage-draft
+- content: urn:iso:std:iso:21636:-1:stage-draft
   type: URN
 docnumber: '21636'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -91,7 +76,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "ISO 21636 provides a framework for the identification and description
+- language: en
+  script: Latn
+  content: "ISO 21636 provides a framework for the identification and description
     of varieties of all individual human languages, including sign languages (cf.
     ISO 639).  This excludes artificial means of communication with or between machines
     (such as programming languages) and those means of human communication which are
@@ -100,12 +87,9 @@ abstract:
     into complex expressions). \nThis document, Part 1 of ISO 21636, provides the
     terminology necessary to identify basic dimensions and sub-dimensions of linguistic
     variation and the resulting varieties, including major modalities of human communication."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO 21636 provides a framework for the identification and description
+- language: fr
+  script: Latn
+  content: "ISO 21636 provides a framework for the identification and description
     of varieties of all individual human languages, including sign languages (cf.
     ISO 639).  This excludes artificial means of communication with or between machines
     (such as programming languages) and those means of human communication which are
@@ -114,39 +98,37 @@ abstract:
     into complex expressions). \nThis document, Part 1 of ISO 21636, provides the
     terminology necessary to identify basic dimensions and sub-dimensions of linguistic
     variation and the resulting varieties, including major modalities of human communication."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/FDIS
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Terminology workflow and language coding
-    number: 37
-    type: TC
-    identifier: ISO/TC 37/SC 2
-ics:
-- code: 01.040.01
-  text: Generalities. Terminology. Standardization. Documentation (Vocabularies)
-- code: 01.140.20
-  text: Information sciences
-structuredidentifier:
-  project_number: ISO 21636
-  part: '1'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 37
+      type: TC
+      identifier: ISO/TC 37/SC 2
+      content: Terminology workflow and language coding
+  ics:
+  - code: 01.040.01
+    text: Generalities. Terminology. Standardization. Documentation (Vocabularies)
+  - code: 01.140.20
+    text: Information sciences
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 1
+      content: ISO 21636

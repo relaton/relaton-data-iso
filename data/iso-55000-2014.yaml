@@ -1,140 +1,121 @@
 ---
-schema-version: v1.2.9
 id: ISO55000-2014
-title:
-- content: Asset management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Overview, principles and terminology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Asset management - Overview, principles and terminology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Gestion d'actifs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Aperçu général, principes et terminologie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Gestion d'actifs - Aperçu général, principes et terminologie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/55088.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/05/50/55088.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 55000:2014
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Asset management
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Overview, principles and terminology
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Asset management - Overview, principles and terminology
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion d'actifs
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Aperçu général, principes et terminologie
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion d'actifs - Aperçu général, principes et terminologie
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/55088.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/50/55088.detail.rss
+docidentifier:
+- content: ISO 55000:2014
   type: ISO
   primary: true
-- id: ISO 55000:2014(E)
+- content: ISO 55000:2014(E)
   type: iso-reference
-- id: urn:iso:std:iso:55000:stage-95.99
+- content: urn:iso:std:iso:55000:stage-95.99
   type: URN
 docnumber: '55000'
 date:
 - type: published
-  value: 2014-01
+  at: 2014-01
 - type: corrected
-  value: 2014-07
+  at: 2014-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2014-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 55000:2014 provides an overview of asset management, its principles and terminology, and the expected benefits from adopting asset management.
     ISO 55000:2014 can be applied to all types of assets and by all types and sizes of organizations.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 55000:2014 donne un aperçu général de la gestion d'actifs, de ses principes et de la terminologie, ainsi que des bénéfices susceptibles d'être obtenus grâce à la mise en oeuvre d'une gestion d'actifs.
     L'ISO 55000:2014 peut être appliquée à tous les types d'actifs ainsi que par tous les types et toutes les tailles d'organisations.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO55000-2024
     type: standard
-    docid:
-    - id: ISO 55000:2024
+    formattedref: ISO 55000:2024
+    docidentifier:
+    - content: ISO 55000:2024
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-07-03'
-    formattedref:
-      content: ISO 55000:2024
-      format: text/plain
+      at: '2024-07-03'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Asset management
-      number: 251
+    - number: 251
       type: TC
       identifier: ISO/TC 251
+      content: Asset management
   ics:
   - code: 01.040.03
     text: Services. Company organization, management and quality. Administration.
@@ -142,5 +123,6 @@ ext:
   - code: 03.100.01
     text: Company organization and management in general
   structuredidentifier:
-    project_number: '55088'
     type: ISO
+    project_number:
+      content: '55088'

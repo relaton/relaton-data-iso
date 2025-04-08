@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
 id: ISO8805-1988
-title:
-- content: Information processing systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Computer graphics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Graphical Kernel System for Three Dimensions (GKS-3D) functional description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information processing systems - Computer graphics - Graphical Kernel System
-    for Three Dimensions (GKS-3D) functional description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de traitement de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Infographie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Système graphique de base en trois dimensions (GKS -- 3D) -- Description
-    fonctionnelle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Systèmes de traitement de l'information - Infographie - Système graphique
-    de base en trois dimensions (GKS -- 3D) -- Description fonctionnelle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/16253.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:16253:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/62/16253.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8805:1988
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information processing systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Computer graphics
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Graphical Kernel System for Three Dimensions (GKS-3D) functional description
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information processing systems - Computer graphics - Graphical Kernel System
+    for Three Dimensions (GKS-3D) functional description
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de traitement de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Infographie
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Système graphique de base en trois dimensions (GKS -- 3D) -- Description
+    fonctionnelle
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de traitement de l'information - Infographie - Système graphique
+    de base en trois dimensions (GKS -- 3D) -- Description fonctionnelle
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/16253.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16253:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/62/16253.detail.rss
+docidentifier:
+- content: ISO 8805:1988
   type: ISO
   primary: true
-- id: ISO 8805:1988(E)
+- content: ISO 8805:1988(E)
   type: iso-reference
-- id: urn:iso:std:iso:8805:stage-90.93
+- content: urn:iso:std:iso:8805:stage-90.93
   type: URN
 docnumber: '8805'
 date:
 - type: published
-  value: 1988-09
+  at: 1988-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1988-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies a set of functions for computer graphics programming, i.e. the
+- language: en
+  script: Latn
+  content: Specifies a set of functions for computer graphics programming, i.e. the
     Graphical Kernel System for Three Dimensions (GKS-3D) as the basic graphics system
     of computer-generated three dimensional pictures on graphics output devices. Provides
     application programs to define and display 3D graphical primitives, specified
@@ -107,44 +93,39 @@ abstract:
     an external graphics file with the functions being organized in upward compatible
     levels with increasing capabilities. Additional functions are defined to generate
     output primitives.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     Cette norme internationale décrit un ensemble de fonctions destinées à la programmation en infographie. GKS-3D constitue un système graphique de base pour les applications produisant des images tri-dimensionnelles sur les appareils d'affichage graphiques. Elle supporte les entrées et les interactions avec un opérateur en fournissant les fonctions de base pour l'entrée graphique, la segmentation, la mise en réserve et les modifications dynamiques des images. Un concept fondamental de GKS-3D est la notion de poste de travail, qui comprend un seul moyen de sortie et un certain nombre de moyens d'entrée. Plusieurs postes de travail peuvent être utilisés simultanément. Le programme d'application peut adapter son comportement vis-à-vis d'un poste de travail de façon à tirer le meilleur parti des possibilités de ce poste. Cette norme internationale contient les fonctions de stockage (mise en réserve) et la restauration de données au moyen d'un fichier graphique externe. Enfin, les fonctions s
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Computer graphics, image processing and environmental data representation
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 24
+      content: Computer graphics, image processing and environmental data representation
   ics:
   - code: '35.140'
     text: Computer graphics
   structuredidentifier:
-    project_number: '16253'
     type: ISO
+    project_number:
+      content: '16253'

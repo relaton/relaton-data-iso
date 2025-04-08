@@ -1,58 +1,60 @@
-title:
-- type: title-main
-  content: ISO/IEC Directives, Part 1
-  language: en
-  script: Latn
-- type: title-part
-  content: Procedures for the technical work
-  language: en
-  script: Latn
-- type: title-main
-  content: Directives ISO/IEC, Partie 1
-  language: fr
-  script: Latn
-- type: title-part
-  content: Procédure pour les travaux techniques
-  language: fr
-  script: Latn
-
+---
 type: standard
-doctype: directive
-
-link:
-- type: src
-  language: en
-  # format: pdf
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: ISO/IEC Directives, Part 1
+  type: title-main
+- language: en
+  script: Latn
+  content: Procedures for the technical work
+  type: title-part
+- language: fr
+  script: Latn
+  content: Directives ISO/IEC, Partie 1
+  type: title-main
+- language: fr
+  script: Latn
+  content: Procédure pour les travaux techniques
+  type: title-part
+source:
+- language: en
+  type: src
   content: https://web.archive.org/web/20171215072357/http://www.iec.ch/members_experts/refdocs/iec/isoiecdir1%7Bed13.0%7Den.pdf
-
-docid:
-  id: ISO/IEC DIR 1 IEC:2017
+docidentifier:
+- content: ISO/IEC DIR 1 IEC:2017
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2017-04-30'
-
-edition: "13"
-
+- type: published
+  at: '2017-04-30'
+edition:
+  content: '13'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
+- from: '1986'
   owner:
-    name: International Electrotechnical Commission
-    abbreviation: IEC
-    url: iec.ch
-  from: '1986'
-
+  - organization:
+      uri:
+      - content: iec.ch
+      name:
+      - content: International Electrotechnical Commission
+      abbreviation:
+        content: IEC
 relation:
-  - type: partOf
-    bibitem:
-      formattedref: ISO/IEC DIR 1 IEC
-      docid:
-        - id: ISO/IEC DIR 1 IEC
-          type: ISO
-          primary: true
+- type: partOf
+  bibitem:
+    formattedref: ISO/IEC DIR 1 IEC
+    docidentifier:
+    - content: ISO/IEC DIR 1 IEC
+      type: ISO
+      primary: true
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

@@ -1,124 +1,112 @@
 ---
-schema-version: v1.2.9
 id: ISO3950-1977
-title:
-- content: Tooth designation for dental purposes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Two-digit system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Tooth designation for dental purposes - Two-digit system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Désignation des dents en art dentaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Code à deux chiffres
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Désignation des dents en art dentaire - Code à deux chiffres
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/9599.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/95/9599.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3950:1977
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Tooth designation for dental purposes
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Two-digit system
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Tooth designation for dental purposes - Two-digit system
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Désignation des dents en art dentaire
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Code à deux chiffres
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Désignation des dents en art dentaire - Code à deux chiffres
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/9599.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/95/9599.detail.rss
+docidentifier:
+- content: ISO 3950:1977
   type: ISO
   primary: true
-- id: ISO 3950:1977(E)
+- content: ISO 3950:1977(E)
   type: iso-reference
-- id: urn:iso:std:iso:3950:stage-95.99
+- content: urn:iso:std:iso:3950:stage-95.99
   type: URN
 docnumber: '3950'
 date:
 - type: published
-  value: 1977-03
+  at: 1977-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1977-03
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1977'
+- from: '1977'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO3950-1984
     type: standard
-    docid:
-    - id: ISO 3950:1984
+    formattedref: ISO 3950:1984
+    docidentifier:
+    - content: ISO 3950:1984
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1984-09-01'
-    formattedref:
-      content: ISO 3950:1984
-      format: text/plain
+      at: '1984-09-01'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Dentistry
-      number: 106
+    - number: 106
       type: TC
       identifier: ISO/TC 106
+      content: Dentistry
   ics:
   - code: 11.060.01
     text: Dentistry in general
   structuredidentifier:
-    project_number: '9599'
     type: ISO
+    project_number:
+      content: '9599'

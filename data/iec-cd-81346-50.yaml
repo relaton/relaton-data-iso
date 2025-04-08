@@ -1,89 +1,74 @@
 ---
-schema-version: v1.2.9
 id: IEC/CD81346-50
-title:
-- content: Industrial systems, installations and equipment and industrial products
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Structuring principles and reference designations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 50: Processes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Industrial systems, installations and equipment and industrial products
-    - Structuring principles and reference designations - Part 50: Processes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes industriels, installations et appareils, et produits industriels
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Principes de structuration et désignations de référence
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 50: Processus'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Systèmes industriels, installations et appareils, et produits industriels
-    - Principes de structuration et désignations de référence - Partie 50: Processus'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/87424.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/74/87424.detail.rss
-  type: rss
 type: standard
-docid:
-- id: IEC/CD 81346-50
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial systems, installations and equipment and industrial products
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Structuring principles and reference designations
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 50: Processes'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Industrial systems, installations and equipment and industrial products
+    - Structuring principles and reference designations - Part 50: Processes'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes industriels, installations et appareils, et produits industriels
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Principes de structuration et désignations de référence
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 50: Processus'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes industriels, installations et appareils, et produits industriels
+    - Principes de structuration et désignations de référence - Partie 50: Processus'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/87424.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/74/87424.detail.rss
+docidentifier:
+- content: IEC/CD 81346-50
   type: ISO
   primary: true
-- id: IEC/CD 81346-50(E)
+- content: IEC/CD 81346-50(E)
   type: iso-reference
-- id: urn:iso:std:iec:81346:-50:stage-draft
+- content: urn:iso:std:iec:81346:-50:stage-draft
   type: URN
 docnumber: '81346'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -92,7 +77,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This part of 81346 International Standard, published jointly by IEC and ISO, provides, in combination with
     IEC 81346-1 and IEC 81346-2, rules and recommendations on the structuring of processes and basic
     activities. It provides the tools to handle the information on processes in the area of technical products
@@ -116,12 +103,9 @@ abstract:
     and partitive) and associative relations to define a reference model for processes. In addition, the
     sequential relation kinds are included and defined, as the sequence is a key characteristic of a process
     (ref. ISO 704).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This part of 81346 International Standard, published jointly by IEC and ISO, provides, in combination with
     IEC 81346-1 and IEC 81346-2, rules and recommendations on the structuring of processes and basic
     activities. It provides the tools to handle the information on processes in the area of technical products
@@ -145,38 +129,36 @@ abstract:
     and partitive) and associative relations to define a reference model for processes. In addition, the
     sequential relation kinds are included and defined, as the sequence is a key characteristic of a process
     (ref. ISO 704).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: IEC/CD
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: IEC/CD
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical product documentation
-      number: 10
+    - number: 10
       type: TC
       identifier: ISO/TC 10
+      content: Technical product documentation
   ics:
   - code: '01.110'
     text: Technical product documentation
   - code: 25.040.01
     text: Industrial automation systems in general
   structuredidentifier:
-    project_number: '87424'
     type: IEC
+    project_number:
+      content: '87424'

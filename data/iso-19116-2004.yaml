@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO19116-2004
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Positioning services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Positioning services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Services de positionnement
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Services de positionnement
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/37805.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/78/37805.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19116:2004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Positioning services
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Positioning services
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services de positionnement
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Services de positionnement
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/37805.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/78/37805.detail.rss
+docidentifier:
+- content: ISO 19116:2004
   type: ISO
   primary: true
-- id: ISO 19116:2004(E)
+- content: ISO 19116:2004(E)
   type: iso-reference
-- id: urn:iso:std:iso:19116:stage-95.99
+- content: urn:iso:std:iso:19116:stage-95.99
   type: URN
 docnumber: '19116'
 date:
 - type: published
-  value: 2004-07
+  at: 2004-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2004-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 19116:2004 specifies the data structure and content of an interface
+- language: en
+  script: Latn
+  content: ISO 19116:2004 specifies the data structure and content of an interface
     that permits communication between position-providing device(s) and position-using
     device(s) so that the position-using device(s) can obtain and unambiguously interpret
     position information and determine whether the results meet the requirements of
@@ -89,12 +79,9 @@ abstract:
     into a variety of geographic information applications, such as surveying, navigation
     and intelligent transportation systems. ISO 19116:2004 will benefit a wide range
     of applications for which positional information is important.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: ISO 19116:2004 specifies the data structure and content of an interface
+- language: fr
+  script: Latn
+  content: ISO 19116:2004 specifies the data structure and content of an interface
     that permits communication between position-providing device(s) and position-using
     device(s) so that the position-using device(s) can obtain and unambiguously interpret
     position information and determine whether the results meet the requirements of
@@ -103,51 +90,46 @@ abstract:
     into a variety of geographic information applications, such as surveying, navigation
     and intelligent transportation systems. ISO 19116:2004 will benefit a wide range
     of applications for which positional information is important.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO19116-2019
     type: standard
-    docid:
-    - id: ISO 19116:2019
+    formattedref: ISO 19116:2019
+    docidentifier:
+    - content: ISO 19116:2019
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2019-12-02'
-    formattedref:
-      content: ISO 19116:2019
-      format: text/plain
+      at: '2019-12-02'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '37805'
     type: ISO
+    project_number:
+      content: '37805'

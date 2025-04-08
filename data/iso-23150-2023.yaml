@@ -1,246 +1,200 @@
 ---
-schema-version: v1.2.9
 id: ISO23150-2023
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Data communication between sensors and data fusion unit for automated driving
-    functions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Logical interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Road vehicles - Data communication between sensors and data fusion unit
-    for automated driving functions - Logical interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Communication de données entre capteurs et unité de fusion de données pour
-    les fonctions de conduite automatisée
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Interface logique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Véhicules routiers - Communication de données entre capteurs et unité de
-    fusion de données pour les fonctions de conduite automatisée - Interface logique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83293.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:83293:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/32/83293.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 23150:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Data communication between sensors and data fusion unit for automated driving
+    functions
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Logical interface
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Data communication between sensors and data fusion unit
+    for automated driving functions - Logical interface
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Communication de données entre capteurs et unité de fusion de données pour
+    les fonctions de conduite automatisée
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interface logique
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Communication de données entre capteurs et unité de
+    fusion de données pour les fonctions de conduite automatisée - Interface logique
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83293.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:83293:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/32/83293.detail.rss
+docidentifier:
+- content: ISO 23150:2023
   type: ISO
   primary: true
-- id: ISO 23150:2023(E)
+- content: ISO 23150:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:23150:stage-90.93
+- content: urn:iso:std:iso:23150:stage-90.93
   type: URN
 docnumber: '23150'
 date:
 - type: published
-  value: 2023-05
+  at: 2023-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2023-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document is applicable to road vehicles with automated driving functions. The document specifies the logical interface between in-vehicle environmental perception sensors (for example, radar, lidar, camera, ultrasonic) and the fusion unit which generates a surround model and interprets the scene around the vehicle based on the sensor data. The interface is described in a modular and semantic representation and provides information on object level (for example, potentially moving objects, road objects, static objects) as well as information on feature and detection levels based on sensor technology specific information. Further supportive information is available.
     This document does not provide electrical and mechanical interface specifications. Raw data interfaces are also excluded.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document is applicable to road vehicles with automated driving functions. The document specifies the logical interface between in-vehicle environmental perception sensors (for example, radar, lidar, camera, ultrasonic) and the fusion unit which generates a surround model and interprets the scene around the vehicle based on the sensor data. The interface is described in a modular and semantic representation and provides information on object level (for example, potentially moving objects, road objects, static objects) as well as information on feature and detection levels based on sensor technology specific information. Further supportive information is available.
     This document does not provide electrical and mechanical interface specifications. Raw data interfaces are also excluded.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO23150-2021
     type: standard
-    docid:
-    - id: ISO 23150:2021
+    formattedref: ISO 23150:2021
+    docidentifier:
+    - content: ISO 23150:2021
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 23150:2021
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/DIS23150-1
     type: standard
-    docid:
-    - id: ISO/DIS 23150-1
+    formattedref: ISO/DIS 23150-1
+    docidentifier:
+    - content: ISO/DIS 23150-1
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 23150-1
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/WD23150-2
     type: standard
-    docid:
-    - id: ISO/WD 23150-2
+    formattedref: ISO/WD 23150-2
+    docidentifier:
+    - content: ISO/WD 23150-2
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/WD 23150-2
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/DIS23150-11
     type: standard
-    docid:
-    - id: ISO/DIS 23150-11
+    formattedref: ISO/DIS 23150-11
+    docidentifier:
+    - content: ISO/DIS 23150-11
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 23150-11
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/DIS23150-12
     type: standard
-    docid:
-    - id: ISO/DIS 23150-12
+    formattedref: ISO/DIS 23150-12
+    docidentifier:
+    - content: ISO/DIS 23150-12
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 23150-12
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/DIS23150-13
     type: standard
-    docid:
-    - id: ISO/DIS 23150-13
+    formattedref: ISO/DIS 23150-13
+    docidentifier:
+    - content: ISO/DIS 23150-13
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 23150-13
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/DIS23150-14
     type: standard
-    docid:
-    - id: ISO/DIS 23150-14
+    formattedref: ISO/DIS 23150-14
+    docidentifier:
+    - content: ISO/DIS 23150-14
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 23150-14
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/DIS23150-15
     type: standard
-    docid:
-    - id: ISO/DIS 23150-15
+    formattedref: ISO/DIS 23150-15
+    docidentifier:
+    - content: ISO/DIS 23150-15
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 23150-15
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/CD23150-20
     type: standard
-    docid:
-    - id: ISO/CD 23150-20
+    formattedref: ISO/CD 23150-20
+    docidentifier:
+    - content: ISO/CD 23150-20
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/CD 23150-20
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Data communication
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 31
+      content: Data communication
   ics:
   - code: 43.040.15
     text: Car informatics. On board computer systems
   structuredidentifier:
-    project_number: '83293'
     type: ISO
+    project_number:
+      content: '83293'

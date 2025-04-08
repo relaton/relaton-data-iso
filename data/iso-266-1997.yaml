@@ -1,132 +1,117 @@
 ---
-schema-version: v1.2.9
 id: ISO266-1997
-title:
-- content: Acoustics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Preferred frequencies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Acoustics - Preferred frequencies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Acoustique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Fréquences normales
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Acoustique - Fréquences normales
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/1350.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:1350:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/00/13/1350.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 266:1997
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Acoustics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Preferred frequencies
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Acoustics - Preferred frequencies
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Acoustique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Fréquences normales
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Acoustique - Fréquences normales
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/1350.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:1350:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/13/1350.detail.rss
+docidentifier:
+- content: ISO 266:1997
   type: ISO
   primary: true
-- id: ISO 266:1997(E)
+- content: ISO 266:1997(E)
   type: iso-reference
-- id: urn:iso:std:iso:266:stage-90.93
+- content: urn:iso:std:iso:266:stage-90.93
   type: URN
 docnumber: '266'
 date:
 - type: published
-  value: 1997-04
+  at: 1997-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1997-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale prescrit les fréquences normales pour les mesurages acoustiques. Les fréquences normales sont basées sur la série R10 des nombres normaux de l'ISO 3 et la fréquence de référence de 1 000 Hz. Pour la plupart des mesurages acoustiques et la présentation des données, il est recommandé de choisir un espacement des fréquences basé sur un incrément constant en pourcentage, les fréquences d'essai formant alors une série géométrique. Pour certains mesurages acoustiques, l'espacement des fréquences approprié est un incrément constant. La présente Norme internationale traite de séries géométriques et n'est applicable ni aux cas où un incrément constant des fréquences ou tout autre espacement particulier seraient mieux appropriés, ni lorsqu'il peut y avoir de bonnes raisons d'adopter ou de conserver d'autres fréquences. La présente Norme internationale ne traite pas: -- des fréquences utilisées en musique; -- de toutes les fréquences audiométriques; -- d'autres séries que la série R10 de l'ISO 3.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO266-1975
     type: standard
-    docid:
-    - id: ISO 266:1975
+    formattedref: ISO 266:1975
+    docidentifier:
+    - content: ISO 266:1975
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 266:1975
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Acoustics
-      number: 43
+    - number: 43
       type: TC
       identifier: ISO/TC 43
+      content: Acoustics
   ics:
   - code: 17.140.01
     text: Acoustic measurements and noise abatement in general
   structuredidentifier:
-    project_number: '1350'
     type: ISO
+    project_number:
+      content: '1350'

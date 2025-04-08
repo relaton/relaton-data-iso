@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/CIE10916-2024
-title:
-- content: Light and lighting
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Energy performance of lighting in buildings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Calculation of the impact of daylight utilization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Light and lighting - Energy performance of lighting in buildings - Calculation
-    of the impact of daylight utilization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Lumière et éclairage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Performance énergétique de l'éclairage des bâtiments
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Calcul de l'impact de l'utilisation de la lumière du jour
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Lumière et éclairage - Performance énergétique de l'éclairage des bâtiments
-    - Calcul de l'impact de l'utilisation de la lumière du jour
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78287.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78287:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/82/78287.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CIE 10916:2024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Light and lighting
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Energy performance of lighting in buildings
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Calculation of the impact of daylight utilization
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Light and lighting - Energy performance of lighting in buildings - Calculation
+    of the impact of daylight utilization
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Lumière et éclairage
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Performance énergétique de l'éclairage des bâtiments
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Calcul de l'impact de l'utilisation de la lumière du jour
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Lumière et éclairage - Performance énergétique de l'éclairage des bâtiments
+    - Calcul de l'impact de l'utilisation de la lumière du jour
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78287.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78287:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/82/78287.detail.rss
+docidentifier:
+- content: ISO/CIE 10916:2024
   type: ISO
   primary: true
-- id: ISO/CIE 10916:2024(E)
+- content: ISO/CIE 10916:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso-cie:10916:stage-60.60
+- content: urn:iso:std:iso-cie:10916:stage-published
   type: URN
 docnumber: '10916'
 date:
 - type: published
-  value: 2024-11
+  at: 2024-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: cie.co.at
     name:
     - content: " International Commission on Illumination"
     abbreviation:
       content: CIE
-    url: cie.co.at
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines the calculation methodology for determining the monthly and annual amount of usable daylight penetrating non-residential buildings through vertical facades and rooflights and the impact thereof on the energy demand for electric lighting. This document is applicable for existing buildings and the design of new and renovated buildings.
     This document provides the overall lighting energy balance equation relating the installed power density of the electric lighting system with daylight supply and lighting controls (proof calculation method).
     The determination of the installed power density is not in the scope of this method, neither are controls relating, for instance, to occupancy detection. Provided the determination of the installed power density and control parameters using external sources, the internal loads by lighting and the lighting energy demand itself can be calculated. The energy demand for lighting and internal loads by lighting can then be taken into account in the overall building energy balance calculations:
@@ -117,12 +104,9 @@ abstract:
     For estimating the daylight supply and rating daylight-dependent electric lighting control systems, a simple table-based calculation approach is provided. The simple method describes the division of a building into zones as required for daylight illumination-engineering purposes, as well as considerations on the way in which daylight supplied by vertical facade systems and rooflights is utilized and how daylight-dependent lighting control systems affect energy demand. Dynamic vertical facades with optional shading and light redirection properties are considered, i.e. allowing a separate optimization of facade solutions under direct insolation and under diffuse skies. For rooflighting systems, standard, static solutions like shed rooflights and continuous rooflights are considered. The method is applicable for different latitudes and climates. For standard building zones (utilizations), operation times are provided.
     For detailed analysis, an approach to calculate the effect of daylight on the lighting energy demand on an hourly or sub-hourly basis is provided. Unlike the simple table-based annual calculation approach, which is regression based, this method relies on an emulation concept. Relevant quantities are modelled explicitly and are then interacting directly with sensors, actuators and functional elements of the building automation and control system (BACS) or are triggering user interaction. By this approach, model configuration and parametrization from the design stage can seamlessly be used in the BACS configuration.
     To support overall building performance assessment, additional daylight performance indicators on the overall building level are provided.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document defines the calculation methodology for determining the monthly and annual amount of usable daylight penetrating non-residential buildings through vertical facades and rooflights and the impact thereof on the energy demand for electric lighting. This document is applicable for existing buildings and the design of new and renovated buildings.
     This document provides the overall lighting energy balance equation relating the installed power density of the electric lighting system with daylight supply and lighting controls (proof calculation method).
     The determination of the installed power density is not in the scope of this method, neither are controls relating, for instance, to occupancy detection. Provided the determination of the installed power density and control parameters using external sources, the internal loads by lighting and the lighting energy demand itself can be calculated. The energy demand for lighting and internal loads by lighting can then be taken into account in the overall building energy balance calculations:
@@ -133,50 +117,45 @@ abstract:
     For estimating the daylight supply and rating daylight-dependent electric lighting control systems, a simple table-based calculation approach is provided. The simple method describes the division of a building into zones as required for daylight illumination-engineering purposes, as well as considerations on the way in which daylight supplied by vertical facade systems and rooflights is utilized and how daylight-dependent lighting control systems affect energy demand. Dynamic vertical facades with optional shading and light redirection properties are considered, i.e. allowing a separate optimization of facade solutions under direct insolation and under diffuse skies. For rooflighting systems, standard, static solutions like shed rooflights and continuous rooflights are considered. The method is applicable for different latitudes and climates. For standard building zones (utilizations), operation times are provided.
     For detailed analysis, an approach to calculate the effect of daylight on the lighting energy demand on an hourly or sub-hourly basis is provided. Unlike the simple table-based annual calculation approach, which is regression based, this method relies on an emulation concept. Relevant quantities are modelled explicitly and are then interacting directly with sensors, actuators and functional elements of the building automation and control system (BACS) or are triggering user interaction. By this approach, model configuration and parametrization from the design stage can seamlessly be used in the BACS configuration.
     To support overall building performance assessment, additional daylight performance indicators on the overall building level are provided.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CIE
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CIE
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO10916-2014
     type: standard
-    docid:
-    - id: ISO 10916:2014
+    formattedref: ISO 10916:2014
+    docidentifier:
+    - content: ISO 10916:2014
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 10916:2014
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Light and lighting
-      number: 274
+    - number: 274
       type: TC
       identifier: ISO/TC 274
+      content: Light and lighting
   ics:
   - code: 91.160.01
     text: Lighting in general
   - code: 91.160.01
     text: Lighting in general
   structuredidentifier:
-    project_number: '78287'
     type: ISO
+    project_number:
+      content: '78287'

@@ -1,68 +1,59 @@
 ---
-schema-version: v1.2.9
 id: ISO/CDTS19082
-title:
-- content: Intelligent transport systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Definition of data elements and data frames between roadside modules and
-    signal controllers for cooperative signal control
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Intelligent transport systems - Definition of data elements and data frames
-    between roadside modules and signal controllers for cooperative signal control
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/88220.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/82/88220.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD TS 19082
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Intelligent transport systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Definition of data elements and data frames between roadside modules and
+    signal controllers for cooperative signal control
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems - Definition of data elements and data frames
+    between roadside modules and signal controllers for cooperative signal control
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88220.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/82/88220.detail.rss
+docidentifier:
+- content: ISO/CD TS 19082
   type: ISO
   primary: true
-- id: ISO/CD TS 19082(E)
+- content: ISO/CD TS 19082(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:19082:stage-draft
+- content: urn:iso:std:iso:ts:19082:stage-draft
   type: URN
 docnumber: '19082'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -71,7 +62,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies data elements and data frames for messages
     a)    exchanged between roadside modules and:
     1)   signal controllers,
@@ -82,12 +75,9 @@ abstract:
     EXAMPLE    A roadside module can calculate vehicle volume, average speed, and queue length by utilizing data from vehicle detectors and probe information.
     The data structure follows the framework specified in ISO 14817-1, and the data elements and data frames are described by description name, object identifier, definition, and data type following ISO 14817-1. The specifications of this document complement those from ISO/TS 19091 and other standards.
     The roadside modules can be constructed in any manner using any architecture including the ITS station as described in ISO 21217, or other hardware and software constructs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies data elements and data frames for messages
     a)    exchanged between roadside modules and:
     1)   signal controllers,
@@ -98,50 +88,45 @@ abstract:
     EXAMPLE    A roadside module can calculate vehicle volume, average speed, and queue length by utilizing data from vehicle detectors and probe information.
     The data structure follows the framework specified in ISO 14817-1, and the data elements and data frames are described by description name, object identifier, definition, and data type following ISO 14817-1. The specifications of this document complement those from ISO/TS 19091 and other standards.
     The roadside modules can be constructed in any manner using any architecture including the ITS station as described in ISO 21217, or other hardware and software constructs.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS19082-2020
     type: standard
-    docid:
-    - id: ISO/TS 19082:2020
+    formattedref: ISO/TS 19082:2020
+    docidentifier:
+    - content: ISO/TS 19082:2020
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 19082:2020
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Intelligent transport systems
-    number: 204
-    type: TC
-    identifier: ISO/TC 204
-ics:
-- code: 03.220.20
-  text: Road transport
-- code: 35.240.60
-  text: IT applications in transport
-structuredidentifier:
-  project_number: ISO 19082
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 204
+      type: TC
+      identifier: ISO/TC 204
+      content: Intelligent transport systems
+  ics:
+  - code: 03.220.20
+    text: Road transport
+  - code: 35.240.60
+    text: IT applications in transport
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 19082

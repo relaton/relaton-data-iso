@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO28500-2017
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: WARC file format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - WARC file format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format de fichier WARC
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Format de fichier WARC
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/68004.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:68004:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/80/68004.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 28500:2017
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: WARC file format
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - WARC file format
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Format de fichier WARC
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Format de fichier WARC
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/68004.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:68004:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/80/68004.detail.rss
+docidentifier:
+- content: ISO 28500:2017
   type: ISO
   primary: true
-- id: ISO 28500:2017(E)
+- content: ISO 28500:2017(E)
   type: iso-reference
-- id: urn:iso:std:iso:28500:stage-90.93
+- content: urn:iso:std:iso:28500:stage-90.93
   type: URN
 docnumber: '28500'
 date:
 - type: published
-  value: 2017-08
+  at: 2017-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2017-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 28500:2017 specifies the WARC file format:
     -      to store both the payload content and control information from mainstream Internet application layer protocols, such as the HTTP, DNS, and FTP;
     -      to store arbitrary metadata linked to other stored data (e.g. subject classifier, discovered language, encoding);
@@ -92,12 +82,9 @@ abstract:
     -      to store a duplicate detection event linked to other stored data (to reduce storage in the presence of identical or substantially similar resources);
     -      to be extended without disruption to existing functionality;
     -      to support handling of overly long records by truncation or segmentation, where desired.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 28500:2017 specifies the WARC file format:
     -      to store both the payload content and control information from mainstream Internet application layer protocols, such as the HTTP, DNS, and FTP;
     -      to store arbitrary metadata linked to other stored data (e.g. subject classifier, discovered language, encoding);
@@ -107,48 +94,43 @@ abstract:
     -      to store a duplicate detection event linked to other stored data (to reduce storage in the presence of identical or substantially similar resources);
     -      to be extended without disruption to existing functionality;
     -      to support handling of overly long records by truncation or segmentation, where desired.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO28500-2009
     type: standard
-    docid:
-    - id: ISO 28500:2009
+    formattedref: ISO 28500:2009
+    docidentifier:
+    - content: ISO 28500:2009
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 28500:2009
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical interoperability
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 4
+      content: Technical interoperability
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '68004'
     type: ISO
+    project_number:
+      content: '68004'

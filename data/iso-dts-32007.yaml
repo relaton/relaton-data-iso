@@ -1,89 +1,74 @@
 ---
-schema-version: v1.2.8
 id: ISO/DTS32007
-title:
-- content: Document management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Portable Document Format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: RichMedia annotations conforming to glTF assets
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Document management - Portable Document Format - RichMedia annotations
-    conforming to glTF assets
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Gestion de documents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Portable Document Format
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Annotations RichMedia conformes aux actifs glTF
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Gestion de documents - Portable Document Format - Annotations RichMedia
-    conformes aux actifs glTF
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/45880.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/58/45880.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DTS 32007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Document management
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Portable Document Format
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: RichMedia annotations conforming to glTF assets
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Document management - Portable Document Format - RichMedia annotations
+    conforming to glTF assets
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de documents
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Portable Document Format
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Annotations RichMedia conformes aux actifs glTF
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de documents - Portable Document Format - Annotations RichMedia
+    conformes aux actifs glTF
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/45880.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/58/45880.detail.rss
+docidentifier:
+- content: ISO/DTS 32007
   type: ISO
   primary: true
-- id: ISO/DTS 32007(E)
+- content: ISO/DTS 32007(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:32007:stage-draft
+- content: urn:iso:std:iso:ts:32007:stage-draft
   type: URN
 docnumber: '32007'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -92,7 +77,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document specifies how to extend the ISO 32000-2 specification by
+- language: en
+  script: Latn
+  content: "This document specifies how to extend the ISO 32000-2 specification by
     adding the ISO/IEC 12113 (glTF) format as a valid format for 3D artworks contained
     in a RichMedia annotation. It is intended for:\n\n•\tdevelopers of software that
     creates PDF files (PDF writers);\n•\tsoftware that reads existing PDF files and
@@ -107,12 +94,9 @@ abstract:
     physical methods of storing these documents such as media and storage conditions;\n•\tmethods
     for validating the conformance of PDF files or PDF processors;\n•\trequired computer
     hardware and/or operating system."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document specifies how to extend the ISO 32000-2 specification by
+- language: fr
+  script: Latn
+  content: "This document specifies how to extend the ISO 32000-2 specification by
     adding the ISO/IEC 12113 (glTF) format as a valid format for 3D artworks contained
     in a RichMedia annotation. It is intended for:\n\n•\tdevelopers of software that
     creates PDF files (PDF writers);\n•\tsoftware that reads existing PDF files and
@@ -127,38 +111,36 @@ abstract:
     physical methods of storing these documents such as media and storage conditions;\n•\tmethods
     for validating the conformance of PDF files or PDF processors;\n•\trequired computer
     hardware and/or operating system."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DTS
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DTS
 place:
-- Geneva
-doctype:
-  type: technical-specification
-editorialgroup:
-  technical_committee:
-  - name: Document file formats, EDMS systems and authenticity of information
-    number: 171
-    type: TC
-    identifier: ISO/TC 171/SC 2
-ics:
-- code: 35.240.30
-  text: IT applications in information, documentation and publishing
-- code: 37.100.99
-  text: Other standards related to graphic technology
-structuredidentifier:
-  project_number: ISO 32007
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: technical-specification
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 171
+      type: TC
+      identifier: ISO/TC 171/SC 2
+      content: Document file formats, EDMS systems and authenticity of information
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  - code: 37.100.99
+    text: Other standards related to graphic technology
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 32007

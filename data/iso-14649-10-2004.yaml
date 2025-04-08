@@ -1,108 +1,94 @@
 ---
-schema-version: v1.2.9
 id: ISO14649-10-2004
+type: standard
+schema_version: v1.4.1
 title:
-- content: Industrial automation systems and integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Industrial automation systems and integration
   type: title-intro
-- content: Physical device control
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Physical device control
   type: title-main
-- content: 'Data model for computerized numerical controllers -- Part 10: General
-    process data'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Data model for computerized numerical controllers -- Part 10: General
+    process data'
   type: title-part
-- content: 'Industrial automation systems and integration - Physical device control
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Industrial automation systems and integration - Physical device control
     - Data model for computerized numerical controllers -- Part 10: General process
     data'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Systèmes d'automatisation industrielle et intégration
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-- content: Commande des dispositifs physiques
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Commande des dispositifs physiques
   type: title-main
-- content: 'Modèle de données pour les contrôleurs numériques informatisés -- Partie
-    10: Données des procédés généraux'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Modèle de données pour les contrôleurs numériques informatisés -- Partie
+    10: Données des procédés généraux'
   type: title-part
-- content: 'Systèmes d''automatisation industrielle et intégration - Commande des
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes d''automatisation industrielle et intégration - Commande des
     dispositifs physiques - Modèle de données pour les contrôleurs numériques informatisés
     -- Partie 10: Données des procédés généraux'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/40895.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:40895:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/08/40895.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 14649-10:2004
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/40895.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:40895:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/08/40895.detail.rss
+docidentifier:
+- content: ISO 14649-10:2004
   type: ISO
   primary: true
-- id: ISO 14649-10:2004(E)
+- content: ISO 14649-10:2004(E)
   type: iso-reference
-- id: urn:iso:std:iso:14649:-10:stage-90.92
+- content: urn:iso:std:iso:14649:-10:stage-90.92
   type: URN
 docnumber: '14649'
 date:
 - type: published
-  value: 2004-12
+  at: 2004-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2004-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 14649-10:2004 specifies the process data which is generally needed for NC-machining and therefore common to several machining technologies. These data elements describe the interface between the programming system (i.e. CAM system or shop-floor programming system) and a computerized numerical controller. The programme for the numerical controller includes geometric and technological information. It can be described using ISO 14649-10:2004 together with the technology-specific parts (ISO 14649-11, ISO 14649-12, etc.). ISO 14649-10:2004 provides the control structures for the sequence of programme execution, mainly the sequence of working steps and associated machine functions.
     The "machining_schema" defined in ISO 14649-10:2004 contains the definition of data types which are generally relevant for different technologies (e.g. milling, turning, grinding). It includes:
     - the general executables, including workplan, workingsteps and NC-functions;
@@ -115,12 +101,9 @@ abstract:
     - the technology-specific definitions, which are defined in separate parts of ISO 14649.
     ISO 14649-10:2004 cannot stand alone. An implementation needs in addition at least one technology-specific part (e.g. ISO 14649-11 for milling, ISO 14649-12 for turning).
     Additionally, the schema uses machining features similar to ISO 10303-224 and ISO 10303-214. The description of process data is done using the EXPRESS language as defined in ISO 10303-11. The encoding of the data is done using ISO 10303-21.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 14649-10:2004 specifies the process data which is generally needed for NC-machining and therefore common to several machining technologies. These data elements describe the interface between the programming system (i.e. CAM system or shop-floor programming system) and a computerized numerical controller. The programme for the numerical controller includes geometric and technological information. It can be described using ISO 14649-10:2004 together with the technology-specific parts (ISO 14649-11, ISO 14649-12, etc.). ISO 14649-10:2004 provides the control structures for the sequence of programme execution, mainly the sequence of working steps and associated machine functions.
     The "machining_schema" defined in ISO 14649-10:2004 contains the definition of data types which are generally relevant for different technologies (e.g. milling, turning, grinding). It includes:
     - the general executables, including workplan, workingsteps and NC-functions;
@@ -133,59 +116,51 @@ abstract:
     - the technology-specific definitions, which are defined in separate parts of ISO 14649.
     ISO 14649-10:2004 cannot stand alone. An implementation needs in addition at least one technology-specific part (e.g. ISO 14649-11 for milling, ISO 14649-12 for turning).
     Additionally, the schema uses machining features similar to ISO 10303-224 and ISO 10303-214. The description of process data is done using the EXPRESS language as defined in ISO 10303-11. The encoding of the data is done using ISO 10303-21.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO14649-10-2003
     type: standard
-    docid:
-    - id: ISO 14649-10:2003
+    formattedref: ISO 14649-10:2003
+    docidentifier:
+    - content: ISO 14649-10:2003
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 14649-10:2003
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/CD14649-10
     type: standard
-    docid:
-    - id: ISO/CD 14649-10
+    formattedref: ISO/CD 14649-10
+    docidentifier:
+    - content: ISO/CD 14649-10
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/CD 14649-10
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Industrial cyber and physical device control
-      number: 184
+    - number: 184
       type: TC
       identifier: ISO/TC 184/SC 1
+      content: Industrial cyber and physical device control
   ics:
   - code: 25.040.20
     text: Numerically controlled machines
   structuredidentifier:
-    project_number: '40895'
     type: ISO
+    project_number:
+      content: '40895'

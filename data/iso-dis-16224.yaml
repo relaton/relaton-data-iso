@@ -1,88 +1,73 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS16224
-title:
-- content: Fasteners
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Calculation methods for bolt/nut assemblies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Nut design
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Fasteners - Calculation methods for bolt/nut assemblies - Nut design
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Fixations
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Méthodes de calcul pour les assemblages vis/écrou
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Conception des écrous
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Fixations - Méthodes de calcul pour les assemblages vis/écrou - Conception
-    des écrous
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84884.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/48/84884.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 16224
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fasteners
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Calculation methods for bolt/nut assemblies
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Nut design
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Fasteners - Calculation methods for bolt/nut assemblies - Nut design
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Fixations
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Méthodes de calcul pour les assemblages vis/écrou
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Conception des écrous
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Fixations - Méthodes de calcul pour les assemblages vis/écrou - Conception
+    des écrous
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84884.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/48/84884.detail.rss
+docidentifier:
+- content: ISO/DIS 16224
   type: ISO
   primary: true
-- id: ISO/DIS 16224(E)
+- content: ISO/DIS 16224(E)
   type: iso-reference
-- id: urn:iso:std:iso:16224:stage-draft
+- content: urn:iso:std:iso:16224:stage-draft
   type: URN
 docnumber: '16224'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -91,61 +76,55 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies design criteria for nuts specified in ISO 898-2 so that, under static tensile overload, the stripping fracture mode is prevented.
 
     The design criteria are also applicable to non-standardized nuts or internally threaded elements with ISO metric screw threads (in accordance with ISO 68-1) mating with bolts. However, dimensional factors such as the width across flats or other features related to rigidity of nuts, and thread tolerances can affect the load ability of the individual bolt and nut assemblies. Therefore, it is intended that verification tests be carried out.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies design criteria for nuts specified in ISO 898-2 so that, under static tensile overload, the stripping fracture mode is prevented.
 
     The design criteria are also applicable to non-standardized nuts or internally threaded elements with ISO metric screw threads (in accordance with ISO 68-1) mating with bolts. However, dimensional factors such as the width across flats or other features related to rigidity of nuts, and thread tolerances can affect the load ability of the individual bolt and nut assemblies. Therefore, it is intended that verification tests be carried out.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TR16224-2012
     type: standard
-    docid:
-    - id: ISO/TR 16224:2012
+    formattedref: ISO/TR 16224:2012
+    docidentifier:
+    - content: ISO/TR 16224:2012
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TR 16224:2012
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Fasteners with metric internal thread
-      number: 2
+    - number: 2
       type: TC
       identifier: ISO/TC 2/SC 12
+      content: Fasteners with metric internal thread
   ics:
   - code: 21.060.20
     text: Nuts
   structuredidentifier:
-    project_number: '84884'
     type: ISO
+    project_number:
+      content: '84884'

@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECDIS20059
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Methodologies to evaluate the resistance of biometric recognition systems
-    to morphing attacks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Methodologies to evaluate the resistance of biometric
-    recognition systems to morphing attacks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information technology
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Methodologies to evaluate the resistance of biometric recognition systems
-    to morphing attacks
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Methodologies to evaluate the resistance of biometric
-    recognition systems to morphing attacks
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86084.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:86084:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/60/86084.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC DIS 20059
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Methodologies to evaluate the resistance of biometric recognition systems
+    to morphing attacks
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Methodologies to evaluate the resistance of biometric
+    recognition systems to morphing attacks
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Methodologies to evaluate the resistance of biometric recognition systems
+    to morphing attacks
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information technology - Methodologies to evaluate the resistance of biometric
+    recognition systems to morphing attacks
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86084.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:86084:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/60/86084.detail.rss
+docidentifier:
+- content: ISO/IEC DIS 20059
   type: ISO
   primary: true
-- id: ISO/IEC DIS 20059(E)
+- content: ISO/IEC DIS 20059(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:20059:stage-draft
+- content: urn:iso:std:iso-iec:20059:stage-draft
   type: URN
 docnumber: '20059'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -90,7 +80,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This standard establishes requirements for biometric recognition systems
+- language: en
+  script: Latn
+  content: "This standard establishes requirements for biometric recognition systems
     that could become subject to morphing attacks.\n\nThe standard establishes:\n•\tTaxonomy
     of biometric sample modifications and manipulation with a specific focus on manipulations
     that constitute a multiple identity attack. This can be for instance an enrolment
@@ -105,12 +97,9 @@ abstract:
     standard includes informative content on how morphing algorithms can be used for
     system evaluation. \n\nThe standard is intended to support evaluations of biometric
     recognition systems with respect to multiple identity attack."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This standard establishes requirements for biometric recognition systems
+- language: fr
+  script: Latn
+  content: "This standard establishes requirements for biometric recognition systems
     that could become subject to morphing attacks.\n\nThe standard establishes:\n•\tTaxonomy
     of biometric sample modifications and manipulation with a specific focus on manipulations
     that constitute a multiple identity attack. This can be for instance an enrolment
@@ -125,38 +114,36 @@ abstract:
     standard includes informative content on how morphing algorithms can be used for
     system evaluation. \n\nThe standard is intended to support evaluations of biometric
     recognition systems with respect to multiple identity attack."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Biometrics
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 37
+      content: Biometrics
   ics:
   - code: '35.030'
     text: IT Security
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    project_number: '86084'
     type: ISO
+    project_number:
+      content: '86084'

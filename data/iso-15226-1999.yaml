@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO15226-1999
-title:
-- content: Technical product documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Life cycle model and allocation of documents
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technical product documentation - Life cycle model and allocation of documents
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Documentation technique de produits
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Modèles de cycle de vie et affectation de documents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Documentation technique de produits - Modèles de cycle de vie et affectation
-    de documents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/26947.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:26947:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/02/69/26947.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 15226:1999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Technical product documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Life cycle model and allocation of documents
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Technical product documentation - Life cycle model and allocation of documents
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Documentation technique de produits
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modèles de cycle de vie et affectation de documents
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Documentation technique de produits - Modèles de cycle de vie et affectation
+    de documents
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/26947.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26947:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/69/26947.detail.rss
+docidentifier:
+- content: ISO 15226:1999
   type: ISO
   primary: true
-- id: ISO 15226:1999(E)
+- content: ISO 15226:1999(E)
   type: iso-reference
-- id: urn:iso:std:iso:15226:stage-90.93
+- content: urn:iso:std:iso:15226:stage-90.93
   type: URN
 docnumber: '15226'
 date:
 - type: published
-  value: 1999-04
+  at: 1999-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1999-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard gives a method of establishing a flexible life cycle model and gives guidance on efficient
     and easy-to-understand handling technical documents during the product life cycle. The product life cycle takes
     different company-specific requirements into account, in accordance with project management techniques. For
@@ -94,12 +84,9 @@ abstract:
     not applicable either to services or software.
     This International Standard is intended to be an aid in controlling and coordinating documents, in accordance with
     ISO 9001, ISO 9002, and ISO 9003.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     La présente Norme internationale donne une méthode permettant d'établir un modèle de cycle de vie adaptable et
     fournit les lignes directrices permettant une gestion efficace et claire des documents techniques au cours du cycle
     de vie du produit. Le cycle de vie du produit tient compte des différentes prescriptions spécifiques à chaque
@@ -111,36 +98,34 @@ abstract:
     ni aux services ni aux logiciels.
     La présente Norme internationale est destinée à faciliter le contrôle et la coordination des documents,
     conformément à l'ISO 9001, l'ISO 9002 et l'ISO 9003.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Basic conventions
-      number: 10
+    - number: 10
       type: TC
       identifier: ISO/TC 10/SC 1
+      content: Basic conventions
   ics:
   - code: '01.110'
     text: Technical product documentation
   structuredidentifier:
-    project_number: '26947'
     type: ISO
+    project_number:
+      content: '26947'

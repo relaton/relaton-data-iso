@@ -1,92 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO/FDIS7519
+type: standard
+schema_version: v1.4.1
 title:
-- content: Technical product documentation (TPD)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Technical product documentation (TPD)
   type: title-intro
-- content: Construction documentation
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Construction documentation
   type: title-main
-- content: General principles of presentation for general arrangement and assembly
+  format: text/plain
+- language: en
+  script: Latn
+  content: General principles of presentation for general arrangement and assembly
     drawings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: Technical product documentation (TPD) - Construction documentation - General
+  format: text/plain
+- language: en
+  script: Latn
+  content: Technical product documentation (TPD) - Construction documentation - General
     principles of presentation for general arrangement and assembly drawings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Documentation technique de produits (TPD)
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Documentation technique de produits (TPD)
   type: title-intro
-- content: Documentation de construction
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Documentation de construction
   type: title-main
-- content: Principes généraux de présentation pour les dessins de disposition générale
-    et d’assemblage
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Principes généraux de présentation pour les dessins de disposition générale
+    et d’assemblage
   type: title-part
-- content: Documentation technique de produits (TPD) - Documentation de construction
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Documentation technique de produits (TPD) - Documentation de construction
     - Principes généraux de présentation pour les dessins de disposition générale
     et d’assemblage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/89718.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/97/89718.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/FDIS 7519
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/89718.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/97/89718.detail.rss
+docidentifier:
+- content: ISO/FDIS 7519
   type: ISO
   primary: true
-- id: ISO/FDIS 7519(E)
+- content: ISO/FDIS 7519(E)
   type: iso-reference
-- id: urn:iso:std:iso:7519:stage-draft
+- content: urn:iso:std:iso:7519:stage-draft
   type: URN
 docnumber: '7519'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -95,59 +80,53 @@ language:
 script:
 - Latn
 abstract:
-- content: This document establishes general principles of presentation to be applied
+- language: en
+  script: Latn
+  content: This document establishes general principles of presentation to be applied
     to construction drawings for general arrangement and assembly, mainly within the
     field of building and architectural drawings.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Le présent document établit les principes généraux de présentation à appliquer
+- language: fr
+  script: Latn
+  content: Le présent document établit les principes généraux de présentation à appliquer
     aux dessins de construction pour la disposition générale et l’assemblage, principalement
     dans le domaine des dessins de bâtiment et d’architecture.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/FDIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO7519-2024
     type: standard
-    docid:
-    - id: ISO 7519:2024
+    formattedref: ISO 7519:2024
+    docidentifier:
+    - content: ISO 7519:2024
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 7519:2024
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Construction documentation
-      number: 10
+    - number: 10
       type: TC
       identifier: ISO/TC 10/SC 8
+      content: Construction documentation
   ics:
   - code: 01.100.30
     text: Construction drawings
   structuredidentifier:
-    project_number: '89718'
     type: ISO
+    project_number:
+      content: '89718'

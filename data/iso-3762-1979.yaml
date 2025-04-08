@@ -1,109 +1,100 @@
 ---
-schema-version: v1.2.9
 id: ISO3762-1979
-title:
-- content: Paper
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Preparation of a letterpress print for test purposes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Paper - Preparation of a letterpress print for test purposes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Papier
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Préparation d'impressions typographiques en vue d'essais ultérieurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Papier - Préparation d'impressions typographiques en vue d'essais ultérieurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/9264.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/92/9264.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3762:1979
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Paper
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Preparation of a letterpress print for test purposes
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Paper - Preparation of a letterpress print for test purposes
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Papier
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Préparation d'impressions typographiques en vue d'essais ultérieurs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Papier - Préparation d'impressions typographiques en vue d'essais ultérieurs
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/9264.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/92/9264.detail.rss
+docidentifier:
+- content: ISO 3762:1979
   type: ISO
   primary: true
-- id: ISO 3762:1979(E)
+- content: ISO 3762:1979(E)
   type: iso-reference
-- id: urn:iso:std:iso:3762:stage-95.99
+- content: urn:iso:std:iso:3762:stage-95.99
   type: URN
 docnumber: '3762'
 date:
 - type: published
-  value: 1979-11
+  at: 1979-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1979-11
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1979'
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Test methods and quality specifications for paper and board
-      number: 6
+    - number: 6
       type: TC
       identifier: ISO/TC 6/SC 2
+      content: Test methods and quality specifications for paper and board
   ics:
   - code: '85.060'
     text: Paper and board
   structuredidentifier:
-    project_number: '9264'
     type: ISO
+    project_number:
+      content: '9264'

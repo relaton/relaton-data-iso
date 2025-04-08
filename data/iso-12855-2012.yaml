@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO12855-2012
-title:
-- content: Electronic fee collection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Information exchange between service provision and toll charging
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Electronic fee collection - Information exchange between service provision
-    and toll charging
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Perception du télépéage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Échange d'informations entre la prestation de service et la perception
-    du péage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Perception du télépéage - Échange d'informations entre la prestation de
-    service et la perception du péage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/52018.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/05/20/52018.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 12855:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electronic fee collection
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information exchange between service provision and toll charging
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electronic fee collection - Information exchange between service provision
+    and toll charging
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception du télépéage
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Échange d'informations entre la prestation de service et la perception
+    du péage
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception du télépéage - Échange d'informations entre la prestation de
+    service et la perception du péage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/52018.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/20/52018.detail.rss
+docidentifier:
+- content: ISO 12855:2012
   type: ISO
   primary: true
-- id: ISO 12855:2012(E)
+- content: ISO 12855:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso:12855:stage-95.99
+- content: urn:iso:std:iso:12855:stage-95.99
   type: URN
 docnumber: '12855'
 date:
 - type: published
-  value: 2012-02
+  at: 2012-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2012-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 12855:2011 specifies
     - the interfaces between electronic fee collection (EFC) systems for vehicle related transport services, e.g. road user charging, parking and access control; it does not cover interfaces for EFC systems for public transport; an EFC system can include any EFC system, e.g. also systems automatically reading licence plate numbers of vehicles passing a toll point;
     - an exchange of information between the central equipment of the two roles of service provision and toll charging, e.g.
@@ -98,12 +88,9 @@ abstract:
     - examples of data interchanges.
     ISO 12855:2011 supports any toll service and any technology used for charging.
     It is defined as a toolbox standard of transactions and messages which can be used for the assigned purpose. The detailed definitions of mandatory and optional elements in a real implementation are defined elsewhere. It does not define all communication sequences, communication stacks and timings.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le domaine d'application de la présente Norme internationale couvre:
     - les interfaces entre les installations EFC (Electronic Fee Collection) pour les services de transport associés aux véhicules, tels que la tarification routière, le stationnement et le contrôle d'accès. La présente Norme internationale ne couvre pas les interfaces pour les systèmes électroniques de perception de redevances pour les transports publics. Il convient de noter qu'une installation EFC peut comprendre un système de perception de télépéage, tel que les systèmes permettant de lire automatiquement les numéros de plaques d'immatriculation des véhicules qui franchissent un point de péage;
     - l'échange d'informations entre les équipements centraux des deux rôles Prestation de service et Perception de péage, par exemple
@@ -118,67 +105,59 @@ abstract:
     - les exemples d'échanges de données.
     La présente Norme internationale supporte tout service de péage et toute technologie utilisée dans le cadre de la perception.
     La présente Norme internationale est définie comme une norme «boîte à outils» pour les transactions et les messages pouvant être utilisée pour l'objectif prévu. La définition détaillée des éléments obligatoires et facultatifs dans une implémentation réelle doit être définie par ailleurs. De plus, la présente Norme internationale ne définit pas toutes les séquences de communication, ni les couches de communication et les paramètres temporels.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO12855-2015
     type: standard
-    docid:
-    - id: ISO 12855:2015
+    formattedref: ISO 12855:2015
+    docidentifier:
+    - content: ISO 12855:2015
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2015-12-14'
-    formattedref:
-      content: ISO 12855:2015
-      format: text/plain
+      at: '2015-12-14'
 - type: updates
   bibitem:
-    id: ISO12855-2012/Cor1-2013
     type: standard
-    docid:
-    - id: ISO 12855:2012/Cor 1:2013
+    formattedref: ISO 12855:2012/Cor 1:2013
+    docidentifier:
+    - content: ISO 12855:2012/Cor 1:2013
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2015-12-14'
-    formattedref:
-      content: ISO 12855:2012/Cor 1:2013
-      format: text/plain
+      at: '2015-12-14'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '52018'
     type: ISO
+    project_number:
+      content: '52018'

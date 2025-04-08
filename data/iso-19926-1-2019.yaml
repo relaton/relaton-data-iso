@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO19926-1-2019
-title:
-- content: Meteorology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Weather radar
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: System performance and operation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Meteorology - Weather radar - Part 1: System performance and operation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Météorologie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Radars météorologiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Performance et fonctionnement des systèmes'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Météorologie - Radars météorologiques - Partie 1: Performance et fonctionnement
-    des systèmes'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/66559.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:66559:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/65/66559.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19926-1:2019
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Meteorology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Weather radar
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: System performance and operation'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Meteorology - Weather radar - Part 1: System performance and operation'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Météorologie
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Radars météorologiques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Performance et fonctionnement des systèmes'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Météorologie - Radars météorologiques - Partie 1: Performance et fonctionnement
+    des systèmes'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/66559.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:66559:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/65/66559.detail.rss
+docidentifier:
+- content: ISO 19926-1:2019
   type: ISO
   primary: true
-- id: ISO 19926-1:2019(E)
+- content: ISO 19926-1:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:19926:-1:stage-90.93
+- content: urn:iso:std:iso:19926:-1:stage-90.93
   type: URN
 docnumber: '19926'
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 19926-1:2019 specifies system performance of ground-based weather
+- language: en
+  script: Latn
+  content: "ISO 19926-1:2019 specifies system performance of ground-based weather
     radar systems measuring the atmosphere using frequencies between 2 GHz and 10
     GHz. These systems are suitable for the area-wide detection of precipitation and
     other meteorological targets at different altitudes. This document also describes
@@ -117,46 +103,41 @@ abstract:
     for the positioning of the radar system or need specific measurement strategies.
     However, the procedures for calibration and maintenance described in this document
     apply here as well.\nISO 19926-1:2019 addresses manufacturers and radar operators."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 19926-1 :2019 décrit les performances des systèmes radar météorologiques au sol qui réalisent des mesurages dans l'atmosphère à des fréquences comprises entre 2 GHz et 10 GHz. Ces systèmes conviennent pour la détection des précipitations et d'autres cibles météorologiques à différentes altitudes, sur une zone étendue. Le présent document décrit également des méthodes pour contrôler les différents aspects de performance des systèmes, infrastructure incluse.
     L'ISO 19926-1 :2019 s'applique aux systèmes radar paraboliques à polarisation linéaire et aux radars à polarisation simple et double. Il ne s'applique pas aux radars à faisceaux en éventail [étroits en azimut (AZ) et larges en élévation (EL)] qui incluent les radars de surveillance maritime et aéronautique qui, bien que non conçus à cette fin, sont utilisés pour des applications météorologiques. Les radars à antenne réseau à commande de phase, qui utilisent des faisceaux dirigés et formés par voie électronique, y compris des faisceaux multiples, avec des diagrammes désaxés non circulaires, sont récents et les données disponibles sur leurs performances sont insuffisantes.
     L'ISO 19926-1 :2019 ne décrit ni la technologie des radars météorologiques ni leurs applications. Les systèmes radar météorologiques peuvent être utilisés pour des applications telles que l'évaluation quantitative des précipitations (QPE), la classification des hydrométéores (grêle, par exemple), l'estimation des vitesses de vent et la détection et la surveillance des phénomènes météorologiques extrêmes (microrafales ou tornades, par exemple). Certaines de ces applications ont des exigences particulières quant au positionnement du système radar ou nécessitent des stratégies de mesure spécifiques. Cependant, les modes opératoires d'étalonnage et d'entretien décrits dans le présent document s'y appliquent également.
     L'ISO 19926-1 :2019 est destiné aux fabricants et aux opérateurs de radars.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Meteorology
-      number: 146
+    - number: 146
       type: TC
       identifier: ISO/TC 146/SC 5
+      content: Meteorology
   ics:
   - code: '07.060'
     text: Geology. Meteorology. Hydrology
   structuredidentifier:
-    project_number: '66559'
     type: ISO
+    project_number:
+      content: '66559'

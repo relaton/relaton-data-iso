@@ -1,113 +1,100 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC17960-2015
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Programming languages, their environments and system software interfaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Code signing for source code
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Programming languages, their environments and
-    system software interfaces - Code signing for source code
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Langages de programmation, leur environnement et interfaces des logiciels
-    de systèmes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Signature numérique pour le code source
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Langages de programmation, leur environnement
-    et interfaces des logiciels de systèmes - Signature numérique pour le code source
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/61133.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:61133:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/11/61133.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 17960:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Programming languages, their environments and system software interfaces
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Code signing for source code
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Programming languages, their environments and
+    system software interfaces - Code signing for source code
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langages de programmation, leur environnement et interfaces des logiciels
+    de systèmes
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Signature numérique pour le code source
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Langages de programmation, leur environnement
+    et interfaces des logiciels de systèmes - Signature numérique pour le code source
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/61133.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:61133:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/11/61133.detail.rss
+docidentifier:
+- content: ISO/IEC 17960:2015
   type: ISO
   primary: true
-- id: ISO/IEC 17960:2015(E)
+- content: ISO/IEC 17960:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:17960:stage-90.93
+- content: urn:iso:std:iso-iec:17960:stage-90.93
   type: URN
 docnumber: '17960'
 date:
 - type: published
-  value: 2015-09
+  at: 2015-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2015-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard specifies a language-neutral and environment-neutral description to define the methodology needed to support the signing of software source code, to enable it to be uniquely identified, and to enable roll-back to signed previous versions. It is intended to be used by originators of software source code and the recipients of their signed source code. This International Standard is designed for transfers of source code among disparate entities.
     The following areas are outside the scope of this International Standard:
     -      Determination of the trust level of a certification authority;
@@ -119,12 +106,9 @@ abstract:
     -      Transmission and representation issues
     - -      Though this could be an issue in implementation, there are techniques such as Portable Document Format (PDF)[1] that can be used to mitigate these issues. This applies in particular to the transmission of digital signatures.
     [1] ISO 32000-1:2008 Document management ? Portable document format ? Part 1: PDF 1 specifies a digital form for representing electronic documents to enable users to exchange and view electronic documents independent of the environment in which they were created or the environment in which they are viewed or printed.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This International Standard specifies a language-neutral and environment-neutral description to define the methodology needed to support the signing of software source code, to enable it to be uniquely identified, and to enable roll-back to signed previous versions. It is intended to be used by originators of software source code and the recipients of their signed source code. This International Standard is designed for transfers of source code among disparate entities.
     The following areas are outside the scope of this International Standard:
     -      Determination of the trust level of a certification authority;
@@ -136,36 +120,34 @@ abstract:
     -      Transmission and representation issues
     - -      Though this could be an issue in implementation, there are techniques such as Portable Document Format (PDF)[1] that can be used to mitigate these issues. This applies in particular to the transmission of digital signatures.
     [1] ISO 32000-1:2008 Document management ? Portable document format ? Part 1: PDF 1 specifies a digital form for representing electronic documents to enable users to exchange and view electronic documents independent of the environment in which they were created or the environment in which they are viewed or printed.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '61133'
     type: ISO
+    project_number:
+      content: '61133'

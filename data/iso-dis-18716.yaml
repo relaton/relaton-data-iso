@@ -1,68 +1,59 @@
 ---
-schema-version: v1.2.8
 id: ISO/DIS18716
-title:
-- content: Professional farmer organization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Guidance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Professional farmer organization - Guidance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85377.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:85377:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/53/85377.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 18716
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Professional farmer organization
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Guidance
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Professional farmer organization - Guidance
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85377.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:85377:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/53/85377.detail.rss
+docidentifier:
+- content: ISO/DIS 18716
   type: ISO
   primary: true
-- id: ISO/DIS 18716(E)
+- content: ISO/DIS 18716(E)
   type: iso-reference
-- id: urn:iso:std:iso:18716:stage-draft
+- content: urn:iso:std:iso:18716:stage-draft
   type: URN
 docnumber: '18716'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -71,7 +62,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides guidelines describing the characteristics of a professional
+- language: en
+  script: Latn
+  content: This document provides guidelines describing the characteristics of a professional
     farmer organization. It is primarily targeted towards commercially-oriented farmer
     organizations rather than purely socially-oriented farmer organizations or individual
     farmers. It is intended to be relevant for large and small farmer organizations,
@@ -79,12 +72,9 @@ abstract:
     investment, nor to the specific crop or product. The implementation and interpretation
     of this document can be adapted for very small or nascent organizations, for specific
     or differentiated products, or for markets with special requirements.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document provides guidelines describing the characteristics of a professional
+- language: fr
+  script: Latn
+  content: This document provides guidelines describing the characteristics of a professional
     farmer organization. It is primarily targeted towards commercially-oriented farmer
     organizations rather than purely socially-oriented farmer organizations or individual
     farmers. It is intended to be relevant for large and small farmer organizations,
@@ -92,48 +82,43 @@ abstract:
     investment, nor to the specific crop or product. The implementation and interpretation
     of this document can be adapted for very small or nascent organizations, for specific
     or differentiated products, or for markets with special requirements.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: IWA29-2019
     type: standard
-    docid:
-    - id: IWA 29:2019
+    formattedref: IWA 29:2019
+    docidentifier:
+    - content: IWA 29:2019
       type: ISO
       primary: true
-    formattedref:
-      content: IWA 29:2019
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Food products
-    number: 34
-    type: TC
-    identifier: ISO/TC 34
-ics:
-- code: 65.020.01
-  text: Farming and forestry in general
-structuredidentifier:
-  project_number: ISO 18716
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 34
+      type: TC
+      identifier: ISO/TC 34
+      content: Food products
+  ics:
+  - code: 65.020.01
+    text: Farming and forestry in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 18716

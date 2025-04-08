@@ -1,97 +1,83 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECDTS8200
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Artificial intelligence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Controllability of automated artificial intelligence systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Artificial intelligence - Controllability of automated
-    artificial intelligence systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Intelligence artificielle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Contrôlabilité des systèmes d'intelligence artificiels automatisés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Intelligence artificielle - Contrôlabilité
-    des systèmes d'intelligence artificiels automatisés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83012.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/30/83012.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC DTS 8200
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Artificial intelligence
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Controllability of automated artificial intelligence systems
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Artificial intelligence - Controllability of automated
+    artificial intelligence systems
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Intelligence artificielle
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Contrôlabilité des systèmes d'intelligence artificiels automatisés
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Intelligence artificielle - Contrôlabilité
+    des systèmes d'intelligence artificiels automatisés
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83012.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/30/83012.detail.rss
+docidentifier:
+- content: ISO/IEC DTS 8200
   type: ISO
   primary: true
-- id: ISO/IEC DTS 8200(E)
+- content: ISO/IEC DTS 8200(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:ts:8200:stage-draft
+- content: urn:iso:std:iso-iec:ts:8200:stage-draft
   type: URN
 docnumber: '8200'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -100,7 +86,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document defines a basic framework with principles, characteristics
+- language: en
+  script: Latn
+  content: "This document defines a basic framework with principles, characteristics
     and approaches for the realization and enhancement for automated artificial intelligence
     (AI) systems’ controllability.\n\nThe following areas are covered:\n―\tState observability
     and state transition\n―\tControl transfer process and cost\n―\tReaction to uncertainty
@@ -108,12 +96,9 @@ abstract:
     is applicable to all types of organizations (e.g. commercial enterprises, government
     agencies, not-for-profit organizations) developing and using AI systems during
     their whole life cycle."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document defines a basic framework with principles, characteristics
+- language: fr
+  script: Latn
+  content: "This document defines a basic framework with principles, characteristics
     and approaches for the realization and enhancement for automated artificial intelligence
     (AI) systems’ controllability.\n\nThe following areas are covered:\n―\tState observability
     and state transition\n―\tControl transfer process and cost\n―\tReaction to uncertainty
@@ -121,36 +106,34 @@ abstract:
     is applicable to all types of organizations (e.g. commercial enterprises, government
     agencies, not-for-profit organizations) developing and using AI systems during
     their whole life cycle."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: technical-specification
-editorialgroup:
-  technical_committee:
-  - name: Artificial intelligence
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 42
-ics:
-- code: '35.020'
-  text: Information technology (IT) in general
-structuredidentifier:
-  project_number: ISO 8200
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: technical-specification
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 42
+      content: Artificial intelligence
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 8200

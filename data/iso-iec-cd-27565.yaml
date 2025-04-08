@@ -1,67 +1,61 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECCD27565
-title:
-- content: Guidelines on privacy preservation based on zero knowledge proofs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Guidelines on privacy preservation based on zero knowledge proofs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/80398.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/03/80398.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC CD 27565
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Guidelines on privacy preservation based on zero knowledge proofs
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Guidelines on privacy preservation based on zero knowledge proofs
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/80398.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/03/80398.detail.rss
+docidentifier:
+- content: ISO/IEC CD 27565
   type: ISO
   primary: true
-- id: ISO/IEC CD 27565(E)
+- content: ISO/IEC CD 27565(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:27565:stage-draft
+- content: urn:iso:std:iso-iec:27565:stage-draft
   type: URN
 docnumber: '27565'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -70,53 +64,50 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides guidelines on using zero knowledge proofs (ZKP) to improve privacy
     by reducing the risks associated with the sharing or transmission of personal data between
     organisations and users by minimizing the information shared. It will include several ZKP
     functional requirements relevant to a range of different business use cases, then describes
     how different ZKP models can be used to meet those functional requirements securely.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document provides guidelines on using zero knowledge proofs (ZKP) to improve privacy
     by reducing the risks associated with the sharing or transmission of personal data between
     organisations and users by minimizing the information shared. It will include several ZKP
     functional requirements relevant to a range of different business use cases, then describes
     how different ZKP models can be used to meet those functional requirements securely.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Information security, cybersecurity and privacy protection
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 27
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: ISO 27565
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 27565

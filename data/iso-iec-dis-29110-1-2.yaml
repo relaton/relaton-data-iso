@@ -1,91 +1,79 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECDIS29110-1-2
-title:
-- content: Systems and software engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Lifecycle profiles for Very Small Entities (VSEs)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1-2: Vocabulary'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Systems and software engineering - Lifecycle profiles for Very Small Entities
-    (VSEs) - Part 1-2: Vocabulary'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Partie 1-2: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Titre manque - Partie 1-2: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85338.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:85338:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/53/85338.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC DIS 29110-1-2
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Systems and software engineering
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Lifecycle profiles for Very Small Entities (VSEs)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1-2: Vocabulary'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Systems and software engineering - Lifecycle profiles for Very Small Entities
+    (VSEs) - Part 1-2: Vocabulary'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1-2: Titre manque'
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Titre manque - Partie 1-2: Titre manque'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85338.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:85338:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/53/85338.detail.rss
+docidentifier:
+- content: ISO/IEC DIS 29110-1-2
   type: ISO
   primary: true
-- id: ISO/IEC DIS 29110-1-2(E)
+- content: ISO/IEC DIS 29110-1-2(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:29110:-1-2:stage-draft
+- content: urn:iso:std:iso-iec:29110:-1-2:stage-draft
   type: URN
 docnumber: '29110'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -93,46 +81,45 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IECTR29110-1-2016
     type: standard
-    docid:
-    - id: ISO/IEC TR 29110-1:2016
+    formattedref: ISO/IEC TR 29110-1:2016
+    docidentifier:
+    - content: ISO/IEC TR 29110-1:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC TR 29110-1:2016
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Software and systems engineering
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 7
-ics:
-- code: '35.080'
-  text: Software
-- code: 01.040.35
-  text: Information technology (Vocabularies)
-structuredidentifier:
-  project_number: ISO 29110
-  part: 1-2
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 29110

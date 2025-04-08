@@ -1,98 +1,84 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECCD22237-31
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Data centre facilities and infrastructures
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Data centre facilities and infrastructures
   type: title-main
-- content: 'Part 31: Key performance indicators for resilience'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 31: Key performance indicators for resilience'
   type: title-part
-- content: 'Information technology - Data centre facilities and infrastructures -
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Data centre facilities and infrastructures -
     Part 31: Key performance indicators for resilience'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologie de l’information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie de l’information
   type: title-intro
-- content: Installation et infrastructures de centres de traitement de données
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Installation et infrastructures de centres de traitement de données
   type: title-main
-- content: 'Partie 31: Indicateurs clés de performance pour la résilience'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 31: Indicateurs clés de performance pour la résilience'
   type: title-part
-- content: 'Technologie de l’information - Installation et infrastructures de centres
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologie de l’information - Installation et infrastructures de centres
     de traitement de données - Partie 31: Indicateurs clés de performance pour la
     résilience'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/88711.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/87/88711.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC CD 22237-31
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88711.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/87/88711.detail.rss
+docidentifier:
+- content: ISO/IEC CD 22237-31
   type: ISO
   primary: true
-- id: ISO/IEC CD 22237-31(E)
+- content: ISO/IEC CD 22237-31(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:22237:-31:stage-draft
+- content: urn:iso:std:iso-iec:22237:-31:stage-draft
   type: URN
 docnumber: '22237'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -101,7 +87,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document:
     a)       defines metrics as key performance indicators (KPIs) for resilience, dependability, fault tolerance and availability tolerance for data centres;
     b)       covers the data centre infrastructure (DCI) of power distribution and supply, and environmental control;
@@ -110,12 +98,9 @@ abstract:
     e)       targets maintainability, recoverability and vulnerability;
     f)         provides examples for calculating these KPIs for the purpose of analytical comparison of different DCIs.
     This document does not apply to IT equipment, cloud services, software or business applications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document:
     a)       defines metrics as key performance indicators (KPIs) for resilience, dependability, fault tolerance and availability tolerance for data centres;
     b)       covers the data centre infrastructure (DCI) of power distribution and supply, and environmental control;
@@ -124,48 +109,43 @@ abstract:
     e)       targets maintainability, recoverability and vulnerability;
     f)         provides examples for calculating these KPIs for the purpose of analytical comparison of different DCIs.
     This document does not apply to IT equipment, cloud services, software or business applications.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IECTS22237-31-2023
     type: standard
-    docid:
-    - id: ISO/IEC TS 22237-31:2023
+    formattedref: ISO/IEC TS 22237-31:2023
+    docidentifier:
+    - content: ISO/IEC TS 22237-31:2023
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC TS 22237-31:2023
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Sustainability, IT and data centres
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 39
+      content: Sustainability, IT and data centres
   ics:
   - code: '35.020'
     text: Information technology (IT) in general
   structuredidentifier:
-    project_number: '88711'
     type: ISO
+    project_number:
+      content: '88711'

@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/CD1750
-title:
-- content: Pesticides and other agrochemicals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Common names and preferred names
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Pesticides and other agrochemicals - Common names and preferred names
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Produits phytosanitaires et assimilés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Noms communs et noms préférés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Produits phytosanitaires et assimilés - Noms communs et noms préférés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/90175.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/09/01/90175.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 1750
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Pesticides and other agrochemicals
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Common names and preferred names
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Pesticides and other agrochemicals - Common names and preferred names
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Produits phytosanitaires et assimilés
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Noms communs et noms préférés
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Produits phytosanitaires et assimilés - Noms communs et noms préférés
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/90175.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/09/01/90175.detail.rss
+docidentifier:
+- content: ISO/CD 1750
   type: ISO
   primary: true
-- id: ISO/CD 1750(E)
+- content: ISO/CD 1750(E)
   type: iso-reference
-- id: urn:iso:std:iso:1750:stage-draft
+- content: urn:iso:std:iso:1750:stage-draft
   type: URN
 docnumber: '1750'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -76,72 +65,63 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides a link to an XML file that contains a data set with
+- language: en
+  script: Latn
+  content: This document provides a link to an XML file that contains a data set with
     the common names and preferred names for more than 1 500 pest control chemicals
     and plant growth regulators of international importance. For each substance, the
     data set also contains systematic names, molecular formula, structural formula,
     CAS Registry Number®, InChI, InChIKey and use. The XML file is updated each year
     to add newly-approved common and preferred names and to make any necessary corrections
     and additions to the data.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Scope
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+- language: fr
+  script: Latn
+  content: Scope
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO765-2016
     type: standard
-    docid:
-    - id: ISO 765:2016
+    formattedref: ISO 765:2016
+    docidentifier:
+    - content: ISO 765:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 765:2016
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO1750-2023
     type: standard
-    docid:
-    - id: ISO 1750:2023
+    formattedref: ISO 1750:2023
+    docidentifier:
+    - content: ISO 1750:2023
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 1750:2023
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Common names for pesticides and other agrochemicals
-      number: 81
+    - number: 81
       type: TC
       identifier: ISO/TC 81
+      content: Common names for pesticides and other agrochemicals
   ics:
   - code: 65.100.01
     text: Pesticides and other agrochemicals in general
   structuredidentifier:
-    project_number: '90175'
     type: ISO
+    project_number:
+      content: '90175'

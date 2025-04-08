@@ -1,88 +1,73 @@
 ---
-schema-version: v1.2.8
 id: ISO/CDTR5914
-title:
-- content: Railway Applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Rolling stock
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Interior Passive Safety
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Railway Applications - Rolling stock - Interior Passive Safety
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Applications ferroviaires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Matériel roulant
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Sécurité passive des aménagements intérieurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Applications ferroviaires - Matériel roulant - Sécurité passive des aménagements
-    intérieurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81841.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/18/81841.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD TR 5914
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Railway Applications
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Rolling stock
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Interior Passive Safety
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Railway Applications - Rolling stock - Interior Passive Safety
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Applications ferroviaires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Matériel roulant
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sécurité passive des aménagements intérieurs
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Applications ferroviaires - Matériel roulant - Sécurité passive des aménagements
+    intérieurs
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81841.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/18/81841.detail.rss
+docidentifier:
+- content: ISO/CD TR 5914
   type: ISO
   primary: true
-- id: ISO/CD TR 5914(E)
+- content: ISO/CD TR 5914(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:5914:stage-draft
+- content: urn:iso:std:iso:tr:5914:stage-draft
   type: URN
 docnumber: '5914'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -90,31 +75,34 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Rolling stock
-    number: 269
-    type: TC
-    identifier: ISO/TC 269/SC 2
-ics:
-- code: 45.060.01
-  text: Railway rolling stock in general
-structuredidentifier:
-  project_number: ISO 5914
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 269
+      type: TC
+      identifier: ISO/TC 269/SC 2
+      content: Rolling stock
+  ics:
+  - code: 45.060.01
+    text: Railway rolling stock in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 5914

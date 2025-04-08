@@ -1,160 +1,138 @@
 ---
-schema-version: v1.2.9
 id: ISO19115-3-2023
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Metadata
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: XML schema implementation for fundamental concepts'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Geographic information - Metadata - Part 3: XML schema implementation
-    for fundamental concepts'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Métadonnées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Mise en oeuvre par des schémas XML'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information géographique - Métadonnées - Partie 3: Mise en oeuvre par
-    des schémas XML'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/80874.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:80874:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/08/80874.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19115-3:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Metadata
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: XML schema implementation for fundamental concepts'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Geographic information - Metadata - Part 3: XML schema implementation
+    for fundamental concepts'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Métadonnées
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Mise en oeuvre par des schémas XML'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Information géographique - Métadonnées - Partie 3: Mise en oeuvre par
+    des schémas XML'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/80874.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:80874:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/08/80874.detail.rss
+docidentifier:
+- content: ISO 19115-3:2023
   type: ISO
   primary: true
-- id: ISO 19115-3:2023(E)
+- content: ISO 19115-3:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:19115:-3:stage-60.60
+- content: urn:iso:std:iso:19115:-3:stage-published
   type: URN
 docnumber: '19115'
 date:
 - type: published
-  value: 2023-08
+  at: 2023-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2023-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines an integrated XML implementation of ISO 19115-1 and ISO 19115-2 by defining the following artefacts:
     —     a set of XML schema required to validate metadata instance documents conforming to conceptual model elements defined in ISO 19115-1 and ISO 19115-2; and
     —     a set of ISO/IEC 19757-3 (Schematron) rules that implement validation constraints in the ISO 19115-1 and ISO 19115-2 UML models that are not validated by the XML schema.
     This document describes the procedure used to generate XML schemas from ISO geographic information conceptual models related to metadata. The XML schemas are generated directly from the conceptual UML model (8.5).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document définit une implémentation XML intégrée des normes ISO 19115-1 et ISO 19115-2 en précisant les artefacts suivants:
     —     un ensemble de schémas XML requis pour valider les documents d'instance de métadonnées conformes aux éléments de modèle conceptuel définis dans l'ISO 19115-1 et l'ISO 19115-2; et
     —     un ensemble de règles basées sur l'ISO/IEC 19757-3 (Schematron) qui, dans les modèles UML de l'ISO 19115-1 et l'ISO 19115-2, implémentent des contraintes de validation qui ne sont pas validées par le schéma XML.
     Le présent document décrit la procédure utilisée pour générer des schémas XML à partir de modèles ISO conceptuels d'information géographique. Les schémas XML sont générés directement à partir du modèle UML conceptuel (8.5).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/TS19115-3-2016
     type: standard
-    docid:
-    - id: ISO/TS 19115-3:2016
+    formattedref: ISO/TS 19115-3:2016
+    docidentifier:
+    - content: ISO/TS 19115-3:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/TS 19115-3:2016
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '80874'
     type: ISO
+    project_number:
+      content: '80874'

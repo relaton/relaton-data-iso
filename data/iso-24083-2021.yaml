@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO24083-2021
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: International archives statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - International archives statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Statistiques internationales des archives
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Statistiques internationales des archives
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/77765.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:77765:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/77/77765.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 24083:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: International archives statistics
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - International archives statistics
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Statistiques internationales des archives
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Statistiques internationales des archives
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/77765.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:77765:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/77/77765.detail.rss
+docidentifier:
+- content: ISO 24083:2021
   type: ISO
   primary: true
-- id: ISO 24083:2021(E)
+- content: ISO 24083:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso:24083:stage-60.60
+- content: urn:iso:std:iso:24083:stage-published
   type: URN
 docnumber: '24083'
 date:
 - type: published
-  value: 2021-05
+  at: 2021-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2021-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies guidelines for the archives community on the collection and reporting of statistics for the following purposes:
     —    strategic planning and internal management of archives;
     —    aggregating and comparing operational and performance statistics at regional, national, and international levels;
@@ -90,12 +80,9 @@ abstract:
     —    promoting the role and value of archives for advancing learning and research, education and culture, and social and economic life;
     —    improving the management of processes, reinforcing transparency and supporting good governance.
     This document does not apply to records centres responsible for records that are still in the legal custody of the organization that created or received them, although it is recognized that some archives also have responsibilities for appraising, acquiring, and managing the current records of organizations that can or not be transferred to the archives for permanent retention. When applying this document to archives that also perform records management functions, the archives can exclude statistics that pertain to its records management functions, including measures pertaining to holdings and their usage and preservation, funding and expenditures, space and facilities, staffing and management.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies guidelines for the archives community on the collection and reporting of statistics for the following purposes:
     —    strategic planning and internal management of archives;
     —    aggregating and comparing operational and performance statistics at regional, national, and international levels;
@@ -103,36 +90,34 @@ abstract:
     —    promoting the role and value of archives for advancing learning and research, education and culture, and social and economic life;
     —    improving the management of processes, reinforcing transparency and supporting good governance.
     This document does not apply to records centres responsible for records that are still in the legal custody of the organization that created or received them, although it is recognized that some archives also have responsibilities for appraising, acquiring, and managing the current records of organizations that can or not be transferred to the archives for permanent retention. When applying this document to archives that also perform records management functions, the archives can exclude statistics that pertain to its records management functions, including measures pertaining to holdings and their usage and preservation, funding and expenditures, space and facilities, staffing and management.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Quality - Statistics and performance evaluation
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 8
+      content: Quality - Statistics and performance evaluation
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '77765'
     type: ISO
+    project_number:
+      content: '77765'

@@ -1,112 +1,95 @@
 ---
-schema-version: v1.2.9
 id: ISO1176-1990
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Masses
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Vocabulary and codes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Road vehicles - Masses - Vocabulary and codes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Masses
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Vocabulaire et codes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Véhicules routiers - Masses - Vocabulaire et codes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/5760.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:5760:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/00/57/5760.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 1176:1990
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Masses
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vocabulary and codes
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Masses - Vocabulary and codes
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Masses
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vocabulaire et codes
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Masses - Vocabulaire et codes
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/5760.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5760:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/57/5760.detail.rss
+docidentifier:
+- content: ISO 1176:1990
   type: ISO
   primary: true
-- id: ISO 1176:1990(E)
+- content: ISO 1176:1990(E)
   type: iso-reference
-- id: urn:iso:std:iso:1176:stage-90.93
+- content: urn:iso:std:iso:1176:stage-90.93
   type: URN
 docnumber: '1176'
 date:
 - type: published
-  value: 1990-07
+  at: 1990-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1990-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: 'Defines terms and codes in English and French for masses of road vehicles
+- language: en
+  script: Latn
+  content: 'Defines terms and codes in English and French for masses of road vehicles
     as defined in ISO 3833. The following types are excluded: specially designed vehicles
     for uses other than the transport of passengers and/or goods; motorcycles and
     mopeds; towed caravans. This second edition cancels and replaces the first edition
     (1974).'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "La présente Norme internationale définit les termes et les codes relatifs
+- language: fr
+  script: Latn
+  content: "La présente Norme internationale définit les termes et les codes relatifs
     aux masses des véhicules routiers tels que définis dans l'ISO 3833, à l'exception
     des types indiqués ci-après, dans leur état de fabrication, qu'ils soient complets
     ou non. Les codes ont été prévus pour permettre l'échange de données relatives
@@ -115,50 +98,45 @@ abstract:
     que le transport des personnes ou des marchandises ; \n- les motocycles et les
     vélomoteurs, qui sont traités dans l'ISO\n    6726 ; \n- les caravanes tractées,
     qui sont traitées dans l'ISO 7237."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO1176-1974
     type: standard
-    docid:
-    - id: ISO 1176:1974
+    formattedref: ISO 1176:1974
+    docidentifier:
+    - content: ISO 1176:1974
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 1176:1974
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Road vehicles
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22
+      content: Road vehicles
   ics:
   - code: '43.020'
     text: Road vehicles in general
   - code: 01.040.43
     text: Road vehicle engineering (Vocabularies)
   structuredidentifier:
-    project_number: '5760'
     type: ISO
+    project_number:
+      content: '5760'

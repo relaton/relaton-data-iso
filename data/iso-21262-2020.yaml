@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO21262-2020
-title:
-- content: Industrial trucks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Safety rules for application, operation and maintenance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Industrial trucks - Safety rules for application, operation and maintenance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Chariots de manutention
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Règles de sécurité pour les applications, l'utilisation et la maintenance
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Chariots de manutention - Règles de sécurité pour les applications, l'utilisation
-    et la maintenance
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/70320.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:70320:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/03/70320.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 21262:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial trucks
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Safety rules for application, operation and maintenance
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Industrial trucks - Safety rules for application, operation and maintenance
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Chariots de manutention
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Règles de sécurité pour les applications, l'utilisation et la maintenance
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Chariots de manutention - Règles de sécurité pour les applications, l'utilisation
+    et la maintenance
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/70320.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:70320:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/03/70320.detail.rss
+docidentifier:
+- content: ISO 21262:2020
   type: ISO
   primary: true
-- id: ISO 21262:2020(E)
+- content: ISO 21262:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:21262:stage-60.60
+- content: urn:iso:std:iso:21262:stage-published
   type: URN
 docnumber: '21262'
 date:
 - type: published
-  value: 2020-05
+  at: 2020-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document gives safety requirements for the application, operation, maintenance, transport, tow, assembly and storage of industrial trucks (hereafter referred to as trucks) as defined in ISO 5053‑1.
     It applies to the following truck types:
     a)   counterbalance lift trucks;
@@ -105,12 +95,9 @@ abstract:
     q)   burden and personnel carriers;
     r)    trucks powered by battery, diesel, gasoline or gas (e.g. LPG, CNG, LNG).
     Automated functions and driverless variants of the above list of trucks are also considered part of this scope.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document gives safety requirements for the application, operation, maintenance, transport, tow, assembly and storage of industrial trucks (hereafter referred to as trucks) as defined in ISO 5053‑1.
     It applies to the following truck types:
     a)   counterbalance lift trucks;
@@ -132,36 +119,34 @@ abstract:
     q)   burden and personnel carriers;
     r)    trucks powered by battery, diesel, gasoline or gas (e.g. LPG, CNG, LNG).
     Automated functions and driverless variants of the above list of trucks are also considered part of this scope.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Safety of powered industrial trucks
-      number: 110
+    - number: 110
       type: TC
       identifier: ISO/TC 110/SC 2
+      content: Safety of powered industrial trucks
   ics:
   - code: '53.060'
     text: Industrial trucks
   structuredidentifier:
-    project_number: '70320'
     type: ISO
+    project_number:
+      content: '70320'

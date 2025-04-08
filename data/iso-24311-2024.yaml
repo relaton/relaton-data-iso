@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
 id: ISO24311-2024
-title:
-- content: Intelligent transport systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mobility integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: "'Controlled zone' management for urban vehicle access restrictions (UVARs)
-    using C-ITS"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Intelligent transport systems - Mobility integration - 'Controlled zone'
-    management for urban vehicle access restrictions (UVARs) using C-ITS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de transport intelligents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: ITS urbains
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Gestion de "zones contrôlées" pour les UVAR à l'aide de C-ITS
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Systèmes de transport intelligents - ITS urbains - Gestion de "zones contrôlées"
-    pour les UVAR à l'aide de C-ITS
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78406.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78406:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/84/78406.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 24311:2024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Intelligent transport systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Mobility integration
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: "'Controlled zone' management for urban vehicle access restrictions (UVARs)
+    using C-ITS"
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems - Mobility integration - 'Controlled zone'
+    management for urban vehicle access restrictions (UVARs) using C-ITS
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transport intelligents
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: ITS urbains
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de "zones contrôlées" pour les UVAR à l'aide de C-ITS
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transport intelligents - ITS urbains - Gestion de "zones contrôlées"
+    pour les UVAR à l'aide de C-ITS
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78406.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78406:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/84/78406.detail.rss
+docidentifier:
+- content: ISO 24311:2024
   type: ISO
   primary: true
-- id: ISO 24311:2024(E)
+- content: ISO 24311:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso:24311:stage-60.60
+- content: urn:iso:std:iso:24311:stage-published
   type: URN
 docnumber: '24311'
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides information and specifications on the management of road traffic in controlled zones (CZ) through the application of geofencing. Specifically, this document specifies a “Controlled Zone Data Dictionary” (CZDD) for management of controlled zones, and provides an extendible toolkit that regulators can use, for example, to inform potential CZ users (e.g. vehicles) about:
     —     the CZ area, i.e. the geographical boundaries of the CZ;
     —     CZ access conditions including exemptions;
@@ -108,12 +94,9 @@ abstract:
     This document also provides illustrations and guidelines on how to use this toolkit.
     The toolkit is designed in accordance with the general ITS station and communications architecture specified in ISO 21217, and with optionally applicable C-ITS protocols and procedures, e.g. ISO 22418 on “Service Announcement”, ISO 18750 on the “Local Dynamic Map”, and ISO 17419 on globally unique identifiers. Cybersecurity provision can be provided through conformance to ISO 21177.
     Enforcement is out of scope of this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document provides information and specifications on the management of road traffic in controlled zones (CZ) through the application of geofencing. Specifically, this document specifies a “Controlled Zone Data Dictionary” (CZDD) for management of controlled zones, and provides an extendible toolkit that regulators can use, for example, to inform potential CZ users (e.g. vehicles) about:
     —     the CZ area, i.e. the geographical boundaries of the CZ;
     —     CZ access conditions including exemptions;
@@ -122,38 +105,36 @@ abstract:
     This document also provides illustrations and guidelines on how to use this toolkit.
     The toolkit is designed in accordance with the general ITS station and communications architecture specified in ISO 21217, and with optionally applicable C-ITS protocols and procedures, e.g. ISO 22418 on “Service Announcement”, ISO 18750 on the “Local Dynamic Map”, and ISO 17419 on globally unique identifiers. Cybersecurity provision can be provided through conformance to ISO 21177.
     Enforcement is out of scope of this document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '78406'
     type: ISO
+    project_number:
+      content: '78406'

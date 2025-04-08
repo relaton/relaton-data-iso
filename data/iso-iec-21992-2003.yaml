@@ -1,162 +1,144 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC21992-2003
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Telecommunications and information exchange between systems
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
   type: title-main
-- content: Private Integrated Services Network -- Mapping functions for the tunnelling
-    of QSIG through IP networks
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Private Integrated Services Network -- Mapping functions for the tunnelling
+    of QSIG through IP networks
   type: title-part
-- content: Information technology - Telecommunications and information exchange between
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
     systems - Private Integrated Services Network -- Mapping functions for the tunnelling
     of QSIG through IP networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Télécommunications et échange d'information entre systèmes
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Télécommunications et échange d'information entre systèmes
   type: title-main
-- content: Réseau privé à intégration de services -- Tracé de fonctions pour le "tunnelling"
-    de QSIG par des réseaux IP
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Réseau privé à intégration de services -- Tracé de fonctions pour le "tunnelling"
+    de QSIG par des réseaux IP
   type: title-part
-- content: Technologies de l'information - Télécommunications et échange d'information
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Télécommunications et échange d'information
     entre systèmes - Réseau privé à intégration de services -- Tracé de fonctions
     pour le "tunnelling" de QSIG par des réseaux IP
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/37519.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:37519:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/75/37519.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC 21992:2003
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/37519.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:37519:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/75/37519.detail.rss
+docidentifier:
+- content: ISO/IEC 21992:2003
   type: ISO
   primary: true
-- id: ISO/IEC 21992:2003(E)
+- content: ISO/IEC 21992:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:21992:stage-90.93
+- content: urn:iso:std:iso-iec:21992:stage-90.93
   type: URN
 docnumber: '21992'
 date:
 - type: published
-  value: 2003-06
+  at: 2003-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2003-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 21992:2003(E) specifies functions for using a packet network that uses the Internet Protocol (IP) as its network layer protocol and UDP and TCP as its transport layer protocols, to interconnect two Private Integrated services Network eXchanges (PINXs) forming part of a Private Integrated Services Network (PISN). Interconnection is achieved by carrying the inter-PINX signalling protocol directly over the Transmission Control Protocol (TCP) and inter-PINX user information (e.g. voice) over the Real-time Transport Protocol (RTP), RTP being carried over the User Datagram Protocol (UDP). The inter-PINX signalling protocol is assumed to be QSIG, as specified in ISO/IEC 11572, ISO/IEC 11582 and other International Standards.
     ISO/IEC 21992:2003(E) provides for two types of interconnection:
     - on-demand, where a separate TCP connection for QSIG is established at the start of each call and cleared down at the end of that call; and
     - semi-permanent, where a single TCP connection with an indefinite lifetime carries QSIG on behalf of many single calls.
     ISO/IEC 21992:2003(E) is applicable to PINXs that can be interconnected to form a PISN using QSIG as the inter-PINX signalling protocol.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 21992:2003(E) specifies functions for using a packet network that uses the Internet Protocol (IP) as its network layer protocol and UDP and TCP as its transport layer protocols, to interconnect two Private Integrated services Network eXchanges (PINXs) forming part of a Private Integrated Services Network (PISN). Interconnection is achieved by carrying the inter-PINX signalling protocol directly over the Transmission Control Protocol (TCP) and inter-PINX user information (e.g. voice) over the Real-time Transport Protocol (RTP), RTP being carried over the User Datagram Protocol (UDP). The inter-PINX signalling protocol is assumed to be QSIG, as specified in ISO/IEC 11572, ISO/IEC 11582 and other International Standards.
     ISO/IEC 21992:2003(E) provides for two types of interconnection:
     - on-demand, where a separate TCP connection for QSIG is established at the start of each call and cleared down at the end of that call; and
     - semi-permanent, where a single TCP connection with an indefinite lifetime carries QSIG on behalf of many single calls.
     ISO/IEC 21992:2003(E) is applicable to PINXs that can be interconnected to form a PISN using QSIG as the inter-PINX signalling protocol.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 33.040.35
     text: Telephone networks
   structuredidentifier:
-    project_number: '37519'
     type: ISO
+    project_number:
+      content: '37519'

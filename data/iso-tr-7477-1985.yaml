@@ -1,90 +1,80 @@
 ---
-schema-version: v1.2.9
 id: ISO/TR7477-1985
-title:
-- content: Data communication
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Arrangements for DTE to DTE physical connection using V.24 and X.24 interchange
-    circuits
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Data communication - Arrangements for DTE to DTE physical connection using
-    V.24 and X.24 interchange circuits
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Transmission des données
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Arrangements pour la connexion physique ETTD à ETTD utilisant des circuits
-    de jonction V.24 et X.24
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Transmission des données - Arrangements pour la connexion physique ETTD
-    à ETTD utilisant des circuits de jonction V.24 et X.24
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/14215.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/42/14215.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TR 7477:1985
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Data communication
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Arrangements for DTE to DTE physical connection using V.24 and X.24 interchange
+    circuits
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Data communication - Arrangements for DTE to DTE physical connection using
+    V.24 and X.24 interchange circuits
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Transmission des données
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Arrangements pour la connexion physique ETTD à ETTD utilisant des circuits
+    de jonction V.24 et X.24
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Transmission des données - Arrangements pour la connexion physique ETTD
+    à ETTD utilisant des circuits de jonction V.24 et X.24
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/14215.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/42/14215.detail.rss
+docidentifier:
+- content: ISO/TR 7477:1985
   type: ISO
   primary: true
-- id: ISO/TR 7477:1985(E)
+- content: ISO/TR 7477:1985(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:7477:stage-95.99
+- content: urn:iso:std:iso:tr:7477:stage-95.99
   type: URN
 docnumber: '7477'
 date:
 - type: published
-  value: 1985-10
+  at: 1985-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1985-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Describes various arrangements for interconnection of Data Terminal Equipment
+- language: en
+  script: Latn
+  content: Describes various arrangements for interconnection of Data Terminal Equipment
     (DTE), without intermediate Data Circuit-terminating Equipment, concerning electrical,
     mechanical, and functional characteristics. Applies to DTEs with interface circuits
     standardized in CCITT Recommendation V.24 for data transmission over telephone
@@ -92,12 +82,9 @@ abstract:
     for transmission over public data networks. Applies primarily to DTEs employing
     the balanced electrical characteristics of CCITT Recommendation V.11 (X.27) for
     data signalling rates up to 10 Mbit/s.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Describes various arrangements for interconnection of Data Terminal Equipment
+- language: fr
+  script: Latn
+  content: Describes various arrangements for interconnection of Data Terminal Equipment
     (DTE), without intermediate Data Circuit-terminating Equipment, concerning electrical,
     mechanical, and functional characteristics. Applies to DTEs with interface circuits
     standardized in CCITT Recommendation V.24 for data transmission over telephone
@@ -105,51 +92,46 @@ abstract:
     for transmission over public data networks. Applies primarily to DTEs employing
     the balanced electrical characteristics of CCITT Recommendation V.11 (X.27) for
     data signalling rates up to 10 Mbit/s.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TR
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TR
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC8481-1996
     type: standard
-    docid:
-    - id: ISO/IEC 8481:1996
+    formattedref: ISO/IEC 8481:1996
+    docidentifier:
+    - content: ISO/IEC 8481:1996
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1996-06-06'
-    formattedref:
-      content: ISO/IEC 8481:1996
-      format: text/plain
+      at: '1996-06-06'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 35.100.10
     text: Physical layer
   structuredidentifier:
-    project_number: '14215'
     type: ISO
+    project_number:
+      content: '14215'

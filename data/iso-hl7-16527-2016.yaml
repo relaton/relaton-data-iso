@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO/HL716527-2016
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: HL7 Personal Health Record System Functional Model, Release 1 (PHRS FM)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - HL7 Personal Health Record System Functional Model,
-    Release 1 (PHRS FM)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Modèle fonctionnel d'un système de dossier de santé personnel, version
-    1 (PHRS FM)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Modèle fonctionnel d'un système de dossier de santé
-    personnel, version 1 (PHRS FM)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/57046.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/05/70/57046.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/HL7 16527:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: HL7 Personal Health Record System Functional Model, Release 1 (PHRS FM)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - HL7 Personal Health Record System Functional Model,
+    Release 1 (PHRS FM)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modèle fonctionnel d'un système de dossier de santé personnel, version
+    1 (PHRS FM)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Modèle fonctionnel d'un système de dossier de santé
+    personnel, version 1 (PHRS FM)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/57046.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/70/57046.detail.rss
+docidentifier:
+- content: ISO/HL7 16527:2016
   type: ISO
   primary: true
-- id: ISO/HL7 16527:2016(E)
+- content: ISO/HL7 16527:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso-hl7:16527:stage-95.99
+- content: urn:iso:std:iso-hl7:16527:stage-95.99
   type: URN
 docnumber: '7'
 date:
 - type: published
-  value: 2016-04
+  at: 2016-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2016-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/HL7 16527 PHR-S FM:2016 defines a standardized model of the functions that may be present in PHR Systems.
     It is beyond the scope of the PHR system to control the use (or intended use) of PHR data. On the contrary, it is within the scope of the PHR system to manage the authorization of an individual (or other application). Those parties are then responsible for using the data for appropriate (or intended) purposes. The system manufacturers specify "intended and permitted use of PHR data" in their Terms of Service and Terms of Use agreements.
     This Functional Model is not:
@@ -95,12 +85,9 @@ abstract:
     -      a conformance or conformance testing metric;
     -      a requirement specification for a single PHR system (see Annex D, Anticipated Uses).
     The information exchange enabled by the PHR-S supports the retrieval and population of clinical documents and summaries, minimum data sets, and other input/outputs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/HL7 16527 PHR-S FM:2016 defines a standardized model of the functions that may be present in PHR Systems.
     It is beyond the scope of the PHR system to control the use (or intended use) of PHR data. On the contrary, it is within the scope of the PHR system to manage the authorization of an individual (or other application). Those parties are then responsible for using the data for appropriate (or intended) purposes. The system manufacturers specify "intended and permitted use of PHR data" in their Terms of Service and Terms of Use agreements.
     This Functional Model is not:
@@ -112,51 +99,46 @@ abstract:
     -      a conformance or conformance testing metric;
     -      a requirement specification for a single PHR system (see Annex D, Anticipated Uses).
     The information exchange enabled by the PHR-S supports the retrieval and population of clinical documents and summaries, minimum data sets, and other input/outputs.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/HL7
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO/HL7
 relation:
 - type: updates
   bibitem:
-    id: ISO16527-2023
     type: standard
-    docid:
-    - id: ISO 16527:2023
+    formattedref: ISO 16527:2023
+    docidentifier:
+    - content: ISO 16527:2023
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2023-12-04'
-    formattedref:
-      content: ISO 16527:2023
-      format: text/plain
+      at: '2023-12-04'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '57046'
     type: ISO
+    project_number:
+      content: '57046'

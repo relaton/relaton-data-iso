@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO19132-2007
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Location-based services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Reference model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Geographic information - Location-based services - Reference model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Services basés sur la localisation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Modèle de référence
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information géographique - Services basés sur la localisation - Modèle
-    de référence
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/40601.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:40601:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/06/40601.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19132:2007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Location-based services
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Reference model
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Location-based services - Reference model
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services basés sur la localisation
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modèle de référence
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Services basés sur la localisation - Modèle
+    de référence
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/40601.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:40601:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/06/40601.detail.rss
+docidentifier:
+- content: ISO 19132:2007
   type: ISO
   primary: true
-- id: ISO 19132:2007(E)
+- content: ISO 19132:2007(E)
   type: iso-reference
-- id: urn:iso:std:iso:19132:stage-90.93
+- content: urn:iso:std:iso:19132:stage-90.93
   type: URN
 docnumber: '19132'
 date:
 - type: published
-  value: 2007-10
+  at: 2007-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2007-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 19132:2007 defines a reference model and a conceptual framework for
+- language: en
+  script: Latn
+  content: "ISO 19132:2007 defines a reference model and a conceptual framework for
     location-based services (LBS), and describes the basic principles by which LBS
     applications may interoperate. This framework references or contains an ontology,
     a taxonomy, a set of design patterns and a core set of LBS service abstract specifications
@@ -120,47 +106,42 @@ abstract:
     and identifies areas in which further standards for LBS are required. \nISO 19132:2007
     does not address rules by which LBS are developed, nor general principles for
     roaming agreements for mobile clients and tracking targets."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 19132:2007 définit un modèle de référence et un cadre conceptuel pour les services basés sur la localisation (LBS) et décrit les principes de base selon lesquels les applications LBS peuvent interopérer. Ce cadre contient ou fait référence à une ontologie, une taxinomie, un ensemble de modèles de conception et de spécifications abstraites de service LBS en langage UML. En outre, l'ISO 19132:2007 spécifie les relations que le cadre entretient avec les autres cadres, les applications et services d'informations géographiques et les applications client.
     Concernant un système LBS, l'ISO 19132:2007 aborde les trois premiers points de vue de base définis dans le Modèle de référence pour le traitement réparti ouvert (RM-ODP, voir l'ISO/CEI 10746-1). Ces points de vue sont le point de vue entreprise – définit l'objet, le domaine d'application et les règles du système –, le point de vue informationnel – détaille la sémantique des informations et leur traitement dans le système –, et le point de vue informatique – détaille la décomposition fonctionnelle du système –.
     Les quatrième et cinquième points de vue sont abordés dans les exigences ou à titre d'exemple. Il s'agit du point de vue ingénierie – détaille l'infrastructure de distribution – et du point de vue technologie – détaille la technologie de mise en oeuvre –.
     Les modèles de référence et les cadres peuvent être définis à différents niveaux, de la conception à la documentation logicielle. L'ISO 19132:2007 définit le cadre conceptuel du service LBS et le type des applications qu'il contient, établit les principes généraux du système LBS pour les clients fixes et mobiles, précise l'interface d'accès aux données lors des déplacements, définit les relations architecturales avec d'autres normes ISO relatives aux informations géographiques, et identifie les domaines pour lesquels d'autres normes relatives au système LBS sont nécessaires.
     L'ISO 19132:2007 n'aborde ni les règles de développement du système LBS, ni les principes généraux liés aux accords d'itinérance des clients mobiles et de suivi des cibles.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '40601'
     type: ISO
+    project_number:
+      content: '40601'

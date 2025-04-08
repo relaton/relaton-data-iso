@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO/TS19299-2015
-title:
-- content: Electronic fee collection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Security framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Electronic fee collection - Security framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Perception de télépéage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cadre de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Perception de télépéage - Cadre de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/64605.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/06/46/64605.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TS 19299:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electronic fee collection
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security framework
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electronic fee collection - Security framework
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception de télépéage
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cadre de sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception de télépéage - Cadre de sécurité
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/64605.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/46/64605.detail.rss
+docidentifier:
+- content: ISO/TS 19299:2015
   type: ISO
   primary: true
-- id: ISO/TS 19299:2015(E)
+- content: ISO/TS 19299:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:19299:stage-95.99
+- content: urn:iso:std:iso:ts:19299:stage-95.99
   type: URN
 docnumber: '19299'
 date:
 - type: published
-  value: 2015-10
+  at: 2015-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2015-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     The overall scope of ISO/TS 19299:2015 is an information security framework for all organizational and technical entities of an EFC scheme and in detail for the interfaces between them, based on the system architecture defined in ISO 17573. The security framework describes a set of requirements and associated security measures for stakeholders to implement and thus ensure a secure operation of their part of an EFC system as required for a trustworthy environment according to its security policy.
     The scope of ISO/TS 19299:2015 comprises the following:
     - definition of a trust model;
@@ -99,12 +89,9 @@ abstract:
     - security policy examples;
     - recommendations for privacy-focused implementation;
     - proposal for end-entity certificates.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le domaine d'application général de l'ISO/TS 19299:2015 consiste à fournir un cadre de sécurité de l'information pour l'ensemble des entités organisationnelles et techniques d'un plan de perception du télépéage (EFC), et plus particulièrement pour les interfaces entre elles, sur la base de l'architecture système définie dans l'ISO 17573. Le cadre de sécurité décrit un ensemble d'exigences et de mesures de sécurité associées destinées à être mises en ?uvre par les parties prenantes, garantissant ainsi un fonctionnement sécurisé de leur partie d'un système EFC, tel que l'exige la politique de sécurité d'un environnement de confiance.
     Le domaine d'application de l'ISO/TS 19299:2015 inclut:
     - la définition d'un modèle de confiance;
@@ -123,53 +110,48 @@ abstract:
     - des exemples de politiques de sécurité;
     - les recommandations relatives à une mise en ?uvre axée sur la protection de la vie privée;
     - une proposition relative aux certificats d'entité finale.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TS
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TS
 relation:
 - type: updates
   bibitem:
-    id: ISO19299-2020
     type: standard
-    docid:
-    - id: ISO 19299:2020
+    formattedref: ISO 19299:2020
+    docidentifier:
+    - content: ISO 19299:2020
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2020-08-13'
-    formattedref:
-      content: ISO 19299:2020
-      format: text/plain
+      at: '2020-08-13'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '64605'
     type: ISO
+    project_number:
+      content: '64605'

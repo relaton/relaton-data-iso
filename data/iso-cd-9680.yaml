@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/CD9680
-title:
-- content: Dentistry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Operating lights
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Dentistry - Operating lights
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Médecine bucco-dentaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Luminaires opératoires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Médecine bucco-dentaire - Luminaires opératoires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85762.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/57/85762.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 9680
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dentistry
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Operating lights
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Dentistry - Operating lights
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Médecine bucco-dentaire
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Luminaires opératoires
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Médecine bucco-dentaire - Luminaires opératoires
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85762.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/57/85762.detail.rss
+docidentifier:
+- content: ISO/CD 9680
   type: ISO
   primary: true
-- id: ISO/CD 9680(E)
+- content: ISO/CD 9680(E)
   type: iso-reference
-- id: urn:iso:std:iso:9680:stage-draft
+- content: urn:iso:std:iso:9680:stage-draft
   type: URN
 docnumber: '9680'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '5'
 language:
@@ -76,61 +65,55 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies requirements and test methods for operating lights used in the dental office and intended for illuminating the oral cavity of patients. It also contains specifications on the instructions for use, marking and packaging.
     This document applies to operating lights, irrespective of the technology of the light source.
     This document excludes auxiliary light sources, for example, from dental handpieces and dental headlamps and also operating lights which are specifically designed for use in oral surgery.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie les exigences et les méthodes d’essai relatives aux luminaires opératoires utilisées dans les cabinets dentaires et destinées à éclairer la cavité buccale des patients. Il contient également des spécifications relatives aux instructions d’utilisation, au marquage et à l’emballage.
     Le présent document s’applique aux luminaires opératoires, quelle que soit la technologie de la source lumineuse.
     Le présent document exclut les sources lumineuses auxiliaires, par exemple celles provenant de pièces à main dentaires ou de lampes frontales dentaires, de même que les luminaires opératoires spécifiquement destinés à être utilisés en chirurgie buccale.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO9680-2021
     type: standard
-    docid:
-    - id: ISO 9680:2021
+    formattedref: ISO 9680:2021
+    docidentifier:
+    - content: ISO 9680:2021
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 9680:2021
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Dental equipment
-      number: 106
+    - number: 106
       type: TC
       identifier: ISO/TC 106/SC 6
+      content: Dental equipment
   ics:
   - code: 11.060.20
     text: Dental equipment
   structuredidentifier:
-    project_number: '85762'
     type: ISO
+    project_number:
+      content: '85762'

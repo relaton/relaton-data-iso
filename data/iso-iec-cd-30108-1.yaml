@@ -1,82 +1,72 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECCD30108-1
-title:
-- content: Biometrics – Identity attributes verification services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: IAVS services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Biometrics – Identity attributes verification services - Part 1: IAVS
-    services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Titre manque - Partie 1: Titre manque'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85617.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/56/85617.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC CD 30108-1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Biometrics – Identity attributes verification services
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: IAVS services'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Biometrics – Identity attributes verification services - Part 1: IAVS
+    services'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Titre manque'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Titre manque - Partie 1: Titre manque'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85617.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/56/85617.detail.rss
+docidentifier:
+- content: ISO/IEC CD 30108-1
   type: ISO
   primary: true
-- id: ISO/IEC CD 30108-1(E)
+- content: ISO/IEC CD 30108-1(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:30108:-1:stage-draft
+- content: urn:iso:std:iso-iec:30108:-1:stage-draft
   type: URN
 docnumber: '30108'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -85,66 +75,60 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 30108-1:2015 defines the architecture, operations, data elements, and basic requirements for biometric identity assurance services ? a framework for the implementation of generic, biometric-based identity services within a services-oriented environment. An identity in the context of BIAS comprises a subject, biographic data, and biometric data. Other parts are intended to define specific BIAS implementations (or bindings) within specific environments, for example, SOAP web services.
     BIAS services are generic in nature, being modality neutral, and not targeted at any particular business application. These services include those related to identity data management, transformation, and biometric comparison. Services are invoked by a BIAS requester and implemented by a BIAS service provider (responder). It does not prescribe the architecture or business logic of either the requester or service provider.
     Two categories of identity services are defined ? primitive and aggregate. Primitive services are more atomic and well-defined, whereas the aggregate services tend to be higher level and enable more flexibility on the part of the BIAS service provider.
     Two identity models are also defined ? person-centric and encounter-based. Person-centric systems maintain a single up-to-date record (set of data) for a given subject, whereas an encounter-based system retains data related to each interaction the subject has with the system.
     ISO/IEC 30108-1:2015 represents a version of BIAS subsequent to that previously standardized by INCITS and OASIS, therefore, it is denoted as version 2.0.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 30108-1:2015 defines the architecture, operations, data elements, and basic requirements for biometric identity assurance services ? a framework for the implementation of generic, biometric-based identity services within a services-oriented environment. An identity in the context of BIAS comprises a subject, biographic data, and biometric data. Other parts are intended to define specific BIAS implementations (or bindings) within specific environments, for example, SOAP web services.
     BIAS services are generic in nature, being modality neutral, and not targeted at any particular business application. These services include those related to identity data management, transformation, and biometric comparison. Services are invoked by a BIAS requester and implemented by a BIAS service provider (responder). It does not prescribe the architecture or business logic of either the requester or service provider.
     Two categories of identity services are defined ? primitive and aggregate. Primitive services are more atomic and well-defined, whereas the aggregate services tend to be higher level and enable more flexibility on the part of the BIAS service provider.
     Two identity models are also defined ? person-centric and encounter-based. Person-centric systems maintain a single up-to-date record (set of data) for a given subject, whereas an encounter-based system retains data related to each interaction the subject has with the system.
     ISO/IEC 30108-1:2015 represents a version of BIAS subsequent to that previously standardized by INCITS and OASIS, therefore, it is denoted as version 2.0.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC30108-1-2015
     type: standard
-    docid:
-    - id: ISO/IEC 30108-1:2015
+    formattedref: ISO/IEC 30108-1:2015
+    docidentifier:
+    - content: ISO/IEC 30108-1:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 30108-1:2015
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Biometrics
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 37
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
-structuredidentifier:
-  project_number: ISO 30108
-  part: '1'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 37
+      content: Biometrics
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 1
+      content: ISO 30108

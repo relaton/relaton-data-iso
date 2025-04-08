@@ -1,126 +1,111 @@
 ---
-schema-version: v1.2.9
 id: ISO9038
-title:
-- content: Determination of sustained combustibility of liquids
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Determination of sustained combustibility of liquids
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Essai de détermination de la combustion entretenue de liquides
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Essai de détermination de la combustion entretenue de liquides
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/89383.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/93/89383.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9038
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Determination of sustained combustibility of liquids
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Determination of sustained combustibility of liquids
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essai de détermination de la combustion entretenue de liquides
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essai de détermination de la combustion entretenue de liquides
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/89383.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/93/89383.detail.rss
+docidentifier:
+- content: ISO 9038
   type: ISO
   primary: true
-- id: ISO 9038(E)
+- content: ISO 9038(E)
   type: iso-reference
-- id: urn:iso:std:iso:9038:stage-60.00
+- content: urn:iso:std:iso:9038:stage-published
   type: URN
 docnumber: '9038'
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '4'
-revdate: 2025-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a procedure, at temperatures up to 100 °C, to determine whether a liquid product, that would be classified as “flammable” by virtue of its flash point, sustains combustion at the temperature(s) specified e.g. in regulations.
     NOTE       Many national and international regulations classify liquids as presenting a flammable hazard based on their flash point, as determined by a recognized method. Some of these regulations allow a derogation if the substance cannot “sustain combustion” at some specified temperature(s).
     The procedure is applicable to paints (including water-borne paints), varnishes, paint binders, solvents, petroleum or related products and adhesives, that have a flash point. It is not applicable to painted surfaces in respect of assessing their potential fire hazards.
     This test method is applicable, in addition to test methods for flash point, for assessing the fire hazard of a product.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie un mode opératoire, applicable jusqu'à 100 °C, qui vise à déterminer si un produit liquide, qui serait classé comme «inflammable» du fait de son point d'éclair, entretient une combustion à la température ou aux températures spécifiées, par ex. dans les règlements.
     NOTE            De nombreux règlements nationaux et internationaux classent les liquides présentant un risque d'inflammabilité sur la base de leur point d'éclair, déterminé par une méthode reconnue. Certains de ces règlements autorisent une dérogation si la substance en question ne peut pas «entretenir la combustion» à une ou plusieurs températures spécifiées.
     Cette méthode est applicable aux peintures (y compris peintures en phase aqueuse), vernis, liants, solvants, produits pétroliers ou apparentés et adhésifs, qui ont un point d'éclair. Elle n'est pas applicable aux surfaces peintes, eu égard à l'évaluation du danger d'incendie qu'elles présentent.
     Cette méthode d'essai est applicable, en complément de celles qui portent sur le point d'éclair, à l'évaluation du danger d'incendie d'un produit.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO9038-2021
     type: standard
-    docid:
-    - id: ISO 9038:2021
+    formattedref: ISO 9038:2021
+    docidentifier:
+    - content: ISO 9038:2021
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 9038:2021
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Petroleum and related products, fuels and lubricants from natural or synthetic
-        sources
-      number: 28
+    - number: 28
       type: TC
       identifier: ISO/TC 28
+      content: Petroleum and related products, fuels and lubricants from natural or
+        synthetic sources
   ics:
   - code: '87.040'
     text: Paints and varnishes
@@ -129,5 +114,6 @@ ext:
   - code: 87.060.01
     text: Paint ingredients in general
   structuredidentifier:
-    project_number: '89383'
     type: ISO
+    project_number:
+      content: '89383'

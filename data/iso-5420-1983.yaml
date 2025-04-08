@@ -1,97 +1,84 @@
 ---
-schema-version: v1.2.9
 id: ISO5420-1983
-title:
-- content: Reamers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Terms, definitions and types
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Reamers - Terms, definitions and types
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Alésoirs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Termes, définitions et types
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Alésoirs - Termes, définitions et types
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/11463.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:11463:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/14/11463.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 5420:1983
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reamers
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Terms, definitions and types
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Reamers - Terms, definitions and types
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Alésoirs
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Termes, définitions et types
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Alésoirs - Termes, définitions et types
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/11463.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:11463:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/14/11463.detail.rss
+docidentifier:
+- content: ISO 5420:1983
   type: ISO
   primary: true
-- id: ISO 5420:1983(E)
+- content: ISO 5420:1983(E)
   type: iso-reference
-- id: urn:iso:std:iso:5420:stage-90.93
+- content: urn:iso:std:iso:5420:stage-90.93
   type: URN
 docnumber: '5420'
 date:
 - type: published
-  value: 1983-12
+  at: 1983-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1983-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 5420 relates to reamers and shows the various types in common use and
+- language: en
+  script: Latn
+  content: ISO 5420 relates to reamers and shows the various types in common use and
     associated geometrical definitions. In addition to terms given in the three official
     ISO languages (English, French and Russian) ISO 5420 gives the equivalent terms
     in german, Italian, Dutch and Slovak languages.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "\nLa présente Norme internationale, relative aux alésoirs, montre les
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale, relative aux alésoirs, montre les
     différents types d'utilisation habituelle, et donne les définitions géométriques
     correspondantes. Les termes et définitions ont été choisis sur la base du système
     de l'outil en main défini dans l'ISO 3002/1.  \nNOTE -- En supplément aux termes
@@ -103,39 +90,37 @@ abstract:
     de la Tchécoslovaquie (CSN). Toutefois, seuls les termes et définitions donnés
     dans les langues officielles peuvent être considérés comme termes et définitions
     ISO.\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Tools with defined cutting edges, holding tools, cutting items, adaptive
-        items and interfaces
-      number: 29
+    - number: 29
       type: TC
       identifier: ISO/TC 29/SC 9
+      content: Tools with defined cutting edges, holding tools, cutting items, adaptive
+        items and interfaces
   ics:
   - code: 01.040.25
     text: Manufacturing engineering (Vocabularies)
   - code: 25.100.30
     text: Drills, countersinks, reamers
   structuredidentifier:
-    project_number: '11463'
     type: ISO
+    project_number:
+      content: '11463'

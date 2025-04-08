@@ -1,140 +1,122 @@
 ---
-schema-version: v1.2.9
 id: ISO1086-1991
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Title leaves of books
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - Title leaves of books
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Feuillets de titre des livres
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Feuillets de titre des livres
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/5589.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:5589:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/00/55/5589.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 1086:1991
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Title leaves of books
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - Title leaves of books
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Feuillets de titre des livres
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Feuillets de titre des livres
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/5589.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5589:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/55/5589.detail.rss
+docidentifier:
+- content: ISO 1086:1991
   type: ISO
   primary: true
-- id: ISO 1086:1991(E)
+- content: ISO 1086:1991(E)
   type: iso-reference
-- id: urn:iso:std:iso:1086:stage-90.93
+- content: urn:iso:std:iso:1086:stage-90.93
   type: URN
 docnumber: '1086'
 date:
 - type: published
-  value: 1991-08
+  at: 1991-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1991-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the information to be printed on title leaves and the manner
+- language: en
+  script: Latn
+  content: Specifies the information to be printed on title leaves and the manner
     in which this information should be presented and arranged. This second edition
     cancels and replaces the first edition (1975).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Specifies the information to be printed on title leaves and the manner
+- language: fr
+  script: Latn
+  content: Specifies the information to be printed on title leaves and the manner
     in which this information should be presented and arranged. This second edition
     cancels and replaces the first edition (1975).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO1086-1975
     type: standard
-    docid:
-    - id: ISO 1086:1975
+    formattedref: ISO 1086:1975
+    docidentifier:
+    - content: ISO 1086:1975
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 1086:1975
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information and documentation
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46
+      content: Information and documentation
   ics:
   - code: 01.140.40
     text: Publishing
   structuredidentifier:
-    project_number: '5589'
     type: ISO
+    project_number:
+      content: '5589'

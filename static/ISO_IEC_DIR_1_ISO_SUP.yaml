@@ -1,57 +1,61 @@
+---
+type: standard
+schema_version: v1.4.1
 title:
-- type: title-intro
+- language: en
+  script: Latn
   content: ISO/IEC Directives, Part 1
-  language: en
-  script: Latn
+  type: title-intro
   format: text/plain
-- type: title-main
+- language: en
+  script: Latn
   content: Consolidated ISO Supplement -- Procedure for the technical work
-  language: en
+  type: title-main
+- language: en
   script: Latn
-- type: title-part
   content: Procedures specific to ISO
-  language: en
+  type: title-part
+- language: fr
   script: Latn
-- type: title-intro
   content: Directives ISO/IEC, Partie 1
-  language: fr
-  script: Latn
+  type: title-intro
   format: text/plain
-- type: title-main
+- language: fr
+  script: Latn
   content: Procédure pour les travaux techniques -- Supplément ISO consolidé
-  language: fr
+  type: title-main
+- language: fr
   script: Latn
-- type: title-part
   content: Procédures spécifiques à l'ISO
-  language: fr
-  script: Latn
-
-link:
+  type: title-part
+source:
 - type: src
   content: https://www.iso.org/sites/directives/current/consolidated/index.xhtml
-
-type: standard
-doctype: directive
-
-docid:
-  id: ISO/IEC DIR 1 ISO SUP
+docidentifier:
+- content: ISO/IEC DIR 1 ISO SUP
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2023-01-01'
-
-edition: "14"
-
+- type: published
+  at: '2023-01-01'
+edition:
+  content: '14'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
+- from: '2023'
   owner:
-    name: International Organization for Standardization
-    abbreviation: ISO
-    url: www.iso.org
-  from: '2023'
+  - organization:
+      uri:
+      - content: www.iso.org
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

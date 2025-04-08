@@ -1,159 +1,137 @@
 ---
-schema-version: v1.2.9
 id: ISO15781-2019
+type: standard
+schema_version: v1.4.1
 title:
-- content: Photography
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Photography
   type: title-intro
-- content: Digital still cameras
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Digital still cameras
   type: title-main
-- content: Measuring shooting time lag, shutter release time lag, shooting rate, and
+  format: text/plain
+- language: en
+  script: Latn
+  content: Measuring shooting time lag, shutter release time lag, shooting rate, and
     start-up time lag
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: Photography - Digital still cameras - Measuring shooting time lag, shutter
+  format: text/plain
+- language: en
+  script: Latn
+  content: Photography - Digital still cameras - Measuring shooting time lag, shutter
     release time lag, shooting rate, and start-up time lag
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Photographie
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Photographie
   type: title-intro
-- content: Caméras numériques
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Caméras numériques
   type: title-main
-- content: Décalage dans le temps du mesurage de la prise, décalage dans le temps
-    de l'ouverture de l'objectif, cadence de prise et temps de démarrage
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Décalage dans le temps du mesurage de la prise, décalage dans le temps
+    de l'ouverture de l'objectif, cadence de prise et temps de démarrage
   type: title-part
-- content: Photographie - Caméras numériques - Décalage dans le temps du mesurage
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Photographie - Caméras numériques - Décalage dans le temps du mesurage
     de la prise, décalage dans le temps de l'ouverture de l'objectif, cadence de prise
     et temps de démarrage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/67622.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:67622:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/76/67622.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 15781:2019
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/67622.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:67622:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/76/67622.detail.rss
+docidentifier:
+- content: ISO 15781:2019
   type: ISO
   primary: true
-- id: ISO 15781:2019(E)
+- content: ISO 15781:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:15781:stage-90.93
+- content: urn:iso:std:iso:15781:stage-90.93
   type: URN
 docnumber: '15781'
 date:
 - type: published
-  value: 2019-06
+  at: 2019-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2019-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies how to measure and report the shooting time lag, shutter release time lag, shooting rate and start-up time lag for digital still cameras, including camera modules in phones and tablet computers. It includes a method that uses control signals inside the digital still camera and a method that determines the timing values without requiring access to the inside of the digital still camera.
     This document does not address the measurement either of auto focus speed below recommended illumination level or auto focus accuracy.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies how to measure and report the shooting time lag, shutter release time lag, shooting rate and start-up time lag for digital still cameras, including camera modules in phones and tablet computers. It includes a method that uses control signals inside the digital still camera and a method that determines the timing values without requiring access to the inside of the digital still camera.
     This document does not address the measurement either of auto focus speed below recommended illumination level or auto focus accuracy.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO15781-2015
     type: standard
-    docid:
-    - id: ISO 15781:2015
+    formattedref: ISO 15781:2015
+    docidentifier:
+    - content: ISO 15781:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 15781:2015
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Photography
-      number: 42
+    - number: 42
       type: TC
       identifier: ISO/TC 42
+      content: Photography
   ics:
   - code: 37.040.10
     text: Photographic equipment. Projectors
   structuredidentifier:
-    project_number: '67622'
     type: ISO
+    project_number:
+      content: '67622'

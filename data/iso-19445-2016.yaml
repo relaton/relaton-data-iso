@@ -1,157 +1,135 @@
 ---
-schema-version: v1.2.9
 id: ISO19445-2016
-title:
-- content: Graphic technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Metadata for graphic arts workflow
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: XMP metadata for image and document proofing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Graphic technology - Metadata for graphic arts workflow - XMP metadata
-    for image and document proofing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologie graphique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Métadonnées pour le flux de travail des arts graphiques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Métadonnées XMP pour la relecture de document et d'image
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologie graphique - Métadonnées pour le flux de travail des arts graphiques
-    - Métadonnées XMP pour la relecture de document et d'image
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/64912.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/06/49/64912.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19445:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Graphic technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Metadata for graphic arts workflow
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: XMP metadata for image and document proofing
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Graphic technology - Metadata for graphic arts workflow - XMP metadata
+    for image and document proofing
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie graphique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Métadonnées pour le flux de travail des arts graphiques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Métadonnées XMP pour la relecture de document et d'image
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie graphique - Métadonnées pour le flux de travail des arts graphiques
+    - Métadonnées XMP pour la relecture de document et d'image
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/64912.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/49/64912.detail.rss
+docidentifier:
+- content: ISO 19445:2016
   type: ISO
   primary: true
-- id: ISO 19445:2016(E)
+- content: ISO 19445:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso:19445:stage-95.99
+- content: urn:iso:std:iso:19445:stage-95.99
   type: URN
 docnumber: '19445'
 date:
 - type: published
-  value: 2016-06
+  at: 2016-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2016-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 19445:2016 specifies the set of metadata to be used to communicate
+- language: en
+  script: Latn
+  content: ISO 19445:2016 specifies the set of metadata to be used to communicate
     the approval status, proof preparation and viewing parameters for images and documents
     that are used in the graphic arts print production workflow.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: ISO 19445:2016 specifies the set of metadata to be used to communicate
+- language: fr
+  script: Latn
+  content: ISO 19445:2016 specifies the set of metadata to be used to communicate
     the approval status, proof preparation and viewing parameters for images and documents
     that are used in the graphic arts print production workflow.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO19445-2022
     type: standard
-    docid:
-    - id: ISO 19445:2022
+    formattedref: ISO 19445:2022
+    docidentifier:
+    - content: ISO 19445:2022
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-06-01'
-    formattedref:
-      content: ISO 19445:2022
-      format: text/plain
+      at: '2022-06-01'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Graphic technology
-      number: 130
+    - number: 130
       type: TC
       identifier: ISO/TC 130
+      content: Graphic technology
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '64912'
     type: ISO
+    project_number:
+      content: '64912'

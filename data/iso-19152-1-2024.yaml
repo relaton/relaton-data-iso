@@ -1,104 +1,90 @@
 ---
-schema-version: v1.2.9
 id: ISO19152-1-2024
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Land Administration Domain Model (LADM)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Generic conceptual model'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Geographic information - Land Administration Domain Model (LADM) - Part
-    1: Generic conceptual model'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Modèle du domaine de l'administration des terres (LADM)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Modèle conceptuel générique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information géographique - Modèle du domaine de l''administration des
-    terres (LADM) - Partie 1: Modèle conceptuel générique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81263.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:81263:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/12/81263.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19152-1:2024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Land Administration Domain Model (LADM)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Generic conceptual model'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Geographic information - Land Administration Domain Model (LADM) - Part
+    1: Generic conceptual model'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modèle du domaine de l'administration des terres (LADM)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Modèle conceptuel générique'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Information géographique - Modèle du domaine de l''administration des
+    terres (LADM) - Partie 1: Modèle conceptuel générique'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81263.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81263:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/12/81263.detail.rss
+docidentifier:
+- content: ISO 19152-1:2024
   type: ISO
   primary: true
-- id: ISO 19152-1:2024(E)
+- content: ISO 19152-1:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso:19152:-1:stage-60.60
+- content: urn:iso:std:iso:19152:-1:stage-published
   type: URN
 docnumber: '19152'
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document:
     —     defines a reference Land Administration Domain Model (LADM) covering basic information-related components of land administration/georegulation;
     —     provides an abstract, conceptual model with packages related to:
@@ -114,12 +100,9 @@ abstract:
     —     interference with (national) land administration/georegulation laws with potentially legal implications due to the possibility of describing different types of systems but in the same notation;
     —     construction of external databases with party data, address data, land cover data, physical utility network data, archive data and taxation data. However, the LADM provides stereotype classes for these data sets to indicate which data set elements the LADM expects from these external sources, if available.
     This document provides the concepts and basic structure for standardization in the land administration/georegulation domain. It defines a general schema that permits regulatory information to be described. It also allows for the relationship to multiple parties and groups to be expressed together with a referencing structure so that sourcing of all information systems can be maintained. This document establishes the common elements and basic schema upon which more detailed schema can be established.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document:
     —     définit un modèle de référence du domaine de l'administration des terres (LADM) qui concerne les composants relatifs aux informations de base sur l'administration des terres ou la géoréglementation;
     —     fournit un modèle conceptuel abstrait composé de paquetages relatifs:
@@ -135,48 +118,43 @@ abstract:
     —     les interférences avec les lois (nationales) d'administration des terres ou de géoréglementation susceptibles d'avoir des implications juridiques en raison de la possibilité de décrire différents types de systèmes, mais dans la même notation;
     —     l'élaboration de bases de données externes avec les données relatives aux parties, aux adresses, à l'occupation des terres, au réseau public physique, aux archives et à la fiscalité. Cependant, le modèle du domaine de l'administration des terres (LADM) propose des classes types pour ces jeux de données, afin d'indiquer quels éléments des jeux de données le LADM attend de ces sources externes, lorsqu'elles sont disponibles.
     Le présent document fournit les concepts et la structure de base pour la normalisation dans le domaine de l'administration des terres ou la géoréglementation. Il définit un schéma général permettant la description des informations réglementaires. Il permet également l'expression des relations avec de multiples parties et groupes, ainsi qu'une structure de référencement assurant la mise à jour des sources de l'ensemble des systèmes d'information. Le présent document établit les éléments communs et un schéma de base pouvant servir de socle à un schéma plus détaillé.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19152-2012
     type: standard
-    docid:
-    - id: ISO 19152:2012
+    formattedref: ISO 19152:2012
+    docidentifier:
+    - content: ISO 19152:2012
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19152:2012
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '81263'
     type: ISO
+    project_number:
+      content: '81263'

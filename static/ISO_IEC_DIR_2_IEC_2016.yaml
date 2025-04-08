@@ -1,66 +1,72 @@
-title:
-- type: title-main
-  content: ISO/IEC Directives, Part 2
-  language: en
-  script: Latn
-- type: title-part
-  content: Principles and rules for the structure and drafting of ISO and IEC documents
-  language: en
-  script: Latn
-- type: title-main
-  content: Directives ISO/CEI, Partie 2
-  language: fr
-  script: Latn
-- type: title-part
-  content: Principes et règles de structure et de rédaction des documents ISO et IEC
-  language: fr
-  script: Latn
-
-link:
-- type: src
-  language: en
-  content: https://web.archive.org/web/20180428080148/http://www.iec.ch/members_experts/refdocs/iec/isoiecdir-2%7Bed7.0%7Den.pdf
-- type: src
-  language: fr
-  content: https://web.archive.org/web/20180428080148/http://www.iec.ch/members_experts/refdocs/iec/isoiecdir-2%7Bed7.0%7Dfr.pdf
-
+---
 type: standard
-doctype: directive
-
-docid:
-  id: ISO/IEC DIR 2 IEC:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: ISO/IEC Directives, Part 2
+  type: title-main
+- language: en
+  script: Latn
+  content: Principles and rules for the structure and drafting of ISO and IEC documents
+  type: title-part
+- language: fr
+  script: Latn
+  content: Directives ISO/CEI, Partie 2
+  type: title-main
+- language: fr
+  script: Latn
+  content: Principes et règles de structure et de rédaction des documents ISO et IEC
+  type: title-part
+source:
+- language: en
+  type: src
+  content: https://web.archive.org/web/20180428080148/http://www.iec.ch/members_experts/refdocs/iec/isoiecdir-2%7Bed7.0%7Den.pdf
+- language: fr
+  type: src
+  content: https://web.archive.org/web/20180428080148/http://www.iec.ch/members_experts/refdocs/iec/isoiecdir-2%7Bed7.0%7Dfr.pdf
+docidentifier:
+- content: ISO/IEC DIR 2 IEC:2016
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2016-04-30'
-
-edition: "7"
-
+- type: published
+  at: '2016-04-30'
+edition:
+  content: '7'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
-- owner:
-    name: International Electrotechnical Commission
-    abbreviation: IEC
-    url: iec.ch
-  from: '1986'
-
-- owner:
-    name: International Organization for Standardization
-    abbreviation: ISO
-    url: www.iso.org
-  from: '1986'
-
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - content: iec.ch
+      name:
+      - content: International Electrotechnical Commission
+      abbreviation:
+        content: IEC
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - content: www.iso.org
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
 relation:
-  - type: partOf
-    bibitem:
-      formattedref: ISO/IEC DIR 2 IEC
-      docid:
-        - id: ISO/IEC DIR 2 IEC
-          type: ISO
-          primary: true
+- type: partOf
+  bibitem:
+    formattedref: ISO/IEC DIR 2 IEC
+    docidentifier:
+    - content: ISO/IEC DIR 2 IEC
+      type: ISO
+      primary: true
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

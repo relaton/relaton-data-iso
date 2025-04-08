@@ -1,84 +1,74 @@
 ---
-schema-version: v1.2.9
 id: ISO/SAEFDIS12906
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Test procedures for electric vehicles to determine charging performance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Road vehicles - Test procedures for electric vehicles to determine charging
-    performance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Procédures d'essai des véhicules électriques pour déterminer les performances
-    de charge
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Véhicules routiers - Procédures d'essai des véhicules électriques pour
-    déterminer les performances de charge
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84172.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/41/84172.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/SAE FDIS 12906
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Test procedures for electric vehicles to determine charging performance
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Test procedures for electric vehicles to determine charging
+    performance
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Procédures d'essai des véhicules électriques pour déterminer les performances
+    de charge
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Procédures d'essai des véhicules électriques pour
+    déterminer les performances de charge
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84172.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/41/84172.detail.rss
+docidentifier:
+- content: ISO/SAE FDIS 12906
   type: ISO
   primary: true
-- id: ISO/SAE FDIS 12906(E)
+- content: ISO/SAE FDIS 12906(E)
   type: iso-reference
-- id: urn:iso:std:iso-sae:12906:stage-draft
+- content: urn:iso:std:iso-sae:12906:stage-draft
   type: URN
 docnumber: '12906'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.sae.org
     name:
     - content: SAE International
     abbreviation:
       content: SAE
-    url: www.sae.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -87,51 +77,48 @@ language:
 script:
 - Latn
 abstract:
-- content: This document facilitates clear and consistent comparisons of realistic
+- language: en
+  script: Latn
+  content: This document facilitates clear and consistent comparisons of realistic
     charging capabilities of EVs via commercially available electric vehicle supply
     equipment. It provides details about test conditions, test methods and test processes
     derived from typical use cases. Furthermore, requirements regarding the information
     to the user are specified.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document facilitates clear and consistent comparisons of realistic
+- language: fr
+  script: Latn
+  content: This document facilitates clear and consistent comparisons of realistic
     charging capabilities of EVs via commercially available electric vehicle supply
     equipment. It provides details about test conditions, test methods and test processes
     derived from typical use cases. Furthermore, requirements regarding the information
     to the user are specified.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/SAE
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/SAE
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Electrically propelled vehicles
-    number: 22
-    type: TC
-    identifier: ISO/TC 22/SC 37
-ics:
-- code: '43.120'
-  text: Electric road vehicles
-structuredidentifier:
-  project_number: ISO 12906
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 22
+      type: TC
+      identifier: ISO/TC 22/SC 37
+      content: Electrically propelled vehicles
+  ics:
+  - code: '43.120'
+    text: Electric road vehicles
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 12906

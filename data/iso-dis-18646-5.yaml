@@ -1,92 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS18646-5
-title:
-- content: Robotics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Performance criteria and related test methods for service robots
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 5: Locomotion for legged robots'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Robotics - Performance criteria and related test methods for service robots
-    - Part 5: Locomotion for legged robots'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Robotique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Critères de performance et méthodes d'essai correspondantes pour robots
-    de service
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 5: Locomotion pour robots à pattes'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Robotique - Critères de performance et méthodes d''essai correspondantes
-    pour robots de service - Partie 5: Locomotion pour robots à pattes'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86850.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:86850:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/68/86850.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 18646-5
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Robotics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Performance criteria and related test methods for service robots
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 5: Locomotion for legged robots'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Robotics - Performance criteria and related test methods for service robots
+    - Part 5: Locomotion for legged robots'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Robotique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Critères de performance et méthodes d'essai correspondantes pour robots
+    de service
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 5: Locomotion pour robots à pattes'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Robotique - Critères de performance et méthodes d''essai correspondantes
+    pour robots de service - Partie 5: Locomotion pour robots à pattes'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86850.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:86850:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/68/86850.detail.rss
+docidentifier:
+- content: ISO/DIS 18646-5
   type: ISO
   primary: true
-- id: ISO/DIS 18646-5(E)
+- content: ISO/DIS 18646-5(E)
   type: iso-reference
-- id: urn:iso:std:iso:18646:-5:stage-draft
+- content: urn:iso:std:iso:18646:-5:stage-draft
   type: URN
 docnumber: '18646'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -95,7 +80,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document describes methods for specifying and evaluating the locomotion
+- language: en
+  script: Latn
+  content: "This document describes methods for specifying and evaluating the locomotion
     performance of legged robots as service robot.\n\nThis document mainly applies
     to biped, quadruped and multi-legged robots. For the test or performance evaluation
     of the legged robot of a certain type, this document does not specify which performance
@@ -103,12 +90,9 @@ abstract:
     machine, and can be also used for sample test, qualification test or check-and-accept
     test. \n\nThis document is not intended for the verification or validation of
     safety requirements."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document describes methods for specifying and evaluating the locomotion
+- language: fr
+  script: Latn
+  content: "This document describes methods for specifying and evaluating the locomotion
     performance of legged robots as service robot.\n\nThis document mainly applies
     to biped, quadruped and multi-legged robots. For the test or performance evaluation
     of the legged robot of a certain type, this document does not specify which performance
@@ -116,36 +100,34 @@ abstract:
     machine, and can be also used for sample test, qualification test or check-and-accept
     test. \n\nThis document is not intended for the verification or validation of
     safety requirements."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Robotics
-      number: 299
+    - number: 299
       type: TC
       identifier: ISO/TC 299
+      content: Robotics
   ics:
   - code: 25.040.30
     text: Industrial robots. Manipulators
   structuredidentifier:
-    project_number: '86850'
     type: ISO
+    project_number:
+      content: '86850'

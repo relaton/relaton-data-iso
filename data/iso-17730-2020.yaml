@@ -1,99 +1,86 @@
 ---
-schema-version: v1.2.9
 id: ISO17730-2020
-title:
-- content: Dentistry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Fluoride varnishes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Dentistry - Fluoride varnishes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Médecine bucco-dentaire
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vernis fluorés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Médecine bucco-dentaire - Vernis fluorés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/72166.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:72166:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/21/72166.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 17730:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dentistry
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Fluoride varnishes
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Dentistry - Fluoride varnishes
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Médecine bucco-dentaire
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vernis fluorés
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Médecine bucco-dentaire - Vernis fluorés
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/72166.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:72166:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/21/72166.detail.rss
+docidentifier:
+- content: ISO 17730:2020
   type: ISO
   primary: true
-- id: ISO 17730:2020(E)
+- content: ISO 17730:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:17730:stage-90.92
+- content: urn:iso:std:iso:17730:stage-90.92
   type: URN
 docnumber: '17730'
 date:
 - type: published
-  value: 2020-09
+  at: 2020-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2020-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This document specifies requirements and test methods for total digestible
+- language: en
+  script: Latn
+  content: This document specifies requirements and test methods for total digestible
     fluoride content and a minimum soluble fluoride release potential in dental varnishes
     containing fluoride, intended for use in the oral cavity directly on the outer
     surfaces of teeth and fillings. It also specifies packaging and labelling requirements,
     including the instructions for use. This document covers fluoride varnishes to
     be applied by dental health care workers.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Le présent document spécifie les exigences et les méthodes d'essai relatives
+- language: fr
+  script: Latn
+  content: Le présent document spécifie les exigences et les méthodes d'essai relatives
     à la teneur totale en fluorures digestibles et un potentiel minimal de libération
     des fluorures solubles des vernis dentaires qui en contiennent et qui sont destinés
     à être utilisés dans la cavité buccale, directement sur la surface extérieure
@@ -101,59 +88,51 @@ abstract:
     et à l'étiquetage, y compris les instructions d'utilisation. Le présent document
     s'applique aux vernis fluorés destinés à être appliqués par des professionnels
     de la santé bucco-dentaire.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO17730-2014
     type: standard
-    docid:
-    - id: ISO 17730:2014
+    formattedref: ISO 17730:2014
+    docidentifier:
+    - content: ISO 17730:2014
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 17730:2014
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/FDIS17730
     type: standard
-    docid:
-    - id: ISO/FDIS 17730
+    formattedref: ISO/FDIS 17730
+    docidentifier:
+    - content: ISO/FDIS 17730
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/FDIS 17730
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Oral care products
-      number: 106
+    - number: 106
       type: TC
       identifier: ISO/TC 106/SC 7
+      content: Oral care products
   ics:
   - code: '97.170'
     text: Body care equipment
   structuredidentifier:
-    project_number: '72166'
     type: ISO
+    project_number:
+      content: '72166'

@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
 id: ISO900-1977
-title:
-- content: Aluminium oxide primarily used for the production of aluminium
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Determination of titanium content
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Diantipyrylmethane photometric method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Aluminium oxide primarily used for the production of aluminium - Determination
-    of titanium content - Diantipyrylmethane photometric method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Oxyde d'aluminium principalement utilisé pour la production de l'aluminium
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Dosage du titane
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Méthode photométrique au diantipyrylméthane
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Oxyde d'aluminium principalement utilisé pour la production de l'aluminium
-    - Dosage du titane - Méthode photométrique au diantipyrylméthane
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/5304.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/53/5304.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 900:1977
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Aluminium oxide primarily used for the production of aluminium
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Determination of titanium content
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Diantipyrylmethane photometric method
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Aluminium oxide primarily used for the production of aluminium - Determination
+    of titanium content - Diantipyrylmethane photometric method
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Oxyde d'aluminium principalement utilisé pour la production de l'aluminium
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Dosage du titane
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Méthode photométrique au diantipyrylméthane
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Oxyde d'aluminium principalement utilisé pour la production de l'aluminium
+    - Dosage du titane - Méthode photométrique au diantipyrylméthane
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/5304.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/53/5304.detail.rss
+docidentifier:
+- content: ISO 900:1977
   type: ISO
   primary: true
-- id: ISO 900:1977(E)
+- content: ISO 900:1977(E)
   type: iso-reference
-- id: urn:iso:std:iso:900:stage-95.99
+- content: urn:iso:std:iso:900:stage-95.99
   type: URN
 docnumber: '900'
 date:
 - type: published
-  value: 1977-10
+  at: 1977-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1977-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Applicable to all products having a titanium dioxide content of equal to
+- language: en
+  script: Latn
+  content: Applicable to all products having a titanium dioxide content of equal to
     or more than 0.001 % (m/m). Describes the preparation of the diantipyrylmethane
     solution and the preparation of the titanum standard solution. The procedure of
     the preparation of a principal solution or the chemical analysis by an alkaline
@@ -106,44 +92,39 @@ abstract:
     Photometric measurement of the coloured complex at a wavelength of about 420 nm.
     Has also been approved by the IUPAC. Replaces and cancels ISO Recommendation R
     900/1968 of which it constitutes a technical revision.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale spécifie une méthode photométrique au diantipyrylméthane pour le dosage du titane dans l'oxyde d'aluminium principalement utilisé pour la production de l'aluminium. La méthode est applicable aux produits dont la teneur en titane, exprimé en dioxyde de titane (TiO2), est égale ou supérieure à 0,001 % (m/m).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1977'
+- from: '1977'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Materials for the production of primary aluminium
-      number: 226
+    - number: 226
       type: TC
       identifier: ISO/TC 226
+      content: Materials for the production of primary aluminium
   ics:
   - code: 71.100.10
     text: Materials for aluminium production
   structuredidentifier:
-    project_number: '5304'
     type: ISO
+    project_number:
+      content: '5304'

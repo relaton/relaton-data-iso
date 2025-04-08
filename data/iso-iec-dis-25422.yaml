@@ -1,83 +1,73 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECDIS25422
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 3D Manufacturing Format (3MF) specification suite
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - 3D Manufacturing Format (3MF) specification suite
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information technology
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 3D Manufacturing Format (3MF) specification suite
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - 3D Manufacturing Format (3MF) specification suite
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/90283.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:90283:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/09/02/90283.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC DIS 25422
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: 3D Manufacturing Format (3MF) specification suite
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - 3D Manufacturing Format (3MF) specification suite
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 3D Manufacturing Format (3MF) specification suite
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information technology - 3D Manufacturing Format (3MF) specification suite
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/90283.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:90283:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/09/02/90283.detail.rss
+docidentifier:
+- content: ISO/IEC DIS 25422
   type: ISO
   primary: true
-- id: ISO/IEC DIS 25422(E)
+- content: ISO/IEC DIS 25422(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:25422:stage-draft
+- content: urn:iso:std:iso-iec:25422:stage-draft
   type: URN
 docnumber: '25422'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -85,33 +75,36 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: '25.030'
     text: Additive manufacturing
   - code: 35.240.50
     text: IT applications in industry
   structuredidentifier:
-    project_number: '90283'
     type: ISO
+    project_number:
+      content: '90283'

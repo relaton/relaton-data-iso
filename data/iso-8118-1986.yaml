@@ -1,95 +1,82 @@
 ---
-schema-version: v1.2.9
 id: ISO8118-1986
-title:
-- content: Weaving machines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Temple cylinders
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Weaving machines - Temple cylinders
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Machines à tisser
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cylindres de templets
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Machines à tisser - Cylindres de templets
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/15175.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/51/15175.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8118:1986
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Weaving machines
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Temple cylinders
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Weaving machines - Temple cylinders
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Machines à tisser
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cylindres de templets
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Machines à tisser - Cylindres de templets
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/15175.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/51/15175.detail.rss
+docidentifier:
+- content: ISO 8118:1986
   type: ISO
   primary: true
-- id: ISO 8118:1986(E)
+- content: ISO 8118:1986(E)
   type: iso-reference
-- id: urn:iso:std:iso:8118:stage-95.99
+- content: urn:iso:std:iso:8118:stage-95.99
   type: URN
 docnumber: '8118'
 date:
 - type: published
-  value: 1986-11
+  at: 1986-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1986-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Defines the basic terms and lays down the technical specifications of temple
+- language: en
+  script: Latn
+  content: Defines the basic terms and lays down the technical specifications of temple
     cylinders. Designates the parts of a temple cylinder by means of an illustration.
     The dimensions of rings are contained in a table. Specifies the designation of
     a temple cylinder.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "\nLa présente Norme internationale définit les termes de base et fixe
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale définit les termes de base et fixe
     les spécifications techniques des cylindres de templets.  \nNOTE -- En supplément
     aux termes donnés dans les trois langues officielles de l'ISO (anglais, français,
     russe), la présente Norme internationale donne, en annexe, les termes équivalents
@@ -98,66 +85,58 @@ abstract:
     R.F. (DIN) et de la Suisse (SNV). Toutefois, seuls les termes et définitions donnés
     dans les langues officielles peuvent être considérés comme termes et définitions
     ISO.\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO8118-1-2006
     type: standard
-    docid:
-    - id: ISO 8118-1:2006
+    formattedref: ISO 8118-1:2006
+    docidentifier:
+    - content: ISO 8118-1:2006
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2006-01-19'
-    formattedref:
-      content: ISO 8118-1:2006
-      format: text/plain
+      at: '2006-01-19'
 - type: updates
   bibitem:
-    id: ISO8118-2-2006
     type: standard
-    docid:
-    - id: ISO 8118-2:2006
+    formattedref: ISO 8118-2:2006
+    docidentifier:
+    - content: ISO 8118-2:2006
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2006-01-19'
-    formattedref:
-      content: ISO 8118-2:2006
-      format: text/plain
+      at: '2006-01-19'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Machinery for fabric manufacturing including preparatory machinery and
-        accessories
-      number: 72
+    - number: 72
       type: TC
       identifier: ISO/TC 72/SC 3
+      content: Machinery for fabric manufacturing including preparatory machinery
+        and accessories
   ics:
   - code: 59.120.30
     text: Looms. Weaving machines
   structuredidentifier:
-    project_number: '15175'
     type: ISO
+    project_number:
+      content: '15175'

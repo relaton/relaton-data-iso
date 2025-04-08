@@ -1,134 +1,119 @@
 ---
-schema-version: v1.2.9
 id: ISO5401-2024
-title:
-- content: Audit data collection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Customs and indirect tax extension
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Audit data collection - Customs and indirect tax extension
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Audit data collection
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Customs and indirect tax extension
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Audit data collection - Customs and indirect tax extension
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81231.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:81231:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/12/81231.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 5401:2024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Audit data collection
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Customs and indirect tax extension
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Audit data collection - Customs and indirect tax extension
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Audit data collection
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Customs and indirect tax extension
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Audit data collection - Customs and indirect tax extension
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81231.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81231:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/12/81231.detail.rss
+docidentifier:
+- content: ISO 5401:2024
   type: ISO
   primary: true
-- id: ISO 5401:2024(E)
+- content: ISO 5401:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso:5401:stage-60.60
+- content: urn:iso:std:iso:5401:stage-published
   type: URN
 docnumber: '5401'
 date:
 - type: published
-  value: 2024-04
+  at: 2024-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the functional requirements that build on ISO 21378 for audits in the areas of customs duties and indirect taxes [e.g. value-added tax (VAT) and excise duties]. It addresses how tax auditors obtain audit data for these audits, including data element formats and to some extent content requirements.
     In practice, this document applies to virtually every step in the whole process in the supply chain and covers both goods, services and works.
     It includes domestic transactions, cross-border transactions (import and export) and can cover both third-party and intercompany transactions or even movements of goods within the same company. This document does not describe when an event is taxable nor how to calculate tax or customs duties as this is legislation-specific and the situation can vary from country to country or even within the same country.
     This document covers standard exchange of the data related to taxable operations/activities by businesses to perform controls and audits more effectively and efficiently through automated tests. This document focuses on the characteristics related to taxability and the related formalities of the indirect tax and customs duties regulations. It includes the result of a tax calculation, the relevant underlying parameters which can be processed by ERP-systems and/or indirect tax/customs duties systems, and data needed to comply with indirect tax and customs duties legislation and formalities.
     This document is not designed to collect audit data from the regulators like tax and/or customs authorities.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies the functional requirements that build on ISO 21378 for audits in the areas of customs duties and indirect taxes [e.g. value-added tax (VAT) and excise duties]. It addresses how tax auditors obtain audit data for these audits, including data element formats and to some extent content requirements.
     In practice, this document applies to virtually every step in the whole process in the supply chain and covers both goods, services and works.
     It includes domestic transactions, cross-border transactions (import and export) and can cover both third-party and intercompany transactions or even movements of goods within the same company. This document does not describe when an event is taxable nor how to calculate tax or customs duties as this is legislation-specific and the situation can vary from country to country or even within the same country.
     This document covers standard exchange of the data related to taxable operations/activities by businesses to perform controls and audits more effectively and efficiently through automated tests. This document focuses on the characteristics related to taxability and the related formalities of the indirect tax and customs duties regulations. It includes the result of a tax calculation, the relevant underlying parameters which can be processed by ERP-systems and/or indirect tax/customs duties systems, and data needed to comply with indirect tax and customs duties legislation and formalities.
     This document is not designed to collect audit data from the regulators like tax and/or customs authorities.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Audit data services
-      number: 295
+    - number: 295
       type: TC
       identifier: ISO/TC 295
+      content: Audit data services
   ics:
   - code: 03.120.20
     text: Product and company certification. Conformity assessment
   structuredidentifier:
-    project_number: '81231'
     type: ISO
+    project_number:
+      content: '81231'

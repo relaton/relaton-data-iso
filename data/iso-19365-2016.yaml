@@ -1,144 +1,126 @@
 ---
-schema-version: v1.2.9
 id: ISO19365-2016
-title:
-- content: Passenger cars
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Validation of vehicle dynamic simulation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Sine with dwell stability control testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Passenger cars - Validation of vehicle dynamic simulation - Sine with dwell
-    stability control testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Voitures particulières
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Simulation et validation dynamique des véhicules
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Essais de contrôle de la stabilité en sinus avec palier
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Voitures particulières - Simulation et validation dynamique des véhicules
-    - Essais de contrôle de la stabilité en sinus avec palier
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/64702.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:64702:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/47/64702.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19365:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Passenger cars
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Validation of vehicle dynamic simulation
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Sine with dwell stability control testing
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Passenger cars - Validation of vehicle dynamic simulation - Sine with dwell
+    stability control testing
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Voitures particulières
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Simulation et validation dynamique des véhicules
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essais de contrôle de la stabilité en sinus avec palier
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Voitures particulières - Simulation et validation dynamique des véhicules
+    - Essais de contrôle de la stabilité en sinus avec palier
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/64702.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:64702:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/47/64702.detail.rss
+docidentifier:
+- content: ISO 19365:2016
   type: ISO
   primary: true
-- id: ISO 19365:2016(E)
+- content: ISO 19365:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso:19365:stage-90.93
+- content: urn:iso:std:iso:19365:stage-90.93
   type: URN
 docnumber: '19365'
 date:
 - type: published
-  value: 2016-10
+  at: 2016-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2016-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 19365:2016 specifies a method for comparing computer simulation results from a vehicle mathematical model to test data measured for an existing vehicle undergoing sine with dwell tests that are typically used to evaluate the performance of an electronic stability control (ESC) system. The comparison is made for the purpose of validating the simulation tool for this type of test when applied to variants of the tested vehicle.
     It is applicable to passenger cars as defined in ISO 3833.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 19365:2016 specifies a method for comparing computer simulation results from a vehicle mathematical model to test data measured for an existing vehicle undergoing sine with dwell tests that are typically used to evaluate the performance of an electronic stability control (ESC) system. The comparison is made for the purpose of validating the simulation tool for this type of test when applied to variants of the tested vehicle.
     It is applicable to passenger cars as defined in ISO 3833.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Vehicle dynamics, chassis components and driving automation systems testing
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 33
+      content: Vehicle dynamics, chassis components and driving automation systems
+        testing
   ics:
   - code: '43.100'
     text: Passenger cars. Caravans and light trailers
   structuredidentifier:
-    project_number: '64702'
     type: ISO
+    project_number:
+      content: '64702'

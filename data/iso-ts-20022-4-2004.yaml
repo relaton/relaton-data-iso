@@ -1,161 +1,139 @@
 ---
-schema-version: v1.2.9
 id: ISO/TS20022-4-2004
-title:
-- content: Financial services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: UNIversal Financial Industry message scheme
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 4: ISO 20022 XML design rules'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Financial services - UNIversal Financial Industry message scheme - Part
-    4: ISO 20022 XML design rules'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Services financiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Schéma universel de messages pour l'industrie financière
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 4: Règles conceptuelles ISO 20022 XML'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Services financiers - Schéma universel de messages pour l''industrie financière
-    - Partie 4: Règles conceptuelles ISO 20022 XML'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/41128.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/11/41128.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TS 20022-4:2004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Financial services
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: UNIversal Financial Industry message scheme
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 4: ISO 20022 XML design rules'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Financial services - UNIversal Financial Industry message scheme - Part
+    4: ISO 20022 XML design rules'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services financiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Schéma universel de messages pour l'industrie financière
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 4: Règles conceptuelles ISO 20022 XML'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Services financiers - Schéma universel de messages pour l''industrie financière
+    - Partie 4: Règles conceptuelles ISO 20022 XML'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/41128.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/11/41128.detail.rss
+docidentifier:
+- content: ISO/TS 20022-4:2004
   type: ISO
   primary: true
-- id: ISO/TS 20022-4:2004(E)
+- content: ISO/TS 20022-4:2004(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:20022:-4:stage-95.99
+- content: urn:iso:std:iso:ts:20022:-4:stage-95.99
   type: URN
 docnumber: '20022'
 date:
 - type: published
-  value: 2004-12
+  at: 2004-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2004-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     XML is a technical standard defined by the World Wide Web Consortium (W3C) that can be used for the physical representation (i.e. the syntax) of standardized ISO 20022 Messages. XML leaves a lot of freedom for the exact way it is used in a particular application. Therefore, merely stating that XML is used is not sufficient to guarantee predictability; one must also explain how it will be used.
     ISO/TS 20022-4:2004 contains a set of XML design rules, called ISO 20022 XML. These design rules define how a standardized Message - described by a Message Definition in UML according to the Modelling Guidelines of ISO/TS 20022-3 - must be represented as a valid ISO 20022 compliant XML document.
     A valid XML document (referred to as an "XML instance") as defined by W3C is any XML document that has an associated description and that complies with the constraints expressed in that description. The associated description in this case is derived from the Message Definition, which is originally described in UML.
     ISO/TS 20022-4:2004 also describes how (a part of) the UML Message Definition can be converted into a W3C XML Schema. This XML schema will then make it possible to use a validating XML schema parser to automatically verify that a given XML instance complies with (a subset of) the constraints described in the Message Definition.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     XML is a technical standard defined by the World Wide Web Consortium (W3C) that can be used for the physical representation (i.e. the syntax) of standardized ISO 20022 Messages. XML leaves a lot of freedom for the exact way it is used in a particular application. Therefore, merely stating that XML is used is not sufficient to guarantee predictability; one must also explain how it will be used.
     ISO/TS 20022-4:2004 contains a set of XML design rules, called ISO 20022 XML. These design rules define how a standardized Message - described by a Message Definition in UML according to the Modelling Guidelines of ISO/TS 20022-3 - must be represented as a valid ISO 20022 compliant XML document.
     A valid XML document (referred to as an "XML instance") as defined by W3C is any XML document that has an associated description and that complies with the constraints expressed in that description. The associated description in this case is derived from the Message Definition, which is originally described in UML.
     ISO/TS 20022-4:2004 also describes how (a part of) the UML Message Definition can be converted into a W3C XML Schema. This XML schema will then make it possible to use a validating XML schema parser to automatically verify that a given XML instance complies with (a subset of) the constraints described in the Message Definition.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TS
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TS
 relation:
 - type: updates
   bibitem:
-    id: ISO20022-4-2013
     type: standard
-    docid:
-    - id: ISO 20022-4:2013
+    formattedref: ISO 20022-4:2013
+    docidentifier:
+    - content: ISO 20022-4:2013
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2013-05-07'
-    formattedref:
-      content: ISO 20022-4:2013
-      format: text/plain
+      at: '2013-05-07'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial services
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68
+      content: Financial services
   ics:
   - code: '03.060'
     text: Finances. Banking. Monetary systems. Insurance
   structuredidentifier:
-    project_number: '41128'
     type: ISO
+    project_number:
+      content: '41128'

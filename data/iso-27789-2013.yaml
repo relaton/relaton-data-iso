@@ -1,145 +1,127 @@
 ---
-schema-version: v1.2.9
 id: ISO27789-2013
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Audit trails for electronic health records
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - Audit trails for electronic health records
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Historique d'expertise des dossiers de santé informatisés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Historique d'expertise des dossiers de santé informatisés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/44315.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/43/44315.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 27789:2013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Audit trails for electronic health records
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Audit trails for electronic health records
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Historique d'expertise des dossiers de santé informatisés
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Historique d'expertise des dossiers de santé informatisés
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/44315.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/43/44315.detail.rss
+docidentifier:
+- content: ISO 27789:2013
   type: ISO
   primary: true
-- id: ISO 27789:2013(E)
+- content: ISO 27789:2013(E)
   type: iso-reference
-- id: urn:iso:std:iso:27789:stage-95.99
+- content: urn:iso:std:iso:27789:stage-95.99
   type: URN
 docnumber: '27789'
 date:
 - type: published
-  value: 2013-03
+  at: 2013-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2013-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 27789:2013 specifies a common framework for audit trails for electronic health records (EHR), in terms of audit trigger events and audit data, to keep the complete set of personal health information auditable across information systems and domains.
     It is applicable to systems processing personal health information which, complying with ISO 27799, create a secure audit record each time a user accesses, creates, updates or archives personal health information via the system.
     ISO 27789:2013 covers only actions performed on the EHR, which are governed by the access policy for the domain where the electronic health record resides. It does not deal with any personal health information from the electronic health record, other than identifiers, the audit record only containing links to EHR segments as defined by the governing access policy.
     It does not cover the specification and use of audit logs for system management and system security purposes, such as the detection of performance problems, application flaw, or support for a reconstruction of data, which are dealt with by general computer security standards such as ISO/IEC 15408-2.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 27789:2013 spécifie une structure commune pour les historiques d'expertise des dossiers informatisés de santé (DIS), en termes d'événements déclencheurs d'expertise et de données d'expertise, afin de conserver l'ensemble des informations personnelles de santé pouvant être expertisées sur tous les systèmes et domaines d'information.
     Elle s'applique aux systèmes de traitement des informations personnelles de santé qui, conformément à l'ISO 27799, créent un enregistrement d'expertise sûr chaque fois qu'un utilisateur crée des informations personnelles de santé, qu'il y accède, qu'il les met à jour ou qu'il les archive par le biais du système.
     L'ISO 27789:2013 ne couvre que les actions effectuées sur le dossier informatisé de santé, qui sont régies par une politique d'accès propre au domaine dans lequel s'inscrit le dossier informatisé de santé. Elle ne traite pas des informations personnelles de santé issues de dossier informatisé de santé mais uniquement des identifiants, l'enregistrement d'expertise ne contenant que les liens menant aux segments du dossier informatisé de santé, tel qu'établi par la politique d'accès en vigueur.
     Elle ne couvre pas non plus la spécification et l'utilisation des rapports d'expertise dans un but de gestion et de sécurité du système, par exemple pour la détection des problèmes de performance, des failles au niveau des applications, ou en tant que support pour la reconstruction des données, qui sont traitées par les normes de sécurité informatique générales telles que l'ISO/CEI 15408.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO27789-2021
     type: standard
-    docid:
-    - id: ISO 27789:2021
+    formattedref: ISO 27789:2021
+    docidentifier:
+    - content: ISO 27789:2021
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-10-05'
-    formattedref:
-      content: ISO 27789:2021
-      format: text/plain
+      at: '2021-10-05'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '44315'
     type: ISO
+    project_number:
+      content: '44315'

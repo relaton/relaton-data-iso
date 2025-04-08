@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO26900-2012
-title:
-- content: Space data and information transfer systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Orbit data messages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Space data and information transfer systems - Orbit data messages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de transfert des informations et données spatiales
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Messages pour données d'orbites
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Systèmes de transfert des informations et données spatiales - Messages
-    pour données d'orbites
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/46135.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/61/46135.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 26900:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space data and information transfer systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Orbit data messages
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space data and information transfer systems - Orbit data messages
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transfert des informations et données spatiales
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Messages pour données d'orbites
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transfert des informations et données spatiales - Messages
+    pour données d'orbites
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/46135.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/61/46135.detail.rss
+docidentifier:
+- content: ISO 26900:2012
   type: ISO
   primary: true
-- id: ISO 26900:2012(E)
+- content: ISO 26900:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso:26900:stage-95.99
+- content: urn:iso:std:iso:26900:stage-95.99
   type: URN
 docnumber: '26900'
 date:
 - type: published
-  value: 2012-07
+  at: 2012-07
 - type: corrected
-  value: 2012-10
+  at: 2012-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2012-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 26900:2012 specifies three standard message formats for use in transferring
+- language: en
+  script: Latn
+  content: "ISO 26900:2012 specifies three standard message formats for use in transferring
     spacecraft orbit information between space agencies and commercial or governmental
     spacecraft operators: the Orbit Parameter Message (OPM), the Orbit Mean-Elements
     Message (OMM), and the Orbit Ephemeris Message (OEM). Such exchanges are used
@@ -97,12 +87,9 @@ abstract:
     manoeuvres to mitigate interference or enhance mutual operations. \nISO 26900:2012
     includes sets of requirements and criteria that the message formats have been
     designed to meet."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO 26900:2012 specifies three standard message formats for use in transferring
+- language: fr
+  script: Latn
+  content: "ISO 26900:2012 specifies three standard message formats for use in transferring
     spacecraft orbit information between space agencies and commercial or governmental
     spacecraft operators: the Orbit Parameter Message (OPM), the Orbit Mean-Elements
     Message (OMM), and the Orbit Ephemeris Message (OEM). Such exchanges are used
@@ -116,62 +103,54 @@ abstract:
     manoeuvres to mitigate interference or enhance mutual operations. \nISO 26900:2012
     includes sets of requirements and criteria that the message formats have been
     designed to meet."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO22644-2006
     type: standard
-    docid:
-    - id: ISO 22644:2006
+    formattedref: ISO 22644:2006
+    docidentifier:
+    - content: ISO 22644:2006
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 22644:2006
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO26900-2024
     type: standard
-    docid:
-    - id: ISO 26900:2024
+    formattedref: ISO 26900:2024
+    docidentifier:
+    - content: ISO 26900:2024
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-02-09'
-    formattedref:
-      content: ISO 26900:2024
-      format: text/plain
+      at: '2024-02-09'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Space systems and operations
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 14
+      content: Space systems and operations
   ics:
   - code: '49.140'
     text: Space systems and operations
   structuredidentifier:
-    project_number: '46135'
     type: ISO
+    project_number:
+      content: '46135'

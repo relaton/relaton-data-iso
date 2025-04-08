@@ -1,146 +1,126 @@
 ---
-schema-version: v1.2.9
 id: ISO3534-3-1999
-title:
-- content: Statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulary and symbols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 3: Design of experiments'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Statistics - Vocabulary and symbols - Part 3: Design of experiments'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Statistique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulaire et symboles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 3: Plans d''expérience'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Statistique - Vocabulaire et symboles - Partie 3: Plans d''expérience'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/20236.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/02/20236.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3534-3:1999
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Statistics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vocabulary and symbols
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 3: Design of experiments'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Statistics - Vocabulary and symbols - Part 3: Design of experiments'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Statistique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vocabulaire et symboles
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 3: Plans d''expérience'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Statistique - Vocabulaire et symboles - Partie 3: Plans d''expérience'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/20236.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/02/20236.detail.rss
+docidentifier:
+- content: ISO 3534-3:1999
   type: ISO
   primary: true
-- id: ISO 3534-3:1999(E)
+- content: ISO 3534-3:1999(E)
   type: iso-reference
-- id: urn:iso:std:iso:3534:-3:stage-95.99
+- content: urn:iso:std:iso:3534:-3:stage-95.99
   type: URN
 docnumber: '3534'
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1999-11
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO3534-3-1985
     type: standard
-    docid:
-    - id: ISO 3534-3:1985
+    formattedref: ISO 3534-3:1985
+    docidentifier:
+    - content: ISO 3534-3:1985
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 3534-3:1985
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO3534-3-2013
     type: standard
-    docid:
-    - id: ISO 3534-3:2013
+    formattedref: ISO 3534-3:2013
+    docidentifier:
+    - content: ISO 3534-3:2013
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2013-04-15'
-    formattedref:
-      content: ISO 3534-3:2013
-      format: text/plain
+      at: '2013-04-15'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Applications of statistical methods
-      number: 69
+    - number: 69
       type: TC
       identifier: ISO/TC 69
+      content: Applications of statistical methods
   ics:
   - code: 01.040.03
     text: Services. Company organization, management and quality. Administration.
@@ -148,5 +128,6 @@ ext:
   - code: 03.120.30
     text: Application of statistical methods
   structuredidentifier:
-    project_number: '20236'
     type: ISO
+    project_number:
+      content: '20236'

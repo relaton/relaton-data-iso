@@ -1,142 +1,124 @@
 ---
-schema-version: v1.2.9
 id: ISO8532-1995
-title:
-- content: Securities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format for transmission of certificate numbers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Securities - Format for transmission of certificate numbers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Valeurs mobilières
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format pour la transmission des numéros de titres et de certificats
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Valeurs mobilières - Format pour la transmission des numéros de titres
-    et de certificats
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/23243.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:23243:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/02/32/23243.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8532:1995
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Securities
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Format for transmission of certificate numbers
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Securities - Format for transmission of certificate numbers
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Valeurs mobilières
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Format pour la transmission des numéros de titres et de certificats
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Valeurs mobilières - Format pour la transmission des numéros de titres
+    et de certificats
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/23243.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:23243:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/32/23243.detail.rss
+docidentifier:
+- content: ISO 8532:1995
   type: ISO
   primary: true
-- id: ISO 8532:1995(E)
+- content: ISO 8532:1995(E)
   type: iso-reference
-- id: urn:iso:std:iso:8532:stage-90.93
+- content: urn:iso:std:iso:8532:stage-90.93
   type: URN
 docnumber: '8532'
 date:
 - type: published
-  value: 1995-12
+  at: 1995-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1995-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the format required for the transmission on electronic media
+- language: en
+  script: Latn
+  content: Specifies the format required for the transmission on electronic media
     of certificate numbers to other organizations or establisments. Applies to all
     types of securities, regardless of issuer or country of issuance. Replaces the
     first edition.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale prescrit les formats des enregistrements nécessaires à la transmission, par des moyens électroniques, des numéros de titres et de certificats à d'autres établissements ou organisations (par exemple, en tant que partie d'un message de valeurs mobilières prévu par l'ISO 7775). La présente Norme internationale est applicable à toutes les valeurs mobilières, quels que soient leur type, l'émetteur ou le pays d'émission.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO8532-1986
     type: standard
-    docid:
-    - id: ISO 8532:1986
+    formattedref: ISO 8532:1986
+    docidentifier:
+    - content: ISO 8532:1986
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 8532:1986
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information exchange for financial services
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 9
+      content: Information exchange for financial services
   ics:
   - code: '03.060'
     text: Finances. Banking. Monetary systems. Insurance
   structuredidentifier:
-    project_number: '23243'
     type: ISO
+    project_number:
+      content: '23243'

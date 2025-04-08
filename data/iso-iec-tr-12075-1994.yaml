@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTR12075-1994
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Customer premises cabling
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Customer premises cabling
   type: title-main
-- content: Planning and installation guide to support ISO/IEC 8802-5 token ring stations
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Planning and installation guide to support ISO/IEC 8802-5 token ring stations
   type: title-part
-- content: Information technology - Customer premises cabling - Planning and installation
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Customer premises cabling - Planning and installation
     guide to support ISO/IEC 8802-5 token ring stations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Câblage des locaux de clients
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Câblage des locaux de clients
   type: title-main
-- content: Guide de planification et d'installation pour les stations en anneau à
-    jetons de l'ISO/CEI 8802-5
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Guide de planification et d'installation pour les stations en anneau à
+    jetons de l'ISO/CEI 8802-5
   type: title-part
-- content: Technologies de l'information - Câblage des locaux de clients - Guide de
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Câblage des locaux de clients - Guide de
     planification et d'installation pour les stations en anneau à jetons de l'ISO/CEI
     8802-5
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/21607.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/16/21607.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC TR 12075:1994
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/21607.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/16/21607.detail.rss
+docidentifier:
+- content: ISO/IEC TR 12075:1994
   type: ISO
   primary: true
-- id: ISO/IEC TR 12075:1994(E)
+- content: ISO/IEC TR 12075:1994(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:tr:12075:stage-95.99
+- content: urn:iso:std:iso-iec:tr:12075:stage-95.99
   type: URN
 docnumber: '12075'
 date:
 - type: published
-  value: 1994-05
+  at: 1994-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1994-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: The purpose is to supplement the token ring standard ISO/IEC 8802-5. Therefore,
+- language: en
+  script: Latn
+  content: The purpose is to supplement the token ring standard ISO/IEC 8802-5. Therefore,
     includes a description and recommended values of characteristics of the appropriate
     elements within a token ring network, the cabling system topology with recommended
     distances, transmission requirements of suitable medium for 4 and 16 Mbit/s token
@@ -114,12 +101,9 @@ abstract:
     to support 4 and 16 Mbit/s token rings, guidance on documentation and labelling
     to support token rings. All cabling recommendations specifically refer to using
     150  shielded twisted pair lobe cabling.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: The purpose is to supplement the token ring standard ISO/IEC 8802-5. Therefore,
+- language: fr
+  script: Latn
+  content: The purpose is to supplement the token ring standard ISO/IEC 8802-5. Therefore,
     includes a description and recommended values of characteristics of the appropriate
     elements within a token ring network, the cabling system topology with recommended
     distances, transmission requirements of suitable medium for 4 and 16 Mbit/s token
@@ -127,36 +111,34 @@ abstract:
     to support 4 and 16 Mbit/s token rings, guidance on documentation and labelling
     to support token rings. All cabling recommendations specifically refer to using
     150  shielded twisted pair lobe cabling.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Interconnection of information technology equipment
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 25
+      content: Interconnection of information technology equipment
   ics:
   - code: '35.200'
     text: Interface and interconnection equipment
   structuredidentifier:
-    project_number: '21607'
     type: ISO
+    project_number:
+      content: '21607'

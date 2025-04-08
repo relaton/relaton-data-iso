@@ -1,142 +1,123 @@
 ---
-schema-version: v1.2.9
 id: ISO1990-2-1985
-title:
-- content: Fruits
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Nomenclature
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Second list
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Fruits - Nomenclature - Second list
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Fruits
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Nomenclature
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Deuxième liste
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Fruits - Nomenclature - Deuxième liste
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/6727.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/67/6727.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 1990-2:1985
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fruits
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Nomenclature
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Second list
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Fruits - Nomenclature - Second list
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Fruits
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Nomenclature
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Deuxième liste
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Fruits - Nomenclature - Deuxième liste
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/6727.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/67/6727.detail.rss
+docidentifier:
+- content: ISO 1990-2:1985
   type: ISO
   primary: true
-- id: ISO 1990-2:1985(E)
+- content: ISO 1990-2:1985(E)
   type: iso-reference
-- id: urn:iso:std:iso:1990:-2:stage-95.99
+- content: urn:iso:std:iso:1990:-2:stage-95.99
   type: URN
 docnumber: '1990'
 date:
 - type: published
-  value: 1985-08
+  at: 1985-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1985-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Gives a list of botanical names of 22 fruit plants, together with the common
+- language: en
+  script: Latn
+  content: Gives a list of botanical names of 22 fruit plants, together with the common
     names of the fruits in English, French and Russian. Gives, in addition, alphabetical
     indices of the common names in the three languages.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Gives a list of botanical names of 22 fruit plants, together with the common
+- language: fr
+  script: Latn
+  content: Gives a list of botanical names of 22 fruit plants, together with the common
     names of the fruits in English, French and Russian. Gives, in addition, alphabetical
     indices of the common names in the three languages.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Fruits and vegetables and their derived products
-      number: 34
+    - number: 34
       type: TC
       identifier: ISO/TC 34/SC 3
+      content: Fruits and vegetables and their derived products
   ics:
   - code: 01.040.67
     text: Food technology (Vocabularies)
   - code: 67.080.10
     text: Fruits and derived products
   structuredidentifier:
-    project_number: '6727'
     type: ISO
+    project_number:
+      content: '6727'

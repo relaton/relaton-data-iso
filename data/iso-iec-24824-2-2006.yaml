@@ -1,156 +1,138 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC24824-2-2006
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Generic applications of ASN.1: Fast Web Services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2:'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Generic applications of ASN.1: Fast Web Services
-    - Part 2:'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Applications génériques de l''ASN.1: Services web rapides'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2:'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Applications génériques de l''ASN.1:
-    Services web rapides - Partie 2:'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/41328.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:41328:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/13/41328.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 24824-2:2006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Generic applications of ASN.1: Fast Web Services'
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2:'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Generic applications of ASN.1: Fast Web Services
+    - Part 2:'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Applications génériques de l''ASN.1: Services web rapides'
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2:'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Applications génériques de l''ASN.1:
+    Services web rapides - Partie 2:'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/41328.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41328:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/13/41328.detail.rss
+docidentifier:
+- content: ISO/IEC 24824-2:2006
   type: ISO
   primary: true
-- id: ISO/IEC 24824-2:2006(E)
+- content: ISO/IEC 24824-2:2006(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:24824:-2:stage-90.93
+- content: urn:iso:std:iso-iec:24824:-2:stage-90.93
   type: URN
 docnumber: '24824'
 date:
 - type: published
-  value: 2006-07
+  at: 2006-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2006-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 24824-2:2006 specifies the messages required for Fast Web Services. It provides the specification of ASN.1 SOAP messages which carry the same semantics as W3C SOAP messages. The exchange of ASN.1 SOAP messages provides Fast Web Services.
     ISO/IEC 24824-2:2006 references other ASN.1 International Standards and the Web services specification W3C SOAP 1.2 to fully define application exchanges that use Web protocols and W3C SOAP functionality. This is an extension to the provision of Web services using W3C SOAP messages, without any change to the functionality of W3C SOAP and service description languages. The main change is to the use of compact and easily-processed binary encodings of XML data, rather than character encodings.
     The use of ISO/IEC 24824-2:2006 (with the ASN.1 SOAP messages encoded using the ASN.1 Packed Encoding Rules, PER) allows applications to provide Web services using messages that require less network bandwidth and less processing power (and hence provide a higher transaction processing rate) than use of the character encoding of XML data.
     ISO/IEC 24824-2:2006 also specifies a Multipurpose Internet Mail Extensions (MIME) media type that identifies an ASN.1 SOAP message encoded in PER. It also specifies a MIME media type that identifies a W3C SOAP message infoset encoded as a fast infoset document (see ISO/IEC 24824-1). Both of these encodings are used by ISO/IEC 24824-2:2006.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO/CEI 24824-2:2006 spécifie les messages nécessaires pour les services web rapides. Elle spécifie les messages SOAP en ASN.1 qui portent la même sémantique que les messages SOAP du W3C. L'échange de messages SOAP en ASN.1 donne les services web rapides.
     L'ISO/CEI 24824-2:2006 fait référence à d'autres Normes internationales de l'ASN.1 et à la spécification des services web SOAP 1.2 du W3C pour définir complètement les échanges d'application qui utilisent les protocoles web et les fonctionnalités SOAP du W3C. Elle est une extension de la fourniture des services web en utilisant les messages SOAP du W3C, sans aucun changement aux fonctionnalités du protocole SOAP du W3C et des langages de description de service. Le principal changement est l'utilisation de codages binaires compacts et faciles à traiter de données XML, plutôt que les codages de caractères.
     L'utilisation de l'ISO/CEI 24824-2:2006 [avec les messages SOAP en ASN.1 codés en utilisant les règles de codage compact ASN.1 (PER, packed encoding rules)] permet aux applications de fournir des services web en utilisant des messages qui exigent moins de bande passante réseau et moins de puissance de traitement (et donc de fournir un débit de traitement de transaction plus élevé) que le codage de caractère des données XML.
     L'ISO/CEI 24824-2:2006 spécifie aussi un type de support d'extensions de messagerie Internet multi-objet (MIME, multipurpose Internet mail extensions) qui identifie un message SOAP en ASN.1 codé en PER. Elle spécifie aussi un type de support MIME qui identifie un infoset de message SOAP du W3C codé comme un document fast infoset (voir l'ISO/CEI 24824-1). Ces deux types MIME sont utilisés par l'ISO/CEI 24824-2:2006.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 35.100.60
     text: Presentation layer
   structuredidentifier:
-    project_number: '41328'
     type: ISO
+    project_number:
+      content: '41328'

@@ -1,95 +1,86 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC26137
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: OpenID connect
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: OpenID connect back-channel logout 1.0 incorporating errata set 1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - OpenID connect - OpenID connect back-channel logout
-    1.0 incorporating errata set 1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/89063.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/90/89063.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 26137
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: OpenID connect
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: OpenID connect back-channel logout 1.0 incorporating errata set 1
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - OpenID connect - OpenID connect back-channel logout
+    1.0 incorporating errata set 1
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/89063.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/90/89063.detail.rss
+docidentifier:
+- content: ISO/IEC 26137
   type: ISO
   primary: true
-- id: ISO/IEC 26137(E)
+- content: ISO/IEC 26137(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:26137:stage-60.00
+- content: urn:iso:std:iso-iec:26137:stage-published
   type: URN
 docnumber: '26137'
 date:
 - type: published
-  value: 2024-10
+  at: 2024-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0
+- language: en
+  script: Latn
+  content: "OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0
     protocol. It enables Clients to verify the identity of the End-User based on the
     authentication performed by an Authorization Server, as well as to obtain basic
     profile information about the End-User in an interoperable and REST-like manner.
@@ -97,12 +88,9 @@ abstract:
     between the OP and RPs being logged out; this differs from front-channel logout
     mechanisms, which communicate logout requests from the OP to RPs via the User
     Agent. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0
+- language: fr
+  script: Latn
+  content: "OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0
     protocol. It enables Clients to verify the identity of the End-User based on the
     authentication performed by an Authorization Server, as well as to obtain basic
     profile information about the End-User in an interoperable and REST-like manner.
@@ -110,36 +98,34 @@ abstract:
     between the OP and RPs being logged out; this differs from front-channel logout
     mechanisms, which communicate logout requests from the OP to RPs via the User
     Agent. "
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Information technology
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: ISO 26137
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1
+      content: Information technology
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 26137

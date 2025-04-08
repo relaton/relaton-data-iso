@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO7870-6-2024
-title:
-- content: Control charts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 6: EWMA control charts for the process mean'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Control charts - Part 6: EWMA control charts for the process mean'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Cartes de contrôle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 6: Cartes de contrôle EWMA pour la moyenne d''un processus'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Cartes de contrôle - Partie 6: Cartes de contrôle EWMA pour la moyenne
-    d''un processus'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83852.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:83852:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/38/83852.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 7870-6:2024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Control charts
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 6: EWMA control charts for the process mean'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Control charts - Part 6: EWMA control charts for the process mean'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cartes de contrôle
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 6: Cartes de contrôle EWMA pour la moyenne d''un processus'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Cartes de contrôle - Partie 6: Cartes de contrôle EWMA pour la moyenne
+    d''un processus'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83852.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:83852:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/38/83852.detail.rss
+docidentifier:
+- content: ISO 7870-6:2024
   type: ISO
   primary: true
-- id: ISO 7870-6:2024(E)
+- content: ISO 7870-6:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso:7870:-6:stage-60.60
+- content: urn:iso:std:iso:7870:-6:stage-published
   type: URN
 docnumber: '7870'
 date:
 - type: published
-  value: 2024-07
+  at: 2024-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2024-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document covers EWMA control charts, originally proposed by Roberts (1959)[16], as a statistical process control technique to detect small shifts in the process mean. It makes possible the faster detection of small to moderate shifts in the process mean. In this chart, the process mean is evaluated in terms of exponentially weighted moving average of all previous observations or averages.
     The EWMA control chart’s application is worthwhile in particular when
     —     production rate is slow,
@@ -92,12 +82,9 @@ abstract:
     —     testing is expensive, and
     —     it involves safety risks.
     NOTE            EWMA control charts are applicable for both variables and attributes data. The given examples illustrate both types (see 5.5, Annex A, Annex B and Annex C).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document traite des cartes de contrôle EWMA, proposées à l’origine par Roberts (1959)[16], comme technique de maîtrise statistique des procédés permettant de détecter des dérives/déréglages de petite amplitude dans la moyenne du processus. Elle permet de détecter plus rapidement des déréglages de petite et moyenne amplitude dans la moyenne du processus. Dans cette carte, la moyenne du processus est évaluée en termes de moyenne mobile pondérée exponentiellement de toutes les observations antérieures ou des moyennes antérieures.
     L’application de la carte de contrôle EWMA est utile, en particulier quand:
     —     le taux de production est lent;
@@ -106,48 +93,43 @@ abstract:
     —     les essais sont onéreux; et
     —     il y a des risques pour la sécurité.
     NOTE            Les cartes de contrôle EWMA sont applicables à la fois pour des contrôles par mesures et par attributs. Les exemples fournis illustrent les deux types (voir 5.5, l’Annexe A, l’Annexe B et l’Annexe C).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO7870-6-2016
     type: standard
-    docid:
-    - id: ISO 7870-6:2016
+    formattedref: ISO 7870-6:2016
+    docidentifier:
+    - content: ISO 7870-6:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 7870-6:2016
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Applications of statistical methods in product and process management
-      number: 69
+    - number: 69
       type: TC
       identifier: ISO/TC 69/SC 4
+      content: Applications of statistical methods in product and process management
   ics:
   - code: 03.120.30
     text: Application of statistical methods
   structuredidentifier:
-    project_number: '83852'
     type: ISO
+    project_number:
+      content: '83852'

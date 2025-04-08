@@ -1,67 +1,58 @@
 ---
-schema-version: v1.2.8
 id: ISO/CD19109
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: General feature model and rules for application schema
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - General feature model and rules for application
-    schema
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Titre manque
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84700.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/47/84700.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 19109
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: General feature model and rules for application schema
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - General feature model and rules for application
+    schema
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Titre manque
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84700.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/47/84700.detail.rss
+docidentifier:
+- content: ISO/CD 19109
   type: ISO
   primary: true
-- id: ISO/CD 19109(E)
+- content: ISO/CD 19109(E)
   type: iso-reference
-- id: urn:iso:std:iso:19109:stage-draft
+- content: urn:iso:std:iso:19109:stage-draft
   type: URN
 docnumber: '19109'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -70,7 +61,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 19109:2015 defines rules for creating and documenting application schemas, including principles for the definition of features.
     The scope of this International Standard includes the following:
     - conceptual modelling of features and their properties from a universe of discourse;
@@ -87,12 +80,9 @@ abstract:
     - implementation of the application schema in a computer environment;
     - computer system and application software design;
     - programming.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 19109:2015 définit des règles relatives à la création et la documentation de schémas d'application, y compris les principes de définition des entités.
     Le domaine d'application de la présente Norme internationale inclut les éléments suivants:
     - la modélisation conceptuelle des entités et de leurs propriétés par rapport à un univers du discours;
@@ -109,48 +99,43 @@ abstract:
     - l'implémentation du schéma d'application dans un environnement informatique;
     - le système informatique et la conception du logiciel d'application;
     - la programmation.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19109-2015
     type: standard
-    docid:
-    - id: ISO 19109:2015
+    formattedref: ISO 19109:2015
+    docidentifier:
+    - content: ISO 19109:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19109:2015
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Geographic information/Geomatics
-    number: 211
-    type: TC
-    identifier: ISO/TC 211
-ics:
-- code: 35.240.70
-  text: IT applications in science
-structuredidentifier:
-  project_number: ISO 19109
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 211
+      type: TC
+      identifier: ISO/TC 211
+      content: Geographic information/Geomatics
+  ics:
+  - code: 35.240.70
+    text: IT applications in science
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 19109

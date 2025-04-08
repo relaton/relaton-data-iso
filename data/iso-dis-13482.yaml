@@ -1,75 +1,64 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS13482
-title:
-- content: Robotics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Safety requirements for service robots
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Robotics - Safety requirements for service robots
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Robotique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Exigences de sécurité pour les robots de service
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Robotique - Exigences de sécurité pour les robots de service
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/83498.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:83498:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/34/83498.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 13482
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Robotics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Safety requirements for service robots
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Robotics - Safety requirements for service robots
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Robotique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences de sécurité pour les robots de service
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Robotique - Exigences de sécurité pour les robots de service
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/83498.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:83498:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/34/83498.detail.rss
+docidentifier:
+- content: ISO/DIS 13482
   type: ISO
   primary: true
-- id: ISO/DIS 13482(E)
+- content: ISO/DIS 13482(E)
   type: iso-reference
-- id: urn:iso:std:iso:13482:stage-draft
+- content: urn:iso:std:iso:13482:stage-draft
   type: URN
 docnumber: '13482'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -78,7 +67,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This standard specifies the safety requirements for service robots used
+- language: en
+  script: Latn
+  content: "This standard specifies the safety requirements for service robots used
     in personal and professional/commercial applications. The service robots concerned,
     and the extent to which hazards, hazardous situations or hazardous events are
     covered, are indicated in this standard. \n\nThis safety standard considers the
@@ -86,12 +77,9 @@ abstract:
     service robots. It includes additional information on the functional safety for
     service robots.\n\nThis standard is not intended to cover robots used in industrial
     applications and medical applications."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This standard specifies the safety requirements for service robots used
+- language: fr
+  script: Latn
+  content: "This standard specifies the safety requirements for service robots used
     in personal and professional/commercial applications. The service robots concerned,
     and the extent to which hazards, hazardous situations or hazardous events are
     covered, are indicated in this standard. \n\nThis safety standard considers the
@@ -99,48 +87,43 @@ abstract:
     service robots. It includes additional information on the functional safety for
     service robots.\n\nThis standard is not intended to cover robots used in industrial
     applications and medical applications."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO13482-2014
     type: standard
-    docid:
-    - id: ISO 13482:2014
+    formattedref: ISO 13482:2014
+    docidentifier:
+    - content: ISO 13482:2014
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 13482:2014
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Robotics
-      number: 299
+    - number: 299
       type: TC
       identifier: ISO/TC 299
+      content: Robotics
   ics:
   - code: 25.040.30
     text: Industrial robots. Manipulators
   structuredidentifier:
-    project_number: '83498'
     type: ISO
+    project_number:
+      content: '83498'

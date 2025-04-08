@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
 id: ISO10163-1-1993
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation
   type: title-intro
-- content: Open Systems Interconnection
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Open Systems Interconnection
   type: title-main
-- content: 'Search and Retrieve Application Protocol Specification -- Part 1: Protocol
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Search and Retrieve Application Protocol Specification -- Part 1: Protocol
     specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: 'Information and documentation - Open Systems Interconnection - Search
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information and documentation - Open Systems Interconnection - Search
     and Retrieve Application Protocol Specification -- Part 1: Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
   type: title-intro
-- content: Interconnexion de systèmes ouverts (OSI)
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-- content: 'Spécification du protocole d''application pour la recherche documentaire
-    -- Partie 1: Spécification du protocole'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Spécification du protocole d''application pour la recherche documentaire
+    -- Partie 1: Spécification du protocole'
   type: title-part
-- content: 'Information et documentation - Interconnexion de systèmes ouverts (OSI)
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Information et documentation - Interconnexion de systèmes ouverts (OSI)
     - Spécification du protocole d''application pour la recherche documentaire --
     Partie 1: Spécification du protocole'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/18157.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/81/18157.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 10163-1:1993
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/18157.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/81/18157.detail.rss
+docidentifier:
+- content: ISO 10163-1:1993
   type: ISO
   primary: true
-- id: ISO 10163-1:1993(E)
+- content: ISO 10163-1:1993(E)
   type: iso-reference
-- id: urn:iso:std:iso:10163:-1:stage-95.99
+- content: urn:iso:std:iso:10163:-1:stage-95.99
   type: URN
 docnumber: '10163'
 date:
 - type: published
-  value: 1993-02
+  at: 1993-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1993-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Defines the protocol procedures for an SR application-service-element (ASE).
+- language: en
+  script: Latn
+  content: Defines the protocol procedures for an SR application-service-element (ASE).
     Specifies the behaviour which must be exhibited by a system in order to take part
     in the provision of the ISO search and retrieve service as defined in ISO 10162.
     Provides a formal statement of the rules of behaviour of each of the two entities
@@ -107,12 +93,9 @@ abstract:
     to convey the SR protocol APDUs. Is primarily intended for use by systems supporting
     information retrieval services for organizations such as libraries and information
     utilities.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Defines the protocol procedures for an SR application-service-element (ASE).
+- language: fr
+  script: Latn
+  content: Defines the protocol procedures for an SR application-service-element (ASE).
     Specifies the behaviour which must be exhibited by a system in order to take part
     in the provision of the ISO search and retrieve service as defined in ISO 10162.
     Provides a formal statement of the rules of behaviour of each of the two entities
@@ -120,36 +103,34 @@ abstract:
     to convey the SR protocol APDUs. Is primarily intended for use by systems supporting
     information retrieval services for organizations such as libraries and information
     utilities.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical interoperability
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 4
+      content: Technical interoperability
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '18157'
     type: ISO
+    project_number:
+      content: '18157'

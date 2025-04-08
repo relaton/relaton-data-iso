@@ -1,96 +1,87 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC5218-2022
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Codes for the representation of human sexes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Codes for the representation of human sexes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Codes de représentation des sexes humains
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information - Codes de représentation des sexes humains
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81682.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:81682:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/16/81682.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 5218:2022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Codes for the representation of human sexes
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Codes for the representation of human sexes
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Codes de représentation des sexes humains
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Codes de représentation des sexes humains
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81682.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81682:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/16/81682.detail.rss
+docidentifier:
+- content: ISO/IEC 5218:2022
   type: ISO
   primary: true
-- id: ISO/IEC 5218:2022(E)
+- content: ISO/IEC 5218:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:5218:stage-60.60
+- content: urn:iso:std:iso-iec:5218:stage-published
   type: URN
 docnumber: '5218'
 date:
 - type: published
-  value: 2022-06
+  at: 2022-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2022-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a uniform representation of human sexes for the interchange of information. It is intended to:
     —    reduce the time required to record and/or format the representation of sexes and transmit the corresponding data;
     —    improve clarity and accuracy of interchange;
@@ -99,12 +90,9 @@ abstract:
     This document does not prescribe file sequences, storage media, programming languages, or other features of information processing to be used in its implementation.
     This document meets the requirements of most applications that need to code human sexes. It does not provide codes for sexes that can be required in specific medical and scientific applications or in applications that need to code sex information other than for human beings. It also does not provide codes for human gender identities that can be required in other applications.
     This document does not supplant national standards for coding sexes that are designed based upon codes derived from names of sexes in the various languages (for example “M” for “male” and “F” for “female” in the English language). It provides a numeric code that is independent of language-derived codes and as such is intended to provide a common basis for the international exchange of information containing human sex data elements.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies a uniform representation of human sexes for the interchange of information. It is intended to:
     —    reduce the time required to record and/or format the representation of sexes and transmit the corresponding data;
     —    improve clarity and accuracy of interchange;
@@ -113,48 +101,43 @@ abstract:
     This document does not prescribe file sequences, storage media, programming languages, or other features of information processing to be used in its implementation.
     This document meets the requirements of most applications that need to code human sexes. It does not provide codes for sexes that can be required in specific medical and scientific applications or in applications that need to code sex information other than for human beings. It also does not provide codes for human gender identities that can be required in other applications.
     This document does not supplant national standards for coding sexes that are designed based upon codes derived from names of sexes in the various languages (for example “M” for “male” and “F” for “female” in the English language). It provides a numeric code that is independent of language-derived codes and as such is intended to provide a common basis for the international exchange of information containing human sex data elements.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC5218-2004
     type: standard
-    docid:
-    - id: ISO/IEC 5218:2004
+    formattedref: ISO/IEC 5218:2004
+    docidentifier:
+    - content: ISO/IEC 5218:2004
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 5218:2004
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Data management and interchange
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 32
+      content: Data management and interchange
   ics:
   - code: 35.040.50
     text: Automatic identification and data capture techniques
   structuredidentifier:
-    project_number: '81682'
     type: ISO
+    project_number:
+      content: '81682'

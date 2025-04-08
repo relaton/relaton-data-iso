@@ -1,96 +1,87 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC13236-1998
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Quality of service: Framework'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Information technology - Quality of service: Framework'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Qualité de service: Cadre général'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Technologies de l''information - Qualité de service: Cadre général'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/27993.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:27993:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/02/79/27993.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 13236:1998
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Quality of service: Framework'
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Quality of service: Framework'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Qualité de service: Cadre général'
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Qualité de service: Cadre général'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/27993.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:27993:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/79/27993.detail.rss
+docidentifier:
+- content: ISO/IEC 13236:1998
   type: ISO
   primary: true
-- id: ISO/IEC 13236:1998(E)
+- content: ISO/IEC 13236:1998(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:13236:stage-90.60
+- content: urn:iso:std:iso-iec:13236:stage-90.60
   type: URN
 docnumber: '13236'
 date:
 - type: published
-  value: 1998-12
+  at: 1998-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1998-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This QOS Framework is a structured collection of concepts and their relationships which describes QOS (Quality of
     Service) and enables the partitioning of, and relationships between, the topics relevant to QOS in Information
     Technology (IT) to be expressed by a common means of description. In particular, this QOS Framework is directed at IT
@@ -130,12 +121,9 @@ abstract:
     ITU-T Rec. X.701 | ISO/IEC 10040) in its assignment of functions to management entities. In Annex A, this QOS
     Framework presents a model of QOS for OSI which identifies the entities that participate in the management of QOS,
     defines the flow of QOS-related information between them and describes how this information is used.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     On entend ici par l'expression cadre général de qualité de service (cadre QS) un ensemble structuré de concepts
     interdépendants décrivant la qualité de service (QS) et permettant d'exprimer par des méthodes de description communes
     les subdivisions entre les différents sujets se rapportant à la qualité de service dans le domaine des technologies de
@@ -187,38 +175,36 @@ abstract:
     l'Annexe A, ce cadre général de qualité de service présente un modèle de qualité de service pour l'interconnexion des
     systèmes ouverts, qui recense les entités participant à la gestion de la qualité de service, définit le flux des informations
     relatives à la qualité de service entre ces entités et décrit la manière dont ces informations sont utilisées.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: '35.020'
     text: Information technology (IT) in general
   - code: 35.100.01
     text: Open systems interconnection in general
   structuredidentifier:
-    project_number: '27993'
     type: ISO
+    project_number:
+      content: '27993'

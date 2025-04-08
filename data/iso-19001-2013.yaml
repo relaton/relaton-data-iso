@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
 id: ISO19001-2013
+type: standard
+schema_version: v1.4.1
 title:
-- content: In vitro diagnostic medical devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: In vitro diagnostic medical devices
   type: title-intro
-- content: Information supplied by the manufacturer with in vitro diagnostic reagents
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information supplied by the manufacturer with in vitro diagnostic reagents
     for staining in biology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: In vitro diagnostic medical devices - Information supplied by the manufacturer
+  format: text/plain
+- language: en
+  script: Latn
+  content: In vitro diagnostic medical devices - Information supplied by the manufacturer
     with in vitro diagnostic reagents for staining in biology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Dispositifs médicaux de diagnostic in vitro
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Dispositifs médicaux de diagnostic in vitro
   type: title-intro
-- content: Informations fournies par le fabricant avec les réactifs de coloration
-    de diagnostic in vitro utilisés en biologie
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Informations fournies par le fabricant avec les réactifs de coloration
+    de diagnostic in vitro utilisés en biologie
   type: title-main
-- content: Dispositifs médicaux de diagnostic in vitro - Informations fournies par
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Dispositifs médicaux de diagnostic in vitro - Informations fournies par
     le fabricant avec les réactifs de coloration de diagnostic in vitro utilisés en
     biologie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/51984.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:51984:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/19/51984.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 19001:2013
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/51984.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:51984:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/19/51984.detail.rss
+docidentifier:
+- content: ISO 19001:2013
   type: ISO
   primary: true
-- id: ISO 19001:2013(E)
+- content: ISO 19001:2013(E)
   type: iso-reference
-- id: urn:iso:std:iso:19001:stage-90.93
+- content: urn:iso:std:iso:19001:stage-90.93
   type: URN
 docnumber: '19001'
 date:
 - type: published
-  value: 2013-03
+  at: 2013-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2013-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: ISO 19001:2013 specifies requirements for information supplied by the manufacturer
+- language: en
+  script: Latn
+  content: ISO 19001:2013 specifies requirements for information supplied by the manufacturer
     with reagents used in staining in biology. It applies to producers, suppliers
     and vendors of dyes, stains, chromogenic reagents and other reagents used for
     staining in histology and cytology including bacteriology, haematology, histochemistry,
@@ -95,12 +85,9 @@ abstract:
     The requirements for information supplied by the manufacturer specified in ISO
     19001:2013 are a prerequisite for achieving comparable and reproducible results
     in all fields of staining in biology.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: L'ISO 19001:2013 spécifie des exigences relatives aux informations fournies
+- language: fr
+  script: Latn
+  content: L'ISO 19001:2013 spécifie des exigences relatives aux informations fournies
     par le fabricant et applicables aux colorants utilisés en biologie. Elle s'adresse
     aux fabricants, fournisseurs et distributeurs de teintures, colorants, réactifs
     chromogènes et autres réactifs de coloration utilisés en histologie et en cytologie,
@@ -109,50 +96,45 @@ abstract:
     aux informations fournies par le fabricant et spécifiées dans la présente Norme
     internationale constituent une condition préalable à l'obtention de résultats
     comparables et reproductibles dans le domaine des colorations biologiques.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19001-2002
     type: standard
-    docid:
-    - id: ISO 19001:2002
+    formattedref: ISO 19001:2002
+    docidentifier:
+    - content: ISO 19001:2002
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19001:2002
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Medical laboratories and in vitro diagnostic systems
-      number: 212
+    - number: 212
       type: TC
       identifier: ISO/TC 212
+      content: Medical laboratories and in vitro diagnostic systems
   ics:
   - code: 11.040.55
     text: Diagnostic equipment
   - code: 11.100.10
     text: In vitro diagnostic test systems
   structuredidentifier:
-    project_number: '51984'
     type: ISO
+    project_number:
+      content: '51984'

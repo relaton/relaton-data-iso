@@ -1,154 +1,133 @@
 ---
-schema-version: v1.2.9
 id: ISO1413-1984
-title:
-- content: Horology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Shock-resistant watches
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Horology - Shock-resistant watches
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Horlogerie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Montres résistant aux chocs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Horlogerie - Montres résistant aux chocs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/6003.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/60/6003.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 1413:1984
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Horology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Shock-resistant watches
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Horology - Shock-resistant watches
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Horlogerie
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Montres résistant aux chocs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Horlogerie - Montres résistant aux chocs
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/6003.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/60/6003.detail.rss
+docidentifier:
+- content: ISO 1413:1984
   type: ISO
   primary: true
-- id: ISO 1413:1984(E)
+- content: ISO 1413:1984(E)
   type: iso-reference
-- id: urn:iso:std:iso:1413:stage-95.99
+- content: urn:iso:std:iso:1413:stage-95.99
   type: URN
 docnumber: '1413'
 date:
 - type: published
-  value: 1984-04
+  at: 1984-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1984-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the minimum requirements and describes the corresponding method
+- language: en
+  script: Latn
+  content: Specifies the minimum requirements and describes the corresponding method
     of test. It is intended to allow homologation tests rather than the individual
     control of all watches of a production of a production batch. It is based on the
     simulation of the shock received by a watch on falling accidentally from a height
     of 1 m on to a horizontal hardwood surface.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale spécifie les exigences minimales applicables aux montres résistant aux chocs et décrit la méthode d'essai correspondante. Cette dernière est destinée à permettre des essais d'homologation des montres mais non à effectuer un contrôle individuel de toute une production. En effet, en supposant que chaque montre puisse satisfaire aux exigences minimales requises sans subir de dommage apparent, un nouveau réglage pourrait néanmoins être rendu nécessaire du fait que l'essai peut entraîner une modification de la marche initiale d'une montre. La présente Norme internationale est basée sur une simulation du choc reçu par la montre lors d'une chute accidentelle d'une hauteur de 1 m sur une surface horizontale en bois dur.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO1413-1973
     type: standard
-    docid:
-    - id: ISO 1413:1973
+    formattedref: ISO 1413:1973
+    docidentifier:
+    - content: ISO 1413:1973
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 1413:1973
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO1413-2016
     type: standard
-    docid:
-    - id: ISO 1413:2016
+    formattedref: ISO 1413:2016
+    docidentifier:
+    - content: ISO 1413:2016
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2016-04-01'
-    formattedref:
-      content: ISO 1413:2016
-      format: text/plain
+      at: '2016-04-01'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Shock resistant watches
-      number: 114
+    - number: 114
       type: TC
       identifier: ISO/TC 114/SC 1
+      content: Shock resistant watches
   ics:
   - code: 39.040.10
     text: Watches
   structuredidentifier:
-    project_number: '6003'
     type: ISO
+    project_number:
+      content: '6003'

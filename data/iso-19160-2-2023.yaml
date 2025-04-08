@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
 id: ISO19160-2-2023
-title:
-- content: Addressing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 2: Assigning and maintaining addresses for objects in the physical
-    world'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Addressing - Part 2: Assigning and maintaining addresses for objects in
-    the physical world'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Adressage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 2: Attribution et mise à jour des adresses pour les objets du monde
-    physique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Adressage - Partie 2: Attribution et mise à jour des adresses pour les
-    objets du monde physique'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/81674.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:81674:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/16/81674.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19160-2:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Addressing
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Assigning and maintaining addresses for objects in the physical
+    world'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Addressing - Part 2: Assigning and maintaining addresses for objects in
+    the physical world'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Adressage
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Attribution et mise à jour des adresses pour les objets du monde
+    physique'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Adressage - Partie 2: Attribution et mise à jour des adresses pour les
+    objets du monde physique'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/81674.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81674:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/16/81674.detail.rss
+docidentifier:
+- content: ISO 19160-2:2023
   type: ISO
   primary: true
-- id: ISO 19160-2:2023(E)
+- content: ISO 19160-2:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:19160:-2:stage-60.60
+- content: urn:iso:std:iso:19160:-2:stage-published
   type: URN
 docnumber: '19160'
 date:
 - type: published
-  value: 2023-11
+  at: 2023-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2023-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document focuses on assigning and maintaining addresses that allow the unambiguous determination of an object in the physical world for purposes of identification and location in the context of public administration and public service delivery. During assignment, an address is first associated with a particular object in the physical world. During maintenance, the address changes, for example, it is re-assigned to a different object, one or more of the address components are modified (e.g. a street name change), or the address is retired when it is no longer used. This document:
     a)       specifies a good practice for assigning and maintaining addresses and address data; and
     b)       specifies a governance framework for assigning and maintaining addresses and address data.
@@ -98,12 +88,9 @@ abstract:
     —     designing, implementing and maintaining access to address data;
     —     developing software to facilitate the above; and
     —     using addresses.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document porte principalement sur l'attribution et la mise à jour des adresses permettant de caractériser un objet du monde physique de manière univoque à des fins d'identification et de localisation dans le contexte de l'administration publique et la fourniture de services publics. Lors de l'attribution, une adresse est d'abord associée à un objet particulier dans le monde physique. L'adresse change au cours de la maintenance, par exemple, elle est réattribuée à un objet différent, un ou plusieurs des composants d'adresse sont modifiés (par exemple un changement de nom de rue), ou l'adresse est retirée quand elle n'est plus utilisée. Le présent document:
     a)       spécifie de bonnes pratiques d'attribution et de mise à jour des adresses et des données d'adresse; et
     b)       spécifie un cadre de gouvernance pour l'attribution et la mise à jour des adresses et des données d'adresse.
@@ -115,36 +102,34 @@ abstract:
     —     concevoir, mettre en œuvre et maintenir l'accès aux données d'adresse;
     —     développer des logiciels permettant de faciliter les tâches ci-dessus; et
     —     utiliser les adresses.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '81674'
     type: ISO
+    project_number:
+      content: '81674'

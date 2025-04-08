@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.8
 id: ISO24311
-title:
-- content: Intelligent transport systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mobility integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: "'Controlled zone' management for urban vehicle access restrictions (UVARs)
-    using C-ITS"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Intelligent transport systems - Mobility integration - 'Controlled zone'
-    management for urban vehicle access restrictions (UVARs) using C-ITS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes de transport intelligents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: ITS urbains
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Gestion de "zones contrôlées" pour les UVAR à l'aide de C-ITS
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Systèmes de transport intelligents - ITS urbains - Gestion de "zones contrôlées"
-    pour les UVAR à l'aide de C-ITS
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78406.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/07/84/78406.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 24311
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Intelligent transport systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Mobility integration
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: "'Controlled zone' management for urban vehicle access restrictions (UVARs)
+    using C-ITS"
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems - Mobility integration - 'Controlled zone'
+    management for urban vehicle access restrictions (UVARs) using C-ITS
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transport intelligents
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: ITS urbains
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de "zones contrôlées" pour les UVAR à l'aide de C-ITS
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes de transport intelligents - ITS urbains - Gestion de "zones contrôlées"
+    pour les UVAR à l'aide de C-ITS
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78406.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/84/78406.detail.rss
+docidentifier:
+- content: ISO 24311
   type: ISO
   primary: true
-- id: ISO 24311(E)
+- content: ISO 24311(E)
   type: iso-reference
-- id: urn:iso:std:iso:24311:stage-60.00
+- content: urn:iso:std:iso:24311:stage-published
   type: URN
 docnumber: '24311'
 date:
 - type: published
-  value: 2024-04
+  at: 2024-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This document provides information and specifications enabling management
+- language: en
+  script: Latn
+  content: "This document provides information and specifications enabling management
     of road traffic in controlled zones applying geofencing. Specifically, this document
     provides \n—\ta “Controlled Zone Data Dictionary” (CZDD) for management of controlled
     zones providing an extendible toolkit that regulators can use e.g. to inform potential
@@ -111,12 +97,9 @@ abstract:
     ISO 22418:2018 [10] on “Service Announcement”, EN ISO 18750 on the “Local Dynamic
     Map”, and EN ISO 17419 [5] on globally unique identifiers.\nEnforcement is out
     of scope of this document."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document provides information and specifications enabling management
+- language: fr
+  script: Latn
+  content: "This document provides information and specifications enabling management
     of road traffic in controlled zones applying geofencing. Specifically, this document
     provides \n—\ta “Controlled Zone Data Dictionary” (CZDD) for management of controlled
     zones providing an extendible toolkit that regulators can use e.g. to inform potential
@@ -130,38 +113,36 @@ abstract:
     ISO 22418:2018 [10] on “Service Announcement”, EN ISO 18750 on the “Local Dynamic
     Map”, and EN ISO 17419 [5] on globally unique identifiers.\nEnforcement is out
     of scope of this document."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Intelligent transport systems
-    number: 204
-    type: TC
-    identifier: ISO/TC 204
-ics:
-- code: 03.220.20
-  text: Road transport
-- code: 35.240.60
-  text: IT applications in transport
-structuredidentifier:
-  project_number: ISO 24311
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 204
+      type: TC
+      identifier: ISO/TC 204
+      content: Intelligent transport systems
+  ics:
+  - code: 03.220.20
+    text: Road transport
+  - code: 35.240.60
+    text: IT applications in transport
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 24311

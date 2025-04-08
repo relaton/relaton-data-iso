@@ -1,100 +1,86 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECDIS15424
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Automatic identification and data capture techniques
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Automatic identification and data capture techniques
   type: title-main
-- content: Data Carrier Identifiers (including Symbology Identifiers)
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Data Carrier Identifiers (including Symbology Identifiers)
   type: title-part
-- content: Information technology - Automatic identification and data capture techniques
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Automatic identification and data capture techniques
     - Data Carrier Identifiers (including Symbology Identifiers)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Techniques automatiques d'identification et de capture des données
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques automatiques d'identification et de capture des données
   type: title-main
-- content: Identifiants de porteuses de données (y compris les identifiants de symbologie)
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Identifiants de porteuses de données (y compris les identifiants de symbologie)
   type: title-part
-- content: Technologies de l'information - Techniques automatiques d'identification
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Techniques automatiques d'identification
     et de capture des données - Identifiants de porteuses de données (y compris les
     identifiants de symbologie)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/82433.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:82433:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/24/82433.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC DIS 15424
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/82433.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:82433:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/24/82433.detail.rss
+docidentifier:
+- content: ISO/IEC DIS 15424
   type: ISO
   primary: true
-- id: ISO/IEC DIS 15424(E)
+- content: ISO/IEC DIS 15424(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:15424:stage-draft
+- content: urn:iso:std:iso-iec:15424:stage-draft
   type: URN
 docnumber: '15424'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '3'
 language:
@@ -102,46 +88,46 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC15424-2008
     type: standard
-    docid:
-    - id: ISO/IEC 15424:2008
+    formattedref: ISO/IEC 15424:2008
+    docidentifier:
+    - content: ISO/IEC 15424:2008
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 15424:2008
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Automatic identification and data capture techniques
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 31
-ics:
-- code: 01.080.50
-  text: Graphical symbols for use on information technology and telecommunications
-    technical drawings and in relevant technical product documentation
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-structuredidentifier:
-  project_number: ISO 15424
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 31
+      content: Automatic identification and data capture techniques
+  ics:
+  - code: 01.080.50
+    text: Graphical symbols for use on information technology and telecommunications
+      technical drawings and in relevant technical product documentation
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 15424

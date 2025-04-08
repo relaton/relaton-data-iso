@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
 id: ISO19092-2023
-title:
-- content: Financial services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Biometrics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Security framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Financial services - Biometrics - Security framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Services financiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Biométrie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Cadre de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Services financiers - Biométrie - Cadre de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78308.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78308:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/83/78308.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19092:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Financial services
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Biometrics
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security framework
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Financial services - Biometrics - Security framework
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services financiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Biométrie
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cadre de sécurité
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services financiers - Biométrie - Cadre de sécurité
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78308.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78308:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/83/78308.detail.rss
+docidentifier:
+- content: ISO 19092:2023
   type: ISO
   primary: true
-- id: ISO 19092:2023(E)
+- content: ISO 19092:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:19092:stage-60.60
+- content: urn:iso:std:iso:19092:stage-published
   type: URN
 docnumber: '19092'
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2023-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the security framework for using biometrics for authentication of customers in financial services, focusing exclusively on retail payments. It introduces the most common types of biometric technologies and addresses issues concerning their application. This document also describes representative architectures for the implementation of biometric authentication and associated minimum control objectives.
     The following are within the scope of this document:
     —     use of biometrics for the purpose of:
@@ -110,12 +96,9 @@ abstract:
     The following are not within the scope of this document:
     —     detailed specifications for data collection, feature extraction and comparison of biometric data and the biometric decision-making process;
     —     use of biometric technology for non-financial transaction applications, such as physical or logical system access control.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies the security framework for using biometrics for authentication of customers in financial services, focusing exclusively on retail payments. It introduces the most common types of biometric technologies and addresses issues concerning their application. This document also describes representative architectures for the implementation of biometric authentication and associated minimum control objectives.
     The following are within the scope of this document:
     —     use of biometrics for the purpose of:
@@ -129,50 +112,45 @@ abstract:
     The following are not within the scope of this document:
     —     detailed specifications for data collection, feature extraction and comparison of biometric data and the biometric decision-making process;
     —     use of biometric technology for non-financial transaction applications, such as physical or logical system access control.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19092-2008
     type: standard
-    docid:
-    - id: ISO 19092:2008
+    formattedref: ISO 19092:2008
+    docidentifier:
+    - content: ISO 19092:2008
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19092:2008
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Financial Services, security
-      number: 68
+    - number: 68
       type: TC
       identifier: ISO/TC 68/SC 2
+      content: Financial Services, security
   ics:
   - code: '03.060'
     text: Finances. Banking. Monetary systems. Insurance
   - code: 35.240.40
     text: IT applications in banking
   structuredidentifier:
-    project_number: '78308'
     type: ISO
+    project_number:
+      content: '78308'

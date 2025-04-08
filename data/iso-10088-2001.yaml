@@ -1,145 +1,127 @@
 ---
-schema-version: v1.2.9
 id: ISO10088-2001
-title:
-- content: Small craft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Permanently installed fuel systems and fixed fuel tanks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Small craft - Permanently installed fuel systems and fixed fuel tanks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Petits navires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Installations à combustible installées à demeure et réservoirs fixes correspondants
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Petits navires - Installations à combustible installées à demeure et réservoirs
-    fixes correspondants
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/29774.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/97/29774.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 10088:2001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Small craft
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Permanently installed fuel systems and fixed fuel tanks
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Small craft - Permanently installed fuel systems and fixed fuel tanks
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Petits navires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Installations à combustible installées à demeure et réservoirs fixes correspondants
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Petits navires - Installations à combustible installées à demeure et réservoirs
+    fixes correspondants
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/29774.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/97/29774.detail.rss
+docidentifier:
+- content: ISO 10088:2001
   type: ISO
   primary: true
-- id: ISO 10088:2001(E)
+- content: ISO 10088:2001(E)
   type: iso-reference
-- id: urn:iso:std:iso:10088:stage-95.99
+- content: urn:iso:std:iso:10088:stage-95.99
   type: URN
 docnumber: '10088'
 date:
 - type: published
-  value: 2001-05
+  at: 2001-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2001-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale spécifie les exigences de conception, de matériaux, de construction, de montage et d'essai des installations à combustible installées à demeure et des réservoirs fixes correspondants, destinés à l'alimentation des moteurs à combustion interne.  Elle est applicable à tous les éléments des installations à combustible diesel et à essence installées à demeure et à leurs réservoirs fixes, depuis l'orifice de remplissage jusqu'au point de raccordement au moteur de propulsion ou au moteur auxiliaire des petits navires de longueur de coque inférieure ou égale à 24 m, qu'ils soient à moteur intérieur ou extérieur.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2001'
+- from: '2001'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO10088-1992
     type: standard
-    docid:
-    - id: ISO 10088:1992
+    formattedref: ISO 10088:1992
+    docidentifier:
+    - content: ISO 10088:1992
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 10088:1992
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO10088-2009
     type: standard
-    docid:
-    - id: ISO 10088:2009
+    formattedref: ISO 10088:2009
+    docidentifier:
+    - content: ISO 10088:2009
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2009-08-21'
-    formattedref:
-      content: ISO 10088:2009
-      format: text/plain
+      at: '2009-08-21'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Small craft
-      number: 188
+    - number: 188
       type: TC
       identifier: ISO/TC 188
+      content: Small craft
   ics:
   - code: '47.080'
     text: Small craft
   structuredidentifier:
-    project_number: '29774'
     type: ISO
+    project_number:
+      content: '29774'

@@ -1,114 +1,101 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC14651-2019
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: International string ordering and comparison
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: International string ordering and comparison
   type: title-main
-- content: Method for comparing character strings and description of the common template
-    tailorable ordering
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Method for comparing character strings and description of the common template
+    tailorable ordering
   type: title-part
-- content: Information technology - International string ordering and comparison -
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - International string ordering and comparison -
     Method for comparing character strings and description of the common template
     tailorable ordering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Classement international et comparaison de chaînes de caractères
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Classement international et comparaison de chaînes de caractères
   type: title-main
-- content: Méthode de comparaison de chaînes de caractères et description du modèle
-    commun et adaptable d'ordre de classement
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Méthode de comparaison de chaînes de caractères et description du modèle
+    commun et adaptable d'ordre de classement
   type: title-part
-- content: Technologies de l'information - Classement international et comparaison
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Classement international et comparaison
     de chaînes de caractères - Méthode de comparaison de chaînes de caractères et
     description du modèle commun et adaptable d'ordre de classement
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/73772.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/07/37/73772.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC 14651:2019
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/73772.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/37/73772.detail.rss
+docidentifier:
+- content: ISO/IEC 14651:2019
   type: ISO
   primary: true
-- id: ISO/IEC 14651:2019(E)
+- content: ISO/IEC 14651:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:14651:stage-95.99
+- content: urn:iso:std:iso-iec:14651:stage-95.99
   type: URN
 docnumber: '14651'
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '5'
-revdate: 2019-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines the following.
     —          A reference comparison method. This method is applicable to two character strings to determine their collating order in a sorted list. The method can be applied to strings containing characters from the full repertoire of ISO/IEC 10646. This method is also applicable to subsets of that repertoire, such as those of the different ISO/IEC 8-bit standard character sets, or any other character set, standardized or not, to produce ordering results valid (after tailoring) for a given set of languages for each script. This method uses collation tables derived either from the Common Template Table defined in this document or from one of its tailorings. This method provides a reference format. The format is described using the Backus-Naur Form (BNF). This format is used to describe the Common Template Table. The format is used normatively within this document.
     —          A Common Template Table. A given tailoring of the Common Template Table is used by the reference comparison method. The Common Template Table describes an order for all characters encoded in the Unicode 10.0 standard[27], included in ISO/IEC 10646:2017. It allows for a specification of a fully deterministic ordering. This table enables the specification of a string ordering adapted to local ordering rules, without requiring an implementer to have knowledge of all the different scripts already encoded in the Universal Coded Character Set (UCS).
@@ -126,12 +113,9 @@ abstract:
     —          Any particular preparation of character strings prior to comparison.
     NOTE 1    It is normally necessary to do preparation of character strings prior to comparison even if it is not prescribed by this document (see Annex C).
     NOTE 2    Annex D describes problems that gave way to this International Standard with their anticipated solutions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document définit ce qui suit.
     —          Une méthode de référence pour la comparaison de deux chaînes de caractères ayant pour but de déterminer leur ordre de classement dans une liste triée. La méthode s'applique à des chaînes utilisant le répertoire complet de l'ISO/IEC 10646, des sous-répertoires tels que ceux des divers jeux normalisés ISO/IEC à 8 bits ou tout autre jeu de caractères, et permet de produire des résultats de tri valables (après adaptation) pour un ensemble de langues de chaque système d'écriture. Cette méthode de référence utilise des tables de tri dérivées soit de la table-modèle commune de classement définie dans le présent document, soit d'une de ses adaptations. La méthode procure un format de référence de la table-modèle commune. Ce format est décrit en notation BNF (forme de Backus-Naur). Son emploi est normatif dans le présent document.
     —          Une table-modèle commune de classement utilisée par la méthode de référence. Cette table décrit un ordre de base pour tous les caractères du standard Unicode 10.0[27] compris dans l'ISO/IEC 10646:2017. Tout cela permet de spécifier un ordre complètement déterministe. Cette table constitue le point de départ permettant de préciser un ordre de classement adapté aux règles de classement locales, sans qu'il soit nécessaire de connaître tous les systèmes d'écriture repris dans le jeu universel de caractères codés (JUC).
@@ -149,73 +133,62 @@ abstract:
     —          Un prétraitement particulier des chaînes de caractères avant comparaison.
     NOTE 1    Bien que ceci ne soit pas spécifié par le présent document, il s'avère souvent nécessaire de préparer les chaînes de caractères avant leur comparaison (cf. l'Annexe C).
     NOTE 2    L'Annexe D décrit les problèmes qui ont donné lieu à la présente Norme internationale avec leurs solutions anticipées.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC14651-2016
     type: standard
-    docid:
-    - id: ISO/IEC 14651:2016
+    formattedref: ISO/IEC 14651:2016
+    docidentifier:
+    - content: ISO/IEC 14651:2016
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 14651:2016
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEC14651-2016/Amd1-2017
     type: standard
-    docid:
-    - id: ISO/IEC 14651:2016/Amd 1:2017
+    formattedref: ISO/IEC 14651:2016/Amd 1:2017
+    docidentifier:
+    - content: ISO/IEC 14651:2016/Amd 1:2017
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 14651:2016/Amd 1:2017
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC14651-2020
     type: standard
-    docid:
-    - id: ISO/IEC 14651:2020
+    formattedref: ISO/IEC 14651:2020
+    docidentifier:
+    - content: ISO/IEC 14651:2020
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2020-12-21'
-    formattedref:
-      content: ISO/IEC 14651:2020
-      format: text/plain
+      at: '2020-12-21'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coded character sets
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 2
+      content: Coded character sets
   ics:
   - code: 35.040.10
     text: Coding of character sets
   structuredidentifier:
-    project_number: '73772'
     type: ISO
+    project_number:
+      content: '73772'

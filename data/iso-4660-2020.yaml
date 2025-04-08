@@ -1,144 +1,126 @@
 ---
-schema-version: v1.2.9
 id: ISO4660-2020
-title:
-- content: Rubber, raw natural
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Colour index test
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Rubber, raw natural - Colour index test
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Caoutchouc naturel brut
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Essai d'indice de couleur
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Caoutchouc naturel brut - Essai d'indice de couleur
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/72853.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:72853:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/28/72853.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 4660:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Rubber, raw natural
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Colour index test
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Rubber, raw natural - Colour index test
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Caoutchouc naturel brut
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essai d'indice de couleur
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Caoutchouc naturel brut - Essai d'indice de couleur
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/72853.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:72853:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/28/72853.detail.rss
+docidentifier:
+- content: ISO 4660:2020
   type: ISO
   primary: true
-- id: ISO 4660:2020(E)
+- content: ISO 4660:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:4660:stage-90.20
+- content: urn:iso:std:iso:4660:stage-90.20
   type: URN
 docnumber: '4660'
 date:
 - type: published
-  value: 2020-05
+  at: 2020-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '5'
-revdate: 2020-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This document specifies two methods to determine the colour of raw natural
+- language: en
+  script: Latn
+  content: "This document specifies two methods to determine the colour of raw natural
     rubber according to a standard colour scale:\n—     Method A: colour matching
     against standard coloured glasses; \n—     Method B: colour determination using
     colour spectrophotometer.\nIn case of dispute, the preferred method is Method
     B."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie deux méthodes pour la détermination de la couleur du caoutchouc naturel brut selon une échelle de couleur normalisée:
     —          Méthode A: comparaison de couleur par rapport à celle de verres teintés de référence;
     —          Méthode B: détermination de la couleur à l'aide d'un spectrophotomètre couleur.
     En cas de litige, la méthode préférentielle est la Méthode B.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO4660-2011
     type: standard
-    docid:
-    - id: ISO 4660:2011
+    formattedref: ISO 4660:2011
+    docidentifier:
+    - content: ISO 4660:2011
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 4660:2011
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Raw materials (including latex) for use in the rubber industry
-      number: 45
+    - number: 45
       type: TC
       identifier: ISO/TC 45/SC 3
+      content: Raw materials (including latex) for use in the rubber industry
   ics:
   - code: 83.040.10
     text: Latex and raw rubber
   structuredidentifier:
-    project_number: '72853'
     type: ISO
+    project_number:
+      content: '72853'

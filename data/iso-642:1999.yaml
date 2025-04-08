@@ -1,144 +1,126 @@
 ---
-schema-version: v1.2.7
 id: ISO642-1999
-title:
-- content: Steel
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Hardenability test by end quenching (Jominy test)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Steel - Hardenability test by end quenching (Jominy test)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Acier
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Essai de trempabilité par trempe en bout (essai Jominy)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Acier - Essai de trempabilité par trempe en bout (essai Jominy)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/1228.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:1228:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/00/12/1228.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 642:1999
+schema_version: v1.4.1
+fetched: '2024-01-16'
+title:
+- language: en
+  script: Latn
+  content: Steel
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Hardenability test by end quenching (Jominy test)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Steel - Hardenability test by end quenching (Jominy test)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Acier
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essai de trempabilité par trempe en bout (essai Jominy)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Acier - Essai de trempabilité par trempe en bout (essai Jominy)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/1228.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:1228:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/12/1228.detail.rss
+docidentifier:
+- content: ISO 642:1999
   type: ISO
   primary: true
-- id: ISO 642:1999(E)
+- content: ISO 642:1999(E)
   type: iso-reference
-- id: urn:iso:std:iso:642:stage-90.92
+- content: urn:iso:std:iso:642:stage-90.92
   type: URN
 docnumber: '642'
 date:
 - type: published
-  value: 1999-09
+  at: 1999-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1999-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale spécifie la méthode de détermination de la trempabilité de l'acier par trempe en bout (essai Jominy), à l'aide d'une éprouvette de 25 mm de diamètre et 100 mm de longueur.NOTE Par accord et pour un domaine donné d'application, l'essai décrit dans la présente Norme internationale peut être remplacé par le calcul de la courbe Jominy conformément à un modèle mathématique accepté (voir annexe C). En cas de litige, l'essai doit être effectué.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO642-1979
     type: standard
-    docid:
-    - id: ISO 642:1979
+    formattedref: ISO 642:1979
+    docidentifier:
+    - content: ISO 642:1979
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 642:1979
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/DIS642
     type: standard
-    docid:
-    - id: ISO/DIS 642
+    formattedref: ISO/DIS 642
+    docidentifier:
+    - content: ISO/DIS 642
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/DIS 642
-      format: text/plain
 place:
-- Geneva
-fetched: '2024-01-16'
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Methods of testing (other than mechanical tests and chemical analysis)
-    number: 17
-    type: TC
-    identifier: ISO/TC 17/SC 7
-ics:
-- code: 77.040.99
-  text: Other methods of testing of metals
-structuredidentifier:
-  project_number: ISO 642
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 17
+      type: TC
+      identifier: ISO/TC 17/SC 7
+      content: Methods of testing (other than mechanical tests and chemical analysis)
+  ics:
+  - code: 77.040.99
+    text: Other methods of testing of metals
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 642

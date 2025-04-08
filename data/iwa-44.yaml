@@ -1,48 +1,40 @@
 ---
-schema-version: v1.2.9
 id: IWA44
-title:
-- content: Global Media Identifier (GMI) for distribution channels and brands
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Global Media Identifier (GMI) for distribution channels and brands
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Global Media Identifier (GMI) for distribution channels and brands
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Global Media Identifier (GMI) for distribution channels and brands
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/88469.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/84/88469.detail.rss
-  type: rss
 type: standard
-docid:
-- id: IWA 44
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Global Media Identifier (GMI) for distribution channels and brands
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Global Media Identifier (GMI) for distribution channels and brands
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Global Media Identifier (GMI) for distribution channels and brands
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Global Media Identifier (GMI) for distribution channels and brands
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88469.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/84/88469.detail.rss
+docidentifier:
+- content: IWA 44
   type: ISO
   primary: true
-- id: IWA 44(E)
+- content: IWA 44(E)
   type: iso-reference
-- id: urn:iso:std:iso:iwa:44:stage-draft
+- content: urn:iso:std:iso:iwa:44:stage-draft
   type: URN
 docnumber: '44'
 edition:
@@ -52,32 +44,35 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: PRF
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: PRF
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical Management Board - groups
-      type: TMBG
+    - type: TMBG
       identifier: ISO/TMBG
+      content: Technical Management Board - groups
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   - code: 35.240.95
     text: Internet applications
   structuredidentifier:
-    project_number: '88469'
     type: ISO
+    project_number:
+      content: '88469'

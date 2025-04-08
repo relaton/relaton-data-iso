@@ -1,110 +1,96 @@
 ---
-schema-version: v1.2.9
 id: ISO15784-2-2024
+type: standard
+schema_version: v1.4.1
 title:
-- content: Intelligent transport systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Intelligent transport systems
   type: title-intro
-- content: Data exchange involving roadside modules communication
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Data exchange involving roadside modules communication
   type: title-main
-- content: 'Part 2: Centre to field device communications using Simple Network Management
-    Protocol (SNMP)'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 2: Centre to field device communications using Simple Network Management
+    Protocol (SNMP)'
   type: title-part
-- content: 'Intelligent transport systems - Data exchange involving roadside modules
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Intelligent transport systems - Data exchange involving roadside modules
     communication - Part 2: Centre to field device communications using Simple Network
     Management Protocol (SNMP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Systèmes intelligents de transport (SIT)
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes intelligents de transport (SIT)
   type: title-intro
-- content: Échange de données impliquant la communication de modules en bordure de
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Échange de données impliquant la communication de modules en bordure de
     route
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: 'Partie 2: Communications par dispositif du centre au terrain en utilisant
-    le protocole simple de gestion de réseau (SNMP)'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 2: Communications par dispositif du centre au terrain en utilisant
+    le protocole simple de gestion de réseau (SNMP)'
   type: title-part
-- content: 'Systèmes intelligents de transport (SIT) - Échange de données impliquant
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes intelligents de transport (SIT) - Échange de données impliquant
     la communication de modules en bordure de route - Partie 2: Communications par
     dispositif du centre au terrain en utilisant le protocole simple de gestion de
     réseau (SNMP)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/85044.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:85044:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/50/85044.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 15784-2:2024
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85044.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:85044:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/50/85044.detail.rss
+docidentifier:
+- content: ISO 15784-2:2024
   type: ISO
   primary: true
-- id: ISO 15784-2:2024(E)
+- content: ISO 15784-2:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso:15784:-2:stage-60.60
+- content: urn:iso:std:iso:15784:-2:stage-published
   type: URN
 docnumber: '15784'
 date:
 - type: published
-  value: 2024-06
+  at: 2024-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2024-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a mechanism for exchanging data and messages in the following cases:
     a)       exchange between a traffic management centre and ITS roadside equipment for traffic management;
     b)       exchange between ITS roadside equipment used for traffic management.
@@ -123,12 +109,9 @@ abstract:
     NOTE 1        The dynamic object feature, defined in ISO/TS 26048-1, can be used to eliminate a considerable amount of overhead that is normally associated with SNMP communications to make it more suitable for low-bandwidth links.
     —     allowing ITS roadside equipment to issue exception reports when special conditions arise.
     NOTE 2        Exception reporting uses SNMP notifications in combination with the notification management features defined in ISO/TS 26048-1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies a mechanism for exchanging data and messages in the following cases:
     a)       exchange between a traffic management centre and ITS roadside equipment for traffic management;
     b)       exchange between ITS roadside equipment used for traffic management.
@@ -147,61 +130,53 @@ abstract:
     NOTE 1        The dynamic object feature, defined in ISO/TS 26048-1, can be used to eliminate a considerable amount of overhead that is normally associated with SNMP communications to make it more suitable for low-bandwidth links.
     —     allowing ITS roadside equipment to issue exception reports when special conditions arise.
     NOTE 2        Exception reporting uses SNMP notifications in combination with the notification management features defined in ISO/TS 26048-1.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO15784-2-2015
     type: standard
-    docid:
-    - id: ISO 15784-2:2015
+    formattedref: ISO 15784-2:2015
+    docidentifier:
+    - content: ISO 15784-2:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 15784-2:2015
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO15784-2-2015/Amd1-2020
     type: standard
-    docid:
-    - id: ISO 15784-2:2015/Amd 1:2020
+    formattedref: ISO 15784-2:2015/Amd 1:2020
+    docidentifier:
+    - content: ISO 15784-2:2015/Amd 1:2020
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 15784-2:2015/Amd 1:2020
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '85044'
     type: ISO
+    project_number:
+      content: '85044'

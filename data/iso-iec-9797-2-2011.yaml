@@ -1,114 +1,101 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC9797-2-2011
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Security techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Message Authentication Codes (MACs) -- Part 2: Mechanisms using a dedicated
-    hash-function'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Security techniques - Message Authentication
-    Codes (MACs) -- Part 2: Mechanisms using a dedicated hash-function'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Techniques de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Codes d''authentification de message (MAC) -- Partie 2: Mécanismes utilisant
-    une fonction de hachage dédiée'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Techniques de sécurité - Codes d''authentification
-    de message (MAC) -- Partie 2: Mécanismes utilisant une fonction de hachage dédiée'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/51618.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/05/16/51618.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 9797-2:2011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Message Authentication Codes (MACs) -- Part 2: Mechanisms using a dedicated
+    hash-function'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Security techniques - Message Authentication
+    Codes (MACs) -- Part 2: Mechanisms using a dedicated hash-function'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques de sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Codes d''authentification de message (MAC) -- Partie 2: Mécanismes utilisant
+    une fonction de hachage dédiée'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Techniques de sécurité - Codes d''authentification
+    de message (MAC) -- Partie 2: Mécanismes utilisant une fonction de hachage dédiée'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/51618.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/16/51618.detail.rss
+docidentifier:
+- content: ISO/IEC 9797-2:2011
   type: ISO
   primary: true
-- id: ISO/IEC 9797-2:2011(E)
+- content: ISO/IEC 9797-2:2011(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:9797:-2:stage-95.99
+- content: urn:iso:std:iso-iec:9797:-2:stage-95.99
   type: URN
 docnumber: '9797'
 date:
 - type: published
-  value: 2011-05
+  at: 2011-05
 - type: corrected
-  value: 2011-06
+  at: 2011-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2011-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "Message Authentication Code (MAC) algorithms are data integrity mechanisms
+- language: en
+  script: Latn
+  content: "Message Authentication Code (MAC) algorithms are data integrity mechanisms
     that compute a short string (the Message Authentication Code or MAC) as a complex
     function of every bit of the data and of a secret key. Their main security property
     is unforgeability: someone who does not know the secret key should not be able
@@ -133,12 +120,9 @@ abstract:
     mechanism specified in ISO/IEC 9797-2:2011 is a variant of MDx-MAC that takes
     as input only short strings (at most 256 bits). It offers a higher performance
     for applications that work with short input strings only. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "Message Authentication Code (MAC) algorithms are data integrity mechanisms
+- language: fr
+  script: Latn
+  content: "Message Authentication Code (MAC) algorithms are data integrity mechanisms
     that compute a short string (the Message Authentication Code or MAC) as a complex
     function of every bit of the data and of a secret key. Their main security property
     is unforgeability: someone who does not know the secret key should not be able
@@ -163,62 +147,54 @@ abstract:
     mechanism specified in ISO/IEC 9797-2:2011 is a variant of MDx-MAC that takes
     as input only short strings (at most 256 bits). It offers a higher performance
     for applications that work with short input strings only. "
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC9797-2-2002
     type: standard
-    docid:
-    - id: ISO/IEC 9797-2:2002
+    formattedref: ISO/IEC 9797-2:2002
+    docidentifier:
+    - content: ISO/IEC 9797-2:2002
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 9797-2:2002
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC9797-2-2021
     type: standard
-    docid:
-    - id: ISO/IEC 9797-2:2021
+    formattedref: ISO/IEC 9797-2:2021
+    docidentifier:
+    - content: ISO/IEC 9797-2:2021
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2021-06-23'
-    formattedref:
-      content: ISO/IEC 9797-2:2021
-      format: text/plain
+      at: '2021-06-23'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '51618'
     type: ISO
+    project_number:
+      content: '51618'

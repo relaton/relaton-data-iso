@@ -1,104 +1,90 @@
 ---
-schema-version: v1.2.9
 id: ISO21597-1-2020
-title:
-- content: Information container for linked document delivery
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Exchange specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Container'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information container for linked document delivery - Exchange specification
-    - Part 1: Container'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Conteneur d'informations pour la livraison de documents liés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Spécification d'échange
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Conteneur'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Conteneur d''informations pour la livraison de documents liés - Spécification
-    d''échange - Partie 1: Conteneur'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/74389.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:74389:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/43/74389.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 21597-1:2020
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information container for linked document delivery
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Exchange specification
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Container'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information container for linked document delivery - Exchange specification
+    - Part 1: Container'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Conteneur d'informations pour la livraison de documents liés
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Spécification d'échange
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Conteneur'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Conteneur d''informations pour la livraison de documents liés - Spécification
+    d''échange - Partie 1: Conteneur'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/74389.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74389:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/43/74389.detail.rss
+docidentifier:
+- content: ISO 21597-1:2020
   type: ISO
   primary: true
-- id: ISO 21597-1:2020(E)
+- content: ISO 21597-1:2020(E)
   type: iso-reference
-- id: urn:iso:std:iso:21597:-1:stage-60.60
+- content: urn:iso:std:iso:21597:-1:stage-published
   type: URN
 docnumber: '21597'
 date:
 - type: published
-  value: 2020-04
+  at: 2020-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2020-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines an open and stable container format to exchange files of a heterogeneous nature to deliver, store and archive documents that describe an asset throughout its entire lifecycle.
     It is suitable for all parties dealing with information concerning the built environment, where there is a need to exchange multiple documents and their interrelationships, either as part of the process or as contracted deliverables. The format is intended to use resources either included in the container (such as documents) or referenced remotely (such as web resources). A key feature is that the container can include information about the relationships between the documents. Relevant use-cases reflect the need for information exchange during the entire life cycle of any built asset and can include, but are not limited to, the handover of
     - a published bidding package,
@@ -106,12 +92,9 @@ abstract:
     - shared information as background or for further development,
     - published approval packages, or
     - information about versions between partners to provide a means to reference particular states of the information and track changes.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document définit un format de conteneur ouvert et fiable permettant d'échanger des fichiers de nature hétérogène afin de livrer, de stocker et d'archiver des documents qui décrivent un bien tout au long de son cycle de vie.
     Il est adapté à toutes les parties traitant d'informations relatives à l'environnement bâti, lorsqu'il est nécessaire d'échanger plusieurs documents et leurs relations mutuelles, soit dans le cadre d'un processus, soit en tant que livrables sous contrat. Le format est destiné à utiliser des ressources soit intégrées dans le conteneur (telles que des documents), soit référencées à distance (telles que des ressources Web). La possibilité d'inclure dans le conteneur des informations sur les relations entre les documents le composant, constitue une caractéristique majeure. Les cas d'utilisations pertinents témoignent de la nécessité d'échanger des informations tout au long du cycle de vie des biens bâtis et peuvent inclure, de manière non exhaustive, le transfert:
     - d'un dossier d'appel d'offres publié;
@@ -119,39 +102,37 @@ abstract:
     - d'informations à caractère général partagées ou destinées à un développement futur;
     - de dossiers d'approbation publiés; ou
     - d'informations sur les versions entre les partenaires pour fournir un moyen de référencer des états particuliers de l'information et le suivi des modifications.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Organization and digitization of information about buildings and civil
-        engineering works, including building information modelling (BIM)
-      number: 59
+    - number: 59
       type: TC
       identifier: ISO/TC 59/SC 13
+      content: Organization and digitization of information about buildings and civil
+        engineering works, including building information modelling (BIM)
   ics:
   - code: 35.240.67
     text: IT applications in building and construction industry
   - code: 91.010.01
     text: Construction industry in general
   structuredidentifier:
-    project_number: '74389'
     type: ISO
+    project_number:
+      content: '74389'

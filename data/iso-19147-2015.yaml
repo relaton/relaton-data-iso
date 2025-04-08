@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO19147-2015
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Transfer Nodes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Transfer Nodes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Noeuds de transfert
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Noeuds de transfert
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/44874.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:44874:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/48/44874.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19147:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Transfer Nodes
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Transfer Nodes
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Noeuds de transfert
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Noeuds de transfert
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/44874.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:44874:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/48/44874.detail.rss
+docidentifier:
+- content: ISO 19147:2015
   type: ISO
   primary: true
-- id: ISO 19147:2015(E)
+- content: ISO 19147:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso:19147:stage-90.93
+- content: urn:iso:std:iso:19147:stage-90.93
   type: URN
 docnumber: '19147'
 date:
 - type: published
-  value: 2015-06
+  at: 2015-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2015-06
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 19147:2015 specifies the data types and code lists associated with those types for the implementation of transfer nodes and their services in transport modelling and location based services.
     It includes the following:
     ?   defines transfer nodes in a multimodal way so that the definition is general and valid for all types of transport means and modes;
@@ -92,12 +82,9 @@ abstract:
     ?   defines a set of services and facilities that may be related to transfer nodes and a way to provide information on accessibility, deviations and restrictions related to these services and facilities.
     ISO 19147:2015 is applicable for transport infrastructure owners and operators when defining and/or describing their transport infrastructure and for transport-related Service Providers when providing information to travellers and others.
     It is limited to the transport of persons and is also limited to the static getting-on and getting-off points. The main focus is on transfer nodes being part of public transport networks, that are located in road networks, but this International Standard is also applicable for transfer nodes in rail networks and in air and sea transport networks.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 19147:2015 specifies the data types and code lists associated with those types for the implementation of transfer nodes and their services in transport modelling and location based services.
     It includes the following:
     ?   defines transfer nodes in a multimodal way so that the definition is general and valid for all types of transport means and modes;
@@ -107,36 +94,34 @@ abstract:
     ?   defines a set of services and facilities that may be related to transfer nodes and a way to provide information on accessibility, deviations and restrictions related to these services and facilities.
     ISO 19147:2015 is applicable for transport infrastructure owners and operators when defining and/or describing their transport infrastructure and for transport-related Service Providers when providing information to travellers and others.
     It is limited to the transport of persons and is also limited to the static getting-on and getting-off points. The main focus is on transfer nodes being part of public transport networks, that are located in road networks, but this International Standard is also applicable for transfer nodes in rail networks and in air and sea transport networks.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '44874'
     type: ISO
+    project_number:
+      content: '44874'

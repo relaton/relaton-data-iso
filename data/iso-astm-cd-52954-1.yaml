@@ -1,90 +1,75 @@
 ---
-schema-version: v1.2.9
 id: ISO/ASTMCD52954-1
-title:
-- content: Additive manufacturing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Qualification principles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: Common failure modes used for risk mapping'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Additive manufacturing - Qualification principles - Part 1: Common failure
-    modes used for risk mapping'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Fabrication additive
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Principes de qualification
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 1: Modes de défaillance courants utilisés pour la cartographie
-    des risques'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Fabrication additive - Principes de qualification - Partie 1: Modes de
-    défaillance courants utilisés pour la cartographie des risques'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86764.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/67/86764.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/ASTM CD 52954-1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Additive manufacturing
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Qualification principles
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: Common failure modes used for risk mapping'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Additive manufacturing - Qualification principles - Part 1: Common failure
+    modes used for risk mapping'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Fabrication additive
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Principes de qualification
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 1: Modes de défaillance courants utilisés pour la cartographie
+    des risques'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Fabrication additive - Principes de qualification - Partie 1: Modes de
+    défaillance courants utilisés pour la cartographie des risques'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86764.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/67/86764.detail.rss
+docidentifier:
+- content: ISO/ASTM CD 52954-1
   type: ISO
   primary: true
-- id: ISO/ASTM CD 52954-1(E)
+- content: ISO/ASTM CD 52954-1(E)
   type: iso-reference
-- id: urn:iso:std:iso-astm:52954:-1:stage-draft
+- content: urn:iso:std:iso-astm:52954:-1:stage-draft
   type: URN
 docnumber: '52954'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -93,7 +78,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document identifies common failure modes, which can occur within
+- language: en
+  script: Latn
+  content: "This document identifies common failure modes, which can occur within
     operations across additive manufacturing (AM) process categories defined in ISO/ASTM
     52900. It lists state-of-the-art failure modes, which can lead to risks within
     AM parts and equipment, as well as providing informative examples of corresponding
@@ -117,12 +104,9 @@ abstract:
     continuous improvement, validation planning, estimation of manufacturing efforts,
     and conformity audits. \nFor risk examples that are relevant only to specific
     AM machinery brands, manufacturers might consider use of the informative annex."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document identifies common failure modes, which can occur within
+- language: fr
+  script: Latn
+  content: "This document identifies common failure modes, which can occur within
     operations across additive manufacturing (AM) process categories defined in ISO/ASTM
     52900. It lists state-of-the-art failure modes, which can lead to risks within
     AM parts and equipment, as well as providing informative examples of corresponding
@@ -146,36 +130,34 @@ abstract:
     continuous improvement, validation planning, estimation of manufacturing efforts,
     and conformity audits. \nFor risk examples that are relevant only to specific
     AM machinery brands, manufacturers might consider use of the informative annex."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/ASTM
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/ASTM
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Additive manufacturing
-      number: 261
+    - number: 261
       type: TC
       identifier: ISO/TC 261
+      content: Additive manufacturing
   ics:
   - code: '25.030'
     text: Additive manufacturing
   structuredidentifier:
-    project_number: '86764'
     type: ISO
+    project_number:
+      content: '86764'

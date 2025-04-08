@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
 id: ISO29201-2012
-title:
-- content: Water quality
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: The variability of test results and the uncertainty of measurement of microbiological
-    enumeration methods
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Water quality - The variability of test results and the uncertainty of
-    measurement of microbiological enumeration methods
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Qualité de l'eau
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Variabilité des résultats d'essais et incertitude de mesure des méthodes
-    d'énumération microbienne
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Qualité de l'eau - Variabilité des résultats d'essais et incertitude de
-    mesure des méthodes d'énumération microbienne
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/45348.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:45348:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/53/45348.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 29201:2012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Water quality
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: The variability of test results and the uncertainty of measurement of microbiological
+    enumeration methods
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Water quality - The variability of test results and the uncertainty of
+    measurement of microbiological enumeration methods
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité de l'eau
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Variabilité des résultats d'essais et incertitude de mesure des méthodes
+    d'énumération microbienne
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité de l'eau - Variabilité des résultats d'essais et incertitude de
+    mesure des méthodes d'énumération microbienne
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/45348.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45348:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/53/45348.detail.rss
+docidentifier:
+- content: ISO 29201:2012
   type: ISO
   primary: true
-- id: ISO 29201:2012(E)
+- content: ISO 29201:2012(E)
   type: iso-reference
-- id: urn:iso:std:iso:29201:stage-90.93
+- content: urn:iso:std:iso:29201:stage-90.93
   type: URN
 docnumber: '29201'
 date:
 - type: published
-  value: 2012-01
+  at: 2012-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2012-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This International Standard gives guidelines for the evaluation of uncertainty in quantitative microbiological
     analyses based on enumeration of microbial particles by culture. It covers all variants of colony count methods
     and most probable number estimates.
@@ -105,12 +95,9 @@ abstract:
     detailed in this International Standard, but it is necessary to take them into consideration in analytical control. The use
     of intercalibration data in uncertainty estimation offers the possibility for the bias between laboratories to be included
     (Nordtest Report TR 537[12]).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This International Standard gives guidelines for the evaluation of uncertainty in quantitative microbiological
     analyses based on enumeration of microbial particles by culture. It covers all variants of colony count methods
     and most probable number estimates.
@@ -129,36 +116,34 @@ abstract:
     detailed in this International Standard, but it is necessary to take them into consideration in analytical control. The use
     of intercalibration data in uncertainty estimation offers the possibility for the bias between laboratories to be included
     (Nordtest Report TR 537[12]).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Microbiological methods
-      number: 147
+    - number: 147
       type: TC
       identifier: ISO/TC 147/SC 4
+      content: Microbiological methods
   ics:
   - code: 13.060.70
     text: Examination of biological properties of water
   structuredidentifier:
-    project_number: '45348'
     type: ISO
+    project_number:
+      content: '45348'

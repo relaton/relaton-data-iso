@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
 id: ISO17506-2022
+type: standard
+schema_version: v1.4.1
 title:
-- content: Industrial automation systems and integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Industrial automation systems and integration
   type: title-intro
-- content: COLLADATM digital asset schema specification for 3D visualization of industrial
+  format: text/plain
+- language: en
+  script: Latn
+  content: COLLADATM digital asset schema specification for 3D visualization of industrial
     data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: Industrial automation systems and integration - COLLADATM digital asset
+  format: text/plain
+- language: en
+  script: Latn
+  content: Industrial automation systems and integration - COLLADATM digital asset
     schema specification for 3D visualization of industrial data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Systèmes d'automatisation industrielle et intégration
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-- content: Spécifications du schéma des actifs numériques COLLADATM pour la visualisation
-    3D des données industrielles
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Spécifications du schéma des actifs numériques COLLADATM pour la visualisation
+    3D des données industrielles
   type: title-main
-- content: Systèmes d'automatisation industrielle et intégration - Spécifications
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes d'automatisation industrielle et intégration - Spécifications
     du schéma des actifs numériques COLLADATM pour la visualisation 3D des données
     industrielles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/78834.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78834:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/88/78834.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 17506:2022
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78834.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78834:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/88/78834.detail.rss
+docidentifier:
+- content: ISO 17506:2022
   type: ISO
   primary: true
-- id: ISO 17506:2022(E)
+- content: ISO 17506:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:17506:stage-60.60
+- content: urn:iso:std:iso:17506:stage-published
   type: URN
 docnumber: '17506'
 date:
 - type: published
-  value: 2022-03
+  at: 2022-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2022-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document describes the COLLADA™ schema. COLLADA is a Collaborative Design Activity that defines an XML-based schema to enable 3D authoring applications to freely exchange digital assets without loss of information, enabling multiple software packages to be combined into extremely powerful tool chains.
     The purpose of this document is to provide a specification for the COLLADA schema in sufficient detail to enable software developers to create tools to process COLLADA resources. In particular, it is relevant to those who import to or export from digital content creation (DCC) applications, 3D interactive applications and tool chains, prototyping tools, real-time visualization applications such as those used in the video game and movie industries, and CAD tools.
     This document covers the initial design and specifications of the COLLADA schema, as well as a minimal set of requirements for COLLADA exporters.
@@ -98,12 +88,9 @@ abstract:
     - core elements that describe geometry, animation, skinning, assets, and scenes;
     - physics model, visual effects (FX), boundary representation (B-rep) of animation, kinematics.
     The document does not specify the implementation of, or definition of a run-time architecture for viewing or processing of COLLADA data.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document describes the COLLADA™ schema. COLLADA is a Collaborative Design Activity that defines an XML-based schema to enable 3D authoring applications to freely exchange digital assets without loss of information, enabling multiple software packages to be combined into extremely powerful tool chains.
     The purpose of this document is to provide a specification for the COLLADA schema in sufficient detail to enable software developers to create tools to process COLLADA resources. In particular, it is relevant to those who import to or export from digital content creation (DCC) applications, 3D interactive applications and tool chains, prototyping tools, real-time visualization applications such as those used in the video game and movie industries, and CAD tools.
     This document covers the initial design and specifications of the COLLADA schema, as well as a minimal set of requirements for COLLADA exporters.
@@ -114,62 +101,54 @@ abstract:
     - core elements that describe geometry, animation, skinning, assets, and scenes;
     - physics model, visual effects (FX), boundary representation (B-rep) of animation, kinematics.
     The document does not specify the implementation of, or definition of a run-time architecture for viewing or processing of COLLADA data.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/PAS17506-2012
     type: standard
-    docid:
-    - id: ISO/PAS 17506:2012
+    formattedref: ISO/PAS 17506:2012
+    docidentifier:
+    - content: ISO/PAS 17506:2012
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/PAS 17506:2012
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO17506-2022/Amd1-2025
     type: standard
-    docid:
-    - id: ISO 17506:2022/Amd 1:2025
+    formattedref: ISO 17506:2022/Amd 1:2025
+    docidentifier:
+    - content: ISO 17506:2022/Amd 1:2025
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2022-03-22'
-    formattedref:
-      content: ISO 17506:2022/Amd 1:2025
-      format: text/plain
+      at: '2022-03-22'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Industrial data
-      number: 184
+    - number: 184
       type: TC
       identifier: ISO/TC 184/SC 4
+      content: Industrial data
   ics:
   - code: 25.040.40
     text: Industrial process measurement and control
   structuredidentifier:
-    project_number: '78834'
     type: ISO
+    project_number:
+      content: '78834'

@@ -1,154 +1,136 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC22534-2005
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Telecommunications and information exchange between systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Application session services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Telecommunications and information exchange between
-    systems - Application session services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Télécommunications et échange d'information entre systèmes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Services de session d'application
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Télécommunications et échange d'information
-    entre systèmes - Services de session d'application
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/40999.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:40999:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/09/40999.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 22534:2005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Telecommunications and information exchange between systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Application session services
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Telecommunications and information exchange between
+    systems - Application session services
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Télécommunications et échange d'information entre systèmes
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services de session d'application
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Télécommunications et échange d'information
+    entre systèmes - Services de session d'application
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/40999.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:40999:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/09/40999.detail.rss
+docidentifier:
+- content: ISO/IEC 22534:2005
   type: ISO
   primary: true
-- id: ISO/IEC 22534:2005(E)
+- content: ISO/IEC 22534:2005(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:22534:stage-90.93
+- content: urn:iso:std:iso-iec:22534:stage-90.93
   type: URN
 docnumber: '22534'
 date:
 - type: published
-  value: 2005-05
+  at: 2005-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2005-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     The services defined in ISO/IEC 22534:2005 are used to establish and maintain a relationship between an application and a server for the purpose of exchanging application messages. For the purpose of ISO/IEC 22534:2005, this relationship is called an application session.
     Application protocols, such as ECMA-323, require that an application session is established before application messages are exchanged. ECMA-269 specifies several mechanisms for establishing an application context. One possible mechanism is ACSE (ISO/IEC 8649) - but since ASCE uses ASN.1 encoding for its services, it is not desirable for use with XML based protocols such as ECMA-323.
     ISO/IEC 22534:2005 provides an XML-based alternative for establishing application sessions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     The services defined in ISO/IEC 22534:2005 are used to establish and maintain a relationship between an application and a server for the purpose of exchanging application messages. For the purpose of ISO/IEC 22534:2005, this relationship is called an application session.
     Application protocols, such as ECMA-323, require that an application session is established before application messages are exchanged. ECMA-269 specifies several mechanisms for establishing an application context. One possible mechanism is ACSE (ISO/IEC 8649) - but since ASCE uses ASN.1 encoding for its services, it is not desirable for use with XML based protocols such as ECMA-323.
     ISO/IEC 22534:2005 provides an XML-based alternative for establishing application sessions.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Telecommunications and information exchange between systems
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 6
+      content: Telecommunications and information exchange between systems
   ics:
   - code: 35.100.70
     text: Application layer
   structuredidentifier:
-    project_number: '40999'
     type: ISO
+    project_number:
+      content: '40999'

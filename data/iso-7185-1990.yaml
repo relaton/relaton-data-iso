@@ -1,137 +1,121 @@
 ---
-schema-version: v1.2.9
 id: ISO7185-1990
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Programming languages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Pascal
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Programming languages - Pascal
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Langages de programmation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Pascal
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Langages de programmation - Pascal
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/13802.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:13802:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/38/13802.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 7185:1990
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Programming languages
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Pascal
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Programming languages - Pascal
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langages de programmation
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Pascal
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Langages de programmation - Pascal
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/13802.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:13802:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/38/13802.detail.rss
+docidentifier:
+- content: ISO 7185:1990
   type: ISO
   primary: true
-- id: ISO 7185:1990(E)
+- content: ISO 7185:1990(E)
   type: iso-reference
-- id: urn:iso:std:iso:7185:stage-90.93
+- content: urn:iso:std:iso:7185:stage-90.93
   type: URN
 docnumber: '7185'
 date:
 - type: published
-  value: 1990-10
+  at: 1990-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1990-10
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO7185-1983
     type: standard
-    docid:
-    - id: ISO 7185:1983
+    formattedref: ISO 7185:1983
+    docidentifier:
+    - content: ISO 7185:1983
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 7185:1983
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '13802'
     type: ISO
+    project_number:
+      content: '13802'

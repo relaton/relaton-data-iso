@@ -1,149 +1,130 @@
 ---
-schema-version: v1.2.9
 id: ISO2078-1985
-title:
-- content: Textile glass
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Yarns
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Designation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Textile glass - Yarns - Designation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Verre textile
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Fils
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Désignation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Verre textile - Fils - Désignation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/6864.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/68/6864.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2078:1985
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Textile glass
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Yarns
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Designation
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Textile glass - Yarns - Designation
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Verre textile
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Fils
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Désignation
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Verre textile - Fils - Désignation
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/6864.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/68/6864.detail.rss
+docidentifier:
+- content: ISO 2078:1985
   type: ISO
   primary: true
-- id: ISO 2078:1985(E)
+- content: ISO 2078:1985(E)
   type: iso-reference
-- id: urn:iso:std:iso:2078:stage-95.99
+- content: urn:iso:std:iso:2078:stage-95.99
   type: URN
 docnumber: '2078'
 date:
 - type: published
-  value: 1985-09
+  at: 1985-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '4'
-revdate: 1985-09
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO2078-1978
     type: standard
-    docid:
-    - id: ISO 2078:1978
+    formattedref: ISO 2078:1978
+    docidentifier:
+    - content: ISO 2078:1978
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 2078:1978
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO2078-1993
     type: standard
-    docid:
-    - id: ISO 2078:1993
+    formattedref: ISO 2078:1993
+    docidentifier:
+    - content: ISO 2078:1993
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1993-01-27'
-    formattedref:
-      content: ISO 2078:1993
-      format: text/plain
+      at: '1993-01-27'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Composites and reinforcement fibres
-      number: 61
+    - number: 61
       type: TC
       identifier: ISO/TC 61/SC 13
+      content: Composites and reinforcement fibres
   ics:
   - code: 59.100.10
     text: Textile glass materials
   structuredidentifier:
-    project_number: '6864'
     type: ISO
+    project_number:
+      content: '6864'

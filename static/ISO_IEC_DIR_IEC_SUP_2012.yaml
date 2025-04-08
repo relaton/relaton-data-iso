@@ -1,65 +1,68 @@
+---
+type: standard
+schema_version: v1.4.1
 title:
-- type: title-intro
+- language: en
+  script: Latn
   content: ISO/IEC Directives
-  language: en
+  type: title-intro
+- language: en
   script: Latn
-- type: title-main
   content: Supplement
-  language: en
+  type: title-main
+- language: en
   script: Latn
-- type: title-part
   content: Procedures specific to IEC
-  language: en
+  type: title-part
+- language: fr
   script: Latn
-- type: title-intro
   content: Directives ISO/CEI
-  language: fr
-  script: Latn
+  type: title-intro
   format: text/plain
-- type: title-main
+- language: fr
+  script: Latn
   content: Supplément
-  language: fr
+  type: title-main
+- language: fr
   script: Latn
-- type: title-part
   content: Procédures spécifiques à l'CEI
-  language: fr
-  script: Latn
-
-link:
+  type: title-part
+source:
 - type: src
   content: https://web.archive.org/web/20120613065035/http://www.iec.ch/members_experts/refdocs/iec/isoiecdir-iecsup%7Bed7.0%7Den.pdf
-
-type: standard
-doctype: directive
-
-docid:
-  id: ISO/IEC DIR IEC SUP:2012
+docidentifier:
+- content: ISO/IEC DIR IEC SUP:2012
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2012-05-03'
-
-edition: "7"
-
+- type: published
+  at: '2012-05-03'
+edition:
+  content: '7'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
+- from: '2003'
   owner:
-    name: International Electrotechnical Commission
-    abbreviation: IEC
-    url: iec.ch
-  from: '2003'
-
+  - organization:
+      uri:
+      - content: iec.ch
+      name:
+      - content: International Electrotechnical Commission
+      abbreviation:
+        content: IEC
 relation:
-  - type: partOf
-    bibitem:
-      formattedref: ISO/IEC DIR IEC SUP
-      docid:
-        - id: ISO/IEC DIR IEC SUP
-          type: IEC
-          primary: true
+- type: partOf
+  bibitem:
+    formattedref: ISO/IEC DIR IEC SUP
+    docidentifier:
+    - content: ISO/IEC DIR IEC SUP
+      type: IEC
+      primary: true
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

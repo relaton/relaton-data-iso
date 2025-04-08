@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC14519-2001
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: POSIX Ada Language Interfaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Binding for System Application Program Interface (API)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - POSIX Ada Language Interfaces - Binding for System
-    Application Program Interface (API)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Interfaces de langage POSIX Ada
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Boucle pour interface de programme d'application système (API)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Interfaces de langage POSIX Ada - Boucle
-    pour interface de programme d'application système (API)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/34354.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:34354:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/43/34354.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 14519:2001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: POSIX Ada Language Interfaces
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Binding for System Application Program Interface (API)
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - POSIX Ada Language Interfaces - Binding for System
+    Application Program Interface (API)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interfaces de langage POSIX Ada
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Boucle pour interface de programme d'application système (API)
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Interfaces de langage POSIX Ada - Boucle
+    pour interface de programme d'application système (API)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/34354.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:34354:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/43/34354.detail.rss
+docidentifier:
+- content: ISO/IEC 14519:2001
   type: ISO
   primary: true
-- id: ISO/IEC 14519:2001(E)
+- content: ISO/IEC 14519:2001(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:14519:stage-90.93
+- content: urn:iso:std:iso-iec:14519:stage-90.93
   type: URN
 docnumber: '14519'
 date:
 - type: published
-  value: 2001-12
+  at: 2001-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2001-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Abstract:
     This standard is part of the POSIX ® series of standards for applications and user inter-faces to
     open systems. It defines the Ada language bindings as package specifications and accompanying textual
@@ -118,12 +105,9 @@ abstract:
     management, execution scheduling, clocks and timers, message passing, task management, the XTI and
     socket detailed network inter-faces, event management, network support functions, and protocol-specific
     mappings are covered. It also specifies behavior to support the binding that must be provided by the Ada.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Abstract:
     This standard is part of the POSIX ® series of standards for applications and user inter-faces to
     open systems. It defines the Ada language bindings as package specifications and accompanying textual
@@ -135,48 +119,43 @@ abstract:
     management, execution scheduling, clocks and timers, message passing, task management, the XTI and
     socket detailed network inter-faces, event management, network support functions, and protocol-specific
     mappings are covered. It also specifies behavior to support the binding that must be provided by the Ada.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2001'
+- from: '2001'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC14519-1999
     type: standard
-    docid:
-    - id: ISO/IEC 14519:1999
+    formattedref: ISO/IEC 14519:1999
+    docidentifier:
+    - content: ISO/IEC 14519:1999
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 14519:1999
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '34354'
     type: ISO
+    project_number:
+      content: '34354'

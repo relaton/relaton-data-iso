@@ -1,59 +1,52 @@
 ---
-schema-version: v1.2.8
 id: ISO/CD17649
-title:
-- content: Model-Based Standards Authoring MBSA
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Model-Based Standards Authoring MBSA
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Création de Normes Basées sur des Modèles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Création de Normes Basées sur des Modèles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/85012.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/50/85012.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 17649
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Model-Based Standards Authoring MBSA
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Model-Based Standards Authoring MBSA
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Création de Normes Basées sur des Modèles
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Création de Normes Basées sur des Modèles
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/85012.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/50/85012.detail.rss
+docidentifier:
+- content: ISO/CD 17649
   type: ISO
   primary: true
-- id: ISO/CD 17649(E)
+- content: ISO/CD 17649(E)
   type: iso-reference
-- id: urn:iso:std:iso:17649:stage-draft
+- content: urn:iso:std:iso:17649:stage-draft
   type: URN
 docnumber: '17649'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -62,54 +55,51 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Develop an ISO/IEC IS or directive for Model-Based Standards (MBS) Authoring (MBSA), which
     specifies how to create a new IS or evolve an exiting IS, such that rather than being based on free text,
     it shall be based on an ISO 19450 OPM model. The new IS will itself be prepared based on the
     specification it contains, thus it will be the first MBSA IS and will serve both as a specification and an
     example of how to create the new generation of model-based ISO ISs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Develop an ISO/IEC IS or directive for Model-Based Standards (MBS) Authoring (MBSA), which
     specifies how to create a new IS or evolve an exiting IS, such that rather than being based on free text,
     it shall be based on an ISO 19450 OPM model. The new IS will itself be prepared based on the
     specification it contains, thus it will be the first MBSA IS and will serve both as a specification and an
     example of how to create the new generation of model-based ISO ISs.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Interoperability, integration, and architectures for enterprise systems
-      and automation applications
-    number: 184
-    type: TC
-    identifier: ISO/TC 184/SC 5
-ics:
-- code: '01.120'
-  text: Standardization. General rules
-structuredidentifier:
-  project_number: ISO 17649
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 184
+      type: TC
+      identifier: ISO/TC 184/SC 5
+      content: Interoperability, integration, and architectures for enterprise systems
+        and automation applications
+  ics:
+  - code: '01.120'
+    text: Standardization. General rules
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 17649

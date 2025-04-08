@@ -1,110 +1,93 @@
 ---
-schema-version: v1.2.9
 id: ISO4164-1978
-title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mopeds
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Engine test code -- Net power
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Road vehicles - Mopeds - Engine test code -- Net power
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cyclomoteurs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Code d'essai des moteurs -- Puissance nette
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Véhicules routiers - Cyclomoteurs - Code d'essai des moteurs -- Puissance
-    nette
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/9932.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/99/9932.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 4164:1978
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Mopeds
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Engine test code -- Net power
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Mopeds - Engine test code -- Net power
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cyclomoteurs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Code d'essai des moteurs -- Puissance nette
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Cyclomoteurs - Code d'essai des moteurs -- Puissance
+    nette
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/9932.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/99/9932.detail.rss
+docidentifier:
+- content: ISO 4164:1978
   type: ISO
   primary: true
-- id: ISO 4164:1978(E)
+- content: ISO 4164:1978(E)
   type: iso-reference
-- id: urn:iso:std:iso:4164:stage-95.99
+- content: urn:iso:std:iso:4164:stage-95.99
   type: URN
 docnumber: '4164'
 date:
 - type: published
-  value: 1978-12
+  at: 1978-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1978-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies a method for testing engines designed for mopeds, applicable
+- language: en
+  script: Latn
+  content: Specifies a method for testing engines designed for mopeds, applicable
     to the evaluation of their performances with a view, in particular, to presenting
     curves of power and specific fuel consumption at full load as a function of engine
     rotational frequency. Applies only to the net power study.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "La présente norme internationale spécifie une méthode d'essai des moteurs
+- language: fr
+  script: Latn
+  content: "La présente norme internationale spécifie une méthode d'essai des moteurs
     destinés aux cyclomoteurs, applicable à l'évaluation de leurs performances en
     vue de construire, en particulier, les courbes de puissance et de consommation
     spécifique à pleine charge en fonction de la fréquence de rotation. Elle ne s'applique
@@ -114,51 +97,46 @@ abstract:
     à l'une des catégories suivantes : \n- moteurs à combustion interne à pistons
     (à allumage commandé), à l'exclusion des moteurs à pistons libres; \n- moteurs
     à pistons rotatifs."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO4164-2012
     type: standard
-    docid:
-    - id: ISO 4164:2012
+    formattedref: ISO 4164:2012
+    docidentifier:
+    - content: ISO 4164:2012
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2012-10-01'
-    formattedref:
-      content: ISO 4164:2012
-      format: text/plain
+      at: '2012-10-01'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Road vehicles
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22
+      content: Road vehicles
   ics:
   - code: '43.140'
     text: Motorcycles and mopeds
   structuredidentifier:
-    project_number: '9932'
     type: ISO
+    project_number:
+      content: '9932'

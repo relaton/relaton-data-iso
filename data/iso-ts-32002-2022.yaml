@@ -1,104 +1,90 @@
 ---
-schema-version: v1.2.9
 id: ISO/TS32002-2022
-title:
-- content: Document management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Portable Document Format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Extensions to Digital Signatures in ISO 32000-2 (PDF 2.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Document management - Portable Document Format - Extensions to Digital
-    Signatures in ISO 32000-2 (PDF 2.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Gestion de documents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format de document portable
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Extensions pour les signatures numériques dans l'ISO 32000-2 (PDF 2.0)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Gestion de documents - Format de document portable - Extensions pour les
-    signatures numériques dans l'ISO 32000-2 (PDF 2.0)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/45875.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:45875:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/58/45875.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TS 32002:2022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Document management
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Portable Document Format
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Extensions to Digital Signatures in ISO 32000-2 (PDF 2.0)
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Document management - Portable Document Format - Extensions to Digital
+    Signatures in ISO 32000-2 (PDF 2.0)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de documents
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Format de document portable
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Extensions pour les signatures numériques dans l'ISO 32000-2 (PDF 2.0)
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion de documents - Format de document portable - Extensions pour les
+    signatures numériques dans l'ISO 32000-2 (PDF 2.0)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/45875.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45875:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/58/45875.detail.rss
+docidentifier:
+- content: ISO/TS 32002:2022
   type: ISO
   primary: true
-- id: ISO/TS 32002:2022(E)
+- content: ISO/TS 32002:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:32002:stage-60.60
+- content: urn:iso:std:iso:ts:32002:stage-published
   type: URN
 docnumber: '32002'
 date:
 - type: published
-  value: 2022-10
+  at: 2022-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2022-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies how to extend the ISO 32000-2 specification by adding support for the following:
     —    use of the NIST P-curve family of elliptical curves for digital signatures;
     —    use of the Brainpool family of elliptical curves for digital signatures;
@@ -109,12 +95,9 @@ abstract:
     —    specific physical methods of storing these documents such as media and storage conditions;
     —    methods for validating the conformance of PDF files or PDF processors;
     —    required computer hardware and/or operating system.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies how to extend the ISO 32000-2 specification by adding support for the following:
     —    use of the NIST P-curve family of elliptical curves for digital signatures;
     —    use of the Brainpool family of elliptical curves for digital signatures;
@@ -125,38 +108,36 @@ abstract:
     —    specific physical methods of storing these documents such as media and storage conditions;
     —    methods for validating the conformance of PDF files or PDF processors;
     —    required computer hardware and/or operating system.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TS
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TS
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Document file formats, EDMS systems and authenticity of information
-      number: 171
+    - number: 171
       type: TC
       identifier: ISO/TC 171/SC 2
+      content: Document file formats, EDMS systems and authenticity of information
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   - code: 37.100.99
     text: Other standards related to graphic technology
   structuredidentifier:
-    project_number: '45875'
     type: ISO
+    project_number:
+      content: '45875'

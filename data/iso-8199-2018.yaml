@@ -1,91 +1,81 @@
 ---
-schema-version: v1.2.9
 id: ISO8199-2018
-title:
-- content: Water quality
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: General requirements and guidance for microbiological examinations by culture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Water quality - General requirements and guidance for microbiological examinations
-    by culture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Qualité de l’eau
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Exigences et lignes directrices générales pour les examens microbiologiques
-    sur milieu de culture
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Qualité de l’eau - Exigences et lignes directrices générales pour les examens
-    microbiologiques sur milieu de culture
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/64151.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:64151:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/41/64151.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8199:2018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Water quality
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: General requirements and guidance for microbiological examinations by culture
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Water quality - General requirements and guidance for microbiological examinations
+    by culture
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité de l’eau
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences et lignes directrices générales pour les examens microbiologiques
+    sur milieu de culture
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité de l’eau - Exigences et lignes directrices générales pour les examens
+    microbiologiques sur milieu de culture
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/64151.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:64151:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/41/64151.detail.rss
+docidentifier:
+- content: ISO 8199:2018
   type: ISO
   primary: true
-- id: ISO 8199:2018(E)
+- content: ISO 8199:2018(E)
   type: iso-reference
-- id: urn:iso:std:iso:8199:stage-90.93
+- content: urn:iso:std:iso:8199:stage-90.93
   type: URN
 docnumber: '8199'
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2018-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This document specifies requirements and gives guidance for performing
+- language: en
+  script: Latn
+  content: "This document specifies requirements and gives guidance for performing
     the manipulations common to each culture technique for the microbiological examination
     of water, particularly the preparation of samples, culture media, and general
     apparatus and glassware, unless otherwise required in the specific standard. It
@@ -95,56 +85,48 @@ abstract:
     but some aspects are also applicable to bacteriophages, viruses and parasites.
     It excludes techniques not based on culturing microorganisms, such as polymerase
     chain reaction (PCR) methods."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document établit les exigences et fournit les lignes directrices sur les manipulations communes à chaque technique de culture pour l'examen microbiologique de l'eau, en particulier la préparation des échantillons, les milieux de culture ainsi que l'appareillage général et la verrerie, sauf autre exigence dans la norme spécifique. Il décrit également les diverses techniques disponibles pour la détection et le dénombrement sur milieu de culture et les critères permettant de déterminer la technique appropriée.
     Le présent document concerne principalement les examens portant sur les bactéries, les levures et les moisissures, mais certains aspects peuvent aussi s'appliquer aux bactériophages, aux virus et aux parasites. Sont exclues les techniques ne reposant pas sur la culture de micro-organismes, telles que les méthodes de réaction en chaîne par polymérase (PCR).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO8199-2005
     type: standard
-    docid:
-    - id: ISO 8199:2005
+    formattedref: ISO 8199:2005
+    docidentifier:
+    - content: ISO 8199:2005
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 8199:2005
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Microbiological methods
-      number: 147
+    - number: 147
       type: TC
       identifier: ISO/TC 147/SC 4
+      content: Microbiological methods
   ics:
   - code: 07.100.20
     text: Microbiology of water
   structuredidentifier:
-    project_number: '64151'
     type: ISO
+    project_number:
+      content: '64151'

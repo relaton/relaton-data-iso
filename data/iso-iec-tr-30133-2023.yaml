@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTR30133-2023
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Data centres
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Practices for resource-efficient data centres
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Data centres - Practices for resource-efficient
-    data centres
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Centres de données
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Pratiques pour les centres de données économes en ressources
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Centres de données - Pratiques pour les
-    centres de données économes en ressources
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/53253.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:53253:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/32/53253.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TR 30133:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Data centres
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Practices for resource-efficient data centres
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Data centres - Practices for resource-efficient
+    data centres
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Centres de données
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Pratiques pour les centres de données économes en ressources
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Centres de données - Pratiques pour les
+    centres de données économes en ressources
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/53253.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:53253:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/32/53253.detail.rss
+docidentifier:
+- content: ISO/IEC TR 30133:2023
   type: ISO
   primary: true
-- id: ISO/IEC TR 30133:2023(E)
+- content: ISO/IEC TR 30133:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:tr:30133:stage-60.60
+- content: urn:iso:std:iso-iec:tr:30133:stage-published
   type: URN
 docnumber: '30133'
 date:
 - type: published
-  value: 2023-05
+  at: 2023-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2023-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This document describes generally applicable practices for improving the
+- language: en
+  script: Latn
+  content: "This document describes generally applicable practices for improving the
     resource efficiency of data centres, independent of their application(s).\nThis
     document focuses on continuous improvement processes, designs and guidelines that
     prioritize resource efficiency. In general, the processes and practices are technology-neutral
@@ -118,12 +105,9 @@ abstract:
     \n—    development of key performance indicators (KPIs);\n—    comparability between
     data centre performance results;\n—    definition of maturity model for data centres;\n—   
     social sustainability issues."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document describes generally applicable practices for improving the
+- language: fr
+  script: Latn
+  content: "This document describes generally applicable practices for improving the
     resource efficiency of data centres, independent of their application(s).\nThis
     document focuses on continuous improvement processes, designs and guidelines that
     prioritize resource efficiency. In general, the processes and practices are technology-neutral
@@ -135,36 +119,34 @@ abstract:
     \n—    development of key performance indicators (KPIs);\n—    comparability between
     data centre performance results;\n—    definition of maturity model for data centres;\n—   
     social sustainability issues."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Sustainability, IT and data centres
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 39
+      content: Sustainability, IT and data centres
   ics:
   - code: '35.020'
     text: Information technology (IT) in general
   structuredidentifier:
-    project_number: '53253'
     type: ISO
+    project_number:
+      content: '53253'

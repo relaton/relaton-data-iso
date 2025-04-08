@@ -1,93 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS10303-47
+type: standard
+schema_version: v1.4.1
 title:
-- content: Industrial automation systems and integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Industrial automation systems and integration
   type: title-intro
-- content: Product data representation and exchange
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Product data representation and exchange
   type: title-main
-- content: 'Part 47: Integrated generic resource: Shape variation tolerances'
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 47: Integrated generic resource: Shape variation tolerances'
   type: title-part
-- content: 'Industrial automation systems and integration - Product data representation
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 47: Integrated generic resource: Shape variation tolerances'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Systèmes d'automatisation industrielle et intégration
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-- content: Représentation et échange de données de produits
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Représentation et échange de données de produits
   type: title-main
-- content: 'Partie 47: Ressources génériques intégrées: Tolérances de variation de
-    forme'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 47: Ressources génériques intégrées: Tolérances de variation de
+    forme'
   type: title-part
-- content: 'Systèmes d''automatisation industrielle et intégration - Représentation
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 47: Ressources génériques intégrées:
     Tolérances de variation de forme'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/91387.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:91387:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/09/13/91387.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/DIS 10303-47
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/91387.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:91387:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/09/13/91387.detail.rss
+docidentifier:
+- content: ISO/DIS 10303-47
   type: ISO
   primary: true
-- id: ISO/DIS 10303-47(E)
+- content: ISO/DIS 10303-47(E)
   type: iso-reference
-- id: urn:iso:std:iso:10303:-47:stage-draft
+- content: urn:iso:std:iso:10303:-47:stage-draft
   type: URN
 docnumber: '10303'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '7'
 language:
@@ -96,7 +81,9 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 10303-47 specifies the integrated resource constructs for Shape variation tolerances.
     The following are within the scope of ISO 10303-47:
     - tolerances as constraints on the shape characteristics of a product;
@@ -109,12 +96,9 @@ abstract:
     - the specification of datums and datum systems that are established by referencing datums;
     - the identification of derived shape elements such as centre lines and intersections;
     - the structure for limit and fit systems for shapes.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 10303-47 specifies the integrated resource constructs for Shape variation tolerances.
     The following are within the scope of ISO 10303-47:
     - tolerances as constraints on the shape characteristics of a product;
@@ -127,48 +111,43 @@ abstract:
     - the specification of datums and datum systems that are established by referencing datums;
     - the identification of derived shape elements such as centre lines and intersections;
     - the structure for limit and fit systems for shapes.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO10303-47-2024
     type: standard
-    docid:
-    - id: ISO 10303-47:2024
+    formattedref: ISO 10303-47:2024
+    docidentifier:
+    - content: ISO 10303-47:2024
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 10303-47:2024
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Industrial data
-      number: 184
+    - number: 184
       type: TC
       identifier: ISO/TC 184/SC 4
+      content: Industrial data
   ics:
   - code: 35.240.50
     text: IT applications in industry
   structuredidentifier:
-    project_number: '91387'
     type: ISO
+    project_number:
+      content: '91387'

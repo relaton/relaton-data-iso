@@ -1,95 +1,86 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC10646-2003
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Universal Multiple-Octet Coded Character Set (UCS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Universal Multiple-Octet Coded Character Set (UCS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Jeu universel de caractères codés sur plusieurs octets (JUC)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information - Jeu universel de caractères codés sur plusieurs
-    octets (JUC)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/39921.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/99/39921.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 10646:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Universal Multiple-Octet Coded Character Set (UCS)
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Universal Multiple-Octet Coded Character Set (UCS)
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Jeu universel de caractères codés sur plusieurs octets (JUC)
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Jeu universel de caractères codés sur plusieurs
+    octets (JUC)
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/39921.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/99/39921.detail.rss
+docidentifier:
+- content: ISO/IEC 10646:2003
   type: ISO
   primary: true
-- id: ISO/IEC 10646:2003(E)
+- content: ISO/IEC 10646:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:10646:stage-95.99
+- content: urn:iso:std:iso-iec:10646:stage-95.99
   type: URN
 docnumber: '10646'
 date:
 - type: published
-  value: 2003-12
+  at: 2003-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2003-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 10646:2003 specifies the Universal Multiple-Octet Coded Character
+- language: en
+  script: Latn
+  content: "ISO/IEC 10646:2003 specifies the Universal Multiple-Octet Coded Character
     Set (UCS). It is applicable to the representation, transmission, interchange,
     processing, storage, input and presentation of the written form of the languages
     of the world as well as additional symbols. \nISO/IEC 10646:2003\n- specifies
@@ -123,12 +114,9 @@ abstract:
     mark up languages such as XML and HTML, and implemented in modern operating systems
     and computer programming languages. This edition covers over 96 000 characters
     from the world's scripts."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO/CEI 10646:2003 normalise le jeu universel de caractères codés sur plusieurs octets (JUC). Elle s'applique à la représentation, à la transmission, à l'échange, au traitement, au stockage, à la saisie et à la présentation des langues du monde sous forme écrite et de symboles complémentaires.
     L'ISO/CEI 10646:2003
     - décrit l'architecture de l'ISO/CEI 10646:2003,
@@ -145,182 +133,147 @@ abstract:
     Le JUC est un système de codage différent de celui décrit dans l'ISO/CEI 2022. Un caractère graphique donné ne sera affecté qu'à une seule position de code dans l'ISO/CEI 10646:2003, située soit dans le PMB, soit dans un des plans complémentaires.
     NOTE - La version 4.0 d'Unicode définit un ensemble de caractères, de noms et de représentations codées identiques à l'ensemble de l'ISO/CEI 10646:2003. Elle fournit, de surcroît, des informations supplémentaires relatives aux propriétés de ces caractères, aux algorithmes de traitement ainsi que des définitions utiles aux développeurs.
     En définissant une manière cohérente de coder du texte multilingue, l'ISO/CEI 10646:2003 permet l'échange de données au niveau international. L'industrie des technologies de l'information y gagne en stabilité des données et en une meilleure interopérabilité mondiale. L'ISO/CEI 10646:2003 a été adoptée par de nouveaux protocoles Internet et mise en oeuvre dans des systèmes d'exploitation et des langages informatiques. Cette édition contient plus de 95 000 caractères des écritures du monde entier.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC10646-1-2000
     type: standard
-    docid:
-    - id: ISO/IEC 10646-1:2000
+    formattedref: ISO/IEC 10646-1:2000
+    docidentifier:
+    - content: ISO/IEC 10646-1:2000
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 10646-1:2000
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEC10646-1-2000/Amd1-2002
     type: standard
-    docid:
-    - id: ISO/IEC 10646-1:2000/Amd 1:2002
+    formattedref: ISO/IEC 10646-1:2000/Amd 1:2002
+    docidentifier:
+    - content: ISO/IEC 10646-1:2000/Amd 1:2002
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 10646-1:2000/Amd 1:2002
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/IEC10646-2-2001
     type: standard
-    docid:
-    - id: ISO/IEC 10646-2:2001
+    formattedref: ISO/IEC 10646-2:2001
+    docidentifier:
+    - content: ISO/IEC 10646-2:2001
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 10646-2:2001
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC10646-2011
     type: standard
-    docid:
-    - id: ISO/IEC 10646:2011
+    formattedref: ISO/IEC 10646:2011
+    docidentifier:
+    - content: ISO/IEC 10646:2011
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2011-03-10'
-    formattedref:
-      content: ISO/IEC 10646:2011
-      format: text/plain
+      at: '2011-03-10'
 - type: updates
   bibitem:
-    id: ISO/IEC10646-2003/Amd1-2005
     type: standard
-    docid:
-    - id: ISO/IEC 10646:2003/Amd 1:2005
+    formattedref: ISO/IEC 10646:2003/Amd 1:2005
+    docidentifier:
+    - content: ISO/IEC 10646:2003/Amd 1:2005
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2011-03-10'
-    formattedref:
-      content: ISO/IEC 10646:2003/Amd 1:2005
-      format: text/plain
+      at: '2011-03-10'
 - type: updates
   bibitem:
-    id: ISO/IEC10646-2003/Amd2-2006
     type: standard
-    docid:
-    - id: ISO/IEC 10646:2003/Amd 2:2006
+    formattedref: ISO/IEC 10646:2003/Amd 2:2006
+    docidentifier:
+    - content: ISO/IEC 10646:2003/Amd 2:2006
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2011-03-10'
-    formattedref:
-      content: ISO/IEC 10646:2003/Amd 2:2006
-      format: text/plain
+      at: '2011-03-10'
 - type: updates
   bibitem:
-    id: ISO/IEC10646-2003/Amd3-2008
     type: standard
-    docid:
-    - id: ISO/IEC 10646:2003/Amd 3:2008
+    formattedref: ISO/IEC 10646:2003/Amd 3:2008
+    docidentifier:
+    - content: ISO/IEC 10646:2003/Amd 3:2008
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2011-03-10'
-    formattedref:
-      content: ISO/IEC 10646:2003/Amd 3:2008
-      format: text/plain
+      at: '2011-03-10'
 - type: updates
   bibitem:
-    id: ISO/IEC10646-2003/Amd4-2008
     type: standard
-    docid:
-    - id: ISO/IEC 10646:2003/Amd 4:2008
+    formattedref: ISO/IEC 10646:2003/Amd 4:2008
+    docidentifier:
+    - content: ISO/IEC 10646:2003/Amd 4:2008
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2011-03-10'
-    formattedref:
-      content: ISO/IEC 10646:2003/Amd 4:2008
-      format: text/plain
+      at: '2011-03-10'
 - type: updates
   bibitem:
-    id: ISO/IEC10646-2003/Amd5-2008
     type: standard
-    docid:
-    - id: ISO/IEC 10646:2003/Amd 5:2008
+    formattedref: ISO/IEC 10646:2003/Amd 5:2008
+    docidentifier:
+    - content: ISO/IEC 10646:2003/Amd 5:2008
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2011-03-10'
-    formattedref:
-      content: ISO/IEC 10646:2003/Amd 5:2008
-      format: text/plain
+      at: '2011-03-10'
 - type: updates
   bibitem:
-    id: ISO/IEC10646-2003/Amd6-2009
     type: standard
-    docid:
-    - id: ISO/IEC 10646:2003/Amd 6:2009
+    formattedref: ISO/IEC 10646:2003/Amd 6:2009
+    docidentifier:
+    - content: ISO/IEC 10646:2003/Amd 6:2009
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2011-03-10'
-    formattedref:
-      content: ISO/IEC 10646:2003/Amd 6:2009
-      format: text/plain
+      at: '2011-03-10'
 - type: updates
   bibitem:
-    id: ISO/IEC10646-2003/Amd7-2010
     type: standard
-    docid:
-    - id: ISO/IEC 10646:2003/Amd 7:2010
+    formattedref: ISO/IEC 10646:2003/Amd 7:2010
+    docidentifier:
+    - content: ISO/IEC 10646:2003/Amd 7:2010
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2011-03-10'
-    formattedref:
-      content: ISO/IEC 10646:2003/Amd 7:2010
-      format: text/plain
+      at: '2011-03-10'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coded character sets
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 2
+      content: Coded character sets
   ics:
   - code: 35.040.10
     text: Coding of character sets
   structuredidentifier:
-    project_number: '39921'
     type: ISO
+    project_number:
+      content: '39921'

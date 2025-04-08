@@ -1,86 +1,81 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTS19608-2018
-title:
-- content: Guidance for developing security and privacy functional requirements based
-    on ISO/IEC 15408
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Guidance for developing security and privacy functional requirements based
-    on ISO/IEC 15408
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Lignes directrices pour l'élaboration des exigences fonctionnelles de sécurité
-    et de confidentialité fondées sur l’ISO/IEC 15408
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Lignes directrices pour l'élaboration des exigences fonctionnelles de sécurité
-    et de confidentialité fondées sur l’ISO/IEC 15408
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/65459.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:65459:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/06/54/65459.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TS 19608:2018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Guidance for developing security and privacy functional requirements based
+    on ISO/IEC 15408
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Guidance for developing security and privacy functional requirements based
+    on ISO/IEC 15408
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Lignes directrices pour l'élaboration des exigences fonctionnelles de sécurité
+    et de confidentialité fondées sur l’ISO/IEC 15408
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Lignes directrices pour l'élaboration des exigences fonctionnelles de sécurité
+    et de confidentialité fondées sur l’ISO/IEC 15408
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/65459.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:65459:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/54/65459.detail.rss
+docidentifier:
+- content: ISO/IEC TS 19608:2018
   type: ISO
   primary: true
-- id: ISO/IEC TS 19608:2018(E)
+- content: ISO/IEC TS 19608:2018(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:ts:19608:stage-90.93
+- content: urn:iso:std:iso-iec:ts:19608:stage-90.93
   type: URN
 docnumber: '19608'
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2018-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides guidance for:
     —          selecting and specifying security functional requirements (SFRs) from ISO/IEC 15408-2 to protect Personally Identifiable Information (PII);
     —          the procedure to define both privacy and security functional requirements in a coordinated manner; and
@@ -90,12 +85,9 @@ abstract:
     —          authors of Protection Profiles that address the protection of PII; and
     —          evaluators that use ISO/IEC 15408 and ISO/IEC 18045 for a security evaluation.
     This document is intended to be fully consistent with ISO/IEC 15408; however, in the event of any inconsistency between this document and ISO/IEC 15408, the latter, as a normative standard, takes precedence.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document provides guidance for:
     —          selecting and specifying security functional requirements (SFRs) from ISO/IEC 15408-2 to protect Personally Identifiable Information (PII);
     —          the procedure to define both privacy and security functional requirements in a coordinated manner; and
@@ -105,36 +97,34 @@ abstract:
     —          authors of Protection Profiles that address the protection of PII; and
     —          evaluators that use ISO/IEC 15408 and ISO/IEC 18045 for a security evaluation.
     This document is intended to be fully consistent with ISO/IEC 15408; however, in the event of any inconsistency between this document and ISO/IEC 15408, the latter, as a normative standard, takes precedence.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '65459'
     type: ISO
+    project_number:
+      content: '65459'

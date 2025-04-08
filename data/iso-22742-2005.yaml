@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO22742-2005
-title:
-- content: Packaging
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Linear bar code and two-dimensional symbols for product packaging
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Packaging - Linear bar code and two-dimensional symbols for product packaging
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Emballages
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Code-barres linéaire et symboles bidimensionnels pour l'emballage de produits
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Emballages - Code-barres linéaire et symboles bidimensionnels pour l'emballage
-    de produits
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/35115.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/03/51/35115.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 22742:2005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Packaging
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Linear bar code and two-dimensional symbols for product packaging
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Packaging - Linear bar code and two-dimensional symbols for product packaging
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Emballages
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Code-barres linéaire et symboles bidimensionnels pour l'emballage de produits
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Emballages - Code-barres linéaire et symboles bidimensionnels pour l'emballage
+    de produits
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/35115.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/51/35115.detail.rss
+docidentifier:
+- content: ISO 22742:2005
   type: ISO
   primary: true
-- id: ISO 22742:2005(E)
+- content: ISO 22742:2005(E)
   type: iso-reference
-- id: urn:iso:std:iso:22742:stage-95.99
+- content: urn:iso:std:iso:22742:stage-95.99
   type: URN
 docnumber: '22742'
 date:
 - type: published
-  value: 2005-01
+  at: 2005-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2005-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 22742:2005 specifies the minimum requirements for the design of labels
+- language: en
+  script: Latn
+  content: "ISO 22742:2005 specifies the minimum requirements for the design of labels
     containing a linear bar code and two-dimensional symbols on product packages to
     convey data between trading partners; provides guidance for the formatting on
     the label of data presented in a linear bar code, two-dimensional symbols or human-readable
@@ -95,12 +85,9 @@ abstract:
     product package level, such as inventory control, picking, and point of use. \nThe
     purpose of ISO 22742:2005 is to establish the machine-readable (e.g. bar code)
     and human-readable data content of labels applied to product packages."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO 22742:2005 specifies the minimum requirements for the design of labels
+- language: fr
+  script: Latn
+  content: "ISO 22742:2005 specifies the minimum requirements for the design of labels
     containing a linear bar code and two-dimensional symbols on product packages to
     convey data between trading partners; provides guidance for the formatting on
     the label of data presented in a linear bar code, two-dimensional symbols or human-readable
@@ -114,53 +101,48 @@ abstract:
     product package level, such as inventory control, picking, and point of use. \nThe
     purpose of ISO 22742:2005 is to establish the machine-readable (e.g. bar code)
     and human-readable data content of labels applied to product packages."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO22742-2010
     type: standard
-    docid:
-    - id: ISO 22742:2010
+    formattedref: ISO 22742:2010
+    docidentifier:
+    - content: ISO 22742:2010
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2010-12-15'
-    formattedref:
-      content: ISO 22742:2010
-      format: text/plain
+      at: '2010-12-15'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Packaging
-      number: 122
+    - number: 122
       type: TC
       identifier: ISO/TC 122
+      content: Packaging
   ics:
   - code: '55.020'
     text: Packaging and distribution of goods in general
   - code: 01.080.99
     text: Other graphical symbols
   structuredidentifier:
-    project_number: '35115'
     type: ISO
+    project_number:
+      content: '35115'

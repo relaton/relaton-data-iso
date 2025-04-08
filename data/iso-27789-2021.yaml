@@ -1,148 +1,130 @@
 ---
-schema-version: v1.2.9
 id: ISO27789-2021
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Audit trails for electronic health records
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - Audit trails for electronic health records
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Historique d'expertise des dossiers de santé informatisés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Historique d'expertise des dossiers de santé informatisés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/75313.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:75313:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/53/75313.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 27789:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Audit trails for electronic health records
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Audit trails for electronic health records
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Historique d'expertise des dossiers de santé informatisés
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Historique d'expertise des dossiers de santé informatisés
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/75313.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:75313:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/53/75313.detail.rss
+docidentifier:
+- content: ISO 27789:2021
   type: ISO
   primary: true
-- id: ISO 27789:2021(E)
+- content: ISO 27789:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso:27789:stage-60.60
+- content: urn:iso:std:iso:27789:stage-published
   type: URN
 docnumber: '27789'
 date:
 - type: published
-  value: 2021-10
+  at: 2021-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2021-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a common framework for audit trails for electronic health records (EHR), in terms of audit trigger events and audit data, to keep the complete set of personal health information auditable across information systems and domains.
     It is applicable to systems processing personal health information that create a secure audit record each time a user reads, creates, updates, or archives personal health information via the system.
     NOTE       Such audit records at a minimum uniquely identify the user, uniquely identify the subject of care, identify the function performed by the user (record creation, read, update, etc.), and record the date and time at which the function was performed.
     This document covers only actions performed on the EHR, which are governed by the access policy for the domain where the electronic health record resides. It does not deal with any personal health information from the electronic health record, other than identifiers, the audit record only containing links to EHR segments as defined by the governing access policy.
     It does not cover the specification and use of audit logs for system management and system security purposes, such as the detection of performance problems, application flaw, or support for a reconstruction of data, which are dealt with by general computer security standards such as ISO/IEC 15408 (all parts)[9].
     Annex A gives examples of audit scenarios. Annex B gives an overview of audit log services.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document définit un cadre commun pour les pistes d'audit des dossiers de santé informatisés (DSI), en termes d'événements déclencheurs d'audit et de données d'audit, afin de conserver l'ensemble complet des informations personnelles de santé auditables, quels que soient les systèmes et les domaines d'information.
     Le présent document s'applique aux systèmes de traitement des informations personnelles de santé qui créent un enregistrement d'audit sécurisé chaque fois qu'un utilisateur crée des informations personnelles de santé, qu'il les lit, qu'il les met à jour ou qu'il les archive par le biais du système.
     NOTE       Au minimum, ces enregistrements d'audit identifient de manière unique l'utilisateur, identifient de manière unique le sujet de soins, identifient la fonction exécutée par l'utilisateur (création d'un dossier, lecture d'un dossier, mise à jour d'un dossier, etc.) et enregistrent la date et l'heure auxquelles la fonction a été exécutée.
     Le présent document ne couvre que les actions effectuées sur le dossier de santé informatisé, qui sont régies par une politique d'accès propre au domaine dans lequel s'inscrit le dossier de santé informatisé. Il ne traite d'aucune information personnelle de santé issue de dossiers de santé informatisés, à l'exception des identifiants, les enregistrements d'audit ne contenant que des liens pointant vers des segments du DSI, tels que définis par la politique d'accès applicable.
     Le présent document ne couvre pas non plus la spécification et l'utilisation des journaux d'audit à des fins de gestion et de sécurité du système, par exemple, la détection des problèmes de performance, des failles au niveau des applications, ou le support de reconstruction des données, qui sont traités par les normes de sécurité informatique générales, telles que l'ISO/IEC 15408 (toutes les parties)[9].
     L'Annexe A donne des exemples de scénarios d'audit. L'Annexe B donne un aperçu des services de journal d'audit.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO27789-2013
     type: standard
-    docid:
-    - id: ISO 27789:2013
+    formattedref: ISO 27789:2013
+    docidentifier:
+    - content: ISO 27789:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 27789:2013
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '75313'
     type: ISO
+    project_number:
+      content: '75313'

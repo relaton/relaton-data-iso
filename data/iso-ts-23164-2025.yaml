@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
 id: ISO/TS23164-2025
-title:
-- content: Automation systems and integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Core vocabulary for industrial data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Automation systems and integration - Core vocabulary for industrial data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Systèmes d'automatisation et intégration
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Vocabulaire de base pour les données industrielles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Systèmes d'automatisation et intégration - Vocabulaire de base pour les
-    données industrielles
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/87378.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:87378:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/73/87378.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TS 23164:2025
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Automation systems and integration
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Core vocabulary for industrial data
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Automation systems and integration - Core vocabulary for industrial data
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes d'automatisation et intégration
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Vocabulaire de base pour les données industrielles
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes d'automatisation et intégration - Vocabulaire de base pour les
+    données industrielles
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/87378.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:87378:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/73/87378.detail.rss
+docidentifier:
+- content: ISO/TS 23164:2025
   type: ISO
   primary: true
-- id: ISO/TS 23164:2025(E)
+- content: ISO/TS 23164:2025(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:23164:stage-60.60
+- content: urn:iso:std:iso:ts:23164:stage-published
   type: URN
 docnumber: '23164'
 date:
 - type: published
-  value: 2025-01
+  at: 2025-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2025-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a vocabulary for industrial data that defines generic terms for things that exist in more than one industrial domain.
     The following are within the scope of this document:
     —     definition of terms for generic types of industrial thing;
@@ -102,12 +92,9 @@ abstract:
     EXAMPLE 2         Definitions of the terms “data” and “information” are not within the vocabulary.
     —     definition of terms that are relevant to representations.
     EXAMPLE 3         Definitions of the terms “representation” and “model” are not within the vocabulary.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies a vocabulary for industrial data that defines generic terms for things that exist in more than one industrial domain.
     The following are within the scope of this document:
     —     definition of terms for generic types of industrial thing;
@@ -126,38 +113,36 @@ abstract:
     EXAMPLE 2         Definitions of the terms “data” and “information” are not within the vocabulary.
     —     definition of terms that are relevant to representations.
     EXAMPLE 3         Definitions of the terms “representation” and “model” are not within the vocabulary.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TS
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Industrial data
-      number: 184
+    - number: 184
       type: TC
       identifier: ISO/TC 184/SC 4
+      content: Industrial data
   ics:
   - code: 01.040.25
     text: Manufacturing engineering (Vocabularies)
   - code: 25.040.01
     text: Industrial automation systems in general
   structuredidentifier:
-    project_number: '87378'
     type: ISO
+    project_number:
+      content: '87378'

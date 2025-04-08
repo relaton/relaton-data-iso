@@ -1,91 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO/DTS4654
+type: standard
+schema_version: v1.4.1
 title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles
   type: title-intro
-- content: Advanced automatic collision notification (AACN) systems
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Advanced automatic collision notification (AACN) systems
   type: title-main
-- content: Methodology for creating and validating algorithms for injury level prediction
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Methodology for creating and validating algorithms for injury level prediction
   type: title-part
-- content: Road vehicles - Advanced automatic collision notification (AACN) systems
+  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles - Advanced automatic collision notification (AACN) systems
     - Methodology for creating and validating algorithms for injury level prediction
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
   type: title-intro
-- content: Systèmes intelligents de notification automatique de collision
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Systèmes intelligents de notification automatique de collision
   type: title-main
-- content: Méthodologie pour créer et valider les algorithmes de prédiction du niveau
-    de blessure
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Méthodologie pour créer et valider les algorithmes de prédiction du niveau
+    de blessure
   type: title-part
-- content: Véhicules routiers - Systèmes intelligents de notification automatique
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers - Systèmes intelligents de notification automatique
     de collision - Méthodologie pour créer et valider les algorithmes de prédiction
     du niveau de blessure
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/80215.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/02/80215.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/DTS 4654
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/80215.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/02/80215.detail.rss
+docidentifier:
+- content: ISO/DTS 4654
   type: ISO
   primary: true
-- id: ISO/DTS 4654(E)
+- content: ISO/DTS 4654(E)
   type: iso-reference
-- id: urn:iso:std:iso:ts:4654:stage-draft
+- content: urn:iso:std:iso:ts:4654:stage-draft
   type: URN
 docnumber: '4654'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -94,7 +79,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document outlines methodologies for creating and evaluating AACN
+- language: en
+  script: Latn
+  content: "This document outlines methodologies for creating and evaluating AACN
     algorithms, using suitable parameters, to predict the level of injury sustained
     by road users in a collision. \n\nThe injury prediction is used to facilitate
     emergency response after a collision occurs.\n\nThe methodology is based on onboard
@@ -105,12 +92,9 @@ abstract:
     is further used.\n\nData format for sending vehicle information and communication
     protocol between vehicle and the public service answering point (PSAP) is outside
     the scope of this document."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document outlines methodologies for creating and evaluating AACN
+- language: fr
+  script: Latn
+  content: "This document outlines methodologies for creating and evaluating AACN
     algorithms, using suitable parameters, to predict the level of injury sustained
     by road users in a collision. \n\nThe injury prediction is used to facilitate
     emergency response after a collision occurs.\n\nThe methodology is based on onboard
@@ -121,36 +105,34 @@ abstract:
     is further used.\n\nData format for sending vehicle information and communication
     protocol between vehicle and the public service answering point (PSAP) is outside
     the scope of this document."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DTS
-  from: '2025'
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DTS
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Safety and impact testing
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 36
+      content: Safety and impact testing
   ics:
   - code: 43.040.15
     text: Car informatics. On board computer systems
   structuredidentifier:
-    project_number: '80215'
     type: ISO
+    project_number:
+      content: '80215'

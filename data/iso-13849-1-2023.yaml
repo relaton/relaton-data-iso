@@ -1,98 +1,86 @@
 ---
-schema-version: v1.2.9
 id: ISO13849-1-2023
-title:
-- content: Safety of machinery
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Safety-related parts of control systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 1: General principles for design'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Safety of machinery - Safety-related parts of control systems - Part 1:
-    General principles for design'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Sécurité des machines
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: 'Parties des systèmes de commande relatives à la sécurité — Partie 1: Principes
-    généraux de conception'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Sécurité des machines - Parties des systèmes de commande relatives à la
-    sécurité — Partie 1: Principes généraux de conception'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/73481.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:73481:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/34/73481.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 13849-1:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Safety of machinery
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Safety-related parts of control systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 1: General principles for design'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Safety of machinery - Safety-related parts of control systems - Part 1:
+    General principles for design'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sécurité des machines
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Parties des systèmes de commande relatives à la sécurité — Partie 1: Principes
+    généraux de conception'
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Sécurité des machines - Parties des systèmes de commande relatives à la
+    sécurité — Partie 1: Principes généraux de conception'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/73481.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:73481:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/34/73481.detail.rss
+docidentifier:
+- content: ISO 13849-1:2023
   type: ISO
   primary: true
-- id: ISO 13849-1:2023(E)
+- content: ISO 13849-1:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:13849:-1:stage-60.60
+- content: urn:iso:std:iso:13849:-1:stage-published
   type: URN
 docnumber: '13849'
 date:
 - type: published
-  value: 2023-04
+  at: 2023-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '4'
-revdate: 2023-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a methodology and provides related requirements, recommendations and guidance for the design and integration of safety‐related parts of control systems (SRP/CS) that perform safety functions, including the design of software.
     This document applies to SRP/CS for high demand and continuous modes of operation including their subsystems, regardless of the type of technology and energy (e.g. electrical, hydraulic, pneumatic, and mechanical). This document does not apply to low demand mode of operation.
     NOTE 1        See 3.1.44 and the IEC 61508 series for low demand mode of operation.
@@ -101,12 +89,9 @@ abstract:
     This document does not give specific requirements for the design of products/components that are parts of SRP/CS. Specific requirements for the design of some components of SRP/CS are covered by applicable ISO and IEC standards.
     This document does not provide specific measures for security aspects (e.g. physical, IT-security, cyber security).
     NOTE 3        Security issues can have an effect on safety functions. See ISO/TR 22100-4 and IEC/TR 63074 for further information.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie une méthodologie et fournit des exigences, des recommandations et des conseils portant sur la conception et l'intégration des parties des systèmes de commande relatives à la sécurité (SRP/CS) qui réalisent des fonctions de sécurité, incluant la conception de logiciels.
     Le présent document s'applique aux SRP/CS pour les modes de fonctionnement à forte sollicitation et continu, incluant leurs sous-systèmes, indépendamment du type de technologie et d'énergie utilisé (par exemple, électrique, hydraulique, pneumatique et mécanique). Le présent document ne s'applique pas au mode de fonctionnement à faible sollicitation.
     NOTE 1        Voir 3.1.44 et la série IEC 61508 pour le mode de fonctionnement à faible sollicitation.
@@ -115,48 +100,43 @@ abstract:
     Le présent document ne donne pas d'exigences spécifiques pour la conception de produits/composants intégrés dans les SRP/CS. Les exigences spécifiques pour la conception de certains composants de SRP/CS sont couvertes par les normes ISO et IEC applicables.
     Le présent document ne fournit pas de mesures spécifiques pour les aspects de sécurité (par exemple, physique, sécurité informatique (IT-security), cybersécurité).
     NOTE 3        Les problèmes de sécurité peuvent avoir un effet sur les fonctions de sécurité. Voir l'ISO/TR 22100-4 et l'IEC/TR 63074 pour d'autres informations.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO13849-1-2015
     type: standard
-    docid:
-    - id: ISO 13849-1:2015
+    formattedref: ISO 13849-1:2015
+    docidentifier:
+    - content: ISO 13849-1:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 13849-1:2015
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Safety of machinery
-      number: 199
+    - number: 199
       type: TC
       identifier: ISO/TC 199
+      content: Safety of machinery
   ics:
   - code: '13.110'
     text: Safety of machinery
   structuredidentifier:
-    project_number: '73481'
     type: ISO
+    project_number:
+      content: '73481'

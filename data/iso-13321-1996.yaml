@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO13321-1996
-title:
-- content: Particle size analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Photon correlation spectroscopy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Particle size analysis - Photon correlation spectroscopy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Analyse granulométrique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Spectroscopie par corrélation de photons
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Analyse granulométrique - Spectroscopie par corrélation de photons
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/21707.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/17/21707.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 13321:1996
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Particle size analysis
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Photon correlation spectroscopy
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Particle size analysis - Photon correlation spectroscopy
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Analyse granulométrique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Spectroscopie par corrélation de photons
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Analyse granulométrique - Spectroscopie par corrélation de photons
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/21707.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/17/21707.detail.rss
+docidentifier:
+- content: ISO 13321:1996
   type: ISO
   primary: true
-- id: ISO 13321:1996(E)
+- content: ISO 13321:1996(E)
   type: iso-reference
-- id: urn:iso:std:iso:13321:stage-95.99
+- content: urn:iso:std:iso:13321:stage-95.99
   type: URN
 docnumber: '13321'
 date:
 - type: published
-  value: 1996-07
+  at: 1996-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1996-07
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "\nLa présente Norme internationale décrit l'application de la spectroscopie
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale décrit l'application de la spectroscopie
     par corrélation de photons (PCS) à la méthode de mesurage d'une dimension particulaire
     moyenne et à la détermination de la distribution granulométrique dans un fluide.
     Elle est applicable à des dimensions particulaires comprises entre quelques nanomètres
@@ -89,51 +79,46 @@ abstract:
     et sphériques.  \nNOTE 1 -- Cette technique est encore connue ou se réfère à d'autres
     noms, par exemple, diffusion quasi élastique de la lumière (QELS) et diffusion
     dynamique de la lumière (DLS).\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO22412-2017
     type: standard
-    docid:
-    - id: ISO 22412:2017
+    formattedref: ISO 22412:2017
+    docidentifier:
+    - content: ISO 22412:2017
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2017-02-06'
-    formattedref:
-      content: ISO 22412:2017
-      format: text/plain
+      at: '2017-02-06'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Particle characterization
-      number: 24
+    - number: 24
       type: TC
       identifier: ISO/TC 24/SC 4
+      content: Particle characterization
   ics:
   - code: '19.120'
     text: Particle size analysis. Sieving
   structuredidentifier:
-    project_number: '21707'
     type: ISO
+    project_number:
+      content: '21707'

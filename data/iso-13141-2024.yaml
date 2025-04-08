@@ -1,90 +1,80 @@
 ---
-schema-version: v1.2.9
 id: ISO13141-2024
-title:
-- content: Electronic fee collection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Localization augmentation communication for autonomous systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Electronic fee collection - Localization augmentation communication for
-    autonomous systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Perception de télépéage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Communications d'augmentation de localisations pour systèmes autonomes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Perception de télépéage - Communications d'augmentation de localisations
-    pour systèmes autonomes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/82930.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:82930:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/29/82930.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 13141:2024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electronic fee collection
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Localization augmentation communication for autonomous systems
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Electronic fee collection - Localization augmentation communication for
+    autonomous systems
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception de télépéage
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Communications d'augmentation de localisations pour systèmes autonomes
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Perception de télépéage - Communications d'augmentation de localisations
+    pour systèmes autonomes
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/82930.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:82930:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/29/82930.detail.rss
+docidentifier:
+- content: ISO 13141:2024
   type: ISO
   primary: true
-- id: ISO 13141:2024(E)
+- content: ISO 13141:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso:13141:stage-60.60
+- content: urn:iso:std:iso:13141:stage-published
   type: URN
 docnumber: '13141'
 date:
 - type: published
-  value: 2024-02
+  at: 2024-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2024-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document establishes requirements for short-range communication for the purposes of augmenting the localization in autonomous electronic fee collection (EFC) systems. Localization augmentation serves to inform on-board equipment (OBE) about geographical location and the identification of a charge object. This document specifies the provision of location and heading information and security means to protect against the manipulation of the OBE with false RSE.
     The localization augmentation communication (LAC) takes place between an OBE in a vehicle and fixed RSE. This document is applicable to OBE in an autonomous mode of operation.
     This document specifies attributes and functions for the purpose of localization augmentation, by making use of the dedicated short-range communications (DSRC) communication services provided by DSRC Layer 7, and makes these LAC attributes and functions available to the LAC applications at the RSE and the OBE. Attributes and functions are specified on the level of application data units (ADUs; see Figure 1).
@@ -95,12 +85,9 @@ abstract:
     The LAC is suitable for a range of short-range communication media. This document provides specific definitions regarding the CEN-DSRC stack as specified in EN 15509. Annexes C, D, E and H provide for the use of the Italian DSRC as specified in ETSI/ES 200 674-1, ISO CALM IR ARIB DSRC and WAVE DSRC.
     This document contains a protocol implementation conformance statement (PICS) proforma in Annex B and transaction examples in Annex F. Annex G highlights how to use this document for the European Electronic Toll Service (EETS).
     Test specifications are not within the scope of this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document définit les exigences pour une communication à courte portée en vue de mettre en place l'augmentation de localisations dans les systèmes de perception de télépéage (EFC) autonomes. L'augmentation de localisations sert à informer les équipements embarqués (OBE) de leur position géographique et à l'identification d'un objet d'imputation. Le présent document spécifie la mise à disposition des informations de localisation et de direction, et constitue une protection contre la manipulation des équipements embarqués par des équipements en bord de route (RSE) frauduleux.
     Les communications d'augmentation de localisations (LAC, Localization Augmentation Communication) s'effectuent entre l'équipement embarqué sur un véhicule et un équipement en bord de route fixe. Le présent document s'applique aux équipements embarqués autonomes.
     Le présent document spécifie des attributs et des fonctions pour l'augmentation de localisations au moyen des services de communication à courte portée fournis par la couche DSRC 7 et met ces attributs et ces fonctions LAC à la disposition des applications LAC au niveau des équipements en bord de route et des équipements embarqués. Les attributs et les fonctions sont spécifiés au niveau des unités de données d'application (ADU, application data unit; voir la Figure 1).
@@ -111,61 +98,53 @@ abstract:
     Les communications d'augmentation de localisations (LAC) conviennent à une gamme de supports de communication à courte portée. Le présent document fournit des définitions spécifiques à la pile CEN-DSRC, comme cela est spécifié dans l'EN 15509. Les Annexes C, D, E et H spécifient l'utilisation de la pile UNI DSRC (Italie) conformément à l'ETSI/ES 200 674-1, l'ISO CALM IR, ARIB DSRC et WAVE DSRC.
     Le présent document fournit un formulaire de déclaration de conformité d'une mise en œuvre de protocole (PICS, Protocol Implementation Conformance Statement) à l'Annexe B, ainsi que des exemples de transactions à l'Annexe F. L'Annexe G souligne comment utiliser le présent document pour le service européen de télépéage (SET).
     Le présent document ne s'applique pas aux spécifications d'essai.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO13141-2015
     type: standard
-    docid:
-    - id: ISO 13141:2015
+    formattedref: ISO 13141:2015
+    docidentifier:
+    - content: ISO 13141:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 13141:2015
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO13141-2015/Amd1-2017
     type: standard
-    docid:
-    - id: ISO 13141:2015/Amd 1:2017
+    formattedref: ISO 13141:2015/Amd 1:2017
+    docidentifier:
+    - content: ISO 13141:2015/Amd 1:2017
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 13141:2015/Amd 1:2017
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Intelligent transport systems
-      number: 204
+    - number: 204
       type: TC
       identifier: ISO/TC 204
+      content: Intelligent transport systems
   ics:
   - code: 03.220.20
     text: Road transport
   - code: 35.240.60
     text: IT applications in transport
   structuredidentifier:
-    project_number: '82930'
     type: ISO
+    project_number:
+      content: '82930'

@@ -1,74 +1,79 @@
 ---
 id: ISO/IEC-DIR1-ISOSUP-2015
-title:
-- type: title-intro
-  content: ISO/IEC Directives, Part 1
-  language: en
-  script: Latn
-  format: text/plain
-- type: title-main
-  content: Consolidated ISO Supplement
-  language: en
-  script: Latn
-- type: title-part
-  content: Procedures specific to ISO
-  language: en
-  script: Latn
-- type: title-intro
-  content: Directives ISO/IEC, Partie 1
-  language: fr
-  script: Latn
-  format: text/plain
-- type: title-main
-  content: Supplément ISO consolidé
-  language: fr
-  script: Latn
-- type: title-part
-  content: Procédures spécifiques à l'ISO
-  language: fr
-  script: Latn
-
 type: standard
-doctype: directive
-
-link:
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: ISO/IEC Directives, Part 1
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Consolidated ISO Supplement
+  type: title-main
+- language: en
+  script: Latn
+  content: Procedures specific to ISO
+  type: title-part
+- language: fr
+  script: Latn
+  content: Directives ISO/IEC, Partie 1
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Supplément ISO consolidé
+  type: title-main
+- language: fr
+  script: Latn
+  content: Procédures spécifiques à l'ISO
+  type: title-part
+source:
 - type: src
-  # format: pdf
   content: https://web.archive.org/web/20171213103706/http://isotc.iso.org/livelink/livelink/fetch/2000/2122/4230450/4230452/ISO_IEC_Directives_Part_1_and_Consolidated_ISO_Supplement_-_2015_%286th_edition%29_-_PDF.pdf?nodeid=17159827&vernum=-2
-
-docid:
-  id: ISO/IEC DIR 1 ISO SUP:2015
+docidentifier:
+- content: ISO/IEC DIR 1 ISO SUP:2015
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2015-06-05'
-
-edition: "6"
-
+- type: published
+  at: '2015-06-05'
+edition:
+  content: '6'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
-- owner:
-    name: International Organization for Standardization
-    abbreviation: ISO
-    url: www.iso.org
-  from: '2015'
-- owner:
-    name: International Electrotechnical Commission
-    abbreviation: IEC
-    url: iec.ch
-  from: '2015'
-
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - content: www.iso.org
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - content: iec.ch
+      name:
+      - content: International Electrotechnical Commission
+      abbreviation:
+        content: IEC
 relation:
-  - type: partOf
-    bibitem:
-      formattedref: ISO/IEC DIR 1 ISO SUP
-      docid:
-        - id: ISO/IEC DIR 1 ISO SUP
-          type: ISO
-          primary: true
+- type: partOf
+  bibitem:
+    formattedref: ISO/IEC DIR 1 ISO SUP
+    docidentifier:
+    - content: ISO/IEC DIR 1 ISO SUP
+      type: ISO
+      primary: true
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

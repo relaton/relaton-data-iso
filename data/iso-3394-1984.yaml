@@ -1,153 +1,132 @@
 ---
-schema-version: v1.2.9
 id: ISO3394-1984
-title:
-- content: Dimensions of rigid rectangular packages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Transport packages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Dimensions of rigid rectangular packages - Transport packages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Dimensions des emballages rectangulaires rigides
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Emballages d'expédition
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Dimensions des emballages rectangulaires rigides - Emballages d'expédition
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/8694.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/86/8694.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3394:1984
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dimensions of rigid rectangular packages
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Transport packages
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Dimensions of rigid rectangular packages - Transport packages
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Dimensions des emballages rectangulaires rigides
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Emballages d'expédition
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Dimensions des emballages rectangulaires rigides - Emballages d'expédition
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/8694.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/86/8694.detail.rss
+docidentifier:
+- content: ISO 3394:1984
   type: ISO
   primary: true
-- id: ISO 3394:1984(E)
+- content: ISO 3394:1984(E)
   type: iso-reference
-- id: urn:iso:std:iso:3394:stage-95.99
+- content: urn:iso:std:iso:3394:stage-95.99
   type: URN
 docnumber: '3394'
 date:
 - type: published
-  value: 1984-08
+  at: 1984-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1984-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: The effective outside dimensions (length and width) of transport pacckages
+- language: en
+  script: Latn
+  content: The effective outside dimensions (length and width) of transport pacckages
     shall be obtained by multiplying or dividing the standard plan dimension by an
     integer. The module standard plan dimension is 600 mm x 400 mm (23.62 in x 15.75
     in).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |2
+- language: fr
+  script: Latn
+  content: |2
 
     La présente Norme internationale établit une série de dimensions pour les emballages d'expédition rectangulaires rigides, basée sur les dimensions de plan normalisées (module) de 600 mm x 400 mm (23,62 in x 15,75 in).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO3394-1975
     type: standard
-    docid:
-    - id: ISO 3394:1975
+    formattedref: ISO 3394:1975
+    docidentifier:
+    - content: ISO 3394:1975
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 3394:1975
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO3394-2012
     type: standard
-    docid:
-    - id: ISO 3394:2012
+    formattedref: ISO 3394:2012
+    docidentifier:
+    - content: ISO 3394:2012
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2012-10-29'
-    formattedref:
-      content: ISO 3394:2012
-      format: text/plain
+      at: '2012-10-29'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Packaging
-      number: 122
+    - number: 122
       type: TC
       identifier: ISO/TC 122
+      content: Packaging
   ics:
   - code: '55.020'
     text: Packaging and distribution of goods in general
   structuredidentifier:
-    project_number: '8694'
     type: ISO
+    project_number:
+      content: '8694'

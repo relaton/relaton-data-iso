@@ -1,57 +1,62 @@
+---
+type: standard
+schema_version: v1.4.1
 title:
-- type: title-main
+- language: en
+  script: Latn
   content: ISO/IEC JTC 1 Directives
-  language: en
+  type: title-main
+- language: fr
   script: Latn
-- type: title-main
   content: Directives ISO/CEI JTC 1
-  language: fr
-  script: Latn
-
-link:
+  type: title-main
+source:
 - type: src
   content: https://web.archive.org/web/20061001181806/http://www.jtc1sc34.org/repository/0719.pdf
 - type: src
   content: http://www.jtc1sc34.org/repository/0719.pdf
-
-type: standard
-doctype: directive
-
-docid:
-  id: ISO/IEC JTC 1 DIR:2005
+docidentifier:
+- content: ISO/IEC JTC 1 DIR:2005
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2005-11-01'
-
-edition: "5, Version 1.0"
-
-# note: ISO/IEC JTC 1 Directives, 5th edition, Version 1.0
-
-language: en
-
-script: Latn
-
+- type: published
+  at: '2005-11-01'
+edition:
+  content: 5, Version 1.0
+language:
+- en
+script:
+- Latn
 copyright:
-- owner:
-    name: International Electrotechnical Commission
-    abbreviation: IEC
-    url: iec.ch
-  from: '1986'
-
-- owner:
-    name: International Organization for Standardization
-    abbreviation: ISO
-    url: www.iso.org
-  from: '1986'
-
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - content: iec.ch
+      name:
+      - content: International Electrotechnical Commission
+      abbreviation:
+        content: IEC
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - content: www.iso.org
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
 relation:
-  - type: partOf
-    bibitem:
-      formattedref: ISO/IEC DIR JTC 1
-      docid:
-        - id: ISO/IEC DIR JTC 1
-          type: ISO
-          primary: true
+- type: partOf
+  bibitem:
+    formattedref: ISO/IEC DIR JTC 1
+    docidentifier:
+    - content: ISO/IEC DIR JTC 1
+      type: ISO
+      primary: true
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

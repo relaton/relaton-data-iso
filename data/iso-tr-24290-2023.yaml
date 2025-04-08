@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
 id: ISO/TR24290-2023
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Datasets and data structure for clinical and biological evaluation metrics
-    in radiotherapy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Health informatics - Datasets and data structure for clinical and biological
-    evaluation metrics in radiotherapy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Jeux de données et structure de données pour les métriques d'évaluation
-    clinique et biologique en radiothérapie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Informatique de santé - Jeux de données et structure de données pour les
-    métriques d'évaluation clinique et biologique en radiothérapie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78344.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78344:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/83/78344.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TR 24290:2023
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Datasets and data structure for clinical and biological evaluation metrics
+    in radiotherapy
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Datasets and data structure for clinical and biological
+    evaluation metrics in radiotherapy
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Jeux de données et structure de données pour les métriques d'évaluation
+    clinique et biologique en radiothérapie
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Jeux de données et structure de données pour les
+    métriques d'évaluation clinique et biologique en radiothérapie
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78344.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78344:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/83/78344.detail.rss
+docidentifier:
+- content: ISO/TR 24290:2023
   type: ISO
   primary: true
-- id: ISO/TR 24290:2023(E)
+- content: ISO/TR 24290:2023(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:24290:stage-60.60
+- content: urn:iso:std:iso:tr:24290:stage-published
   type: URN
 docnumber: '24290'
 date:
 - type: published
-  value: 2023-05
+  at: 2023-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2023-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This document reports on the datasets and a data structure for reporting
+- language: en
+  script: Latn
+  content: "This document reports on the datasets and a data structure for reporting
     clinical and biological evaluation metrics (CBEMs). The reporting of radiation
     dose estimates is outside the scope of this document. \nThis document is applicable
     to CBEMs for external-beam radiation therapy (EBRT) modalities, but not CBEMs
@@ -99,12 +89,9 @@ abstract:
     In anticipation of the clinical use of CBEMs, the importance of research on clinical
     and scientific aspects of CBEMs is increasing, in concert with the importance
     of establishing a standardized data format for reporting of specifics of a CBEM. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document reports on the datasets and a data structure for reporting
+- language: fr
+  script: Latn
+  content: "This document reports on the datasets and a data structure for reporting
     clinical and biological evaluation metrics (CBEMs). The reporting of radiation
     dose estimates is outside the scope of this document. \nThis document is applicable
     to CBEMs for external-beam radiation therapy (EBRT) modalities, but not CBEMs
@@ -117,36 +104,34 @@ abstract:
     In anticipation of the clinical use of CBEMs, the importance of research on clinical
     and scientific aspects of CBEMs is increasing, in concert with the importance
     of establishing a standardized data format for reporting of specifics of a CBEM. "
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TR
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TR
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '78344'
     type: ISO
+    project_number:
+      content: '78344'

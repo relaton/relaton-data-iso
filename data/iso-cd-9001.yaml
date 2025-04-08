@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/CD9001
-title:
-- content: Quality management systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Quality management systems - Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Quality management systems
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Requirements
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Quality management systems - Requirements
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/88464.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/84/88464.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/CD 9001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Quality management systems
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Requirements
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Quality management systems - Requirements
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Quality management systems
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Requirements
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Quality management systems - Requirements
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88464.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/84/88464.detail.rss
+docidentifier:
+- content: ISO/CD 9001
   type: ISO
   primary: true
-- id: ISO/CD 9001(E)
+- content: ISO/CD 9001(E)
   type: iso-reference
-- id: urn:iso:std:iso:9001:stage-draft
+- content: urn:iso:std:iso:9001:stage-draft
   type: URN
 docnumber: '9001'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '6'
 language:
@@ -76,76 +65,67 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies requirements for a quality management system when an organization:
     a) needs to demonstrate its ability to consistently provide products and services that meet customer and applicable statutory and regulatory requirements, and
     b) aims to enhance customer satisfaction through the effective application of the system, including processes for improvement of the system and the assurance of conformity to customer and applicable statutory and regulatory requirements.
     All the requirements of this document are generic and are intended to be applicable to any organization, regardless of its type or size, or the products and services it provides.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Ce document spécifie les exigences relatives au système de management de la qualité lorsqu'un organisme:
     a) doit démontrer son aptitude à fournir constamment des produits et des services conformes aux exigences des clients et aux exigences légales et réglementaires applicables, et
     b) vise à accroître la satisfaction de ses clients par l'application efficace du système, y compris les processus pour l'amélioration du système et l'assurance de la conformité aux exigences des clients et aux exigences légales et réglementaires applicables.
     Toutes les exigences de ce document sont génériques et prévues pour s'appliquer à tout organisme, quels que soient son type ou sa taille, ou les produits et services qu'il fournit.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '30'
+    content: '30'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO/CD
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/CD
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO9001-2015
     type: standard
-    docid:
-    - id: ISO 9001:2015
+    formattedref: ISO 9001:2015
+    docidentifier:
+    - content: ISO 9001:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 9001:2015
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO9001-2015/Amd1-2024
     type: standard
-    docid:
-    - id: ISO 9001:2015/Amd 1:2024
+    formattedref: ISO 9001:2015/Amd 1:2024
+    docidentifier:
+    - content: ISO 9001:2015/Amd 1:2024
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 9001:2015/Amd 1:2024
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Quality systems
-      number: 176
+    - number: 176
       type: TC
       identifier: ISO/TC 176/SC 2
+      content: Quality systems
   ics:
   - code: 03.100.70
     text: Management systems
   - code: 03.120.10
     text: Quality management and quality assurance
   structuredidentifier:
-    project_number: '88464'
     type: ISO
+    project_number:
+      content: '88464'

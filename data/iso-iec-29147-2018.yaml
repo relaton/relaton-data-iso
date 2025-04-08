@@ -1,111 +1,98 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC29147-2018
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Security techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Vulnerability disclosure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Security techniques - Vulnerability disclosure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Techniques de sécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Divulgation de vulnérabilité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Techniques de sécurité - Divulgation de
-    vulnérabilité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/72311.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:72311:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/23/72311.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 29147:2018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Security techniques
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Vulnerability disclosure
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Security techniques - Vulnerability disclosure
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Techniques de sécurité
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Divulgation de vulnérabilité
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Techniques de sécurité - Divulgation de
+    vulnérabilité
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/72311.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:72311:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/23/72311.detail.rss
+docidentifier:
+- content: ISO/IEC 29147:2018
   type: ISO
   primary: true
-- id: ISO/IEC 29147:2018(E)
+- content: ISO/IEC 29147:2018(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:29147:stage-90.93
+- content: urn:iso:std:iso-iec:29147:stage-90.93
   type: URN
 docnumber: '29147'
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2018-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides requirements and recommendations to vendors on the disclosure of vulnerabilities in products and services. Vulnerability disclosure enables users to perform technical vulnerability management as specified in ISO/IEC 27002:2013, 12.6.1[1]. Vulnerability disclosure helps users protect their systems and data, prioritize defensive investments, and better assess risk. The goal of vulnerability disclosure is to reduce the risk associated with exploiting vulnerabilities. Coordinated vulnerability disclosure is especially important when multiple vendors are affected. This document provides:
     —          guidelines on receiving reports about potential vulnerabilities;
     —          guidelines on disclosing vulnerability remediation information;
@@ -115,12 +102,9 @@ abstract:
     —          examples of techniques, policies (Annex A), and communications (Annex B).
     Other related activities that take place between receiving and disclosing vulnerability reports are described in ISO/IEC 30111.
     This document is applicable to vendors who choose to practice vulnerability disclosure to reduce risk to users of vendors' products and services.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document fournit des exigences et des recommandations à l'attention de fournisseurs concernant la divulgation de vulnérabilités dans des produits et services. La divulgation de vulnérabilité permet aux utilisateurs d'effectuer une gestion des vulnérabilités techniques telle que spécifiée dans l'ISO/IEC 27002:2013, 12.6.1[1]. La divulgation de vulnérabilité aide les utilisateurs à protéger leurs systèmes et données, à prioriser les investissements défensifs et à mieux apprécier le risque. L'objectif d'une divulgation de vulnérabilité est de réduire le risque associé à l'exploitation de vulnérabilités. Une divulgation de vulnérabilité coordonnée est particulièrement importante lorsque plusieurs fournisseurs sont affectés. Le présent document fournit:
     —          des lignes directrices sur la réception de signalements concernant des vulnérabilités potentielles;
     —          des lignes directrices sur la divulgation d'informations concernant la remédiation de vulnérabilités;
@@ -130,48 +114,43 @@ abstract:
     —          des exemples de techniques, de politiques (Annexe A) et de communications (Annexe B).
     D'autres activités associées intervenant entre la réception et la divulgation de signalements de vulnérabilités sont décrites dans l'ISO/IEC 30111.
     Le présent document s'applique aux fournisseurs qui choisissent de pratiquer la divulgation de vulnérabilité pour réduire le risque pour les utilisateurs de produits et services de fournisseurs.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC29147-2014
     type: standard
-    docid:
-    - id: ISO/IEC 29147:2014
+    formattedref: ISO/IEC 29147:2014
+    docidentifier:
+    - content: ISO/IEC 29147:2014
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC 29147:2014
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information security, cybersecurity and privacy protection
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
   ics:
   - code: '35.030'
     text: IT Security
   structuredidentifier:
-    project_number: '72311'
     type: ISO
+    project_number:
+      content: '72311'

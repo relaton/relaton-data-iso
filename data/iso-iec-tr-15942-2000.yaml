@@ -1,113 +1,100 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTR15942-2000
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Programming languages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Guide for the use of the Ada programming language in high integrity systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Programming languages - Guide for the use of the
-    Ada programming language in high integrity systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Langages de programmation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Guide pour l'emploi du langage de programmation Ada dans les systèmes de
-    haute intégrité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Langages de programmation - Guide pour
-    l'emploi du langage de programmation Ada dans les systèmes de haute intégrité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/29575.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:29575:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/02/95/29575.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TR 15942:2000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Programming languages
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Guide for the use of the Ada programming language in high integrity systems
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Programming languages - Guide for the use of the
+    Ada programming language in high integrity systems
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langages de programmation
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Guide pour l'emploi du langage de programmation Ada dans les systèmes de
+    haute intégrité
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Langages de programmation - Guide pour
+    l'emploi du langage de programmation Ada dans les systèmes de haute intégrité
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/29575.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:29575:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/95/29575.detail.rss
+docidentifier:
+- content: ISO/IEC TR 15942:2000
   type: ISO
   primary: true
-- id: ISO/IEC TR 15942:2000(E)
+- content: ISO/IEC TR 15942:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:tr:15942:stage-90.93
+- content: urn:iso:std:iso-iec:tr:15942:stage-90.93
   type: URN
 docnumber: '15942'
 date:
 - type: published
-  value: 2000-03
+  at: 2000-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2000-03
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     1 Scope
     This Technical Report provides guidance on the use of Ada when producing high integrity systems. In producing such
     applications it is usually the case that adherence to guidelines or standards has to be demonstrated to independent bodies.
@@ -161,12 +148,9 @@ abstract:
     _ Application-specific issues,
     _ Hardware and system-specific issues,
     _ Human factor
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     1 Scope
     This Technical Report provides guidance on the use of Ada when producing high integrity systems. In producing such
     applications it is usually the case that adherence to guidelines or standards has to be demonstrated to independent bodies.
@@ -220,36 +204,34 @@ abstract:
     _ Application-specific issues,
     _ Hardware and system-specific issues,
     _ Human factor
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '29575'
     type: ISO
+    project_number:
+      content: '29575'

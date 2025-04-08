@@ -1,111 +1,103 @@
 ---
-schema-version: v1.2.7
 id: ISO1194-1973
-title:
-- content: Cheese triers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Cheese triers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Sondes à fromage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Sondes à fromage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/5788.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/57/5788.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 1194:1973
+schema_version: v1.4.1
+fetched: '2024-01-16'
+title:
+- language: en
+  script: Latn
+  content: Cheese triers
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Cheese triers
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sondes à fromage
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sondes à fromage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/5788.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/57/5788.detail.rss
+docidentifier:
+- content: ISO 1194:1973
   type: ISO
   primary: true
-- id: ISO 1194:1973(E)
+- content: ISO 1194:1973(E)
   type: iso-reference
-- id: urn:iso:std:iso:1194:stage-95.99
+- content: urn:iso:std:iso:1194:stage-95.99
   type: URN
 docnumber: '1194'
 date:
 - type: published
-  value: 1973-06
+  at: 1973-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1973-06
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO707-1985
     type: standard
-    docid:
-    - id: ISO 707:1985
+    formattedref: ISO 707:1985
+    docidentifier:
+    - content: ISO 707:1985
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1985-02-01'
-    formattedref:
-      content: ISO 707:1985
-      format: text/plain
+      at: '1985-02-01'
 place:
-- Geneva
-fetched: '2024-01-16'
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Milk and milk products
-    number: 34
-    type: TC
-    identifier: ISO/TC 34/SC 5
-ics:
-- code: 67.100.30
-  text: Cheese
-structuredidentifier:
-  project_number: ISO 1194
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 34
+      type: TC
+      identifier: ISO/TC 34/SC 5
+      content: Milk and milk products
+  ics:
+  - code: 67.100.30
+    text: Cheese
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 1194

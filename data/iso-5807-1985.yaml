@@ -1,156 +1,134 @@
 ---
-schema-version: v1.2.9
 id: ISO5807-1985
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information processing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information processing
   type: title-intro
-- content: Documentation symbols and conventions for data, program and system flowcharts,
+  format: text/plain
+- language: en
+  script: Latn
+  content: Documentation symbols and conventions for data, program and system flowcharts,
     program network charts and system resources charts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: Information processing - Documentation symbols and conventions for data,
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information processing - Documentation symbols and conventions for data,
     program and system flowcharts, program network charts and system resources charts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Traitement de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Traitement de l'information
   type: title-intro
-- content: Symboles de documentation et conventions applicables aux données, aux organigrammes
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Symboles de documentation et conventions applicables aux données, aux organigrammes
     de programmation et d'analyse, aux schémas des réseaux de programmes et des ressources
     de système
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: title-main
-- content: Traitement de l'information - Symboles de documentation et conventions
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Traitement de l'information - Symboles de documentation et conventions
     applicables aux données, aux organigrammes de programmation et d'analyse, aux
     schémas des réseaux de programmes et des ressources de système
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/11955.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:11955:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/01/19/11955.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 5807:1985
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/11955.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:11955:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/19/11955.detail.rss
+docidentifier:
+- content: ISO 5807:1985
   type: ISO
   primary: true
-- id: ISO 5807:1985(E)
+- content: ISO 5807:1985(E)
   type: iso-reference
-- id: urn:iso:std:iso:5807:stage-90.93
+- content: urn:iso:std:iso:5807:stage-90.93
   type: URN
 docnumber: '5807'
 date:
 - type: published
-  value: 1985-02
+  at: 1985-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1985-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Defines symbols to be used in information processing documentation and
+- language: en
+  script: Latn
+  content: Defines symbols to be used in information processing documentation and
     gives guidance on conventions tor their use in data flowcharts, program flowcharts,
     system flowcharts, program network charts, system resources charts. Applicable
     in conjunction with ISO 2382/1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Defines symbols to be used in information processing documentation and
+- language: fr
+  script: Latn
+  content: Defines symbols to be used in information processing documentation and
     gives guidance on conventions tor their use in data flowcharts, program flowcharts,
     system flowcharts, program network charts, system resources charts. Applicable
     in conjunction with ISO 2382/1.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO1028-1973
     type: standard
-    docid:
-    - id: ISO 1028:1973
+    formattedref: ISO 1028:1973
+    docidentifier:
+    - content: ISO 1028:1973
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 1028:1973
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO2636-1973
     type: standard
-    docid:
-    - id: ISO 2636:1973
+    formattedref: ISO 2636:1973
+    docidentifier:
+    - content: ISO 2636:1973
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 2636:1973
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Software and systems engineering
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
   ics:
   - code: '35.080'
     text: Software
@@ -158,5 +136,6 @@ ext:
     text: Graphical symbols for use on information technology and telecommunications
       technical drawings and in relevant technical product documentation
   structuredidentifier:
-    project_number: '11955'
     type: ISO
+    project_number:
+      content: '11955'

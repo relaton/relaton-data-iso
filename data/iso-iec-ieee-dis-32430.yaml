@@ -1,93 +1,84 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC/IEEEDIS32430
-title:
-- content: Software engineering
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Software non-functional size measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Software engineering - Software non-functional size measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Ingénierie du logiciel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Norme pour la quantification des caractéristiques non fonctionnelles des
-    logiciels
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Ingénierie du logiciel - Norme pour la quantification des caractéristiques
-    non fonctionnelles des logiciels
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/86303.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:86303:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/63/86303.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC/IEEE DIS 32430
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Software engineering
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Software non-functional size measurement
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Software engineering - Software non-functional size measurement
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ingénierie du logiciel
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Norme pour la quantification des caractéristiques non fonctionnelles des
+    logiciels
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ingénierie du logiciel - Norme pour la quantification des caractéristiques
+    non fonctionnelles des logiciels
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/86303.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:86303:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/63/86303.detail.rss
+docidentifier:
+- content: ISO/IEC/IEEE DIS 32430
   type: ISO
   primary: true
-- id: ISO/IEC/IEEE DIS 32430(E)
+- content: ISO/IEC/IEEE DIS 32430(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec-ieee:32430:stage-draft
+- content: urn:iso:std:iso-iec-ieee:32430:stage-draft
   type: URN
 docnumber: '32430'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.ieee.org
     name:
     - content: Institute of Electrical and Electronics Engineers
     abbreviation:
       content: IEEE
-    url: www.ieee.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -96,7 +87,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document specifies a method for measuring the non-functional size
+- language: en
+  script: Latn
+  content: "This document specifies a method for measuring the non-functional size
     of the software. It complements ISO/ IEC 20926:2009, which defines a method for
     measuring the functional size of the software. Together, the two standards provide
     a method to measure the software size derived by quantifying the functional and
@@ -112,12 +105,9 @@ abstract:
     non-functional aspects.\nThe standard also provides information on how to apply
     the non-functional size for project resource forecasting, cost estimation, and
     project performance management. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This document specifies a method for measuring the non-functional size
+- language: fr
+  script: Latn
+  content: "This document specifies a method for measuring the non-functional size
     of the software. It complements ISO/ IEC 20926:2009, which defines a method for
     measuring the functional size of the software. Together, the two standards provide
     a method to measure the software size derived by quantifying the functional and
@@ -133,48 +123,43 @@ abstract:
     non-functional aspects.\nThe standard also provides information on how to apply
     the non-functional size for project resource forecasting, cost estimation, and
     project performance management. "
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC/IEEE
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC/IEEE
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IEC/IEEE32430-2021
     type: standard
-    docid:
-    - id: ISO/IEC/IEEE 32430:2021
+    formattedref: ISO/IEC/IEEE 32430:2021
+    docidentifier:
+    - content: ISO/IEC/IEEE 32430:2021
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 32430:2021
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Software and systems engineering
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 7
-ics:
-- code: '35.080'
-  text: Software
-structuredidentifier:
-  project_number: ISO 32430
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
+  ics:
+  - code: '35.080'
+    text: Software
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 32430

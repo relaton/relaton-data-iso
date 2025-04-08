@@ -1,100 +1,86 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECDTS12791.2
+type: standard
+schema_version: v1.4.1
 title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology
   type: title-intro
-- content: Artificial intelligence
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Artificial intelligence
   type: title-main
-- content: Treatment of unwanted bias in classification and regression machine learning
+  format: text/plain
+- language: en
+  script: Latn
+  content: Treatment of unwanted bias in classification and regression machine learning
     tasks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: Information technology - Artificial intelligence - Treatment of unwanted
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Artificial intelligence - Treatment of unwanted
     bias in classification and regression machine learning tasks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
   type: title-intro
-- content: Intelligence artificielle
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Intelligence artificielle
   type: title-main
-- content: Traitement des biais indésirables dans les tâches d'apprentissage automatique
-    de classification et de régression
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Traitement des biais indésirables dans les tâches d'apprentissage automatique
+    de classification et de régression
   type: title-part
-- content: Technologies de l'information - Intelligence artificielle - Traitement
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Intelligence artificielle - Traitement
     des biais indésirables dans les tâches d'apprentissage automatique de classification
     et de régression
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/84110.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/41/84110.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO/IEC DTS 12791.2
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84110.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/41/84110.detail.rss
+docidentifier:
+- content: ISO/IEC DTS 12791.2
   type: ISO
   primary: true
-- id: ISO/IEC DTS 12791.2(E)
+- content: ISO/IEC DTS 12791.2(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:ts:12791:stage-draft.v2
+- content: urn:iso:std:iso-iec:ts:12791:stage-draft.v2
   type: URN
 docnumber: '12791'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -103,51 +89,48 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides mitigation techniques that can be applied throughout the AI system life
     cycle in order to treat unwanted bias. This document describes how to address unwanted bias
     in AI systems that use machine learning to conduct classification and regression tasks. This
     document is applicable to all types and sizes of organization.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document provides mitigation techniques that can be applied throughout the AI system life
     cycle in order to treat unwanted bias. This document describes how to address unwanted bias
     in AI systems that use machine learning to conduct classification and regression tasks. This
     document is applicable to all types and sizes of organization.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: technical-specification
-editorialgroup:
-  technical_committee:
-  - name: Artificial intelligence
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 42
-ics:
-- code: '35.020'
-  text: Information technology (IT) in general
-structuredidentifier:
-  project_number: ISO 12791
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: technical-specification
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 42
+      content: Artificial intelligence
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 12791

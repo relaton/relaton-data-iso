@@ -1,96 +1,82 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECFDIS5212
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Data usage
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Guidance for data usage
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Data usage - Guidance for data usage
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Utilisation des données
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Recommandations pour l'utilisation des données
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Utilisation des données - Recommandations
-    pour l'utilisation des données
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/80999.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/09/80999.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC FDIS 5212
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Data usage
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Guidance for data usage
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Data usage - Guidance for data usage
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Utilisation des données
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Recommandations pour l'utilisation des données
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Utilisation des données - Recommandations
+    pour l'utilisation des données
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/80999.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/09/80999.detail.rss
+docidentifier:
+- content: ISO/IEC FDIS 5212
   type: ISO
   primary: true
-- id: ISO/IEC FDIS 5212(E)
+- content: ISO/IEC FDIS 5212(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:5212:stage-draft
+- content: urn:iso:std:iso-iec:5212:stage-draft
   type: URN
 docnumber: '5212'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -98,31 +84,34 @@ language:
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Data management and interchange
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 32
-ics:
-- code: '35.020'
-  text: Information technology (IT) in general
-structuredidentifier:
-  project_number: ISO 5212
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 32
+      content: Data management and interchange
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 5212

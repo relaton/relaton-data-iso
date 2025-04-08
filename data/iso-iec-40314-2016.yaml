@@ -1,98 +1,89 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC40314-2016
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mathematical Markup Language (MathML) Version 3.0 2nd Edition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information technology - Mathematical Markup Language (MathML) Version
-    3.0 2nd Edition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Langage de marquage mathématique (MathML) Version 3.0 2e édition
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Technologies de l'information - Langage de marquage mathématique (MathML)
-    Version 3.0 2e édition
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/58439.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:58439:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/84/58439.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 40314:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Mathematical Markup Language (MathML) Version 3.0 2nd Edition
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Mathematical Markup Language (MathML) Version
+    3.0 2nd Edition
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langage de marquage mathématique (MathML) Version 3.0 2e édition
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Langage de marquage mathématique (MathML)
+    Version 3.0 2e édition
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/58439.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:58439:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/84/58439.detail.rss
+docidentifier:
+- content: ISO/IEC 40314:2016
   type: ISO
   primary: true
-- id: ISO/IEC 40314:2016(E)
+- content: ISO/IEC 40314:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:40314:stage-90.93
+- content: urn:iso:std:iso-iec:40314:stage-90.93
   type: URN
 docnumber: '40314'
 date:
 - type: published
-  value: 2016-02
+  at: 2016-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2016-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 40314:2016 defines the Mathematical Markup Language, or MathML.
+- language: en
+  script: Latn
+  content: "ISO/IEC 40314:2016 defines the Mathematical Markup Language, or MathML.
     \nMathML is a markup language for describing mathematical notation and capturing
     both its structure and content. The goal of MathML is to enable mathematics to
     be served, received, and processed on the World Wide Web, just as HTML has enabled
@@ -105,12 +96,9 @@ abstract:
     XML application and most of the examples in this specification assume that syntax.
     Unless explictly noted, the examples in this specification are also valid HTML
     syntax."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO/IEC 40314:2016 defines the Mathematical Markup Language, or MathML.
+- language: fr
+  script: Latn
+  content: "ISO/IEC 40314:2016 defines the Mathematical Markup Language, or MathML.
     \nMathML is a markup language for describing mathematical notation and capturing
     both its structure and content. The goal of MathML is to enable mathematics to
     be served, received, and processed on the World Wide Web, just as HTML has enabled
@@ -123,36 +111,34 @@ abstract:
     XML application and most of the examples in this specification assume that syntax.
     Unless explictly noted, the examples in this specification are also valid HTML
     syntax."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Information technology
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1
+      content: Information technology
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '58439'
     type: ISO
+    project_number:
+      content: '58439'

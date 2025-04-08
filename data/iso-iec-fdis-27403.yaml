@@ -1,82 +1,72 @@
 ---
-schema-version: v1.2.8
 id: ISO/IECFDIS27403
-title:
-- content: Cybersecurity – IoT security and privacy – Guidelines for IoT-domotics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Cybersecurity – IoT security and privacy – Guidelines for IoT-domotics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Cybersécurité
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Sécurité et protection de la vie privée pour l'IDO
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Lignes directrices pour la domotique-IDO
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Cybersécurité - Sécurité et protection de la vie privée pour l'IDO - Lignes
-    directrices pour la domotique-IDO
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78702.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/07/87/78702.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC FDIS 27403
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Cybersecurity – IoT security and privacy – Guidelines for IoT-domotics
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Cybersecurity – IoT security and privacy – Guidelines for IoT-domotics
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cybersécurité
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Sécurité et protection de la vie privée pour l'IDO
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Lignes directrices pour la domotique-IDO
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cybersécurité - Sécurité et protection de la vie privée pour l'IDO - Lignes
+    directrices pour la domotique-IDO
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78702.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/87/78702.detail.rss
+docidentifier:
+- content: ISO/IEC FDIS 27403
   type: ISO
   primary: true
-- id: ISO/IEC FDIS 27403(E)
+- content: ISO/IEC FDIS 27403(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:27403:stage-draft
+- content: urn:iso:std:iso-iec:27403:stage-draft
   type: URN
 docnumber: '27403'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
 language:
@@ -85,45 +75,42 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides guidelines to analyse security and privacy risks
+- language: en
+  script: Latn
+  content: This document provides guidelines to analyse security and privacy risks
     and identifies controls that can be implemented in IoT-domotics systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document provides guidelines to analyse security and privacy risks
+- language: fr
+  script: Latn
+  content: This document provides guidelines to analyse security and privacy risks
     and identifies controls that can be implemented in IoT-domotics systems.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Information security, cybersecurity and privacy protection
-    number: 1
-    type: IEC
-    identifier: ISO/IEC JTC 1/SC 27
-ics:
-- code: '35.030'
-  text: IT Security
-structuredidentifier:
-  project_number: ISO 27403
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 1
+      type: IEC
+      identifier: ISO/IEC JTC 1/SC 27
+      content: Information security, cybersecurity and privacy protection
+  ics:
+  - code: '35.030'
+    text: IT Security
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 27403

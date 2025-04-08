@@ -1,126 +1,111 @@
 ---
-schema-version: v1.2.9
 id: ISO8193-1984
-title:
-- content: Shipbuilding
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Shell plating information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Shipbuilding - Shell plating information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Construction navale
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Renseignements concernant les tôles de bordé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Construction navale - Renseignements concernant les tôles de bordé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/15285.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/52/15285.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8193:1984
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Shipbuilding
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Shell plating information
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Shipbuilding - Shell plating information
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Construction navale
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Renseignements concernant les tôles de bordé
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Construction navale - Renseignements concernant les tôles de bordé
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/15285.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/52/15285.detail.rss
+docidentifier:
+- content: ISO 8193:1984
   type: ISO
   primary: true
-- id: ISO 8193:1984(E)
+- content: ISO 8193:1984(E)
   type: iso-reference
-- id: urn:iso:std:iso:8193:stage-95.99
+- content: urn:iso:std:iso:8193:stage-95.99
   type: URN
 docnumber: '8193'
 date:
 - type: published
-  value: 1984-09
+  at: 1984-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1984-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Serves to transfer of information between organizations. The shell plating
+- language: en
+  script: Latn
+  content: Serves to transfer of information between organizations. The shell plating
     lines file contains numerical representations of seams and butts of the external
     shell, stored in the shipline data format specified in ISO 7838.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Serves to transfer of information between organizations. The shell plating
+- language: fr
+  script: Latn
+  content: Serves to transfer of information between organizations. The shell plating
     lines file contains numerical representations of seams and butts of the external
     shell, stored in the shipline data format specified in ISO 7838.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Ship design
-      number: 8
+    - number: 8
       type: TC
       identifier: ISO/TC 8/SC 8
+      content: Ship design
   ics:
   - code: 47.020.01
     text: General standards related to shipbuilding and marine structures
   structuredidentifier:
-    project_number: '15285'
     type: ISO
+    project_number:
+      content: '15285'

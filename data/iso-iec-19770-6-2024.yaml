@@ -1,112 +1,99 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC19770-6-2024
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: IT asset management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 6: Hardware identification tag'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - IT asset management - Part 6: Hardware identification
-    tag'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Gestion des actifs TI
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 6: Étiquette d''identification du matériel'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Gestion des actifs TI - Partie 6: Étiquette
-    d''identification du matériel'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/77642.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:77642:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/76/77642.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 19770-6:2024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: IT asset management
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 6: Hardware identification tag'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - IT asset management - Part 6: Hardware identification
+    tag'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Gestion des actifs TI
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 6: Étiquette d''identification du matériel'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Gestion des actifs TI - Partie 6: Étiquette
+    d''identification du matériel'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/77642.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:77642:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/76/77642.detail.rss
+docidentifier:
+- content: ISO/IEC 19770-6:2024
   type: ISO
   primary: true
-- id: ISO/IEC 19770-6:2024(E)
+- content: ISO/IEC 19770-6:2024(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:19770:-6:stage-60.60
+- content: urn:iso:std:iso-iec:19770:-6:stage-published
   type: URN
 docnumber: '19770'
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document provides specifications for a transport format which enables the digital encapsulation of this data. This document refers to an encapsulation of hardware identification (HWID) data as a HWID tag, just as ISO/IEC 19770-2 refers to software identification (SWID) tags for software identification.
     This document applies to the following.
     —     Tag producers: organizations that create HWID tags for use by others in the market. A tag producer can be part of the organization creating the hardware or a third-party organization. These organizations can be broken down into two major categories.
@@ -117,12 +104,9 @@ abstract:
     —     IT discovery and processing tool providers: entities that provide tools to collect, store, and process hardware identification tags. These tools may be targeted at a variety of different market segments, including security, asset management, and logistics.
     This document deals only with hardware device or component identification.
     This document does not detail information technology asset management (ITAM) processes required for discovery and management of hardware (which is provided in ISO/IEC 19770-1) software identification tags (as defined by ISO/IEC 19770-2), entitlement tags (as defined by ISO/IEC 19770-3), or resource utilization measurements (as defined by ISO/IEC 19770-4).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document provides specifications for a transport format which enables the digital encapsulation of this data. This document refers to an encapsulation of hardware identification (HWID) data as a HWID tag, just as ISO/IEC 19770-2 refers to software identification (SWID) tags for software identification.
     This document applies to the following.
     —     Tag producers: organizations that create HWID tags for use by others in the market. A tag producer can be part of the organization creating the hardware or a third-party organization. These organizations can be broken down into two major categories.
@@ -133,38 +117,36 @@ abstract:
     —     IT discovery and processing tool providers: entities that provide tools to collect, store, and process hardware identification tags. These tools may be targeted at a variety of different market segments, including security, asset management, and logistics.
     This document deals only with hardware device or component identification.
     This document does not detail information technology asset management (ITAM) processes required for discovery and management of hardware (which is provided in ISO/IEC 19770-1) software identification tags (as defined by ISO/IEC 19770-2), entitlement tags (as defined by ISO/IEC 19770-3), or resource utilization measurements (as defined by ISO/IEC 19770-4).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Software and systems engineering
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 7
+      content: Software and systems engineering
   ics:
   - code: '35.080'
     text: Software
   - code: 03.120.20
     text: Product and company certification. Conformity assessment
   structuredidentifier:
-    project_number: '77642'
     type: ISO
+    project_number:
+      content: '77642'

@@ -1,73 +1,62 @@
 ---
-schema-version: v1.2.9
 id: ISO/FDIS3170
-title:
-- content: Hydrocarbon Liquids
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Manual Sampling
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Hydrocarbon Liquids - Manual Sampling
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Hydrocarbures liquides
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Échantillonnage manuel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Hydrocarbures liquides - Échantillonnage manuel
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/88551.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/85/88551.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/FDIS 3170
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Hydrocarbon Liquids
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Manual Sampling
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Hydrocarbon Liquids - Manual Sampling
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Hydrocarbures liquides
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Échantillonnage manuel
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Hydrocarbures liquides - Échantillonnage manuel
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88551.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/85/88551.detail.rss
+docidentifier:
+- content: ISO/FDIS 3170
   type: ISO
   primary: true
-- id: ISO/FDIS 3170(E)
+- content: ISO/FDIS 3170(E)
   type: iso-reference
-- id: urn:iso:std:iso:3170:stage-draft
+- content: urn:iso:std:iso:3170:stage-draft
   type: URN
 docnumber: '3170'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '4'
 language:
@@ -76,61 +65,55 @@ language:
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 3170:2004 specifies the manual methods to be used for obtaining samples of liquid or semi-liquid hydrocarbons, tank residues and deposits from fixed tanks, railcars, road vehicles, ships and barges, drums and cans, or from liquids being pumped in pipelines.
     ISO 3170:2004 applies to the sampling of petroleum products, crude oils and intermediate products, which are stored in tanks at or near atmospheric pressure, or transferred by pipelines, and are handled as liquids at temperatures from near ambient up to 200 degrees Celsius.
     The sampling procedures specified are not intended for the sampling of special petroleum products which are the subject of other International Standards, such as electrical insulating oils (IEC 60475), liquefied petroleum gases (ISO 4257), liquefied natural gases (ISO 8943) and gaseous natural gases (ISO 10715).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 3170:2004 spécifie les méthodes manuelles de prélèvement à employer en vue d'obtenir des échantillons d'hydrocarbures liquides ou semi-liquides, de résidus et de dépôts contenus dans des réservoirs fixes, des wagons-citernes, des camions-citernes, des navires-citernes, des chalands, des fûts et des bidons, ou de liquides en cours de pompage dans des oléoducs.
     L'ISO 3170:2004 s'applique à l'échantillonnage de produits pétroliers, de pétroles bruts et de produits intermédiaires, stockés dans des réservoirs à la pression atmosphérique ou approchante, ou acheminés par oléoduc, et qui sont manutentionnés à l'état liquide à des températures allant d'une température voisine de celle ambiante à 200 °C.
     Les méthodes d'échantillonnage spécifiées ne concernent pas certains produits pétroliers qui font l'objet d'autres Normes internationales, tels que les huiles diélectriques (CEI 60475), les gaz de pétrole liquéfiés (ISO 4257), les gaz naturels liquéfiés (ISO 8943) et à l'état gazeux (ISO 10715).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '50'
+    content: '50'
   substage:
-    value: '20'
+    content: '20'
 copyright:
-- owner:
-  - name:
-    - content: ISO/FDIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/FDIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO3170-2004
     type: standard
-    docid:
-    - id: ISO 3170:2004
+    formattedref: ISO 3170:2004
+    docidentifier:
+    - content: ISO 3170:2004
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 3170:2004
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Measurement of petroleum and related products
-      number: 28
+    - number: 28
       type: TC
       identifier: ISO/TC 28/SC 2
+      content: Measurement of petroleum and related products
   ics:
   - code: '75.080'
     text: Petroleum products in general
   structuredidentifier:
-    project_number: '88551'
     type: ISO
+    project_number:
+      content: '88551'

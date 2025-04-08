@@ -1,157 +1,136 @@
 ---
-schema-version: v1.2.9
 id: ISO9094-2022
-title:
-- content: Small craft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Fire protection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Small craft - Fire protection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Petits navires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Protection contre l'incendie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Petits navires - Protection contre l'incendie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78242.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78242:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/82/78242.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 9094:2022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Small craft
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Fire protection
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Small craft - Fire protection
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Petits navires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Protection contre l'incendie
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Petits navires - Protection contre l'incendie
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78242.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78242:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/82/78242.detail.rss
+docidentifier:
+- content: ISO 9094:2022
   type: ISO
   primary: true
-- id: ISO 9094:2022(E)
+- content: ISO 9094:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:9094:stage-90.92
+- content: urn:iso:std:iso:9094:stage-90.92
   type: URN
 docnumber: '9094'
 date:
 - type: published
-  value: 2022-11
+  at: 2022-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2022-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document defines a practical degree of fire prevention and protection intended to provide enough time for occupants to escape a fire on board small craft.
     It applies to small craft having a length of the hull (LH) of up to 24 m except for personal watercraft.
     This document does not cover:
     —    the design and installation of permanently installed galley stoves and heating appliances (including components used to distribute the heat) using fuels that are liquid at atmospheric pressure on small craft, which are covered by ISO 14895:2016;
     —    carbon monoxide detecting systems, which are covered by ISO 12133.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document définit un degré pratique de prévention et de protection contre l’incendie destiné à donner un temps suffisant aux occupants pour échapper à un incendie à bord d’un petit navire.
     Elle s’applique aux petits navires d’une longueur de coque (LH) inférieure ou égale à 24 m, à l’exception des véhicules nautiques à moteur.
     Le présent document ne couvre pas:
     —    la conception et l’installation des réchauds de cuisson et appareils de chauffage installés à demeure (y compris les composants utilisés pour distribuer la chaleur) et utilisant du combustible liquide à la pression atmosphérique, qui sont couverts par l’ISO 14895:2016;
     —    les systèmes de détection du monoxyde de carbone qui sont couverts par l’ISO 12133.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO9094-2015
     type: standard
-    docid:
-    - id: ISO 9094:2015
+    formattedref: ISO 9094:2015
+    docidentifier:
+    - content: ISO 9094:2015
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 9094:2015
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/CD9094
     type: standard
-    docid:
-    - id: ISO/CD 9094
+    formattedref: ISO/CD 9094
+    docidentifier:
+    - content: ISO/CD 9094
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/CD 9094
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Small craft
-      number: 188
+    - number: 188
       type: TC
       identifier: ISO/TC 188
+      content: Small craft
   ics:
   - code: '47.080'
     text: Small craft
   structuredidentifier:
-    project_number: '78242'
     type: ISO
+    project_number:
+      content: '78242'

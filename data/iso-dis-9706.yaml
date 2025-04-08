@@ -1,91 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO/DIS9706
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Paper for documents
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Requirements for permanence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information and documentation - Paper for documents - Requirements for
-    permanence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Papier pour documents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Exigences relatives à la permanence
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information et documentation - Papier pour documents - Exigences relatives
-    à la permanence
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/88908.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:88908:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/08/89/88908.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/DIS 9706
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Paper for documents
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Requirements for permanence
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - Paper for documents - Requirements for
+    permanence
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Papier pour documents
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Exigences relatives à la permanence
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Papier pour documents - Exigences relatives
+    à la permanence
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/88908.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:88908:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/89/88908.detail.rss
+docidentifier:
+- content: ISO/DIS 9706
   type: ISO
   primary: true
-- id: ISO/DIS 9706(E)
+- content: ISO/DIS 9706(E)
   type: iso-reference
-- id: urn:iso:std:iso:9706:stage-draft
+- content: urn:iso:std:iso:9706:stage-draft
   type: URN
 docnumber: '9706'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
 language:
@@ -94,67 +79,61 @@ language:
 script:
 - Latn
 abstract:
-- content: Specifies the requirements for permanent paper intended for documents given
+- language: en
+  script: Latn
+  content: Specifies the requirements for permanent paper intended for documents given
     in terms of minimum strength measured by a tear test, minimum content of substance
     (such as calcium carbonate) that neutralize acid action measured by the alkali
     reserve, maximum content of easily oxidized material measured by the kappa number,
     maximum and minimum pH values of a cold water extract of the paper. Is applicable
     to unprinted papers. Is not applicable to boards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Specifies the requirements for permanent paper intended for documents given
+- language: fr
+  script: Latn
+  content: Specifies the requirements for permanent paper intended for documents given
     in terms of minimum strength measured by a tear test, minimum content of substance
     (such as calcium carbonate) that neutralize acid action measured by the alkali
     reserve, maximum content of easily oxidized material measured by the kappa number,
     maximum and minimum pH values of a cold water extract of the paper. Is applicable
     to unprinted papers. Is not applicable to boards.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '40'
+    content: '40'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/DIS
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO/DIS
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO9706-1994
     type: standard
-    docid:
-    - id: ISO 9706:1994
+    formattedref: ISO 9706:1994
+    docidentifier:
+    - content: ISO 9706:1994
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 9706:1994
-      format: text/plain
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Requirements for document storage and conditions for preservation
-    number: 46
-    type: TC
-    identifier: ISO/TC 46/SC 10
-ics:
-- code: '85.060'
-  text: Paper and board
-- code: 01.140.40
-  text: Publishing
-structuredidentifier:
-  project_number: ISO 9706
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 46
+      type: TC
+      identifier: ISO/TC 46/SC 10
+      content: Requirements for document storage and conditions for preservation
+  ics:
+  - code: '85.060'
+    text: Paper and board
+  - code: 01.140.40
+    text: Publishing
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: ISO 9706

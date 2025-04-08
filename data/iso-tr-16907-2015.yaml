@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO/TR16907-2015
-title:
-- content: Machine tools
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Numerical compensation of geometric errors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Machine tools - Numerical compensation of geometric errors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Machines-outils
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Compensation numérique des erreurs géométriques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Machines-outils - Compensation numérique des erreurs géométriques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/57912.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:57912:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/79/57912.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/TR 16907:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Machine tools
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Numerical compensation of geometric errors
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Machine tools - Numerical compensation of geometric errors
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Machines-outils
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Compensation numérique des erreurs géométriques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Machines-outils - Compensation numérique des erreurs géométriques
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/57912.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:57912:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/79/57912.detail.rss
+docidentifier:
+- content: ISO/TR 16907:2015
   type: ISO
   primary: true
-- id: ISO/TR 16907:2015(E)
+- content: ISO/TR 16907:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso:tr:16907:stage-60.60
+- content: urn:iso:std:iso:tr:16907:stage-published
   type: URN
 docnumber: '16907'
 date:
 - type: published
-  value: 2015-04
+  at: 2015-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2015-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/TR 16907:2015 provides information for the understanding and the application of numerical compensation of geometric errors for numerically controlled machine tools including:
     -      terminology associated with numerical compensation;
     -      representation of error functions output from different measuring methods;
@@ -91,12 +81,9 @@ abstract:
     ISO/TR 16907:2015 does not provide a detailed description of geometric errors measurement techniques that are specified in ISO 230 (all parts) and in machine tool specific performance evaluation standards and it is not meant to provide comprehensive theoretical and practical background on the existing technologies.
     ISO/TR 16907:2015 focuses on geometric errors of machine tools operating under no-load or quasi-static conditions. Errors resulting from the application of dynamic forces as well as other errors that might affect the finished part quality (e.g. tool wear) are not considered in this Technical Report.
     Deformations due to changing static load by moving axes are considered in 7.4.2.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/TR 16907:2015 provides information for the understanding and the application of numerical compensation of geometric errors for numerically controlled machine tools including:
     -      terminology associated with numerical compensation;
     -      representation of error functions output from different measuring methods;
@@ -105,36 +92,34 @@ abstract:
     ISO/TR 16907:2015 does not provide a detailed description of geometric errors measurement techniques that are specified in ISO 230 (all parts) and in machine tool specific performance evaluation standards and it is not meant to provide comprehensive theoretical and practical background on the existing technologies.
     ISO/TR 16907:2015 focuses on geometric errors of machine tools operating under no-load or quasi-static conditions. Errors resulting from the application of dynamic forces as well as other errors that might affect the finished part quality (e.g. tool wear) are not considered in this Technical Report.
     Deformations due to changing static load by moving axes are considered in 7.4.2.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/TR
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO/TR
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-report
+    content: technical-report
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Test conditions for metal cutting machine tools
-      number: 39
+    - number: 39
       type: TC
       identifier: ISO/TC 39/SC 2
+      content: Test conditions for metal cutting machine tools
   ics:
   - code: 25.080.01
     text: Machine tools in general
   structuredidentifier:
-    project_number: '57912'
     type: ISO
+    project_number:
+      content: '57912'

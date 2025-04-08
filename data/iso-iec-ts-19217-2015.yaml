@@ -1,151 +1,133 @@
 ---
-schema-version: v1.2.9
 id: ISO/IECTS19217-2015
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Programming languages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: C++ Extensions for concepts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Programming languages - C++ Extensions for concepts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologie de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Langages de programmation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Extensions C++ pour les concepts warning
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologie de l'information - Langages de programmation - Extensions C++
-    pour les concepts warning
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/64031.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/06/40/64031.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC TS 19217:2015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Programming languages
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: C++ Extensions for concepts
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Programming languages - C++ Extensions for concepts
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Langages de programmation
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Extensions C++ pour les concepts warning
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologie de l'information - Langages de programmation - Extensions C++
+    pour les concepts warning
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/64031.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/06/40/64031.detail.rss
+docidentifier:
+- content: ISO/IEC TS 19217:2015
   type: ISO
   primary: true
-- id: ISO/IEC TS 19217:2015(E)
+- content: ISO/IEC TS 19217:2015(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:ts:19217:stage-95.99
+- content: urn:iso:std:iso-iec:ts:19217:stage-95.99
   type: URN
 docnumber: '19217'
 date:
 - type: published
-  value: 2015-11
+  at: 2015-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2015-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC TS 19217:2015 describes extensions to the C++ Programming Language (1.2) that enable the specification and checking of constraints on template arguments, and the ability to overload functions and specialize class templates based on those constraints. These extensions include new syntactic forms and modifications to existing language semantics.
     The International Standard, ISO/IEC 14882, provides important context and specification for this Technical Specification. This document is written as a set of changes against that specification. Instructions to modify or add paragraphs are written as explicit instructions. Modifications made directly to existing text from the International Standard use underlining to represent added text and strikethrough to represent deleted text.
     WG21 paper N4191 defines "fold expressions", which are used to define constraint expressions resulting from the use of constrained-parameters that declare template parameter packs. This feature is not present in ISO/IEC 14882:2014, but it is planned to be included in the next revision of that International Standard. The specification of that feature is included in this document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC TS 19217:2015 describes extensions to the C++ Programming Language (1.2) that enable the specification and checking of constraints on template arguments, and the ability to overload functions and specialize class templates based on those constraints. These extensions include new syntactic forms and modifications to existing language semantics.
     The International Standard, ISO/IEC 14882, provides important context and specification for this Technical Specification. This document is written as a set of changes against that specification. Instructions to modify or add paragraphs are written as explicit instructions. Modifications made directly to existing text from the International Standard use underlining to represent added text and strikethrough to represent deleted text.
     WG21 paper N4191 defines "fold expressions", which are used to define constraint expressions resulting from the use of constrained-parameters that declare template parameter packs. This feature is not present in ISO/IEC 14882:2014, but it is planned to be included in the next revision of that International Standard. The specification of that feature is included in this document.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: technical-specification
+    content: technical-specification
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Programming languages, their environments and system software interfaces
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 22
+      content: Programming languages, their environments and system software interfaces
   ics:
   - code: '35.060'
     text: Languages used in information technology
   structuredidentifier:
-    project_number: '64031'
     type: ISO
+    project_number:
+      content: '64031'

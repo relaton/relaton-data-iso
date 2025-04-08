@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO14509-2000
-title:
-- content: Small craft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Measurement of airborne sound emitted by powered recreational craft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Small craft - Measurement of airborne sound emitted by powered recreational
-    craft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Petits navires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mesurage du bruit aérien émis par les navires de plaisance motorisés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Petits navires - Mesurage du bruit aérien émis par les navires de plaisance
-    motorisés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/24540.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/45/24540.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 14509:2000
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Small craft
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Measurement of airborne sound emitted by powered recreational craft
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Small craft - Measurement of airborne sound emitted by powered recreational
+    craft
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Petits navires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mesurage du bruit aérien émis par les navires de plaisance motorisés
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Petits navires - Mesurage du bruit aérien émis par les navires de plaisance
+    motorisés
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/24540.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/45/24540.detail.rss
+docidentifier:
+- content: ISO 14509:2000
   type: ISO
   primary: true
-- id: ISO 14509:2000(E)
+- content: ISO 14509:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso:14509:stage-95.99
+- content: urn:iso:std:iso:14509:stage-95.99
   type: URN
 docnumber: '14509'
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2000-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "\nLa présente Norme internationale spécifie les conditions d'obtention
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale spécifie les conditions d'obtention
     de résultats de mesures reproductibles et comparables du niveau de pression acoustique
     maximal du bruit aérien provoqué par le passage des navires de plaisance motorisés
     dont la coque ne dépasse pas 24 m de longueur, y compris les moteurs intérieurs,
@@ -93,67 +83,59 @@ abstract:
     de bruit pour les navires autres que ceux spécifiés ci-dessus.  La classe de précision
     des modes opératoires d'essais acoustiques spécifiés dans la présente Norme internationale
     est la classe 2 (expertise) définie dans l'ISO 12001. Voir aussi l'article 6.\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO14509-1-2008
     type: standard
-    docid:
-    - id: ISO 14509-1:2008
+    formattedref: ISO 14509-1:2008
+    docidentifier:
+    - content: ISO 14509-1:2008
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2008-09-19'
-    formattedref:
-      content: ISO 14509-1:2008
-      format: text/plain
+      at: '2008-09-19'
 - type: updates
   bibitem:
-    id: ISO14509-2000/Amd1-2004
     type: standard
-    docid:
-    - id: ISO 14509:2000/Amd 1:2004
+    formattedref: ISO 14509:2000/Amd 1:2004
+    docidentifier:
+    - content: ISO 14509:2000/Amd 1:2004
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2008-09-19'
-    formattedref:
-      content: ISO 14509:2000/Amd 1:2004
-      format: text/plain
+      at: '2008-09-19'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Small craft
-      number: 188
+    - number: 188
       type: TC
       identifier: ISO/TC 188
+      content: Small craft
   ics:
   - code: '47.080'
     text: Small craft
   - code: 17.140.30
     text: Noise emitted by means of transport
   structuredidentifier:
-    project_number: '24540'
     type: ISO
+    project_number:
+      content: '24540'

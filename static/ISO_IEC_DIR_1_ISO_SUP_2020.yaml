@@ -1,68 +1,70 @@
 ---
 id: ISO/IEC-DIR1-ISOSUP-2020
+type: standard
+schema_version: v1.4.1
 title:
-- type: title-intro
+- language: en
+  script: Latn
   content: ISO/IEC Directives, Part 1
-  language: en
-  script: Latn
+  type: title-intro
   format: text/plain
-- type: title-main
+- language: en
+  script: Latn
   content: Consolidated ISO Supplement
-  language: en
+  type: title-main
+- language: en
   script: Latn
-- type: title-part
   content: Procedures specific to ISO
-  language: en
+  type: title-part
+- language: fr
   script: Latn
-- type: title-intro
   content: Directives ISO/IEC, Partie 1
-  language: fr
-  script: Latn
+  type: title-intro
   format: text/plain
-- type: title-main
+- language: fr
+  script: Latn
   content: Supplément ISO consolidé
-  language: fr
+  type: title-main
+- language: fr
   script: Latn
-- type: title-part
   content: Procédures spécifiques à l'ISO
-  language: fr
-  script: Latn
-
-link:
+  type: title-part
+source:
 - type: src
   content: https://web.archive.org/web/20200824040449/https://www.iso.org/sites/directives/current/consolidated/index.xhtml
-
-type: standard
-doctype: directive
-
-docid:
-  id: ISO/IEC DIR 1 ISO SUP:2020
+docidentifier:
+- content: ISO/IEC DIR 1 ISO SUP:2020
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '2020-01-01'
-
-edition: "11"
-
+- type: published
+  at: '2020-01-01'
+edition:
+  content: '11'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
+- from: '2020'
   owner:
-    name: International Organization for Standardization
-    abbreviation: ISO
-    url: www.iso.org
-  from: '2020'
-
+  - organization:
+      uri:
+      - content: www.iso.org
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
 relation:
-  - type: partOf
-    bibitem:
-      formattedref: ISO/IEC DIR 1 ISO SUP
-      docid:
-        - id: ISO/IEC DIR 1 ISO SUP
-          type: ISO
-          primary: true
+- type: partOf
+  bibitem:
+    formattedref: ISO/IEC DIR 1 ISO SUP
+    docidentifier:
+    - content: ISO/IEC DIR 1 ISO SUP
+      type: ISO
+      primary: true
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

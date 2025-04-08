@@ -1,184 +1,160 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC19785-4-2010
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Common Biometric Exchange Formats Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 4: Security block format specifications'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Common Biometric Exchange Formats Framework -
-    Part 4: Security block format specifications'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Cadre de formats d'échange biométriques communs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 4: Spécifications de format de bloc de sécurité'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Cadre de formats d''échange biométriques
-    communs - Partie 4: Spécifications de format de bloc de sécurité'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/50860.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:50860:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/08/50860.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 19785-4:2010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Common Biometric Exchange Formats Framework
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 4: Security block format specifications'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Common Biometric Exchange Formats Framework -
+    Part 4: Security block format specifications'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Cadre de formats d'échange biométriques communs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 4: Spécifications de format de bloc de sécurité'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Cadre de formats d''échange biométriques
+    communs - Partie 4: Spécifications de format de bloc de sécurité'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/50860.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:50860:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/08/50860.detail.rss
+docidentifier:
+- content: ISO/IEC 19785-4:2010
   type: ISO
   primary: true
-- id: ISO/IEC 19785-4:2010(E)
+- content: ISO/IEC 19785-4:2010(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:19785:-4:stage-90.92
+- content: urn:iso:std:iso-iec:19785:-4:stage-90.92
   type: URN
 docnumber: '19785'
 date:
 - type: published
-  value: 2010-08
+  at: 2010-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2010-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 19785-4:2010 specifies security block formats (see ISO/IEC 19785-1) registered in accordance with ISO/IEC 19785-2 as formats defined by the CBEFF biometric organization ISO/IEC JTC 1/SC 37, and specifies their registered security block format identifiers. [The security block format identifier is recorded in the standard biometric header (SBH) of a patron format (or defined by that patron format as the only available security block format).]
     The general-purpose security block format provides for specification of whether the biometric data block (BDB) is encrypted or the SBH and BDB have integrity applied (or both), and can include ACBio instances (see ISO/IEC 24761). This security block provides all necessary security parameters, including those used for encryption or integrity.
     It does not restrict the algorithms and parameters used for encryption or integrity, but provides for the recording of such algorithms and parameter values.
     It is a matter for profiling to determine, for a particular application area, what algorithms and parameter ranges can be used by the generator of a security block, and hence what algorithms and parameter ranges have to be supported by the user of a security block. This is out of the scope of ISO/IEC 19785-4:2010.
     The second security block is more limited, but simpler (and in particular cannot contain ACBio instances, and does not support encryption of the BDB).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 19785-4:2010 specifies security block formats (see ISO/IEC 19785-1) registered in accordance with ISO/IEC 19785-2 as formats defined by the CBEFF biometric organization ISO/IEC JTC 1/SC 37, and specifies their registered security block format identifiers. [The security block format identifier is recorded in the standard biometric header (SBH) of a patron format (or defined by that patron format as the only available security block format).]
     The general-purpose security block format provides for specification of whether the biometric data block (BDB) is encrypted or the SBH and BDB have integrity applied (or both), and can include ACBio instances (see ISO/IEC 24761). This security block provides all necessary security parameters, including those used for encryption or integrity.
     It does not restrict the algorithms and parameters used for encryption or integrity, but provides for the recording of such algorithms and parameter values.
     It is a matter for profiling to determine, for a particular application area, what algorithms and parameter ranges can be used by the generator of a security block, and hence what algorithms and parameter ranges have to be supported by the user of a security block. This is out of the scope of ISO/IEC 19785-4:2010.
     The second security block is more limited, but simpler (and in particular cannot contain ACBio instances, and does not support encryption of the BDB).
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO/IECFDIS19785-4
     type: standard
-    docid:
-    - id: ISO/IEC FDIS 19785-4
+    formattedref: ISO/IEC FDIS 19785-4
+    docidentifier:
+    - content: ISO/IEC FDIS 19785-4
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/IEC FDIS 19785-4
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO/IEC19785-4-2010/Cor1-2013
     type: standard
-    docid:
-    - id: ISO/IEC 19785-4:2010/Cor 1:2013
+    formattedref: ISO/IEC 19785-4:2010/Cor 1:2013
+    docidentifier:
+    - content: ISO/IEC 19785-4:2010/Cor 1:2013
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-02-16'
-    formattedref:
-      content: ISO/IEC 19785-4:2010/Cor 1:2013
-      format: text/plain
+      at: '2024-02-16'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Biometrics
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 37
+      content: Biometrics
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    project_number: '50860'
     type: ISO
+    project_number:
+      content: '50860'

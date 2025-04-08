@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
 id: ISO14730-2000
+type: standard
+schema_version: v1.4.1
 title:
-- content: Ophthalmic optics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Ophthalmic optics
   type: title-intro
-- content: Contact lens care products
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Contact lens care products
   type: title-main
-- content: Antimicrobial preservative efficacy testing and guidance on determining
+  format: text/plain
+- language: en
+  script: Latn
+  content: Antimicrobial preservative efficacy testing and guidance on determining
     discard date
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: Ophthalmic optics - Contact lens care products - Antimicrobial preservative
+  format: text/plain
+- language: en
+  script: Latn
+  content: Ophthalmic optics - Contact lens care products - Antimicrobial preservative
     efficacy testing and guidance on determining discard date
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Optique ophtalmique
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Optique ophtalmique
   type: title-intro
-- content: Produits d'entretien des lentilles de contact
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Produits d'entretien des lentilles de contact
   type: title-main
-- content: Essais de l'efficacité de conservation antimicrobienne et lignes directrices
-    pour la détermination de la durée d'utilisation après première ouverture
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Essais de l'efficacité de conservation antimicrobienne et lignes directrices
+    pour la détermination de la durée d'utilisation après première ouverture
   type: title-part
-- content: Optique ophtalmique - Produits d'entretien des lentilles de contact - Essais
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Optique ophtalmique - Produits d'entretien des lentilles de contact - Essais
     de l'efficacité de conservation antimicrobienne et lignes directrices pour la
     détermination de la durée d'utilisation après première ouverture
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/24520.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/02/45/24520.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 14730:2000
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/24520.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/02/45/24520.detail.rss
+docidentifier:
+- content: ISO 14730:2000
   type: ISO
   primary: true
-- id: ISO 14730:2000(E)
+- content: ISO 14730:2000(E)
   type: iso-reference
-- id: urn:iso:std:iso:14730:stage-95.99
+- content: urn:iso:std:iso:14730:stage-95.99
   type: URN
 docnumber: '14730'
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2000-09
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "\nLa présente Norme internationale spécifie une méthode à suivre pour
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale spécifie une méthode à suivre pour
     évaluer l'activité de conservation antimicrobienne de tous les produits d'entretien
     des lentilles de contact conservés en emballages multi-doses et fournit des lignes
     directrices sur les méthodes à utiliser pour la détermination de la durée d'utilisation
@@ -116,51 +102,46 @@ abstract:
     et l'essai d'échantillons provenant de doses utilisées partiellement peuvent être
     intéressants pour développer un produit d'entretien des lentilles de contact,
     mais ne font pas partie du domaine d'application de la présente Norme internationale.\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO14730-2014
     type: standard
-    docid:
-    - id: ISO 14730:2014
+    formattedref: ISO 14730:2014
+    docidentifier:
+    - content: ISO 14730:2014
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2014-09-30'
-    formattedref:
-      content: ISO 14730:2014
-      format: text/plain
+      at: '2014-09-30'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Ophthalmic optics and instruments
-      number: 172
+    - number: 172
       type: TC
       identifier: ISO/TC 172/SC 7
+      content: Ophthalmic optics and instruments
   ics:
   - code: 11.040.70
     text: Ophthalmic equipment
   structuredidentifier:
-    project_number: '24520'
     type: ISO
+    project_number:
+      content: '24520'

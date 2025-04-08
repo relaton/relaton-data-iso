@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
 id: ISO8000-210
-title:
-- content: Data quality
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 210: Sensor data: Data quality characteristics'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Data quality - Part 210: Sensor data: Data quality characteristics'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Qualité des données
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 210: Données des capteurs: Caractéristiques de qualité des données'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Qualité des données - Partie 210: Données des capteurs: Caractéristiques
-    de qualité des données'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/84274.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/08/42/84274.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 8000-210
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Data quality
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 210: Sensor data: Data quality characteristics'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Data quality - Part 210: Sensor data: Data quality characteristics'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Qualité des données
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 210: Données des capteurs: Caractéristiques de qualité des données'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Qualité des données - Partie 210: Données des capteurs: Caractéristiques
+    de qualité des données'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/84274.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/08/42/84274.detail.rss
+docidentifier:
+- content: ISO 8000-210
   type: ISO
   primary: true
-- id: ISO 8000-210(E)
+- content: ISO 8000-210(E)
   type: iso-reference
-- id: urn:iso:std:iso:8000:-210:stage-60.00
+- content: urn:iso:std:iso:8000:-210:stage-published
   type: URN
 docnumber: '8000'
 date:
 - type: published
-  value: 2024-12
+  at: 2024-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2024-12
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "This deliverable specifies quality characteristics of data that is recorded
+- language: en
+  script: Latn
+  content: "This deliverable specifies quality characteristics of data that is recorded
     by sensors as a stream of single, discrete digital values by sensors.\n\nThe following
     are within the scope of this deliverable:\n—\tapplication of quality characteristics
     of sensor data that is a stream of single, discrete digital values;\n—\ttypes
@@ -89,12 +79,9 @@ abstract:
     with other ISO standards.\n\nThe following are outside the scope of this deliverable:\n—\tanalogue,
     image, video and sound data produced by sensors;\n—\tmethods to measure data quality
     characteristics."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "This deliverable specifies quality characteristics of data that is recorded
+- language: fr
+  script: Latn
+  content: "This deliverable specifies quality characteristics of data that is recorded
     by sensors as a stream of single, discrete digital values by sensors.\n\nThe following
     are within the scope of this deliverable:\n—\tapplication of quality characteristics
     of sensor data that is a stream of single, discrete digital values;\n—\ttypes
@@ -102,37 +89,35 @@ abstract:
     with other ISO standards.\n\nThe following are outside the scope of this deliverable:\n—\tanalogue,
     image, video and sound data produced by sensors;\n—\tmethods to measure data quality
     characteristics."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '00'
+    content: '00'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2024'
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Industrial data
-    number: 184
-    type: TC
-    identifier: ISO/TC 184/SC 4
-ics:
-- code: 25.040.40
-  text: Industrial process measurement and control
-structuredidentifier:
-  project_number: ISO 8000
-  part: '210'
-  type: ISO
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
+  doctype:
+    content: international-standard
+  flavor: iso
+  editorialgroup:
+    technical_committee:
+    - number: 184
+      type: TC
+      identifier: ISO/TC 184/SC 4
+      content: Industrial data
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  structuredidentifier:
+    type: ISO
+    project_number:
+      part: 210
+      content: ISO 8000

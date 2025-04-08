@@ -1,52 +1,56 @@
-title:
-- type: title-main
-  content: ISO/IEC Directives, Part 1
-  language: en
-  script: Latn
-- type: title-part
-  content: Procedures for the technical work
-  language: en
-  script: Latn
-- type: title-main
-  content: Directives ISO/IEC, Partie 1
-  language: fr
-  script: Latn
-- type: title-part
-  content: Procédure pour les travaux techniques
-  language: fr
-  script: Latn
-
+---
 type: standard
-doctype: directive
-
-docid:
-  id: ISO/IEC DIR 1 ISO:1992
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: ISO/IEC Directives, Part 1
+  type: title-main
+- language: en
+  script: Latn
+  content: Procedures for the technical work
+  type: title-part
+- language: fr
+  script: Latn
+  content: Directives ISO/IEC, Partie 1
+  type: title-main
+- language: fr
+  script: Latn
+  content: Procédure pour les travaux techniques
+  type: title-part
+docidentifier:
+- content: ISO/IEC DIR 1 ISO:1992
   type: ISO
   primary: true
-
 date:
-  type: published
-  value: '1992-01-01'
-
-edition: "3"
-
+- type: published
+  at: '1992-01-01'
+edition:
+  content: '3'
 language:
 - en
-
-script: Latn
-
+script:
+- Latn
 copyright:
+- from: '1992'
   owner:
-    name: International Organization for Standardization
-    abbreviation: ISO
-    url: www.iso.org
-  from: '1992'
-
+  - organization:
+      uri:
+      - content: www.iso.org
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
 relation:
-  - type: partOf
-    bibitem:
-      formattedref: ISO/IEC DIR 1 ISO
-      docid:
-        - id: ISO/IEC DIR 1 ISO
-          type: ISO
-          primary: true
+- type: partOf
+  bibitem:
+    formattedref: ISO/IEC DIR 1 ISO
+    docidentifier:
+    - content: ISO/IEC DIR 1 ISO
+      type: ISO
+      primary: true
+ext:
+  schema_version: v1.0.5
+  doctype:
+    content: directive
+  flavor: iso

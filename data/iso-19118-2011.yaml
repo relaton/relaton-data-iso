@@ -1,142 +1,124 @@
 ---
-schema-version: v1.2.9
 id: ISO19118-2011
-title:
-- content: Geographic information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Encoding
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Geographic information - Encoding
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information géographique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Codage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information géographique - Codage
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/44212.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:44212:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/42/44212.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 19118:2011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Geographic information
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Encoding
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geographic information - Encoding
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Codage
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information géographique - Codage
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/44212.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:44212:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/42/44212.detail.rss
+docidentifier:
+- content: ISO 19118:2011
   type: ISO
   primary: true
-- id: ISO 19118:2011(E)
+- content: ISO 19118:2011(E)
   type: iso-reference
-- id: urn:iso:std:iso:19118:stage-90.93
+- content: urn:iso:std:iso:19118:stage-90.93
   type: URN
 docnumber: '19118'
 date:
 - type: published
-  value: 2011-10
+  at: 2011-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2011-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 19118:2011 specifies the requirements for defining encoding rules for use for the interchange of data that conform to the geographic information in the set of International Standards known as the "ISO 19100 series".
     ISO 19118:2011 specifies requirements for creating encoding rules based on UML schemas, requirements for creating encoding services, and requirements for XML-based encoding rules for neutral interchange of data.
     ISO 19118:2011 does not specify any digital media, does not define any transfer services or transfer protocols, nor does it specify how to encode inline large images.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 19118:2011 spécifie les exigences pour la définition des règles de codage à utiliser pour l'échange de données conformes à l'ensemble de Normes internationales relatives à l'information géographique connu sous le nom de «série ISO 19100».
     L'ISO 19118:2011 spécifie les exigences de création des règles de codage basées sur les schémas UML, les exigences de création des services de codage, et les exigences en matière de règles de codage XML pour l'échange neutre de données.
     L'ISO 19118:2011 ne spécifie pas les média numériques, ne définit aucun service de transfert ou de protocole de transfert, ni ne spécifie la façon d'encoder les grandes images en ligne.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO19118-2005
     type: standard
-    docid:
-    - id: ISO 19118:2005
+    formattedref: ISO 19118:2005
+    docidentifier:
+    - content: ISO 19118:2005
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 19118:2005
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Geographic information/Geomatics
-      number: 211
+    - number: 211
       type: TC
       identifier: ISO/TC 211
+      content: Geographic information/Geomatics
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    project_number: '44212'
     type: ISO
+    project_number:
+      content: '44212'

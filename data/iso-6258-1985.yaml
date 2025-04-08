@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO6258-1985
-title:
-- content: Nuclear power plants
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Design against seismic hazards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Nuclear power plants - Design against seismic hazards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Centrales nucléaires
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Conception antisismique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Centrales nucléaires - Conception antisismique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/12538.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/01/25/12538.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 6258:1985
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Nuclear power plants
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Design against seismic hazards
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Nuclear power plants - Design against seismic hazards
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Centrales nucléaires
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Conception antisismique
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Centrales nucléaires - Conception antisismique
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/12538.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/01/25/12538.detail.rss
+docidentifier:
+- content: ISO 6258:1985
   type: ISO
   primary: true
-- id: ISO 6258:1985(E)
+- content: ISO 6258:1985(E)
   type: iso-reference
-- id: urn:iso:std:iso:6258:stage-95.99
+- content: urn:iso:std:iso:6258:stage-95.99
   type: URN
 docnumber: '6258'
 date:
 - type: published
-  value: 1985-01
+  at: 1985-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1985-01
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: Specifies the requirements for designing and the data required and the
+- language: en
+  script: Latn
+  content: Specifies the requirements for designing and the data required and the
     way in which they should be used in order to determine the earth motions to be
     taken as the design basis earthquake (DBE), moreover the way in which the proof
     of seismic design adequacy should be established and documented. Determination
@@ -88,12 +78,9 @@ abstract:
     applicable when the DBE is greater than or equal to intensity VII on the MSK scale.
     When the DBE is less, the structural analysis could also be performed by using
     simpler rules.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Specifies the requirements for designing and the data required and the
+- language: fr
+  script: Latn
+  content: Specifies the requirements for designing and the data required and the
     way in which they should be used in order to determine the earth motions to be
     taken as the design basis earthquake (DBE), moreover the way in which the proof
     of seismic design adequacy should be established and documented. Determination
@@ -101,36 +88,34 @@ abstract:
     applicable when the DBE is greater than or equal to intensity VII on the MSK scale.
     When the DBE is less, the structural analysis could also be performed by using
     simpler rules.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Reactor technology
-      number: 85
+    - number: 85
       type: TC
       identifier: ISO/TC 85/SC 6
+      content: Reactor technology
   ics:
   - code: 27.120.20
     text: Nuclear power plants. Safety
   structuredidentifier:
-    project_number: '12538'
     type: ISO
+    project_number:
+      content: '12538'

@@ -1,168 +1,144 @@
 ---
-schema-version: v1.2.9
 id: ISO3852-1988
-title:
-- content: Iron ores
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Determination of bulk density
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Iron ores - Determination of bulk density
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Minerais de fer
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Détermination de la masse volumique apparente
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Minerais de fer - Détermination de la masse volumique apparente
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/9416.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/94/9416.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3852:1988
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Iron ores
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Determination of bulk density
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Iron ores - Determination of bulk density
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Minerais de fer
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Détermination de la masse volumique apparente
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Minerais de fer - Détermination de la masse volumique apparente
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/9416.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/94/9416.detail.rss
+docidentifier:
+- content: ISO 3852:1988
   type: ISO
   primary: true
-- id: ISO 3852:1988(E)
+- content: ISO 3852:1988(E)
   type: iso-reference
-- id: urn:iso:std:iso:3852:stage-95.99
+- content: urn:iso:std:iso:3852:stage-95.99
   type: URN
 docnumber: '3852'
 date:
 - type: published
-  value: 1988-11
+  at: 1988-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 1988-11
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: This second edition cancels and replaces the first edition (ISO 3852:1977)
+- language: en
+  script: Latn
+  content: This second edition cancels and replaces the first edition (ISO 3852:1977)
     and ISO 5464:1980, and includes the determination of bulk density for particles
     greater than 40 mm. Specifies two methods for measuring the bulk density of natural
     and processed iron ores.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "\nLa présente Norme internationale spécifie deux méthodes pour la détermination
+- language: fr
+  script: Latn
+  content: "\nLa présente Norme internationale spécifie deux méthodes pour la détermination
     de la masse volumique apparente des minerais de fer naturels et traités. La méthode
     1 est applicable aux minerais de fer de dimension granulométrique maximale inférieure
     ou égale à 40 mm. La méthode 2 est applicable aux minerais de fer de toute dimension
     granulométrique.  \nNOTE - La masse volumique apparente mesurée ne représente
     pas nécessairement la masse volumique apparente des minerais de fer compactés
     ou empilés, à l'état naturel ou traité.\n"
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO3852-1977
     type: standard
-    docid:
-    - id: ISO 3852:1977
+    formattedref: ISO 3852:1977
+    docidentifier:
+    - content: ISO 3852:1977
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 3852:1977
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO5464-1980
     type: standard
-    docid:
-    - id: ISO 5464:1980
+    formattedref: ISO 5464:1980
+    docidentifier:
+    - content: ISO 5464:1980
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 5464:1980
-      format: text/plain
 - type: updates
   bibitem:
-    id: ISO3852-2007
     type: standard
-    docid:
-    - id: ISO 3852:2007
+    formattedref: ISO 3852:2007
+    docidentifier:
+    - content: ISO 3852:2007
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2007-08-23'
-    formattedref:
-      content: ISO 3852:2007
-      format: text/plain
+      at: '2007-08-23'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Physical testing
-      number: 102
+    - number: 102
       type: TC
       identifier: ISO/TC 102/SC 3
+      content: Physical testing
   ics:
   - code: 73.060.10
     text: Iron ores
   structuredidentifier:
-    project_number: '9416'
     type: ISO
+    project_number:
+      content: '9416'

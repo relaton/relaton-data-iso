@@ -1,86 +1,76 @@
 ---
-schema-version: v1.2.9
 id: ISO28500-2009
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: WARC file format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - WARC file format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Format de fichier WARC
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Format de fichier WARC
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/44717.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/04/47/44717.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 28500:2009
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: WARC file format
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - WARC file format
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Format de fichier WARC
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Format de fichier WARC
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/44717.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/47/44717.detail.rss
+docidentifier:
+- content: ISO 28500:2009
   type: ISO
   primary: true
-- id: ISO 28500:2009(E)
+- content: ISO 28500:2009(E)
   type: iso-reference
-- id: urn:iso:std:iso:28500:stage-95.99
+- content: urn:iso:std:iso:28500:stage-95.99
   type: URN
 docnumber: '28500'
 date:
 - type: published
-  value: 2009-05
+  at: 2009-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2009-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 28500:2009 specifies the WARC file format:\n- to store both the payload
+- language: en
+  script: Latn
+  content: "ISO 28500:2009 specifies the WARC file format:\n- to store both the payload
     content and control information from mainstream Internet application layer protocols,
     such as the Hypertext Transfer Protocol (HTTP), Domain Name System (DNS), and
     File Transfer Protocol (FTP);\n- to store arbitrary metadata linked to other stored
@@ -92,12 +82,9 @@ abstract:
     in the presence of identical or substantially similar resources);\n- to be extended
     without disruption to existing functionality;\n- to support handling of overly
     long records by truncation or segmentation, where desired."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO 28500:2009 specifies the WARC file format:\n- to store both the payload
+- language: fr
+  script: Latn
+  content: "ISO 28500:2009 specifies the WARC file format:\n- to store both the payload
     content and control information from mainstream Internet application layer protocols,
     such as the Hypertext Transfer Protocol (HTTP), Domain Name System (DNS), and
     File Transfer Protocol (FTP);\n- to store arbitrary metadata linked to other stored
@@ -109,51 +96,46 @@ abstract:
     in the presence of identical or substantially similar resources);\n- to be extended
     without disruption to existing functionality;\n- to support handling of overly
     long records by truncation or segmentation, where desired."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO28500-2017
     type: standard
-    docid:
-    - id: ISO 28500:2017
+    formattedref: ISO 28500:2017
+    docidentifier:
+    - content: ISO 28500:2017
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2017-08-14'
-    formattedref:
-      content: ISO 28500:2017
-      format: text/plain
+      at: '2017-08-14'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical interoperability
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 4
+      content: Technical interoperability
   ics:
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
   structuredidentifier:
-    project_number: '44717'
     type: ISO
+    project_number:
+      content: '44717'

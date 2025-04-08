@@ -1,110 +1,102 @@
 ---
-schema-version: v1.2.9
 id: ISO2100-1972
-title:
-- content: Tests for aircraft electrical plug and socket connectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Tests for aircraft electrical plug and socket connectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Essais des connecteurs électriques pour aéronefs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Essais des connecteurs électriques pour aéronefs
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/6888.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/68/6888.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2100:1972
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Tests for aircraft electrical plug and socket connectors
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Tests for aircraft electrical plug and socket connectors
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essais des connecteurs électriques pour aéronefs
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Essais des connecteurs électriques pour aéronefs
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/6888.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/68/6888.detail.rss
+docidentifier:
+- content: ISO 2100:1972
   type: ISO
   primary: true
-- id: ISO 2100:1972(E)
+- content: ISO 2100:1972(E)
   type: iso-reference
-- id: urn:iso:std:iso:2100:stage-95.99
+- content: urn:iso:std:iso:2100:stage-95.99
   type: URN
 docnumber: '2100'
 date:
 - type: published
-  value: 1972-12
+  at: 1972-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1972-12
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO2100-1987
     type: standard
-    docid:
-    - id: ISO 2100:1987
+    formattedref: ISO 2100:1987
+    docidentifier:
+    - content: ISO 2100:1987
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1987-07-01'
-    formattedref:
-      content: ISO 2100:1987
-      format: text/plain
+      at: '1987-07-01'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Aerospace electrical requirements
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 1
+      content: Aerospace electrical requirements
   ics:
   - code: '49.060'
     text: Aerospace electric equipment and systems
   structuredidentifier:
-    project_number: '6888'
     type: ISO
+    project_number:
+      content: '6888'

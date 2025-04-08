@@ -1,110 +1,97 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC29164-2011
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Biometrics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Embedded BioAPI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Information technology - Biometrics - Embedded BioAPI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Biométrie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: BioAPI incorporé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Technologies de l'information - Biométrie - BioAPI incorporé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/45243.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:45243:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/52/45243.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 29164:2011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Biometrics
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Embedded BioAPI
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information technology - Biometrics - Embedded BioAPI
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Biométrie
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: BioAPI incorporé
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information - Biométrie - BioAPI incorporé
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/45243.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45243:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/52/45243.detail.rss
+docidentifier:
+- content: ISO/IEC 29164:2011
   type: ISO
   primary: true
-- id: ISO/IEC 29164:2011(E)
+- content: ISO/IEC 29164:2011(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:29164:stage-90.93
+- content: urn:iso:std:iso-iec:29164:stage-90.93
   type: URN
 docnumber: '29164'
 date:
 - type: published
-  value: 2011-10
+  at: 2011-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2011-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO/IEC 29164:2011 provides a standard interface to hardware biometric
+- language: en
+  script: Latn
+  content: "ISO/IEC 29164:2011 provides a standard interface to hardware biometric
     modules designed to be integrated in embedded systems which can be constrained
     in memory and computational power. \nIt specifies a full interface for such hardware-based
     biometric modules. This interface, called Embedded BioAPI, is defined by the specification
@@ -116,12 +103,9 @@ abstract:
     to the application of ISO/IEC 29164:2011.\nSpecifications and requirements for
     Embedded BioAPI subcomponents, or any kind of devices suitable to implement Embedded
     BioAPI, are also outside of the scope of ISO/IEC 29164:2011."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: "ISO/IEC 29164:2011 provides a standard interface to hardware biometric
+- language: fr
+  script: Latn
+  content: "ISO/IEC 29164:2011 provides a standard interface to hardware biometric
     modules designed to be integrated in embedded systems which can be constrained
     in memory and computational power. \nIt specifies a full interface for such hardware-based
     biometric modules. This interface, called Embedded BioAPI, is defined by the specification
@@ -133,36 +117,34 @@ abstract:
     to the application of ISO/IEC 29164:2011.\nSpecifications and requirements for
     Embedded BioAPI subcomponents, or any kind of devices suitable to implement Embedded
     BioAPI, are also outside of the scope of ISO/IEC 29164:2011."
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Biometrics
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 37
+      content: Biometrics
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    project_number: '45243'
     type: ISO
+    project_number:
+      content: '45243'

@@ -1,153 +1,134 @@
 ---
-schema-version: v1.2.9
 id: ISO17987-8-2019
+type: standard
+schema_version: v1.4.1
 title:
-- content: Road vehicles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Road vehicles
   type: title-intro
-- content: Local Interconnect Network (LIN)
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
+- language: en
+  script: Latn
+  content: Local Interconnect Network (LIN)
   type: title-main
-- content: 'Part 8: Electrical physical layer (EPL) specification: LIN over DC powerline
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 8: Electrical physical layer (EPL) specification: LIN over DC powerline
     (DC-LIN)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: title-part
-- content: 'Road vehicles - Local Interconnect Network (LIN) - Part 8: Electrical
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Road vehicles - Local Interconnect Network (LIN) - Part 8: Electrical
     physical layer (EPL) specification: LIN over DC powerline (DC-LIN)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
   type: main
-- content: Véhicules routiers
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Véhicules routiers
   type: title-intro
-- content: Réseau Internet local (LIN)
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: Réseau Internet local (LIN)
   type: title-main
-- content: 'Partie 8: Spécification de couche physique électrique (EPL): LIN sur ligne
-    d''alimentation en courant continu (DC-LIN)'
-  language:
-  - fr
-  script:
-  - Latn
   format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 8: Spécification de couche physique électrique (EPL): LIN sur ligne
+    d''alimentation en courant continu (DC-LIN)'
   type: title-part
-- content: 'Véhicules routiers - Réseau Internet local (LIN) - Partie 8: Spécification
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Véhicules routiers - Réseau Internet local (LIN) - Partie 8: Spécification
     de couche physique électrique (EPL): LIN sur ligne d''alimentation en courant
     continu (DC-LIN)'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
   type: main
-link:
-- content: https://www.iso.org/standard/71044.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:71044:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/10/71044.detail.rss
-  type: rss
-type: standard
-docid:
-- id: ISO 17987-8:2019
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/71044.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:71044:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/10/71044.detail.rss
+docidentifier:
+- content: ISO 17987-8:2019
   type: ISO
   primary: true
-- id: ISO 17987-8:2019(E)
+- content: ISO 17987-8:2019(E)
   type: iso-reference
-- id: urn:iso:std:iso:17987:-8:stage-90.60
+- content: urn:iso:std:iso:17987:-8:stage-90.60
   type: URN
 docnumber: '17987'
 date:
 - type: published
-  value: 2019-10
+  at: 2019-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2019-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies an additional electrical physical layer (EPL) for the Local Interconnect Network (LIN) of the ISO 17987 series. It specifies the transmission over DC powerline without affecting the LIN higher layers, hereafter named DC-LIN.
     The DC-LIN EPL uses a high-frequency modulated carrier to propagate UART bytes (byte-oriented) over the DC powerline.
     This document specifies the electrical characteristics, the modulation method of the transmission, and how to impose the carrier signal on the DC powerlines.
     The DC-LIN EPL supports bit rates of 9 615 bit/s, 10 417 bit/s, and 19 230 bit/s.
     The DC-LIN EPL is applicable for a wide range of DC powerlines including 12-V and 24-V operations, allowing communicating between different DC powerlines via a coupling capacitor. A DC-LIN EPL interface to powerline example is described in Annex A.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies an additional electrical physical layer (EPL) for the Local Interconnect Network (LIN) of the ISO 17987 series. It specifies the transmission over DC powerline without affecting the LIN higher layers, hereafter named DC-LIN.
     The DC-LIN EPL uses a high-frequency modulated carrier to propagate UART bytes (byte-oriented) over the DC powerline.
     This document specifies the electrical characteristics, the modulation method of the transmission, and how to impose the carrier signal on the DC powerlines.
     The DC-LIN EPL supports bit rates of 9 615 bit/s, 10 417 bit/s, and 19 230 bit/s.
     The DC-LIN EPL is applicable for a wide range of DC powerlines including 12-V and 24-V operations, allowing communicating between different DC powerlines via a coupling capacitor. A DC-LIN EPL interface to powerline example is described in Annex A.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Data communication
-      number: 22
+    - number: 22
       type: TC
       identifier: ISO/TC 22/SC 31
+      content: Data communication
   ics:
   - code: 43.040.15
     text: Car informatics. On board computer systems
   structuredidentifier:
-    project_number: '71044'
     type: ISO
+    project_number:
+      content: '71044'

@@ -1,237 +1,201 @@
 ---
-schema-version: v1.2.9
 id: ISO/IEC15938-5-2003
-title:
-- content: Information technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Multimedia content description interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Part 5: Multimedia description schemes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Information technology - Multimedia content description interface - Part
-    5: Multimedia description schemes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Technologies de l'information
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Interface de description du contenu multimédia
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: 'Partie 5: Schémas de description multimédia'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: 'Technologies de l''information - Interface de description du contenu multimédia
-    - Partie 5: Schémas de description multimédia'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/34232.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:34232:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/03/42/34232.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO/IEC 15938-5:2003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Multimedia content description interface
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Part 5: Multimedia description schemes'
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: 'Information technology - Multimedia content description interface - Part
+    5: Multimedia description schemes'
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Interface de description du contenu multimédia
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Partie 5: Schémas de description multimédia'
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Interface de description du contenu multimédia
+    - Partie 5: Schémas de description multimédia'
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/34232.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:34232:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/03/42/34232.detail.rss
+docidentifier:
+- content: ISO/IEC 15938-5:2003
   type: ISO
   primary: true
-- id: ISO/IEC 15938-5:2003(E)
+- content: ISO/IEC 15938-5:2003(E)
   type: iso-reference
-- id: urn:iso:std:iso-iec:15938:-5:stage-90.60
+- content: urn:iso:std:iso-iec:15938:-5:stage-90.60
   type: URN
 docnumber: '15938'
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
+    uri:
+    - content: www.iec.ch
     name:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
-    url: www.iec.ch
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2003-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO/IEC 15938-5:2003 specifies a metadata system for describing multimedia content. ISO/IEC 15938-5:2003 specifies the Multimedia Description Schemes (MDS) description tools (Description Schemes, Descriptors, and datatypes) that comprise ISO/IEC 15938-5:2003 by specifying the normative syntax of each description tool using Description Definition Language (DDL) (see ISO/IEC 15938-2) and the normative semantics including semantics of each component of each description tool (attributes and elements). ISO/IEC 15938-5:2003 also provides informative examples that illustrate the instantiation of description tools in creating descriptions conforming to ISO/IEC 15938-5:2003.
     ISO/IEC 15938-5:2003 defines the following basic elements: schema tools (the root element, top-level types, description metadata, and packages), basic datatypes (integers, reals, vectors, matrices), linking and media localization tools (spatial and temporal localization), basic description tools (language, text, classification schemes). ISO/IEC 15938-5:2003 defines the following content description tools, which describe the features of the multimedia content and the immutable metadata related to the multimedia content: structure description tools (spatio-temporal segments of multimedia content) and semantic description tools ("real-world" semantics related to or captured by the multimedia content, including objects, events, concepts, and so forth). ISO/IEC 15938-5:2003 defines additionally the following description tools for content metadata: media description (storage format, encoding), creation and production (title, creator, classification, purpose), and usage (access rights, publication). The content description and metadata tools are related in the sense that the content description tools use the content metadata tools. For example, a description of creation and production or media information can be attached to an individual video or video segment in order to describe the structure and creation and production of the multimedia content. ISO/IEC 15938-5:2003 also defines description tools for navigation and access (browsing, summarization), content organization (collections and models), and user interaction (user preferences pertaining to consumption of multimedia and usage history). Finally, ISO/IEC 15938-5:2003 defines classification schemes, which organize terms that are used by the description tools.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO/IEC 15938-5:2003 specifies a metadata system for describing multimedia content. ISO/IEC 15938-5:2003 specifies the Multimedia Description Schemes (MDS) description tools (Description Schemes, Descriptors, and datatypes) that comprise ISO/IEC 15938-5:2003 by specifying the normative syntax of each description tool using Description Definition Language (DDL) (see ISO/IEC 15938-2) and the normative semantics including semantics of each component of each description tool (attributes and elements). ISO/IEC 15938-5:2003 also provides informative examples that illustrate the instantiation of description tools in creating descriptions conforming to ISO/IEC 15938-5:2003.
     ISO/IEC 15938-5:2003 defines the following basic elements: schema tools (the root element, top-level types, description metadata, and packages), basic datatypes (integers, reals, vectors, matrices), linking and media localization tools (spatial and temporal localization), basic description tools (language, text, classification schemes). ISO/IEC 15938-5:2003 defines the following content description tools, which describe the features of the multimedia content and the immutable metadata related to the multimedia content: structure description tools (spatio-temporal segments of multimedia content) and semantic description tools ("real-world" semantics related to or captured by the multimedia content, including objects, events, concepts, and so forth). ISO/IEC 15938-5:2003 defines additionally the following description tools for content metadata: media description (storage format, encoding), creation and production (title, creator, classification, purpose), and usage (access rights, publication). The content description and metadata tools are related in the sense that the content description tools use the content metadata tools. For example, a description of creation and production or media information can be attached to an individual video or video segment in order to describe the structure and creation and production of the multimedia content. ISO/IEC 15938-5:2003 also defines description tools for navigation and access (browsing, summarization), content organization (collections and models), and user interaction (user preferences pertaining to consumption of multimedia and usage history). Finally, ISO/IEC 15938-5:2003 defines classification schemes, which organize terms that are used by the description tools.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO/IEC
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC15938-5-2003/Cor1-2004
     type: standard
-    docid:
-    - id: ISO/IEC 15938-5:2003/Cor 1:2004
+    formattedref: ISO/IEC 15938-5:2003/Cor 1:2004
+    docidentifier:
+    - content: ISO/IEC 15938-5:2003/Cor 1:2004
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-06-04'
-    formattedref:
-      content: ISO/IEC 15938-5:2003/Cor 1:2004
-      format: text/plain
+      at: '2024-06-04'
 - type: updates
   bibitem:
-    id: ISO/IEC15938-5-2003/Amd1-2004
     type: standard
-    docid:
-    - id: ISO/IEC 15938-5:2003/Amd 1:2004
+    formattedref: ISO/IEC 15938-5:2003/Amd 1:2004
+    docidentifier:
+    - content: ISO/IEC 15938-5:2003/Amd 1:2004
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-06-04'
-    formattedref:
-      content: ISO/IEC 15938-5:2003/Amd 1:2004
-      format: text/plain
+      at: '2024-06-04'
 - type: updates
   bibitem:
-    id: ISO/IEC15938-5-2003/Amd2-2005
     type: standard
-    docid:
-    - id: ISO/IEC 15938-5:2003/Amd 2:2005
+    formattedref: ISO/IEC 15938-5:2003/Amd 2:2005
+    docidentifier:
+    - content: ISO/IEC 15938-5:2003/Amd 2:2005
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-06-04'
-    formattedref:
-      content: ISO/IEC 15938-5:2003/Amd 2:2005
-      format: text/plain
+      at: '2024-06-04'
 - type: updates
   bibitem:
-    id: ISO/IEC15938-5-2003/Amd3-2008
     type: standard
-    docid:
-    - id: ISO/IEC 15938-5:2003/Amd 3:2008
+    formattedref: ISO/IEC 15938-5:2003/Amd 3:2008
+    docidentifier:
+    - content: ISO/IEC 15938-5:2003/Amd 3:2008
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-06-04'
-    formattedref:
-      content: ISO/IEC 15938-5:2003/Amd 3:2008
-      format: text/plain
+      at: '2024-06-04'
 - type: updates
   bibitem:
-    id: ISO/IEC15938-5-2003/Amd4-2012
     type: standard
-    docid:
-    - id: ISO/IEC 15938-5:2003/Amd 4:2012
+    formattedref: ISO/IEC 15938-5:2003/Amd 4:2012
+    docidentifier:
+    - content: ISO/IEC 15938-5:2003/Amd 4:2012
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-06-04'
-    formattedref:
-      content: ISO/IEC 15938-5:2003/Amd 4:2012
-      format: text/plain
+      at: '2024-06-04'
 - type: updates
   bibitem:
-    id: ISO/IEC15938-5-2003/Amd5-2015
     type: standard
-    docid:
-    - id: ISO/IEC 15938-5:2003/Amd 5:2015
+    formattedref: ISO/IEC 15938-5:2003/Amd 5:2015
+    docidentifier:
+    - content: ISO/IEC 15938-5:2003/Amd 5:2015
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '2024-06-04'
-    formattedref:
-      content: ISO/IEC 15938-5:2003/Amd 5:2015
-      format: text/plain
+      at: '2024-06-04'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Coding of audio, picture, multimedia and hypermedia information
-      number: 1
+    - number: 1
       type: IEC
       identifier: ISO/IEC JTC 1/SC 29
+      content: Coding of audio, picture, multimedia and hypermedia information
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    project_number: '34232'
     type: ISO
+    project_number:
+      content: '34232'

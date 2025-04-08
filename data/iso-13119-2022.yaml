@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
 id: ISO13119-2022
-title:
-- content: Health informatics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Clinical knowledge resources
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Metadata
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Health informatics - Clinical knowledge resources - Metadata
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Informatique de santé
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Ressources des connaissances cliniques
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Métadonnées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Informatique de santé - Ressources des connaissances cliniques - Métadonnées
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78392.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78392:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/83/78392.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 13119:2022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Health informatics
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Clinical knowledge resources
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Metadata
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Health informatics - Clinical knowledge resources - Metadata
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Ressources des connaissances cliniques
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Métadonnées
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Informatique de santé - Ressources des connaissances cliniques - Métadonnées
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78392.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78392:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/83/78392.detail.rss
+docidentifier:
+- content: ISO 13119:2022
   type: ISO
   primary: true
-- id: ISO 13119:2022(E)
+- content: ISO 13119:2022(E)
   type: iso-reference
-- id: urn:iso:std:iso:13119:stage-60.60
+- content: urn:iso:std:iso:13119:stage-published
   type: URN
 docnumber: '13119'
 date:
 - type: published
-  value: 2022-10
+  at: 2022-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2022-10
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies a number of metadata elements that describe resources containing medical knowledge, primarily digital documents provided as web resources, accessible from databases or via file transfer, but can be applicable also to paper documents, e.g. articles in the medical literature.
     The metadata elements
     —    support unambiguous and international understanding of important aspects to describe a resource, e.g. purpose, issuer, intended audience, legal status and scientific background,
@@ -107,12 +93,9 @@ abstract:
     —    describe documents about a single patient, such as medical records,
     —    describe details of the medical content of the resource (but some idea of the content can be described via keywords or codes), or
     —    prescribe criteria for the quality of the resource content.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     Le présent document spécifie un certain nombre d'éléments de métadonnées qui décrivent des ressources contenant des connaissances médicales, principalement des documents numériques fournis sous forme de ressources Web accessibles à partir de bases de données ou par transfert de fichier, mais qui peuvent également s'appliquer à des documents papier, par exemple, des articles de publications médicales.
     Les éléments de métadonnées:
     —    soutiennent une compréhension sans ambiguïté et internationale des aspects importants pour décrire une ressource, par exemple l'objet, l'émetteur, le public visé, le statut juridique et le contexte scientifique;
@@ -123,48 +106,43 @@ abstract:
     —    décrire des documents concernant un seul patient, par exemple des dossiers de santé médicaux;
     —    décrire les détails du contenu médical de la ressource (mais une partie du contenu peut être décrite par des mots clés ou des codes); ou
     —    prescrire les critères de qualité applicables au contenu d'une ressource.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO13119-2012
     type: standard
-    docid:
-    - id: ISO 13119:2012
+    formattedref: ISO 13119:2012
+    docidentifier:
+    - content: ISO 13119:2012
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 13119:2012
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Health informatics
-      number: 215
+    - number: 215
       type: TC
       identifier: ISO/TC 215
+      content: Health informatics
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
   structuredidentifier:
-    project_number: '78392'
     type: ISO
+    project_number:
+      content: '78392'

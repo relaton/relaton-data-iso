@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
 id: ISO10631-2021
-title:
-- content: Industrial valves
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Metallic butterfly valves
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Industrial valves - Metallic butterfly valves
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Robinetterie industrielle
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Robinets métalliques à papillon
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Robinetterie industrielle - Robinets métalliques à papillon
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/78331.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:78331:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/07/83/78331.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 10631:2021
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Industrial valves
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Metallic butterfly valves
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Industrial valves - Metallic butterfly valves
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Robinetterie industrielle
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Robinets métalliques à papillon
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Robinetterie industrielle - Robinets métalliques à papillon
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/78331.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78331:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/83/78331.detail.rss
+docidentifier:
+- content: ISO 10631:2021
   type: ISO
   primary: true
-- id: ISO 10631:2021(E)
+- content: ISO 10631:2021(E)
   type: iso-reference
-- id: urn:iso:std:iso:10631:stage-60.60
+- content: urn:iso:std:iso:10631:stage-published
   type: URN
 docnumber: '10631'
 date:
 - type: published
-  value: 2021-05
+  at: 2021-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2021-05
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     This document specifies the general requirements for design, materials (e.g. steel, cast iron, ductile iron, copper alloy), pressure/temperature ratings and testing for butterfly valves having metallic bodies for use in flanged or butt-welding piping systems.
     This document applies to metallic butterfly valves used for all industrial applications.
     Additional requirements given in the relevant application standards can apply to butterfly valves used for more specific applications (e.g. for the water industry, the chemical and petrochemical process industry, the oil and gas industry).
@@ -94,12 +84,9 @@ abstract:
     —    Class 25, 125; 150; 250; 300; 600.
     NOTE 1    It is possible that the nominal sizes listed are not available for all pressure designations.
     NOTE 2    Nominal sizes listed in parenthesis are not common industry sizes, but are used in some application standards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     This document specifies the general requirements for design, materials (e.g. steel, cast iron, ductile iron, copper alloy), pressure/temperature ratings and testing for butterfly valves having metallic bodies for use in flanged or butt-welding piping systems.
     This document applies to metallic butterfly valves used for all industrial applications.
     Additional requirements given in the relevant application standards can apply to butterfly valves used for more specific applications (e.g. for the water industry, the chemical and petrochemical process industry, the oil and gas industry).
@@ -111,48 +98,43 @@ abstract:
     —    Class 25, 125; 150; 250; 300; 600.
     NOTE 1    It is possible that the nominal sizes listed are not available for all pressure designations.
     NOTE 2    Nominal sizes listed in parenthesis are not common industry sizes, but are used in some application standards.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '60'
+    content: '60'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO10631-2013
     type: standard
-    docid:
-    - id: ISO 10631:2013
+    formattedref: ISO 10631:2013
+    docidentifier:
+    - content: ISO 10631:2013
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 10631:2013
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Valves
-      number: 153
+    - number: 153
       type: TC
       identifier: ISO/TC 153
+      content: Valves
   ics:
   - code: 23.060.99
     text: Other valves
   structuredidentifier:
-    project_number: '78331'
     type: ISO
+    project_number:
+      content: '78331'

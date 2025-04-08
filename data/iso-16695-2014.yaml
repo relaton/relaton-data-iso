@@ -1,131 +1,116 @@
 ---
-schema-version: v1.2.9
 id: ISO16695-2014
-title:
-- content: Space environment (natural and artificial)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Geomagnetic reference models
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Space environment (natural and artificial) - Geomagnetic reference models
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Environnement spatial (naturel et artificiel)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Modèles de référence du champ magnétique terrestre
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Environnement spatial (naturel et artificiel) - Modèles de référence du
-    champ magnétique terrestre
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/57448.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:57448:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/74/57448.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 16695:2014
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space environment (natural and artificial)
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Geomagnetic reference models
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Space environment (natural and artificial) - Geomagnetic reference models
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Environnement spatial (naturel et artificiel)
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Modèles de référence du champ magnétique terrestre
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Environnement spatial (naturel et artificiel) - Modèles de référence du
+    champ magnétique terrestre
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/57448.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:57448:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/74/57448.detail.rss
+docidentifier:
+- content: ISO 16695:2014
   type: ISO
   primary: true
-- id: ISO 16695:2014(E)
+- content: ISO 16695:2014(E)
   type: iso-reference
-- id: urn:iso:std:iso:16695:stage-90.60
+- content: urn:iso:std:iso:16695:stage-90.60
   type: URN
 docnumber: '16695'
 date:
 - type: published
-  value: 2014-02
+  at: 2014-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 2014-02
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 16695:2014 defines reference models representing the geomagnetic field. It closely mirrors and clarifies specifications which have been in use for many decades.
     The approach is to represent the corresponding scalar magnetic potential by a spherical harmonic expansion having specified numerical coefficients, called Gauss coefficients. ISO 16695:2014 covers models in which, at any one time, changes of the magnetic field are modelled by a linear time-dependence of each Gauss coefficient. A model might consist of a succession of sub-models, in each of which the coefficients change linearly with time. For such a step-wise linear model, the coefficients are continuous in time. ISO 16695:2014 provides the formulae and a step-by-step computational procedure to evaluate a geomagnetic reference model for any desired location and date.
     ISO 16695:2014 does not specify the interpretation of the geophysical content of a geomagnetic reference model. It is left to the producer of a model to specify which internal and external magnetic sources are included in (or excluded from) their model.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 16695:2014 defines reference models representing the geomagnetic field. It closely mirrors and clarifies specifications which have been in use for many decades.
     The approach is to represent the corresponding scalar magnetic potential by a spherical harmonic expansion having specified numerical coefficients, called Gauss coefficients. ISO 16695:2014 covers models in which, at any one time, changes of the magnetic field are modelled by a linear time-dependence of each Gauss coefficient. A model might consist of a succession of sub-models, in each of which the coefficients change linearly with time. For such a step-wise linear model, the coefficients are continuous in time. ISO 16695:2014 provides the formulae and a step-by-step computational procedure to evaluate a geomagnetic reference model for any desired location and date.
     ISO 16695:2014 does not specify the interpretation of the geophysical content of a geomagnetic reference model. It is left to the producer of a model to specify which internal and external magnetic sources are included in (or excluded from) their model.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '60'
+    content: '60'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Space systems and operations
-      number: 20
+    - number: 20
       type: TC
       identifier: ISO/TC 20/SC 14
+      content: Space systems and operations
   ics:
   - code: '49.140'
     text: Space systems and operations
   structuredidentifier:
-    project_number: '57448'
     type: ISO
+    project_number:
+      content: '57448'

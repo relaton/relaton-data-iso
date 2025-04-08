@@ -1,140 +1,124 @@
 ---
-schema-version: v1.2.9
 id: ISO3334-1976
-title:
-- content: Microcopying
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: ISO Test chart No. 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Description and use in photographic documentary reproduction
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Microcopying - ISO Test chart No. 2 - Description and use in photographic
-    documentary reproduction
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Microcopie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Mire ISO no 2
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Description et utilisation dans la reproduction photographique des documents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-part
-- content: Microcopie - Mire ISO no 2 - Description et utilisation dans la reproduction
-    photographique des documents
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/8599.html
-  type: src
-- content: https://www.iso.org/contents/data/standard/00/85/8599.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 3334:1976
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Microcopying
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: ISO Test chart No. 2
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Description and use in photographic documentary reproduction
+  type: title-part
+  format: text/plain
+- language: en
+  script: Latn
+  content: Microcopying - ISO Test chart No. 2 - Description and use in photographic
+    documentary reproduction
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Microcopie
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Mire ISO no 2
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Description et utilisation dans la reproduction photographique des documents
+  type: title-part
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Microcopie - Mire ISO no 2 - Description et utilisation dans la reproduction
+    photographique des documents
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/8599.html
+- type: rss
+  content: https://www.iso.org/contents/data/standard/00/85/8599.detail.rss
+docidentifier:
+- content: ISO 3334:1976
   type: ISO
   primary: true
-- id: ISO 3334:1976(E)
+- content: ISO 3334:1976(E)
   type: iso-reference
-- id: urn:iso:std:iso:3334:stage-95.99
+- content: urn:iso:std:iso:3334:stage-95.99
   type: URN
 docnumber: '3334'
 date:
 - type: published
-  value: 1976-09
+  at: 1976-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '1'
-revdate: 1976-09
 language:
 - en
 - fr
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: '95'
+    content: '95'
   substage:
-    value: '99'
+    content: '99'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: updates
   bibitem:
-    id: ISO3334-1989
     type: standard
-    docid:
-    - id: ISO 3334:1989
+    formattedref: ISO 3334:1989
+    docidentifier:
+    - content: ISO 3334:1989
       type: ISO
       primary: true
     date:
     - type: circulated
-      value: '1989-10-01'
-    formattedref:
-      content: ISO 3334:1989
-      format: text/plain
+      at: '1989-10-01'
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Quality, preservation and integrity of information
-      number: 171
+    - number: 171
       type: TC
       identifier: ISO/TC 171/SC 1
+      content: Quality, preservation and integrity of information
   ics:
   - code: '37.080'
     text: Document imaging applications
   structuredidentifier:
-    project_number: '8599'
     type: ISO
+    project_number:
+      content: '8599'

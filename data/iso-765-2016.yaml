@@ -1,137 +1,120 @@
 ---
-schema-version: v1.2.9
 id: ISO765-2016
-title:
-- content: Pesticides considered not to require common names
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Pesticides considered not to require common names
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Pesticides considérés comme ne nécessitant pas de nom commun
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Pesticides considérés comme ne nécessitant pas de nom commun
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/57854.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:57854:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/05/78/57854.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 765:2016
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Pesticides considered not to require common names
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Pesticides considered not to require common names
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Pesticides considérés comme ne nécessitant pas de nom commun
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Pesticides considérés comme ne nécessitant pas de nom commun
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/57854.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:57854:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/05/78/57854.detail.rss
+docidentifier:
+- content: ISO 765:2016
   type: ISO
   primary: true
-- id: ISO 765:2016(E)
+- content: ISO 765:2016(E)
   type: iso-reference
-- id: urn:iso:std:iso:765:stage-90.92
+- content: urn:iso:std:iso:765:stage-90.92
   type: URN
 docnumber: '765'
 date:
 - type: published
-  value: 2016-08
+  at: 2016-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '2'
-revdate: 2016-08
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     ISO 765:2016 gives a list of certain pesticide chemicals with reasonably short and distinctive chemical names or trivial names already known, to which it is deemed unnecessary to assign recommended common names at present.
     The intention is that all the members of the group of isomers of the same pesticide are included in this list, and in consequence it is not necessary to add any locants to the chemical names.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     ISO 765:2016 dresse une liste de pesticides chimiques dont le nom chimique est raisonnablement court et distinctif ou dont le nom trivial est déjà connu, et auxquels il n'est pour l'instant pas jugé opportun d'attribuer un nom commun recommandé.
     Cette liste est supposée réunir tous les membres du groupe d'isomères d'un même pesticide et il n'est par conséquent pas nécessaire d'ajouter de préfixes aux noms chimiques.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '92'
+    content: '92'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO765-1976
     type: standard
-    docid:
-    - id: ISO 765:1976
+    formattedref: ISO 765:1976
+    docidentifier:
+    - content: ISO 765:1976
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 765:1976
-      format: text/plain
 - type: obsoletes
   bibitem:
-    id: ISO/CD1750
     type: standard
-    docid:
-    - id: ISO/CD 1750
+    formattedref: ISO/CD 1750
+    docidentifier:
+    - content: ISO/CD 1750
       type: ISO
       primary: true
-    formattedref:
-      content: ISO/CD 1750
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Common names for pesticides and other agrochemicals
-      number: 81
+    - number: 81
       type: TC
       identifier: ISO/TC 81
+      content: Common names for pesticides and other agrochemicals
   ics:
   - code: 65.100.01
     text: Pesticides and other agrochemicals in general
   structuredidentifier:
-    project_number: '57854'
     type: ISO
+    project_number:
+      content: '57854'

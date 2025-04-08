@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
 id: ISO2146-2010
-title:
-- content: Information and documentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Registry services for libraries and related organizations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information and documentation - Registry services for libraries and related
-    organizations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-  type: main
-- content: Information et documentation
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-intro
-- content: Services de registre pour les bibliothèques et les organismes associés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: title-main
-- content: Information et documentation - Services de registre pour les bibliothèques
-    et les organismes associés
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-  type: main
-link:
-- content: https://www.iso.org/standard/44936.html
-  type: src
-- content: https://www.iso.org/obp/ui/en/#!iso:std:44936:en
-  type: obp
-- content: https://www.iso.org/contents/data/standard/04/49/44936.detail.rss
-  type: rss
 type: standard
-docid:
-- id: ISO 2146:2010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Information and documentation
+  type: title-intro
+  format: text/plain
+- language: en
+  script: Latn
+  content: Registry services for libraries and related organizations
+  type: title-main
+  format: text/plain
+- language: en
+  script: Latn
+  content: Information and documentation - Registry services for libraries and related
+    organizations
+  type: main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation
+  type: title-intro
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Services de registre pour les bibliothèques et les organismes associés
+  type: title-main
+  format: text/plain
+- language: fr
+  script: Latn
+  content: Information et documentation - Services de registre pour les bibliothèques
+    et les organismes associés
+  type: main
+  format: text/plain
+source:
+- type: src
+  content: https://www.iso.org/standard/44936.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:44936:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/04/49/44936.detail.rss
+docidentifier:
+- content: ISO 2146:2010
   type: ISO
   primary: true
-- id: ISO 2146:2010(E)
+- content: ISO 2146:2010(E)
   type: iso-reference
-- id: urn:iso:std:iso:2146:stage-90.93
+- content: urn:iso:std:iso:2146:stage-90.93
   type: URN
 docnumber: '2146'
 date:
 - type: published
-  value: 2010-04
+  at: 2010-04
 - type: corrected
-  value: 2010-06
+  at: 2010-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
     name:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
-    url: www.iso.org
-  role:
-  - type: publisher
 edition:
   content: '3'
-revdate: 2010-04
 language:
 - en
 - fr
 script:
 - Latn
 abstract:
-- content: "ISO 2146:2010 establishes the rules for registries operating in a network
+- language: en
+  script: Latn
+  content: "ISO 2146:2010 establishes the rules for registries operating in a network
     environment to provide the information about collections, parties, activities
     and services needed by libraries and related organizations to manage their collections
     and deliver information and documentation services across a range of applications
@@ -105,12 +95,9 @@ abstract:
     services including reference management systems and virtual reference services,
     and\n·         the registry services themselves, of all types, needed to support
     the above applications."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: |-
+- language: fr
+  script: Latn
+  content: |-
     L'ISO 2146:2010 décrit les règles traitant des registres fonctionnant en réseau qui fournissent des informations sur les collections, les personnes, les activités et les services dont ont besoin les bibliothèques et les organismes associés pour gérer leurs collections et fournir des services d'informations et de documentation destinés à un éventail d'applications et de domaines.
     L'ISO 2146:2010 revêt la forme d'un répertoire d'éléments de données pouvant servir de cadre à la collecte des données appropriées et à leur partage avec d'autres services de registre, en offrant l'accès aux données du registre par des protocoles normalisés chaque fois qu'il est rendu nécessaire en tant que composante d'un flux de tâches automatisé, en publiant des registres sous forme électronique ou imprimée et en archivant les données du registre lorsque ces données ne sont disponibles que sous forme électronique.
     L'ISO 2146:2010 s'applique aux registres nationaux publiés dans des pays bilingues ou multilingues, ainsi qu'aux registres nationaux et régionaux destinés à l'usage international.
@@ -120,48 +107,43 @@ abstract:
     - les services d'acheminement, dont la gestion et la résolution des identificateurs permanents, la gestion des accès et les services de prêts entre bibliothèques,
     - les services de références, dont les systèmes de gestion des références et les services virtuels de référence, et
     - les services mêmes de registre de tous types, nécessaires à l'utilisation des applications précédemment mentionnées.
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-docstatus:
+status:
   stage:
-    value: '90'
+    content: '90'
   substage:
-    value: '93'
+    content: '93'
 copyright:
-- owner:
-  - name:
-    - content: ISO
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - content: ISO
 relation:
 - type: obsoletes
   bibitem:
-    id: ISO2146-1988
     type: standard
-    docid:
-    - id: ISO 2146:1988
+    formattedref: ISO 2146:1988
+    docidentifier:
+    - content: ISO 2146:1988
       type: ISO
       primary: true
-    formattedref:
-      content: ISO 2146:1988
-      format: text/plain
 place:
-- Geneva
+- formatted_place: Geneva
 ext:
-  schema-version: v1.0.3
+  schema_version: v1.0.5
   doctype:
-    type: international-standard
+    content: international-standard
+  flavor: iso
   editorialgroup:
     technical_committee:
-    - name: Technical interoperability
-      number: 46
+    - number: 46
       type: TC
       identifier: ISO/TC 46/SC 4
+      content: Technical interoperability
   ics:
   - code: 01.140.20
     text: Information sciences
   structuredidentifier:
-    project_number: '44936'
     type: ISO
+    project_number:
+      content: '44936'
