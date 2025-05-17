@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.8
+schema-version: v1.2.9
 id: ISO6760-1
 title:
 - content: Optics and photonics
@@ -64,9 +64,9 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://www.iso.org/standard/82366.html
+- content: https://www.iso.org/standard/90228.html
   type: src
-- content: https://www.iso.org/contents/data/standard/08/23/82366.detail.rss
+- content: https://www.iso.org/contents/data/standard/09/02/90228.detail.rss
   type: rss
 type: standard
 docid:
@@ -75,12 +75,9 @@ docid:
   primary: true
 - id: ISO 6760-1(E)
   type: iso-reference
-- id: urn:iso:std:iso:6760:-1:stage-60.00
+- id: urn:iso:std:iso:6760:-1:stage-draft
   type: URN
 docnumber: '6760'
-date:
-- type: published
-  value: 2024-05
 contributor:
 - organization:
     name:
@@ -91,39 +88,70 @@ contributor:
   role:
   - type: publisher
 edition:
-  content: '1'
-revdate: 2024-05
+  content: '2'
 language:
 - en
 - fr
 script:
 - Latn
+abstract:
+- content: |-
+    This document specifies the measurement method used for calculating the temperature coefficient of the refractive index by measuring the refractive index, which changes with the temperature of the optical glass using the minimum deviation method.
+    The intended temperature range for the specified measurement method is –40 °C to +80 °C.
+    The intended wavelength range for the specified measurement method is 365 nm to 1 014 nm.
+    The intended accuracy for the specified measurement method is 1 × 10-6 K-1.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: |-
+    This document specifies the measurement method used for calculating the temperature coefficient of the refractive index by measuring the refractive index, which changes with the temperature of the optical glass using the minimum deviation method.
+    The intended temperature range for the specified measurement method is –40 °C to +80 °C.
+    The intended wavelength range for the specified measurement method is 365 nm to 1 014 nm.
+    The intended accuracy for the specified measurement method is 1 × 10-6 K-1.
+  language:
+  - fr
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
-    value: '60'
+    value: '50'
   substage:
     value: '00'
 copyright:
 - owner:
   - name:
-    - content: ISO
-  from: '2024'
+    - content: ISO/PRF
+  from: '2025'
+relation:
+- type: obsoletes
+  bibitem:
+    id: ISO6760-1-2024
+    type: standard
+    docid:
+    - id: ISO 6760-1:2024
+      type: ISO
+      primary: true
+    formattedref:
+      content: ISO 6760-1:2024
+      format: text/plain
 place:
 - Geneva
-doctype:
-  type: international-standard
-editorialgroup:
-  technical_committee:
-  - name: Optical materials and components
-    number: 172
-    type: TC
-    identifier: ISO/TC 172/SC 3
-ics:
-- code: '37.020'
-  text: Optical equipment
-structuredidentifier:
-  project_number: ISO 6760
-  part: '1'
-  type: ISO
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.3
+  doctype:
+    type: international-standard
+  editorialgroup:
+    technical_committee:
+    - name: Optical materials and components
+      number: 172
+      type: TC
+      identifier: ISO/TC 172/SC 3
+  ics:
+  - code: '37.020'
+    text: Optical equipment
+  structuredidentifier:
+    project_number: '90228'
+    type: ISO
