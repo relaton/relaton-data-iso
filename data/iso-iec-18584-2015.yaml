@@ -1,5 +1,5 @@
 ---
-id: ISO/IEC18584-2015
+id: ISOIEC185842015
 type: standard
 schema_version: v1.4.1
 title:
@@ -85,6 +85,22 @@ contributor:
     - content: International Electrotechnical Commission
     abbreviation:
       content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Standardization
+    subdivision:
+    - name:
+      - content: Cards and security devices for personal identification
+      identifier:
+      - content: ISO/IEC JTC 1/SC 17
+      type: technical-committee
+      subtype: IEC
+    abbreviation:
+      content: ISO
 edition:
   content: '1'
 language:
@@ -123,22 +139,28 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
     type: standard
-    formattedref: ISO/IEC FDIS 18584-1
+    formattedref: ISO/IEC 18584-1
     docidentifier:
-    - content: ISO/IEC FDIS 18584-1
+    - content: ISO/IEC 18584-1
       type: ISO
       primary: true
-- type: obsoletes
+    date:
+    - type: circulated
+      at: '2019-11-06'
+- type: updates
   bibitem:
     type: standard
-    formattedref: ISO/IEC FDIS 18584-2
+    formattedref: ISO/IEC 18584-2
     docidentifier:
-    - content: ISO/IEC FDIS 18584-2
+    - content: ISO/IEC 18584-2
       type: ISO
       primary: true
+    date:
+    - type: circulated
+      at: '2019-11-06'
 place:
 - formatted_place: Geneva
 ext:
@@ -146,12 +168,6 @@ ext:
   doctype:
     content: international-standard
   flavor: iso
-  editorialgroup:
-    technical_committee:
-    - number: 1
-      type: IEC
-      identifier: ISO/IEC JTC 1/SC 17
-      content: Cards and security devices for personal identification
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics

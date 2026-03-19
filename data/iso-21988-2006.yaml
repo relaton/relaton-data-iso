@@ -1,5 +1,5 @@
 ---
-id: ISO21988-2006
+id: ISO219882006
 type: standard
 schema_version: v1.4.1
 title:
@@ -46,7 +46,7 @@ docidentifier:
   primary: true
 - content: ISO 21988:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso:21988:stage-90.93
+- content: urn:iso:std:iso:21988:stage-90.92
   type: URN
 docnumber: '21988'
 date:
@@ -60,6 +60,22 @@ contributor:
     - content: www.iso.org
     name:
     - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Standardization
+    subdivision:
+    - name:
+      - content: Cast irons and pig irons
+      identifier:
+      - content: ISO/TC 25
+      type: technical-committee
+      subtype: TC
     abbreviation:
       content: ISO
 edition:
@@ -87,13 +103,22 @@ status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2006'
   owner:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    type: standard
+    formattedref: ISO/AWI 21988
+    docidentifier:
+    - content: ISO/AWI 21988
+      type: ISO
+      primary: true
 place:
 - formatted_place: Geneva
 ext:
@@ -101,12 +126,6 @@ ext:
   doctype:
     content: international-standard
   flavor: iso
-  editorialgroup:
-    technical_committee:
-    - number: 25
-      type: TC
-      identifier: ISO/TC 25
-      content: Cast irons and pig irons
   ics:
   - code: 77.080.10
     text: Irons

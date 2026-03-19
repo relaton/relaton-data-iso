@@ -1,5 +1,5 @@
 ---
-id: ISO7765-2-2022
+id: ISO776522022
 type: standard
 schema_version: v1.4.1
 title:
@@ -76,6 +76,22 @@ contributor:
     - content: International Organization for Standardization
     abbreviation:
       content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Standardization
+    subdivision:
+    - name:
+      - content: Products
+      identifier:
+      - content: ISO/TC 61/SC 11
+      type: technical-committee
+      subtype: TC
+    abbreviation:
+      content: ISO
 edition:
   content: '2'
 language:
@@ -114,14 +130,17 @@ relation:
     - content: ISO 7765-2:1994
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
     type: standard
-    formattedref: ISO/FDIS 7765-2
+    formattedref: ISO 7765-2
     docidentifier:
-    - content: ISO/FDIS 7765-2
+    - content: ISO 7765-2
       type: ISO
       primary: true
+    date:
+    - type: circulated
+      at: '2023-09-27'
 place:
 - formatted_place: Geneva
 ext:
@@ -129,12 +148,6 @@ ext:
   doctype:
     content: international-standard
   flavor: iso
-  editorialgroup:
-    technical_committee:
-    - number: 61
-      type: TC
-      identifier: ISO/TC 61/SC 11
-      content: Products
   ics:
   - code: 83.140.10
     text: Films and sheets
