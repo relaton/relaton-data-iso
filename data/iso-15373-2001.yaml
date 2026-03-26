@@ -2,6 +2,7 @@
 id: ISO153732001
 type: standard
 schema_version: v1.4.1
+fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
@@ -46,6 +47,8 @@ title:
 source:
 - type: src
   content: https://www.iso.org/standard/26930.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26930:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/69/26930.detail.rss
 docidentifier:
@@ -54,7 +57,7 @@ docidentifier:
   primary: true
 - content: ISO 15373:2001(E)
   type: iso-reference
-- content: urn:iso:std:iso:15373:stage-95.99
+- content: urn:iso:std:iso:15373:stage-90.92
   type: URN
 docnumber: '15373'
 date:
@@ -123,9 +126,9 @@ abstract:
     Norme internationale.
 status:
   stage:
-    content: '95'
+    content: '90'
   substage:
-    content: '99'
+    content: '92'
 copyright:
 - from: '2001'
   owner:
@@ -133,17 +136,22 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
     type: standard
-    formattedref: ISO 15373:2024
+    formattedref: ISO/CD 15373
     docidentifier:
-    - content: ISO 15373:2024
+    - content: ISO/CD 15373
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-12-06'
+- type: obsoletes
+  bibitem:
+    type: standard
+    formattedref: ISO/WD 15373
+    docidentifier:
+    - content: ISO/WD 15373
+      type: ISO
+      primary: true
 place:
 - formatted_place: Geneva
 ext:
@@ -157,4 +165,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: '26930'
+      content: ISO 15373
