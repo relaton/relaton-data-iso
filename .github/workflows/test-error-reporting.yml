@@ -1,0 +1,27 @@
+name: Test error reporting
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  test-error-reporting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: |
+          sudo apt-get update
+          sudo apt-get install libcurl4-openssl-dev
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Trigger parsing error and report
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bundle exec ruby test_error_reporting.rb
