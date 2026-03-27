@@ -46,7 +46,7 @@ docidentifier:
   primary: true
 - content: ISO 5127:2017(E)
   type: iso-reference
-- content: urn:iso:std:iso:5127:stage-90.93
+- content: urn:iso:std:iso:5127:stage-90.92
   type: URN
 docnumber: '5127'
 date:
@@ -110,7 +110,7 @@ status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2017'
   owner:
@@ -126,7 +126,15 @@ relation:
     - content: ISO 5127:2001
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
+  bibitem:
+    type: standard
+    formattedref: ISO/AWI 5127
+    docidentifier:
+    - content: ISO/AWI 5127
+      type: ISO
+      primary: true
+- type: obsoletes
   bibitem:
     type: standard
     formattedref: ISO/WD 5127
@@ -134,9 +142,6 @@ relation:
     - content: ISO/WD 5127
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-02-21'
 place:
 - formatted_place: Geneva
 ext:
