@@ -2,16 +2,10 @@
 
 require "relaton/iso/data_fetcher"
 
-# Override gh_issue_channel to target this repo and add log_error
-# (needed until the gem is released with these methods).
+# Add log_error (needed until the gem is released with this method).
 module Relaton
   module Iso
     class DataFetcher < Core::DataFetcher
-      def gh_issue_channel
-        repo = ENV.fetch("GITHUB_REPOSITORY", "relaton/relaton-data-iso")
-        [repo, "Test: Error fetching ISO documents"]
-      end
-
       def log_error(msg)
         Util.error msg
       end
@@ -38,6 +32,6 @@ errors[:ics] = true          # never parsed (error)
 puts "Error keys that will be reported:"
 puts errors.select { |_, v| v }.keys.map { |k| "  - #{k}" }.join("\n")
 puts ""
-puts "Calling repot_errors..."
-df.repot_errors
+puts "Calling report_errors..."
+df.report_errors
 puts "Done."
