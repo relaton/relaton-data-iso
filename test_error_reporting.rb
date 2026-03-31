@@ -32,6 +32,12 @@ errors[:ics] = true          # never parsed (error)
 puts "Error keys that will be reported:"
 puts errors.select { |_, v| v }.keys.map { |k| "  - #{k}" }.join("\n")
 puts ""
+channel = df.send(:gh_issue_channel)
+puts "gh_issue_channel: #{channel.inspect}"
+puts "GITHUB_REPOSITORY: #{ENV['GITHUB_REPOSITORY']}"
+puts "GITHUB_TOKEN set: #{!ENV['GITHUB_TOKEN'].nil?}"
+puts "GITHUB_TOKEN length: #{ENV['GITHUB_TOKEN']&.length}"
+puts ""
 puts "Calling report_errors..."
 df.report_errors
 puts "Done."
