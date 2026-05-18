@@ -1,45 +1,41 @@
 ---
 id: ISOTS251102008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Electronic fee collection
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Interface definition for on-board account using integrated circuit card
     (ICC)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Electronic fee collection - Interface definition for on-board account using
     integrated circuit card (ICC)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception du télépéage
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Définition d'interface pour compte de bord utilisant une carte à circuit
     intégré (ICC)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception du télépéage - Définition d'interface pour compte de bord utilisant
     une carte à circuit intégré (ICC)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/42750.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:42750:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/27/42750.detail.rss
 docidentifier:
@@ -53,7 +49,7 @@ docidentifier:
 docnumber: '25110'
 date:
 - type: published
-  at: 2008-11
+  at: '2008-11-12'
 contributor:
 - role:
   - type: publisher
@@ -84,40 +80,21 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/TS 25110:2008 defines the data transfer models between roadside equipment (RSE) and ICC, and the interface descriptions between RSE and OBE for on-board account using ICC. It also provides examples of interface definitions and transactions deployed in several countries.
-    ISO/TS 25110:2008 covers:
-    - data transfer models between RSE and ICC which correspond to the categorized operational requirements, and the data transfer mechanism for each model;
-    - interface definition between RSE and OBE based on each data transfer model;
-    - interface definition for each model comprises
-
-    functional configuration,
-    RSE command definitions for ICC access, and
-    data format and data element definitions of RSE commands;
-
-
-    - transaction examples for each model in Annex B.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/TS 25110:2008 defines the data transfer models between roadside equipment (RSE) and ICC, and the interface descriptions between RSE and OBE for on-board account using ICC. It also provides examples of interface definitions and transactions deployed in several countries.
-    ISO/TS 25110:2008 covers:
-    - data transfer models between RSE and ICC which correspond to the categorized operational requirements, and the data transfer mechanism for each model;
-    - interface definition between RSE and OBE based on each data transfer model;
-    - interface definition for each model comprises
-
-    functional configuration,
-    RSE command definitions for ICC access, and
-    data format and data element definitions of RSE commands;
-
-
-    - transaction examples for each model in Annex B.
+  content: 'ISO/TS 25110:2008 defines the data transfer models between roadside equipment
+    (RSE) and ICC, and the interface descriptions between RSE and OBE for on-board
+    account using ICC. It also provides examples of interface definitions and transactions
+    deployed in several countries. ISO/TS 25110:2008 covers: data transfer models
+    between RSE and ICC which correspond to the categorized operational requirements,
+    and the data transfer mechanism for each model; interface definition between RSE
+    and OBE based on each data transfer model; interface definition for each model
+    comprises functional configuration, RSE command definitions for ICC access, and
+    data format and data element definitions of RSE commands; transaction examples
+    for each model in Annex B.'
 status:
   stage:
     content: '95'
@@ -130,29 +107,26 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 25110:2013
+    formattedref:
+      content: ISO/TS 25110:2013
     docidentifier:
     - content: ISO/TS 25110:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-05-02'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

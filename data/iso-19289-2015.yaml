@@ -1,50 +1,42 @@
 ---
 id: ISO192892015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Air quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Meteorology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Siting classifications for surface observing stations on land
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Air quality - Meteorology - Siting classifications for surface observing
     stations on land
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'air
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Météorologie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Classifications des sites pour les stations terrestres d'observation
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'air - Météorologie - Classifications des sites pour les stations
     terrestres d'observation
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/64287.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 19289:2015(E)
   type: iso-reference
-- content: urn:iso:std:iso:19289:stage-90.20
+- content: urn:iso:std:iso:19289:stage-90.93
   type: URN
 docnumber: '19289'
 date:
 - type: published
-  at: 2015-03
+  at: '2015-03-05'
 contributor:
 - role:
   - type: publisher
@@ -100,38 +92,31 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 19289:2015 indicates exposure rules for various sensors, but what
-    should be done when these conditions are not fulfilled? There are sites that do
-    not respect the recommended exposure rules. Consequently, a classification has
-    been established to help determine the given site's representativeness on a small
-    scale (impact of the surrounding environment). \nThe classification process helps
-    the actors and managers of a network to better take into consideration the exposure
-    rules and thus it often improves the siting. At least, the siting environment
-    is known and documented in the metadata. It is obviously possible and recommended
-    to fully document the site but the risk is that a fully documented site might
-    increase the complexity of the metadata, which would often restrict their operational
-    use. That is why this siting classification is defined to condense the information
-    and facilitate the operational use of this metadata information.\nA site as a
-    whole has no single classification number. Each parameter being measured at a
-    site has its own class and is sometimes different from the others. If a global
-    classification of a site is required, the maximum value of the parameters' classes
-    can be used. \nIn ISO 19289:2015, the classification is (occasionally) completed
-    with an estimated uncertainty due to siting, which has to be added in the uncertainty
-    budget of the measurement. This estimation is coming from bibliographic studies
-    and/or some comparative tests.\nThe primary objective of this classification is
-    to document the presence of obstacles close to the measurement site. "
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 19289:2015 indique les règles de dégagement applicables aux différents capteurs, mais que convient-il de faire lorsque les conditions décrites ne sont pas réunies ? Il existe des sites qui ne respectent pas les règles de dégagement recommandées. C'est pourquoi on établit une classification des sites de mesure permettant de déterminer leur représentativité à petite échelle (influence de l'environnement proche). Ainsi, un site de classe 1 sera considéré comme un site de référence, tandis qu'un site de classe 5 sera un site où des obstacles proches créent un environnement inapproprié à l'exécution de mesures météorologiques censées être représentatives d'une zone étendue (d'au moins quelques dizaines de km2). Mieux le site sera classé et plus la mesure sera représentative d'une zone étendue. L'idéal serait que tous les sites appartiennent à la classe 1, mais, dans la réalité, la perfection étant difficile à atteindre, certains compromis se révèlent nécessaires. Bien que comportant des obstacles altérant les mesures, un site de classe inférieure peut néanmoins présenter un intérêt pour une application particulière.
-    Le processus de classification aide les acteurs et les directeurs de réseaux à mieux prendre en considération les règles de dégagement, ce qui a souvent pour conséquence d'améliorer le choix du site. Quel que soit le site, les métadonnées permettent d'en connaître les caractéristiques. Il est évidemment possible et recommandé d'établir une description complète du site, mais la complexité des métadonnées risque alors d'en restreindre l'emploi, ce qui est souvent le cas en exploitation. C'est pourquoi cette classification des sites de mesure se propose de condenser l'information pour faciliter l'exploitation effective des métadonnées.
-    Cette classification ne s'applique pas directement à l'ensemble d'une station d'observation, puisque, en fait, une classe est attribuée à chaque paramètre qu'on y mesure, le niveau pouvant parfois varier en fonction des paramètres. S'il s'avère nécessaire de classer l'ensemble d'un site, il est alors possible d'utiliser la classe de chiffre de code supérieur, parmi celles attribuées aux différents paramètres qui y sont mesurés. Il y a lieu de revoir périodiquement la classification d'un site, car son environnement peut varier dans le temps. Il est recommandé de procéder chaque année à une vérification visuelle systématique et de déterminer ainsi s'il y a lieu de relancer le processus de classification quand certains aspects des alentours ont évolué. Il convient de ne pas laisser passer plus de cinq ans entre chaque actualisation complète des classes attribuées aux sites.
-    Dans l'ISO 19289:2015, la classification est complétée (parfois) par une estimation de l'incertitude due au site, qu'il faut ajouter à l'incertitude associée à la mesure. Cette estimation découle d'études bibliographiques ou de certains tests comparatifs.
+  content: ISO 19289:2015 indicates exposure rules for various sensors, but what should
+    be done when these conditions are not fulfilled? There are sites that do not respect
+    the recommended exposure rules. Consequently, a classification has been established
+    to help determine the given site's representativeness on a small scale (impact
+    of the surrounding environment). The classification process helps the actors and
+    managers of a network to better take into consideration the exposure rules and
+    thus it often improves the siting. At least, the siting environment is known and
+    documented in the metadata. It is obviously possible and recommended to fully
+    document the site but the risk is that a fully documented site might increase
+    the complexity of the metadata, which would often restrict their operational use.
+    That is why this siting classification is defined to condense the information
+    and facilitate the operational use of this metadata information. A site as a whole
+    has no single classification number. Each parameter being measured at a site has
+    its own class and is sometimes different from the others. If a global classification
+    of a site is required, the maximum value of the parameters' classes can be used.
+    In ISO 19289:2015, the classification is (occasionally) completed with an estimated
+    uncertainty due to siting, which has to be added in the uncertainty budget of
+    the measurement. This estimation is coming from bibliographic studies and/or some
+    comparative tests. The primary objective of this classification is to document
+    the presence of obstacles close to the measurement site.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '93'
 copyright:
 - from: '2015'
   owner:
@@ -139,9 +124,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

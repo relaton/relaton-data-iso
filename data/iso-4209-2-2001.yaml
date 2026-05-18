@@ -1,42 +1,38 @@
 ---
 id: ISO420922001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Truck and bus tyres and rims (metric series)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Rims'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Truck and bus tyres and rims (metric series) - Part 2: Rims'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pneumatiques et jantes (séries millimétriques) pour camions et autobus
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Jantes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Pneumatiques et jantes (séries millimétriques) pour camions et autobus
     - Partie 2: Jantes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/33139.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:33139:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/31/33139.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '4209'
 date:
 - type: published
-  at: 2001-12
+  at: '2001-12-13'
 contributor:
 - role:
   - type: publisher
@@ -84,13 +80,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 4209-2:2001 spécifie la désignation, les profils et les cotes des jantes à base creuse (en une pièce) utilisées sur les camions et les autobus.
-    Les cotes des jantes sont les cotes du profil de jante nécessaires au montage et à la tenue du pneumatique sur la jante.
-    Les désignations, les cotes et les capacités de charge des pneumatiques sont données dans l'ISO 4209-1.
 status:
   stage:
     content: '95'
@@ -105,27 +94,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4209-2:1993
+    formattedref:
+      content: ISO 4209-2:2012
+    docidentifier:
+    - content: ISO 4209-2:2012
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4209-2:1993
     docidentifier:
     - content: ISO 4209-2:1993
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 4209-2:2012
+    formattedref:
+      content: ISO 4209-2:1993/DAmd 1
     docidentifier:
-    - content: ISO 4209-2:2012
+    - content: ISO 4209-2:1993/DAM 1
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2012-08-24'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

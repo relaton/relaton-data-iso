@@ -1,47 +1,42 @@
 ---
 id: ISO373921992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Industrial tyres and rims
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Pneumatic tyres (metric series) on 5 degrees tapered or flat base
     rims -- Load ratings'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial tyres and rims - Part 2: Pneumatic tyres (metric series) on
     5 degrees tapered or flat base rims -- Load ratings'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pneumatiques et jantes pour matériel de manutention
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Pneumatiques (série millimétrique) montés sur jantes coniques
     à 5 degrés ou à base plate -- Capacités de charge'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Pneumatiques et jantes pour matériel de manutention - Partie 2: Pneumatiques
     (série millimétrique) montés sur jantes coniques à 5 degrés ou à base plate --
     Capacités de charge'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9229.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9229:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/92/9229.detail.rss
 docidentifier:
@@ -55,7 +50,7 @@ docidentifier:
 docnumber: '3739'
 date:
 - type: published
-  at: 1992-05
+  at: '1992-05-07'
 contributor:
 - role:
   - type: publisher
@@ -95,11 +90,6 @@ abstract:
   content: Applies to tyres primarily intended for industrial vehicles for use on
     prepared surfaces (counterbalanced lift trucks, side loaders, and other vehicles).
     Defines a reference load-carrying capacity which the load rating is based on.
-- language: fr
-  script: Latn
-  content: Applies to tyres primarily intended for industrial vehicles for use on
-    prepared surfaces (counterbalanced lift trucks, side loaders, and other vehicles).
-    Defines a reference load-carrying capacity which the load rating is based on.
 status:
   stage:
     content: '95'
@@ -112,21 +102,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3739-2:2021
+    formattedref:
+      content: ISO/CD 3739-2
+    docidentifier:
+    - content: ISO/CD 3739-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 3739-2:2021
     docidentifier:
     - content: ISO 3739-2:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-07-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -136,5 +131,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      part: 2
-      content: ISO 3739
+      content: '9229'

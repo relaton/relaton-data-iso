@@ -1,50 +1,42 @@
 ---
 id: ISO12812020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Technical product documentation (TPD)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: General principles of representation
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Introduction and fundamental requirements'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Technical product documentation (TPD) - General principles of representation
     - Part 1: Introduction and fundamental requirements'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation technique de produits (TPD)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Principes généraux de représentation
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Introduction et exigences fondamentales'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Documentation technique de produits (TPD) - Principes généraux de représentation
     - Partie 1: Introduction et exigences fondamentales'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/65296.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 128-1:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:128:-1:stage-90.20
+- content: urn:iso:std:iso:128:-1:stage-90.60
   type: URN
 docnumber: '128'
 date:
 - type: published
-  at: 2020-05
+  at: '2020-05-26'
 contributor:
 - role:
   - type: publisher
@@ -100,19 +92,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document gives general rules for the execution of technical drawings (2D and 3D), as well as presenting the structure of the other parts of the ISO 128 series. This document is applicable to technical drawing in the fields of mechanical engineering, construction, architecture and shipbuilding. It is applicable to both manual and computer-based technical drawings.
-    For the purpose of this document the term "technical drawing" shall be interpreted in the broadest possible sense, encompassing the total package of documentation specifying the product (workpiece, subassembly, assembly).
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document donne les règles générales d'exécution des dessins techniques (2D et 3D), ainsi que la structure des autres parties de la série ISO 128. Le présent document est applicable aux dessins techniques dans le domaine de la construction mécanique, de la construction et du génie civil, de l'architecture et de la construction navale. Elle s'applique aussi bien aux dessins réalisés manuellement qu'à ceux réalisés par ordinateur.
-    Pour les besoins du présent document le terme «dessin technique» doit être interprétée dans le sens le plus large possible, qui englobe l'ensemble de la documentation spécifiant le produit (pièce, sous-assemblage, assemblage).
+  content: This document gives general rules for the execution of technical drawings
+    (2D and 3D), as well as presenting the structure of the other parts of the ISO
+    128 series. This document is applicable to technical drawing in the fields of
+    mechanical engineering, construction, architecture and shipbuilding. It is applicable
+    to both manual and computer-based technical drawings. For the purpose of this
+    document the term "technical drawing" shall be interpreted in the broadest possible
+    sense, encompassing the total package of documentation specifying the product
+    (workpiece, subassembly, assembly).
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -122,16 +114,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 128-1:2003
+    formattedref:
+      content: ISO/PWI 128-1
+    docidentifier:
+    - content: ISO/PWI 128-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 128-1:2003
     docidentifier:
     - content: ISO 128-1:2003
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

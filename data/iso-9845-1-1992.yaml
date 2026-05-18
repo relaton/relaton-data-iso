@@ -1,59 +1,53 @@
 ---
 id: ISO984511992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Solar energy
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Reference solar spectral irradiance at the ground at different receiving
     conditions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Direct normal and hemispherical solar irradiance for air mass
     1,5'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Solar energy - Reference solar spectral irradiance at the ground at different
     receiving conditions - Part 1: Direct normal and hemispherical solar irradiance
     for air mass 1,5'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Énergie solaire
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Rayonnement solaire spectral de référence au sol sous différentes conditions
     de réception
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Rayonnement solaire direct normal et hémisphérique pour une
     masse d''air de 1,5'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Énergie solaire - Rayonnement solaire spectral de référence au sol sous
     différentes conditions de réception - Partie 1: Rayonnement solaire direct normal
     et hémisphérique pour une masse d''air de 1,5'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/17723.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:17723:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/77/17723.detail.rss
 docidentifier:
@@ -67,7 +61,7 @@ docidentifier:
 docnumber: '9845'
 date:
 - type: published
-  at: 1992-10
+  at: '1992-10-01'
 contributor:
 - role:
   - type: publisher
@@ -98,20 +92,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: Provides an appropriate standard spectral irradiance distribution to be
-    used in determining relative performance of solar thermal, photovoltaic, and other
-    system components and materials where the direct and hemispherical irradiance
-    component is desired. The tables presented define an air mass 1,5 solar spectral
-    irradiance for the direct normal radiation - 5,8° field-of-view angle - and hemispherical
-    radiation on an equator-facing, 37° tilted plane for an albedo of 0,2. These tables
-    are intended to represent ideal clear sky conditions.
-- language: fr
   script: Latn
   content: Provides an appropriate standard spectral irradiance distribution to be
     used in determining relative performance of solar thermal, photovoltaic, and other
@@ -132,21 +116,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9845-1:2022
+    formattedref:
+      content: ISO/PWI 9845-1
+    docidentifier:
+    - content: ISO/PWI 9845-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9845-1:2022
     docidentifier:
     - content: ISO 9845-1:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-08-12'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

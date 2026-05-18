@@ -1,51 +1,45 @@
 ---
 id: ISO662111986
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Internal combustion engines
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Piston rings
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Vocabulary'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Internal combustion engines - Piston rings - Part 1: Vocabulary'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Moteurs à combustion interne
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Segments de piston
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Vocabulaire'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Moteurs à combustion interne - Segments de piston - Partie 1: Vocabulaire'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/13033.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:13033:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/30/13033.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '6621'
 date:
 - type: published
-  at: 1986-12
+  at: '1986-12-18'
 contributor:
 - role:
   - type: publisher
@@ -101,23 +95,6 @@ abstract:
     of piston rings. An annex contains a list of equivalent terms in English, French,
     Russian, German, Spanish, Portuguese and Italian. Some figures illustrate shapes
     and reference quantities of concern.
-- language: fr
-  script: Latn
-  content: "\nLa présente partie de l'ISO 6621 définit les termes les plus couramment
-    utilisés dans le domaine des segments de piston. Ces termes désignent soit les
-    types, soit certaines caractéristiques et certains comportements des segments
-    de piston.  \nNOTES 1 D'autres termes et définitions relatifs aux principes de
-    mesure sont donnés dans l'ISO 6621/2. 2 En supplément aux termes donnés dans les
-    trois langues officielles de l'ISO (anglais, français et russe), la présente partie
-    de l'ISO 6621 donne les termes équivalents en allemand, espagnol, portugais et
-    italien ; ces termes ont été inclus à la demande du comité technique ISO/TC 22
-    et sont publiés sous la responsabilité des comités membres de l'Allemagne, R.F.
-    (DIN), de l'Espagne (IRANOR), du Portugal (DGQ) et de l'Italie (UNI). Toutefois,
-    seuls les termes donnés dans les langues officielles peuvent être considérés comme
-    termes ISO.\n\n\nLes termes et définitions de la présente partie de l'ISO 6621
-    s'appliquent aux segments de piston pour moteurs alternatifs à combustion interne.
-    Les termes et définitions de la présente partie de l'ISO 6621 peuvent être utilisés
-    pour les segments de piston de compresseurs travaillant dans des conditions analogues.\n"
 status:
   stage:
     content: '95'
@@ -130,29 +107,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6621-1:2007
+    formattedref:
+      content: ISO/WD 6621-1
+    docidentifier:
+    - content: ISO/WD 6621-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 6621-1:2007
     docidentifier:
     - content: ISO 6621-1:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2007-10-30'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.43
-    text: Road vehicle engineering (Vocabularies)
   - code: 43.060.10
     text: Engine block and internal components
+  - code: 01.040.43
+    text: Road vehicle engineering (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

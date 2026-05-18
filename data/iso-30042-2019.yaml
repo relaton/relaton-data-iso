@@ -1,38 +1,32 @@
 ---
 id: ISO300422019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Management of terminology resources
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: TermBase eXchange (TBX)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Management of terminology resources - TermBase eXchange (TBX)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des ressources terminologiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: TermBase eXchange (TBX)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des ressources terminologiques - TermBase eXchange (TBX)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/62510.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '30042'
 date:
 - type: published
-  at: 2019-04
+  at: '2019-04-01'
 contributor:
 - role:
   - type: publisher
@@ -82,24 +76,24 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document explains fundamental concepts and describes the metamodel, data categories, and XML styles: DCA (Data Category as Attribute) and DCT (Data Category as Tag). It also specifies the methodology for defining TBX dialects.
-    The audience for this document is anyone wishing to create a new dialect compliant with TBX. This document can also be used to analyze and to understand a terminological data collection or to design a new terminology database that complies with international standards and best practices. Typical users are programmers, software developers, terminologists, analysts, and other language professionals. Intended application areas include translation and authoring.
-    The TBX-Core dialect is described in detail in this document. All other industry-supported dialects are out of the scope of this document.
-    NOTE       TBX dialects are defined by industry stakeholders. Any materials needed to implement currently shared dialects are publicly available as self-contained industry specifications (see for instance the TBX Info website[15]).
-- language: fr
-  script: Latn
-  content: |-
-    This document explains fundamental concepts and describes the metamodel, data categories, and XML styles: DCA (Data Category as Attribute) and DCT (Data Category as Tag). It also specifies the methodology for defining TBX dialects.
-    The audience for this document is anyone wishing to create a new dialect compliant with TBX. This document can also be used to analyze and to understand a terminological data collection or to design a new terminology database that complies with international standards and best practices. Typical users are programmers, software developers, terminologists, analysts, and other language professionals. Intended application areas include translation and authoring.
-    The TBX-Core dialect is described in detail in this document. All other industry-supported dialects are out of the scope of this document.
-    NOTE       TBX dialects are defined by industry stakeholders. Any materials needed to implement currently shared dialects are publicly available as self-contained industry specifications (see for instance the TBX Info website[15]).
+  content: 'This document explains fundamental concepts and describes the metamodel,
+    data categories, and XML styles: DCA (Data Category as Attribute) and DCT (Data
+    Category as Tag). It also specifies the methodology for defining TBX dialects.
+    The audience for this document is anyone wishing to create a new dialect compliant
+    with TBX. This document can also be used to analyze and to understand a terminological
+    data collection or to design a new terminology database that complies with international
+    standards and best practices. Typical users are programmers, software developers,
+    terminologists, analysts, and other language professionals. Intended application
+    areas include translation and authoring. The TBX-Core dialect is described in
+    detail in this document. All other industry-supported dialects are out of the
+    scope of this document. NOTE TBX dialects are defined by industry stakeholders.
+    Any materials needed to implement currently shared dialects are publicly available
+    as self-contained industry specifications (see for instance the TBX Info website[15]).'
 status:
   stage:
     content: '90'
@@ -114,32 +108,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 30042:2008
+    formattedref:
+      content: ISO/CD 30042
+    docidentifier:
+    - content: ISO/CD 30042
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 30042:2008
     docidentifier:
     - content: ISO 30042:2008
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/AWI 30042
-    docidentifier:
-    - content: ISO/AWI 30042
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '01.020'
-    text: Terminology (principles and coordination)
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
+  - code: '01.020'
+    text: Terminology (principles and coordination)
   structuredidentifier:
     type: ISO
     project_number:

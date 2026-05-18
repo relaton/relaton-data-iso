@@ -1,50 +1,42 @@
 ---
 id: ISOIEC2326422024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information security
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Redaction of authentic data
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Redactable signature schemes based on asymmetric mechanisms'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information security - Redaction of authentic data - Part 2: Redactable
     signature schemes based on asymmetric mechanisms'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Rédaction de données authentifiées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Schémas de signature éditable basés sur des mécanismes asymétriques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Sécurité de l''information - Rédaction de données authentifiées - Partie
     2: Schémas de signature éditable basés sur des mécanismes asymétriques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78342.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '23264'
 date:
 - type: published
-  at: 2024-08
+  at: '2024-08-15'
 contributor:
 - role:
   - type: publisher
@@ -103,52 +95,30 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document specifies cryptographic mechanisms to redact authentic data.
+  content: 'This document specifies cryptographic mechanisms to redact authentic data.
     The mechanisms described in this document offer different combinations of the
     security properties defined and described in ISO/IEC 23264-1. For all mechanisms,
     this document describes the processes for key generation, generating the redactable
-    attestation, carrying out redactions and verifying redactable attestations.\nThis
+    attestation, carrying out redactions and verifying redactable attestations. This
     document contains mechanisms that are based on asymmetric cryptography using three
-    related transformations:\n¾      a public transformation defined by a verification
-    key (verification process for verifying a redactable attestation),\n¾      a private
+    related transformations: ¾      a public transformation defined by a verification
+    key (verification process for verifying a redactable attestation), ¾      a private
     transformation defined by a private attestation key (redactable attestation process
-    for generating a redactable attestation), and\n¾      a third transformation defined
+    for generating a redactable attestation), and ¾      a third transformation defined
     by the redaction key (redaction process) allowing to redact authentic information
     within the constraints set forth during generation of the attestation such that
-    redacted information cannot be reconstructed.  \nThis document contains mechanisms
+    redacted information cannot be reconstructed.  This document contains mechanisms
     which, after a successful redaction, allow the attestation to remain verifiable
     using the verification transformation and attest that non-redacted fields of the
     attested message are unmodified. This document further details that the three
     transformations have the property whereby it is computationally infeasible to
     derive the private attestation transformation, given the redaction and or the
-    verification transformation and key(s)."
-- language: fr
-  script: Latn
-  content: "This document specifies cryptographic mechanisms to redact authentic data.
-    The mechanisms described in this document offer different combinations of the
-    security properties defined and described in ISO/IEC 23264-1. For all mechanisms,
-    this document describes the processes for key generation, generating the redactable
-    attestation, carrying out redactions and verifying redactable attestations.\nThis
-    document contains mechanisms that are based on asymmetric cryptography using three
-    related transformations:\n¾      a public transformation defined by a verification
-    key (verification process for verifying a redactable attestation),\n¾      a private
-    transformation defined by a private attestation key (redactable attestation process
-    for generating a redactable attestation), and\n¾      a third transformation defined
-    by the redaction key (redaction process) allowing to redact authentic information
-    within the constraints set forth during generation of the attestation such that
-    redacted information cannot be reconstructed.  \nThis document contains mechanisms
-    which, after a successful redaction, allow the attestation to remain verifiable
-    using the verification transformation and attest that non-redacted fields of the
-    attested message are unmodified. This document further details that the three
-    transformations have the property whereby it is computationally infeasible to
-    derive the private attestation transformation, given the redaction and or the
-    verification transformation and key(s)."
+    verification transformation and key(s).'
 status:
   stage:
     content: '60'
@@ -161,9 +131,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

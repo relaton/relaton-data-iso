@@ -1,53 +1,45 @@
 ---
 id: ISOIEC2934120142017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: UPnP Device Architecture
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Part 20-14: Audio video device control protocol — Level 4 — Scheduled
+  content: 'Part 20-14: Audio video device control protocol -- Level 4 -- Scheduled
     recording service'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - UPnP Device Architecture - Part 20-14: Audio
-    video device control protocol — Level 4 — Scheduled recording service'
+    video device control protocol -- Level 4 -- Scheduled recording service'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Architecture de dispositif UPnP
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Partie 20-14: Protocole de contrôle de dispositif audio-vidéo — Niveau
-    4 — Service d''enregistrement programmé'
+  content: 'Partie 20-14: Protocole de contrôle de dispositif audio-vidéo -- Niveau
+    4 -- Service d''enregistrement programmé'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Architecture de dispositif UPnP - Partie
-    20-14: Protocole de contrôle de dispositif audio-vidéo — Niveau 4 — Service d''enregistrement
-    programmé'
+    20-14: Protocole de contrôle de dispositif audio-vidéo -- Niveau 4 -- Service
+    d''enregistrement programmé'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69150.html
@@ -66,7 +58,7 @@ docidentifier:
 docnumber: '29341'
 date:
 - type: published
-  at: 2017-09
+  at: '2017-09-13'
 contributor:
 - role:
   - type: publisher
@@ -106,94 +98,50 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 29341-20-14:2017 is compliant with the UPnP Device Architecture
+  content: 'ISO/IEC 29341-20-14:2017 is compliant with the UPnP Device Architecture
     version 1.0 [14]. It defines a service type referred to herein as ScheduledRecording
-    service. \nThe ScheduledRecording service is a UPnP service that allows control
+    service. The ScheduledRecording service is a UPnP service that allows control
     points to schedule the recording of content. Generally, this content is broadcast
     content, but this specification does not limit itself to broadcast content. This
-    service type enables the following functions:\n-           Create a recordSchedule
-    so that it is added to the list of recordSchedule instances. Each recordSchedule
-    describes user-level recording instructions for the ScheduledRecording service.\n-
-    \          Browse a list of recordSchedule instances stored by the ScheduledRecording
-    service.\n-           Delete a recordSchedule so that it is removed from the list
-    of recordSchedule instances.\n-           Browse a list of recordTask instances,
-    stored by the ScheduledRecording service. The ScheduledRecording service may create
-    zero or more recordTask instances for each recordSchedule. A recordTask represents
-    a discrete recording operation of a recordSchedule.\n-           Enable or disable
-    individual recordTask instances.\n-           Enable or disable a recordSchedule.\n-
-    \          Receive notifications i ndicating change of recordSchedule or recordTask
-    list.\nThe ScheduledRecording service does not require a dependency on any UPnP
-    services other than a co-located ContentDirectory service, which provides the
-    following functions:\n-           A ContentDirectory service provides channel
-    line-up to allow users to find recordable channels. A control point may use this
-    metadata when creating a recordSchedule on a ScheduledRecording service.\n-           A
-    ContentDirectory service may provide Electronic Program Guide (EPG) features to
-    allow users to find recordable content. A control point may use this metadata
-    when creating a recordSchedule on a ScheduledRecording service.\n-           Contents
-    recorded by the ScheduledRecording service may be exposed by a ContentDirectory
-    service.\nThe architectural relationship among the different concepts, defined
-    by the ScheduledRecording service can be summarized as follows: A ScheduledRecording
-    service owns a flat (that is: non-nested) list of recordSchedule instances, meaning
-    that the ScheduledRecording service may create, destroy, or change recordSchedule
-    instances. A recordSchedule represents user-level instructions to perform recording
-    operations. Generally, a user constructs his instructions to a ScheduledRecording
-    service via a control point that invokes UPnP actions that affect the list of
-    recordSchedule instances. In all cases, the ScheduledRecording service shall be
-    able to describe discrete recording operations for a recordSchedule through a
-    list of associated recordTask instances. A recordTask can only exist with a recordSchedule
-    (that is: never orphaned). Thus when a recordTask is created by the ScheduledRecording
-    service, its lifetime depends on its parent recordSchedule. An individual recordTask
-    can be selectively enabled or disabled. \nThis service template does not address:\nImplementations
-    where the ScheduledRecording service and its associated ContentDirectory service
-    are not co-located in the same device."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 29341-20-14:2017 is compliant with the UPnP Device Architecture
-    version 1.0 [14]. It defines a service type referred to herein as ScheduledRecording
-    service. \nThe ScheduledRecording service is a UPnP service that allows control
-    points to schedule the recording of content. Generally, this content is broadcast
-    content, but this specification does not limit itself to broadcast content. This
-    service type enables the following functions:\n-           Create a recordSchedule
-    so that it is added to the list of recordSchedule instances. Each recordSchedule
-    describes user-level recording instructions for the ScheduledRecording service.\n-
-    \          Browse a list of recordSchedule instances stored by the ScheduledRecording
-    service.\n-           Delete a recordSchedule so that it is removed from the list
-    of recordSchedule instances.\n-           Browse a list of recordTask instances,
-    stored by the ScheduledRecording service. The ScheduledRecording service may create
-    zero or more recordTask instances for each recordSchedule. A recordTask represents
-    a discrete recording operation of a recordSchedule.\n-           Enable or disable
-    individual recordTask instances.\n-           Enable or disable a recordSchedule.\n-
-    \          Receive notifications i ndicating change of recordSchedule or recordTask
-    list.\nThe ScheduledRecording service does not require a dependency on any UPnP
-    services other than a co-located ContentDirectory service, which provides the
-    following functions:\n-           A ContentDirectory service provides channel
-    line-up to allow users to find recordable channels. A control point may use this
-    metadata when creating a recordSchedule on a ScheduledRecording service.\n-           A
-    ContentDirectory service may provide Electronic Program Guide (EPG) features to
-    allow users to find recordable content. A control point may use this metadata
-    when creating a recordSchedule on a ScheduledRecording service.\n-           Contents
-    recorded by the ScheduledRecording service may be exposed by a ContentDirectory
-    service.\nThe architectural relationship among the different concepts, defined
-    by the ScheduledRecording service can be summarized as follows: A ScheduledRecording
-    service owns a flat (that is: non-nested) list of recordSchedule instances, meaning
-    that the ScheduledRecording service may create, destroy, or change recordSchedule
-    instances. A recordSchedule represents user-level instructions to perform recording
-    operations. Generally, a user constructs his instructions to a ScheduledRecording
-    service via a control point that invokes UPnP actions that affect the list of
-    recordSchedule instances. In all cases, the ScheduledRecording service shall be
-    able to describe discrete recording operations for a recordSchedule through a
-    list of associated recordTask instances. A recordTask can only exist with a recordSchedule
-    (that is: never orphaned). Thus when a recordTask is created by the ScheduledRecording
-    service, its lifetime depends on its parent recordSchedule. An individual recordTask
-    can be selectively enabled or disabled. \nThis service template does not address:\nImplementations
-    where the ScheduledRecording service and its associated ContentDirectory service
-    are not co-located in the same device."
+    service type enables the following functions: - Create a recordSchedule so that
+    it is added to the list of recordSchedule instances. Each recordSchedule describes
+    user-level recording instructions for the ScheduledRecording service. - Browse
+    a list of recordSchedule instances stored by the ScheduledRecording service. -
+    Delete a recordSchedule so that it is removed from the list of recordSchedule
+    instances. - Browse a list of recordTask instances, stored by the ScheduledRecording
+    service. The ScheduledRecording service may create zero or more recordTask instances
+    for each recordSchedule. A recordTask represents a discrete recording operation
+    of a recordSchedule. - Enable or disable individual recordTask instances. - Enable
+    or disable a recordSchedule. - Receive notifications i ndicating change of recordSchedule
+    or recordTask list. The ScheduledRecording service does not require a dependency
+    on any UPnP services other than a co-located ContentDirectory service, which provides
+    the following functions: - A ContentDirectory service provides channel line-up
+    to allow users to find recordable channels. A control point may use this metadata
+    when creating a recordSchedule on a ScheduledRecording service. - A ContentDirectory
+    service may provide Electronic Program Guide (EPG) features to allow users to
+    find recordable content. A control point may use this metadata when creating a
+    recordSchedule on a ScheduledRecording service. - Contents recorded by the ScheduledRecording
+    service may be exposed by a ContentDirectory service. The architectural relationship
+    among the different concepts, defined by the ScheduledRecording service can be
+    summarized as follows: A ScheduledRecording service owns a flat (that is: non-nested)
+    list of recordSchedule instances, meaning that the ScheduledRecording service
+    may create, destroy, or change recordSchedule instances. A recordSchedule represents
+    user-level instructions to perform recording operations. Generally, a user constructs
+    his instructions to a ScheduledRecording service via a control point that invokes
+    UPnP actions that affect the list of recordSchedule instances. In all cases, the
+    ScheduledRecording service shall be able to describe discrete recording operations
+    for a recordSchedule through a list of associated recordTask instances. A recordTask
+    can only exist with a recordSchedule (that is: never orphaned). Thus when a recordTask
+    is created by the ScheduledRecording service, its lifetime depends on its parent
+    recordSchedule. An individual recordTask can be selectively enabled or disabled.
+    This service template does not address: Implementations where the ScheduledRecording
+    service and its associated ContentDirectory service are not co-located in the
+    same device.'
 status:
   stage:
     content: '90'
@@ -206,9 +154,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

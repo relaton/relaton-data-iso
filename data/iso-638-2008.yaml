@@ -1,53 +1,47 @@
 ---
 id: ISO6382008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paper, board and pulps
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of dry matter content
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Oven-drying method
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Paper, board and pulps - Determination of dry matter content - Oven-drying
     method
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Papiers, cartons et pâtes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la teneur en matières sèches
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode par séchage à l'étuve
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Papiers, cartons et pâtes - Détermination de la teneur en matières sèches
     - Méthode par séchage à l'étuve
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/42267.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:42267:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/22/42267.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '638'
 date:
 - type: published
-  at: 2008-10
+  at: '2008-09-16'
 contributor:
 - role:
   - type: publisher
@@ -98,16 +92,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 638:2008 specifies an oven-drying method for the determination of the dry matter in paper, board and pulp.
-    The procedure is applicable to paper, board and pulp which does not contain any appreciable quantities of materials other than water that are volatile at the temperature of 105 °C ± 2 °C. It is used, for example, in the case of pulp, paper and board samples taken for chemical and physical tests in the laboratory, when a concurrent determination of dry matter content is required.
-    This method is not applicable to the determination of the dry matter content of slush pulp or to the determination of the saleable mass of pulp lots.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 638:2008 spécifie une méthode par séchage à l'étuve pour la détermination de la teneur en matières sèches d'échantillons de papier, de carton et de pâte.
-    La méthode est applicable au papier, au carton et à la pâte ne contenant pas des quantités appréciables de matières autres que l'eau, volatiles à la température de 105 °C ± 2 °C. Elle est utilisée, par exemple, dans le cas d'échantillons de pâte, de papier et de carton prélevés en vue d'analyses chimiques et physiques effectués en laboratoire lorsqu'il faut procéder à la détermination simultanée de la teneur en matières sèches.
-    Cette méthode n'est pas applicable pour la détermination de la teneur en matières sèches d'une suspension de pâte, ni pour la détermination de la masse marchande de lots de pâte.
+  content: ISO 638:2008 specifies an oven-drying method for the determination of the
+    dry matter in paper, board and pulp. The procedure is applicable to paper, board
+    and pulp which does not contain any appreciable quantities of materials other
+    than water that are volatile at the temperature of 105 °C ± 2 °C. It is used,
+    for example, in the case of pulp, paper and board samples taken for chemical and
+    physical tests in the laboratory, when a concurrent determination of dry matter
+    content is required. This method is not applicable to the determination of the
+    dry matter content of slush pulp or to the determination of the saleable mass
+    of pulp lots.
 status:
   stage:
     content: '95'
@@ -122,46 +115,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 638:1978
-    docidentifier:
-    - content: ISO 638:1978
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 638-1:2021
-    docidentifier:
-    - content: ISO 638-1:2021
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-05-06'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 638-2:2021
+    formattedref:
+      content: ISO 638-2:2021
     docidentifier:
     - content: ISO 638-2:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-05-06'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 638-1:2021
+    docidentifier:
+    - content: ISO 638-1:2021
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 638:1978
+    docidentifier:
+    - content: ISO 638:1978
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '85.040'
-    text: Pulps
   - code: '85.060'
     text: Paper and board
+  - code: '85.040'
+    text: Pulps
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,53 +1,47 @@
 ---
 id: ISO1576532004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Diagnostics on Controller Area Networks (CAN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Implementation of unified diagnostic services (UDS on CAN)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Diagnostics on Controller Area Networks (CAN) - Part 3:
     Implementation of unified diagnostic services (UDS on CAN)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Diagnostic sur gestionnaire de réseau de communication (CAN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Mise en oeuvre des services de diagnostic unifiés (SDU sur CAN)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Diagnostic sur gestionnaire de réseau de communication
     (CAN) - Partie 3: Mise en oeuvre des services de diagnostic unifiés (SDU sur CAN)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/33618.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:33618:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/36/33618.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '15765'
 date:
 - type: published
-  at: 2004-10
+  at: '2004-10-06'
 contributor:
 - role:
   - type: publisher
@@ -92,26 +86,17 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: 'ISO 15765-3:2004 specifies the implementation of a common set of unified
+  content: ISO 15765-3:2004 specifies the implementation of a common set of unified
     diagnostic services (UDS), in accordance with ISO 14229-1, on controller area
     networks (CAN) as specified in ISO 11898. It gives the diagnostic services and
     server memory programming requirements for all in-vehicle servers connected to
     a CAN network and external test equipment. It does not specify any requirement
-    for the in-vehicle CAN bus architecture. '
-- language: fr
-  script: Latn
-  content: 'ISO 15765-3:2004 specifies the implementation of a common set of unified
-    diagnostic services (UDS), in accordance with ISO 14229-1, on controller area
-    networks (CAN) as specified in ISO 11898. It gives the diagnostic services and
-    server memory programming requirements for all in-vehicle servers connected to
-    a CAN network and external test equipment. It does not specify any requirement
-    for the in-vehicle CAN bus architecture. '
+    for the in-vehicle CAN bus architecture.
 status:
   stage:
     content: '95'
@@ -124,21 +109,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14229-3:2012
+    formattedref:
+      content: ISO 14229-3:2012
     docidentifier:
     - content: ISO 14229-3:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-02-17'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 15765-3
+    docidentifier:
+    - content: ISO/NP 15765-3
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

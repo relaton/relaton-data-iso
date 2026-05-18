@@ -1,42 +1,37 @@
 ---
 id: ISO419021982
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Passenger lifts and service lifts
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Lifts of class IV'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Passenger lifts and service lifts - Part 2: Lifts of class IV'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ascenseurs et monte-charge
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Ascenseurs de classe IV'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Ascenseurs et monte-charge - Partie 2: Ascenseurs de classe IV'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9967.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9967:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/99/9967.detail.rss
 docidentifier:
@@ -50,7 +45,7 @@ docidentifier:
 docnumber: '4190'
 date:
 - type: published
-  at: 1982-12
+  at: '1982-12-01'
 contributor:
 - role:
   - type: publisher
@@ -96,21 +91,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4190-2:2001
+    formattedref:
+      content: ISO/DIS 4190-2
+    docidentifier:
+    - content: ISO/DIS 4190-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 4190-2:2001
     docidentifier:
     - content: ISO 4190-2:2001
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2001-02-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -120,5 +120,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      part: 2
-      content: ISO 4190
+      content: '9967'

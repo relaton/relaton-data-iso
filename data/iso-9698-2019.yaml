@@ -1,49 +1,41 @@
 ---
 id: ISO96982019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Water quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Tritium
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Test method using liquid scintillation counting
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Water quality - Tritium - Test method using liquid scintillation counting
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Tritium
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode d'essai par comptage des scintillations en milieu liquide
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau - Tritium - Méthode d'essai par comptage des scintillations
     en milieu liquide
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69649.html
@@ -62,7 +54,7 @@ docidentifier:
 docnumber: '9698'
 date:
 - type: published
-  at: 2019-05
+  at: '2019-04-30'
 contributor:
 - role:
   - type: publisher
@@ -99,16 +91,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a method by liquid scintillation counting for the determination of tritium activity concentration in samples of marine waters, surface waters, ground waters, rain waters, drinking waters or of tritiated water ([3H]H2O) in effluents.
-    The method is not directly applicable to the analysis of organically bound tritium; its determination requires additional chemical processing of the sample (such as chemical oxidation or combustion).
-    With suitable technical conditions, the detection limit may be as low as 1 Bq·l−1. Tritium activity concentrations below 106 Bq·l−1 can be determined without any sample dilution.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie une méthode de détermination de l'activité volumique du tritium dans des échantillons d'eaux de mer, de surface, souterraines et pluviales, d'eaux potables ou d'eau tritiée ([3H]H2O) dans les effluents par comptage des scintillations en milieu liquide.
-    Cette méthode n'est pas directement applicable à l'analyse du tritium organiquement lié; sa détermination nécessite un traitement chimique supplémentaire de l'échantillon (tel une oxydation chimique ou une combustion).
-    Dans les conditions techniques adéquates, la limite de détection peut être réduite à 1 Bq·l−1. Les activités volumiques du tritium inférieures à 106 Bq·l−1 peuvent être déterminées sans dilution de l'échantillon.
+  content: This document specifies a method by liquid scintillation counting for the
+    determination of tritium activity concentration in samples of marine waters, surface
+    waters, ground waters, rain waters, drinking waters or of tritiated water ([3H]H2O)
+    in effluents. The method is not directly applicable to the analysis of organically
+    bound tritium; its determination requires additional chemical processing of the
+    sample (such as chemical oxidation or combustion). With suitable technical conditions,
+    the detection limit may be as low as 1 Bq·l−1. Tritium activity concentrations
+    below 106 Bq·l−1 can be determined without any sample dilution.
 status:
   stage:
     content: '90'
@@ -123,32 +113,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9698:2010
+    formattedref:
+      content: ISO/CD 9698
+    docidentifier:
+    - content: ISO/CD 9698
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 9698:2010
     docidentifier:
     - content: ISO 9698:2010
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/AWI 9698
-    docidentifier:
-    - content: ISO/AWI 9698
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '13.280'
-    text: Radiation protection
   - code: 13.060.60
     text: Examination of physical properties of water
+  - code: '13.280'
+    text: Radiation protection
   structuredidentifier:
     type: ISO
     project_number:

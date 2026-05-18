@@ -1,53 +1,45 @@
 ---
 id: ISOIEC159541999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Systems Interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Connection-mode protocol for the Application Service Object Association
     Control Service Element
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Open Systems Interconnection - Connection-mode
     protocol for the Application Service Object Association Control Service Element
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interconnexion des systèmes ouverts
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Protocole en mode connexion pour l'élément de service de contrôle d'association
     des objets de service d'application
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Interconnexion des systèmes ouverts - Protocole
     en mode connexion pour l'élément de service de contrôle d'association des objets
     de service d'application
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16022.html
@@ -66,7 +58,7 @@ docidentifier:
 docnumber: '15954'
 date:
 - type: published
-  at: 1999-12
+  at: '1999-12-16'
 contributor:
 - role:
   - type: publisher
@@ -112,60 +104,34 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The ACSE supports two modes of communication: connection-mode and connectionless-mode. The ACSE service
-    definition (see ITU-T Rec. X.217 bis | ISO/IEC 15953) includes both modes of communication. This Recommendation |
-    International Standard only includes the connection mode of communication. This Recommendation | International
-    Standard for the connectionless mode of communication is contained in ITU-T Rec. X.237 bis | ISO/IEC 15955.
-    This Recommendation | International Standard defines procedures that are applicable to instances of communication
-    between systems which wish to interconnect in an open systems interconnection environment in a connection mode. This
-    Recommendation | International Standard includes the Kernel functional unit that is used to establish and release
-    ASO-associations. The Authentication functional unit provides additional facilities for exchanging information in
-    support of authentication during association establishment without adding new services. The ACSE authentication
-    facilities can be used to support a limited class of authentication methods. The ASO-context negotiation functional unit
-    provides the additional facility for the recipient to select the ASO-context from a list offered by the initiator during
-    association establishment. The optional Higher Level Association functional unit provides for the facility to identify
-    ASO-associations and transparently pass data to child ASOs and allows the ASO-context or the presentation context on
-    an ASO-association to be modified during the lifetime of the association.
-    This Recommendation | International Standard specifies:
-    a) procedures for the transfer of information for ASO-association control and the authentication of ASOs
-    and application-entities; and
-    b) the abstract syntax for the representation of the ACSE APDUs.
-    The ACSE procedures are defined in terms of:
-    a) the interactions among peer ACSE protocol machines through the use of Presentation services or
-    supporting ACSE services; and
-    b) the interaction between an ACSE protocol machine and its service-user.
-    This Recommendation | International Standard also specifies conformance requirements for systems implementing these
-    procedures. It does not contain tests which can be used to demonstrate conformance.
-- language: fr
-  script: Latn
-  content: |-
-    L'élément ACSE accepte deux modes de communication: le mode connexion et le mode sans connexion. La définition
-    du service ACSE (voir la Rec. UIT-T X.217 bis | ISO/CEI 15953) englobe ces deux modes de communication. La
-    présente Recommandation | Norme internationale comprend uniquement le mode connexion. La Recommandation |
-    Norme internationale pour le mode sans connexion est comprise dans la Rec. UIT-T X.237 bis | ISO/CEI 15955.
-    La présente Recommandation | Norme internationale définit les procédures applicables à des instances de
-    communication entre des systèmes qui désirent s'interconnecter dans un environnement OSI en mode connexion. La
-    présente Recommandation | Norme internationale inclut l'unité fonctionnelle Kernel qui est utilisée pour établir les
-    associations d'objet ASO et y mettre fin. L'unité fonctionnelle d'authentification offre des fonctions supplémentaires qui
-    permettent l'échange d'informations destinées à assurer l'authentification pendant l'établissement de l'association sans que
-    soient ajoutés de nouveaux services. Les fonctions d'authentification de l'élément ACSE peuvent être utilisées pour la
-    prise en charge d'une classe limitée de méthodes d'authentification. L'unité fonctionnelle de négociation du contexte
-    d'objet ASO offre des fonctions supplémentaires qui permettent de choisir le contexte d'objet ASO à partir d'une liste
-    offerte par le demandeur pendant l'établissement de l'association. L'unité fonctionnelle facultative pour les associations
-    de niveau supérieur offre des fonctions d'identification des associations d'objet ASO, de transmission de données
-    transparente vers des objets ASO enfants et de modification du contexte d'objet ASO ou du contexte de présentation
-    d'une association d'objet ASO pendant la durée de vie de l'association.
-    La présente Recommandation | Norme internationale spécifie:
-    a) les procédures de transfert des informations concernant le contrôle de l'association d'objet ASO et
-    l'authentification des objets ASO et entités d'application;
-    b) la syntaxe abstraite de représentation des unités APDU de l'élément ACSE.
-    Les procédures ACSE sont définies en termes:
-    a) d'interactions entre machines protocolaires ACSE homologues, via l'utilisation de services de présentation
-    ou de services ACSE de soutien;
-    b) d'interactions entre une machine protocolaire ACSE et son utilisateur du service.
-    La présente Recommandation | Norme internationale spécifie également les conditions de conformité des systèmes
-    mettant en oeuvre ces procédures. Elle ne contient pas de tests qui pourraient être utilisés pour prouver cette conformité.
+  content: 'The ACSE supports two modes of communication: connection-mode and connectionless-mode.
+    The ACSE service definition (see ITU-T Rec. X.217 bis | ISO/IEC 15953) includes
+    both modes of communication. This Recommendation | International Standard only
+    includes the connection mode of communication. This Recommendation | International
+    Standard for the connectionless mode of communication is contained in ITU-T Rec.
+    X.237 bis | ISO/IEC 15955. This Recommendation | International Standard defines
+    procedures that are applicable to instances of communication between systems which
+    wish to interconnect in an open systems interconnection environment in a connection
+    mode. This Recommendation | International Standard includes the Kernel functional
+    unit that is used to establish and release ASO-associations. The Authentication
+    functional unit provides additional facilities for exchanging information in support
+    of authentication during association establishment without adding new services.
+    The ACSE authentication facilities can be used to support a limited class of authentication
+    methods. The ASO-context negotiation functional unit provides the additional facility
+    for the recipient to select the ASO-context from a list offered by the initiator
+    during association establishment. The optional Higher Level Association functional
+    unit provides for the facility to identify ASO-associations and transparently
+    pass data to child ASOs and allows the ASO-context or the presentation context
+    on an ASO-association to be modified during the lifetime of the association. This
+    Recommendation | International Standard specifies: a) procedures for the transfer
+    of information for ASO-association control and the authentication of ASOs and
+    application-entities; and b) the abstract syntax for the representation of the
+    ACSE APDUs. The ACSE procedures are defined in terms of: a) the interactions among
+    peer ACSE protocol machines through the use of Presentation services or supporting
+    ACSE services; and b) the interaction between an ACSE protocol machine and its
+    service-user. This Recommendation | International Standard also specifies conformance
+    requirements for systems implementing these procedures. It does not contain tests
+    which can be used to demonstrate conformance.'
 status:
   stage:
     content: '90'
@@ -178,18 +144,34 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8650-1:1996
+    formattedref:
+      content: ISO/IEC 8650-1:1996/Amd 2:1998
+    docidentifier:
+    - content: ISO/IEC 8650-1:1996/Amd 2:1998
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8650-1:1996
     docidentifier:
     - content: ISO/IEC 8650-1:1996
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8650-1:1996/Amd 1:1997
+    docidentifier:
+    - content: ISO/IEC 8650-1:1996/Amd 1:1997
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

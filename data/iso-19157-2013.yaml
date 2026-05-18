@@ -1,38 +1,32 @@
 ---
 id: ISO191572013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: 'Geographic information '
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Data quality
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information  - Data quality
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité des données
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Qualité des données
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/32575.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '19157'
 date:
 - type: published
-  at: 2013-12
+  at: '2013-12-06'
 contributor:
 - role:
   - type: publisher
@@ -88,33 +82,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "\uFEFF\nISO 19157:2013 establishes the principles for describing the quality
-    of geographic data. It\n-   defines components for describing data quality;\n-
-    \  specifies components and content structure of a register for data quality measures;\n-
-    \  describes general procedures for evaluating the quality of geographic data;\n-
-    \  establishes principles for reporting data quality.\nISO 19157:2013 also defines
-    a set of data quality measures for use in evaluating and reporting data quality.
-    It is applicable to data producers providing quality information to describe and
-    assess how well a data set conforms to its product specification and to data users
-    attempting to determine whether or not specific geographic data are of sufficient
-    quality for their particular application.\nISO 19157:2013 does not attempt to
-    define minimum acceptable levels of quality for geographic data."
-- language: fr
-  script: Latn
-  content: "\uFEFF\nL'ISO 19157:2013 établit les principes de description de la qualité
-    des données géographiques. Elle\n-      définit des composants destinés à décrire
-    la qualité de données;\n-      spécifie des composants et la structure du contenu
-    d'un registre de mesures de qualité des données;\n-      décrit des procédures
-    générales d'évaluation de la qualité des données géographique;\n-      pose les
-    principes de la description de la qualité des données dans des rapports.\nL'ISO
-    19157:2013 définit également un ensemble de mesures de qualité des données destinées
-    à l'évaluation et à la mise en place de rapports sur la qualité de données. Elle
-    s'applique aux producteurs de données fournissant des informations de qualité
-    pour décrire et évaluer la façon dont un jeu de données répond à sa spécification
-    de produit et aux utilisateurs cherchant à déterminer si des données géographiques
-    spécifiques sont ou non de qualité suffisante pour leur application particulière.\nL'ISO
-    19157:2013 ne cherche pas à définir des niveaux minimums acceptables de qualité
-    en matière de données géographiques."
+  content: "\uFEFFISO 19157:2013 establishes the principles for describing the quality
+    of geographic data. It - defines components for describing data quality; - specifies
+    components and content structure of a register for data quality measures; - describes
+    general procedures for evaluating the quality of geographic data; - establishes
+    principles for reporting data quality. ISO 19157:2013 also defines a set of data
+    quality measures for use in evaluating and reporting data quality. It is applicable
+    to data producers providing quality information to describe and assess how well
+    a data set conforms to its product specification and to data users attempting
+    to determine whether or not specific geographic data are of sufficient quality
+    for their particular application. ISO 19157:2013 does not attempt to define minimum
+    acceptable levels of quality for geographic data."
 status:
   stage:
     content: '90'
@@ -129,54 +107,56 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 19113:2002
+    formattedref:
+      content: ISO/WD 19157-3
+    docidentifier:
+    - content: ISO/WD 19157-3
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 19157-1:2023
+    docidentifier:
+    - content: ISO 19157-1:2023
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 19113:2002
     docidentifier:
     - content: ISO 19113:2002
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 19114:2003
-    docidentifier:
-    - content: ISO 19114:2003
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/TS 19138:2006
+    formattedref:
+      content: ISO/TS 19138:2006
     docidentifier:
     - content: ISO/TS 19138:2006
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 19157-1:2023
+    formattedref:
+      content: ISO 19114:2003
     docidentifier:
-    - content: ISO 19157-1:2023
+    - content: ISO 19114:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-06-08'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 19157:2013/Amd 1:2018
+    formattedref:
+      content: ISO 19114:2003/Cor 1:2005
     docidentifier:
-    - content: ISO 19157:2013/Amd 1:2018
+    - content: ISO 19114:2003/Cor 1:2005
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-06-08'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

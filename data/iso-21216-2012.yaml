@@ -1,50 +1,42 @@
 ---
 id: ISO212162012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Communication access for land mobiles (CALM)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Millimetre wave air interface
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Communication access for land mobiles (CALM)
     - Millimetre wave air interface
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Accès aux communications pour mobiles de terrain (CALM)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface d'air à ondes millimétriques
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport - Accès aux communications pour mobiles
     de terrain (CALM) - Interface d'air à ondes millimétriques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/59703.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '21216'
 date:
 - type: published
-  at: 2012-03
+  at: '2012-03-12'
 contributor:
 - role:
   - type: publisher
@@ -94,7 +86,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -111,24 +102,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 21216:2011
+    formattedref:
+      content: ISO/WD 21216-2
+    docidentifier:
+    - content: ISO/WD 21216-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 21216-1
+    docidentifier:
+    - content: ISO/WD 21216-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 21216:2011
     docidentifier:
     - content: ISO 21216:2011
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

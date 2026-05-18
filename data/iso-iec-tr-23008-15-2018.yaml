@@ -1,55 +1,47 @@
 ---
 id: ISOIECTR23008152018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: High efficiency coding and media delivery in heterogeneous environments
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 15: Signalling, backward compatibility and display adaptation for
     HDR/WCG video'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - High efficiency coding and media delivery in
     heterogeneous environments - Part 15: Signalling, backward compatibility and display
     adaptation for HDR/WCG video'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Codage à haut rendement et fourniture de supports dans les environnements
     hétérogènes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 15: Signalisation, compatibilité amont et adaptation de l''affichage
     pour la vidéo HDR/WCG'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Codage à haut rendement et fourniture
     de supports dans les environnements hétérogènes - Partie 15: Signalisation, compatibilité
     amont et adaptation de l''affichage pour la vidéo HDR/WCG'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/72656.html
@@ -68,7 +60,7 @@ docidentifier:
 docnumber: '23008'
 date:
 - type: published
-  at: 2018-08
+  at: '2018-08-07'
 contributor:
 - role:
   - type: publisher
@@ -108,16 +100,15 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document reviews approaches for processing and coding of HDR/WCG
+  content: 'This document reviews approaches for processing and coding of HDR/WCG
     video content. The purpose of this document is to provide a set of publicly-referenceable
     methods for the operation of AVC or HEVC video coding systems adapted for compressing
-    HDR/WCG video for consumer distribution applications. \nThis document first includes
+    HDR/WCG video for consumer distribution applications. This document first includes
     a review of the video usability information (VUI) indicators and supplemental
     enhancement information (SEI) messages applicable for HDR/WCG video. It provides
     a description of processing steps for converting from 4:4:4 RGB linear light representation
@@ -135,37 +126,10 @@ abstract:
     using dual-layer approach with the Scalable Main 10 profile of HEVC and an SDR
     compatible base layer. Finally, the document illustrates the usage of CRI SEI
     messages to convey metadata enabling the dynamic range and colour gamut adaptation
-    at the display side of the decoded video to the display capabilities.\nNOTE       The
+    at the display side of the decoded video to the display capabilities. NOTE The
     document complements the material provided in ITU-T H.Sup15 | ISO/IEC TR 23008-14,
     which is focused on conversion and coding practices for non-constant luminance
-    (NCL) Y′CbCr video signals using the PQ transfer function."
-- language: fr
-  script: Latn
-  content: "This document reviews approaches for processing and coding of HDR/WCG
-    video content. The purpose of this document is to provide a set of publicly-referenceable
-    methods for the operation of AVC or HEVC video coding systems adapted for compressing
-    HDR/WCG video for consumer distribution applications. \nThis document first includes
-    a review of the video usability information (VUI) indicators and supplemental
-    enhancement information (SEI) messages applicable for HDR/WCG video. It provides
-    a description of processing steps for converting from 4:4:4 RGB linear light representation
-    video signals into video signals with ICTCP colour representation and perceptual
-    quantizer (PQ) transfer function, or with Y′CbCr colour representation and HLG
-    transfer function (ICTCP, PQ and HLG are defined in Rec. ITU-R BT.2100-1). Some
-    high-level approaches for compressing these signals using either Rec. ITU-T H.264
-    | ISO/IEC 14496-10 or Rec. ITU-T H.265 | ISO/IEC 23008-2 are provided. A description
-    of post-decoding processing steps is also included for converting back to a linear
-    light, 4:4:4 RGB representation. The document also addresses the standard dynamic
-    range (SDR) backward compatibility, that is, the compatibility with legacy decoding
-    systems that are not able to detect and properly display HDR/WCG video content.
-    It describes example implementations of this feature using three different solutions:
-    using HLG as a backward compatible transfer function, using CRI and TMI SEI messages,
-    using dual-layer approach with the Scalable Main 10 profile of HEVC and an SDR
-    compatible base layer. Finally, the document illustrates the usage of CRI SEI
-    messages to convey metadata enabling the dynamic range and colour gamut adaptation
-    at the display side of the decoded video to the display capabilities.\nNOTE       The
-    document complements the material provided in ITU-T H.Sup15 | ISO/IEC TR 23008-14,
-    which is focused on conversion and coding practices for non-constant luminance
-    (NCL) Y′CbCr video signals using the PQ transfer function."
+    (NCL) Y′CbCr video signals using the PQ transfer function.'
 status:
   stage:
     content: '60'
@@ -178,9 +142,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

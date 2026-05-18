@@ -1,50 +1,42 @@
 ---
 id: ISOIEC2094422013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Metadata Registries Interoperability and Bindings (MDR-IB)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Coding bindings'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Metadata Registries Interoperability and Bindings
     (MDR-IB) - Part 2: Coding bindings'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interopérabilité et liaisons des registres de métadonnées (MDR-IB)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Liaisons de codage'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interopérabilité et liaisons des registres
     de métadonnées (MDR-IB) - Partie 2: Liaisons de codage'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/51915.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 20944-2:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:20944:-2:stage-90.93
+- content: urn:iso:std:iso-iec:20944:-2:stage-90.92
   type: URN
 docnumber: '20944'
 date:
 - type: published
-  at: 2013-01
+  at: '2013-01-08'
 contributor:
 - role:
   - type: publisher
@@ -103,43 +95,55 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The ISO/IEC 20944 series of International Standards provides the bindings and their interoperability for metadata registries, such as those specified in the ISO/IEC 11179 series of International Standards. ISO/IEC 20944-2:2013 contains provisions that are common to coding bindings and the coding bindings themselves. The coding bindings have commonality in their conceptualization of data instances and their internal structures. Common features include:
-    - using datatypes to characterize the nature and operations upon data;
-    - using ISO/IEC 11404 to define and declare datatypes;
-    - using common aggregate structures, such as array and record, to describe sets of data;
-    - using common navigation descriptions to reference components within a set of data.
-    The individual coding bindings each incorporate a mapping of common data semantics to their individual binding requirements. XML and DIVP (dotted identifier value pair) bindings are provided.
-- language: fr
-  script: Latn
-  content: |-
-    The ISO/IEC 20944 series of International Standards provides the bindings and their interoperability for metadata registries, such as those specified in the ISO/IEC 11179 series of International Standards. ISO/IEC 20944-2:2013 contains provisions that are common to coding bindings and the coding bindings themselves. The coding bindings have commonality in their conceptualization of data instances and their internal structures. Common features include:
-    - using datatypes to characterize the nature and operations upon data;
-    - using ISO/IEC 11404 to define and declare datatypes;
-    - using common aggregate structures, such as array and record, to describe sets of data;
-    - using common navigation descriptions to reference components within a set of data.
-    The individual coding bindings each incorporate a mapping of common data semantics to their individual binding requirements. XML and DIVP (dotted identifier value pair) bindings are provided.
+  content: 'The ISO/IEC 20944 series of International Standards provides the bindings
+    and their interoperability for metadata registries, such as those specified in
+    the ISO/IEC 11179 series of International Standards. ISO/IEC 20944-2:2013 contains
+    provisions that are common to coding bindings and the coding bindings themselves.
+    The coding bindings have commonality in their conceptualization of data instances
+    and their internal structures. Common features include: using datatypes to characterize
+    the nature and operations upon data; using ISO/IEC 11404 to define and declare
+    datatypes; using common aggregate structures, such as array and record, to describe
+    sets of data; using common navigation descriptions to reference components within
+    a set of data. The individual coding bindings each incorporate a mapping of common
+    data semantics to their individual binding requirements. XML and DIVP (dotted
+    identifier value pair) bindings are provided.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2013'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC AWI 20944-2
+    docidentifier:
+    - content: ISO/IEC AWI 20944-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC NP 20944-2
+    docidentifier:
+    - content: ISO/IEC NP 20944-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

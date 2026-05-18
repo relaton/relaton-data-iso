@@ -1,50 +1,42 @@
 ---
 id: ISO226702021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Space data and information transfer systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Space link extension (SLE)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Return-channel-frames service specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Space data and information transfer systems - Space link extension (SLE)
     - Return-channel-frames service specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Extension de liaisons spatiales (SLE)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Service de réseau pour liaison retour
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales - Extension
     de liaisons spatiales (SLE) - Service de réseau pour liaison retour
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74555.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 22670:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:22670:stage-60.60
+- content: urn:iso:std:iso:22670:stage-90.20
   type: URN
 docnumber: '22670'
 date:
 - type: published
-  at: 2021-06
+  at: '2021-06-30'
 contributor:
 - role:
   - type: publisher
@@ -94,31 +86,36 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The purpose of this document is to define the Space Link Extension (SLE) Return Channel Frames (RCF) service in conformance with the SLE Reference Model (reference [1]).  The RCF service is an SLE transfer service that delivers to a mission user all telemetry frames from one master channel or one virtual channel.
-    This document defines, in an abstract manner, the RCF service in terms of:
-    It does not specify:
-    NOTE   –    Reference [1] defines the Return Master Channel Frames (Rtn MC Frames) service and the Return Virtual Channel Frames (Rtn VC Frames) service as two distinct services. Subsequent study has indicated that it is preferable to define one service that provides the functionality of both. The RCF service defined here does just that. It is anticipated that a future issue of reference [1] will take the same approach, deleting the Rtn MC Frames and Rtn VC Frames services and replacing them with the RCF service.
-     
-- language: fr
-  script: Latn
-  content: |-
-    The purpose of this document is to define the Space Link Extension (SLE) Return Channel Frames (RCF) service in conformance with the SLE Reference Model (reference [1]).  The RCF service is an SLE transfer service that delivers to a mission user all telemetry frames from one master channel or one virtual channel.
-    This document defines, in an abstract manner, the RCF service in terms of:
-    It does not specify:
-    NOTE   –    Reference [1] defines the Return Master Channel Frames (Rtn MC Frames) service and the Return Virtual Channel Frames (Rtn VC Frames) service as two distinct services. Subsequent study has indicated that it is preferable to define one service that provides the functionality of both. The RCF service defined here does just that. It is anticipated that a future issue of reference [1] will take the same approach, deleting the Rtn MC Frames and Rtn VC Frames services and replacing them with the RCF service.
-     
+  content: 'The purpose of this document is to define the Space Link Extension (SLE)
+    Return Channel Frames (RCF) service in conformance with the SLE Reference Model
+    (reference [1]).  The RCF service is an SLE transfer service that delivers to
+    a mission user all telemetry frames from one master channel or one virtual channel.
+    This document defines, in an abstract manner, the RCF service in terms of: the
+    operations necessary to provide the service; the parameter data associated with
+    each operation; the behaviors that result from the invocation of each operation;
+    and the relationship between, and the valid sequence of, the operations and resulting
+    behaviors. It does not specify: individual implementations or products; the implementation
+    of entities or interfaces within real systems; the methods or technologies required
+    to acquire telemetry frames from signals received from a spacecraft; the methods
+    or technologies required to provide a suitable environment for communications;
+    or the management activities required to schedule, configure, and control the
+    RCF service. NOTE   –    Reference [1] defines the Return Master Channel Frames
+    (Rtn MC Frames) service and the Return Virtual Channel Frames (Rtn VC Frames)
+    service as two distinct services. Subsequent study has indicated that it is preferable
+    to define one service that provides the functionality of both. The RCF service
+    defined here does just that. It is anticipated that a future issue of reference
+    [1] will take the same approach, deleting the Rtn MC Frames and Rtn VC Frames
+    services and replacing them with the RCF service.  '
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -126,18 +123,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 22670:2013
+    formattedref:
+      content: ISO 22670:2013
     docidentifier:
     - content: ISO 22670:2013
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

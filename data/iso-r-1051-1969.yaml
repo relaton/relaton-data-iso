@@ -1,31 +1,29 @@
 ---
 id: ISOR10511969
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rivet shank diameters (diameter range 1 to 36 mm)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Rivet shank diameters (diameter range 1 to 36 mm)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Diamètres de tiges de rivets (diamètres de 1 à 36 mm inclus)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Diamètres de tiges de rivets (diamètres de 1 à 36 mm inclus)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5537.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5537:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/55/5537.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '1051'
 date:
 - type: published
-  at: 1969-04
+  at: '1969-04-01'
 contributor:
 - role:
   - type: publisher
@@ -85,23 +83,28 @@ copyright:
       name:
       - content: ISO/R
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1051:1999
+    formattedref:
+      content: ISO/CD 1051
+    docidentifier:
+    - content: ISO/CD 1051
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 1051:1999
     docidentifier:
     - content: ISO 1051:1999
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1999-11-25'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: recommendation
   flavor: iso
   ics:
   - code: 21.060.40

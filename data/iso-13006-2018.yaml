@@ -1,39 +1,33 @@
 ---
 id: ISO130062018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Ceramic tiles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Definitions, classification, characteristics and marking
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Ceramic tiles - Definitions, classification, characteristics and marking
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Carreaux et dalles céramiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Définitions, classification, caractéristiques et marquage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Carreaux et dalles céramiques - Définitions, classification, caractéristiques
     et marquage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63406.html
@@ -47,12 +41,12 @@ docidentifier:
   primary: true
 - content: ISO 13006:2018(E)
   type: iso-reference
-- content: urn:iso:std:iso:13006:stage-90.93
+- content: urn:iso:std:iso:13006:stage-90.92
   type: URN
 docnumber: '13006'
 date:
 - type: published
-  at: 2018-09
+  at: '2018-09-05'
 contributor:
 - role:
   - type: publisher
@@ -83,25 +77,26 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines terms and establishes classifications, characteristics and marking requirements for ceramic tiles of the best commercial quality (first quality). This document is not applicable to tiles made by other than normal processes of extrusion or dry pressing. It is not applicable to decorative accessories or trim such as edges, corners, skirting, capping, coves, beads, steps, curved tiles and other accessory pieces or mosaics (i.e. any piece that can fit into a square, the side of which is less than 7 cm).
-    NOTE       ISO 10545 (all parts) describes the test procedures required to determine the product characteristics listed in this document. ISO 10545 is a multi-part standard, each part describes a specific test procedure or related matter.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines terms and establishes classifications, characteristics and marking requirements for ceramic tiles of the best commercial quality (first quality). This document is not applicable to tiles made by other than normal processes of extrusion or dry pressing. It is not applicable to decorative accessories or trim such as edges, corners, skirting, capping, coves, beads, steps, curved tiles and other accessory pieces or mosaics (i.e. any piece that can fit into a square, the side of which is less than 7 cm).
-    NOTE       ISO 10545 (all parts) describes the test procedures required to determine the product characteristics listed in this document. ISO 10545 is a multi-part standard, each part describes a specific test procedure or related matter.
+  content: This document defines terms and establishes classifications, characteristics
+    and marking requirements for ceramic tiles of the best commercial quality (first
+    quality). This document is not applicable to tiles made by other than normal processes
+    of extrusion or dry pressing. It is not applicable to decorative accessories or
+    trim such as edges, corners, skirting, capping, coves, beads, steps, curved tiles
+    and other accessory pieces or mosaics (i.e. any piece that can fit into a square,
+    the side of which is less than 7 cm). NOTE ISO 10545 (all parts) describes the
+    test procedures required to determine the product characteristics listed in this
+    document. ISO 10545 is a multi-part standard, each part describes a specific test
+    procedure or related matter.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2018'
   owner:
@@ -111,24 +106,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13006:2012
+    formattedref:
+      content: ISO/AWI 13006
+    docidentifier:
+    - content: ISO/AWI 13006
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 13006
+    docidentifier:
+    - content: ISO/WD 13006
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 13006:2012
     docidentifier:
     - content: ISO 13006:2012
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.91
-    text: Construction materials and building (Vocabularies)
   - code: 91.100.23
     text: Ceramic tiles
+  - code: 01.040.91
+    text: Construction materials and building (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

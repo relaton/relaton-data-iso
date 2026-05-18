@@ -1,53 +1,47 @@
 ---
 id: ISO1340022012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Diagnostic communication over Internet Protocol (DoIP)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Transport protocol and network layer services'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Diagnostic communication over Internet Protocol (DoIP)
     - Part 2: Transport protocol and network layer services'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Communication de diagnostic au travers du protocole internet (DoIP)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Protocole de transport et services de la couche réseau'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Communication de diagnostic au travers du protocole
     internet (DoIP) - Partie 2: Protocole de transport et services de la couche réseau'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/53766.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:53766:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/37/53766.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '13400'
 date:
 - type: published
-  at: 2012-06
+  at: '2012-06-04'
 contributor:
 - role:
   - type: publisher
@@ -92,40 +86,28 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 13400-2:2012 specifies the requirements for diagnostic communication between external test equipment and vehicle electronic components using Internet Protocol (IP) as well as the transmission control protocol (TCP) and user datagram protocol (UDP). This includes the definition of vehicle gateway requirements (e.g. for integration into an existing computer network) and test equipment requirements (e.g. to detect and establish communication with a vehicle).
-    ISO 13400-2:2012 specifies features that can be used to detect a vehicle in a network and enable communication with the vehicle gateway as well as with its sub-components during the various vehicle states. These features are separated into two types: mandatory and optional.
-    ISO 13400-2:2012 specifies the following mandatory features:
-    - vehicle network integration (IP address assignment);
-    - vehicle announcement and vehicle discovery;
-    - vehicle basic status information retrieval (e.g. diagnostic power mode);
-    - connection establishment (e.g. concurrent communication attempts), connection maintenance and vehicle gateway control;
-    - data routing to and from the vehicle's sub-components;
-    - error handling (e.g. physical network disconnect).
-    ISO 13400-2:2012 specifies the following optional features:
-    - DoIP entity status monitoring;
-    - DoIP entity firewall capabilities.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 13400-2:2012 specifies the requirements for diagnostic communication between external test equipment and vehicle electronic components using Internet Protocol (IP) as well as the transmission control protocol (TCP) and user datagram protocol (UDP). This includes the definition of vehicle gateway requirements (e.g. for integration into an existing computer network) and test equipment requirements (e.g. to detect and establish communication with a vehicle).
-    ISO 13400-2:2012 specifies features that can be used to detect a vehicle in a network and enable communication with the vehicle gateway as well as with its sub-components during the various vehicle states. These features are separated into two types: mandatory and optional.
-    ISO 13400-2:2012 specifies the following mandatory features:
-    - vehicle network integration (IP address assignment);
-    - vehicle announcement and vehicle discovery;
-    - vehicle basic status information retrieval (e.g. diagnostic power mode);
-    - connection establishment (e.g. concurrent communication attempts), connection maintenance and vehicle gateway control;
-    - data routing to and from the vehicle's sub-components;
-    - error handling (e.g. physical network disconnect).
-    ISO 13400-2:2012 specifies the following optional features:
-    - DoIP entity status monitoring;
-    - DoIP entity firewall capabilities.
+  content: 'ISO 13400-2:2012 specifies the requirements for diagnostic communication
+    between external test equipment and vehicle electronic components using Internet
+    Protocol (IP) as well as the transmission control protocol (TCP) and user datagram
+    protocol (UDP). This includes the definition of vehicle gateway requirements (e.g.
+    for integration into an existing computer network) and test equipment requirements
+    (e.g. to detect and establish communication with a vehicle). ISO 13400-2:2012
+    specifies features that can be used to detect a vehicle in a network and enable
+    communication with the vehicle gateway as well as with its sub-components during
+    the various vehicle states. These features are separated into two types: mandatory
+    and optional. ISO 13400-2:2012 specifies the following mandatory features: vehicle
+    network integration (IP address assignment); vehicle announcement and vehicle
+    discovery; vehicle basic status information retrieval (e.g. diagnostic power mode);
+    connection establishment (e.g. concurrent communication attempts), connection
+    maintenance and vehicle gateway control; data routing to and from the vehicle''s
+    sub-components; error handling (e.g. physical network disconnect). ISO 13400-2:2012
+    specifies the following optional features: DoIP entity status monitoring; DoIP
+    entity firewall capabilities.'
 status:
   stage:
     content: '95'
@@ -138,29 +120,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13400-2:2019
+    formattedref:
+      content: ISO 13400-2:2019
     docidentifier:
     - content: ISO 13400-2:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-12-13'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.180'
-    text: Diagnostic, maintenance and test equipment
   - code: 43.040.10
     text: Electrical and electronic equipment
+  - code: '43.180'
+    text: Diagnostic, maintenance and test equipment
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,49 +1,40 @@
 ---
 id: ISO857342019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Compressed air
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Contaminant measurement
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Particle content'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Compressed air - Contaminant measurement - Part 4: Particle content'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Air comprimé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesurage des polluants
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Teneur en particules'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Air comprimé - Mesurage des polluants - Partie 4: Teneur en particules'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69695.html
@@ -57,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO 8573-4:2019(E)
   type: iso-reference
-- content: urn:iso:std:iso:8573:-4:stage-90.20
+- content: urn:iso:std:iso:8573:-4:stage-90.60
   type: URN
 docnumber: '8573'
 date:
 - type: published
-  at: 2019-02
+  at: '2019-02-19'
 contributor:
 - role:
   - type: publisher
@@ -99,25 +90,26 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document provides a method for sampling compressed air and a guide for choosing suitable measuring equipment to determine its particle size and concentration by number (to be referenced as "concentration" throughout this document). It also describes the limitations of the various measurement methods and describes the evaluation and uncertainty considerations.
-    This document will report the particle size and concentration of all types of particle combined and does not aim to be able to segregate the separate solid and liquid particle fractions. When it is required that the concentration of a specific fraction is to be determined then recourse to the relevant standard method from the ISO 8573 series is recommended.
-    NOTE 1    The test methods described in this document are those suitable for determining the purity classes given in ISO 8573‑1.
-    NOTE 2    Particle content determined as concentration by mass is dealt with in ISO 8573‑8.
-    NOTE 3    This document does not address instances where non-isothermal conditions exist, and separate arrangements should be made where particles may be formed by vapour condensation or lost through evaporation.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document fournit une méthode de échantillonnage de l'air comprimé et des lignes directrices pour la sélection d'un équipement de mesure adéquat afin de déterminer la taille de ses particules et leur concentration en nombre (à laquelle il faut faire référence sous le terme «concentration» dans l'ensemble du présent document). Il décrit également les limites des différentes méthodes de mesure, l'évaluation et les considérations de l'incertitude.
-    Le présent document consignera la taille des particules ainsi que la concentration de tous les types de particules combinées, et n'a pas pour but de pouvoir distinguer les différentes fractions de particules solides et liquides. Lorsqu'il est nécessaire de déterminer la concentration d'une fraction spécifique, il est recommandé d'employer la méthode normalisée correspondante de la série de normes ISO 8573.
-    NOTE 1    Les méthodes d'essai décrites dans le présent document sont appropriées pour la détermination des classes de pureté données dans l'ISO 8573-1.
-    NOTE 2    La teneur en particules déterminée par concentration massique est traitée dans l'ISO 8573-8.
-    NOTE 3    Le présent document ne tient pas compte des situations où les conditions ne sont pas isothermes, et il convient de prendre des dispositions distinctes lorsque des particules peuvent se former par condensation de vapeur ou peuvent être perdues par évaporation.
+  content: This document provides a method for sampling compressed air and a guide
+    for choosing suitable measuring equipment to determine its particle size and concentration
+    by number (to be referenced as "concentration" throughout this document). It also
+    describes the limitations of the various measurement methods and describes the
+    evaluation and uncertainty considerations. This document will report the particle
+    size and concentration of all types of particle combined and does not aim to be
+    able to segregate the separate solid and liquid particle fractions. When it is
+    required that the concentration of a specific fraction is to be determined then
+    recourse to the relevant standard method from the ISO 8573 series is recommended.
+    NOTE 1 The test methods described in this document are those suitable for determining
+    the purity classes given in ISO 8573‑1. NOTE 2 Particle content determined as
+    concentration by mass is dealt with in ISO 8573‑8. NOTE 3 This document does not
+    address instances where non-isothermal conditions exist, and separate arrangements
+    should be made where particles may be formed by vapour condensation or lost through
+    evaporation.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '60'
 copyright:
 - from: '2019'
   owner:
@@ -125,26 +117,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 8573-4:2001
-    docidentifier:
-    - content: ISO 8573-4:2001
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 8573-4:2001/Cor 1:2002
+    formattedref:
+      content: ISO 8573-4:2001/Cor 1:2002
     docidentifier:
     - content: ISO 8573-4:2001/Cor 1:2002
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8573-4:2001
+    docidentifier:
+    - content: ISO 8573-4:2001
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -154,5 +146,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      part: 4
-      content: ISO 8573
+      content: '69695'

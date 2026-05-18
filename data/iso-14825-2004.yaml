@@ -1,53 +1,47 @@
 ---
 id: ISO148252004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic Data Files (GDF)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Overall data specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Geographic Data Files (GDF) - Overall data
     specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport (SIT)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Fichiers de données géographiques (GDF)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification des données globales
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport (SIT) - Fichiers de données géographiques
     (GDF) - Spécification des données globales
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/30763.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:30763:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/07/30763.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '14825'
 date:
 - type: published
-  at: 2004-02
+  at: '2004-02-03'
 contributor:
 - role:
   - type: publisher
@@ -92,26 +86,26 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 14825:2004 specifies the conceptual and logical data model and the exchange format for geographic data bases for Intelligent Transportation System (ITS) applications. It includes a specification of potential contents of such data bases (features, attributes and relationships), a specification of how these contents shall be represented, and of how relevant information about the database itself can be specified (metadata).
-    The focus of this International Standard is on ITS applications and it emphasizes road and road-related information. ITS applications, however, also require information in addition to road and road-related information.
-    EXAMPLE 1 ITS applications need information about addressing systems in order to specify locations and/or destinations. Consequently, information about the administrative and postal subdivisions of an area is essential.
-    EXAMPLE 2 Map display is an important component of ITS applications. For proper map display, the inclusion of contextual information such as land and water cover is essential.
-    EXAMPLE 3 Point-of-Interest (POI) or service information is a key feature of traveller information. It adds value to end-user ITS applications.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 14825:2004 specifies the conceptual and logical data model and the exchange format for geographic data bases for Intelligent Transportation System (ITS) applications. It includes a specification of potential contents of such data bases (features, attributes and relationships), a specification of how these contents shall be represented, and of how relevant information about the database itself can be specified (metadata).
-    The focus of this International Standard is on ITS applications and it emphasizes road and road-related information. ITS applications, however, also require information in addition to road and road-related information.
-    EXAMPLE 1 ITS applications need information about addressing systems in order to specify locations and/or destinations. Consequently, information about the administrative and postal subdivisions of an area is essential.
-    EXAMPLE 2 Map display is an important component of ITS applications. For proper map display, the inclusion of contextual information such as land and water cover is essential.
-    EXAMPLE 3 Point-of-Interest (POI) or service information is a key feature of traveller information. It adds value to end-user ITS applications.
+  content: ISO 14825:2004 specifies the conceptual and logical data model and the
+    exchange format for geographic data bases for Intelligent Transportation System
+    (ITS) applications. It includes a specification of potential contents of such
+    data bases (features, attributes and relationships), a specification of how these
+    contents shall be represented, and of how relevant information about the database
+    itself can be specified (metadata). The focus of this International Standard is
+    on ITS applications and it emphasizes road and road-related information. ITS applications,
+    however, also require information in addition to road and road-related information.
+    EXAMPLE 1 ITS applications need information about addressing systems in order
+    to specify locations and/or destinations. Consequently, information about the
+    administrative and postal subdivisions of an area is essential. EXAMPLE 2 Map
+    display is an important component of ITS applications. For proper map display,
+    the inclusion of contextual information such as land and water cover is essential.
+    EXAMPLE 3 Point-of-Interest (POI) or service information is a key feature of traveller
+    information. It adds value to end-user ITS applications.
 status:
   stage:
     content: '95'
@@ -126,35 +120,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TR 14825:1996
-    docidentifier:
-    - content: ISO/TR 14825:1996
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 14825:2011
+    formattedref:
+      content: ISO 14825:2011
     docidentifier:
     - content: ISO 14825:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-07-08'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TR 14825:1996
+    docidentifier:
+    - content: ISO/TR 14825:1996
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:

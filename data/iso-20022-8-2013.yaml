@@ -1,50 +1,42 @@
 ---
 id: ISO2002282013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Universal financial industry message scheme
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 8: ASN.1 generation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Financial services - Universal financial industry message scheme - Part
     8: ASN.1 generation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Schéma universel de messages pour l'industrie financière
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 8: Génération ASN.1'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Services financiers - Schéma universel de messages pour l''industrie financière
     - Partie 8: Génération ASN.1'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/55011.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 20022-8:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso:20022:-8:stage-90.92
+- content: urn:iso:std:iso:20022:-8:stage-95.99
   type: URN
 docnumber: '20022'
 date:
 - type: published
-  at: 2013-05
+  at: '2013-05-07'
 contributor:
 - role:
   - type: publisher
@@ -94,27 +86,28 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 20022-8:2013 describes the transformation rules to generate ASN.1 abstract syntax from an ISO 20022 compliant MessageDefinition. The generated abstract syntax is for the description and validation of Messages.
-    The transformation rules are a transformation from Level 3 to Level 4. It is a deterministic transformation, meaning that the resulting ASN.1 is completely predictable for a given MessageDefinition. There is neither manual input to the transformation itself nor manual adjustment to the result of the transformation.
-    ISO 20022-8:2013 is the ASN.1 equivalent of ISO 20022-4:2013. In ISO 20022-4:2013 the abstract syntax generated is XML Schema; in ISO 20022-8:2013 it is ASN.1. In ISO 20022-4:2013 the only encoding supported is UTF-8 XML; in ISO 20022-8:2013 there are multiple encodings supported for ASN.1. These include all the standard encodings, but in addition the ability to register custom encodings in ECN.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 20022-8:2013 describes the transformation rules to generate ASN.1 abstract syntax from an ISO 20022 compliant MessageDefinition. The generated abstract syntax is for the description and validation of Messages.
-    The transformation rules are a transformation from Level 3 to Level 4. It is a deterministic transformation, meaning that the resulting ASN.1 is completely predictable for a given MessageDefinition. There is neither manual input to the transformation itself nor manual adjustment to the result of the transformation.
-    ISO 20022-8:2013 is the ASN.1 equivalent of ISO 20022-4:2013. In ISO 20022-4:2013 the abstract syntax generated is XML Schema; in ISO 20022-8:2013 it is ASN.1. In ISO 20022-4:2013 the only encoding supported is UTF-8 XML; in ISO 20022-8:2013 there are multiple encodings supported for ASN.1. These include all the standard encodings, but in addition the ability to register custom encodings in ECN.
+  content: ISO 20022-8:2013 describes the transformation rules to generate ASN.1 abstract
+    syntax from an ISO 20022 compliant MessageDefinition. The generated abstract syntax
+    is for the description and validation of Messages. The transformation rules are
+    a transformation from Level 3 to Level 4. It is a deterministic transformation,
+    meaning that the resulting ASN.1 is completely predictable for a given MessageDefinition.
+    There is neither manual input to the transformation itself nor manual adjustment
+    to the result of the transformation. ISO 20022-8:2013 is the ASN.1 equivalent
+    of ISO 20022-4:2013. In ISO 20022-4:2013 the abstract syntax generated is XML
+    Schema; in ISO 20022-8:2013 it is ASN.1. In ISO 20022-4:2013 the only encoding
+    supported is UTF-8 XML; in ISO 20022-8:2013 there are multiple encodings supported
+    for ASN.1. These include all the standard encodings, but in addition the ability
+    to register custom encodings in ECN.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2013'
   owner:
@@ -124,16 +117,16 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 20022-8
+    formattedref:
+      content: ISO 20022-8:2026
     docidentifier:
-    - content: ISO/DIS 20022-8
+    - content: ISO 20022-8:2026
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

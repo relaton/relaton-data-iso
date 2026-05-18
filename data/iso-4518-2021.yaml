@@ -1,49 +1,41 @@
 ---
 id: ISO45182021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Metallic coatings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Measurement of coating thickness
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Profilometric method
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Metallic coatings - Measurement of coating thickness - Profilometric method
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Revêtements métalliques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesurage de l'épaisseur de revêtement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode profilométrique
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Revêtements métalliques - Mesurage de l'épaisseur de revêtement - Méthode
     profilométrique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78375.html
@@ -57,12 +49,12 @@ docidentifier:
   primary: true
 - content: ISO 4518:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:4518:stage-60.60
+- content: urn:iso:std:iso:4518:stage-90.20
   type: URN
 docnumber: '4518'
 date:
 - type: published
-  at: 2021-04
+  at: '2021-04-08'
 contributor:
 - role:
   - type: publisher
@@ -99,19 +91,23 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a method for the measurement of metal coating thickness by first forming a step between the surface of the coating and the surface of its substrate and then measuring the step height using a profile recording instrument. It covers the instrumentation characteristics and the procedure appropriate to this specific application of profilometric methods.
-    The method is applicable to the measurement of thicknesses of metal coatings from 0,01 µm to 1 000 µm on flat surfaces and, if appropriate precautions are taken, on cylindrical surfaces. It is highly suitable for the measurement of minute thicknesses but, for thicknesses of less than 0,01 µm, surface flatness and surface smoothness are very critical and, accordingly, the method is not suitable for use down to the lowest level of measurement usual for electronic stylus instruments. The method is suitable for measuring coating thicknesses when preparing coating thickness reference standards.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie une méthode de mesure de l'épaisseur de revêtements métalliques consistant à former tout d'abord un gradin entre la surface du revêtement et la surface de son substrat, puis à mesurer la hauteur de ce gradin à l'aide d'un instrument à enregistreur de profil. Il indique les caractéristiques d'appareillage et le mode opératoire convenant à cette application particulière des méthodes profilométriques.
-    La méthode est applicable au mesurage de l'épaisseur de revêtements métalliques de 0,01 µm à 1 000 µm sur des surfaces planes et, en prenant les précautions appropriées, sur des surfaces cylindriques. Elle convient particulièrement au mesurage de très faibles épaisseurs; toutefois, pour les épaisseurs inférieures à 0,01 µm, pour lesquelles la planéité et le poli de la surface sont très critiques, il n'est pas approprié d'utiliser cette méthode au niveau minimal de mesurage habituel pour les instruments électroniques à palpeur. Cette méthode convient pour le mesurage des épaisseurs de revêtements lors de la fabrication d'étalons d'épaisseurs.
+  content: This document specifies a method for the measurement of metal coating thickness
+    by first forming a step between the surface of the coating and the surface of
+    its substrate and then measuring the step height using a profile recording instrument.
+    It covers the instrumentation characteristics and the procedure appropriate to
+    this specific application of profilometric methods. The method is applicable to
+    the measurement of thicknesses of metal coatings from 0,01 µm to 1 000 µm on flat
+    surfaces and, if appropriate precautions are taken, on cylindrical surfaces. It
+    is highly suitable for the measurement of minute thicknesses but, for thicknesses
+    of less than 0,01 µm, surface flatness and surface smoothness are very critical
+    and, accordingly, the method is not suitable for use down to the lowest level
+    of measurement usual for electronic stylus instruments. The method is suitable
+    for measuring coating thicknesses when preparing coating thickness reference standards.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -119,18 +115,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 4518:1980
+    formattedref:
+      content: ISO 4518:1980
     docidentifier:
     - content: ISO 4518:1980
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

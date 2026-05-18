@@ -1,52 +1,44 @@
 ---
 id: ISO10303491998
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Product data representation and exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 49: Integrated generic resources: Process structure and properties'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 49: Integrated generic resources: Process structure and properties'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation et échange de données de produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 49: Ressources génériques intégrées: Structure et propriétés du
     procédé'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 49: Ressources génériques intégrées:
     Structure et propriétés du procédé'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/25101.html
@@ -60,12 +52,12 @@ docidentifier:
   primary: true
 - content: ISO 10303-49:1998(E)
   type: iso-reference
-- content: urn:iso:std:iso:10303:-49:stage-90.60
+- content: urn:iso:std:iso:10303:-49:stage-90.93
   type: URN
 docnumber: '10303'
 date:
 - type: published
-  at: 1998-06
+  at: '1998-06-18'
 contributor:
 - role:
   - type: publisher
@@ -96,13 +88,12 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This part of IS0 10303 specifies the resource constructs to specify the
+  content: 'This part of IS0 10303 specifies the resource constructs to specify the
     actions or potential actions to effect a process. The integrated resource constructs
     within this part of IS0 10303 define the structure for specifling: relationships
     between processes, the effectivity of a process, the properties of a process,
@@ -110,81 +101,41 @@ abstract:
     of the process, the representation of the resource, and the relationship of the
     process to the product. When these integrated resource constructs are utilized
     in the context of an application resource or an application protocol, the integrated
-    resource constructs can be assembled into a structure to represent a process plan.\nThe
-    following are within the scope of this part of IS0 10303:\n- specification of
-    a process; - specification of the relationships between processes; \n- specification
-    of the effectivity of a process;\n - specification of the relationship between
-    a process and a product; \n- specification of the steps for a process plan to
-    realize a product;\nNOTES 1 - This part of IS0 10303 does not make any distinction
-    between a process plan that has been executed and one that has not been executed.\n2
-    - This part of IS0 10303 does not address administrative information within a
-    process plan. Administrative information may include organization, date, or person
-    responsible for developing a process plan.\n- specification of alternative process
-    plan definitions;\n- specification of the method for realizing a process plan;
-    \n- specification of a resource;\n- process requirements of the resource;\n- identification
-    of resources used by a process;\n- specification of the properties of a resource.\nThe
-    following are outside the scope of this part of IS0 10303:\n- definition of specific
-    processes or specific process plans;\nNOTE 3 - This part of IS0 10303 does not
-    address any specific industrial process.\n- process specifications for continuous
-    processes;\nNOTE 4 - This part of IS0 10303 has the capability to represent some
-    aspects of continuous processes. This part of IS0 10303 does not have the capability
-    to represent continuous processes that require interrupts, alarms, and other messaging
-    service requirements.\n- scheduling;\n- process planning;\nNOTE 5 - Process planning
-    is the action of developing a process plan. The action of creating a process plan
-    is outside the scope of this part of IS0 10303. This part of IS0 10303 provides
-    a representation for the output of process planning.\n- peer-to-peer communication
-    mechanisms, including synchronization;\n- process control.\nNOTE 6 - Capabilities
+    resource constructs can be assembled into a structure to represent a process plan.
+    The following are within the scope of this part of IS0 10303: - specification
+    of a process; - specification of the relationships between processes; - specification
+    of the effectivity of a process; - specification of the relationship between a
+    process and a product; - specification of the steps for a process plan to realize
+    a product; NOTES 1 - This part of IS0 10303 does not make any distinction between
+    a process plan that has been executed and one that has not been executed. 2 -
+    This part of IS0 10303 does not address administrative information within a process
+    plan. Administrative information may include organization, date, or person responsible
+    for developing a process plan. - specification of alternative process plan definitions;
+    - specification of the method for realizing a process plan; - specification of
+    a resource; - process requirements of the resource; - identification of resources
+    used by a process; - specification of the properties of a resource. The following
+    are outside the scope of this part of IS0 10303: - definition of specific processes
+    or specific process plans; NOTE 3 - This part of IS0 10303 does not address any
+    specific industrial process. - process specifications for continuous processes;
+    NOTE 4 - This part of IS0 10303 has the capability to represent some aspects of
+    continuous processes. This part of IS0 10303 does not have the capability to represent
+    continuous processes that require interrupts, alarms, and other messaging service
+    requirements. - scheduling; - process planning; NOTE 5 - Process planning is the
+    action of developing a process plan. The action of creating a process plan is
+    outside the scope of this part of IS0 10303. This part of IS0 10303 provides a
+    representation for the output of process planning. - peer-to-peer communication
+    mechanisms, including synchronization; - process control. NOTE 6 - Capabilities
     for process control and peer-to-peer communication are defined by other IS0 standards
     such as ISO/IEC 9506 (Industrial Automation Systems - Manufacturing Message Specification).
     These other ISO/IEC standards are concerned with the communication and interworking
     of programmable devices of industrial process control systems utilized in the
     process industries. An application resource or an application protocol may specify
-    a relationship between this part of IS0 10303 and ISO/IEC 9506."
-- language: fr
-  script: Latn
-  content: "This part of IS0 10303 specifies the resource constructs to specify the
-    actions or potential actions to effect a process. The integrated resource constructs
-    within this part of IS0 10303 define the structure for specifling: relationships
-    between processes, the effectivity of a process, the properties of a process,
-    the resources required for the process, the properties of the resource, the representation
-    of the process, the representation of the resource, and the relationship of the
-    process to the product. When these integrated resource constructs are utilized
-    in the context of an application resource or an application protocol, the integrated
-    resource constructs can be assembled into a structure to represent a process plan.\nThe
-    following are within the scope of this part of IS0 10303:\n- specification of
-    a process; - specification of the relationships between processes; \n- specification
-    of the effectivity of a process;\n - specification of the relationship between
-    a process and a product; \n- specification of the steps for a process plan to
-    realize a product;\nNOTES 1 - This part of IS0 10303 does not make any distinction
-    between a process plan that has been executed and one that has not been executed.\n2
-    - This part of IS0 10303 does not address administrative information within a
-    process plan. Administrative information may include organization, date, or person
-    responsible for developing a process plan.\n- specification of alternative process
-    plan definitions;\n- specification of the method for realizing a process plan;
-    \n- specification of a resource;\n- process requirements of the resource;\n- identification
-    of resources used by a process;\n- specification of the properties of a resource.\nThe
-    following are outside the scope of this part of IS0 10303:\n- definition of specific
-    processes or specific process plans;\nNOTE 3 - This part of IS0 10303 does not
-    address any specific industrial process.\n- process specifications for continuous
-    processes;\nNOTE 4 - This part of IS0 10303 has the capability to represent some
-    aspects of continuous processes. This part of IS0 10303 does not have the capability
-    to represent continuous processes that require interrupts, alarms, and other messaging
-    service requirements.\n- scheduling;\n- process planning;\nNOTE 5 - Process planning
-    is the action of developing a process plan. The action of creating a process plan
-    is outside the scope of this part of IS0 10303. This part of IS0 10303 provides
-    a representation for the output of process planning.\n- peer-to-peer communication
-    mechanisms, including synchronization;\n- process control.\nNOTE 6 - Capabilities
-    for process control and peer-to-peer communication are defined by other IS0 standards
-    such as ISO/IEC 9506 (Industrial Automation Systems - Manufacturing Message Specification).
-    These other ISO/IEC standards are concerned with the communication and interworking
-    of programmable devices of industrial process control systems utilized in the
-    process industries. An application resource or an application protocol may specify
-    a relationship between this part of IS0 10303 and ISO/IEC 9506."
+    a relationship between this part of IS0 10303 and ISO/IEC 9506.'
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '1998'
   owner:
@@ -192,9 +143,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

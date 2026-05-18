@@ -1,51 +1,45 @@
 ---
 id: ISO85881987
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Sensory analysis
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Methodology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: '"A" -- "not A" test'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Sensory analysis - Methodology - "A" -- "not A" test
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse sensorielle
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodologie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai "A" -- "non A"
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse sensorielle - Méthodologie - Essai "A" -- "non A"
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/15878.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:15878:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/58/15878.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '8588'
 date:
 - type: published
-  at: 1987-05
+  at: '1987-05-07'
 contributor:
 - role:
   - type: publisher
@@ -102,14 +96,6 @@ abstract:
     it is identical to "A". This test requires the assessor to have evaluated a known
     sample "A" prior to the exposure to test samples. Examples of application are
     given in an annex A. An annex C shows examples of answer forms.
-- language: fr
-  script: Latn
-  content: The principle of the test consists in presentation to an assessor of a
-    series of samples, some of which are composed of sample "A" while others are different
-    from sample "A"; for each sample, the assessor has to determine whether or not
-    it is identical to "A". This test requires the assessor to have evaluated a known
-    sample "A" prior to the exposure to test samples. Examples of application are
-    given in an annex A. An annex C shows examples of answer forms.
 status:
   stage:
     content: '95'
@@ -122,21 +108,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8588:2017
+    formattedref:
+      content: ISO/CD 8588
+    docidentifier:
+    - content: ISO/CD 8588
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 8588
+    docidentifier:
+    - content: ISO/WD 8588
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 8588:2017
     docidentifier:
     - content: ISO 8588:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-07-21'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

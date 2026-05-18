@@ -1,41 +1,37 @@
 ---
 id: ISO51991986
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Technical specifications for centrifugal pumps
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Class II
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Technical specifications for centrifugal pumps - Class II
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications techniques pour pompes centrifuges
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Classe II
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications techniques pour pompes centrifuges - Classe II
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/11204.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:11204:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/12/11204.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '5199'
 date:
 - type: published
-  at: 1986-04
+  at: '1986-04-17'
 contributor:
 - role:
   - type: publisher
@@ -90,12 +86,6 @@ abstract:
     used primarily in the chemical and petrochemical industries. Includes design features
     concerned with installation, maintenance and safety for these pumps, including
     baseplate couplings and auxiliary piping but excluding the driver.
-- language: fr
-  script: Latn
-  content: Covers class II requirements for pumps of back pull-out construction as
-    used primarily in the chemical and petrochemical industries. Includes design features
-    concerned with installation, maintenance and safety for these pumps, including
-    baseplate couplings and auxiliary piping but excluding the driver.
 status:
   stage:
     content: '95'
@@ -108,21 +98,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5199:2002
+    formattedref:
+      content: ISO/CD 5199
+    docidentifier:
+    - content: ISO/CD 5199
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 5199:2002
     docidentifier:
     - content: ISO 5199:2002
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2002-03-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

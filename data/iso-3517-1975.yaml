@@ -1,32 +1,29 @@
 ---
 id: ISO35171975
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Oil of neroli
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Oil of neroli
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Huile essentielle de néroli
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Huile essentielle de néroli
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/8886.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:8886:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/88/8886.detail.rss
 docidentifier:
@@ -40,7 +37,7 @@ docidentifier:
 docnumber: '3517'
 date:
 - type: published
-  at: 1975-12
+  at: '1975-12-01'
 contributor:
 - role:
   - type: publisher
@@ -84,15 +81,6 @@ abstract:
     for the values of relative density at 20/20 °C, refractive index at 20 °C, solubility
     in diluted ethanol at 20 °C, and ester value differ in accordance with the country
     of origin (France, Italy, North Africa).
-- language: fr
-  script: Latn
-  content: The Standard specifies the characteristics of the oil. The oil must be
-    a clear, mobile liquid with a colour of pale yellow to amber with a slight blue
-    fluorescence and a characteristic odour, recalling that of the flowers of the
-    bitter orange tree. The maximum acid value runs up to 2,0. The permissible ranges
-    for the values of relative density at 20/20 °C, refractive index at 20 °C, solubility
-    in diluted ethanol at 20 °C, and ester value differ in accordance with the country
-    of origin (France, Italy, North Africa).
 status:
   stage:
     content: '95'
@@ -105,21 +93,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3517:2002
+    formattedref:
+      content: ISO/CD 3517
+    docidentifier:
+    - content: ISO/CD 3517
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 3517:2002
     docidentifier:
     - content: ISO 3517:2002
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2002-03-28'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -129,4 +122,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 3517
+      content: '8886'

@@ -1,41 +1,37 @@
 ---
 id: ISO19421983Add51985
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Dental vocabulary
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Addendum 5
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Dental vocabulary - Addendum 5
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire de l'art dentaire
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Additif 5
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire de l'art dentaire - Additif 5
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6643.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6643:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/66/6643.detail.rss
 docidentifier:
@@ -44,14 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 1942:1983/Add 5:1985(E)
   type: iso-reference
-- content: urn:iso:std:iso:1942:ed-1:stage-95.99:sup:1985:v5
+- content: urn:iso:std:iso:1942:stage-95.99:sup:1985:v5
   type: URN
 docnumber: '1942'
 date:
 - type: published
-  at: '1983'
-- type: updated
-  at: 1985-08
+  at: '1985-08-29'
 contributor:
 - role:
   - type: publisher
@@ -82,7 +76,6 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -96,19 +89,59 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 1942-2:1989
+    docidentifier:
+    - content: ISO 1942-2:1989
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 1942-1:1989
+    docidentifier:
+    - content: ISO 1942-1:1989
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 1942-3:1989
+    docidentifier:
+    - content: ISO 1942-3:1989
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 1942-5:1989
+    docidentifier:
+    - content: ISO 1942-5:1989
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 1942-4:1989
+    docidentifier:
+    - content: ISO 1942-4:1989
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: addendum
   flavor: iso
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
   - code: 11.060.01
     text: Dentistry in general
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   structuredidentifier:
-    type: ISO
     project_number:
       content: '6643'

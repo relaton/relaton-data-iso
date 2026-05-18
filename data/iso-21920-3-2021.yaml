@@ -1,50 +1,42 @@
 ---
 id: ISO2192032021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geometrical product specifications (GPS)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: 'Surface texture: Profile'
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Specification operators'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Geometrical product specifications (GPS) - Surface texture: Profile -
     Part 3: Specification operators'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification géométrique des produits (GPS)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'État de surface: Méthode du profil'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Opérateurs de spécification'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Spécification géométrique des produits (GPS) - État de surface: Méthode
     du profil - Partie 3: Opérateurs de spécification'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/72228.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 21920-3:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:21920:-3:stage-60.60
+- content: urn:iso:std:iso:21920:-3:stage-90.92
   type: URN
 docnumber: '21920'
 date:
 - type: published
-  at: 2021-12
+  at: '2021-12-20'
 contributor:
 - role:
   - type: publisher
@@ -102,15 +94,11 @@ abstract:
   script: Latn
   content: This document specifies the complete specification operator for surface
     texture by profile methods.
-- language: fr
-  script: Latn
-  content: Le présent document spécifie l’opérateur de spécification complet pour
-    l’état de surface par les méthodes de profil.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2021'
   owner:
@@ -120,24 +108,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4288:1996
+    formattedref:
+      content: ISO/AWI 21920-3
+    docidentifier:
+    - content: ISO/AWI 21920-3
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4288:1996
     docidentifier:
     - content: ISO 4288:1996
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 4288:1996/Cor 1:1998
+    formattedref:
+      content: ISO 4288:1996/Cor 1:1998
     docidentifier:
     - content: ISO 4288:1996/Cor 1:1998
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

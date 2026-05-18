@@ -1,54 +1,48 @@
 ---
 id: ISO40942005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paper, board and pulps
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International calibration of testing apparatus
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Nomination and acceptance of standardizing and authorized laboratories
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Paper, board and pulps - International calibration of testing apparatus
     - Nomination and acceptance of standardizing and authorized laboratories
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Papiers, cartons et pâtes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Étalonnage international des appareils d'essai
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Désignation et agrément des laboratoires de référence et des laboratoires
     agréés
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Papiers, cartons et pâtes - Étalonnage international des appareils d'essai
     - Désignation et agrément des laboratoires de référence et des laboratoires agréés
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41363.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41363:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/13/41363.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '4094'
 date:
 - type: published
-  at: 2005-04
+  at: '2005-04-20'
 contributor:
 - role:
   - type: publisher
@@ -94,8 +88,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -106,16 +102,6 @@ abstract:
     in the results of a test method specified in an International Standard for paper,
     board or pulp. It provides guidelines for the establishment of criteria for the
     initial appointment and continued acceptance of nominated laboratories.
-- language: fr
-  script: Latn
-  content: L'ISO 4094:2005 fournit des règles pour la désignation et l'agrément des
-    laboratoires de référence et des laboratoires agréés sous le ressort de l'ISO/TC
-    6 ou l'un de ses sous-comités, dans le but d'établir et de maintenir les étalons
-    de références et de distribuer les étalons de transfert requis pour obtenir une
-    concordance interlaboratoires des résultats lors de l'utilisation d'une méthode
-    d'essai prescrite dans une Norme internationale pour les papiers, cartons ou pâtes.
-    Elle fournit des indications pour l'établissement de critères pour la nomination
-    initiale et pour le maintien de l'agrément des laboratoires désignés.
 status:
   stage:
     content: '95'
@@ -130,37 +116,34 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4094:1991
-    docidentifier:
-    - content: ISO 4094:1991
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 4094:2017
+    formattedref:
+      content: ISO 4094:2017
     docidentifier:
     - content: ISO 4094:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-12-04'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4094:1991
+    docidentifier:
+    - content: ISO 4094:1991
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
   - code: '85.020'
     text: Paper production processes
-  - code: '85.040'
-    text: Pulps
   - code: '85.060'
     text: Paper and board
+  - code: '85.040'
+    text: Pulps
   structuredidentifier:
     type: ISO
     project_number:

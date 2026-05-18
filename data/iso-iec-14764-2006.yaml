@@ -1,51 +1,45 @@
 ---
 id: ISOIEC147642006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Software Engineering
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Software Life Cycle Processes
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Maintenance
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Software Engineering - Software Life Cycle Processes - Maintenance
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ingénierie du logiciel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Processus du cycle de vie du logiciel
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Maintenance
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Ingénierie du logiciel - Processus du cycle de vie du logiciel - Maintenance
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/39064.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:39064:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/90/39064.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '14764'
 date:
 - type: published
-  at: 2006-09
+  at: '2006-08-23'
 contributor:
 - role:
   - type: publisher
@@ -99,24 +93,34 @@ edition:
   content: '2'
 language:
 - en
-- fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 14764:2006 describes in greater detail management of the Maintenance Process described in ISO/IEC 12207, including Amendments. It also establishes definitions for the various types of maintenance. ISO/IEC 14764:2006 provides guidance that applies to planning, execution and control, review and evaluation, and closure of the Maintenance Process. The scope of ISO/IEC 14764:2006 includes maintenance for multiple software products with the same maintenance resources. "Maintenance" in ISO/IEC 14764:2006 means software maintenance unless otherwise stated.
-    ISO/IEC 14764:2006 provides the framework within which generic and specific software maintenance plans may be executed, evaluated, and tailored to the maintenance scope and magnitude of given software products. It provides the framework, precise terminology and processes to allow the consistent application of technology (tools, techniques and methods) to software maintenance.
-    ISO/IEC 14764:2006 provides guidance for the maintenance of software. The basis for the Maintenance Process and its activities comes from the definitions of ISO/IEC 12207. It defines the activities and tasks of software maintenance, and provides maintenance planning requirements. It does not address the operation of software and the operational functions, e.g. backup, recovery and system administration, which are normally performed by those who operate the software.
-    ISO/IEC 14764:2006 is written primarily for maintainers of software and additionally for those responsible for development and quality assurance. It may also be used by acquirers and users of systems containing software who may provide inputs to the maintenance plan.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 14764:2006 describes in greater detail management of the Maintenance Process described in ISO/IEC 12207, including Amendments. It also establishes definitions for the various types of maintenance. ISO/IEC 14764:2006 provides guidance that applies to planning, execution and control, review and evaluation, and closure of the Maintenance Process. The scope of ISO/IEC 14764:2006 includes maintenance for multiple software products with the same maintenance resources. "Maintenance" in ISO/IEC 14764:2006 means software maintenance unless otherwise stated.
-    ISO/IEC 14764:2006 provides the framework within which generic and specific software maintenance plans may be executed, evaluated, and tailored to the maintenance scope and magnitude of given software products. It provides the framework, precise terminology and processes to allow the consistent application of technology (tools, techniques and methods) to software maintenance.
-    ISO/IEC 14764:2006 provides guidance for the maintenance of software. The basis for the Maintenance Process and its activities comes from the definitions of ISO/IEC 12207. It defines the activities and tasks of software maintenance, and provides maintenance planning requirements. It does not address the operation of software and the operational functions, e.g. backup, recovery and system administration, which are normally performed by those who operate the software.
-    ISO/IEC 14764:2006 is written primarily for maintainers of software and additionally for those responsible for development and quality assurance. It may also be used by acquirers and users of systems containing software who may provide inputs to the maintenance plan.
+  content: ISO/IEC 14764:2006 describes in greater detail management of the Maintenance
+    Process described in ISO/IEC 12207, including Amendments. It also establishes
+    definitions for the various types of maintenance. ISO/IEC 14764:2006 provides
+    guidance that applies to planning, execution and control, review and evaluation,
+    and closure of the Maintenance Process. The scope of ISO/IEC 14764:2006 includes
+    maintenance for multiple software products with the same maintenance resources.
+    "Maintenance" in ISO/IEC 14764:2006 means software maintenance unless otherwise
+    stated. ISO/IEC 14764:2006 provides the framework within which generic and specific
+    software maintenance plans may be executed, evaluated, and tailored to the maintenance
+    scope and magnitude of given software products. It provides the framework, precise
+    terminology and processes to allow the consistent application of technology (tools,
+    techniques and methods) to software maintenance. ISO/IEC 14764:2006 provides guidance
+    for the maintenance of software. The basis for the Maintenance Process and its
+    activities comes from the definitions of ISO/IEC 12207. It defines the activities
+    and tasks of software maintenance, and provides maintenance planning requirements.
+    It does not address the operation of software and the operational functions, e.g.
+    backup, recovery and system administration, which are normally performed by those
+    who operate the software. ISO/IEC 14764:2006 is written primarily for maintainers
+    of software and additionally for those responsible for development and quality
+    assurance. It may also be used by acquirers and users of systems containing software
+    who may provide inputs to the maintenance plan.
 status:
   stage:
     content: '95'
@@ -131,27 +135,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14764:1999
-    docidentifier:
-    - content: ISO/IEC 14764:1999
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC/IEEE 14764:2022
+    formattedref:
+      content: ISO/IEC/IEEE 14764:2022
     docidentifier:
     - content: ISO/IEC/IEEE 14764:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-01-21'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 14764:1999
+    docidentifier:
+    - content: ISO/IEC 14764:1999
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

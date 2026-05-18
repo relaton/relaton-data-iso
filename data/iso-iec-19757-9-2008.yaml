@@ -1,56 +1,50 @@
 ---
 id: ISOIEC1975792008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Document Schema Definition Languages (DSDL)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 9: Namespace and datatype declaration in Document Type Definitions
     (DTDs)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Document Schema Definition Languages (DSDL) -
     Part 9: Namespace and datatype declaration in Document Type Definitions (DTDs)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de définition de schéma de documents (DSDL)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 9: Déclaration d''espace de nommage et de type de données dans
     les définitions de type de document (DTD)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Langages de définition de schéma de documents
     (DSDL) - Partie 9: Déclaration d''espace de nommage et de type de données dans
     les définitions de type de document (DTD)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41009.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41009:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/10/41009.detail.rss
 docidentifier:
@@ -64,7 +58,7 @@ docidentifier:
 docnumber: '19757'
 date:
 - type: published
-  at: 2008-11
+  at: '2008-11-11'
 contributor:
 - role:
   - type: publisher
@@ -104,54 +98,31 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 19757-9:2008 defines a language that is designed to extend the
-    declarative functionality of an XML Document Type Definition (DTD) to include\n-
+  content: ISO/IEC 19757-9:2008 defines a language that is designed to extend the
+    declarative functionality of an XML Document Type Definition (DTD) to include
     declaring one or more namespaces to which some or all of the element and attribute
-    names in a DTD belong, \n- declaring constraints on the content of elements with
-    content model ANY to contain elements whose names belong to one or more specified
-    namespaces,\n- declaring datatypes for elements that contain data content only
-    and for attribute values.\nISO/IEC 19757-9:2008 defines two alternative syntax
-    bindings for this language. The first syntax binding uses XML processing instructions
-    and is designed to enable declarations in this language to be embedded within
-    an XML DTD without invalidating the DTD or altering its interpretation so far
-    as legacy DTD parsers are concerned. This first syntax also provides a means of
-    associating a DTD with an external declarations subset containing declarations
-    in either syntax. This syntax is defined using the modified BNF syntax notation
-    used in W3C XML. The second defined syntax binding uses an XML document syntax.
-    The syntax rules are defined by a schema that conforms to the RELAX NG Compact
-    Syntax defined in ISO/IEC 19757-2. This syntax is designed to enable declarations
-    in this language to be expressed almost entirely in XML (in this case one XML
-    processing instruction needs to be inserted in the DTD) to facilitate implementation
-    using existing XML tools, either as a namespace-qualified fragment embedded within
-    an XML instance or as a separate XML document."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 19757-9:2008 defines a language that is designed to extend the
-    declarative functionality of an XML Document Type Definition (DTD) to include\n-
-    declaring one or more namespaces to which some or all of the element and attribute
-    names in a DTD belong, \n- declaring constraints on the content of elements with
-    content model ANY to contain elements whose names belong to one or more specified
-    namespaces,\n- declaring datatypes for elements that contain data content only
-    and for attribute values.\nISO/IEC 19757-9:2008 defines two alternative syntax
-    bindings for this language. The first syntax binding uses XML processing instructions
-    and is designed to enable declarations in this language to be embedded within
-    an XML DTD without invalidating the DTD or altering its interpretation so far
-    as legacy DTD parsers are concerned. This first syntax also provides a means of
-    associating a DTD with an external declarations subset containing declarations
-    in either syntax. This syntax is defined using the modified BNF syntax notation
-    used in W3C XML. The second defined syntax binding uses an XML document syntax.
-    The syntax rules are defined by a schema that conforms to the RELAX NG Compact
-    Syntax defined in ISO/IEC 19757-2. This syntax is designed to enable declarations
-    in this language to be expressed almost entirely in XML (in this case one XML
-    processing instruction needs to be inserted in the DTD) to facilitate implementation
-    using existing XML tools, either as a namespace-qualified fragment embedded within
-    an XML instance or as a separate XML document."
+    names in a DTD belong, declaring constraints on the content of elements with content
+    model ANY to contain elements whose names belong to one or more specified namespaces,
+    declaring datatypes for elements that contain data content only and for attribute
+    values. ISO/IEC 19757-9:2008 defines two alternative syntax bindings for this
+    language. The first syntax binding uses XML processing instructions and is designed
+    to enable declarations in this language to be embedded within an XML DTD without
+    invalidating the DTD or altering its interpretation so far as legacy DTD parsers
+    are concerned. This first syntax also provides a means of associating a DTD with
+    an external declarations subset containing declarations in either syntax. This
+    syntax is defined using the modified BNF syntax notation used in W3C XML. The
+    second defined syntax binding uses an XML document syntax. The syntax rules are
+    defined by a schema that conforms to the RELAX NG Compact Syntax defined in ISO/IEC
+    19757-2. This syntax is designed to enable declarations in this language to be
+    expressed almost entirely in XML (in this case one XML processing instruction
+    needs to be inserted in the DTD) to facilitate implementation using existing XML
+    tools, either as a namespace-qualified fragment embedded within an XML instance
+    or as a separate XML document.
 status:
   stage:
     content: '95'
@@ -164,9 +135,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

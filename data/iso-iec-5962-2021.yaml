@@ -1,38 +1,32 @@
 ---
 id: ISOIEC59622021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: SPDX® Specification V2.2.1
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - SPDX® Specification V2.2.1
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification SPDX® V2.2.1
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Spécification SPDX® V2.2.1
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81870.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 5962:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:5962:stage-60.60
+- content: urn:iso:std:iso-iec:5962:stage-90.92
   type: URN
 docnumber: '5962'
 date:
 - type: published
-  at: 2021-08
+  at: '2021-08-24'
 contributor:
 - role:
   - type: publisher
@@ -91,7 +85,6 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -102,28 +95,30 @@ abstract:
     with software packages. An SPDX document can be associated with a set of software
     packages, files or snippets and contains information about the software in the
     SPDX format described in this specification.
-- language: fr
-  script: Latn
-  content: This Software Package Data Exchange® (SPDX®) specification defines a standard
-    data format for communicating the component and metadata information associated
-    with software packages. An SPDX document can be associated with a set of software
-    packages, files or snippets and contains information about the software in the
-    SPDX format described in this specification.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2021'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC DIS 5962
+    docidentifier:
+    - content: ISO/IEC DIS 5962
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

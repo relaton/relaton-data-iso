@@ -1,48 +1,40 @@
 ---
 id: ISO10081992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Photography
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Paper dimensions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Pictorial sheets
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Photography - Paper dimensions - Pictorial sheets
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Photographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dimension des papiers
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Papiers en feuilles pour usage général
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Photographie - Dimension des papiers - Papiers en feuilles pour usage général
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5474.html
@@ -56,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO 1008:1992(E)
   type: iso-reference
-- content: urn:iso:std:iso:1008:stage-90.92
+- content: urn:iso:std:iso:1008:stage-95.99
   type: URN
 docnumber: '1008'
 date:
 - type: published
-  at: 1992-01
+  at: '1992-01-23'
 contributor:
 - role:
   - type: publisher
@@ -101,16 +93,11 @@ abstract:
   content: Specifies the nominal sizes and aim dimensions, with their cutting tolerances,
     of papers in sheets. Includes a method for checking the squareness of the sheets
     and straightness of their edges.
-- language: fr
-  script: Latn
-  content: Specifies the nominal sizes and aim dimensions, with their cutting tolerances,
-    of papers in sheets. Includes a method for checking the squareness of the sheets
-    and straightness of their edges.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '1992'
   owner:
@@ -120,32 +107,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1008:1973
+    formattedref:
+      content: ISO 1008:2025
+    docidentifier:
+    - content: ISO 1008:2025
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1008:1973
     docidentifier:
     - content: ISO 1008:1973
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1010:1973
+    formattedref:
+      content: ISO 1010:1973
     docidentifier:
     - content: ISO 1010:1973
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/DIS 1008
-    docidentifier:
-    - content: ISO/DIS 1008
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

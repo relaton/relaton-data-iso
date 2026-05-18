@@ -1,53 +1,47 @@
 ---
 id: ISOIEC250622006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Software engineering
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Software product Quality Requirements and Evaluation (SQuaRE)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Common Industry Format (CIF) for usability test reports
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Software engineering - Software product Quality Requirements and Evaluation
     (SQuaRE) - Common Industry Format (CIF) for usability test reports
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ingénierie du logiciel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Exigences de qualité du produit logiciel et évaluation (SQuaRE)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Format commun de l'industrie (CIF) pour les rapports d'essai de rentabilité
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Ingénierie du logiciel - Exigences de qualité du produit logiciel et évaluation
     (SQuaRE) - Format commun de l'industrie (CIF) pour les rapports d'essai de rentabilité
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/43046.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:43046:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/30/43046.detail.rss
 docidentifier:
@@ -61,9 +55,7 @@ docidentifier:
 docnumber: '25062'
 date:
 - type: published
-  at: 2006-04
-- type: corrected
-  at: 2006-10
+  at: '2006-03-31'
 contributor:
 - role:
   - type: publisher
@@ -103,13 +95,12 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 25062:2006 provides a standard method for reporting usability
+  content: 'ISO/IEC 25062:2006 provides a standard method for reporting usability
     test findings. The format is designed for reporting results of formal usability
     tests in which quantitative measurements were collected, and is particularly appropriate
     for summative/comparative testing. The CIF does not indicate how to perform a
@@ -117,26 +108,10 @@ abstract:
     test. The CIF targets two audiences: usability professionals and stakeholders
     in an organization. Stakeholders can use the usability data to help make informed
     decisions concerning the release of software products or the procurement of such
-    products. \nThe format includes the following elements:\n- the description of
-    the product,\n- the goals of the test,\n- the test participants\n- the tasks the
-    users were asked to perform,\n- the experimental design of the test,\n- the method
-    or process by which the test was conducted,\n- the usability measures and data
-    collection methods, and\n- the numerical results."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 25062:2006 provides a standard method for reporting usability
-    test findings. The format is designed for reporting results of formal usability
-    tests in which quantitative measurements were collected, and is particularly appropriate
-    for summative/comparative testing. The CIF does not indicate how to perform a
-    usability test but provides guidance on how to report the results of a usability
-    test. The CIF targets two audiences: usability professionals and stakeholders
-    in an organization. Stakeholders can use the usability data to help make informed
-    decisions concerning the release of software products or the procurement of such
-    products. \nThe format includes the following elements:\n- the description of
-    the product,\n- the goals of the test,\n- the test participants\n- the tasks the
-    users were asked to perform,\n- the experimental design of the test,\n- the method
-    or process by which the test was conducted,\n- the usability measures and data
-    collection methods, and\n- the numerical results."
+    products. The format includes the following elements: the description of the product,the
+    goals of the test,the test participantsthe tasks the users were asked to perform,the
+    experimental design of the test,the method or process by which the test was conducted,the
+    usability measures and data collection methods, andthe numerical results.'
 status:
   stage:
     content: '95'
@@ -149,21 +124,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 25062:2025
+    formattedref:
+      content: ISO/IEC NP 25062
+    docidentifier:
+    - content: ISO/IEC NP 25062
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 25062:2025
     docidentifier:
     - content: ISO 25062:2025
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-01-27'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

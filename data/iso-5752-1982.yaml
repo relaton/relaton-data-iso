@@ -1,43 +1,39 @@
 ---
 id: ISO57521982
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Metal valves for use in flanged pipe systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Face-to-face and centre-to-face dimensions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Metal valves for use in flanged pipe systems - Face-to-face and centre-to-face
     dimensions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils de robinetterie métalliques utilisés dans les tuyauteries à brides
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dimensions face-à-face et face-à-axe
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils de robinetterie métalliques utilisés dans les tuyauteries à brides
     - Dimensions face-à-face et face-à-axe
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/11877.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:11877:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/18/11877.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '5752'
 date:
 - type: published
-  at: 1982-06
+  at: '1982-06-01'
 contributor:
 - role:
   - type: publisher
@@ -94,14 +90,6 @@ abstract:
     1 up to and including 40, and the classes from 125 to 600; the range of nominal
     sizes, in DN values, is from 10 up to and including 2000. This second edition
     cancels and replaces the first edition (1997).
-- language: fr
-  script: Latn
-  content: Specifies the dimensions for two-way valves. Each basic series of these
-    dimensions may be used as required with flanges of mating dimensions conforming
-    to ISO 2084 or ISO 2229. The range of pressure ratings, in PN values, is from
-    1 up to and including 40, and the classes from 125 to 600; the range of nominal
-    sizes, in DN values, is from 10 up to and including 2000. This second edition
-    cancels and replaces the first edition (1997).
 status:
   stage:
     content: '95'
@@ -114,21 +102,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5752:2021
+    formattedref:
+      content: ISO/DIS 5752
+    docidentifier:
+    - content: ISO/DIS 5752
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 5752:2021
     docidentifier:
     - content: ISO 5752:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-06-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

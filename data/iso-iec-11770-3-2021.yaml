@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1177032021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information security
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Key management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Mechanisms using asymmetric techniques'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information security - Key management - Part 3: Mechanisms using asymmetric
     techniques'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion de clés
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Mécanismes utilisant des techniques asymétriques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Sécurité de l''information - Gestion de clés - Partie 3: Mécanismes utilisant
     des techniques asymétriques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/82709.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '11770'
 date:
 - type: published
-  at: 2021-10
+  at: '2021-10-22'
 contributor:
 - role:
   - type: publisher
@@ -103,40 +95,38 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals.
-    a) Establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B by key agreement. In a secret key agreement mechanism, the secret key is computed as the result of a data exchange between the two entities A and B. Neither of them is able to predetermine the value of the shared secret key.
-    b) Establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B via key transport. In a secret key transport mechanism, the secret key is chosen by one entity A and is transferred to another entity B, suitably protected by asymmetric techniques.
-    c) Make an entity's public key available to other entities via key transport. In a public key transport mechanism, the public key of entity A is transferred to other entities in an authenticated way, but not requiring secrecy.
-    Some of the mechanisms of this document are based on the corresponding authentication mechanisms in ISO/IEC 9798‑3.
-    This document does not cover certain aspects of key management, such as:
-    —    key lifecycle management;
-    —    mechanisms to generate or validate asymmetric key pairs; and
-    —    mechanisms to store, archive, delete, destroy, etc., keys.
-    While this document does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means such as smart cards, etc.
-    This document does not specify the transformations used in the key management mechanisms.
-    NOTE       To provide origin authentication for key management messages, it is possible to make provisions for authenticity within the key establishment protocol or to use a public key signature system to sign the key exchange messages.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals.
-    a) Establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B by key agreement. In a secret key agreement mechanism, the secret key is computed as the result of a data exchange between the two entities A and B. Neither of them is able to predetermine the value of the shared secret key.
-    b) Establish a shared secret key for use in a symmetric cryptographic technique between two entities A and B via key transport. In a secret key transport mechanism, the secret key is chosen by one entity A and is transferred to another entity B, suitably protected by asymmetric techniques.
-    c) Make an entity's public key available to other entities via key transport. In a public key transport mechanism, the public key of entity A is transferred to other entities in an authenticated way, but not requiring secrecy.
-    Some of the mechanisms of this document are based on the corresponding authentication mechanisms in ISO/IEC 9798‑3.
-    This document does not cover certain aspects of key management, such as:
-    —    key lifecycle management;
-    —    mechanisms to generate or validate asymmetric key pairs; and
-    —    mechanisms to store, archive, delete, destroy, etc., keys.
-    While this document does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means such as smart cards, etc.
-    This document does not specify the transformations used in the key management mechanisms.
-    NOTE       To provide origin authentication for key management messages, it is possible to make provisions for authenticity within the key establishment protocol or to use a public key signature system to sign the key exchange messages.
+  content: 'This document defines key management mechanisms based on asymmetric cryptographic
+    techniques. It specifically addresses the use of asymmetric techniques to achieve
+    the following goals. a) Establish a shared secret key for use in a symmetric cryptographic
+    technique between two entities A and B by key agreement. In a secret key agreement
+    mechanism, the secret key is computed as the result of a data exchange between
+    the two entities A and B. Neither of them is able to predetermine the value of
+    the shared secret key. b) Establish a shared secret key for use in a symmetric
+    cryptographic technique between two entities A and B via key transport. In a secret
+    key transport mechanism, the secret key is chosen by one entity A and is transferred
+    to another entity B, suitably protected by asymmetric techniques. c) Make an entity''s
+    public key available to other entities via key transport. In a public key transport
+    mechanism, the public key of entity A is transferred to other entities in an authenticated
+    way, but not requiring secrecy. Some of the mechanisms of this document are based
+    on the corresponding authentication mechanisms in ISO/IEC 9798‑3. This document
+    does not cover certain aspects of key management, such as: —    key lifecycle
+    management; —    mechanisms to generate or validate asymmetric key pairs; and
+    —    mechanisms to store, archive, delete, destroy, etc., keys. While this document
+    does not explicitly cover the distribution of an entity''s private key (of an
+    asymmetric key pair) from a trusted third party to a requesting entity, the key
+    transport mechanisms described can be used to achieve this. A private key can
+    in all cases be distributed with these mechanisms where an existing, non-compromised
+    key already exists. However, in practice the distribution of private keys is usually
+    a manual process that relies on technological means such as smart cards, etc.
+    This document does not specify the transformations used in the key management
+    mechanisms. NOTE       To provide origin authentication for key management messages,
+    it is possible to make provisions for authenticity within the key establishment
+    protocol or to use a public key signature system to sign the key exchange messages.'
 status:
   stage:
     content: '60'
@@ -149,45 +139,34 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 11770-3:2015
-    docidentifier:
-    - content: ISO/IEC 11770-3:2015
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 11770-3:2015/Amd 1:2017
+    formattedref:
+      content: ISO/IEC 11770-3:2015/Amd 1:2017
     docidentifier:
     - content: ISO/IEC 11770-3:2015/Amd 1:2017
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 11770-3:2015/Cor 1:2016
+    formattedref:
+      content: ISO/IEC 11770-3:2015
     docidentifier:
-    - content: ISO/IEC 11770-3:2015/Cor 1:2016
+    - content: ISO/IEC 11770-3:2015
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 11770-3:2021/Amd 1:2025
+    formattedref:
+      content: ISO/IEC 11770-3:2015/Cor 1:2016
     docidentifier:
-    - content: ISO/IEC 11770-3:2021/Amd 1:2025
+    - content: ISO/IEC 11770-3:2015/Cor 1:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-10-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

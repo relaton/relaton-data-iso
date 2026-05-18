@@ -1,41 +1,37 @@
 ---
 id: ISO191132002
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Quality principles
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Quality principles
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Principes qualité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Principes qualité
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/26018.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26018:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/60/26018.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '19113'
 date:
 - type: published
-  at: 2002-12
+  at: '2002-11-20'
 contributor:
 - role:
   - type: publisher
@@ -80,26 +76,31 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 19113:2002 establishes the principles for describing the quality of geographic data and specifies components for reporting quality information. It also provides an approach to organizing information about data quality.
-    ISO 19113:2002 is applicable to data producers providing quality information to describe and assess how well a dataset meets its mapping of the universe of discourse as specified in the product specification, formal or implied, and to data users attempting to determine whether or not specific geographic data is of sufficient quality for their particular application. This International Standard should be considered by organizations involved in data acquisition and purchase, in such a way that it makes it possible to fulfil the intentions of the product specification. It can additionally be used for defining application schemas and describing quality requirements.
-    As well as being applicable to digital geographic data, the principles of ISO 19113:2002 can be extended to identify, collect and report the quality information for a geographic dataset, its principles can be extended and used to identify, collect and report quality information for a dataset series or smaller groupings of data that are a subset of a dataset.
-    Although ISO 19113:2002 is applicable to digital geographic data, its principles can be extended to many other forms of geographic data such as maps, charts and textual documents.
-    ISO 19113:2002 does not attempt to define a minimum acceptable level of quality for geographic data.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 19113:2002 establishes the principles for describing the quality of geographic data and specifies components for reporting quality information. It also provides an approach to organizing information about data quality.
-    ISO 19113:2002 is applicable to data producers providing quality information to describe and assess how well a dataset meets its mapping of the universe of discourse as specified in the product specification, formal or implied, and to data users attempting to determine whether or not specific geographic data is of sufficient quality for their particular application. This International Standard should be considered by organizations involved in data acquisition and purchase, in such a way that it makes it possible to fulfil the intentions of the product specification. It can additionally be used for defining application schemas and describing quality requirements.
-    As well as being applicable to digital geographic data, the principles of ISO 19113:2002 can be extended to identify, collect and report the quality information for a geographic dataset, its principles can be extended and used to identify, collect and report quality information for a dataset series or smaller groupings of data that are a subset of a dataset.
-    Although ISO 19113:2002 is applicable to digital geographic data, its principles can be extended to many other forms of geographic data such as maps, charts and textual documents.
-    ISO 19113:2002 does not attempt to define a minimum acceptable level of quality for geographic data.
+  content: ISO 19113:2002 establishes the principles for describing the quality of
+    geographic data and specifies components for reporting quality information. It
+    also provides an approach to organizing information about data quality. ISO 19113:2002
+    is applicable to data producers providing quality information to describe and
+    assess how well a dataset meets its mapping of the universe of discourse as specified
+    in the product specification, formal or implied, and to data users attempting
+    to determine whether or not specific geographic data is of sufficient quality
+    for their particular application. This International Standard should be considered
+    by organizations involved in data acquisition and purchase, in such a way that
+    it makes it possible to fulfil the intentions of the product specification. It
+    can additionally be used for defining application schemas and describing quality
+    requirements. As well as being applicable to digital geographic data, the principles
+    of ISO 19113:2002 can be extended to identify, collect and report the quality
+    information for a geographic dataset, its principles can be extended and used
+    to identify, collect and report quality information for a dataset series or smaller
+    groupings of data that are a subset of a dataset. Although ISO 19113:2002 is applicable
+    to digital geographic data, its principles can be extended to many other forms
+    of geographic data such as maps, charts and textual documents. ISO 19113:2002
+    does not attempt to define a minimum acceptable level of quality for geographic
+    data.
 status:
   stage:
     content: '95'
@@ -112,21 +113,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 19157:2013
+    formattedref:
+      content: ISO/NP 19113
+    docidentifier:
+    - content: ISO/NP 19113
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 19157:2013
     docidentifier:
     - content: ISO 19157:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-12-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

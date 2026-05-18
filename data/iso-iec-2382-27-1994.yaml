@@ -1,51 +1,45 @@
 ---
 id: ISOIEC2382271994
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 27: Office automation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Vocabulary - Part 27: Office automation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 27: Bureautique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Vocabulaire - Partie 27: Bureautique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7271.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7271:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/72/7271.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '2382'
 date:
 - type: published
-  at: 1994-12
+  at: '1994-12-22'
 contributor:
 - role:
   - type: publisher
@@ -110,11 +104,6 @@ abstract:
     to the field of office automation and identifies relationships between the entries.
     Defines concepts related to office automation, electronic mail, and text, voice
     and image transmission.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente partie de l'ISO/CEI 2382 a pour objet de faciliter les échanges internationaux dans le domaine de la bureautique. À cet effet, elle présente un ensemble bilingue de termes et de définitions ayant trait à des notions choisies dans ce domaine, et définit les relations pouvant exister entre les différentes notions. Les définitions ont été établies de manière à éviter les particularismes propres à une langue donnée, en vue de faciliter leur transposition dans les langues autres que celles ayant servi à la rédaction initiale. La présente partie de l'ISO/CEI 2382 définit les différents concepts relatifs à la bureautique, au courrier électronique, et à la transmission de texte, de la voix et d'images.
 status:
   stage:
     content: '95'
@@ -127,21 +116,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 2382:2015
+    formattedref:
+      content: ISO/IEC WD 2382-27
+    docidentifier:
+    - content: ISO/IEC WD 2382-27
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 2382:2015
     docidentifier:
     - content: ISO/IEC 2382:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-04-29'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

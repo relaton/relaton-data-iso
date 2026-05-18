@@ -1,44 +1,38 @@
 ---
 id: ISO395152006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Sampling procedures for inspection by variables
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: Sequential sampling plans indexed by acceptance quality limit
     (AQL) for inspection by variables (known standard deviation)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Sampling procedures for inspection by variables - Part 5: Sequential sampling
     plans indexed by acceptance quality limit (AQL) for inspection by variables (known
     standard deviation)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Règles d'échantillonnage pour les contrôles par mesures
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Plans d''échantillonnage séquentiels indexés d''après la limite
     d''acceptation de qualité (LAQ) pour l''inspection par variables (écart-type connu)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Règles d''échantillonnage pour les contrôles par mesures - Partie 5: Plans
     d''échantillonnage séquentiels indexés d''après la limite d''acceptation de qualité
     (LAQ) pour l''inspection par variables (écart-type connu)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/39294.html
@@ -52,12 +46,12 @@ docidentifier:
   primary: true
 - content: ISO 3951-5:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso:3951:-5:stage-90.20
+- content: urn:iso:std:iso:3951:-5:stage-90.93
   type: URN
 docnumber: '3951'
 date:
 - type: published
-  at: 2006-03
+  at: '2006-03-08'
 contributor:
 - role:
   - type: publisher
@@ -88,17 +82,18 @@ edition:
   content: '1'
 language:
 - en
-- fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: "ISO 3951-5:2006 specifies a system of sequential sampling plans (schemes)
+  content: 'ISO 3951-5:2006 specifies a system of sequential sampling plans (schemes)
     for lot-by-lot inspection by variables. The schemes are indexed in terms of a
     preferred series of acceptance quality limit (AQL) values, ranging from 0,01 to
     10, which are defined in terms of percent nonconforming items. The schemes are
-    designed to be applied to a continuing series of lots. \nISO 3951-5:2006 is designed
+    designed to be applied to a continuing series of lots. ISO 3951-5:2006 is designed
     for use under the following conditions: where the inspection procedure is to be
     applied to a continuing series of lots of discrete products all supplied by one
     producer using one production process; where only a single quality characteristic
@@ -110,31 +105,12 @@ abstract:
     a distribution which may be mathematically transformed to a normal distribution;
     where the standard deviation of the quality characteristic is known; and where
     a contract or standard defines an upper specification limit, a lower specification
-    limit or both."
-- language: fr
-  script: Latn
-  content: "ISO 3951-5:2006 specifies a system of sequential sampling plans (schemes)
-    for lot-by-lot inspection by variables. The schemes are indexed in terms of a
-    preferred series of acceptance quality limit (AQL) values, ranging from 0,01 to
-    10, which are defined in terms of percent nonconforming items. The schemes are
-    designed to be applied to a continuing series of lots. \nISO 3951-5:2006 is designed
-    for use under the following conditions: where the inspection procedure is to be
-    applied to a continuing series of lots of discrete products all supplied by one
-    producer using one production process; where only a single quality characteristic
-    of these products is taken into consideration, which must be measurable on a continuous
-    scale; where the uncertainty of the measurement system is negligible with respect
-    to the production process standard deviation; where production is stable (under
-    statistical control) and the quality characteristic is distributed according to
-    a normal distribution (or a close approximation to the normal distribution) or
-    a distribution which may be mathematically transformed to a normal distribution;
-    where the standard deviation of the quality characteristic is known; and where
-    a contract or standard defines an upper specification limit, a lower specification
-    limit or both."
+    limit or both.'
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '93'
 copyright:
 - from: '2006'
   owner:
@@ -142,18 +118,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 8423:1991
+    formattedref:
+      content: ISO 8423:1991/Cor 1:1993
+    docidentifier:
+    - content: ISO 8423:1991/Cor 1:1993
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8423:1991
     docidentifier:
     - content: ISO 8423:1991
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

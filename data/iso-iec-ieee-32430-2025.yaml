@@ -1,40 +1,34 @@
 ---
 id: ISOIECIEEE324302025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Software engineering
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Software non-functional size measurement
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Software engineering - Software non-functional size measurement
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ingénierie du logiciel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Norme pour la quantification des caractéristiques non fonctionnelles des
     logiciels
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ingénierie du logiciel - Norme pour la quantification des caractéristiques
     non fonctionnelles des logiciels
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/86303.html
@@ -53,7 +47,7 @@ docidentifier:
 docnumber: '32430'
 date:
 - type: published
-  at: 2025-02
+  at: '2025-02-06'
 contributor:
 - role:
   - type: publisher
@@ -102,26 +96,31 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines a method for measuring the non-functional size of the software. It complements ISO/IEC 20926:2009, which defines a method for measuring the functional size of the software.
-    This document also describes the complementarity of functional and non-functional sizes, so that deriving the sizes from the functional and the non-functional requirements does not result in duplication in the distinct functional and non-functional sizes.
-    In general, there are many types of non-functional requirements. Moreover, non-functional requirements and their classification evolve over time as the technology advances. This document does not intend to define the type of NFR for a given context. Users can choose ISO 25010 or any other standard for the definition of NFR. It is assumed that users size the NFR based on the definitions they use.
-    This document covers a subset of non-functional requirements. It is expected that, with time, the state of the art can improve and that potential future versions of this document can define an extended coverage. The ultimate goal is a version that, together with ISO/IEC 20926:2009, covers every aspect that can be required of any prospective piece of software, including aspects such as process and project directives that are hard or impossible to trace to the software's algorithm or data. The combination of functional and non-functional sizes would then correspond to the total size necessary to bring the software into existence.
-    Estimating the cost, effort and duration of the implementation of the NFR is outside the scope of this document.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines a method for measuring the non-functional size of the software. It complements ISO/IEC 20926:2009, which defines a method for measuring the functional size of the software.
-    This document also describes the complementarity of functional and non-functional sizes, so that deriving the sizes from the functional and the non-functional requirements does not result in duplication in the distinct functional and non-functional sizes.
-    In general, there are many types of non-functional requirements. Moreover, non-functional requirements and their classification evolve over time as the technology advances. This document does not intend to define the type of NFR for a given context. Users can choose ISO 25010 or any other standard for the definition of NFR. It is assumed that users size the NFR based on the definitions they use.
-    This document covers a subset of non-functional requirements. It is expected that, with time, the state of the art can improve and that potential future versions of this document can define an extended coverage. The ultimate goal is a version that, together with ISO/IEC 20926:2009, covers every aspect that can be required of any prospective piece of software, including aspects such as process and project directives that are hard or impossible to trace to the software's algorithm or data. The combination of functional and non-functional sizes would then correspond to the total size necessary to bring the software into existence.
-    Estimating the cost, effort and duration of the implementation of the NFR is outside the scope of this document.
+  content: This document defines a method for measuring the non-functional size of
+    the software. It complements ISO/IEC 20926:2009, which defines a method for measuring
+    the functional size of the software. This document also describes the complementarity
+    of functional and non-functional sizes, so that deriving the sizes from the functional
+    and the non-functional requirements does not result in duplication in the distinct
+    functional and non-functional sizes. In general, there are many types of non-functional
+    requirements. Moreover, non-functional requirements and their classification evolve
+    over time as the technology advances. This document does not intend to define
+    the type of NFR for a given context. Users can choose ISO 25010 or any other standard
+    for the definition of NFR. It is assumed that users size the NFR based on the
+    definitions they use. This document covers a subset of non-functional requirements.
+    It is expected that, with time, the state of the art can improve and that potential
+    future versions of this document can define an extended coverage. The ultimate
+    goal is a version that, together with ISO/IEC 20926:2009, covers every aspect
+    that can be required of any prospective piece of software, including aspects such
+    as process and project directives that are hard or impossible to trace to the
+    software's algorithm or data. The combination of functional and non-functional
+    sizes would then correspond to the total size necessary to bring the software
+    into existence. Estimating the cost, effort and duration of the implementation
+    of the NFR is outside the scope of this document.
 status:
   stage:
     content: '60'
@@ -134,18 +133,18 @@ copyright:
       name:
       - content: ISO/IEC/IEEE
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC/IEEE 32430:2021
+    formattedref:
+      content: ISO/IEC/IEEE 32430:2021
     docidentifier:
     - content: ISO/IEC/IEEE 32430:2021
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

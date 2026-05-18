@@ -1,29 +1,24 @@
 ---
 id: ISO146551999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Epoxy-coated strand for the prestressing of concrete
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Epoxy-coated strand for the prestressing of concrete
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Toron pour la précontrainte du béton avec revêtement époxy
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Toron pour la précontrainte du béton avec revêtement époxy
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/25115.html
@@ -37,12 +32,12 @@ docidentifier:
   primary: true
 - content: ISO 14655:1999(E)
   type: iso-reference
-- content: urn:iso:std:iso:14655:stage-90.20
+- content: urn:iso:std:iso:14655:stage-90.92
   type: URN
 docnumber: '14655'
 date:
 - type: published
-  at: 1999-12
+  at: '1999-12-16'
 contributor:
 - role:
   - type: publisher
@@ -79,42 +74,51 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard specifies requirements for fusion-bonded, epoxy-coated, or epoxy-coated and filled,
-    seven-wire prestressing steel strand for the prestressing of concrete.
-    NOTE Use of epoxy-coated strand in pre-tensioned applications such as fire-rated construction should be approached
-    with caution.
-- language: fr
-  script: Latn
-  content: |-
-    La présente Norme internationale spécifie les prescriptions relatives aux torons sept fils en acier pour la
-    précontrainte du béton avec revêtement époxy ou revêtement et colmatage époxy, réticulés par fusion.
-    NOTE Il convient d'être prudent vis-à-vis de l'utilisation d'un toron comportant un revêtement époxy pour les applications
-    en précontrainte par prétension telles les constructions devant résister au feu.
+  content: This International Standard specifies requirements for fusion-bonded, epoxy-coated,
+    or epoxy-coated and filled, seven-wire prestressing steel strand for the prestressing
+    of concrete. NOTE Use of epoxy-coated strand in pre-tensioned applications such
+    as fire-rated construction should be approached with caution.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '92'
 copyright:
 - from: '1999'
   owner:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 14655
+    docidentifier:
+    - content: ISO/NP 14655
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 14655
+    docidentifier:
+    - content: ISO/CD 14655
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 77.140.15
-    text: Steels for reinforcement of concrete
   - code: 91.080.40
     text: Concrete structures
+  - code: 77.140.15
+    text: Steels for reinforcement of concrete
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 14655
+      content: '25115'

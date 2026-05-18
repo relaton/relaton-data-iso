@@ -1,38 +1,32 @@
 ---
 id: ISO43102009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cranes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Test code and procedures
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cranes - Test code and procedures
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils de levage à charge suspendue
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Code et méthodes d'essai
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils de levage à charge suspendue - Code et méthodes d'essai
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44279.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '4310'
 date:
 - type: published
-  at: 2009-06
+  at: '2009-05-28'
 contributor:
 - role:
   - type: publisher
@@ -83,20 +77,20 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 4310:2009 specifies tests, inspections and procedures for verifying the conformance of a crane with its operational specifications and capability to lift rated loads (see ISO 7363). ISO 4310:2009 is applicable to the types of cranes designated in ISO 4306-1, prior to first use following manufacture or after modification or repair of the load‑bearing structure or a component of an individual crane.
-    Where rated loads are governed by stability, a test procedure and test load are specified that permit stability margins to be easily verified.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 4310:2009 spécifie les essais, les vérifications et les méthodes pour vérifier la conformité d'un appareil de levage à ses exigences de fonctionnement et sa capacité à lever des charges nominales.
-    L'ISO 4310:2009 s'applique aux types d'appareils de levage définis dans l'ISO 4306-1, avant leur première utilisation lorsqu'ils sont fabriqués ou après modification/réparation de la structure porteuse de charges ou d'un élément de l'appareil de levage.
-    Lorsque ces charges nominales sont fonction de la stabilité, une méthode d'essai et une charge d'essai sont spécifiées pour permettre une vérification aisée des limites de stabilité.
+  content: ISO 4310:2009 specifies tests, inspections and procedures for verifying
+    the conformance of a crane with its operational specifications and capability
+    to lift rated loads (see ISO 7363). ISO 4310:2009 is applicable to the types of
+    cranes designated in ISO 4306-1, prior to first use following manufacture or after
+    modification or repair of the load‑bearing structure or a component of an individual
+    crane. Where rated loads are governed by stability, a test procedure and test
+    load are specified that permit stability margins to be easily verified.
 status:
   stage:
     content: '90'
@@ -111,24 +105,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4310:1981
-    docidentifier:
-    - content: ISO 4310:1981
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/AWI 4310
+    formattedref:
+      content: ISO/AWI 4310
     docidentifier:
     - content: ISO/AWI 4310
       type: ISO
       primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 4310
+    docidentifier:
+    - content: ISO/WD 4310
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 4310
+    docidentifier:
+    - content: ISO/WD 4310
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4310:1981
+    docidentifier:
+    - content: ISO 4310:1981
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,41 +1,43 @@
 ---
 id: IEC81001512021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health software and health IT systems safety, effectiveness and security
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Part 5-1: Security — Activities in the product life cycle'
+  content: 'Part 5-1: Security'
   type: title-main
-  format: text/plain
+- language: en
+  script: Latn
+  content: Activities in the product life cycle
+  type: title-part
 - language: en
   script: Latn
   content: 'Health software and health IT systems safety, effectiveness and security
-    - Part 5-1: Security — Activities in the product life cycle'
+    - Part 5-1: Security - Activities in the product life cycle'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité, efficacité et sûreté des logiciels de santé et des systèmes TI
     de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Partie 5-1: Sûreté — Activités du cycle de vie du produit'
+  content: 'Partie 5-1: Sûreté'
   type: title-main
-  format: text/plain
+- language: fr
+  script: Latn
+  content: Activités du cycle de vie du produit
+  type: title-part
 - language: fr
   script: Latn
   content: 'Sécurité, efficacité et sûreté des logiciels de santé et des systèmes
-    TI de santé - Partie 5-1: Sûreté — Activités du cycle de vie du produit'
+    TI de santé - Partie 5-1: Sûreté - Activités du cycle de vie du produit'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/76097.html
@@ -49,12 +51,12 @@ docidentifier:
   primary: true
 - content: IEC 81001-5-1:2021(E)
   type: iso-reference
-- content: urn:iso:std:iec:81001:-5-1:stage-60.60
+- content: urn:iso:std:iec:81001:-5-1:stage-90.92
   type: URN
 docnumber: '81001'
 date:
 - type: published
-  at: 2021-12
+  at: '2021-12-21'
 contributor:
 - role:
   - type: publisher
@@ -101,43 +103,38 @@ abstract:
     LIFE CYCLE PROCESSES themselves.It is important to maintain an appropriate balance
     of the key properties SAFETY, effectiveness and SECURITY as discussed in ISO 81001-1.This
     document excludes specification of ACCOMPANYING DOCUMENTATION contents.
-- language: fr
-  script: Latn
-  content: Le présent document définit les exigences de CYCLE DE VIE relatives au
-    développement et à la maintenance des LOGICIELS DE SANTE, nécessaires pour venir
-    à l’appui de la conformité à l’IEC 62443-4-1 – compte tenu des besoins spécifiques
-    pour les LOGICIELS DE SANTE. L’ensemble des PROCESSUS, ACTIVITES et TACHES décrits
-    dans le présent document établit un cadre commun pour des PROCESSUS sécurisés
-    du CYCLE DE VIE DES LOGICIELS DE SANTE.Ces processus ont pour objet de renforcer
-    la CYBERSECURITE des LOGICIELS DE SANTE par l'établissement de certaines ACTIVITES
-    et TACHES dans les PROCESSUS DU CYCLE DE VIE desdits LOGICIELS, ainsi que par
-    le renforcement de la SURETE des PROCESSUS DU CYCLE DE VIE DES LOGICIELS proprement
-    dit.Il est important de maintenir un équilibre approprié des propriétés clés (SECURITE,
-    efficacité et SURETE) traitées dans l’ISO 81001-1.Le présent document exclut la
-    spécification du contenu de la DOCUMENTATION D’ACCOMPAGNEMENT.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2021'
   owner:
   - organization:
       name:
       - content: IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: IEC/AWI 81001-5-1
+    docidentifier:
+    - content: IEC/AWI 81001-5-1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '35.080'
-    text: Software
   - code: 35.240.80
     text: IT applications in health care technology
+  - code: '35.080'
+    text: Software
   structuredidentifier:
     type: IEC
     project_number:

@@ -1,39 +1,33 @@
 ---
 id: ISOIEC172032017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Virtualization Format (OVF) specification
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Open Virtualization Format (OVF) specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification du format de virtualisation ouvert (OVF)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Spécification du format de virtualisation
     ouvert (OVF)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/72081.html
@@ -52,7 +46,7 @@ docidentifier:
 docnumber: '17203'
 date:
 - type: published
-  at: 2017-09
+  at: '2017-09-21'
 contributor:
 - role:
   - type: publisher
@@ -92,48 +86,28 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The Open Virtualization Format (OVF) Specification describes an open, secure, efficient and
-    extensible format for the packaging and distribution of software to be run in virtual systems.
-    The OVF package enables the authoring of portable virtual systems and the transport of virtual
-    systems between virtualization platforms. This version of the specification (2.1) is intended to allow
-    OVF 1.x tools to work with OVF 2.x descriptors in the following sense:
-    Existing OVF 1.x tools should be able to parse OVF 2.x descriptors.
-    Existing OVF 1.x tools should be able to give warnings/errors if dependencies to 2.x
-                 features are required for correct operation.
-    If a conflict arises between the schema, text, or tables, the order of precedence to resolve the conflicts
-    is schema; then text; then tables. Figures are for illustrative purposes only and are not a normative
-    part of the standard.
-    A table may constrain the text but it shall not conflict with it.
-    The profile conforms to the cited CIM Schema classes where used. Any requirements contained in the
-    cited CIM Schema classes shall be met. If a conflict arises the CIM Schema takes precedence.
-    The profile conforms to the cited OVF XML Schema. It may constrain the schema but it shall not
-    conflict with it. If a conflict arises the OVF XML Schema takes precedence.
-- language: fr
-  script: Latn
-  content: |-
-    The Open Virtualization Format (OVF) Specification describes an open, secure, efficient and
-    extensible format for the packaging and distribution of software to be run in virtual systems.
-    The OVF package enables the authoring of portable virtual systems and the transport of virtual
-    systems between virtualization platforms. This version of the specification (2.1) is intended to allow
-    OVF 1.x tools to work with OVF 2.x descriptors in the following sense:
-    Existing OVF 1.x tools should be able to parse OVF 2.x descriptors.
-    Existing OVF 1.x tools should be able to give warnings/errors if dependencies to 2.x
-                 features are required for correct operation.
-    If a conflict arises between the schema, text, or tables, the order of precedence to resolve the conflicts
-    is schema; then text; then tables. Figures are for illustrative purposes only and are not a normative
-    part of the standard.
-    A table may constrain the text but it shall not conflict with it.
-    The profile conforms to the cited CIM Schema classes where used. Any requirements contained in the
-    cited CIM Schema classes shall be met. If a conflict arises the CIM Schema takes precedence.
-    The profile conforms to the cited OVF XML Schema. It may constrain the schema but it shall not
-    conflict with it. If a conflict arises the OVF XML Schema takes precedence.
+  content: 'The Open Virtualization Format (OVF) Specification describes an open,
+    secure, efficient and extensible format for the packaging and distribution of
+    software to be run in virtual systems. The OVF package enables the authoring of
+    portable virtual systems and the transport of virtual systems between virtualization
+    platforms. This version of the specification (2.1) is intended to allow OVF 1.x
+    tools to work with OVF 2.x descriptors in the following sense: Existing OVF 1.x
+    tools should be able to parse OVF 2.x descriptors. Existing OVF 1.x tools should
+    be able to give warnings/errors if dependencies to 2.x features are required for
+    correct operation. If a conflict arises between the schema, text, or tables, the
+    order of precedence to resolve the conflicts is schema; then text; then tables.
+    Figures are for illustrative purposes only and are not a normative part of the
+    standard. A table may constrain the text but it shall not conflict with it. The
+    profile conforms to the cited CIM Schema classes where used. Any requirements
+    contained in the cited CIM Schema classes shall be met. If a conflict arises the
+    CIM Schema takes precedence. The profile conforms to the cited OVF XML Schema.
+    It may constrain the schema but it shall not conflict with it. If a conflict arises
+    the OVF XML Schema takes precedence.'
 status:
   stage:
     content: '90'
@@ -146,18 +120,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 17203:2011
+    formattedref:
+      content: ISO/IEC 17203:2011
     docidentifier:
     - content: ISO/IEC 17203:2011
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

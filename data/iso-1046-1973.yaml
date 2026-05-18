@@ -1,41 +1,37 @@
 ---
 id: ISO10461973
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Architectural and building drawings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Architectural and building drawings - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dessins de bâtiment et d'architecture
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dessins de bâtiment et d'architecture - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5530.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5530:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/55/5530.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '1046'
 date:
 - type: published
-  at: 1973-11
+  at: '1973-11-01'
 contributor:
 - role:
   - type: publisher
@@ -95,29 +91,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10209-1:1992
+    formattedref:
+      content: ISO 10209-1:1992
     docidentifier:
     - content: ISO 10209-1:1992
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1992-06-11'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/DIS 1046
+    docidentifier:
+    - content: ISO/DIS 1046
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.01
-    text: Generalities. Terminology. Standardization. Documentation (Vocabularies)
   - code: 01.100.30
     text: Construction drawings
+  - code: 01.040.01
+    text: Generalities. Terminology. Standardization. Documentation (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

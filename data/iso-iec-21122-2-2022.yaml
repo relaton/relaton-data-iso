@@ -1,53 +1,47 @@
 ---
 id: ISOIEC2112222022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: JPEG XS low-latency lightweight image coding system
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Profiles and buffer models'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - JPEG XS low-latency lightweight image coding
     system - Part 2: Profiles and buffer models'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Système de codage d'images léger à faible latence JPEG XS
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Profils et modèles tampons'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Système de codage d''images léger à faible
     latence JPEG XS - Partie 2: Profils et modèles tampons'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81552.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:81552:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/08/15/81552.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '21122'
 date:
 - type: published
-  at: 2022-03
+  at: '2022-03-29'
 contributor:
 - role:
   - type: publisher
@@ -101,18 +95,10 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: This document defines a number of subsets of the syntax specified in ISO/IEC 21122-1
-    as profiles. It also defines lower bounds on the throughput in the decoded domain
-    via levels and the encoded domain via sublevels that a conforming decoder implementation
-    shall support. Furthermore, it defines a buffer model to ensure interoperability
-    between implementations in the presence of a latency constraint.
-- language: fr
   script: Latn
   content: This document defines a number of subsets of the syntax specified in ISO/IEC 21122-1
     as profiles. It also defines lower bounds on the throughput in the decoded domain
@@ -133,38 +119,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 21122-2:2019
+    formattedref:
+      content: ISO/IEC 21122-2:2024
+    docidentifier:
+    - content: ISO/IEC 21122-2:2024
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 21122-2:2019
     docidentifier:
     - content: ISO/IEC 21122-2:2019
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 21122-2:2024
+    formattedref:
+      content: ISO/IEC 21122-2:2019/AWI Amd 1
     docidentifier:
-    - content: ISO/IEC 21122-2:2024
+    - content: ISO/IEC 21122-2:2019/AWI Amd 1
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-08-09'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 21122-2:2022/Amd 1:2022
-    docidentifier:
-    - content: ISO/IEC 21122-2:2022/Amd 1:2022
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2024-08-09'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

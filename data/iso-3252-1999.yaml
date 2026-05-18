@@ -1,41 +1,37 @@
 ---
 id: ISO32521999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Powder metallurgy
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Powder metallurgy - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Métallurgie des poudres
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Métallurgie des poudres - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/26045.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26045:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/60/26045.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '3252'
 date:
 - type: published
-  at: 1999-12
+  at: '1999-12-16'
 contributor:
 - role:
   - type: publisher
@@ -97,35 +93,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3252:1996
+    formattedref:
+      content: ISO 3252:2019
+    docidentifier:
+    - content: ISO 3252:2019
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3252:1996
     docidentifier:
     - content: ISO 3252:1996
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 3252:2019
+    formattedref:
+      content: ISO 3252:1996/Cor 1:1996
     docidentifier:
-    - content: ISO 3252:2019
+    - content: ISO 3252:1996/Cor 1:1996
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-07-31'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '77.160'
-    text: Powder metallurgy
   - code: 01.040.77
     text: Metallurgy (Vocabularies)
+  - code: '77.160'
+    text: Powder metallurgy
   structuredidentifier:
     type: ISO
     project_number:

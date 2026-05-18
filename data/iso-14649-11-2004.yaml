@@ -1,54 +1,46 @@
 ---
 id: ISO14649112004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Physical device control
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Data model for computerized numerical controllers -- Part 11: Process
     data for milling'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Physical device control
     - Data model for computerized numerical controllers -- Part 11: Process data for
     milling'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Commande des dispositifs physiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Modèle de données pour les contrôleurs numériques informatisés -- Partie
     11: Données des procédés relatifs au fraisage'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Commande des
     dispositifs physiques - Modèle de données pour les contrôleurs numériques informatisés
     -- Partie 11: Données des procédés relatifs au fraisage'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/40896.html
@@ -67,7 +59,7 @@ docidentifier:
 docnumber: '14649'
 date:
 - type: published
-  at: 2004-12
+  at: '2004-12-06'
 contributor:
 - role:
   - type: publisher
@@ -98,34 +90,28 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 14649-11:2004 specifies the technology-specific data elements needed as process data for milling. Together with the general process data described in ISO 14649-10, it describes the interface between a computerized numerical controller and the programming system (i.e. CAM system or shop floor programming system) for milling. It can be used for milling operations on all types of machines, be it milling machines, machining centres, or lathes with motorized tools capable of milling. The scope of ISO 14649-11:2004 does not include any other technologies, like turning, grinding, or EDM. These technologies will be described in further parts of ISO 14649.
-    The subject of the milling_schema, which is described in ISO 14649-11:2004, is the definition of technology-specific data types representing the machining process for milling and drilling. This includes both milling of freeform surfaces and milling of prismatic workpieces (also known as 2 1/2-D milling).
-    Not included in this schema are the following:
-    - geometric items;
-    - representations;
-    - manufacturing features;
-    - executable objects;
-    - base classes which are common for all technologies.
-    They are referenced from ISO 10303's generic resources and ISO 14649-10. The description of process data is done using the EXPRESS language as defined in ISO 10303-11. The encoding of the data is done using ISO 10303-21.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 14649-11:2004 specifies the technology-specific data elements needed as process data for milling. Together with the general process data described in ISO 14649-10, it describes the interface between a computerized numerical controller and the programming system (i.e. CAM system or shop floor programming system) for milling. It can be used for milling operations on all types of machines, be it milling machines, machining centres, or lathes with motorized tools capable of milling. The scope of ISO 14649-11:2004 does not include any other technologies, like turning, grinding, or EDM. These technologies will be described in further parts of ISO 14649.
-    The subject of the milling_schema, which is described in ISO 14649-11:2004, is the definition of technology-specific data types representing the machining process for milling and drilling. This includes both milling of freeform surfaces and milling of prismatic workpieces (also known as 2 1/2-D milling).
-    Not included in this schema are the following:
-    - geometric items;
-    - representations;
-    - manufacturing features;
-    - executable objects;
-    - base classes which are common for all technologies.
-    They are referenced from ISO 10303's generic resources and ISO 14649-10. The description of process data is done using the EXPRESS language as defined in ISO 10303-11. The encoding of the data is done using ISO 10303-21.
+  content: 'ISO 14649-11:2004 specifies the technology-specific data elements needed
+    as process data for milling. Together with the general process data described
+    in ISO 14649-10, it describes the interface between a computerized numerical controller
+    and the programming system (i.e. CAM system or shop floor programming system)
+    for milling. It can be used for milling operations on all types of machines, be
+    it milling machines, machining centres, or lathes with motorized tools capable
+    of milling. The scope of ISO 14649-11:2004 does not include any other technologies,
+    like turning, grinding, or EDM. These technologies will be described in further
+    parts of ISO 14649. The subject of the milling_schema, which is described in ISO
+    14649-11:2004, is the definition of technology-specific data types representing
+    the machining process for milling and drilling. This includes both milling of
+    freeform surfaces and milling of prismatic workpieces (also known as 2 1/2-D milling).
+    Not included in this schema are the following: geometric items;representations;manufacturing
+    features;executable objects;base classes which are common for all technologies.
+    They are referenced from ISO 10303''s generic resources and ISO 14649-10. The
+    description of process data is done using the EXPRESS language as defined in ISO
+    10303-11. The encoding of the data is done using ISO 10303-21.'
 status:
   stage:
     content: '90'
@@ -140,24 +126,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14649-11:2003
-    docidentifier:
-    - content: ISO 14649-11:2003
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 14649-11
+    formattedref:
+      content: ISO/CD 14649-11
     docidentifier:
     - content: ISO/CD 14649-11
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 14649-11:2003
+    docidentifier:
+    - content: ISO 14649-11:2003
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

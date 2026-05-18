@@ -1,50 +1,42 @@
 ---
 id: ISOIEC154202009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic identification and data capture techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: EAN/UPC bar code symbology specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Automatic identification and data capture techniques
     - EAN/UPC bar code symbology specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques automatiques d'identification et de capture des données
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification de symbologie de code à barres EAN/UPC
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques automatiques d'identification
     et de capture des données - Spécification de symbologie de code à barres EAN/UPC
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46143.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 15420:2009(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:15420:stage-90.92
+- content: urn:iso:std:iso-iec:15420:stage-95.99
   type: URN
 docnumber: '15420'
 date:
 - type: published
-  at: 2009-12
+  at: '2009-12-15'
 contributor:
 - role:
   - type: publisher
@@ -103,27 +95,25 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    Manufacturers of bar code equipment and users of bar code technology require publicly available standard symbology specifications to which they can refer when developing equipment and software.
-    ISO/IEC 15420:2009 specifies the requirements for the bar code symbology known as EAN/UPC. It specifies EAN/UPC symbology characteristics, data character encodation, dimensions, tolerances, decoding algorithms and parameters to be defined by applications. It specifies the Symbology Identifier prefix strings for EAN/UPC symbols.
-    Data content and the rules governing the use of this symbology are outside the scope of ISO/IEC 15420:2009; they are defined in the GS1 General Specifications.
-- language: fr
-  script: Latn
-  content: |-
-    Manufacturers of bar code equipment and users of bar code technology require publicly available standard symbology specifications to which they can refer when developing equipment and software.
-    ISO/IEC 15420:2009 specifies the requirements for the bar code symbology known as EAN/UPC. It specifies EAN/UPC symbology characteristics, data character encodation, dimensions, tolerances, decoding algorithms and parameters to be defined by applications. It specifies the Symbology Identifier prefix strings for EAN/UPC symbols.
-    Data content and the rules governing the use of this symbology are outside the scope of ISO/IEC 15420:2009; they are defined in the GS1 General Specifications.
+  content: Manufacturers of bar code equipment and users of bar code technology require
+    publicly available standard symbology specifications to which they can refer when
+    developing equipment and software. ISO/IEC 15420:2009 specifies the requirements
+    for the bar code symbology known as EAN/UPC. It specifies EAN/UPC symbology characteristics,
+    data character encodation, dimensions, tolerances, decoding algorithms and parameters
+    to be defined by applications. It specifies the Symbology Identifier prefix strings
+    for EAN/UPC symbols. Data content and the rules governing the use of this symbology
+    are outside the scope of ISO/IEC 15420:2009; they are defined in the GS1 General
+    Specifications.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2009'
   owner:
@@ -133,24 +123,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15420:2000
+    formattedref:
+      content: ISO/IEC PWI 15420
     docidentifier:
-    - content: ISO/IEC 15420:2000
+    - content: ISO/IEC PWI 15420
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC PRF 15420
+    formattedref:
+      content: ISO/IEC 15420:2025
     docidentifier:
-    - content: ISO/IEC PRF 15420
+    - content: ISO/IEC 15420:2025
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 15420:2000
+    docidentifier:
+    - content: ISO/IEC 15420:2000
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

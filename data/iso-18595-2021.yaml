@@ -1,50 +1,42 @@
 ---
 id: ISO185952021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Resistance welding
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Spot welding of aluminium and aluminium alloys
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Weldability, welding and testing
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Resistance welding - Spot welding of aluminium and aluminium alloys - Weldability,
     welding and testing
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Soudage par résistance
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Soudage par points de l'aluminium et des alliages d'aluminium
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Soudabilité, soudage et essais
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Soudage par résistance - Soudage par points de l'aluminium et des alliages
     d'aluminium - Soudabilité, soudage et essais
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/72933.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 18595:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:18595:stage-60.60
+- content: urn:iso:std:iso:18595:stage-90.20
   type: URN
 docnumber: '18595'
 date:
 - type: published
-  at: 2021-01
+  at: '2021-01-26'
 contributor:
 - role:
   - type: publisher
@@ -100,35 +92,28 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies requirements for resistance spot welding in the fabrication of assemblies of aluminium sheet, extrusions (both work- and age-hardening alloys) and/or cast material comprising two or three thicknesses of metal, where the maximum single (sheet) thickness of components to be welded is within the range 0,6 mm to 6 mm.
-    This document is applicable to the welding of sheets or plates of dissimilar thickness where the thickness ratio is less than or equal to 3:1. It applies to the welding of three thicknesses where the total thickness is less than or equal to 9 mm.
-    Welding with the following types of machines is within the scope of this document:
-    —     pedestal welding machines;
-    —     gun welders;
-    —     automatic welding equipment where the components are fed by robots or automatic feeding equipment;
-    —     multi-welders;
-    —     robotic welders.
-    Information on appropriate welding equipment is given in Annex A and on spot welding conditions in Annex B. The latter are for guidance only and can require modification depending on service conditions of the fabrication, type of welding equipment, characteristics of the secondary circuit, electrode material and geometry.
-    The welding of coated material, e.g. zinc-coated or anodized material, is outside the scope of this document.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie les exigences relatives au soudage par résistance par points réalisé pour la fabrication d'assemblages de tôles d'aluminium, de pièces extrudées (alliages écrouis et vieillis) et/ou de pièces moulées comprenant deux ou trois épaisseurs de métal, dont l'épaisseur (de tôle) unique maximale des composants à souder est comprise entre 0,6 mm et 6 mm.
-    Le présent document s'applique au soudage de tôles ou de plaques d'épaisseurs différentes et dont le rapport entre les épaisseurs est inférieur ou égal à 3:1. Il s'applique au soudage de trois épaisseurs dont l'épaisseur totale est inférieure ou égale à 9 mm.
-    Le soudage avec les types de machines ci-dessous entre dans le domaine d'application du présent document:
-    —          machines de soudage avec commande au pied;
-    —          pinces à souder;
-    —          matériel de soudage automatique avec lequel les composants sont mis en place par des robots ou par des appareils d'alimentation automatique;
-    —          machines à souder multipoints;
-    —          robots de soudage.
-    Les informations sur le matériel de soudage adéquat sont fournies à l'Annexe A et les informations sur les conditions de soudage par points sont fournies à l'Annexe B. Ces dernières sont communiquées à titre informatif uniquement et peuvent impliquer des modifications selon les conditions de fabrication, le type de matériel de soudage, les caractéristiques du circuit secondaire et du matériau et la forme de l'électrode.
-    Le soudage de matériaux revêtus (les matériaux galvanisés ou anodisés, par exemple) n'entre pas dans le domaine d'application du présent document.
+  content: 'This document specifies requirements for resistance spot welding in the
+    fabrication of assemblies of aluminium sheet, extrusions (both work- and age-hardening
+    alloys) and/or cast material comprising two or three thicknesses of metal, where
+    the maximum single (sheet) thickness of components to be welded is within the
+    range 0,6 mm to 6 mm. This document is applicable to the welding of sheets or
+    plates of dissimilar thickness where the thickness ratio is less than or equal
+    to 3:1. It applies to the welding of three thicknesses where the total thickness
+    is less than or equal to 9 mm. Welding with the following types of machines is
+    within the scope of this document: — pedestal welding machines; — gun welders;
+    — automatic welding equipment where the components are fed by robots or automatic
+    feeding equipment; — multi-welders; — robotic welders. Information on appropriate
+    welding equipment is given in Annex A and on spot welding conditions in Annex
+    B. The latter are for guidance only and can require modification depending on
+    service conditions of the fabrication, type of welding equipment, characteristics
+    of the secondary circuit, electrode material and geometry. The welding of coated
+    material, e.g. zinc-coated or anodized material, is outside the scope of this
+    document.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -138,16 +123,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 18595:2007
+    formattedref:
+      content: ISO/DIS 18595
+    docidentifier:
+    - content: ISO/DIS 18595
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 18595:2007
     docidentifier:
     - content: ISO 18595:2007
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

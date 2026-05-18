@@ -1,32 +1,29 @@
 ---
 id: ISO47331981
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Oil of cardamom
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Oil of cardamom
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Huile essentielle de cardamome
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Huile essentielle de cardamome
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/10719.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:10719:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/07/10719.detail.rss
 docidentifier:
@@ -40,7 +37,7 @@ docidentifier:
 docnumber: '4733'
 date:
 - type: published
-  at: 1981-09
+  at: '1981-09-01'
 contributor:
 - role:
   - type: publisher
@@ -83,14 +80,6 @@ abstract:
     - 1,4680. Optical rotation at 20 °C: Range from + 22 to + 41 . Miscibility with
     70 % (V/V) ethanol at 20 °C: 1 : 2 to 5. Acid value: Maximum 6. Ester value: 92
     - 150.'
-- language: fr
-  script: Latn
-  content: 'The Standard specifies the following characteristics of the oil. Appearance:
-    Liquid. Colour: Almost colourless to yellow. Odour: Characteristic, spicy, camphorous.
-    Relative density at 20/20 °C: 0,191 - 0,936. Refractive index at 20 °C: 1,4620
-    - 1,4680. Optical rotation at 20 °C: Range from + 22 to + 41 . Miscibility with
-    70 % (V/V) ethanol at 20 °C: 1 : 2 to 5. Acid value: Maximum 6. Ester value: 92
-    - 150.'
 status:
   stage:
     content: '95'
@@ -103,21 +92,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4733:2004
+    formattedref:
+      content: ISO/WD 4733
+    docidentifier:
+    - content: ISO/WD 4733
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 4733:2004
     docidentifier:
     - content: ISO 4733:2004
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2004-06-30'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -127,4 +121,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 4733
+      content: '10719'

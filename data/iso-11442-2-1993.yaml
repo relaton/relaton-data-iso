@@ -1,53 +1,47 @@
 ---
 id: ISO1144221993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Technical product documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Handling of computer-based technical information
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Original documentation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Technical product documentation - Handling of computer-based technical
     information - Part 2: Original documentation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation technique de produits
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des informations techniques assistée par ordinateur
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Documentation originale'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Documentation technique de produits - Gestion des informations techniques
     assistée par ordinateur - Partie 2: Documentation originale'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/19383.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:19383:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/93/19383.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '11442'
 date:
 - type: published
-  at: 1993-09
+  at: '1993-09-02'
 contributor:
 - role:
   - type: publisher
@@ -101,11 +95,6 @@ abstract:
   content: Provides original documents and related terms for use in computer-based
     product design processes; it also applies to manual design processes. Describes
     original document, original medium, original data, master print, signature document.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente partie de l'ISO 11442 décrit les documents originaux et les termes utilisés dans le processus de conception de produits assisté par ordinateur; elle est applicable également au processus de conception manuel.
 status:
   stage:
     content: '95'
@@ -118,29 +107,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11442:2006
+    formattedref:
+      content: ISO 11442:2006
     docidentifier:
     - content: ISO 11442:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-03-06'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 11442-2
+    docidentifier:
+    - content: ISO/CD 11442-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '01.110'
-    text: Technical product documentation
   - code: 35.240.10
     text: Computer-aided design (CAD)
+  - code: '01.110'
+    text: Technical product documentation
   structuredidentifier:
     type: ISO
     project_number:

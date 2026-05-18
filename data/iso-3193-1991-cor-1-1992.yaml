@@ -1,49 +1,42 @@
 ---
 id: ISO31931991Cor11992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aerospace
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Bolts, normal hexagonal head, normal shank, short or medium length MJ threads,
     metallic material, coated or uncoated, strength classes less than or equal to
     1 100 MPa
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Dimensions -- Technical Corrigendum 1
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Aerospace - Bolts, normal hexagonal head, normal shank, short or medium
     length MJ threads, metallic material, coated or uncoated, strength classes less
     than or equal to 1 100 MPa - Dimensions -- Technical Corrigendum 1
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronautique et espace
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vis à tête hexagonale normale, avec tige normale et filetage MJ court ou
     de longueur moyenne, en matériau métallique, revêtues ou non revêtues, des classes
     de résistance inférieures ou égales à 1 100 MPa
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dimensions -- Rectificatif technique 1
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronautique et espace - Vis à tête hexagonale normale, avec tige normale
@@ -51,10 +44,11 @@ title:
     ou non revêtues, des classes de résistance inférieures ou égales à 1 100 MPa -
     Dimensions -- Rectificatif technique 1
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/8389.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:8389:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/83/8389.detail.rss
 docidentifier:
@@ -63,14 +57,10 @@ docidentifier:
   primary: true
 - content: ISO 3193:1991/Cor 1:1992(E)
   type: iso-reference
-- content: urn:iso:std:iso:3193:ed-1:stage-95.99:cor:1992:v1
-  type: URN
 docnumber: '3193'
 date:
 - type: published
-  at: '1991'
-- type: updated
-  at: 1992-02
+  at: '1992-02-06'
 contributor:
 - role:
   - type: publisher
@@ -108,9 +98,6 @@ abstract:
 - language: en
   script: Latn
   content: Modifies Table 1 (page 3).
-- language: fr
-  script: Latn
-  content: Modifies Table 1 (page 3).
 status:
   stage:
     content: '95'
@@ -123,28 +110,32 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3193:2008
+    formattedref:
+      content: ISO 3193:2008
     docidentifier:
     - content: ISO 3193:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-08-18'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 3193
+    docidentifier:
+    - content: ISO/WD 3193
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: technical-corrigendum
   flavor: iso
   ics:
   - code: 49.030.20
     text: Bolts, screws, studs
   structuredidentifier:
-    type: ISO
     project_number:
       content: '8389'

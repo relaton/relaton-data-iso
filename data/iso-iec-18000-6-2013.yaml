@@ -1,53 +1,45 @@
 ---
 id: ISOIEC1800062013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Radio frequency identification for item management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 6: Parameters for air interface communications at 860 MHz to 960
     MHz General'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Radio frequency identification for item management
     - Part 6: Parameters for air interface communications at 860 MHz to 960 MHz General'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification par radiofréquence (RFID) pour la gestion d'objets
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Paramètres de communications d''une interface radio entre 860
     MHz et 960 MHz, Général'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Identification par radiofréquence (RFID)
     pour la gestion d''objets - Partie 6: Paramètres de communications d''une interface
     radio entre 860 MHz et 960 MHz, Général'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/59644.html
@@ -61,12 +53,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 18000-6:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:18000:-6:stage-90.92
+- content: urn:iso:std:iso-iec:18000:-6:stage-95.99
   type: URN
 docnumber: '18000'
 date:
 - type: published
-  at: 2013-01
+  at: '2013-01-16'
 contributor:
 - role:
   - type: publisher
@@ -106,25 +98,24 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 18000-6:2013 defines the air interface for radio frequency identification
+  content: ISO/IEC 18000-6:2013 defines the air interface for radio frequency identification
     (RFID) devices operating in the 860 MHz to 960 MHz Industrial, Scientific, and
     Medical (ISM) band used in item management applications. It provides a common
     technical specification for RFID devices that can be used by ISO committees developing
-    RFID application standards. \nIt is intended to allow for compatibility and to
-    encourage inter-operability of products for the growing RFID market in the international
+    RFID application standards. It is intended to allow for compatibility and to encourage
+    inter-operability of products for the growing RFID market in the international
     marketplace. It defines the forward and return link parameters for technical attributes
     including, but not limited to, operating frequency, operating channel accuracy,
     occupied channel bandwidth, maximum effective isotropic radiated power (EIRP),
     spurious emissions, modulation, duty cycle, data coding, bit rate, bit rate accuracy,
     bit transmission order, and, where appropriate, operating channels, frequency
     hop rate, hop sequence, spreading sequence, and chip rate. It further defines
-    the communications protocol used in the air interface.\nISO/IEC 18000-6:2013 together
+    the communications protocol used in the air interface. ISO/IEC 18000-6:2013 together
     with ISO/IEC 18000-61, ISO/IEC 18000-62, ISO/IEC 18000-63 and ISO/IEC 18000-64
     specifies the physical and logical requirements for a passive-backscatter, Interrogator-Talks-First
     (ITF) or tag-only-talks-after-listening (TOTAL) RFID system. The system comprises
@@ -136,53 +127,19 @@ abstract:
     signal only after being directed to do so by an Interrogator, or TOTAL, meaning
     that a tag modulates its antenna reflection coefficient with an information signal
     upon entering an Interrogator's field after first listening for Interrogator modulation
-    in order to determine if the system is ITF or not.\nISO/IEC 18000-6:2013 contains
+    in order to determine if the system is ITF or not. ISO/IEC 18000-6:2013 contains
     one mode with four types. The detailed technical differences between the four
-    types are shown in the associated parameter tables.\nTypes A, B and C are ITF.
+    types are shown in the associated parameter tables. Types A, B and C are ITF.
     Type A uses Pulse-Interval Encoding (PIE) in the forward link and an adaptive
     ALOHA collision-arbitration algorithm. Type B uses Manchester in the forward link
     and an adaptive binary-tree collision-arbitration algorithm. Type C uses PIE in
-    the forward link and a random slotted collision-arbitration algorithm.\nType D
-    is TOTAL based on Pulse Position Encoding or Miller M=2 encoded subcarrier."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 18000-6:2013 defines the air interface for radio frequency identification
-    (RFID) devices operating in the 860 MHz to 960 MHz Industrial, Scientific, and
-    Medical (ISM) band used in item management applications. It provides a common
-    technical specification for RFID devices that can be used by ISO committees developing
-    RFID application standards. \nIt is intended to allow for compatibility and to
-    encourage inter-operability of products for the growing RFID market in the international
-    marketplace. It defines the forward and return link parameters for technical attributes
-    including, but not limited to, operating frequency, operating channel accuracy,
-    occupied channel bandwidth, maximum effective isotropic radiated power (EIRP),
-    spurious emissions, modulation, duty cycle, data coding, bit rate, bit rate accuracy,
-    bit transmission order, and, where appropriate, operating channels, frequency
-    hop rate, hop sequence, spreading sequence, and chip rate. It further defines
-    the communications protocol used in the air interface.\nISO/IEC 18000-6:2013 together
-    with ISO/IEC 18000-61, ISO/IEC 18000-62, ISO/IEC 18000-63 and ISO/IEC 18000-64
-    specifies the physical and logical requirements for a passive-backscatter, Interrogator-Talks-First
-    (ITF) or tag-only-talks-after-listening (TOTAL) RFID system. The system comprises
-    Interrogators, also known as readers, and tags, also known as labels. An Interrogator
-    receives information from a tag by transmitting a continuous-wave (CW) RF signal
-    to the tag; the tag responds by modulating the reflection coefficient of its antenna,
-    thereby backscattering an information signal to the Interrogator. The system is
-    ITF, meaning that a tag modulates its antenna reflection coefficient with an information
-    signal only after being directed to do so by an Interrogator, or TOTAL, meaning
-    that a tag modulates its antenna reflection coefficient with an information signal
-    upon entering an Interrogator's field after first listening for Interrogator modulation
-    in order to determine if the system is ITF or not.\nISO/IEC 18000-6:2013 contains
-    one mode with four types. The detailed technical differences between the four
-    types are shown in the associated parameter tables.\nTypes A, B and C are ITF.
-    Type A uses Pulse-Interval Encoding (PIE) in the forward link and an adaptive
-    ALOHA collision-arbitration algorithm. Type B uses Manchester in the forward link
-    and an adaptive binary-tree collision-arbitration algorithm. Type C uses PIE in
-    the forward link and a random slotted collision-arbitration algorithm.\nType D
-    is TOTAL based on Pulse Position Encoding or Miller M=2 encoded subcarrier."
+    the forward link and a random slotted collision-arbitration algorithm. Type D
+    is TOTAL based on Pulse Position Encoding or Miller M=2 encoded subcarrier.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2013'
   owner:
@@ -192,24 +149,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 18000-6:2010
+    formattedref:
+      content: ISO/IEC 18000-6:2025
+    docidentifier:
+    - content: ISO/IEC 18000-6:2025
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 18000-6:2010
     docidentifier:
     - content: ISO/IEC 18000-6:2010
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC FDIS 18000-6
-    docidentifier:
-    - content: ISO/IEC FDIS 18000-6
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

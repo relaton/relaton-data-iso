@@ -1,25 +1,22 @@
 ---
 id: ISOIEC173092000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Telecommunications and information exchange between systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Private Integrated Services Network -- Mapping functions for the employment
     of a circuit mode basic service and the supplementary service user-to-user signalling
     as a pair of on-demand inter-PINX connections
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Telecommunications and information exchange between
@@ -27,24 +24,20 @@ title:
     of a circuit mode basic service and the supplementary service user-to-user signalling
     as a pair of on-demand inter-PINX connections
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Télécommunications et échange d'information entre systèmes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Réseau privé avec intégration de services -- Fonctions d'application pour
     l'emploi d'un service de base en mode circuit et de la signalisation utilisateur/utilisateur
     du service supplémentaire en tant que paire de connexions entre PINX sur demande
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Télécommunications et échange d'information
@@ -52,7 +45,6 @@ title:
     pour l'emploi d'un service de base en mode circuit et de la signalisation utilisateur/utilisateur
     du service supplémentaire en tant que paire de connexions entre PINX sur demande
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/32966.html
@@ -71,7 +63,7 @@ docidentifier:
 docnumber: '17309'
 date:
 - type: published
-  at: 2000-09
+  at: '2000-10-05'
 contributor:
 - role:
   - type: publisher
@@ -111,44 +103,29 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard specifies the mapping functions for a pair of on-demand inter-PINX connections using a circuit
-    mode basic service and the supplementary service User-to-User Signalling (service 3) of a public ISDN at the same time.
-    In order to connect a Private Integrated Services Network Exchange (PINX) to another PINX, mapping functions are required
-    to adapt the specific interfaces at the C reference point to the application at the Q reference point. As such, mapping functions
-    provide for physical adaptation to the interface at the C reference point. Mapping functions also provide for the mapping of
-    user channels and signalling information at the Q reference point to the appropriate channels or timeslots at the C reference
+  content: This International Standard specifies the mapping functions for a pair
+    of on-demand inter-PINX connections using a circuit mode basic service and the
+    supplementary service User-to-User Signalling (service 3) of a public ISDN at
+    the same time. In order to connect a Private Integrated Services Network Exchange
+    (PINX) to another PINX, mapping functions are required to adapt the specific interfaces
+    at the C reference point to the application at the Q reference point. As such,
+    mapping functions provide for physical adaptation to the interface at the C reference
+    point. Mapping functions also provide for the mapping of user channels and signalling
+    information at the Q reference point to the appropriate channels or timeslots
+    at the C reference point. The C and Q reference points are defined in ISO/IEC
+    11579-1. At the Q reference point the mappings provide a 64 kbit/s service for
+    user channels and a packet mode service for the signalling channel. Bearer conditioning
+    is outside the scope of this International Standard, except for providing the
+    layer 2 for the signalling channel at the Q reference point. Scenario management
+    is outside the scope of this International Standard. This International Standard
+    is applicable to PINXs which can be interconnected to form a Private Integrated
+    Services Network (PISN) and which support signalling protocols at the Q reference
     point.
-    The C and Q reference points are defined in ISO/IEC 11579-1.
-    At the Q reference point the mappings provide a 64 kbit/s service for user channels and a packet mode service for the
-    signalling channel. Bearer conditioning is outside the scope of this International Standard, except for providing the layer 2 for
-    the signalling channel at the Q reference point.
-    Scenario management is outside the scope of this International Standard.
-    This International Standard is applicable to PINXs which can be interconnected to form a Private Integrated Services Network
-    (PISN) and which support signalling protocols at the Q reference point.
-- language: fr
-  script: Latn
-  content: |-
-    This International Standard specifies the mapping functions for a pair of on-demand inter-PINX connections using a circuit
-    mode basic service and the supplementary service User-to-User Signalling (service 3) of a public ISDN at the same time.
-    In order to connect a Private Integrated Services Network Exchange (PINX) to another PINX, mapping functions are required
-    to adapt the specific interfaces at the C reference point to the application at the Q reference point. As such, mapping functions
-    provide for physical adaptation to the interface at the C reference point. Mapping functions also provide for the mapping of
-    user channels and signalling information at the Q reference point to the appropriate channels or timeslots at the C reference
-    point.
-    The C and Q reference points are defined in ISO/IEC 11579-1.
-    At the Q reference point the mappings provide a 64 kbit/s service for user channels and a packet mode service for the
-    signalling channel. Bearer conditioning is outside the scope of this International Standard, except for providing the layer 2 for
-    the signalling channel at the Q reference point.
-    Scenario management is outside the scope of this International Standard.
-    This International Standard is applicable to PINXs which can be interconnected to form a Private Integrated Services Network
-    (PISN) and which support signalling protocols at the Q reference point.
 status:
   stage:
     content: '90'
@@ -161,9 +138,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

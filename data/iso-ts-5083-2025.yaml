@@ -1,50 +1,42 @@
 ---
 id: ISOTS50832025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Safety for automated driving systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Design, verification and validation
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Safety for automated driving systems - Design, verification
     and validation
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité des systèmes de conduite automatisée
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Conception, vérification et validation
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Sécurité des systèmes de conduite automatisée - Conception,
     vérification et validation
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81920.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 5083:2025(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:5083:stage-60.60
+- content: urn:iso:std:iso:ts:5083:stage-90.92
   type: URN
 docnumber: '5083'
 date:
 - type: published
-  at: 2025-04
+  at: '2025-04-29'
 contributor:
 - role:
   - type: publisher
@@ -94,29 +86,28 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document provides guidance for achieving and demonstrating safety of an automated driving system (ADS) integrated in a road vehicle. The approach is based on safety principles derived from worldwide applicable publications and top-level safety objectives. It considers safety by design, verification and validation, and post deployment activities for level 3 and level 4 ADS features defined according to ISO/SAE PAS 22736[2]. In addition, it outlines cybersecurity considerations.
-    The application of this document is intended for road vehicles, including trucks and buses and excluding motorcycles and mopeds.
-    Any ADS or related elements that are in operation, or under development, prior to the publication of this document are exempted from the application of this document.
-    NOTE         While not covered in this document, safety during development activities is a key consideration. Development includes activities of design, verification and validation.
-- language: fr
-  script: Latn
-  content: |-
-    This document provides guidance for achieving and demonstrating safety of an automated driving system (ADS) integrated in a road vehicle. The approach is based on safety principles derived from worldwide applicable publications and top-level safety objectives. It considers safety by design, verification and validation, and post deployment activities for level 3 and level 4 ADS features defined according to ISO/SAE PAS 22736[2]. In addition, it outlines cybersecurity considerations.
-    The application of this document is intended for road vehicles, including trucks and buses and excluding motorcycles and mopeds.
-    Any ADS or related elements that are in operation, or under development, prior to the publication of this document are exempted from the application of this document.
-    NOTE         While not covered in this document, safety during development activities is a key consideration. Development includes activities of design, verification and validation.
+  content: This document provides guidance for achieving and demonstrating safety
+    of an automated driving system (ADS) integrated in a road vehicle. The approach
+    is based on safety principles derived from worldwide applicable publications and
+    top-level safety objectives. It considers safety by design, verification and validation,
+    and post deployment activities for level 3 and level 4 ADS features defined according
+    to ISO/SAE PAS 22736[2]. In addition, it outlines cybersecurity considerations.
+    The application of this document is intended for road vehicles, including trucks
+    and buses and excluding motorcycles and mopeds. Any ADS or related elements that
+    are in operation, or under development, prior to the publication of this document
+    are exempted from the application of this document. NOTE         While not covered
+    in this document, safety during development activities is a key consideration.
+    Development includes activities of design, verification and validation.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2025'
   owner:
@@ -126,16 +117,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TR 4804:2020
+    formattedref:
+      content: ISO/AWI TS 5083
+    docidentifier:
+    - content: ISO/AWI TS 5083
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TR 4804:2020
     docidentifier:
     - content: ISO/TR 4804:2020
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

@@ -1,50 +1,42 @@
 ---
 id: ISO1360632019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: " Electronic health record communication"
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Reference archetypes and term lists'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Health informatics -  Electronic health record communication - Part 3:
     Reference archetypes and term lists'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Communication du dossier de santé informatisé
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Archétypes de référence et listes de termes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informatique de santé - Communication du dossier de santé informatisé
     - Partie 3: Archétypes de référence et listes de termes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/62303.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '13606'
 date:
 - type: published
-  at: 2019-06
+  at: '2019-06-07'
 contributor:
 - role:
   - type: publisher
@@ -100,16 +92,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a means for communicating part or all of the electronic health record (EHR) of one or more identified subjects of care between EHR systems, or between EHR systems and a centralised EHR data repository.
-    It can also be used for EHR communication between an EHR system or repository and clinical applications or middleware components (such as decision support components), or personal health applications and devices, that need to access or provide EHR data, or as the representation of EHR data within a distributed (federated) record system.
-    This document defines term lists that each specify the set of values for the particular attributes of the Reference Model defined in ISO 13606-1. It also defines normative and informative Reference Archetypes that enable frequently-occurring instances of EHR data to be represented within a consistent structure when communicated using this document.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie un moyen de communication de tout ou partie du dossier de santé informatisé (DSI) d'un seul ou de plusieurs sujets des soins identifiés entre systèmes de DSI, ou entre des systèmes de DSI et un référentiel de données de DSI centralisé.
-    Il peut également être utilisé pour la communication de DSI entre un système ou référentiel de DSI et des applications médicales ou composants intergiciels (tels que des composants d'aide à la prise de décision) ou des applications et appareils de santé personnels nécessitant d'avoir accès aux ou de fournir des données de DSI, ou pour la représentation des données de DSI dans un système réparti (fédéré).
-    Le présent document relatif à la communication des DSI définit des listes de termes qui spécifient chacune l'ensemble de valeurs pour les attributs particuliers du modèle de référence défini dans l'ISO 13606-1. Elle définit également des archétypes de référence normatifs et informatifs qui permettent de représenter en une structure cohérente les instances de données de DSI qui apparaissent fréquemment, lorsqu'elles sont communiquées à l'aide du présent document.
+  content: This document specifies a means for communicating part or all of the electronic
+    health record (EHR) of one or more identified subjects of care between EHR systems,
+    or between EHR systems and a centralised EHR data repository. It can also be used
+    for EHR communication between an EHR system or repository and clinical applications
+    or middleware components (such as decision support components), or personal health
+    applications and devices, that need to access or provide EHR data, or as the representation
+    of EHR data within a distributed (federated) record system. This document defines
+    term lists that each specify the set of values for the particular attributes of
+    the Reference Model defined in ISO 13606-1. It also defines normative and informative
+    Reference Archetypes that enable frequently-occurring instances of EHR data to
+    be represented within a consistent structure when communicated using this document.
 status:
   stage:
     content: '90'
@@ -124,24 +117,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13606-3:2009
-    docidentifier:
-    - content: ISO 13606-3:2009
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 13606-3
+    formattedref:
+      content: ISO/CD 13606-3
     docidentifier:
     - content: ISO/CD 13606-3
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 13606-3:2009
+    docidentifier:
+    - content: ISO 13606-3:2009
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

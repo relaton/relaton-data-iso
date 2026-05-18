@@ -1,38 +1,32 @@
 ---
 id: ISO15132010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints and varnishes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Examination and preparation of test samples
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints and varnishes - Examination and preparation of test samples
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Examen et préparation des échantillons pour essai
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis - Examen et préparation des échantillons pour essai
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/50490.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 1513:2010(E)
   type: iso-reference
-- content: urn:iso:std:iso:1513:stage-90.93
+- content: urn:iso:std:iso:1513:stage-90.20
   type: URN
 docnumber: '1513'
 date:
 - type: published
-  at: 2010-05
+  at: '2010-04-12'
 contributor:
 - role:
   - type: publisher
@@ -83,8 +77,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -92,18 +88,11 @@ abstract:
     of a single sample, as received for testing, and the procedure for preparing a
     test sample by blending and reduction of a series of samples representative of
     a consignment or bulk of paint, varnish or related product.
-- language: fr
-  script: Latn
-  content: L'ISO 1513:2010 spécifie le mode opératoire d'examen préliminaire d'un
-    échantillon unique tel qu'il a été reçu pour essai ainsi que le mode opératoire
-    de préparation d'un échantillon pour essai par mélange et réduction d'une série
-    d'échantillons représentatifs d'une expédition ou d'une livraison en vrac de peinture,
-    de vernis ou produit assimilé.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2010'
   owner:
@@ -111,26 +100,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1513:1992
-    docidentifier:
-    - content: ISO 1513:1992
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 1513:1992/Cor 1:1994
+    formattedref:
+      content: ISO 1513:1992/Cor 1:1994
     docidentifier:
     - content: ISO 1513:1992/Cor 1:1994
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1513:1992
+    docidentifier:
+    - content: ISO 1513:1992
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

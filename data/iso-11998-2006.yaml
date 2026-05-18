@@ -1,41 +1,35 @@
 ---
 id: ISO119982006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints and varnishes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of wet-scrub resistance and cleanability of coatings
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints and varnishes - Determination of wet-scrub resistance and cleanability
     of coatings
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la résistance au frottement humide et de l'aptitude au
     nettoyage des revêtements
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis - Détermination de la résistance au frottement humide
     et de l'aptitude au nettoyage des revêtements
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/36953.html
@@ -54,7 +48,7 @@ docidentifier:
 docnumber: '11998'
 date:
 - type: published
-  at: 2006-07
+  at: '2006-07-06'
 contributor:
 - role:
   - type: publisher
@@ -86,8 +80,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -97,15 +93,6 @@ abstract:
     11998:2006 describes an accelerated method for the determination of wet-scrub
     resistance. With regard to the cleanability of coatings, only the method itself
     and not the soiling agents are specified.
-- language: fr
-  script: Latn
-  content: La capacité des revêtements (produits de peinture) à résister à l'usure
-    provoquée par des opérations de nettoyage répétées et à la pénétration de salissures
-    est un critère important, tant d'un point de vue pratique que lors de la comparaison
-    et de l'évaluation de ces produits. L'ISO 11998:2006 décrit une méthode accélérée
-    de détermination de la résistance au frottement humide. En ce qui concerne l'aptitude
-    au nettoyage des revêtements, seule la méthode elle-même est spécifiée, non les
-    salissures.
 status:
   stage:
     content: '90'
@@ -120,24 +107,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11998:1998
-    docidentifier:
-    - content: ISO 11998:1998
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 11998
+    formattedref:
+      content: ISO/CD 11998
     docidentifier:
     - content: ISO/CD 11998
       type: ISO
       primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/FDIS 11998
+    docidentifier:
+    - content: ISO/FDIS 11998
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 11998
+    docidentifier:
+    - content: ISO/PWI 11998
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11998:1998
+    docidentifier:
+    - content: ISO 11998:1998
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

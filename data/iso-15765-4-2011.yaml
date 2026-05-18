@@ -1,53 +1,47 @@
 ---
 id: ISO1576542011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Diagnostic communication over Controller Area Network (DoCAN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Requirements for emissions-related systems'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Diagnostic communication over Controller Area Network
     (DoCAN) - Part 4: Requirements for emissions-related systems'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Diagnostic sur gestionnaire de réseau de communication (DoCAN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Exigences applicables aux systèmes associés aux émissions'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Diagnostic sur gestionnaire de réseau de communication
     (DoCAN) - Partie 4: Exigences applicables aux systèmes associés aux émissions'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46045.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:46045:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/60/46045.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '15765'
 date:
 - type: published
-  at: 2011-02
+  at: '2011-02-16'
 contributor:
 - role:
   - type: publisher
@@ -92,28 +86,30 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 15765-4:2011 specifies requirements for controller area networks (CAN) where one or more controllers comply with on-board diagnostics (OBD) or world-wide harmonized on-board diagnostics (WWH-OBD) regulations. The network presumes the use of an external test equipment for inspection and repair diagnostics, as defined by the regulations. The CAN network requirements for the vehicle and the external test equipment are based on the specifications of ISO 15765-2, ISO 11898-1 and ISO 11898-2.
-    ISO 15765-4:2011 places restrictions on those International Standards for the fulfilment of the regulations. It does not specify in-vehicle CAN bus architecture, but seeks to ensure that the vehicle's regulated CAN communications comply with external test equipment requirements.
-    ISO 15765-4:2011 defines the requirements to successfully establish, maintain and terminate communication with a vehicle that implements the requirements of the OBD/WWH-OBD regulations. Plug-and-play communication capabilities among vehicles and test equipment are defined to assure the interoperation of external test equipment and vehicles. ISO 15765-4:2011 details all of the OSI layer requirements to achieve this goal.
-    ISO 15765-4:2011 is the entry point for DoCAN (Diagnostic communication over CAN). Based on the results of the initialization, the external test equipment determines which protocol and diagnostic services are supported by the vehicle's emissions-related system:
-    - legislated OBD: ISO 15031 (all parts),
-    - legislated WWH-OBD: ISO 27145 (all parts).
-- language: fr
-  script: Latn
-  content: |-
-    ISO 15765-4:2011 specifies requirements for controller area networks (CAN) where one or more controllers comply with on-board diagnostics (OBD) or world-wide harmonized on-board diagnostics (WWH-OBD) regulations. The network presumes the use of an external test equipment for inspection and repair diagnostics, as defined by the regulations. The CAN network requirements for the vehicle and the external test equipment are based on the specifications of ISO 15765-2, ISO 11898-1 and ISO 11898-2.
-    ISO 15765-4:2011 places restrictions on those International Standards for the fulfilment of the regulations. It does not specify in-vehicle CAN bus architecture, but seeks to ensure that the vehicle's regulated CAN communications comply with external test equipment requirements.
-    ISO 15765-4:2011 defines the requirements to successfully establish, maintain and terminate communication with a vehicle that implements the requirements of the OBD/WWH-OBD regulations. Plug-and-play communication capabilities among vehicles and test equipment are defined to assure the interoperation of external test equipment and vehicles. ISO 15765-4:2011 details all of the OSI layer requirements to achieve this goal.
-    ISO 15765-4:2011 is the entry point for DoCAN (Diagnostic communication over CAN). Based on the results of the initialization, the external test equipment determines which protocol and diagnostic services are supported by the vehicle's emissions-related system:
-    - legislated OBD: ISO 15031 (all parts),
-    - legislated WWH-OBD: ISO 27145 (all parts).
+  content: 'ISO 15765-4:2011 specifies requirements for controller area networks (CAN)
+    where one or more controllers comply with on-board diagnostics (OBD) or world-wide
+    harmonized on-board diagnostics (WWH-OBD) regulations. The network presumes the
+    use of an external test equipment for inspection and repair diagnostics, as defined
+    by the regulations. The CAN network requirements for the vehicle and the external
+    test equipment are based on the specifications of ISO 15765-2, ISO 11898-1 and
+    ISO 11898-2. ISO 15765-4:2011 places restrictions on those International Standards
+    for the fulfilment of the regulations. It does not specify in-vehicle CAN bus
+    architecture, but seeks to ensure that the vehicle''s regulated CAN communications
+    comply with external test equipment requirements. ISO 15765-4:2011 defines the
+    requirements to successfully establish, maintain and terminate communication with
+    a vehicle that implements the requirements of the OBD/WWH-OBD regulations. Plug-and-play
+    communication capabilities among vehicles and test equipment are defined to assure
+    the interoperation of external test equipment and vehicles. ISO 15765-4:2011 details
+    all of the OSI layer requirements to achieve this goal. ISO 15765-4:2011 is the
+    entry point for DoCAN (Diagnostic communication over CAN). Based on the results
+    of the initialization, the external test equipment determines which protocol and
+    diagnostic services are supported by the vehicle''s emissions-related system:
+    legislated OBD: ISO 15031 (all parts), legislated WWH-OBD: ISO 27145 (all parts).'
 status:
   stage:
     content: '95'
@@ -128,38 +124,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 15765-4:2005
-    docidentifier:
-    - content: ISO 15765-4:2005
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 15765-4:2016
+    formattedref:
+      content: ISO 15765-4:2016
     docidentifier:
     - content: ISO 15765-4:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-04-12'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 15765-4:2011/Amd 1:2013
+    formattedref:
+      content: ISO 15765-4:2005
     docidentifier:
-    - content: ISO 15765-4:2011/Amd 1:2013
+    - content: ISO 15765-4:2005
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-04-12'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

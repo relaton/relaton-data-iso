@@ -1,53 +1,47 @@
 ---
 id: ISO86012004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Data elements and interchange formats
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Information interchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Representation of dates and times
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Data elements and interchange formats - Information interchange - Representation
     of dates and times
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments de données et formats d'échange
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échange d'information
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation de la date et de l'heure
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments de données et formats d'échange - Échange d'information - Représentation
     de la date et de l'heure
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/40874.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:40874:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/08/40874.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '8601'
 date:
 - type: published
-  at: 2004-12
+  at: '2004-12-03'
 contributor:
 - role:
   - type: publisher
@@ -93,40 +87,25 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8601:2004 is applicable whenever representation of dates in the Gregorian calendar, times in the 24-hour timekeeping system, time intervals and recurring time intervals or of the formats of these representations are included in information interchange. It includes
-    - calendar dates expressed in terms of calendar year, calendar month and calendar day of the month;
-    - ordinal dates expressed in terms of calendar year and calendar day of the year;
-    - week dates expressed in terms of calendar year, calendar week number and calendar day of the week;
-    - local time based upon the 24-hour timekeeping system;
-    - Coordinated Universal Time of day;
-    - local time and the difference from Coordinated Universal Time;
-    - combination of date and time of day;
-    - time intervals;
-    - recurring time intervals.
-    ISO 8601:2004 does not cover dates and times where words are used in the representation and dates and times where characters are not used in the representation.
-    ISO 8601:2004 does not assign any particular meaning or interpretation to any data element that uses representations in accordance with ISO 8601:2004. Such meaning will be determined by the context of the application.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 8601:2004 is applicable whenever representation of dates in the Gregorian calendar, times in the 24-hour timekeeping system, time intervals and recurring time intervals or of the formats of these representations are included in information interchange. It includes
-    - calendar dates expressed in terms of calendar year, calendar month and calendar day of the month;
-    - ordinal dates expressed in terms of calendar year and calendar day of the year;
-    - week dates expressed in terms of calendar year, calendar week number and calendar day of the week;
-    - local time based upon the 24-hour timekeeping system;
-    - Coordinated Universal Time of day;
-    - local time and the difference from Coordinated Universal Time;
-    - combination of date and time of day;
-    - time intervals;
-    - recurring time intervals.
-    ISO 8601:2004 does not cover dates and times where words are used in the representation and dates and times where characters are not used in the representation.
-    ISO 8601:2004 does not assign any particular meaning or interpretation to any data element that uses representations in accordance with ISO 8601:2004. Such meaning will be determined by the context of the application.
+  content: ISO 8601:2004 is applicable whenever representation of dates in the Gregorian
+    calendar, times in the 24-hour timekeeping system, time intervals and recurring
+    time intervals or of the formats of these representations are included in information
+    interchange. It includes calendar dates expressed in terms of calendar year, calendar
+    month and calendar day of the month;ordinal dates expressed in terms of calendar
+    year and calendar day of the year;week dates expressed in terms of calendar year,
+    calendar week number and calendar day of the week;local time based upon the 24-hour
+    timekeeping system;Coordinated Universal Time of day;local time and the difference
+    from Coordinated Universal Time;combination of date and time of day;time intervals;recurring
+    time intervals. ISO 8601:2004 does not cover dates and times where words are used
+    in the representation and dates and times where characters are not used in the
+    representation. ISO 8601:2004 does not assign any particular meaning or interpretation
+    to any data element that uses representations in accordance with ISO 8601:2004.
+    Such meaning will be determined by the context of the application.
 status:
   stage:
     content: '95'
@@ -141,38 +120,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8601:2000
-    docidentifier:
-    - content: ISO 8601:2000
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 8601-1:2019
+    formattedref:
+      content: ISO 8601-1:2019
     docidentifier:
     - content: ISO 8601-1:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-02-25'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8601-2:2019
+    formattedref:
+      content: ISO 8601-2:2019
     docidentifier:
     - content: ISO 8601-2:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-02-25'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8601:2000
+    docidentifier:
+    - content: ISO 8601:2000
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

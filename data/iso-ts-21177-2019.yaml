@@ -1,45 +1,35 @@
 ---
 id: ISOTS211772019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: ITS station security services for secure session establishment and authentication
     between trusted devices
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - ITS station security services for secure
     session establishment and authentication between trusted devices
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Intelligent transport systems
-  type: title-intro
-  format: text/plain
-- language: fr
-  script: Latn
-  content: ITS station security services for secure session establishment and authentication
-    between trusted devices
+  content: Titre manque
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Intelligent transport systems - ITS station security services for secure
-    session establishment and authentication between trusted devices
+  content: Titre manque
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70056.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:70056:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/00/70056.detail.rss
 docidentifier:
@@ -53,7 +43,7 @@ docidentifier:
 docnumber: '21177'
 date:
 - type: published
-  at: 2019-08
+  at: '2019-08-07'
 contributor:
 - role:
   - type: publisher
@@ -84,26 +74,22 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document contains specifications for a set of ITS station security services required to ensure the authenticity of the source and integrity of information exchanged between trusted entities:
-    —          devices operated as bounded secured managed entities, i.e. "ITS Station Communication Units" (ITS-SCU) and "ITS station units" (ITS-SU) specified in ISO 21217, and
-    —          between ITS-SUs (composed of one or several ITS-SCUs) and external trusted entities such as sensor and control networks.
-    These services include authentication and secure session establishment which are required to exchange information in a trusted and secure manner.
-    These services are essential for many ITS applications and services including time-critical safety applications, automated driving, remote management of ITS stations (ISO 24102-2[5]), and roadside/infrastructure related services.
-- language: fr
-  script: Latn
-  content: |-
-    This document contains specifications for a set of ITS station security services required to ensure the authenticity of the source and integrity of information exchanged between trusted entities:
-    —          devices operated as bounded secured managed entities, i.e. "ITS Station Communication Units" (ITS-SCU) and "ITS station units" (ITS-SU) specified in ISO 21217, and
-    —          between ITS-SUs (composed of one or several ITS-SCUs) and external trusted entities such as sensor and control networks.
-    These services include authentication and secure session establishment which are required to exchange information in a trusted and secure manner.
-    These services are essential for many ITS applications and services including time-critical safety applications, automated driving, remote management of ITS stations (ISO 24102-2[5]), and roadside/infrastructure related services.
+  content: 'This document contains specifications for a set of ITS station security
+    services required to ensure the authenticity of the source and integrity of information
+    exchanged between trusted entities: — devices operated as bounded secured managed
+    entities, i.e. "ITS Station Communication Units" (ITS-SCU) and "ITS station units"
+    (ITS-SU) specified in ISO 21217, and — between ITS-SUs (composed of one or several
+    ITS-SCUs) and external trusted entities such as sensor and control networks. These
+    services include authentication and secure session establishment which are required
+    to exchange information in a trusted and secure manner. These services are essential
+    for many ITS applications and services including time-critical safety applications,
+    automated driving, remote management of ITS stations (ISO 24102-2[5]), and roadside/infrastructure
+    related services.'
 status:
   stage:
     content: '95'
@@ -116,31 +102,28 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 21177:2023
+    formattedref:
+      content: ISO 21177:2023
     docidentifier:
     - content: ISO 21177:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-04-07'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
   - code: '35.030'
     text: IT Security
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

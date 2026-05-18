@@ -1,50 +1,42 @@
 ---
 id: ISO101602015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Systems Interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Interlibrary Loan Application Service Definition
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - Open Systems Interconnection - Interlibrary
     Loan Application Service Definition
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Définition du service d'application pour les prêts entre bibliothèques
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Interconnexion de systèmes ouverts (OSI)
     - Définition du service d'application pour les prêts entre bibliothèques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/66169.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 10160:2015(E)
   type: iso-reference
-- content: urn:iso:std:iso:10160:stage-90.93
+- content: urn:iso:std:iso:10160:stage-90.60
   type: URN
 docnumber: '10160'
 date:
 - type: published
-  at: 2015-05
+  at: '2015-05-18'
 contributor:
 - role:
   - type: publisher
@@ -94,33 +86,34 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 10160:2015 is an Application Layer standard within the Open Systems Interconnection framework defined by ISO 7498.
-    ISO 10160:2015 defines the services for Interlibrary Loan. These services are provided by the use of the ILL protocol in conjunction with the supporting telecommunications service which might be a store-and-forward messaging service, such as that provided by the MOTIS Standard, ISO/IEC 10021‑4; or a direct connection-mode service using ISO 8822 and ISO 8649.
-    ISO 10160:2015 does not specify individual implementations or products, nor does it constrain the implementation of entities and interfaces within a computer system. Computer systems might range from stand-alone workstations to mainframes.
-    ISO 10160:2015 is intended for use by libraries, information utilities such as union catalogue centres, and any other system which processes bibliographic information. These systems might participate in an interlibrary loan transaction in the role of requester (i.e. an initiator of ILL requests), responder (i.e. a provider of bibliographic material or information) and/or intermediary (i.e. an agent that acts on behalf of a requester to find suitable responders).
-    Various interworking topologies are supported, ranging from simple two-party interactions to multi-party interactions.
-    There is no requirement for conformance to this International Standard. Conformance is required only for the ILL protocol specification.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 10160:2015 is an Application Layer standard within the Open Systems Interconnection framework defined by ISO 7498.
-    ISO 10160:2015 defines the services for Interlibrary Loan. These services are provided by the use of the ILL protocol in conjunction with the supporting telecommunications service which might be a store-and-forward messaging service, such as that provided by the MOTIS Standard, ISO/IEC 10021‑4; or a direct connection-mode service using ISO 8822 and ISO 8649.
-    ISO 10160:2015 does not specify individual implementations or products, nor does it constrain the implementation of entities and interfaces within a computer system. Computer systems might range from stand-alone workstations to mainframes.
-    ISO 10160:2015 is intended for use by libraries, information utilities such as union catalogue centres, and any other system which processes bibliographic information. These systems might participate in an interlibrary loan transaction in the role of requester (i.e. an initiator of ILL requests), responder (i.e. a provider of bibliographic material or information) and/or intermediary (i.e. an agent that acts on behalf of a requester to find suitable responders).
-    Various interworking topologies are supported, ranging from simple two-party interactions to multi-party interactions.
-    There is no requirement for conformance to this International Standard. Conformance is required only for the ILL protocol specification.
+  content: ISO 10160:2015 is an Application Layer standard within the Open Systems
+    Interconnection framework defined by ISO 7498. ISO 10160:2015 defines the services
+    for Interlibrary Loan. These services are provided by the use of the ILL protocol
+    in conjunction with the supporting telecommunications service which might be a
+    store-and-forward messaging service, such as that provided by the MOTIS Standard,
+    ISO/IEC 10021‑4; or a direct connection-mode service using ISO 8822 and ISO 8649.
+    ISO 10160:2015 does not specify individual implementations or products, nor does
+    it constrain the implementation of entities and interfaces within a computer system.
+    Computer systems might range from stand-alone workstations to mainframes. ISO
+    10160:2015 is intended for use by libraries, information utilities such as union
+    catalogue centres, and any other system which processes bibliographic information.
+    These systems might participate in an interlibrary loan transaction in the role
+    of requester (i.e. an initiator of ILL requests), responder (i.e. a provider of
+    bibliographic material or information) and/or intermediary (i.e. an agent that
+    acts on behalf of a requester to find suitable responders). Various interworking
+    topologies are supported, ranging from simple two-party interactions to multi-party
+    interactions. There is no requirement for conformance to this International Standard.
+    Conformance is required only for the ILL protocol specification.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '2015'
   owner:
@@ -128,26 +121,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 10160:1997
+    formattedref:
+      content: ISO 10160:1997
     docidentifier:
     - content: ISO 10160:1997
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 10160:1997/Amd 1:2002
+    formattedref:
+      content: ISO 10160:1997/Amd 1:2002
     docidentifier:
     - content: ISO 10160:1997/Amd 1:2002
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

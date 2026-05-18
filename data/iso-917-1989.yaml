@@ -1,31 +1,29 @@
 ---
 id: ISO9171989
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Testing of refrigerant compressors
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Testing of refrigerant compressors
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais des compresseurs pour fluides frigorigènes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais des compresseurs pour fluides frigorigènes
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5327.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5327:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/53/5327.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '917'
 date:
 - type: published
-  at: 1989-08
+  at: '1989-08-31'
 contributor:
 - role:
   - type: publisher
@@ -82,14 +80,6 @@ abstract:
     the coefficient of performance. The test methods described may also be used as
     a guide for testing other types of refrigerant compressors. - Replaces the first
     edition (ISO 917:1974) and constitutes its technical revision.
-- language: fr
-  script: Latn
-  content: The provisions are applicable to single-stage refrigerant compressors of
-    the positive-displacement type only. Selected test methods are described for the
-    determination of the refrigerating capacity, power, isentropric efficiency, and
-    the coefficient of performance. The test methods described may also be used as
-    a guide for testing other types of refrigerant compressors. - Replaces the first
-    edition (ISO 917:1974) and constitutes its technical revision.
 status:
   stage:
     content: '95'
@@ -104,16 +94,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 917:1974
+    formattedref:
+      content: ISO 18976:2026
+    docidentifier:
+    - content: ISO 18976:2026
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/FDIS 917
+    docidentifier:
+    - content: ISO/FDIS 917
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 917
+    docidentifier:
+    - content: ISO/NP 917
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 917:1974
     docidentifier:
     - content: ISO 917:1974
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

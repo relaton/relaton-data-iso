@@ -1,53 +1,47 @@
 ---
 id: ISO1144211993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Technical product documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Handling of computer-based technical information
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Security requirements'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Technical product documentation - Handling of computer-based technical
     information - Part 1: Security requirements'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation technique de produits
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des informations techniques assistée par ordinateur
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Exigences de sécurité'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Documentation technique de produits - Gestion des informations techniques
     assistée par ordinateur - Partie 1: Exigences de sécurité'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/19382.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:19382:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/93/19382.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '11442'
 date:
 - type: published
-  at: 1993-09
+  at: '1993-09-02'
 contributor:
 - role:
   - type: publisher
@@ -104,11 +98,6 @@ abstract:
     to facilitate communication with quality assurance functions within the company
     and outside, consideration of the different security aspects in the design work,
     purchase of appropriate systems and services.'
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente partie de l'ISO 11442 traite des aspects relatifs à la sécurité en conception assistée par ordinateur (CAO). Une telle sécurité informatique est divisée en quatre domaines: a) sécurité d'installation et de fonctionnement; b) sécurité des systèmes; c) sécurité du contenu des documents; d) sécurité de communication. Les domaines a) et b) sont à considérer sous l'aspect de l'informatisation sous quelque forme que ce soit et quel que soit le domaine traité. Ils ne sont donc pas traités dans le détail dans la présente partie de l'ISO 11442, à l'exception du copiage de sauvegarde auquel il convient d'apporter une attention particulière en conception assistée par ordinateur. La présente partie de l'ISO 11442 a pour but de faciliter -- la communication avec les fonctions assurance de la qualité tant à l'intérieur de l'entreprise qu'au dehors; -- la prise en compte des différents aspects relatifs à la sécurité dans le travail de conception; - l'approvisionnement des systèmes et la définition des prestations de service approprié.
 status:
   stage:
     content: '95'
@@ -121,29 +110,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11442:2006
+    formattedref:
+      content: ISO/CD 11442-1
+    docidentifier:
+    - content: ISO/CD 11442-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 11442:2006
     docidentifier:
     - content: ISO 11442:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-03-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '01.110'
-    text: Technical product documentation
   - code: 35.240.10
     text: Computer-aided design (CAD)
+  - code: '01.110'
+    text: Technical product documentation
   structuredidentifier:
     type: ISO
     project_number:

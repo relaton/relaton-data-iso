@@ -1,52 +1,46 @@
 ---
 id: ISO187502018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Co-operative ITS
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Local dynamic map
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Co-operative ITS - Local dynamic map
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Système de transports intelligents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes coopératifs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Carte locale dynamique
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Système de transports intelligents - Systèmes coopératifs - Carte locale
     dynamique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69433.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:69433:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/94/69433.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '18750'
 date:
 - type: published
-  at: 2018-05
+  at: '2018-05-23'
 contributor:
 - role:
   - type: publisher
@@ -97,38 +91,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document:
-    —    describes the functionality of a "Local Dynamic Map" (LDM) in the context of the "Bounded Secured Managed Domain" (BSMD);
-    —    specifies:
-    —    general characteristics of LDM Data Objects (LDM-DOs) that may be stored in an LDM, i.e. information on real objects such as vehicles, road works sections, slow traffic sections, special weather condition sections, etc. which are as a minimum requirement location-referenced and time-referenced;
-    —    service access point functions providing interfaces in an ITS station (ITS-S) to access an LDM for:
-    —    secure add, update and delete access for ITS-S application processes;
-    —    secure read access (query) for ITS-S application processes;
-    —    secure notifications (upon subscription) to ITS-S application processes;
-    —    management access:
-    —    secure registration, de-registration and revocation of ITS-S application processes at LDM;
-    —    secure subscription and cancellation of subscriptions of ITS-S application processes;
-    —    procedures in an LDM considering:
-    —    means to maintain the content and integrity of the data store;
-    —    mechanisms supporting several LDMs in a single ITS station unit.
-- language: fr
-  script: Latn
-  content: |-
-    Ce document
-    —    décrit la fonctionnalité d’une «Carte dynamique locale» (LDM) dans le contexte du «Domaine délimité géré de manière sécurisée» (BSMD).
-    —    spécifie
-    —    les caractéristiques générales des objets de données de la LDM (LDM-DO) pouvant être stockés dans une LDM, notamment les informations sur les objets réels tels que les véhicules, les zones de travaux, les zones de ralentissement du trafic, les zones caractérisées par des conditions météorologiques particulières, etc. qui doivent, au minimum, posséder une référence spatiale (localisation) et une référence temporelle.
-    —    les fonctions des points d’accès au service fournissant des interfaces d’accès à une LDM dans une station ITS (ITS-S) pour,
-    —    les accès sécurisés d’ajout, de mise à jour et de suppression, pour les processus d’application ITS-S,
-    —    les accès sécurisés en lecture (requête), pour les processus d’application ITS-S,
-    —    les notifications sécurisées (lors de l’abonnement) aux processus d’application ITS-S.
-    —    la gestion des accès,
-    —    enregistrement, désenregistrement et révocation de manière sécurisée des processus d’application ITS-S au niveau de la LDM
-    —    abonnement et annulation des abonnements des processus d’application ITS-S de manière sécurisée,
-    —    les procédures d’une LDM tenant compte
-    —    des modalités de maintien du contenu et de l’intégrité du magasin de données,
-    —    les mécanismes soutenant plusieurs LDM dans une unité de station ITS unique.
+  content: 'This document: —    describes the functionality of a "Local Dynamic Map"
+    (LDM) in the context of the "Bounded Secured Managed Domain" (BSMD); —    specifies:
+    —    general characteristics of LDM Data Objects (LDM-DOs) that may be stored
+    in an LDM, i.e. information on real objects such as vehicles, road works sections,
+    slow traffic sections, special weather condition sections, etc. which are as a
+    minimum requirement location-referenced and time-referenced; —    service access
+    point functions providing interfaces in an ITS station (ITS-S) to access an LDM
+    for: —    secure add, update and delete access for ITS-S application processes;
+    —    secure read access (query) for ITS-S application processes; —    secure notifications
+    (upon subscription) to ITS-S application processes; —    management access: —   
+    secure registration, de-registration and revocation of ITS-S application processes
+    at LDM; —    secure subscription and cancellation of subscriptions of ITS-S application
+    processes; —    procedures in an LDM considering: —    means to maintain the content
+    and integrity of the data store; —    mechanisms supporting several LDMs in a
+    single ITS station unit.'
 status:
   stage:
     content: '95'
@@ -143,35 +120,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 18750:2015
-    docidentifier:
-    - content: ISO/TS 18750:2015
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 18750:2025
+    formattedref:
+      content: ISO 18750:2025
     docidentifier:
     - content: ISO 18750:2025
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-04-04'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TS 18750:2015
+    docidentifier:
+    - content: ISO/TS 18750:2015
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

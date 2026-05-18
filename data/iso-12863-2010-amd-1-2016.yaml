@@ -1,43 +1,39 @@
 ---
 id: ISO128632010Amd12016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Standard test method for assessing the ignition propensity of cigarettes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Amendment 1
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Standard test method for assessing the ignition propensity of cigarettes
     - Amendment 1
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode d'essai normalisée pour évaluer le potentiel incendiaire des cigarettes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Amendement 1
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode d'essai normalisée pour évaluer le potentiel incendiaire des cigarettes
     - Amendement 1
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69778.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:69778:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/97/69778.detail.rss
 docidentifier:
@@ -46,14 +42,10 @@ docidentifier:
   primary: true
 - content: ISO 12863:2010/Amd 1:2016(E)
   type: iso-reference
-- content: urn:iso:std:iso:12863:ed-1:stage-95.99:amd:2016:v1
-  type: URN
 docnumber: '12863'
 date:
 - type: published
-  at: '2010'
-- type: updated
-  at: 2016-07
+  at: '2016-06-27'
 contributor:
 - role:
   - type: publisher
@@ -99,30 +91,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 12863:2022
+    formattedref:
+      content: ISO/NP 12863
+    docidentifier:
+    - content: ISO/NP 12863
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 12863:2022
     docidentifier:
     - content: ISO 12863:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-04-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
-  - code: '65.160'
-    text: Tobacco, tobacco products and related equipment
   - code: 13.220.40
     text: Ignitability and burning behaviour of materials and products
+  - code: '65.160'
+    text: Tobacco, tobacco products and related equipment
   structuredidentifier:
-    type: ISO
     project_number:
       content: '69778'

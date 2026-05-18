@@ -1,45 +1,41 @@
 ---
 id: ISO1871990
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paper, board and pulps
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Standard atmosphere for conditioning and testing and procedure for monitoring
     the atmosphere and conditioning of samples
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paper, board and pulps - Standard atmosphere for conditioning and testing
     and procedure for monitoring the atmosphere and conditioning of samples
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Papier, carton et pâtes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Atmosphère normale de conditionnement et d'essai et méthode de surveillance
     de l'atmosphère et de conditionnement des échantillons
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Papier, carton et pâtes - Atmosphère normale de conditionnement et d'essai
     et méthode de surveillance de l'atmosphère et de conditionnement des échantillons
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4037.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4037:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/40/4037.detail.rss
 docidentifier:
@@ -53,7 +49,7 @@ docidentifier:
 docnumber: '187'
 date:
 - type: published
-  at: 1990-12
+  at: '1990-12-13'
 contributor:
 - role:
   - type: publisher
@@ -98,11 +94,6 @@ abstract:
     relative humidity. Annex B (informative) describes the interdependence of temperature
     and relative humidity. This second edition cancels and replaces the first edition
     (1977) which has been technically revised.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit l'atmosphère normale de conditionnement et d'essai des pâtes, papiers et cartons, ainsi que des méthodes de mesurage de la température et de l'humidité relative. Pour le conditionnement des feuilles préparées en laboratoire conformément à l'ISO 5269-1, l'atmosphère normale est celle qui est définie dans la présente Norme internationale, mais le mode opératoire est différent1).
 status:
   stage:
     content: '95'
@@ -117,35 +108,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 187:1977
-    docidentifier:
-    - content: ISO 187:1977
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 187:2022
+    formattedref:
+      content: ISO 187:2022
     docidentifier:
     - content: ISO 187:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-10-18'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 187:1977
+    docidentifier:
+    - content: ISO 187:1977
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '85.040'
-    text: Pulps
   - code: '85.060'
     text: Paper and board
+  - code: '85.040'
+    text: Pulps
   structuredidentifier:
     type: ISO
     project_number:

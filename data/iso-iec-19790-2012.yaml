@@ -1,53 +1,47 @@
 ---
 id: ISOIEC197902012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Security requirements for cryptographic modules
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Security techniques - Security requirements for
     cryptographic modules
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Exigences de sécurité pour les modules cryptographiques
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques de sécurité - Exigences de sécurité
     pour les modules cryptographiques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/52906.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:52906:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/29/52906.detail.rss
 docidentifier:
@@ -61,9 +55,7 @@ docidentifier:
 docnumber: '19790'
 date:
 - type: published
-  at: 2012-08
-- type: corrected
-  at: 2015-11
+  at: '2012-08-09'
 contributor:
 - role:
   - type: publisher
@@ -109,26 +101,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "\uFEFF\nISO/IEC 19790:2012 the security requirements for a cryptographic
+  content: "\uFEFFISO/IEC 19790:2012 the security requirements for a cryptographic
     module utilised within a security system protecting sensitive information in computer
-    and telecommunication systems.  This International Standard defines four security
+    and telecommunication systems. This International Standard defines four security
     levels for cryptographic modules to provide for a wide spectrum of data sensitivity
     (e.g. low value administrative data, million dollar funds transfers, life protecting
     data, personal identity information, and sensitive information used by government)
     and a diversity of application environments (e.g. a guarded facility, an office,
-    removable media, and a completely unprotected location).  This International Standard
+    removable media, and a completely unprotected location). This International Standard
     specifies four security levels for each of 11 requirement areas with each security
-    level increasing security over the preceding level.\nISO/IEC 19790:2012 specifies
+    level increasing security over the preceding level. ISO/IEC 19790:2012 specifies
     security requirements specifically intended to maintain the security provided
     by a cryptographic module and compliance with this International Standard is not
     sufficient to ensure that a particular module is secure or that the security provided
     by the module is sufficient and acceptable to the owner of the information that
     is being protected."
-- language: fr
-  script: Latn
-  content: |-
-    La présente Norme internationale spécifie les exigences de sécurité pour un module cryptographique utilisé dans un système de sécurité qui protège les informations sensibles contenues dans les systèmes informatiques et de télécommunications. La présente Norme internationale définit quatre niveaux de sécurité pour les modules cryptographiques afin de couvrir un large éventail de sensibilités des données (par exemple: données administratives de faible valeur, virements bancaires de plusieurs millions de dollars, données qui protègent la vie, informations d'identité personnelles et informations sensibles utilisées par le gouvernement) et une variété d'environnements d'application (par exemple: des installations gardées, un bureau, des supports amovibles, et un emplacement totalement non protégé). La présente Norme internationale spécifie quatre niveaux de sécurité pour chacun des 11 domaines d'exigences, chaque niveau de sécurité offrant une augmentation de la sécurité par rapport au niveau précédent.
-    La présente Norme internationale spécifie les exigences de sécurité destinées à maintenir à jour la sécurité assurée par un module cryptographique. La conformité à la présente Norme internationale n'est pas suffisante pour garantir qu'un module donné est sûr ou que la sécurité offerte par le module est suffisante et acceptable pour le propriétaire des informations qui sont protégées.
 status:
   stage:
     content: '95'
@@ -143,46 +130,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 19790:2006
-    docidentifier:
-    - content: ISO/IEC 19790:2006
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 19790:2006/Cor 1:2008
-    docidentifier:
-    - content: ISO/IEC 19790:2006/Cor 1:2008
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 19790:2025
+    formattedref:
+      content: ISO/IEC 19790:2025
     docidentifier:
     - content: ISO/IEC 19790:2025
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-02-26'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 19790:2012/Cor 1:2015
+    formattedref:
+      content: ISO/IEC 19790:2006
     docidentifier:
-    - content: ISO/IEC 19790:2012/Cor 1:2015
+    - content: ISO/IEC 19790:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-02-26'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 19790:2006/Cor 1:2008
+    docidentifier:
+    - content: ISO/IEC 19790:2006/Cor 1:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

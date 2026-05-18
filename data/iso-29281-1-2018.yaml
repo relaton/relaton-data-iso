@@ -1,50 +1,42 @@
 ---
 id: ISO2928112018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Localized communications
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Fast networking & transport layer protocol (FNTP)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Localized communications - Part 1: Fast
     networking & transport layer protocol (FNTP)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Communications localisées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Réseautique rapide et protocole de la couche transport'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes intelligents de transport - Communications localisées - Partie
     1: Réseautique rapide et protocole de la couche transport'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70075.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '29281'
 date:
 - type: published
-  at: 2018-06
+  at: '2018-06-18'
 contributor:
 - role:
   - type: publisher
@@ -94,26 +86,18 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the "Fast Networking & Transport Protocol" (FNTP) of the ITS-S networking & transport layer.
-    FNTP is in support of efficient localized communications distinguishing networking related features and transport related features. FNTP is extendible in the future without breaking binary backward compatibility.
-    This document specifies
-    -      message formats and related basic protocol procedures by reference to ISO TS 16460, and
-    -      further requirements for operation of FNTP in the context of an ITS station specified in ISO 21217.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the "Fast Networking & Transport Protocol" (FNTP) of the ITS-S networking & transport layer.
-    FNTP is in support of efficient localized communications distinguishing networking related features and transport related features. FNTP is extendible in the future without breaking binary backward compatibility.
-    This document specifies
-    -      message formats and related basic protocol procedures by reference to ISO TS 16460, and
-    -      further requirements for operation of FNTP in the context of an ITS station specified in ISO 21217.
+  content: This document specifies the "Fast Networking & Transport Protocol" (FNTP)
+    of the ITS-S networking & transport layer. FNTP is in support of efficient localized
+    communications distinguishing networking related features and transport related
+    features. FNTP is extendible in the future without breaking binary backward compatibility.
+    This document specifies - message formats and related basic protocol procedures
+    by reference to ISO TS 16460, and - further requirements for operation of FNTP
+    in the context of an ITS station specified in ISO 21217.
 status:
   stage:
     content: '90'
@@ -126,34 +110,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 29281-1:2013
-    docidentifier:
-    - content: ISO 29281-1:2013
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 29281-1:2013/Amd 1:2017
+    formattedref:
+      content: ISO 29281-1:2013/Amd 1:2017
     docidentifier:
     - content: ISO 29281-1:2013/Amd 1:2017
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 29281-1:2013
+    docidentifier:
+    - content: ISO 29281-1:2013
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

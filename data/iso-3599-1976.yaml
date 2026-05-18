@@ -1,31 +1,29 @@
 ---
 id: ISO35991976
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Vernier callipers reading to 0,1 and 0,05 mm
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Vernier callipers reading to 0,1 and 0,05 mm
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pieds à coulisse à vernier au 1/10 et au 1/20 mm
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pieds à coulisse à vernier au 1/10 et au 1/20 mm
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9019.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9019:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/90/9019.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '3599'
 date:
 - type: published
-  at: 1976-06
+  at: '1976-06-01'
 contributor:
 - role:
   - type: publisher
@@ -80,12 +78,6 @@ abstract:
     for devices with a maximum range of 1000 mm. Methods for testing the accuracy
     of the instruments are given in an informative annex. Contains two tables with
     dimensions and measuring uncertainties, and five figures with details of the instrument.
-- language: fr
-  script: Latn
-  content: Specifies the most important dimensional, functional and quality characteristics
-    for devices with a maximum range of 1000 mm. Methods for testing the accuracy
-    of the instruments are given in an informative annex. Contains two tables with
-    dimensions and measuring uncertainties, and five figures with details of the instrument.
 status:
   stage:
     content: '95'
@@ -98,32 +90,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13385-1:2011
+    formattedref:
+      content: ISO 13385-1:2011
     docidentifier:
     - content: ISO 13385-1:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-07-14'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13385-2:2011
+    formattedref:
+      content: ISO/NP 13385
+    docidentifier:
+    - content: ISO/NP 13385
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 13385-2:2011
     docidentifier:
     - content: ISO 13385-2:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-07-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

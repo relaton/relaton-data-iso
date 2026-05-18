@@ -1,52 +1,46 @@
 ---
 id: ISO1912522004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Simple feature access
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: SQL option'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Geographic information - Simple feature access - Part 2: SQL option'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Accès aux entités simples
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Option SQL'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Information géographique - Accès aux entités simples - Partie 2: Option
     SQL'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/40115.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:40115:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/01/40115.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '19125'
 date:
 - type: published
-  at: 2004-08
+  at: '2004-08-09'
 contributor:
 - role:
   - type: publisher
@@ -91,32 +85,27 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO 19125:2004 specifies an SQL schema that supports storage, retrieval, query and update of simple geospatial feature collections via the SQL Call Level Interface (SQL/CLI) and establishes an architecture for the implementation of feature tables.
-    This part of ISO 19125:2004 defines terms to use within the architecture. of geographic information and defines a simple feature profile of ISO 19107. In addition, this part of ISO 19125:2004 describes a set of SQL Geometry Types together with SQL functions on those types. The Geometry Types and Functions described represent a profile of ISO 13249-3.
-    This part of ISO 19125:2004 standardizes the names and geometric definitions of the SQL Types for Geometry and the names, signatures and geometric definitions of the SQL Functions for Geometry.
-    This part of ISO 19125:2004 does not attempt to standardize and does not depend upon any part of the mechanism by which Types are added and maintained in the SQL environment, including the following:
-    - the syntax and functionality provided for defining types;
-    - the syntax and functionality provided for defining SQL functions;
-    - the physical storage of type instances in the database;
-    - specific terminology used to refer to User Defined Types, for example, UDT.
-- language: fr
-  script: Latn
-  content: |-
-    This part of ISO 19125:2004 specifies an SQL schema that supports storage, retrieval, query and update of simple geospatial feature collections via the SQL Call Level Interface (SQL/CLI) and establishes an architecture for the implementation of feature tables.
-    This part of ISO 19125:2004 defines terms to use within the architecture. of geographic information and defines a simple feature profile of ISO 19107. In addition, this part of ISO 19125:2004 describes a set of SQL Geometry Types together with SQL functions on those types. The Geometry Types and Functions described represent a profile of ISO 13249-3.
-    This part of ISO 19125:2004 standardizes the names and geometric definitions of the SQL Types for Geometry and the names, signatures and geometric definitions of the SQL Functions for Geometry.
-    This part of ISO 19125:2004 does not attempt to standardize and does not depend upon any part of the mechanism by which Types are added and maintained in the SQL environment, including the following:
-    - the syntax and functionality provided for defining types;
-    - the syntax and functionality provided for defining SQL functions;
-    - the physical storage of type instances in the database;
-    - specific terminology used to refer to User Defined Types, for example, UDT.
+  content: 'This part of ISO 19125:2004 specifies an SQL schema that supports storage,
+    retrieval, query and update of simple geospatial feature collections via the SQL
+    Call Level Interface (SQL/CLI) and establishes an architecture for the implementation
+    of feature tables. This part of ISO 19125:2004 defines terms to use within the
+    architecture. of geographic information and defines a simple feature profile of
+    ISO 19107. In addition, this part of ISO 19125:2004 describes a set of SQL Geometry
+    Types together with SQL functions on those types. The Geometry Types and Functions
+    described represent a profile of ISO 13249-3. This part of ISO 19125:2004 standardizes
+    the names and geometric definitions of the SQL Types for Geometry and the names,
+    signatures and geometric definitions of the SQL Functions for Geometry. This part
+    of ISO 19125:2004 does not attempt to standardize and does not depend upon any
+    part of the mechanism by which Types are added and maintained in the SQL environment,
+    including the following: the syntax and functionality provided for defining types;the
+    syntax and functionality provided for defining SQL functions;the physical storage
+    of type instances in the database;specific terminology used to refer to User Defined
+    Types, for example, UDT.'
 status:
   stage:
     content: '95'
@@ -128,10 +117,19 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 19125-2
+    docidentifier:
+    - content: ISO/WD 19125-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

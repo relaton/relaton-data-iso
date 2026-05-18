@@ -1,53 +1,47 @@
 ---
 id: ISOIEC1978412006Amd22009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Biometric application programming interface
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: BioAPI specification -- Amendment 2: Framework-free BioAPI'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Biometric application programming interface -
     Part 1: BioAPI specification -- Amendment 2: Framework-free BioAPI'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de programmation d'applications biométriques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Spécifications BioAPI -- Amendement 2: Cadre Free BioAPI'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interface de programmation d''applications
     biométriques - Partie 1: Spécifications BioAPI -- Amendement 2: Cadre Free BioAPI'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/50786.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:50786:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/07/50786.detail.rss
 docidentifier:
@@ -56,14 +50,10 @@ docidentifier:
   primary: true
 - content: ISO/IEC 19784-1:2006/Amd 2:2009(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:19784:-1:ed-1:stage-95.99:amd:2009:v2
-  type: URN
 docnumber: '19784'
 date:
 - type: published
-  at: '2006'
-- type: updated
-  at: 2009-07
+  at: '2009-07-09'
 contributor:
 - role:
   - type: publisher
@@ -103,7 +93,6 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -118,28 +107,40 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 19784-1:2018
+    formattedref:
+      content: ISO/IEC 19784-1:2018
     docidentifier:
     - content: ISO/IEC 19784-1:2018
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2018-03-23'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC CD 19784-1
+    docidentifier:
+    - content: ISO/IEC CD 19784-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC NP 19784-3
+    docidentifier:
+    - content: ISO/IEC NP 19784-3
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    type: ISO
     project_number:
       content: '50786'

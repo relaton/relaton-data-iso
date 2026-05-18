@@ -1,51 +1,45 @@
 ---
 id: ISO610731993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Water quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3:'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Water quality - Vocabulary - Part 3:'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3:'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Qualité de l''eau - Vocabulaire - Partie 3:'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/12313.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:12313:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/23/12313.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '6107'
 date:
 - type: published
-  at: 1993-06
+  at: '1993-06-10'
 contributor:
 - role:
   - type: publisher
@@ -89,10 +83,13 @@ contributor:
 edition:
   content: '2'
 language:
+- de
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -101,17 +98,6 @@ abstract:
     Alphabetical indexes in French, Russian and German are given. However, only the
     terms and definitions in the official languages (English, French and Russian)
     can be considered as ISO terms and definitions.
-- language: fr
-  script: Latn
-  content: "\nLa présente partie de l'ISO 6107 définit une troisième liste de termes
-    employés dans certains domaines de la caractérisation de la qualité de l'eau.
-    \ \nNOTE -- En supplément aux termes et définitions donnés dans les trois langues
-    officielles de l'ISO (anglais, français et russe), la présente partie de l'ISO
-    6107 donne les termes équivalents et leurs définitions en allemand ; ils ont été
-    inclus à la demande du comité technique ISO/TC 147, et sont publiés sous la responsabilité
-    des comités membres de l'Allemagne (DIN), d'Autriche (ON) et de Suisse (SNV).
-    Toutefois, seuls les termes et définitions donnés dans les langues officielles
-    peuvent être considérés comme termes et définitions ISO.\n"
 status:
   stage:
     content: '95'
@@ -126,38 +112,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6107-3:1985
-    docidentifier:
-    - content: ISO 6107-3:1985
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 6107:2021
+    formattedref:
+      content: ISO 6107:2021
     docidentifier:
     - content: ISO 6107:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-06-08'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6107-3:1993/Amd 1:2001
+    formattedref:
+      content: ISO/WD 6107-3
     docidentifier:
-    - content: ISO 6107-3:1993/Amd 1:2001
+    - content: ISO/WD 6107-3
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-06-08'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 6107-3:1985
+    docidentifier:
+    - content: ISO 6107-3:1985
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

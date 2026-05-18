@@ -1,50 +1,42 @@
 ---
 id: ISO6912005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Assembly tools for screws and nuts
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Wrench and socket openings
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Tolerances for general use
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Assembly tools for screws and nuts - Wrench and socket openings - Tolerances
     for general use
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Outils de manoeuvre pour vis et écrous
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Ouvertures de clés et d'embouts de serrage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tolérances d'usage courant
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Outils de manoeuvre pour vis et écrous - Ouvertures de clés et d'embouts
     de serrage - Tolérances d'usage courant
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37555.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 691:2005(E)
   type: iso-reference
-- content: urn:iso:std:iso:691:stage-90.60
+- content: urn:iso:std:iso:691:stage-90.93
   type: URN
 docnumber: '691'
 date:
 - type: published
-  at: 2005-11
+  at: '2005-11-08'
 contributor:
 - role:
   - type: publisher
@@ -95,8 +87,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -107,19 +101,11 @@ abstract:
     been determined in relation to the width across flats tolerances for screws and
     nuts specified in ISO 4759-1 and with regard to the manufacture of tightening
     tools.
-- language: fr
-  script: Latn
-  content: L'ISO 691:2005 spécifie les tolérances d'ouverture de clés et d'embouts
-    de serrage pour boulonnerie (ou éléments similaires) à cotes surplats métriques.
-    Elle donne, pour chaque dimension, la tolérance d'usage courant, définie par ses
-    deux écarts minimal et maximal, par rapport à la valeur nominale. Ces écarts ont
-    été déterminés en fonction des tolérances des cotes surplats de boulonnerie spécifiées
-    dans l'ISO 4759-1, et des possibilités de fabrication des outils de serrage.
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2005'
   owner:
@@ -127,18 +113,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 691:1997
+    formattedref:
+      content: ISO 691:1997
     docidentifier:
     - content: ISO 691:1997
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

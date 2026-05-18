@@ -1,50 +1,42 @@
 ---
 id: ISOIEC959482020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open systems interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 8: The Directory: Public-key and attribute certificate frameworks'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open systems interconnection - Part 8: The Directory:
     Public-key and attribute certificate frameworks'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Information technology
+  content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
-  content: Open systems interconnection
+  content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Part 8: The Directory: Public-key and attribute certificate frameworks'
+  content: 'Partie 8: Titre manque'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Information technology - Open systems interconnection - Part 8: The Directory:
-    Public-key and attribute certificate frameworks'
+  content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
+    - Partie 8: Titre manque'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80325.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 9594-8:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:9594:-8:stage-60.60
+- content: urn:iso:std:iso-iec:9594:-8:stage-90.60
   type: URN
 docnumber: '9594'
 date:
 - type: published
-  at: 2020-11
+  at: '2020-12-01'
 contributor:
 - role:
   - type: publisher
@@ -103,31 +95,39 @@ edition:
   content: '9'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based. Specifically, this Recommendation | International Standard defines frameworks for:
-    ?     public-key certificates; and
-    ?     attribute certificates.
-    The public-key certificate framework defined in this Recommendation | International Standard specifies the information objects and data types for a public-key infrastructure (PKI), including public-key certificates, certificate revocation lists (CRLs), trust broker and authorization and validation lists (AVLs). The attribute certificate framework specifies the information objects and data types for a privilege management infrastructure (PMI), including attribute certificates, and attribute certificate revocation lists (ACRLs). This Recommendation | International Standard also provides the framework for issuing, managing, using and revoking certificates. An extensibility mechanism is included in the defined formats for both certificate types and for all revocation list schemes. This Recommendation | International Standard also includes a set of extensions, which is expected to be generally useful across a number of applications of PKI and PMI. The schema components (including object classes, attribute types and matching rules) for storing PKI and PMI information in a directory, are included in this Recommendation | International Standard.
-    This Recommendation | International Standard specifies the framework for strong authentication, involving credentials formed using cryptographic techniques. It is not intended to establish this as a general framework for authentication, but it can be of general use for applications which consider these techniques adequate.
-    Authentication (and other security services) can only be provided within the context of a defined security policy. It is a matter for users of an application to define their own security policy.
-- language: fr
-  script: Latn
-  content: |-
-    This document addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based. Specifically, this Recommendation | International Standard defines frameworks for:
-    ?     public-key certificates; and
-    ?     attribute certificates.
-    The public-key certificate framework defined in this Recommendation | International Standard specifies the information objects and data types for a public-key infrastructure (PKI), including public-key certificates, certificate revocation lists (CRLs), trust broker and authorization and validation lists (AVLs). The attribute certificate framework specifies the information objects and data types for a privilege management infrastructure (PMI), including attribute certificates, and attribute certificate revocation lists (ACRLs). This Recommendation | International Standard also provides the framework for issuing, managing, using and revoking certificates. An extensibility mechanism is included in the defined formats for both certificate types and for all revocation list schemes. This Recommendation | International Standard also includes a set of extensions, which is expected to be generally useful across a number of applications of PKI and PMI. The schema components (including object classes, attribute types and matching rules) for storing PKI and PMI information in a directory, are included in this Recommendation | International Standard.
-    This Recommendation | International Standard specifies the framework for strong authentication, involving credentials formed using cryptographic techniques. It is not intended to establish this as a general framework for authentication, but it can be of general use for applications which consider these techniques adequate.
-    Authentication (and other security services) can only be provided within the context of a defined security policy. It is a matter for users of an application to define their own security policy.
+  content: 'This document addresses some of the security requirements in the areas
+    of authentication and other security services through the provision of a set of
+    frameworks upon which full services can be based. Specifically, this Recommendation
+    | International Standard defines frameworks for: ? public-key certificates; and
+    ? attribute certificates. The public-key certificate framework defined in this
+    Recommendation | International Standard specifies the information objects and
+    data types for a public-key infrastructure (PKI), including public-key certificates,
+    certificate revocation lists (CRLs), trust broker and authorization and validation
+    lists (AVLs). The attribute certificate framework specifies the information objects
+    and data types for a privilege management infrastructure (PMI), including attribute
+    certificates, and attribute certificate revocation lists (ACRLs). This Recommendation
+    | International Standard also provides the framework for issuing, managing, using
+    and revoking certificates. An extensibility mechanism is included in the defined
+    formats for both certificate types and for all revocation list schemes. This Recommendation
+    | International Standard also includes a set of extensions, which is expected
+    to be generally useful across a number of applications of PKI and PMI. The schema
+    components (including object classes, attribute types and matching rules) for
+    storing PKI and PMI information in a directory, are included in this Recommendation
+    | International Standard. This Recommendation | International Standard specifies
+    the framework for strong authentication, involving credentials formed using cryptographic
+    techniques. It is not intended to establish this as a general framework for authentication,
+    but it can be of general use for applications which consider these techniques
+    adequate. Authentication (and other security services) can only be provided within
+    the context of a defined security policy. It is a matter for users of an application
+    to define their own security policy.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
     content: '60'
 copyright:
@@ -137,51 +137,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-8:2017
+    formattedref:
+      content: ISO/IEC 9594-8:2017
     docidentifier:
     - content: ISO/IEC 9594-8:2017
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-8:2020/Cor 1:2021
-    docidentifier:
-    - content: ISO/IEC 9594-8:2020/Cor 1:2021
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2020-12-01'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-8:2020/Cor 2:2024
-    docidentifier:
-    - content: ISO/IEC 9594-8:2020/Cor 2:2024
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2020-12-01'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-8:2020/Amd 1:2025
-    docidentifier:
-    - content: ISO/IEC 9594-8:2020/Amd 1:2025
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2020-12-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

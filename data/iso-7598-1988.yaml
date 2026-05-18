@@ -1,31 +1,29 @@
 ---
 id: ISO75981988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Stainless steel tubes suitable for screwing in accordance with ISO 7-1
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Stainless steel tubes suitable for screwing in accordance with ISO 7-1
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tubes en acier inoxydable filetables selon l'ISO 7-1
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tubes en acier inoxydable filetables selon l'ISO 7-1
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/14387.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:14387:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/43/14387.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '7598'
 date:
 - type: published
-  at: 1988-11
+  at: '1988-11-03'
 contributor:
 - role:
   - type: publisher
@@ -80,12 +78,6 @@ abstract:
     steel tubes with dimensions corresponding to the medium series of ISO 65. Tabulates
     nominal sizes from DN 6 up to and including DN 150. The informative annex A contains
     the bibliography.
-- language: fr
-  script: Latn
-  content: Specifies the dimensions and characteristics of seamless and welded austenitic
-    steel tubes with dimensions corresponding to the medium series of ISO 65. Tabulates
-    nominal sizes from DN 6 up to and including DN 150. The informative annex A contains
-    the bibliography.
 status:
   stage:
     content: '95'
@@ -98,18 +90,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 7598:1982
+    formattedref:
+      content: ISO 7598:1982/Amd 1:1984
+    docidentifier:
+    - content: ISO 7598:1982/Amd 1:1984
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 7598:1982
     docidentifier:
     - content: ISO 7598:1982
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,41 +1,37 @@
 ---
 id: ISO139422000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Bonded abrasive products
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Limit deviations and run-out tolerances
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Bonded abrasive products - Limit deviations and run-out tolerances
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits abrasifs agglomérés
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Écarts limites et tolérances de battement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits abrasifs agglomérés - Écarts limites et tolérances de battement
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/23381.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:23381:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/33/23381.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '13942'
 date:
 - type: published
-  at: 2000-12
+  at: '2000-12-21'
 contributor:
 - role:
   - type: publisher
@@ -83,12 +79,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale spécifie les tolérances dimensionnelles (écarts limites) essentielles et les tolérances de battement, en millimètres, des produits abrasifs agglomérés tels que spécifiés dans l'ISO 603-1 à l'ISO 603-16.
 status:
   stage:
     content: '95'
@@ -101,21 +91,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13942:2019
+    formattedref:
+      content: ISO/PWI 13942
+    docidentifier:
+    - content: ISO/PWI 13942
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 13942:2019
     docidentifier:
     - content: ISO 13942:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-05-17'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

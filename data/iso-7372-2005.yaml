@@ -1,39 +1,33 @@
 ---
 id: ISO73722005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Trade data interchange
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Trade data elements directory
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Trade data interchange - Trade data elements directory
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Échange de données dans le commerce
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Répertoire d'éléments de données commerciales
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Échange de données dans le commerce - Répertoire d'éléments de données
     commerciales
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41237.html
@@ -52,7 +46,7 @@ docidentifier:
 docnumber: '7372'
 date:
 - type: published
-  at: 2005-06
+  at: '2005-06-15'
 contributor:
 - role:
   - type: publisher
@@ -84,20 +78,15 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 7372:2005 lists standard data elements intended to facilitate open interchange of data in international trade.
-    The standard data elements listed can be used with any method for data interchange on paper documents as well as with other means of data processing and communication.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 7372:2005 lists standard data elements intended to facilitate open interchange of data in international trade.
-    The standard data elements listed can be used with any method for data interchange on paper documents as well as with other means of data processing and communication.
+  content: ISO 7372:2005 lists standard data elements intended to facilitate open
+    interchange of data in international trade. The standard data elements listed
+    can be used with any method for data interchange on paper documents as well as
+    with other means of data processing and communication.
 status:
   stage:
     content: '90'
@@ -112,24 +101,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7372:1993
-    docidentifier:
-    - content: ISO 7372:1993
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/AWI 7372
+    formattedref:
+      content: ISO/AWI 7372
     docidentifier:
     - content: ISO/AWI 7372
       type: ISO
       primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 7372
+    docidentifier:
+    - content: ISO/WD 7372
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 7372:1993
+    docidentifier:
+    - content: ISO 7372:1993
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

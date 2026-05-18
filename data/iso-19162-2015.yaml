@@ -1,43 +1,39 @@
 ---
 id: ISO191622015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Well-known text representation of coordinate reference systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Well-known text representation of coordinate reference
     systems
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation textuelle bien lisible de systèmes de référence par coordonnées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Représentation textuelle bien lisible de systèmes
     de référence par coordonnées
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63094.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63094:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/30/63094.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '19162'
 date:
 - type: published
-  at: 2015-08
+  at: '2015-08-14'
 contributor:
 - role:
   - type: publisher
@@ -82,28 +78,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO 19162:2015 defines the structure and content of a text string implementation
-    of the abstract model for coordinate reference systems described in ISO 19111:2007
-    and ISO 19111-2:2009. The string defines frequently needed types of coordinate
-    reference systems and coordinate operations in a self-contained form that is easily
-    readable by machines and by humans. The essence is its simplicity; as a consequence
-    there are some constraints upon the more open content allowed in ISO 19111:2007.
-    To retain simplicity in the well-known text (WKT) description of coordinate reference
-    systems and coordinate operations, the scope of this International Standard excludes
-    parameter grouping and pass-through coordinate operations. The text string provides
-    a means for humans and machines to correctly and unambiguously interpret and utilise
-    a coordinate reference system definition with look-ups or cross references only
-    to define coordinate operation mathematics. Because it omits metadata about the
-    source of the data and may omit metadata about the applicability of the information,
-    the WKT string is not suitable for the storage of definitions of coordinate reference
-    systems or coordinate operations.
-- language: fr
   script: Latn
   content: ISO 19162:2015 defines the structure and content of a text string implementation
     of the abstract model for coordinate reference systems described in ISO 19111:2007
@@ -132,21 +110,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 19162:2019
+    formattedref:
+      content: ISO 19162:2019
     docidentifier:
     - content: ISO 19162:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-07-11'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

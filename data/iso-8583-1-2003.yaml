@@ -1,54 +1,48 @@
 ---
 id: ISO858312003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial transaction card originated messages
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Interchange message specifications
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Messages, data elements and  code values'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Financial transaction card originated messages - Interchange message specifications
     - Part 1: Messages, data elements and  code values'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Messages initiés par cartes de transaction financière
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications d'échange de messages
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Messages, éléments de données et valeurs de code'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Messages initiés par cartes de transaction financière - Spécifications
     d''échange de messages - Partie 1: Messages, éléments de données et valeurs de
     code'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/31628.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:31628:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/16/31628.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '8583'
 date:
 - type: published
-  at: 2003-06
+  at: '2003-06-17'
 contributor:
 - role:
   - type: publisher
@@ -93,20 +87,16 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8583-1:2003 specifies a common interface by which financial transaction card originated messages may be interchanged between acquirers and card issuers.
-    It specifies message structure, format and content, data elements and values for data elements. The method by which settlement takes place is not within the scope of this part of ISO 8583.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 8583-1:2003 specifies a common interface by which financial transaction card originated messages may be interchanged between acquirers and card issuers.
-    It specifies message structure, format and content, data elements and values for data elements. The method by which settlement takes place is not within the scope of this part of ISO 8583.
+  content: ISO 8583-1:2003 specifies a common interface by which financial transaction
+    card originated messages may be interchanged between acquirers and card issuers.
+    It specifies message structure, format and content, data elements and values for
+    data elements. The method by which settlement takes place is not within the scope
+    of this part of ISO 8583.
 status:
   stage:
     content: '95'
@@ -121,27 +111,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8583:1993
-    docidentifier:
-    - content: ISO 8583:1993
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 8583:2023
+    formattedref:
+      content: ISO 8583:2023
     docidentifier:
     - content: ISO 8583:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-07-18'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8583:1993/Cor 1:1999
+    docidentifier:
+    - content: ISO 8583:1993/Cor 1:1999
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8583:1993
+    docidentifier:
+    - content: ISO 8583:1993
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISOIEC23360112021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Linux Standard Base (LSB)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1-1: Common definitions'
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Linux Standard Base (LSB) - Part 1-1: Common definitions'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Noyau de base normalisé Linux (LSB)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1-1: Définitions communes'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Noyau de base normalisé Linux (LSB) - Partie 1-1: Définitions communes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/77865.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '23360'
 date:
 - type: published
-  at: 2021-10
+  at: '2021-10-08'
 contributor:
 - role:
   - type: publisher
@@ -91,40 +85,40 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines a system interface for compiled applications and a minimal environment for support of installation scripts. Its purpose is to enable a uniform industry standard environment for high-volume applications conforming to the LSB.
-    The LSB specification set is divided into modules, each of which provides fundamental system interfaces, libraries, and runtime environment upon which all conforming applications and libraries using that module depend.
-    The modules of the Linux Standard Base are:
-    - LSB Core - core components
-    - LSB Desktop - desktop related components
-    - LSB Languages - runtime languages
-    - LSB Imaging - printing and scanning
-    - LSB Trial Use - components that are not yet mandatory
-    Interfaces described in the LSB Core module specification are supplemented by other LSB module specifications. All other modules depend on the presence of LSB Core.
-    These specifications are composed of two basic parts: a common part describing those parts of the interface that remain constant across all implementations of the LSB, and an architecture-specific part describing the parts of the interface that vary by processor architecture. Together, the common part and the relevant architecture-specific part for a single hardware architecture provide a complete interface specification for compiled application programs on systems that share a common hardware architecture. Whenever a section of the common part is supplemented by architecture-specific information, the common part includes a reference to the architecture-specific part. Architecture-specific parts of of an LSB module specification may also contain additional information that is not referenced in the common part.
-    The LSB contains both a set of Application Program Interfaces (APIs) and Application Binary Interfaces (ABIs). APIs may appear in the source code of portable applications, while the compiled binary of that application may use the larger set of ABIs. A conforming implementation provides all of the ABIs listed here. The compilation system may replace (e.g. by macro definition) certain APIs with calls to one or more of the underlying binary interfaces, and may insert calls to binary interfaces as needed.
-    The LSB is primarily a binary interface definition. Not all of the source level APIs available to applications may be contained in this specification.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines a system interface for compiled applications and a minimal environment for support of installation scripts. Its purpose is to enable a uniform industry standard environment for high-volume applications conforming to the LSB.
-    The LSB specification set is divided into modules, each of which provides fundamental system interfaces, libraries, and runtime environment upon which all conforming applications and libraries using that module depend.
-    The modules of the Linux Standard Base are:
-    - LSB Core - core components
-    - LSB Desktop - desktop related components
-    - LSB Languages - runtime languages
-    - LSB Imaging - printing and scanning
-    - LSB Trial Use - components that are not yet mandatory
-    Interfaces described in the LSB Core module specification are supplemented by other LSB module specifications. All other modules depend on the presence of LSB Core.
-    These specifications are composed of two basic parts: a common part describing those parts of the interface that remain constant across all implementations of the LSB, and an architecture-specific part describing the parts of the interface that vary by processor architecture. Together, the common part and the relevant architecture-specific part for a single hardware architecture provide a complete interface specification for compiled application programs on systems that share a common hardware architecture. Whenever a section of the common part is supplemented by architecture-specific information, the common part includes a reference to the architecture-specific part. Architecture-specific parts of of an LSB module specification may also contain additional information that is not referenced in the common part.
-    The LSB contains both a set of Application Program Interfaces (APIs) and Application Binary Interfaces (ABIs). APIs may appear in the source code of portable applications, while the compiled binary of that application may use the larger set of ABIs. A conforming implementation provides all of the ABIs listed here. The compilation system may replace (e.g. by macro definition) certain APIs with calls to one or more of the underlying binary interfaces, and may insert calls to binary interfaces as needed.
-    The LSB is primarily a binary interface definition. Not all of the source level APIs available to applications may be contained in this specification.
+  content: 'This document defines a system interface for compiled applications and
+    a minimal environment for support of installation scripts. Its purpose is to enable
+    a uniform industry standard environment for high-volume applications conforming
+    to the LSB. The LSB specification set is divided into modules, each of which provides
+    fundamental system interfaces, libraries, and runtime environment upon which all
+    conforming applications and libraries using that module depend. The modules of
+    the Linux Standard Base are: LSB Core - core components LSB Desktop - desktop
+    related components LSB Languages - runtime languages LSB Imaging - printing and
+    scanning LSB Trial Use - components that are not yet mandatory Interfaces described
+    in the LSB Core module specification are supplemented by other LSB module specifications.
+    All other modules depend on the presence of LSB Core. These specifications are
+    composed of two basic parts: a common part describing those parts of the interface
+    that remain constant across all implementations of the LSB, and an architecture-specific
+    part describing the parts of the interface that vary by processor architecture.
+    Together, the common part and the relevant architecture-specific part for a single
+    hardware architecture provide a complete interface specification for compiled
+    application programs on systems that share a common hardware architecture. Whenever
+    a section of the common part is supplemented by architecture-specific information,
+    the common part includes a reference to the architecture-specific part. Architecture-specific
+    parts of of an LSB module specification may also contain additional information
+    that is not referenced in the common part. The LSB contains both a set of Application
+    Program Interfaces (APIs) and Application Binary Interfaces (ABIs). APIs may appear
+    in the source code of portable applications, while the compiled binary of that
+    application may use the larger set of ABIs. A conforming implementation provides
+    all of the ABIs listed here. The compilation system may replace (e.g. by macro
+    definition) certain APIs with calls to one or more of the underlying binary interfaces,
+    and may insert calls to binary interfaces as needed. The LSB is primarily a binary
+    interface definition. Not all of the source level APIs available to applications
+    may be contained in this specification.'
 status:
   stage:
     content: '60'
@@ -137,18 +131,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23360-1:2006
+    formattedref:
+      content: ISO/IEC 23360-1:2006
     docidentifier:
     - content: ISO/IEC 23360-1:2006
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

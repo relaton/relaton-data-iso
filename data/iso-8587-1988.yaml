@@ -1,51 +1,45 @@
 ---
 id: ISO85871988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Sensory analysis
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Methodology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Ranking
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Sensory analysis - Methodology - Ranking
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse sensorielle
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodologie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai de classement par rangs
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse sensorielle - Méthodologie - Essai de classement par rangs
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/15877.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:15877:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/58/15877.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '8587'
 date:
 - type: published
-  at: 1988-12
+  at: '1988-12-15'
 contributor:
 - role:
   - type: publisher
@@ -103,11 +97,6 @@ abstract:
     the other samples. Statistical evaluation of the test results. An annex A gives
     a parctical example of appllication. A specimen answer form is given in an annex
     B.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit une méthode pour l'évaluation sensorielle d'échantillons pour essais et a pour objet de placer une série d'échantillons pour essais selon un certain ordre (rang). La méthode permet d'apprécier des différences entre plusieurs échantillons en se basant sur l'intensité de propriétés isolées, de propriétés spécifiques ou de l'impression globale. Elle est particulièrement recommandée pour réaliser un premier tri des échantillons pour essais (qui sera suivi de l'application d'autres méthodes d'essais) ou pour utiliser de manière fiable d'autres méthodes se situant au-dessus des capacités des sujets. Entre autres choses, la méthode permet de déterminer les influences de différentes matières premières, de la production, de la fabrication, du traitement, de l'emballage et du stockage. De plus, elle peut convenir pour l'entraînement des sujets.
 status:
   stage:
     content: '95'
@@ -120,21 +109,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8587:2006
+    formattedref:
+      content: ISO/WD 8587
+    docidentifier:
+    - content: ISO/WD 8587
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 8587:2006
     docidentifier:
     - content: ISO 8587:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-10-17'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

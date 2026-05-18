@@ -1,50 +1,42 @@
 ---
 id: ISOIEC147761152004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Small Computer System Interface (SCSI)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 115: Parallel Interface-5 (SPI-5)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Small Computer System Interface (SCSI) - Part
     115: Parallel Interface-5 (SPI-5)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de petit système d'ordinateur (SCSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 115: Interface parallèle 5 (SPI-5)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interface de petit système d''ordinateur
     (SCSI) - Partie 115: Interface parallèle 5 (SPI-5)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38217.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '14776'
 date:
 - type: published
-  at: 2004-11
+  at: '2004-11-29'
 contributor:
 - role:
   - type: publisher
@@ -103,64 +95,35 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "The SCSI parallel interface (SPI) is designed to provide an efficient
+  content: 'The SCSI parallel interface (SPI) is designed to provide an efficient
     peer-to-peer I/O bus with the maximum number of hosts and peripherals determined
     by the bus width (i.e., 8 or 16). Data may be transferred asynchronously or synchronously
     at rates that depend on implementation. The objectives of the SCSI parallel interface
-    are: \na) To provide host computers with device independence within a class of
-    devices. Thus, different disk drives, tape drives, printers, optical media drives,
-    and other SCSI devices may be added to the host computers without requiring modifications
-    to generic system hardware. \nb) To provide compatibility such that conforming
-    SPI-2, SPI-3 devices may interoperate with SPI-5 devices given that the systems
-    engineering is correctly done. \n\nThe interface protocol includes provision for
-    the connection of multiple SCSI initiator ports (i.e., SCSI devices capable of
-    initiating an I/O process) and multiple SCSI target ports (i.e., SCSI devices
-    capable of responding to a request to perform an I/O process). \n\nThis international
-    standard defines mechanical, electrical, timing requirements, command, and the
-    task management delivery protocol requirements to transfer commands and data between
-    SCSI devices attached to an SCSI parallel interface, i.e. to allow conforming
-    SCSI devices to interoperate. It is intended to be used in conjunction with the
-    SCSI command sets. The resulting interface facilitates the interconnection of
-    computers and intelligent \nperipherals and thus provides a common interface standard
-    for both system integrators and suppliers of intelligent peripherals. \n\nThis
-    standard is a functional description. Conforming implementations may employ any
-    design technique that does not violate interoperability. This standard has made
-    obsolete single-ended and multimode signalling alternatives. Implementations that
-    use single-ended or multimode signalling alternatives should reference the SCSI
-    Parallel Interface-2 standard (ISO/IEC 14776-112)."
-- language: fr
-  script: Latn
-  content: "The SCSI parallel interface (SPI) is designed to provide an efficient
-    peer-to-peer I/O bus with the maximum number of hosts and peripherals determined
-    by the bus width (i.e., 8 or 16). Data may be transferred asynchronously or synchronously
-    at rates that depend on implementation. The objectives of the SCSI parallel interface
-    are: \na) To provide host computers with device independence within a class of
-    devices. Thus, different disk drives, tape drives, printers, optical media drives,
-    and other SCSI devices may be added to the host computers without requiring modifications
-    to generic system hardware. \nb) To provide compatibility such that conforming
-    SPI-2, SPI-3 devices may interoperate with SPI-5 devices given that the systems
-    engineering is correctly done. \n\nThe interface protocol includes provision for
-    the connection of multiple SCSI initiator ports (i.e., SCSI devices capable of
-    initiating an I/O process) and multiple SCSI target ports (i.e., SCSI devices
-    capable of responding to a request to perform an I/O process). \n\nThis international
-    standard defines mechanical, electrical, timing requirements, command, and the
-    task management delivery protocol requirements to transfer commands and data between
-    SCSI devices attached to an SCSI parallel interface, i.e. to allow conforming
-    SCSI devices to interoperate. It is intended to be used in conjunction with the
-    SCSI command sets. The resulting interface facilitates the interconnection of
-    computers and intelligent \nperipherals and thus provides a common interface standard
-    for both system integrators and suppliers of intelligent peripherals. \n\nThis
-    standard is a functional description. Conforming implementations may employ any
-    design technique that does not violate interoperability. This standard has made
-    obsolete single-ended and multimode signalling alternatives. Implementations that
-    use single-ended or multimode signalling alternatives should reference the SCSI
-    Parallel Interface-2 standard (ISO/IEC 14776-112)."
+    are: a) To provide host computers with device independence within a class of devices.
+    Thus, different disk drives, tape drives, printers, optical media drives, and
+    other SCSI devices may be added to the host computers without requiring modifications
+    to generic system hardware. b) To provide compatibility such that conforming SPI-2,
+    SPI-3 devices may interoperate with SPI-5 devices given that the systems engineering
+    is correctly done. The interface protocol includes provision for the connection
+    of multiple SCSI initiator ports (i.e., SCSI devices capable of initiating an
+    I/O process) and multiple SCSI target ports (i.e., SCSI devices capable of responding
+    to a request to perform an I/O process). This international standard defines mechanical,
+    electrical, timing requirements, command, and the task management delivery protocol
+    requirements to transfer commands and data between SCSI devices attached to an
+    SCSI parallel interface, i.e. to allow conforming SCSI devices to interoperate.
+    It is intended to be used in conjunction with the SCSI command sets. The resulting
+    interface facilitates the interconnection of computers and intelligent peripherals
+    and thus provides a common interface standard for both system integrators and
+    suppliers of intelligent peripherals. This standard is a functional description.
+    Conforming implementations may employ any design technique that does not violate
+    interoperability. This standard has made obsolete single-ended and multimode signalling
+    alternatives. Implementations that use single-ended or multimode signalling alternatives
+    should reference the SCSI Parallel Interface-2 standard (ISO/IEC 14776-112).'
 status:
   stage:
     content: '90'
@@ -173,9 +136,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

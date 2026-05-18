@@ -1,54 +1,48 @@
 ---
 id: ISOIECTR247182005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Programming languages
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Guide for the use of the Ada Ravenscar Profile in high integrity systems
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Programming languages - Guide for the use of the
     Ada Ravenscar Profile in high integrity systems
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Guide pour l'usage de "Ada Ravenscar Profile" dans les systèmes de haute
     intégrité
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Langages de programmation - Guide pour
     l'usage de "Ada Ravenscar Profile" dans les systèmes de haute intégrité
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38828.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:38828:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/88/38828.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '24718'
 date:
 - type: published
-  at: 2005-02
+  at: '2005-02-17'
 contributor:
 - role:
   - type: publisher
@@ -102,34 +96,20 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: 'ISO/IEC TR 24718:2005 gives a complete description of the motivations
-    behind the Ada Ravenscar Profile, to show how conformant programs can be analysed
-    and to give examples of usage. The profile is a subset of the Ada tasking model,
-    restricted to meet the real-time community requirements for determinism, schedulability
-    analysis and memory-boundedness, as well as being suitable for mapping to a small
-    and efficient run-time system that supports task synchronization and communication,
-    and which could be certifiable to the highest integrity levels. The profile has
-    been designed such that the restricted form of tasking that it defines can be
-    used even for software that needs to be verified to the very highest integrity
-    levels. '
-- language: fr
-  script: Latn
-  content: 'ISO/IEC TR 24718:2005 gives a complete description of the motivations
-    behind the Ada Ravenscar Profile, to show how conformant programs can be analysed
-    and to give examples of usage. The profile is a subset of the Ada tasking model,
-    restricted to meet the real-time community requirements for determinism, schedulability
-    analysis and memory-boundedness, as well as being suitable for mapping to a small
-    and efficient run-time system that supports task synchronization and communication,
-    and which could be certifiable to the highest integrity levels. The profile has
-    been designed such that the restricted form of tasking that it defines can be
-    used even for software that needs to be verified to the very highest integrity
-    levels. '
+  content: ISO/IEC TR 24718:2005 gives a complete description of the motivations behind
+    the Ada Ravenscar Profile, to show how conformant programs can be analysed and
+    to give examples of usage. The profile is a subset of the Ada tasking model, restricted
+    to meet the real-time community requirements for determinism, schedulability analysis
+    and memory-boundedness, as well as being suitable for mapping to a small and efficient
+    run-time system that supports task synchronization and communication, and which
+    could be certifiable to the highest integrity levels. The profile has been designed
+    such that the restricted form of tasking that it defines can be used even for
+    software that needs to be verified to the very highest integrity levels.
 status:
   stage:
     content: '95'
@@ -142,21 +122,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC TS 24718:2025
+    formattedref:
+      content: ISO/IEC CD TR 24718
+    docidentifier:
+    - content: ISO/IEC CD TR 24718
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC TS 24718:2025
     docidentifier:
     - content: ISO/IEC TS 24718:2025
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-01-24'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

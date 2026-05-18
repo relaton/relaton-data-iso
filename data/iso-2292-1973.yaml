@@ -1,42 +1,37 @@
 ---
 id: ISO22921973
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Cocoa beans
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Sampling
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cocoa beans - Sampling
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Fèves de cacao
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échantillonnage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Fèves de cacao - Échantillonnage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7116.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7116:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/71/7116.detail.rss
 docidentifier:
@@ -50,7 +45,7 @@ docidentifier:
 docnumber: '2292'
 date:
 - type: published
-  at: 1973-02
+  at: '1973-02-01'
 contributor:
 - role:
   - type: publisher
@@ -96,21 +91,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2292:2017
+    formattedref:
+      content: ISO 2292:2017
     docidentifier:
     - content: ISO 2292:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-11-13'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 2292
+    docidentifier:
+    - content: ISO/WD 2292
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -120,4 +120,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 2292
+      content: '7116'

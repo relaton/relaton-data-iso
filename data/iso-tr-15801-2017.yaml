@@ -1,51 +1,43 @@
 ---
 id: ISOTR158012017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Document management
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Electronically stored information
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Recommendations for trustworthiness and reliability
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Document management - Electronically stored information - Recommendations
     for trustworthiness and reliability
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion de document
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Information stockée électroniquement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Recommandations pour contribuer à l'intégrité et à la fiabilité des informations
     stockées
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion de document - Information stockée électroniquement - Recommandations
     pour contribuer à l'intégrité et à la fiabilité des informations stockées
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/66856.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '15801'
 date:
 - type: published
-  at: 2017-05
+  at: '2017-05-17'
 contributor:
 - role:
   - type: publisher
@@ -95,22 +87,23 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/TR 15801:2017 describes the implementation and operation of information management systems that store and make available for use electronically stored information (ESI) in a trustworthy and reliable manner. Such ESI can be of any type, including "page based" information, information in databases and audio/video information.
-    ISO/TR 15801:2017 is for use by any organization that uses systems to store trustworthy ESI over time. Such systems incorporate policies, procedures, technology and audit requirements that ensure that trustworthiness of the ESI is maintained.
-    ISO/TR 15801:2017 does not cover processes used to evaluate whether ESI can be considered to be trustworthy prior to it being stored or imported into the system. However, it can be used to demonstrate that, once the electronic information is stored, output from the system will be a true and accurate reproduction of the ESI created and/or imported.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/TR 15801:2017 describes the implementation and operation of information management systems that store and make available for use electronically stored information (ESI) in a trustworthy and reliable manner. Such ESI can be of any type, including "page based" information, information in databases and audio/video information.
-    ISO/TR 15801:2017 is for use by any organization that uses systems to store trustworthy ESI over time. Such systems incorporate policies, procedures, technology and audit requirements that ensure that trustworthiness of the ESI is maintained.
-    ISO/TR 15801:2017 does not cover processes used to evaluate whether ESI can be considered to be trustworthy prior to it being stored or imported into the system. However, it can be used to demonstrate that, once the electronic information is stored, output from the system will be a true and accurate reproduction of the ESI created and/or imported.
+  content: ISO/TR 15801:2017 describes the implementation and operation of information
+    management systems that store and make available for use electronically stored
+    information (ESI) in a trustworthy and reliable manner. Such ESI can be of any
+    type, including "page based" information, information in databases and audio/video
+    information. ISO/TR 15801:2017 is for use by any organization that uses systems
+    to store trustworthy ESI over time. Such systems incorporate policies, procedures,
+    technology and audit requirements that ensure that trustworthiness of the ESI
+    is maintained. ISO/TR 15801:2017 does not cover processes used to evaluate whether
+    ESI can be considered to be trustworthy prior to it being stored or imported into
+    the system. However, it can be used to demonstrate that, once the electronic information
+    is stored, output from the system will be a true and accurate reproduction of
+    the ESI created and/or imported.
 status:
   stage:
     content: '90'
@@ -125,24 +118,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TR 15801:2009
+    formattedref:
+      content: ISO/NP 15801
     docidentifier:
-    - content: ISO/TR 15801:2009
+    - content: ISO/NP 15801
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 15801
+    formattedref:
+      content: ISO 15801
     docidentifier:
-    - content: ISO/DIS 15801
+    - content: ISO 15801
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TR 15801:2009
+    docidentifier:
+    - content: ISO/TR 15801:2009
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

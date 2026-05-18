@@ -1,38 +1,32 @@
 ---
 id: ISO90942022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Small craft
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fire protection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Small craft - Fire protection
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Petits navires
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Protection contre l'incendie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Petits navires - Protection contre l'incendie
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78242.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '9094'
 date:
 - type: published
-  at: 2022-11
+  at: '2022-11-24'
 contributor:
 - role:
   - type: publisher
@@ -88,20 +82,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines a practical degree of fire prevention and protection intended to provide enough time for occupants to escape a fire on board small craft.
-    It applies to small craft having a length of the hull (LH) of up to 24 m except for personal watercraft.
-    This document does not cover:
-    —    the design and installation of permanently installed galley stoves and heating appliances (including components used to distribute the heat) using fuels that are liquid at atmospheric pressure on small craft, which are covered by ISO 14895:2016;
-    —    carbon monoxide detecting systems, which are covered by ISO 12133.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document définit un degré pratique de prévention et de protection contre l’incendie destiné à donner un temps suffisant aux occupants pour échapper à un incendie à bord d’un petit navire.
-    Elle s’applique aux petits navires d’une longueur de coque (LH) inférieure ou égale à 24 m, à l’exception des véhicules nautiques à moteur.
-    Le présent document ne couvre pas:
-    —    la conception et l’installation des réchauds de cuisson et appareils de chauffage installés à demeure (y compris les composants utilisés pour distribuer la chaleur) et utilisant du combustible liquide à la pression atmosphérique, qui sont couverts par l’ISO 14895:2016;
-    —    les systèmes de détection du monoxyde de carbone qui sont couverts par l’ISO 12133.
+  content: 'This document defines a practical degree of fire prevention and protection
+    intended to provide enough time for occupants to escape a fire on board small
+    craft. It applies to small craft having a length of the hull (LH) of up to 24 m
+    except for personal watercraft. This document does not cover: —    the design
+    and installation of permanently installed galley stoves and heating appliances
+    (including components used to distribute the heat) using fuels that are liquid
+    at atmospheric pressure on small craft, which are covered by ISO 14895:2016; —   
+    carbon monoxide detecting systems, which are covered by ISO 12133.'
 status:
   stage:
     content: '90'
@@ -116,24 +104,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9094:2015
+    formattedref:
+      content: ISO/DIS 9094
+    docidentifier:
+    - content: ISO/DIS 9094
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 9094:2015
     docidentifier:
     - content: ISO 9094:2015
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 9094
-    docidentifier:
-    - content: ISO/CD 9094
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

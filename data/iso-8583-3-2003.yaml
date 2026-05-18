@@ -1,55 +1,49 @@
 ---
 id: ISO858332003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial transaction card originated messages
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Interchange message specifications
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Maintenance procedures for messages, data elements and code values'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Financial transaction card originated messages - Interchange message specifications
     - Part 3: Maintenance procedures for messages, data elements and code values'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Messages initiés par cartes de transaction financière
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications d'échange de messages
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Procédures de maintenance pour messages, éléments de données
     et valeurs de code'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Messages initiés par cartes de transaction financière - Spécifications
     d''échange de messages - Partie 3: Procédures de maintenance pour messages, éléments
     de données et valeurs de code'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/35363.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:35363:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/53/35363.detail.rss
 docidentifier:
@@ -63,7 +57,7 @@ docidentifier:
 docnumber: '8583'
 date:
 - type: published
-  at: 2003-05
+  at: '2003-05-13'
 contributor:
 - role:
   - type: publisher
@@ -94,20 +88,17 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8583-3:2003 establishes the role of the maintenance agency (MA) and specifies the procedures for adding messages and data elements to ISO 8583-1 and to codes listed in Annex A of ISO 8583-1.
-    The responsibilities of the MA relate to all message type identifiers and classes, data elements and sub-elements, dataset identifiers and codes within ISO 8583-1, with the exception of Institution Identification Codes.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 8583-3:2003 establishes the role of the maintenance agency (MA) and specifies the procedures for adding messages and data elements to ISO 8583-1 and to codes listed in Annex A of ISO 8583-1.
-    The responsibilities of the MA relate to all message type identifiers and classes, data elements and sub-elements, dataset identifiers and codes within ISO 8583-1, with the exception of Institution Identification Codes.
+  content: ISO 8583-3:2003 establishes the role of the maintenance agency (MA) and
+    specifies the procedures for adding messages and data elements to ISO 8583-1 and
+    to codes listed in Annex A of ISO 8583-1. The responsibilities of the MA relate
+    to all message type identifiers and classes, data elements and sub-elements, dataset
+    identifiers and codes within ISO 8583-1, with the exception of Institution Identification
+    Codes.
 status:
   stage:
     content: '95'
@@ -122,35 +113,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8583-3:1998
+    formattedref:
+      content: ISO 8583:2023
     docidentifier:
-    - content: ISO 8583-3:1998
+    - content: ISO 8583:2023
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 8583:1993
+    formattedref:
+      content: ISO 8583:1993/Cor 1:1999
+    docidentifier:
+    - content: ISO 8583:1993/Cor 1:1999
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8583:1993
     docidentifier:
     - content: ISO 8583:1993
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 8583:2023
+    formattedref:
+      content: ISO 8583-3:1998
     docidentifier:
-    - content: ISO 8583:2023
+    - content: ISO 8583-3:1998
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-07-18'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

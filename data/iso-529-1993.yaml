@@ -1,31 +1,29 @@
 ---
 id: ISO5291993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Short machine taps and hand taps
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Short machine taps and hand taps
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tarauds courts à machine et à main
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tarauds courts à machine et à main
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4598.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4598:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/45/4598.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '529'
 date:
 - type: published
-  at: 1993-01
+  at: '1993-01-21'
 contributor:
 - role:
   - type: publisher
@@ -84,24 +82,6 @@ abstract:
     ("Unified Coarse" series (UNC) and "Unified Fine" series (UNF)), and non-recommended
     inch threads ("British Standard Whitworth" (BSW) and "British Standard Fine" (BSF),
     "British Association" (BA)).'
-- language: fr
-  script: Latn
-  content: "\nLa présente Norme internationale prescrit les dimensions générales des
-    tarauds courts à machine et à main. Ces dimensions, établies en fonction du diamètre
-    et du pas de filetage, sont les suivantes: -- longueur filetée (maximale); --
-    longueur totale; -- diamètre de queue et dimensions du carré d'entraînement; --
-    dimensions de raccordement entre la queue et la partie taillée. La présente Norme
-    internationale est applicable aux tarauds destinés à l'exécution des filetages
-    suivants: a) Filetages métriques ISO à pas gros; à pas fins. b) Filetages ISO
-    en inches série «Unified coarse» (UNC) et série «Unified fine» (UNF). c) Filetages
-    en inches, non recommandés «British Standard Whitworth» (BSW) et «British Standard
-    fine» (BSF); «British Association» (BA).  \nNOTES 1 Les valeurs des longueurs
-    totales et taillées et des diamètres de queue des tarauds dont le diamètre et
-    le pas ne figurent pas dans les tableaux sont données dans le tableau de l'annexe
-    A. 2 L'annexe B donne, pour information, un extrait de l'lSO 237 concernant les
-    diamètres de queue et les dimensions des carrés d'entraînement. Les spécifications
-    techniques des tarauds faisant l'objet de la présente Norme internationale (comprenant
-    le marquage) sont données dans l'ISO 8830.\n"
 status:
   stage:
     content: '95'
@@ -116,35 +96,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 529:1975
-    docidentifier:
-    - content: ISO 529:1975
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 529:1975/Amd 1:1981
-    docidentifier:
-    - content: ISO 529:1975/Amd 1:1981
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 529:2017
+    formattedref:
+      content: ISO 529:2017
     docidentifier:
     - content: ISO 529:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-03-06'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 529:1975/Amd 2:1983
+    docidentifier:
+    - content: ISO 529:1975/Amd 2:1983
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 529:1975
+    docidentifier:
+    - content: ISO 529:1975
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 529:1975/Amd 1:1981
+    docidentifier:
+    - content: ISO 529:1975/Amd 1:1981
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

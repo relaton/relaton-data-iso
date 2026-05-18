@@ -1,38 +1,32 @@
 ---
 id: ISO55262013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cereals, pulses and other food grains
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Nomenclature
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cereals, pulses and other food grains - Nomenclature
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Céréales, légumineuses et autres graines alimentaires
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Nomenclature
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Céréales, légumineuses et autres graines alimentaires - Nomenclature
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/50932.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 5526:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso:5526:stage-90.93
+- content: urn:iso:std:iso:5526:stage-90.92
   type: URN
 docnumber: '5526'
 date:
 - type: published
-  at: 2013-03
+  at: '2013-02-22'
 contributor:
 - role:
   - type: publisher
@@ -81,28 +75,26 @@ contributor:
 edition:
   content: '2'
 language:
+- de
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 5526:2013 lists the botanical names of the main species of: a) cereals (Clause 3); b) pulses (Clause 4); c) other food grains (Clause 5).
-    ISO 5526:2013 also lists the stabilized plant names of the International Seed Testing Association (ISTA).
-    Various commonly met synonyms of the botanical names are indicated in an annex.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 5526:2013 donne les noms botaniques des principales espèces de: a) céréales; b) légumineuses; c) autres graines alimentaires.
-    Elle donne également les noms des plantes stabilisés par l'ISTA (Association internationale d'essais des semences).
-    Divers synonymes communément rencontrés sont indiqués dans une annexe.
+  content: 'ISO 5526:2013 lists the botanical names of the main species of: a) cereals
+    (Clause 3); b) pulses (Clause 4); c) other food grains (Clause 5). ISO 5526:2013
+    also lists the stabilized plant names of the International Seed Testing Association
+    (ISTA). Various commonly met synonyms of the botanical names are indicated in
+    an annex.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2013'
   owner:
@@ -112,24 +104,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5526:1986
+    formattedref:
+      content: ISO/WD 5526
+    docidentifier:
+    - content: ISO/WD 5526
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 5526:1986
     docidentifier:
     - content: ISO 5526:1986
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '67.060'
-    text: Cereals, pulses and derived products
   - code: 01.040.67
     text: Food technology (Vocabularies)
+  - code: '67.060'
+    text: Cereals, pulses and derived products
   structuredidentifier:
     type: ISO
     project_number:

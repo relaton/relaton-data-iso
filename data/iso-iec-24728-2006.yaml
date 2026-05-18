@@ -1,51 +1,43 @@
 ---
 id: ISOIEC247282006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic identification and data capture techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: MicroPDF417 bar code symbology specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Automatic identification and data capture techniques
     - MicroPDF417 bar code symbology specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques automatiques d'identification et de capture des données
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications pour la symbologie de code à barres MicroPDF417
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques automatiques d'identification
     et de capture des données - Spécifications pour la symbologie de code à barres
     MicroPDF417
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38838.html
@@ -59,12 +51,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 24728:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:24728:stage-90.20
+- content: urn:iso:std:iso-iec:24728:stage-90.60
   type: URN
 docnumber: '24728'
 date:
 - type: published
-  at: 2006-06
+  at: '2006-05-24'
 contributor:
 - role:
   - type: publisher
@@ -104,37 +96,51 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 24728:2006 specifies the requirements for the bar code symbology known as MicroPDF417. It specifies the MicroPDF417 symbology characteristics, data character encodation, symbol formats, dimensions, error correction rules, decoding algorithm, and a number of application parameters.
-    MicroPDF417 is a multi-row symbology, derived from and closely based on PDF417. MicroPDF417 is designed for applications with a need for improved area efficiency but without the requirement for PDF417's maximum data capacity. A limited set of symbol sizes is available, together with a fixed level of error correction for each symbol size. Module dimensions are user-specified to enable symbol production and reading by a wide variety of techniques.
-    Since MicroPDF417's data character encodation, its error correction method, and many of its other symbol characteristics are, and are intended to remain, identical to those of PDF417, descriptions of these characteristics are quoted verbatim from the PDF417 symbology specification (ISO/IEC 15438) wherever appropriate, or with the appropriate modifications. For ease of cross-reference, ISO/IEC 24728:2006 follows a similar document structure, with minor differences in clause/subclause numbering, to the PDF417 symbology specification.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 24728:2006 specifies the requirements for the bar code symbology known as MicroPDF417. It specifies the MicroPDF417 symbology characteristics, data character encodation, symbol formats, dimensions, error correction rules, decoding algorithm, and a number of application parameters.
-    MicroPDF417 is a multi-row symbology, derived from and closely based on PDF417. MicroPDF417 is designed for applications with a need for improved area efficiency but without the requirement for PDF417's maximum data capacity. A limited set of symbol sizes is available, together with a fixed level of error correction for each symbol size. Module dimensions are user-specified to enable symbol production and reading by a wide variety of techniques.
-    Since MicroPDF417's data character encodation, its error correction method, and many of its other symbol characteristics are, and are intended to remain, identical to those of PDF417, descriptions of these characteristics are quoted verbatim from the PDF417 symbology specification (ISO/IEC 15438) wherever appropriate, or with the appropriate modifications. For ease of cross-reference, ISO/IEC 24728:2006 follows a similar document structure, with minor differences in clause/subclause numbering, to the PDF417 symbology specification.
+  content: ISO/IEC 24728:2006 specifies the requirements for the bar code symbology
+    known as MicroPDF417. It specifies the MicroPDF417 symbology characteristics,
+    data character encodation, symbol formats, dimensions, error correction rules,
+    decoding algorithm, and a number of application parameters. MicroPDF417 is a multi-row
+    symbology, derived from and closely based on PDF417. MicroPDF417 is designed for
+    applications with a need for improved area efficiency but without the requirement
+    for PDF417's maximum data capacity. A limited set of symbol sizes is available,
+    together with a fixed level of error correction for each symbol size. Module dimensions
+    are user-specified to enable symbol production and reading by a wide variety of
+    techniques. Since MicroPDF417's data character encodation, its error correction
+    method, and many of its other symbol characteristics are, and are intended to
+    remain, identical to those of PDF417, descriptions of these characteristics are
+    quoted verbatim from the PDF417 symbology specification (ISO/IEC 15438) wherever
+    appropriate, or with the appropriate modifications. For ease of cross-reference,
+    ISO/IEC 24728:2006 follows a similar document structure, with minor differences
+    in clause/subclause numbering, to the PDF417 symbology specification.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '60'
 copyright:
 - from: '2006'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC NP 24728
+    docidentifier:
+    - content: ISO/IEC NP 24728
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

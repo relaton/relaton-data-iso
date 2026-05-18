@@ -1,50 +1,42 @@
 ---
 id: ISOIEC439662023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Telecommunications and information exchange between systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Recursive inter-network architecture
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 6: RINA data transfer service'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Telecommunications and information exchange between systems - Recursive
     inter-network architecture - Part 6: RINA data transfer service'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Télécommunications et échange d'information entre systèmes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Architecture récursive inter-réseaux
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Service de transfert de données RINA'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Télécommunications et échange d''information entre systèmes - Architecture
     récursive inter-réseaux - Partie 6: Service de transfert de données RINA'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/84295.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '4396'
 date:
 - type: published
-  at: 2023-12
+  at: '2023-12-05'
 contributor:
 - role:
   - type: publisher
@@ -103,22 +95,29 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document is a service definition that provides an abstract description of the application programming interface (API) seen by an Application Process using a distributed inter-process communication (IPC) facility (DIF). APIs reflect the specific constraints and conventions of an operating system or programming language. This document does not do that. A service definition specifies the interactions between an Application Process and IPC independent of such specifics.
-    The application process may be an IPC process and the member of a (N+1)-DIF. Actual APIs will be system specific (or may not exist at all), but this sequence of interaction will be maintained. The notation here is used to emphasize that the participants can only act on what they see and must not make assumptions about any events that may have occurred elsewhere. Hence the primitives are described in terms of primitives invoked locally to cause an action, submit, and primitives locally invoked to deliver information on state.
-    This is not a design for an API. It cannot be as a basis for any conformance tests. An actual API may make some, all or none of the parameters noted here visible to the user and may add additional primitives of local significance. The purpose of this service definition is to specify information that must or may be available by whatever means, explicit or implicit, to drive the operation of the DIF.
-- language: fr
-  script: Latn
-  content: |-
-    This document is a service definition that provides an abstract description of the application programming interface (API) seen by an Application Process using a distributed inter-process communication (IPC) facility (DIF). APIs reflect the specific constraints and conventions of an operating system or programming language. This document does not do that. A service definition specifies the interactions between an Application Process and IPC independent of such specifics.
-    The application process may be an IPC process and the member of a (N+1)-DIF. Actual APIs will be system specific (or may not exist at all), but this sequence of interaction will be maintained. The notation here is used to emphasize that the participants can only act on what they see and must not make assumptions about any events that may have occurred elsewhere. Hence the primitives are described in terms of primitives invoked locally to cause an action, submit, and primitives locally invoked to deliver information on state.
-    This is not a design for an API. It cannot be as a basis for any conformance tests. An actual API may make some, all or none of the parameters noted here visible to the user and may add additional primitives of local significance. The purpose of this service definition is to specify information that must or may be available by whatever means, explicit or implicit, to drive the operation of the DIF.
+  content: This document is a service definition that provides an abstract description
+    of the application programming interface (API) seen by an Application Process
+    using a distributed inter-process communication (IPC) facility (DIF). APIs reflect
+    the specific constraints and conventions of an operating system or programming
+    language. This document does not do that. A service definition specifies the interactions
+    between an Application Process and IPC independent of such specifics. The application
+    process may be an IPC process and the member of a (N+1)-DIF. Actual APIs will
+    be system specific (or may not exist at all), but this sequence of interaction
+    will be maintained. The notation here is used to emphasize that the participants
+    can only act on what they see and must not make assumptions about any events that
+    may have occurred elsewhere. Hence the primitives are described in terms of primitives
+    invoked locally to cause an action, submit, and primitives locally invoked to
+    deliver information on state. This is not a design for an API. It cannot be as
+    a basis for any conformance tests. An actual API may make some, all or none of
+    the parameters noted here visible to the user and may add additional primitives
+    of local significance. The purpose of this service definition is to specify information
+    that must or may be available by whatever means, explicit or implicit, to drive
+    the operation of the DIF.
 status:
   stage:
     content: '60'
@@ -131,9 +130,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,43 +1,39 @@
 ---
 id: ISO136162003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Banking and related financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International bank account number (IBAN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Banking and related financial services - International bank account number
     (IBAN)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque et services financiers connexes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Numéro de compte bancaire international (IBAN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque et services financiers connexes - Numéro de compte bancaire international
     (IBAN)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38213.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:38213:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/82/38213.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '13616'
 date:
 - type: published
-  at: 2003-08
+  at: '2003-07-24'
 contributor:
 - role:
   - type: publisher
@@ -82,22 +78,10 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO 13616:2003 specifies the elements of an international bank account
-    number (IBAN), used to facilitate the processing of data in data interchange internationally
-    -- in financial environments as well as within and between other industries. The
-    IBAN is designed for automated processing, but can also be conveniently used in
-    other media interchange when appropriate (paper document exchange, etc.). ISO
-    13616 does not specify internal procedures, file organization techniques, storage
-    media, languages, etc. to be used in its implementation. Nor is it designed to
-    facilitate the routing of messages within a network. It is applicable to the textual
-    data which might be conveyed through a system (network).
-- language: fr
   script: Latn
   content: ISO 13616:2003 specifies the elements of an international bank account
     number (IBAN), used to facilitate the processing of data in data interchange internationally
@@ -122,38 +106,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13616:1997
+    formattedref:
+      content: ISO/WD 13616
     docidentifier:
-    - content: ISO 13616:1997
+    - content: ISO/WD 13616
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13616-1:2007
+    formattedref:
+      content: ISO 13616-1:2007
     docidentifier:
     - content: ISO 13616-1:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2007-02-23'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13616-2:2007
+    formattedref:
+      content: ISO 13616-2:2007
     docidentifier:
     - content: ISO 13616-2:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2007-02-23'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 13616:1997
+    docidentifier:
+    - content: ISO 13616:1997
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,52 +1,46 @@
 ---
 id: ISO81091990
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Banking and related financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Securities
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Format of Eurobonds
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Banking and related financial services - Securities - Format of Eurobonds
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque et services financiers liés aux opérations bancaires
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Valeurs mobilières
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Format des Eurobonds
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque et services financiers liés aux opérations bancaires - Valeurs mobilières
     - Format des Eurobonds
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/15157.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:15157:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/51/15157.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '8109'
 date:
 - type: published
-  at: 1990-11
+  at: '1990-11-29'
 contributor:
 - role:
   - type: publisher
@@ -100,11 +94,6 @@ abstract:
   content: Specifies the format characteristics of Eurobonds, for example, physical
     representation with regard to size, paper, printing, layout and contents. This
     second edition cancels and replaces the first edition (1985).
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale contient des données spécifiques ayant trait au format, c'est-à-dire à la présentation matérielle des Eurobonds : dimension, papier, présentation générale et contenu; elle décrit ainsi l'aspect que doivent avoir les Eurobonds, quel que soit l'émetteur et quel que soit le pays dans lequel les «bonds» sont émis, ceci dans la mesure où leur format n'est pas réglementé par une institution nationale. La présente Norme internationale s'applique aux Eurobonds tels qu'ils sont définis à l'article 3. Cependant, toute loi, règle, réglementation ou condition émise par une bourse de valeurs et qui serait contradictoire aura priorité, qu'elle ait ou non force de loi. Au cas où lesdits règlements ne s'appliqueraient pas spécifiquement, ou encore si leur observation avait une portée moindre que celle de la présente Norme internationale, c'est cette dernière qui prévaudrait.
 status:
   stage:
     content: '95'
@@ -119,16 +108,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8109:1985
+    formattedref:
+      content: ISO/WD 8109
+    docidentifier:
+    - content: ISO/WD 8109
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8109:1985
     docidentifier:
     - content: ISO 8109:1985
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

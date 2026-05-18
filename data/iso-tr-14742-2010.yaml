@@ -1,40 +1,34 @@
 ---
 id: ISOTR147422010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Recommendations on cryptographic algorithms and their use
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Financial services - Recommendations on cryptographic algorithms and their
     use
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Recommandations sur les algorithmes cryptographiques et leur utilisation
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers - Recommandations sur les algorithmes cryptographiques
     et leur utilisation
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/54951.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO/TR 14742:2010(E)
   type: iso-reference
-- content: urn:iso:std:iso:tr:14742:stage-90.92
+- content: urn:iso:std:iso:tr:14742:stage-95.99
   type: URN
 docnumber: '14742'
 date:
 - type: published
-  at: 2010-07
+  at: '2010-06-18'
 contributor:
 - role:
   - type: publisher
@@ -84,59 +78,30 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/TR 14742:2010 provides a list of recommended cryptographic algorithms for use within applicable financial services standards prepared by ISO/TC 68. It also provides strategic guidance on key lengths and associated parameters and usage dates.
-    The focus is on algorithms rather than protocols, and protocols are in general not included in ISO/TR 14742:2010.
-    ISO/TR 14742:2010 deals primarily with recommendations regarding algorithms and key lengths.
-    The categories of algorithms covered in ISO/TR 14742:2010 are:
-    - block ciphers;
-    - stream ciphers;
-    - hash functions;
-    - message authentication codes (MACs);
-    - asymmetric algorithms;
-
-    digital signature schemes giving message recovery,
-    digital signatures with appendix,
-    asymmetric ciphers;
-
-
-    - authentication mechanisms;
-    - key establishment and agreement mechanisms;
-    - key transport mechanisms.
-    ISO/TR 14742:2010 does not define any cryptographic algorithms; however, the standards to which ISO/TR 14742:2010 refers may contain necessary implementation information as well as more detailed guidance regarding choice of security parameters, security analysis, and other implementation considerations.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/TR 14742:2010 provides a list of recommended cryptographic algorithms for use within applicable financial services standards prepared by ISO/TC 68. It also provides strategic guidance on key lengths and associated parameters and usage dates.
-    The focus is on algorithms rather than protocols, and protocols are in general not included in ISO/TR 14742:2010.
-    ISO/TR 14742:2010 deals primarily with recommendations regarding algorithms and key lengths.
-    The categories of algorithms covered in ISO/TR 14742:2010 are:
-    - block ciphers;
-    - stream ciphers;
-    - hash functions;
-    - message authentication codes (MACs);
-    - asymmetric algorithms;
-
-    digital signature schemes giving message recovery,
-    digital signatures with appendix,
-    asymmetric ciphers;
-
-
-    - authentication mechanisms;
-    - key establishment and agreement mechanisms;
-    - key transport mechanisms.
-    ISO/TR 14742:2010 does not define any cryptographic algorithms; however, the standards to which ISO/TR 14742:2010 refers may contain necessary implementation information as well as more detailed guidance regarding choice of security parameters, security analysis, and other implementation considerations.
+  content: 'ISO/TR 14742:2010 provides a list of recommended cryptographic algorithms
+    for use within applicable financial services standards prepared by ISO/TC 68.
+    It also provides strategic guidance on key lengths and associated parameters and
+    usage dates. The focus is on algorithms rather than protocols, and protocols are
+    in general not included in ISO/TR 14742:2010. ISO/TR 14742:2010 deals primarily
+    with recommendations regarding algorithms and key lengths. The categories of algorithms
+    covered in ISO/TR 14742:2010 are: block ciphers; stream ciphers; hash functions;
+    message authentication codes (MACs); asymmetric algorithms; digital signature
+    schemes giving message recovery, digital signatures with appendix, asymmetric
+    ciphers; authentication mechanisms; key establishment and agreement mechanisms;
+    key transport mechanisms. ISO/TR 14742:2010 does not define any cryptographic
+    algorithms; however, the standards to which ISO/TR 14742:2010 refers may contain
+    necessary implementation information as well as more detailed guidance regarding
+    choice of security parameters, security analysis, and other implementation considerations.'
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2010'
   owner:
@@ -146,16 +111,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DTS 14742
+    formattedref:
+      content: ISO/WD TR 14742
     docidentifier:
-    - content: ISO/DTS 14742
+    - content: ISO/WD TR 14742
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD TR 14742
+    docidentifier:
+    - content: ISO/WD TR 14742
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/TS 14742:2025
+    docidentifier:
+    - content: ISO/TS 14742:2025
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

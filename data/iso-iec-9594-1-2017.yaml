@@ -1,53 +1,47 @@
 ---
 id: ISOIEC959412017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Systems Interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'The Directory -- Part 1: Overview of concepts, models and services'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open Systems Interconnection - The Directory
     -- Part 1: Overview of concepts, models and services'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'L''annuaire -- Partie 1: Aperçu général des concepts, modèles et services'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
     - L''annuaire -- Partie 1: Aperçu général des concepts, modèles et services'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/72550.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:72550:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/25/72550.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '9594'
 date:
 - type: published
-  at: 2017-05
+  at: '2017-05-05'
 contributor:
 - role:
   - type: publisher
@@ -101,58 +95,33 @@ edition:
   content: '8'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 9594-1:2017 provides the directory capabilities required by OSI
+  content: ISO/IEC 9594-1:2017 provides the directory capabilities required by OSI
     applications, OSI management processes, other OSI layer entities, and telecommunications
-    services. Among the capabilities which it provides are those of \"user-friendly
-    naming\", whereby objects can be referred to by names which are suitable for citing
-    by human users (though not all objects need have user-friendly names); and \"name-to-address
-    mapping\" which allows the binding between objects and their locations to be dynamic.
-    The latter capability allows OSI networks, for example, to be \"self-configuring\"
+    services. Among the capabilities which it provides are those of "user-friendly
+    naming", whereby objects can be referred to by names which are suitable for citing
+    by human users (though not all objects need have user-friendly names); and "name-to-address
+    mapping" which allows the binding between objects and their locations to be dynamic.
+    The latter capability allows OSI networks, for example, to be "self-configuring"
     in the sense that addition, removal and the changes of object location do not
-    affect OSI network operation.  \nISO/IEC 9594-1:2017 is not intended to be a general-purpose
+    affect OSI network operation. ISO/IEC 9594-1:2017 is not intended to be a general-purpose
     database system, although it may be built on such systems. It is assumed, for
     instance, that, as is typical with communications directories, there is a considerably
-    higher frequency of \"queries\" than of updates. The rate of updates is expected
+    higher frequency of "queries" than of updates. The rate of updates is expected
     to be governed by the dynamics of people and organizations, rather than, for example,
     the dynamics of networks. There is also no need for instantaneous global commitment
     of updates; transient conditions, where both old and new versions of the same
-    information are available, are quite acceptable.  \nIt is a characteristic of
-    the Directory that, except as a consequence of differing access rights or un-propagated
+    information are available, are quite acceptable. It is a characteristic of the
+    Directory that, except as a consequence of differing access rights or un-propagated
     updates, the results of directory queries will not be dependent on the identity
     or location of the inquirer. This characteristic renders the Directory unsuitable
     for some telecommunications applications, for example some types of routing. For
     cases where the results are dependent on the identity of the inquirer, access
-    to directory information and updates of the Directory may be denied."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 9594-1:2017 provides the directory capabilities required by OSI
-    applications, OSI management processes, other OSI layer entities, and telecommunications
-    services. Among the capabilities which it provides are those of \"user-friendly
-    naming\", whereby objects can be referred to by names which are suitable for citing
-    by human users (though not all objects need have user-friendly names); and \"name-to-address
-    mapping\" which allows the binding between objects and their locations to be dynamic.
-    The latter capability allows OSI networks, for example, to be \"self-configuring\"
-    in the sense that addition, removal and the changes of object location do not
-    affect OSI network operation.  \nISO/IEC 9594-1:2017 is not intended to be a general-purpose
-    database system, although it may be built on such systems. It is assumed, for
-    instance, that, as is typical with communications directories, there is a considerably
-    higher frequency of \"queries\" than of updates. The rate of updates is expected
-    to be governed by the dynamics of people and organizations, rather than, for example,
-    the dynamics of networks. There is also no need for instantaneous global commitment
-    of updates; transient conditions, where both old and new versions of the same
-    information are available, are quite acceptable.  \nIt is a characteristic of
-    the Directory that, except as a consequence of differing access rights or un-propagated
-    updates, the results of directory queries will not be dependent on the identity
-    or location of the inquirer. This characteristic renders the Directory unsuitable
-    for some telecommunications applications, for example some types of routing. For
-    cases where the results are dependent on the identity of the inquirer, access
-    to directory information and updates of the Directory may be denied."
+    to directory information and updates of the Directory may be denied.
 status:
   stage:
     content: '95'
@@ -167,27 +136,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-1:2014
-    docidentifier:
-    - content: ISO/IEC 9594-1:2014
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-1:2020
+    formattedref:
+      content: ISO/IEC 9594-1:2020
     docidentifier:
     - content: ISO/IEC 9594-1:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-12-01'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 9594-1:2014
+    docidentifier:
+    - content: ISO/IEC 9594-1:2014
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,50 +1,42 @@
 ---
 id: ISO80152011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geometrical product specifications (GPS)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fundamentals
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Concepts, principles and rules
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Geometrical product specifications (GPS) - Fundamentals - Concepts, principles
     and rules
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification géométrique des produits (GPS)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Principes fondamentaux
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Concepts, principes et règles
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification géométrique des produits (GPS) - Principes fondamentaux -
     Concepts, principes et règles
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/55979.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '8015'
 date:
 - type: published
-  at: 2011-06
+  at: '2011-05-23'
 contributor:
 - role:
   - type: publisher
@@ -100,14 +92,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8015:2011 specifies fundamental concepts, principles and rules valid for the creation, interpretation and application of all other International Standards, Technical Specifications and Technical Reports concerning geometrical product specifications (GPS) and verification.
-    It applies to the interpretation of GPS indications on all types of drawings. For the purposes of ISO 8015:2011, the term "drawing" is to be interpreted in the broadest possible sense, encompassing the total package of documentation specifying the workpiece.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 8015:2011 spécifie les concepts, principes et règles fondamentaux permettant de créer, d'interpréter et d'appliquer toutes les autres Normes internationales, Spécifications techniques et Rapports techniques relatifs à la spécification et à la vérification dimensionnelles et géométriques des produits.
-    Elle est applicable à l'interprétation de tous types de dessins pour lesquels les indications GPS sont utilisées. Pour les besoins de l'ISO 8015:2011, le terme «dessin» est interprété au sens le plus large possible, englobant l'ensemble de la documentation qui spécifie la pièce.
+  content: ISO 8015:2011 specifies fundamental concepts, principles and rules valid
+    for the creation, interpretation and application of all other International Standards,
+    Technical Specifications and Technical Reports concerning geometrical product
+    specifications (GPS) and verification. It applies to the interpretation of GPS
+    indications on all types of drawings. For the purposes of ISO 8015:2011, the term
+    "drawing" is to be interpreted in the broadest possible sense, encompassing the
+    total package of documentation specifying the workpiece.
 status:
   stage:
     content: '90'
@@ -120,18 +111,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 8015:1985
+    formattedref:
+      content: ISO/DIS 14659.2
+    docidentifier:
+    - content: ISO/DIS 14659.2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8015:1985
     docidentifier:
     - content: ISO 8015:1985
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

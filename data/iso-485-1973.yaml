@@ -1,28 +1,24 @@
 ---
 id: ISO4851973
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aircraft water-methanol pressure connections
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Aircraft water-methanol pressure connections
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Raccords de pression d'eau-méthanol à bord des aéronefs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Raccords de pression d'eau-méthanol à bord des aéronefs
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4529.html
@@ -36,12 +32,12 @@ docidentifier:
   primary: true
 - content: ISO 485:1973(E)
   type: iso-reference
-- content: urn:iso:std:iso:485:stage-90.93
+- content: urn:iso:std:iso:485:stage-90.60
   type: URN
 docnumber: '485'
 date:
 - type: published
-  at: 1973-02
+  at: '1973-02-01'
 contributor:
 - role:
   - type: publisher
@@ -82,35 +78,38 @@ abstract:
     envolope is also specified for each size of connection. Dimensions and tolerances
     for connections are given in figures 1 and 3, and those for space envelopes in
     figures 2 and 4. The values are listed in tables.
-- language: fr
-  script: Latn
-  content: Gives the dimensions of 19 mm and 38 mm bore pressure connections. A space
-    envolope is also specified for each size of connection. Dimensions and tolerances
-    for connections are given in figures 1 and 3, and those for space envelopes in
-    figures 2 and 4. The values are listed in tables.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '1973'
   owner:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 485
+    docidentifier:
+    - content: ISO/WD 485
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '49.080'
-    text: Aerospace fluid systems and components
   - code: '49.100'
     text: Ground service and maintenance equipment
+  - code: '49.080'
+    text: Aerospace fluid systems and components
   structuredidentifier:
     type: ISO
     project_number:

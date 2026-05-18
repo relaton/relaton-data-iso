@@ -1,50 +1,42 @@
 ---
 id: ISO1757232015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems (ITS)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Location referencing for geographic databases
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Dynamic location references (dynamic profile)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems (ITS) - Location referencing for geographic
     databases - Part 3: Dynamic location references (dynamic profile)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport (SIT)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Localisation pour bases de données géographiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Localisations dynamiques (profil dynamique)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes intelligents de transport (SIT) - Localisation pour bases de
     données géographiques - Partie 3: Localisations dynamiques (profil dynamique)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63402.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '17572'
 date:
 - type: published
-  at: 2015-01
+  at: '2015-01-05'
 contributor:
 - role:
   - type: publisher
@@ -94,40 +86,26 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The ISO 17572 series specifies location referencing methods (LRMs) that describe locations in the context of geographic databases and will be used to locate transport-related phenomena in an encoder system as well as in the decoder side. The ISO 17572 series defines what is meant by such objects and describes the reference in detail, including whether or not components of the reference are mandatory or optional, and their characteristics.
-    The ISO 17572 series specifies two different LRMs:
-    -pre-coded location references (pre-coded profile);
-    -dynamic location references (dynamic profile).
-    The ISO 17572 series does not define a physical format for implementing the LRM. However, the requirements for physical formats are defined.
-    ISO 17572-3:2014 does not define details of the location referencing system (LRS), i.e. how the LRMs are to be implemented in software, hardware, or processes.
-    ISO 17572-3:2014 specifies the dynamic location referencing method, comprising
-    -attributes and encoding rules;
-    -logical data modelling;
-    -TPEG physical format specification for dynamic location references;
-    -coding guidelines for dynamic location references;
-    -compressed data format specification.
-- language: fr
-  script: Latn
-  content: |-
-    The ISO 17572 series specifies location referencing methods (LRMs) that describe locations in the context of geographic databases and will be used to locate transport-related phenomena in an encoder system as well as in the decoder side. The ISO 17572 series defines what is meant by such objects and describes the reference in detail, including whether or not components of the reference are mandatory or optional, and their characteristics.
-    The ISO 17572 series specifies two different LRMs:
-    -pre-coded location references (pre-coded profile);
-    -dynamic location references (dynamic profile).
-    The ISO 17572 series does not define a physical format for implementing the LRM. However, the requirements for physical formats are defined.
-    ISO 17572-3:2014 does not define details of the location referencing system (LRS), i.e. how the LRMs are to be implemented in software, hardware, or processes.
-    ISO 17572-3:2014 specifies the dynamic location referencing method, comprising
-    -attributes and encoding rules;
-    -logical data modelling;
-    -TPEG physical format specification for dynamic location references;
-    -coding guidelines for dynamic location references;
-    -compressed data format specification.
+  content: 'The ISO 17572 series specifies location referencing methods (LRMs) that
+    describe locations in the context of geographic databases and will be used to
+    locate transport-related phenomena in an encoder system as well as in the decoder
+    side. The ISO 17572 series defines what is meant by such objects and describes
+    the reference in detail, including whether or not components of the reference
+    are mandatory or optional, and their characteristics. The ISO 17572 series specifies
+    two different LRMs: -pre-coded location references (pre-coded profile); -dynamic
+    location references (dynamic profile). The ISO 17572 series does not define a
+    physical format for implementing the LRM. However, the requirements for physical
+    formats are defined. ISO 17572-3:2014 does not define details of the location
+    referencing system (LRS), i.e. how the LRMs are to be implemented in software,
+    hardware, or processes. ISO 17572-3:2014 specifies the dynamic location referencing
+    method, comprising -attributes and encoding rules; -logical data modelling; -TPEG
+    physical format specification for dynamic location references; -coding guidelines
+    for dynamic location references; -compressed data format specification.'
 status:
   stage:
     content: '90'
@@ -140,34 +118,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 17572-3:2008
+    formattedref:
+      content: ISO 17572-3:2008
     docidentifier:
     - content: ISO 17572-3:2008
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 17572-3:2008/Cor 1:2009
+    formattedref:
+      content: ISO 17572-3:2008/Cor 1:2009
     docidentifier:
     - content: ISO 17572-3:2008/Cor 1:2009
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

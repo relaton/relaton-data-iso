@@ -1,42 +1,38 @@
 ---
 id: ISO32971998
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International standard serial number  (ISSN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - International standard serial number  (ISSN)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Numéro international normalisé des publications en série (ISSN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Numéro international normalisé des publications
     en série (ISSN)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/23400.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:23400:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/34/23400.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '3297'
 date:
 - type: published
-  at: 1998-11
+  at: '1998-11-12'
 contributor:
 - role:
   - type: publisher
@@ -84,12 +80,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale a pour objet de définir et encourager l'emploi d'un code normalisé, appelé Numéro international normalisé des publications en série (ISSN), destiné à l'identification univoque des publications en série.Chaque ISSN est un identificateur unique d'une publication en série.La présente Norme internationale est applicable à l'ensemble des publications en série, qu'elles soient passées, présentes ou à paraître dans un avenir prévisible, quel que soit le support physique de la publication. Les publications en série comprennent les périodiques, journaux, publications annuelles (telles que rapports, annuaires, répertoires), revues, collections, mémoires, comptes rendus, actes, etc. des sociétés.Les monographies, rapports techniques, enregistrements sonores et visuels, ainsi que les documents de musique imprimée ont leurs propres systèmes de numérotation et ne sont donc pas explicitement concernés par la présente Norme internationale. Toutefois, ces documents peuvent porter un ISSN en complément de leurs propres numéros normalisés lorsqu'ils font partie d'une publication en série.
 status:
   stage:
     content: '95'
@@ -104,27 +94,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3297:1986
-    docidentifier:
-    - content: ISO 3297:1986
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 3297:2007
+    formattedref:
+      content: ISO 3297:2007
     docidentifier:
     - content: ISO 3297:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2007-08-16'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3297:1986
+    docidentifier:
+    - content: ISO 3297:1986
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

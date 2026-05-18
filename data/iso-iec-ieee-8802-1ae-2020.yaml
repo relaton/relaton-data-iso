@@ -1,52 +1,44 @@
 ---
 id: ISOIECIEEE88021AE2020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Telecommunications and exchange between information technology systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Requirements for local and metropolitan area networks
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1AE: Media access control (MAC) security'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Telecommunications and exchange between information technology systems
     - Requirements for local and metropolitan area networks - Part 1AE: Media access
     control (MAC) security'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Télécommunications et échange entre systèmes informatiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Exigences pour les réseaux locaux et métropolitains
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1AE: Sécurité du contrôle d''accès aux supports (MAC)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Télécommunications et échange entre systèmes informatiques - Exigences
     pour les réseaux locaux et métropolitains - Partie 1AE: Sécurité du contrôle d''accès
     aux supports (MAC)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78102.html
@@ -60,12 +52,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC/IEEE 8802-1AE:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec-ieee:8802:-1AE:stage-60.60
+- content: urn:iso:std:iso-iec-ieee:8802:-1AE:stage-90.93
   type: URN
 docnumber: '8802'
 date:
 - type: published
-  at: 2020-08
+  at: '2020-08-21'
 contributor:
 - role:
   - type: publisher
@@ -114,75 +106,45 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies provision of connectionless user data confidentiality, frame data integrity, and data origin authenticity by media access independent protocols and entities that operate transparently to MAC Clients.
-    NOTE—The MAC Clients are as specified in IEEE Std 802®, IEEE Std 802.1Q?, and IEEE Std 802.1X.2
-    To this end, it
-    a) Specifies the requirements to be satisfied by equipment claiming conformance to this standard.
-    b) Specifies the requirements for MACsec in terms of provision of the MAC Service and the
-    preservation of the semantics and parameters of service requests and indications.
-    c) Describes the threats, both intentional and accidental, to correct provision of the service.
-    d) Specifies security services that prevent, or restrict, the effect of attacks that exploit these threats.
-    e) Examines the potential impact of both the threats and the use of MACsec on the Quality of Service
-    (QoS), specifying constraints on the design and operation of MAC Security entities and protocols.
-    f) Models support of the secure MAC Service in terms of the operation of media access control method
-    independent MAC Security Entities (SecYs) within the MAC Sublayer.
-    g) Specifies the format of the MACsec Protocol Data Unit (MPDUs) used to provide secure service.
-    h) Identifies the functions to be performed by each SecY, and provides an architectural model of its
-    internal operation in terms of Processes and Entities that provide those functions.
-    i) Specifies each SecY's use of an associated and collocated Port Access Entity (PAE,
-    IEEE Std 802.1X) to discover and authenticate MACsec protocol peers and its use of that PAE's
-    Key Agreement Entity (KaY) to agree and update cryptographic keys.
-    j) Specifies performance requirements and recommends default values and applicable ranges for the
-    operational parameters of a SecY.
-    k) Specifies how SecYs are incorporated within the architecture of end stations, bridges, and two-port
-    Ethernet Data Encryption devices (EDEs).
-    l) Establishes the requirements for management of MAC Security, identifying the managed objects
-    and defining the management operations for SecYs.
-    m) Specifies the Management Information Base (MIB) module for managing the operation of MAC
-    Security in TCP/IP networks.
-    n) Specifies requirements, criteria, and choices of Cipher Suites for use with this standard.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies provision of connectionless user data confidentiality, frame data integrity, and data origin authenticity by media access independent protocols and entities that operate transparently to MAC Clients.
-    NOTE—The MAC Clients are as specified in IEEE Std 802®, IEEE Std 802.1Q?, and IEEE Std 802.1X.2
-    To this end, it
-    a) Specifies the requirements to be satisfied by equipment claiming conformance to this standard.
-    b) Specifies the requirements for MACsec in terms of provision of the MAC Service and the
-    preservation of the semantics and parameters of service requests and indications.
-    c) Describes the threats, both intentional and accidental, to correct provision of the service.
-    d) Specifies security services that prevent, or restrict, the effect of attacks that exploit these threats.
-    e) Examines the potential impact of both the threats and the use of MACsec on the Quality of Service
-    (QoS), specifying constraints on the design and operation of MAC Security entities and protocols.
-    f) Models support of the secure MAC Service in terms of the operation of media access control method
-    independent MAC Security Entities (SecYs) within the MAC Sublayer.
-    g) Specifies the format of the MACsec Protocol Data Unit (MPDUs) used to provide secure service.
-    h) Identifies the functions to be performed by each SecY, and provides an architectural model of its
-    internal operation in terms of Processes and Entities that provide those functions.
-    i) Specifies each SecY's use of an associated and collocated Port Access Entity (PAE,
-    IEEE Std 802.1X) to discover and authenticate MACsec protocol peers and its use of that PAE's
-    Key Agreement Entity (KaY) to agree and update cryptographic keys.
-    j) Specifies performance requirements and recommends default values and applicable ranges for the
-    operational parameters of a SecY.
-    k) Specifies how SecYs are incorporated within the architecture of end stations, bridges, and two-port
-    Ethernet Data Encryption devices (EDEs).
-    l) Establishes the requirements for management of MAC Security, identifying the managed objects
-    and defining the management operations for SecYs.
-    m) Specifies the Management Information Base (MIB) module for managing the operation of MAC
-    Security in TCP/IP networks.
-    n) Specifies requirements, criteria, and choices of Cipher Suites for use with this standard.
+  content: This document specifies provision of connectionless user data confidentiality,
+    frame data integrity, and data origin authenticity by media access independent
+    protocols and entities that operate transparently to MAC Clients. NOTE—The MAC
+    Clients are as specified in IEEE Std 802®, IEEE Std 802.1Q?, and IEEE Std 802.1X.2
+    To this end, it a) Specifies the requirements to be satisfied by equipment claiming
+    conformance to this standard. b) Specifies the requirements for MACsec in terms
+    of provision of the MAC Service and the preservation of the semantics and parameters
+    of service requests and indications. c) Describes the threats, both intentional
+    and accidental, to correct provision of the service. d) Specifies security services
+    that prevent, or restrict, the effect of attacks that exploit these threats. e)
+    Examines the potential impact of both the threats and the use of MACsec on the
+    Quality of Service (QoS), specifying constraints on the design and operation of
+    MAC Security entities and protocols. f) Models support of the secure MAC Service
+    in terms of the operation of media access control method independent MAC Security
+    Entities (SecYs) within the MAC Sublayer. g) Specifies the format of the MACsec
+    Protocol Data Unit (MPDUs) used to provide secure service. h) Identifies the functions
+    to be performed by each SecY, and provides an architectural model of its internal
+    operation in terms of Processes and Entities that provide those functions. i)
+    Specifies each SecY's use of an associated and collocated Port Access Entity (PAE,
+    IEEE Std 802.1X) to discover and authenticate MACsec protocol peers and its use
+    of that PAE's Key Agreement Entity (KaY) to agree and update cryptographic keys.
+    j) Specifies performance requirements and recommends default values and applicable
+    ranges for the operational parameters of a SecY. k) Specifies how SecYs are incorporated
+    within the architecture of end stations, bridges, and two-port Ethernet Data Encryption
+    devices (EDEs). l) Establishes the requirements for management of MAC Security,
+    identifying the managed objects and defining the management operations for SecYs.
+    m) Specifies the Management Information Base (MIB) module for managing the operation
+    of MAC Security in TCP/IP networks. n) Specifies requirements, criteria, and choices
+    of Cipher Suites for use with this standard.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2020'
   owner:
@@ -190,64 +152,42 @@ copyright:
       name:
       - content: ISO/IEC/IEEE
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC/IEEE 8802-1AE:2013
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1AE:2013
     docidentifier:
     - content: ISO/IEC/IEEE 8802-1AE:2013
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC/IEEE 8802-1AE:2013/Amd 1:2015
-    docidentifier:
-    - content: ISO/IEC/IEEE 8802-1AE:2013/Amd 1:2015
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC/IEEE 8802-1AE:2013/Amd 2:2015
-    docidentifier:
-    - content: ISO/IEC/IEEE 8802-1AE:2013/Amd 2:2015
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC/IEEE 8802-1AE:2013/Amd 3:2018
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1AE:2013/Amd 3:2018
     docidentifier:
     - content: ISO/IEC/IEEE 8802-1AE:2013/Amd 3:2018
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC/IEEE 8802-1AE:2020/Cor 1:2021
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1AE:2013/Amd 2:2015
     docidentifier:
-    - content: ISO/IEC/IEEE 8802-1AE:2020/Cor 1:2021
+    - content: ISO/IEC/IEEE 8802-1AE:2013/Amd 2:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-08-21'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC/IEEE 8802-1AE:2020/Amd 4:2024
+    formattedref:
+      content: ISO/IEC/IEEE 8802-1AE:2013/Amd 1:2015
     docidentifier:
-    - content: ISO/IEC/IEEE 8802-1AE:2020/Amd 4:2024
+    - content: ISO/IEC/IEEE 8802-1AE:2013/Amd 1:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-08-21'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

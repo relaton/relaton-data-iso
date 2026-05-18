@@ -1,39 +1,32 @@
 ---
 id: ISO857312010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Compressed air
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Contaminants and purity classes'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Compressed air - Part 1: Contaminants and purity classes'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Air comprimé
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Polluants et classes de pureté'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Air comprimé - Partie 1: Polluants et classes de pureté'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46418.html
@@ -47,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 8573-1:2010(E)
   type: iso-reference
-- content: urn:iso:std:iso:8573:-1:stage-90.60
+- content: urn:iso:std:iso:8573:-1:stage-90.92
   type: URN
 docnumber: '8573'
 date:
 - type: published
-  at: 2010-04
+  at: '2010-04-06'
 contributor:
 - role:
   - type: publisher
@@ -89,22 +82,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8573-1:2010 specifies purity classes of compressed air with respect to particles, water and oil independent of the location in the compressed air system at which the air is specified or measured.
-    ISO 8573-1:2010 provides general information about contaminants in compressed-air systems as well as links to the other parts of ISO 8573, either for the measurement of compressed air purity or the specification of compressed-air purity requirements.
-    In addition to the above-mentioned contaminants of particles, water and oil, ISO 8573-1:2010 also identifies gaseous and microbiological contaminants.
-    Guidance is given in Annex A on the application of ISO 8573-1:2010.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 8573-1:2010 spécifie les classes de pureté de l'air comprimé concernant la présence de particules, d'eau et d'huile, quel que soit leur emplacement dans le système d'air comprimé pour lequel l'air est spécifié ou mesuré.
-    L'ISO 8573-1:2010 fournit des informations générales sur les polluants présents dans les systèmes d'air comprimé ainsi que des liens vers d'autres parties de la série de l'ISO 8573 en matière de mesurage de la pureté de l'air comprimé ou de la spécification des exigences de pureté de l'air comprimé.
-    Au-delà des polluants de particules, d'eau et d'huile mentionnés ci-dessus, l'ISO 8573-1:2010 identifie également des polluants gazeux et microbiologiques.
+  content: ISO 8573-1:2010 specifies purity classes of compressed air with respect
+    to particles, water and oil independent of the location in the compressed air
+    system at which the air is specified or measured. ISO 8573-1:2010 provides general
+    information about contaminants in compressed-air systems as well as links to the
+    other parts of ISO 8573, either for the measurement of compressed air purity or
+    the specification of compressed-air purity requirements. In addition to the above-mentioned
+    contaminants of particles, water and oil, ISO 8573-1:2010 also identifies gaseous
+    and microbiological contaminants. Guidance is given in Annex A on the application
+    of ISO 8573-1:2010.
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2010'
   owner:
@@ -114,24 +105,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8573-1:2001
+    formattedref:
+      content: ISO/AWI 8573-1
+    docidentifier:
+    - content: ISO/AWI 8573-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8573-1:2001
     docidentifier:
     - content: ISO 8573-1:2001
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 8573-1:2001/Cor 1:2002
+    formattedref:
+      content: ISO 8573-1:2001/Cor 1:2002
     docidentifier:
     - content: ISO 8573-1:2001/Cor 1:2002
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -141,5 +140,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      part: 1
-      content: ISO 8573
+      content: '46418'

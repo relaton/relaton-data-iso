@@ -1,52 +1,44 @@
 ---
 id: ISOIEC931441999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fibre Distributed Data Interface (FDDI)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Single Mode Fibre Physical Layer Medium Dependent (SMF-PMD)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Fibre Distributed Data Interface (FDDI) - Part
     4: Single Mode Fibre Physical Layer Medium Dependent (SMF-PMD)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de données distribuées sur fibre (FDDI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Couche physique de fibre à mode unique dépendante du milieu
     (SMF-PMD)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interface de données distribuées sur
     fibre (FDDI) - Partie 4: Couche physique de fibre à mode unique dépendante du
     milieu (SMF-PMD)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/2425.html
@@ -65,7 +57,7 @@ docidentifier:
 docnumber: '9314'
 date:
 - type: published
-  at: 1999-10
+  at: '1999-10-15'
 contributor:
 - role:
   - type: publisher
@@ -105,65 +97,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: This part of ISO/IEC 9314 specifies the Single-mode fibre Physical Layer
-    Medium Dependent (SMF-PMD) requirements for the Fibre Distributed Data Interface
-    (FDDI).FDDI provides a high bandwidth (100 megabits per second) general purpose
-    interconnection among computers and peripheral equipment using a fibre optic waveguide
-    as the transmission medium. The FDDI may be configured to support a sustained
-    transfer rate of approximately80 megabits (10 megabytes) per second. The FDDI
-    may not meet the response time requirements of all unbuffered high speed devices.
-    The FDDI establishes the connection among many stations distributed over distances
-    of several kilometers in extent. Default values for FDDI were calculated on the
-    basis of 1000 physical connections and a total fibre path length of 200 kilometers
-    (see the MAC Standard – ISO/IEC 9314-2 or ISO/IEC 9314-8).The FDDI consists of:1)
-    The Physical Layer Medium Dependent (PMD) is specified in four alternative standards:a)
-    ISO/IEC 9314-3 (FDDI PMD) corresponding to multimode fibre (MMF) which actuallymeans
-    "FDDI MMF-PMD".b) This standard ISO/IEC 9314-4 (SMF-PMD) which contains the requirements
-    for singlemodefibre (SMF) physical connections between stations.c) ISO/IEC 9314-9
-    (FDDI LCF-PMD), an alternative lower cost multimode fibre (LCF) forshorter distances.d)
-    ISO/IEC 9314-10 (FDDI TP-PMD), a copper twisted pair (TP) alternative.An FDDI
-    ring can be made up of all these alternatives. (For some restrictions see 6.4).The
-    PMD provides all services necessary to transport a suitably coded digital bit
-    streamfrom station to station. The SMF-PMD specifies the point of interconnectionrequirements
-    for FDDI stations and cable plants at both sides of the Media InterfaceConnector
-    (MIC) for conforming stations utilizing single-mode fibre.SMF-PMD includes the
-    following:i) The optical power budgets for two (2) categories of Active Output
-    and Active InputInterfaces using single-mode fibre optic cables and optical bypass
-    switchesii) The MIC Receptacle mechanical mating requirements including the keying
-    featuresiii) The single-mode fibre optic cable requirementsiv) The services provided
-    by PMD to PHY and SMT2) A Physical Layer Protocol (PHY), which provides connection
-    between multimode or singlemodePMD and the Data Link Layer (DLL). PHY establishes
-    clock synchronization with theupstream code-bit data stream and decodes this incoming
-    code-bit stream into anequivalent symbol stream for use by the higher layers.
-    PHY provides encoding anddecoding between data and control indicator symbols and
-    code-bits, medium conditioningand initializing, the synchronization of incoming
-    and outgoing code-bit clocks, and thedelineation of octet boundaries as required
-    for the transmission of information to or fromhigher layers. Information to be
-    transmitted on the interface medium is encoded by the PHYinto a grouped transmission
-    code.3) A Data Link Layer (DLL), which controls the accessing of the medium and
-    the generationand verification of frame check sequences to assure the proper delivery
-    of valid data to the– 8 – 9314-4 © ISO/IEC:1999(E)higher layers. DLL also concerns
-    itself with the generation and recognition of deviceaddresses and the peer-to-peer
-    associations within the FDDI network. For purpose of thePHY, references to DLL
-    are made in terms of the Media Access Control (MAC) entity, whichis the lowest
-    sublayer of DLL.4) A Station Management (SMT), which provides the control necessary
-    at the station level to manage the processes underway in the various FDDI layers
-    such that a station may work cooperatively on a ring. SMT provides services such
-    as control of configuration management, fault isolation and recovery, and scheduling
-    procedures.This part of ISO/IEC 9314 is a supporting document to ISO/IEC 9314-1
-    which should be read inconjunction with it.The SMT document ISO/IEC 9314-6 should
-    be consulted for information pertaining tosupported FDDI station and network configurations.The
-    set of FDDI standards specifies the interfaces, functions and operations necessary
-    toinsure interoperability between conforming FDDI implementations. This part of
-    ISO/IEC 9314 isa functional description. Conforming implementations may employ
-    any design technique whichdoes not violate interoperability.
-- language: fr
   script: Latn
   content: This part of ISO/IEC 9314 specifies the Single-mode fibre Physical Layer
     Medium Dependent (SMF-PMD) requirements for the Fibre Distributed Data Interface
@@ -229,9 +166,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

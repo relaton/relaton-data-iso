@@ -1,41 +1,37 @@
 ---
 id: ISO12301992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Photography
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of flash guide numbers
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Photography - Determination of flash guide numbers
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Photographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination des nombres-guides des appareils à éclairs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Photographie - Détermination des nombres-guides des appareils à éclairs
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5849.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5849:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/58/5849.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '1230'
 date:
 - type: published
-  at: 1992-02
+  at: '1992-02-27'
 contributor:
 - role:
   - type: publisher
@@ -80,16 +76,10 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: Specifies a method for measuring the reflector factor. Contains formulae
-    for calculating the ISO guide number for flash lamps (with and without integral
-    factors resp.). Gives terms and definitions.
-- language: fr
   script: Latn
   content: Specifies a method for measuring the reflector factor. Contains formulae
     for calculating the ISO guide number for flash lamps (with and without integral
@@ -108,27 +98,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1230:1973
+    formattedref:
+      content: ISO/WD 1230
     docidentifier:
-    - content: ISO 1230:1973
+    - content: ISO/WD 1230
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1230:2007
+    formattedref:
+      content: ISO 1230:2007
     docidentifier:
     - content: ISO 1230:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2007-08-22'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1230:1973
+    docidentifier:
+    - content: ISO 1230:1973
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

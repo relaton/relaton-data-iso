@@ -1,41 +1,37 @@
 ---
 id: ISO255772008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: MarcXchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - MarcXchange
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: MarcXchange
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - MarcXchange
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/43005.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:43005:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/30/43005.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '25577'
 date:
 - type: published
-  at: 2008-12
+  at: '2008-11-25'
 contributor:
 - role:
   - type: publisher
@@ -86,34 +82,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 25577:2008 specifies the requirements for a generalized XML-based exchange format for bibliographic records as well as other types of metadata.
-    ISO 25577:2008 does not define the length or the content of individual records and does not assign any meaning to tags, indicators, or identifiers, these specifications being the functions of an implementation format.
-    ISO 25577:2008 describes a generalized structure, a framework designed primarily for communication between data processing systems, but may also be relevant for use as a processing format within systems.
-    MarcXchange could potentially be used as follows:
-    - for representing a complete MARC record or a set of MARC records in XML;
-    - for original resource description in XML syntax;
-    - as an extension schema to METS (Metadata Encoding and Transmission Standard);
-    - for exchange of MARC records in XML;
-    - for transfer of MARC records in web services like SRU (search/retrieval via URL);
-    - for publisher transmission of data;
-    - as a temporary format in all kinds of data transformation or manipulation, e.g. conversion, publication, editing, validation;
-    - for metadata in XML that may be packaged with an electronic resource.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 25577:2008 spécifie les exigences nécessaires à un format généralisé d'échange de notices bibliographiques aussi bien que d'autres types de métadonnées, fondé sur l'XML.
-    L'ISO 25577:2008 ne définit ni la longueur ni le contenu des notices individuelles et ne confère aucune signification aux étiquettes, indicateurs ou identifiants, ces spécifications constituant les fonctions d'un format de mise en œuvre.
-    L'ISO 25577:2008 décrit une structure généralisée, un cadre conçu au premier chef pour la communication entre systèmes informatiques, mais son utilisation en tant que format de traitement au sein de ces systèmes peut également s'avérer pertinente.
-    MarcXchange peut potentiellement servir
-    - à représenter une notice complète MARC ou un jeu de notices MARC en XML,
-    - à la description d'une ressource originale en syntaxe XML,
-    - de schéma d'extension à METS (Standard d'encodage et de transmission de métadonnées),
-    - à l'échange de notices MARC en XML,
-    - au transfert de notices MARC via les services en ligne comme le SRW (Search/Retrieve Web service),
-    - à la transmission de données à l'éditeur,
-    - de format temporaire pour toutes les formes de transformation ou de manipulation de données, par exemple conversion, publication, édition, validation, et
-    - de métadonnées en XML pouvant être enveloppées avec une ressource électronique.
+  content: 'ISO 25577:2008 specifies the requirements for a generalized XML-based
+    exchange format for bibliographic records as well as other types of metadata.
+    ISO 25577:2008 does not define the length or the content of individual records
+    and does not assign any meaning to tags, indicators, or identifiers, these specifications
+    being the functions of an implementation format. ISO 25577:2008 describes a generalized
+    structure, a framework designed primarily for communication between data processing
+    systems, but may also be relevant for use as a processing format within systems.
+    MarcXchange could potentially be used as follows: for representing a complete
+    MARC record or a set of MARC records in XML; for original resource description
+    in XML syntax; as an extension schema to METS (Metadata Encoding and Transmission
+    Standard); for exchange of MARC records in XML; for transfer of MARC records in
+    web services like SRU (search/retrieval via URL); for publisher transmission of
+    data; as a temporary format in all kinds of data transformation or manipulation,
+    e.g. conversion, publication, editing, validation; for metadata in XML that may
+    be packaged with an electronic resource.'
 status:
   stage:
     content: '95'
@@ -126,21 +109,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 25577:2013
+    formattedref:
+      content: ISO 25577:2013
     docidentifier:
     - content: ISO 25577:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-12-11'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

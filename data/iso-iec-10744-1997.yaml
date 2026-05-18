@@ -1,39 +1,33 @@
 ---
 id: ISOIEC107441997
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Hypermedia/Time-based Structuring Language (HyTime)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Hypermedia/Time-based Structuring Language (HyTime)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Langage de structuration temporelle/hypermédia (HyTime)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Langage de structuration temporelle/hypermédia
     (HyTime)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/29303.html
@@ -52,7 +46,7 @@ docidentifier:
 docnumber: '10744'
 date:
 - type: published
-  at: 1997-08
+  at: '1997-09-04'
 contributor:
 - role:
   - type: publisher
@@ -92,38 +86,53 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard defines a language and underlying model for the representation of “hyperdocuments” that link and synchronize static and dynamic (time-based) information contained in multiple conventional and multimedia documents and information objects. The language is known as the “Hypermedimime-based Structuring Language”, or “HyTime”.
-    HyTime can represent time in both the abstract, or “musical” sense, and in user-defined real-time units. It also provides a way of relating the two so that elements of time-dependent documents can be synchronized.
-    NOTE 7 This facility extends to the representation of multimedia information the power, once limited to conventional documents, to distinguish intrinsic information content from style considerations.
-    HyTime’s techniques for representing its time model are equally applicable to spatial and other domains; all are treated as systems for measuring along different axes of a coordinate space. Arbitrary cross-references and access paths based on external interactions (“hypermedia links”) are also supported.
-    HyTime’s time representation contains sufficient information to derive the durations of both control (“gestural”) data (e.g., control information for audio or video hardware) and visual data (e.g., a music score, presentation storyboard, or television script).
-    The media formats and data notations of objects in a HyTime hyperdocument can include formatted and unformatted documents, audio and video segments, still images, and object-oriented graphics, among others. Users can specify the positions and sizes of occurrences of objects in space and time, using a variety of measurement units and granularities Temporal requirements of applications ranging from animation to project management can be supported by choosing appropriate measurement granules.
-    NOTE 8 This International Standard does not address the representation of audio or video content data, but simply defines the means by which the start-time and duration of such data can be synchronized with other digitized information. Nor does it specify the layout process by which occurrences of unformatted documents and other information objects can be made to fit the positions and sizes specified for them.
-    HyTime is an enabling standard, not an encompassing one. AS a result, the objects comprising a HyTime hyperdocument are free to conform to any application architectures, or to document architectures imposed by standards, and to be represented in any notation permitted by those architectures Only the “hub document”, which may determine the hyperdocument membership, must conform PO HyTime in addition to any other architectures to which it may conform.
-    HyTime is designed for flexibility and extensibility. Optional subsets can be implemented, alone or in conjunction with user-defined extensions.
-    The Hypermedia/Time-based Structuring Language (HyTime) is an SGML application conforming to International Standard IS0 8879 - Standard Generalized Markup Language.
-    The hyperdocument interchange format recommended in this International Standard is IS0 9069, the SGML Document Interchange Format (SDIF). SDIF is defined in Abstract Syntax Notation 1 (ISO/IEC 8824) and can be encoded according to the basic encoding rules of ISOAEC 8825 for interchange using protocols conforming to the Open Systems Interconnection (OSI) model. Other interchange formats can also be used.
-- language: fr
-  script: Latn
-  content: |-
-    This International Standard defines a language and underlying model for the representation of “hyperdocuments” that link and synchronize static and dynamic (time-based) information contained in multiple conventional and multimedia documents and information objects. The language is known as the “Hypermedimime-based Structuring Language”, or “HyTime”.
-    HyTime can represent time in both the abstract, or “musical” sense, and in user-defined real-time units. It also provides a way of relating the two so that elements of time-dependent documents can be synchronized.
-    NOTE 7 This facility extends to the representation of multimedia information the power, once limited to conventional documents, to distinguish intrinsic information content from style considerations.
-    HyTime’s techniques for representing its time model are equally applicable to spatial and other domains; all are treated as systems for measuring along different axes of a coordinate space. Arbitrary cross-references and access paths based on external interactions (“hypermedia links”) are also supported.
-    HyTime’s time representation contains sufficient information to derive the durations of both control (“gestural”) data (e.g., control information for audio or video hardware) and visual data (e.g., a music score, presentation storyboard, or television script).
-    The media formats and data notations of objects in a HyTime hyperdocument can include formatted and unformatted documents, audio and video segments, still images, and object-oriented graphics, among others. Users can specify the positions and sizes of occurrences of objects in space and time, using a variety of measurement units and granularities Temporal requirements of applications ranging from animation to project management can be supported by choosing appropriate measurement granules.
-    NOTE 8 This International Standard does not address the representation of audio or video content data, but simply defines the means by which the start-time and duration of such data can be synchronized with other digitized information. Nor does it specify the layout process by which occurrences of unformatted documents and other information objects can be made to fit the positions and sizes specified for them.
-    HyTime is an enabling standard, not an encompassing one. AS a result, the objects comprising a HyTime hyperdocument are free to conform to any application architectures, or to document architectures imposed by standards, and to be represented in any notation permitted by those architectures Only the “hub document”, which may determine the hyperdocument membership, must conform PO HyTime in addition to any other architectures to which it may conform.
-    HyTime is designed for flexibility and extensibility. Optional subsets can be implemented, alone or in conjunction with user-defined extensions.
-    The Hypermedia/Time-based Structuring Language (HyTime) is an SGML application conforming to International Standard IS0 8879 - Standard Generalized Markup Language.
-    The hyperdocument interchange format recommended in this International Standard is IS0 9069, the SGML Document Interchange Format (SDIF). SDIF is defined in Abstract Syntax Notation 1 (ISO/IEC 8824) and can be encoded according to the basic encoding rules of ISOAEC 8825 for interchange using protocols conforming to the Open Systems Interconnection (OSI) model. Other interchange formats can also be used.
+  content: This International Standard defines a language and underlying model for
+    the representation of “hyperdocuments” that link and synchronize static and dynamic
+    (time-based) information contained in multiple conventional and multimedia documents
+    and information objects. The language is known as the “Hypermedimime-based Structuring
+    Language”, or “HyTime”. HyTime can represent time in both the abstract, or “musical”
+    sense, and in user-defined real-time units. It also provides a way of relating
+    the two so that elements of time-dependent documents can be synchronized. NOTE
+    7 This facility extends to the representation of multimedia information the power,
+    once limited to conventional documents, to distinguish intrinsic information content
+    from style considerations. HyTime’s techniques for representing its time model
+    are equally applicable to spatial and other domains; all are treated as systems
+    for measuring along different axes of a coordinate space. Arbitrary cross-references
+    and access paths based on external interactions (“hypermedia links”) are also
+    supported. HyTime’s time representation contains sufficient information to derive
+    the durations of both control (“gestural”) data (e.g., control information for
+    audio or video hardware) and visual data (e.g., a music score, presentation storyboard,
+    or television script). The media formats and data notations of objects in a HyTime
+    hyperdocument can include formatted and unformatted documents, audio and video
+    segments, still images, and object-oriented graphics, among others. Users can
+    specify the positions and sizes of occurrences of objects in space and time, using
+    a variety of measurement units and granularities Temporal requirements of applications
+    ranging from animation to project management can be supported by choosing appropriate
+    measurement granules. NOTE 8 This International Standard does not address the
+    representation of audio or video content data, but simply defines the means by
+    which the start-time and duration of such data can be synchronized with other
+    digitized information. Nor does it specify the layout process by which occurrences
+    of unformatted documents and other information objects can be made to fit the
+    positions and sizes specified for them. HyTime is an enabling standard, not an
+    encompassing one. AS a result, the objects comprising a HyTime hyperdocument are
+    free to conform to any application architectures, or to document architectures
+    imposed by standards, and to be represented in any notation permitted by those
+    architectures Only the “hub document”, which may determine the hyperdocument membership,
+    must conform PO HyTime in addition to any other architectures to which it may
+    conform. HyTime is designed for flexibility and extensibility. Optional subsets
+    can be implemented, alone or in conjunction with user-defined extensions. The
+    Hypermedia/Time-based Structuring Language (HyTime) is an SGML application conforming
+    to International Standard IS0 8879 - Standard Generalized Markup Language. The
+    hyperdocument interchange format recommended in this International Standard is
+    IS0 9069, the SGML Document Interchange Format (SDIF). SDIF is defined in Abstract
+    Syntax Notation 1 (ISO/IEC 8824) and can be encoded according to the basic encoding
+    rules of ISOAEC 8825 for interchange using protocols conforming to the Open Systems
+    Interconnection (OSI) model. Other interchange formats can also be used.
 status:
   stage:
     content: '90'
@@ -136,18 +145,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 10744:1992
+    formattedref:
+      content: ISO/IEC 10744:1992
     docidentifier:
     - content: ISO/IEC 10744:1992
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

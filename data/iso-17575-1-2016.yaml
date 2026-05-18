@@ -1,50 +1,42 @@
 ---
 id: ISO1757512016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Electronic fee collection
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Application interface definition for autonomous systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Charging'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Electronic fee collection - Application interface definition for autonomous
     systems - Part 1: Charging'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception du télépéage
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Définition de l'interface d'application pour les systèmes autonomes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Imputation'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Perception du télépéage - Définition de l''interface d''application pour
     les systèmes autonomes - Partie 1: Imputation'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/64161.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 17575-1:2016(E)
   type: iso-reference
-- content: urn:iso:std:iso:17575:-1:stage-90.93
+- content: urn:iso:std:iso:17575:-1:stage-90.20
   type: URN
 docnumber: '17575'
 date:
 - type: published
-  at: 2016-01
+  at: '2016-01-18'
 contributor:
 - role:
   - type: publisher
@@ -100,43 +92,36 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 17575-1:2016 defines the format and semantics of the data exchange between a Front End (OBE plus optional proxy) and corresponding Back Ends in autonomous toll schemes. It defines the data elements that are used to generate charge reports containing information about the road usage of a vehicle for certain time intervals, sent from the Front End to the Back End. It also defines the data that can be used to re-configure the ongoing process of gathering charge relevant information in the Front End. The scope is shown in Figure 1.
-    The constitution of the charge report is dependent on configuration data that are assumed to be present in the Front End. The assembly of charge reports can be configured for each individual toll scheme according to local needs. Charge reports generated in accordance with this part of ISO 17575 are consistent with the requirements derived from the architectural concept defined in ISO 17573:2010.
-    The definitions in ISO 17575-1:2016 comprise
-    -      reporting data, i.e. data for transferring road usage data from Front End to Back End, including a response from the Back End towards the Front End,
-    -      data for supporting security mechanisms,
-    -      contract data, i.e. data for identifying contractually essential entities,
-    -      road usage data, i.e. data for reporting the amount of road usage,
-    -      account data for managing a payment account,
-    -      versioning data, and
-    -      compliance checking data, i.e. data imported from ISO 12813:2015, which are required in compliance checking communication.
-    Annex A contains the data type specifications using ASN.1 notation.
-    The protocol implementation conformity statements (PICS) proforma are provided in Annex B.
-    Annex C provides a graphical presentation of the structure of the data elements described in Clause 7.
-    Annex D provides information on how this part of ISO 17575 can be used in EETS environment and how the requirements that are specified in the EU-Decision 2009/750 are addressed by this standard.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 17575-1:2016 définit le format et la sémantique pour l'échange de données entre un système frontal (OBE plus proxy optionnel) et des systèmes centraux correspondants dans des systèmes de péage autonomes. Elle définit les éléments de données utilisés pour générer des rapports de perception contenant des informations sur l'utilisation du réseau routier par un véhicule pendant des intervalles de temps donnés, envoyées du système frontal au système central. Elle définit également les données qui peuvent être utilisées pour reconfigurer le processus de collecte permanente des informations d'imputation pertinentes dans le système frontal. Son domaine d'application est représenté à la Figure 1.
-    La constitution d'un rapport de perception dépend des données de configuration supposées être présentes dans le système frontal. L'ensemble des rapports de perception peut être configuré pour chaque système de péage individuel selon les besoins locaux. Les rapports de perception générés conformément à la présente partie de l'ISO 17575 concordent avec les exigences dérivées du concept architectural défini dans l'ISO 17573:2010.
-    Dans l'ISO 17575-1:2016, les définitions comprennent
-    -      les données des rapports, c'est-à-dire les données permettant de transférer des données d'utilisation du réseau routier d'un système frontal à un système central, y compris une réponse du système central au système frontal,
-    -      les données de prise en charge des mécanismes de sécurité,
-    -      les données contractuelles, c'est-à-dire les données permettant d'identifier les entités contractuellement essentielles,
-    -      les données d'utilisation du réseau routier, c'est-à-dire les données permettant de communiquer l'utilisation qui est faite du réseau routier,
-    -      les données de compte pour gérer un compte de paiement,
-    -      les données de contrôle des versions,
-    -      les données de contrôle de conformité, c'est-à-dire les données importées de l'ISO 12813:2015, qui sont requises dans les communications de contrôle de conformité.
-    L'Annexe A donne la spécification du type de données dans la notation ASN.1.
-    Les formulaires PICS (déclaration de conformité d'implémentation de protocole) sont fournis en Annexe B.
-    L'Annexe C comprend une représentation graphique de la structure des éléments de données décrits à l'Article 7.
-    L'Annexe D fournit des informations sur la façon dont la présente partie de l'ISO 17575 peut être appliquée dans un environnement SET et sur la manière dont la présente norme couvre les exigences spécifiées dans la Décision de la Commission 2009/750.
+  content: ISO 17575-1:2016 defines the format and semantics of the data exchange
+    between a Front End (OBE plus optional proxy) and corresponding Back Ends in autonomous
+    toll schemes. It defines the data elements that are used to generate charge reports
+    containing information about the road usage of a vehicle for certain time intervals,
+    sent from the Front End to the Back End. It also defines the data that can be
+    used to re-configure the ongoing process of gathering charge relevant information
+    in the Front End. The scope is shown in Figure 1. The constitution of the charge
+    report is dependent on configuration data that are assumed to be present in the
+    Front End. The assembly of charge reports can be configured for each individual
+    toll scheme according to local needs. Charge reports generated in accordance with
+    this part of ISO 17575 are consistent with the requirements derived from the architectural
+    concept defined in ISO 17573:2010. The definitions in ISO 17575-1:2016 comprise
+    - reporting data, i.e. data for transferring road usage data from Front End to
+    Back End, including a response from the Back End towards the Front End, - data
+    for supporting security mechanisms, - contract data, i.e. data for identifying
+    contractually essential entities, - road usage data, i.e. data for reporting the
+    amount of road usage, - account data for managing a payment account, - versioning
+    data, and - compliance checking data, i.e. data imported from ISO 12813:2015,
+    which are required in compliance checking communication. Annex A contains the
+    data type specifications using ASN.1 notation. The protocol implementation conformity
+    statements (PICS) proforma are provided in Annex B. Annex C provides a graphical
+    presentation of the structure of the data elements described in Clause 7. Annex
+    D provides information on how this part of ISO 17575 can be used in EETS environment
+    and how the requirements that are specified in the EU-Decision 2009/750 are addressed
+    by this standard.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2016'
   owner:
@@ -144,34 +129,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/TS 17575-1:2010
+    formattedref:
+      content: ISO/TS 17575-1:2010
     docidentifier:
     - content: ISO/TS 17575-1:2010
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/TS 17575-1:2010/Cor 1:2013
+    formattedref:
+      content: ISO/TS 17575-1:2010/Cor 1:2013
     docidentifier:
     - content: ISO/TS 17575-1:2010/Cor 1:2013
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

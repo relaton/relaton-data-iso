@@ -1,50 +1,42 @@
 ---
 id: ISOIEC49092006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Financial transaction cards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Magnetic stripe data content for track 3
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Identification cards - Financial transaction cards - Magnetic stripe data
     content for track 3
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes de transactions financières
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Contenu des données de plage magnétique pour la piste 3
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification - Cartes de transactions financières - Contenu
     des données de plage magnétique pour la piste 3
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/43309.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '4909'
 date:
 - type: published
-  at: 2006-07
+  at: '2006-06-29'
 contributor:
 - role:
   - type: publisher
@@ -103,24 +95,27 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 4909:2006 establishes specifications for financial transaction cards using track 3 and is intended to permit interchange based on the use of magnetic stripe encoded information. It specifies the data content and physical location of read/write information on track 3 and is to be used in conjunction with the relevant parts of ISO/IEC 7811 and ISO/IEC 7812.
-    ISO/IEC 4909:2006 recognizes the need for formats of track 3 which can be used independently of, or in conjunction with, track 2 as defined in ISO/IEC 7813. This approach is intended to permit the greatest degree of flexibility within the financial community in facilitating international interchange.
-    Using track 3 in conjunction with track 2 is a mode of operation in both on-line and off-line interchange environments. This mode of operation requires that the original encoded data on track 2 be read; the data on track 3 be read; and, if update is required, all the data on track 3 be rewritten.
-    Independent use of track 3 is an alternative mode of operation permitting both on-line interchange and off-line interchange based on mutual agreement between interested parties. It requires reading only of the data on track 3 and, if update is required, the rewriting of all the data on track 3.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 4909:2006 establishes specifications for financial transaction cards using track 3 and is intended to permit interchange based on the use of magnetic stripe encoded information. It specifies the data content and physical location of read/write information on track 3 and is to be used in conjunction with the relevant parts of ISO/IEC 7811 and ISO/IEC 7812.
-    ISO/IEC 4909:2006 recognizes the need for formats of track 3 which can be used independently of, or in conjunction with, track 2 as defined in ISO/IEC 7813. This approach is intended to permit the greatest degree of flexibility within the financial community in facilitating international interchange.
-    Using track 3 in conjunction with track 2 is a mode of operation in both on-line and off-line interchange environments. This mode of operation requires that the original encoded data on track 2 be read; the data on track 3 be read; and, if update is required, all the data on track 3 be rewritten.
-    Independent use of track 3 is an alternative mode of operation permitting both on-line interchange and off-line interchange based on mutual agreement between interested parties. It requires reading only of the data on track 3 and, if update is required, the rewriting of all the data on track 3.
+  content: ISO/IEC 4909:2006 establishes specifications for financial transaction
+    cards using track 3 and is intended to permit interchange based on the use of
+    magnetic stripe encoded information. It specifies the data content and physical
+    location of read/write information on track 3 and is to be used in conjunction
+    with the relevant parts of ISO/IEC 7811 and ISO/IEC 7812. ISO/IEC 4909:2006 recognizes
+    the need for formats of track 3 which can be used independently of, or in conjunction
+    with, track 2 as defined in ISO/IEC 7813. This approach is intended to permit
+    the greatest degree of flexibility within the financial community in facilitating
+    international interchange. Using track 3 in conjunction with track 2 is a mode
+    of operation in both on-line and off-line interchange environments. This mode
+    of operation requires that the original encoded data on track 2 be read; the data
+    on track 3 be read; and, if update is required, all the data on track 3 be rewritten.
+    Independent use of track 3 is an alternative mode of operation permitting both
+    on-line interchange and off-line interchange based on mutual agreement between
+    interested parties. It requires reading only of the data on track 3 and, if update
+    is required, the rewriting of all the data on track 3.
 status:
   stage:
     content: '90'
@@ -133,18 +128,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 4909:2000
+    formattedref:
+      content: ISO 4909:2000
     docidentifier:
     - content: ISO 4909:2000
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

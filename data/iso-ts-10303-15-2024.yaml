@@ -1,51 +1,43 @@
 ---
 id: ISOTS10303152024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Product data representation and exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 15: Description methods: SysML XMI to XSD transformation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 15: Description methods: SysML XMI to XSD transformation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation et échange de données de produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 15: Méthodes de description: Transformation de SysML XMI en XSD'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 15: Méthodes de description: Transformation
     de SysML XMI en XSD'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/86075.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '10303'
 date:
 - type: published
-  at: 2024-07
+  at: '2024-07-24'
 contributor:
 - role:
   - type: publisher
@@ -95,38 +87,30 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the transformation of SysML (ISO/IEC 19514) constructs to XSD constructs and Schematron (ISO/IEC 19757) constructs for the purpose of representing the SysML model represented in XMI (ISO/IEC 19509) as XML[13] schemas and Schematron rules.
-    The specified mapping is a one-way transformation from SysML information model represented in XMI into an XML schema and Schematron rules. These limitations make the mapping unsuitable for the transformation of arbitrary SysML models.
-    The following are within the scope of this document:
-    —     the specification of the structure, components, and conventions of the XSD for the ISO 10303 series XML implementation method;
-    —     the transformation of SysML metamodel constructs represented in XMI to XSD constructs for the purpose of representing SysML information models as XML schemas;
-    —     the transformation of SysML constructs to Schematron constructs for the purpose of representing the SysML model constraints represented in XMI as Schematron rules.
-    The following are outside the scope of this document:
-    —     the transformation of SysML metamodel constructs into XSD constructs that are not used in the STEP Extended Architecture;
-    —     the transformation of SysML metamodel constructs into XSD constructs for other purposes than representing SysML constructs as STEP concepts;
-    —     codes and scripts to transform SysML XMI to XSD schema and to Schematron rules;
-    —     process, codes, and scripts to apply Schematron rules on XML documents with a resulting human-readable report.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the transformation of SysML (ISO/IEC 19514) constructs to XSD constructs and Schematron (ISO/IEC 19757) constructs for the purpose of representing the SysML model represented in XMI (ISO/IEC 19509) as XML[13] schemas and Schematron rules.
-    The specified mapping is a one-way transformation from SysML information model represented in XMI into an XML schema and Schematron rules. These limitations make the mapping unsuitable for the transformation of arbitrary SysML models.
-    The following are within the scope of this document:
-    —     the specification of the structure, components, and conventions of the XSD for the ISO 10303 series XML implementation method;
-    —     the transformation of SysML metamodel constructs represented in XMI to XSD constructs for the purpose of representing SysML information models as XML schemas;
-    —     the transformation of SysML constructs to Schematron constructs for the purpose of representing the SysML model constraints represented in XMI as Schematron rules.
-    The following are outside the scope of this document:
-    —     the transformation of SysML metamodel constructs into XSD constructs that are not used in the STEP Extended Architecture;
-    —     the transformation of SysML metamodel constructs into XSD constructs for other purposes than representing SysML constructs as STEP concepts;
-    —     codes and scripts to transform SysML XMI to XSD schema and to Schematron rules;
-    —     process, codes, and scripts to apply Schematron rules on XML documents with a resulting human-readable report.
+  content: 'This document specifies the transformation of SysML (ISO/IEC 19514) constructs
+    to XSD constructs and Schematron (ISO/IEC 19757) constructs for the purpose of
+    representing the SysML model represented in XMI (ISO/IEC 19509) as XML[13] schemas
+    and Schematron rules. The specified mapping is a one-way transformation from SysML
+    information model represented in XMI into an XML schema and Schematron rules.
+    These limitations make the mapping unsuitable for the transformation of arbitrary
+    SysML models. The following are within the scope of this document: —     the specification
+    of the structure, components, and conventions of the XSD for the ISO 10303 series
+    XML implementation method; —     the transformation of SysML metamodel constructs
+    represented in XMI to XSD constructs for the purpose of representing SysML information
+    models as XML schemas; —     the transformation of SysML constructs to Schematron
+    constructs for the purpose of representing the SysML model constraints represented
+    in XMI as Schematron rules. The following are outside the scope of this document:
+    —     the transformation of SysML metamodel constructs into XSD constructs that
+    are not used in the STEP Extended Architecture; —     the transformation of SysML
+    metamodel constructs into XSD constructs for other purposes than representing
+    SysML constructs as STEP concepts; —     codes and scripts to transform SysML
+    XMI to XSD schema and to Schematron rules; —     process, codes, and scripts to
+    apply Schematron rules on XML documents with a resulting human-readable report.'
 status:
   stage:
     content: '60'
@@ -139,18 +123,18 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/TS 10303-15:2021
+    formattedref:
+      content: ISO/TS 10303-15:2021
     docidentifier:
     - content: ISO/TS 10303-15:2021
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

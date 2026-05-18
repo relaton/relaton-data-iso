@@ -1,41 +1,37 @@
 ---
 id: ISO40321999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hexagon nuts, style 1
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Product grades A and B
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Hexagon nuts, style 1 - Product grades A and B
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Écrous hexagonaux, style 1
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Grades A et B
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Écrous hexagonaux, style 1 - Grades A et B
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/26382.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26382:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/63/26382.detail.rss
 docidentifier:
@@ -49,9 +45,7 @@ docidentifier:
 docnumber: '4032'
 date:
 - type: published
-  at: 1999-08
-- type: corrected
-  at: 2001-03
+  at: '1999-08-26'
 contributor:
 - role:
   - type: publisher
@@ -85,12 +79,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale spécifie les caractéristiques des écrous hexagonaux de style 1, de filetage M1,6 à M64 inclus, de grade A pour les filetages  < ou = M16 et de grade B pour les filetages > M16. Si, dans des cas particuliers, des spécifications autres que celles figurant dans la présente Norme internationale sont requises, il est recommandé de les prendre dans les Normes internationales existantes, par exemple ISO 724, ISO 898-2, ISO 965-1, ISO 3506-2 et ISO 4759-1.  NOTE: Pour les écrous hexagonaux de style 2, voir l'ISO 4033.
 status:
   stage:
     content: '95'
@@ -105,27 +93,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4032:1986
-    docidentifier:
-    - content: ISO 4032:1986
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 4032:2012
+    formattedref:
+      content: ISO 4032:2012
     docidentifier:
     - content: ISO 4032:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2012-12-13'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4032:1986
+    docidentifier:
+    - content: ISO 4032:1986
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISO191102016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Methodology for feature cataloguing
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Methodology for feature cataloguing
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodologie de catalogage des entités
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Méthodologie de catalogage des entités
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/57303.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '19110'
 date:
 - type: published
-  at: 2016-12
+  at: '2016-11-28'
 contributor:
 - role:
   - type: publisher
@@ -83,21 +77,28 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 19110:2016 defines the methodology for cataloguing feature types. This document specifies how feature types can be organized into a feature catalogue and presented to the users of a set of geographic data. This document is applicable to creating catalogues of feature types in previously uncatalogued domains and to revising existing feature catalogues to comply with standard practice. This document applies to the cataloguing of feature types that are represented in digital form. Its principles can be extended to the cataloguing of other forms of geographic data. Feature catalogues are independent of feature concept dictionaries defined in ISO 19126 and can be specified without having to use or create a Feature Concept Dictionary.
-    ISO 19110:2016 is applicable to the definition of geographic features at the type level. This document is not applicable to the representation of individual instances of each type. This document excludes portrayal schemas as specified in ISO 19117.
-    ISO 19110:2016 may be used as a basis for defining the universe of discourse being modelled in a particular application, or to standardize general aspects of real world features being modelled in more than one application.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 19110:2016 définit la méthodologie de catalogage des types d'entités. Il spécifie comment les types d'entités peuvent être organisés dans un catalogue d'entités et présentés aux utilisateurs d'un jeu de données géographiques. Le présent document s'applique à la création de catalogues de types d'entités dans des domaines jusqu'ici non catalogués et à la révision des catalogues d'entités existants pour les rendre conformes aux pratiques normalisées. Il s'applique au catalogage des types d'entités qui sont représentés sous forme numérique. Ses principes peuvent être élargis au catalogage d'autres formes de données géographiques. Les catalogues d'entités sont indépendants des dictionnaires de concepts d'entités définis dans l'ISO 19126 et il est possible de les spécifier sans utiliser ni créer de dictionnaire de concepts d'entités.
-    L'ISO 19110:2016 s'applique à la définition d'entités géographiques au niveau du type d'entité. Il ne s'applique pas à la représentation des instances individuelles de chaque type. Il exclut les schémas de présentation tels que spécifiés dans l'ISO 19117.
-    L'ISO 19110:2016 peut être utilisé comme base pour la définition de l'univers du discours modélisé dans une application particulière ou pour normaliser les aspects généraux d'entités du monde réel modélisés dans plusieurs applications.
+  content: ISO 19110:2016 defines the methodology for cataloguing feature types. This
+    document specifies how feature types can be organized into a feature catalogue
+    and presented to the users of a set of geographic data. This document is applicable
+    to creating catalogues of feature types in previously uncatalogued domains and
+    to revising existing feature catalogues to comply with standard practice. This
+    document applies to the cataloguing of feature types that are represented in digital
+    form. Its principles can be extended to the cataloguing of other forms of geographic
+    data. Feature catalogues are independent of feature concept dictionaries defined
+    in ISO 19126 and can be specified without having to use or create a Feature Concept
+    Dictionary. ISO 19110:2016 is applicable to the definition of geographic features
+    at the type level. This document is not applicable to the representation of individual
+    instances of each type. This document excludes portrayal schemas as specified
+    in ISO 19117. ISO 19110:2016 may be used as a basis for defining the universe
+    of discourse being modelled in a particular application, or to standardize general
+    aspects of real world features being modelled in more than one application.
 status:
   stage:
     content: '90'
@@ -110,26 +111,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 19110:2005
-    docidentifier:
-    - content: ISO 19110:2005
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 19110:2005/Amd 1:2011
+    formattedref:
+      content: ISO 19110:2005/Amd 1:2011
     docidentifier:
     - content: ISO 19110:2005/Amd 1:2011
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 19110:2005
+    docidentifier:
+    - content: ISO 19110:2005
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

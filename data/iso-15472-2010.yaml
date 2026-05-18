@@ -1,51 +1,42 @@
 ---
 id: ISO154722010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Surface chemical analysis
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: X-ray photoelectron spectrometers
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Calibration of energy scales
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Surface chemical analysis - X-ray photoelectron spectrometers - Calibration
     of energy scales
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse chimique des surfaces
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spectromètres de photoélectrons X
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Étalonnage en énergie
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse chimique des surfaces - Spectromètres de photoélectrons X - Étalonnage
     en énergie
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/55796.html
@@ -59,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 15472:2010(E)
   type: iso-reference
-- content: urn:iso:std:iso:15472:stage-90.93
+- content: urn:iso:std:iso:15472:stage-90.60
   type: URN
 docnumber: '15472'
 date:
 - type: published
-  at: 2010-05
+  at: '2010-04-19'
 contributor:
 - role:
   - type: publisher
@@ -119,34 +110,11 @@ abstract:
     check, which would confirm the energy measured at each addressable point on the
     energy scale and which would have to be performed in accordance with the manufacturer's
     recommended procedures.
-- language: fr
-  script: Latn
-  content: L'ISO 15472:2010 spécifie une méthode d'étalonnage des échelles d'énergie
-    de liaison des spectromètres de photoélectrons X, appliquée à des fins analytiques
-    générales et utilisant une source X non monochromatique d'Al ou de Mg ou une source
-    X monochromatique d'Al. Elle n'est applicable qu'à des instruments qui comportent
-    un canon ionique pour un nettoyage par pulvérisation. Elle spécifie en outre une
-    méthode permettant d'établir un programme d'étalonnage, de tester la linéarité
-    de l'échelle d'énergie de liaison à une énergie intermédiaire, de confirmer l'incertitude
-    d'étalonnage de l'échelle à une valeur faible et à une valeur élevée de l'énergie
-    de liaison, de corriger les petites dérives de cette échelle et de définir l'intervalle
-    de confiance de l'étalonnage de l'échelle d'énergie de liaison correspondant à
-    une probabilité de 95 %. Cette incertitude comprend la contribution des comportements
-    observés lors d'études interlaboratoires, mais ne couvre pas l'ensemble des défauts
-    qui peuvent se produire. L'ISO 15472:2010 ne s'applique pas à des instruments
-    comportant des erreurs d'échelle d'énergie de liaison qui sont significativement
-    non linéaires, à des instruments fonctionnant en mode de coefficient de retardement
-    constant à des coefficients de retardement inférieurs à 10, à des instruments
-    dont la résolution du spectromètre est inférieure à 1,5 eV, ou à des instruments
-    exigeant des limites de tolérance de ±0,03 eV ou moins. Elle ne fournit pas de
-    vérification complète de l'étalonnage, qui confirmerait l'énergie mesurée à chaque
-    point adressable de l'échelle d'énergie et qui devrait être réalisée conformément
-    aux procédures recommandées par le fabricant.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '2010'
   owner:
@@ -154,18 +122,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 15472:2001
+    formattedref:
+      content: ISO 15472:2001/DAmd 1
+    docidentifier:
+    - content: ISO 15472:2001/DAM 1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 15472:2001
     docidentifier:
     - content: ISO 15472:2001
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -175,4 +151,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 15472
+      content: '55796'

@@ -1,0 +1,161 @@
+---
+id: ISOIECTR14496242025
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Information technology
+  type: title-intro
+- language: en
+  script: Latn
+  content: Coding of audio-visual objects
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 24: Audio and systems interaction'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Information technology - Coding of audio-visual objects - Part 24: Audio
+    and systems interaction'
+  type: main
+- language: fr
+  script: Latn
+  content: Technologies de l'information
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Codage d'objets audiovisuels
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 24: Codage audio et interaction de systèmes'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Technologies de l''information - Codage d''objets audiovisuels - Partie
+    24: Codage audio et interaction de systèmes'
+  type: main
+source:
+- type: src
+  content: https://www.iso.org/standard/79105.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:79105:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/07/91/79105.detail.rss
+docidentifier:
+- content: ISO/IEC TR 14496-24:2025
+  type: ISO
+  primary: true
+- content: ISO/IEC TR 14496-24:2025(E)
+  type: iso-reference
+- content: urn:iso:std:iso-iec:tr:14496:-24:stage-60.60
+  type: URN
+docnumber: '14496'
+date:
+- type: published
+  at: '2025-08-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iec.ch
+    name:
+    - content: International Electrotechnical Commission
+    abbreviation:
+      content: IEC
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Standardization
+    subdivision:
+    - name:
+      - content: Coding of audio, picture, multimedia and hypermedia information
+      identifier:
+      - content: ISO/IEC JTC 1/SC 29
+      type: technical-committee
+      subtype: IEC
+    abbreviation:
+      content: ISO
+edition:
+  content: '2'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This document describes the desired joint behaviour of MPEG-4 Systems
+    (MPEG-4 File Format) and MPEG-4 Audio codecs. It is desired that MPEG-4 Audio
+    encoders and decoders permit finite length signals to be encoded to a file (particularly
+    MPEG-4 files) and decoded again to obtain the identical signal, subject to codec
+    distortions. This enables the use of audio in systems implementations (particularly
+    MPEG-4 Systems), perhaps with other media such as video, in a deterministic fashion.
+    Most importantly, the decoded signal has nothing “extra” at the beginning or “missing”
+    at the end. This permits: a)       an exact "round trip" from raw audio to encoded
+    file back to raw audio (excepting encoding artefacts); b)       predictable synchronization
+    between audio and other media such as video; c)        correct behaviour when
+    performing random access as well as when starting at the beginning of a stream;
+    d)       identical behaviour when edits are applied in the raw domain and the
+    encoded domain (excepting encoding artefacts). It is also expected that there
+    be predictable interoperability between encoders (as represented by files) and
+    decoders. There are two kinds of audio "offsets" (or "delay" in the context of
+    transmission): those that are result from the encoding process, and those that
+    are result from the decoding process. This document is primarily concerned with
+    the latter. These issues are resolved by the following: —     The handling of
+    composition time stamps for audio composition units is specified. Special care
+    is taken in the case of compressed data, like HE-AAC coded audio, that can be
+    decoded in a backward compatible fashion as well as in an enhanced fashion. —    
+    Examples are given that show how a finite length signals can be encoded to an
+    MPEG-4 file and decoded again to obtain the identical signal, excepting codec
+    distortions. Most importantly, the decoded signal has nothing “extra” at the beginning
+    or “missing” at the end.'
+status:
+  stage:
+    content: '60'
+  substage:
+    content: '60'
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: ISO/IEC
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC TR 14496-24:2008
+    docidentifier:
+    - content: ISO/IEC TR 14496-24:2008
+      type: ISO
+      primary: true
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: technical-report
+  flavor: iso
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: '79105'

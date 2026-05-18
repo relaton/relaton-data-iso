@@ -1,41 +1,37 @@
 ---
 id: ISO24092007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints and varnishes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Cross-cut test
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints and varnishes - Cross-cut test
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai de quadrillage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis - Essai de quadrillage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37487.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:37487:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/74/37487.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '2409'
 date:
 - type: published
-  at: 2007-05
+  at: '2007-05-11'
 contributor:
 - role:
   - type: publisher
@@ -81,23 +77,25 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 2409:2007 describes a test method for assessing the resistance of paint coatings to separation from substrates when a right-angle lattice pattern is cut into the coating, penetrating through to the substrate. The property measured by this empirical test procedure depends, among other factors, on the adhesion of the coating to either the preceding coat or the substrate. This procedure is not to be regarded, however, as a means of measuring adhesion.
-    The method described may be used either as a pass/fail test or, where circumstances are appropriate, as a six-step classification test. When applied to a multi-coat system, assessment of the resistance to separation of individual layers of the coating from each other may be made.
-    The test can be carried out on finished objects and/or on specially prepared test specimens.
-    The method is not suitable for coatings of total thickness greater than 250 micrometres or for textured coatings.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 2409:2007 décrit une méthode d'essai pour l'évaluation de la résistance des revêtements de peinture à être séparés de leurs subjectiles lorsqu'on pratique dans le revêtement un quadrillage par incisions jusqu'au subjectile. La propriété évaluée par cette méthode empirique dépend, entre autres, de l'adhérence de la couche soit à la couche précédente, soit au subjectile. Cette méthode ne peut, cependant, être considérée comme un moyen de mesurer l'adhérence.
-    La méthode décrite peut être utilisée soit comme essai «tout ou rien», soit, le cas échéant, comme essai en vue d'une classification en six niveaux. Lorsqu'il est appliqué à un système multicouches, le mode opératoire permet également d'évaluer la résistance des couches individuelles du revêtement à se séparer les unes des autres.
-    L'essai peut être réalisé sur des objets finis et/ou sur des éprouvettes spécialement préparées.
-    La méthode ne convient ni aux revêtements dont l'épaisseur totale dépasse 250 micromètres, ni aux revêtements texturés.
+  content: ISO 2409:2007 describes a test method for assessing the resistance of paint
+    coatings to separation from substrates when a right-angle lattice pattern is cut
+    into the coating, penetrating through to the substrate. The property measured
+    by this empirical test procedure depends, among other factors, on the adhesion
+    of the coating to either the preceding coat or the substrate. This procedure is
+    not to be regarded, however, as a means of measuring adhesion. The method described
+    may be used either as a pass/fail test or, where circumstances are appropriate,
+    as a six-step classification test. When applied to a multi-coat system, assessment
+    of the resistance to separation of individual layers of the coating from each
+    other may be made. The test can be carried out on finished objects and/or on specially
+    prepared test specimens. The method is not suitable for coatings of total thickness
+    greater than 250 micrometres or for textured coatings.
 status:
   stage:
     content: '95'
@@ -112,27 +110,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2409:1992
-    docidentifier:
-    - content: ISO 2409:1992
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 2409:2013
+    formattedref:
+      content: ISO 2409:2013
     docidentifier:
     - content: ISO 2409:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-02-12'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2409:1992
+    docidentifier:
+    - content: ISO 2409:1992
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISO191162025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Positioning services
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Positioning services
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Services de positionnement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Services de positionnement
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/87480.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '19116'
 date:
 - type: published
-  at: 2025-04
+  at: '2025-04-10'
 contributor:
 - role:
   - type: publisher
@@ -88,14 +82,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the data structure and content of an interface that permits communication between position-providing device(s) and position-using device(s) enabling the position-using device(s) to obtain and unambiguously interpret position information and determine, based on a measure of the degree of reliability, whether the resulting position information meets the requirements of the intended use.
-    A standardized interface for positioning allows the integration of reliable position information obtained from non-specific positioning technologies and is useful in various location-focused information applications, such as surveying, navigation, intelligent transportation systems (ITS) and location-based services (LBS).
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document indique la structure des données et le contenu d’une interface qui permet la communication entre un ou plusieurs dispositifs fournissant la position et un ou plusieurs dispositifs utilisant les données de position de sorte que ces derniers puissent obtenir et interpréter les informations de position sans ambigüité et déterminer, en se fondant sur une mesure du degré de fiabilité, si les informations de position qui en résultent répondent aux exigences de l’utilisation prévue.
-    Une interface normalisée de positionnement permet l’intégration d’informations de position fiables obtenues à partir de technologies de positionnement non spécifiques et est utile dans diverses applications utilisant des informations ciblées géographiquement, comme l’arpentage, la navigation, les systèmes de transport intelligents (STI) et les services géoréférencés (LBS).
+  content: This document specifies the data structure and content of an interface
+    that permits communication between position-providing device(s) and position-using
+    device(s) enabling the position-using device(s) to obtain and unambiguously interpret
+    position information and determine, based on a measure of the degree of reliability,
+    whether the resulting position information meets the requirements of the intended
+    use. A standardized interface for positioning allows the integration of reliable
+    position information obtained from non-specific positioning technologies and is
+    useful in various location-focused information applications, such as surveying,
+    navigation, intelligent transportation systems (ITS) and location-based services
+    (LBS).
 status:
   stage:
     content: '60'
@@ -108,26 +104,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 19116:2019
-    docidentifier:
-    - content: ISO 19116:2019
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 19116:2019/Amd 1:2021
+    formattedref:
+      content: ISO 19116:2019/Amd 1:2021
     docidentifier:
     - content: ISO 19116:2019/Amd 1:2021
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 19116:2019
+    docidentifier:
+    - content: ISO 19116:2019
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

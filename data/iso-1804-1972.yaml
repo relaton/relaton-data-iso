@@ -1,41 +1,37 @@
 ---
 id: ISO18041972
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Doors
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Terminology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Doors - Terminology
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Portes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Terminologie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Portes - Terminologie
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6443.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6443:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/64/6443.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '1804'
 date:
 - type: published
-  at: 1972-05
+  at: '1972-05-01'
 contributor:
 - role:
   - type: publisher
@@ -95,21 +91,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 22496:2021
+    formattedref:
+      content: ISO 22496:2021
     docidentifier:
     - content: ISO 22496:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-10-06'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 13316
+    docidentifier:
+    - content: ISO/DIS 13316
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

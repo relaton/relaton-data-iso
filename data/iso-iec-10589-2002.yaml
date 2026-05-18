@@ -1,25 +1,22 @@
 ---
 id: ISOIEC105892002
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Telecommunications and information exchange between systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Intermediate System to Intermediate System intra-domain routeing information
     exchange protocol for use in conjunction with the protocol for providing the connectionless-mode
     network service (ISO 8473)
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Telecommunications and information exchange between
@@ -27,24 +24,20 @@ title:
     exchange protocol for use in conjunction with the protocol for providing the connectionless-mode
     network service (ISO 8473)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Communication de données et échange d'informations entre systèmes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Protocole intra-domaine de routage d'un système intermédiaire à un système
     intermédiaire à utiliser conjointement avec le protocole fournissant le service
     de réseau en mode sans connexion (ISO 8473)
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Communication de données et échange d'informations
@@ -52,7 +45,6 @@ title:
     à un système intermédiaire à utiliser conjointement avec le protocole fournissant
     le service de réseau en mode sans connexion (ISO 8473)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/30932.html
@@ -71,7 +63,7 @@ docidentifier:
 docnumber: '10589'
 date:
 - type: published
-  at: 2002-11
+  at: '2002-11-15'
 contributor:
 - role:
   - type: publisher
@@ -111,48 +103,28 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard specifies a protocol which is used by Network Layer entities operating the protocol specified in
-    ISO 8473 in Intermediate Systems to maintain routeing information for the purpose of routeing within a single routeing
-    domain. The protocol specified in this International Standard relies upon the provision of a connectionless-mode underlying
-    service.1)
-    This International Standard specifies:
-    a) procedures for the transmission of configuration and routeing information between network entities residing in
-    Intermediate Systems within a single routeing domain;
-    b) the encoding of the protocol data units used for the transmission of the configuration and routeing information;
-    c) procedures for the correct interpretation of protocol control information; and
-    d) the functional requirements for implementations claiming conformance to this International Standard.
-    The procedures are defined in terms of
-    a) the interactions between Intermediate system Network entities through the exchange of protocol data units;
-    b) the interactions between a Network entity and an underlying service provider through the exchange of subnetwork service
-    primitives; and
-    c) the constraints on route determination which must be observed by each Intermediate system when each has a routeing
-    information base which is consistent with the others.
-- language: fr
-  script: Latn
-  content: |-
-    This International Standard specifies a protocol which is used by Network Layer entities operating the protocol specified in
-    ISO 8473 in Intermediate Systems to maintain routeing information for the purpose of routeing within a single routeing
-    domain. The protocol specified in this International Standard relies upon the provision of a connectionless-mode underlying
-    service.1)
-    This International Standard specifies:
-    a) procedures for the transmission of configuration and routeing information between network entities residing in
-    Intermediate Systems within a single routeing domain;
-    b) the encoding of the protocol data units used for the transmission of the configuration and routeing information;
-    c) procedures for the correct interpretation of protocol control information; and
-    d) the functional requirements for implementations claiming conformance to this International Standard.
-    The procedures are defined in terms of
-    a) the interactions between Intermediate system Network entities through the exchange of protocol data units;
-    b) the interactions between a Network entity and an underlying service provider through the exchange of subnetwork service
-    primitives; and
-    c) the constraints on route determination which must be observed by each Intermediate system when each has a routeing
-    information base which is consistent with the others.
+  content: 'This International Standard specifies a protocol which is used by Network
+    Layer entities operating the protocol specified in ISO 8473 in Intermediate Systems
+    to maintain routeing information for the purpose of routeing within a single routeing
+    domain. The protocol specified in this International Standard relies upon the
+    provision of a connectionless-mode underlying service.1) This International Standard
+    specifies: a) procedures for the transmission of configuration and routeing information
+    between network entities residing in Intermediate Systems within a single routeing
+    domain; b) the encoding of the protocol data units used for the transmission of
+    the configuration and routeing information; c) procedures for the correct interpretation
+    of protocol control information; and d) the functional requirements for implementations
+    claiming conformance to this International Standard. The procedures are defined
+    in terms of a) the interactions between Intermediate system Network entities through
+    the exchange of protocol data units; b) the interactions between a Network entity
+    and an underlying service provider through the exchange of subnetwork service
+    primitives; and c) the constraints on route determination which must be observed
+    by each Intermediate system when each has a routeing information base which is
+    consistent with the others.'
 status:
   stage:
     content: '90'
@@ -165,58 +137,58 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 10589:1992
-    docidentifier:
-    - content: ISO/IEC 10589:1992
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 10589:1992/Amd 1:1996
+    formattedref:
+      content: ISO/IEC 10589:1992/Amd 1:1996
     docidentifier:
     - content: ISO/IEC 10589:1992/Amd 1:1996
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 10589:1992/Cor 1:1993
+    formattedref:
+      content: ISO/IEC 10589:1992
     docidentifier:
-    - content: ISO/IEC 10589:1992/Cor 1:1993
+    - content: ISO/IEC 10589:1992
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 10589:1992/Amd 2:1999
-    docidentifier:
-    - content: ISO/IEC 10589:1992/Amd 2:1999
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 10589:1992/Cor 2:1996
-    docidentifier:
-    - content: ISO/IEC 10589:1992/Cor 2:1996
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 10589:1992/Cor 3:1996
+    formattedref:
+      content: ISO/IEC 10589:1992/Cor 3:1996
     docidentifier:
     - content: ISO/IEC 10589:1992/Cor 3:1996
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 10589:1992/Amd 2:1999
+    docidentifier:
+    - content: ISO/IEC 10589:1992/Amd 2:1999
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 10589:1992/Cor 1:1993
+    docidentifier:
+    - content: ISO/IEC 10589:1992/Cor 1:1993
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 10589:1992/Cor 2:1996
+    docidentifier:
+    - content: ISO/IEC 10589:1992/Cor 2:1996
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

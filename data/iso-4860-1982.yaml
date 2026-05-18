@@ -1,41 +1,37 @@
 ---
 id: ISO48601982
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Wood
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of volumetric swelling
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Wood - Determination of volumetric swelling
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bois
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination du gonflement volumique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bois - Détermination du gonflement volumique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/10842.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:10842:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/08/10842.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '4860'
 date:
 - type: published
-  at: 1982-12
+  at: '1982-12-01'
 contributor:
 - role:
   - type: publisher
@@ -92,14 +88,6 @@ abstract:
     drying, at a moisture content in equilibrium with the normal environment and at
     a moisture content, equal to or greater than the saturation point of the cellular
     walls of wood.'
-- language: fr
-  script: Latn
-  content: 'Two methods are specified: the stereometric method used for test pieces
-    made in accordance with ISO 4859, and the mercury volumenometer method used for
-    test pieces of any shape. Determines the change in volume of test pieces after
-    drying, at a moisture content in equilibrium with the normal environment and at
-    a moisture content, equal to or greater than the saturation point of the cellular
-    walls of wood.'
 status:
   stage:
     content: '95'
@@ -112,21 +100,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13061-16:2017
+    formattedref:
+      content: ISO/NP 13061-16
+    docidentifier:
+    - content: ISO/NP 13061-16
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 13061-16:2017
     docidentifier:
     - content: ISO 13061-16:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-07-18'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

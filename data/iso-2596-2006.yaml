@@ -1,51 +1,42 @@
 ---
 id: ISO25962006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Iron ores
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of hygroscopic moisture in analytical samples
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Gravimetric, Karl Fischer and mass-loss methods
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Iron ores - Determination of hygroscopic moisture in analytical samples
     - Gravimetric, Karl Fischer and mass-loss methods
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Minerais de fer
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de l'humidité hygroscopique dans les échantillons pour analyse
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes gravimétrique, selon Karl Fischer et par perte de masse
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Minerais de fer - Détermination de l'humidité hygroscopique dans les échantillons
     pour analyse - Méthodes gravimétrique, selon Karl Fischer et par perte de masse
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/42196.html
@@ -59,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 2596:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso:2596:stage-90.60
+- content: urn:iso:std:iso:2596:stage-90.92
   type: URN
 docnumber: '2596'
 date:
 - type: published
-  at: 2006-05
+  at: '2006-05-10'
 contributor:
 - role:
   - type: publisher
@@ -95,35 +86,27 @@ edition:
   content: '5'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 2496:2006 specifies the following four test methods for the determination of the hygroscopic moisture content of test samples:
-    Method 1 -- Gravimetric method;
-    Method 2 -- Karl Fischer volumetric method;
-    Method 3 -- Karl Fischer coulometric method;
-    Method 4 -- Mass-loss method.
-    Any of these methods is applicable wherever the analytical value of a chemical constituent is to be calculated to a dried sample basis in the following ore types.
-    Any of these methods is applicable to a concentration range of 0,05 % (mass fraction) to 4,5 % (mass fraction) hygroscopic moisture.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 2496:2006 specifies the following four test methods for the determination of the hygroscopic moisture content of test samples:
-    Method 1 -- Gravimetric method;
-    Method 2 -- Karl Fischer volumetric method;
-    Method 3 -- Karl Fischer coulometric method;
-    Method 4 -- Mass-loss method.
-    Any of these methods is applicable wherever the analytical value of a chemical constituent is to be calculated to a dried sample basis in the following ore types.
-    Any of these methods is applicable to a concentration range of 0,05 % (mass fraction) to 4,5 % (mass fraction) hygroscopic moisture.
+  content: 'ISO 2496:2006 specifies the following four test methods for the determination
+    of the hygroscopic moisture content of test samples: Method 1 -- Gravimetric method;
+    Method 2 -- Karl Fischer volumetric method; Method 3 -- Karl Fischer coulometric
+    method; Method 4 -- Mass-loss method. Any of these methods is applicable wherever
+    the analytical value of a chemical constituent is to be calculated to a dried
+    sample basis in the following ore types. Processed ores containing metallic iron
+    (direct reduced iron).Natural or processed ores in which the sulfur content is
+    greater than 0,2 % (mass fraction).Natural or processed ores in which the combined
+    water is greater than 2,5 % (mass fraction). Any of these methods is applicable
+    to a concentration range of 0,05 % (mass fraction) to 4,5 % (mass fraction) hygroscopic
+    moisture.'
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2006'
   owner:
@@ -133,16 +116,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2596:1994
+    formattedref:
+      content: ISO/PWI 2596
+    docidentifier:
+    - content: ISO/PWI 2596
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 2596
+    docidentifier:
+    - content: ISO/CD 2596
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2596:1994
     docidentifier:
     - content: ISO 2596:1994
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -152,4 +151,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 2596
+      content: '42196'

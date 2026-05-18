@@ -1,38 +1,32 @@
 ---
 id: ISO5611989
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Coal preparation plant
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Graphical symbols
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Coal preparation plant - Graphical symbols
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils utilisés dans la préparation du charbon
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Symboles graphiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils utilisés dans la préparation du charbon - Symboles graphiques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4651.html
@@ -51,9 +45,7 @@ docidentifier:
 docnumber: '561'
 date:
 - type: published
-  at: 1989-12
-- type: corrected
-  at: 1992-07
+  at: '1989-11-30'
 contributor:
 - role:
   - type: publisher
@@ -97,15 +89,6 @@ abstract:
     represents a group of items for which separate symbols are s-tandardized nationally,
     the ISO symbol should be readily distinguishable from any one of the national
     symbols.'
-- language: fr
-  script: Latn
-  content: 'The symbols have been selected in accordance with the following principles:
-    a) the plants should be widely used; b) the symbols should be easy to draw and
-    readily be distinguishable one from another; c) the principle and not the appearance
-    of any particular type of machine should be represented, d) where a single symbol
-    represents a group of items for which separate symbols are s-tandardized nationally,
-    the ISO symbol should be readily distinguishable from any one of the national
-    symbols.'
 status:
   stage:
     content: '90'
@@ -120,25 +103,41 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 561:1974
+    formattedref:
+      content: ISO/PWI 561
+    docidentifier:
+    - content: ISO/PWI 561
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 561
+    docidentifier:
+    - content: ISO/DIS 561
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 561:1974
     docidentifier:
     - content: ISO 561:1974
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '73.120'
-    text: Equipment for processing of minerals
   - code: 01.080.30
     text: Graphical symbols for use on mechanical engineering and construction drawings,
       diagrams, plans, maps and in relevant technical product documentation
+  - code: '73.120'
+    text: Equipment for processing of minerals
   structuredidentifier:
     type: ISO
     project_number:

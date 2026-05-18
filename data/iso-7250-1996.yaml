@@ -1,31 +1,29 @@
 ---
 id: ISO72501996
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Basic human body measurements for technological design
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Basic human body measurements for technological design
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Définitions des mesures de base du corps humain pour la conception technologique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Définitions des mesures de base du corps humain pour la conception technologique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/13903.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:13903:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/39/13903.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '7250'
 date:
 - type: published
-  at: 1996-07
+  at: '1996-07-11'
 contributor:
 - role:
   - type: publisher
@@ -73,12 +71,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale fournit une description de mesures anthropométriques qui peuvent être utilisées comme base de comparaison des groupes de populations. La liste de base prescrite dans la présente Norme internationale a pour but de servir de guide aux ergonomes qui doivent définir des groupes de population et qui doivent utiliser leurs connaissances dans la conception dimensionnelle des espaces de travail et de vie. Cette liste n'a pas pour but de servir de guide sur la façon de prendre des mesures anthropométriques, mais elle donne des informations aux ergonomes et concepteurs sur les bases anatomiques et anthropométriques, ainsi que les principes de mesures qui s'appliquent lors de solution de tâches de conception. La présente Norme internationale peut être utilisée conjointement avec les réglementations et accords nationaux ou internationaux, afin d'harmoniser la définition des groupes de population. Dans ses diverses applications, il est prévu que la liste de base sera complétée par des mesures additionnelles spécifiques.
 status:
   stage:
     content: '95'
@@ -91,21 +83,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7250-1:2008
+    formattedref:
+      content: ISO/NP 7250-1
+    docidentifier:
+    - content: ISO/NP 7250-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 7250-1:2008
     docidentifier:
     - content: ISO 7250-1:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-02-07'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

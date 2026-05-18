@@ -1,38 +1,32 @@
 ---
 id: ISO155852019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hard coal
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of caking index
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Hard coal - Determination of caking index
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Houille
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de l'indice d'agglutination
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Houille - Détermination de l'indice d'agglutination
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70839.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 15585:2019(E)
   type: iso-reference
-- content: urn:iso:std:iso:15585:stage-90.60
+- content: urn:iso:std:iso:15585:stage-90.92
   type: URN
 docnumber: '15585'
 date:
 - type: published
-  at: 2019-12
+  at: '2019-12-18'
 contributor:
 - role:
   - type: publisher
@@ -82,7 +76,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -92,17 +85,11 @@ abstract:
     coal. It is applicable to the evaluation of caking power of bituminous coal with
     random reflectance of vitrinite, Rr, greater than 0,6 % and less than or equal
     to 1,8 % (>0,6 % and ≤1,8 %).
-- language: fr
-  script: Latn
-  content: This document specifies a method of determination of caking index of hard
-    coal. It is applicable to the evaluation of caking power of bituminous coal with
-    random reflectance of vitrinite, Rr, greater than 0,6 % and less than or equal
-    to 1,8 % (>0,6 % and ≤1,8 %).
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2019'
   owner:
@@ -112,16 +99,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 15585:2006
+    formattedref:
+      content: ISO/CD 15585
+    docidentifier:
+    - content: ISO/CD 15585
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 15585:2006
     docidentifier:
     - content: ISO 15585:2006
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

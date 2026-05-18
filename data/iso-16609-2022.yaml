@@ -1,41 +1,35 @@
 ---
 id: ISO166092022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Requirements for message authentication using symmetric techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Financial services - Requirements for message authentication using symmetric
     techniques
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Exigences pour l'authentification des messages utilisant des techniques
     symétriques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers - Exigences pour l'authentification des messages utilisant
     des techniques symétriques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78305.html
@@ -54,7 +48,7 @@ docidentifier:
 docnumber: '16609'
 date:
 - type: published
-  at: 2022-08
+  at: '2022-08-02'
 contributor:
 - role:
   - type: publisher
@@ -85,20 +79,22 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies procedures, independent of the transmission process, for protecting the integrity of transmitted financial-service-related messages and for verifying that a message has originated from an authorized source, or that stored data has retained integrity. A list of block ciphers approved for the calculation of a message authentication code (MAC) is also provided. The authentication methods defined in this document are applicable to stored data and to messages formatted and transmitted both as coded character sets or as binary data.
-    This document is designed for use with symmetric algorithms where both sender and receiver use the same key. It does not specify methods for establishing the shared key. Its application will not protect the user against internal fraud perpetrated by the sender or the receiver, nor against forgery of a MAC by the receiver.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies procedures, independent of the transmission process, for protecting the integrity of transmitted financial-service-related messages and for verifying that a message has originated from an authorized source, or that stored data has retained integrity. A list of block ciphers approved for the calculation of a message authentication code (MAC) is also provided. The authentication methods defined in this document are applicable to stored data and to messages formatted and transmitted both as coded character sets or as binary data.
-    This document is designed for use with symmetric algorithms where both sender and receiver use the same key. It does not specify methods for establishing the shared key. Its application will not protect the user against internal fraud perpetrated by the sender or the receiver, nor against forgery of a MAC by the receiver.
+  content: This document specifies procedures, independent of the transmission process,
+    for protecting the integrity of transmitted financial-service-related messages
+    and for verifying that a message has originated from an authorized source, or
+    that stored data has retained integrity. A list of block ciphers approved for
+    the calculation of a message authentication code (MAC) is also provided. The authentication
+    methods defined in this document are applicable to stored data and to messages
+    formatted and transmitted both as coded character sets or as binary data. This
+    document is designed for use with symmetric algorithms where both sender and receiver
+    use the same key. It does not specify methods for establishing the shared key.
+    Its application will not protect the user against internal fraud perpetrated by
+    the sender or the receiver, nor against forgery of a MAC by the receiver.
 status:
   stage:
     content: '60'
@@ -111,18 +107,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 16609:2012
+    formattedref:
+      content: ISO 16609:2012
     docidentifier:
     - content: ISO 16609:2012
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

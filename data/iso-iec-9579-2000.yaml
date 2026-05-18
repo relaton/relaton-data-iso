@@ -1,39 +1,33 @@
 ---
 id: ISOIEC95792000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Remote database access for SQL with security enhancement
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Remote database access for SQL with security enhancement
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Accès à la base de données à distance pour SQL avec sécurité accrue
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Accès à la base de données à distance pour
     SQL avec sécurité accrue
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/30615.html
@@ -47,12 +41,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 9579:2000(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:9579:stage-90.93
+- content: urn:iso:std:iso-iec:9579:stage-90.20
   type: URN
 docnumber: '9579'
 date:
 - type: published
-  at: 2000-02
+  at: '2000-02-24'
 contributor:
 - role:
   - type: publisher
@@ -92,99 +86,47 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard, Remote Database Access for SQL (RDA), defines a model for the remote
-    interaction of an SQL-client and one or more SQL-servers through communication media, and defines
-    the encoding of messages, the semantics of messages and associated facilities for mediating the
-    interaction between one SQL-client and one SQL-server.
-    This International Standard also defines a mapping of the RDA Protocol to the specific communication
-    inhastructures TCPIIP and Transport Layer Security (TLS).
-    This International Standard relies upon the facilities provided by ISOIIEC 9075 (SQL) and
-    ISOIIEC 9075-3 (SQLICLI).
-    This International Standard also:
-    - identifies potential security vulnerabilities in remote database access using RDA,
-    - defines RDA facilities which protect against the potential vulnerabilities.
-    Normative annexes provide:
-    - a Conformance Proforma,
-    - an optional language independent Application Programming Interface defined in the notational
-    conventions of ISOIIEC 9075-3 (SQLICLI) for invoking RDA Operations,
-    - an optional mapping of ISOIIEC 9075-3 (SQLICLI) functions to RDA Operations,
-    - definitions of optional SQL-servers, the RDA Location Server and the RDA Support Server, to
-    facilitate interoperation and data distribution in a heterogeneous environment,
-    - a set of security profiles that identify which RDA facilities and other security facilities are required
-    for different levels of protection against potential vulnerabilities.
-    Informative annexes provide:
-    - an analysis of security service requirements,
-    - an ASN. 1 specification for the RDA Protocol,
-    - an ASN. 1 specification for the encoding of multiple rows.
-    This International Standard does not constrain:
-    - conforming RDA-client environments to be implemented using any particular processor
-    decomposition,
-    - conforming RDA-server environments to be implemented using any particular processor
-    decomposition.
-    This International Standard refers to but does not define:
-    - protocols and security mechanisms for communication confidentiality, integrity and authentication
-    of communicating peers,
-    - digital signature and authentication mechanisms supported by protocol elements of RDA.
-    This International Standard does not define:
-    ? algorithms for query decomposition or for the combining of results in a distributed database
-    environment,
-    ? mechanisms for recovery in the event that transaction co-ordination fails,
-    ? mechanisms for storage integrity and confidentiality using cryptography,
-    ? mechanisms to counter Denial of Service attacks.
-- language: fr
-  script: Latn
-  content: |-
-    This International Standard, Remote Database Access for SQL (RDA), defines a model for the remote
-    interaction of an SQL-client and one or more SQL-servers through communication media, and defines
-    the encoding of messages, the semantics of messages and associated facilities for mediating the
-    interaction between one SQL-client and one SQL-server.
-    This International Standard also defines a mapping of the RDA Protocol to the specific communication
-    inhastructures TCPIIP and Transport Layer Security (TLS).
-    This International Standard relies upon the facilities provided by ISOIIEC 9075 (SQL) and
-    ISOIIEC 9075-3 (SQLICLI).
-    This International Standard also:
-    - identifies potential security vulnerabilities in remote database access using RDA,
-    - defines RDA facilities which protect against the potential vulnerabilities.
-    Normative annexes provide:
-    - a Conformance Proforma,
-    - an optional language independent Application Programming Interface defined in the notational
-    conventions of ISOIIEC 9075-3 (SQLICLI) for invoking RDA Operations,
-    - an optional mapping of ISOIIEC 9075-3 (SQLICLI) functions to RDA Operations,
-    - definitions of optional SQL-servers, the RDA Location Server and the RDA Support Server, to
-    facilitate interoperation and data distribution in a heterogeneous environment,
-    - a set of security profiles that identify which RDA facilities and other security facilities are required
-    for different levels of protection against potential vulnerabilities.
-    Informative annexes provide:
-    - an analysis of security service requirements,
-    - an ASN. 1 specification for the RDA Protocol,
-    - an ASN. 1 specification for the encoding of multiple rows.
-    This International Standard does not constrain:
-    - conforming RDA-client environments to be implemented using any particular processor
-    decomposition,
-    - conforming RDA-server environments to be implemented using any particular processor
-    decomposition.
-    This International Standard refers to but does not define:
-    - protocols and security mechanisms for communication confidentiality, integrity and authentication
-    of communicating peers,
-    - digital signature and authentication mechanisms supported by protocol elements of RDA.
-    This International Standard does not define:
-    ? algorithms for query decomposition or for the combining of results in a distributed database
-    environment,
-    ? mechanisms for recovery in the event that transaction co-ordination fails,
-    ? mechanisms for storage integrity and confidentiality using cryptography,
-    ? mechanisms to counter Denial of Service attacks.
+  content: 'This International Standard, Remote Database Access for SQL (RDA), defines
+    a model for the remote interaction of an SQL-client and one or more SQL-servers
+    through communication media, and defines the encoding of messages, the semantics
+    of messages and associated facilities for mediating the interaction between one
+    SQL-client and one SQL-server. This International Standard also defines a mapping
+    of the RDA Protocol to the specific communication inhastructures TCPIIP and Transport
+    Layer Security (TLS). This International Standard relies upon the facilities provided
+    by ISOIIEC 9075 (SQL) and ISOIIEC 9075-3 (SQLICLI). This International Standard
+    also: - identifies potential security vulnerabilities in remote database access
+    using RDA, - defines RDA facilities which protect against the potential vulnerabilities.
+    Normative annexes provide: - a Conformance Proforma, - an optional language independent
+    Application Programming Interface defined in the notational conventions of ISOIIEC
+    9075-3 (SQLICLI) for invoking RDA Operations, - an optional mapping of ISOIIEC
+    9075-3 (SQLICLI) functions to RDA Operations, - definitions of optional SQL-servers,
+    the RDA Location Server and the RDA Support Server, to facilitate interoperation
+    and data distribution in a heterogeneous environment, - a set of security profiles
+    that identify which RDA facilities and other security facilities are required
+    for different levels of protection against potential vulnerabilities. Informative
+    annexes provide: - an analysis of security service requirements, - an ASN. 1 specification
+    for the RDA Protocol, - an ASN. 1 specification for the encoding of multiple rows.
+    This International Standard does not constrain: - conforming RDA-client environments
+    to be implemented using any particular processor decomposition, - conforming RDA-server
+    environments to be implemented using any particular processor decomposition. This
+    International Standard refers to but does not define: - protocols and security
+    mechanisms for communication confidentiality, integrity and authentication of
+    communicating peers, - digital signature and authentication mechanisms supported
+    by protocol elements of RDA. This International Standard does not define: ? algorithms
+    for query decomposition or for the combining of results in a distributed database
+    environment, ? mechanisms for recovery in the event that transaction co-ordination
+    fails, ? mechanisms for storage integrity and confidentiality using cryptography,
+    ? mechanisms to counter Denial of Service attacks.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2000'
   owner:
@@ -194,16 +136,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9579:1999
+    formattedref:
+      content: ISO/IEC FCD 9579
+    docidentifier:
+    - content: ISO/IEC FCD 9579
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 9579:1999
     docidentifier:
     - content: ISO/IEC 9579:1999
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 9579:1999/PDAM 1
+    docidentifier:
+    - content: ISO/IEC 9579:1999/CD Amd 1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

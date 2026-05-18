@@ -1,53 +1,47 @@
 ---
 id: ISOIEC882572015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: ASN.1 encoding rules
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 7: Specification of Octet Encoding Rules (OER)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - ASN.1 encoding rules - Part 7: Specification
     of Octet Encoding Rules (OER)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Règles de codage ASN.1
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 7: Spécification des règles de codage des octets (OER)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Règles de codage ASN.1 - Partie 7: Spécification
     des règles de codage des octets (OER)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69981.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:69981:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/99/69981.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '8825'
 date:
 - type: published
-  at: 2015-11
+  at: '2015-11-12'
 contributor:
 - role:
   - type: publisher
@@ -101,26 +95,24 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 8825-7:2015 specifies a set of Basic Octet Encoding Rules (BASIC-OER) that may be used to derive a transfer syntax for values of the types defined in Rec. ITU-T X.680 | ISO/IEC 8824-1, Rec. ITU‑T X.681 | ISO/IEC 8824-2, Rec. ITU-T X.682 | ISO/IEC 8824-3, Rec. ITU-T X.683 | ISO/IEC 8824-4. This Recommendation | International Standard also specifies a set of Canonical Octet Encoding Rules (CANONICAL-OER) which provides constraints on the Basic Octet Encoding Rules and produces a unique encoding for any given ASN.1 value. It is implicit in the specification of these encoding rules that they are also to be used for decoding.
-    The encoding rules specified in this Recommendation | International Standard:
-    -      are used at the time of communication;
-    -      are intended for use in circumstances where encoding/decoding speed is the major concern in the choice of encoding rules;
-    -      allow the extension of an abstract syntax by addition of extra values for all forms of extensibility described in Rec. ITU-T X.680 | ISO/IEC 8824‑1.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 8825-7:2015 specifies a set of Basic Octet Encoding Rules (BASIC-OER) that may be used to derive a transfer syntax for values of the types defined in Rec. ITU-T X.680 | ISO/IEC 8824-1, Rec. ITU‑T X.681 | ISO/IEC 8824-2, Rec. ITU-T X.682 | ISO/IEC 8824-3, Rec. ITU-T X.683 | ISO/IEC 8824-4. This Recommendation | International Standard also specifies a set of Canonical Octet Encoding Rules (CANONICAL-OER) which provides constraints on the Basic Octet Encoding Rules and produces a unique encoding for any given ASN.1 value. It is implicit in the specification of these encoding rules that they are also to be used for decoding.
-    The encoding rules specified in this Recommendation | International Standard:
-    -      are used at the time of communication;
-    -      are intended for use in circumstances where encoding/decoding speed is the major concern in the choice of encoding rules;
-    -      allow the extension of an abstract syntax by addition of extra values for all forms of extensibility described in Rec. ITU-T X.680 | ISO/IEC 8824‑1.
+  content: 'ISO/IEC 8825-7:2015 specifies a set of Basic Octet Encoding Rules (BASIC-OER)
+    that may be used to derive a transfer syntax for values of the types defined in
+    Rec. ITU-T X.680 | ISO/IEC 8824-1, Rec. ITU‑T X.681 | ISO/IEC 8824-2, Rec. ITU-T
+    X.682 | ISO/IEC 8824-3, Rec. ITU-T X.683 | ISO/IEC 8824-4. This Recommendation
+    | International Standard also specifies a set of Canonical Octet Encoding Rules
+    (CANONICAL-OER) which provides constraints on the Basic Octet Encoding Rules and
+    produces a unique encoding for any given ASN.1 value. It is implicit in the specification
+    of these encoding rules that they are also to be used for decoding. The encoding
+    rules specified in this Recommendation | International Standard: - are used at
+    the time of communication; - are intended for use in circumstances where encoding/decoding
+    speed is the major concern in the choice of encoding rules; - allow the extension
+    of an abstract syntax by addition of extra values for all forms of extensibility
+    described in Rec. ITU-T X.680 | ISO/IEC 8824‑1.'
 status:
   stage:
     content: '95'
@@ -135,71 +127,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-7:2014
-    docidentifier:
-    - content: ISO/IEC 8825-7:2014
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-7:2021
+    formattedref:
+      content: ISO/IEC 8825-7:2021
     docidentifier:
     - content: ISO/IEC 8825-7:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-06-30'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-7:2015/Cor 1:2017
+    formattedref:
+      content: ISO/IEC 8825-7:2014
     docidentifier:
-    - content: ISO/IEC 8825-7:2015/Cor 1:2017
+    - content: ISO/IEC 8825-7:2014
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-06-30'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-7:2015/Cor 2:2017
-    docidentifier:
-    - content: ISO/IEC 8825-7:2015/Cor 2:2017
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-06-30'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-7:2015/Cor 3:2018
-    docidentifier:
-    - content: ISO/IEC 8825-7:2015/Cor 3:2018
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-06-30'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-7:2015/Cor 4:2018
-    docidentifier:
-    - content: ISO/IEC 8825-7:2015/Cor 4:2018
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-06-30'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

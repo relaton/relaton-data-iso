@@ -1,51 +1,45 @@
 ---
 id: ISO145322001Cor12002
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Natural gas
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Technical Corrigendum 1
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Natural gas - Vocabulary - Technical Corrigendum 1
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gaz naturel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Rectificatif technique 1
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Gaz naturel - Vocabulaire - Rectificatif technique 1
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37179.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:37179:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/71/37179.detail.rss
 docidentifier:
@@ -54,14 +48,10 @@ docidentifier:
   primary: true
 - content: ISO 14532:2001/Cor 1:2002(E)
   type: iso-reference
-- content: urn:iso:std:iso:14532:ed-1:stage-95.99:cor:2002:v1
-  type: URN
 docnumber: '14532'
 date:
 - type: published
-  at: '2001'
-- type: updated
-  at: 2002-05
+  at: '2002-05-30'
 contributor:
 - role:
   - type: publisher
@@ -107,23 +97,28 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14532:2014
+    formattedref:
+      content: ISO 14532:2014
     docidentifier:
     - content: ISO 14532:2014
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2014-06-12'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 16361
+    docidentifier:
+    - content: ISO/NP 16361
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: technical-corrigendum
   flavor: iso
   ics:
   - code: '75.060'
@@ -131,6 +126,5 @@ ext:
   - code: 01.040.75
     text: Petroleum and related technologies (Vocabularies)
   structuredidentifier:
-    type: ISO
     project_number:
       content: '37179'

@@ -1,38 +1,32 @@
 ---
 id: ISO25372007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hydrometry
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Rotating-element current-meters
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Hydrometry - Rotating-element current-meters
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Hydrométrie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: " Moulinets à élément rotatif"
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Hydrométrie -  Moulinets à élément rotatif
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37098.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 2537:2007(E)
   type: iso-reference
-- content: urn:iso:std:iso:2537:stage-90.93
+- content: urn:iso:std:iso:2537:stage-90.92
   type: URN
 docnumber: '2537'
 date:
 - type: published
-  at: 2007-05
+  at: '2007-04-30'
 contributor:
 - role:
   - type: publisher
@@ -82,7 +76,6 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -91,16 +84,11 @@ abstract:
   content: ISO 2537:2007 specifies the operational requirements, construction, calibration,
     and maintenance of rotating-element devices for the measurement of flow velocities
     in open channels.
-- language: fr
-  script: Latn
-  content: ISO 2537:2007 specifies the operational requirements, construction, calibration,
-    and maintenance of rotating-element devices for the measurement of flow velocities
-    in open channels.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2007'
   owner:
@@ -110,16 +98,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2537:1988
+    formattedref:
+      content: ISO/AWI 2537
+    docidentifier:
+    - content: ISO/AWI 2537
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2537:1988
     docidentifier:
     - content: ISO 2537:1988
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

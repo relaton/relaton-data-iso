@@ -1,38 +1,32 @@
 ---
 id: ISOGuide302015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Reference materials
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Selected terms and definitions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Reference materials - Selected terms and definitions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Matériaux de référence
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Termes et définitions choisis
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Matériaux de référence - Termes et définitions choisis
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46209.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '30'
 date:
 - type: published
-  at: 2015-02
+  at: '2015-02-06'
 contributor:
 - role:
   - type: publisher
@@ -83,8 +77,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -92,12 +88,6 @@ abstract:
     to them when used in connection with reference materials, with particular attention
     to terms that are used in reference material certificates and corresponding certification
     reports.
-- language: fr
-  script: Latn
-  content: L'ISO Guide 30:2015 recommande les termes et les définitions qu'il convient
-    d'utiliser en rapport avec des matériaux de référence, une priorité particulière
-    étant donnée aux termes qui sont utilisés dans les feuilles d'information de produit
-    des matériaux de référence, les certificats et les rapports de certification correspondants.
 status:
   stage:
     content: '90'
@@ -112,54 +102,64 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO Guide 30:1992
+    formattedref:
+      content: ISO/NP Guide 30
     docidentifier:
-    - content: ISO Guide 30:1992
+    - content: ISO/NP Guide 30
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO Guide 30:1992/Amd 1:2008
-    docidentifier:
-    - content: ISO Guide 30:1992/Amd 1:2008
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 33400
+    formattedref:
+      content: ISO/CD 33400
     docidentifier:
     - content: ISO/CD 33400
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-01-08'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 33400
+    formattedref:
+      content: ISO/FDIS 33400
     docidentifier:
-    - content: ISO/DIS 33400
+    - content: ISO/FDIS 33400
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-01-08'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 33400
+    docidentifier:
+    - content: ISO/NP 33400
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO Guide 30:1992
+    docidentifier:
+    - content: ISO Guide 30:1992
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO Guide 30:1992/Amd 1:2008
+    docidentifier:
+    - content: ISO Guide 30:1992/Amd 1:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: guide
   flavor: iso
   ics:
-  - code: 01.040.71
-    text: Chemical technology (Vocabularies)
   - code: 71.040.30
     text: Chemical reagents
+  - code: 01.040.71
+    text: Chemical technology (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

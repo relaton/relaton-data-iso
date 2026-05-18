@@ -1,43 +1,38 @@
 ---
 id: ISO27151981
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Liquid hydrocarbons
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Volumetric measurement by turbine meter systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Liquid hydrocarbons - Volumetric measurement by turbine meter systems
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Hydrocarbures liquides
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesurage volumétrique au moyen de compteurs à turbine
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Hydrocarbures liquides - Mesurage volumétrique au moyen de compteurs à
     turbine
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7683.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7683:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/76/7683.detail.rss
 docidentifier:
@@ -51,7 +46,7 @@ docidentifier:
 docnumber: '2715'
 date:
 - type: published
-  at: 1981-08
+  at: '1981-08-01'
 contributor:
 - role:
   - type: publisher
@@ -92,12 +87,6 @@ abstract:
     applying appropriate consideration to the nature of the liquids to be measured,
     to the installation of a metering system, and to the selection, performance, operation
     and maintenance of the same.
-- language: fr
-  script: Latn
-  content: Gives the characteristics of such equipment and rules for systematically
-    applying appropriate consideration to the nature of the liquids to be measured,
-    to the installation of a metering system, and to the selection, performance, operation
-    and maintenance of the same.
 status:
   stage:
     content: '95'
@@ -110,21 +99,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2715:2017
+    formattedref:
+      content: ISO/CD 2715
+    docidentifier:
+    - content: ISO/CD 2715
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2715:2017
     docidentifier:
     - content: ISO 2715:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-11-17'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -134,4 +128,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 2715
+      content: '7683'

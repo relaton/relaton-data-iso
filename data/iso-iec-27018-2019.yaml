@@ -1,54 +1,46 @@
 ---
 id: ISOIEC270182019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Code of practice for protection of personally identifiable information
     (PII) in public clouds acting as PII processors
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Security techniques - Code of practice for protection
     of personally identifiable information (PII) in public clouds acting as PII processors
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Code de bonnes pratiques pour la protection des informations personnelles
     identifiables (PII) dans l'informatique en nuage public agissant comme processeur
     de PII
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques de sécurité - Code de bonnes
     pratiques pour la protection des informations personnelles identifiables (PII)
     dans l'informatique en nuage public agissant comme processeur de PII
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/76559.html
@@ -62,12 +54,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 27018:2019(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:27018:stage-90.92
+- content: urn:iso:std:iso-iec:27018:stage-95.99
   type: URN
 docnumber: '27018'
 date:
 - type: published
-  at: 2019-01
+  at: '2019-01-15'
 contributor:
 - role:
   - type: publisher
@@ -113,23 +105,25 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document establishes commonly accepted control objectives, controls and guidelines for implementing measures to protect Personally Identifiable Information (PII) in line with the privacy principles in ISO/IEC 29100 for the public cloud computing environment.
-    In particular, this document specifies guidelines based on ISO/IEC 27002, taking into consideration the regulatory requirements for the protection of PII which can be applicable within the context of the information security risk environment(s) of a provider of public cloud services.
-    This document is applicable to all types and sizes of organizations, including public and private companies, government entities and not-for-profit organizations, which provide information processing services as PII processors via cloud computing under contract to other organizations.
-    The guidelines in this document can also be relevant to organizations acting as PII controllers. However, PII controllers can be subject to additional PII protection legislation, regulations and obligations, not applying to PII processors. This document is not intended to cover such additional obligations.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document établit des objectifs de sécurité communément acceptés, des mesures de sécurité et des lignes directrices de mise en œuvre de mesures destinées à protéger les informations personnelles identifiables (PII) conformément aux principes de protection de la vie privée de l'ISO/IEC 29100 pour l'environnement informatique en nuage public.
-    En particulier, le présent document spécifie des lignes directrices dérivées de l'ISO/IEC 27002, en tenant compte des exigences réglementaires relatives à la protection des PII, qui peuvent être applicables dans le contexte du ou des environnements de risque liés à la sécurité de l'information d'un fournisseur de services en nuage public.
-    Le présent document s'applique aux organismes de tous types et de toutes tailles, y compris les sociétés publiques et privées, les entités gouvernementales et les organismes à but non lucratif, qui offrent des services de traitement de l'information en tant que processeurs de PII via l'informatique en nuage sous contrat auprès d'autres organismes.
-    Les lignes directrices du présent document peuvent également s'appliquer aux organismes agissant en tant que contrôleurs de PII. Cependant, les contrôleurs de PII peuvent être soumis à d'autres lois, réglementations et obligations en matière de protection des PII qui ne s'appliquent pas aux processeurs de PII. Le présent document n'a pas pour objet de couvrir des obligations supplémentaires.
+  content: This document establishes commonly accepted control objectives, controls
+    and guidelines for implementing measures to protect Personally Identifiable Information
+    (PII) in line with the privacy principles in ISO/IEC 29100 for the public cloud
+    computing environment. In particular, this document specifies guidelines based
+    on ISO/IEC 27002, taking into consideration the regulatory requirements for the
+    protection of PII which can be applicable within the context of the information
+    security risk environment(s) of a provider of public cloud services. This document
+    is applicable to all types and sizes of organizations, including public and private
+    companies, government entities and not-for-profit organizations, which provide
+    information processing services as PII processors via cloud computing under contract
+    to other organizations. The guidelines in this document can also be relevant to
+    organizations acting as PII controllers. However, PII controllers can be subject
+    to additional PII protection legislation, regulations and obligations, not applying
+    to PII processors. This document is not intended to cover such additional obligations.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2019'
   owner:
@@ -139,24 +133,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 27018:2014
+    formattedref:
+      content: ISO/IEC 27018:2025
+    docidentifier:
+    - content: ISO/IEC 27018:2025
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 27018:2014
     docidentifier:
     - content: ISO/IEC 27018:2014
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC FDIS 27018
-    docidentifier:
-    - content: ISO/IEC FDIS 27018
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

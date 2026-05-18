@@ -1,42 +1,38 @@
 ---
 id: ISO89301987
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: General principles on reliability for structures
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: List of equivalent terms
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: General principles on reliability for structures - List of equivalent terms
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Principes généraux de la fiabilité des constructions
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Liste de termes équivalents
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Principes généraux de la fiabilité des constructions - Liste de termes
     équivalents
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16459.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16459:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/64/16459.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '8930'
 date:
 - type: published
-  at: 1987-12
+  at: '1987-12-17'
 contributor:
 - role:
   - type: publisher
@@ -82,8 +78,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -92,21 +90,6 @@ abstract:
     annex contains approximate but simple definitions of, and commentary on, the terms
     listed, gives indications about their use and quotes the corresponding symbols
     and subscripts.
-- language: fr
-  script: Latn
-  content: "\nLa présente Norme internationale fixe les équivalences entre différentes
-    langues des principaux termes utilisés dans le domaine de la fiabilité des constructions.
-    \ \nNOTE -- En supplément aux termes donnés dans les trois langues officielles
-    de l'ISO anglais, français et russe), la présente Norme internationale donne les
-    termes équivalents en allemand ; ces termes ont été inclus à la demande du comité
-    technique ISO/TC 98 et sont publiés sous la responsabilité du comité membre de
-    l'Allemagne, R.F. (DIN). Toutefois, seuls les termes donnés dans les langues officielles
-    peuvent être considérés comme termes ISO. Elle est accompagnée d'une annexe qui
-    contient des définitions approximatives mais simples, avec des commentaires, des
-    termes qui y figurent, donne des indications sur leur emploi et rappelle les symboles
-    et indices correspondants. Les définitions de ces termes sont détaillées dans
-    l'ISO 2394. Quelques-uns des termes de la liste ne figurent pas dans l'ISO 2394
-    ; ils ont\n"
 status:
   stage:
     content: '95'
@@ -119,29 +102,50 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8930:2021
+    formattedref:
+      content: ISO/PWI 8930
+    docidentifier:
+    - content: ISO/PWI 8930
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 8930:2021
     docidentifier:
     - content: ISO 8930:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-01-07'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 8930
+    docidentifier:
+    - content: ISO/CD 8930
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 8930
+    docidentifier:
+    - content: ISO/DIS 8930
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.91
-    text: Construction materials and building (Vocabularies)
   - code: 91.080.01
     text: Structures of buildings in general
+  - code: 01.040.91
+    text: Construction materials and building (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

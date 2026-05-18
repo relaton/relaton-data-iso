@@ -1,49 +1,41 @@
 ---
 id: ISO91622013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Petroleum products
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fuels (class F)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
-  content: Liquefied petroleum gases
+  content: Liquefied petroleum gases -- Specifications
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
-  content: Petroleum products - Fuels (class F) - Liquefied petroleum gases
+  content: Petroleum products - Fuels (class F) - Liquefied petroleum gases -- Specifications
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits pétroliers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Combustibles (classe F)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Gaz de pétrole liquéfiés
+  content: Gaz de pétrole liquéfiés -- Spécifications
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits pétroliers - Combustibles (classe F) - Gaz de pétrole liquéfiés
+    -- Spécifications
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37164.html
@@ -57,12 +49,12 @@ docidentifier:
   primary: true
 - content: ISO 9162:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso:9162:stage-90.20
+- content: urn:iso:std:iso:9162:stage-90.92
   type: URN
 docnumber: '9162'
 date:
 - type: published
-  at: 2013-07
+  at: '2013-07-22'
 contributor:
 - role:
   - type: publisher
@@ -99,30 +91,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'ISO 9162:2013 specifies required characteristics and additional information
+  content: ISO 9162:2013 specifies required characteristics and additional information
     to be supplied to the purchaser by the vendor of those products commonly referred
     to as liquefied petroleum gases (see ISO 8216‑3) and is intended to apply to international
     transfers of commercial propane and commercial butane. ISO 9162:2013 is neither
     intended nor expected to replace or encroach upon national standards of any country
     since each country is subject to different regulations, codes, industry practices
-    and market utilization. '
-- language: fr
-  script: Latn
-  content: L'ISO 9162:2013 spécifie les caractéristiques exigées ainsi que les informations
-    complémentaires qui doivent être fournies à l'acheteur par le fournisseur de produits
-    couramment dénommés gaz de pétrole liquéfiés (voir l'ISO 8216‑3). Elle est conçue
-    pour s'appliquer aux transferts internationaux de propane commercial et de butane
-    commercial. Le but de l'ISO 9162:2013 n'est pas de remplacer les normes nationales
-    de chaque pays, ni même d'empiéter sur elles, puisque chaque pays a des réglementations,
-    codes, pratiques industrielles et utilisation des marchés différents. Pour des
-    utilisations particulières, il convient de formuler des spécifications qui répondent
-    à leurs besoins spécifiques et qui soient conformes aux normes nationales et codes
-    de sécurité applicables.
+    and market utilization.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '92'
 copyright:
 - from: '2013'
   owner:
@@ -132,16 +112,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9162:1989
+    formattedref:
+      content: ISO/AWI 9162
+    docidentifier:
+    - content: ISO/AWI 9162
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 9162:1989
     docidentifier:
     - content: ISO 9162:1989
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -151,4 +139,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 9162
+      content: '37164'

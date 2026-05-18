@@ -1,50 +1,42 @@
 ---
 id: ISO2073012021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vehicle interface for electronic Periodic Technical Inspection (ePTI)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Application and communication requirements'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Vehicle interface for electronic Periodic Technical Inspection
     (ePTI) - Part 1: Application and communication requirements'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de véhicule pour contrôle technique périodique électronique (ePTI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Exigences d’application et de communication'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Interface de véhicule pour contrôle technique périodique
     électronique (ePTI) - Partie 1: Exigences d’application et de communication'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73801.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 20730-1:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:20730:-1:stage-60.60
+- content: urn:iso:std:iso:20730:-1:stage-90.20
   type: URN
 docnumber: '20730'
 date:
 - type: published
-  at: 2021-04
+  at: '2021-04-21'
 contributor:
 - role:
   - type: publisher
@@ -94,77 +86,53 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document is applicable to road vehicles, where the electronic vehicle interface is used to perform a test method that is part of a periodic technical inspection (ePTI).
-    This document describes use cases and specifies technical requirements in order to support the ePTI-relevant vehicle safety system(s) checks during the periodic technical inspection via the electronic interface. This document references the ISO 14229 series, the unified diagnostic services implemented on diagnostic communication over controller area network (DoCAN) and the Internet protocol (DoIP) along with the required provision of data definitions.
-    The technical requirements of diagnostic services and data definitions of emissions-related systems are specified in other International Standards, for example, ISO 15031 and ISO 27145. Other environmental systems' ePTI use cases and technical requirements can be considered in the future.
-    This document defines:
-    —    all requirements describing the vehicle-communication functionality via the diagnostic link connector related to ePTI, for example:
-    1)    discovery of the ePTI data link;
-    2)    discovery of the ePTI-relevant systems;
-    3)    query of ePTI-relevant systems’ information, including software identification, software integrity, current and/or stored values;
-    4)    query of ePTI-relevant systems’ error information;
-    5)    activation of ePTI-relevant systems’ actuators or routines;
-    —    the use cases about the individual vehicle communication functionality, for example, query identification information, command functional test method.
-    This document does not directly specify any type of test method or pass/fail criteria of the ePTI-relevant system during a PTI, but provides data, which may support PTI test methods.
-    The document specifies:
-    —    terminology;
-    —    communication establishment between the ePTI external test equipment and the vehicle's ePTI-relevant systems;
-    —    usage of a credentials-based authentication and authorisation mechanism between the ePTI external test equipment and the vehicle;
-    —    protection against tampering of the defined ePTI methods;
-    —    definition of ePTI-relevant use cases:
-    —    ePTI external test equipment discovers available data identifier as specified in ISO 20730-3;
-    —    ePTI external test equipment queries the ePTI-relevant system’s information, including software numbers, software integrity information, current and/or stored values, self-test completion status, system status, and error information (e.g. DTC and/or DID information);
-    —    ePTI external test equipment activates the ePTI-relevant system’s actuators or routines;
-    —    definition of ePTI-relevant technical requirements;
-    —    ePTI external test equipment minimum requirements.
-    This document excludes:
-    —    process definitions for performing the PTI check;
-    —    process and data definitions for off-board data provision;
-    —    standardised data exchange formats;
-    —    validation and verification of vehicle safety systems according to vehicle manufacturer specifications.
-- language: fr
-  script: Latn
-  content: |-
-    This document is applicable to road vehicles, where the electronic vehicle interface is used to perform a test method that is part of a periodic technical inspection (ePTI).
-    This document describes use cases and specifies technical requirements in order to support the ePTI-relevant vehicle safety system(s) checks during the periodic technical inspection via the electronic interface. This document references the ISO 14229 series, the unified diagnostic services implemented on diagnostic communication over controller area network (DoCAN) and the Internet protocol (DoIP) along with the required provision of data definitions.
-    The technical requirements of diagnostic services and data definitions of emissions-related systems are specified in other International Standards, for example, ISO 15031 and ISO 27145. Other environmental systems' ePTI use cases and technical requirements can be considered in the future.
-    This document defines:
-    —    all requirements describing the vehicle-communication functionality via the diagnostic link connector related to ePTI, for example:
-    1)    discovery of the ePTI data link;
-    2)    discovery of the ePTI-relevant systems;
-    3)    query of ePTI-relevant systems’ information, including software identification, software integrity, current and/or stored values;
-    4)    query of ePTI-relevant systems’ error information;
-    5)    activation of ePTI-relevant systems’ actuators or routines;
-    —    the use cases about the individual vehicle communication functionality, for example, query identification information, command functional test method.
-    This document does not directly specify any type of test method or pass/fail criteria of the ePTI-relevant system during a PTI, but provides data, which may support PTI test methods.
-    The document specifies:
-    —    terminology;
-    —    communication establishment between the ePTI external test equipment and the vehicle's ePTI-relevant systems;
-    —    usage of a credentials-based authentication and authorisation mechanism between the ePTI external test equipment and the vehicle;
-    —    protection against tampering of the defined ePTI methods;
-    —    definition of ePTI-relevant use cases:
-    —    ePTI external test equipment discovers available data identifier as specified in ISO 20730-3;
-    —    ePTI external test equipment queries the ePTI-relevant system’s information, including software numbers, software integrity information, current and/or stored values, self-test completion status, system status, and error information (e.g. DTC and/or DID information);
-    —    ePTI external test equipment activates the ePTI-relevant system’s actuators or routines;
-    —    definition of ePTI-relevant technical requirements;
-    —    ePTI external test equipment minimum requirements.
-    This document excludes:
-    —    process definitions for performing the PTI check;
-    —    process and data definitions for off-board data provision;
-    —    standardised data exchange formats;
-    —    validation and verification of vehicle safety systems according to vehicle manufacturer specifications.
+  content: 'This document is applicable to road vehicles, where the electronic vehicle
+    interface is used to perform a test method that is part of a periodic technical
+    inspection (ePTI). This document describes use cases and specifies technical requirements
+    in order to support the ePTI-relevant vehicle safety system(s) checks during the
+    periodic technical inspection via the electronic interface. This document references
+    the ISO 14229 series, the unified diagnostic services implemented on diagnostic
+    communication over controller area network (DoCAN) and the Internet protocol (DoIP)
+    along with the required provision of data definitions. The technical requirements
+    of diagnostic services and data definitions of emissions-related systems are specified
+    in other International Standards, for example, ISO 15031 and ISO 27145. Other
+    environmental systems'' ePTI use cases and technical requirements can be considered
+    in the future. This document defines: —    all requirements describing the vehicle-communication
+    functionality via the diagnostic link connector related to ePTI, for example:
+    1)    discovery of the ePTI data link; 2)    discovery of the ePTI-relevant systems;
+    3)    query of ePTI-relevant systems’ information, including software identification,
+    software integrity, current and/or stored values; 4)    query of ePTI-relevant
+    systems’ error information; 5)    activation of ePTI-relevant systems’ actuators
+    or routines; —    the use cases about the individual vehicle communication functionality,
+    for example, query identification information, command functional test method.
+    This document does not directly specify any type of test method or pass/fail criteria
+    of the ePTI-relevant system during a PTI, but provides data, which may support
+    PTI test methods. The document specifies: —    terminology; —    communication
+    establishment between the ePTI external test equipment and the vehicle''s ePTI-relevant
+    systems; —    usage of a credentials-based authentication and authorisation mechanism
+    between the ePTI external test equipment and the vehicle; —    protection against
+    tampering of the defined ePTI methods; —    definition of ePTI-relevant use cases:
+    —    ePTI external test equipment discovers available data identifier as specified
+    in ISO 20730-3; —    ePTI external test equipment queries the ePTI-relevant system’s
+    information, including software numbers, software integrity information, current
+    and/or stored values, self-test completion status, system status, and error information
+    (e.g. DTC and/or DID information); —    ePTI external test equipment activates
+    the ePTI-relevant system’s actuators or routines; —    definition of ePTI-relevant
+    technical requirements; —    ePTI external test equipment minimum requirements.
+    This document excludes: —    process definitions for performing the PTI check;
+    —    process and data definitions for off-board data provision; —    standardised
+    data exchange formats; —    validation and verification of vehicle safety systems
+    according to vehicle manufacturer specifications.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -172,9 +140,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

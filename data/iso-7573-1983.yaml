@@ -1,41 +1,37 @@
 ---
 id: ISO75731983
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Technical drawings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Item lists
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Technical drawings - Item lists
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dessins techniques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Nomenclatures de définition
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dessins techniques - Nomenclatures de définition
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/14356.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:14356:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/43/14356.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '7573'
 date:
 - type: published
-  at: 1983-10
+  at: '1983-10-01'
 contributor:
 - role:
   - type: publisher
@@ -92,14 +88,6 @@ abstract:
     form the basis for establishing other lists for different purposes, as for example
     time-keeping, stock-taking, etc. Such additional lists should not be included
     in, nor form part of, end-product drawings.
-- language: fr
-  script: Latn
-  content: The guidelines and recommendations given are restricted to item lists as
-    a means for cross-referencing item references (see ISO 6433). Such item lists
-    provide necessary information for the production or procurement of the items and
-    form the basis for establishing other lists for different purposes, as for example
-    time-keeping, stock-taking, etc. Such additional lists should not be included
-    in, nor form part of, end-product drawings.
 status:
   stage:
     content: '95'
@@ -112,21 +100,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7573:2008
+    formattedref:
+      content: ISO/CD 7573
+    docidentifier:
+    - content: ISO/CD 7573
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 7573
+    docidentifier:
+    - content: ISO/WD 7573
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 7573:2008
     docidentifier:
     - content: ISO 7573:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-10-29'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,54 +1,48 @@
 ---
 id: ISO1156831994
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Banking
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Key management (retail)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Key life cycle for symmetric ciphers'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Banking - Key management (retail) - Part 3: Key life cycle for symmetric
     ciphers'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion de clés (services aux particuliers)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Cycle de vie des clés pour les algorithmes cryptographiques
     symétriques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Banque - Gestion de clés (services aux particuliers) - Partie 3: Cycle
     de vie des clés pour les algorithmes cryptographiques symétriques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/19523.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:19523:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/95/19523.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '11568'
 date:
 - type: published
-  at: 1994-11
+  at: '1994-11-24'
 contributor:
 - role:
   - type: publisher
@@ -104,11 +98,6 @@ abstract:
     to any organisation that is responsible for the protection of keys used in a symmetric
     sipher. Applicable to institutions responsible for implementing techniques for
     the management of keys used to protect data in bank card originated transactions.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente partie de l'ISO 11568 fixe les prescriptions de sécurité et les méthodes de mise en oeuvre pour chaque étape du cycle de vie d'une clé, dans le cadre des services bancaires aux particuliers. Le cycle de vie d'une clé s'applique à toutes les clés, quel que soit leur niveau hiérarchique. Il est applicable à toute organisation responsable de la protection de clés utilisées dans un algorithme cryptographique symétrique. La présente partie de l'ISO 11568 est applicable aux institutions responsables de la mise en oeuvre de techniques de gestion de clés utilisées pour protéger des données dans des transactions effectuées à partir de cartes bancaires.
 status:
   stage:
     content: '95'
@@ -121,21 +110,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11568-2:2005
+    formattedref:
+      content: ISO/WD 11568-3
+    docidentifier:
+    - content: ISO/WD 11568-3
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 11568-2:2005
     docidentifier:
     - content: ISO 11568-2:2005
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2005-09-23'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

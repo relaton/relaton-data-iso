@@ -1,50 +1,42 @@
 ---
 id: ISO26021980
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Statistical interpretation of test results
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Estimation of the mean
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Confidence interval
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Statistical interpretation of test results - Estimation of the mean - Confidence
     interval
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Interprétation statistique de résultats d'essais
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Estimation de la moyenne
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Intervalle de confiance
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Interprétation statistique de résultats d'essais - Estimation de la moyenne
     - Intervalle de confiance
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7585.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '2602'
 date:
 - type: published
-  at: 1980-02
+  at: '1980-02-01'
 contributor:
 - role:
   - type: publisher
@@ -105,13 +97,6 @@ abstract:
     population when the variance of the population is unknown and calculation of the
     conficence interval for the population mean therefrom and from the standard deviation.
     Test method may be subject to systematic errors.
-- language: fr
-  script: Latn
-  content: Concerns the estimation of the mean of a normal population on the basis
-    of a series of tests applied to a random sample of individuals drawn from this
-    population when the variance of the population is unknown and calculation of the
-    conficence interval for the population mean therefrom and from the standard deviation.
-    Test method may be subject to systematic errors.
 status:
   stage:
     content: '90'
@@ -123,10 +108,35 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 16269-5
+    docidentifier:
+    - content: ISO/DIS 16269-5
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 3207
+    docidentifier:
+    - content: ISO/WD 3207
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 2602
+    docidentifier:
+    - content: ISO/WD 2602
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,49 +1,41 @@
 ---
 id: ISO1262022022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Management of terminology resources
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Data categories
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Repositories'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Management of terminology resources - Data categories - Part 2: Repositories'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des ressources terminologiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Catégories de données
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Répertoires'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Gestion des ressources terminologiques - Catégories de données - Partie
     2: Répertoires'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/79018.html
@@ -57,12 +49,12 @@ docidentifier:
   primary: true
 - content: ISO 12620-2:2022(E)
   type: iso-reference
-- content: urn:iso:std:iso:12620:-2:stage-60.60
+- content: urn:iso:std:iso:12620:-2:stage-90.92
   type: URN
 docnumber: '12620'
 date:
 - type: published
-  at: 2022-07
+  at: '2022-07-08'
 contributor:
 - role:
   - type: publisher
@@ -93,7 +85,6 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -106,20 +97,11 @@ abstract:
     establish a governance structure for the management of a data category repository
     (DCR), including the addition of new data category specifications and continuous
     quality assurance.
-- language: fr
-  script: Latn
-  content: This document establishes criteria for the management of data categories
-    for use in the creation and maintenance of language resources within a given community
-    of practice (CoP). It defines the roles and responsibilities associated with the
-    creation and maintenance of such repositories. It also specifies procedures to
-    establish a governance structure for the management of a data category repository
-    (DCR), including the addition of new data category specifications and continuous
-    quality assurance.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2022'
   owner:
@@ -129,24 +111,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 12620:2019
+    formattedref:
+      content: ISO/CD 12620-2
+    docidentifier:
+    - content: ISO/CD 12620-2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 12620:2019
     docidentifier:
     - content: ISO 12620:2019
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '01.020'
-    text: Terminology (principles and coordination)
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
+  - code: '01.020'
+    text: Terminology (principles and coordination)
   structuredidentifier:
     type: ISO
     project_number:

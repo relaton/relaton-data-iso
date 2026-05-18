@@ -1,53 +1,47 @@
 ---
 id: ISO78391984
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Textile machinery and accessories
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Knitting machines
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Classification and vocabulary
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Textile machinery and accessories - Knitting machines - Classification
     and vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Matériel pour l'industrie textile
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Machines à tricoter
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Classification et vocabulaire
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Matériel pour l'industrie textile - Machines à tricoter - Classification
     et vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/14759.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:14759:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/47/14759.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '7839'
 date:
 - type: published
-  at: 1984-04
+  at: '1984-04-01'
 contributor:
 - role:
   - type: publisher
@@ -94,17 +88,12 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
-  script: Latn
-  content: Gives a classification and lists equivalent terms in English, French and
-    Russian, for knitting machines used in the textile industry. Applicable to knitting
-    machines in which fabric is formed by intermeshing the loops of yarn. Does not
-    cover stitch forming machines used for reinforcement of basis fabrics, already
-    present in a sheet-like form, by intermeshing loops or stitches.
-- language: fr
   script: Latn
   content: Gives a classification and lists equivalent terms in English, French and
     Russian, for knitting machines used in the textile industry. Applicable to knitting
@@ -123,29 +112,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7839:2005
+    formattedref:
+      content: ISO 7839:2005
     docidentifier:
     - content: ISO 7839:2005
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2005-08-23'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 7839
+    docidentifier:
+    - content: ISO/WD 7839
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.59
-    text: Textile and leather technology (Vocabularies)
   - code: 59.120.40
     text: Knitting machines
+  - code: 01.040.59
+    text: Textile and leather technology (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

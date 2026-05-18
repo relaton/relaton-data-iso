@@ -1,43 +1,39 @@
 ---
 id: IEC8231990
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Microprocessor system bus (VMSbus)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Serial sub-system bus of the IEC 821 Bus (VMEbus)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Microprocessor system bus (VMSbus) - Serial sub-system bus of the IEC 821
     Bus (VMEbus)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bus système à microprocesseurs (VMSbus)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Bus sous-système série du Bus CEI 821 (VMEbus)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bus système à microprocesseurs (VMSbus) - Bus sous-système série du Bus
     CEI 821 (VMEbus)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5179.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5179:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/51/5179.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '823'
 date:
 - type: published
-  at: 1990-09
+  at: '1990-09-01'
 contributor:
 - role:
   - type: publisher
@@ -97,21 +93,26 @@ copyright:
       name:
       - content: IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: IEC 60823:1990
+    formattedref:
+      content: IEC/FCD 823
+    docidentifier:
+    - content: IEC/FCD 823
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: IEC 60823:1990
     docidentifier:
     - content: IEC 60823:1990
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-10-28'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

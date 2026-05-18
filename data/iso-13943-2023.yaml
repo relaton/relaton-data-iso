@@ -1,38 +1,32 @@
 ---
 id: ISO139432023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Fire safety
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Fire safety - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité au feu
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité au feu - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/85121.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 13943:2023(E)
   type: iso-reference
-- content: urn:iso:std:iso:13943:stage-90.92
+- content: urn:iso:std:iso:13943:stage-90.93
   type: URN
 docnumber: '13943'
 date:
 - type: published
-  at: 2023-09
+  at: '2023-09-15'
 contributor:
 - role:
   - type: publisher
@@ -90,15 +84,11 @@ abstract:
   script: Latn
   content: This document defines terminology relating to fire safety as used in ISO
     and IEC International Standards.
-- language: fr
-  script: Latn
-  content: Le présent document définit la terminologie relative à la sécurité incendie,
-    telle qu’elle est utilisée dans les Normes internationales de l’ISO et l’IEC.
 status:
   stage:
     content: '90'
   substage:
-    content: '92'
+    content: '93'
 copyright:
 - from: '2023'
   owner:
@@ -108,32 +98,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13943:2017
+    formattedref:
+      content: ISO/CD 13943
+    docidentifier:
+    - content: ISO/CD 13943
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 13943:2017
     docidentifier:
     - content: ISO 13943:2017
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/WD 13943
+    formattedref:
+      content: ISO 13943:2017/PWI Amd 1
     docidentifier:
-    - content: ISO/WD 13943
+    - content: ISO 13943:2017/PWI Amd 1
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.13
-    text: Environment. Health protection. Safety (Vocabularies)
   - code: 13.220.01
     text: Protection against fire in general
+  - code: 01.040.13
+    text: Environment. Health protection. Safety (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

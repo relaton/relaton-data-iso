@@ -1,53 +1,45 @@
 ---
 id: ISOIEC2300212006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: MPEG video technologies
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Accuracy requirements for implementation of integer-output 8x8
     inverse discrete cosine transform'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - MPEG video technologies - Part 1: Accuracy requirements
     for implementation of integer-output 8x8 inverse discrete cosine transform'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies vidéo MPEG
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Exigences d''exactitude pour l''implémentation de la transformation
     cosinus inverse discrète de sortie du nombre entier 8x8'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Technologies vidéo MPEG - Partie 1: Exigences
     d''exactitude pour l''implémentation de la transformation cosinus inverse discrète
     de sortie du nombre entier 8x8'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/42030.html
@@ -66,7 +58,7 @@ docidentifier:
 docnumber: '23002'
 date:
 - type: published
-  at: 2006-12
+  at: '2006-11-28'
 contributor:
 - role:
   - type: publisher
@@ -106,60 +98,34 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "A number of image and video coding related standards include a requirement
+  content: A number of image and video coding related standards include a requirement
     for decoders to implement an integer-output 8x8 inverse discrete cosine transform
     (IDCT) for the generation of inverse-transformed sample differences with a nominal
     range from -2B to (2B)-1 for some integer number of bits B, where B is greater
     than or equal to 8. ISO/IEC 23002-1:2006 specifies conformance requirements for
     establishing sufficient accuracy in such an integer-output IDCT implementation.
     It is intended to be suitable for reference to establish partial or complete requirements
-    for IDCT accuracy for conformance to other standards that require IDCT use. \nThe
+    for IDCT accuracy for conformance to other standards that require IDCT use. The
     accuracy requirements specified in the main body of ISO/IEC 23002-1:2006 are essentially
     the same as those previously specified in IEEE 1180-1990 (which has since been
     withdrawn), in Annex A of ITU-T Rec. H.261, and in Annex A of ITU-T Rec. H.263.
     These requirements have been specified herein to resolve normative references
     to IEEE 1180-1990 in MPEG standards after its withdrawal and to provide improved
-    clarity for the specification of IDCT accuracy requirements. \nAn additional requirement
+    clarity for the specification of IDCT accuracy requirements. An additional requirement
     on encoded-bitstream intra refresh frequency was also previously specified in
     IEEE 1180-1990, establishing a requirement of bitstream conformance that each
     macroblock be intra-coded at least once within each series of 132 times that it
     is coded in a predicted picture without an intervening intra picture. That additional
     requirement is not specified in ISO/IEC 23002-1:2006 , in order to confine its
-    scope to the domain of decoder conformance specification. \nSome allowances for
+    scope to the domain of decoder conformance specification. Some allowances for
     modification of the specified accuracy requirements are made within ISO/IEC 23002-1:2006.
     Additional accuracy requirements that may be invoked by a referencing specification
-    are specified in Annexes A and B. "
-- language: fr
-  script: Latn
-  content: "A number of image and video coding related standards include a requirement
-    for decoders to implement an integer-output 8x8 inverse discrete cosine transform
-    (IDCT) for the generation of inverse-transformed sample differences with a nominal
-    range from -2B to (2B)-1 for some integer number of bits B, where B is greater
-    than or equal to 8. ISO/IEC 23002-1:2006 specifies conformance requirements for
-    establishing sufficient accuracy in such an integer-output IDCT implementation.
-    It is intended to be suitable for reference to establish partial or complete requirements
-    for IDCT accuracy for conformance to other standards that require IDCT use. \nThe
-    accuracy requirements specified in the main body of ISO/IEC 23002-1:2006 are essentially
-    the same as those previously specified in IEEE 1180-1990 (which has since been
-    withdrawn), in Annex A of ITU-T Rec. H.261, and in Annex A of ITU-T Rec. H.263.
-    These requirements have been specified herein to resolve normative references
-    to IEEE 1180-1990 in MPEG standards after its withdrawal and to provide improved
-    clarity for the specification of IDCT accuracy requirements. \nAn additional requirement
-    on encoded-bitstream intra refresh frequency was also previously specified in
-    IEEE 1180-1990, establishing a requirement of bitstream conformance that each
-    macroblock be intra-coded at least once within each series of 132 times that it
-    is coded in a predicted picture without an intervening intra picture. That additional
-    requirement is not specified in ISO/IEC 23002-1:2006 , in order to confine its
-    scope to the domain of decoder conformance specification. \nSome allowances for
-    modification of the specified accuracy requirements are made within ISO/IEC 23002-1:2006.
-    Additional accuracy requirements that may be invoked by a referencing specification
-    are specified in Annexes A and B. "
+    are specified in Annexes A and B.
 status:
   stage:
     content: '90'
@@ -171,22 +137,10 @@ copyright:
   - organization:
       name:
       - content: ISO/IEC
-relation:
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23002-1:2006/Amd 1:2008
-    docidentifier:
-    - content: ISO/IEC 23002-1:2006/Amd 1:2008
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2025-03-05'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

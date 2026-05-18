@@ -1,55 +1,49 @@
 ---
 id: ISOIEC979822008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Entity authentication -- Part 2: Mechanisms using symmetric encipherment
     algorithms'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Entity authentication --
     Part 2: Mechanisms using symmetric encipherment algorithms'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Authentification d''entité -- Partie 2: Mécanismes utilisant des algorithmes
     de chiffrement symétriques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Authentification
     d''entité -- Partie 2: Mécanismes utilisant des algorithmes de chiffrement symétriques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/50522.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:50522:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/05/50522.detail.rss
 docidentifier:
@@ -63,7 +57,7 @@ docidentifier:
 docnumber: '9798'
 date:
 - type: published
-  at: 2008-12
+  at: '2008-12-09'
 contributor:
 - role:
   - type: publisher
@@ -103,22 +97,28 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 9798-2:2008 specifies entity authentication mechanisms using symmetric encipherment algorithms. Four of the mechanisms provide entity authentication between two entities where no trusted third party is involved; two of these are mechanisms to unilaterally authenticate one entity to another, while the other two are mechanisms for mutual authentication of two entities. The remaining mechanisms require a trusted third party for the establishment of a common secret key, and realize mutual or unilateral entity authentication.
-    The mechanisms specified in ISO/IEC 9798-2:2008 use time variant parameters such as time stamps, sequence numbers, or random numbers to prevent valid authentication information from being accepted at a later time or more than once.
-    If no trusted third party is involved and a time stamp or sequence number is used, one pass is needed for unilateral authentication, while two passes are needed to achieve mutual authentication. If no trusted third party is involved and a challenge and response method employing random numbers is used, two passes are needed for unilateral authentication, while three passes are required to achieve mutual authentication. If a trusted third party is involved, any additional communication between an entity and the trusted third party requires two extra passes in the communication exchange.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 9798-2:2008 specifies entity authentication mechanisms using symmetric encipherment algorithms. Four of the mechanisms provide entity authentication between two entities where no trusted third party is involved; two of these are mechanisms to unilaterally authenticate one entity to another, while the other two are mechanisms for mutual authentication of two entities. The remaining mechanisms require a trusted third party for the establishment of a common secret key, and realize mutual or unilateral entity authentication.
-    The mechanisms specified in ISO/IEC 9798-2:2008 use time variant parameters such as time stamps, sequence numbers, or random numbers to prevent valid authentication information from being accepted at a later time or more than once.
-    If no trusted third party is involved and a time stamp or sequence number is used, one pass is needed for unilateral authentication, while two passes are needed to achieve mutual authentication. If no trusted third party is involved and a challenge and response method employing random numbers is used, two passes are needed for unilateral authentication, while three passes are required to achieve mutual authentication. If a trusted third party is involved, any additional communication between an entity and the trusted third party requires two extra passes in the communication exchange.
+  content: ISO/IEC 9798-2:2008 specifies entity authentication mechanisms using symmetric
+    encipherment algorithms. Four of the mechanisms provide entity authentication
+    between two entities where no trusted third party is involved; two of these are
+    mechanisms to unilaterally authenticate one entity to another, while the other
+    two are mechanisms for mutual authentication of two entities. The remaining mechanisms
+    require a trusted third party for the establishment of a common secret key, and
+    realize mutual or unilateral entity authentication. The mechanisms specified in
+    ISO/IEC 9798-2:2008 use time variant parameters such as time stamps, sequence
+    numbers, or random numbers to prevent valid authentication information from being
+    accepted at a later time or more than once. If no trusted third party is involved
+    and a time stamp or sequence number is used, one pass is needed for unilateral
+    authentication, while two passes are needed to achieve mutual authentication.
+    If no trusted third party is involved and a challenge and response method employing
+    random numbers is used, two passes are needed for unilateral authentication, while
+    three passes are required to achieve mutual authentication. If a trusted third
+    party is involved, any additional communication between an entity and the trusted
+    third party requires two extra passes in the communication exchange.
 status:
   stage:
     content: '95'
@@ -133,68 +133,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-2:1999
-    docidentifier:
-    - content: ISO/IEC 9798-2:1999
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-2:1999/Cor 1:2004
-    docidentifier:
-    - content: ISO/IEC 9798-2:1999/Cor 1:2004
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-2:2019
+    formattedref:
+      content: ISO/IEC 9798-2:2019
     docidentifier:
     - content: ISO/IEC 9798-2:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-06-03'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-2:2008/Cor 1:2010
+    formattedref:
+      content: ISO/IEC 9798-2:1999
     docidentifier:
-    - content: ISO/IEC 9798-2:2008/Cor 1:2010
+    - content: ISO/IEC 9798-2:1999
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-06-03'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-2:2008/Cor 2:2012
+    formattedref:
+      content: ISO/IEC 9798-2:1999/Cor 1:2004
     docidentifier:
-    - content: ISO/IEC 9798-2:2008/Cor 2:2012
+    - content: ISO/IEC 9798-2:1999/Cor 1:2004
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-06-03'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-2:2008/Cor 3:2013
-    docidentifier:
-    - content: ISO/IEC 9798-2:2008/Cor 3:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2019-06-03'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

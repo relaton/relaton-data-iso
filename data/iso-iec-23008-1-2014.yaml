@@ -1,55 +1,49 @@
 ---
 id: ISOIEC2300812014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: High efficiency coding and media delivery in heterogeneous environments
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: MPEG media transport (MMT)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - High efficiency coding and media delivery in
     heterogeneous environments - Part 1: MPEG media transport (MMT)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Codage à haute efficacité et livraison des medias dans des environnements
     hétérogènes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Transport des médias MPEG'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Codage à haute efficacité et livraison
     des medias dans des environnements hétérogènes - Partie 1: Transport des médias
     MPEG'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/62835.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:62835:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/28/62835.detail.rss
 docidentifier:
@@ -63,7 +57,7 @@ docidentifier:
 docnumber: '23008'
 date:
 - type: published
-  at: 2014-06
+  at: '2014-05-23'
 contributor:
 - role:
   - type: publisher
@@ -103,54 +97,31 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 23008-1:2014 specifies MPEG Media Transport (MMT) technologies,
+  content: 'ISO/IEC 23008-1:2014 specifies MPEG Media Transport (MMT) technologies,
     which include a single encapsulation format, delivery protocols and signalling
     messages for transport and delivery of multimedia data over heterogeneous packet-switched
     networks for multimedia services. Types of packet-switched networks supported
     by this specification include bidirectional networks such as IP (Internet Protocol)
     networks and unidirectional networks such as digital broadcast networks (which
-    may or may not use the IP). \nThe technologies specified by this specification
-    belong to one of three functional areas of MMT: Media Processing Unit (MPU) format,
-    signalling messages and delivery protocol.\nMedia Processing Unit format specifies
-    the 'mpuf' branded ISO Based Media File Format encapsulating  both timed and non-timed
-    media contents. The MPU format is a self-contained ISOBMFF structure enabling
-    independent consumption of media data, which hides codec specific details from
-    the delivery function.\nSignalling functional area specifies the formats of signalling
-    messages carrying information for managing media content delivery and consumption,
-    e.g. specific media locations and delivery configuration of media contents.\nDelivery
+    may or may not use the IP). The technologies specified by this specification belong
+    to one of three functional areas of MMT: Media Processing Unit (MPU) format, signalling
+    messages and delivery protocol. Media Processing Unit format specifies the ''mpuf''
+    branded ISO Based Media File Format encapsulating both timed and non-timed media
+    contents. The MPU format is a self-contained ISOBMFF structure enabling independent
+    consumption of media data, which hides codec specific details from the delivery
+    function. Signalling functional area specifies the formats of signalling messages
+    carrying information for managing media content delivery and consumption, e.g.
+    specific media locations and delivery configuration of media contents. Delivery
     functional area specifies the payload formats that is independent of media and
     codec types, which allows fragmentation and aggregation of contents encapsulated
     as specified by this specification for delivery using packet-switched oriented
     transport protocols. The delivery functional area also provides an application
-    layer transport protocol that allows for advanced delivery of media contents."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 23008-1:2014 specifies MPEG Media Transport (MMT) technologies,
-    which include a single encapsulation format, delivery protocols and signalling
-    messages for transport and delivery of multimedia data over heterogeneous packet-switched
-    networks for multimedia services. Types of packet-switched networks supported
-    by this specification include bidirectional networks such as IP (Internet Protocol)
-    networks and unidirectional networks such as digital broadcast networks (which
-    may or may not use the IP). \nThe technologies specified by this specification
-    belong to one of three functional areas of MMT: Media Processing Unit (MPU) format,
-    signalling messages and delivery protocol.\nMedia Processing Unit format specifies
-    the 'mpuf' branded ISO Based Media File Format encapsulating  both timed and non-timed
-    media contents. The MPU format is a self-contained ISOBMFF structure enabling
-    independent consumption of media data, which hides codec specific details from
-    the delivery function.\nSignalling functional area specifies the formats of signalling
-    messages carrying information for managing media content delivery and consumption,
-    e.g. specific media locations and delivery configuration of media contents.\nDelivery
-    functional area specifies the payload formats that is independent of media and
-    codec types, which allows fragmentation and aggregation of contents encapsulated
-    as specified by this specification for delivery using packet-switched oriented
-    transport protocols. The delivery functional area also provides an application
-    layer transport protocol that allows for advanced delivery of media contents."
+    layer transport protocol that allows for advanced delivery of media contents.'
 status:
   stage:
     content: '95'
@@ -163,43 +134,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23008-1:2017
+    formattedref:
+      content: ISO/IEC 23008-1:2017
     docidentifier:
     - content: ISO/IEC 23008-1:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-08-11'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23008-1:2014/Cor 1:2015
-    docidentifier:
-    - content: ISO/IEC 23008-1:2014/Cor 1:2015
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2017-08-11'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23008-1:2014/Amd 1:2015
-    docidentifier:
-    - content: ISO/IEC 23008-1:2014/Amd 1:2015
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2017-08-11'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

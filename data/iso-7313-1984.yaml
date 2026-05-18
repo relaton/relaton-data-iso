@@ -1,45 +1,41 @@
 ---
 id: ISO73131984
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aircraft
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: High temperature convoluted hose assemblies in polytetrafluoroethylene
     (PTFE)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Aircraft - High temperature convoluted hose assemblies in polytetrafluoroethylene
     (PTFE)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Tuyauterie flexible, haute température, convolutée, en polytétrafluoréthylène
     (PTFE)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs - Tuyauterie flexible, haute température, convolutée, en polytétrafluoréthylène
     (PTFE)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/13979.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:13979:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/39/13979.detail.rss
 docidentifier:
@@ -53,7 +49,7 @@ docidentifier:
 docnumber: '7313'
 date:
 - type: published
-  at: 1984-03
+  at: '1984-03-01'
 contributor:
 - role:
   - type: publisher
@@ -96,18 +92,6 @@ abstract:
     may be required it these hoses are to be part of a pressurized gas storage system.
     Two types of hose assembly are covered: Typ 1 - non-conductive inner tube and
     type 2 - conductive inner tube.'
-- language: fr
-  script: Latn
-  content: "La présente Norme internationale spécifie les caractéristiques des tuyauteries
-    flexibles comprenant une tresse métallique résistant à la corrosion et un tuyau
-    intérieur convoluté en polytétrafluoréthylène (PTFE), utilisées dans les systèmes
-    aérospatiaux de fluides, à des températures comprises entre -- 55 °C et 200 °C
-    et à des pressions nominales qui, selon la dimension de l'alésage, peuvent atteindre
-    6,8 MPa. Une approbation particulière peut être exigée de l'autorité nationale
-    appropriée lorsque ces tuyauteries flexibles sont destinées à être utilisées dans
-    des circuits de stockage de gaz sous pression. Les deux types suivants de tuyauteries
-    flexibles sont couverts par la présente Norme internationale : \n- Type 1 : tuyau
-    intérieur non conducteur \n- Type 2 : tuyau intérieur conducteur"
 status:
   stage:
     content: '95'
@@ -120,29 +104,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7313:2020
+    formattedref:
+      content: ISO/DIS 7313
+    docidentifier:
+    - content: ISO/DIS 7313
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 7313:2020
     docidentifier:
     - content: ISO 7313:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-03-20'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '49.080'
-    text: Aerospace fluid systems and components
   - code: 83.140.40
     text: Hoses
+  - code: '49.080'
+    text: Aerospace fluid systems and components
   structuredidentifier:
     type: ISO
     project_number:

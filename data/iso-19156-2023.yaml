@@ -1,38 +1,32 @@
 ---
 id: ISO191562023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Observations, measurements and samples
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Observations, measurements and samples
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Observations, mesures et échantillons
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Observations, mesures et échantillons
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/82463.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '19156'
 date:
 - type: published
-  at: 2023-04
+  at: '2023-04-27'
 contributor:
 - role:
   - type: publisher
@@ -88,16 +82,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines a conceptual schema for observations, for features involved in the observation process, and for features involved in sampling when making observations. These provide models for the exchange of information describing observation acts and their results, both within and between different scientific and technical communities.
-    Observations commonly involve sampling of an ultimate feature-of-interest. This document defines a common set of sample types according to their spatial, material (for ex situ observations) or statistical nature. The schema includes relationships between sample features (sub-sampling, derived samples).
-    This document concerns only externally visible interfaces and places no restriction on the underlying implementations other than what is needed to satisfy the interface specifications in the actual situation.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document définit un schéma conceptuel pour les observations, pour les entités impliquées dans le processus d'observation et pour les entités impliquées dans l'échantillonnage des données dans le cadre des observations. Celles-ci fournissent des modèles destinés à l'échange d'informations décrivant les faits observés et leurs résultats, aussi bien entre les différentes communautés scientifiques et techniques qu'en leur sein.
-    En général, les observations impliquent l'échantillonnage d'une entité concernée finale. Le présent document définit un ensemble commun de types d'échantillons en fonction de leur nature spatiale matérielle (pour les observations ex-situ) ou statistique. Ce schéma comprend les relations entre les entités d'échantillonnage (sous-échantillonnage, échantillons dérivés).
-    Le présent document ne concerne que les interfaces visibles de l'extérieur et ne place aucune restriction quant aux implémentations sous-jacentes, autres que celles nécessaires pour satisfaire aux spécifications relatives aux interfaces dans le contexte actuel.
+  content: This document defines a conceptual schema for observations, for features
+    involved in the observation process, and for features involved in sampling when
+    making observations. These provide models for the exchange of information describing
+    observation acts and their results, both within and between different scientific
+    and technical communities. Observations commonly involve sampling of an ultimate
+    feature-of-interest. This document defines a common set of sample types according
+    to their spatial, material (for ex situ observations) or statistical nature. The
+    schema includes relationships between sample features (sub-sampling, derived samples).
+    This document concerns only externally visible interfaces and places no restriction
+    on the underlying implementations other than what is needed to satisfy the interface
+    specifications in the actual situation.
 status:
   stage:
     content: '60'
@@ -110,18 +105,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 19156:2011
+    formattedref:
+      content: ISO 19156:2011
     docidentifier:
     - content: ISO 19156:2011
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

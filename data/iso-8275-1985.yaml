@@ -1,42 +1,37 @@
 ---
 id: ISO82751985
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Doorsets
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vertical load test
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Doorsets - Vertical load test
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Blocs-portes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai de charge verticale
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Blocs-portes - Essai de charge verticale
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/15390.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:15390:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/53/15390.detail.rss
 docidentifier:
@@ -50,7 +45,7 @@ docidentifier:
 docnumber: '8275'
 date:
 - type: published
-  at: 1985-08
+  at: '1985-08-01'
 contributor:
 - role:
   - type: publisher
@@ -96,21 +91,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8275:2023
+    formattedref:
+      content: ISO 8275:2023
     docidentifier:
     - content: ISO 8275:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-02-08'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 8275
+    docidentifier:
+    - content: ISO/DIS 8275
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -120,4 +120,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 8275
+      content: '15390'

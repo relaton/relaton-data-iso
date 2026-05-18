@@ -1,57 +1,51 @@
 ---
 id: ISO1181012005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Lasers and laser-related equipment
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Test method and classification for the laser resistance of surgical drapes
     and/or patient protective covers
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Primary ignition and penetration'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Lasers and laser-related equipment - Test method and classification for
     the laser resistance of surgical drapes and/or patient protective covers - Part
     1: Primary ignition and penetration'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Lasers et équipements associés aux lasers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode d'essai et classification de la résistance au laser pour des draps
     chirurgicaux et/ou des couvertures de protection des patients
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Inflammation primaire et pénétration'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Lasers et équipements associés aux lasers - Méthode d''essai et classification
     de la résistance au laser pour des draps chirurgicaux et/ou des couvertures de
     protection des patients - Partie 1: Inflammation primaire et pénétration'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37587.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:37587:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/75/37587.detail.rss
 docidentifier:
@@ -65,7 +59,7 @@ docidentifier:
 docnumber: '11810'
 date:
 - type: published
-  at: 2005-02
+  at: '2005-02-17'
 contributor:
 - role:
   - type: publisher
@@ -97,28 +91,24 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: "ISO 11810-1:2005 is applicable to disposable and reusable, as well as
-    woven and non-woven materials used as surgical drapes and other patient protective
-    covers which claim to be laser resistant. \nThe purpose of ISO 11810-1:2005 is
-    to provide a standardized method for testing and classifying surgical drapes and
-    other patient protective covers with respect to laser-induced hazards. An appropriate
-    classification system is given. It is not the purpose of ISO 11810-1:2005 to serve
-    as a general fire safety specification, and as such, this standard does not cover
-    other sources of ignition. It also does not cover the issue of laser-induced secondary
-    ignition.\nAll materials reflect portions of the beam and it is necessary for
-    the user to decide whether specular reflectance may be a hazard. This measurement,
-    however, is not covered in ISO 11810-1:2005."
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 11810-1:2005 s'applique aux matériaux non-réutilisables et réutilisables, ainsi qu'aux matériaux tissés et non tissés utilisés comme draps chirurgicaux ou à d'autres couvertures de protection des patients déclarés résistants au laser.
-    L'objectif de l'ISO 11810-1:2005 est de fournir une méthode normalisée pour soumettre à essai et classer les draps chirurgicaux et les autres couvertures de protection des patients en fonction des risques liés au laser. Un système de classification approprié est indiqué. L'ISO 11810-1:2005 n'a pas pour objet de servir de spécification générale de sécurité contre le feu et, en tant que telle, elle ne couvre pas d'autres sources d'inflammation, ni l'inflammation secondaire induite par le laser.
-    Tous les matériaux réfléchissent des portions du faisceau laser et il est nécessaire que l'utilisateur décide si le facteur de réflexion spéculaire peut constituer un risque. Ce mesurage n'est cependant pas couvert par l'ISO 11810-1:2005.
+  content: ISO 11810-1:2005 is applicable to disposable and reusable, as well as woven
+    and non-woven materials used as surgical drapes and other patient protective covers
+    which claim to be laser resistant. The purpose of ISO 11810-1:2005 is to provide
+    a standardized method for testing and classifying surgical drapes and other patient
+    protective covers with respect to laser-induced hazards. An appropriate classification
+    system is given. It is not the purpose of ISO 11810-1:2005 to serve as a general
+    fire safety specification, and as such, this standard does not cover other sources
+    of ignition. It also does not cover the issue of laser-induced secondary ignition.
+    All materials reflect portions of the beam and it is necessary for the user to
+    decide whether specular reflectance may be a hazard. This measurement, however,
+    is not covered in ISO 11810-1:2005.
 status:
   stage:
     content: '95'
@@ -133,37 +123,42 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11810:2002
+    formattedref:
+      content: ISO/NP 11810-1
     docidentifier:
-    - content: ISO 11810:2002
+    - content: ISO/NP 11810-1
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11810:2015
+    formattedref:
+      content: ISO 11810:2015
     docidentifier:
     - content: ISO 11810:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-12-14'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11810:2002
+    docidentifier:
+    - content: ISO 11810:2002
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
   - code: '31.260'
     text: Optoelectronics. Laser equipment
-  - code: 11.040.30
-    text: Surgical instruments and materials
   - code: 13.340.99
     text: Other protective equipment
+  - code: 11.040.30
+    text: Surgical instruments and materials
   structuredidentifier:
     type: ISO
     project_number:

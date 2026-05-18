@@ -1,44 +1,40 @@
 ---
 id: ISO128552012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Electronic fee collection
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Information exchange between service provision and toll charging
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Electronic fee collection - Information exchange between service provision
     and toll charging
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception du télépéage
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échange d'informations entre la prestation de service et la perception
     du péage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception du télépéage - Échange d'informations entre la prestation de
     service et la perception du péage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/52018.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:52018:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/20/52018.detail.rss
 docidentifier:
@@ -52,7 +48,7 @@ docidentifier:
 docnumber: '12855'
 date:
 - type: published
-  at: 2012-02
+  at: '2012-02-13'
 contributor:
 - role:
   - type: publisher
@@ -89,38 +85,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 12855:2011 specifies
-    - the interfaces between electronic fee collection (EFC) systems for vehicle related transport services, e.g. road user charging, parking and access control; it does not cover interfaces for EFC systems for public transport; an EFC system can include any EFC system, e.g. also systems automatically reading licence plate numbers of vehicles passing a toll point;
-    - an exchange of information between the central equipment of the two roles of service provision and toll charging, e.g.
-
-    charging related data (toll declarations, billing details),
-    administrative data, and
-    confirmation data;
-
-
-    - transfer mechanisms and supporting functions;
-    - information objects, data syntax and semantics;
-    - examples of data interchanges.
+  content: ISO 12855:2011 specifies the interfaces between electronic fee collection
+    (EFC) systems for vehicle related transport services, e.g. road user charging,
+    parking and access control; it does not cover interfaces for EFC systems for public
+    transport; an EFC system can include any EFC system, e.g. also systems automatically
+    reading licence plate numbers of vehicles passing a toll point; an exchange of
+    information between the central equipment of the two roles of service provision
+    and toll charging, e.g. charging related data (toll declarations, billing details),
+    administrative data, and confirmation data; transfer mechanisms and supporting
+    functions; information objects, data syntax and semantics; examples of data interchanges.
     ISO 12855:2011 supports any toll service and any technology used for charging.
-    It is defined as a toolbox standard of transactions and messages which can be used for the assigned purpose. The detailed definitions of mandatory and optional elements in a real implementation are defined elsewhere. It does not define all communication sequences, communication stacks and timings.
-- language: fr
-  script: Latn
-  content: |-
-    Le domaine d'application de la présente Norme internationale couvre:
-    - les interfaces entre les installations EFC (Electronic Fee Collection) pour les services de transport associés aux véhicules, tels que la tarification routière, le stationnement et le contrôle d'accès. La présente Norme internationale ne couvre pas les interfaces pour les systèmes électroniques de perception de redevances pour les transports publics. Il convient de noter qu'une installation EFC peut comprendre un système de perception de télépéage, tel que les systèmes permettant de lire automatiquement les numéros de plaques d'immatriculation des véhicules qui franchissent un point de péage;
-    - l'échange d'informations entre les équipements centraux des deux rôles Prestation de service et Perception de péage, par exemple
-
-    les données liées à la perception (déclarations de péage, détails de facturation),
-    les données administratives, et
-    les données de confirmation;
-
-
-    - les mécanismes de transfert et les fonctions de support;
-    - les objets d'information, la syntaxe et la sémantique des données;
-    - les exemples d'échanges de données.
-    La présente Norme internationale supporte tout service de péage et toute technologie utilisée dans le cadre de la perception.
-    La présente Norme internationale est définie comme une norme «boîte à outils» pour les transactions et les messages pouvant être utilisée pour l'objectif prévu. La définition détaillée des éléments obligatoires et facultatifs dans une implémentation réelle doit être définie par ailleurs. De plus, la présente Norme internationale ne définit pas toutes les séquences de communication, ni les couches de communication et les paramètres temporels.
+    It is defined as a toolbox standard of transactions and messages which can be
+    used for the assigned purpose. The detailed definitions of mandatory and optional
+    elements in a real implementation are defined elsewhere. It does not define all
+    communication sequences, communication stacks and timings.
 status:
   stage:
     content: '95'
@@ -133,40 +111,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 12855:2015
+    formattedref:
+      content: ISO 12855:2015
     docidentifier:
     - content: ISO 12855:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-12-14'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 12855:2012/Cor 1:2013
-    docidentifier:
-    - content: ISO 12855:2012/Cor 1:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2015-12-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

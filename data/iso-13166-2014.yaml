@@ -1,52 +1,46 @@
 ---
 id: ISO131662014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Water quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Uranium isotopes
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Test method using alpha-spectrometry
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Water quality - Uranium isotopes - Test method using alpha-spectrometry
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Isotopes de l'uranium
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode d'essai par spectrométrie alpha
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau - Isotopes de l'uranium - Méthode d'essai par spectrométrie
     alpha
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/59209.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:59209:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/92/59209.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '13166'
 date:
 - type: published
-  at: 2014-03
+  at: '2014-02-27'
 contributor:
 - role:
   - type: publisher
@@ -92,21 +86,20 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 13166:2014 specifies the conditions for the determination of uranium isotope activity concentration in samples of environmental water (including sea waters) using alpha-spectrometry and 232U as a yield tracer. A chemical separation is required to separate and purify uranium from a test portion of the sample.
-    Plutonium isotopes can interfere, if present, with detectable activities in the sample.
-    The detection limit for measurement of a test portion of about 500 ml is approximately 5 mBq · l−1 with a counting time of about 200 000 s.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 13166:2014 spécifie les conditions relatives à la détermination de l'activité volumique des isotopes de l'uranium dans des échantillons d'eau environnementale (y compris les eaux de mer) par spectrométrie alpha en utilisant 232U comme traceur. Une séparation chimique est nécessaire pour séparer et purifier l'uranium de la prise d'essai.
-    Les isotopes du plutonium peuvent interférer, s'ils sont présents, à des niveaux d'activité détectables dans l'échantillon.
-    Pour le mesurage d'une prise d'essai d'environ 500 ml, la limite de détection est d'environ 5 mBq.l-1 pour une durée de comptage de l'ordre de 200 000 s.
+  content: ISO 13166:2014 specifies the conditions for the determination of uranium
+    isotope activity concentration in samples of environmental water (including sea
+    waters) using alpha-spectrometry and 232U as a yield tracer. A chemical separation
+    is required to separate and purify uranium from a test portion of the sample.
+    Plutonium isotopes can interfere, if present, with detectable activities in the
+    sample. The detection limit for measurement of a test portion of about 500 ml
+    is approximately 5 mBq · l−1 with a counting time of about 200 000 s.
 status:
   stage:
     content: '95'
@@ -119,29 +112,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13166:2020
+    formattedref:
+      content: ISO 13166:2020
     docidentifier:
     - content: ISO 13166:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-08-04'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '13.280'
-    text: Radiation protection
   - code: 13.060.60
     text: Examination of physical properties of water
+  - code: '13.280'
+    text: Radiation protection
   structuredidentifier:
     type: ISO
     project_number:

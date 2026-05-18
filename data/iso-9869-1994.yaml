@@ -1,55 +1,48 @@
 ---
 id: ISO98691994
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Thermal insulation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Building elements
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: In-situ measurement of thermal resistance and thermal transmittance
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Thermal insulation - Building elements - In-situ measurement of thermal
     resistance and thermal transmittance
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Isolation thermique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments de construction
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesurage in situ de la résistance thermique et du coefficient de transmission
     thermique
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Isolation thermique - Éléments de construction - Mesurage in situ de la
     résistance thermique et du coefficient de transmission thermique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/17746.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:17746:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/77/17746.detail.rss
 docidentifier:
@@ -63,7 +56,7 @@ docidentifier:
 docnumber: '9869'
 date:
 - type: published
-  at: 1994-07
+  at: '1994-07-21'
 contributor:
 - role:
   - type: publisher
@@ -108,16 +101,6 @@ abstract:
     the apparatus to be used, the calibration procedure for the apparatus, the installation
     and the measurement procedures, the analysis of the data, including the correction
     of systematic errors and the reporting format.
-- language: fr
-  script: Latn
-  content: Describes the heat flowmeter method for the measurement of the thermal
-    transmission properties (thermal resistance and thermal conductance from surface
-    to surface, total thermal resistance and transmittance from environment to environment)
-    of plane building components, primarily consisting of opaque layers perpendicular
-    to the heat flow and having no significant lateral heat flow. In detail, describes
-    the apparatus to be used, the calibration procedure for the apparatus, the installation
-    and the measurement procedures, the analysis of the data, including the correction
-    of systematic errors and the reporting format.
 status:
   stage:
     content: '95'
@@ -130,21 +113,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9869-1:2014
+    formattedref:
+      content: ISO/NP 9869-1
+    docidentifier:
+    - content: ISO/NP 9869-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9869-1:2014
     docidentifier:
     - content: ISO 9869-1:2014
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2014-07-29'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 9869-2
+    docidentifier:
+    - content: ISO/NP 9869-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -154,4 +150,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 9869
+      content: '17746'

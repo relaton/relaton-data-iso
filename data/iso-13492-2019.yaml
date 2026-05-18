@@ -1,50 +1,33 @@
 ---
 id: ISO134922019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Key-management-related data element
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Application and usage of ISO 8583-1 data elements for encryption
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Financial services - Key-management-related data element - Application
     and usage of ISO 8583-1 data elements for encryption
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Financial services
-  type: title-intro
-  format: text/plain
-- language: fr
-  script: Latn
-  content: Key-management-related data element
+  content: Titre manque
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Application and usage of ISO 8583-1 data elements for encryption
-  type: title-part
-  format: text/plain
-- language: fr
-  script: Latn
-  content: Financial services - Key-management-related data element - Application
-    and usage of ISO 8583-1 data elements for encryption
+  content: Titre manque
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73992.html
@@ -58,12 +41,12 @@ docidentifier:
   primary: true
 - content: ISO 13492:2019(E)
   type: iso-reference
-- content: urn:iso:std:iso:13492:stage-90.93
+- content: urn:iso:std:iso:13492:stage-90.92
   type: URN
 docnumber: '13492'
 date:
 - type: published
-  at: 2019-10
+  at: '2019-10-25'
 contributor:
 - role:
   - type: publisher
@@ -94,33 +77,31 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document describes a data element related to key management which can be transmitted either in transaction messages to convey information about cryptographic keys used to secure the current transaction, or in cryptographic service messages to convey information about cryptographic keys to be used to secure future transactions.
-    This document addresses the requirements for the use of the data element related to key management within ISO 8583-1, using the following two ISO 8583-1 data elements for DEA and TDEA:
-    —     security related control information (data element 53);
-    —     key management data (data element 96).
-    The data element related to key management for DEA and TDEA is constructed from the concatenation of two ISO 8583-1 message elements, data element 53 — security related control information, and data element 96 — key management data. It conveys information about the associated transaction's cryptographic key(s) and is divided into subfields including a control field, a key-set identifier and additional optional information. For AES implementations, the data elements are summarized in one field.
-    This document is applicable to either symmetric or asymmetric cipher systems.
-- language: fr
-  script: Latn
-  content: |-
-    This document describes a data element related to key management which can be transmitted either in transaction messages to convey information about cryptographic keys used to secure the current transaction, or in cryptographic service messages to convey information about cryptographic keys to be used to secure future transactions.
-    This document addresses the requirements for the use of the data element related to key management within ISO 8583-1, using the following two ISO 8583-1 data elements for DEA and TDEA:
-    —     security related control information (data element 53);
-    —     key management data (data element 96).
-    The data element related to key management for DEA and TDEA is constructed from the concatenation of two ISO 8583-1 message elements, data element 53 — security related control information, and data element 96 — key management data. It conveys information about the associated transaction's cryptographic key(s) and is divided into subfields including a control field, a key-set identifier and additional optional information. For AES implementations, the data elements are summarized in one field.
-    This document is applicable to either symmetric or asymmetric cipher systems.
+  content: 'This document describes a data element related to key management which
+    can be transmitted either in transaction messages to convey information about
+    cryptographic keys used to secure the current transaction, or in cryptographic
+    service messages to convey information about cryptographic keys to be used to
+    secure future transactions. This document addresses the requirements for the use
+    of the data element related to key management within ISO 8583-1, using the following
+    two ISO 8583-1 data elements for DEA and TDEA: — security related control information
+    (data element 53); — key management data (data element 96). The data element related
+    to key management for DEA and TDEA is constructed from the concatenation of two
+    ISO 8583-1 message elements, data element 53 — security related control information,
+    and data element 96 — key management data. It conveys information about the associated
+    transaction''s cryptographic key(s) and is divided into subfields including a
+    control field, a key-set identifier and additional optional information. For AES
+    implementations, the data elements are summarized in one field. This document
+    is applicable to either symmetric or asymmetric cipher systems.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2019'
   owner:
@@ -130,16 +111,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13492:2007
+    formattedref:
+      content: ISO/AWI 13492
+    docidentifier:
+    - content: ISO/AWI 13492
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 13492:2007
     docidentifier:
     - content: ISO 13492:2007
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

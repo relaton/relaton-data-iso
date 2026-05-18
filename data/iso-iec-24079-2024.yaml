@@ -1,41 +1,35 @@
 ---
 id: ISOIEC240792024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Network Controller Sideband Interface (NC-SI) specifications collection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Network Controller Sideband Interface (NC-SI)
     specifications collection
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l’information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Collection de spécifications pour l’interface entre contrôleur réseau et
     contrôleur de gestion système (NC-SI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l’information - Collection de spécifications pour l’interface
     entre contrôleur réseau et contrôleur de gestion système (NC-SI)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/87681.html
@@ -54,7 +48,7 @@ docidentifier:
 docnumber: '24079'
 date:
 - type: published
-  at: 2024-07
+  at: '2024-07-23'
 contributor:
 - role:
   - type: publisher
@@ -94,46 +88,35 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the functionality and behavior of the Sideband Interface responsible for connecting the Network Controller to the Management Controller. It also outlines the behavioral model of the network traffic destined for the Management Controller from the Network Controller.
-    This document defines the following two aspects of the Network Controller Sideband Interface (NC‑SI):
-    - behavior of the interface, which include its operational states as well as the states of the associated components,
-    - the payloads and commands of the communication protocol supported over the interface.
-    The scope of this document is limited to addressing only a single Management Controller communicating with one or more Network Controllers.
-    This document also defines the following aspects of a 3.3V RMII Based Transport (RBT) based physical medium:
-    - transport binding for NC-SI over RBT,
-    - electrical and timing requirements for the RBT,
-    - an optional hardware arbitration mechanism for RBT.
-    Only the topics that may affect the behavior of the Network Controller or Management Controller, as it pertains to the Sideband Interface operations, are discussed in this document.
-    NC-SI over MCTP Binding Specification (DSP0261)
-    This document defines the bindings between NC-SI protocol elements and MCTP elements in order for NC-SI Control and Pass-Through traffic to be transported using MCTP.
-    Portions of this document rely on information and definitions from other specifications, which clause 2 identifies. Two of these references are particularly relevant:
-    - DMTF DSP0222, Network Controller Sideband Interface (NC-SI) Specification, provides the NC‑SI base control that is to be bound over MCTP by this specification.
-    -  DMTF DSP0236, Management Component Transport Protocol (MCTP) Base Specification, defines the MCTP transport on which the NC-SI Control and Pass-through packets are to be conveyed.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the functionality and behavior of the Sideband Interface responsible for connecting the Network Controller to the Management Controller. It also outlines the behavioral model of the network traffic destined for the Management Controller from the Network Controller.
-    This document defines the following two aspects of the Network Controller Sideband Interface (NC‑SI):
-    - behavior of the interface, which include its operational states as well as the states of the associated components,
-    - the payloads and commands of the communication protocol supported over the interface.
-    The scope of this document is limited to addressing only a single Management Controller communicating with one or more Network Controllers.
-    This document also defines the following aspects of a 3.3V RMII Based Transport (RBT) based physical medium:
-    - transport binding for NC-SI over RBT,
-    - electrical and timing requirements for the RBT,
-    - an optional hardware arbitration mechanism for RBT.
-    Only the topics that may affect the behavior of the Network Controller or Management Controller, as it pertains to the Sideband Interface operations, are discussed in this document.
-    NC-SI over MCTP Binding Specification (DSP0261)
-    This document defines the bindings between NC-SI protocol elements and MCTP elements in order for NC-SI Control and Pass-Through traffic to be transported using MCTP.
-    Portions of this document rely on information and definitions from other specifications, which clause 2 identifies. Two of these references are particularly relevant:
-    - DMTF DSP0222, Network Controller Sideband Interface (NC-SI) Specification, provides the NC‑SI base control that is to be bound over MCTP by this specification.
-    -  DMTF DSP0236, Management Component Transport Protocol (MCTP) Base Specification, defines the MCTP transport on which the NC-SI Control and Pass-through packets are to be conveyed.
+  content: 'This document defines the functionality and behavior of the Sideband Interface
+    responsible for connecting the Network Controller to the Management Controller.
+    It also outlines the behavioral model of the network traffic destined for the
+    Management Controller from the Network Controller. This document defines the following
+    two aspects of the Network Controller Sideband Interface (NC‑SI): behavior of
+    the interface, which include its operational states as well as the states of the
+    associated components, the payloads and commands of the communication protocol
+    supported over the interface. The scope of this document is limited to addressing
+    only a single Management Controller communicating with one or more Network Controllers.
+    This document also defines the following aspects of a 3.3V RMII Based Transport
+    (RBT) based physical medium: transport binding for NC-SI over RBT, electrical
+    and timing requirements for the RBT, an optional hardware arbitration mechanism
+    for RBT. Only the topics that may affect the behavior of the Network Controller
+    or Management Controller, as it pertains to the Sideband Interface operations,
+    are discussed in this document. NC-SI over MCTP Binding Specification (DSP0261)
+    This document defines the bindings between NC-SI protocol elements and MCTP elements
+    in order for NC-SI Control and Pass-Through traffic to be transported using MCTP.
+    Portions of this document rely on information and definitions from other specifications,
+    which clause 2 identifies. Two of these references are particularly relevant:
+    DMTF DSP0222, Network Controller Sideband Interface (NC-SI) Specification, provides
+    the NC‑SI base control that is to be bound over MCTP by this specification.  DMTF
+    DSP0236, Management Component Transport Protocol (MCTP) Base Specification, defines
+    the MCTP transport on which the NC-SI Control and Pass-through packets are to
+    be conveyed.'
 status:
   stage:
     content: '60'
@@ -146,9 +129,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

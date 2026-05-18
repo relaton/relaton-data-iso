@@ -1,40 +1,34 @@
 ---
 id: ISO143062017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: JT file format specification for 3D visualization
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Industrial automation systems and integration - JT file format specification
     for 3D visualization
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration '
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification de format de fichier JT pour visualisation 3D
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration  - Spécification
     de format de fichier JT pour visualisation 3D
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/62770.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 14306:2017(E)
   type: iso-reference
-- content: urn:iso:std:iso:14306:stage-90.92
+- content: urn:iso:std:iso:14306:stage-95.99
   type: URN
 docnumber: '14306'
 date:
 - type: published
-  at: 2017-11
+  at: '2017-12-08'
 contributor:
 - role:
   - type: publisher
@@ -84,41 +78,30 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 14306:2017 defines the syntax and semantics of a file format for the 3D visualization and interrogation of lightweight geometry and product manufacturing information derived from CAD systems, using visualization software tools that do not need the full capability of a CAD system.
-    ISO 14306:2017 has been adopted as a 3D visualization capability in addition to the ISO 10303 series.
-    The file format supports the following information:
-    ·         facet information (triangles), stored with geometry compression techniques
-    ·         visual attributes such as lights, textures and materials
-    ·         product manufacturing information, such as dimensions, tolerances and other attributes
-    ·         boundary representation (b-rep) solid model shape representations.      Several alternatives are available, including a representation based on the geometry standard defined in ISO 10303
-    ·         configuration representations
-    ·         delivery methods such as asynchronous streaming of content
-    ISO 14306:2017 does not specify the implementation of, or definition of a run-time architecture for viewing or processing of the file format.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 14306:2017 defines the syntax and semantics of a file format for the 3D visualization and interrogation of lightweight geometry and product manufacturing information derived from CAD systems, using visualization software tools that do not need the full capability of a CAD system.
-    ISO 14306:2017 has been adopted as a 3D visualization capability in addition to the ISO 10303 series.
-    The file format supports the following information:
-    ·         facet information (triangles), stored with geometry compression techniques
-    ·         visual attributes such as lights, textures and materials
-    ·         product manufacturing information, such as dimensions, tolerances and other attributes
-    ·         boundary representation (b-rep) solid model shape representations.      Several alternatives are available, including a representation based on the geometry standard defined in ISO 10303
-    ·         configuration representations
-    ·         delivery methods such as asynchronous streaming of content
-    ISO 14306:2017 does not specify the implementation of, or definition of a run-time architecture for viewing or processing of the file format.
+  content: 'ISO 14306:2017 defines the syntax and semantics of a file format for the
+    3D visualization and interrogation of lightweight geometry and product manufacturing
+    information derived from CAD systems, using visualization software tools that
+    do not need the full capability of a CAD system. ISO 14306:2017 has been adopted
+    as a 3D visualization capability in addition to the ISO 10303 series. The file
+    format supports the following information: · facet information (triangles), stored
+    with geometry compression techniques · visual attributes such as lights, textures
+    and materials · product manufacturing information, such as dimensions, tolerances
+    and other attributes · boundary representation (b-rep) solid model shape representations.
+    Several alternatives are available, including a representation based on the geometry
+    standard defined in ISO 10303 · configuration representations · delivery methods
+    such as asynchronous streaming of content ISO 14306:2017 does not specify the
+    implementation of, or definition of a run-time architecture for viewing or processing
+    of the file format.'
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2017'
   owner:
@@ -128,60 +111,48 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14306:2012
+    formattedref:
+      content: ISO 14306-3:2025
     docidentifier:
-    - content: ISO 14306:2012
+    - content: ISO 14306-3:2025
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14306-1:2024
+    formattedref:
+      content: ISO 14306-4:2026
+    docidentifier:
+    - content: ISO 14306-4:2026
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 14306-1:2024
     docidentifier:
     - content: ISO 14306-1:2024
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-11-07'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14306-2:2024
+    formattedref:
+      content: ISO 14306-2:2024
     docidentifier:
     - content: ISO 14306-2:2024
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-11-07'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 14306-3
+    formattedref:
+      content: ISO 14306:2012
     docidentifier:
-    - content: ISO 14306-3
+    - content: ISO 14306:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-11-07'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/DIS 14306-4
-    docidentifier:
-    - content: ISO/DIS 14306-4
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2024-11-07'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

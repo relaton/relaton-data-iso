@@ -1,52 +1,46 @@
 ---
 id: ISO2382191989
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information processing systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 19: Analog computing'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information processing systems - Vocabulary - Part 19: Analog computing'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de traitement de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 19: Calcul analogique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de traitement de l''information - Vocabulaire - Partie 19: Calcul
     analogique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7263.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7263:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/72/7263.detail.rss
 docidentifier:
@@ -55,12 +49,12 @@ docidentifier:
   primary: true
 - content: ISO 2382-19:1989(E)
   type: iso-reference
-- content: urn:iso:std:iso:2382:-19:stage-95.99
+- content: urn:iso:std:iso:2382:-19:stage-90.92
   type: URN
 docnumber: '2382'
 date:
 - type: published
-  at: 1989-05
+  at: '1989-05-11'
 contributor:
 - role:
   - type: publisher
@@ -101,16 +95,11 @@ abstract:
     selected English and French terms and their definition in the field of concepts
     relating to analog and hybrid arithmetic units, function generators, converters
     and modes of operation of such components.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente partie de l'ISO 2382 a pour objet de faciliter les échanges internationaux dans le domaine des systèmes de traitement de l'information. À cet effet, elle présente un ensemble bilingue de termes et de définitions ayant trait à des notions choisies dans ce domaine, et définit les relations pouvant exister entre les différentes notions. Les définitions ont été établies de manière à éviter les particularismes propres à une langue donnée, en vue de faciliter leur transposition dans les langues autres que celles ayant servi à la rédaction initiale. L'ISO 2382, qui en comprendra une trentaine, définit les notions relatives aux unités arithmétiques analogiques et hybrides, aux générateurs de fonction, aux convertisseurs et aux modes de fonctionnement de ces composants.
 status:
   stage:
-    content: '95'
+    content: '90'
   substage:
-    content: '99'
+    content: '92'
 copyright:
 - from: '1989'
   owner:
@@ -120,35 +109,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2382-19:1980
-    docidentifier:
-    - content: ISO 2382-19:1980
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 2382:2015
+    formattedref:
+      content: ISO/IEC 2382:2015
     docidentifier:
     - content: ISO/IEC 2382:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-04-29'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC AWI 2382-19
+    docidentifier:
+    - content: ISO/IEC AWI 2382-19
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2382-19:1980
+    docidentifier:
+    - content: ISO 2382-19:1980
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '35.020'
-    text: Information technology (IT) in general
   - code: 01.040.35
     text: Information technology (Vocabularies)
+  - code: '35.020'
+    text: Information technology (IT) in general
   structuredidentifier:
     type: ISO
     project_number:

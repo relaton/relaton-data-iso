@@ -1,43 +1,39 @@
 ---
 id: ISO300422008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Systems to manage terminology, knowledge and content
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: TermBase eXchange (TBX)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Systems to manage terminology, knowledge and content - TermBase eXchange
     (TBX)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de gestion de la terminologie, de la connaissance et du contenu
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: TermBase eXchange (TBX)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de gestion de la terminologie, de la connaissance et du contenu
     - TermBase eXchange (TBX)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45797.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45797:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/57/45797.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '30042'
 date:
 - type: published
-  at: 2008-12
+  at: '2008-12-08'
 contributor:
 - role:
   - type: publisher
@@ -82,22 +78,26 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The TBX framework defined by ISO 30042:2008 is designed to support various types of processes involving terminological data, including analysis, descriptive representation, dissemination, and interchange (exchange), in various computer environments. The primary purpose of TBX is for interchange of terminological data. It is limited in its ability to represent presentational markup. Intended application areas include translation and authoring.
-    TBX is modular in order to support the varying types of terminological data, or data-categories, that are included in different terminological databases (termbases). TBX includes two modules: a core structure, and a formalism for identifying a set of data-categories and their constraints, both expressed in XML. The term TBX, when used alone, refers to the framework consisting of these two interacting modules.
-    To maximize interoperability of the actual terminological data, TBX also provides a default set of data-categories that are commonly used in terminological databases. However, subsets or supersets of the default set of data-categories can be used within the TBX framework to support specific user requirements.
-- language: fr
-  script: Latn
-  content: |-
-    The TBX framework defined by ISO 30042:2008 is designed to support various types of processes involving terminological data, including analysis, descriptive representation, dissemination, and interchange (exchange), in various computer environments. The primary purpose of TBX is for interchange of terminological data. It is limited in its ability to represent presentational markup. Intended application areas include translation and authoring.
-    TBX is modular in order to support the varying types of terminological data, or data-categories, that are included in different terminological databases (termbases). TBX includes two modules: a core structure, and a formalism for identifying a set of data-categories and their constraints, both expressed in XML. The term TBX, when used alone, refers to the framework consisting of these two interacting modules.
-    To maximize interoperability of the actual terminological data, TBX also provides a default set of data-categories that are commonly used in terminological databases. However, subsets or supersets of the default set of data-categories can be used within the TBX framework to support specific user requirements.
+  content: 'The TBX framework defined by ISO 30042:2008 is designed to support various
+    types of processes involving terminological data, including analysis, descriptive
+    representation, dissemination, and interchange (exchange), in various computer
+    environments. The primary purpose of TBX is for interchange of terminological
+    data. It is limited in its ability to represent presentational markup. Intended
+    application areas include translation and authoring. TBX is modular in order to
+    support the varying types of terminological data, or data-categories, that are
+    included in different terminological databases (termbases). TBX includes two modules:
+    a core structure, and a formalism for identifying a set of data-categories and
+    their constraints, both expressed in XML. The term TBX, when used alone, refers
+    to the framework consisting of these two interacting modules. To maximize interoperability
+    of the actual terminological data, TBX also provides a default set of data-categories
+    that are commonly used in terminological databases. However, subsets or supersets
+    of the default set of data-categories can be used within the TBX framework to
+    support specific user requirements.'
 status:
   stage:
     content: '95'
@@ -110,29 +110,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 30042:2019
+    formattedref:
+      content: ISO 30042:2019
     docidentifier:
     - content: ISO 30042:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-04-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '01.020'
-    text: Terminology (principles and coordination)
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
+  - code: '01.020'
+    text: Terminology (principles and coordination)
   structuredidentifier:
     type: ISO
     project_number:

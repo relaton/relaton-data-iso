@@ -1,39 +1,33 @@
 ---
 id: ISO103682006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Freight thermal containers
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Remote condition monitoring
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Freight thermal containers - Remote condition monitoring
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Conteneurs à caractéristiques thermiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Système de pilotage à distance des groupes frigorifiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Conteneurs à caractéristiques thermiques - Système de pilotage à distance
     des groupes frigorifiques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/36595.html
@@ -47,12 +41,12 @@ docidentifier:
   primary: true
 - content: ISO 10368:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso:10368:stage-90.93
+- content: urn:iso:std:iso:10368:stage-90.20
   type: URN
 docnumber: '10368'
 date:
 - type: published
-  at: 2006-02
+  at: '2006-03-02'
 contributor:
 - role:
   - type: publisher
@@ -83,25 +77,24 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 10368:2006 establishes the information and interfaces required to permit complying central monitoring and control systems employed by one carrier or terminal to interface and communicate with complying remote communication devices of differing manufacture and configuration used by other carriers and terminals.
-    The data-logging formats and message protocols outlined in ISO 10368:2006 apply to all currently available data rate transmission techniques. These formats and protocols also apply to all future techniques designed to be an ISO International Standard compatible system.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 10368:2006 establishes the information and interfaces required to permit complying central monitoring and control systems employed by one carrier or terminal to interface and communicate with complying remote communication devices of differing manufacture and configuration used by other carriers and terminals.
-    The data-logging formats and message protocols outlined in ISO 10368:2006 apply to all currently available data rate transmission techniques. These formats and protocols also apply to all future techniques designed to be an ISO International Standard compatible system.
+  content: ISO 10368:2006 establishes the information and interfaces required to permit
+    complying central monitoring and control systems employed by one carrier or terminal
+    to interface and communicate with complying remote communication devices of differing
+    manufacture and configuration used by other carriers and terminals. The data-logging
+    formats and message protocols outlined in ISO 10368:2006 apply to all currently
+    available data rate transmission techniques. These formats and protocols also
+    apply to all future techniques designed to be an ISO International Standard compatible
+    system.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2006'
   owner:
@@ -111,16 +104,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10368:1992
+    formattedref:
+      content: ISO/PWI 10368
+    docidentifier:
+    - content: ISO/PWI 10368
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10368:1992
     docidentifier:
     - content: ISO 10368:1992
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

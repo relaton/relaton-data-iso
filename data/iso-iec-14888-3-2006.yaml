@@ -1,54 +1,48 @@
 ---
 id: ISOIEC1488832006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Digital signatures with appendix -- Part 3: Discrete logarithm based mechanisms'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Digital signatures with
     appendix -- Part 3: Discrete logarithm based mechanisms'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Signatures numériques avec appendice -- Partie 3: Mécanismes basés sur
     un logarithme discret'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Signatures numériques
     avec appendice -- Partie 3: Mécanismes basés sur un logarithme discret'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/43656.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:43656:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/36/43656.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '14888'
 date:
 - type: published
-  at: 2006-11
+  at: '2006-11-13'
 contributor:
 - role:
   - type: publisher
@@ -102,48 +96,28 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 14888-3:2006 specifies digital signature mechanisms with appendix
+  content: 'ISO/IEC 14888-3:2006 specifies digital signature mechanisms with appendix
     whose security is based on the discrete logarithm problem. It provides a general
     description of a digital signature with appendix mechanism, and a variety of mechanisms
-    that provide digital signatures with appendix. \nFor each mechanism, ISO/IEC 14888-3:2006
+    that provide digital signatures with appendix. For each mechanism, ISO/IEC 14888-3:2006
     specifies the process of generating keys, the process of producing signatures,
-    and the process of verifying signatures. \nThe verification of a digital signature
-    requires the signing entity's verification key. It is thus essential for a verifier
+    and the process of verifying signatures. The verification of a digital signature
+    requires the signing entity''s verification key. It is thus essential for a verifier
     to be able to associate the correct verification key with the signing entity,
-    or more precisely, with (parts of) the signing entity's identification data. This
-    association may be provided by another means that is not covered in ISO/IEC 14888-3:2006.
-    Whatever the nature of such means, the scheme is then said to be 'certificate-based'.
-    If not, the association between the correct verification key and the signing entity's
-    identification data is somehow inherent in the verification key itself. In such
-    a case, the scheme is said to be 'identity-based'. Depending on the two different
-    ways of checking the correctness of the verification keys, the digital signature
-    mechanisms specified in ISO/IEC 14888-3:2006 are categorized in two groups: certificate-based
-    and identity-based."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 14888-3:2006 specifies digital signature mechanisms with appendix
-    whose security is based on the discrete logarithm problem. It provides a general
-    description of a digital signature with appendix mechanism, and a variety of mechanisms
-    that provide digital signatures with appendix. \nFor each mechanism, ISO/IEC 14888-3:2006
-    specifies the process of generating keys, the process of producing signatures,
-    and the process of verifying signatures. \nThe verification of a digital signature
-    requires the signing entity's verification key. It is thus essential for a verifier
-    to be able to associate the correct verification key with the signing entity,
-    or more precisely, with (parts of) the signing entity's identification data. This
-    association may be provided by another means that is not covered in ISO/IEC 14888-3:2006.
-    Whatever the nature of such means, the scheme is then said to be 'certificate-based'.
-    If not, the association between the correct verification key and the signing entity's
-    identification data is somehow inherent in the verification key itself. In such
-    a case, the scheme is said to be 'identity-based'. Depending on the two different
-    ways of checking the correctness of the verification keys, the digital signature
-    mechanisms specified in ISO/IEC 14888-3:2006 are categorized in two groups: certificate-based
-    and identity-based."
+    or more precisely, with (parts of) the signing entity''s identification data.
+    This association may be provided by another means that is not covered in ISO/IEC
+    14888-3:2006. Whatever the nature of such means, the scheme is then said to be
+    ''certificate-based''. If not, the association between the correct verification
+    key and the signing entity''s identification data is somehow inherent in the verification
+    key itself. In such a case, the scheme is said to be ''identity-based''. Depending
+    on the two different ways of checking the correctness of the verification keys,
+    the digital signature mechanisms specified in ISO/IEC 14888-3:2006 are categorized
+    in two groups: certificate-based and identity-based.'
 status:
   stage:
     content: '95'
@@ -158,79 +132,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14888-3:1998
+    formattedref:
+      content: ISO/IEC 14888-3:2016
     docidentifier:
-    - content: ISO/IEC 14888-3:1998
+    - content: ISO/IEC 14888-3:2016
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14888-3:1998/Cor 1:2001
+    formattedref:
+      content: ISO/IEC 14888-3:1998/Cor 1:2001
     docidentifier:
     - content: ISO/IEC 14888-3:1998/Cor 1:2001
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14888-3:2016
+    formattedref:
+      content: ISO/IEC 14888-3:1998
     docidentifier:
-    - content: ISO/IEC 14888-3:2016
+    - content: ISO/IEC 14888-3:1998
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-03-17'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14888-3:2006/Cor 1:2007
-    docidentifier:
-    - content: ISO/IEC 14888-3:2006/Cor 1:2007
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2016-03-17'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14888-3:2006/Cor 2:2009
-    docidentifier:
-    - content: ISO/IEC 14888-3:2006/Cor 2:2009
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2016-03-17'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14888-3:2006/Amd 1:2010
-    docidentifier:
-    - content: ISO/IEC 14888-3:2006/Amd 1:2010
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2016-03-17'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14888-3:2006/Amd 2:2012
-    docidentifier:
-    - content: ISO/IEC 14888-3:2006/Amd 2:2012
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2016-03-17'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

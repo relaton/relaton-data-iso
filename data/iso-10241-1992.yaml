@@ -1,41 +1,37 @@
 ---
 id: ISO102411992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: International terminology standards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Preparation and layout
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: International terminology standards - Preparation and layout
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Normes terminologiques internationales
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Élaboration et présentation
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Normes terminologiques internationales - Élaboration et présentation
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/18278.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:18278:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/82/18278.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '10241'
 date:
 - type: published
-  at: 1992-12
+  at: '1992-12-30'
 contributor:
 - role:
   - type: publisher
@@ -94,11 +90,6 @@ abstract:
     entries, order of entries, indexes, graphic representation, bibliography). Does
     not deal with changes that may be necessary when an International Standard is
     adopted as a national standard.'
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale établit des règles à suivre dans l'élaboration et la présentation de terminologies normalisées. Elle ne stipule pas de principes et méthodes de la terminologie, qui sont traités dans l'ISO 704. Elle ne traite pas des modalités administratives imposées par les organismes internationaux de normalisation pour la préparation d'une norme terminologique donnée. De tels renseignements se trouvent dans les Directives ISO/CEI. La présente Norme internationale ne traite pas des changements qui peuvent s'avérer nécessaires lorsqu'une Norme internationale est adoptée à titre de norme nationale.
 status:
   stage:
     content: '95'
@@ -113,43 +104,48 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/R 919:1969
-    docidentifier:
-    - content: ISO/R 919:1969
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/R 1149:1969
-    docidentifier:
-    - content: ISO/R 1149:1969
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 10241-1:2011
+    formattedref:
+      content: ISO 10241-1:2011
     docidentifier:
     - content: ISO 10241-1:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-04-20'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 10241-2
+    docidentifier:
+    - content: ISO/WD 10241-2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/R 919:1969
+    docidentifier:
+    - content: ISO/R 919:1969
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/R 1149:1969
+    docidentifier:
+    - content: ISO/R 1149:1969
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '01.020'
-    text: Terminology (principles and coordination)
   - code: '01.120'
     text: Standardization. General rules
+  - code: '01.020'
+    text: Terminology (principles and coordination)
   structuredidentifier:
     type: ISO
     project_number:

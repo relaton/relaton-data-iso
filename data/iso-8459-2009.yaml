@@ -1,41 +1,35 @@
 ---
 id: ISO84592009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Bibliographic data element directory for use in data exchange and enquiry
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - Bibliographic data element directory for
     use in data exchange and enquiry
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Répertoire pour l'échange des éléments de données bibliographiques et la
     recherche
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Répertoire pour l'échange des éléments de
     données bibliographiques et la recherche
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44937.html
@@ -49,12 +43,12 @@ docidentifier:
   primary: true
 - content: ISO 8459:2009(E)
   type: iso-reference
-- content: urn:iso:std:iso:8459:stage-90.20
+- content: urn:iso:std:iso:8459:stage-90.93
   type: URN
 docnumber: '8459'
 date:
 - type: published
-  at: 2009-05
+  at: '2009-05-15'
 contributor:
 - role:
   - type: publisher
@@ -91,19 +85,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8459:2009 includes data elements that are exchanged or are potentially exchanged among bibliographic systems. Those data elements that are not exchanged or not likely to be exchanged are ignored as they do not need standardization. Data elements being handled by transport protocols are not included, only those related to application level protocols.
-    NOTE          The French version of this International Standard does not contain synonyms for the data elements which explains the difference in length between the two versions.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 8459:2009 comprend les éléments de données qui sont échangés ou qui peuvent l'être, entre systèmes bibliographiques. Les éléments de données qui ne sont pas échangés ou non susceptibles de l'être, sont laissés de côté car ils ne requièrent pas de normalisation. Les éléments de données véhiculés par les protocoles de transport ne sont pas pris en compte; seuls le sont, ceux liés aux protocoles au niveau de l'application.
-    NOTE          La version française de la présente Norme internationale ne comporte pas la colonne des synonymes pour les éléments de données ce qui explique la différence de longueur entre la version anglaise et la version française.
+  content: ISO 8459:2009 includes data elements that are exchanged or are potentially
+    exchanged among bibliographic systems. Those data elements that are not exchanged
+    or not likely to be exchanged are ignored as they do not need standardization.
+    Data elements being handled by transport protocols are not included, only those
+    related to application level protocols. NOTE The French version of this International
+    Standard does not contain synonyms for the data elements which explains the difference
+    in length between the two versions.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '93'
 copyright:
 - from: '2009'
   owner:
@@ -111,50 +104,58 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 8459-1:1988
-    docidentifier:
-    - content: ISO 8459-1:1988
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 8459-2:1992
-    docidentifier:
-    - content: ISO 8459-2:1992
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 8459-3:1994
-    docidentifier:
-    - content: ISO 8459-3:1994
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 8459-4:1998
-    docidentifier:
-    - content: ISO 8459-4:1998
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 8459-5:2002
+    formattedref:
+      content: ISO 8459-5:2002
     docidentifier:
     - content: ISO 8459-5:2002
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/WD 8459-5
+    docidentifier:
+    - content: ISO/WD 8459-5
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8459-2:1992
+    docidentifier:
+    - content: ISO 8459-2:1992
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8459-3:1994
+    docidentifier:
+    - content: ISO 8459-3:1994
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8459-4:1998
+    docidentifier:
+    - content: ISO 8459-4:1998
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8459-1:1988
+    docidentifier:
+    - content: ISO 8459-1:1988
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

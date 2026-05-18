@@ -1,53 +1,45 @@
 ---
 id: ISO1917012021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Discrete Global Grid Systems Specifications
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Core Reference System and Operations, and Equal Area Earth Reference
     System'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Geographic information - Discrete Global Grid Systems Specifications -
     Part 1: Core Reference System and Operations, and Equal Area Earth Reference System'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications des Systèmes de Grilles Globales Discrètes (DGGS)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Système de références et opérations de base, et système de référence
     terrestre à surface équivalente'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Information géographique - Spécifications des Systèmes de Grilles Globales
     Discrètes (DGGS) - Partie 1: Système de références et opérations de base, et système
     de référence terrestre à surface équivalente'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/32588.html
@@ -61,12 +53,12 @@ docidentifier:
   primary: true
 - content: ISO 19170-1:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:19170:-1:stage-60.60
+- content: urn:iso:std:iso:19170:-1:stage-90.20
   type: URN
 docnumber: '19170'
 date:
 - type: published
-  at: 2021-05
+  at: '2021-05-11'
 contributor:
 - role:
   - type: publisher
@@ -103,41 +95,38 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document supports the definition of:
-    —    A Discrete Global Grid Systems (DGGS) core comprising:
-    —    an RS using zonal identifiers with structured geometry, and
-    —    functions providing import, export and topological query,
-    —    Common spatio-temporal classes for geometry, topology, RS using zonal identifiers, zonal identifiers and zones, based on ISO 19111 CRS. The spatio-temporal scope is constrained to:
-    —    spatial elements that are invariant through all time, and
-    —    temporal elements that are invariant across all space.
-    —    Equal-Area Earth Reference Systems (EAERSs) for Equal-Area Earth DGGS.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document prend en charge la définition des éléments suivants:
-    —    des systèmes de grilles globales discrètes de base (DGSS), comprenant:
-    —    un RS utilisant des identificateurs zonaux avec une géométrie structurée; et
-    —    des fonctions permettant l'importation, l'exportation et la requête topologique;
-    —    des classes spatio-temporelles communes pour la géométrie, la topologie, les identificateurs zonaux à géométrie structurée, les identificateurs zonaux et les zones, se basant sur le CRS de l'ISO 19111. La portée spatio-temporelle est limitée:
-    —    aux éléments spatiaux qui sont invariants à travers le temps; et
-    —    aux éléments temporels qui sont invariants à travers l'espace;
-    —    aux systèmes de référence terrestre à surface équivalente (EAERS, Equal Area Earth Reference System) pour un DGGS terrestre à surface équivalente.
+  content: 'This document supports the definition of: —    A Discrete Global Grid
+    Systems (DGGS) core comprising: —    an RS using zonal identifiers with structured
+    geometry, and —    functions providing import, export and topological query, —   
+    Common spatio-temporal classes for geometry, topology, RS using zonal identifiers,
+    zonal identifiers and zones, based on ISO 19111 CRS. The spatio-temporal scope
+    is constrained to: —    spatial elements that are invariant through all time,
+    and —    temporal elements that are invariant across all space. —    Equal-Area
+    Earth Reference Systems (EAERSs) for Equal-Area Earth DGGS.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 19170-1
+    docidentifier:
+    - content: ISO/PWI 19170-1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,52 +1,46 @@
 ---
 id: ISO38942015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Wheels/rims for commercial vehicles
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Test methods
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Wheels/rims for commercial vehicles - Test methods
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Roues/jantes pour véhicules utilitaires
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes d'essai
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Roues/jantes pour véhicules utilitaires - Méthodes
     d'essai
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/60209.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:60209:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/02/60209.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '3894'
 date:
 - type: published
-  at: 2015-08
+  at: '2015-08-05'
 contributor:
 - role:
   - type: publisher
@@ -98,18 +92,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 3894:2015 specifies two laboratory methods for testing certain essential strength characteristics of disc wheels intended for road use on commercial vehicles, buses, trailers, and multipurpose passenger vehicles, as defined in ISO 3833.
-    The test methods are
-    ?     dynamic cornering fatigue test and
-    ?     dynamic radial fatigue test.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 3894:2015 spécifie deux méthodes d'essai de laboratoire destinées à évaluer certaines caractéristiques essentielles de résistance à la fatigue des roues à disque destinées à équiper des véhicules utilitaires, des autobus, des remorques et des voitures particulières à usage multiple utilisés sur route, définies dans l'ISO 3833.
-    Ces méthodes d'essai dynamique sont les suivantes :
-    ?     essai de fatigue en virage, et
-    ?     essai de fatigue radiale.
+  content: ISO 3894:2015 specifies two laboratory methods for testing certain essential
+    strength characteristics of disc wheels intended for road use on commercial vehicles,
+    buses, trailers, and multipurpose passenger vehicles, as defined in ISO 3833.
+    The test methods are ? dynamic cornering fatigue test and ? dynamic radial fatigue
+    test.
 status:
   stage:
     content: '95'
@@ -124,27 +111,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3894:2005
-    docidentifier:
-    - content: ISO 3894:2005
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 3894:2023
+    formattedref:
+      content: ISO 3894:2023
     docidentifier:
     - content: ISO 3894:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-01-10'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 3894
+    docidentifier:
+    - content: ISO/CD 3894
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3894:2005
+    docidentifier:
+    - content: ISO 3894:2005
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

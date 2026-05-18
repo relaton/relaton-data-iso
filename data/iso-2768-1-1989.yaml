@@ -1,42 +1,36 @@
 ---
 id: ISO276811989
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: General tolerances
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Tolerances for linear and angular dimensions without individual
     tolerance indications'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'General tolerances - Part 1: Tolerances for linear and angular dimensions
     without individual tolerance indications'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tolérances générales
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Tolérances pour dimensions linéaires et angulaires non affectées
     de tolérances individuelles'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Tolérances générales - Partie 1: Tolérances pour dimensions linéaires
     et angulaires non affectées de tolérances individuelles'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7748.html
@@ -55,7 +49,7 @@ docidentifier:
 docnumber: '2768'
 date:
 - type: published
-  at: 1989-11
+  at: '1989-11-02'
 contributor:
 - role:
   - type: publisher
@@ -87,8 +81,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -97,30 +93,6 @@ abstract:
     that are produced by metal removal or are formed from sheet metal. It contains
     three tables and an informative annex with regard to concepts behind general tolerancing
     of dimensions.
-- language: fr
-  script: Latn
-  content: " La présente partie de l'ISO 2768 vise à simplifier les dessins\n  techniques
-    et spécifie les tolérances générales\n  pour les dimensions linéaires et angulaires
-    sans indication de tolérances\n  selon quatre classes de tolérance. \n  \n  NOTE
-    1 -- Le concept du tolérancement général pour les\n  dimensions linéaires et angulaires
-    est décrit dans l'annexe A.\n  Elle concerne les dimensions des pièces exécutées
-    par enlèvement\n  de métal ou des pièces exécutées en tôle. \n2 Ces tolérances
-    peuvent être applicables également à\n  des matériaux autres que le métal.\n 3
-    Des Normes internationales analogues existent, par exemple l'ISO 8062 pour\n  les
-    pièces moulées, ou pourront être établies par\n  la suite. La présente partie
-    de l'ISO 2768 est applicable exclusivement\n  aux dimensions sans indication de
-    tolérances individuelles suivantes\n  : \na) dimensions linéaires (par exemple
-    dimensions extérieures,\n  dimensions intérieures, dimensions de décrochements,
-    diamètres,\n  rayons, distances, rayons extérieurs et hauteurs de chanfrein pour
-    arêtes\n  abattues); \nb) dimensions angulaires, y compris les dimensions angulaires
-    qui habituellement\n  ne sont pas indiquées, par exemple angles droits (90 °),
-    à\n  moins qu'il soit fait référence à l'ISO 2768-2, ou angles\n  de polygones
-    réguliers; \nc) dimensions linéaires et angulaires obtenues par usinage de pièces\n
-    \ assemblées.\nLa présente partie de l'ISO 2768 ne s'applique pas aux dimensions
-    suivantes\n  :\na) dimensions linéaires et angulaires dont les tolérances générales\n
-    \ sont définies par référence à d'autres normes de\n  tolérances générales; \nb)
-    dimensions auxiliaires indiquées entre parenthèses; \nc) dimensions théoriquement
-    exactes indiquées dans un cadre rectangulaire."
 status:
   stage:
     content: '90'
@@ -135,24 +107,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2768:1973
+    formattedref:
+      content: ISO/FDIS 2768
     docidentifier:
-    - content: ISO 2768:1973
+    - content: ISO/FDIS 2768
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/CD 2768
+    formattedref:
+      content: ISO/PWI 2768-1
     docidentifier:
-    - content: ISO/CD 2768
+    - content: ISO/PWI 2768-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2768:1973
+    docidentifier:
+    - content: ISO 2768:1973
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

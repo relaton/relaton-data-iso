@@ -1,43 +1,39 @@
 ---
 id: ISO25631974
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aircraft ducting and piping
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Profile dimensions for flanges of V-band couplings
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Aircraft ducting and piping - Profile dimensions for flanges of V-band
     couplings
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Canalisations et tuyauteries à bord des aéronefs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dimensions d'encombrement des brides à section en V pour raccords
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Canalisations et tuyauteries à bord des aéronefs - Dimensions d'encombrement
     des brides à section en V pour raccords
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7522.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7522:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/75/7522.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '2563'
 date:
 - type: published
-  at: 1974-11
+  at: '1974-11-01'
 contributor:
 - role:
   - type: publisher
@@ -90,10 +86,6 @@ abstract:
   script: Latn
   content: The profile dimensions of a mating pair of flanges shall comply with the
     figure given.
-- language: fr
-  script: Latn
-  content: The profile dimensions of a mating pair of flanges shall comply with the
-    figure given.
 status:
   stage:
     content: '95'
@@ -106,21 +98,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2563:2009
+    formattedref:
+      content: ISO/WD 2563
+    docidentifier:
+    - content: ISO/WD 2563
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2563:2009
     docidentifier:
     - content: ISO 2563:2009
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2009-08-27'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

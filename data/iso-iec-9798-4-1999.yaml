@@ -1,52 +1,44 @@
 ---
 id: ISOIEC979841999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Entity authentication -- Part 4: Mechanisms using a cryptographic check
     function'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Entity authentication --
     Part 4: Mechanisms using a cryptographic check function'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Authentification d''entité -- Partie 4: Mécanismes utilisant une fonction
     cryptographique de vérification'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Authentification
     d''entité -- Partie 4: Mécanismes utilisant une fonction cryptographique de vérification'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/31488.html
@@ -65,7 +57,7 @@ docidentifier:
 docnumber: '9798'
 date:
 - type: published
-  at: 1999-12
+  at: '1999-12-16'
 contributor:
 - role:
   - type: publisher
@@ -105,38 +97,23 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO/IEC 9798 specifies entity authentication mechanisms using a cryptographic check function. Two
-    mechanisms are concerned with the authentication of a single entity (unilateral authentication), while the remaining
-    are mechanisms for mutual authentication of two entities.
-    The mechanisms specified in this part of ISO/IEC 9798 use time variant parameters such as time stamps,
-    sequence numbers, or random numbers, to prevent valid authentication information from being accepted at a later
-    time or more than once.
-    If a time stamp or sequence number is used, one pass is needed for unilateral authentication, while two passes are
-    needed to achieve mutual authentication. If a challenge and response method employing random numbers is
-    used, two passes are needed for unilateral authentication, while three passes are required to achieve mutual
-    authentication.
-    Examples of cryptographic check functions are given in ISO/IEC 9797.
-- language: fr
-  script: Latn
-  content: |-
-    This part of ISO/IEC 9798 specifies entity authentication mechanisms using a cryptographic check function. Two
-    mechanisms are concerned with the authentication of a single entity (unilateral authentication), while the remaining
-    are mechanisms for mutual authentication of two entities.
-    The mechanisms specified in this part of ISO/IEC 9798 use time variant parameters such as time stamps,
-    sequence numbers, or random numbers, to prevent valid authentication information from being accepted at a later
-    time or more than once.
-    If a time stamp or sequence number is used, one pass is needed for unilateral authentication, while two passes are
-    needed to achieve mutual authentication. If a challenge and response method employing random numbers is
-    used, two passes are needed for unilateral authentication, while three passes are required to achieve mutual
-    authentication.
-    Examples of cryptographic check functions are given in ISO/IEC 9797.
+  content: This part of ISO/IEC 9798 specifies entity authentication mechanisms using
+    a cryptographic check function. Two mechanisms are concerned with the authentication
+    of a single entity (unilateral authentication), while the remaining are mechanisms
+    for mutual authentication of two entities. The mechanisms specified in this part
+    of ISO/IEC 9798 use time variant parameters such as time stamps, sequence numbers,
+    or random numbers, to prevent valid authentication information from being accepted
+    at a later time or more than once. If a time stamp or sequence number is used,
+    one pass is needed for unilateral authentication, while two passes are needed
+    to achieve mutual authentication. If a challenge and response method employing
+    random numbers is used, two passes are needed for unilateral authentication, while
+    three passes are required to achieve mutual authentication. Examples of cryptographic
+    check functions are given in ISO/IEC 9797.
 status:
   stage:
     content: '90'
@@ -149,40 +126,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-4:1995
+    formattedref:
+      content: ISO/IEC 9798-4:1995
     docidentifier:
     - content: ISO/IEC 9798-4:1995
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-4:1999/Cor 1:2009
-    docidentifier:
-    - content: ISO/IEC 9798-4:1999/Cor 1:2009
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-11-15'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-4:1999/Cor 2:2012
-    docidentifier:
-    - content: ISO/IEC 9798-4:1999/Cor 2:2012
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-11-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

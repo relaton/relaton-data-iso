@@ -1,50 +1,42 @@
 ---
 id: ISO550022018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Asset management
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Management systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Guidelines for the application of ISO 55001
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Asset management - Management systems - Guidelines for the application
     of ISO 55001
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion d'actifs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de management
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes directrices relatives à l'application de l'ISO 55001
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion d'actifs - Systèmes de management - Lignes directrices relatives
     à l'application de l'ISO 55001
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70402.html
@@ -63,9 +55,7 @@ docidentifier:
 docnumber: '55002'
 date:
 - type: published
-  at: 2018-11
-- type: corrected
-  at: 2020-06
+  at: '2018-11-19'
 contributor:
 - role:
   - type: publisher
@@ -96,26 +86,25 @@ edition:
   content: '2'
 language:
 - en
+- es
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document gives guidelines for the application of an asset management system, in accordance with the requirements of ISO 55001.
-    This document can be applied to all types of assets and by all types and sizes of organizations.
-    NOTE 1    This document is intended to be used for managing physical assets in particular, but it can also be applied to other asset types.
-    NOTE 2    This document does not provide financial, accounting or technical guidance for managing specific asset types, however, in Annex F information is provided on the relationship between the financial and non-financial asset management functions.
-    NOTE 3    For the purposes of ISO 55000, ISO 55001 and this document, the term "asset management system" is used to refer to a management system for asset management.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document fournit des lignes directrices pour la mise en œuvre d'un système de gestion d'actifs, conformément aux exigences de l'ISO 55001.
-    Ce document peut être appliqué à tous les types d'actifs ainsi que par tous les types et tailles d'organismes.
-    NOTE 1    Le présent document est destiné à la gestion d'actifs physiques en particulier, mais il peut aussi s'appliquer à d'autres types d'actifs.
-    NOTE 2    Le présent document ne donne aucune recommandation de nature financière, comptable ou technique concernant la gestion de types d'actifs spécifiques. Toutefois, l'Annexe F fournit des informations sur la relation entre les fonctions financières et non financières dans la gestion d'actifs.
-    NOTE 3    Pour les besoins de l'ISO 55000, de l'ISO 55001 et du présent document, le terme «système de gestion d'actifs» est utilisé pour désigner un système de management pour la gestion d'actifs.
+  content: This document gives guidelines for the application of an asset management
+    system, in accordance with the requirements of ISO 55001. This document can be
+    applied to all types of assets and by all types and sizes of organizations. NOTE
+    1 This document is intended to be used for managing physical assets in particular,
+    but it can also be applied to other asset types. NOTE 2 This document does not
+    provide financial, accounting or technical guidance for managing specific asset
+    types, however, in Annex F information is provided on the relationship between
+    the financial and non-financial asset management functions. NOTE 3 For the purposes
+    of ISO 55000, ISO 55001 and this document, the term "asset management system"
+    is used to refer to a management system for asset management.
 status:
   stage:
     content: '90'
@@ -130,32 +119,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 55002:2014
+    formattedref:
+      content: ISO/CD 55002.2
+    docidentifier:
+    - content: ISO/CD 55002.2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 55002:2014
     docidentifier:
     - content: ISO 55002:2014
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/AWI 55002
-    docidentifier:
-    - content: ISO/AWI 55002
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.100.01
-    text: Company organization and management in general
   - code: 03.100.70
     text: Management systems
+  - code: 03.100.01
+    text: Company organization and management in general
   structuredidentifier:
     type: ISO
     project_number:

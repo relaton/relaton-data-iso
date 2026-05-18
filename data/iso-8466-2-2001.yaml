@@ -1,55 +1,47 @@
 ---
 id: ISO846622001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Water quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Calibration and evaluation of analytical methods and estimation of performance
     characteristics
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Calibration strategy for non-linear second-order calibration functions'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Water quality - Calibration and evaluation of analytical methods and estimation
     of performance characteristics - Part 2: Calibration strategy for non-linear second-order
     calibration functions'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Étalonnage et évaluation des méthodes d'analyse et estimation des caractères
     de performance
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Stratégie d''étalonnage pour fonctions d''étalonnage non linéaires
     du second degré'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Qualité de l''eau - Étalonnage et évaluation des méthodes d''analyse et
     estimation des caractères de performance - Partie 2: Stratégie d''étalonnage pour
     fonctions d''étalonnage non linéaires du second degré'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/34816.html
@@ -68,7 +60,7 @@ docidentifier:
 docnumber: '8466'
 date:
 - type: published
-  at: 2001-11
+  at: '2001-11-01'
 contributor:
 - role:
   - type: publisher
@@ -105,22 +97,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    It is not always possible to accurately describe the relationship between a set of calibration points with a rectilinear
-    curve, even by decreasing the working range. Instead of the linear regression analysis, a least-squares fit to a
-    second-order polynomial is applied (see test for linearity in 4.1.3 of ISO 8466-1:1990[1]). Using this fit, it is possible
-    to calculate not only the calibration function but also the confidence interval associated with it.
-    This part of ISO 8466 is intended primarily for use in method development and may not necessarily be applicable to
-    all routine analyses.
-- language: fr
-  script: Latn
-  content: |-
-    Il n'est pas toujours possible d'établir une relation exacte entre un ensemble de valeurs d'étalonnage et une droite,
-    même en réduisant l'étendue de dosage. On utilise alors, au lieu d'une droite de régression, une fonction
-    polynomiale de second degré (voir test de linéarité en 4.1.3 de l'ISO 8466-1:1990 [1]). Il est alors possible de
-    calculer la fonction d'étalonnage, mais aussi l'intervalle de confiance associé.
-    La présente partie de l'ISO 8466 est essentiellement destinée à la mise au point de méthodes d'analyse et n'est
-    pas forcément applicable à toutes les analyses de routine.
+  content: It is not always possible to accurately describe the relationship between
+    a set of calibration points with a rectilinear curve, even by decreasing the working
+    range. Instead of the linear regression analysis, a least-squares fit to a second-order
+    polynomial is applied (see test for linearity in 4.1.3 of ISO 8466-1:1990[1]).
+    Using this fit, it is possible to calculate not only the calibration function
+    but also the confidence interval associated with it. This part of ISO 8466 is
+    intended primarily for use in method development and may not necessarily be applicable
+    to all routine analyses.
 status:
   stage:
     content: '90'
@@ -133,18 +117,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 8466-2:1993
+    formattedref:
+      content: ISO 8466-2:1993
     docidentifier:
     - content: ISO 8466-2:1993
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

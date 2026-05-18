@@ -1,41 +1,37 @@
 ---
 id: ISO29511974
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Vulcanized rubber
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of insulation resistance
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Vulcanized rubber - Determination of insulation resistance
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Élastomères vulcanisés
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la résistance d'isolement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Élastomères vulcanisés - Détermination de la résistance d'isolement
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7998.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7998:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/79/7998.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '2951'
 date:
 - type: published
-  at: 1974-11
+  at: '1974-11-01'
 contributor:
 - role:
   - type: publisher
@@ -91,13 +87,6 @@ abstract:
     value can be used for the comparison of the quality of different insulation vulcanized
     rubbers. The methods are particularly useful for rapidly determining values which
     will give a general indication of quality when great accuracy is not required.
-- language: fr
-  script: Latn
-  content: Specifies an empirical method that gives a value for insulation resistance
-    which includes, without discrimination, both volume and surface resistance. This
-    value can be used for the comparison of the quality of different insulation vulcanized
-    rubbers. The methods are particularly useful for rapidly determining values which
-    will give a general indication of quality when great accuracy is not required.
 status:
   stage:
     content: '95'
@@ -110,21 +99,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2951:2012
+    formattedref:
+      content: ISO/WD 2951
+    docidentifier:
+    - content: ISO/WD 2951
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2951:2012
     docidentifier:
     - content: ISO 2951:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2012-05-21'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,50 +1,42 @@
 ---
 id: ISOIEC254372012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Telecommunications and information exchange between systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: WS-Session -- Web services for application session services
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Telecommunications and information exchange between
     systems - WS-Session -- Web services for application session services
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Télécommunications et échange d'information entre systèmes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Session WS -- Services web pour services de session d'application
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Télécommunications et échange d'information
     entre systèmes - Session WS -- Services web pour services de session d'application
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/61207.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '25437'
 date:
 - type: published
-  at: 2012-11
+  at: '2012-11-16'
 contributor:
 - role:
   - type: publisher
@@ -103,42 +95,25 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 25437:2012 specifies Web Services (in WSDL, in Clause 5) and SOAP
+  content: ISO/IEC 25437:2012 specifies Web Services (in WSDL, in Clause 5) and SOAP
     bindings (in Clause 6) for the Application Session Services defined in ISO/IEC
     22534. The Application Session Services allow Applications to create and maintain
     a relationship with Servers termed Application Session. The Web services specified
     herein, allow Service Requesters (Applications in ISO/IEC 22534) and Service Providers
-    (Servers in ISO/IEC 22534) to create and maintain such Application Sessions. \nISO/IEC
+    (Servers in ISO/IEC 22534) to create and maintain such Application Sessions. ISO/IEC
     25437:2012 builds upon and imports the XML schema definitions from ISO/IEC 22534.
     The method of making the WSDL description of the specified services available
-    to Service Provider and Requester is out of the scope of ISO/IEC 25437:2012.\nThe
+    to Service Provider and Requester is out of the scope of ISO/IEC 25437:2012. The
     Notification WSDL specifies the ApplicationSessionTerminated operation. The operation
     specifies one input message for the event notification that Service Requesters
     receive from the Service Provider. Service Requesters may also receive the event
     notifications from web services, e.g. ECMA-348, that use ISO/IEC 25437:2012 for
-    session management."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 25437:2012 specifies Web Services (in WSDL, in Clause 5) and SOAP
-    bindings (in Clause 6) for the Application Session Services defined in ISO/IEC
-    22534. The Application Session Services allow Applications to create and maintain
-    a relationship with Servers termed Application Session. The Web services specified
-    herein, allow Service Requesters (Applications in ISO/IEC 22534) and Service Providers
-    (Servers in ISO/IEC 22534) to create and maintain such Application Sessions. \nISO/IEC
-    25437:2012 builds upon and imports the XML schema definitions from ISO/IEC 22534.
-    The method of making the WSDL description of the specified services available
-    to Service Provider and Requester is out of the scope of ISO/IEC 25437:2012.\nThe
-    Notification WSDL specifies the ApplicationSessionTerminated operation. The operation
-    specifies one input message for the event notification that Service Requesters
-    receive from the Service Provider. Service Requesters may also receive the event
-    notifications from web services, e.g. ECMA-348, that use ISO/IEC 25437:2012 for
-    session management."
+    session management.
 status:
   stage:
     content: '90'
@@ -151,18 +126,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 25437:2009
+    formattedref:
+      content: ISO/IEC 25437:2009
     docidentifier:
     - content: ISO/IEC 25437:2009
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

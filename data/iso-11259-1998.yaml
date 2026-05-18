@@ -1,41 +1,37 @@
 ---
 id: ISO112591998
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Soil quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Simplified soil description
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Soil quality - Simplified soil description
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité du sol
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Description simplifiée du sol
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité du sol - Description simplifiée du sol
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/19237.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:19237:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/92/19237.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '11259'
 date:
 - type: published
-  at: 1998-03
+  at: '1998-03-05'
 contributor:
 - role:
   - type: publisher
@@ -83,16 +79,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: "\nLe présent document doit être utilisé comme un guide pour la description
-    du sol et de son contexte environnemental sur un site donné. Il est important
-    de noter que plusieurs échantillons peuvent être prélevés sur un même site. Les
-    informations fournies par les descriptions qui suivent permettront, lors de la
-    présentation des résultats, de situer le contexte dans lequel ont été réalisés
-    les prélèvements des échantillons analysés.  \nNOTE Il est possible de ne pas
-    enregistrer des données sous toutes les têtes de chapitre des présentes descriptions.\n"
 status:
   stage:
     content: '95'
@@ -105,21 +91,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 25177:2008
+    formattedref:
+      content: ISO/NP 11259
+    docidentifier:
+    - content: ISO/NP 11259
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 25177:2008
     docidentifier:
     - content: ISO 25177:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-11-12'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

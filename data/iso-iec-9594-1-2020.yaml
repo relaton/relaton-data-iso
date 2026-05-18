@@ -1,50 +1,42 @@
 ---
 id: ISOIEC959412020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open systems interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: The Directory: Overview of concepts, models and services'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open systems interconnection - Part 1: The Directory:
     Overview of concepts, models and services'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Information technology
+  content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
-  content: Open systems interconnection
+  content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Part 1: The Directory: Overview of concepts, models and services'
+  content: 'Partie 1: Titre manque'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Information technology - Open systems interconnection - Part 1: The Directory:
-    Overview of concepts, models and services'
+  content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
+    - Partie 1: Titre manque'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80313.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 9594-1:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:9594:-1:stage-60.60
+- content: urn:iso:std:iso-iec:9594:-1:stage-90.93
   type: URN
 docnumber: '9594'
 date:
 - type: published
-  at: 2020-11
+  at: '2020-12-01'
 contributor:
 - role:
   - type: publisher
@@ -103,63 +95,38 @@ edition:
   content: '9'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document provides the directory capabilities required by many application
+  content: This document provides the directory capabilities required by many application
     layer standards and telecommunication services. Among the capabilities which it
-    provides are those of \"user-friendly naming\", whereby objects can be referred
+    provides are those of "user-friendly naming", whereby objects can be referred
     to by names which are suitable for citing by human users (though not all objects
-    need have user-friendly names); and \"name-to-address mapping\" which allows the
+    need have user-friendly names); and "name-to-address mapping" which allows the
     binding between objects and their locations to be dynamic. The latter capability
-    allows networks, for example, to be \"self-configuring\" in the sense that addition,
-    removal and the changes of object location do not affect network operation. \nThe
+    allows networks, for example, to be "self-configuring" in the sense that addition,
+    removal and the changes of object location do not affect network operation. The
     Directory is not intended to be a general-purpose database system, although it
     may be built on such systems. It is assumed, for instance, that, as is typical
-    with communication directories, there is a considerably higher frequency of \"queries\"
+    with communication directories, there is a considerably higher frequency of "queries"
     than of updates. The rate of updates is expected to be governed by the dynamics
     of people and organizations, rather than, for example, the dynamics of networks.
     There is also no need for instantaneous global commitment of updates; transient
     conditions, where both old and new versions of the same information are available,
-    are quite acceptable. \nIt is a characteristic of the Directory that, except as
+    are quite acceptable. It is a characteristic of the Directory that, except as
     a consequence of differing access rights or un-propagated updates, the results
     of directory queries will not be dependent on the identity or location of the
     inquirer. This characteristic renders the Directory unsuitable for some telecommunication
     applications, for example some types of routing. For cases where the results are
     dependent on the identity of the inquirer, access to directory information and
-    updates of the Directory may be denied."
-- language: fr
-  script: Latn
-  content: "This document provides the directory capabilities required by many application
-    layer standards and telecommunication services. Among the capabilities which it
-    provides are those of \"user-friendly naming\", whereby objects can be referred
-    to by names which are suitable for citing by human users (though not all objects
-    need have user-friendly names); and \"name-to-address mapping\" which allows the
-    binding between objects and their locations to be dynamic. The latter capability
-    allows networks, for example, to be \"self-configuring\" in the sense that addition,
-    removal and the changes of object location do not affect network operation. \nThe
-    Directory is not intended to be a general-purpose database system, although it
-    may be built on such systems. It is assumed, for instance, that, as is typical
-    with communication directories, there is a considerably higher frequency of \"queries\"
-    than of updates. The rate of updates is expected to be governed by the dynamics
-    of people and organizations, rather than, for example, the dynamics of networks.
-    There is also no need for instantaneous global commitment of updates; transient
-    conditions, where both old and new versions of the same information are available,
-    are quite acceptable. \nIt is a characteristic of the Directory that, except as
-    a consequence of differing access rights or un-propagated updates, the results
-    of directory queries will not be dependent on the identity or location of the
-    inquirer. This characteristic renders the Directory unsuitable for some telecommunication
-    applications, for example some types of routing. For cases where the results are
-    dependent on the identity of the inquirer, access to directory information and
-    updates of the Directory may be denied."
+    updates of the Directory may be denied.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2020'
   owner:
@@ -167,29 +134,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-1:2017
+    formattedref:
+      content: ISO/IEC 9594-1:2017
     docidentifier:
     - content: ISO/IEC 9594-1:2017
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-1:2020/Amd 1:2025
-    docidentifier:
-    - content: ISO/IEC 9594-1:2020/Amd 1:2025
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2020-12-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

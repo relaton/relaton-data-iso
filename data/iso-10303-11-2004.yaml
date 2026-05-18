@@ -1,51 +1,43 @@
 ---
 id: ISO10303112004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Product data representation and exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 11: Description methods: The EXPRESS language reference manual'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 11: Description methods: The EXPRESS language reference manual'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation et échange de données de produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 11: Méthodes de description: Manuel de référence du langage EXPRESS'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 11: Méthodes de description: Manuel
     de référence du langage EXPRESS'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38047.html
@@ -59,12 +51,12 @@ docidentifier:
   primary: true
 - content: ISO 10303-11:2004(E)
   type: iso-reference
-- content: urn:iso:std:iso:10303:-11:stage-90.60
+- content: urn:iso:std:iso:10303:-11:stage-90.93
   type: URN
 docnumber: '10303'
 date:
 - type: published
-  at: 2004-11
+  at: '2004-11-10'
 contributor:
 - role:
   - type: publisher
@@ -95,45 +87,27 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 10303 specifies a language by which aspects of product data can be defined. The language is called EXPRESS. ISO 10303-11:2004 also specifies a graphical representation for a subset of the constructs in the EXPRESS language. This graphical representation is called EXPRESS-G. EXPRESS is a data specification language as defined in ISO 10303-1. It consists of language elements that allow an unambiguous data definition and specification of constraints on the data defined.
-    The following are within the scope of ISO 10303-11:2004:
-    - data types;
-    - constraints on instances of the data types.
-    The following are outside the scope of this part of ISO 10303:
-    - definition of database formats;
-    - definition of file formats;
-    - definition of transfer formats;
-    - process control;
-    - information processing;
-    - exception handling.
-    EXPRESS is not a programming language.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 10303 specifies a language by which aspects of product data can be defined. The language is called EXPRESS. ISO 10303-11:2004 also specifies a graphical representation for a subset of the constructs in the EXPRESS language. This graphical representation is called EXPRESS-G. EXPRESS is a data specification language as defined in ISO 10303-1. It consists of language elements that allow an unambiguous data definition and specification of constraints on the data defined.
-    The following are within the scope of ISO 10303-11:2004:
-    - data types;
-    - constraints on instances of the data types.
-    The following are outside the scope of this part of ISO 10303:
-    - definition of database formats;
-    - definition of file formats;
-    - definition of transfer formats;
-    - process control;
-    - information processing;
-    - exception handling.
-    EXPRESS is not a programming language.
+  content: 'ISO 10303 specifies a language by which aspects of product data can be
+    defined. The language is called EXPRESS. ISO 10303-11:2004 also specifies a graphical
+    representation for a subset of the constructs in the EXPRESS language. This graphical
+    representation is called EXPRESS-G. EXPRESS is a data specification language as
+    defined in ISO 10303-1. It consists of language elements that allow an unambiguous
+    data definition and specification of constraints on the data defined. The following
+    are within the scope of ISO 10303-11:2004: data types;constraints on instances
+    of the data types. The following are outside the scope of this part of ISO 10303:
+    definition of database formats;definition of file formats;definition of transfer
+    formats;process control;information processing;exception handling. EXPRESS is
+    not a programming language.'
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2004'
   owner:
@@ -141,26 +115,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 10303-11:1994
-    docidentifier:
-    - content: ISO 10303-11:1994
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 10303-11:1994/Cor 1:1999
+    formattedref:
+      content: ISO 10303-11:1994/Cor 1:1999
     docidentifier:
     - content: ISO 10303-11:1994/Cor 1:1999
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10303-11:1994
+    docidentifier:
+    - content: ISO 10303-11:1994
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

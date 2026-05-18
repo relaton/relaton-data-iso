@@ -1,41 +1,37 @@
 ---
 id: ISO49251978
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Non-petroleum base brake fluid
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Non-petroleum base brake fluid
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Liquide de frein à base non pétrolière
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Liquide de frein à base non pétrolière
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/10939.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:10939:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/09/10939.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '4925'
 date:
 - type: published
-  at: 1978-09
+  at: '1978-09-01'
 contributor:
 - role:
   - type: publisher
@@ -91,13 +87,6 @@ abstract:
     is for use in brake systems equipped with seals, cups or double-lipped type gland
     seals made from natural rubber, styrene-butadiene rubber, and ethylene-propylene
     elastomer.
-- language: fr
-  script: Latn
-  content: Specifies the characteristics and the test methods for the non-petroleum
-    base brake fluid used in the hydraulic brake systems. The brake fluid described
-    is for use in brake systems equipped with seals, cups or double-lipped type gland
-    seals made from natural rubber, styrene-butadiene rubber, and ethylene-propylene
-    elastomer.
 status:
   stage:
     content: '95'
@@ -110,21 +99,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4925:2005
+    formattedref:
+      content: ISO/CD 4925
+    docidentifier:
+    - content: ISO/CD 4925
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 4925:2005
     docidentifier:
     - content: ISO 4925:2005
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2005-02-08'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

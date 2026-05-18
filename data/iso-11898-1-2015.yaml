@@ -1,53 +1,47 @@
 ---
 id: ISO1189812015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Controller area network (CAN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Data link layer and physical signalling'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Controller area network (CAN) - Part 1: Data link layer
     and physical signalling'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestionnaire de réseau de communication (CAN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Couche liaison de données et signalisation physique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Gestionnaire de réseau de communication (CAN) - Partie
     1: Couche liaison de données et signalisation physique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63648.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63648:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/36/63648.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '11898'
 date:
 - type: published
-  at: 2015-12
+  at: '2015-12-14'
 contributor:
 - role:
   - type: publisher
@@ -92,28 +86,30 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 11898-1:2015 specifies the characteristics of setting up an interchange of digital information between modules implementing the CAN data link layer. Controller area network is a serial communication protocol, which supports distributed real-time control and multiplexing for use within road vehicles and other control applications.
-    ISO 11898-1:2015 specifies the Classical CAN frame format and the newly introduced CAN Flexible Data Rate Frame format. The Classical CAN frame format allows bit rates up to 1 Mbit/s and payloads up to 8 byte per frame. The Flexible Data Rate frame format allows bit rates higher than 1 Mbit/s and payloads longer than 8 byte per frame.
-    ISO 11898-1:2015 describes the general architecture of CAN in terms of hierarchical layers according to the ISO reference model for open systems interconnection (OSI) according to ISO/IEC 7498‑1. The CAN data link layer is specified according to ISO/IEC 8802‑2 and ISO/IEC 8802‑3.
-    ISO 11898-1:2015 contains detailed specifications of the following: logical link control sub-layer; medium access control sub-layer; and physical coding sub-layer.
-    There are three implementation options. They are the following: support of the Classical CAN frame format only, not tolerating the Flexible Data Rate frame format; support of the Classical CAN frame format and tolerating the Flexible Data Rate frame format; and support of the Classical CAN frame format and the Flexible Data Rate frame format.
-    The last option is recommended to be implemented for new designs.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 11898-1:2015 specifies the characteristics of setting up an interchange of digital information between modules implementing the CAN data link layer. Controller area network is a serial communication protocol, which supports distributed real-time control and multiplexing for use within road vehicles and other control applications.
-    ISO 11898-1:2015 specifies the Classical CAN frame format and the newly introduced CAN Flexible Data Rate Frame format. The Classical CAN frame format allows bit rates up to 1 Mbit/s and payloads up to 8 byte per frame. The Flexible Data Rate frame format allows bit rates higher than 1 Mbit/s and payloads longer than 8 byte per frame.
-    ISO 11898-1:2015 describes the general architecture of CAN in terms of hierarchical layers according to the ISO reference model for open systems interconnection (OSI) according to ISO/IEC 7498‑1. The CAN data link layer is specified according to ISO/IEC 8802‑2 and ISO/IEC 8802‑3.
-    ISO 11898-1:2015 contains detailed specifications of the following: logical link control sub-layer; medium access control sub-layer; and physical coding sub-layer.
-    There are three implementation options. They are the following: support of the Classical CAN frame format only, not tolerating the Flexible Data Rate frame format; support of the Classical CAN frame format and tolerating the Flexible Data Rate frame format; and support of the Classical CAN frame format and the Flexible Data Rate frame format.
-    The last option is recommended to be implemented for new designs.
+  content: 'ISO 11898-1:2015 specifies the characteristics of setting up an interchange
+    of digital information between modules implementing the CAN data link layer. Controller
+    area network is a serial communication protocol, which supports distributed real-time
+    control and multiplexing for use within road vehicles and other control applications.
+    ISO 11898-1:2015 specifies the Classical CAN frame format and the newly introduced
+    CAN Flexible Data Rate Frame format. The Classical CAN frame format allows bit
+    rates up to 1 Mbit/s and payloads up to 8 byte per frame. The Flexible Data Rate
+    frame format allows bit rates higher than 1 Mbit/s and payloads longer than 8
+    byte per frame. ISO 11898-1:2015 describes the general architecture of CAN in
+    terms of hierarchical layers according to the ISO reference model for open systems
+    interconnection (OSI) according to ISO/IEC 7498‑1. The CAN data link layer is
+    specified according to ISO/IEC 8802‑2 and ISO/IEC 8802‑3. ISO 11898-1:2015 contains
+    detailed specifications of the following: logical link control sub-layer; medium
+    access control sub-layer; and physical coding sub-layer. There are three implementation
+    options. They are the following: support of the Classical CAN frame format only,
+    not tolerating the Flexible Data Rate frame format; support of the Classical CAN
+    frame format and tolerating the Flexible Data Rate frame format; and support of
+    the Classical CAN frame format and the Flexible Data Rate frame format. The last
+    option is recommended to be implemented for new designs.'
 status:
   stage:
     content: '95'
@@ -128,35 +124,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11898-1:2003
+    formattedref:
+      content: ISO 11898-1:2024
     docidentifier:
-    - content: ISO 11898-1:2003
+    - content: ISO 11898-1:2024
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11898-1:2003/Cor 1:2006
+    formattedref:
+      content: ISO/CD 11898-1
+    docidentifier:
+    - content: ISO/CD 11898-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11898-1:2003/Cor 1:2006
     docidentifier:
     - content: ISO 11898-1:2003/Cor 1:2006
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 11898-1:2024
+    formattedref:
+      content: ISO 11898-1:2003
     docidentifier:
-    - content: ISO 11898-1:2024
+    - content: ISO 11898-1:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-05-24'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

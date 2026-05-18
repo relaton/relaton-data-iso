@@ -1,40 +1,34 @@
 ---
 id: ISOIECGuide992007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: International vocabulary of metrology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Basic and general concepts and associated terms (VIM)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: International vocabulary of metrology - Basic and general concepts and
     associated terms (VIM)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire international de métrologie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Concepts fondamentaux et généraux et termes associés (VIM)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire international de métrologie - Concepts fondamentaux et généraux
     et termes associés (VIM)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45324.html
@@ -42,8 +36,6 @@ source:
   content: https://www.iso.org/obp/ui/en/#!iso:std:45324:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/53/45324.detail.rss
-- type: pub
-  content: https://isotc.iso.org/livelink/livelink/Open/8389141
 docidentifier:
 - content: ISO/IEC Guide 99:2007
   type: ISO
@@ -55,9 +47,7 @@ docidentifier:
 docnumber: '99'
 date:
 - type: published
-  at: 2007-12
-- type: corrected
-  at: 2010-09
+  at: '2007-12-14'
 contributor:
 - role:
   - type: publisher
@@ -86,7 +76,7 @@ contributor:
     - content: International Organization for Standardization
     subdivision:
     - name:
-      - content: Technical Management Board - groups
+      - content: ISO/TMBG
       identifier:
       - content: ISO/TMBG
       type: technical-committee
@@ -98,19 +88,22 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC Guide 99:2007 provides a set of definitions and associated terms, in English and French, for a system of basic and general concepts used in metrology, together with concept diagrams to demonstrate their relations. Additional information is given in the form of examples and notes under many definitions.
-    This Vocabulary is meant to be a common reference for scientists and engineers, as well as teachers and practitioners, involved in planning or performing measurements, irrespective of the level of measurement uncertainty and irrespective of the field of application. It is also meant to be a reference for governmental and inter-governmental bodies, trade associations, accredi­tation bodies, regulators and professional societies.
-- language: fr
-  script: Latn
-  content: |-
-    Le Guide ISO/CEI 99:2007 donne un ensemble de définitions et de termes associés, en anglais et en français, pour un système de concepts fondamentaux et généraux utilisés en métrologie, ainsi que des schémas conceptuels illustrant leurs relations. Pour un grand nombre de définitions, des informations complémentaires sont données sous forme d'exemples et de notes.
-    Le Guide ISO/CEI 99:2007 se propose d'être une référence commune pour les scientifiques et les ingénieurs, ainsi que les enseignants et les praticiens, impliqués dans la planification ou la réalisation de mesurages, quels que soient le domaine d'application et le niveau d'incertitude de mesure. Il se propose aussi d'être une référence pour les organismes gouvernementaux et intergouvernementaux, les associations commerciales, les comités d'accréditation, les régulateurs et les associations professionnelles.
+  content: ISO/IEC Guide 99:2007 provides a set of definitions and associated terms,
+    in English and French, for a system of basic and general concepts used in metrology,
+    together with concept diagrams to demonstrate their relations. Additional information
+    is given in the form of examples and notes under many definitions. This Vocabulary
+    is meant to be a common reference for scientists and engineers, as well as teachers
+    and practitioners, involved in planning or performing measurements, irrespective
+    of the level of measurement uncertainty and irrespective of the field of application.
+    It is also meant to be a reference for governmental and inter-governmental bodies,
+    trade associations, accredi­tation bodies, regulators and professional societies.
 status:
   stage:
     content: '90'
@@ -125,32 +118,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO Guide 99:1993
+    formattedref:
+      content: ISO/IEC DGuide 99
+    docidentifier:
+    - content: ISO/IEC DGuide 99
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO Guide 99:1993
     docidentifier:
     - content: ISO Guide 99:1993
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC CD Guide 99.2
-    docidentifier:
-    - content: ISO/IEC CD Guide 99.2
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: guide
   flavor: iso
   ics:
-  - code: '17.020'
-    text: Metrology and measurement in general
   - code: 01.040.17
     text: Metrology and measurement. Physical phenomena (Vocabularies)
+  - code: '17.020'
+    text: Metrology and measurement in general
   structuredidentifier:
     type: ISO
     project_number:

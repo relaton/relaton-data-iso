@@ -1,38 +1,32 @@
 ---
 id: ISO191552012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Place Identifier (PI) architecture
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Place Identifier (PI) architecture
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Architecture d'identifiants de lieu (IL)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Architecture d'identifiants de lieu (IL)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/32573.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '19155'
 date:
 - type: published
-  at: 2012-11
+  at: '2012-11-13'
 contributor:
 - role:
   - type: publisher
@@ -88,24 +82,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 19155:2012 specifies an architecture that defines a reference model
-    with an encoding method for an identifier of a place. The concept of \"place\"
-    within ISO 19155:2012 includes \"places\" not only in the real world but also
-    those in the virtual world. These \"places\" are identified using either coordinate
-    identifiers, geographic identifiers, or virtual world identifiers such as URI.
-    In ISO 19155:2012, an identifier of a place is referred to as a Place Identifier
-    (PI).\nThe reference model defines a mechanism to match multiple Place Identifiers
-    to the same place. In addition, a data structure and set of service interfaces
-    are also defined in this reference model.\nISO 19155:2012 is applicable to location
-    based services, emergency management services and other application domains that
-    require a common architecture, across specific domains, for the representation
-    of place descriptions using coordinate, geographic, or virtual world identifiers. "
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 19155:2012 spécifie une architecture qui définit un modèle de référence avec une méthode de codage d'un identifiant de lieu. Le concept de «lieu» dans l'ISO 19155:2012 intègre les «lieux» non seulement du monde réel, mais également du monde virtuel. Ces «lieux» sont identifiés à partir soit d'identifiants sous forme de coordonnées, soit d'identifiants géographiques, soit d'identifiants du monde virtuel tels que les URI. Dans l'ISO 19155:2012, l'Identifiant de lieu «PI» se rapporte à l'identifiant d'un lieu.
-    Le modèle de référence définit un système permettant de faire concorder de multiples identifiants de lieu avec un seul et même lieu. En outre, ce modèle de référence comporte également la définition d'une structure de données et d'un jeu d'interfaces de service.
-    L'ISO 19155:2012 s'applique aux services s'appuyant sur la localisation, aux services de gestion des situations d'urgence et à d'autres domaines d'application qui nécessitent une architecture commune à des domaines spécifiques, pour représenter des descriptions de lieux utilisant des identifiants sous forme de coordonnées, des identifiants géographiques ou des identifiants du monde virtuel.
+  content: ISO 19155:2012 specifies an architecture that defines a reference model
+    with an encoding method for an identifier of a place. The concept of "place" within
+    ISO 19155:2012 includes "places" not only in the real world but also those in
+    the virtual world. These "places" are identified using either coordinate identifiers,
+    geographic identifiers, or virtual world identifiers such as URI. In ISO 19155:2012,
+    an identifier of a place is referred to as a Place Identifier (PI). The reference
+    model defines a mechanism to match multiple Place Identifiers to the same place.
+    In addition, a data structure and set of service interfaces are also defined in
+    this reference model. ISO 19155:2012 is applicable to location based services,
+    emergency management services and other application domains that require a common
+    architecture, across specific domains, for the representation of place descriptions
+    using coordinate, geographic, or virtual world identifiers.
 status:
   stage:
     content: '90'
@@ -117,10 +105,19 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 19155-1
+    docidentifier:
+    - content: ISO/DIS 19155-1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

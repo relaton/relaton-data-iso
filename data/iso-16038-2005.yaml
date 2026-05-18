@@ -1,45 +1,41 @@
 ---
 id: ISO160382005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rubber condoms
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Guidance on the use of ISO 4074 in the quality management of natural rubber
     latex condoms
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Rubber condoms - Guidance on the use of ISO 4074 in the quality management
     of natural rubber latex condoms
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Préservatifs en caoutchouc
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Directives sur l'utilisation de l'ISO 4074 dans le management de la qualité
     des préservatifs en latex de caoutchouc naturel
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Préservatifs en caoutchouc - Directives sur l'utilisation de l'ISO 4074
     dans le management de la qualité des préservatifs en latex de caoutchouc naturel
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37078.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:37078:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/70/37078.detail.rss
 docidentifier:
@@ -53,7 +49,7 @@ docidentifier:
 docnumber: '16038'
 date:
 - type: published
-  at: 2005-11
+  at: '2005-11-02'
 contributor:
 - role:
   - type: publisher
@@ -85,8 +81,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -95,14 +93,6 @@ abstract:
     and procurement of condoms. It encompasses the aspects of quality management systems
     in design, manufacture and delivery of condoms with emphasis on performance, safety
     and reliability of condoms.
-- language: fr
-  script: Latn
-  content: L'ISO 16038:2005 indique des directives pour l'utilisation de l'ISO 4074
-    et aborde des questions relatives à la qualité à prendre en compte lors de la
-    mise au point, de la fabrication, de la vérification de la qualité et de l'approvisionnement
-    des préservatifs. Il inclut les aspects des systèmes de management de la qualité
-    pour la conception, la fabrication et la distribution des préservatifs en insistant
-    sur les performances, la sécurité et la fiabilité des préservatifs.
 status:
   stage:
     content: '95'
@@ -115,21 +105,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 16038:2017
+    formattedref:
+      content: ISO/DIS 16038
+    docidentifier:
+    - content: ISO/DIS 16038
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 16038:2017
     docidentifier:
     - content: ISO 16038:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-12-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

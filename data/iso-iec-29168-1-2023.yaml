@@ -1,50 +1,42 @@
 ---
 id: ISOIEC2916812023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open systems interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Object identifier resolution system'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open systems interconnection - Part 1: Object
     identifier resolution system'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Système de résolution d''identificateur d''objet'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
     - Partie 1: Système de résolution d''identificateur d''objet'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/82104.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '29168'
 date:
 - type: published
-  at: 2023-03
+  at: '2023-03-17'
 contributor:
 - role:
   - type: publisher
@@ -103,60 +95,34 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document specifies the OID resolution system, including the overall
-    architecture and a DNS-based resolution mechanism.\nIt specifies the means for
+  content: This document specifies the OID resolution system, including the overall
+    architecture and a DNS-based resolution mechanism. It specifies the means for
     inserting any application-defined information associated with an OID node into
     the DNS (see clause 6) and the means of retrieval of that information using the
-    ORS (see clause 7).\nIt does not restrict the number of applications it can support.\nIt
-    specifies the required operation of an ORS client (see clause 7), including the
-    mapping of an OID-IRI value by the ORS client into a DNS name to produce a DNS
-    query for the specified application information and the processing of any returned
-    information. The ORS has no role in the allocation or registration of OID nodes.\nThe
-    required behaviour of an ORS client is specified, but the interfaces to it are
-    specified only in terms of the semantics of the interaction. A bit-level application
-    program interface is platform and software dependent, and is not in the scope
-    of this document. \nA special behaviour of an ORS client is specified to cache
-    OID information in order to reduce the response time of OID resolution. This document
-    also specifies a mechanism to resolve an OID node when one of its superior OID
-    nodes is not ORS-supported.\nIt does not include a tutorial or complete specification
-    on the management of DNS zone files (for that, see IETF RFC 1035 and IETF RFC
-    3403); it specifies (only) the DNS resource records (see 6.3) that need to be
-    inserted in the zone files in order to support ORS access to the information associated
-    with an OID node.\nThis document specifies required DNS zone file resource records,
-    and prohibits the use of other resource records of a similar form but with different
-    semantics (in DNS zone files in the ORS domain) – see 6.2. It does not otherwise
-    restrict the general use of DNS zone files."
-- language: fr
-  script: Latn
-  content: "This document specifies the OID resolution system, including the overall
-    architecture and a DNS-based resolution mechanism.\nIt specifies the means for
-    inserting any application-defined information associated with an OID node into
-    the DNS (see clause 6) and the means of retrieval of that information using the
-    ORS (see clause 7).\nIt does not restrict the number of applications it can support.\nIt
-    specifies the required operation of an ORS client (see clause 7), including the
-    mapping of an OID-IRI value by the ORS client into a DNS name to produce a DNS
-    query for the specified application information and the processing of any returned
-    information. The ORS has no role in the allocation or registration of OID nodes.\nThe
-    required behaviour of an ORS client is specified, but the interfaces to it are
-    specified only in terms of the semantics of the interaction. A bit-level application
-    program interface is platform and software dependent, and is not in the scope
-    of this document. \nA special behaviour of an ORS client is specified to cache
-    OID information in order to reduce the response time of OID resolution. This document
-    also specifies a mechanism to resolve an OID node when one of its superior OID
-    nodes is not ORS-supported.\nIt does not include a tutorial or complete specification
-    on the management of DNS zone files (for that, see IETF RFC 1035 and IETF RFC
-    3403); it specifies (only) the DNS resource records (see 6.3) that need to be
-    inserted in the zone files in order to support ORS access to the information associated
-    with an OID node.\nThis document specifies required DNS zone file resource records,
-    and prohibits the use of other resource records of a similar form but with different
-    semantics (in DNS zone files in the ORS domain) – see 6.2. It does not otherwise
-    restrict the general use of DNS zone files."
+    ORS (see clause 7). It does not restrict the number of applications it can support.
+    It specifies the required operation of an ORS client (see clause 7), including
+    the mapping of an OID-IRI value by the ORS client into a DNS name to produce a
+    DNS query for the specified application information and the processing of any
+    returned information. The ORS has no role in the allocation or registration of
+    OID nodes. The required behaviour of an ORS client is specified, but the interfaces
+    to it are specified only in terms of the semantics of the interaction. A bit-level
+    application program interface is platform and software dependent, and is not in
+    the scope of this document. A special behaviour of an ORS client is specified
+    to cache OID information in order to reduce the response time of OID resolution.
+    This document also specifies a mechanism to resolve an OID node when one of its
+    superior OID nodes is not ORS-supported. It does not include a tutorial or complete
+    specification on the management of DNS zone files (for that, see IETF RFC 1035
+    and IETF RFC 3403); it specifies (only) the DNS resource records (see 6.3) that
+    need to be inserted in the zone files in order to support ORS access to the information
+    associated with an OID node. This document specifies required DNS zone file resource
+    records, and prohibits the use of other resource records of a similar form but
+    with different semantics (in DNS zone files in the ORS domain) – see 6.2. It does
+    not otherwise restrict the general use of DNS zone files.
 status:
   stage:
     content: '60'
@@ -169,18 +135,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 29168-1:2011
+    formattedref:
+      content: ISO/IEC 29168-1:2011
     docidentifier:
     - content: ISO/IEC 29168-1:2011
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

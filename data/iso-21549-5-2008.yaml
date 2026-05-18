@@ -1,53 +1,47 @@
 ---
 id: ISO2154952008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Patient healthcard data
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: Identification data'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Health informatics - Patient healthcard data - Part 5: Identification
     data'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Données relatives aux cartes de santé des patients
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Données d''identification'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informatique de santé - Données relatives aux cartes de santé des patients
     - Partie 5: Données d''identification'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/39282.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:39282:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/92/39282.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '21549'
 date:
 - type: published
-  at: 2008-04
+  at: '2008-03-31'
 contributor:
 - role:
   - type: publisher
@@ -98,28 +92,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 21549-5:2008 establishes a common framework for the content and the
+  content: 'ISO 21549-5:2008 establishes a common framework for the content and the
     structure of identification data held on healthcare data cards. It specifies the
     basic structure of the data, but does not specify particular data-sets for storage
-    on devices. \nThe detailed functions and mechanisms of the following services
-    are not within the scope of ISO 21549-5:2008 (although its structures can accommodate
-    suitable data objects elsewhere specified):\n- security functions and related
-    services that are likely to be specified by users for data cards depending on
-    their specific application, e.g., confidentiality protection, data integrity protection
-    and authentication of persons and devices related to these functions;\n- access
-    control services that may depend on active use of some data card classes such
-    as microprocessor cards;\n- the initialization and issuing process (which begins
-    the operating lifetime of an individual data card, and by which the data card
-    is prepared for the data to be subsequently communicated to it according to ISO
-    21549-5:2008."
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 21549-5:2008 établit une base commune de définition pour la structure des données d'identification se trouvant sur les cartes de santé. Elle spécifie la structure de base des données mais elle ne spécifie pas de jeu de données particulier pour le stockage sur la carte.
-    Les fonctions et les mécanismes détaillés des services ci-après ne relèvent pas du domaine d'application de l'ISO 21549-5:2008, bien que ces structures puissent prendre en charge des objets de cette nature, spécifiés par ailleurs:
-    - les fonctions de sécurité et les services associés susceptibles d'être spécifiés par les utilisateurs de cartes de données selon leurs applications spécifiques, par exemple la protection des données confidentielles, la protection de l'intégrité des données et l'authentification des personnes et les dispositifs liés à ces fonctions;
-    - les services de contrôle de l'accès qui peuvent dépendre de l'utilisation active de certaines catégories de cartes de données, comme les cartes à microprocesseurs;
-    - l'initialisation et le processus qui en découle (qui débute la durée de vie d'une carte individuelle et par lequel la carte de données est préparée pour les données qui seront communiquées ultérieurement, conformément à l'ISO 21549-5:2008).
+    on devices. The detailed functions and mechanisms of the following services are
+    not within the scope of ISO 21549-5:2008 (although its structures can accommodate
+    suitable data objects elsewhere specified): security functions and related services
+    that are likely to be specified by users for data cards depending on their specific
+    application, e.g., confidentiality protection, data integrity protection and authentication
+    of persons and devices related to these functions; access control services that
+    may depend on active use of some data card classes such as microprocessor cards;
+    the initialization and issuing process (which begins the operating lifetime of
+    an individual data card, and by which the data card is prepared for the data to
+    be subsequently communicated to it according to ISO 21549-5:2008.'
 status:
   stage:
     content: '95'
@@ -132,21 +117,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 21549-5:2015
+    formattedref:
+      content: ISO 21549-5:2015
     docidentifier:
     - content: ISO 21549-5:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-09-16'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

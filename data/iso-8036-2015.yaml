@@ -1,38 +1,32 @@
 ---
 id: ISO80362015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Microscopes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Immersion liquids for light microscopy
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Microscopes - Immersion liquids for light microscopy
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Microscopes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Liquides d'immersion pour microscopie optique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Microscopes - Liquides d'immersion pour microscopie optique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/67551.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 8036:2015(E)
   type: iso-reference
-- content: urn:iso:std:iso:8036:stage-90.20
+- content: urn:iso:std:iso:8036:stage-90.92
   type: URN
 docnumber: '8036'
 date:
 - type: published
-  at: 2015-06
+  at: '2015-06-04'
 contributor:
 - role:
   - type: publisher
@@ -82,25 +76,22 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8036:2015 describes the characteristics of immersion liquids used in microscopy. It classifies immersion liquids according to their field of application and specifies requirements and test methods for each type.
-    ISO 8036:2015 further specifies a system of designation for immersion liquids, the information to be included on container labels, and the information to be supplied in technical data sheets.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 8036:2015 describes the characteristics of immersion liquids used in microscopy. It classifies immersion liquids according to their field of application and specifies requirements and test methods for each type.
-    ISO 8036:2015 further specifies a system of designation for immersion liquids, the information to be included on container labels, and the information to be supplied in technical data sheets.
+  content: ISO 8036:2015 describes the characteristics of immersion liquids used in
+    microscopy. It classifies immersion liquids according to their field of application
+    and specifies requirements and test methods for each type. ISO 8036:2015 further
+    specifies a system of designation for immersion liquids, the information to be
+    included on container labels, and the information to be supplied in technical
+    data sheets.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '92'
 copyright:
 - from: '2015'
   owner:
@@ -110,16 +101,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8036:2006
+    formattedref:
+      content: ISO/AWI 8036
+    docidentifier:
+    - content: ISO/AWI 8036
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8036:2006
     docidentifier:
     - content: ISO 8036:2006
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

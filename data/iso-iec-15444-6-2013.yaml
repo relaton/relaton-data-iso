@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1544462013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: JPEG 2000 image coding system
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 6: Compound image file format'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - JPEG 2000 image coding system - Part 6: Compound
     image file format'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Système de codage d'images JPEG 2000
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Format de fichier d''image de composant'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Système de codage d''images JPEG 2000
     - Partie 6: Format de fichier d''image de composant'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/61124.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '15444'
 date:
 - type: published
-  at: 2013-07
+  at: '2013-07-15'
 contributor:
 - role:
   - type: publisher
@@ -103,40 +95,28 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This Recommendation | International Standard defines a normative but optional file format for storing compound images using the JPEG 2000 file format family architecture. This format is an extension of the JP2 file format defined in Rec. ITU-T T.800 | ISO/IEC 15444-1 Annex I and uses boxes defined for both the JP2 file format and the JPX file format defined in Rec. ITU-T T.801 | ISO/IEC 15444-2 Annex M. This Recommendation | International Standard is useful for applications storing multiple pages, images with mixed content, and/or images that need more structure than provided in JP2.
-    Applications that implement this file format shall implement it as described in this Recommendation | International
-    Standard. This Recommendation | International Standard:
-    ? specifies a binary container for multiple bi-level and continuous-tone images used to represent a
-       compound image;
-    ? specifies a mechanism by which multiple images can be combined into a single compound image, based
-                     on the mixed raster content (MRC) model;
-    ? specifies a mechanism for grouping multiple images in a hierarchy of layout objects, pages and page
-                     collections;
-    ? specifies a mechanism for storing JPEG 2000 and other compressed image data formats;
-    ? specifies a mechanism by which metadata can be included in files specified by this Recommendation |
-                     International Standard.
-- language: fr
-  script: Latn
-  content: |-
-    This Recommendation | International Standard defines a normative but optional file format for storing compound images using the JPEG 2000 file format family architecture. This format is an extension of the JP2 file format defined in Rec. ITU-T T.800 | ISO/IEC 15444-1 Annex I and uses boxes defined for both the JP2 file format and the JPX file format defined in Rec. ITU-T T.801 | ISO/IEC 15444-2 Annex M. This Recommendation | International Standard is useful for applications storing multiple pages, images with mixed content, and/or images that need more structure than provided in JP2.
-    Applications that implement this file format shall implement it as described in this Recommendation | International
-    Standard. This Recommendation | International Standard:
-    ? specifies a binary container for multiple bi-level and continuous-tone images used to represent a
-       compound image;
-    ? specifies a mechanism by which multiple images can be combined into a single compound image, based
-                     on the mixed raster content (MRC) model;
-    ? specifies a mechanism for grouping multiple images in a hierarchy of layout objects, pages and page
-                     collections;
-    ? specifies a mechanism for storing JPEG 2000 and other compressed image data formats;
-    ? specifies a mechanism by which metadata can be included in files specified by this Recommendation |
-                     International Standard.
+  content: 'This Recommendation | International Standard defines a normative but optional
+    file format for storing compound images using the JPEG 2000 file format family
+    architecture. This format is an extension of the JP2 file format defined in Rec.
+    ITU-T T.800 | ISO/IEC 15444-1 Annex I and uses boxes defined for both the JP2
+    file format and the JPX file format defined in Rec. ITU-T T.801 | ISO/IEC 15444-2
+    Annex M. This Recommendation | International Standard is useful for applications
+    storing multiple pages, images with mixed content, and/or images that need more
+    structure than provided in JP2. Applications that implement this file format shall
+    implement it as described in this Recommendation | International Standard. This
+    Recommendation | International Standard: ? specifies a binary container for multiple
+    bi-level and continuous-tone images used to represent a compound image; ? specifies
+    a mechanism by which multiple images can be combined into a single compound image,
+    based on the mixed raster content (MRC) model; ? specifies a mechanism for grouping
+    multiple images in a hierarchy of layout objects, pages and page collections;
+    ? specifies a mechanism for storing JPEG 2000 and other compressed image data
+    formats; ? specifies a mechanism by which metadata can be included in files specified
+    by this Recommendation | International Standard.'
 status:
   stage:
     content: '90'
@@ -149,26 +129,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15444-6:2003
-    docidentifier:
-    - content: ISO/IEC 15444-6:2003
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 15444-6:2003/Amd 1:2007
+    formattedref:
+      content: ISO/IEC 15444-6:2003/Amd 1:2007
     docidentifier:
     - content: ISO/IEC 15444-6:2003/Amd 1:2007
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 15444-6:2003
+    docidentifier:
+    - content: ISO/IEC 15444-6:2003
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,50 +1,42 @@
 ---
 id: ISOIEC71842024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Office equipment
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security requirements for hard copy devices (HCDs)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Definition of the basic requirements'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Office equipment - Security requirements for hard copy devices (HCDs)
     - Part 1: Definition of the basic requirements'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Équipement de bureau
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Exigences de sécurité pour les appareils de reprographie (HCD)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Définition des exigences de base'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Équipement de bureau - Exigences de sécurité pour les appareils de reprographie
     (HCD) - Partie 1: Définition des exigences de base'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/82690.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 7184:2024(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:7184:stage-60.60
+- content: urn:iso:std:iso-iec:7184:stage-90.92
   type: URN
 docnumber: '7184'
 date:
 - type: published
-  at: 2024-02
+  at: '2024-02-02'
 contributor:
 - role:
   - type: publisher
@@ -103,47 +95,61 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines basic security requirements for the protection of hard copy devices (HCDs) including identification and authentication, security management, software update, field-replaceable nonvolatile storage data protection, network data protection and public switched telephone network (PSTN) fax-network separation.
-    It can be applied to office equipment with network functions including printers, scanners, fax machines, digital copiers, and digital multi-function machines, specifically for small office and home office users.
-    This document assumes a small, private information processing environment in which most elements of security are provided by the physical environment. In such an environment is assumed to be physically and logically protected from threats originating from outside of that environment, typically by limiting physical access to the HCD and connecting it to a LAN that is protected from the public Internet. A small office or home office would be a typical example of this environment.
-    Please note that the requirements outlined in this document are not intended to replace the existing Common Criteria Certification for hardcopy devices which ensure the minimum-security requirements for enterprise environment. For example, aspects being required in Common Criteria Certification such as audit data generation, self-test capabilities, and protection of key material are not adequately addressed.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines basic security requirements for the protection of hard copy devices (HCDs) including identification and authentication, security management, software update, field-replaceable nonvolatile storage data protection, network data protection and public switched telephone network (PSTN) fax-network separation.
-    It can be applied to office equipment with network functions including printers, scanners, fax machines, digital copiers, and digital multi-function machines, specifically for small office and home office users.
-    This document assumes a small, private information processing environment in which most elements of security are provided by the physical environment. In such an environment is assumed to be physically and logically protected from threats originating from outside of that environment, typically by limiting physical access to the HCD and connecting it to a LAN that is protected from the public Internet. A small office or home office would be a typical example of this environment.
-    Please note that the requirements outlined in this document are not intended to replace the existing Common Criteria Certification for hardcopy devices which ensure the minimum-security requirements for enterprise environment. For example, aspects being required in Common Criteria Certification such as audit data generation, self-test capabilities, and protection of key material are not adequately addressed.
+  content: This document defines basic security requirements for the protection of
+    hard copy devices (HCDs) including identification and authentication, security
+    management, software update, field-replaceable nonvolatile storage data protection,
+    network data protection and public switched telephone network (PSTN) fax-network
+    separation. It can be applied to office equipment with network functions including
+    printers, scanners, fax machines, digital copiers, and digital multi-function
+    machines, specifically for small office and home office users. This document assumes
+    a small, private information processing environment in which most elements of
+    security are provided by the physical environment. In such an environment is assumed
+    to be physically and logically protected from threats originating from outside
+    of that environment, typically by limiting physical access to the HCD and connecting
+    it to a LAN that is protected from the public Internet. A small office or home
+    office would be a typical example of this environment. Please note that the requirements
+    outlined in this document are not intended to replace the existing Common Criteria
+    Certification for hardcopy devices which ensure the minimum-security requirements
+    for enterprise environment. For example, aspects being required in Common Criteria
+    Certification such as audit data generation, self-test capabilities, and protection
+    of key material are not adequately addressed.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2024'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC WD 7184
+    docidentifier:
+    - content: ISO/IEC WD 7184
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 33.050.30
-    text: Equipment for telex, teletext, telefax
   - code: 37.100.10
     text: Reproduction equipment
+  - code: 33.050.30
+    text: Equipment for telex, teletext, telefax
   structuredidentifier:
     type: ISO
     project_number:

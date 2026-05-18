@@ -1,44 +1,40 @@
 ---
 id: ISO96601988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information processing
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Volume and file structure of CD-ROM for information interchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information processing - Volume and file structure of CD-ROM for information
     interchange
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Traitement de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Structure de volume et de fichier des disques optiques compacts à mémoire
     fixe (CD-ROM) destinés à l'échange d'information
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Traitement de l'information - Structure de volume et de fichier des disques
     optiques compacts à mémoire fixe (CD-ROM) destinés à l'échange d'information
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/17505.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:17505:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/75/17505.detail.rss
 docidentifier:
@@ -52,9 +48,7 @@ docidentifier:
 docnumber: '9660'
 date:
 - type: published
-  at: 1988-04
-- type: corrected
-  at: 1988-09
+  at: '1988-04-14'
 contributor:
 - role:
   - type: publisher
@@ -99,23 +93,6 @@ abstract:
     an application program when required to be organized as sets of records; three
     nested levels of medium interchange; two nested levels of implementation; requirements
     for the processes provided within information processing systems.'
-- language: fr
-  script: Latn
-  content: "La présente Norme internationale spécifie la structure de volume et de
-    fichier des disques optiques compacts à mémoire fixe (CD-ROM) destinés à l'échange
-    d'information entre utilisateurs de systèmes de traitement de l'information. La
-    présente Norme internationale spécifie\n\n- les attributs du volume et les descripteurs
-    qui y sont enregistrés\n    ; \n- la relation entre les volumes d'un ensemble
-    de volumes ; \n- la disposition des fichiers ; \n- les attributs des fichiers
-    ; \n- des structures d'enregistrement destinées aux flux de données\n    d'entrée
-    ou de sortie d'un programme d'application lorsque de tels\n    flux de données
-    doivent être organisés en jeux d'enregistrement\n    ; \n- trois niveaux imbriqués
-    d'échange ; \n- deux niveaux imbriqués d'exécution ; \n- des exigences relatives
-    aux processus qui sont prévus dans les systèmes\n    de traitement de l'information,
-    pour permettre l'échange d'informations\n    entre différents systèmes utilisant
-    des CD-ROM enregistrés\n    comme support d\x92échange ; pour cela, elle définit
-    les fonctions\n    à intégrer dans les systèmes destinés à\n    produire ou à
-    recevoir des CD-ROM conformes à la présente\n    Norme internationale."
 status:
   stage:
     content: '95'
@@ -128,43 +105,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9660:2023
+    formattedref:
+      content: ISO/IEC DIS 9660
+    docidentifier:
+    - content: ISO/IEC DIS 9660
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 9660:2023
     docidentifier:
     - content: ISO/IEC 9660:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-01-31'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 9660:1988/Amd 1:2013
-    docidentifier:
-    - content: ISO 9660:1988/Amd 1:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2023-01-31'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 9660:1988/Amd 2:2020
-    docidentifier:
-    - content: ISO 9660:1988/Amd 2:2020
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2023-01-31'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

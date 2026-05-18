@@ -1,52 +1,44 @@
 ---
 id: ISO184412021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Space data and information transfer systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Space link extension
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Application program interface for transfer services -- Core specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Space data and information transfer systems - Space link extension - Application
     program interface for transfer services -- Core specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Extension de liaisons spatiales
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface du programme d'application pour les services de transfert --
     Spécification de base
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales - Extension
     de liaisons spatiales - Interface du programme d'application pour les services
     de transfert -- Spécification de base
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74560.html
@@ -60,12 +52,12 @@ docidentifier:
   primary: true
 - content: ISO 18441:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:18441:stage-60.60
+- content: urn:iso:std:iso:18441:stage-90.20
   type: URN
 docnumber: '18441'
 date:
 - type: published
-  at: 2021-06
+  at: '2021-06-30'
 contributor:
 - role:
   - type: publisher
@@ -96,29 +88,31 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the Application Program Interface in terms of:
-    It does not specify:
-    This document defines those aspects of the Application Program Interface, which are common for all SLE service types or for a subset of the SLE service types, e.g., all return link services or all forward link services.  It also defines a framework for specification of service type-specific elements of the API.  Service-specific aspects of the API are defined by supplemental Recommended Practice documents for SLE return link services (references [10], [11], and [12]) and SLE forward link services (references [13] and [14]).
-    This document for the Application Program Interface responds to the requirements imposed on such an API by the CCSDS SLE transfer service Recommended Standards that were available when this document was released.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the Application Program Interface in terms of:
-    It does not specify:
-    This document defines those aspects of the Application Program Interface, which are common for all SLE service types or for a subset of the SLE service types, e.g., all return link services or all forward link services.  It also defines a framework for specification of service type-specific elements of the API.  Service-specific aspects of the API are defined by supplemental Recommended Practice documents for SLE return link services (references [10], [11], and [12]) and SLE forward link services (references [13] and [14]).
-    This document for the Application Program Interface responds to the requirements imposed on such an API by the CCSDS SLE transfer service Recommended Standards that were available when this document was released.
+  content: 'This document defines the Application Program Interface in terms of: the
+    components that provide the services of the API; the functionality provided by
+    each of the components; the interfaces provided by each of the components; and
+    the externally visible behavior associated with the interfaces exported by the
+    components. It does not specify: individual implementations or products; the internal
+    design of the components; and the technology used for communications. This document
+    defines those aspects of the Application Program Interface, which are common for
+    all SLE service types or for a subset of the SLE service types, e.g., all return
+    link services or all forward link services.  It also defines a framework for specification
+    of service type-specific elements of the API.  Service-specific aspects of the
+    API are defined by supplemental Recommended Practice documents for SLE return
+    link services (references [10], [11], and [12]) and SLE forward link services
+    (references [13] and [14]). This document for the Application Program Interface
+    responds to the requirements imposed on such an API by the CCSDS SLE transfer
+    service Recommended Standards that were available when this document was released.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -126,18 +120,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 18441:2016
+    formattedref:
+      content: ISO 18441:2016
     docidentifier:
     - content: ISO 18441:2016
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

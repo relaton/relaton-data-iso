@@ -1,41 +1,37 @@
 ---
 id: ISO1166412007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Colorimetry
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: CIE standard colorimetric observers'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Colorimetry - Part 1: CIE standard colorimetric observers'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Colorimétrie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Observateurs CIE de référence pour la colorimétrie'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Colorimétrie - Partie 1: Observateurs CIE de référence pour la colorimétrie'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/52495.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:52495:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/24/52495.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '11664'
 date:
 - type: published
-  at: 2007-10
+  at: '2007-10-15'
 contributor:
 - role:
   - type: publisher
@@ -69,7 +65,7 @@ contributor:
     - content: " International Commission on Illumination"
     subdivision:
     - name:
-      - content: International Commission on Illumination
+      - content: CIE
       identifier:
       - content: CIE
       type: technical-committee
@@ -86,14 +82,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 11664-1:2007 comprises ISO 10527:2007 and ISO 10527:2007/Cor.1:2008. Its technical content is identical to that of ISO 10527:2007. ISO 10527:2007/Cor.1:2008 changes the reference number of the standard from 10527 to 11664-1.
-    ISO 11664-1:2007 specifies colour-matching functions for use in colorimetry. Two sets of colour-matching functions are specified: colour-matching functions for the CIE 1931 standard colorimetric observer and colour-matching functions for the CIE 1964 standard colorimetric observer.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 11664-1:2007 comprend l'ISO 10527:2007 et l'ISO 10527:2007/Cor.1:2008. Son contenu technique est identique à celui de l'ISO 10527:2007. L'ISO 10527:2007/Cor.1:2008 modifie le numéro de référence de la norme de 10527 à 11664-1.
-    L'ISO 11664-1:2007 définit des fonctions colorimétriques pour leur emploi en colorimétrie. Deux ensembles de fonctions colorimétriques sont définis: les fonctions colorimétriques de l'observateur CIE 1931 de référence pour la colorimétrie et les fonctions colorimétriques de l'observateur CIE 1964 de référence pour la colorimétrie.
+  content: 'ISO 11664-1:2007 comprises ISO 10527:2007 and ISO 10527:2007/Cor.1:2008.
+    Its technical content is identical to that of ISO 10527:2007. ISO 10527:2007/Cor.1:2008
+    changes the reference number of the standard from 10527 to 11664-1. ISO 11664-1:2007
+    specifies colour-matching functions for use in colorimetry. Two sets of colour-matching
+    functions are specified: colour-matching functions for the CIE 1931 standard colorimetric
+    observer and colour-matching functions for the CIE 1964 standard colorimetric
+    observer.'
 status:
   stage:
     content: '95'
@@ -108,35 +103,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10527:2007
-    docidentifier:
-    - content: ISO 10527:2007
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 10527:2007/Cor 1:2008
-    docidentifier:
-    - content: ISO 10527:2007/Cor 1:2008
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/CIE 11664-1:2019
+    formattedref:
+      content: ISO/CIE 11664-1:2019
     docidentifier:
     - content: ISO/CIE 11664-1:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-06-12'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10527:2007
+    docidentifier:
+    - content: ISO 10527:2007
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10527:2007/Cor 1:2008
+    docidentifier:
+    - content: ISO 10527:2007/Cor 1:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

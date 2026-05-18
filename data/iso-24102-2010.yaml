@@ -1,53 +1,47 @@
 ---
 id: ISO241022010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Communications access for land mobiles (CALM)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Management
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Communications access for land mobiles
     (CALM) - Management
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Accès aux communications des services mobiles terrestres (CALM)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport - Accès aux communications des services
     mobiles terrestres (CALM) - Gestion
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/42019.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:42019:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/20/42019.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '24102'
 date:
 - type: published
-  at: 2010-11
+  at: '2010-11-05'
 contributor:
 - role:
   - type: publisher
@@ -92,30 +86,19 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO 24102:2010 provides specifications for intelligent transport systems
+  content: ISO 24102:2010 provides specifications for intelligent transport systems
     (ITS) station management to be compliant with the ITS station reference architecture
     and the set of communications access for land mobiles (CALM) related standards.
-    \nManagement actions are specified via service access points; messages and data
+    Management actions are specified via service access points; messages and data
     that flow between the ITS station management entity and the security entity, the
     application entity and the various communication protocol layers of the ITS station
     reference architecture; and protocol data units for management communications
-    between addressable instances of functionality of an ITS station. "
-- language: fr
-  script: Latn
-  content: "ISO 24102:2010 provides specifications for intelligent transport systems
-    (ITS) station management to be compliant with the ITS station reference architecture
-    and the set of communications access for land mobiles (CALM) related standards.
-    \nManagement actions are specified via service access points; messages and data
-    that flow between the ITS station management entity and the security entity, the
-    application entity and the various communication protocol layers of the ITS station
-    reference architecture; and protocol data units for management communications
-    between addressable instances of functionality of an ITS station. "
+    between addressable instances of functionality of an ITS station.
 status:
   stage:
     content: '95'
@@ -128,73 +111,58 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 24102-1:2013
-    docidentifier:
-    - content: ISO 24102-1:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2015-11-19'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 24102-2:2015
+    formattedref:
+      content: ISO 24102-2:2015
     docidentifier:
     - content: ISO 24102-2:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-11-19'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 24102-3:2013
+    formattedref:
+      content: ISO 24102-3:2013
     docidentifier:
     - content: ISO 24102-3:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-11-19'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 24102-4:2013
+    formattedref:
+      content: ISO 24102-1:2013
+    docidentifier:
+    - content: ISO 24102-1:2013
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 24102-4:2013
     docidentifier:
     - content: ISO 24102-4:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-11-19'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 24102-5:2013
+    formattedref:
+      content: ISO 24102-5:2013
     docidentifier:
     - content: ISO 24102-5:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-11-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

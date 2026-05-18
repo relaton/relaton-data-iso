@@ -1,54 +1,48 @@
 ---
 id: ISOIEC3011852018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Connectivity Foundation (OCF) Specification
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: Smart home device specification'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open Connectivity Foundation (OCF) Specification
     - Part 5: Smart home device specification'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification de la Fondation pour la connectivité ouverte (Fondation OCF)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Spécification des appareils pour applications domotiques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Spécification de la Fondation pour la
     connectivité ouverte (Fondation OCF) - Partie 5: Spécification des appareils pour
     applications domotiques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74242.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74242:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/42/74242.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '30118'
 date:
 - type: published
-  at: 2018-11
+  at: '2018-11-19'
 contributor:
 - role:
   - type: publisher
@@ -102,34 +96,21 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "The OCF Smart Home Device specification is an Application Profile specification.
-    \nThe Smart Home Device specification specifies the Smart Home devices. The Smart
+  content: The OCF Smart Home Device specification is an Application Profile specification.
+    The Smart Home Device specification specifies the Smart Home devices. The Smart
     Home Device definitions use Resource definitions from the OCF Resource Type Specification.
-    \nThe Smart Home Device Specification is built on top of the Core Specification.
+    The Smart Home Device Specification is built on top of the Core Specification.
     The Core Specification specifies the core architecture, interfaces protocols and
     services to enable the implementation of profiles for IoT usages and ecosystems.
     The Core specification also defines the main architectural components of network
     connectivity, discovery, data transmission, device & service management and ID
-    & security.  The core architecture is scalable to support simple devices (constrained
-    devices) and more capable devices (smart devices)."
-- language: fr
-  script: Latn
-  content: "The OCF Smart Home Device specification is an Application Profile specification.
-    \nThe Smart Home Device specification specifies the Smart Home devices. The Smart
-    Home Device definitions use Resource definitions from the OCF Resource Type Specification.
-    \nThe Smart Home Device Specification is built on top of the Core Specification.
-    The Core Specification specifies the core architecture, interfaces protocols and
-    services to enable the implementation of profiles for IoT usages and ecosystems.
-    The Core specification also defines the main architectural components of network
-    connectivity, discovery, data transmission, device & service management and ID
-    & security.  The core architecture is scalable to support simple devices (constrained
-    devices) and more capable devices (smart devices)."
+    & security. The core architecture is scalable to support simple devices (constrained
+    devices) and more capable devices (smart devices).
 status:
   stage:
     content: '95'
@@ -142,21 +123,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 30118-5:2021
+    formattedref:
+      content: ISO/IEC DIS 30118-5
+    docidentifier:
+    - content: ISO/IEC DIS 30118-5
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 30118-5:2021
     docidentifier:
     - content: ISO/IEC 30118-5:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-10-18'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

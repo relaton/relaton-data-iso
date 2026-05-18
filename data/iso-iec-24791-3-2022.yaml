@@ -1,51 +1,43 @@
 ---
 id: ISOIEC2479132022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Radio frequency identification (RFID) for item management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Software system infrastructure -- Part 3: Device management'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Radio frequency identification (RFID) for item
     management - Software system infrastructure -- Part 3: Device management'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification de radiofréquence (RFID) pour la gestion d'élément
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Infrastructure de systèmes logiciels -- Partie 3: Gestion de dispositif'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Identification de radiofréquence (RFID)
     pour la gestion d''élément - Infrastructure de systèmes logiciels -- Partie 3:
     Gestion de dispositif'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80578.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '24791'
 date:
 - type: published
-  at: 2022-12
+  at: '2022-12-01'
 contributor:
 - role:
   - type: publisher
@@ -104,38 +96,30 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-     
-    This document defines interfaces for device management of RFID systems. Interfaces are defined that provide for discovery, configuration, initialization and monitoring of RFID systems within the software system infrastructure (SSI).
-    This document only deals with devices that provide RFID related services. It does not distinguish the form factor of such RFID devices.
-    This document provides two distinct interface sets, one based on the GS1 EPCglobal DCI standard and the IETF SNMP RFCs and the other based on the Organization for the Advancement of Structured Information Standards (OASIS) DPWS standard. The definition of the Device Profile for RFID is referred to in this document as the RFID Device Management Profile, or RDMP.
-    Each interface option set provides interface definitions that provide ISO/IEC 24791-3 Client Endpoints and Services Endpoints with the mechanisms for:
+  content: "  This document defines interfaces for device management of RFID systems.
+    Interfaces are defined that provide for discovery, configuration, initialization
+    and monitoring of RFID systems within the software system infrastructure (SSI).
+    This document only deals with devices that provide RFID related services. It does
+    not distinguish the form factor of such RFID devices. This document provides two
+    distinct interface sets, one based on the GS1 EPCglobal DCI standard and the IETF
+    SNMP RFCs and the other based on the Organization for the Advancement of Structured
+    Information Standards (OASIS) DPWS standard. The definition of the Device Profile
+    for RFID is referred to in this document as the RFID Device Management Profile,
+    or RDMP. Each interface option set provides interface definitions that provide
+    ISO/IEC 24791-3 Client Endpoints and Services Endpoints with the mechanisms for:
     —  the discovery of the RFID devices and services on a local or remote subnet;
-    —  a firmware upgrade service;
-    —  a management service that implements configuration related functions;
-    —  a monitoring service for reporting alerts, diagnostics, and performance information.
-    The two interface set definitions provided by this document allow for clients and services endpoints to implement and provide the services based on the specific characteristics of the RFID system to be implemented. Subclause 1.2 defines the Conformance requirements for systems that implement components of one or both of the interface sets.
-     
-- language: fr
-  script: Latn
-  content: |-
-     
-    This document defines interfaces for device management of RFID systems. Interfaces are defined that provide for discovery, configuration, initialization and monitoring of RFID systems within the software system infrastructure (SSI).
-    This document only deals with devices that provide RFID related services. It does not distinguish the form factor of such RFID devices.
-    This document provides two distinct interface sets, one based on the GS1 EPCglobal DCI standard and the IETF SNMP RFCs and the other based on the Organization for the Advancement of Structured Information Standards (OASIS) DPWS standard. The definition of the Device Profile for RFID is referred to in this document as the RFID Device Management Profile, or RDMP.
-    Each interface option set provides interface definitions that provide ISO/IEC 24791-3 Client Endpoints and Services Endpoints with the mechanisms for:
-    —  the discovery of the RFID devices and services on a local or remote subnet;
-    —  a firmware upgrade service;
-    —  a management service that implements configuration related functions;
-    —  a monitoring service for reporting alerts, diagnostics, and performance information.
-    The two interface set definitions provided by this document allow for clients and services endpoints to implement and provide the services based on the specific characteristics of the RFID system to be implemented. Subclause 1.2 defines the Conformance requirements for systems that implement components of one or both of the interface sets.
-     
+    —  a firmware upgrade service; —  a management service that implements configuration
+    related functions; —  a monitoring service for reporting alerts, diagnostics,
+    and performance information. The two interface set definitions provided by this
+    document allow for clients and services endpoints to implement and provide the
+    services based on the specific characteristics of the RFID system to be implemented.
+    Subclause 1.2 defines the Conformance requirements for systems that implement
+    components of one or both of the interface sets.  "
 status:
   stage:
     content: '60'
@@ -148,18 +132,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 24791-3:2014
+    formattedref:
+      content: ISO/IEC 24791-3:2014
     docidentifier:
     - content: ISO/IEC 24791-3:2014
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

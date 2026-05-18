@@ -1,48 +1,41 @@
 ---
 id: ISO22915102008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial trucks
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Verification of stability
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 10: Additional stability test for trucks operating in the special
     condition of stacking with load laterally displaced by powered devices'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial trucks - Verification of stability - Part 10: Additional stability
     test for trucks operating in the special condition of stacking with load laterally
     displaced by powered devices'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Chariots de manutention
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vérification de la stabilité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 10: Essai de stabilité supplémentaire pour les chariots travaillant
     dans des conditions de gerbage spéciales avec la charge décentrée latéralement
     par des dispositifs à moteur'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Chariots de manutention - Vérification de la stabilité - Partie 10: Essai
@@ -50,10 +43,11 @@ title:
     de gerbage spéciales avec la charge décentrée latéralement par des dispositifs
     à moteur'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/42349.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:42349:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/23/42349.detail.rss
 docidentifier:
@@ -67,7 +61,7 @@ docidentifier:
 docnumber: '22915'
 date:
 - type: published
-  at: 2008-06
+  at: '2008-06-10'
 contributor:
 - role:
   - type: publisher
@@ -104,16 +98,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 22915 deals with the safety of industrial trucks, as defined in ISO 5053, relative to their stability and the verification of that stability. For the purposes of ISO 22915, industrial trucks are wheeled, self‑propelled or pedestrian‑propelled vehicles, excepting those running on rails. They are either operator‑controlled or driverless and designed to carry, tow, push, lift, stack or tier in racks.
-    ISO 22915-10:2008 specifies an additional test for verifying the stability of a laden truck fitted with a powered load-handling device, such as a sideshift, which can displace the centre of gravity to a substantial, predetermined extent from the longitudinal centre plane of the truck. Such devices are used in that mode for depositing and retrieving a load with the mast vertical or raised to maximum boom angle and extension.
-    A displacement is considered to be a substantial displacement if it is more than 100 mm, for a truck with a rated capacity less than 5 000 kg, 150 mm, for a truck with a rated capacity greater than or equal to 5 000 kg and less than or equal to 10 000 kg, 250 mm, for a truck with a rated capacity greater than 10 000 kg and less than 20 000 kg, 350 mm, for a truck with a rated capacity greater than or equal to 20 000 kg.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 22915 traite de la sécurité par rapport à la stabilité et sa vérification pour les chariots de manutention. Pour les besoins de l'ISO 22915, les chariots de manutention sont des véhicules sur roues, automoteurs ou conduits manuellement, à l'exception des chariots sur rail. Ils peuvent être avec ou sans conducteur et sont conçus pour transporter, tracter, pousser, soulever, gerber et stocker en casiers.
-    L'ISO 22915-10:2008 spécifie un essai supplémentaire pour vérifier la stabilité d'un chariot chargé, lorsque celui-ci est muni d'un organe de manutention de charges, tel qu'un translateur latéral, capable de déplacer de façon significative le centre de gravité de la charge d'une distance maximale prédéterminée par rapport au plan médian longitudinal du chariot. Cet organe est utilisé de cette façon pour déposer ou reprendre une charge avec le mât en position verticale ou avec la flèche à son angle et à son extension maximaux.
-    Un déplacement est considéré comme significatif s'il est strictement supérieur à 100 mm, pour un chariot de capacité nominale < 5 000 kg, 150 mm, pour un chariot de capacité nominale comprise entrte 5 000 kg et 10 000 kg, 250 mm, pour un chariot de capacité nominale strictement > 10 000 kg et < 20 000 kg et 350 mm, pour un chariot de capacité nominale supérieure ou égale à 20 000 kg.
+  content: ISO 22915 deals with the safety of industrial trucks, as defined in ISO
+    5053, relative to their stability and the verification of that stability. For
+    the purposes of ISO 22915, industrial trucks are wheeled, self‑propelled or pedestrian‑propelled
+    vehicles, excepting those running on rails. They are either operator‑controlled
+    or driverless and designed to carry, tow, push, lift, stack or tier in racks.
+    ISO 22915-10:2008 specifies an additional test for verifying the stability of
+    a laden truck fitted with a powered load-handling device, such as a sideshift,
+    which can displace the centre of gravity to a substantial, predetermined extent
+    from the longitudinal centre plane of the truck. Such devices are used in that
+    mode for depositing and retrieving a load with the mast vertical or raised to
+    maximum boom angle and extension. A displacement is considered to be a substantial
+    displacement if it is more than 100 mm, for a truck with a rated capacity less
+    than 5 000 kg, 150 mm, for a truck with a rated capacity greater than or equal
+    to 5 000 kg and less than or equal to 10 000 kg, 250 mm, for a truck with a rated
+    capacity greater than 10 000 kg and less than 20 000 kg, 350 mm, for a truck with
+    a rated capacity greater than or equal to 20 000 kg.
 status:
   stage:
     content: '95'
@@ -128,27 +128,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10658:1996
-    docidentifier:
-    - content: ISO 10658:1996
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 22915-10:2023
+    formattedref:
+      content: ISO 22915-10:2023
     docidentifier:
     - content: ISO 22915-10:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-03-24'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 22915-10
+    docidentifier:
+    - content: ISO/DIS 22915-10
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10658:1996
+    docidentifier:
+    - content: ISO 10658:1996
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

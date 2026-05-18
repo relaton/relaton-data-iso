@@ -1,54 +1,48 @@
 ---
 id: ISOIEC1651222011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: 'Relayed multicast protocol: Specification for simplex group applications'
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2:'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Relayed multicast protocol: Specification for
     simplex group applications - Part 2:'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Protocole de multidiffusion relayé: Spécification relative aux applications
     de groupe simplex'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2:'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Protocole de multidiffusion relayé: Spécification
     relative aux applications de groupe simplex - Partie 2:'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/60326.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:60326:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/03/60326.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '16512'
 date:
 - type: published
-  at: 2011-12
+  at: '2011-11-23'
 contributor:
 - role:
   - type: publisher
@@ -102,40 +96,24 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 16512-2:2011 specifies the relayed multicast protocol for simplex
+  content: ISO/IEC 16512-2:2011 specifies the relayed multicast protocol for simplex
     group applications (RMCP-2), an application-layer protocol, which constructs a
     multicast tree for data delivery from one sender to multiple receivers over the
-    Internet where IP multicast is not fully deployed.\nIt defines a basic RMCP-2
-    protocol without security features, and a secure RMCP-2 protocol that adds security
-    features to the basic protocol. Both protocols specify a series of functions and
-    procedures for multicast agents to construct a one-to-many relayed data path and
-    to relay simplex data. They also specify the operations of the session manager
-    to manage multicast sessions.\nThese protocols can be used for applications that
-    require one-to-many data delivery services, such as multimedia streaming services
-    or file dissemination services.\nISO/IEC 16512-2:2011 also defines a membership
-    authentication procedure for use with the secure RMCP-2 protocol and provides
-    informative material related to the protocols.  "
-- language: fr
-  script: Latn
-  content: "ISO/IEC 16512-2:2011 specifies the relayed multicast protocol for simplex
-    group applications (RMCP-2), an application-layer protocol, which constructs a
-    multicast tree for data delivery from one sender to multiple receivers over the
-    Internet where IP multicast is not fully deployed.\nIt defines a basic RMCP-2
-    protocol without security features, and a secure RMCP-2 protocol that adds security
-    features to the basic protocol. Both protocols specify a series of functions and
-    procedures for multicast agents to construct a one-to-many relayed data path and
-    to relay simplex data. They also specify the operations of the session manager
-    to manage multicast sessions.\nThese protocols can be used for applications that
-    require one-to-many data delivery services, such as multimedia streaming services
-    or file dissemination services.\nISO/IEC 16512-2:2011 also defines a membership
-    authentication procedure for use with the secure RMCP-2 protocol and provides
-    informative material related to the protocols.  "
+    Internet where IP multicast is not fully deployed. It defines a basic RMCP-2 protocol
+    without security features, and a secure RMCP-2 protocol that adds security features
+    to the basic protocol. Both protocols specify a series of functions and procedures
+    for multicast agents to construct a one-to-many relayed data path and to relay
+    simplex data. They also specify the operations of the session manager to manage
+    multicast sessions. These protocols can be used for applications that require
+    one-to-many data delivery services, such as multimedia streaming services or file
+    dissemination services. ISO/IEC 16512-2:2011 also defines a membership authentication
+    procedure for use with the secure RMCP-2 protocol and provides informative material
+    related to the protocols.
 status:
   stage:
     content: '95'
@@ -150,27 +128,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 16512-2:2008
+    formattedref:
+      content: ISO/IEC 16512-2:2016
+    docidentifier:
+    - content: ISO/IEC 16512-2:2016
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 16512-2:2008
     docidentifier:
     - content: ISO/IEC 16512-2:2008
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 16512-2:2016
+    formattedref:
+      content: ISO/IEC 16512-2:2008/FDAmd 2
     docidentifier:
-    - content: ISO/IEC 16512-2:2016
+    - content: ISO/IEC 16512-2:2008/FDAM 2
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-03-21'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 16512-2:2008/FDAmd 1
+    docidentifier:
+    - content: ISO/IEC 16512-2:2008/FDAM 1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

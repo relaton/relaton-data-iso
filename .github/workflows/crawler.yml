@@ -9,13 +9,16 @@ on:
   - cron: '0 14 * * *'
   workflow_dispatch:
     inputs:
-      args:
-        description: Extra args to pass to crawler.rb script
+      force_refresh:
+        description: Force re-ingestion of every record (ignore Last-Modified)
         required: false
-        default: ''
+        default: false
+        type: boolean
 
 jobs:
   crawl:
     uses: relaton/support/.github/workflows/crawler.yml@main
+    with:
+      args: ${{ inputs.force_refresh && 'iso-open-data-all' || '' }}
     secrets:
       args: ${{ secrets.GITHUB_TOKEN }}

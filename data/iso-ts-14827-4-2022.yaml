@@ -1,48 +1,41 @@
 ---
 id: ISOTS1482742022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Data interfaces between centres for transport information and control systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Data interfaces between centres for Intelligent transport systems
     (ITS) using XML (Profile B)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Data interfaces between centres for transport
     information and control systems - Part 4: Data interfaces between centres for
     Intelligent transport systems (ITS) using XML (Profile B)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de données entre centres pour les systèmes de commande et d'information
     des transports
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Interfaces de données entre centres pour systèmes de transport
     intelligents (ITS) utilisant XML (Profil B)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de transport intelligents - Interface de données entre centres
@@ -50,7 +43,6 @@ title:
     de données entre centres pour systèmes de transport intelligents (ITS) utilisant
     XML (Profil B)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78366.html
@@ -64,12 +56,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 14827-4:2022(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:14827:-4:stage-60.60
+- content: urn:iso:std:iso:ts:14827:-4:stage-90.92
   type: URN
 docnumber: '14827'
 date:
 - type: published
-  at: 2022-09
+  at: '2022-09-13'
 contributor:
 - role:
   - type: publisher
@@ -100,49 +92,56 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document, based on ISO/TS 19468, specifies a platform-specific method for implementing data exchange among centres based on simple object access protocol (SOAP), supporting the EN 16157 series (DATEX II) for Push/Pull data delivery and service request/feedback collaborative intelligent transport system (ITS) services.
-    This document defines the message rules and procedures for communication between transport information and control systems using XML (Profile B).
-    This document clarifies how to package end-application messages and relevant data.
-    The payload data definition used in specific end-applications and the exact structure of the content payload delivered in the messages are beyond the scope of this document.
-    Rules and procedures for exchanging data-packets in lower communication layers are also out of the scope of this document. These functionalities can be implemented using generic protocols defined in the industry standards. However, this document does define how to use these protocols.
-- language: fr
-  script: Latn
-  content: |-
-    This document, based on ISO/TS 19468, specifies a platform-specific method for implementing data exchange among centres based on simple object access protocol (SOAP), supporting the EN 16157 series (DATEX II) for Push/Pull data delivery and service request/feedback collaborative intelligent transport system (ITS) services.
-    This document defines the message rules and procedures for communication between transport information and control systems using XML (Profile B).
-    This document clarifies how to package end-application messages and relevant data.
-    The payload data definition used in specific end-applications and the exact structure of the content payload delivered in the messages are beyond the scope of this document.
-    Rules and procedures for exchanging data-packets in lower communication layers are also out of the scope of this document. These functionalities can be implemented using generic protocols defined in the industry standards. However, this document does define how to use these protocols.
+  content: This document, based on ISO/TS 19468, specifies a platform-specific method
+    for implementing data exchange among centres based on simple object access protocol
+    (SOAP), supporting the EN 16157 series (DATEX II) for Push/Pull data delivery
+    and service request/feedback collaborative intelligent transport system (ITS)
+    services. This document defines the message rules and procedures for communication
+    between transport information and control systems using XML (Profile B). This
+    document clarifies how to package end-application messages and relevant data.
+    The payload data definition used in specific end-applications and the exact structure
+    of the content payload delivered in the messages are beyond the scope of this
+    document. Rules and procedures for exchanging data-packets in lower communication
+    layers are also out of the scope of this document. These functionalities can be
+    implemented using generic protocols defined in the industry standards. However,
+    this document does define how to use these protocols.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2022'
   owner:
   - organization:
       name:
       - content: ISO/TS
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/AWI 14827-4
+    docidentifier:
+    - content: ISO/AWI 14827-4
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

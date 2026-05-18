@@ -1,50 +1,42 @@
 ---
 id: ISOIEC7816112022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Integrated circuit cards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 11: Personal verification through biometric methods'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Identification cards - Integrated circuit cards - Part 11: Personal verification
     through biometric methods'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes à circuit intégré
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 11: Verification personelle par méthodes biométriques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes d''identification - Cartes à circuit intégré - Partie 11: Verification
     personelle par méthodes biométriques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78382.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 7816-11:2022(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:7816:-11:stage-60.60
+- content: urn:iso:std:iso-iec:7816:-11:stage-90.92
   type: URN
 docnumber: '7816'
 date:
 - type: published
-  at: 2022-04
+  at: '2022-04-04'
 contributor:
 - role:
   - type: publisher
@@ -103,7 +95,6 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -116,20 +107,11 @@ abstract:
     perform the verification of the cardholder's biometric probe (on-card biometric
     comparison). Identification of persons using biometric methods is outside the
     scope of this document.
-- language: fr
-  script: Latn
-  content: This document specifies security-related interindustry commands that are
-    intended to be used for personal verification through biometric methods in integrated
-    circuit cards. It also defines the data structure and data access methods for
-    use of the card as a carrier of the biometric reference and/or as the device to
-    perform the verification of the cardholder's biometric probe (on-card biometric
-    comparison). Identification of persons using biometric methods is outside the
-    scope of this document.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2022'
   owner:
@@ -139,16 +121,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-11:2017
+    formattedref:
+      content: ISO/IEC WD 7816-11
+    docidentifier:
+    - content: ISO/IEC WD 7816-11
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 7816-11:2017
     docidentifier:
     - content: ISO/IEC 7816-11:2017
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

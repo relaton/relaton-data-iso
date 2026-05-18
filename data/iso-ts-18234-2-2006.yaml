@@ -1,55 +1,49 @@
 ---
 id: ISOTS1823422006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Traffic and Travel Information (TTI)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: TTI via Transport Protocol Expert Group (TPEG) data-streams
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Syntax, Semantics and Framing Structure (SSF)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Traffic and Travel Information (TTI) - TTI via Transport Protocol Expert
     Group (TPEG) data-streams - Part 2: Syntax, Semantics and Framing Structure (SSF)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations sur le trafic et le tourisme (TTI)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Messages TTI via les flux de données du groupe d'experts du protocole de
     transport (TPEG)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Structure de syntaxe, de sémantique et de cadrage (SSF)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informations sur le trafic et le tourisme (TTI) - Messages TTI via les
     flux de données du groupe d''experts du protocole de transport (TPEG) - Partie
     2: Structure de syntaxe, de sémantique et de cadrage (SSF)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44062.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:44062:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/40/44062.detail.rss
 docidentifier:
@@ -63,7 +57,7 @@ docidentifier:
 docnumber: '18234'
 date:
 - type: published
-  at: 2006-06
+  at: '2006-05-26'
 contributor:
 - role:
   - type: publisher
@@ -94,22 +88,24 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO TS 18234-2:2006 establishes the method of referencing used within a TPEG data stream to allow a service provider to signal availability of the same service on another bearer channel or similar service data from another service.
-    TPEG is a byte-oriented stream format, which may be carried on almost any digital bearer with an appropriate adaptation layer. TPEG messages are delivered from service providers to end-users, and are used to transfer application data from the database of a service provider to a user's equipment.
-    The protocol is structured in a layered manner and employs a general purpose framing system which is adaptable and extensible, and which carries frames of variable length. This has been designed with the capability of explicit frame length identification at nearly all levels, giving greater flexibility and integrity, and permitting the modification of the protocol and the addition of new features without disturbing the operation of earlier client decoder models.
-- language: fr
-  script: Latn
-  content: |-
-    ISO TS 18234-2:2006 establishes the method of referencing used within a TPEG data stream to allow a service provider to signal availability of the same service on another bearer channel or similar service data from another service.
-    TPEG is a byte-oriented stream format, which may be carried on almost any digital bearer with an appropriate adaptation layer. TPEG messages are delivered from service providers to end-users, and are used to transfer application data from the database of a service provider to a user's equipment.
-    The protocol is structured in a layered manner and employs a general purpose framing system which is adaptable and extensible, and which carries frames of variable length. This has been designed with the capability of explicit frame length identification at nearly all levels, giving greater flexibility and integrity, and permitting the modification of the protocol and the addition of new features without disturbing the operation of earlier client decoder models.
+  content: ISO TS 18234-2:2006 establishes the method of referencing used within a
+    TPEG data stream to allow a service provider to signal availability of the same
+    service on another bearer channel or similar service data from another service.
+    TPEG is a byte-oriented stream format, which may be carried on almost any digital
+    bearer with an appropriate adaptation layer. TPEG messages are delivered from
+    service providers to end-users, and are used to transfer application data from
+    the database of a service provider to a user's equipment. The protocol is structured
+    in a layered manner and employs a general purpose framing system which is adaptable
+    and extensible, and which carries frames of variable length. This has been designed
+    with the capability of explicit frame length identification at nearly all levels,
+    giving greater flexibility and integrity, and permitting the modification of the
+    protocol and the addition of new features without disturbing the operation of
+    earlier client decoder models.
 status:
   stage:
     content: '95'
@@ -122,29 +118,26 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 18234-2:2013
+    formattedref:
+      content: ISO/TS 18234-2:2013
     docidentifier:
     - content: ISO/TS 18234-2:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-10-10'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

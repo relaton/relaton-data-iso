@@ -1,49 +1,42 @@
 ---
 id: ISO1199232021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Interchange of digital information on electrical connections between towing
     and towed vehicles
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Application layer for equipment other than brakes and running
     gear'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Interchange of digital information on electrical connections
     between towing and towed vehicles - Part 3: Application layer for equipment other
     than brakes and running gear'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échange d'informations numériques sur les connexions électriques entre
     véhicules tracteurs et véhicules tractés
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Couche d''application pour les équipements autres que les équipements
     de freinage et les organes de roulement'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Échange d''informations numériques sur les connexions
@@ -51,7 +44,6 @@ title:
     d''application pour les équipements autres que les équipements de freinage et
     les organes de roulement'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/77009.html
@@ -65,12 +57,12 @@ docidentifier:
   primary: true
 - content: ISO 11992-3:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:11992:-3:stage-60.60
+- content: urn:iso:std:iso:11992:-3:stage-90.20
   type: URN
 docnumber: '11992'
 date:
 - type: published
-  at: 2021-05
+  at: '2021-05-21'
 contributor:
 - role:
   - type: publisher
@@ -101,29 +93,25 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the application layer, the payload of messages, and parameter groups for equipment other than brakes and running gears, to ensure the interchange of digital information between road vehicles with a maximum authorized total mass greater than 3 500 kg and their towed vehicles, including communication between towed vehicles.
-    This document supports the parameters and message sets for object detection (OD). The installation of the object detection (OD) device compliant to this document in the towed vehicle is identified by a dedicated message.
-    Additionally, some lighting parameters and messages are specified.
-    The conformance and interoperability test plans are not part of this document.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the application layer, the payload of messages, and parameter groups for equipment other than brakes and running gears, to ensure the interchange of digital information between road vehicles with a maximum authorized total mass greater than 3 500 kg and their towed vehicles, including communication between towed vehicles.
-    This document supports the parameters and message sets for object detection (OD). The installation of the object detection (OD) device compliant to this document in the towed vehicle is identified by a dedicated message.
-    Additionally, some lighting parameters and messages are specified.
-    The conformance and interoperability test plans are not part of this document.
+  content: This document specifies the application layer, the payload of messages,
+    and parameter groups for equipment other than brakes and running gears, to ensure
+    the interchange of digital information between road vehicles with a maximum authorized
+    total mass greater than 3 500 kg and their towed vehicles, including communication
+    between towed vehicles. This document supports the parameters and message sets
+    for object detection (OD). The installation of the object detection (OD) device
+    compliant to this document in the towed vehicle is identified by a dedicated message.
+    Additionally, some lighting parameters and messages are specified. The conformance
+    and interoperability test plans are not part of this document.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -131,26 +119,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 11992-3:2003
-    docidentifier:
-    - content: ISO 11992-3:2003
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 11992-3:2003/Amd 1:2008
+    formattedref:
+      content: ISO 11992-3:2003/Amd 1:2008
     docidentifier:
     - content: ISO 11992-3:2003/Amd 1:2008
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11992-3:2003
+    docidentifier:
+    - content: ISO 11992-3:2003
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

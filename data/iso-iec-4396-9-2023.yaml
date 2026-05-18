@@ -1,50 +1,42 @@
 ---
 id: ISOIEC439692023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Telecommunications and information exchange between systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Recursive inter-network architecture
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 9: Error and flow control protocol'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Telecommunications and information exchange between systems - Recursive
     inter-network architecture - Part 9: Error and flow control protocol'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Télécommunications et échange d'information entre systèmes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Architecture récursive inter-réseaux
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 9: Protocole de contrôle d''erreurs et de flux'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Télécommunications et échange d''information entre systèmes - Architecture
     récursive inter-réseaux - Partie 9: Protocole de contrôle d''erreurs et de flux'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/85064.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '4396'
 date:
 - type: published
-  at: 2023-12
+  at: '2023-12-05'
 contributor:
 - role:
   - type: publisher
@@ -103,36 +95,28 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document provides the Error and Flow Control Protocol (EFCP) specification. EFCP provides an inter-process communication (IPC) service to an application process, which can be a (N+1)-IPC process (IPCP), with the requested Quality of Service (QoS). One or more service data units (SDUs) are passed on the (N)-port-id to the (N)-DIF (distributed IPC facility) to be sent to the destination application process. Protocol data units (PDUs) transferred by the (N)-DIF are delivered to the (N)-port-id for the using Application Process. This document describes the placement of EFCP within RINA, the components EFCP consists of, and the mechanisms and policies that are involved in EFCP’s work, and the timers and control mechanisms required to manage the connection.
-    EFCP comprises two logical components, the data transfer procedures (DTP), providing tightly bound mechanisms and the data transfer control procedures (DTCP), which provides loosely bound mechanisms.
-    This document provides:
-    —     the service definition;
-    —     an overview of EFCP;
-    —     a description of the placement of EFCP within recursive internetwork architecture (RINA);
-    —     the common elements of data transfer protocol (DTP) and data transfer control protocol (DTCP);
-    —     DTP structure and functions;
-    —     DTCP structure and functions;
-    —     an informative list of all policies in EFCP.en
-- language: fr
-  script: Latn
-  content: |-
-    This document provides the Error and Flow Control Protocol (EFCP) specification. EFCP provides an inter-process communication (IPC) service to an application process, which can be a (N+1)-IPC process (IPCP), with the requested Quality of Service (QoS). One or more service data units (SDUs) are passed on the (N)-port-id to the (N)-DIF (distributed IPC facility) to be sent to the destination application process. Protocol data units (PDUs) transferred by the (N)-DIF are delivered to the (N)-port-id for the using Application Process. This document describes the placement of EFCP within RINA, the components EFCP consists of, and the mechanisms and policies that are involved in EFCP’s work, and the timers and control mechanisms required to manage the connection.
-    EFCP comprises two logical components, the data transfer procedures (DTP), providing tightly bound mechanisms and the data transfer control procedures (DTCP), which provides loosely bound mechanisms.
-    This document provides:
-    —     the service definition;
-    —     an overview of EFCP;
-    —     a description of the placement of EFCP within recursive internetwork architecture (RINA);
-    —     the common elements of data transfer protocol (DTP) and data transfer control protocol (DTCP);
-    —     DTP structure and functions;
-    —     DTCP structure and functions;
-    —     an informative list of all policies in EFCP.en
+  content: 'This document provides the Error and Flow Control Protocol (EFCP) specification.
+    EFCP provides an inter-process communication (IPC) service to an application process,
+    which can be a (N+1)-IPC process (IPCP), with the requested Quality of Service
+    (QoS). One or more service data units (SDUs) are passed on the (N)-port-id to
+    the (N)-DIF (distributed IPC facility) to be sent to the destination application
+    process. Protocol data units (PDUs) transferred by the (N)-DIF are delivered to
+    the (N)-port-id for the using Application Process. This document describes the
+    placement of EFCP within RINA, the components EFCP consists of, and the mechanisms
+    and policies that are involved in EFCP’s work, and the timers and control mechanisms
+    required to manage the connection. EFCP comprises two logical components, the
+    data transfer procedures (DTP), providing tightly bound mechanisms and the data
+    transfer control procedures (DTCP), which provides loosely bound mechanisms. This
+    document provides: —     the service definition; —     an overview of EFCP; —    
+    a description of the placement of EFCP within recursive internetwork architecture
+    (RINA); —     the common elements of data transfer protocol (DTP) and data transfer
+    control protocol (DTCP); —     DTP structure and functions; —     DTCP structure
+    and functions; —     an informative list of all policies in EFCP.en'
 status:
   stage:
     content: '60'
@@ -145,9 +129,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

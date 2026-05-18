@@ -1,39 +1,33 @@
 ---
 id: ISOIEC209192021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Linear tape file system (LTFS) Format specification
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Linear tape file system (LTFS) Format specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification du format de système de fichier à bande magnétique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Spécification du format de système de fichier
     à bande magnétique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80598.html
@@ -52,7 +46,7 @@ docidentifier:
 docnumber: '20919'
 date:
 - type: published
-  at: 2021-07
+  at: '2021-07-27'
 contributor:
 - role:
   - type: publisher
@@ -92,22 +86,20 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the LTFS Format requirements for interchanged media that claims LTFS compliance. Those requirements are specified as the size and sequence of data blocks and file marks on the media, the content and form of special data constructs (the LTFS Label and LTFS Index), and the content of the partition labels and use of MAM parameters.
-    The data content (not the physical media) of the LTFS format shall be interchangeable among all data storage systems claiming conformance to this format. Physical media interchange is dependent on compatibility of physical media and the media access devices in use.
-    NOTE: This document does not contain instructions or tape command sequences to build the LTFS structure.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the LTFS Format requirements for interchanged media that claims LTFS compliance. Those requirements are specified as the size and sequence of data blocks and file marks on the media, the content and form of special data constructs (the LTFS Label and LTFS Index), and the content of the partition labels and use of MAM parameters.
-    The data content (not the physical media) of the LTFS format shall be interchangeable among all data storage systems claiming conformance to this format. Physical media interchange is dependent on compatibility of physical media and the media access devices in use.
-    NOTE: This document does not contain instructions or tape command sequences to build the LTFS structure.
+  content: 'This document defines the LTFS Format requirements for interchanged media
+    that claims LTFS compliance. Those requirements are specified as the size and
+    sequence of data blocks and file marks on the media, the content and form of special
+    data constructs (the LTFS Label and LTFS Index), and the content of the partition
+    labels and use of MAM parameters. The data content (not the physical media) of
+    the LTFS format shall be interchangeable among all data storage systems claiming
+    conformance to this format. Physical media interchange is dependent on compatibility
+    of physical media and the media access devices in use. NOTE: This document does
+    not contain instructions or tape command sequences to build the LTFS structure.'
 status:
   stage:
     content: '60'
@@ -120,18 +112,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 20919:2016
+    formattedref:
+      content: ISO/IEC 20919:2016
     docidentifier:
     - content: ISO/IEC 20919:2016
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,53 +1,47 @@
 ---
 id: ISO2251983
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Fasteners
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Bolts, screws, studs and nuts
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Symbols and designations of dimensions
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Fasteners - Bolts, screws, studs and nuts - Symbols and designations of
     dimensions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments de fixation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vis, goujons et écrous
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Symboles et désignations des dimensions
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments de fixation - Vis, goujons et écrous - Symboles et désignations
     des dimensions
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4098.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4098:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/40/4098.detail.rss
 docidentifier:
@@ -61,9 +55,7 @@ docidentifier:
 docnumber: '225'
 date:
 - type: published
-  at: 1983-11
-- type: corrected
-  at: 1992-07
+  at: '1983-11-01'
 contributor:
 - role:
   - type: publisher
@@ -95,8 +87,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -104,20 +98,6 @@ abstract:
     common symbols and describes the features; in addition to terms in the official
     ISO languages English, French, and Russian it gives the equivalent terms in German,
     Italian and Spanish.
-- language: fr
-  script: Latn
-  content: "\nLa présente Norme internationale définit la méthode de cotation des
-    vis, goujons et écrous, d'usage recommandé, sauf spécification contraire figurant
-    dans les normes de produit. Elle inclut les symboles communs et décrit l'élément.
-    \ \nNOTES 1) Les figures d'éléments de fixation figurant dans la présente Norme
-    internationale ne sont données qu'à titre d'exemples. 2) En supplément aux désignations
-    des dimensions données dans les trois langues officielles de l'ISO (anglais, français,
-    russe), la présente Norme internationale donne les désignations équivalentes en
-    allemand, italien et espagnol. Ces désignations ont été incluses à la demande
-    du Comité technique ISO/TC 2, et sont publiées sous la responsabilité des comités
-    membres de l'Allemagne, R.F. (DIN), de l'Italie (UNI) et de l'Espagne (IRANOR).
-    Toutefois, seules les désignations données dans les langues officielles peuvent
-    être considérées comme désignations ISO. Ordre successif des langues : E : anglais\n"
 status:
   stage:
     content: '95'
@@ -130,21 +110,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 225:2010
+    formattedref:
+      content: ISO/NP 225
+    docidentifier:
+    - content: ISO/NP 225
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 225
+    docidentifier:
+    - content: ISO/WD 225
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 225:2010
     docidentifier:
     - content: ISO 225:2010
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2010-09-24'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

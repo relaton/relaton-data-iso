@@ -1,40 +1,34 @@
 ---
 id: ISO191622019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Well-known text representation of coordinate reference systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Well-known text representation of coordinate reference
     systems
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation textuelle bien lisible de systèmes de référence par coordonnées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Représentation textuelle bien lisible de systèmes
     de référence par coordonnées
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/76496.html
@@ -53,7 +47,7 @@ docidentifier:
 docnumber: '19162'
 date:
 - type: published
-  at: 2019-07
+  at: '2019-07-11'
 contributor:
 - role:
   - type: publisher
@@ -84,27 +78,10 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: This document defines the structure and content of a text string implementation
-    of the abstract model for coordinate reference systems described in ISO 19111.
-    The string defines frequently needed types of coordinate reference systems and
-    coordinate operations in a self-contained form that is easily readable by machines
-    and by humans. The essence is its simplicity; as a consequence there are some
-    constraints upon the more open content allowed in ISO 19111. To retain simplicity
-    in the well-known text (WKT) description of coordinate reference systems and coordinate
-    operations, the scope of this document excludes parameter grouping and pass-through
-    coordinate operations. The text string provides a means for humans and machines
-    to correctly and unambiguously interpret and utilise a coordinate reference system
-    definition with look-ups or cross references only to define coordinate operation
-    mathematics. A WKT string is not suitable for the storage of definitions of coordinate
-    reference systems or coordinate operations because it omits metadata about the
-    source of the data and may omit metadata about the applicability of the information.
-- language: fr
   script: Latn
   content: This document defines the structure and content of a text string implementation
     of the abstract model for coordinate reference systems described in ISO 19111.
@@ -132,29 +109,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 19162:2015
+    formattedref:
+      content: ISO 19162:2015
     docidentifier:
     - content: ISO 19162:2015
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 19162:2019/Amd 1:2023
-    docidentifier:
-    - content: ISO 19162:2019/Amd 1:2023
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2024-12-17'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

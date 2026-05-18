@@ -1,50 +1,42 @@
 ---
 id: ISO1422912020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Unified diagnostic services (UDS)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Application layer'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Unified diagnostic services (UDS) - Part 1: Application
     layer'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Services de diagnostic unifiés (SDU)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Couche application'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Services de diagnostic unifiés (SDU) - Partie 1:
     Couche application'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/72439.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '14229'
 date:
 - type: published
-  at: 2020-02
+  at: '2020-02-07'
 contributor:
 - role:
   - type: publisher
@@ -94,24 +86,23 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies data link independent requirements of diagnostic services, which allow a diagnostic tester (client) to control diagnostic functions in an on-vehicle electronic control unit (ECU, server) such as an electronic fuel injection, automatic gearbox, anti-lock braking system, etc. connected to a serial data link embedded in a road vehicle.
-    It specifies generic services, which allow the diagnostic tester (client) to stop or to resume non-diagnostic message transmission on the data link.
-    This document does not apply to non-diagnostic message transmission on the vehicle's communication data link between two electronic control units. However, this document does not restrict an in-vehicle on-board tester (client) implementation in an ECU in order to utilize the diagnostic services on the vehicle's communication data link to perform bidirectional diagnostic data exchange.
-    This document does not specify any implementation requirements.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies data link independent requirements of diagnostic services, which allow a diagnostic tester (client) to control diagnostic functions in an on-vehicle electronic control unit (ECU, server) such as an electronic fuel injection, automatic gearbox, anti-lock braking system, etc. connected to a serial data link embedded in a road vehicle.
-    It specifies generic services, which allow the diagnostic tester (client) to stop or to resume non-diagnostic message transmission on the data link.
-    This document does not apply to non-diagnostic message transmission on the vehicle's communication data link between two electronic control units. However, this document does not restrict an in-vehicle on-board tester (client) implementation in an ECU in order to utilize the diagnostic services on the vehicle's communication data link to perform bidirectional diagnostic data exchange.
-    This document does not specify any implementation requirements.
+  content: This document specifies data link independent requirements of diagnostic
+    services, which allow a diagnostic tester (client) to control diagnostic functions
+    in an on-vehicle electronic control unit (ECU, server) such as an electronic fuel
+    injection, automatic gearbox, anti-lock braking system, etc. connected to a serial
+    data link embedded in a road vehicle. It specifies generic services, which allow
+    the diagnostic tester (client) to stop or to resume non-diagnostic message transmission
+    on the data link. This document does not apply to non-diagnostic message transmission
+    on the vehicle's communication data link between two electronic control units.
+    However, this document does not restrict an in-vehicle on-board tester (client)
+    implementation in an ECU in order to utilize the diagnostic services on the vehicle's
+    communication data link to perform bidirectional diagnostic data exchange. This
+    document does not specify any implementation requirements.
 status:
   stage:
     content: '90'
@@ -126,35 +117,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14229-1:2013
+    formattedref:
+      content: ISO 14229-1
     docidentifier:
-    - content: ISO 14229-1:2013
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/DIS 14229-1
-    docidentifier:
-    - content: ISO/DIS 14229-1
+    - content: ISO 14229-1
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 14229-1:2020/Amd 1:2022
+    formattedref:
+      content: ISO 14229-1:2013
     docidentifier:
-    - content: ISO 14229-1:2020/Amd 1:2022
+    - content: ISO 14229-1:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-10-09'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

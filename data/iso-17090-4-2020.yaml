@@ -1,50 +1,42 @@
 ---
 id: ISO1709042020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Public key infrastructure
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Digital signatures for healthcare documents'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Health informatics - Public key infrastructure - Part 4: Digital signatures
     for healthcare documents'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de la santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Infrastructure clé publique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Signatures numériques pour les documents des soins médicaux'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informatique de la santé - Infrastructure clé publique - Partie 4: Signatures
     numériques pour les documents des soins médicaux'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74357.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 17090-4:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:17090:-4:stage-90.92
+- content: urn:iso:std:iso:17090:-4:stage-95.99
   type: URN
 docnumber: '17090'
 date:
 - type: published
-  at: 2020-10
+  at: '2020-10-07'
 contributor:
 - role:
   - type: publisher
@@ -94,29 +86,32 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document supports interchangeability of digital signatures and the prevention of incorrect or illegal digital signatures by providing minimum requirements and formats for generating and verifying digital signatures and related certificates.
-    This document describes the common technical, operational, and policy requirements that need to be addressed to enable digital certificates to be used in protecting the exchange of healthcare information within a single domain, between domains, and across jurisdictional boundaries. Its purpose is to create a platform for global interoperability. It specifically supports digital certificate enabled communication across borders but could also provide guidance for the national or regional deployment of digital certificates in healthcare.
-    It defines the provable compliance with a PKI policy necessary in the domain of healthcare. This document specifies a method of adopting long-term signature formats to ensure integrity and non-repudiation in long-term electronic preservation of healthcare information.
-    This document provides Healthcare specific PKI (HPKI) profiles of digital signature based on the ETSI Standard and the profile of the ISO/ETSI Standard specified in CAdES, XAdES, and PAdES.
-- language: fr
-  script: Latn
-  content: |-
-    This document supports interchangeability of digital signatures and the prevention of incorrect or illegal digital signatures by providing minimum requirements and formats for generating and verifying digital signatures and related certificates.
-    This document describes the common technical, operational, and policy requirements that need to be addressed to enable digital certificates to be used in protecting the exchange of healthcare information within a single domain, between domains, and across jurisdictional boundaries. Its purpose is to create a platform for global interoperability. It specifically supports digital certificate enabled communication across borders but could also provide guidance for the national or regional deployment of digital certificates in healthcare.
-    It defines the provable compliance with a PKI policy necessary in the domain of healthcare. This document specifies a method of adopting long-term signature formats to ensure integrity and non-repudiation in long-term electronic preservation of healthcare information.
-    This document provides Healthcare specific PKI (HPKI) profiles of digital signature based on the ETSI Standard and the profile of the ISO/ETSI Standard specified in CAdES, XAdES, and PAdES.
+  content: This document supports interchangeability of digital signatures and the
+    prevention of incorrect or illegal digital signatures by providing minimum requirements
+    and formats for generating and verifying digital signatures and related certificates.
+    This document describes the common technical, operational, and policy requirements
+    that need to be addressed to enable digital certificates to be used in protecting
+    the exchange of healthcare information within a single domain, between domains,
+    and across jurisdictional boundaries. Its purpose is to create a platform for
+    global interoperability. It specifically supports digital certificate enabled
+    communication across borders but could also provide guidance for the national
+    or regional deployment of digital certificates in healthcare. It defines the provable
+    compliance with a PKI policy necessary in the domain of healthcare. This document
+    specifies a method of adopting long-term signature formats to ensure integrity
+    and non-repudiation in long-term electronic preservation of healthcare information.
+    This document provides Healthcare specific PKI (HPKI) profiles of digital signature
+    based on the ETSI Standard and the profile of the ISO/ETSI Standard specified
+    in CAdES, XAdES, and PAdES.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2020'
   owner:
@@ -126,24 +121,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 17090-4:2014
+    formattedref:
+      content: ISO 17090-4:2026
+    docidentifier:
+    - content: ISO 17090-4:2026
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 17090-4:2014
     docidentifier:
     - content: ISO 17090-4:2014
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/DIS 17090-4
-    docidentifier:
-    - content: ISO/DIS 17090-4
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

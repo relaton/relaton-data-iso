@@ -1,40 +1,34 @@
 ---
 id: ISO1648462024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Building automation and control systems (BACS)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 6: Data communication conformance testing'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Building automation and control systems (BACS) - Part 6: Data communication
     conformance testing'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation et de gestion technique du bâtiment (BACS)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Essais de conformité de la communication de données'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation et de gestion technique du bâtiment (BACS)
     - Partie 6: Essais de conformité de la communication de données'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/90218.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 16484-6:2024(E)
   type: iso-reference
-- content: urn:iso:std:iso:16484:-6:stage-60.60
+- content: urn:iso:std:iso:16484:-6:stage-95.99
   type: URN
 docnumber: '16484'
 date:
 - type: published
-  at: 2024-12
+  at: '2024-12-06'
 contributor:
 - role:
   - type: publisher
@@ -90,27 +84,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This standard provides a comprehensive set of procedures for verifying the correct implementation of each capability claimed on a BACnet PICS including:
-    (a) support of each claimed BACnet service, either as an initiator, executor, or both,
-    (b) support of each claimed BACnet object-type, including both required properties and each claimed optional property,
-    (c) support of the BACnet network layer protocol,
-    (d) support of each claimed data link option, and
-    (e) support of all claimed special functionality.
-- language: fr
-  script: Latn
-  content: |-
-    Cette norme est configurée sur un ensemble complet de procédures permettant de vérifier la mise en œuvre correcte de chaque capacité revendiquée sur un PICS BACnet, y compris :
-    (a)     la prise en charge de chaque service BACnet revendiqué, soit en tant que lanceur, soit en tant qu'exécuteur, soit les deux,
-    (b)     la prise en charge de chaque type d'objet BACnet revendiqué, y compris les propriétés obligatoires et chaque propriété facultative revendiquée,
-    (c)     la prise en charge du protocole de couche réseau BACnet,
-    (d)     la prise en charge de chaque option de liaison de données revendiquée, et
-    (e)     la prise en charge de toutes les fonctionnalités spéciales revendiquées.
+  content: 'This standard provides a comprehensive set of procedures for verifying
+    the correct implementation of each capability claimed on a BACnet PICS including:
+    (a) support of each claimed BACnet service, either as an initiator, executor,
+    or both, (b) support of each claimed BACnet object-type, including both required
+    properties and each claimed optional property, (c) support of the BACnet network
+    layer protocol, (d) support of each claimed data link option, and (e) support
+    of all claimed special functionality.'
 status:
   stage:
-    content: '60'
+    content: '95'
   substage:
-    content: '60'
+    content: '99'
 copyright:
 - from: '2024'
   owner:
@@ -120,16 +105,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 16484-6:2020
+    formattedref:
+      content: ISO 16484-6:2026
+    docidentifier:
+    - content: ISO 16484-6:2026
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 16484-6:2020
     docidentifier:
     - content: ISO 16484-6:2020
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

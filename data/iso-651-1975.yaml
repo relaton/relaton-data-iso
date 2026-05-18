@@ -1,31 +1,29 @@
 ---
 id: ISO6511975
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Solid-stem calorimeter thermometers
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Solid-stem calorimeter thermometers
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Thermomètres sur tige pour calorimètres
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Thermomètres sur tige pour calorimètres
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4784.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4784:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/47/4784.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '651'
 date:
 - type: published
-  at: 1975-09
+  at: '1975-09-01'
 contributor:
 - role:
   - type: publisher
@@ -82,11 +80,6 @@ abstract:
     not suited for measurement of the absolute temperature because they are not provided
     with auxiliary scales. The requirements specify material, construction, scale,
     and accuracy.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme Internationale fixe les spécifications d'une série de thermomètres sur tige, à échelle courte, destinés à être utilisés dans les bombes calorimétriques et dans tous les cas où il est nécessaire de mesurer avec précision une variation de température. Ces thermomètres ne sont pas munis d'une échelle auxiliaire à 0 °C et, pour cette raison, ne conviennent pas pour des mesurages absolus de température (qui ne sont pas nécessaires, en général, en calorimétrie), à moins qu'ils n'aient été vérifiés à l'aide d'un thermomètre étalon immédiatement avant utilisation.
 status:
   stage:
     content: '95'
@@ -98,10 +91,19 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 651
+    docidentifier:
+    - content: ISO/PWI 651
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,44 +1,40 @@
 ---
 id: ISO35591976
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Working voltages for lights fitted to motor vehicles and to their trailers
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Working voltages for lights fitted to motor vehicles and
     to their trailers
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Tensions d'alimentation des feux montés sur les automobiles et sur leurs
     remorques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Tensions d'alimentation des feux montés sur les automobiles
     et sur leurs remorques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/8963.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:8963:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/89/8963.detail.rss
 docidentifier:
@@ -52,7 +48,7 @@ docidentifier:
 docnumber: '3559'
 date:
 - type: published
-  at: 1976-02
+  at: '1976-02-01'
 contributor:
 - role:
   - type: publisher
@@ -94,14 +90,6 @@ abstract:
     terminals of the trailer connector socket. Applies to vehicles propelled by internal
     combustion engines and equipped with lead-acid batteries, as defined in ISO 3833
     (motorcycles excluded).
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme Internationale spécifie une méthode de mesurage des tensions d'alimentation aux contacts des lampes à filament des appareils d'éclairage et de signalisation lumineuse équipant les automobiles et leurs remorques, ainsi qu'aux bornes du socle éventuel de prise de courant de remorque.1) Elle fixe également les tensions requises pour assurer une alimentation convenable de ces dispositifs.
-
-
-    La présente Norme Internationale s'applique aux véhicules à moteur à combustion interne, équipés de batteries d'accumulateurs au plomb et à leurs remorques, tels que définis en 3.1 et 3.2 de l'ISO 38332) (motocycles exclus). Les valeurs figurant aux tableaux du chapitre 6 n'intéressent que les véhicules neufs.
 status:
   stage:
     content: '95'
@@ -113,10 +101,19 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 3559
+    docidentifier:
+    - content: ISO/WD 3559
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

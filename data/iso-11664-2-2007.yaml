@@ -1,41 +1,37 @@
 ---
 id: ISO1166422007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Colorimetry
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: CIE standard illuminants'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Colorimetry - Part 2: CIE standard illuminants'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Colorimétrie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Illuminants CIE normalisés'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Colorimétrie - Partie 2: Illuminants CIE normalisés'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/52496.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:52496:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/24/52496.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '11664'
 date:
 - type: published
-  at: 2007-10
+  at: '2007-10-15'
 contributor:
 - role:
   - type: publisher
@@ -69,7 +65,7 @@ contributor:
     - content: " International Commission on Illumination"
     subdivision:
     - name:
-      - content: International Commission on Illumination
+      - content: CIE
       identifier:
       - content: CIE
       type: technical-committee
@@ -86,14 +82,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 11664-2:2007 comprises ISO 10526:2007 and ISO 10526:2007/Cor.1:2008. Its technical content is identical to that of ISO 10526:2007. ISO 10526:2007/Cor.1:2008 changes the reference number of the standard from 10526 to 11664-2.
-    ISO 11664-2:2007 specifies two illuminants for use in colorimetry. The illuminants are the CIE standard illuminant A and the CIE standard illuminant D65.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 11664-2:2007 comprend l'ISO 10526:2007 et l'ISO 10526:2007/Cor.1:2008. Son contenu technique est identique à celui de l'ISO 10526:2007. L'ISO 10526:2007/Cor.1:2008 modifie le numéro de référence de la norme de 10526 à 11664-2.
-    L'ISO 11664-2:2007 définit deux illuminants pour leur emploi en colorimétrie: l'illuminant normalisé A de la CIE et l'illuminant normalisé D65 de la CIE.
+  content: ISO 11664-2:2007 comprises ISO 10526:2007 and ISO 10526:2007/Cor.1:2008.
+    Its technical content is identical to that of ISO 10526:2007. ISO 10526:2007/Cor.1:2008
+    changes the reference number of the standard from 10526 to 11664-2. ISO 11664-2:2007
+    specifies two illuminants for use in colorimetry. The illuminants are the CIE
+    standard illuminant A and the CIE standard illuminant D65.
 status:
   stage:
     content: '95'
@@ -108,35 +101,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10526:2007
+    formattedref:
+      content: ISO/CIE 11664-2:2022
     docidentifier:
-    - content: ISO 10526:2007
+    - content: ISO/CIE 11664-2:2022
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 10526:2007/Cor 1:2008
+    formattedref:
+      content: ISO 10526:2007/Cor 1:2008
     docidentifier:
     - content: ISO 10526:2007/Cor 1:2008
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/CIE 11664-2:2022
+    formattedref:
+      content: ISO 10526:2007
     docidentifier:
-    - content: ISO/CIE 11664-2:2022
+    - content: ISO 10526:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-08-31'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

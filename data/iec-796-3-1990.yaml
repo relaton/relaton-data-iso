@@ -1,52 +1,47 @@
 ---
 id: IEC79631990
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Microprocessor system BUS I, 8-bit and 16-bit data (MULTIBUS I)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Mechanical and pin descriptions for the Eurocard configuration
     with pin and socket (indirect) connectors'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Microprocessor system BUS I, 8-bit and 16-bit data (MULTIBUS I) - Part
     3: Mechanical and pin descriptions for the Eurocard configuration with pin and
     socket (indirect) connectors'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: BUS système à microprocesseurs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Données: 8 bits et 16 bits (MULTIBUS I)'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Description mécanique et brochage pour la configuration Eurocard
     ayant des connecteurs rapportés'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'BUS système à microprocesseurs - Données: 8 bits et 16 bits (MULTIBUS
     I) - Partie 3: Description mécanique et brochage pour la configuration Eurocard
     ayant des connecteurs rapportés'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5134.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5134:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/51/5134.detail.rss
 docidentifier:
@@ -60,7 +55,7 @@ docidentifier:
 docnumber: '796'
 date:
 - type: published
-  at: 1990-09
+  at: '1990-09-01'
 contributor:
 - role:
   - type: publisher
@@ -106,21 +101,26 @@ copyright:
       name:
       - content: IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: IEC 60796-3:1990
+    formattedref:
+      content: IEC/FDIS 796-3
+    docidentifier:
+    - content: IEC/FDIS 796-3
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: IEC 60796-3:1990
     docidentifier:
     - content: IEC 60796-3:1990
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-10-28'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

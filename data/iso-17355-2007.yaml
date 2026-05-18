@@ -1,39 +1,33 @@
 ---
 id: ISO173552007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Space data and information transfer systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: CCSDS file delivery protocol
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Space data and information transfer systems - CCSDS file delivery protocol
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Protocole CCSDS de livraison de fichiers
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales - Protocole
     CCSDS de livraison de fichiers
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/43829.html
@@ -52,7 +46,7 @@ docidentifier:
 docnumber: '17355'
 date:
 - type: published
-  at: 2007-05
+  at: '2007-05-07'
 contributor:
 - role:
   - type: publisher
@@ -83,28 +77,27 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 17355:2007 defines a CCSDS file delivery protocol (CFDP) and associated service for application in the space environment. It is intended for use over the current and envisaged packet delivery services used in the space environment, including
-    - CCSDS conventional packet telecommand;
-    - CCSDS conventional packet telemetry;
-    - CCSDS advanced orbiting systems (AOS) path service.
-    It may also operate over a wide variety of ground network services, including those specified by the CCSDS for cross-support purposes. The protocol operates in the space-to-ground, ground-to-space, and space-to-space directions of transfer. It may be initiated by the file sending or receiving entity. In the interests of interoperability, protocol elements are included for generalized forms of standard file manipulation operations based on assumptions of a common model for a ‘filestore', or medium used to store files. It is recognized, however, that the precise nature and capabilities of filestore management systems are operating-system dependent and, for that reason, the protocol assumes a virtual filestore and associated services that an implementation must map to the capabilities of the actual filestore used.
-    The scope and field of application are furthermore detailed in subclauses 1.2 and 1.3 of the enclosed CCSDS publication.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 17355:2007 defines a CCSDS file delivery protocol (CFDP) and associated service for application in the space environment. It is intended for use over the current and envisaged packet delivery services used in the space environment, including
-    - CCSDS conventional packet telecommand;
-    - CCSDS conventional packet telemetry;
-    - CCSDS advanced orbiting systems (AOS) path service.
-    It may also operate over a wide variety of ground network services, including those specified by the CCSDS for cross-support purposes. The protocol operates in the space-to-ground, ground-to-space, and space-to-space directions of transfer. It may be initiated by the file sending or receiving entity. In the interests of interoperability, protocol elements are included for generalized forms of standard file manipulation operations based on assumptions of a common model for a ‘filestore', or medium used to store files. It is recognized, however, that the precise nature and capabilities of filestore management systems are operating-system dependent and, for that reason, the protocol assumes a virtual filestore and associated services that an implementation must map to the capabilities of the actual filestore used.
-    The scope and field of application are furthermore detailed in subclauses 1.2 and 1.3 of the enclosed CCSDS publication.
+  content: ISO 17355:2007 defines a CCSDS file delivery protocol (CFDP) and associated
+    service for application in the space environment. It is intended for use over
+    the current and envisaged packet delivery services used in the space environment,
+    including CCSDS conventional packet telecommand; CCSDS conventional packet telemetry;
+    CCSDS advanced orbiting systems (AOS) path service. It may also operate over a
+    wide variety of ground network services, including those specified by the CCSDS
+    for cross-support purposes. The protocol operates in the space-to-ground, ground-to-space,
+    and space-to-space directions of transfer. It may be initiated by the file sending
+    or receiving entity. In the interests of interoperability, protocol elements are
+    included for generalized forms of standard file manipulation operations based
+    on assumptions of a common model for a ‘filestore', or medium used to store files.
+    It is recognized, however, that the precise nature and capabilities of filestore
+    management systems are operating-system dependent and, for that reason, the protocol
+    assumes a virtual filestore and associated services that an implementation must
+    map to the capabilities of the actual filestore used. The scope and field of application
+    are furthermore detailed in subclauses 1.2 and 1.3 of the enclosed CCSDS publication.
 status:
   stage:
     content: '90'
@@ -119,16 +112,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 17355:2004
+    formattedref:
+      content: ISO/CD 17355
+    docidentifier:
+    - content: ISO/CD 17355
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 17355
+    docidentifier:
+    - content: ISO/CD 17355
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 17355:2004
     docidentifier:
     - content: ISO 17355:2004
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

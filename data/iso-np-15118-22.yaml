@@ -1,0 +1,151 @@
+---
+id: ISONP1511822
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Road vehicles
+  type: title-intro
+- language: en
+  script: Latn
+  content: Vehicle to grid communication interface
+  type: title-main
+- language: en
+  script: Latn
+  content: 'Part 22: 2nd generation protocol security requirements conformance test
+    plan'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Road vehicles - Vehicle to grid communication interface - Part 22: 2nd
+    generation protocol security requirements conformance test plan'
+  type: main
+- language: fr
+  script: Latn
+  content: Véhicules routiers
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Interface de communication entre véhicule et réseau électrique
+  type: title-main
+- language: fr
+  script: Latn
+  content: 'Partie 22: Plan de test de conformité aux exigences de sécurité du protocole
+    de 2nde génération'
+  type: title-part
+- language: fr
+  script: Latn
+  content: 'Véhicules routiers - Interface de communication entre véhicule et réseau
+    électrique - Partie 22: Plan de test de conformité aux exigences de sécurité du
+    protocole de 2nde génération'
+  type: main
+source:
+- type: src
+  content: https://www.iso.org/standard/94211.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:94211:en
+- type: rss
+  content: https://www.iso.org/contents/data/standard/09/42/94211.detail.rss
+docidentifier:
+- content: ISO/NP 15118-22
+  type: ISO
+  primary: true
+- content: ISO/NP 15118-22(E)
+  type: iso-reference
+- content: urn:iso:std:iso:15118:-22:stage-draft
+  type: URN
+docnumber: '15118'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: www.iso.org
+    name:
+    - content: International Organization for Standardization
+    abbreviation:
+      content: ISO
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Standardization
+    subdivision:
+    - name:
+      - content: Road vehicles
+      identifier:
+      - content: ISO/TC 22
+      type: technical-committee
+      subtype: TC
+    abbreviation:
+      content: ISO
+edition:
+  content: '1'
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This document specifies all security-related test cases to be applied
+    to and correctly handled by EVs (EVCC) and EVSEs (SECC) implementing ISO 15118-20
+    with AC and DC energy transfer modes only. The document considers the use cases
+    defined in ISO 15118-1:2019. The test system will comprise: - A simulated SECC
+    to verify the correct behaviour of a real EVCC - A simulated EVCC to verify the
+    correct behaviour of a real SECC - Simulated PKIs and security backend systems
+    to verify the correct behaviour of a real EVCC and SECC The document specifies
+    test cases for some of the security requirements defined in ISO 15118-20, verifying
+    the following aspects: - TLS handshake - Certificate structure and profile - Certificate
+    validity and revocation check - Plug-n-Charge authorization - XML Signature -
+    End-to-end security The test cases cover positive tests (according to ISO 15118-20).
+    In addition, error scenarios (e.g., incorrectly formatted certificate, invalid
+    TLS handshake, etc.). The test cases will focus on black-box testing of EVCC and
+    SECC while relevant secondary actors are under test system''s control for reproduceable
+    test results. The test cases will also test EVCC and SECC''s behaviour or information
+    (e.g., certificates) provided by them even if the origin of the information is
+    from a secondary actor. The test cases will be structured according to OSI-layers
+    2, 4, and 7, depending on their testability from a (non-) functional perspective
+    (e.g., TLS, XMLSig.) The test cases will include standard test case attributes
+    like pre-conditions, test behaviours, expected results to evaluate pass or fail
+    and post-conditions to be applied returning the system under test to a safe state.
+    This document specifies all security-related test cases to be applied to and correctly
+    handled by EVs (EVCC) and EVSEs (SECC) implementing ISO 15118-20 with AC and DC
+    energy transfer modes only. The document considers the use cases defined in ISO
+    15118-1:2019. The test system will comprise: - A simulated SECC to verify the
+    correct behaviour of a real EVCC - A simulated EVCC to verify the correct behaviour
+    of a real SECC - Simulated PKIs and security backend systems to verify the correct
+    behaviour of a real EVCC and SECC The document specifies test cases for some of
+    the security requirements defined in ISO 15118-20, verifying the following aspects:
+    - TLS handshake - Certificate structure and profile - Certificate validity and
+    revocation check - Plug-n-Charge authorization - XML Signature - End-to-end security
+    The test cases cover positive tests (according to ISO 15118-20). In addition,
+    error scenarios (e.g., incorrectly formatted certificate, invalid TLS handshake,
+    etc.). The test cases will focus on black-box testing of EVCC and SECC while relevant
+    secondary actors are under test system''s control for reproduceable test results.
+    The test cases will also test EVCC and SECC''s behaviour or information (e.g.,
+    certificates) provided by them even if the origin of the information is from a
+    secondary actor. The test cases will be structured according to OSI-layers 2,
+    4, and 7, depending on their testability from a (non-) functional perspective
+    (e.g., TLS, XMLSig.) The test cases will include standard test case attributes
+    like pre-conditions, test behaviours, expected results to evaluate pass or fail
+    and post-conditions to be applied returning the system under test to a safe state.'
+status:
+  stage:
+    content: '10'
+  substage:
+    content: '60'
+place:
+- city: Geneva
+ext:
+  schema_version: v1.1.2
+  doctype:
+    content: international-standard
+  flavor: iso
+  structuredidentifier:
+    type: ISO
+    project_number:
+      content: '94211'

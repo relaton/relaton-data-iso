@@ -1,53 +1,47 @@
 ---
 id: ISOIEC907522016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Database languages
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'SQL -- Part 2: Foundation (SQL/Foundation)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Database languages - SQL -- Part 2: Foundation
     (SQL/Foundation)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de base de données
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'SQL -- Partie 2: Fondations (SQL/Fondations)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Langages de base de données - SQL --
     Partie 2: Fondations (SQL/Fondations)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63556.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63556:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/35/63556.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '9075'
 date:
 - type: published
-  at: 2016-12
+  at: '2016-12-14'
 contributor:
 - role:
   - type: publisher
@@ -101,40 +95,30 @@ edition:
   content: '5'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 9075-2:2016 deﬁnes the data structures and basic operations on SQL-data. It provides functional capabilities for creating, accessing, maintaining, controlling, and protecting SQL-data.
-    ISO/IEC 9075-2:2016 speciﬁes the syntax and semantics of a database language:
-    - For specifying and modifying the structure and the integrity constraints of SQL-data.
-    - For declaring and invoking operations on SQL-data and cursors.
-    - For declaring database language procedures.
-    - For embedding SQL-statements in a compilation unit that is otherwise written in a particular programming language (host language).
-    - For deriving an equivalent compilation unit in the host language. In that equivalent compilation unit, each which invoke an SQL externally-invoked procedure that, when executed, has an effect equivalent to exe-cuting the SQL-statement.
-    - For direct invocation of SQL-statements.
-    - To support dynamic preparation and execution of SQL-statements.
-    ISO/IEC 9075-2:2016 provides a vehicle for portability of data deﬁnitions and compilation units between SQL-implementations.
-    ISO/IEC 9075-2:2016 provides a vehicle for interconnection of SQL-implementations.
-    Implementations of this ISO/IEC 9075-2:2016 can exist in environments that also support application program-ming languages, end-user query languages, report generator systems, data dictionary systems, program library systems, and distributed communication systems, as well as various tools for database design, data administration, and performance optimization.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 9075-2:2016 deﬁnes the data structures and basic operations on SQL-data. It provides functional capabilities for creating, accessing, maintaining, controlling, and protecting SQL-data.
-    ISO/IEC 9075-2:2016 speciﬁes the syntax and semantics of a database language:
-    - For specifying and modifying the structure and the integrity constraints of SQL-data.
-    - For declaring and invoking operations on SQL-data and cursors.
-    - For declaring database language procedures.
-    - For embedding SQL-statements in a compilation unit that is otherwise written in a particular programming language (host language).
-    - For deriving an equivalent compilation unit in the host language. In that equivalent compilation unit, each which invoke an SQL externally-invoked procedure that, when executed, has an effect equivalent to exe-cuting the SQL-statement.
-    - For direct invocation of SQL-statements.
-    - To support dynamic preparation and execution of SQL-statements.
-    ISO/IEC 9075-2:2016 provides a vehicle for portability of data deﬁnitions and compilation units between SQL-implementations.
-    ISO/IEC 9075-2:2016 provides a vehicle for interconnection of SQL-implementations.
-    Implementations of this ISO/IEC 9075-2:2016 can exist in environments that also support application program-ming languages, end-user query languages, report generator systems, data dictionary systems, program library systems, and distributed communication systems, as well as various tools for database design, data administration, and performance optimization.
+  content: 'ISO/IEC 9075-2:2016 deﬁnes the data structures and basic operations on
+    SQL-data. It provides functional capabilities for creating, accessing, maintaining,
+    controlling, and protecting SQL-data. ISO/IEC 9075-2:2016 speciﬁes the syntax
+    and semantics of a database language: - For specifying and modifying the structure
+    and the integrity constraints of SQL-data. - For declaring and invoking operations
+    on SQL-data and cursors. - For declaring database language procedures. - For embedding
+    SQL-statements in a compilation unit that is otherwise written in a particular
+    programming language (host language). - For deriving an equivalent compilation
+    unit in the host language. In that equivalent compilation unit, each which invoke
+    an SQL externally-invoked procedure that, when executed, has an effect equivalent
+    to exe-cuting the SQL-statement. - For direct invocation of SQL-statements. -
+    To support dynamic preparation and execution of SQL-statements. ISO/IEC 9075-2:2016
+    provides a vehicle for portability of data deﬁnitions and compilation units between
+    SQL-implementations. ISO/IEC 9075-2:2016 provides a vehicle for interconnection
+    of SQL-implementations. Implementations of this ISO/IEC 9075-2:2016 can exist
+    in environments that also support application program-ming languages, end-user
+    query languages, report generator systems, data dictionary systems, program library
+    systems, and distributed communication systems, as well as various tools for database
+    design, data administration, and performance optimization.'
 status:
   stage:
     content: '95'
@@ -149,65 +133,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9075-2:2011
+    formattedref:
+      content: ISO/IEC 9075-2:2023
     docidentifier:
-    - content: ISO/IEC 9075-2:2011
+    - content: ISO/IEC 9075-2:2023
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9075-2:2011/Cor 1:2013
-    docidentifier:
-    - content: ISO/IEC 9075-2:2011/Cor 1:2013
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9075-2:2011/Cor 2:2015
+    formattedref:
+      content: ISO/IEC 9075-2:2011/Cor 2:2015
     docidentifier:
     - content: ISO/IEC 9075-2:2011/Cor 2:2015
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9075-2:2023
+    formattedref:
+      content: ISO/IEC 9075-2:2011
     docidentifier:
-    - content: ISO/IEC 9075-2:2023
+    - content: ISO/IEC 9075-2:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-06-01'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9075-2:2016/Cor 1:2019
+    formattedref:
+      content: ISO/IEC 9075-2:2011/Cor 1:2013
     docidentifier:
-    - content: ISO/IEC 9075-2:2016/Cor 1:2019
+    - content: ISO/IEC 9075-2:2011/Cor 1:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-06-01'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9075-2:2016/Cor 2:2022
-    docidentifier:
-    - content: ISO/IEC 9075-2:2016/Cor 2:2022
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2023-06-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

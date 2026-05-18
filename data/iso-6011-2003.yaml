@@ -1,41 +1,37 @@
 ---
 id: ISO60112003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Earth-moving machinery
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Visual display of machine operation
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Earth-moving machinery - Visual display of machine operation
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Engins de terrassement
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Affichage visuel des fonctions de l'engin
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Engins de terrassement - Affichage visuel des fonctions de l'engin
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/30309.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:30309:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/03/30309.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '6011'
 date:
 - type: published
-  at: 2003-11
+  at: '2003-11-17'
 contributor:
 - role:
   - type: publisher
@@ -90,12 +86,6 @@ abstract:
   content: ISO 6011:2003 specifies the machine operation functional information to
     be presented by the visual displays of earth-moving machinery for a seated operator.
     It is applicable to earth-moving machinery as defined in ISO 6165.
-- language: fr
-  script: Latn
-  content: L'ISO 6011:2003 spécifie les informations relatives aux fonctions de l'engin
-    à présenter au moyen des affichages visuels au conducteur assis d'un engin de
-    terrassement. Elle est applicable aux engins de terrassement tels que définis
-    dans l'ISO 6165.
 status:
   stage:
     content: '95'
@@ -110,27 +100,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6011:1987
+    formattedref:
+      content: ISO/WD 6011
     docidentifier:
-    - content: ISO 6011:1987
+    - content: ISO/WD 6011
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6011:2023
+    formattedref:
+      content: ISO 6011:2023
     docidentifier:
     - content: ISO 6011:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-11-13'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 6011:1987
+    docidentifier:
+    - content: ISO 6011:1987
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

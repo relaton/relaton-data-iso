@@ -1,42 +1,36 @@
 ---
 id: ISO91422003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Adhesives
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Guide to the selection of standard laboratory ageing conditions for testing
     bonded joints
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Adhesives - Guide to the selection of standard laboratory ageing conditions
     for testing bonded joints
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Adhésifs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Guide pour la sélection de conditions normales d'essai de vieillissement
     en laboratoire des assemblages collés
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Adhésifs - Guide pour la sélection de conditions normales d'essai de vieillissement
     en laboratoire des assemblages collés
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/36282.html
@@ -55,7 +49,7 @@ docidentifier:
 docnumber: '9142'
 date:
 - type: published
-  at: 2003-12
+  at: '2003-12-04'
 contributor:
 - role:
   - type: publisher
@@ -92,16 +86,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 9142:2003 describes laboratory ageing conditions under which adhesive joints may be exposed to various environmental influences -- climatic or chemical -- for the purpose of assessing the effects of such influences on certain properties.
-    The ageing conditions are applicable to bonded assemblies and may be used to constitute a set of tests for the evaluation of an adhesive.
-    The results obtained using the procedures described in this International Standard are not necessarily applicable to the determination of the service life of a bonded assembly because there is no direct relation between the test results and the behaviour of a bonded assembly over a period of time under service conditions. However, for certain specific applications, experience with the procedures may enable a correlation to be established.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 9142:2003 décrit les conditions d'exposition des assemblages collés à différentes contraintes d'environnement. Celles-ci peuvent être climatiques ou chimiques. Elle permet d'en déterminer l'influence sur certaines caractéristiques données.
-    Les conditions de vieillissement sont applicables aux assemblages collés et peuvent servir à constituer un ensemble d'essais d'évaluation d'un adhésif.
-    Les résultats d'essai obtenus à partir des méthodes décrites dans la présente Norme internationale ne sont pas nécessairement applicables à l'évaluation du comportement d'un assemblage dans le temps, car il n'est pas possible d'établir une relation directe entre les résultats d'essai et le comportement dans le temps et dans les conditions de service d'un assemblage collé. Cependant, pour certaines applications, l'expérience peut permettre d'établir une certaine corrélation.
+  content: ISO 9142:2003 describes laboratory ageing conditions under which adhesive
+    joints may be exposed to various environmental influences -- climatic or chemical
+    -- for the purpose of assessing the effects of such influences on certain properties.
+    The ageing conditions are applicable to bonded assemblies and may be used to constitute
+    a set of tests for the evaluation of an adhesive. The results obtained using the
+    procedures described in this International Standard are not necessarily applicable
+    to the determination of the service life of a bonded assembly because there is
+    no direct relation between the test results and the behaviour of a bonded assembly
+    over a period of time under service conditions. However, for certain specific
+    applications, experience with the procedures may enable a correlation to be established.
 status:
   stage:
     content: '90'
@@ -116,24 +110,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9142:1990
+    formattedref:
+      content: ISO/DIS 9142
+    docidentifier:
+    - content: ISO/DIS 9142
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 9142:1990
     docidentifier:
     - content: ISO 9142:1990
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 9142:1990/Cor 1:1995
+    formattedref:
+      content: ISO 9142:1990/Cor 1:1995
     docidentifier:
     - content: ISO 9142:1990/Cor 1:1995
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

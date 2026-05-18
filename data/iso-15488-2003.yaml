@@ -1,40 +1,34 @@
 ---
 id: ISO154882003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Collets with 8 degree setting angle for tool shanks
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Collets, nuts and fitting dimensions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Collets with 8 degree setting angle for tool shanks - Collets, nuts and
     fitting dimensions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pinces de serrage avec angle de réglage de 8 degrés pour queues d'outil
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Pinces, écrous de serrage et dimensions d'assemblage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pinces de serrage avec angle de réglage de 8 degrés pour queues d'outil
     - Pinces, écrous de serrage et dimensions d'assemblage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/36756.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 15488:2003(E)
   type: iso-reference
-- content: urn:iso:std:iso:15488:stage-90.93
+- content: urn:iso:std:iso:15488:stage-90.60
   type: URN
 docnumber: '15488'
 date:
 - type: published
-  at: 2003-11
+  at: '2003-11-10'
 contributor:
 - role:
   - type: publisher
@@ -91,25 +85,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 15488:2003 specifies the dimensions, materials and manufacturing requirements, and designation of collets (of form A or of form B) for tools with cylindrical shanks and their corresponding holders and nuts. For non-standardized clamping devices, such as clamping devices specified in drawings, these holders can be agreed upon between customer and supplier.
-    Form A applies to milling and any other application where a hard collet bore is required, provided that the clamping range of h10 be sufficient. Form B applies for general purposes where an extended clamping range is required.
-- language: fr
-  script: Latn
-  content: L'ISO 15488:2003 spécifie les dimensions, les matériaux et les exigences
-    de fabrication ainsi que la désignation des pinces (de forme A ou de forme B)
-    pour outils à queue cylindrique lisse, les mandrins à pince correspondants et
-    les écrous de serrage de ces mandrins. Les dispositifs de serrage non normalisés,
-    tels que par exemple ceux représentés sur les dessins, peuvent faire l'objet d'un
-    accord client-fournisseur. La forme A s'applique au fraisage et aux autres applications
-    qui nécessitent un alésage trempé, et pour lesquelles une capacité de serrage
-    h10 est suffisante. La forme B s'applique aux applications générales qui nécessitent
-    une capacité de serrage plus large.
+  content: ISO 15488:2003 specifies the dimensions, materials and manufacturing requirements,
+    and designation of collets (of form A or of form B) for tools with cylindrical
+    shanks and their corresponding holders and nuts. For non-standardized clamping
+    devices, such as clamping devices specified in drawings, these holders can be
+    agreed upon between customer and supplier. Form A applies to milling and any other
+    application where a hard collet bore is required, provided that the clamping range
+    of h10 be sufficient. Form B applies for general purposes where an extended clamping
+    range is required.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '2003'
   owner:
@@ -119,16 +107,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 15488:1996
+    formattedref:
+      content: ISO/DIS 15488
+    docidentifier:
+    - content: ISO/DIS 15488
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 15488:1996
     docidentifier:
     - content: ISO 15488:1996
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

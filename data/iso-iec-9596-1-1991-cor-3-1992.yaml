@@ -1,56 +1,50 @@
 ---
 id: ISOIEC959611991Cor31992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Systems Interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Common management information protocol -- Part 1: Specification -- Technical
     Corrigendum 3'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open Systems Interconnection - Common management
     information protocol -- Part 1: Specification -- Technical Corrigendum 3'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interconnexion de systèmes ouverts
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Protocole commun d''information de gestion -- Partie 1: Spécification
     -- Rectificatif technique 3'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interconnexion de systèmes ouverts -
     Protocole commun d''information de gestion -- Partie 1: Spécification -- Rectificatif
     technique 3'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/21310.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:21310:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/13/21310.detail.rss
 docidentifier:
@@ -59,14 +53,10 @@ docidentifier:
   primary: true
 - content: ISO/IEC 9596-1:1991/Cor 3:1992(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:9596:-1:ed-2:stage-95.99:cor:1992:v3
-  type: URN
 docnumber: '9596'
 date:
 - type: published
-  at: '1991'
-- type: updated
-  at: 1992-09
+  at: '1992-09-09'
 contributor:
 - role:
   - type: publisher
@@ -106,7 +96,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -121,28 +110,40 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9596-1:1998
+    formattedref:
+      content: ISO/IEC 9596:1990
+    docidentifier:
+    - content: ISO/IEC 9596:1990
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 9596-1:1991/Cor 1:1992
+    docidentifier:
+    - content: ISO/IEC 9596-1:1991/Cor 1:1992
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 9596-1:1998
     docidentifier:
     - content: ISO/IEC 9596-1:1998
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1998-10-08'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: technical-corrigendum
   flavor: iso
   ics:
   - code: 35.100.70
     text: Application layer
   structuredidentifier:
-    type: ISO
     project_number:
       content: '21310'

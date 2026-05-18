@@ -1,38 +1,32 @@
 ---
 id: ISOTS156962012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cranes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: List of equivalent terms
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cranes - List of equivalent terms
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils de levage à charge suspendue
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Liste de termes équivalents
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils de levage à charge suspendue - Liste de termes équivalents
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/50813.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 15696:2012(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:15696:stage-90.93
+- content: urn:iso:std:iso:ts:15696:stage-90.92
   type: URN
 docnumber: '15696'
 date:
 - type: published
-  at: 2012-11
+  at: '2012-11-05'
 contributor:
 - role:
   - type: publisher
@@ -83,8 +77,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -92,16 +88,11 @@ abstract:
     and Russian, drawn from the most commonly used terms in the field of cranes and
     defined or listed in related International Standards. These terms concern the
     main types of crane, crane parameters, general concepts and component parts.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO/TS 15696:2012 établit une liste de termes équivalents en anglais, français et russe le plus communément utilisés dans le domaine des appareils de levage à charge suspendue et définis ou listés dans les Normes internationales élaborées par l'ISO/TC 96.
-    Ces termes concernent les principaux types d'appareils de levage à charge suspendue, ainsi que leurs paramètres, concepts généraux et composants.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2012'
   owner:
@@ -111,24 +102,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 15696:2000
+    formattedref:
+      content: ISO/AWI TS 15696
+    docidentifier:
+    - content: ISO/AWI TS 15696
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TS 15696:2000
     docidentifier:
     - content: ISO/TS 15696:2000
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 01.040.53
-    text: Materials handling equipment (Vocabularies)
   - code: 53.020.20
     text: Cranes
+  - code: 01.040.53
+    text: Materials handling equipment (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

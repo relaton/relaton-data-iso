@@ -1,31 +1,29 @@
 ---
 id: ISOIEC132512004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Collection of graphical symbols for office equipment
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Collection of graphical symbols for office equipment
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Collection de symboles graphiques pour matériel de bureau
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Collection de symboles graphiques pour matériel de bureau
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/21486.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:21486:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/14/21486.detail.rss
 docidentifier:
@@ -39,9 +37,7 @@ docidentifier:
 docnumber: '13251'
 date:
 - type: published
-  at: 2004-05
-- type: corrected
-  at: 2005-06
+  at: '2004-05-27'
 contributor:
 - role:
   - type: publisher
@@ -87,24 +83,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 13251:2004 is a bilingual standard (English/French). It provides a certain number of graphical symbols that are typically used on office equipment such as computers, printers, telephones and copying machines.
-    It comprises four sections:
-    Each graphical symbol in Section 3 of the Standard is specified with:
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO/CEI 13251:2004 est une norme bilingue (anglais/français). Elle fournit un certain nombre de symboles graphiques généralement utilisés sur le matériel de bureau tel que les ordinateurs, les imprimantes, les téléphones et les photocopieurs.
-    Elle comprend quatre sections:
-    1. la Section 1 donnant des informations générales, des dispositions et exigences en matière d'utilisation des symboles graphiques et de leur application;
-    2. la Section 2 contenant un index alphabétique, un index numérique et une vue d'ensemble des symboles graphiques décrits dans la Section 4 de la norme;
-    3. la Section 3 présentant, par ordre numérique, les symboles graphiques choisis et l'application associée;
-    4. la Section 4 contenant, par ordre numérique, les dessins originaux de chaque symbole graphique décrit, aux fins de reproduction, accompagnés de leur position et taille respective.
-    Chaque symbole graphique de la Section 3 de la norme est spécifié avec:
-    1. le symbole lui-même;
-    2. un nombre qui est le numéro attribué au symbole et qui provient de la Norme internationale de laquelle provient le symbole (ISO 7000 ou CEI 60417);
-    3. sa définition;
-    4. une note à titre de précision technique si jugé nécessaire.
+  content: 'ISO/IEC 13251:2004 is a bilingual standard (English/French). It provides
+    a certain number of graphical symbols that are typically used on office equipment
+    such as computers, printers, telephones and copying machines. It comprises four
+    sections: Section 1 giving general information, provisions and requirements about
+    the use and application of graphical symbols;Section 2 providing an alphabetical
+    index, a numerical index and a graphical overview of all the graphical symbols
+    described in Section 4 of the Standard;Section 3 presenting the graphical symbols
+    selected with the corresponding application, in numerical order;Section 4 containing
+    the symbol originals for reproduction purposes, in numerical order, with the position
+    and size of each graphical symbol described. Each graphical symbol in Section
+    3 of the Standard is specified with: the symbol itself;a number that is the application
+    symbol number from the International Standard (ISO 7000 or IEC 60417) from which
+    it is derived;its definition;a note for technical clarification when necessary.'
 status:
   stage:
     content: '95'
@@ -119,43 +110,48 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4062:1977
-    docidentifier:
-    - content: ISO 4062:1977
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 6329:1989
-    docidentifier:
-    - content: ISO/IEC 6329:1989
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 13251:2019
+    formattedref:
+      content: ISO/IEC 13251:2019
     docidentifier:
     - content: ISO/IEC 13251:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-05-16'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC DIS 13251
+    docidentifier:
+    - content: ISO/IEC DIS 13251
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4062:1977
+    docidentifier:
+    - content: ISO 4062:1977
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 6329:1989
+    docidentifier:
+    - content: ISO/IEC 6329:1989
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '35.020'
-    text: Information technology (IT) in general
   - code: 01.080.20
     text: Graphical symbols for use on specific equipment
+  - code: '35.020'
+    text: Information technology (IT) in general
   structuredidentifier:
     type: ISO
     project_number:

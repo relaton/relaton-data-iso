@@ -1,38 +1,32 @@
 ---
 id: ISO110742025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Soil quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Soil quality - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité du sol
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité du sol - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/83168.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 11074:2025(E)
   type: iso-reference
-- content: urn:iso:std:iso:11074:stage-60.60
+- content: urn:iso:std:iso:11074:stage-90.92
   type: URN
 docnumber: '11074'
 date:
 - type: published
-  at: 2025-03
+  at: '2025-03-05'
 contributor:
 - role:
   - type: publisher
@@ -89,15 +83,11 @@ abstract:
 - language: en
   script: Latn
   content: This document defines terms used in the field of soil quality.
-- language: fr
-  script: Latn
-  content: Le présent document définit les termes utilisés dans le domaine de la qualité
-    du sol.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2025'
   owner:
@@ -107,24 +97,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11074:2015
+    formattedref:
+      content: ISO/DIS 11074
+    docidentifier:
+    - content: ISO/DIS 11074
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11074:2015
     docidentifier:
     - content: ISO 11074:2015
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 11074:2015/Amd 1:2020
+    formattedref:
+      content: ISO 11074:2015/Amd 1:2020
     docidentifier:
     - content: ISO 11074:2015/Amd 1:2020
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

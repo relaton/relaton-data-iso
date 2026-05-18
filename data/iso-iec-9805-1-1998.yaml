@@ -1,54 +1,46 @@
 ---
 id: ISOIEC980511998
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Systems Interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Protocol for the Commitment, Concurrency and Recovery service element:
     Protocol specification -- Part 1:'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open Systems Interconnection - Protocol for the
     Commitment, Concurrency and Recovery service element: Protocol specification --
     Part 1:'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Protocole pour l''élément de service d''engagement, de concomitance et
     de rétablissement: Spécification du protocole -- Partie 1:'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
     - Protocole pour l''élément de service d''engagement, de concomitance et de rétablissement:
     Spécification du protocole -- Partie 1:'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/27617.html
@@ -67,7 +59,7 @@ docidentifier:
 docnumber: '9805'
 date:
 - type: published
-  at: 1998-12
+  at: '1998-12-10'
 contributor:
 - role:
   - type: publisher
@@ -113,52 +105,27 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This Recommendation | International Standard is to be applied by reference from other specifications. This is done
-    within such specifications by reference to the CCR services defined in ITU-T Rec. X.851 | ISO/IEC 9804. A reference to
-    a CCR service invokes the procedures of this Recommendation | International Standard to cause external effects.
-    This Recommendation | International Standard specifies, in clause 9, a use of the ACSE, Presentation and Session
-    services to carry the CCR semantics. This "reference" mapping can be used whenever the use of these services does not
-    conflict with the user made by other ASEs or ASOs that are using the same association. Annex B defines how a different
-    use of supporting services may be specified, for use where the reference mapping is inappropriate.
-    This Recommendation | International Standard specifies the static and dynamic conformance requirements for systems
-    implementing these procedures. It does not contain tests which can be used to demonstrate conformance.
-    This edition of this Recommendation | International Standard specifies CCR protocol Version 2, which makes use of the
-    Session Data Separation functional unit to protect data not belonging to the CCR atomic action. The 1990 edition of
-    ISO/IEC 9805 specified CCR protocol Version 1. The 1993/1994 edition of this Recommendation | International
-    Standard specified both CCR protocol Version 1 and CCR protocol Version 2, for the static commitment functional unit
-    only.
-    This International Standard specifies the protocol elements that support the following functional units:
-    a) static commitment;
-    b) dynamic commitment;
-    c) read only;
-    d) one-phase commitment;
-    e) cancel; and
-    f) overlapped recovery.
-- language: fr
-  script: Latn
-  content: |-
-    This Recommendation | International Standard is to be applied by reference from other specifications. This is done
-    within such specifications by reference to the CCR services defined in ITU-T Rec. X.851 | ISO/IEC 9804. A reference to
-    a CCR service invokes the procedures of this Recommendation | International Standard to cause external effects.
-    This Recommendation | International Standard specifies, in clause 9, a use of the ACSE, Presentation and Session
-    services to carry the CCR semantics. This "reference" mapping can be used whenever the use of these services does not
-    conflict with the user made by other ASEs or ASOs that are using the same association. Annex B defines how a different
-    use of supporting services may be specified, for use where the reference mapping is inappropriate.
-    This Recommendation | International Standard specifies the static and dynamic conformance requirements for systems
-    implementing these procedures. It does not contain tests which can be used to demonstrate conformance.
-    This edition of this Recommendation | International Standard specifies CCR protocol Version 2, which makes use of the
-    Session Data Separation functional unit to protect data not belonging to the CCR atomic action. The 1990 edition of
-    ISO/IEC 9805 specified CCR protocol Version 1. The 1993/1994 edition of this Recommendation | International
-    Standard specified both CCR protocol Version 1 and CCR protocol Version 2, for the static commitment functional unit
-    only.
-    This International Standard specifies the protocol elements that support the following functional units:
-    a) static commitment;
-    b) dynamic commitment;
-    c) read only;
-    d) one-phase commitment;
-    e) cancel; and
-    f) overlapped recovery.
+  content: 'This Recommendation | International Standard is to be applied by reference
+    from other specifications. This is done within such specifications by reference
+    to the CCR services defined in ITU-T Rec. X.851 | ISO/IEC 9804. A reference to
+    a CCR service invokes the procedures of this Recommendation | International Standard
+    to cause external effects. This Recommendation | International Standard specifies,
+    in clause 9, a use of the ACSE, Presentation and Session services to carry the
+    CCR semantics. This "reference" mapping can be used whenever the use of these
+    services does not conflict with the user made by other ASEs or ASOs that are using
+    the same association. Annex B defines how a different use of supporting services
+    may be specified, for use where the reference mapping is inappropriate. This Recommendation
+    | International Standard specifies the static and dynamic conformance requirements
+    for systems implementing these procedures. It does not contain tests which can
+    be used to demonstrate conformance. This edition of this Recommendation | International
+    Standard specifies CCR protocol Version 2, which makes use of the Session Data
+    Separation functional unit to protect data not belonging to the CCR atomic action.
+    The 1990 edition of ISO/IEC 9805 specified CCR protocol Version 1. The 1993/1994
+    edition of this Recommendation | International Standard specified both CCR protocol
+    Version 1 and CCR protocol Version 2, for the static commitment functional unit
+    only. This International Standard specifies the protocol elements that support
+    the following functional units: a) static commitment; b) dynamic commitment; c)
+    read only; d) one-phase commitment; e) cancel; and f) overlapped recovery.'
 status:
   stage:
     content: '90'
@@ -171,18 +138,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9805-1:1994
+    formattedref:
+      content: ISO/IEC 9805-1:1994
     docidentifier:
     - content: ISO/IEC 9805-1:1994
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

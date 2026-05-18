@@ -1,50 +1,42 @@
 ---
 id: ISOIEC2300112006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: MPEG systems technologies
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Binary MPEG format for XML'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - MPEG systems technologies - Part 1: Binary MPEG
     format for XML'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies des systèmes MPEG
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Format binaire de MPEG pour XML'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
     1: Format binaire de MPEG pour XML'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/35417.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '23001'
 date:
 - type: published
-  at: 2006-04
+  at: '2006-03-24'
 contributor:
 - role:
   - type: publisher
@@ -103,64 +95,35 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 23001-1:2006 provides a standardized set of generic technologies
+  content: 'ISO/IEC 23001-1:2006 provides a standardized set of generic technologies
     for encoding XML documents. It addresses a broad spectrum of applications and
     requirements by providing generic methods for transmitting and compressing XML
-    documents. \nISO/IEC 23001-1:2006 provides a specification which gives rules for
+    documents. ISO/IEC 23001-1:2006 provides a specification which gives rules for
     the preparation of XML documents for efficient transport and storage, and enables
     the development of ISO/IEC 23001-1 terminals to receive, decode and assemble possibly
-    partitioned and compressed XML documents. \nThe binary MPEG format for XML relies
+    partitioned and compressed XML documents. The binary MPEG format for XML relies
     on schema knowledge between encoder and decoder in order to reach high compression
     efficiency, while providing fragmentation mechanisms for ensuring transmission
     and processing flexibility. ISO/IEC 23001-1:2006 also defines means to compile
     and transmit schema knowledge information to enable the decoding of compressed
-    XML documents without a priori schema knowledge at the receiving terminal. \nThe
-    binary MPEG format for XML is described in four main sections:\n- System Architecture
+    XML documents without a priori schema knowledge at the receiving terminal. The
+    binary MPEG format for XML is described in four main sections: System Architecture
     presents the architecture of an ISO/IEC 23001-1-compliant terminal and general
-    characteristics of an ISO/IEC 23001-1 decoder, such as decoder behaviour. \n-
-    Binary Format specifies binary syntax and associated semantics of the structural
-    elements. In particular, this section describes the structure of a binary access
-    unit.\n- Binary Fragment Update Payload specifies binary syntax and associated
-    semantics of the payload content. In particular, this section describes the decoding
-    process of complex Type content using finite state automaton decoders. \n- Advanced
-    Optimized Decoders describes the mechanisms for decoding simple types of an XML
-    document using advanced optimised decoders. \nThe binary format for XML described
-    in this specification can be used for encoding MPEG-7 and MPEG-21 descriptions,
-    as specified in ISO/IEC 15938-1 (MPEG-7 Systems) and 21000-16 (MPEG-21 Binary
-    Format), respectively. "
-- language: fr
-  script: Latn
-  content: "ISO/IEC 23001-1:2006 provides a standardized set of generic technologies
-    for encoding XML documents. It addresses a broad spectrum of applications and
-    requirements by providing generic methods for transmitting and compressing XML
-    documents. \nISO/IEC 23001-1:2006 provides a specification which gives rules for
-    the preparation of XML documents for efficient transport and storage, and enables
-    the development of ISO/IEC 23001-1 terminals to receive, decode and assemble possibly
-    partitioned and compressed XML documents. \nThe binary MPEG format for XML relies
-    on schema knowledge between encoder and decoder in order to reach high compression
-    efficiency, while providing fragmentation mechanisms for ensuring transmission
-    and processing flexibility. ISO/IEC 23001-1:2006 also defines means to compile
-    and transmit schema knowledge information to enable the decoding of compressed
-    XML documents without a priori schema knowledge at the receiving terminal. \nThe
-    binary MPEG format for XML is described in four main sections:\n- System Architecture
-    presents the architecture of an ISO/IEC 23001-1-compliant terminal and general
-    characteristics of an ISO/IEC 23001-1 decoder, such as decoder behaviour. \n-
-    Binary Format specifies binary syntax and associated semantics of the structural
-    elements. In particular, this section describes the structure of a binary access
-    unit.\n- Binary Fragment Update Payload specifies binary syntax and associated
-    semantics of the payload content. In particular, this section describes the decoding
-    process of complex Type content using finite state automaton decoders. \n- Advanced
-    Optimized Decoders describes the mechanisms for decoding simple types of an XML
-    document using advanced optimised decoders. \nThe binary format for XML described
-    in this specification can be used for encoding MPEG-7 and MPEG-21 descriptions,
-    as specified in ISO/IEC 15938-1 (MPEG-7 Systems) and 21000-16 (MPEG-21 Binary
-    Format), respectively. "
+    characteristics of an ISO/IEC 23001-1 decoder, such as decoder behaviour. Binary
+    Format specifies binary syntax and associated semantics of the structural elements.
+    In particular, this section describes the structure of a binary access unit.Binary
+    Fragment Update Payload specifies binary syntax and associated semantics of the
+    payload content. In particular, this section describes the decoding process of
+    complex Type content using finite state automaton decoders. Advanced Optimized
+    Decoders describes the mechanisms for decoding simple types of an XML document
+    using advanced optimised decoders. The binary format for XML described in this
+    specification can be used for encoding MPEG-7 and MPEG-21 descriptions, as specified
+    in ISO/IEC 15938-1 (MPEG-7 Systems) and 21000-16 (MPEG-21 Binary Format), respectively.'
 status:
   stage:
     content: '90'
@@ -172,55 +135,10 @@ copyright:
   - organization:
       name:
       - content: ISO/IEC
-relation:
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23001-1:2006/Cor 1:2007
-    docidentifier:
-    - content: ISO/IEC 23001-1:2006/Cor 1:2007
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-06-14'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23001-1:2006/Cor 2:2007
-    docidentifier:
-    - content: ISO/IEC 23001-1:2006/Cor 2:2007
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-06-14'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23001-1:2006/Amd 1:2007
-    docidentifier:
-    - content: ISO/IEC 23001-1:2006/Amd 1:2007
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-06-14'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23001-1:2006/Amd 2:2008
-    docidentifier:
-    - content: ISO/IEC 23001-1:2006/Amd 2:2008
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-06-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

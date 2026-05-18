@@ -1,60 +1,54 @@
 ---
 id: ISO1481932013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Traffic and travel information messages via traffic message coding
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Part 3: Location referencing for Radio Data System — Traffic Message Channel
-    (RDS-TMC) using ALERT-C'
+  content: 'Part 3: Location referencing for Radio Data System -- Traffic Message
+    Channel (RDS-TMC) using ALERT-C'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Traffic and travel information messages
     via traffic message coding - Part 3: Location referencing for Radio Data System
-    — Traffic Message Channel (RDS-TMC) using ALERT-C'
+    -- Traffic Message Channel (RDS-TMC) using ALERT-C'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations sur le trafic et le tourisme via le codage de messages sur
     le trafic
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Références de localisants pour le système de radiodiffusion
-    de données (RDS) — Canal de messages d''informations sur le trafic (RDS-TMC) avec
-    ALERT-C'
+    de données (RDS) -- Canal de messages d''informations sur le trafic (RDS-TMC)
+    avec ALERT-C'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes intelligents de transport - Informations sur le trafic et le
     tourisme via le codage de messages sur le trafic - Partie 3: Références de localisants
-    pour le système de radiodiffusion de données (RDS) — Canal de messages d''informations
+    pour le système de radiodiffusion de données (RDS) -- Canal de messages d''informations
     sur le trafic (RDS-TMC) avec ALERT-C'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/59232.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:59232:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/92/59232.detail.rss
 docidentifier:
@@ -68,7 +62,7 @@ docidentifier:
 docnumber: '14819'
 date:
 - type: published
-  at: 2013-12
+  at: '2013-11-21'
 contributor:
 - role:
   - type: publisher
@@ -100,8 +94,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -111,11 +107,6 @@ abstract:
     messages which are already being implemented. However, the modular approach used
     is intended to facilitate future extension of the location referencing rules to
     other traffic and travel messaging systems.
-- language: fr
-  script: Latn
-  content: |-
-    La présente partie de la norme ISO 14819 définit les moyens de spécifier les endroits et les positions dans les messages d'information sur le trafic et le voyage, y compris les messages RDS-TMC (le système de données radio - Canal de messages sur le trafic). Il répond principalement aux besoins des messages RDS-TMC ALERT-C qui sont déjà implémentés. Toutefois, l'approche modulaire utilisée ici vise à faciliter l'extension future des règles de localisation à d'autres systèmes de messagerie d'information sur le trafic et le voyage.
-    Les règles de localisation définies dans la présente partie de la norme couvrent les exigences spécifiques des systèmes TMC (Traffic Message Channel - Canal de messages routiers), qui utilisent des formats de codage abrégés pour fournir des messages TTI. Ces règles traitent notamment du RDS-TMC qui est un moyen de fournir des informations sur le trafic et le tourisme codées numériquement à des usagers utilisant un canal de données silencieux (RDS) diffusé par des stations de radiodiffusion en FM, sur la base du protocole ALERT-C.
 status:
   stage:
     content: '95'
@@ -130,35 +121,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14819-3:2004
-    docidentifier:
-    - content: ISO 14819-3:2004
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 14819-3:2021
+    formattedref:
+      content: ISO 14819-3:2021
     docidentifier:
     - content: ISO 14819-3:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-02-08'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 14819-3:2004
+    docidentifier:
+    - content: ISO 14819-3:2004
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

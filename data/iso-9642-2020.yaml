@@ -1,52 +1,44 @@
 ---
 id: ISO96422020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cinematography
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Time and control code for 24, 25 and 30 frames per second motion-picture
     film systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Specifications
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Cinematography - Time and control code for 24, 25 and 30 frames per second
     motion-picture film systems - Specifications
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cinématographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Code de chronométrage et de commande pour les systèmes de films cinématographiques
     à 24, 25 et 30 images par seconde
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Cinématographie - Code de chronométrage et de commande pour les systèmes
     de films cinématographiques à 24, 25 et 30 images par seconde - Spécifications
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74444.html
@@ -65,7 +57,7 @@ docidentifier:
 docnumber: '9642'
 date:
 - type: published
-  at: 2020-01
+  at: '2020-02-06'
 contributor:
 - role:
   - type: publisher
@@ -96,22 +88,23 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies digital code for mats and modulation methods for motion-picture film to be used for timing, control, editing and synchronization purposes. This document also specifies the relationship of the codes to the motion picture frame.
-    Two types of code are described in this document. The first type, Type C, is a continuous code which is very similar to the continuous code specified in IEC 60461. This type of code can be used in situations where the film is moving continuously at the time of both recording and reproduction.
-    The second type of code, Type 8, is a non-continuous, block-type code, composed of blocks of data, each complete in itself, with gaps between the blocks. It is designed so that the code can be recorded and played back on equipment with intermittent film motion but still be decoded with the same type of electronic equipment used to read the Type C or continuous time code.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies digital code for mats and modulation methods for motion-picture film to be used for timing, control, editing and synchronization purposes. This document also specifies the relationship of the codes to the motion picture frame.
-    Two types of code are described in this document. The first type, Type C, is a continuous code which is very similar to the continuous code specified in IEC 60461. This type of code can be used in situations where the film is moving continuously at the time of both recording and reproduction.
-    The second type of code, Type 8, is a non-continuous, block-type code, composed of blocks of data, each complete in itself, with gaps between the blocks. It is designed so that the code can be recorded and played back on equipment with intermittent film motion but still be decoded with the same type of electronic equipment used to read the Type C or continuous time code.
+  content: This document specifies digital code for mats and modulation methods for
+    motion-picture film to be used for timing, control, editing and synchronization
+    purposes. This document also specifies the relationship of the codes to the motion
+    picture frame. Two types of code are described in this document. The first type,
+    Type C, is a continuous code which is very similar to the continuous code specified
+    in IEC 60461. This type of code can be used in situations where the film is moving
+    continuously at the time of both recording and reproduction. The second type of
+    code, Type 8, is a non-continuous, block-type code, composed of blocks of data,
+    each complete in itself, with gaps between the blocks. It is designed so that
+    the code can be recorded and played back on equipment with intermittent film motion
+    but still be decoded with the same type of electronic equipment used to read the
+    Type C or continuous time code.
 status:
   stage:
     content: '90'
@@ -124,18 +117,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 9642:1993
+    formattedref:
+      content: ISO 9642:1993
     docidentifier:
     - content: ISO 9642:1993
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

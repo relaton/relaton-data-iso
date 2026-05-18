@@ -1,51 +1,43 @@
 ---
 id: ISOIEC1596312020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Radio frequency identification for item management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Unique identification for RF tags numbering systems'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Radio frequency identification for item management
     - Part 1: Unique identification for RF tags numbering systems'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification par radiofréquence pour la gestion des objets
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Systèmes numériques pour l''identification unique des tags RF'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Identification par radiofréquence pour
     la gestion des objets - Partie 1: Systèmes numériques pour l''identification unique
     des tags RF'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73195.html
@@ -59,12 +51,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 15963-1:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:15963:-1:stage-90.20
+- content: urn:iso:std:iso-iec:15963:-1:stage-90.92
   type: URN
 docnumber: '15963'
 date:
 - type: published
-  at: 2020-03
+  at: '2020-03-18'
 contributor:
 - role:
   - type: publisher
@@ -104,35 +96,24 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document describes numbering systems that are available for the identification of RF tags and assigns various allocation classes to various agencies that issue manufacturer codes.
-    The unique ID can be used:
-    —          for the traceability of the integrated circuit itself for quality control in its manufacturing process;
-    —          for the traceability of the RF tag during its manufacturing process and along its lifetime;
-    —          for the completion of the reading in a multi-antenna configuration;
-    —          by the anti-collision mechanism to inventory multiple tags in the reader's field of view; and
-    —          for the traceability of the item to which the RF tag is attached.
-- language: fr
-  script: Latn
-  content: |-
-    This document describes numbering systems that are available for the identification of RF tags and assigns various allocation classes to various agencies that issue manufacturer codes.
-    The unique ID can be used:
-    —          for the traceability of the integrated circuit itself for quality control in its manufacturing process;
-    —          for the traceability of the RF tag during its manufacturing process and along its lifetime;
-    —          for the completion of the reading in a multi-antenna configuration;
-    —          by the anti-collision mechanism to inventory multiple tags in the reader's field of view; and
-    —          for the traceability of the item to which the RF tag is attached.
+  content: 'This document describes numbering systems that are available for the identification
+    of RF tags and assigns various allocation classes to various agencies that issue
+    manufacturer codes. The unique ID can be used: — for the traceability of the integrated
+    circuit itself for quality control in its manufacturing process; — for the traceability
+    of the RF tag during its manufacturing process and along its lifetime; — for the
+    completion of the reading in a multi-antenna configuration; — by the anti-collision
+    mechanism to inventory multiple tags in the reader''s field of view; and — for
+    the traceability of the item to which the RF tag is attached.'
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '92'
 copyright:
 - from: '2020'
   owner:
@@ -142,16 +123,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15963:2009
+    formattedref:
+      content: ISO/IEC CD 15963-1
+    docidentifier:
+    - content: ISO/IEC CD 15963-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 15963:2009
     docidentifier:
     - content: ISO/IEC 15963:2009
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

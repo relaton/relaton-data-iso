@@ -1,53 +1,47 @@
 ---
 id: ISO92251992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Corrosion of metals and alloys
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Corrosivity of atmospheres
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Measurement of pollution
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Corrosion of metals and alloys - Corrosivity of atmospheres - Measurement
     of pollution
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Corrosion des métaux et alliages
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Corrosivité des atmosphères
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesurage de la pollution
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Corrosion des métaux et alliages - Corrosivité des atmosphères - Mesurage
     de la pollution
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16857.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16857:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/68/16857.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '9225'
 date:
 - type: published
-  at: 1992-02
+  at: '1992-02-19'
 contributor:
 - role:
   - type: publisher
@@ -101,11 +95,6 @@ abstract:
   content: Specifies three methods for measuring the deposition rates of sulfur dioxide
     and air-borne salinity. Does not cover concentration measurements. Includes measuring
     methods which apply for characterization of corrosivity of the test site.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit trois méthodes pour le mesurage des vitesses de dépôt des composés à base de soufre issus du dioxyde de soufre (SO2) et du sel contenu dans l'air.  Elle ne traite pas des mesures de concentration. La concentration de dioxyde de soufre (SO2) et autres polluants dans l'air se mesure suivant d'autres méthodes normalisées, par exemple ISO 4221:1980, Qualité de l'air - Détermination de la concentration en masse du dioxyde de soufre dans l'air ambiant -  Méthode spectrophotométrique au thorin.  Les méthodes de mesurage traitées dans la présente Norme internationale permettent de caractériser la corrosivité de l'atmosphère des sites d'essai. Les données de pollution obtenues par ces méthodes servent en général pour la déduction de la classe de corrosivité.
 status:
   stage:
     content: '95'
@@ -118,21 +107,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9225:2012
+    formattedref:
+      content: ISO/WD 9225
+    docidentifier:
+    - content: ISO/WD 9225
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9225:2012
     docidentifier:
     - content: ISO 9225:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2012-01-27'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

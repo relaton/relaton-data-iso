@@ -1,50 +1,42 @@
 ---
 id: ISO1757222018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems (ITS)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Location referencing for geographic databases
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Pre-coded location references (pre-coded profile)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems (ITS) - Location referencing for geographic
     databases - Part 2: Pre-coded location references (pre-coded profile)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport (SIT)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Localisation pour bases de données géographiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Localisations précodées (profil précodé)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes intelligents de transport (SIT) - Localisation pour bases de
     données géographiques - Partie 2: Localisations précodées (profil précodé)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69468.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '17572'
 date:
 - type: published
-  at: 2018-09
+  at: '2018-08-30'
 contributor:
 - role:
   - type: publisher
@@ -94,40 +86,26 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The ISO 17572 series specifies LRMs that describe locations in the context of geographic databases and are used to locate transport-related phenomena in an encoder system as well as in the decoder side. The ISO 17572 series defines what is meant by such objects and describes the reference in detail, including whether or not components of the reference are mandatory or optional, and their characteristics.
-    The ISO 17572 series specifies two different LRMs:
-    —          pre-coded location references (pre-coded profile);
-    —          dynamic location references (dynamic profile).
-    The ISO 17572 series does not define a physical format for implementing the LRM. However, the requirements for physical formats are defined.
-    This document specifies the pre-coded LRM, comprising:
-    —          specification of pre-coded location references (pre-coded profile);
-    —          logical format for VICS link location (Annex A);
-    —          TPEG physical format for ALERT-C (TMC) location references (Annex B, C & D);
-    —          TPEG physical format for ETLs (Annex E, F & G);
-    —          TPEG physical format for Korean node-link ID references (Annex H, I & J).
-    —          logical format for Road Section Identification Data set (Annex K).
-- language: fr
-  script: Latn
-  content: |-
-    The ISO 17572 series specifies LRMs that describe locations in the context of geographic databases and are used to locate transport-related phenomena in an encoder system as well as in the decoder side. The ISO 17572 series defines what is meant by such objects and describes the reference in detail, including whether or not components of the reference are mandatory or optional, and their characteristics.
-    The ISO 17572 series specifies two different LRMs:
-    —          pre-coded location references (pre-coded profile);
-    —          dynamic location references (dynamic profile).
-    The ISO 17572 series does not define a physical format for implementing the LRM. However, the requirements for physical formats are defined.
-    This document specifies the pre-coded LRM, comprising:
-    —          specification of pre-coded location references (pre-coded profile);
-    —          logical format for VICS link location (Annex A);
-    —          TPEG physical format for ALERT-C (TMC) location references (Annex B, C & D);
-    —          TPEG physical format for ETLs (Annex E, F & G);
-    —          TPEG physical format for Korean node-link ID references (Annex H, I & J).
-    —          logical format for Road Section Identification Data set (Annex K).
+  content: 'The ISO 17572 series specifies LRMs that describe locations in the context
+    of geographic databases and are used to locate transport-related phenomena in
+    an encoder system as well as in the decoder side. The ISO 17572 series defines
+    what is meant by such objects and describes the reference in detail, including
+    whether or not components of the reference are mandatory or optional, and their
+    characteristics. The ISO 17572 series specifies two different LRMs: — pre-coded
+    location references (pre-coded profile); — dynamic location references (dynamic
+    profile). The ISO 17572 series does not define a physical format for implementing
+    the LRM. However, the requirements for physical formats are defined. This document
+    specifies the pre-coded LRM, comprising: — specification of pre-coded location
+    references (pre-coded profile); — logical format for VICS link location (Annex
+    A); — TPEG physical format for ALERT-C (TMC) location references (Annex B, C &
+    D); — TPEG physical format for ETLs (Annex E, F & G); — TPEG physical format for
+    Korean node-link ID references (Annex H, I & J). — logical format for Road Section
+    Identification Data set (Annex K).'
 status:
   stage:
     content: '90'
@@ -140,26 +118,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 17572-2:2015
+    formattedref:
+      content: ISO 17572-2:2015
     docidentifier:
     - content: ISO 17572-2:2015
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,51 +1,45 @@
 ---
 id: ISOTS191392007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Metadata
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: XML schema implementation
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Metadata - XML schema implementation
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Métadonnées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Implémentation de schémas XML
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Métadonnées - Implémentation de schémas XML
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/32557.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:32557:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/25/32557.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '19139'
 date:
 - type: published
-  at: 2007-04
+  at: '2007-04-17'
 contributor:
 - role:
   - type: publisher
@@ -90,15 +84,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO/TS 19139:2007 defines Geographic MetaData XML (gmd) encoding, an XML
-    Schema implementation derived from ISO 19115.
-- language: fr
   script: Latn
   content: ISO/TS 19139:2007 defines Geographic MetaData XML (gmd) encoding, an XML
     Schema implementation derived from ISO 19115.
@@ -114,21 +103,26 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 19139-1:2019
+    formattedref:
+      content: ISO/TS 19139-1:2019
     docidentifier:
     - content: ISO/TS 19139-1:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-02-25'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 19139
+    docidentifier:
+    - content: ISO/NP 19139
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

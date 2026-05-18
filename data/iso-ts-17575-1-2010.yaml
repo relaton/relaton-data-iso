@@ -1,53 +1,47 @@
 ---
 id: ISOTS1757512010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Electronic fee collection
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Application interface definition for autonomous systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Charging'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Electronic fee collection - Application interface definition for autonomous
     systems - Part 1: Charging'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception du télépéage
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Définition de l'interface d'application pour les systèmes autonomes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Imputation'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Perception du télépéage - Définition de l''interface d''application pour
     les systèmes autonomes - Partie 1: Imputation'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/51859.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:51859:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/18/51859.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '17575'
 date:
 - type: published
-  at: 2010-06
+  at: '2010-06-10'
 contributor:
 - role:
   - type: publisher
@@ -92,36 +86,30 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/TS 17575‑1:2010 defines the format and semantic of the data exchange between a Front End (OBE plus optional proxy) and corresponding Back Ends in autonomous toll regimes. ISO/TS 17575‑1:2010 deals with the definition of the data elements used to report charging details from the Front End to the CE and to receive data which can be used to re-configure the ongoing process of gathering charge relevant information in the Front End.
-    The data defined in ISO/TS 17575‑1:2010 is used to generate charge reports that contain information about the road usage of a vehicle for certain time intervals. The contents of these charge reports might vary between toll regimes. A toll regime comprises a set of rules for charging, including the charged network, the charging principles, the liable vehicles and a definition of the required contents of the charge report.
-    The data defined in ISO/TS 17575‑1:2010 are exchanged using an open definition of a communication stack as defined in ISO/TS 17575‑2.
-    The definitions in ISO/TS 17575‑1:2010 comprise:
-    - reporting data, i.e. data for transferring road usage data from Front End to Back End, including a response from the Back End towards the Front End;
-    - contract data, i.e. data for identifying contractually essential entities;
-    - road usage data, i.e. data for reporting the amount of road usage;
-    - account data for managing a payment account;
-    - versioning data;
-    - compliance checking data, i.e. data imported from ISO/TS 12813, which are required in Compliance Checking Communications.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/TS 17575‑1:2010 defines the format and semantic of the data exchange between a Front End (OBE plus optional proxy) and corresponding Back Ends in autonomous toll regimes. ISO/TS 17575‑1:2010 deals with the definition of the data elements used to report charging details from the Front End to the CE and to receive data which can be used to re-configure the ongoing process of gathering charge relevant information in the Front End.
-    The data defined in ISO/TS 17575‑1:2010 is used to generate charge reports that contain information about the road usage of a vehicle for certain time intervals. The contents of these charge reports might vary between toll regimes. A toll regime comprises a set of rules for charging, including the charged network, the charging principles, the liable vehicles and a definition of the required contents of the charge report.
-    The data defined in ISO/TS 17575‑1:2010 are exchanged using an open definition of a communication stack as defined in ISO/TS 17575‑2.
-    The definitions in ISO/TS 17575‑1:2010 comprise:
-    - reporting data, i.e. data for transferring road usage data from Front End to Back End, including a response from the Back End towards the Front End;
-    - contract data, i.e. data for identifying contractually essential entities;
-    - road usage data, i.e. data for reporting the amount of road usage;
-    - account data for managing a payment account;
-    - versioning data;
-    - compliance checking data, i.e. data imported from ISO/TS 12813, which are required in Compliance Checking Communications.
+  content: 'ISO/TS 17575‑1:2010 defines the format and semantic of the data exchange
+    between a Front End (OBE plus optional proxy) and corresponding Back Ends in autonomous
+    toll regimes. ISO/TS 17575‑1:2010 deals with the definition of the data elements
+    used to report charging details from the Front End to the CE and to receive data
+    which can be used to re-configure the ongoing process of gathering charge relevant
+    information in the Front End. The data defined in ISO/TS 17575‑1:2010 is used
+    to generate charge reports that contain information about the road usage of a
+    vehicle for certain time intervals. The contents of these charge reports might
+    vary between toll regimes. A toll regime comprises a set of rules for charging,
+    including the charged network, the charging principles, the liable vehicles and
+    a definition of the required contents of the charge report. The data defined in
+    ISO/TS 17575‑1:2010 are exchanged using an open definition of a communication
+    stack as defined in ISO/TS 17575‑2. The definitions in ISO/TS 17575‑1:2010 comprise:
+    reporting data, i.e. data for transferring road usage data from Front End to Back
+    End, including a response from the Back End towards the Front End; contract data,
+    i.e. data for identifying contractually essential entities; road usage data, i.e.
+    data for reporting the amount of road usage; account data for managing a payment
+    account; versioning data; compliance checking data, i.e. data imported from ISO/TS
+    12813, which are required in Compliance Checking Communications.'
 status:
   stage:
     content: '95'
@@ -134,40 +122,26 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 17575-1:2016
+    formattedref:
+      content: ISO 17575-1:2016
     docidentifier:
     - content: ISO 17575-1:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-01-18'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/TS 17575-1:2010/Cor 1:2013
-    docidentifier:
-    - content: ISO/TS 17575-1:2010/Cor 1:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2016-01-18'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

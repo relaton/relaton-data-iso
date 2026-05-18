@@ -1,42 +1,36 @@
 ---
 id: ISOCIE1166452024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Colorimetry
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: CIE 1976 L*u*v* colour space and u'', v'' uniform chromaticity
     scale diagram'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Colorimetry - Part 5: CIE 1976 L*u*v* colour space and u'', v'' uniform
     chromaticity scale diagram'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Colorimétrie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Espace chromatique L*u*v* et diagramme de chromaticité uniforme
     u’, v’ CIE 1976'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Colorimétrie - Partie 5: Espace chromatique L*u*v* et diagramme de chromaticité
     uniforme u’, v’ CIE 1976'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/86224.html
@@ -55,7 +49,7 @@ docidentifier:
 docnumber: '11664'
 date:
 - type: published
-  at: 2024-06
+  at: '2024-06-12'
 contributor:
 - role:
   - type: publisher
@@ -84,7 +78,7 @@ contributor:
     - content: " International Commission on Illumination"
     subdivision:
     - name:
-      - content: International Commission on Illumination
+      - content: CIE
       identifier:
       - content: CIE
       type: technical-committee
@@ -101,16 +95,23 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the method of calculating the coordinates of the CIE 1976 L*u*v* colour space including correlates of lightness, chroma, saturation and hue. It includes two methods for calculating Euclidean distances in this space to represent the relative perceived magnitude of colour differences. It also specifies the method of calculating the coordinates of the u′,v′ uniform chromaticity scale diagram.
-    This document is applicable to tristimulus values calculated using the colour-matching functions of the CIE 1931 standard colorimetric system or the CIE 1964 standard colorimetric system. This document is applicable for the specification of colour stimuli perceived as belonging to a reflecting or transmitting object, where a three-dimensional space more uniform than tristimulus space is required. This includes self-luminous displays, like computer, television and smart-phone displays, if they are being used to simulate reflecting or transmitting objects and if the stimuli are appropriately normalized.
-    This document, as a whole, does not apply to colour stimuli perceived as belonging to an area that appears to be emitting light as a primary light source or that appears to be specularly reflecting such light. Only the u′,v′ uniform chromaticity scale diagram defined in 4.1 and the correlates of hue and saturation defined in 4.3 apply to such colour stimuli.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie la méthode de calcul des coordonnées de l’espace chromatique CIE 1976 L*u*v*, et des corrélats de clarté, chroma, saturation et teinte. Elle comprend deux méthodes permettant de calculer les distances euclidiennes dans cet espace, pour représenter l’amplitude relative perçue des différences de couleurs. Elle spécifie également la méthode de calcul des coordonnées du diagramme de chromaticité uniforme u’,v’.
-    Le présent document s’applique aux composantes trichromatiques calculées à l’aide des fonctions d’égalisation de couleur du système de référence colorimétrique CIE 1931 ou du système de référence colorimétrique CIE 1964. Le présent document est applicable dans la spécification de stimuli de couleurs perçus comme appartenant à un objet transparent, translucide ou réfléchissant, lorsqu’un espace tridimensionnel plus uniforme que l’espace des composantes trichromatiques est requis. Sont inclus certains écrans d’affichage lumineux par eux-mêmes, tels que les écrans d’ordinateur, de télévision et de téléphones portables, s’ils sont utilisés pour simuler des objets transparents, translucides ou réfléchissants et si les stimuli sont normalisés de manière appropriée.
-    Le présent document, dans son ensemble, n’est pas applicable aux stimuli de couleurs perçus comme appartenant à une surface qui semble émettre de la lumière comme une source primaire de lumière ou réfléchir spéculairement une telle lumière. Seul le diagramme de chromaticité uniforme u′,v′ défini en 4.1 et les notions corrélatives de teinte et de saturation définies en 4.3 s’appliquent à de tels stimuli de couleurs.
+  content: This document specifies the method of calculating the coordinates of the
+    CIE 1976 L*u*v* colour space including correlates of lightness, chroma, saturation
+    and hue. It includes two methods for calculating Euclidean distances in this space
+    to represent the relative perceived magnitude of colour differences. It also specifies
+    the method of calculating the coordinates of the u′,v′ uniform chromaticity scale
+    diagram. This document is applicable to tristimulus values calculated using the
+    colour-matching functions of the CIE 1931 standard colorimetric system or the
+    CIE 1964 standard colorimetric system. This document is applicable for the specification
+    of colour stimuli perceived as belonging to a reflecting or transmitting object,
+    where a three-dimensional space more uniform than tristimulus space is required.
+    This includes self-luminous displays, like computer, television and smart-phone
+    displays, if they are being used to simulate reflecting or transmitting objects
+    and if the stimuli are appropriately normalized. This document, as a whole, does
+    not apply to colour stimuli perceived as belonging to an area that appears to
+    be emitting light as a primary light source or that appears to be specularly reflecting
+    such light. Only the u′,v′ uniform chromaticity scale diagram defined in 4.1 and
+    the correlates of hue and saturation defined in 4.3 apply to such colour stimuli.
 status:
   stage:
     content: '60'
@@ -123,18 +124,18 @@ copyright:
       name:
       - content: ISO/CIE
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/CIE 11664-5:2016
+    formattedref:
+      content: ISO/CIE 11664-5:2016
     docidentifier:
     - content: ISO/CIE 11664-5:2016
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

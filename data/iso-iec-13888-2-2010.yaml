@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1388822010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Non-repudiation -- Part 2: Mechanisms using symmetric techniques'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Non-repudiation -- Part
     2: Mechanisms using symmetric techniques'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Non-répudiation -- Partie 2: Mécanismes utilisant des techniques symétriques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Non-répudiation
     -- Partie 2: Mécanismes utilisant des techniques symétriques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44736.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '13888'
 date:
 - type: published
-  at: 2010-12
+  at: '2010-12-01'
 contributor:
 - role:
   - type: publisher
@@ -103,13 +95,12 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "The goal of the non-repudiation service is to generate, collect, maintain,
+  content: The goal of the non-repudiation service is to generate, collect, maintain,
     make available and validate evidence concerning a claimed event or action in order
     to resolve disputes about the occurrence or non-occurrence of the event or action.
     ISO/IEC 13888-2:2010 provides descriptions of generic structures that can be used
@@ -117,26 +108,11 @@ abstract:
     which can be used to provide non-repudiation of origin (NRO) and non-repudiation
     of delivery (NRD). Other non-repudiation services can be built using the generic
     structures described in ISO/IEC 13888-2:2010 in order to meet the requirements
-    defined by the security policy. \nISO/IEC 13888-2:2010 relies on the existence
-    of a trusted third party (TTP) to prevent fraudulent repudiation or accusation.
-    Usually, an online TTP is needed. \nNon-repudiation can only be provided within
-    the context of a clearly defined security policy for a particular application
-    and its legal environment. Non-repudiation policies are defined in ISO/IEC 10181-4. "
-- language: fr
-  script: Latn
-  content: "The goal of the non-repudiation service is to generate, collect, maintain,
-    make available and validate evidence concerning a claimed event or action in order
-    to resolve disputes about the occurrence or non-occurrence of the event or action.
-    ISO/IEC 13888-2:2010 provides descriptions of generic structures that can be used
-    for non-repudiation services, and of some specific communication-related mechanisms
-    which can be used to provide non-repudiation of origin (NRO) and non-repudiation
-    of delivery (NRD). Other non-repudiation services can be built using the generic
-    structures described in ISO/IEC 13888-2:2010 in order to meet the requirements
-    defined by the security policy. \nISO/IEC 13888-2:2010 relies on the existence
-    of a trusted third party (TTP) to prevent fraudulent repudiation or accusation.
-    Usually, an online TTP is needed. \nNon-repudiation can only be provided within
-    the context of a clearly defined security policy for a particular application
-    and its legal environment. Non-repudiation policies are defined in ISO/IEC 10181-4. "
+    defined by the security policy. ISO/IEC 13888-2:2010 relies on the existence of
+    a trusted third party (TTP) to prevent fraudulent repudiation or accusation. Usually,
+    an online TTP is needed. Non-repudiation can only be provided within the context
+    of a clearly defined security policy for a particular application and its legal
+    environment. Non-repudiation policies are defined in ISO/IEC 10181-4.
 status:
   stage:
     content: '90'
@@ -149,29 +125,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 13888-2:1998
+    formattedref:
+      content: ISO/IEC 13888-2:1998
     docidentifier:
     - content: ISO/IEC 13888-2:1998
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 13888-2:2010/Cor 1:2012
-    docidentifier:
-    - content: ISO/IEC 13888-2:2010/Cor 1:2012
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-11-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

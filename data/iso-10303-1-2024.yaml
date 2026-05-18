@@ -1,50 +1,42 @@
 ---
 id: ISO1030312024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Product data representation and exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Overview and fundamental principles'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 1: Overview and fundamental principles'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation et échange de données de produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Aperçu et principes fondamentaux'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 1: Aperçu et principes fondamentaux'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/83105.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 10303-1:2024(E)
   type: iso-reference
-- content: urn:iso:std:iso:10303:-1:stage-60.60
+- content: urn:iso:std:iso:10303:-1:stage-90.92
   type: URN
 docnumber: '10303'
 date:
 - type: published
-  at: 2024-01
+  at: '2024-01-17'
 contributor:
 - role:
   - type: publisher
@@ -94,65 +86,33 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document provides an overview of the ISO 10303 series.
-    This document defines the architectural principles of product information representation and exchange used in the ISO 10303 series. It specifies the characteristics of the various sets of parts in the ISO 10303 series and the relationships among them.
-    The following are within the scope of this document:
-    —     scope statement for the ISO 10303 series as a whole;
-    —     overview of the ISO 10303 series;
-    —     architectures of the ISO 10303 series;
-    —     structure of the ISO 10303 series;
-    —     overview of data specification methods used in the ISO 10303 series;
-    NOTE            This includes the EXPRESS data specification language and graphical presentation of product information models.
-    —     introduction to the ISO 10303 series:
-    —     integrated resources (IRs);
-    —     application interpreted constructs (AICs);
-    —     application modules (AMs);
-    —     application domain models (ADMs);
-    —     Core model;
-    —     business object models (deprecated);
-    —     application protocols (APs);
-    —     implementation methods;
-    —     usage guides;
-    —     conformance testing methodology and framework;
-    —     abstract test suites (ATSs);
-    —     scheme for identification of schemas and other information objects defined in the ISO 10303 series.
-- language: fr
-  script: Latn
-  content: |-
-    This document provides an overview of the ISO 10303 series.
-    This document defines the architectural principles of product information representation and exchange used in the ISO 10303 series. It specifies the characteristics of the various sets of parts in the ISO 10303 series and the relationships among them.
-    The following are within the scope of this document:
-    —     scope statement for the ISO 10303 series as a whole;
-    —     overview of the ISO 10303 series;
-    —     architectures of the ISO 10303 series;
-    —     structure of the ISO 10303 series;
-    —     overview of data specification methods used in the ISO 10303 series;
-    NOTE            This includes the EXPRESS data specification language and graphical presentation of product information models.
-    —     introduction to the ISO 10303 series:
-    —     integrated resources (IRs);
-    —     application interpreted constructs (AICs);
-    —     application modules (AMs);
-    —     application domain models (ADMs);
-    —     Core model;
-    —     business object models (deprecated);
-    —     application protocols (APs);
-    —     implementation methods;
-    —     usage guides;
-    —     conformance testing methodology and framework;
-    —     abstract test suites (ATSs);
-    —     scheme for identification of schemas and other information objects defined in the ISO 10303 series.
+  content: 'This document provides an overview of the ISO 10303 series. This document
+    defines the architectural principles of product information representation and
+    exchange used in the ISO 10303 series. It specifies the characteristics of the
+    various sets of parts in the ISO 10303 series and the relationships among them.
+    The following are within the scope of this document: —     scope statement for
+    the ISO 10303 series as a whole; —     overview of the ISO 10303 series; —    
+    architectures of the ISO 10303 series; —     structure of the ISO 10303 series;
+    —     overview of data specification methods used in the ISO 10303 series; NOTE           
+    This includes the EXPRESS data specification language and graphical presentation
+    of product information models. —     introduction to the ISO 10303 series: —    
+    integrated resources (IRs); —     application interpreted constructs (AICs); —    
+    application modules (AMs); —     application domain models (ADMs); —     Core
+    model; —     business object models (deprecated); —     application protocols
+    (APs); —     implementation methods; —     usage guides; —     conformance testing
+    methodology and framework; —     abstract test suites (ATSs); —     scheme for
+    identification of schemas and other information objects defined in the ISO 10303
+    series.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2024'
   owner:
@@ -162,16 +122,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10303-1:2021
+    formattedref:
+      content: ISO/CD 10303-1
+    docidentifier:
+    - content: ISO/CD 10303-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10303-1:2021
     docidentifier:
     - content: ISO 10303-1:2021
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

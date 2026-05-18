@@ -1,43 +1,39 @@
 ---
 id: ISO62701980
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints and varnishes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of resistance to humidity (continuous condensation)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints and varnishes - Determination of resistance to humidity (continuous
     condensation)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peinture et vernis
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la résistance à l'humidité (par condensation continue)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peinture et vernis - Détermination de la résistance à l'humidité (par condensation
     continue)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/12552.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:12552:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/25/12552.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '6270'
 date:
 - type: published
-  at: 1980-04
+  at: '1980-04-01'
 contributor:
 - role:
   - type: publisher
@@ -85,12 +81,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    1.1 La présente Norme internationale spécifie une méthode de détermination de la résistance d'un feuil de peinture, de systèmes de peinture et de produits assimilés à des conditions de forte humidité. 1.2 La méthode est applicable aux revêtements aussi bien sur subjectiles poreux, tels que le bois, le plâtre et les plaques de plâtre, que sur subjectiles non poreux, tels que le métal. Elle donne une indication sur la performance susceptible d'être obtenue dans des conditions sévères d'exposition et lorsqu'une condensation continue se produit à la surface. 1.3 Le mode opératoire peut faire apparaître des défectuosités du revêtement (comprenant cloquage, tachage, ramollissement, frisage, fragilisation) et une détérioration du subjectile.
 status:
   stage:
     content: '95'
@@ -103,21 +93,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6270-1:1998
+    formattedref:
+      content: ISO/CD 6270-2
+    docidentifier:
+    - content: ISO/CD 6270-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 6270-1:1998
     docidentifier:
     - content: ISO 6270-1:1998
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1998-04-02'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

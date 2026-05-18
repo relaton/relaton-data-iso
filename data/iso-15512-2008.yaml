@@ -1,42 +1,37 @@
 ---
 id: ISO155122008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Plastics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of water content
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Plastics - Determination of water content
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dosage de l'eau
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques - Dosage de l'eau
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41662.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41662:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/16/41662.detail.rss
 docidentifier:
@@ -50,7 +45,7 @@ docidentifier:
 docnumber: '15512'
 date:
 - type: published
-  at: 2008-05
+  at: '2008-05-07'
 contributor:
 - role:
   - type: publisher
@@ -82,26 +77,32 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 15512:2008 specifies methods for the determination of the water content of plastics in the form of granules and finished articles. These methods do not test for water absorption (kinetics and equilibrium) of plastics as measured by ISO 62. The methods are suitable for the determination of water content as low as the following levels:
-    -        Method A        0,1 % or better;
-    -        Method B        0,01 % or better;
-    -        Method C        0,01 % or better.
-    Three alternative methods are specified:
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 15512:2008 spécifie des méthodes pour le dosage de l'eau dans les plastiques sous forme de granulés et d'articles finis. Ces méthodes ne contrôlent pas l'absorption d'eau (cinétique et équilibre) des plastiques, cet aspect étant traité dans l'ISO 62. Les méthodes sont applicables au dosage de l'eau à des niveaux aussi faibles que les suivants:
-    - Méthode A     0,1 % ou mieux;
-    - Méthode B     0,01 % ou mieux;
-    - Méthode C     0,01 % ou mieux.
-    La teneur en eau est un paramètre important de la mise en œuvre des matériaux et il convient qu'elle reste en dessous du niveau spécifié dans la norme de produit appropriée.
-    Trois méthodes possibles sont spécifiées:
+  content: 'ISO 15512:2008 specifies methods for the determination of the water content
+    of plastics in the form of granules and finished articles. These methods do not
+    test for water absorption (kinetics and equilibrium) of plastics as measured by
+    ISO 62. The methods are suitable for the determination of water content as low
+    as the following levels: Method A 0,1 % or better; Method B 0,01 % or better;
+    Method C 0,01 % or better. Three alternative methods are specified: Method A is
+    an extraction method using anhydrous methanol followed by a Karl Fischer titration
+    of the extracted water. It can be used for all plastics and is applicable to granules
+    having a maximum size of 4 mm x 4 mm x 3 mm. Method B is a vaporization method
+    using heated, dry air or nitrogen gas to evaporate the water, followed by a Karl
+    Fischer titration of the collected water. It can be used for all plastics and
+    is applicable to granules smaller than 4 mm x 4 mm x 3 mm. Method C is a manometric
+    method. The water content is determined from the increase in pressure which results
+    when the water is evaporated under a vacuum. This method is not applicable to
+    plastic samples containing volatile compounds, other than water, in amounts contributing
+    significantly to the vapour pressure at room temperature. Checks for the presence
+    of large amounts of volatile compounds should be carried out periodically, for
+    example by gas chromatography. Such checks are particularly required for new types
+    or grades of material.'
 status:
   stage:
     content: '95'
@@ -116,27 +117,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 15512:1999
-    docidentifier:
-    - content: ISO 15512:1999
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 15512:2014
+    formattedref:
+      content: ISO 15512:2014
     docidentifier:
     - content: ISO 15512:2014
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2014-09-16'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 15512:1999
+    docidentifier:
+    - content: ISO 15512:1999
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -146,4 +144,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 15512
+      content: '41662'

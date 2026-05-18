@@ -1,53 +1,45 @@
 ---
 id: ISO2714522012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Implementation of World-Wide Harmonized On-Board Diagnostics (WWH-OBD)
     communication requirements
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Common data dictionary'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Implementation of World-Wide Harmonized On-Board Diagnostics
     (WWH-OBD) communication requirements - Part 2: Common data dictionary'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mise en application des exigences de communication pour le diagnostic embarqué
     harmonisé à l'échelle mondiale (WWH-OBD)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Dictionnaire de données communes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Mise en application des exigences de communication
     pour le diagnostic embarqué harmonisé à l''échelle mondiale (WWH-OBD) - Partie
     2: Dictionnaire de données communes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46276.html
@@ -66,7 +58,7 @@ docidentifier:
 docnumber: '27145'
 date:
 - type: published
-  at: 2012-08
+  at: '2012-08-14'
 contributor:
 - role:
   - type: publisher
@@ -97,48 +89,27 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO 27145-2:2012 defines all regulatory data elements of the ISO 27145
+  content: 'ISO 27145-2:2012 defines all regulatory data elements of the ISO 27145
     series. The data elements are used to provide the external test equipment with
     the diagnostic status of the vehicle on-board diagnostics (VOBD) system in the
     vehicle. All data elements are communicated with the unified diagnostic services
     as defined in ISO 27145-3. The data elements are diagnostic trouble codes (DTCs),
     data identifiers (DIDs) and routine identifiers (RIDs). The mapping from parameter
     identifiers (PIDs), monitor identifiers (MIDs) and info type identifiers (ITIDs)
-    is described in ISO 27145-2:2012.\nIf new legislated WWH-OBD GTR modules are established,
+    is described in ISO 27145-2:2012. If new legislated WWH-OBD GTR modules are established,
     it is intended that ISO 27145 be applicable with possible extensions, which can
     be included in ISO 27145-2:2012, can be specified as enhancements of the SAE Digital
     Annexes or can even be part of other referenced documents which are intended to
-    include the applicable data definitions. \nISO 27145 is intended to become the
-    single communication standard for access to OBD-related information (VOBD). To
-    allow for a smooth migration from the existing communication standards to this
-    future world-wide communication standard, the communication concept as specified
-    in ISO 27145-4 is based on two different data links: ISO 15765-4 and ISO 13400
-    (all parts)."
-- language: fr
-  script: Latn
-  content: "ISO 27145-2:2012 defines all regulatory data elements of the ISO 27145
-    series. The data elements are used to provide the external test equipment with
-    the diagnostic status of the vehicle on-board diagnostics (VOBD) system in the
-    vehicle. All data elements are communicated with the unified diagnostic services
-    as defined in ISO 27145-3. The data elements are diagnostic trouble codes (DTCs),
-    data identifiers (DIDs) and routine identifiers (RIDs). The mapping from parameter
-    identifiers (PIDs), monitor identifiers (MIDs) and info type identifiers (ITIDs)
-    is described in ISO 27145-2:2012.\nIf new legislated WWH-OBD GTR modules are established,
-    it is intended that ISO 27145 be applicable with possible extensions, which can
-    be included in ISO 27145-2:2012, can be specified as enhancements of the SAE Digital
-    Annexes or can even be part of other referenced documents which are intended to
-    include the applicable data definitions. \nISO 27145 is intended to become the
-    single communication standard for access to OBD-related information (VOBD). To
-    allow for a smooth migration from the existing communication standards to this
-    future world-wide communication standard, the communication concept as specified
-    in ISO 27145-4 is based on two different data links: ISO 15765-4 and ISO 13400
-    (all parts)."
+    include the applicable data definitions. ISO 27145 is intended to become the single
+    communication standard for access to OBD-related information (VOBD). To allow
+    for a smooth migration from the existing communication standards to this future
+    world-wide communication standard, the communication concept as specified in ISO
+    27145-4 is based on two different data links: ISO 15765-4 and ISO 13400 (all parts).'
 status:
   stage:
     content: '90'
@@ -153,35 +124,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/PAS 27145-2:2006
+    formattedref:
+      content: ISO/SAE PWI 27145-2
     docidentifier:
-    - content: ISO/PAS 27145-2:2006
+    - content: ISO/SAE PWI 27145-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 27145-2
+    docidentifier:
+    - content: ISO/PWI 27145-2
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 27145-2:2012/Amd 1:2023
+    formattedref:
+      content: ISO/PAS 27145-2:2006
     docidentifier:
-    - content: ISO 27145-2:2012/Amd 1:2023
+    - content: ISO/PAS 27145-2:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-03-05'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.180'
-    text: Diagnostic, maintenance and test equipment
   - code: 43.040.10
     text: Electrical and electronic equipment
+  - code: '43.180'
+    text: Diagnostic, maintenance and test equipment
   structuredidentifier:
     type: ISO
     project_number:

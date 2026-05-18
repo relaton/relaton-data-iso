@@ -1,50 +1,42 @@
 ---
 id: ISO1360652019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Electronic health record communication
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: Interface specification'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Health informatics - Electronic health record communication - Part 5:
     Interface specification'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Communication du dossier de santé informatisé
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Spécification d''interfaces'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informatique de santé - Communication du dossier de santé informatisé
     - Partie 5: Spécification d''interfaces'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/62304.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '13606'
 date:
 - type: published
-  at: 2019-06
+  at: '2019-06-07'
 contributor:
 - role:
   - type: publisher
@@ -100,30 +92,30 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the information architecture required for interoperable communications between systems and services that need or provide EHR data. This document is not intended to specify the internal architecture or database design of such systems.
-    The subject of the record or record extract to be communicated is an individual person, and the scope of the communication is predominantly with respect to that person's care.
-    Uses of healthcare records for other purposes such as administration, management, research and epidemiology, which require aggregations of individual people's records, are not the focus of this document but such secondary uses could also find the document useful.
-    This document defines a set of interfaces to request and provide:
-    —          an EHR_EXTRACT for a given subject of care as defined in ISO 13606-1;
-    —          one or more ARCHETYPE(s) as defined in ISO 13606-2;
-    —          an EHR_AUDIT_LOG_EXTRACT for a given subject of care as defined in ISO 13606-4.
-    This document defines the set of interactions to request each of these artefacts, and to provide the data to the requesting party or to decline the request. An interface to query an EHR or populations of EHRs, for example for clinical audit or research, are beyond its scope, although provision is made for certain selection criteria to be specified when requesting an EHR_EXTRACT which might also serve for population queries.
-    This document defines the Computational Viewpoint for each interface, without specifying or restricting particular engineering approaches to implementing these as messages or as service interfaces.
-    This document effectively defines the payload to be communicated at each interface. It does not specify the particular information that different transport protocols will additionally require, nor the security or authentication procedures that might be agreed between the communicating parties or required by different jurisdictions.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie l'architecture d'informations exigée pour l'interopérabilité des communications entre les systèmes et les services qui ont besoin de données de DSI ou qui les émettent. Le présent document n'a pas pour vocation de spécifier l'architecture interne ou la conception de la base de données de ces systèmes.
-    Le sujet auquel se rapporte le dossier ou l'extrait de dossier à communiquer est un individu, et l'objet de la communication concerne principalement les soins de santé à cette personne.
-    L'utilisation de dossiers de santé à d'autres fins telles qu'administration, gestion, recherche et épidémiologie, qui exigent des agrégations de dossiers de patients individuels, ne constituent pas la préoccupation centrale du présent document, même si celui-ci peut également s'avérer utile pour ces utilisations secondaires.
-    Le présent document définit un ensemble d'interfaces permettant de demander et d'émettre:
-    —          un EHR_EXTRACT pour un sujet de soins donné tel que défini dans l'ISO 13606-1;
-    —          un ou plusieurs ARCHETYPE(s) tels que définis dans l'ISO 13606-2;
-    —          un EHR_AUDIT_LOG_EXTRACT pour un sujet de soins donné tel que défini dans l'ISO 13606-4.
-    Le présent document définit l'ensemble des interactions pour la demande de chacun de ces artéfacts et pour la transmission des données à la partie demandeuse ou pour le rejet de la demande. Son domaine d'application ne couvre pas l'interface de demande d'un DSI ou de populations de DSI, par exemple pour une expertise médicale ou pour la recherche clinique, bien que les dispositions prises pour la spécification de certains critères de sélection lors de la demande d'un EHR_EXTRACT puissent également servir à des demandes sur des populations.
-    Le présent document définit pour chaque interface le point de vue du traitement, sans spécifier ou limiter des approches techniques particulières pour leur mise en œuvre sous la forme de messages ou d'interfaces de service.
-    Le présent document définit efficacement les informations «directement utiles» à communiquer à chaque interface. Elle ne spécifie pas les informations particulières et supplémentaires exigés par les différents protocoles de transmission, ni les procédures de sécurité ou d'authentification susceptibles d'être convenues entre les parties à la communication ou exigées par différentes législations.
+  content: 'This document specifies the information architecture required for interoperable
+    communications between systems and services that need or provide EHR data. This
+    document is not intended to specify the internal architecture or database design
+    of such systems. The subject of the record or record extract to be communicated
+    is an individual person, and the scope of the communication is predominantly with
+    respect to that person''s care. Uses of healthcare records for other purposes
+    such as administration, management, research and epidemiology, which require aggregations
+    of individual people''s records, are not the focus of this document but such secondary
+    uses could also find the document useful. This document defines a set of interfaces
+    to request and provide: — an EHR_EXTRACT for a given subject of care as defined
+    in ISO 13606-1; — one or more ARCHETYPE(s) as defined in ISO 13606-2; — an EHR_AUDIT_LOG_EXTRACT
+    for a given subject of care as defined in ISO 13606-4. This document defines the
+    set of interactions to request each of these artefacts, and to provide the data
+    to the requesting party or to decline the request. An interface to query an EHR
+    or populations of EHRs, for example for clinical audit or research, are beyond
+    its scope, although provision is made for certain selection criteria to be specified
+    when requesting an EHR_EXTRACT which might also serve for population queries.
+    This document defines the Computational Viewpoint for each interface, without
+    specifying or restricting particular engineering approaches to implementing these
+    as messages or as service interfaces. This document effectively defines the payload
+    to be communicated at each interface. It does not specify the particular information
+    that different transport protocols will additionally require, nor the security
+    or authentication procedures that might be agreed between the communicating parties
+    or required by different jurisdictions.'
 status:
   stage:
     content: '90'
@@ -138,24 +130,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13606-5:2010
-    docidentifier:
-    - content: ISO 13606-5:2010
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 13606-5
+    formattedref:
+      content: ISO/CD 13606-5
     docidentifier:
     - content: ISO/CD 13606-5
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 13606-5:2010
+    docidentifier:
+    - content: ISO 13606-5:2010
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

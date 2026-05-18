@@ -1,56 +1,50 @@
 ---
 id: ISO1114622005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Lasers and laser-related equipment
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Test methods for laser beam widths, divergence angles and beam propagation
     ratios
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: General astigmatic beams'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Lasers and laser-related equipment - Test methods for laser beam widths,
     divergence angles and beam propagation ratios - Part 2: General astigmatic beams'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Lasers et équipements associés aux lasers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes d'essai des largeurs du faisceau, angles de divergence et facteurs
     de limite de diffraction
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Faisceaux astigmatiques généraux'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Lasers et équipements associés aux lasers - Méthodes d''essai des largeurs
     du faisceau, angles de divergence et facteurs de limite de diffraction - Partie
     2: Faisceaux astigmatiques généraux'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/33626.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:33626:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/36/33626.detail.rss
 docidentifier:
@@ -64,7 +58,7 @@ docidentifier:
 docnumber: '11146'
 date:
 - type: published
-  at: 2005-02
+  at: '2005-02-18'
 contributor:
 - role:
   - type: publisher
@@ -96,19 +90,23 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 11146-2:2005 specifies methods for measuring beam widths (diameter), divergence angles and beam propagation ratios of laser beams. ISO 11146-2:2005 is applicable to general astigmatic beams or unknown types of beams. For stigmatic and simple astigmatic beams, ISO 11146-1 is applicable.
-    Within ISO 11146-2:2005, the description of laser beams is accomplished by means of the second order moments of the Wigner distribution rather than physical quantities such as beam widths and divergence angles. However these physical quantities are closely related to the second order moments of the Wigner distribution. In ISO/TR 11146-3, formulae are given to calculate all relevant physical quantities from the measured second order moments.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 11146-2:2005 spécifie les méthodes pour le mesurage des largeurs (diamètres) du faisceau, angles de divergence et facteurs de limite de diffraction. L'ISO 11146-2:2005 s'applique aux faisceaux astigmatiques généraux ou si le type de faisceau est inconnu. Pour les faisceaux stigmatiques et astigmatiques simples, l'ISO 11146-1 s'applique.
-    Au sein de l'ISO 11146-2:2005, la description des faisceaux lasers est réalisée au moyen des moments de second ordre de la distribution de Wigner, plutôt que par des grandeurs physiques telles que les largeurs de faisceau et les angles de divergence. Toutefois, ces grandeurs physiques sont étroitement liées aux moments de second ordre de la distribution de Wigner. Dans l'ISO/TR 11146-3 des formules sont données pour calculer toutes les grandeurs physiques concernées à partir des moments de second ordre mesurés.
+  content: ISO 11146-2:2005 specifies methods for measuring beam widths (diameter),
+    divergence angles and beam propagation ratios of laser beams. ISO 11146-2:2005
+    is applicable to general astigmatic beams or unknown types of beams. For stigmatic
+    and simple astigmatic beams, ISO 11146-1 is applicable. Within ISO 11146-2:2005,
+    the description of laser beams is accomplished by means of the second order moments
+    of the Wigner distribution rather than physical quantities such as beam widths
+    and divergence angles. However these physical quantities are closely related to
+    the second order moments of the Wigner distribution. In ISO/TR 11146-3, formulae
+    are given to calculate all relevant physical quantities from the measured second
+    order moments.
 status:
   stage:
     content: '95'
@@ -121,21 +119,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11146-2:2021
+    formattedref:
+      content: ISO/NP 11146-2
+    docidentifier:
+    - content: ISO/NP 11146-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 11146-2:2021
     docidentifier:
     - content: ISO 11146-2:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-07-02'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

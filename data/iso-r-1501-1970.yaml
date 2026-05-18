@@ -1,31 +1,29 @@
 ---
 id: ISOR15011970
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: ISO miniature screw threads
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: ISO miniature screw threads
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Filetages miniatures ISO
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Filetages miniatures ISO
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6089.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6089:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/60/6089.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '1501'
 date:
 - type: published
-  at: 1970-10
+  at: '1970-10-01'
 contributor:
 - role:
   - type: publisher
@@ -85,23 +83,28 @@ copyright:
       name:
       - content: ISO/R
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1501:2009
+    formattedref:
+      content: ISO 1501:2009
     docidentifier:
     - content: ISO 1501:2009
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1998-11-03'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 1501
+    docidentifier:
+    - content: ISO/CD 1501
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: recommendation
   flavor: iso
   ics:
   - code: 21.040.30

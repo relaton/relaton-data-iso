@@ -1,54 +1,48 @@
 ---
 id: ISOIEC1651222008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: 'Relayed multicast protocol: Specification for simplex group applications'
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2:'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Relayed multicast protocol: Specification for
     simplex group applications - Part 2:'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Protocole de multidiffusion relayé: Spécification relative aux applications
     de groupe simplex'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2:'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Protocole de multidiffusion relayé: Spécification
     relative aux applications de groupe simplex - Partie 2:'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46220.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:46220:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/62/46220.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '16512'
 date:
 - type: published
-  at: 2008-05
+  at: '2008-05-07'
 contributor:
 - role:
   - type: publisher
@@ -118,19 +112,6 @@ abstract:
     for simplex group communications specified in ISO/IEC 16512-2:2008 focuses exclusively
     on one-to-many group services, such as Internet live broadcasting services and
     file dissemination services.
-- language: fr
-  script: Latn
-  content: L'ISO/CEI 16512-2:2008 spécifie le protocole de multidiffusion relayé (RMCP),
-    Partie 2 (RMCP-2), qui est un protocole de commande qui réalise et supporte le
-    canevas de transport de données de multidiffusion relayé pour les applications
-    de groupe simplex. L'ISO/CEI 16512-2:2008 décrit la topologie RMCP, les scénarios
-    de service et la définition du cadre RMCP sans aucune modification. La topologie
-    RMCP et les scénarios de service spécifiés dans l'ISO 16512-2:2008 suivent la
-    définition du cadre RMCP sans aucune modification. Parmi les services de communications
-    de groupe spécifiés dans le cadre RMCP, le RMCP pour les communications de groupe
-    simplex spécifiées dans l'ISO/CEI 16512-2:2008 se concentre exclusivement sur
-    les services de groupe point à multipoint, tels que les services de diffusion
-    générale en ligne et de diffusion de fichiers sur Internet.
 status:
   stage:
     content: '95'
@@ -143,21 +124,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 16512-2:2011
+    formattedref:
+      content: ISO/IEC DIS 16512-2
+    docidentifier:
+    - content: ISO/IEC DIS 16512-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 16512-2:2011
     docidentifier:
     - content: ISO/IEC 16512-2:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-11-23'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

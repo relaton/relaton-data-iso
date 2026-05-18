@@ -1,52 +1,45 @@
 ---
 id: ISO41501991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Green coffee
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Size analysis
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Manual sieving
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Green coffee - Size analysis - Manual sieving
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Café vert
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse granulométrique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tamisage manuel
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Café vert - Analyse granulométrique - Tamisage manuel
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9914.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9914:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/99/9914.detail.rss
 docidentifier:
@@ -60,7 +53,7 @@ docidentifier:
 docnumber: '4150'
 date:
 - type: published
-  at: 1991-06
+  at: '1991-06-27'
 contributor:
 - role:
   - type: publisher
@@ -94,12 +87,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit une méthode pratique pour la détermination de la granulométrie (analyse granulométrique) du café vert, par tamisage manuel, en utilisant des tamis de contrôle de laboratoire. La méthode comprend la détermination de la teneur en eau ou la perte de masse à 105 °C.
 status:
   stage:
     content: '95'
@@ -114,27 +101,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4150:1980
-    docidentifier:
-    - content: ISO 4150:1980
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 4150:2011
+    formattedref:
+      content: ISO 4150:2011
     docidentifier:
     - content: ISO 4150:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-11-15'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 4150
+    docidentifier:
+    - content: ISO/CD 4150
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 4150
+    docidentifier:
+    - content: ISO/NP 4150
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4150:1980
+    docidentifier:
+    - content: ISO 4150:1980
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -144,4 +144,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 4150
+      content: '9914'

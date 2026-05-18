@@ -1,51 +1,45 @@
 ---
 id: ISO89651987
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Logging industry
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Technology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Terms and definitions
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Logging industry - Technology - Terms and definitions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Exploitation forestière
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Termes et définitions
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Exploitation forestière - Techniques - Termes et définitions
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16488.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16488:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/64/16488.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '8965'
 date:
 - type: published
-  at: 1987-11
+  at: '1987-11-05'
 contributor:
 - role:
   - type: publisher
@@ -91,14 +85,12 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
-  script: Latn
-  content: Relates to production operations. The standard is a trilingual edition
-    and includes an alphabetical index in English, French and Russian.
-- language: fr
   script: Latn
   content: Relates to production operations. The standard is a trilingual edition
     and includes an alphabetical index in English, French and Russian.
@@ -114,21 +106,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8965:2013
+    formattedref:
+      content: ISO/DIS 24294
+    docidentifier:
+    - content: ISO/DIS 24294
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 8965:2013
     docidentifier:
     - content: ISO 8965:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-10-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,52 +1,46 @@
 ---
 id: ISO70012007Amd12013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Graphical symbols
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Public information symbols
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Amendment 1
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Graphical symbols - Public information symbols - Amendment 1
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Symboles graphiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Symboles destinés à l'information du public
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Amendement 1
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Symboles graphiques - Symboles destinés à l'information du public - Amendement
     1
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63487.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63487:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/34/63487.detail.rss
 docidentifier:
@@ -55,14 +49,10 @@ docidentifier:
   primary: true
 - content: ISO 7001:2007/Amd 1:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso:7001:ed-3:stage-95.99:amd:2013:v1
-  type: URN
 docnumber: '7001'
 date:
 - type: published
-  at: '2007'
-- type: updated
-  at: 2013-06
+  at: '2013-05-16'
 contributor:
 - role:
   - type: publisher
@@ -94,8 +84,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 status:
   stage:
     content: '95'
@@ -108,39 +100,24 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7001:2023
+    formattedref:
+      content: ISO 7001:2023
     docidentifier:
     - content: ISO 7001:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-02-06'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 7001:2007/Amd 1:2013/Cor 1:2014
-    docidentifier:
-    - content: ISO 7001:2007/Amd 1:2013/Cor 1:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2023-02-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: 01.080.10
     text: Public information symbols. Signs. Plates. Labels
   structuredidentifier:
-    type: ISO
     project_number:
       content: '63487'

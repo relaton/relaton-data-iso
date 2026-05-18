@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1979462005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Biometric data interchange formats
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 6: Iris image data'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Biometric data interchange formats - Part 6:
     Iris image data'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Formats d'échange de données biométriques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Données d''image de l''iris'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Formats d''échange de données biométriques
     - Partie 6: Données d''image de l''iris'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38750.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '19794'
 date:
 - type: published
-  at: 2005-06
+  at: '2005-06-10'
 contributor:
 - role:
   - type: publisher
@@ -103,24 +95,21 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 19794-6:2005 specifies two alternative image interchange formats for biometric authentication systems that utilize iris recognition.
-    The first is based on a rectilinear image storage format that may be a raw, uncompressed array of intensity values or a compressed format such as that specified by ISO/IEC 15444.
-    The second format is based on a polar image specification that requires certain pre-processing and image segmentation steps, but produces a much more compact data structure that contains only iris information.
-    Data that comply with either one of the iris image formats specified in ISO/IEC 19794-6:2005 are intended to be embedded in a CBEFF-compliant structure in the CBEFF Biometric Data Block (BDB) as specified in ISO/IEC 19785-1.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 19794-6:2005 specifies two alternative image interchange formats for biometric authentication systems that utilize iris recognition.
-    The first is based on a rectilinear image storage format that may be a raw, uncompressed array of intensity values or a compressed format such as that specified by ISO/IEC 15444.
-    The second format is based on a polar image specification that requires certain pre-processing and image segmentation steps, but produces a much more compact data structure that contains only iris information.
-    Data that comply with either one of the iris image formats specified in ISO/IEC 19794-6:2005 are intended to be embedded in a CBEFF-compliant structure in the CBEFF Biometric Data Block (BDB) as specified in ISO/IEC 19785-1.
+  content: ISO/IEC 19794-6:2005 specifies two alternative image interchange formats
+    for biometric authentication systems that utilize iris recognition. The first
+    is based on a rectilinear image storage format that may be a raw, uncompressed
+    array of intensity values or a compressed format such as that specified by ISO/IEC
+    15444. The second format is based on a polar image specification that requires
+    certain pre-processing and image segmentation steps, but produces a much more
+    compact data structure that contains only iris information. Data that comply with
+    either one of the iris image formats specified in ISO/IEC 19794-6:2005 are intended
+    to be embedded in a CBEFF-compliant structure in the CBEFF Biometric Data Block
+    (BDB) as specified in ISO/IEC 19785-1.
 status:
   stage:
     content: '90'
@@ -133,21 +122,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 19794-6:2011
+    formattedref:
+      content: ISO/IEC 19794-6:2011
     docidentifier:
     - content: ISO/IEC 19794-6:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2012-10-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

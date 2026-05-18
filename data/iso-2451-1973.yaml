@@ -1,42 +1,37 @@
 ---
 id: ISO24511973
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Cocoa beans
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Specification
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cocoa beans - Specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Fèves de cacao
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Fèves de cacao - Spécifications
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7366.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7366:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/73/7366.detail.rss
 docidentifier:
@@ -50,7 +45,7 @@ docidentifier:
 docnumber: '2451'
 date:
 - type: published
-  at: 1973-12
+  at: '1973-12-01'
 contributor:
 - role:
   - type: publisher
@@ -91,12 +86,6 @@ abstract:
     requirements, grade standards, sampling, methods of test, packing and marking.
     Recommendations relating to storage and disinfection are given in annexes A and
     B respectively.
-- language: fr
-  script: Latn
-  content: Definitions of relevant terms. Then are specified the preparation, general
-    requirements, grade standards, sampling, methods of test, packing and marking.
-    Recommendations relating to storage and disinfection are given in annexes A and
-    B respectively.
 status:
   stage:
     content: '95'
@@ -109,21 +98,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2451:2014
+    formattedref:
+      content: ISO/WD 2451
+    docidentifier:
+    - content: ISO/WD 2451
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2451:2014
     docidentifier:
     - content: ISO 2451:2014
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2014-10-20'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -133,4 +127,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 2451
+      content: '7366'

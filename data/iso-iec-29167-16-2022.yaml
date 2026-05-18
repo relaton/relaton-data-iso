@@ -1,52 +1,44 @@
 ---
 id: ISOIEC29167162022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic identification and data capture techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 16: Crypto suite ECDSA-ECDH security services for air interface communications'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Automatic identification and data capture techniques
     - Part 16: Crypto suite ECDSA-ECDH security services for air interface communications'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques automatiques d'identification et de capture de données
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 16: Services de sécurité de la suite cryptographique ECDSA-ECDH
     pour les communications d''interfaces aériennes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques automatiques d''identification
     et de capture de données - Partie 16: Services de sécurité de la suite cryptographique
     ECDSA-ECDH pour les communications d''interfaces aériennes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81524.html
@@ -65,7 +57,7 @@ docidentifier:
 docnumber: '29167'
 date:
 - type: published
-  at: 2022-11
+  at: '2022-11-29'
 contributor:
 - role:
   - type: publisher
@@ -105,24 +97,23 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document describes a crypto suite based on elliptic curve cryptography (ECC) for the ISO/IEC 18000 series of standards protocol. In particular, this document specifies the use of elliptic curve Diffie-Hellman (ECDH) key agreement in a secure channel establishment and the use of elliptic curve digital signature algorithm (ECDSA) in an authentication mechanism.
-    This document specifies a crypto suite for ECDSA-ECDH for air interface for RFID systems. The crypto suite is defined in alignment with existing air interfaces.
-    This document defines a mutual authentication method and methods of use for the cipher. A Tag and an Interrogator can support one, a subset, or all of the specified options, clearly stating what is supported. Key update is not supported in this document.
-    ECDSA-ECDH cipher is a high-weight security protocol especially for active RFID system, aiming at meeting those scenarios with high level security requirement.
-- language: fr
-  script: Latn
-  content: |-
-    This document describes a crypto suite based on elliptic curve cryptography (ECC) for the ISO/IEC 18000 series of standards protocol. In particular, this document specifies the use of elliptic curve Diffie-Hellman (ECDH) key agreement in a secure channel establishment and the use of elliptic curve digital signature algorithm (ECDSA) in an authentication mechanism.
-    This document specifies a crypto suite for ECDSA-ECDH for air interface for RFID systems. The crypto suite is defined in alignment with existing air interfaces.
-    This document defines a mutual authentication method and methods of use for the cipher. A Tag and an Interrogator can support one, a subset, or all of the specified options, clearly stating what is supported. Key update is not supported in this document.
-    ECDSA-ECDH cipher is a high-weight security protocol especially for active RFID system, aiming at meeting those scenarios with high level security requirement.
+  content: This document describes a crypto suite based on elliptic curve cryptography
+    (ECC) for the ISO/IEC 18000 series of standards protocol. In particular, this
+    document specifies the use of elliptic curve Diffie-Hellman (ECDH) key agreement
+    in a secure channel establishment and the use of elliptic curve digital signature
+    algorithm (ECDSA) in an authentication mechanism. This document specifies a crypto
+    suite for ECDSA-ECDH for air interface for RFID systems. The crypto suite is defined
+    in alignment with existing air interfaces. This document defines a mutual authentication
+    method and methods of use for the cipher. A Tag and an Interrogator can support
+    one, a subset, or all of the specified options, clearly stating what is supported.
+    Key update is not supported in this document. ECDSA-ECDH cipher is a high-weight
+    security protocol especially for active RFID system, aiming at meeting those scenarios
+    with high level security requirement.
 status:
   stage:
     content: '60'
@@ -135,18 +126,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 29167-16:2015
+    formattedref:
+      content: ISO/IEC 29167-16:2015
     docidentifier:
     - content: ISO/IEC 29167-16:2015
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

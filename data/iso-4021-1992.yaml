@@ -1,46 +1,42 @@
 ---
 id: ISO40211992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hydraulic fluid power
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
-  content: Particulate contamination analysis — Extraction of fluid samples from lines
-    of an operating system
+  content: Particulate contamination analysis
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
-  content: Hydraulic fluid power - Particulate contamination analysis — Extraction
+  content: Extraction of fluid samples from lines of an operating system
+  type: title-part
+- language: en
+  script: Latn
+  content: Hydraulic fluid power - Particulate contamination analysis - Extraction
     of fluid samples from lines of an operating system
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions hydrauliques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse de la pollution par particules
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Prélèvement des échantillons de fluide dans les circuits en fonctionnement
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions hydrauliques - Analyse de la pollution par particules - Prélèvement
     des échantillons de fluide dans les circuits en fonctionnement
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9706.html
@@ -59,7 +55,7 @@ docidentifier:
 docnumber: '4021'
 date:
 - type: published
-  at: 1992-11
+  at: '1992-10-21'
 contributor:
 - role:
   - type: publisher
@@ -101,13 +97,6 @@ abstract:
     of the fluid flowing at the point of sampling. An alternative method is to extract
     a sample from the reservoir, but this method should only be used if a suitable
     sampler is not fitted.
-- language: fr
-  script: Latn
-  content: The preferred method is to extract fluid samples from a main flowline in
-    such a manner that the particulate contaminant in the sample is representative
-    of the fluid flowing at the point of sampling. An alternative method is to extract
-    a sample from the reservoir, but this method should only be used if a suitable
-    sampler is not fitted.
 status:
   stage:
     content: '90'
@@ -122,38 +111,48 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4021:1977
+    formattedref:
+      content: ISO/PWI 4021
+    docidentifier:
+    - content: ISO/PWI 4021
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 4021
+    docidentifier:
+    - content: ISO/CD 4021
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 4021
+    docidentifier:
+    - content: ISO/DIS 4021
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 4021
+    docidentifier:
+    - content: ISO/NP 4021
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4021:1977
     docidentifier:
     - content: ISO 4021:1977
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 4021
-    docidentifier:
-    - content: ISO/CD 4021
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2023-03-06'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 4021
-    docidentifier:
-    - content: ISO/CD 4021
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2023-03-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

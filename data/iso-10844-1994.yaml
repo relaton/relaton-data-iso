@@ -1,45 +1,41 @@
 ---
 id: ISO108441994
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Acoustics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Specification of test tracks for the purpose of measuring noise emitted
     by road vehicles
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Acoustics - Specification of test tracks for the purpose of measuring noise
     emitted by road vehicles
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acoustique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification des surfaces d'essai pour le mesurage du bruit émis par les
     véhicules routiers
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acoustique - Spécification des surfaces d'essai pour le mesurage du bruit
     émis par les véhicules routiers
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/1341.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:1341:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/13/1341.detail.rss
 docidentifier:
@@ -53,7 +49,7 @@ docidentifier:
 docnumber: '10844'
 date:
 - type: published
-  at: 1994-09
+  at: '1994-09-01'
 contributor:
 - role:
   - type: publisher
@@ -96,14 +92,6 @@ abstract:
     used for vehicle noise testing generally where it is desirable to achieve a low
     level of tyre/road noise during the test. Does not take into account the influence
     on tyre/road noise of purely tyre-related parameters.
-- language: fr
-  script: Latn
-  content: Specifies the materials, design, construction and properties of a test
-    surface in order to minimize intersite variation in vehicle noise measurements.
-    Has been developed particularly for use with the ISO 362 and ISO 7188; can be
-    used for vehicle noise testing generally where it is desirable to achieve a low
-    level of tyre/road noise during the test. Does not take into account the influence
-    on tyre/road noise of purely tyre-related parameters.
 status:
   stage:
     content: '95'
@@ -116,29 +104,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10844:2011
+    formattedref:
+      content: ISO/CD 10844
+    docidentifier:
+    - content: ISO/CD 10844
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 10844:2011
     docidentifier:
     - content: ISO 10844:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-01-31'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.020'
-    text: Road vehicles in general
   - code: 17.140.30
     text: Noise emitted by means of transport
+  - code: '43.020'
+    text: Road vehicles in general
   structuredidentifier:
     type: ISO
     project_number:

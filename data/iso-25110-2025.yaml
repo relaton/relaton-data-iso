@@ -1,42 +1,36 @@
 ---
 id: ISO251102025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Electronic fee collection
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Interface definition for on-board account using an integrated circuit card
     (ICC)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Electronic fee collection - Interface definition for on-board account using
     an integrated circuit card (ICC)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception de télépéage
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Définition d’interface pour compte embarqué utilisant une carte à circuit(s)
     intégré(s)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception de télépéage - Définition d’interface pour compte embarqué utilisant
     une carte à circuit(s) intégré(s)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/89711.html
@@ -55,7 +49,7 @@ docidentifier:
 docnumber: '25110'
 date:
 - type: published
-  at: 2025-04
+  at: '2025-04-08'
 contributor:
 - role:
   - type: publisher
@@ -86,34 +80,22 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the data transfer models between roadside equipment (RSE) and integrated circuit cards (ICCs) and the interface descriptions between the RSE and on-board equipment (OBE) for on-board accounts using an ICC. It also provides examples of interface definitions and transactions deployed in several countries.
-    This document covers:
-    —    data transfer models between the RSE and ICC which correspond to the categorized operational requirements and the data transfer mechanism for each model;
-    —    the interface definition between the RSE and OBE based on each data transfer model;
-    —    the interface definition for each model;
-    —    the functional configuration;
-    —    RSE command definitions for ICC access;
-    —    the data format and data element definitions of RSE commands;
-    —    a transaction example for each model (Annex B).
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the data transfer models between roadside equipment (RSE) and integrated circuit cards (ICCs) and the interface descriptions between the RSE and on-board equipment (OBE) for on-board accounts using an ICC. It also provides examples of interface definitions and transactions deployed in several countries.
-    This document covers:
-    —    data transfer models between the RSE and ICC which correspond to the categorized operational requirements and the data transfer mechanism for each model;
-    —    the interface definition between the RSE and OBE based on each data transfer model;
-    —    the interface definition for each model;
-    —    the functional configuration;
-    —    RSE command definitions for ICC access;
-    —    the data format and data element definitions of RSE commands;
-    —    a transaction example for each model (Annex B).
+  content: 'This document specifies the data transfer models between roadside equipment
+    (RSE) and integrated circuit cards (ICCs) and the interface descriptions between
+    the RSE and on-board equipment (OBE) for on-board accounts using an ICC. It also
+    provides examples of interface definitions and transactions deployed in several
+    countries. This document covers: —    data transfer models between the RSE and
+    ICC which correspond to the categorized operational requirements and the data
+    transfer mechanism for each model; —    the interface definition between the RSE
+    and OBE based on each data transfer model; —    the interface definition for each
+    model; —    the functional configuration; —    RSE command definitions for ICC
+    access; —    the data format and data element definitions of RSE commands; —   
+    a transaction example for each model (Annex B).'
 status:
   stage:
     content: '60'
@@ -126,26 +108,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 25110:2017
+    formattedref:
+      content: ISO 25110:2017
     docidentifier:
     - content: ISO 25110:2017
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

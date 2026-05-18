@@ -1,50 +1,42 @@
 ---
 id: ISOIEC101162017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Modes of operation for an n-bit block cipher
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Security techniques - Modes of operation for an
     n-bit block cipher
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Modes opératoires pour un chiffrement par blocs de n bits
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques de sécurité - Modes opératoires
     pour un chiffrement par blocs de n bits
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/64575.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '10116'
 date:
 - type: published
-  at: 2017-07
+  at: '2017-07-11'
 contributor:
 - role:
   - type: publisher
@@ -103,28 +95,25 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 10116:2017 data during transmission or in storage). The defined modes only provide protection of data confidentiality. Protection of data integrity is not within the scope of this document. Also, most modes do not protect the confidentiality of message length information.
-    NOTE 1       Methods for protecting the integrity of data using a block cipher are provided in ISO/IEC 9797-1.
-    NOTE 2       Methods for simultaneously protecting the confidentiality and integrity of data are provided in ISO/IEC 19772.
-    ISO/IEC 10116:2017 specifies the modes of operation and gives recommendations for choosing values of parameters (as appropriate).
-    NOTE 3       The modes of operation specified in this document have been assigned object identifiers in accordance with ISO/IEC 9834. The list of assigned object identifiers is given in Annex A. In applications in which object identifiers are used, the object identifiers specified in Annex A are to be used in preference to any other object identifiers that can exist for the mode concerned.
-    NOTE 4       Annex B contains comments on the properties of each mode and important security guidance.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 10116:2017 data during transmission or in storage). The defined modes only provide protection of data confidentiality. Protection of data integrity is not within the scope of this document. Also, most modes do not protect the confidentiality of message length information.
-    NOTE 1       Methods for protecting the integrity of data using a block cipher are provided in ISO/IEC 9797-1.
-    NOTE 2       Methods for simultaneously protecting the confidentiality and integrity of data are provided in ISO/IEC 19772.
-    ISO/IEC 10116:2017 specifies the modes of operation and gives recommendations for choosing values of parameters (as appropriate).
-    NOTE 3       The modes of operation specified in this document have been assigned object identifiers in accordance with ISO/IEC 9834. The list of assigned object identifiers is given in Annex A. In applications in which object identifiers are used, the object identifiers specified in Annex A are to be used in preference to any other object identifiers that can exist for the mode concerned.
-    NOTE 4       Annex B contains comments on the properties of each mode and important security guidance.
+  content: ISO/IEC 10116:2017 data during transmission or in storage). The defined
+    modes only provide protection of data confidentiality. Protection of data integrity
+    is not within the scope of this document. Also, most modes do not protect the
+    confidentiality of message length information. NOTE 1 Methods for protecting the
+    integrity of data using a block cipher are provided in ISO/IEC 9797-1. NOTE 2
+    Methods for simultaneously protecting the confidentiality and integrity of data
+    are provided in ISO/IEC 19772. ISO/IEC 10116:2017 specifies the modes of operation
+    and gives recommendations for choosing values of parameters (as appropriate).
+    NOTE 3 The modes of operation specified in this document have been assigned object
+    identifiers in accordance with ISO/IEC 9834. The list of assigned object identifiers
+    is given in Annex A. In applications in which object identifiers are used, the
+    object identifiers specified in Annex A are to be used in preference to any other
+    object identifiers that can exist for the mode concerned. NOTE 4 Annex B contains
+    comments on the properties of each mode and important security guidance.
 status:
   stage:
     content: '90'
@@ -137,37 +126,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 10116:2006
-    docidentifier:
-    - content: ISO/IEC 10116:2006
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 10116:2006/Cor 1:2008
+    formattedref:
+      content: ISO/IEC 10116:2006/Cor 1:2008
     docidentifier:
     - content: ISO/IEC 10116:2006/Cor 1:2008
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 10116:2017/Amd 1:2021
+    formattedref:
+      content: ISO/IEC 10116:2006
     docidentifier:
-    - content: ISO/IEC 10116:2017/Amd 1:2021
+    - content: ISO/IEC 10116:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-05-05'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

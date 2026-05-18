@@ -1,39 +1,33 @@
 ---
 id: ISO52102023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial valves
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Multi-turn valve actuator attachments
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Industrial valves - Multi-turn valve actuator attachments
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Robinetterie industrielle
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Raccordement des actionneurs multitours aux appareils de robinetterie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Robinetterie industrielle - Raccordement des actionneurs multitours aux
     appareils de robinetterie
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/86752.html
@@ -47,12 +41,12 @@ docidentifier:
   primary: true
 - content: ISO 5210:2023(E)
   type: iso-reference
-- content: urn:iso:std:iso:5210:stage-90.92
+- content: urn:iso:std:iso:5210:stage-95.99
   type: URN
 docnumber: '5210'
 date:
 - type: published
-  at: 2023-09
+  at: '2023-09-22'
 contributor:
 - role:
   - type: publisher
@@ -89,27 +83,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the requirements for the attachment of multi-turn actuators to valves.
-    Throughout this document, “actuator” can be understood as “actuator and/or gearbox” providing a multi-turn and/or linear output.
-    It specifies:
-    —     flange dimensions necessary for the attachment of actuators to industrial valves [see Figure 1 a)] or to intermediate supports [see Figure 1 b)];
-    —     those driving component dimensions of actuators which are necessary to attach them to the driven components;
-    —     reference values for torque and thrust for flanges having the dimensions specified in this document.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document prescrit les exigences de raccordement des actionneurs multitours aux appareils de robinetterie.
-    Tout au long du présent document, le terme «actionneur» peut être compris comme «actionneur et/ou réducteur» fournissant une sortie multitours et/ou linéaire.
-    Il prescrit:
-    —     les dimensions des brides nécessaires pour le raccordement des actionneurs aux appareils de robinetterie industrielle [voir Figure 1 a)] ou aux supports intermédiaires [voir Figure 1 b)];
-    —     les dimensions des éléments d'entraînement des actionneurs nécessaires à leur accouplement aux éléments entraînés;
-    —     les valeurs de référence du couple et de la poussée pour les brides ayant les dimensions spécifiées dans le présent document.
+  content: 'This document specifies the requirements for the attachment of multi-turn
+    actuators to valves. Throughout this document, “actuator” can be understood as
+    “actuator and/or gearbox” providing a multi-turn and/or linear output. It specifies:
+    —     flange dimensions necessary for the attachment of actuators to industrial
+    valves [see Figure 1 a)] or to intermediate supports [see Figure 1 b)]; —    
+    those driving component dimensions of actuators which are necessary to attach
+    them to the driven components; —     reference values for torque and thrust for
+    flanges having the dimensions specified in this document.'
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2023'
   owner:
@@ -119,24 +105,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5210:2017
+    formattedref:
+      content: ISO 5210:2026
+    docidentifier:
+    - content: ISO 5210:2026
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 5210:2017
     docidentifier:
     - content: ISO 5210:2017
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 5210
+    formattedref:
+      content: ISO 5210:2017/DAmd 1
     docidentifier:
-    - content: ISO/DIS 5210
+    - content: ISO 5210:2017/DAM 1
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

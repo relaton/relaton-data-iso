@@ -1,51 +1,43 @@
 ---
 id: ISOIEC9314262001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fibre Distributed Data Interface (FDDI)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 26: Media Access Control Conformance Testing (MAC-ATS)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Fibre Distributed Data Interface (FDDI) - Part
     26: Media Access Control Conformance Testing (MAC-ATS)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de données distribuées sur fibre (FDDI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 26: Essais de conformité de contrôle d''accès aux médias (MAC-ATS)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interface de données distribuées sur
     fibre (FDDI) - Partie 26: Essais de conformité de contrôle d''accès aux médias
     (MAC-ATS)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/22762.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '9314'
 date:
 - type: published
-  at: 2001-04
+  at: '2001-12-20'
 contributor:
 - role:
   - type: publisher
@@ -104,48 +96,29 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO/IEC 9314 contains the abstract test suite for the Fibre Distributed Data Interface
-    (FDDI) token ring Media Access Control (MAC) layer protocol. This test suite was developed
-    based on the principles defined in OSI Conformance Testing Methodology and Framework
-    (ISO/IEC 9646) and written in Tree and Tabular Combined Notation (TTCN), and intended for
-    testing conformance to the MAC standard (ISO/IEC 9314-2:1989) of any FDDI stations.
-    The test methodology is the "remote single layer test" as described in ISO/IEC 9646. The
-    abstract test scripts specify the MAC layer Protocol Data Units (PDU) to be exchanged
-    between the two MAC entities, the MAC on the tester and the MAC on the Implementation
-    Under Test (IUT). The tester is called the Lower Tester (LT).
-    The test suite does not require use of any higher layer protocols, nor does it assume
-    existence of Logical Link Control (LLC) layer implementation on the IUT. It expects, however,
-    that the Station Management (SMT) function is available on the IUT. Since MAC itself does
-    not originate any data frames, the tester uses SMT to test the processing capability of MAC
-    by sending frames to SMT and observing the SMT originated response frames.
-    The testing is expected to be conducted in a controlled environment with a minimum
-    configuration (figure 1): a token ring with two stations, one being the LT and the other the IUT.
-- language: fr
-  script: Latn
-  content: |-
-    This part of ISO/IEC 9314 contains the abstract test suite for the Fibre Distributed Data Interface
-    (FDDI) token ring Media Access Control (MAC) layer protocol. This test suite was developed
-    based on the principles defined in OSI Conformance Testing Methodology and Framework
-    (ISO/IEC 9646) and written in Tree and Tabular Combined Notation (TTCN), and intended for
-    testing conformance to the MAC standard (ISO/IEC 9314-2:1989) of any FDDI stations.
-    The test methodology is the "remote single layer test" as described in ISO/IEC 9646. The
-    abstract test scripts specify the MAC layer Protocol Data Units (PDU) to be exchanged
-    between the two MAC entities, the MAC on the tester and the MAC on the Implementation
-    Under Test (IUT). The tester is called the Lower Tester (LT).
-    The test suite does not require use of any higher layer protocols, nor does it assume
-    existence of Logical Link Control (LLC) layer implementation on the IUT. It expects, however,
-    that the Station Management (SMT) function is available on the IUT. Since MAC itself does
-    not originate any data frames, the tester uses SMT to test the processing capability of MAC
-    by sending frames to SMT and observing the SMT originated response frames.
-    The testing is expected to be conducted in a controlled environment with a minimum
-    configuration (figure 1): a token ring with two stations, one being the LT and the other the IUT.
+  content: 'This part of ISO/IEC 9314 contains the abstract test suite for the Fibre
+    Distributed Data Interface (FDDI) token ring Media Access Control (MAC) layer
+    protocol. This test suite was developed based on the principles defined in OSI
+    Conformance Testing Methodology and Framework (ISO/IEC 9646) and written in Tree
+    and Tabular Combined Notation (TTCN), and intended for testing conformance to
+    the MAC standard (ISO/IEC 9314-2:1989) of any FDDI stations. The test methodology
+    is the "remote single layer test" as described in ISO/IEC 9646. The abstract test
+    scripts specify the MAC layer Protocol Data Units (PDU) to be exchanged between
+    the two MAC entities, the MAC on the tester and the MAC on the Implementation
+    Under Test (IUT). The tester is called the Lower Tester (LT). The test suite does
+    not require use of any higher layer protocols, nor does it assume existence of
+    Logical Link Control (LLC) layer implementation on the IUT. It expects, however,
+    that the Station Management (SMT) function is available on the IUT. Since MAC
+    itself does not originate any data frames, the tester uses SMT to test the processing
+    capability of MAC by sending frames to SMT and observing the SMT originated response
+    frames. The testing is expected to be conducted in a controlled environment with
+    a minimum configuration (figure 1): a token ring with two stations, one being
+    the LT and the other the IUT.'
 status:
   stage:
     content: '90'
@@ -158,9 +131,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

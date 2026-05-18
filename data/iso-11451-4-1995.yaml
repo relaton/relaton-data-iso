@@ -1,56 +1,50 @@
 ---
 id: ISO1145141995
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Electrical disturbances by narrowband radiated electromagnetic energy
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Vehicle test methods -- Part 4: Bulk current injection (BCI)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Electrical disturbances by narrowband radiated electromagnetic
     energy - Vehicle test methods -- Part 4: Bulk current injection (BCI)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Perturbations électriques par rayonnement d'énergie électromagnétique à
     bande étroite
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Méthodes d''essai des véhicules -- Partie 4: Méthode d''injection de courant
     (BCI)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Perturbations électriques par rayonnement d''énergie
     électromagnétique à bande étroite - Méthodes d''essai des véhicules -- Partie
     4: Méthode d''injection de courant (BCI)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/19397.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:19397:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/93/19397.detail.rss
 docidentifier:
@@ -64,7 +58,7 @@ docidentifier:
 docnumber: '11451'
 date:
 - type: published
-  at: 1995-11
+  at: '1995-11-23'
 contributor:
 - role:
   - type: publisher
@@ -95,18 +89,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: Specifies bulk current injection (BCI) test methods and procedures for
-    the determination of the electromagnetic compatibility of electronic components
-    of passenger cars and commercial vehicles regardless of the propulsion system.
-    The electromagnetic disturbance considered in this part is limited to continuous
-    narrowband electromagnetic fields.
-- language: fr
   script: Latn
   content: Specifies bulk current injection (BCI) test methods and procedures for
     the determination of the electromagnetic compatibility of electronic components
@@ -125,29 +111,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11451-4:2006
+    formattedref:
+      content: ISO/WD 11451-4
+    docidentifier:
+    - content: ISO/WD 11451-4
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 11451-4:2006
     docidentifier:
     - content: ISO 11451-4:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-06-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 33.100.20
-    text: Immunity
   - code: 43.040.10
     text: Electrical and electronic equipment
+  - code: 33.100.20
+    text: Immunity
   structuredidentifier:
     type: ISO
     project_number:

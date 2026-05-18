@@ -1,50 +1,42 @@
 ---
 id: ISOIEC7816152016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Integrated circuit cards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 15: Cryptographic information application'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Identification cards - Integrated circuit cards - Part 15: Cryptographic
     information application'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes à circuit intégré à contacts
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 15: Application des informations cryptographiques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes d''identification - Cartes à circuit intégré à contacts - Partie
     15: Application des informations cryptographiques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/65250.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '7816'
 date:
 - type: published
-  at: 2016-05
+  at: '2016-05-09'
 contributor:
 - role:
   - type: publisher
@@ -103,60 +95,33 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 7816-15:2016 specifies an application in a card. This application
+  content: 'ISO/IEC 7816-15:2016 specifies an application in a card. This application
     contains information on cryptographic functionality. This part of ISO/IEC 7816
     defines a common syntax and format for the cryptographic information and mechanisms
-    to share this information whenever appropriate. \nThe objectives of this part
-    of ISO/IEC 7816 are to\n- -      facilitate interoperability among components
-    running on various platforms (platform neutral),\n- -      enable applications
-    in the outside world to take advantage of products and components from multiple
-    manufacturers (vendor neutral),\n- -      enable the use of advances in technology
-    without rewriting application-level software (application neutral), and\n- -      maintain
-    consistency with existing, related standards while expanding upon them only where
-    necessary and practical.\nIt supports the following capabilities:\n- -      storage
-    of multiple instances of cryptographic information in a card;\n- -      use of
-    the cryptographic information;\n- -      retrieval of the cryptographic information,
-    a key factor for this is the notion of \"Directory Files\", which provides a layer
-    of indirection between objects on the card and the actual format of these objects;\n-
-    -      cross-referencing of the cryptographic information with DOs defined in
-    other parts of ISO/IEC 7816 when appropriate; \n- -      different authentication
-    mechanisms;\n- -      multiple cryptographic algorithms (the suitability of these
-    is outside the scope of this part of ISO/IEC 7816).\nISO/IEC 7816-15.2016 does
-    not cover the internal implementation within the card and/or the outside world.
-    It is not mandatory for implementations complying with this International Standard
-    to support all options described.\nIn case of discrepancies between ASN.1 definitions
-    in the body of the text and the module in Annex A, Annex A takes precedence."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 7816-15:2016 specifies an application in a card. This application
-    contains information on cryptographic functionality. This part of ISO/IEC 7816
-    defines a common syntax and format for the cryptographic information and mechanisms
-    to share this information whenever appropriate. \nThe objectives of this part
-    of ISO/IEC 7816 are to\n- -      facilitate interoperability among components
-    running on various platforms (platform neutral),\n- -      enable applications
-    in the outside world to take advantage of products and components from multiple
-    manufacturers (vendor neutral),\n- -      enable the use of advances in technology
-    without rewriting application-level software (application neutral), and\n- -      maintain
-    consistency with existing, related standards while expanding upon them only where
-    necessary and practical.\nIt supports the following capabilities:\n- -      storage
-    of multiple instances of cryptographic information in a card;\n- -      use of
-    the cryptographic information;\n- -      retrieval of the cryptographic information,
-    a key factor for this is the notion of \"Directory Files\", which provides a layer
-    of indirection between objects on the card and the actual format of these objects;\n-
-    -      cross-referencing of the cryptographic information with DOs defined in
-    other parts of ISO/IEC 7816 when appropriate; \n- -      different authentication
-    mechanisms;\n- -      multiple cryptographic algorithms (the suitability of these
-    is outside the scope of this part of ISO/IEC 7816).\nISO/IEC 7816-15.2016 does
-    not cover the internal implementation within the card and/or the outside world.
-    It is not mandatory for implementations complying with this International Standard
-    to support all options described.\nIn case of discrepancies between ASN.1 definitions
-    in the body of the text and the module in Annex A, Annex A takes precedence."
+    to share this information whenever appropriate. The objectives of this part of
+    ISO/IEC 7816 are to - facilitate interoperability among components running on
+    various platforms (platform neutral), - enable applications in the outside world
+    to take advantage of products and components from multiple manufacturers (vendor
+    neutral), - enable the use of advances in technology without rewriting application-level
+    software (application neutral), and - maintain consistency with existing, related
+    standards while expanding upon them only where necessary and practical. It supports
+    the following capabilities: - storage of multiple instances of cryptographic information
+    in a card; - use of the cryptographic information; - retrieval of the cryptographic
+    information, a key factor for this is the notion of "Directory Files", which provides
+    a layer of indirection between objects on the card and the actual format of these
+    objects; - cross-referencing of the cryptographic information with DOs defined
+    in other parts of ISO/IEC 7816 when appropriate; - different authentication mechanisms;
+    - multiple cryptographic algorithms (the suitability of these is outside the scope
+    of this part of ISO/IEC 7816). ISO/IEC 7816-15.2016 does not cover the internal
+    implementation within the card and/or the outside world. It is not mandatory for
+    implementations complying with this International Standard to support all options
+    described. In case of discrepancies between ASN.1 definitions in the body of the
+    text and the module in Annex A, Annex A takes precedence.'
 status:
   stage:
     content: '90'
@@ -169,64 +134,42 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-15:2004
-    docidentifier:
-    - content: ISO/IEC 7816-15:2004
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-15:2004/Amd 1:2007
-    docidentifier:
-    - content: ISO/IEC 7816-15:2004/Amd 1:2007
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-15:2004/Cor 1:2004
-    docidentifier:
-    - content: ISO/IEC 7816-15:2004/Cor 1:2004
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-15:2004/Amd 2:2008
+    formattedref:
+      content: ISO/IEC 7816-15:2004/Amd 2:2008
     docidentifier:
     - content: ISO/IEC 7816-15:2004/Amd 2:2008
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-15:2016/Amd 1:2018
+    formattedref:
+      content: ISO/IEC 7816-15:2004
     docidentifier:
-    - content: ISO/IEC 7816-15:2016/Amd 1:2018
+    - content: ISO/IEC 7816-15:2004
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-10-08'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-15:2016/CD Amd 2
+    formattedref:
+      content: ISO/IEC 7816-15:2004/Amd 1:2007
     docidentifier:
-    - content: ISO/IEC 7816-15:2016/CD Amd 2
+    - content: ISO/IEC 7816-15:2004/Amd 1:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-10-08'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 7816-15:2004/Cor 1:2004
+    docidentifier:
+    - content: ISO/IEC 7816-15:2004/Cor 1:2004
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

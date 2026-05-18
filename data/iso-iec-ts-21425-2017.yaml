@@ -1,41 +1,37 @@
 ---
 id: ISOIECTS214252017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Programming languages
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: C++ Extensions for ranges
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Programming languages - C++ Extensions for ranges
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Extensions C++ pour les «ranges»
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation - Extensions C++ pour les «ranges»
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70910.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:70910:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/09/70910.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '21425'
 date:
 - type: published
-  at: 2017-11
+  at: '2017-12-04'
 contributor:
 - role:
   - type: publisher
@@ -89,56 +85,35 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC TS 21425:2017 describes extensions to the C++ Programming Language (2) that permit operations on ranges of data. These extensions include changes and additions to the existing library facilities as well as the extension of one core language facility. In particular, changes and extensions to the Standard Library include:
-    - The formulation of the foundational and iterator concept requirements using the syntax of the Concepts
-    TS (2).
-    - Analogues of the Standard Library algorithms specified in terms of the new concepts.
-    - The loosening of the algorithm constraints to permit the use of sentinels to denote the end of a range
-    and corresponding changes to algorithm return types where necessary.
-    - The addition of new concepts describing range and view abstractions; that is, objects with a begin
-    iterator and an end sentinel.
-    - New algorithm overloads that take range objects.
-    - Support of callable objects (as opposed to function objects) passed as arguments to the algorithms.
-    - The addition of optional projection arguments to the algorithms to permit on-the-fly data transforma-
-    tions.
-    - Analogues of the iterator primitives and new primitives in support of the addition of sentinels to the
-    library.
-    - Constrained analogues of the standard iterator adaptors and stream iterators that satisfy the new iterator concepts.
-    - New iterator adaptors (counted_iterator and common_iterator) and sentinels (unreachable).
-    Changes to the core language include:
-    - the extension of the range-based for statement to support the new iterator range requirements (10.4).
-    ISO/IEC TS 21425:2017 does not specify constrained analogues of other parts of the Standard Library (e.g., the numeric algorithms), nor does it add range support to all the places that could benefit from it (e.g., the containers).
-    ISO/IEC TS 21425:2017 does not specify any new range views, actions, or facade or adaptor utilities; all are left as future work.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC TS 21425:2017 describes extensions to the C++ Programming Language (2) that permit operations on ranges of data. These extensions include changes and additions to the existing library facilities as well as the extension of one core language facility. In particular, changes and extensions to the Standard Library include:
-    - The formulation of the foundational and iterator concept requirements using the syntax of the Concepts
-    TS (2).
-    - Analogues of the Standard Library algorithms specified in terms of the new concepts.
-    - The loosening of the algorithm constraints to permit the use of sentinels to denote the end of a range
-    and corresponding changes to algorithm return types where necessary.
-    - The addition of new concepts describing range and view abstractions; that is, objects with a begin
-    iterator and an end sentinel.
-    - New algorithm overloads that take range objects.
-    - Support of callable objects (as opposed to function objects) passed as arguments to the algorithms.
-    - The addition of optional projection arguments to the algorithms to permit on-the-fly data transforma-
-    tions.
-    - Analogues of the iterator primitives and new primitives in support of the addition of sentinels to the
-    library.
-    - Constrained analogues of the standard iterator adaptors and stream iterators that satisfy the new iterator concepts.
-    - New iterator adaptors (counted_iterator and common_iterator) and sentinels (unreachable).
-    Changes to the core language include:
-    - the extension of the range-based for statement to support the new iterator range requirements (10.4).
-    ISO/IEC TS 21425:2017 does not specify constrained analogues of other parts of the Standard Library (e.g., the numeric algorithms), nor does it add range support to all the places that could benefit from it (e.g., the containers).
-    ISO/IEC TS 21425:2017 does not specify any new range views, actions, or facade or adaptor utilities; all are left as future work.
+  content: 'ISO/IEC TS 21425:2017 describes extensions to the C++ Programming Language
+    (2) that permit operations on ranges of data. These extensions include changes
+    and additions to the existing library facilities as well as the extension of one
+    core language facility. In particular, changes and extensions to the Standard
+    Library include: - The formulation of the foundational and iterator concept requirements
+    using the syntax of the Concepts TS (2). - Analogues of the Standard Library algorithms
+    specified in terms of the new concepts. - The loosening of the algorithm constraints
+    to permit the use of sentinels to denote the end of a range and corresponding
+    changes to algorithm return types where necessary. - The addition of new concepts
+    describing range and view abstractions; that is, objects with a begin iterator
+    and an end sentinel. - New algorithm overloads that take range objects. - Support
+    of callable objects (as opposed to function objects) passed as arguments to the
+    algorithms. - The addition of optional projection arguments to the algorithms
+    to permit on-the-fly data transforma- tions. - Analogues of the iterator primitives
+    and new primitives in support of the addition of sentinels to the library. - Constrained
+    analogues of the standard iterator adaptors and stream iterators that satisfy
+    the new iterator concepts. - New iterator adaptors (counted_iterator and common_iterator)
+    and sentinels (unreachable). Changes to the core language include: - the extension
+    of the range-based for statement to support the new iterator range requirements
+    (10.4). ISO/IEC TS 21425:2017 does not specify constrained analogues of other
+    parts of the Standard Library (e.g., the numeric algorithms), nor does it add
+    range support to all the places that could benefit from it (e.g., the containers).
+    ISO/IEC TS 21425:2017 does not specify any new range views, actions, or facade
+    or adaptor utilities; all are left as future work.'
 status:
   stage:
     content: '95'
@@ -151,9 +126,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

@@ -1,54 +1,48 @@
 ---
 id: ISO2602142009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: End-of-life activation of on-board pyrotechnic devices
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Additional communication line with bidirectional communication'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - End-of-life activation of on-board pyrotechnic devices
     - Part 4: Additional communication line with bidirectional communication'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Activation de fin de vie des dispositifs pyrotechniques embarqués
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Ligne de communication additionnelle avec communication bidirectionnelle'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Activation de fin de vie des dispositifs pyrotechniques
     embarqués - Partie 4: Ligne de communication additionnelle avec communication
     bidirectionnelle'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45459.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45459:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/54/45459.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '26021'
 date:
 - type: published
-  at: 2009-05
+  at: '2009-05-08'
 contributor:
 - role:
   - type: publisher
@@ -93,20 +87,17 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 26021-4:2009 defines the requirements of redundancy hardware or software systems independent from the controller area network (CAN) line, which are activated by the additional communication line (ACL hardware line).
-    It describes the additional sequences of the deployment process, and the technical details for the direct hardware connection between the pyrotechnic device deployment tool (PDT) and the pyrotechnic control unit (PCU).
-- language: fr
-  script: Latn
-  content: |-
-    ISO 26021-4:2009 defines the requirements of redundancy hardware or software systems independent from the controller area network (CAN) line, which are activated by the additional communication line (ACL hardware line).
-    It describes the additional sequences of the deployment process, and the technical details for the direct hardware connection between the pyrotechnic device deployment tool (PDT) and the pyrotechnic control unit (PCU).
+  content: ISO 26021-4:2009 defines the requirements of redundancy hardware or software
+    systems independent from the controller area network (CAN) line, which are activated
+    by the additional communication line (ACL hardware line). It describes the additional
+    sequences of the deployment process, and the technical details for the direct
+    hardware connection between the pyrotechnic device deployment tool (PDT) and the
+    pyrotechnic control unit (PCU).
 status:
   stage:
     content: '95'
@@ -119,32 +110,42 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 26021-1:2022
+    formattedref:
+      content: ISO/WD 26021-4
     docidentifier:
-    - content: ISO 26021-1:2022
+    - content: ISO/WD 26021-4
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-05-03'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 26021-3:2022
+    formattedref:
+      content: ISO/AWI 26021-2
+    docidentifier:
+    - content: ISO/AWI 26021-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 26021-3:2022
     docidentifier:
     - content: ISO 26021-3:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-05-03'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 26021-1:2022
+    docidentifier:
+    - content: ISO 26021-1:2022
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

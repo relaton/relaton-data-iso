@@ -1,38 +1,32 @@
 ---
 id: ISO4722013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Plastics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Plastics - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44102.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 472:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso:472:stage-90.60
+- content: urn:iso:std:iso:472:stage-90.92
   type: URN
 docnumber: '472'
 date:
 - type: published
-  at: 2013-02
+  at: '2013-01-30'
 contributor:
 - role:
   - type: publisher
@@ -81,26 +75,29 @@ contributor:
 edition:
   content: '4'
 language:
+- de
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 472:2013 defines terms used in the plastics industry, including terms and definitions appearing in plastics standards (of ISO/TC 61) and general terms and definitions of polymer science used in all aspects of plastics technology.
-    In addition to terms in English and French (two of the three official ISO languages), this vocabulary includes the equivalent terms in German; these have been included under the responsibility of the member body for Germany (DIN). However, only the terms and definitions in the official languages can be considered as ISO terms and definitions.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 472:2013 définit les termes utilisés dans l'industrie des plastiques, y compris les termes et définitions apparaissant dans les normes plastiques (de l'ISO/TC 61) ainsi que les termes généraux et définitions de la science des polymères utilisés dans tous les aspects de la technologie des plastiques.
-    En complément des termes en anglais et en français (deux des trois langues officielles de l'ISO), le présent vocabulaire comprend les termes équivalents en allemand; ceux-ci ont été inclus sous la responsabilité du comité membre de l'Allemagne (DIN). Cependant, seuls les termes et définitions dans les langues officielles peuvent être considérés comme des termes et définitions ISO.
+  content: ISO 472:2013 defines terms used in the plastics industry, including terms
+    and definitions appearing in plastics standards (of ISO/TC 61) and general terms
+    and definitions of polymer science used in all aspects of plastics technology.
+    In addition to terms in English and French (two of the three official ISO languages),
+    this vocabulary includes the equivalent terms in German; these have been included
+    under the responsibility of the member body for Germany (DIN). However, only the
+    terms and definitions in the official languages can be considered as ISO terms
+    and definitions.
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2013'
   owner:
@@ -110,35 +107,48 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 472:1999
+    formattedref:
+      content: ISO/NP 472-5
     docidentifier:
-    - content: ISO 472:1999
+    - content: ISO/NP 472-5
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/AWI 472-6
+    docidentifier:
+    - content: ISO/AWI 472-6
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 472-3
+    docidentifier:
+    - content: ISO/CD 472-3
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 472:2013/Amd 1:2018
+    formattedref:
+      content: ISO 472:1999
     docidentifier:
-    - content: ISO 472:2013/Amd 1:2018
+    - content: ISO 472:1999
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-03-05'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.83
-    text: Rubber and plastics industries (Vocabularies)
   - code: 83.080.01
     text: Plastics in general
+  - code: 01.040.83
+    text: Rubber and plastics industries (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

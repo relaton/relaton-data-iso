@@ -1,51 +1,43 @@
 ---
 id: ISOIEC1594612016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Cryptographic techniques based on elliptic curves -- Part 1: General'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Cryptographic techniques
     based on elliptic curves -- Part 1: General'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Techniques cryptographiques basées sur les courbes elliptiques -- Partie
     1: Généralités'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Techniques cryptographiques
     basées sur les courbes elliptiques -- Partie 1: Généralités'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/65480.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '15946'
 date:
 - type: published
-  at: 2016-07
+  at: '2016-07-04'
 contributor:
 - role:
   - type: publisher
@@ -104,20 +96,19 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 15946-1:2016 describes the mathematical background and general techniques necessary for implementing the elliptic curve cryptography mechanisms defined in ISO/IEC 15946‑5, ISO/IEC 9796‑3, ISO/IEC 11770‑3, ISO/IEC 14888‑3, ISO/IEC 18033‑2 and other ISO/IEC standards.
-    ISO/IEC 15946-1:2016 does not specify the implementation of the techniques it defines. For example, it does not specify the basis representation to be used when the elliptic curve is defined over a finite field of characteristic two. Thus, interoperability of products complying with ISO/IEC 15946-1:2016 will not be guaranteed.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 15946-1:2016 describes the mathematical background and general techniques necessary for implementing the elliptic curve cryptography mechanisms defined in ISO/IEC 15946‑5, ISO/IEC 9796‑3, ISO/IEC 11770‑3, ISO/IEC 14888‑3, ISO/IEC 18033‑2 and other ISO/IEC standards.
-    ISO/IEC 15946-1:2016 does not specify the implementation of the techniques it defines. For example, it does not specify the basis representation to be used when the elliptic curve is defined over a finite field of characteristic two. Thus, interoperability of products complying with ISO/IEC 15946-1:2016 will not be guaranteed.
+  content: ISO/IEC 15946-1:2016 describes the mathematical background and general
+    techniques necessary for implementing the elliptic curve cryptography mechanisms
+    defined in ISO/IEC 15946‑5, ISO/IEC 9796‑3, ISO/IEC 11770‑3, ISO/IEC 14888‑3,
+    ISO/IEC 18033‑2 and other ISO/IEC standards. ISO/IEC 15946-1:2016 does not specify
+    the implementation of the techniques it defines. For example, it does not specify
+    the basis representation to be used when the elliptic curve is defined over a
+    finite field of characteristic two. Thus, interoperability of products complying
+    with ISO/IEC 15946-1:2016 will not be guaranteed.
 status:
   stage:
     content: '90'
@@ -130,26 +121,34 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15946-1:2008
-    docidentifier:
-    - content: ISO/IEC 15946-1:2008
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 15946-1:2008/Cor 1:2009
+    formattedref:
+      content: ISO/IEC 15946-1:2008/Cor 1:2009
     docidentifier:
     - content: ISO/IEC 15946-1:2008/Cor 1:2009
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 15946-1:2008
+    docidentifier:
+    - content: ISO/IEC 15946-1:2008
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 15946-1:2008/Cor 2:2014
+    docidentifier:
+    - content: ISO/IEC 15946-1:2008/Cor 2:2014
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

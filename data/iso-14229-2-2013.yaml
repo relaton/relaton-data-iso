@@ -1,53 +1,47 @@
 ---
 id: ISO1422922013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Unified diagnostic services (UDS)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Session layer services'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Unified diagnostic services (UDS) - Part 2: Session layer
     services'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Services de diagnostic unifiés (SDU)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Séquence des couches de services'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Services de diagnostic unifiés (SDU) - Partie 2:
     Séquence des couches de services'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45763.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45763:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/57/45763.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '14229'
 date:
 - type: published
-  at: 2013-02
+  at: '2013-02-21'
 contributor:
 - role:
   - type: publisher
@@ -92,38 +86,23 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO 14229-2:2013 specifies data link independent requirements of session
-    layer services. \nISO 14229-2:2013 specifies common session layer services to
-    provide independence between unified diagnostic services (ISO 14229-1) and all
-    transport protocols and network layer services (e.g. ISO 15765-2 DoCAN, ISO 10681-2
-    communication on FlexRay, ISO 13400 DoIP, ISO 14230-2 DoK-Line, etc.)\nISO 14229-2:2013
-    specifies a common service primitive interface between OSI layer 4 (Transport)
-    and layer 5 (Session) via so-called service request/confirmation/indication primitives.
+  content: ISO 14229-2:2013 specifies data link independent requirements of session
+    layer services. ISO 14229-2:2013 specifies common session layer services to provide
+    independence between unified diagnostic services (ISO 14229-1) and all transport
+    protocols and network layer services (e.g. ISO 15765-2 DoCAN, ISO 10681-2 communication
+    on FlexRay, ISO 13400 DoIP, ISO 14230-2 DoK-Line, etc.) ISO 14229-2:2013 specifies
+    a common service primitive interface between OSI layer 4 (Transport) and layer
+    5 (Session) via so-called service request/confirmation/indication primitives.
     This interface allows seamless implementation of ISO 14229-1 unified diagnostic
-    services (UDS) with any communication protocol titled \"DoXYZ / CoXYZ\" like ISO
+    services (UDS) with any communication protocol titled "DoXYZ / CoXYZ" like ISO
     15765 DoCAN - diagnostic communication over Controller Area Network, ISO 13400
-    DoIP, ISO 10681 communication over FlexRay, ISO 14230 DoK-Line. \nISO 15031 (emissions-related
-    OBD) and ISO 27145 (WWH-OBD) support the standardized service primitive interface."
-- language: fr
-  script: Latn
-  content: "ISO 14229-2:2013 specifies data link independent requirements of session
-    layer services. \nISO 14229-2:2013 specifies common session layer services to
-    provide independence between unified diagnostic services (ISO 14229-1) and all
-    transport protocols and network layer services (e.g. ISO 15765-2 DoCAN, ISO 10681-2
-    communication on FlexRay, ISO 13400 DoIP, ISO 14230-2 DoK-Line, etc.)\nISO 14229-2:2013
-    specifies a common service primitive interface between OSI layer 4 (Transport)
-    and layer 5 (Session) via so-called service request/confirmation/indication primitives.
-    This interface allows seamless implementation of ISO 14229-1 unified diagnostic
-    services (UDS) with any communication protocol titled \"DoXYZ / CoXYZ\" like ISO
-    15765 DoCAN - diagnostic communication over Controller Area Network, ISO 13400
-    DoIP, ISO 10681 communication over FlexRay, ISO 14230 DoK-Line. \nISO 15031 (emissions-related
-    OBD) and ISO 27145 (WWH-OBD) support the standardized service primitive interface."
+    DoIP, ISO 10681 communication over FlexRay, ISO 14230 DoK-Line. ISO 15031 (emissions-related
+    OBD) and ISO 27145 (WWH-OBD) support the standardized service primitive interface.
 status:
   stage:
     content: '95'
@@ -136,21 +115,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14229-2:2021
+    formattedref:
+      content: ISO 14229-2:2021
     docidentifier:
     - content: ISO 14229-2:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-10-12'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

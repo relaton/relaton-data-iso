@@ -1,41 +1,37 @@
 ---
 id: ISO32512008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints, varnishes and plastics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of non-volatile-matter content
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints, varnishes and plastics - Determination of non-volatile-matter content
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures, vernis et plastiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de l'extrait sec
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures, vernis et plastiques - Détermination de l'extrait sec
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44649.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:44649:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/46/44649.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '3251'
 date:
 - type: published
-  at: 2008-02
+  at: '2008-01-31'
 contributor:
 - role:
   - type: publisher
@@ -81,19 +77,25 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 3251:2008 specifies a method for determining the non-volatile-matter content by mass of paints, varnishes, binders for paints and varnishes, polymer dispersions and condensation resins such as phenolic resins (resols, novolak solutions, etc.).
-    The method is also applicable to formulated dispersions containing fillers, pigments and other auxiliaries (e.g. thickeners and film-forming agents). For the method to be usable for unplasticized polymer dispersions and rubber latices, the non-volatile residue (which consists essentially of the polymeric material and of small quantities of auxiliaries such as emulsifiers, protective colloids, stabilizers, solvents added as film-forming agents and — especially for rubber latex concentrate — preserving agents) has to be chemically stable under the test conditions. For plasticized samples, the residue, by definition, normally includes the plasticizer.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 3251:2008 spécifie une méthode de détermination de l'extrait sec (matière non volatile) en masse des peintures, des vernis, des liants pour peintures et vernis, des dispersions de polymères et des résines de condensation, comme les résines phénoliques (résols, novolaques en solution, etc.).
-    La méthode est également applicable aux formulations en dispersion contenant des charges, des pigments ou d'autres additifs (par exemple des épaississeurs, des agents filmogènes). Pour que la méthode soit applicable aux dispersions polymères non plastifiées et aux latex de caoutchouc, l'extrait sec (essentiellement constitué du matériau polymère et de faibles quantités d'additifs tels que des émulsifiants, des colloïdes de protection, des stabilisateurs, des solvants ajoutés tels que des agents filmogènes et — particulièrement dans le cas des latex de caoutchouc concentrés — des agents de préservation) doit être chimiquement stable dans les conditions d'essai. Dans le cas d'échantillons plastifiés, le résidu inclut, par définition, le plastifiant.
+  content: ISO 3251:2008 specifies a method for determining the non-volatile-matter
+    content by mass of paints, varnishes, binders for paints and varnishes, polymer
+    dispersions and condensation resins such as phenolic resins (resols, novolak solutions,
+    etc.). The method is also applicable to formulated dispersions containing fillers,
+    pigments and other auxiliaries (e.g. thickeners and film-forming agents). For
+    the method to be usable for unplasticized polymer dispersions and rubber latices,
+    the non-volatile residue (which consists essentially of the polymeric material
+    and of small quantities of auxiliaries such as emulsifiers, protective colloids,
+    stabilizers, solvents added as film-forming agents and — especially for rubber
+    latex concentrate — preserving agents) has to be chemically stable under the test
+    conditions. For plasticized samples, the residue, by definition, normally includes
+    the plasticizer.
 status:
   stage:
     content: '95'
@@ -108,35 +110,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3251:2003
-    docidentifier:
-    - content: ISO 3251:2003
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 3251:2019
+    formattedref:
+      content: ISO 3251:2019
     docidentifier:
     - content: ISO 3251:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-05-14'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3251:2003
+    docidentifier:
+    - content: ISO 3251:2003
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '87.040'
-    text: Paints and varnishes
   - code: 83.080.01
     text: Plastics in general
+  - code: '87.040'
+    text: Paints and varnishes
   - code: 87.060.20
     text: Binders
   structuredidentifier:

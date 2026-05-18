@@ -1,53 +1,47 @@
 ---
 id: ISO1012621991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Banking
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Procedures for message encipherment (wholesale)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: DEA algorithm'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Banking - Procedures for message encipherment (wholesale) - Part 2: DEA
     algorithm'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Procédures de chiffrement de messages (service aux entreprises)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Algorithme DEA'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Banque - Procédures de chiffrement de messages (service aux entreprises)
     - Partie 2: Algorithme DEA'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/18114.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:18114:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/81/18114.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '10126'
 date:
 - type: published
-  at: 1991-07
+  at: '1991-07-18'
 contributor:
 - role:
   - type: publisher
@@ -100,11 +94,6 @@ abstract:
   script: Latn
   content: DEA may be used as a suitable algorithm to implement ISO 10126-1, and is
     specified in ANSI X3.92. Keys shall be managed in accordance with ISO 8732.
-- language: fr
-  script: Latn
-  content: |2
-
-    L'ISO 10126-1 prescrit une méthode de chiffrement et de déchiffrement des messages financiers entiers (ou partiels) grâce à l'utilisation du chiffrement niveau ou application, dans un but de confidentialité. DEA est un algorithme approprié pour mettre en oeuvre l'ISO 10126-1. Il est spécifié dans l'ANSI X3.92. Les clés doivent être gérées conformément à l'ISO 8732.
 status:
   stage:
     content: '95'
@@ -116,10 +105,27 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 10126-2
+    docidentifier:
+    - content: ISO/WD 10126-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 10126-2
+    docidentifier:
+    - content: ISO/NP 10126-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

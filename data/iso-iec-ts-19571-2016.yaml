@@ -1,43 +1,39 @@
 ---
 id: ISOIECTS195712016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Programming Languages
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Technical specification for C++ extensions for concurrency
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Programming Languages - Technical specification for C++ extensions for
     concurrency
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification technique pour C ++ Extensions pour la concurrence
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation - Spécification technique pour C ++ Extensions
     pour la concurrence
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/65242.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:65242:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/52/65242.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '19571'
 date:
 - type: published
-  at: 2016-02
+  at: '2016-01-19'
 contributor:
 - role:
   - type: publisher
@@ -91,38 +87,22 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    Since the extensions described in this ISO/IEC TS 19571:2016 are experimental and not part of the C++ standard library, they should not be declared directly within namespace std. Unless otherwise specified, all components described in this technical specification either:
-    - modify an existing interface in the C++ Standard Library in-place,
-    - are declared in a namespace whose name appends ::experimental::concurrency_v1 to a namespace defined in the C++ Standard Library, such as std, or
-    - are declared in a subnamespace of a namespace described in the previous bullet, whose name is not the same as an existing subnamespace of namespace std.
-    Each header described in this ISO/IEC TS 19571:2016 shall import the contents of std::experimental::concurrency_v1
-    into std::experimental as if by
-    namespace std {
-    namespace experimental {
-    inline namespace concurrency_v1 {}
-    }
-    }
-- language: fr
-  script: Latn
-  content: |-
-    Since the extensions described in this ISO/IEC TS 19571:2016 are experimental and not part of the C++ standard library, they should not be declared directly within namespace std. Unless otherwise specified, all components described in this technical specification either:
-    - modify an existing interface in the C++ Standard Library in-place,
-    - are declared in a namespace whose name appends ::experimental::concurrency_v1 to a namespace defined in the C++ Standard Library, such as std, or
-    - are declared in a subnamespace of a namespace described in the previous bullet, whose name is not the same as an existing subnamespace of namespace std.
-    Each header described in this ISO/IEC TS 19571:2016 shall import the contents of std::experimental::concurrency_v1
-    into std::experimental as if by
-    namespace std {
-    namespace experimental {
-    inline namespace concurrency_v1 {}
-    }
-    }
+  content: 'Since the extensions described in this ISO/IEC TS 19571:2016 are experimental
+    and not part of the C++ standard library, they should not be declared directly
+    within namespace std. Unless otherwise specified, all components described in
+    this technical specification either: - modify an existing interface in the C++
+    Standard Library in-place, - are declared in a namespace whose name appends ::experimental::concurrency_v1
+    to a namespace defined in the C++ Standard Library, such as std, or - are declared
+    in a subnamespace of a namespace described in the previous bullet, whose name
+    is not the same as an existing subnamespace of namespace std. Each header described
+    in this ISO/IEC TS 19571:2016 shall import the contents of std::experimental::concurrency_v1
+    into std::experimental as if by namespace std { namespace experimental { inline
+    namespace concurrency_v1 {} } }'
 status:
   stage:
     content: '95'
@@ -135,9 +115,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

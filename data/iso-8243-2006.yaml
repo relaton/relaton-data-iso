@@ -1,41 +1,37 @@
 ---
 id: ISO82432006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cigarettes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Sampling
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cigarettes - Sampling
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cigarettes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échantillonnage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cigarettes - Échantillonnage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38188.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:38188:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/81/38188.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '8243'
 date:
 - type: published
-  at: 2006-09
+  at: '2006-09-22'
 contributor:
 - role:
   - type: publisher
@@ -81,21 +77,26 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8243:2006 specifies two methods of providing representative samples of a population of cigarettes manufactured for sale. Different procedures are specified according to whether sampling is undertaken at the point of sale or at a factory.
-    - Sampling at one point in time provides for appraisal of the chosen properties of the cigarettes on that occasion. Sampling is carried out within as short a period as possible.
-    - Sampling over a period of time provides for on-going appraisals. It can be considered for practical purposes as a series of samples each taken at one point in time.
-    ISO 8243:2006 provides information on the statistical basis for the treatment of data and gives estimates, based on practical experience, of the typical confidence intervals for NFDPM, nicotine and CO yields which may be found when a product is sampled in accordance with this International Standard and smoked in accordance with the procedures specified in International Standards ISO 3308, ISO 3402, ISO 4387, ISO 8454, ISO 10315, ISO 10362-1 and ISO 10362-2.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 8243:2006 spécifie deux méthodes permettant d'obtenir des échantillons représentatifs d'une population de cigarettes, fabriquées pour la vente. Différents modes opératoires sont décrits selon que l'échantillonnage est exécuté au point de vente ou à l'usine.
-    L'ISO 8243:2006 donne des informations sur le traitement statistique des données et fournit des estimations, fondées sur l'expérience pratique, des intervalles de confiance types des rendements en matière particulaire anhydre et exempte de nicotine, en nicotine et en monoxyde de carbone (CO) existants lorsque l'échantillonnage est réalisé conformément à l'ISO 8243:2006 et que le fumage des produits est réalisé conformément aux modes opératoires décrits dans l'ISO 3308, dans l'ISO 3402, dans l'ISO 4387, dans l'ISO 8454, dans l'ISO 10315, dans l'ISO 10362-1 et dans l'ISO 10362-2.
+  content: ISO 8243:2006 specifies two methods of providing representative samples
+    of a population of cigarettes manufactured for sale. Different procedures are
+    specified according to whether sampling is undertaken at the point of sale or
+    at a factory. Sampling at one point in time provides for appraisal of the chosen
+    properties of the cigarettes on that occasion. Sampling is carried out within
+    as short a period as possible.Sampling over a period of time provides for on-going
+    appraisals. It can be considered for practical purposes as a series of samples
+    each taken at one point in time. ISO 8243:2006 provides information on the statistical
+    basis for the treatment of data and gives estimates, based on practical experience,
+    of the typical confidence intervals for NFDPM, nicotine and CO yields which may
+    be found when a product is sampled in accordance with this International Standard
+    and smoked in accordance with the procedures specified in International Standards
+    ISO 3308, ISO 3402, ISO 4387, ISO 8454, ISO 10315, ISO 10362-1 and ISO 10362-2.
 status:
   stage:
     content: '95'
@@ -110,27 +111,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8243:2003
-    docidentifier:
-    - content: ISO 8243:2003
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 8243:2013
+    formattedref:
+      content: ISO 8243:2013
     docidentifier:
     - content: ISO 8243:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-07-04'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8243:2003
+    docidentifier:
+    - content: ISO 8243:2003
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

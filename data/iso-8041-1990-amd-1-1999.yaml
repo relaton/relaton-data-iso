@@ -1,52 +1,46 @@
 ---
 id: ISO80411990Amd11999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Human response to vibration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Measuring instrumentation
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Amendment 1
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Human response to vibration - Measuring instrumentation - Amendment 1
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Réponse des individus aux vibrations
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareillage de mesure
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Amendement 1
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Réponse des individus aux vibrations - Appareillage de mesure - Amendement
     1
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/27055.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:27055:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/70/27055.detail.rss
 docidentifier:
@@ -55,14 +49,10 @@ docidentifier:
   primary: true
 - content: ISO 8041:1990/Amd 1:1999(E)
   type: iso-reference
-- content: urn:iso:std:iso:8041:ed-1:stage-95.99:amd:1999:v1
-  type: URN
 docnumber: '8041'
 date:
 - type: published
-  at: '1990'
-- type: updated
-  at: 1999-11
+  at: '1999-11-04'
 contributor:
 - role:
   - type: publisher
@@ -108,28 +98,32 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8041:2005
+    formattedref:
+      content: ISO 8041:2005
     docidentifier:
     - content: ISO 8041:2005
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2005-04-06'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 8041
+    docidentifier:
+    - content: ISO/NP 8041
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: '13.160'
     text: Vibration and shock with respect to human beings
   structuredidentifier:
-    type: ISO
     project_number:
       content: '27055'

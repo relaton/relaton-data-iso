@@ -1,53 +1,47 @@
 ---
 id: ISOPAS228532005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Ships and marine technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Computer applications
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Specification of Maritime Safety Markup Language (MSML)
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Ships and marine technology - Computer applications - Specification of
     Maritime Safety Markup Language (MSML)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Navires et technologie maritime
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Applications informatiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification du language de la sécurité maritime
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Navires et technologie maritime - Applications informatiques - Spécification
     du language de la sécurité maritime
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41172.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41172:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/11/41172.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '22853'
 date:
 - type: published
-  at: 2005-10
+  at: '2005-09-23'
 contributor:
 - role:
   - type: publisher
@@ -92,13 +86,14 @@ edition:
   content: '1'
 language:
 - en
-- fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: "ISO 22853:2005 specifies the XML application MSML (Maritime Safety Markup
+  content: 'ISO 22853:2005 specifies the XML application MSML (Maritime Safety Markup
     Language). MSML is a language for structuring information and the goal is to create
     an open standard that can be used generally in the maritime sector. MSML is implemented
     using XML Schema, which is contained in a separate document that could be used
@@ -107,43 +102,18 @@ abstract:
     is to define an extensible structure that could be developed in future versions
     of MSML. Note that MSML should not primarily be seen as a support for normal work
     onboard. Instead, it is an add-on support for transfers of safety related information
-    to/from the vessel.\nMSML enables security handling and since MSML concerns safety
-    aspects there is information support for\n- preventing accidents;\n- minimizing
-    extent of damage; \n- minimizing criticality of consequences. \nThese aspects
-    concern both vessel and bases ashore (denoted shore bases in this Publicly Available
-    Specification).\nMSML consists of the following constituents:\n- data model that
-    defines the data of interest. The basic parts of the data model are vessel static
-    and dynamic areas, shore base static and dynamic areas and vessel shore base relation.
-    Each of these can be created successively and thus validation can be made even
-    if information is not complete;\n- administrative support that defines the handling
-    of the XML application instance as a file;\n- security support that defines the
-    handling of data security. MSML enables digital signatures and encryption via
-    the W3C recommendations 'XML Encryption Syntax and Processing' and 'XML-Signature
-    Syntax and Processing'."
-- language: fr
-  script: Latn
-  content: "ISO 22853:2005 specifies the XML application MSML (Maritime Safety Markup
-    Language). MSML is a language for structuring information and the goal is to create
-    an open standard that can be used generally in the maritime sector. MSML is implemented
-    using XML Schema, which is contained in a separate document that could be used
-    at validation. The first purpose of MSML is to make it possible to record safety
-    related information in relation to repair and maintenance. The second purpose
-    is to define an extensible structure that could be developed in future versions
-    of MSML. Note that MSML should not primarily be seen as a support for normal work
-    onboard. Instead, it is an add-on support for transfers of safety related information
-    to/from the vessel.\nMSML enables security handling and since MSML concerns safety
-    aspects there is information support for\n- preventing accidents;\n- minimizing
-    extent of damage; \n- minimizing criticality of consequences. \nThese aspects
-    concern both vessel and bases ashore (denoted shore bases in this Publicly Available
-    Specification).\nMSML consists of the following constituents:\n- data model that
-    defines the data of interest. The basic parts of the data model are vessel static
-    and dynamic areas, shore base static and dynamic areas and vessel shore base relation.
-    Each of these can be created successively and thus validation can be made even
-    if information is not complete;\n- administrative support that defines the handling
-    of the XML application instance as a file;\n- security support that defines the
-    handling of data security. MSML enables digital signatures and encryption via
-    the W3C recommendations 'XML Encryption Syntax and Processing' and 'XML-Signature
-    Syntax and Processing'."
+    to/from the vessel. MSML enables security handling and since MSML concerns safety
+    aspects there is information support for preventing accidents;minimizing extent
+    of damage; minimizing criticality of consequences. These aspects concern both
+    vessel and bases ashore (denoted shore bases in this Publicly Available Specification).
+    MSML consists of the following constituents: data model that defines the data
+    of interest. The basic parts of the data model are vessel static and dynamic areas,
+    shore base static and dynamic areas and vessel shore base relation. Each of these
+    can be created successively and thus validation can be made even if information
+    is not complete;administrative support that defines the handling of the XML application
+    instance as a file;security support that defines the handling of data security.
+    MSML enables digital signatures and encryption via the W3C recommendations ''XML
+    Encryption Syntax and Processing'' and ''XML-Signature Syntax and Processing''.'
 status:
   stage:
     content: '95'
@@ -156,9 +126,9 @@ copyright:
       name:
       - content: ISO/PAS
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: publicly-available-specification
   flavor: iso

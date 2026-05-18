@@ -1,41 +1,37 @@
 ---
 id: ISO7042009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Terminology work
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Principles and methods
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Terminology work - Principles and methods
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Travail terminologique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Principes et méthodes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Travail terminologique - Principes et méthodes
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38109.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:38109:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/81/38109.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '704'
 date:
 - type: published
-  at: 2009-11
+  at: '2009-10-30'
 contributor:
 - role:
   - type: publisher
@@ -86,14 +82,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 704:2009 establishes the basic principles and methods for preparing and compiling terminologies both inside and outside the framework of standardization, and describes the links between objects, concepts, and their terminological representations. It also establishes general principles governing the formation of designations and the formulation of definitions. Full and complete understanding of these principles requires some background knowledge of terminology work. The principles are general in nature and this document is applicable to terminology work in scientific, technological, industrial, administrative and other fields of knowledge.
-    ISO 704:2009 does not stipulate procedures for the layout of international terminology standards, which are treated in ISO 10241.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 704:2009 établit et harmonise les principes fondamentaux et les méthodes permettant d'élaborer et de compiler des terminologies, qu'il s'agisse d'activités menées dans le cadre de la normalisation ou non, et décrit les liens établis entre les objets, les concepts et leur représentation par des terminologies. Elle fixe également des principes généraux qui régissent la formation des désignations et la formulation des définitions. Pour une compréhension complète et approfondie de ces principes, des connaissances de fond du travail terminologique sont nécessaires. Il s'agit de principes de nature générale, et le présent document s'applique aux travaux terminologiques effectués dans les domaines scientifiques, technologiques, industriels, administratifs, ainsi que dans les autres domaines de la connaissance.
-    L'ISO 704:2009 ne décrit pas les méthodes de présentation des Normes internationales de terminologie; celles-ci sont traitées dans l'ISO 10241.
+  content: ISO 704:2009 establishes the basic principles and methods for preparing
+    and compiling terminologies both inside and outside the framework of standardization,
+    and describes the links between objects, concepts, and their terminological representations.
+    It also establishes general principles governing the formation of designations
+    and the formulation of definitions. Full and complete understanding of these principles
+    requires some background knowledge of terminology work. The principles are general
+    in nature and this document is applicable to terminology work in scientific, technological,
+    industrial, administrative and other fields of knowledge. ISO 704:2009 does not
+    stipulate procedures for the layout of international terminology standards, which
+    are treated in ISO 10241.
 status:
   stage:
     content: '95'
@@ -108,27 +106,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 704:2000
+    formattedref:
+      content: ISO/PWI 704
     docidentifier:
-    - content: ISO 704:2000
+    - content: ISO/PWI 704
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 704:2022
+    formattedref:
+      content: ISO 704:2022
     docidentifier:
     - content: ISO 704:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-07-05'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 704:2000
+    docidentifier:
+    - content: ISO 704:2000
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

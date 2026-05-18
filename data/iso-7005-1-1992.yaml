@@ -1,41 +1,37 @@
 ---
 id: ISO700511992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Metallic flanges
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Steel flanges'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Metallic flanges - Part 1: Steel flanges'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Brides métalliques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Brides en acier'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Brides métalliques - Partie 1: Brides en acier'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/13573.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:13573:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/35/13573.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '7005'
 date:
 - type: published
-  at: 1992-04
+  at: '1992-04-09'
 contributor:
 - role:
   - type: publisher
@@ -91,13 +87,6 @@ abstract:
     surface finish, marking, testing and inspection. Annex D gives guidance on selected
     materials, and Annex E gives guidance on the pressure/temperature ratings for
     some flanges made from the materials listed in Annex D.'
-- language: fr
-  script: Latn
-  content: 'Specifies requirements for circular steel flanges in the PN series 1 and
-    2: types, facings, dimensions, tolerances, threading, bolt sizes, flange face
-    surface finish, marking, testing and inspection. Annex D gives guidance on selected
-    materials, and Annex E gives guidance on the pressure/temperature ratings for
-    some flanges made from the materials listed in Annex D.'
 status:
   stage:
     content: '95'
@@ -112,43 +101,48 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2084:1974
+    formattedref:
+      content: ISO 7005-1:2011
+    docidentifier:
+    - content: ISO 7005-1:2011
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 7005-1
+    docidentifier:
+    - content: ISO/WD 7005-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2084:1974
     docidentifier:
     - content: ISO 2084:1974
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 2229:1973
-    docidentifier:
-    - content: ISO 2229:1973
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 2441:1975
+    formattedref:
+      content: ISO 2441:1975
     docidentifier:
     - content: ISO 2441:1975
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 7005-1:2011
+    formattedref:
+      content: ISO 2229:1973
     docidentifier:
-    - content: ISO 7005-1:2011
+    - content: ISO 2229:1973
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-07-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

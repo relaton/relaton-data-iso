@@ -1,50 +1,42 @@
 ---
 id: ISOIEC781192015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Recording technique
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 9: Tactile identifier mark'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Identification cards - Recording technique - Part 9: Tactile identifier
     mark'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Technique d'enregistrement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 9: Marque d''identificateur tactile'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes d''identification - Technique d''enregistrement - Partie 9: Marque
     d''identificateur tactile'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63145.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 7811-9:2015(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:7811:-9:stage-90.93
+- content: urn:iso:std:iso-iec:7811:-9:stage-90.20
   type: URN
 docnumber: '7811'
 date:
 - type: published
-  at: 2015-12
+  at: '2015-12-02'
 contributor:
 - role:
   - type: publisher
@@ -103,7 +95,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -113,17 +104,11 @@ abstract:
     mark used by visually impaired card holders to distinguish their cards. It defines
     the area on the card for the TIM and the layout of Braille style embossed dots
     arranged in patterns to enable easy tactile recognition.
-- language: fr
-  script: Latn
-  content: ISO 7811-9:2015 specifies the physical characteristics of a tactile identifier
-    mark used by visually impaired card holders to distinguish their cards. It defines
-    the area on the card for the TIM and the layout of Braille style embossed dots
-    arranged in patterns to enable easy tactile recognition.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2015'
   owner:
@@ -133,16 +118,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 7811-9:2008
+    formattedref:
+      content: ISO/IEC WD 7811-9
+    docidentifier:
+    - content: ISO/IEC WD 7811-9
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 7811-9:2008
     docidentifier:
     - content: ISO/IEC 7811-9:2008
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

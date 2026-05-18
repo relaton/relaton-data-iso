@@ -1,38 +1,32 @@
 ---
 id: ISO225502021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Document management
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: AFP interchange for PDF
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Document management - AFP interchange for PDF
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des documents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échange AFP pour PDF
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des documents - Échange AFP pour PDF
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/83085.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '22550'
 date:
 - type: published
-  at: 2021-12
+  at: '2021-12-10'
 contributor:
 - role:
   - type: publisher
@@ -82,26 +76,23 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies Advanced Function Presentation (AFP) interchange as a container for document objects by defining the AFP file format Mixed Object Document Content Architecture (MO:DCA)[1]. It includes a means of identifying support for specifically including single and multi-page Portable Document Format (PDF) document objects as a container function set. It also includes a mechanism for pairing and managing resources associated with PDF.
-    NOTE       For an example of how PDF external file references map into AFP secondary resources, see Annex A.
-    The use of AFP is applicable to AFP and PDF workflows where the final production is managed within an Intelligent Printer Data Stream (IPDS) environment.
-     
-    [1] The Architecture references shown (MO:DCA as an example) are copyright of the AFP Consortium. This information is given for the convenience of users of this document and does not constitute an endorsement by ISO of this product.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies Advanced Function Presentation (AFP) interchange as a container for document objects by defining the AFP file format Mixed Object Document Content Architecture (MO:DCA)[1]. It includes a means of identifying support for specifically including single and multi-page Portable Document Format (PDF) document objects as a container function set. It also includes a mechanism for pairing and managing resources associated with PDF.
-    NOTE       For an example of how PDF external file references map into AFP secondary resources, see Annex A.
-    The use of AFP is applicable to AFP and PDF workflows where the final production is managed within an Intelligent Printer Data Stream (IPDS) environment.
-     
-    [1] The Architecture references shown (MO:DCA as an example) are copyright of the AFP Consortium. This information is given for the convenience of users of this document and does not constitute an endorsement by ISO of this product.
+  content: This document specifies Advanced Function Presentation (AFP) interchange
+    as a container for document objects by defining the AFP file format Mixed Object
+    Document Content Architecture (MO:DCA)[1]. It includes a means of identifying
+    support for specifically including single and multi-page Portable Document Format
+    (PDF) document objects as a container function set. It also includes a mechanism
+    for pairing and managing resources associated with PDF. NOTE       For an example
+    of how PDF external file references map into AFP secondary resources, see Annex A.
+    The use of AFP is applicable to AFP and PDF workflows where the final production
+    is managed within an Intelligent Printer Data Stream (IPDS) environment.   [1]
+    The Architecture references shown (MO:DCA as an example) are copyright of the
+    AFP Consortium. This information is given for the convenience of users of this
+    document and does not constitute an endorsement by ISO of this product.
 status:
   stage:
     content: '60'
@@ -114,18 +105,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 22550:2019
+    formattedref:
+      content: ISO 22550:2019
     docidentifier:
     - content: ISO 22550:2019
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

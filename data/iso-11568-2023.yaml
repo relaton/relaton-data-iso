@@ -1,38 +1,32 @@
 ---
 id: ISO115682023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Key management (retail)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Financial services - Key management (retail)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion de clés (services aux particuliers)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers - Gestion de clés (services aux particuliers)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73993.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '11568'
 date:
 - type: published
-  at: 2023-02
+  at: '2023-02-17'
 contributor:
 - role:
   - type: publisher
@@ -82,20 +76,24 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document describes the management of symmetric and asymmetric cryptographic keys that can be used to protect sensitive information in financial services related to retail payments. The document covers all aspects of retail financial services, including connections between a card-accepting device and an Acquirer, between an Acquirer and a card Issuer, and between an ICC and a card-accepting device. It covers all phases of the key life cycle, including the generation, distribution, utilization, archiving, replacement and destruction of the keying material. This document covers manual and automated management of keying material, and any combination thereof, used for retail financial services. It includes guidance and requirements related to key separation, substitution prevention, identification, synchronization, integrity, confidentiality and compromise, as well as logging and auditing of key management events.
-    Requirements associated with hardware used to manage keys have also been included in this document.
-- language: fr
-  script: Latn
-  content: |-
-    This document describes the management of symmetric and asymmetric cryptographic keys that can be used to protect sensitive information in financial services related to retail payments. The document covers all aspects of retail financial services, including connections between a card-accepting device and an Acquirer, between an Acquirer and a card Issuer, and between an ICC and a card-accepting device. It covers all phases of the key life cycle, including the generation, distribution, utilization, archiving, replacement and destruction of the keying material. This document covers manual and automated management of keying material, and any combination thereof, used for retail financial services. It includes guidance and requirements related to key separation, substitution prevention, identification, synchronization, integrity, confidentiality and compromise, as well as logging and auditing of key management events.
-    Requirements associated with hardware used to manage keys have also been included in this document.
+  content: This document describes the management of symmetric and asymmetric cryptographic
+    keys that can be used to protect sensitive information in financial services related
+    to retail payments. The document covers all aspects of retail financial services,
+    including connections between a card-accepting device and an Acquirer, between
+    an Acquirer and a card Issuer, and between an ICC and a card-accepting device.
+    It covers all phases of the key life cycle, including the generation, distribution,
+    utilization, archiving, replacement and destruction of the keying material. This
+    document covers manual and automated management of keying material, and any combination
+    thereof, used for retail financial services. It includes guidance and requirements
+    related to key separation, substitution prevention, identification, synchronization,
+    integrity, confidentiality and compromise, as well as logging and auditing of
+    key management events. Requirements associated with hardware used to manage keys
+    have also been included in this document.
 status:
   stage:
     content: '60'
@@ -108,34 +106,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 11568-1:2005
+    formattedref:
+      content: ISO 11568-1:2005
     docidentifier:
     - content: ISO 11568-1:2005
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 11568-2:2012
-    docidentifier:
-    - content: ISO 11568-2:2012
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 11568-4:2007
+    formattedref:
+      content: ISO 11568-4:2007
     docidentifier:
     - content: ISO 11568-4:2007
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11568-2:2012
+    docidentifier:
+    - content: ISO 11568-2:2012
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

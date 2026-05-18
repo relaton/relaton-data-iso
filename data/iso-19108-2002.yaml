@@ -1,38 +1,32 @@
 ---
 id: ISO191082002
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Temporal schema
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Temporal schema
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Schéma temporel
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Schéma temporel
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/26013.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 19108:2002(E)
   type: iso-reference
-- content: urn:iso:std:iso:19108:stage-90.93
+- content: urn:iso:std:iso:19108:stage-90.20
   type: URN
 docnumber: '19108'
 date:
 - type: published
-  at: 2002-09
+  at: '2002-09-12'
 contributor:
 - role:
   - type: publisher
@@ -82,7 +76,6 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -96,21 +89,11 @@ abstract:
     this International Standard is concerned with the temporal characteristics of
     geographic information as they are abstracted from the real world, it emphasizes
     valid time rather than transaction time.
-- language: fr
-  script: Latn
-  content: ISO 19108:2002 defines concepts for describing temporal characteristics
-    of geographic information. It depends upon existing information technology standards
-    for the interchange of temporal information. It provides a basis for defining
-    temporal feature attributes, feature operations, and feature associations, and
-    for defining the temporal aspects of metadata about geographic information. Since
-    this International Standard is concerned with the temporal characteristics of
-    geographic information as they are abstracted from the real world, it emphasizes
-    valid time rather than transaction time.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2002'
   owner:
@@ -118,21 +101,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 19108:2002/Cor 1:2006
+    formattedref:
+      content: ISO/PWI 19108
     docidentifier:
-    - content: ISO 19108:2002/Cor 1:2006
+    - content: ISO/PWI 19108
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-03-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

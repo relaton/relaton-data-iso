@@ -1,50 +1,42 @@
 ---
 id: ISO2002212013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Universal financial industry message scheme
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Metamodel'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Financial services - Universal financial industry message scheme - Part
     1: Metamodel'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Schéma universel de messages pour l'industrie financière
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Métamodèle'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Services financiers - Schéma universel de messages pour l''industrie financière
     - Partie 1: Métamodèle'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/55005.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 20022-1:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso:20022:-1:stage-90.92
+- content: urn:iso:std:iso:20022:-1:stage-95.99
   type: URN
 docnumber: '20022'
 date:
 - type: published
-  at: 2013-05
+  at: '2013-05-07'
 contributor:
 - role:
   - type: publisher
@@ -94,14 +86,26 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'ISO 20022-1:2013 consists of: the overall description of the modelling
+    approach; the overall description of the ISO 20022 Repository contents; a high-level
+    description of the input to be accepted by the Registration Authority to feed/modify
+    the Repository''s DataDictionary and BusinessProcessCatalogue; a high-level description
+    of the Repository output to be made publicly available by the Registration Authority.
+    BusinessTransactions and Message Sets complying with ISO 20022 can be used for
+    electronic data interchange among any industry participants (financial and others),
+    independently of any specific communication network. Network-dependent rules,
+    such as message acknowledgement and message protection, are outside the scope
+    of ISO 20022.'
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2013'
   owner:
@@ -111,24 +115,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 20022-1:2004
+    formattedref:
+      content: ISO 20022-1:2026
+    docidentifier:
+    - content: ISO 20022-1:2026
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 20022-1:2004
     docidentifier:
     - content: ISO 20022-1:2004
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/DIS 20022-1
-    docidentifier:
-    - content: ISO/DIS 20022-1
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

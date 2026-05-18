@@ -1,53 +1,47 @@
 ---
 id: ISO8662111999Amd12001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hand-held portable power tools
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Measurement of vibrations at the handle
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 11: Fastener driving tools -- Amendment 1'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Hand-held portable power tools - Measurement of vibrations at the handle
     - Part 11: Fastener driving tools -- Amendment 1'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Machines à moteur portatives
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesurage des vibrations au niveau des poignées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 11: Machines à enfoncer les fixations -- Amendement 1'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Machines à moteur portatives - Mesurage des vibrations au niveau des poignées
     - Partie 11: Machines à enfoncer les fixations -- Amendement 1'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/34630.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:34630:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/46/34630.detail.rss
 docidentifier:
@@ -56,14 +50,10 @@ docidentifier:
   primary: true
 - content: ISO 8662-11:1999/Amd 1:2001(E)
   type: iso-reference
-- content: urn:iso:std:iso:8662:-11:ed-1:stage-95.99:amd:2001:v1
-  type: URN
 docnumber: '8662'
 date:
 - type: published
-  at: '1999'
-- type: updated
-  at: 2001-12
+  at: '2001-11-29'
 contributor:
 - role:
   - type: publisher
@@ -109,30 +99,42 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 28927-13:2022
+    formattedref:
+      content: ISO/DIS 28927-13
+    docidentifier:
+    - content: ISO/DIS 28927-13
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 28927-13:2022
     docidentifier:
     - content: ISO 28927-13:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-02-11'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 8662-11
+    docidentifier:
+    - content: ISO/WD 8662-11
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
-  - code: '13.160'
-    text: Vibration and shock with respect to human beings
   - code: 25.140.10
     text: Pneumatic tools
+  - code: '13.160'
+    text: Vibration and shock with respect to human beings
   structuredidentifier:
-    type: ISO
     project_number:
       content: '34630'

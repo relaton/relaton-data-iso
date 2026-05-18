@@ -1,38 +1,32 @@
 ---
 id: ISO98781990
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Micrographics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Graphical symbols for use in microfilming
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Micrographics - Graphical symbols for use in microfilming
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Micrographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Symboles graphiques applicables à la micrographie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Micrographie - Symboles graphiques applicables à la micrographie
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/17757.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '9878'
 date:
 - type: published
-  at: 1990-04
+  at: '1990-04-19'
 contributor:
 - role:
   - type: publisher
@@ -96,19 +90,36 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 9878
+    docidentifier:
+    - content: ISO/CD 9878
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 9878
+    docidentifier:
+    - content: ISO/NP 9878
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '37.080'
-    text: Document imaging applications
   - code: 01.080.30
     text: Graphical symbols for use on mechanical engineering and construction drawings,
       diagrams, plans, maps and in relevant technical product documentation
+  - code: '37.080'
+    text: Document imaging applications
   structuredidentifier:
     type: ISO
     project_number:

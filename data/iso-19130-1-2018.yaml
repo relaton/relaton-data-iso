@@ -1,50 +1,42 @@
 ---
 id: ISO1913012018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Imagery sensor models for geopositioning
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Fundamentals'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Geographic information - Imagery sensor models for geopositioning - Part
     1: Fundamentals'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Modèles de capteurs d'images et géopositionnement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Principes de base'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Information géographique - Modèles de capteurs d''images et géopositionnement
     - Partie 1: Principes de base'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/66847.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '19130'
 date:
 - type: published
-  at: 2018-09
+  at: '2018-09-05'
 contributor:
 - role:
   - type: publisher
@@ -94,30 +86,33 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document identifies the information required to determine the relationship between the position of a remotely sensed pixel in image coordinates and its geoposition. It supports exploitation of remotely sensed images. It defines the metadata to be distributed with the image to enable user determination of geographic position from the observations.
-    This document specifies several ways in which information in support of geopositioning can be provided.
-    a)    It may be provided as a sensor description with the associated physical and geometric information necessary to rigorously construct a PSM. For the case where precise geoposition information is needed, this document identifies the mathematical equations for rigorously constructing PSMs that relate 2D image space to 3D ground space and the calculation of the associated propagated errors. This document provides detailed information for three types of passive electro-optical/ IR sensors (frame, pushbroom and whiskbroom) and for an active microwave sensing system SAR. It provides a framework by which these sensor models can be extended to other sensor types.
-    b)    It can be provided as a TRM, using functions whose coefficients are based on a PSM so that they provide information for precise geopositioning, including the calculation of errors, as precisely as the PSM they replace.
-    c)    It can be provided as a CM that provides a functional fitting based on observed relationships between the geopositions of a set of GCPs and their image coordinates.
-    d)    It can be provided as a set of GCPs that can be used to develop a CM or to refine a PSM or TRM.
-    This document does not specify either how users derive geoposition data or the format or content of the data the users generate.
-- language: fr
-  script: Latn
-  content: |-
-    This document identifies the information required to determine the relationship between the position of a remotely sensed pixel in image coordinates and its geoposition. It supports exploitation of remotely sensed images. It defines the metadata to be distributed with the image to enable user determination of geographic position from the observations.
-    This document specifies several ways in which information in support of geopositioning can be provided.
-    a)    It may be provided as a sensor description with the associated physical and geometric information necessary to rigorously construct a PSM. For the case where precise geoposition information is needed, this document identifies the mathematical equations for rigorously constructing PSMs that relate 2D image space to 3D ground space and the calculation of the associated propagated errors. This document provides detailed information for three types of passive electro-optical/ IR sensors (frame, pushbroom and whiskbroom) and for an active microwave sensing system SAR. It provides a framework by which these sensor models can be extended to other sensor types.
-    b)    It can be provided as a TRM, using functions whose coefficients are based on a PSM so that they provide information for precise geopositioning, including the calculation of errors, as precisely as the PSM they replace.
-    c)    It can be provided as a CM that provides a functional fitting based on observed relationships between the geopositions of a set of GCPs and their image coordinates.
-    d)    It can be provided as a set of GCPs that can be used to develop a CM or to refine a PSM or TRM.
-    This document does not specify either how users derive geoposition data or the format or content of the data the users generate.
+  content: This document identifies the information required to determine the relationship
+    between the position of a remotely sensed pixel in image coordinates and its geoposition.
+    It supports exploitation of remotely sensed images. It defines the metadata to
+    be distributed with the image to enable user determination of geographic position
+    from the observations. This document specifies several ways in which information
+    in support of geopositioning can be provided. a) It may be provided as a sensor
+    description with the associated physical and geometric information necessary to
+    rigorously construct a PSM. For the case where precise geoposition information
+    is needed, this document identifies the mathematical equations for rigorously
+    constructing PSMs that relate 2D image space to 3D ground space and the calculation
+    of the associated propagated errors. This document provides detailed information
+    for three types of passive electro-optical/ IR sensors (frame, pushbroom and whiskbroom)
+    and for an active microwave sensing system SAR. It provides a framework by which
+    these sensor models can be extended to other sensor types. b) It can be provided
+    as a TRM, using functions whose coefficients are based on a PSM so that they provide
+    information for precise geopositioning, including the calculation of errors, as
+    precisely as the PSM they replace. c) It can be provided as a CM that provides
+    a functional fitting based on observed relationships between the geopositions
+    of a set of GCPs and their image coordinates. d) It can be provided as a set of
+    GCPs that can be used to develop a CM or to refine a PSM or TRM. This document
+    does not specify either how users derive geoposition data or the format or content
+    of the data the users generate.
 status:
   stage:
     content: '90'
@@ -130,18 +125,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/TS 19130:2010
+    formattedref:
+      content: ISO/TS 19130:2010
     docidentifier:
     - content: ISO/TS 19130:2010
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,51 +1,45 @@
 ---
 id: ISO11321980
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rolling bearings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Tolerances
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Definitions
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Rolling bearings - Tolerances - Definitions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Roulements
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Tolérances
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Définitions
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Roulements - Tolérances - Définitions
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5665.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5665:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/56/5665.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '1132'
 date:
 - type: published
-  at: 1980-10
+  at: '1980-10-01'
 contributor:
 - role:
   - type: publisher
@@ -107,35 +101,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/R 200:1961
-    docidentifier:
-    - content: ISO/R 200:1961
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 1132-1:2000
+    formattedref:
+      content: ISO 1132-1:2000
     docidentifier:
     - content: ISO 1132-1:2000
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2000-09-21'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/R 200:1961
+    docidentifier:
+    - content: ISO/R 200:1961
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.21
-    text: Mechanical systems and components for general use (Vocabularies)
   - code: 21.100.20
     text: Rolling bearings
+  - code: 01.040.21
+    text: Mechanical systems and components for general use (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

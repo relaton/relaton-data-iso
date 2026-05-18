@@ -1,51 +1,43 @@
 ---
 id: ISO2856022023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: RFID in libraries
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Encoding of RFID data elements based on rules from ISO/IEC 15962'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information and documentation - RFID in libraries - Part 2: Encoding of
     RFID data elements based on rules from ISO/IEC 15962'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: RFID dans les bibliothèques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Encodage des éléments de données RFID fondé sur les règles de
     l''ISO/CEI 15962'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Information et documentation - RFID dans les bibliothèques - Partie 2:
     Encodage des éléments de données RFID fondé sur les règles de l''ISO/CEI 15962'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/85149.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '28560'
 date:
 - type: published
-  at: 2023-06
+  at: '2023-06-26'
 contributor:
 - role:
   - type: publisher
@@ -95,22 +87,25 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a data model and encoding rules for the use of radio frequency identification (RFID) tags for items appropriate for the needs of all types of libraries (including national, academic, public, corporate, special, and school libraries). The rules for encoding a subset of data elements taken from the total set of data elements defined in ISO 28560-1 are based on ISO/IEC 15962, which uses an object identifier structure to identify data elements.
-    This document defines the technical characteristics required to encode the data elements defined in ISO 28560-1 according to ISO/IEC 15962. These subsets of data elements can be different on different items in the same library. The encoding rules also enable the optional data to be organized on the RFID tag in any sequence. In addition, the encoding rules provide for flexible encoding of variable length and variable format data.
-    This document provides essential standards-based information about RFID in libraries. A source of additional information about implementation issues is provided in Annex A.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies a data model and encoding rules for the use of radio frequency identification (RFID) tags for items appropriate for the needs of all types of libraries (including national, academic, public, corporate, special, and school libraries). The rules for encoding a subset of data elements taken from the total set of data elements defined in ISO 28560-1 are based on ISO/IEC 15962, which uses an object identifier structure to identify data elements.
-    This document defines the technical characteristics required to encode the data elements defined in ISO 28560-1 according to ISO/IEC 15962. These subsets of data elements can be different on different items in the same library. The encoding rules also enable the optional data to be organized on the RFID tag in any sequence. In addition, the encoding rules provide for flexible encoding of variable length and variable format data.
-    This document provides essential standards-based information about RFID in libraries. A source of additional information about implementation issues is provided in Annex A.
+  content: This document specifies a data model and encoding rules for the use of
+    radio frequency identification (RFID) tags for items appropriate for the needs
+    of all types of libraries (including national, academic, public, corporate, special,
+    and school libraries). The rules for encoding a subset of data elements taken
+    from the total set of data elements defined in ISO 28560-1 are based on ISO/IEC 15962,
+    which uses an object identifier structure to identify data elements. This document
+    defines the technical characteristics required to encode the data elements defined
+    in ISO 28560-1 according to ISO/IEC 15962. These subsets of data elements can
+    be different on different items in the same library. The encoding rules also enable
+    the optional data to be organized on the RFID tag in any sequence. In addition,
+    the encoding rules provide for flexible encoding of variable length and variable
+    format data. This document provides essential standards-based information about
+    RFID in libraries. A source of additional information about implementation issues
+    is provided in Annex A.
 status:
   stage:
     content: '60'
@@ -123,26 +118,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 28560-2:2018
+    formattedref:
+      content: ISO 28560-2:2018
     docidentifier:
     - content: ISO 28560-2:2018
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 35.040.50
-    text: Automatic identification and data capture techniques
   - code: 35.240.30
     text: IT applications in information, documentation and publishing
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,53 +1,47 @@
 ---
 id: ISOIEC1977022009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Software asset management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Software identification tag'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Software asset management - Part 2: Software
     identification tag'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion de biens de logiciel
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Étiquette d''identification du logiciel'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Gestion de biens de logiciel - Partie
     2: Étiquette d''identification du logiciel'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/53670.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:53670:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/36/53670.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '19770'
 date:
 - type: published
-  at: 2009-11
+  at: '2009-11-11'
 contributor:
 - role:
   - type: publisher
@@ -101,26 +95,40 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 19770-2:2009 establishes specifications for tagging software to optimize its identification and management.
-    It applies to:
-    ISO/IEC 19770-2:2009 does not detail SAM processes required for reconciliation of software entitlements with software identification tags.
-    It does not specify product activation or launch controls.
-    It is not intended to conflict either with any organization's policies, procedures and standards or with any national laws and regulations. Any such conflict should be resolved before using ISO/IEC 19770-2:2009.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 19770-2:2009 establishes specifications for tagging software to optimize its identification and management.
-    It applies to:
-    ISO/IEC 19770-2:2009 does not detail SAM processes required for reconciliation of software entitlements with software identification tags.
-    It does not specify product activation or launch controls.
-    It is not intended to conflict either with any organization's policies, procedures and standards or with any national laws and regulations. Any such conflict should be resolved before using ISO/IEC 19770-2:2009.
+  content: 'ISO/IEC 19770-2:2009 establishes specifications for tagging software to
+    optimize its identification and management. It applies to: Platform providers:
+    These are the entities which are responsible for the computer or hardware device
+    and/or associated operating system, or virtual environment, on which software
+    can be installed or run. Platform providers which support ISO/IEC 19770-2:2009
+    additionally provide tag management capabilities at the level of the platform
+    or operating system. Software providers: These are the entities that create (“software
+    creators”), package (“software packagers”) or license (“software licensors”) software
+    for distribution or installation. These include software manufacturers, independent
+    software developers, consultants, and repackagers of previously manufactured software.
+    They may also be in-house software developers. Tag providers: These are the entities
+    that create (“tag creators”) or modify (“tag modifiers”) software identification
+    tags. A tag provider may be part of the software provider organization, or may
+    be a 3rd party organization or the software consumer. Tag tool providers: These
+    are the entities that may provide any number of tools that create, modify or use
+    software identification tags. These tools include development environments that
+    provide automatically generated software identification tags, installation tools
+    that may create and/or modify tags on behalf of the installation process as well
+    as desktop management tools that may create tags for software that does not have
+    a tag and/or modify tags with release details throughout the software lifecycle.
+    Software consumers: These are the entities that purchase, install and/or otherwise
+    consume software, and who are intended as the one of the major beneficiaries of
+    the improved information provided by the software identification tag as specified
+    in ISO/IEC 19770-2:2009. ISO/IEC 19770-2:2009 does not detail SAM processes required
+    for reconciliation of software entitlements with software identification tags.
+    It does not specify product activation or launch controls. It is not intended
+    to conflict either with any organization''s policies, procedures and standards
+    or with any national laws and regulations. Any such conflict should be resolved
+    before using ISO/IEC 19770-2:2009.'
 status:
   stage:
     content: '95'
@@ -133,21 +141,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 19770-2:2015
+    formattedref:
+      content: ISO/IEC 19770-2:2015
     docidentifier:
     - content: ISO/IEC 19770-2:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-09-30'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,50 +1,42 @@
 ---
 id: ISOIEC882412021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Abstract Syntax Notation One (ASN.1)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Specification of basic notation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Abstract Syntax Notation One (ASN.1) - Part 1:
     Specification of basic notation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Notation de syntaxe abstraite numéro un (ASN.1)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Spécification de la notation de base'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Notation de syntaxe abstraite numéro
     un (ASN.1) - Partie 1: Spécification de la notation de base'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81416.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 8824-1:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:8824:-1:stage-60.60
+- content: urn:iso:std:iso-iec:8824:-1:stage-90.20
   type: URN
 docnumber: '8824'
 date:
 - type: published
-  at: 2021-06
+  at: '2021-06-30'
 contributor:
 - role:
   - type: publisher
@@ -103,35 +95,27 @@ edition:
   content: '6'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document provides a standard notation called Abstract Syntax Notation One (ASN.1) that is used for the definition of data types, values, and constraints on data types.
-    This document:
-    –      defines a number of simple types, with their tags, and specifies a notation for referencing these types and for specifying values of these types;
-    –      defines mechanisms for constructing new types from more basic types, and specifies a notation for defining such types and assigning them tags, and for specifying values of these types;
-    –      defines character sets (by reference to other Recommendations and/or International Standards) for use within ASN.1.
-    The ASN.1 notation can be applied whenever it is necessary to define the abstract syntax of information.
-    The ASN.1 notation is referenced by other standards which define encoding rules for the ASN.1 types.
-- language: fr
-  script: Latn
-  content: |-
-    This document provides a standard notation called Abstract Syntax Notation One (ASN.1) that is used for the definition of data types, values, and constraints on data types.
-    This document:
-    –      defines a number of simple types, with their tags, and specifies a notation for referencing these types and for specifying values of these types;
-    –      defines mechanisms for constructing new types from more basic types, and specifies a notation for defining such types and assigning them tags, and for specifying values of these types;
-    –      defines character sets (by reference to other Recommendations and/or International Standards) for use within ASN.1.
-    The ASN.1 notation can be applied whenever it is necessary to define the abstract syntax of information.
-    The ASN.1 notation is referenced by other standards which define encoding rules for the ASN.1 types.
+  content: 'This document provides a standard notation called Abstract Syntax Notation
+    One (ASN.1) that is used for the definition of data types, values, and constraints
+    on data types. This document: –      defines a number of simple types, with their
+    tags, and specifies a notation for referencing these types and for specifying
+    values of these types; –      defines mechanisms for constructing new types from
+    more basic types, and specifies a notation for defining such types and assigning
+    them tags, and for specifying values of these types; –      defines character
+    sets (by reference to other Recommendations and/or International Standards) for
+    use within ASN.1. The ASN.1 notation can be applied whenever it is necessary to
+    define the abstract syntax of information. The ASN.1 notation is referenced by
+    other standards which define encoding rules for the ASN.1 types.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -139,26 +123,50 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8824-1:2015
+    formattedref:
+      content: ISO/IEC 8824-1:2015/Cor 2:2018
     docidentifier:
-    - content: ISO/IEC 8824-1:2015
+    - content: ISO/IEC 8824-1:2015/Cor 2:2018
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8824-1:2015/Amd 1:2019
+    formattedref:
+      content: ISO/IEC 8824-1:2015/Cor 3:2018
+    docidentifier:
+    - content: ISO/IEC 8824-1:2015/Cor 3:2018
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8824-1:2015/Cor 1:2017
+    docidentifier:
+    - content: ISO/IEC 8824-1:2015/Cor 1:2017
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8824-1:2015/Amd 1:2019
     docidentifier:
     - content: ISO/IEC 8824-1:2015/Amd 1:2019
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8824-1:2015
+    docidentifier:
+    - content: ISO/IEC 8824-1:2015
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,40 +1,34 @@
 ---
 id: ISO224182020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fast service announcement protocol (FSAP) for general purposes in ITS
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Fast service announcement protocol (FSAP)
     for general purposes in ITS
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Protocole d’annonce de service rapide (FSAP)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents - Protocole d’annonce de service rapide
     (FSAP)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/76968.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 22418:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:22418:stage-90.20
+- content: urn:iso:std:iso:22418:stage-90.60
   type: URN
 docnumber: '22418'
 date:
 - type: published
-  at: 2020-05
+  at: '2020-05-28'
 contributor:
 - role:
   - type: publisher
@@ -90,23 +84,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the fast service announcement protocol (FSAP) for general purposes in ITS. It references and supports all features of ISO/TS 16460, especially supporting the service response message (SRM) and related features in addition to the service announcement message (SAM), which enables only very basic features.
-    FSAP supports locally advertised ITS services uniquely identified by an ITS application identifier (ITS-AID).
-    This document specifies message formats and related basic protocol procedures by reference to ISO/TS 16460, and further related protocol requirements for operation of FSAP in the context of an ITS station specified in ISO 21217.
-    This document illustrates its relations to service announcement protocols specified by ETSI TC ITS and IEEE.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document décrit le "protocole d'annonce de service rapide " (FSAP.), à des fins générales dans ITS. Il fait référence et prend en charge toutes les caractéristiques de la norme ISO/TS 16460, en particulier le message de réponse de service (SRM) et ses caractéristiques relatives en plus des messages d'annonce de service (SAM), qui permettent uniquement des fonctions très élémentaires.
-    Le protocole FSAP est mis en place, en soutien aux services ITS proposés par avertissement au niveau local et identifiés de manière unique par un identificateur d'application ITS (ITS-AID).
-    Ce document spécifie les formats des messages et les procédures de protocole de base liées conformément à l'ISO/TS 16460, ainsi que d'autres exigences de protocole connexes pour l'exploitation du FSAP dans le contexte d'une station ITS présentée par l'ISO 21217.
-    Ce document illustre ses relations avec les protocoles d'annonce de service spécifiés par l'ETSI TC ITS et l'IEEE.
+  content: This document specifies the fast service announcement protocol (FSAP) for
+    general purposes in ITS. It references and supports all features of ISO/TS 16460,
+    especially supporting the service response message (SRM) and related features
+    in addition to the service announcement message (SAM), which enables only very
+    basic features. FSAP supports locally advertised ITS services uniquely identified
+    by an ITS application identifier (ITS-AID). This document specifies message formats
+    and related basic protocol procedures by reference to ISO/TS 16460, and further
+    related protocol requirements for operation of FSAP in the context of an ITS station
+    specified in ISO 21217. This document illustrates its relations to service announcement
+    protocols specified by ETSI TC ITS and IEEE.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -114,26 +106,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 22418:2018
+    formattedref:
+      content: ISO 22418:2018
     docidentifier:
     - content: ISO 22418:2018
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

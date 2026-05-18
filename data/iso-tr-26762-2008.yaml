@@ -1,51 +1,45 @@
 ---
 id: ISOTR267622008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Natural gas
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Upstream area
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Allocation of gas and condensate
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Natural gas - Upstream area - Allocation of gas and condensate
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gaz naturel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Zone amont
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Allocation du gaz et du condensat
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Gaz naturel - Zone amont - Allocation du gaz et du condensat
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/43748.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:43748:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/37/43748.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '26762'
 date:
 - type: published
-  at: 2008-07
+  at: '2008-07-07'
 contributor:
 - role:
   - type: publisher
@@ -90,18 +84,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO/TR 26762:2008 describes the production measurements, in terms of both
-    hardware and procedures, that can be used to allocate the gas and condensate back
-    to the individual concessions, reservoirs and wells in a fair and equitable way.
-    The objective is to give an approach that is recognized to be current best practice
-    and that has a wide support in the oil and gas industry.
-- language: fr
   script: Latn
   content: ISO/TR 26762:2008 describes the production measurements, in terms of both
     hardware and procedures, that can be used to allocate the gas and condensate back
@@ -120,21 +106,34 @@ copyright:
       name:
       - content: ISO/TR
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 26762:2025
+    formattedref:
+      content: ISO/CD TR 26762
+    docidentifier:
+    - content: ISO/CD TR 26762
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP TR 26762
+    docidentifier:
+    - content: ISO/NP TR 26762
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/TS 26762:2025
     docidentifier:
     - content: ISO/TS 26762:2025
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-04-21'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

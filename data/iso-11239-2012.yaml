@@ -1,25 +1,22 @@
 ---
 id: ISO112392012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Identification of medicinal products
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Data elements and structures for the unique identification and exchange
     of regulated information on pharmaceutical dose forms, units of presentation,
     routes of administration and packaging
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Health informatics - Identification of medicinal products - Data elements
@@ -27,24 +24,20 @@ title:
     on pharmaceutical dose forms, units of presentation, routes of administration
     and packaging
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification des médicaments
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments de données et structures pour l'identification unique et l'échange
     d'informations réglementées sur les formes des doses pharmaceutiques, les unités
     de présentation, les voies d'administration et les emballages
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé - Identification des médicaments - Éléments de données
@@ -52,10 +45,11 @@ title:
     sur les formes des doses pharmaceutiques, les unités de présentation, les voies
     d'administration et les emballages
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/55032.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:55032:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/50/55032.detail.rss
 docidentifier:
@@ -69,7 +63,7 @@ docidentifier:
 docnumber: '11239'
 date:
 - type: published
-  at: 2012-11
+  at: '2012-10-26'
 contributor:
 - role:
   - type: publisher
@@ -106,23 +100,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 11239:2012 specifies:\n·         the structures and relationships
-    between the data elements required for the exchange of information, which uniquely
-    and with certainty identify pharmaceutical dose forms, units of presentation,
-    routes of administration and packaging items related to medicinal products;\n·
-    \        a mechanism for the association of translations of a single concept into
-    different languages;\n·         a mechanism for the versioning of the concepts
-    in order to track their evolution; \n·         rules to allow regional authorities
-    to map existing regional terms to the terms created using ISO 11239:2012 in a
-    harmonized and meaningful way."
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 11239:2012 spécifie
-    - les éléments de données, les structures et les relations entre les éléments de données nécessaires à l'échange des informations qui identifient de manière unique et avec certitude les formes pharmaceutiques, les unités de présentation, les voies d'administration et les emballages (conteneurs, systèmes de fermeture et dispositifs d'administration) liés aux produits médicaux,
-    - un mécanisme permettant d'associer les traductions d'un concept élémentaire en différentes langues, ce qui fait partie intégrante de l'échange d'informations,
-    - un mécanisme permettant de contrôler les versions des concepts afin de suivre leur évolution, et
-    - les règles permettant aux autorités régionales de procéder à la mise en correspondance harmonisée et significative des termes régionaux existants avec les termes créés à l'aide de l'ISO 11239:2012.
+  content: 'ISO 11239:2012 specifies: · the structures and relationships between the
+    data elements required for the exchange of information, which uniquely and with
+    certainty identify pharmaceutical dose forms, units of presentation, routes of
+    administration and packaging items related to medicinal products; · a mechanism
+    for the association of translations of a single concept into different languages;
+    · a mechanism for the versioning of the concepts in order to track their evolution;
+    · rules to allow regional authorities to map existing regional terms to the terms
+    created using ISO 11239:2012 in a harmonized and meaningful way.'
 status:
   stage:
     content: '95'
@@ -135,21 +120,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11239:2023
+    formattedref:
+      content: ISO/NP 11239
+    docidentifier:
+    - content: ISO/NP 11239
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 11239:2023
     docidentifier:
     - content: ISO 11239:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-06-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

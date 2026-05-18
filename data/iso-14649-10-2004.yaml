@@ -1,54 +1,46 @@
 ---
 id: ISO14649102004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Physical device control
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Data model for computerized numerical controllers -- Part 10: General
     process data'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Physical device control
     - Data model for computerized numerical controllers -- Part 10: General process
     data'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Commande des dispositifs physiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Modèle de données pour les contrôleurs numériques informatisés -- Partie
     10: Données des procédés généraux'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Commande des
     dispositifs physiques - Modèle de données pour les contrôleurs numériques informatisés
     -- Partie 10: Données des procédés généraux'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/40895.html
@@ -67,7 +59,7 @@ docidentifier:
 docnumber: '14649'
 date:
 - type: published
-  at: 2004-12
+  at: '2004-12-06'
 contributor:
 - role:
   - type: publisher
@@ -98,40 +90,33 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 14649-10:2004 specifies the process data which is generally needed for NC-machining and therefore common to several machining technologies. These data elements describe the interface between the programming system (i.e. CAM system or shop-floor programming system) and a computerized numerical controller. The programme for the numerical controller includes geometric and technological information. It can be described using ISO 14649-10:2004 together with the technology-specific parts (ISO 14649-11, ISO 14649-12, etc.). ISO 14649-10:2004 provides the control structures for the sequence of programme execution, mainly the sequence of working steps and associated machine functions.
-    The "machining_schema" defined in ISO 14649-10:2004 contains the definition of data types which are generally relevant for different technologies (e.g. milling, turning, grinding). It includes:
-    - the general executables, including workplan, workingsteps and NC-functions;
-    - the definition of the workpiece;
-    - a feature catalogue containing features which might be referenced by several technologies;
-    - the basis for an operation definition.
-    Not included in this schema are the following:
-    - geometric items;
-    - representations, which are referenced from ISO 10303's generic resources;
-    - the technology-specific definitions, which are defined in separate parts of ISO 14649.
-    ISO 14649-10:2004 cannot stand alone. An implementation needs in addition at least one technology-specific part (e.g. ISO 14649-11 for milling, ISO 14649-12 for turning).
-    Additionally, the schema uses machining features similar to ISO 10303-224 and ISO 10303-214. The description of process data is done using the EXPRESS language as defined in ISO 10303-11. The encoding of the data is done using ISO 10303-21.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 14649-10:2004 specifies the process data which is generally needed for NC-machining and therefore common to several machining technologies. These data elements describe the interface between the programming system (i.e. CAM system or shop-floor programming system) and a computerized numerical controller. The programme for the numerical controller includes geometric and technological information. It can be described using ISO 14649-10:2004 together with the technology-specific parts (ISO 14649-11, ISO 14649-12, etc.). ISO 14649-10:2004 provides the control structures for the sequence of programme execution, mainly the sequence of working steps and associated machine functions.
-    The "machining_schema" defined in ISO 14649-10:2004 contains the definition of data types which are generally relevant for different technologies (e.g. milling, turning, grinding). It includes:
-    - the general executables, including workplan, workingsteps and NC-functions;
-    - the definition of the workpiece;
-    - a feature catalogue containing features which might be referenced by several technologies;
-    - the basis for an operation definition.
-    Not included in this schema are the following:
-    - geometric items;
-    - representations, which are referenced from ISO 10303's generic resources;
-    - the technology-specific definitions, which are defined in separate parts of ISO 14649.
-    ISO 14649-10:2004 cannot stand alone. An implementation needs in addition at least one technology-specific part (e.g. ISO 14649-11 for milling, ISO 14649-12 for turning).
-    Additionally, the schema uses machining features similar to ISO 10303-224 and ISO 10303-214. The description of process data is done using the EXPRESS language as defined in ISO 10303-11. The encoding of the data is done using ISO 10303-21.
+  content: 'ISO 14649-10:2004 specifies the process data which is generally needed
+    for NC-machining and therefore common to several machining technologies. These
+    data elements describe the interface between the programming system (i.e. CAM
+    system or shop-floor programming system) and a computerized numerical controller.
+    The programme for the numerical controller includes geometric and technological
+    information. It can be described using ISO 14649-10:2004 together with the technology-specific
+    parts (ISO 14649-11, ISO 14649-12, etc.). ISO 14649-10:2004 provides the control
+    structures for the sequence of programme execution, mainly the sequence of working
+    steps and associated machine functions. The "machining_schema" defined in ISO
+    14649-10:2004 contains the definition of data types which are generally relevant
+    for different technologies (e.g. milling, turning, grinding). It includes: the
+    general executables, including workplan, workingsteps and NC-functions;the definition
+    of the workpiece;a feature catalogue containing features which might be referenced
+    by several technologies;the basis for an operation definition. Not included in
+    this schema are the following: geometric items;representations, which are referenced
+    from ISO 10303''s generic resources;the technology-specific definitions, which
+    are defined in separate parts of ISO 14649. ISO 14649-10:2004 cannot stand alone.
+    An implementation needs in addition at least one technology-specific part (e.g.
+    ISO 14649-11 for milling, ISO 14649-12 for turning). Additionally, the schema
+    uses machining features similar to ISO 10303-224 and ISO 10303-214. The description
+    of process data is done using the EXPRESS language as defined in ISO 10303-11.
+    The encoding of the data is done using ISO 10303-21.'
 status:
   stage:
     content: '90'
@@ -146,24 +131,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14649-10:2003
-    docidentifier:
-    - content: ISO 14649-10:2003
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/CD 14649-10
+    formattedref:
+      content: ISO/CD 14649-10
     docidentifier:
     - content: ISO/CD 14649-10
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 14649-10:2003
+    docidentifier:
+    - content: ISO 14649-10:2003
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

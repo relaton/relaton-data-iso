@@ -1,31 +1,29 @@
 ---
 id: ISO128632010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Standard test method for assessing the ignition propensity of cigarettes
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Standard test method for assessing the ignition propensity of cigarettes
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode d'essai normalisée pour évaluer le potentiel incendiaire des cigarettes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode d'essai normalisée pour évaluer le potentiel incendiaire des cigarettes
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/52074.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:52074:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/20/52074.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '12863'
 date:
 - type: published
-  at: 2010-09
+  at: '2010-09-13'
 contributor:
 - role:
   - type: publisher
@@ -84,18 +82,6 @@ abstract:
     not prescribe any design features of the cigarette that might lead to improved
     or degraded performance in the test method. The output of this method has been
     correlated with the potential for cigarettes to ignite upholstered furniture.
-- language: fr
-  script: Latn
-  content: L'ISO 12863:2010 fournit une évaluation normalisée de la capacité d'une
-    cigarette, positionnée sur un des trois substrats normalisés, à s'éteindre ou
-    à générer suffisamment de chaleur pour continuer à se consumer et, par conséquent,
-    à potentiellement mettre le feu à la literie ou aux meubles rembourrés. L'ISO
-    12863:2010 s'applique aux cigarettes manufacturées se consumant sur la longueur
-    d'une colonne de tabac. Il s'agit d'une norme fondée sur les performances; elle
-    ne décrit pas les caractéristiques de conception de la cigarette susceptibles
-    d'aboutir à des performances supérieures ou inférieures selon la méthode d'essai.
-    Le résultat de cette méthode a été corrélé avec le potentiel des cigarettes à
-    incendier les meubles rembourrés.
 status:
   stage:
     content: '95'
@@ -108,51 +94,50 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 12863:2022
+    formattedref:
+      content: ISO/NP 12863
+    docidentifier:
+    - content: ISO/NP 12863
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 12863
+    docidentifier:
+    - content: ISO/NP 12863
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 12863
+    docidentifier:
+    - content: ISO/PWI 12863
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 12863:2022
     docidentifier:
     - content: ISO 12863:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-04-06'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 12863:2010/Cor 1:2011
-    docidentifier:
-    - content: ISO 12863:2010/Cor 1:2011
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-04-06'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 12863:2010/Amd 1:2016
-    docidentifier:
-    - content: ISO 12863:2010/Amd 1:2016
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-04-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '65.160'
-    text: Tobacco, tobacco products and related equipment
   - code: 13.220.40
     text: Ignitability and burning behaviour of materials and products
+  - code: '65.160'
+    text: Tobacco, tobacco products and related equipment
   structuredidentifier:
     type: ISO
     project_number:

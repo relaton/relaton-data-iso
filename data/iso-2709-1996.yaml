@@ -1,41 +1,37 @@
 ---
 id: ISO27091996
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Format for information exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - Format for information exchange
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Format pour l'échange d'information
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Format pour l'échange d'information
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7675.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7675:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/76/7675.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '2709'
 date:
 - type: published
-  at: 1996-08
+  at: '1996-08-15'
 contributor:
 - role:
   - type: publisher
@@ -89,11 +85,6 @@ abstract:
   content: Specifies the requirements for a generalized exchange format suitable for
     bibliographic descriptions. Describes a framework for communications between data
     processing systems. Replaces the second edition.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale fixe les prescriptions relatives à un format d'échange général qui contiendra des notices donnant les descriptions des documents de tout type susceptibles d'être inclus dans une bibliographie, ainsi que d'autres sortes de notices. Elle ne précise ni la taille ni le contenu des enregistrements, et n'attribue aucune valeur aux étiquettes, aux indicateurs ou aux identificateurs, ces spécifications étant définies en fonction du format de mise en oeuvre d'une application particulière. La présente Norme internationale définit une structure générale, un cadre destiné spécifiquement aux communications entre systèmes de traitement de l'information et non pas à l'exploitation à l'intérieur de ces systèmes.
 status:
   stage:
     content: '95'
@@ -108,27 +99,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2709:1981
-    docidentifier:
-    - content: ISO 2709:1981
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 2709:2008
+    formattedref:
+      content: ISO 2709:2008
     docidentifier:
     - content: ISO 2709:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-06-30'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2709:1981
+    docidentifier:
+    - content: ISO 2709:1981
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

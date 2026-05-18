@@ -1,50 +1,42 @@
 ---
 id: ISOTS2068462022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Roadside modules SNMP data interface
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 6: Commands'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Roadside modules SNMP data interface -
     Part 6: Commands'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de données SNMP pour les modules en bord de route
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Commandes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de transport intelligents - Interface de données SNMP pour les
     modules en bord de route - Partie 6: Commandes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81062.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 20684-6:2022(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:20684:-6:stage-60.60
+- content: urn:iso:std:iso:ts:20684:-6:stage-90.60
   type: URN
 docnumber: '20684'
 date:
 - type: published
-  at: 2022-09
+  at: '2022-09-08'
 contributor:
 - role:
   - type: publisher
@@ -94,29 +86,27 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    Field devices are a key component in intelligent transport systems (ITS). Field devices include traffic signals, message signs, weather stations, traffic sensors, roadside equipment for connected ITS (C-ITS) environments, etc.
-    Field devices often need to exchange information with other external entities (managers). Field devices can be quite complex, necessitating the standardization of many data concepts for exchange. As such, the ISO 20684 series is divided several individual parts.
-    This document specifies the user needs, requirements and design elements that are used to issue an SNMP set-request in response to a trigger firing. This allows a manager to configure the field device to implement simple responses to conditions in the field.
-    NOTE 1    There are similarities between certain portions of the Event MIB defined in IETF RFC 2981 and this document.
-    NOTE 2    ISO 20684-1 provides additional details about how the ISO 20684 series relates to the overall ITS architecture.
-- language: fr
-  script: Latn
-  content: |-
-    Field devices are a key component in intelligent transport systems (ITS). Field devices include traffic signals, message signs, weather stations, traffic sensors, roadside equipment for connected ITS (C-ITS) environments, etc.
-    Field devices often need to exchange information with other external entities (managers). Field devices can be quite complex, necessitating the standardization of many data concepts for exchange. As such, the ISO 20684 series is divided several individual parts.
-    This document specifies the user needs, requirements and design elements that are used to issue an SNMP set-request in response to a trigger firing. This allows a manager to configure the field device to implement simple responses to conditions in the field.
-    NOTE 1    There are similarities between certain portions of the Event MIB defined in IETF RFC 2981 and this document.
-    NOTE 2    ISO 20684-1 provides additional details about how the ISO 20684 series relates to the overall ITS architecture.
+  content: Field devices are a key component in intelligent transport systems (ITS).
+    Field devices include traffic signals, message signs, weather stations, traffic
+    sensors, roadside equipment for connected ITS (C-ITS) environments, etc. Field
+    devices often need to exchange information with other external entities (managers).
+    Field devices can be quite complex, necessitating the standardization of many
+    data concepts for exchange. As such, the ISO 20684 series is divided several individual
+    parts. This document specifies the user needs, requirements and design elements
+    that are used to issue an SNMP set-request in response to a trigger firing. This
+    allows a manager to configure the field device to implement simple responses to
+    conditions in the field. NOTE 1    There are similarities between certain portions
+    of the Event MIB defined in IETF RFC 2981 and this document. NOTE 2    ISO 20684-1
+    provides additional details about how the ISO 20684 series relates to the overall
+    ITS architecture.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
     content: '60'
 copyright:
@@ -126,17 +116,17 @@ copyright:
       name:
       - content: ISO/TS
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

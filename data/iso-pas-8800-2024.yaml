@@ -1,38 +1,32 @@
 ---
 id: ISOPAS88002024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Safety and artificial intelligence
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Safety and artificial intelligence
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité et intelligence artificielle
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Sécurité et intelligence artificielle
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/83303.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO/PAS 8800:2024(E)
   type: iso-reference
-- content: urn:iso:std:iso:pas:8800:stage-60.60
+- content: urn:iso:std:iso:pas:8800:stage-90.92
   type: URN
 docnumber: '8800'
 date:
 - type: published
-  at: 2024-12
+  at: '2024-12-13'
 contributor:
 - role:
   - type: publisher
@@ -82,49 +76,65 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document applies to safety-related systems that include one or more electrical and/or electronic (E/E) systems that use AI technology and that is installed in series production road vehicles, excluding mopeds. It does not address unique E/E systems in special vehicles, such as E/E systems designed for drivers with disabilities.
-    This document addresses the risk of undesired safety-related behaviour at the vehicle level due to output insufficiencies, systematic errors and random hardware errors of AI elements within the vehicle. This includes interactions with AI elements that are not part of the vehicle itself but that can have a direct or indirect impact on vehicle safety.
-    EXAMPLE 1         Examples of AI elements within the vehicle include the trained AI model and AI system.
-    EXAMPLE 2         Direct impact on safety can be due to object detection by elements external to the vehicle.
-    EXAMPLE 3         Indirect impact on safety can be due to field monitoring by elements external to the vehicle.
-    The development of AI elements that are not part of the vehicle is not within the scope of this document. These elements can conform to domain-specific safety guidance. This document can be used as a reference where such domain-specific guidance does not exist.
-    This document describes safety-related properties of AI systems that can be used to construct a convincing safety assurance claim for the absence of unreasonable risk.
-    This document does not provide specific guidelines for software tools that use AI methods.
-    This document focuses primarily on a subclass of AI methods defined as machine learning (ML). Although it covers the principles of established and well-understood classes of ML, it does not focus on the details of any specific AI methods e.g. deep neural networks.
-- language: fr
-  script: Latn
-  content: |-
-    This document applies to safety-related systems that include one or more electrical and/or electronic (E/E) systems that use AI technology and that is installed in series production road vehicles, excluding mopeds. It does not address unique E/E systems in special vehicles, such as E/E systems designed for drivers with disabilities.
-    This document addresses the risk of undesired safety-related behaviour at the vehicle level due to output insufficiencies, systematic errors and random hardware errors of AI elements within the vehicle. This includes interactions with AI elements that are not part of the vehicle itself but that can have a direct or indirect impact on vehicle safety.
-    EXAMPLE 1         Examples of AI elements within the vehicle include the trained AI model and AI system.
-    EXAMPLE 2         Direct impact on safety can be due to object detection by elements external to the vehicle.
-    EXAMPLE 3         Indirect impact on safety can be due to field monitoring by elements external to the vehicle.
-    The development of AI elements that are not part of the vehicle is not within the scope of this document. These elements can conform to domain-specific safety guidance. This document can be used as a reference where such domain-specific guidance does not exist.
-    This document describes safety-related properties of AI systems that can be used to construct a convincing safety assurance claim for the absence of unreasonable risk.
-    This document does not provide specific guidelines for software tools that use AI methods.
-    This document focuses primarily on a subclass of AI methods defined as machine learning (ML). Although it covers the principles of established and well-understood classes of ML, it does not focus on the details of any specific AI methods e.g. deep neural networks.
+  content: This document applies to safety-related systems that include one or more
+    electrical and/or electronic (E/E) systems that use AI technology and that is
+    installed in series production road vehicles, excluding mopeds. It does not address
+    unique E/E systems in special vehicles, such as E/E systems designed for drivers
+    with disabilities. This document addresses the risk of undesired safety-related
+    behaviour at the vehicle level due to output insufficiencies, systematic errors
+    and random hardware errors of AI elements within the vehicle. This includes interactions
+    with AI elements that are not part of the vehicle itself but that can have a direct
+    or indirect impact on vehicle safety. EXAMPLE 1         Examples of AI elements
+    within the vehicle include the trained AI model and AI system. EXAMPLE 2        
+    Direct impact on safety can be due to object detection by elements external to
+    the vehicle. EXAMPLE 3         Indirect impact on safety can be due to field monitoring
+    by elements external to the vehicle. The development of AI elements that are not
+    part of the vehicle is not within the scope of this document. These elements can
+    conform to domain-specific safety guidance. This document can be used as a reference
+    where such domain-specific guidance does not exist. This document describes safety-related
+    properties of AI systems that can be used to construct a convincing safety assurance
+    claim for the absence of unreasonable risk. This document does not provide specific
+    guidelines for software tools that use AI methods. This document focuses primarily
+    on a subclass of AI methods defined as machine learning (ML). Although it covers
+    the principles of established and well-understood classes of ML, it does not focus
+    on the details of any specific AI methods e.g. deep neural networks.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2024'
   owner:
   - organization:
       name:
       - content: ISO/PAS
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI PAS 8800-1
+    docidentifier:
+    - content: ISO/PWI PAS 8800-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI PAS 8800-2
+    docidentifier:
+    - content: ISO/PWI PAS 8800-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: publicly-available-specification
   flavor: iso

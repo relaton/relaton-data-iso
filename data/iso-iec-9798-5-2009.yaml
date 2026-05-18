@@ -1,51 +1,43 @@
 ---
 id: ISOIEC979852009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Entity authentication -- Part 5: Mechanisms using zero-knowledge techniques'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Entity authentication --
     Part 5: Mechanisms using zero-knowledge techniques'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Authentification d''entité -- Partie 5: Mécanismes utilisant des techniques
     à divulgation nulle'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Authentification
     d''entité -- Partie 5: Mécanismes utilisant des techniques à divulgation nulle'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/50456.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '9798'
 date:
 - type: published
-  at: 2009-12
+  at: '2009-12-11'
 contributor:
 - role:
   - type: publisher
@@ -104,30 +96,21 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 9798-5:2009 specifies entity authentication mechanisms using zero-knowledge techniques:
-    - mechanisms based on identities and providing unilateral authentication;
-    - mechanisms based on integer factorization and providing unilateral authentication;
-    - mechanisms based on discrete logarithms with respect to numbers that are either prime or composite, and providing unilateral authentication;
-    - mechanisms based on asymmetric encryption systems and providing either unilateral authentication, or mutual authentication;
-    - mechanisms based on discrete logarithms on elliptic curves and providing unilateral authentication.
-    These mechanisms are constructed using the principles of zero-knowledge techniques, but they are not necessarily zero-knowledge according to the strict definition for every choice of parameters.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 9798-5:2009 specifies entity authentication mechanisms using zero-knowledge techniques:
-    - mechanisms based on identities and providing unilateral authentication;
-    - mechanisms based on integer factorization and providing unilateral authentication;
-    - mechanisms based on discrete logarithms with respect to numbers that are either prime or composite, and providing unilateral authentication;
-    - mechanisms based on asymmetric encryption systems and providing either unilateral authentication, or mutual authentication;
-    - mechanisms based on discrete logarithms on elliptic curves and providing unilateral authentication.
-    These mechanisms are constructed using the principles of zero-knowledge techniques, but they are not necessarily zero-knowledge according to the strict definition for every choice of parameters.
+  content: 'ISO/IEC 9798-5:2009 specifies entity authentication mechanisms using zero-knowledge
+    techniques: mechanisms based on identities and providing unilateral authentication;
+    mechanisms based on integer factorization and providing unilateral authentication;
+    mechanisms based on discrete logarithms with respect to numbers that are either
+    prime or composite, and providing unilateral authentication; mechanisms based
+    on asymmetric encryption systems and providing either unilateral authentication,
+    or mutual authentication; mechanisms based on discrete logarithms on elliptic
+    curves and providing unilateral authentication. These mechanisms are constructed
+    using the principles of zero-knowledge techniques, but they are not necessarily
+    zero-knowledge according to the strict definition for every choice of parameters.'
 status:
   stage:
     content: '90'
@@ -142,24 +125,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9798-5:2004
+    formattedref:
+      content: ISO/IEC CD 9798-5
     docidentifier:
-    - content: ISO/IEC 9798-5:2004
+    - content: ISO/IEC CD 9798-5
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC WD 9798-5
+    formattedref:
+      content: ISO/IEC CD 9798-5
+    docidentifier:
+    - content: ISO/IEC CD 9798-5
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC WD 9798-5
     docidentifier:
     - content: ISO/IEC WD 9798-5
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 9798-5:2004
+    docidentifier:
+    - content: ISO/IEC 9798-5:2004
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

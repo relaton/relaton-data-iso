@@ -1,42 +1,36 @@
 ---
 id: ISO65861980
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Data processing
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Implementation of the ISO 7- bit and 8- bit coded character sets on punched
     cards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Data processing - Implementation of the ISO 7- bit and 8- bit coded character
     sets on punched cards
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Traitement de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Matérialisation des jeux de caractères codés à 7 éléments et à 8 éléments
     sur cartes perforées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Traitement de l'information - Matérialisation des jeux de caractères codés
     à 7 éléments et à 8 éléments sur cartes perforées
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/12991.html
@@ -55,7 +49,7 @@ docidentifier:
 docnumber: '6586'
 date:
 - type: published
-  at: 1980-11
+  at: '1980-11-01'
 contributor:
 - role:
   - type: publisher
@@ -97,13 +91,6 @@ abstract:
     punched cards. This representation is derived from, and compatible with, the Hollorith
     Code. Ensures widely compatibility with existing punched card files. Intended
     for general interchange of information among data processing systems.
-- language: fr
-  script: Latn
-  content: Defines implementation of ISO 7-bit and 8-bit coded character sets on punched
-    cards as well as the representation of 7-bit and 8-bit combinations on 12-row
-    punched cards. This representation is derived from, and compatible with, the Hollorith
-    Code. Ensures widely compatibility with existing punched card files. Intended
-    for general interchange of information among data processing systems.
 status:
   stage:
     content: '90'
@@ -116,26 +103,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1679:1973
-    docidentifier:
-    - content: ISO 1679:1973
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 2021:1975
+    formattedref:
+      content: ISO 2021:1975
     docidentifier:
     - content: ISO 2021:1975
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1679:1973
+    docidentifier:
+    - content: ISO 1679:1973
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

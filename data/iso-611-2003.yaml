@@ -1,49 +1,41 @@
 ---
 id: ISO6112003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Braking of automotive vehicles and their trailers
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Braking of automotive vehicles and their trailers - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Freinage des véhicules automobiles et de leurs remorques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Freinage des véhicules automobiles et de leurs remorques
     - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/28733.html
@@ -62,7 +54,7 @@ docidentifier:
 docnumber: '611'
 date:
 - type: published
-  at: 2003-04
+  at: '2003-04-25'
 contributor:
 - role:
   - type: publisher
@@ -100,18 +92,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'This International Standard defines the principal terms used in relation
+  content: This International Standard defines the principal terms used in relation
     to the braking and braking equipment of motor vehicles, trailers or combinations
     of these as defined in ISO 3833. The terms it defines designate either systems
     or elements involved during the operation of braking, or the values characterizing
-    the whole or a part of the operation. '
-- language: fr
-  script: Latn
-  content: L'ISO 611 définit les principaux termes utilisés dans le domaine du freinage
-    et des équipements de freinage des véhicules à moteur, des remorques et aux combinaisons
-    de ces véhicules comme défini dans l'ISO 3833. Les termes définis désignent soit
-    les systèmes ou éléments qui interviennent pendant l'opération de freinage, soit
-    les valeurs caractérisant cette opération en tout ou en partie.
+    the whole or a part of the operation.
 status:
   stage:
     content: '90'
@@ -124,26 +109,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 611:1994
+    formattedref:
+      content: ISO 611:1994/FDAmd 1
+    docidentifier:
+    - content: ISO 611:1994/FDAM 1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 611:1994
     docidentifier:
     - content: ISO 611:1994
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.43
-    text: Road vehicle engineering (Vocabularies)
   - code: 43.040.40
     text: Braking systems
+  - code: 01.040.43
+    text: Road vehicle engineering (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

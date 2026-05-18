@@ -1,42 +1,36 @@
 ---
 id: ISOTS144412013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security and privacy requirements of EHR systems for use in conformity
     assessment
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Health informatics - Security and privacy requirements of EHR systems for
     use in conformity assessment
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité et exigences d'intimité des systèmes de EHR pour l'évaluation
     de la conformité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé - Sécurité et exigences d'intimité des systèmes de
     EHR pour l'évaluation de la conformité
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/61347.html
@@ -50,12 +44,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 14441:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:14441:stage-90.92
+- content: urn:iso:std:iso:ts:14441:stage-95.99
   type: URN
 docnumber: '14441'
 date:
 - type: published
-  at: 2013-12
+  at: '2013-12-03'
 contributor:
 - role:
   - type: publisher
@@ -86,31 +80,22 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/TS 14441:2013 examines electronic patient record systems at the clinical
+  content: ISO/TS 14441:2013 examines electronic patient record systems at the clinical
     point of care that are also interoperable with EHRs. ISO/TS 14441:2013 addresses
     their security and privacy protections by providing a set of security and privacy
-    requirements, along with guidelines and best practice for conformity assessment.\nISO/TS
-    14441:2013 includes a cross-mapping of 82 security and privacy requirements against
-    the Common Criteria categories in ISO/IEC 15408 (all parts). "
-- language: fr
-  script: Latn
-  content: "ISO/TS 14441:2013 examines electronic patient record systems at the clinical
-    point of care that are also interoperable with EHRs. ISO/TS 14441:2013 addresses
-    their security and privacy protections by providing a set of security and privacy
-    requirements, along with guidelines and best practice for conformity assessment.\nISO/TS
-    14441:2013 includes a cross-mapping of 82 security and privacy requirements against
-    the Common Criteria categories in ISO/IEC 15408 (all parts). "
+    requirements, along with guidelines and best practice for conformity assessment.
+    ISO/TS 14441:2013 includes a cross-mapping of 82 security and privacy requirements
+    against the Common Criteria categories in ISO/IEC 15408 (all parts).
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2013'
   owner:
@@ -120,16 +105,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 27799
+    formattedref:
+      content: ISO 27799:2025
     docidentifier:
-    - content: ISO/DIS 27799
+    - content: ISO 27799:2025
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP TS 14441
+    docidentifier:
+    - content: ISO/NP TS 14441
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

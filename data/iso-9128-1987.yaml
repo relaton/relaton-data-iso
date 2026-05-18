@@ -1,42 +1,38 @@
 ---
 id: ISO91281987
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Graphical symbols to designate brake fluid types
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Graphical symbols to designate brake fluid types
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Symboles graphiques pour la désignation des types de liquides de frein
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Symboles graphiques pour la désignation des types
     de liquides de frein
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16724.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16724:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/67/16724.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '9128'
 date:
 - type: published
-  at: 1987-11
+  at: '1987-11-19'
 contributor:
 - role:
   - type: publisher
@@ -93,15 +89,6 @@ abstract:
     for labelling the fluid containers (ISO 3871). Non-petroleum-base fluids (ISO
     4925, glycol type) and petroleum-base fluids (ISO 7308) are totally incompatible,
     requiring the use of different seal materials.'
-- language: fr
-  script: Latn
-  content: " La présente Norme internationale spécifie les symboles graphiques\n  et
-    les couleurs destinés à identifier, sur les véhicules\n  routiers, le type de
-    liquide convenable pour \na) les systèmes de freinage à base pétrolière;\n  \n
-    \ b) les systèmes de freinage à base non pétrolière.\nNOTES 1 De nouveaux symboles
-    seront spécifiés si l'évolution\n  technique future nécessite d'ajouter de nouvelles
-    catégories de\n  liquides. 2 Les mêmes symboles sont également utilisés pour\n
-    \ les inscriptions sur les récipients (voir ISO 3871). "
 status:
   stage:
     content: '95'
@@ -114,21 +101,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9128:2006
+    formattedref:
+      content: ISO/WD 9128
+    docidentifier:
+    - content: ISO/WD 9128
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9128:2006
     docidentifier:
     - content: ISO 9128:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-05-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

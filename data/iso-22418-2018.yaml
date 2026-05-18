@@ -1,42 +1,38 @@
 ---
 id: ISO224182018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fast service announcement protocol (FSAP)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Fast service announcement protocol (FSAP)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Protocole d'annonce de service rapide (FSAP)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents - Protocole d'annonce de service rapide
     (FSAP)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73150.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:73150:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/31/73150.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '22418'
 date:
 - type: published
-  at: 2018-06
+  at: '2018-05-31'
 contributor:
 - role:
   - type: publisher
@@ -81,22 +77,17 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the "Fast Service Announcement Protocol" (FSAP).
-    FSAP is in support of locally advertised ITS services uniquely identified by an ITS application identifier (ITS-AID).
-    This document specifies message formats and related basic protocol procedures by reference to ISO/TS 16460:2016, and further related protocol requirements for operation of FSAP in the context of an ITS station specified in ISO 21217:2014.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the "Fast Service Announcement Protocol" (FSAP).
-    FSAP is in support of locally advertised ITS services uniquely identified by an ITS application identifier (ITS-AID).
-    This document specifies message formats and related basic protocol procedures by reference to ISO/TS 16460:2016, and further related protocol requirements for operation of FSAP in the context of an ITS station specified in ISO 21217:2014.
+  content: This document specifies the "Fast Service Announcement Protocol" (FSAP).
+    FSAP is in support of locally advertised ITS services uniquely identified by an
+    ITS application identifier (ITS-AID). This document specifies message formats
+    and related basic protocol procedures by reference to ISO/TS 16460:2016, and further
+    related protocol requirements for operation of FSAP in the context of an ITS station
+    specified in ISO 21217:2014.
 status:
   stage:
     content: '95'
@@ -111,35 +102,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 24102-5:2013
-    docidentifier:
-    - content: ISO 24102-5:2013
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 22418:2020
+    formattedref:
+      content: ISO 22418:2020
     docidentifier:
     - content: ISO 22418:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-05-28'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 24102-5:2013/Amd 1:2017
+    docidentifier:
+    - content: ISO 24102-5:2013/Amd 1:2017
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 24102-5:2013
+    docidentifier:
+    - content: ISO 24102-5:2013
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

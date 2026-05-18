@@ -1,50 +1,42 @@
 ---
 id: ISOTS1514332020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Earth-moving machinery and mobile road construction machinery
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Worksite data exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Telematics data'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Earth-moving machinery and mobile road construction machinery - Worksite
     data exchange - Part 3: Telematics data'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Engins de terrassement et machines mobiles de construction de routes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échange de données sur le chantier
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Données télématiques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Engins de terrassement et machines mobiles de construction de routes -
     Échange de données sur le chantier - Partie 3: Données télématiques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/76394.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '15143'
 date:
 - type: published
-  at: 2020-01
+  at: '2020-01-29'
 contributor:
 - role:
   - type: publisher
@@ -101,16 +93,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the communication schema designed to provide mobile machinery status data from a telematics provider's server to customer applications via the Internet. The data is collected from a mobile machine using telematics data-logging equipment and stored on a telematics provider's server. This document describes the communications records used to request data from the server and the responses from the server containing specified data elements to be used in the analysis of machine performance and machine management status related with operation and/or maintenance.
-    It is applicable to self-propelled earth-moving machinery as defined in ISO 6165 and mobile road construction machinery as defined in ISO 22242 equipped with location and time instrumentation.
-    It is not applicable to the on-board data collection, on-board communication protocol (e.g. CANbus) or wireless transmission of the mobile machinery data to the telematics provider's server after the data have been collected at the data logger. See Figure 1.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document précise le schéma de communication conçu pour fournir des données d'état des machines mobiles provenant du serveur d'un fournisseur de télématique aux applications clients par Internet. Les données sont recueillies à partir d'une machine mobile à l'aide d'un équipement d'enregistrement de données télématiques, et stockées sur le serveur d'un fournisseur de télématique. Le présent document décrit les enregistrements de communications utilisés pour demander des données au serveur, et les réponses du serveur contenant des éléments de données à utiliser dans l'analyse des performances de la machine et de l'état de gestion de la machine liée au fonctionnement et/ou à la maintenance.
-    Il s'applique aux engins de terrassement automoteurs tels que définis dans l'ISO 6165 et aux machines mobiles de construction de routes telles que définies dans l'ISO 22242 équipées d'instruments de localisation et de temps.
-    Il ne s'applique pas au recueil de données à bord, au protocole de communication à bord (par exemple, le CANbus) ou à la transmission sans fil des données de machines mobiles au serveur du fournisseur de télématique après que les données ont été recueillies par l'enregistreur de données. Voir Figure 1.
+  content: This document specifies the communication schema designed to provide mobile
+    machinery status data from a telematics provider's server to customer applications
+    via the Internet. The data is collected from a mobile machine using telematics
+    data-logging equipment and stored on a telematics provider's server. This document
+    describes the communications records used to request data from the server and
+    the responses from the server containing specified data elements to be used in
+    the analysis of machine performance and machine management status related with
+    operation and/or maintenance. It is applicable to self-propelled earth-moving
+    machinery as defined in ISO 6165 and mobile road construction machinery as defined
+    in ISO 22242 equipped with location and time instrumentation. It is not applicable
+    to the on-board data collection, on-board communication protocol (e.g. CANbus)
+    or wireless transmission of the mobile machinery data to the telematics provider's
+    server after the data have been collected at the data logger. See Figure 1.
 status:
   stage:
     content: '90'
@@ -125,24 +120,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 15143-3:2016
+    formattedref:
+      content: ISO/WD TS 15143-3.2
+    docidentifier:
+    - content: ISO/WD TS 15143-3.2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TS 15143-3:2016
     docidentifier:
     - content: ISO/TS 15143-3:2016
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/AWI TS 15143-3
-    docidentifier:
-    - content: ISO/AWI TS 15143-3
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

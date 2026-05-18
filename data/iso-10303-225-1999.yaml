@@ -1,54 +1,46 @@
 ---
 id: ISO103032251999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Product data representation and exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 225: Application protocol: Building elements using explicit shape
     representation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 225: Application protocol: Building elements using explicit
     shape representation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation et échange de données de produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 225: Protocole d''application: Éléments de construction utilisant
     la représentation des formes explicites'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 225: Protocole d''application: Éléments
     de construction utilisant la représentation des formes explicites'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/25091.html
@@ -62,12 +54,12 @@ docidentifier:
   primary: true
 - content: ISO 10303-225:1999(E)
   type: iso-reference
-- content: urn:iso:std:iso:10303:-225:stage-90.93
+- content: urn:iso:std:iso:10303:-225:stage-90.60
   type: URN
 docnumber: '10303'
 date:
 - type: published
-  at: 1999-12
+  at: '1999-12-16'
 contributor:
 - role:
   - type: publisher
@@ -98,145 +90,71 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO 10303 specifies the use of the integrated resources necessary for the scope and
-    information requirements for the exchange of building element shape, property, and spatial
-    configuration information between application systems with explicit shape representations. Building
-    elements are those physical things of which a building is composed, such as structural elements,
-    enclosing and separating elements, service elements, fixtures and equipment, and spaces.
-    NOTE 1 - See 3.3.1.3 for definitions of these terms and concepts.
-    Building element shape, property, and spatial configuration information requirements can be used at
-    all stages of the life cycle of a building, including the design process, construction, and maintenance.
-    Building element shape, property, and spatial configuration information requirements specified in this
-    part of ISO 10303 support the following activities:
-    — concurrent design processes or building design iterations;
-    —integration of building structure designs with building systems designs to enable design analysis;
-    — building design visualization;
-    — specifications for construction and maintenance;
-    — analysis and review.
-    NOTE 2 - "Support" of these activities does not imply satisfaction. Satisfaction of the information
-    requirements for construction, for example, would require a complete building design. This part of ISO
-    10303 only satisfies a portion of information requirements for this activity. See 3.3.1.1.
-    EXAMPLE 1 - A design analysis function combines the building structure design with building service
-    systems designs (for systems such as heating, ventilation, and air condition (HVAC) and piping) to check
-    for interferences of the structural elements with piping and air conditioning elements.
-    NOTE 3 - The application activity model in annex F provides a graphical representation of the processes
-    and information flows that are the basis for the definition of the scope of this part of ISO 10303.
-    The following are within the scope of this part of ISO 10303:
-    — explicit representation of the three-dimensional shape of building elements using boundary
-    representation (B-rep) solid models, swept solid models, or constructive solid geometry (CSG)
-    models.
+  content: 'This part of ISO 10303 specifies the use of the integrated resources necessary
+    for the scope and information requirements for the exchange of building element
+    shape, property, and spatial configuration information between application systems
+    with explicit shape representations. Building elements are those physical things
+    of which a building is composed, such as structural elements, enclosing and separating
+    elements, service elements, fixtures and equipment, and spaces. NOTE 1 - See 3.3.1.3
+    for definitions of these terms and concepts. Building element shape, property,
+    and spatial configuration information requirements can be used at all stages of
+    the life cycle of a building, including the design process, construction, and
+    maintenance. Building element shape, property, and spatial configuration information
+    requirements specified in this part of ISO 10303 support the following activities:
+    — concurrent design processes or building design iterations; —integration of building
+    structure designs with building systems designs to enable design analysis; — building
+    design visualization; — specifications for construction and maintenance; — analysis
+    and review. NOTE 2 - "Support" of these activities does not imply satisfaction.
+    Satisfaction of the information requirements for construction, for example, would
+    require a complete building design. This part of ISO 10303 only satisfies a portion
+    of information requirements for this activity. See 3.3.1.1. EXAMPLE 1 - A design
+    analysis function combines the building structure design with building service
+    systems designs (for systems such as heating, ventilation, and air condition (HVAC)
+    and piping) to check for interferences of the structural elements with piping
+    and air conditioning elements. NOTE 3 - The application activity model in annex
+    F provides a graphical representation of the processes and information flows that
+    are the basis for the definition of the scope of this part of ISO 10303. The following
+    are within the scope of this part of ISO 10303: — explicit representation of the
+    three-dimensional shape of building elements using boundary representation (B-rep)
+    solid models, swept solid models, or constructive solid geometry (CSG) models.
     — the spatial configuration of building elements that comprise the assembled building;
-    — building structures that represent physically distinct buildings that are part of a single building
-    complex;
-    — non-structural elements that enclose a building or separate areas within a building;
-    — the shape and arrangement of equipment and service elements that provide services to a
-    building;
-    EXAMPLE 2 - Service elements include items such as plumbing, ductwork, and conduits. Equipment
-    includes items such as compressors, furnaces, or water heaters.
-    — the shape and arrangement of fixtures in a building;
-    EXAMPLE 3 - Fixtures include items such as furniture and installed items like doorknobs.
-    — specification of spaces and levels;
-    EXAMPLE 4 - Spaces include rooms, accesses, and hallways. Levels include concepts such as floors and
-    mezzanines of a building.
-    — the shape of the site on which the building will be erected;
-    — specification of properties of building elements, including material composition;
-    — specification of classification information;
-    EXAMPLE 5 - Elements may be classified for reasons which include cost analysis, acoustics, or safety.
-    — association of properties and classification information to building elements;
-    — changes to building element shape, property, and spatial configuration information;
-    — association of approvals with building element shape, property, and spatial configuration
-    information;
-    — as-built record of the building.
-    The following are outside the scope of this part of ISO 10303:
-    — 2D shape representation and draughting presentation;
-    — the contents of building standards;
-    — implicit representation of building elements through selection of standard parameters;
-    — structural analysis of building structures, including loads, connections, and material properties
-    required for analysis;
-    — thermal analysis of buildings;
-    — the assembly process, joining methods, and detailed connectivity of building elements;
-    — building maintenance history, requirements, and instructions;
-    — approval, revision, versioning, and design change histories;
-    — building elements without explicit shape representation;
-    — bills of quantities.
-    NOTE 4 - In industries other than AEC, bills of quantities are often referred to as bills of material.
-- language: fr
-  script: Latn
-  content: |-
-    This part of ISO 10303 specifies the use of the integrated resources necessary for the scope and
-    information requirements for the exchange of building element shape, property, and spatial
-    configuration information between application systems with explicit shape representations. Building
-    elements are those physical things of which a building is composed, such as structural elements,
-    enclosing and separating elements, service elements, fixtures and equipment, and spaces.
-    NOTE 1 - See 3.3.1.3 for definitions of these terms and concepts.
-    Building element shape, property, and spatial configuration information requirements can be used at
-    all stages of the life cycle of a building, including the design process, construction, and maintenance.
-    Building element shape, property, and spatial configuration information requirements specified in this
-    part of ISO 10303 support the following activities:
-    — concurrent design processes or building design iterations;
-    —integration of building structure designs with building systems designs to enable design analysis;
-    — building design visualization;
-    — specifications for construction and maintenance;
-    — analysis and review.
-    NOTE 2 - "Support" of these activities does not imply satisfaction. Satisfaction of the information
-    requirements for construction, for example, would require a complete building design. This part of ISO
-    10303 only satisfies a portion of information requirements for this activity. See 3.3.1.1.
-    EXAMPLE 1 - A design analysis function combines the building structure design with building service
-    systems designs (for systems such as heating, ventilation, and air condition (HVAC) and piping) to check
-    for interferences of the structural elements with piping and air conditioning elements.
-    NOTE 3 - The application activity model in annex F provides a graphical representation of the processes
-    and information flows that are the basis for the definition of the scope of this part of ISO 10303.
-    The following are within the scope of this part of ISO 10303:
-    — explicit representation of the three-dimensional shape of building elements using boundary
-    representation (B-rep) solid models, swept solid models, or constructive solid geometry (CSG)
-    models.
-    — the spatial configuration of building elements that comprise the assembled building;
-    — building structures that represent physically distinct buildings that are part of a single building
-    complex;
-    — non-structural elements that enclose a building or separate areas within a building;
-    — the shape and arrangement of equipment and service elements that provide services to a
-    building;
-    EXAMPLE 2 - Service elements include items such as plumbing, ductwork, and conduits. Equipment
-    includes items such as compressors, furnaces, or water heaters.
-    — the shape and arrangement of fixtures in a building;
-    EXAMPLE 3 - Fixtures include items such as furniture and installed items like doorknobs.
-    — specification of spaces and levels;
-    EXAMPLE 4 - Spaces include rooms, accesses, and hallways. Levels include concepts such as floors and
-    mezzanines of a building.
-    — the shape of the site on which the building will be erected;
-    — specification of properties of building elements, including material composition;
-    — specification of classification information;
-    EXAMPLE 5 - Elements may be classified for reasons which include cost analysis, acoustics, or safety.
-    — association of properties and classification information to building elements;
-    — changes to building element shape, property, and spatial configuration information;
-    — association of approvals with building element shape, property, and spatial configuration
-    information;
-    — as-built record of the building.
-    The following are outside the scope of this part of ISO 10303:
-    — 2D shape representation and draughting presentation;
-    — the contents of building standards;
-    — implicit representation of building elements through selection of standard parameters;
-    — structural analysis of building structures, including loads, connections, and material properties
-    required for analysis;
-    — thermal analysis of buildings;
-    — the assembly process, joining methods, and detailed connectivity of building elements;
-    — building maintenance history, requirements, and instructions;
-    — approval, revision, versioning, and design change histories;
-    — building elements without explicit shape representation;
-    — bills of quantities.
-    NOTE 4 - In industries other than AEC, bills of quantities are often referred to as bills of material.
+    — building structures that represent physically distinct buildings that are part
+    of a single building complex; — non-structural elements that enclose a building
+    or separate areas within a building; — the shape and arrangement of equipment
+    and service elements that provide services to a building; EXAMPLE 2 - Service
+    elements include items such as plumbing, ductwork, and conduits. Equipment includes
+    items such as compressors, furnaces, or water heaters. — the shape and arrangement
+    of fixtures in a building; EXAMPLE 3 - Fixtures include items such as furniture
+    and installed items like doorknobs. — specification of spaces and levels; EXAMPLE
+    4 - Spaces include rooms, accesses, and hallways. Levels include concepts such
+    as floors and mezzanines of a building. — the shape of the site on which the building
+    will be erected; — specification of properties of building elements, including
+    material composition; — specification of classification information; EXAMPLE 5
+    - Elements may be classified for reasons which include cost analysis, acoustics,
+    or safety. — association of properties and classification information to building
+    elements; — changes to building element shape, property, and spatial configuration
+    information; — association of approvals with building element shape, property,
+    and spatial configuration information; — as-built record of the building. The
+    following are outside the scope of this part of ISO 10303: — 2D shape representation
+    and draughting presentation; — the contents of building standards; — implicit
+    representation of building elements through selection of standard parameters;
+    — structural analysis of building structures, including loads, connections, and
+    material properties required for analysis; — thermal analysis of buildings; —
+    the assembly process, joining methods, and detailed connectivity of building elements;
+    — building maintenance history, requirements, and instructions; — approval, revision,
+    versioning, and design change histories; — building elements without explicit
+    shape representation; — bills of quantities. NOTE 4 - In industries other than
+    AEC, bills of quantities are often referred to as bills of material.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '1999'
   owner:
@@ -244,9 +162,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

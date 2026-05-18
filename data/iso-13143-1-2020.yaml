@@ -1,55 +1,49 @@
 ---
 id: ISO1314312020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Electronic fee collection
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Evaluation of on-board and roadside equipment for conformity to ISO 12813
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Test suite structure and test purposes'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Electronic fee collection - Evaluation of on-board and roadside equipment
     for conformity to ISO 12813 - Part 1: Test suite structure and test purposes'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception de télépéage
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Évaluation des équipements embarqués et en bord de route quant à la conformité
     avec l'ISO 12813
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Structure de suite d''essais et buts des essais'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Perception de télépéage - Évaluation des équipements embarqués et en bord
     de route quant à la conformité avec l''ISO 12813 - Partie 1: Structure de suite
     d''essais et buts des essais'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78354.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:78354:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/83/78354.detail.rss
 docidentifier:
@@ -63,7 +57,7 @@ docidentifier:
 docnumber: '13143'
 date:
 - type: published
-  at: 2020-11
+  at: '2020-11-03'
 contributor:
 - role:
   - type: publisher
@@ -100,16 +94,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the test suite structure (TSS) and test purposes (TPs) for evaluating the conformity of on-board equipment (OBE) and roadside equipment (RSE) to ISO 12813.
-    It provides a basis for conformance tests for dedicated short-range communication (DSRC) OBE and RSE to support interoperability between different equipment supplied by different manufacturers.
-    ISO 12813 defines requirements on the compliance check communication (CCC) interface level, but not for the RSE or OBE internal functional behaviour. Consequently, tests regarding OBE and/or RSE functional behaviour remain outside the scope of this document.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie la structure de la suite d'essais (TSS, Test Suite Structure) et les buts des essais (TP, Test Purposes) pour évaluer la conformité des équipements embarqués (OBE) et des équipements en bord de route (RSE) par rapport à l'ISO 12813.
-    Il fournit une base pour les essais de conformité des OBE et RSE de communication dédiée à courte portée (DSRC) afin de permettre l'interopérabilité entre les différents équipements fournis par différents fabricants.
-    L'ISO 12813 définit les exigences applicables au niveau d'interface de communication de contrôle de conformité CCC mais qui ne concernent pas le comportement fonctionnel interne des RSE et OBE. Par conséquent, les essais relatifs au comportement fonctionnel des OBE et/ou RSE restent en dehors du domaine d'application du présent document.
+  content: This document specifies the test suite structure (TSS) and test purposes
+    (TPs) for evaluating the conformity of on-board equipment (OBE) and roadside equipment
+    (RSE) to ISO 12813. It provides a basis for conformance tests for dedicated short-range
+    communication (DSRC) OBE and RSE to support interoperability between different
+    equipment supplied by different manufacturers. ISO 12813 defines requirements
+    on the compliance check communication (CCC) interface level, but not for the RSE
+    or OBE internal functional behaviour. Consequently, tests regarding OBE and/or
+    RSE functional behaviour remain outside the scope of this document.
 status:
   stage:
     content: '95'
@@ -124,35 +116,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13143-1:2016
-    docidentifier:
-    - content: ISO 13143-1:2016
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 13143:2025
+    formattedref:
+      content: ISO 13143:2025
     docidentifier:
     - content: ISO 13143:2025
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-02-28'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 13143-1:2016
+    docidentifier:
+    - content: ISO 13143-1:2016
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

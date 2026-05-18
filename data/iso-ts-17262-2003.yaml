@@ -1,53 +1,47 @@
 ---
 id: ISOTS172622003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Automatic vehicle and equipment identification
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Intermodal goods transport
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Numbering and data structures
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic vehicle and equipment identification - Intermodal goods transport
     - Numbering and data structures
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification automatique des véhicules et des équipements
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Transport intermodal de marchandises
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Structures des données et numérotation
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification automatique des véhicules et des équipements - Transport
     intermodal de marchandises - Structures des données et numérotation
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/29252.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:29252:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/92/29252.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '17262'
 date:
 - type: published
-  at: 2003-06
+  at: '2003-06-17'
 contributor:
 - role:
   - type: publisher
@@ -92,30 +86,38 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/TS 17262:2003 defines generic numbering and data structures for unambiguous identification of equipment used for Intermodal goods transport. These data are known as Intermodal Goods Transport Numbering and Data Structures.
-    ISO/TS 17262:2003 defines data independently of the data carrier. The modelling of data is based on Abstract Syntax Notation One (ASN.1) as defined in ISO/IEC 8824. ISO/TS 17262:2003 excludes any physical aspects such as interfaces, dimensions etc. Data that form part of transmission or storage protocols (headers, frame markers and checksums) are excluded.
-    Data defined in ISO/TS 17262:2003 require a system for control and distribution of number series independent of the different AVI/AEI systems. This is required in order to avoid ambiguity and to provide the necessary level of security where appropriate. For this reason the registration authority defined in ENV ISO 14816 applies for ISO/TS 17262:2003.
-    ISO/TS 17262:2003 enables the use of optimised encoding schemes such as ASN.1 Basic Packed Encoding Rules (PER).
-    ISO/TS 17262:2003 provides interoperability, not only between simple AVI/AEI and more complex RTTT/TICS functions, but also with pre-existing Standards such as container (ISO 10374). Specifications for protecting against changes, classifying and qualifying security aspects of the data are out of scope of ISO/TS 17262:2003.
-    ISO/TS 17262:2003 relates to AVI/AEI units, but not to smaller containers and units being transported. For smaller units (pallet loads, trays, parcels etc.) please refer to ISO/IEC SC 31 standards, ISO 18000 series. The Numbering Structure defined in ISO/TS 17262:2003 is designed to enable combinations with the data definitions from ISO 18000 series. This combination will be covered in CEN ISO/TS 17264 (under preparation).
-    ISO/TS 17262:2003 provides the capability to carry application data, associated with the identification, to be carried as part of the AVI/AEI message. Within ISO/TS 17262:2003 this is provided as a "black box" facility. The definition of the structure and contents of such messages are outside the scope of ISO/TS 17262:2003 (examples will be shown in CEN ISO/TS 17264).
-- language: fr
-  script: Latn
-  content: |-
-    ISO/TS 17262:2003 defines generic numbering and data structures for unambiguous identification of equipment used for Intermodal goods transport. These data are known as Intermodal Goods Transport Numbering and Data Structures.
-    ISO/TS 17262:2003 defines data independently of the data carrier. The modelling of data is based on Abstract Syntax Notation One (ASN.1) as defined in ISO/IEC 8824. ISO/TS 17262:2003 excludes any physical aspects such as interfaces, dimensions etc. Data that form part of transmission or storage protocols (headers, frame markers and checksums) are excluded.
-    Data defined in ISO/TS 17262:2003 require a system for control and distribution of number series independent of the different AVI/AEI systems. This is required in order to avoid ambiguity and to provide the necessary level of security where appropriate. For this reason the registration authority defined in ENV ISO 14816 applies for ISO/TS 17262:2003.
-    ISO/TS 17262:2003 enables the use of optimised encoding schemes such as ASN.1 Basic Packed Encoding Rules (PER).
-    ISO/TS 17262:2003 provides interoperability, not only between simple AVI/AEI and more complex RTTT/TICS functions, but also with pre-existing Standards such as container (ISO 10374). Specifications for protecting against changes, classifying and qualifying security aspects of the data are out of scope of ISO/TS 17262:2003.
-    ISO/TS 17262:2003 relates to AVI/AEI units, but not to smaller containers and units being transported. For smaller units (pallet loads, trays, parcels etc.) please refer to ISO/IEC SC 31 standards, ISO 18000 series. The Numbering Structure defined in ISO/TS 17262:2003 is designed to enable combinations with the data definitions from ISO 18000 series. This combination will be covered in CEN ISO/TS 17264 (under preparation).
-    ISO/TS 17262:2003 provides the capability to carry application data, associated with the identification, to be carried as part of the AVI/AEI message. Within ISO/TS 17262:2003 this is provided as a "black box" facility. The definition of the structure and contents of such messages are outside the scope of ISO/TS 17262:2003 (examples will be shown in CEN ISO/TS 17264).
+  content: ISO/TS 17262:2003 defines generic numbering and data structures for unambiguous
+    identification of equipment used for Intermodal goods transport. These data are
+    known as Intermodal Goods Transport Numbering and Data Structures. ISO/TS 17262:2003
+    defines data independently of the data carrier. The modelling of data is based
+    on Abstract Syntax Notation One (ASN.1) as defined in ISO/IEC 8824. ISO/TS 17262:2003
+    excludes any physical aspects such as interfaces, dimensions etc. Data that form
+    part of transmission or storage protocols (headers, frame markers and checksums)
+    are excluded. Data defined in ISO/TS 17262:2003 require a system for control and
+    distribution of number series independent of the different AVI/AEI systems. This
+    is required in order to avoid ambiguity and to provide the necessary level of
+    security where appropriate. For this reason the registration authority defined
+    in ENV ISO 14816 applies for ISO/TS 17262:2003. ISO/TS 17262:2003 enables the
+    use of optimised encoding schemes such as ASN.1 Basic Packed Encoding Rules (PER).
+    ISO/TS 17262:2003 provides interoperability, not only between simple AVI/AEI and
+    more complex RTTT/TICS functions, but also with pre-existing Standards such as
+    container (ISO 10374). Specifications for protecting against changes, classifying
+    and qualifying security aspects of the data are out of scope of ISO/TS 17262:2003.
+    ISO/TS 17262:2003 relates to AVI/AEI units, but not to smaller containers and
+    units being transported. For smaller units (pallet loads, trays, parcels etc.)
+    please refer to ISO/IEC SC 31 standards, ISO 18000 series. The Numbering Structure
+    defined in ISO/TS 17262:2003 is designed to enable combinations with the data
+    definitions from ISO 18000 series. This combination will be covered in CEN ISO/TS
+    17264 (under preparation). ISO/TS 17262:2003 provides the capability to carry
+    application data, associated with the identification, to be carried as part of
+    the AVI/AEI message. Within ISO/TS 17262:2003 this is provided as a "black box"
+    facility. The definition of the structure and contents of such messages are outside
+    the scope of ISO/TS 17262:2003 (examples will be shown in CEN ISO/TS 17264).
 status:
   stage:
     content: '95'
@@ -128,29 +130,26 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 17262:2012
+    formattedref:
+      content: ISO 17262:2012
     docidentifier:
     - content: ISO 17262:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2012-08-23'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

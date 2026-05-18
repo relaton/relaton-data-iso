@@ -1,41 +1,37 @@
 ---
 id: ISO110762012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aircraft
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: De-icing/anti-icing methods on the ground
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Aircraft - De-icing/anti-icing methods on the ground
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes de dégivrage et d'anti-givrage au sol
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs - Méthodes de dégivrage et d'anti-givrage au sol
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/54925.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:54925:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/49/54925.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '11076'
 date:
 - type: published
-  at: 2012-11
+  at: '2012-11-05'
 contributor:
 - role:
   - type: publisher
@@ -81,8 +77,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -92,14 +90,6 @@ abstract:
     the safe operation of main-line and regional civil transport airplanes during
     icing conditions. ISO 11076:2012 does not specify requirements for specific aircraft
     model types.
-- language: fr
-  script: Latn
-  content: L'ISO 11076:2012 définit les exigences minimales pour les méthodes de dégivrage
-    et d'anti-givrage au sol des aéronefs, conformément au Manuel des opérations de
-    dégivrage et d'anti-givrage au sol (Doc. 9640-AN/940) de l'OACI, afin de faciliter
-    l'exploitation en sécurité des avions de transport civil de ligne et régionaux
-    en conditions givrantes. L'ISO 11076:2012 ne définit pas d'exigences pour des
-    types particuliers de modèle d'aéronef.
 status:
   stage:
     content: '95'
@@ -114,27 +104,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11076:2006
-    docidentifier:
-    - content: ISO 11076:2006
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 11076:2020
+    formattedref:
+      content: ISO 11076:2020
     docidentifier:
     - content: ISO 11076:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-01-31'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11076:2006
+    docidentifier:
+    - content: ISO 11076:2006
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,31 +1,29 @@
 ---
 id: ISO180772018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Reload startup physics tests for pressurized water reactors
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Reload startup physics tests for pressurized water reactors
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais physiques au redémarrage pour les réacteurs à eau préssurisée
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais physiques au redémarrage pour les réacteurs à eau préssurisée
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/61295.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:61295:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/12/61295.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '18077'
 date:
 - type: published
-  at: 2018-03
+  at: '2018-03-27'
 contributor:
 - role:
   - type: publisher
@@ -70,26 +68,38 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 18077:2018 applies to the reactor physics tests that are performed following a refuelling or other core alteration of a PWR for which nuclear design calculations are required. This document does not address the physics test program for the initial core of a commercial PWR[1].
-    ISO 18077:2018 specifies the minimum acceptable startup reactor physics test program to determine if the operating characteristics of the core are consistent with the design predictions, which provides assurance that the core can be operated as designed. This document does not address surveillance of reactor physics parameters during operation or other required tests such as mechanical tests of system components (for example the rod drop time test), visual verification requirements for fuel assembly loading, or the calibration of instrumentation or control systems (even though these tests are an integral part of an overall program to ensure that the core behaves as designed).
-    ISO 18077:2018 assumes that the same previously accepted analytical methods are used for both the design of the reactor core and the startup test predictions. It also assumes that the expected operation of the core will fall within the historical database established for the plant and/or sister plants.
-    When major changes are made in the core design, the test program should be reviewed to determine if more extensive testing is needed. Typical changes that might fall in this category include the initial use of novel fuel cycle designs, significant changes in fuel enrichments, fuel assembly design changes, burnable absorber design changes, and cores resulting from unplanned short cycles. Changes such as these may lead to operation in regions outside of the plant's experience database and therefore may necessitate expanding the test program.
-    [1] The good practices discussed in this document should be considered for use in the physics test program for the initial core of a commercial PWR. One test that provides useful information (without additional test time) is the hot-zero-power to hot-full-power reactivity measurement.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 18077:2018 applies to the reactor physics tests that are performed following a refuelling or other core alteration of a PWR for which nuclear design calculations are required. This document does not address the physics test program for the initial core of a commercial PWR[1].
-    ISO 18077:2018 specifies the minimum acceptable startup reactor physics test program to determine if the operating characteristics of the core are consistent with the design predictions, which provides assurance that the core can be operated as designed. This document does not address surveillance of reactor physics parameters during operation or other required tests such as mechanical tests of system components (for example the rod drop time test), visual verification requirements for fuel assembly loading, or the calibration of instrumentation or control systems (even though these tests are an integral part of an overall program to ensure that the core behaves as designed).
-    ISO 18077:2018 assumes that the same previously accepted analytical methods are used for both the design of the reactor core and the startup test predictions. It also assumes that the expected operation of the core will fall within the historical database established for the plant and/or sister plants.
-    When major changes are made in the core design, the test program should be reviewed to determine if more extensive testing is needed. Typical changes that might fall in this category include the initial use of novel fuel cycle designs, significant changes in fuel enrichments, fuel assembly design changes, burnable absorber design changes, and cores resulting from unplanned short cycles. Changes such as these may lead to operation in regions outside of the plant's experience database and therefore may necessitate expanding the test program.
-    [1] The good practices discussed in this document should be considered for use in the physics test program for the initial core of a commercial PWR. One test that provides useful information (without additional test time) is the hot-zero-power to hot-full-power reactivity measurement.
+  content: ISO 18077:2018 applies to the reactor physics tests that are performed
+    following a refuelling or other core alteration of a PWR for which nuclear design
+    calculations are required. This document does not address the physics test program
+    for the initial core of a commercial PWR[1]. ISO 18077:2018 specifies the minimum
+    acceptable startup reactor physics test program to determine if the operating
+    characteristics of the core are consistent with the design predictions, which
+    provides assurance that the core can be operated as designed. This document does
+    not address surveillance of reactor physics parameters during operation or other
+    required tests such as mechanical tests of system components (for example the
+    rod drop time test), visual verification requirements for fuel assembly loading,
+    or the calibration of instrumentation or control systems (even though these tests
+    are an integral part of an overall program to ensure that the core behaves as
+    designed). ISO 18077:2018 assumes that the same previously accepted analytical
+    methods are used for both the design of the reactor core and the startup test
+    predictions. It also assumes that the expected operation of the core will fall
+    within the historical database established for the plant and/or sister plants.
+    When major changes are made in the core design, the test program should be reviewed
+    to determine if more extensive testing is needed. Typical changes that might fall
+    in this category include the initial use of novel fuel cycle designs, significant
+    changes in fuel enrichments, fuel assembly design changes, burnable absorber design
+    changes, and cores resulting from unplanned short cycles. Changes such as these
+    may lead to operation in regions outside of the plant's experience database and
+    therefore may necessitate expanding the test program. [1] The good practices discussed
+    in this document should be considered for use in the physics test program for
+    the initial core of a commercial PWR. One test that provides useful information
+    (without additional test time) is the hot-zero-power to hot-full-power reactivity
+    measurement.
 status:
   stage:
     content: '95'
@@ -102,21 +112,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 18077:2022
+    formattedref:
+      content: ISO 18077:2022
     docidentifier:
     - content: ISO 18077:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-12-07'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

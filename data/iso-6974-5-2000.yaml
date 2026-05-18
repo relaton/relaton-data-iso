@@ -1,24 +1,21 @@
 ---
 id: ISO697452000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Natural gas
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of composition with defined uncertainty by gas chromatography
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: Determination of nitrogen, carbon dioxide and C1 to C5 and C6+
     hydrocarbons for a laboratory and on-line process application using three columns'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Natural gas - Determination of composition with defined uncertainty by
@@ -26,25 +23,21 @@ title:
     to C5 and C6+ hydrocarbons for a laboratory and on-line process application using
     three columns'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gaz naturel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la composition avec une incertitude définie par chromatographie
     en phase gazeuse
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Détermination de l''azote, du dioxyde de carbone et des hydrocarbures
     C1 à C5 et C6+ pour l''application de processus en laboratoire et en continu employant
     trois colonnes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Gaz naturel - Détermination de la composition avec une incertitude définie
@@ -52,10 +45,11 @@ title:
     dioxyde de carbone et des hydrocarbures C1 à C5 et C6+ pour l''application de
     processus en laboratoire et en continu employant trois colonnes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/25856.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:25856:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/58/25856.detail.rss
 docidentifier:
@@ -69,7 +63,7 @@ docidentifier:
 docnumber: '6974'
 date:
 - type: published
-  at: 2000-04
+  at: '2000-04-06'
 contributor:
 - role:
   - type: publisher
@@ -103,12 +97,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 6974-5:2000 décrit une méthode par chromatographie en phase gazeuse pour la détermination quantitative de constituants du gaz naturel à l'aide d'un système à trois colonnes. Cette méthode est applicable aux gaz naturels de plage limitée, utilisés régulièrement pour l'étalonnage en ligne et automatique d'échantillons de gaz ne contenant pas de condensats d'hydrocarbures et/ou d'eau. Elle est applicable à l'analyse de gaz contenant des constituants dans les limites des gammes de fractions molaires indiquées au Tableau 1 de l'ISO 6974-5:2000. Ces gammes ne représentent pas les limites de détection, mais les limites à l'intérieur desquelles s'applique la fidélité spécifiée de la méthode. Même si la présence d'un ou plusieurs constituants d'un échantillon est susceptible de ne pas être détectée, la méthode peut tout de même être applicable.
-    L'ISO 6974-5:2000 n'est applicable que conjointement avec l'ISO 6974-1 et l'ISO 6974-2.
 status:
   stage:
     content: '95'
@@ -123,27 +111,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6974:1984
-    docidentifier:
-    - content: ISO 6974:1984
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 6974-5:2014
+    formattedref:
+      content: ISO 6974-5:2014
     docidentifier:
     - content: ISO 6974-5:2014
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2014-07-04'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 6974-5
+    docidentifier:
+    - content: ISO/CD 6974-5
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 6974:1984
+    docidentifier:
+    - content: ISO 6974:1984
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

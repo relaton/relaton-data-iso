@@ -1,38 +1,32 @@
 ---
 id: ISO44811977
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cutlery and flatware
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Nomenclature
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cutlery and flatware - Nomenclature
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Couverts et coutellerie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Nomenclature
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Couverts et coutellerie - Nomenclature
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/10376.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '4481'
 date:
 - type: published
-  at: 1977-12
+  at: '1977-12-01'
 contributor:
 - role:
   - type: publisher
@@ -83,15 +77,12 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
-  script: Latn
-  content: The terms are given in English, French and Russian. In addition an annex
-    with equivalent terms in German, Italien and Spanish is delivered. To facilitate
-    the understanding of the terms drawing of the implements named are also given
-- language: fr
   script: Latn
   content: The terms are given in English, French and Russian. In addition an annex
     with equivalent terms in German, Italien and Spanish is delivered. To facilitate
@@ -107,18 +98,43 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 4481
+    docidentifier:
+    - content: ISO/PWI 4481
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 4481
+    docidentifier:
+    - content: ISO/WD 4481
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 4481
+    docidentifier:
+    - content: ISO/NP 4481
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.97
-    text: Domestic and commercial equipment. Entertainment. Sports (Vocabularies)
   - code: 97.040.60
     text: Cookware, cutlery and flatware
+  - code: 01.040.97
+    text: Domestic and commercial equipment. Entertainment. Sports (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

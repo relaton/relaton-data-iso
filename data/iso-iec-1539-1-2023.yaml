@@ -1,48 +1,40 @@
 ---
 id: ISOIEC153912023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Programming languages
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fortran
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Base language'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Programming languages - Fortran - Part 1: Base language'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Fortran
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Langage de base'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Langages de programmation - Fortran - Partie 1: Langage de base'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/82170.html
@@ -56,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 1539-1:2023(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:1539:-1:stage-60.60
+- content: urn:iso:std:iso-iec:1539:-1:stage-90.92
   type: URN
 docnumber: '1539'
 date:
 - type: published
-  at: 2023-11
+  at: '2023-11-17'
 contributor:
 - role:
   - type: publisher
@@ -101,14 +93,13 @@ edition:
   content: '5'
 language:
 - en
-- fr
 script:
 - Latn
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2023'
   owner:
@@ -118,32 +109,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 1539-1:2018
+    formattedref:
+      content: ISO/IEC AWI 1539-1
     docidentifier:
-    - content: ISO/IEC 1539-1:2018
+    - content: ISO/IEC AWI 1539-1
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 1539-1:2018/Cor 1:2021
-    docidentifier:
-    - content: ISO/IEC 1539-1:2018/Cor 1:2021
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 1539-1:2018/Cor 2:2023
+    formattedref:
+      content: ISO/IEC 1539-1:2018/Cor 2:2023
     docidentifier:
     - content: ISO/IEC 1539-1:2018/Cor 2:2023
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 1539-1:2018/Cor 1:2021
+    docidentifier:
+    - content: ISO/IEC 1539-1:2018/Cor 1:2021
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 1539-1:2018
+    docidentifier:
+    - content: ISO/IEC 1539-1:2018
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

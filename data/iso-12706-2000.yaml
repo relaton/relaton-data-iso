@@ -1,52 +1,46 @@
 ---
 id: ISO127062000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Non-destructive testing
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Terminology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Terms used in penetrant testing
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Non-destructive testing - Terminology - Terms used in penetrant testing
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais non destructifs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Terminologie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Termes utilisés en contrôle par ressuage
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais non destructifs - Terminologie - Termes utilisés en contrôle par
     ressuage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/1955.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:1955:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/19/1955.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '12706'
 date:
 - type: published
-  at: 2000-11
+  at: '2000-11-23'
 contributor:
 - role:
   - type: publisher
@@ -106,29 +100,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 12706:2009
+    formattedref:
+      content: ISO 12706:2009
     docidentifier:
     - content: ISO 12706:2009
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2009-10-27'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 12706
+    docidentifier:
+    - content: ISO/DIS 12706
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '19.100'
-    text: Non-destructive testing
   - code: 01.040.19
     text: Testing (Vocabularies)
+  - code: '19.100'
+    text: Non-destructive testing
   structuredidentifier:
     type: ISO
     project_number:

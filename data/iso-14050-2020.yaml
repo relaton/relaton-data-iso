@@ -1,38 +1,32 @@
 ---
 id: ISO140502020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Environmental management
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Environmental management - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Management environnemental
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Management environnemental - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/75300.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '14050'
 date:
 - type: published
-  at: 2020-07
+  at: '2020-07-30'
 contributor:
 - role:
   - type: publisher
@@ -82,6 +76,7 @@ edition:
   content: '4'
 language:
 - en
+- es
 - fr
 script:
 - Latn
@@ -92,13 +87,6 @@ abstract:
     management systems and tools in support of sustainable development. These include
     management systems, auditing and other types of assessment, communications, footprinting
     studies, greenhouse gas mitigation and adaptation to climate change.
-- language: fr
-  script: Latn
-  content: Le présent document définit les termes dans les documents relatifs aux
-    domaines des systèmes de management environnemental et aux outils venant à l'appui
-    du développement durable, ce qui inclut les systèmes de management, les audits
-    et les autres types d'évaluation, les communications, les études d'empreinte,
-    l'atténuation des gaz à effet de serre et l'adaptation au changement climatique.
 status:
   stage:
     content: '90'
@@ -113,32 +101,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14050:2009
+    formattedref:
+      content: ISO/CD 14050
+    docidentifier:
+    - content: ISO/CD 14050
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 14050:2009
     docidentifier:
     - content: ISO 14050:2009
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/AWI 14050
-    docidentifier:
-    - content: ISO/AWI 14050
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.13
-    text: Environment. Health protection. Safety (Vocabularies)
   - code: 13.020.10
     text: Environmental management
+  - code: 01.040.13
+    text: Environment. Health protection. Safety (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

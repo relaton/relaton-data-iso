@@ -1,50 +1,42 @@
 ---
 id: ISOIEC14496342025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Coding of audio-visual objects
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 34: Syntactic description language'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Coding of audio-visual objects - Part 34: Syntactic
     description language'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Codage des objets audiovisuels
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 34: Langage de description syntaxique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
     34: Langage de description syntaxique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/85598.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 14496-34:2025(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:14496:-34:stage-60.60
+- content: urn:iso:std:iso-iec:14496:-34:stage-90.92
   type: URN
 docnumber: '14496'
 date:
 - type: published
-  at: 2025-05
+  at: '2025-05-13'
 contributor:
 - role:
   - type: publisher
@@ -103,37 +95,48 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a syntactic description language for describing the structure of binary data. It covers the representation of an SDL specification in plain text, the syntax of the SDL and the semantic rules of the SDL.
-    In scenarios where the usage or interpretation of the SDL are ambiguous or undefined, this document attempts to specify whether such a scenario is considered an invalid SDL specification or will result in undefined behaviour.
-    NOTE            While the SDL borrows from and contains some aspects of a general-purpose programming language, it is not intended, nor is it suitable, to be used for such a purpose. This is reflected in the fact that many concepts related to general-purpose programming languages are not addressed in this document. Examples of concepts considered irrelevant to the SDL and therefore not addressed in this document include storage of an SDL specification in a file, compilation, execution, input/output, execution environment and machine architecture.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies a syntactic description language for describing the structure of binary data. It covers the representation of an SDL specification in plain text, the syntax of the SDL and the semantic rules of the SDL.
-    In scenarios where the usage or interpretation of the SDL are ambiguous or undefined, this document attempts to specify whether such a scenario is considered an invalid SDL specification or will result in undefined behaviour.
-    NOTE            While the SDL borrows from and contains some aspects of a general-purpose programming language, it is not intended, nor is it suitable, to be used for such a purpose. This is reflected in the fact that many concepts related to general-purpose programming languages are not addressed in this document. Examples of concepts considered irrelevant to the SDL and therefore not addressed in this document include storage of an SDL specification in a file, compilation, execution, input/output, execution environment and machine architecture.
+  content: This document specifies a syntactic description language for describing
+    the structure of binary data. It covers the representation of an SDL specification
+    in plain text, the syntax of the SDL and the semantic rules of the SDL. In scenarios
+    where the usage or interpretation of the SDL are ambiguous or undefined, this
+    document attempts to specify whether such a scenario is considered an invalid
+    SDL specification or will result in undefined behaviour. NOTE            While
+    the SDL borrows from and contains some aspects of a general-purpose programming
+    language, it is not intended, nor is it suitable, to be used for such a purpose.
+    This is reflected in the fact that many concepts related to general-purpose programming
+    languages are not addressed in this document. Examples of concepts considered
+    irrelevant to the SDL and therefore not addressed in this document include storage
+    of an SDL specification in a file, compilation, execution, input/output, execution
+    environment and machine architecture.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2025'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC AWI 14496-34
+    docidentifier:
+    - content: ISO/IEC AWI 14496-34
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

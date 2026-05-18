@@ -1,50 +1,42 @@
 ---
 id: ISO30402016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geometrical product specifications (GPS)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Dimensioning and tolerancing
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cones
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Geometrical product specifications (GPS) - Dimensioning and tolerancing
     - Cones
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification géométrique des produits (GPS)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cotation et tolérancement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cônes
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification géométrique des produits (GPS) - Cotation et tolérancement
     - Cônes
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/67649.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '3040'
 date:
 - type: published
-  at: 2016-05
+  at: '2016-04-11'
 contributor:
 - role:
   - type: publisher
@@ -100,18 +92,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 3040:2016 specifies graphical indication applicable to a cone (right-angle circular cones) to define its dimensioning or to specify its tolerancing.
-    For the purposes of this International Standard, the term "cone" relates to right-angle circular cones only (any intersection by a plane perpendicular to the axis of the nominal cone is a circle).
-    NOTE 1       For simplicity, only truncated cones have been represented in this International Standard. However, this International Standard can be applied to any type of cone within its scope.
-    NOTE 2       This International Standard is not intended to prevent the use of other methods of dimensioning and tolerancing.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 3040:2016 spécifie l'indication graphique applicable à un cône (cônes de révolution) pour définir sa cotation ou pour spécifier son tolérancement.
-    Pour les besoins de la présente Norme internationale, le terme « cône » se rapporte seulement aux cônes de revolution (toute intersection par un plan perpendiculaire à l'axe du cône nominal est un cercle).
-    NOTE 1       Dans la présente Norme internationale, seuls les troncs de cônes ont été représentés, ceci à des fins de simplification. Cependant la présente Norme internationale peut s'appliquer à tous types de cônes, dans le cadre de son domaine d'application.
-    NOTE 2       II n'est pas dans l'intention de la présente Norme internationale d'empêcher l'emploi d'autres méthodes de cotation et de tolérancement.
+  content: ISO 3040:2016 specifies graphical indication applicable to a cone (right-angle
+    circular cones) to define its dimensioning or to specify its tolerancing. For
+    the purposes of this International Standard, the term "cone" relates to right-angle
+    circular cones only (any intersection by a plane perpendicular to the axis of
+    the nominal cone is a circle). NOTE 1 For simplicity, only truncated cones have
+    been represented in this International Standard. However, this International Standard
+    can be applied to any type of cone within its scope. NOTE 2 This International
+    Standard is not intended to prevent the use of other methods of dimensioning and
+    tolerancing.
 status:
   stage:
     content: '90'
@@ -124,18 +113,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 3040:2009
+    formattedref:
+      content: ISO 3040:2009/DAmd 1.2
+    docidentifier:
+    - content: ISO 3040:2009/DAM 1.2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3040:2009
     docidentifier:
     - content: ISO 3040:2009
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,51 +1,43 @@
 ---
 id: ISO1189832006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Controller area network (CAN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Low-speed, fault-tolerant, medium-dependent interface'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Controller area network (CAN) - Part 3: Low-speed, fault-tolerant,
     medium-dependent interface'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestionnaire de réseau de communication (CAN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Interface à basse vitesse, tolérant les pannes, dépendante du
     support'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Gestionnaire de réseau de communication (CAN) - Partie
     3: Interface à basse vitesse, tolérant les pannes, dépendante du support'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/36055.html
@@ -59,12 +51,12 @@ docidentifier:
   primary: true
 - content: ISO 11898-3:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso:11898:-3:stage-90.93
+- content: urn:iso:std:iso:11898:-3:stage-90.60
   type: URN
 docnumber: '11898'
 date:
 - type: published
-  at: 2006-06
+  at: '2006-05-24'
 contributor:
 - role:
   - type: publisher
@@ -101,24 +93,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 11898-3:2006 specifies characteristics of setting up an interchange of digital information between electronic control units of road vehicles equipped with the controller area network (CAN) at transmission rates above 40 kBit/s up to 125 kBit/s.
-    The CAN is a serial communication protocol which supports distributed control and multiplexing.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 11898-3 spécifie les caractéristiques d'établissement d'un échange d'informations numériques entre des unités de contrôle électroniques de véhicules routiers équipés du gestionnaire de réseau de communication (CAN, de l'anglais «Controller Area Network») à des débits de transmission supérieurs à 40 kbit/s et pouvant atteindre 125 kbit/s.
-    Le gestionnaire de réseau de communication est un protocole de communication en série qui prend en charge le contrôle réparti et le multiplexage.
-    La présente spécification décrit le comportement de tolérance aux pannes d'applications CAN à bas débit, et les parties de la couche physique conformes au modèle de couches ISO/OSI. Les parties suivantes de la couche physique sont couvertes par l'ISO 11898-3:
-    interface dépendante du support (MDI, de l'anglais «Medium Dependent Interface»);
-    raccordement au support physique (PMA, de l'anglais «Physical Medium Attachment»).
-    En outre, des parties de la signalisation de la couche physique (PLS, de l'anglais «Physical Layer Signalling») et des parties du contrôle d'accès au support (MAC, de l'anglais «medium access control») sont également concernées par les définitions données dans l'ISO 11898-3.
-    Toutes les autres couches du modèle OSI, soit ne présentent aucune contrepartie au sein du protocole CAN et font partie du niveau de l'utilisateur, soit n'influencent pas le comportement de tolérance aux pannes de la couche physique CAN à bas débit et donc ne sont pas concernées par l'ISO 11898-3.
+  content: ISO 11898-3:2006 specifies characteristics of setting up an interchange
+    of digital information between electronic control units of road vehicles equipped
+    with the controller area network (CAN) at transmission rates above 40 kBit/s up
+    to 125 kBit/s. The CAN is a serial communication protocol which supports distributed
+    control and multiplexing.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '2006'
   owner:
@@ -126,37 +110,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 11519-2:1994
+    formattedref:
+      content: ISO 11519-2:1994
     docidentifier:
     - content: ISO 11519-2:1994
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 11519-2:1994/Amd 1:1995
+    formattedref:
+      content: ISO 11519-2:1994/Amd 1:1995
     docidentifier:
     - content: ISO 11519-2:1994/Amd 1:1995
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 11898-3:2006/Cor 1:2006
-    docidentifier:
-    - content: ISO 11898-3:2006/Cor 1:2006
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2020-11-20'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

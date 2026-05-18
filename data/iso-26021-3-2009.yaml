@@ -1,53 +1,47 @@
 ---
 id: ISO2602132009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: End-of-life activation of on-board pyrotechnic devices
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Tool requirements'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - End-of-life activation of on-board pyrotechnic devices
     - Part 3: Tool requirements'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Activation de fin de vie des dispositifs pyrotechniques embarqués
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Exigences de l''outil'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Activation de fin de vie des dispositifs pyrotechniques
     embarqués - Partie 3: Exigences de l''outil'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45458.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45458:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/54/45458.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '26021'
 date:
 - type: published
-  at: 2009-05
+  at: '2009-05-08'
 contributor:
 - role:
   - type: publisher
@@ -92,44 +86,26 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |+
-    ISO 26021-3:2009 specifies the technical requirements to realize tool requirements for end-of-life activation of on-board pyrotechnic devices. It defines a test tool for ISO 26021 disposal functionality as well as the requirement for the final pyrotechnical device deployment tool (PDT). The focus is the definition of the human interface and the interfaces to the vehicle. It also defines general requirements for tests to validate the disposal functionality of the pyrotechnic control unit (PCU). It specifies two tool use-cases.
-    - Tool use-case 1 – deployment test tool (DTT):
-
-    a development tool used to test and validate the PCU;
-    the target users of this tool are the engineers of the PCU suppliers and the original equipment manufacturers (OEMs);
-    the use case defines the human interface, the interfaces to the vehicle (CAN & ACL) and concrete test sequences.
-
-
-    - Tool use-case 2 – pyrotechnic device deployment tool (PDT):
-
-    the final tool that is used to dispose pyrotechnical devices in vehicles;
-    the target users of this tool are dismantlers;
-    the use case defines the human interface, the interfaces to the vehicle (CAN & ACL), the environmental conditions and the deployment sequences.
-
-- language: fr
-  script: Latn
-  content: |+
-    ISO 26021-3:2009 specifies the technical requirements to realize tool requirements for end-of-life activation of on-board pyrotechnic devices. It defines a test tool for ISO 26021 disposal functionality as well as the requirement for the final pyrotechnical device deployment tool (PDT). The focus is the definition of the human interface and the interfaces to the vehicle. It also defines general requirements for tests to validate the disposal functionality of the pyrotechnic control unit (PCU). It specifies two tool use-cases.
-    - Tool use-case 1 – deployment test tool (DTT):
-
-    a development tool used to test and validate the PCU;
-    the target users of this tool are the engineers of the PCU suppliers and the original equipment manufacturers (OEMs);
-    the use case defines the human interface, the interfaces to the vehicle (CAN & ACL) and concrete test sequences.
-
-
-    - Tool use-case 2 – pyrotechnic device deployment tool (PDT):
-
-    the final tool that is used to dispose pyrotechnical devices in vehicles;
-    the target users of this tool are dismantlers;
-    the use case defines the human interface, the interfaces to the vehicle (CAN & ACL), the environmental conditions and the deployment sequences.
-
+  content: 'ISO 26021-3:2009 specifies the technical requirements to realize tool
+    requirements for end-of-life activation of on-board pyrotechnic devices. It defines
+    a test tool for ISO 26021 disposal functionality as well as the requirement for
+    the final pyrotechnical device deployment tool (PDT). The focus is the definition
+    of the human interface and the interfaces to the vehicle. It also defines general
+    requirements for tests to validate the disposal functionality of the pyrotechnic
+    control unit (PCU). It specifies two tool use-cases. Tool use-case 1 – deployment
+    test tool (DTT): a development tool used to test and validate the PCU; the target
+    users of this tool are the engineers of the PCU suppliers and the original equipment
+    manufacturers (OEMs); the use case defines the human interface, the interfaces
+    to the vehicle (CAN & ACL) and concrete test sequences. Tool use-case 2 – pyrotechnic
+    device deployment tool (PDT): the final tool that is used to dispose pyrotechnical
+    devices in vehicles; the target users of this tool are dismantlers; the use case
+    defines the human interface, the interfaces to the vehicle (CAN & ACL), the environmental
+    conditions and the deployment sequences.'
 status:
   stage:
     content: '95'
@@ -142,21 +118,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 26021-3:2022
+    formattedref:
+      content: ISO 26021-3:2022
     docidentifier:
     - content: ISO 26021-3:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-05-03'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 26021-3
+    docidentifier:
+    - content: ISO/WD 26021-3
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -167,4 +148,3 @@ ext:
     type: ISO
     project_number:
       content: '45458'
-...

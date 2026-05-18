@@ -1,41 +1,37 @@
 ---
 id: ISO80441999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Corrosion of metals and alloys
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Basic terms and definitions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Corrosion of metals and alloys - Basic terms and definitions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Corrosion des métaux et alliages
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Termes principaux et définitions
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Corrosion des métaux et alliages - Termes principaux et définitions
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/26132.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26132:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/61/26132.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '8044'
 date:
 - type: published
-  at: 1999-12
+  at: '1999-12-16'
 contributor:
 - role:
   - type: publisher
@@ -81,14 +77,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente norme internationale définit les termes relatifs à la corrosion qui sont largement employés dans les sciences et techniques modernes. Certaines définitions sont complétées par de brèves explications.NOTE 1 Dans tout le document on applique les conventions de I'IUPAC concernant le signe des potentiels d'électrode. Le terme "métal" est utilisé aussi pour désigner les alliages et autres matériaux métalliques.NOTE 2 Les termes et définitions relatifs au traitement de surface des métaux avec des revêtements inorganiques sont donnés dans prEN 12508: Protection contre la corrosion des métaux et alliages - Traitement de surface, revêtements métalliques et inorganiques - Vocabulaire.
+- Cyrl
 status:
   stage:
     content: '95'
@@ -103,35 +95,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8044:1989
-    docidentifier:
-    - content: ISO 8044:1989
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 8044:2015
+    formattedref:
+      content: ISO 8044:2015
     docidentifier:
     - content: ISO 8044:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-08-25'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8044:1989/Amd 1:1993
+    docidentifier:
+    - content: ISO 8044:1989/Amd 1:1993
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8044:1989
+    docidentifier:
+    - content: ISO 8044:1989
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '77.060'
-    text: Corrosion of metals
   - code: 01.040.77
     text: Metallurgy (Vocabularies)
+  - code: '77.060'
+    text: Corrosion of metals
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,53 +1,47 @@
 ---
 id: ISOIEC23000192020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Multimedia application format (MPEG-A)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 19: Common media application format (CMAF) for segmented media'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Multimedia application format (MPEG-A) - Part
     19: Common media application format (CMAF) for segmented media'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Format pour application multimédia (MPEG-A)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 19: Format CMAF (Common Media Application Format) pour médias segmentés'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Format pour application multimédia (MPEG-A)
     - Partie 19: Format CMAF (Common Media Application Format) pour médias segmentés'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/79106.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:79106:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/91/79106.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '23000'
 date:
 - type: published
-  at: 2020-03
+  at: '2020-03-19'
 contributor:
 - role:
   - type: publisher
@@ -101,30 +95,32 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the CMAF multimedia format, which contains segmented media objects optimized for streaming delivery and decoding on end user devices in adaptive multimedia presentations.
-    CMAF specifies a track format derived from the ISO base media file format, then derives addressable media objects from CMAF tracks that can be used for storage and delivery.
-    CMAF specifies sets of tracks that share encoding and packaging constraints that enable the selection of multiple tracks to form a multimedia presentation and allow seamless switching of alternative encodings of the same content at different bit rates, frame rates, resolution, etc.
-    CMAF specifies a hypothetical application model that determines how tracks in a CMAF presentation are intended to be combined and synchronized to form a multimedia presentation. The model abstracts delivery to allow any delivery method. The hypothetical application model assumes a manifest and player, but CMAF does not specify a manifest, player, or delivery protocol, with the intent that any that support the hypothetical application model can be used.
-    CMAF specifies media profiles and brands that constrain media encoding and packaging of CMAF tracks to enable seamless adaptive switching of tracks and allow devices to identify compatible content by its brand.
-    CMAF specifies presentation profiles that conditionally require sets of CMAF tracks conforming to specified media profiles and allow content creators and devices to identify compatible multimedia presentations.
-    CMAF enables extensibility by specifying how new media profiles and presentation profiles can be specified and identified and includes guidelines for those specifications.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the CMAF multimedia format, which contains segmented media objects optimized for streaming delivery and decoding on end user devices in adaptive multimedia presentations.
-    CMAF specifies a track format derived from the ISO base media file format, then derives addressable media objects from CMAF tracks that can be used for storage and delivery.
-    CMAF specifies sets of tracks that share encoding and packaging constraints that enable the selection of multiple tracks to form a multimedia presentation and allow seamless switching of alternative encodings of the same content at different bit rates, frame rates, resolution, etc.
-    CMAF specifies a hypothetical application model that determines how tracks in a CMAF presentation are intended to be combined and synchronized to form a multimedia presentation. The model abstracts delivery to allow any delivery method. The hypothetical application model assumes a manifest and player, but CMAF does not specify a manifest, player, or delivery protocol, with the intent that any that support the hypothetical application model can be used.
-    CMAF specifies media profiles and brands that constrain media encoding and packaging of CMAF tracks to enable seamless adaptive switching of tracks and allow devices to identify compatible content by its brand.
-    CMAF specifies presentation profiles that conditionally require sets of CMAF tracks conforming to specified media profiles and allow content creators and devices to identify compatible multimedia presentations.
-    CMAF enables extensibility by specifying how new media profiles and presentation profiles can be specified and identified and includes guidelines for those specifications.
+  content: This document specifies the CMAF multimedia format, which contains segmented
+    media objects optimized for streaming delivery and decoding on end user devices
+    in adaptive multimedia presentations. CMAF specifies a track format derived from
+    the ISO base media file format, then derives addressable media objects from CMAF
+    tracks that can be used for storage and delivery. CMAF specifies sets of tracks
+    that share encoding and packaging constraints that enable the selection of multiple
+    tracks to form a multimedia presentation and allow seamless switching of alternative
+    encodings of the same content at different bit rates, frame rates, resolution,
+    etc. CMAF specifies a hypothetical application model that determines how tracks
+    in a CMAF presentation are intended to be combined and synchronized to form a
+    multimedia presentation. The model abstracts delivery to allow any delivery method.
+    The hypothetical application model assumes a manifest and player, but CMAF does
+    not specify a manifest, player, or delivery protocol, with the intent that any
+    that support the hypothetical application model can be used. CMAF specifies media
+    profiles and brands that constrain media encoding and packaging of CMAF tracks
+    to enable seamless adaptive switching of tracks and allow devices to identify
+    compatible content by its brand. CMAF specifies presentation profiles that conditionally
+    require sets of CMAF tracks conforming to specified media profiles and allow content
+    creators and devices to identify compatible multimedia presentations. CMAF enables
+    extensibility by specifying how new media profiles and presentation profiles can
+    be specified and identified and includes guidelines for those specifications.
 status:
   stage:
     content: '95'
@@ -139,54 +135,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23000-19:2018
+    formattedref:
+      content: ISO/IEC 23000-19:2024
     docidentifier:
-    - content: ISO/IEC 23000-19:2018
+    - content: ISO/IEC 23000-19:2024
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23000-19:2018/Amd 1:2018
-    docidentifier:
-    - content: ISO/IEC 23000-19:2018/Amd 1:2018
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23000-19:2018/Amd 2:2019
+    formattedref:
+      content: ISO/IEC 23000-19:2018/Amd 2:2019
     docidentifier:
     - content: ISO/IEC 23000-19:2018/Amd 2:2019
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23000-19:2024
+    formattedref:
+      content: ISO/IEC 23000-19:2018
     docidentifier:
-    - content: ISO/IEC 23000-19:2024
+    - content: ISO/IEC 23000-19:2018
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-02-29'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23000-19:2020/Amd 1:2021
+    formattedref:
+      content: ISO/IEC 23000-19:2018/Amd 1:2018
     docidentifier:
-    - content: ISO/IEC 23000-19:2020/Amd 1:2021
+    - content: ISO/IEC 23000-19:2018/Amd 1:2018
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-02-29'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

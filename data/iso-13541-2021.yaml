@@ -1,39 +1,33 @@
 ---
 id: ISO135412021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Space data and information transfer systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Attitude data messages
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Space data and information transfer systems - Attitude data messages
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Messages de données d'attitude
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales - Messages
     de données d'attitude
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74559.html
@@ -47,12 +41,12 @@ docidentifier:
   primary: true
 - content: ISO 13541:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:13541:stage-60.60
+- content: urn:iso:std:iso:13541:stage-90.20
   type: URN
 docnumber: '13541'
 date:
 - type: published
-  at: 2021-06
+  at: '2021-06-30'
 contributor:
 - role:
   - type: publisher
@@ -83,37 +77,26 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies two standard message formats for use in transferring spacecraft attitude information between space agencies: the Attitude Parameter Message (APM) and the Attitude Ephemeris Message (AEM).  Such exchanges are used for:
-    - preflight planning for tracking or attitude estimation support;
-    - scheduling attitude and data processing support;
-    - carrying out attitude operations;
-    - performing attitude comparisons;
-    - carrying out attitude propagations and/or sensor predictions;
-    - testing to initialize sub-system simulators (communications, power, etc.).
-    This document includes sets of requirements and criteria that the message formats have been designed to meet.  For exchanges where these requirements do not capture the needs of the participating agencies, another mechanism may be selected.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies two standard message formats for use in transferring spacecraft attitude information between space agencies: the Attitude Parameter Message (APM) and the Attitude Ephemeris Message (AEM).  Such exchanges are used for:
-    - preflight planning for tracking or attitude estimation support;
-    - scheduling attitude and data processing support;
-    - carrying out attitude operations;
-    - performing attitude comparisons;
-    - carrying out attitude propagations and/or sensor predictions;
-    - testing to initialize sub-system simulators (communications, power, etc.).
-    This document includes sets of requirements and criteria that the message formats have been designed to meet.  For exchanges where these requirements do not capture the needs of the participating agencies, another mechanism may be selected.
+  content: 'This document specifies two standard message formats for use in transferring
+    spacecraft attitude information between space agencies: the Attitude Parameter
+    Message (APM) and the Attitude Ephemeris Message (AEM).  Such exchanges are used
+    for: - preflight planning for tracking or attitude estimation support; - scheduling
+    attitude and data processing support; - carrying out attitude operations; - performing
+    attitude comparisons; - carrying out attitude propagations and/or sensor predictions;
+    - testing to initialize sub-system simulators (communications, power, etc.). This
+    document includes sets of requirements and criteria that the message formats have
+    been designed to meet.  For exchanges where these requirements do not capture
+    the needs of the participating agencies, another mechanism may be selected.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -121,18 +104,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 13541:2010
+    formattedref:
+      content: ISO 13541:2010
     docidentifier:
     - content: ISO 13541:2010
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

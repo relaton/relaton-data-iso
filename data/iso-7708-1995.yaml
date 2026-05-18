@@ -1,40 +1,34 @@
 ---
 id: ISO77081995
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Air quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Particle size fraction definitions for health-related sampling
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Air quality - Particle size fraction definitions for health-related sampling
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'air
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Définitions des fractions de taille des particules pour l'échantillonnage
     lié aux problèmes de santé
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'air - Définitions des fractions de taille des particules pour
     l'échantillonnage lié aux problèmes de santé
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/14534.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 7708:1995(E)
   type: iso-reference
-- content: urn:iso:std:iso:7708:stage-90.93
+- content: urn:iso:std:iso:7708:stage-90.92
   type: URN
 docnumber: '7708'
 date:
 - type: published
-  at: 1995-04
+  at: '1995-04-06'
 contributor:
 - role:
   - type: publisher
@@ -97,16 +91,11 @@ abstract:
     The conventions should not be used in association with limit values defined in
     other terms, for example for limit values of fibres defined in terms of their
     length and diameter.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale définit des conventions d'échantillonnage pour les fractions granulométriques qui doivent être utilisées dans l'évaluation des effets éventuels sur la santé des particules en suspension dans l'air sur le lieu de travail et dans l'environnement. On définit des conventions pour les fractions inhalable, thoracique et alvéolaire; les fractions extrathoracique et trachéobronchique peuvent être calculées à partir des conventions définies (la fraction inhalable est parfois appelée fraction inspirable -- les termes sont équivalents. La nomenclature de ces fractions est discutée dans l'annexe A). Les hypothèses sont données dans l'article 4. La convention choisie dépendra de la région d'action du composé intéressant dans les particules en suspension dans l'air (voir l'article 3). Les conventions sont exprimées en termes de fractions massiques, mais elles peuvent aussi être utilisées lorsque l'objectif est d'évaluer la surface totale ou le nombre de particules dans la matière recueillie. Il convient de ne pas utiliser les conventions en association avec des valeurs limites de fibres définies en d'autres termes, par exemple pour des valeurs limites de fibres définies en termes de longueur et diamètre des fibres.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '1995'
   owner:
@@ -116,16 +105,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TR 7708:1983
+    formattedref:
+      content: ISO/PWI 7708
+    docidentifier:
+    - content: ISO/PWI 7708
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 7708
+    docidentifier:
+    - content: ISO/PWI 7708
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TR 7708:1983
     docidentifier:
     - content: ISO/TR 7708:1983
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

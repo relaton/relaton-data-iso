@@ -1,32 +1,29 @@
 ---
 id: ISO8551981
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Oil of lemon, Italy, obtained by expression
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Oil of lemon, Italy, obtained by expression
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Huile essentielle de citron, Italie, obtenue par expression
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Huile essentielle de citron, Italie, obtenue par expression
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5231.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5231:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/52/5231.detail.rss
 docidentifier:
@@ -40,7 +37,7 @@ docidentifier:
 docnumber: '855'
 date:
 - type: published
-  at: 1981-09
+  at: '1981-09-01'
 contributor:
 - role:
   - type: publisher
@@ -84,15 +81,6 @@ abstract:
     refractive index at 20 °C: 1,4740 - 1,4760; optical rotation at 20 °C: + 57 to
     + 65 ; residue on evaporation: 1,6 - 3,9 %; acid value: maximum 3,0; carbonyl
     value: 11 - 17; CD value: 0,450 - 0,950; CD/DE ratio: 0,46 - 0,57.'
-- language: fr
-  script: Latn
-  content: 'The oil must be a mobile clear liquid which may become cloudy by lowering
-    the temperature. The colour has to be pale yellow to pale greenish-yellow, the
-    odour characteristic of fresh pericarp of lemon. The following characteristics
-    shall not exceed the range indicated. Relative density at 20/20 °C: 0,849 - 0,858;
-    refractive index at 20 °C: 1,4740 - 1,4760; optical rotation at 20 °C: + 57 to
-    + 65 ; residue on evaporation: 1,6 - 3,9 %; acid value: maximum 3,0; carbonyl
-    value: 11 - 17; CD value: 0,450 - 0,950; CD/DE ratio: 0,46 - 0,57.'
 status:
   stage:
     content: '95'
@@ -105,21 +93,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 855:2003
+    formattedref:
+      content: ISO/CD 855
+    docidentifier:
+    - content: ISO/CD 855
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 855:2003
     docidentifier:
     - content: ISO 855:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2003-12-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -129,4 +122,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 855
+      content: '5231'

@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1444332018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cards and security devices for personal identification
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Contactless proximity objects
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Initialization and anticollision'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Cards and security devices for personal identification - Contactless proximity
     objects - Part 3: Initialization and anticollision'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes et dispositifs de sécurité pour l'identification personnelle
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Objets sans contact de proximité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Initialisation et anticollision'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes et dispositifs de sécurité pour l''identification personnelle -
     Objets sans contact de proximité - Partie 3: Initialisation et anticollision'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73598.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '14443'
 date:
 - type: published
-  at: 2018-07
+  at: '2018-06-19'
 contributor:
 - role:
   - type: publisher
@@ -103,40 +95,27 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document describes the following:
-    -      polling for proximity cards or objects (PICCs) entering the field of a proximity coupling device (PCD);
-    -      the byte format, the frames and timing used during the initial phase of communication between PCDs and PICCs;
-    -      the initial Request and Answer to Request command content;
-    -      methods to detect and communicate with one PICC among several PICCs (anticollision);
-    -      other parameters required to initialize communications between a PICC and PCD;
-    -      optional means to ease and speed up the selection of one PICC among several PICCs based on application criteria;
-    -      optional capability to allow a device to alternate between the functions of a PICC and a PCD to communicate with a PCD or a PICC, respectively. A device which implements this capability is called a PXD.
-    Protocol and commands used by higher layers and by applications and which are used after the initial phase are described in ISO/IEC 14443‑4.
-    This document is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443‑2), to PCDs (as described in ISO/IEC 14443‑2) and to PXDs.
-    NOTE 1    Part of the timing of data communication is defined in ISO/IEC 14443‑2.
-    NOTE 2    Test methods for this document are defined in ISO/IEC 10373‑6.
-- language: fr
-  script: Latn
-  content: |-
-    This document describes the following:
-    -      polling for proximity cards or objects (PICCs) entering the field of a proximity coupling device (PCD);
-    -      the byte format, the frames and timing used during the initial phase of communication between PCDs and PICCs;
-    -      the initial Request and Answer to Request command content;
-    -      methods to detect and communicate with one PICC among several PICCs (anticollision);
-    -      other parameters required to initialize communications between a PICC and PCD;
-    -      optional means to ease and speed up the selection of one PICC among several PICCs based on application criteria;
-    -      optional capability to allow a device to alternate between the functions of a PICC and a PCD to communicate with a PCD or a PICC, respectively. A device which implements this capability is called a PXD.
-    Protocol and commands used by higher layers and by applications and which are used after the initial phase are described in ISO/IEC 14443‑4.
-    This document is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443‑2), to PCDs (as described in ISO/IEC 14443‑2) and to PXDs.
-    NOTE 1    Part of the timing of data communication is defined in ISO/IEC 14443‑2.
-    NOTE 2    Test methods for this document are defined in ISO/IEC 10373‑6.
+  content: 'This document describes the following: - polling for proximity cards or
+    objects (PICCs) entering the field of a proximity coupling device (PCD); - the
+    byte format, the frames and timing used during the initial phase of communication
+    between PCDs and PICCs; - the initial Request and Answer to Request command content;
+    - methods to detect and communicate with one PICC among several PICCs (anticollision);
+    - other parameters required to initialize communications between a PICC and PCD;
+    - optional means to ease and speed up the selection of one PICC among several
+    PICCs based on application criteria; - optional capability to allow a device to
+    alternate between the functions of a PICC and a PCD to communicate with a PCD
+    or a PICC, respectively. A device which implements this capability is called a
+    PXD. Protocol and commands used by higher layers and by applications and which
+    are used after the initial phase are described in ISO/IEC 14443‑4. This document
+    is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443‑2),
+    to PCDs (as described in ISO/IEC 14443‑2) and to PXDs. NOTE 1 Part of the timing
+    of data communication is defined in ISO/IEC 14443‑2. NOTE 2 Test methods for this
+    document are defined in ISO/IEC 10373‑6.'
 status:
   stage:
     content: '90'
@@ -151,57 +130,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2016
+    formattedref:
+      content: ISO/IEC DIS 14443-3.2
+    docidentifier:
+    - content: ISO/IEC DIS 14443-3.2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 14443-3:2016
     docidentifier:
     - content: ISO/IEC 14443-3:2016
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC CD 14443-3
-    docidentifier:
-    - content: ISO/IEC CD 14443-3
-      type: ISO
-      primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2018/Amd 1:2021
+    formattedref:
+      content: ISO/IEC 14443-3:2016/Amd 1:2016
     docidentifier:
-    - content: ISO/IEC 14443-3:2018/Amd 1:2021
+    - content: ISO/IEC 14443-3:2016/Amd 1:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-12-22'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2018/Amd 2:2020
-    docidentifier:
-    - content: ISO/IEC 14443-3:2018/Amd 2:2020
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2024-12-22'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2018/WD Amd 3
-    docidentifier:
-    - content: ISO/IEC 14443-3:2018/WD Amd 3
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2024-12-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

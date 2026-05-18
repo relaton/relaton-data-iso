@@ -1,48 +1,40 @@
 ---
 id: ISO430612007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cranes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: General'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Cranes - Vocabulary - Part 1: General'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Appareils de levage à charge suspendue
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Généralités'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Appareils de levage à charge suspendue - Vocabulaire - Partie 1: Généralités'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/32457.html
@@ -61,7 +53,7 @@ docidentifier:
 docnumber: '4306'
 date:
 - type: published
-  at: 2007-10
+  at: '2007-10-22'
 contributor:
 - role:
   - type: publisher
@@ -93,19 +85,16 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: ISO 4306 establishes a vocabulary  of the most commonly used terms in the
+  content: ISO 4306 establishes a vocabulary of the most commonly used terms in the
     field of cranes. ISO 4306-1:2007 defines terms concerning the main crane types
     and classifications, parameters, general concepts and component parts.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 4306-1:2007 établit un vocabulaire, en anglais, français et russe, des termes les plus couramments utilisés dans le domaine des appareils de levage à charge suspendue.
-    L'ISO 4306-1:2007 définit les termes relatifs aux types principaux d'appareils de levage à charge suspendue, aux paramètres, aux concepts généraux et aux parties composantes.
 status:
   stage:
     content: '90'
@@ -120,32 +109,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4306-1:1990
+    formattedref:
+      content: ISO 4306-1
+    docidentifier:
+    - content: ISO 4306-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4306-1:1990
     docidentifier:
     - content: ISO 4306-1:1990
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/DIS 4306-1
-    docidentifier:
-    - content: ISO/DIS 4306-1
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.53
-    text: Materials handling equipment (Vocabularies)
   - code: 53.020.20
     text: Cranes
+  - code: 01.040.53
+    text: Materials handling equipment (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

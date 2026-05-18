@@ -1,50 +1,42 @@
 ---
 id: ISOIEC2979452025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Biometric sample quality
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: Face image data'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Biometric sample quality - Part 5: Face image
     data'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité d'échantillon biométrique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Données d''image de face'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Qualité d''échantillon biométrique -
     Partie 5: Données d''image de face'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81005.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 29794-5:2025(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:29794:-5:stage-60.60
+- content: urn:iso:std:iso-iec:29794:-5:stage-90.92
   type: URN
 docnumber: '29794'
 date:
 - type: published
-  at: 2025-04
+  at: '2025-04-16'
 contributor:
 - role:
   - type: publisher
@@ -103,53 +95,33 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document establishes requirements on implementations that quantify
+  content: 'This document establishes requirements on implementations that quantify
     how a face image’s properties conform with those of canonical face images, for
     example those specified in ISO/IEC 39794-5:2019, Clause D.1, for three use-cases:
-    \n1)       collection of reference samples for ID documents;\n2)       sample
-    system enrolment; and \n3)       probes for instantaneous response.\nThis document
-    also establishes terms and definitions for quantifying face image quality and
-    specifies methods for quantifying the quality of face images.\nThis document does
-    not establish requirements on:\n—     assessing the quality of pairs or sequences
-    of images;\nNOTE            This document establishes requirements for software
-    that inspects exactly one image. This document does not establish requirements
-    for software that compares two or more images (such as biometric recognition).
-    However, the computations of this document can be applied separately to each image
-    in a pair or sequence.\n—     assessing the quality of 3D captures;\n—     encodings
-    of face image quality data;\n—     performance evaluation of face image quality
-    assessment algorithms.\nThe use cases within scope of this document primarily
-    address the assessment of images from data capture subjects who consent to processing
-    of their biometric data, or for whom biometric capture is operationally authorized."
-- language: fr
-  script: Latn
-  content: "This document establishes requirements on implementations that quantify
-    how a face image’s properties conform with those of canonical face images, for
-    example those specified in ISO/IEC 39794-5:2019, Clause D.1, for three use-cases:
-    \n1)       collection of reference samples for ID documents;\n2)       sample
-    system enrolment; and \n3)       probes for instantaneous response.\nThis document
-    also establishes terms and definitions for quantifying face image quality and
-    specifies methods for quantifying the quality of face images.\nThis document does
-    not establish requirements on:\n—     assessing the quality of pairs or sequences
-    of images;\nNOTE            This document establishes requirements for software
-    that inspects exactly one image. This document does not establish requirements
-    for software that compares two or more images (such as biometric recognition).
-    However, the computations of this document can be applied separately to each image
-    in a pair or sequence.\n—     assessing the quality of 3D captures;\n—     encodings
-    of face image quality data;\n—     performance evaluation of face image quality
-    assessment algorithms.\nThe use cases within scope of this document primarily
-    address the assessment of images from data capture subjects who consent to processing
-    of their biometric data, or for whom biometric capture is operationally authorized."
+    1)       collection of reference samples for ID documents; 2)       sample system
+    enrolment; and 3)       probes for instantaneous response. This document also
+    establishes terms and definitions for quantifying face image quality and specifies
+    methods for quantifying the quality of face images. This document does not establish
+    requirements on: —     assessing the quality of pairs or sequences of images;
+    NOTE            This document establishes requirements for software that inspects
+    exactly one image. This document does not establish requirements for software
+    that compares two or more images (such as biometric recognition). However, the
+    computations of this document can be applied separately to each image in a pair
+    or sequence. —     assessing the quality of 3D captures; —     encodings of face
+    image quality data; —     performance evaluation of face image quality assessment
+    algorithms. The use cases within scope of this document primarily address the
+    assessment of images from data capture subjects who consent to processing of their
+    biometric data, or for whom biometric capture is operationally authorized.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2025'
   owner:
@@ -159,16 +131,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC TR 29794-5:2010
+    formattedref:
+      content: ISO/IEC AWI 29794-5
+    docidentifier:
+    - content: ISO/IEC AWI 29794-5
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC TR 29794-5:2010
     docidentifier:
     - content: ISO/IEC TR 29794-5:2010
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC WD 24357
+    docidentifier:
+    - content: ISO/IEC WD 24357
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

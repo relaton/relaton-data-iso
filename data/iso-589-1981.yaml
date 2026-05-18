@@ -1,41 +1,37 @@
 ---
 id: ISO5891981
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hard coal
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of total moisture
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Hard coal - Determination of total moisture
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Houille
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de l'humidité totale
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Houille - Détermination de l'humidité totale
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4686.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4686:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/46/4686.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '589'
 date:
 - type: published
-  at: 1981-10
+  at: '1981-10-01'
 contributor:
 - role:
   - type: publisher
@@ -94,16 +90,6 @@ abstract:
     of an overflow. The moisture in the coal is calculated from the volume of water
     collected. B) The sample is dried in an oven at a temperature of 105 to 110 °C
     in a current of nitrogen and the moisture calculated from the loss in mass.'
-- language: fr
-  script: Latn
-  content: 'For all hard coals two methods are specified: A) The sample is heated
-    in a flask under reflux conditions with boiling toluene. The moisture from the
-    coal is entrained by the toluene vapour and carried to a condenser fitted with
-    a graduated receiver. The water then separates in the receiver, to from the lower
-    layer, whilst the excess toluene is returned to the destillation flask by means
-    of an overflow. The moisture in the coal is calculated from the volume of water
-    collected. B) The sample is dried in an oven at a temperature of 105 to 110 °C
-    in a current of nitrogen and the moisture calculated from the loss in mass.'
 status:
   stage:
     content: '95'
@@ -116,21 +102,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 589:2003
+    formattedref:
+      content: ISO 589:2003
     docidentifier:
     - content: ISO 589:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2003-11-10'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 589
+    docidentifier:
+    - content: ISO/DIS 589
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

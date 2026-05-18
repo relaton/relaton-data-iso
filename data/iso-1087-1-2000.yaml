@@ -1,51 +1,45 @@
 ---
 id: ISO108712000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Terminology work
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Theory and application'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Terminology work - Vocabulary - Part 1: Theory and application'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Travaux terminologiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Théorie et application'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Travaux terminologiques - Vocabulaire - Partie 1: Théorie et application'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/20057.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:20057:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/00/20057.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '1087'
 date:
 - type: published
-  at: 2000-10
+  at: '2000-10-26'
 contributor:
 - role:
   - type: publisher
@@ -93,12 +87,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale établit le vocabulaire fondamental de la théorie et de la pratique du travail terminologique. Elle n'inclut pas le vocabulaire traitant des applications informatiques du travail terminologique, qui est couvert par l'ISO 1087-2. La présentation obéit à l'ISO 10241, sauf spécification contraire.
 status:
   stage:
     content: '95'
@@ -113,27 +101,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1087:1990
+    formattedref:
+      content: ISO/DIS 1087
     docidentifier:
-    - content: ISO 1087:1990
+    - content: ISO/DIS 1087
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1087:2019
+    formattedref:
+      content: ISO 1087:2019
     docidentifier:
     - content: ISO 1087:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-09-24'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1087:1990
+    docidentifier:
+    - content: ISO 1087:1990
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

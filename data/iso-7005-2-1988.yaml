@@ -1,38 +1,32 @@
 ---
 id: ISO700521988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Metallic flanges
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Cast iron flanges'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Metallic flanges - Part 2: Cast iron flanges'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Brides métalliques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Brides en fonte'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Brides métalliques - Partie 2: Brides en fonte'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/13574.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '7005'
 date:
 - type: published
-  at: 1988-12
+  at: '1988-12-08'
 contributor:
 - role:
   - type: publisher
@@ -92,12 +86,6 @@ abstract:
     ISO 2229:1973 and ISO 2441:1975. Specifies requirements for circular grey, malleable
     and ductile cast iron flanges of series 1 and 2. Annex A (guidance on tolerances
     on dimensions) and B (bibliography) are for information only.
-- language: fr
-  script: Latn
-  content: This part, together with parts 1 and 3, cancels and replaces ISO 2084:1974,
-    ISO 2229:1973 and ISO 2441:1975. Specifies requirements for circular grey, malleable
-    and ductile cast iron flanges of series 1 and 2. Annex A (guidance on tolerances
-    on dimensions) and B (bibliography) are for information only.
 status:
   stage:
     content: '90'
@@ -112,32 +100,56 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2084:1974
+    formattedref:
+      content: ISO/PWI 7005-2
+    docidentifier:
+    - content: ISO/PWI 7005-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 7005-2
+    docidentifier:
+    - content: ISO/CD 7005-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 7005-2
+    docidentifier:
+    - content: ISO/NP 7005-2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2084:1974
     docidentifier:
     - content: ISO 2084:1974
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 2229:1973
-    docidentifier:
-    - content: ISO 2229:1973
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 2441:1975
+    formattedref:
+      content: ISO 2441:1975
     docidentifier:
     - content: ISO 2441:1975
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2229:1973
+    docidentifier:
+    - content: ISO 2229:1973
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

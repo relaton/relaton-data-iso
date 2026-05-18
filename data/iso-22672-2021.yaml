@@ -1,53 +1,47 @@
 ---
 id: ISO226722021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Space data and information transfer systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Space link extension (SLE)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Forward space packet service specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Space data and information transfer systems - Space link extension (SLE)
     - Forward space packet service specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Extension de liaisons spatiales (SLE)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification d'envoi de données spatiales par paquets
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales - Extension
     de liaisons spatiales (SLE) - Spécification d'envoi de données spatiales par paquets
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74558.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74558:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/45/74558.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '22672'
 date:
 - type: published
-  at: 2021-06
+  at: '2021-06-30'
 contributor:
 - role:
   - type: publisher
@@ -92,28 +86,36 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the Forward Space Packet (FSP) service in conformance with the transfer services specified in reference [1], Cross Support Reference Model―Part 1: SLE Services. The FSP service is a Space Link Extension (SLE) transfer service that enables a mission to send Space Packets to a spacecraft in sequence-controlled or expedited mode.
-    This document defines, in an abstract manner, the FSP service in terms of:
-    It does not specify:
-    NOTE   –    While the FSP service as described in reference [1] is conceived to handle a variety of packet data structures, this version of the FSP Recommended Standard is restricted to the handling of Space Packets as defined in reference [6].
-    This version of the FSP Recommended Standard is specific to the transfer of Space Packets to be transmitted via the Telecommand protocol stack as defined in references [3], [4], and [5]. The Cross Support Reference Model (reference [1]) specifies that the FSP service may also be used in conjunction with the Advanced Orbiting System protocol stack, but that mode of operation is outside the scope of this version of the Recommended Standard.
-    The FSP service is provided in the online delivery mode, as defined in reference [1].  The offline delivery mode is the subject of further study.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the Forward Space Packet (FSP) service in conformance with the transfer services specified in reference [1], Cross Support Reference Model―Part 1: SLE Services. The FSP service is a Space Link Extension (SLE) transfer service that enables a mission to send Space Packets to a spacecraft in sequence-controlled or expedited mode.
-    This document defines, in an abstract manner, the FSP service in terms of:
-    It does not specify:
-    NOTE   –    While the FSP service as described in reference [1] is conceived to handle a variety of packet data structures, this version of the FSP Recommended Standard is restricted to the handling of Space Packets as defined in reference [6].
-    This version of the FSP Recommended Standard is specific to the transfer of Space Packets to be transmitted via the Telecommand protocol stack as defined in references [3], [4], and [5]. The Cross Support Reference Model (reference [1]) specifies that the FSP service may also be used in conjunction with the Advanced Orbiting System protocol stack, but that mode of operation is outside the scope of this version of the Recommended Standard.
-    The FSP service is provided in the online delivery mode, as defined in reference [1].  The offline delivery mode is the subject of further study.
+  content: 'This document defines the Forward Space Packet (FSP) service in conformance
+    with the transfer services specified in reference [1], Cross Support Reference
+    Model―Part 1: SLE Services. The FSP service is a Space Link Extension (SLE) transfer
+    service that enables a mission to send Space Packets to a spacecraft in sequence-controlled
+    or expedited mode. This document defines, in an abstract manner, the FSP service
+    in terms of: the operations necessary to provide the transfer service; the parameter
+    data associated with each operation; the behaviors that result from the invocation
+    of each operation; and the relationship between, and the valid sequence of, the
+    operations and resulting behaviors. It does not specify: individual implementations
+    or products; the implementation of entities or interfaces within real systems;
+    the methods or technologies required to radiate Space Packets to a spacecraft
+    and to acquire telemetry frames from the signals received from that spacecraft
+    for extraction of the Operational Control Field; the methods or technologies required
+    for communications; or the management activities necessary to schedule, configure,
+    and control the FSP service. NOTE   –    While the FSP service as described in
+    reference [1] is conceived to handle a variety of packet data structures, this
+    version of the FSP Recommended Standard is restricted to the handling of Space
+    Packets as defined in reference [6]. This version of the FSP Recommended Standard
+    is specific to the transfer of Space Packets to be transmitted via the Telecommand
+    protocol stack as defined in references [3], [4], and [5]. The Cross Support Reference
+    Model (reference [1]) specifies that the FSP service may also be used in conjunction
+    with the Advanced Orbiting System protocol stack, but that mode of operation is
+    outside the scope of this version of the Recommended Standard. The FSP service
+    is provided in the online delivery mode, as defined in reference [1].  The offline
+    delivery mode is the subject of further study.'
 status:
   stage:
     content: '95'
@@ -126,18 +128,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 22672:2011
+    formattedref:
+      content: ISO 22672:2011
     docidentifier:
     - content: ISO 22672:2011
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,53 +1,45 @@
 ---
 id: ISOIEC15938172024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Multimedia content description interface
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 17: Compression of neural networks for multimedia content description
     and analysis'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Multimedia content description interface - Part
     17: Compression of neural networks for multimedia content description and analysis'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de description du contenu multimédia
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 17: Compression des réseaux neuronaux pour la description et l''analyse
     du contenu multimédia'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interface de description du contenu multimédia
     - Partie 17: Compression des réseaux neuronaux pour la description et l''analyse
     du contenu multimédia'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/85545.html
@@ -66,7 +58,7 @@ docidentifier:
 docnumber: '15938'
 date:
 - type: published
-  at: 2024-01
+  at: '2024-01-10'
 contributor:
 - role:
   - type: publisher
@@ -106,20 +98,32 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies Neural Network Coding (NNC) as a compressed representation of the parameters/weights of a trained neural network and a decoding process for the compressed representation, complementing the description of the network topology in existing (exchange) formats for neural networks. It establishes a toolbox of compression methods, specifying (where applicable) the resulting elements of the compressed bitstream. Most of these tools can be applied to the compression of entire neural networks, and some of them can also be applied to the compression of differential updates of neural networks with respect to a base network. Such differential updates are for example useful when models are redistributed after fine-tuning or transfer learning, or when providing versions of a neural network with different compression ratios.
-    This document does not specify a complete protocol for the transmission of neural networks, but focuses on compression of network parameters. Only the syntax format, semantics, associated decoding process requirements, parameter sparsification, parameter transformation methods, parameter quantization, entropy coding method and integration/signalling within existing exchange formats are specified, while other matters such as pre-processing, system signalling and multiplexing, data loss recovery and post-processing are considered to be outside the scope of this document. Additionally, the internal processing steps performed within a decoder are also considered to be outside the scope of this document; only the externally observable output behaviour is required to conform to the specifications of this document.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies Neural Network Coding (NNC) as a compressed representation of the parameters/weights of a trained neural network and a decoding process for the compressed representation, complementing the description of the network topology in existing (exchange) formats for neural networks. It establishes a toolbox of compression methods, specifying (where applicable) the resulting elements of the compressed bitstream. Most of these tools can be applied to the compression of entire neural networks, and some of them can also be applied to the compression of differential updates of neural networks with respect to a base network. Such differential updates are for example useful when models are redistributed after fine-tuning or transfer learning, or when providing versions of a neural network with different compression ratios.
-    This document does not specify a complete protocol for the transmission of neural networks, but focuses on compression of network parameters. Only the syntax format, semantics, associated decoding process requirements, parameter sparsification, parameter transformation methods, parameter quantization, entropy coding method and integration/signalling within existing exchange formats are specified, while other matters such as pre-processing, system signalling and multiplexing, data loss recovery and post-processing are considered to be outside the scope of this document. Additionally, the internal processing steps performed within a decoder are also considered to be outside the scope of this document; only the externally observable output behaviour is required to conform to the specifications of this document.
+  content: This document specifies Neural Network Coding (NNC) as a compressed representation
+    of the parameters/weights of a trained neural network and a decoding process for
+    the compressed representation, complementing the description of the network topology
+    in existing (exchange) formats for neural networks. It establishes a toolbox of
+    compression methods, specifying (where applicable) the resulting elements of the
+    compressed bitstream. Most of these tools can be applied to the compression of
+    entire neural networks, and some of them can also be applied to the compression
+    of differential updates of neural networks with respect to a base network. Such
+    differential updates are for example useful when models are redistributed after
+    fine-tuning or transfer learning, or when providing versions of a neural network
+    with different compression ratios. This document does not specify a complete protocol
+    for the transmission of neural networks, but focuses on compression of network
+    parameters. Only the syntax format, semantics, associated decoding process requirements,
+    parameter sparsification, parameter transformation methods, parameter quantization,
+    entropy coding method and integration/signalling within existing exchange formats
+    are specified, while other matters such as pre-processing, system signalling and
+    multiplexing, data loss recovery and post-processing are considered to be outside
+    the scope of this document. Additionally, the internal processing steps performed
+    within a decoder are also considered to be outside the scope of this document;
+    only the externally observable output behaviour is required to conform to the
+    specifications of this document.
 status:
   stage:
     content: '60'
@@ -132,18 +136,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15938-17:2022
+    formattedref:
+      content: ISO/IEC 15938-17:2022
     docidentifier:
     - content: ISO/IEC 15938-17:2022
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,40 +1,33 @@
 ---
 id: ISO420912001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Truck and bus tyres and rims (metric series)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Tyres'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Truck and bus tyres and rims (metric series) - Part 1: Tyres'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pneumatiques et jantes (séries millimétriques) pour camions et autobus
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Pneumatiques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Pneumatiques et jantes (séries millimétriques) pour camions et autobus
     - Partie 1: Pneumatiques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/31376.html
@@ -48,12 +41,12 @@ docidentifier:
   primary: true
 - content: ISO 4209-1:2001(E)
   type: iso-reference
-- content: urn:iso:std:iso:4209:-1:stage-90.93
+- content: urn:iso:std:iso:4209:-1:stage-90.92
   type: URN
 docnumber: '4209'
 date:
 - type: published
-  at: 2001-09
+  at: '2001-08-30'
 contributor:
 - role:
   - type: publisher
@@ -87,19 +80,11 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 4209-1:2001 spécifie la désignation, les cotes et les capacités de charge des pneumatiques de la série millimétrique destinés à être montés principalement sur les camions et autobus.
-    Elle est applicable aux pneumatiques diagonaux ceinturés, diagonaux et radiaux pour camions et autobus, montés sur des jantes coniques à 5° et sur des jantes (à base creuse) coniques à 15°.
-    Elle est également applicable à des conceptions et types différents de pneumatiques et de jantes; cependant, dans ces cas, des rapports jantes/grosseur de boudins (K indice 1, K indice 4), des coefficients K indice 2, K indice 3, C indice R, et des codes de constructions appropriés ont été ajoutés aux Tableaux 3, 4 et 5.
-    L'ISO 4209-2:2001 traite des spécifications relatives aux jantes.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2001'
   owner:
@@ -109,16 +94,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4209-1:1993
+    formattedref:
+      content: ISO/CD 4209-1
+    docidentifier:
+    - content: ISO/CD 4209-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4209-1:1993
     docidentifier:
     - content: ISO 4209-1:1993
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4209-1:1993/DAmd 1
+    docidentifier:
+    - content: ISO 4209-1:1993/DAM 1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -128,5 +129,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      part: 1
-      content: ISO 4209
+      content: '31376'

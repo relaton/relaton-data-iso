@@ -1,55 +1,49 @@
 ---
 id: ISODTS32004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Document management
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Portable Document Format
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Integrity protection in encrypted documents in PDF 2.0
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Document management - Portable Document Format - Integrity protection in
     encrypted documents in PDF 2.0
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des documents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Format de document portable
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Protection de l'intégrité dans les documents chiffrés en PDF 2.0
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des documents - Format de document portable - Protection de l'intégrité
     dans les documents chiffrés en PDF 2.0
   type: main
-  format: text/plain
 source:
 - type: src
-  content: https://www.iso.org/standard/45877.html
+  content: https://www.iso.org/standard/92060.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:92060:en
 - type: rss
-  content: https://www.iso.org/contents/data/standard/04/58/45877.detail.rss
+  content: https://www.iso.org/contents/data/standard/09/20/92060.detail.rss
 docidentifier:
 - content: ISO/DTS 32004
   type: ISO
@@ -86,27 +80,49 @@ contributor:
     abbreviation:
       content: ISO
 edition:
-  content: '1'
+  content: '2'
 language:
 - en
-- fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This document specifies how to extend the ISO 32000-2:2020 specification
+    by adding extensions to the Encrypt dictionary and trailer dictionary to provide
+    integrity protection to the encrypted PDF document. This document also ensures
+    that extensions are fully backward-compatible. These extensions are intended for
+    developers of software that creates PDF files (PDF writers), software that reads
+    existing PDF files and (usually) interprets their contents for display (PDF readers),
+    software that reads and displays PDF content and interacts with the computer users
+    to possibly modify and save the PDF file (interactive PDF processors) and PDF
+    products that read and/or write PDF files for a variety of other purposes (PDF
+    processors). NOTE            PDF writers and PDF readers are more specialized
+    classifications of interactive PDF processors and both are PDF processors. This
+    document does not specify the following: —     specific processes for converting
+    paper or electronic documents to the PDF file format; —     specific technical
+    design, user interface implementation, or operational details of rendering; —    
+    specific physical methods of storing these documents such as media and storage
+    conditions; —     methods for validating the conformance of PDF files or PDF processors;
+    —     required computer hardware and/or operating system.'
 status:
   stage:
     content: '50'
   substage:
-    content: '20'
-copyright:
-- from: '2024'
-  owner:
-  - organization:
-      name:
-      - content: ISO/DTS
+    content: '00'
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TS 32004:2024
+    docidentifier:
+    - content: ISO/TS 32004:2024
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
@@ -118,4 +134,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 32004
+      content: '92060'

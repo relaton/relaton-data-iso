@@ -1,25 +1,22 @@
 ---
 id: ISOIEC983482005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Systems Interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Procedures for the operation of OSI Registration Authorities: Generation
     and registration of Universally Unique Identifiers (UUIDs) and their use as ASN.1
     Object Identifier components -- Part 8:'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open Systems Interconnection - Procedures for
@@ -27,17 +24,14 @@ title:
     Universally Unique Identifiers (UUIDs) and their use as ASN.1 Object Identifier
     components -- Part 8:'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Procédures opérationnelles pour les organismes d''enregistrement de l''OSI:
@@ -45,7 +39,6 @@ title:
     utilisation de ces identificateurs comme composants d''identificateurs d''objets
     ASN.1 -- Partie 8:'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
@@ -54,10 +47,11 @@ title:
     utilisation de ces identificateurs comme composants d''identificateurs d''objets
     ASN.1 -- Partie 8:'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/36775.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:36775:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/67/36775.detail.rss
 docidentifier:
@@ -71,7 +65,7 @@ docidentifier:
 docnumber: '9834'
 date:
 - type: published
-  at: 2005-07
+  at: '2005-08-05'
 contributor:
 - role:
   - type: publisher
@@ -117,18 +111,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 9834-8:2005 specifies the format and generation rules that enable users to produce 128-bit identifiers that are either guaranteed or have a high probability of being globally unique.
-    The UUIDs generated in conformance with ISO/IEC 9834-8:2005 are suitable either for transient use, with generation of a new UUID every 100 nanoseconds, or as persistent identifiers.
-    ISO/IEC 9834-8:2005 is derived from earlier non-standard specifications of UUIDs and their generation, and is technically identical to those earlier specifications. It specifies the procedures for the operation of a Web-based Registration Authority for UUIDs.
-    ISO/IEC 9834-8:2005 also specifies and allows the use of UUIDs (registered or not registered) as OID components under the arc {joint-iso-itu-t uuid(25)}. This enables users to generate OIDs without any registration procedures. It also specifies and allows the use of UUIDs (registered or not registered) to form a URN.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO/CEI 9834-8:2005 spécifie le format et les règles de génération qui permettent aux utilisateurs de générer des identificateurs de 128 bits qui sont soit garantis mondialement uniques ou sont mondialement uniques avec une haute probabilité.
-    Les identificateurs UUID générés conformément à l'ISO/CEI 9834-8:2005 sont appropriés soit pour usage temporaire avec génération d'un nouvel identificateur UUID toutes les 100 ns, soit comme identificateurs permanents.
-    L'ISO/CEI 9834-8:2005 est déduite de spécifications antérieures non normalisées concernant les identificateurs UUID et leur génération, et elle est techniquement identique à ces spécifications antérieures. Elle spécifie les procédures de fonctionnement d'un organisme d'enregistrement pour identificateurs UUID accessible par protocole IP.
-    L'ISO/CEI 9834-8:2005 spécifie et permet également l'utilisation d'identificateurs UUID (enregistrés ou non enregistrés) comme composants d'identificateur OID au-dessous de l'arc {joint-iso-itu-t uuid(25)}. Cet usage permet aux utilisateurs de générer des identificateurs OID sans aucune procédure d'enregistrement. Elle spécifie et permet également l'utilisation des identificateurs UUID (enregistrés ou non enregistrés) afin de former un nom URN.
+  content: ISO/IEC 9834-8:2005 specifies the format and generation rules that enable
+    users to produce 128-bit identifiers that are either guaranteed or have a high
+    probability of being globally unique. The UUIDs generated in conformance with
+    ISO/IEC 9834-8:2005 are suitable either for transient use, with generation of
+    a new UUID every 100 nanoseconds, or as persistent identifiers. ISO/IEC 9834-8:2005
+    is derived from earlier non-standard specifications of UUIDs and their generation,
+    and is technically identical to those earlier specifications. It specifies the
+    procedures for the operation of a Web-based Registration Authority for UUIDs.
+    ISO/IEC 9834-8:2005 also specifies and allows the use of UUIDs (registered or
+    not registered) as OID components under the arc {joint-iso-itu-t uuid(25)}. This
+    enables users to generate OIDs without any registration procedures. It also specifies
+    and allows the use of UUIDs (registered or not registered) to form a URN.
 status:
   stage:
     content: '95'
@@ -141,21 +135,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9834-8:2008
+    formattedref:
+      content: ISO/IEC 9834-8:2008
     docidentifier:
     - content: ISO/IEC 9834-8:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2009-08-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISO6662012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Machine tools
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Mounting of grinding wheels by means of hub flanges
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Machine tools - Mounting of grinding wheels by means of hub flanges
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Machines-outils
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Montage des meules par moyeux-flasques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Machines-outils - Montage des meules par moyeux-flasques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/61254.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '666'
 date:
 - type: published
-  at: 2012-05
+  at: '2012-05-15'
 contributor:
 - role:
   - type: publisher
@@ -88,14 +82,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard specifies the essential requirements, especially the dimensions, for hub flanges for plain grinding wheels according to ISO 603-1, ISO 603-2, ISO 603-4, ISO 603-6, ISO 603-7 and ISO 603-8, with a ratio of the bore diameter to the outside diameter H/D > 0,2. It is also applicable to super abrasives with vitrified or metal core having the same diameters as the grinding wheels in accordance with the according  to the aforementioned parts of ISO 603, independently from the material of the core. It applies to grinding wheels with peripheral speeds up to 50 m/s and driving powers of the wheel spindle up to 30 kW.
-    It is not applicable to mounting devices for cutting-off wheels.
-- language: fr
-  script: Latn
-  content: |-
-    La présente Norme internationale spécifie les exigences essentielles, en particulier dimensionnelles, relatives aux moyeux-flasques pour les meules plates simples conformes à l'ISO 603-1, à l'ISO 603-2, à l'ISO 603-4, à l'ISO 603-6, à l'ISO 603-7 et à l'ISO 603-8, pour un rapport du diamètre d'alésage sur le diamètre extérieur H/D > 0,2. Elle est également applicable aux super abrasifs avec monture vitrifiée ou métallique ayant des diamètres identiques à ceux des meules conformes aux parties de l'ISO 603 susmentionnées, indépendamment du matériau de la monture. Elle est applicable aux meules ayant des vitesses périphériques allant jusqu'à 50 m/s et des puissances d'entraînement de l'arbre porte-meule allant jusqu'à 30 kW.
-    Elle n'est pas applicable aux dispositifs de montage des meules de tronçonnage.
+  content: This International Standard specifies the essential requirements, especially
+    the dimensions, for hub flanges for plain grinding wheels according to ISO 603-1,
+    ISO 603-2, ISO 603-4, ISO 603-6, ISO 603-7 and ISO 603-8, with a ratio of the
+    bore diameter to the outside diameter H/D > 0,2. It is also applicable to super
+    abrasives with vitrified or metal core having the same diameters as the grinding
+    wheels in accordance with the according to the aforementioned parts of ISO 603,
+    independently from the material of the core. It applies to grinding wheels with
+    peripheral speeds up to 50 m/s and driving powers of the wheel spindle up to 30
+    kW. It is not applicable to mounting devices for cutting-off wheels.
 status:
   stage:
     content: '90'
@@ -108,18 +103,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 666:2006
+    formattedref:
+      content: ISO 666:2006/DAmd 1
+    docidentifier:
+    - content: ISO 666:2006/DAM 1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 666:2006
     docidentifier:
     - content: ISO 666:2006
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

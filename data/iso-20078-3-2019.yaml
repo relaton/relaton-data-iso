@@ -1,52 +1,46 @@
 ---
 id: ISO2007832019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Extended vehicle (ExVe) web services
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Security'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Extended vehicle (ExVe) web services - Part 3: Security'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicule routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Web services du véhicule étendu (ExVe)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Sécurité'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicule routiers - Web services du véhicule étendu (ExVe) - Partie 3:
     Sécurité'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/67579.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:67579:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/75/67579.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '20078'
 date:
 - type: published
-  at: 2019-05
+  at: '2019-04-30'
 contributor:
 - role:
   - type: publisher
@@ -91,20 +85,18 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines how to authenticate users and Accessing Parties on a web services interface. It also defines how a Resource Owner can delegate Access to its Resources to an Accessing Party. Within this context, this document also defines the necessary roles and required separation of duties between these in order to fulfil requirements stated on security, data privacy and data protection.
-    All conditions and dependencies of the roles are defined towards a reference implementation using OAuth 2.0 compatible framework and OpenID Connect 1.0 compatible framework.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines how to authenticate users and Accessing Parties on a web services interface. It also defines how a Resource Owner can delegate Access to its Resources to an Accessing Party. Within this context, this document also defines the necessary roles and required separation of duties between these in order to fulfil requirements stated on security, data privacy and data protection.
-    All conditions and dependencies of the roles are defined towards a reference implementation using OAuth 2.0 compatible framework and OpenID Connect 1.0 compatible framework.
+  content: This document defines how to authenticate users and Accessing Parties on
+    a web services interface. It also defines how a Resource Owner can delegate Access
+    to its Resources to an Accessing Party. Within this context, this document also
+    defines the necessary roles and required separation of duties between these in
+    order to fulfil requirements stated on security, data privacy and data protection.
+    All conditions and dependencies of the roles are defined towards a reference implementation
+    using OAuth 2.0 compatible framework and OpenID Connect 1.0 compatible framework.
 status:
   stage:
     content: '95'
@@ -117,21 +109,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 20078-3:2021
+    formattedref:
+      content: ISO 20078-3:2021
     docidentifier:
     - content: ISO 20078-3:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-11-30'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

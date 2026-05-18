@@ -1,45 +1,41 @@
 ---
 id: ISO750311988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Evaluation of surface contamination
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Beta-emitters (maximum beta energy greater than 0,15 MeV) and
     alpha-emitters'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Evaluation of surface contamination - Part 1: Beta-emitters (maximum beta
     energy greater than 0,15 MeV) and alpha-emitters'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Évaluation de la contamination de surface
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Émetteurs bêta (énergie bêta maximale supérieure à 0,15 MeV)
     et émetteurs alpha'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Évaluation de la contamination de surface - Partie 1: Émetteurs bêta (énergie
     bêta maximale supérieure à 0,15 MeV) et émetteurs alpha'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/14265.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:14265:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/42/14265.detail.rss
 docidentifier:
@@ -53,7 +49,7 @@ docidentifier:
 docnumber: '7503'
 date:
 - type: published
-  at: 1988-08
+  at: '1988-08-11'
 contributor:
 - role:
   - type: publisher
@@ -98,21 +94,6 @@ abstract:
     resp., is near to 100 particles per 100 decays. Evaluation of tritium surface
     contamination is dealt with in ISO 7503-2, other radionuclides of practical importance
     will be dealt with in a future standard.
-- language: fr
-  script: Latn
-  content: "\nLa présente partie de l'ISO 7503 spécifie des méthodes d'évaluation
-    de la contamination de surface des équipements et des installations, des conteneurs
-    de matériaux radioactifs et des sources scellées en termes d'activité surfacique.
-    La présente partie de l'ISO 7503 ne s'applique pas à l'évaluation de la contamination
-    cutanée et vestimentaire. Elle s'applique aux émetteurs bêta dont l'énergie maximale
-    Eßmax est supérieure à 0,15 MeV, et aux émetteurs alpha. Elle est limitée aux
-    émetteurs bêta et alpha dont le taux de production (en ce qui concerne, d'une
-    part les particules bêta et les électrons monoénergétiques et d'autres part les
-    particules alpha) est proche de 100 particules pour 100 désintégrations (voir
-    l'annexe, tableau 3). Dans le cadre de la présente partie de l'ISO 7503, le terme
-    «énergie bêta» se rapporte à l'énergie maximale des particul  320es bêta.  \nNOTE
-    -- L'évaluation de la contamination de surface par le tritium fait l'objet de
-    l'ISO 750\n"
 status:
   stage:
     content: '95'
@@ -125,21 +106,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7503-1:2016
+    formattedref:
+      content: ISO/WD 7503-1
+    docidentifier:
+    - content: ISO/WD 7503-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 7503-1:2016
     docidentifier:
     - content: ISO 7503-1:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-01-18'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

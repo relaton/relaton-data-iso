@@ -1,49 +1,42 @@
 ---
 id: ISO191312007Amd12011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Data product specifications
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Amendment 1: Requirements relating to the inclusion of an application
     schema and feature catalogue and the treatment of coverages in an application
     schema.'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Geographic information - Data product specifications - Amendment 1: Requirements
     relating to the inclusion of an application schema and feature catalogue and the
     treatment of coverages in an application schema.'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications de contenu informationnel
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Amendement 1: Exigences relatives à l''inclusion d''un schéma d''application
     et d''un catalogue d''objets géographiques et au traitement des couvertures dans
     un schéma d''application'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Information géographique - Spécifications de contenu informationnel -
@@ -51,10 +44,11 @@ title:
     d''un catalogue d''objets géographiques et au traitement des couvertures dans
     un schéma d''application'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/51790.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:51790:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/17/51790.detail.rss
 docidentifier:
@@ -63,14 +57,10 @@ docidentifier:
   primary: true
 - content: ISO 19131:2007/Amd 1:2011(E)
   type: iso-reference
-- content: urn:iso:std:iso:19131:ed-1:stage-95.99:amd:2011:v1
-  type: URN
 docnumber: '19131'
 date:
 - type: published
-  at: '2007'
-- type: updated
-  at: 2011-10
+  at: '2011-09-26'
 contributor:
 - role:
   - type: publisher
@@ -116,28 +106,32 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 19131:2022
+    formattedref:
+      content: ISO 19131:2022
     docidentifier:
     - content: ISO 19131:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-11-28'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/FDIS 19131
+    docidentifier:
+    - content: ISO/FDIS 19131
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: 35.240.70
     text: IT applications in science
   structuredidentifier:
-    type: ISO
     project_number:
       content: '51790'

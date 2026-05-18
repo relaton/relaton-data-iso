@@ -1,57 +1,51 @@
 ---
 id: ISOIEC1381812013Amd12014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Generic coding of moving pictures and associated audio information
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Systems -- Amendment 1: Extensions for simplified carriage of
     MPEG-4 over MPEG-2'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Generic coding of moving pictures and associated
     audio information - Part 1: Systems -- Amendment 1: Extensions for simplified
     carriage of MPEG-4 over MPEG-2'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Codage générique des images animées et du son associé
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Systèmes -- Amendement 1: Extensions pour transport simplifié
     de MPEG-4 sur MPEG-2'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Codage générique des images animées et
     du son associé - Partie 1: Systèmes -- Amendement 1: Extensions pour transport
     simplifié de MPEG-4 sur MPEG-2'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63704.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63704:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/37/63704.detail.rss
 docidentifier:
@@ -60,14 +54,10 @@ docidentifier:
   primary: true
 - content: ISO/IEC 13818-1:2013/Amd 1:2014(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:13818:-1:ed-4:stage-95.99:amd:2014:v1
-  type: URN
 docnumber: '13818'
 date:
 - type: published
-  at: '2013'
-- type: updated
-  at: 2014-05
+  at: '2014-05-07'
 contributor:
 - role:
   - type: publisher
@@ -107,7 +97,6 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -122,28 +111,40 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 13818-1:2015
+    formattedref:
+      content: ISO/IEC 13818-1:2015
     docidentifier:
     - content: ISO/IEC 13818-1:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-06-26'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 13818-1:1996/FDAM 7
+    docidentifier:
+    - content: ISO/IEC 13818-1:1996/FDAM 7
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 13818-1:2007/FDAmd 1
+    docidentifier:
+    - content: ISO/IEC 13818-1:2007/FDAM 1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information
   structuredidentifier:
-    type: ISO
     project_number:
       content: '63704'

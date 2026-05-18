@@ -1,42 +1,36 @@
 ---
 id: ISO183152018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Nuclear energy
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Guidance to the evaluation of measurement uncertainties of impurity in
     uranium solution by linear regression analysis
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Nuclear energy - Guidance to the evaluation of measurement uncertainties
     of impurity in uranium solution by linear regression analysis
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Énergie nucléaire
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes directrices pour l'évaluation des incertitudes de mesure des impuretés
     en solution d'uranium par analyse de régression linéaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Énergie nucléaire - Lignes directrices pour l'évaluation des incertitudes
     de mesure des impuretés en solution d'uranium par analyse de régression linéaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/66134.html
@@ -55,7 +49,7 @@ docidentifier:
 docnumber: '18315'
 date:
 - type: published
-  at: 2018-11
+  at: '2018-11-28'
 contributor:
 - role:
   - type: publisher
@@ -86,28 +80,41 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document provides a method for evaluation of the measurement uncertainty arising when an impurity content of uranium solution is determined by a regression line that has been fitted by the "method of least squares". It is intended to be used by chemical analyzers.
-    Simple linear regression, hereinafter called "basic regression", is defined as a model with a single independent variable that is applied to fit a regression line through n different data points (xi, yi) (i = 1,?, n) in such a way that makes the sum of squared errors, i.e. the squared vertical distances between the data points and the fitted line, as small as possible. For the linear calibration, "classical regression" or "inverse regression" is usually used; however, they are not convenient. Instead, "reversed inverse regression" is used in this document[2].
-    Reversed inverse regression treats y (the reference solutions) as the response and x (the observed measurements) as the inputs; these values are used to fit a regression line of y on x by the method of least squares. This regression is distinguished from basic regression in that the xi's (i = 1,?, n) vary according to normal distributions but the yi's (i = 1,?, n) are fixed; in basic regression, the yi's vary but the xi's are fixed.
-    The regression line fitting, calculation of combined uncertainty, calculation of effective degrees of freedom, calculation of expanded uncertainty, reflection of reference solutions' uncertainties in the evaluation result, and bias correction are explained in order of mention. Annex A presents a practical example of uncertainty evaluation. Annex B provides a flowchart showing the steps for uncertainty evaluation. In addition, Annex C explains the use of weighting factors for handling non-uniform variances in reversed inverse regression.
-    NOTE 1    In the case of classical regression, the fitted regression line is inverted prior to actual sample measurement[3]. In the case of inverse regression, the roles of x and y are not consistent with the convention that the variable x represents the inputs, whereas the variable y represents the response. For these reasons, the two regressions are excluded from this document.
-    NOTE 2    The term "reversed inverse regression" was suggested taking into account the history of regression analysis theory. Instead, it can be desirable to use some other term, e.g. "pseudo-basic regression".
-- language: fr
-  script: Latn
-  content: |-
-    This document provides a method for evaluation of the measurement uncertainty arising when an impurity content of uranium solution is determined by a regression line that has been fitted by the "method of least squares". It is intended to be used by chemical analyzers.
-    Simple linear regression, hereinafter called "basic regression", is defined as a model with a single independent variable that is applied to fit a regression line through n different data points (xi, yi) (i = 1,?, n) in such a way that makes the sum of squared errors, i.e. the squared vertical distances between the data points and the fitted line, as small as possible. For the linear calibration, "classical regression" or "inverse regression" is usually used; however, they are not convenient. Instead, "reversed inverse regression" is used in this document[2].
-    Reversed inverse regression treats y (the reference solutions) as the response and x (the observed measurements) as the inputs; these values are used to fit a regression line of y on x by the method of least squares. This regression is distinguished from basic regression in that the xi's (i = 1,?, n) vary according to normal distributions but the yi's (i = 1,?, n) are fixed; in basic regression, the yi's vary but the xi's are fixed.
-    The regression line fitting, calculation of combined uncertainty, calculation of effective degrees of freedom, calculation of expanded uncertainty, reflection of reference solutions' uncertainties in the evaluation result, and bias correction are explained in order of mention. Annex A presents a practical example of uncertainty evaluation. Annex B provides a flowchart showing the steps for uncertainty evaluation. In addition, Annex C explains the use of weighting factors for handling non-uniform variances in reversed inverse regression.
-    NOTE 1    In the case of classical regression, the fitted regression line is inverted prior to actual sample measurement[3]. In the case of inverse regression, the roles of x and y are not consistent with the convention that the variable x represents the inputs, whereas the variable y represents the response. For these reasons, the two regressions are excluded from this document.
-    NOTE 2    The term "reversed inverse regression" was suggested taking into account the history of regression analysis theory. Instead, it can be desirable to use some other term, e.g. "pseudo-basic regression".
+  content: This document provides a method for evaluation of the measurement uncertainty
+    arising when an impurity content of uranium solution is determined by a regression
+    line that has been fitted by the "method of least squares". It is intended to
+    be used by chemical analyzers. Simple linear regression, hereinafter called "basic
+    regression", is defined as a model with a single independent variable that is
+    applied to fit a regression line through n different data points (xi, yi) (i =
+    1,?, n) in such a way that makes the sum of squared errors, i.e. the squared vertical
+    distances between the data points and the fitted line, as small as possible. For
+    the linear calibration, "classical regression" or "inverse regression" is usually
+    used; however, they are not convenient. Instead, "reversed inverse regression"
+    is used in this document[2]. Reversed inverse regression treats y (the reference
+    solutions) as the response and x (the observed measurements) as the inputs; these
+    values are used to fit a regression line of y on x by the method of least squares.
+    This regression is distinguished from basic regression in that the xi's (i = 1,?,
+    n) vary according to normal distributions but the yi's (i = 1,?, n) are fixed;
+    in basic regression, the yi's vary but the xi's are fixed. The regression line
+    fitting, calculation of combined uncertainty, calculation of effective degrees
+    of freedom, calculation of expanded uncertainty, reflection of reference solutions'
+    uncertainties in the evaluation result, and bias correction are explained in order
+    of mention. Annex A presents a practical example of uncertainty evaluation. Annex
+    B provides a flowchart showing the steps for uncertainty evaluation. In addition,
+    Annex C explains the use of weighting factors for handling non-uniform variances
+    in reversed inverse regression. NOTE 1 In the case of classical regression, the
+    fitted regression line is inverted prior to actual sample measurement[3]. In the
+    case of inverse regression, the roles of x and y are not consistent with the convention
+    that the variable x represents the inputs, whereas the variable y represents the
+    response. For these reasons, the two regressions are excluded from this document.
+    NOTE 2 The term "reversed inverse regression" was suggested taking into account
+    the history of regression analysis theory. Instead, it can be desirable to use
+    some other term, e.g. "pseudo-basic regression".
 status:
   stage:
     content: '90'
@@ -120,9 +127,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

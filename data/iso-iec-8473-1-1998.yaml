@@ -1,52 +1,44 @@
 ---
 id: ISOIEC847311998
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: 'Protocol for providing the connectionless-mode network service: Protocol
     specification'
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1:'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Protocol for providing the connectionless-mode
     network service: Protocol specification - Part 1:'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Protocole assurant le service réseau en mode sans connexion: Spécification
     du protocole'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1:'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Protocole assurant le service réseau
     en mode sans connexion: Spécification du protocole - Partie 1:'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/30931.html
@@ -65,7 +57,7 @@ docidentifier:
 docnumber: '8473'
 date:
 - type: published
-  at: 1998-11
+  at: '1998-10-22'
 contributor:
 - role:
   - type: publisher
@@ -141,41 +133,6 @@ abstract:
     Standard also provides the PICS proforma for this protocol, in compliance with
     the relevant requirements, and in accordance with the relevant guidance, given
     in ITU-T Rec. X.290 | ISO/IEC 9646-1'
-- language: fr
-  script: Latn
-  content: "La présente Recommandation 1 Norme internationale spécifie un protocole
-    servant a assurer le Service de reseau en mode sans connexion dkr-it dans la Rec.
-    UIT-T X.213 1 ISOKEI 8348 et a executer certaines fonctions de gestion dans la
-    couche Reseau. Dans l'application de ce protocole, on suppose que des sous-reseaux
-    reels ou des liaisons de donnees assurent un Service de base en mode sans connexion.
-    Ce Service de base en mode sans connexion, assure par hypothese, peut etre obtenu
-    soit directement a partir d'un sous-reseau reel en mode sans connexion, soit indirectement
-    par l'intermediaire d'une fonction ou d'un protocole de convergence approprie
-    dependant du sous-reseau (respectivement SNDCF et SNDCP) selon la description
-    donnee dans l'ISO/CEI 8648. La presente Recommandation 1 Norme internationale
-    specifie le deroulement du protocole par reference a un \"Service de sous-reseau
-    de base\" abstrait et uniforme. D'autres Recommandations 1 Norme internationale
-    specifient les modalites d'obtention de ce \"Service de sous-reseau de base\"
-    a partir de sous-reseaux reels, par exemple a partir de sous-reseaux conformes
-    a I'ISOKEI 8802 ou a l'ISO/CEI 8208. Le \"Service de sous-reseau de base\" peut
-    être obtenu a partir de sous-reseaux reels autres que les sous-reseaux specifiquement
-    couverts par les autres Recommandations ( Normes internationales.\nLa présente
-    Recommandation 1 Norme internationale spécifie :\na) les procédures de transmission
-    en mode sans connexion de données et une entité de réseau et une ou plusieurs
-    entités de réseau homologues ; d'informations de commande entre\nb) le codage
-    des unités de données de protocole (PDU, Protocol data mit) utilise pour Ia transmission
-    des données et des informations de commande, notamment un format d'en-tête de
-    protocole de longueur variable ;\nc) les procédures d'interprétation correcte
-    des informations de commande du protocole ;\nd) les caractéristiques fonctionnelles
-    des applications déclarées con formes Norme internationale. \nLes procédures sont
-    définies par référence :\na)    aux interactions  entre entités de réseau homologues
-    résultant de l'échange d'unités de données de protocole.\nb)    aux interactions
-    entre une entité de réseau et un utilisateur de Service de réseau, résultant de
-    l'échange des primitives de Service de réseau; \nc)    aux interactions entre
-    une entité de réseau et un fouisseur de Service de base abstrait, résultant de
-    l'échange de primitives de Service.\n La présente Recommandation ( Norme internationale
-    comprend également un formulaire PICS conforme aux conditions pertinentes et aux
-    directives applicables, exposées dans la UIT-T Rec. X.290 1 ISO/CEI 9646-1."
 status:
   stage:
     content: '90'
@@ -188,42 +145,50 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8473-1:1994
-    docidentifier:
-    - content: ISO/IEC 8473-1:1994
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 8473-1:1994/Amd 1:1995
+    formattedref:
+      content: ISO/IEC 8473-1:1994/Amd 1:1995
     docidentifier:
     - content: ISO/IEC 8473-1:1994/Amd 1:1995
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8473-1:1994/Amd 2:1996
-    docidentifier:
-    - content: ISO/IEC 8473-1:1994/Amd 2:1996
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 8473-1:1994/Amd 3:1996
+    formattedref:
+      content: ISO/IEC 8473-1:1994/Amd 3:1996
     docidentifier:
     - content: ISO/IEC 8473-1:1994/Amd 3:1996
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8473-1:1994
+    docidentifier:
+    - content: ISO/IEC 8473-1:1994
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8473-1:1994/Amd 2:1996
+    docidentifier:
+    - content: ISO/IEC 8473-1:1994/Amd 2:1996
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8473-1:1994/PDAM 4
+    docidentifier:
+    - content: ISO/IEC 8473-1:1994/CD Amd 4
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

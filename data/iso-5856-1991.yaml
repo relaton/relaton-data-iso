@@ -1,25 +1,22 @@
 ---
 id: ISO58561991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aerospace
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Screws, 100 degrees normal countersunk head, internal offset cruciform
     ribbed drive, normal shank, short or medium length MJ threads, metallic material,
     coated or uncoated, strength classes less than or equal to 1 100 MPa
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Dimensions
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Aerospace - Screws, 100 degrees normal countersunk head, internal offset
@@ -27,12 +24,10 @@ title:
     material, coated or uncoated, strength classes less than or equal to 1 100 MPa
     - Dimensions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronautique et espace
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vis à tête fraisée 100 degrés normale, à empreinte cruciforme déportée
@@ -40,12 +35,10 @@ title:
     moyenne, en matériau métallique, revêtues ou non revêtues, des classes de résistance
     inférieures ou égales à 1 100 MPa
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dimensions
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronautique et espace - Vis à tête fraisée 100 degrés normale, à empreinte
@@ -53,10 +46,11 @@ title:
     MJ court ou de longueur moyenne, en matériau métallique, revêtues ou non revêtues,
     des classes de résistance inférieures ou égales à 1 100 MPa - Dimensions
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/12058.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:12058:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/20/12058.detail.rss
 docidentifier:
@@ -70,7 +64,7 @@ docidentifier:
 docnumber: '5856'
 date:
 - type: published
-  at: 1991-12
+  at: '1991-12-12'
 contributor:
 - role:
   - type: publisher
@@ -109,10 +103,6 @@ abstract:
   script: Latn
   content: Specifies the dimensions of head screws. Figure 1 illustrates the dimensions
     and parameters given in table 1 which includes diameter codes from 030 up to 200.
-- language: fr
-  script: Latn
-  content: Specifies the dimensions of head screws. Figure 1 illustrates the dimensions
-    and parameters given in table 1 which includes diameter codes from 030 up to 200.
 status:
   stage:
     content: '95'
@@ -125,21 +115,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5856:2008
+    formattedref:
+      content: ISO/WD 5856
+    docidentifier:
+    - content: ISO/WD 5856
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 5856:2008
     docidentifier:
     - content: ISO 5856:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-08-18'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,39 +1,34 @@
 ---
 id: ISO395112022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Sampling procedures for inspection by variables
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Specification for single sampling plans indexed by acceptance
     quality limit (AQL) for lot-by-lot inspection for a single quality characteristic
     and a single AQL'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Sampling procedures for inspection by variables - Part 1: Specification
     for single sampling plans indexed by acceptance quality limit (AQL) for lot-by-lot
     inspection for a single quality characteristic and a single AQL'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Règles d'échantillonnage pour les contrôles par mesures
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Spécification pour les plans d’échantillonnage simples indexés
     d’après un niveau de qualité acceptable (NQA) pour un contrôle lot par lot pour
     une caractéristique qualité unique et un NQA unique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Règles d''échantillonnage pour les contrôles par mesures - Partie 1: Spécification
@@ -41,7 +36,6 @@ title:
     acceptable (NQA) pour un contrôle lot par lot pour une caractéristique qualité
     unique et un NQA unique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74706.html
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '3951'
 date:
 - type: published
-  at: 2022-08
+  at: '2022-08-18'
 contributor:
 - role:
   - type: publisher
@@ -97,30 +91,25 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies single sampling plans for lot-by-lot inspection under the following conditions:
-    a) where the inspection procedure is applied to a continuing series of lots of discrete products, all supplied by one producer using one production process;
-    b) where only a single quality characteristic, x, of these products is taken into consideration, which is measurable on a continuous scale;
-    c) where production is under statistical control and the quality characteristic, x, is distributed according to a normal distribution or a close approximation to the normal distribution;
-    d) where a contract or standard defines a lower specification limit, L, an upper specification limit, U, or both. An item is qualified as conforming if its measured quality characteristic, x, satisfies as appropriate one of the following inequalities:
-    1)    x ≥ L (i.e. the lower specification limit is not violated);
-    2)    x ≤ U (i.e. the upper specification limit is not violated);
-    3)    x ≥ L and x ≤ U (i.e. neither the lower nor the upper specification limit is violated).
-    Inequalities 1) and 2) are cases with a single specification limit, and 3) is a case with double specification limits.
-    Where double specification limits apply, it is assumed in this document that conformity to both specification limits is equally important to the integrity of the product. In such cases, it is appropriate to apply a single AQL to the combined percentage of a product outside the two specification limits. This is referred to as combined control.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie des plans d’échantillonnage simples pour un contrôle lot par lot dans les conditions suivantes:
-    a) lorsque la procédure de contrôle est appliquée à une série continue de lots de produits distincts, tous fournis par un même producteur utilisant un procédé de production unique;
-    b) lorsqu’une seule caractéristique qualité x de ces produits est prise en compte et qu’elle est mesurable sur une échelle continue;
-    c) lorsque la production est statistiquement maîtrisée et que la caractéristique qualité x est distribuée selon une loi normale ou une approximation proche d’une distribution normale;
-    d) lorsqu’un contrat ou une norme définit une limite de spécification inférieure, L, une limite de spécification supérieure, U, ou les deux. Un individu est qualifié de conforme si sa caractéristique qualité mesurée x satisfait à la condition appropriée parmi les inégalités suivantes:
-    1)    x ≥ L (c’est-à-dire que la limite de spécification inférieure n’est pas dépassée);
-    2)    x ≤ U (c’est-à-dire que la limite de spécification supérieure n’est pas dépassée);
-    3)    x ≥ L et x ≤ U (c’est-à-dire qu’aucune des limites de spécification inférieure et supérieure n’est dépassée).
-    Les conditions 1) et 2) sont des cas à limite de spécification simple et 3) est un cas à limite de spécification double.
-    Lorsque la limite de spécification double s’applique, le présent document présume que la conformité aux deux limites de spécification présente la même importance pour l’intégrité du produit. Dans ce cas, il est approprié d’appliquer un seul NQA au pourcentage combiné d’un produit situé hors des deux limites de spécification. Le contrôle est alors dit combiné.
+  content: 'This document specifies single sampling plans for lot-by-lot inspection
+    under the following conditions: a) where the inspection procedure is applied to
+    a continuing series of lots of discrete products, all supplied by one producer
+    using one production process; b) where only a single quality characteristic, x,
+    of these products is taken into consideration, which is measurable on a continuous
+    scale; c) where production is under statistical control and the quality characteristic,
+    x, is distributed according to a normal distribution or a close approximation
+    to the normal distribution; d) where a contract or standard defines a lower specification
+    limit, L, an upper specification limit, U, or both. An item is qualified as conforming
+    if its measured quality characteristic, x, satisfies as appropriate one of the
+    following inequalities: 1)    x ≥ L (i.e. the lower specification limit is not
+    violated); 2)    x ≤ U (i.e. the upper specification limit is not violated); 3)   
+    x ≥ L and x ≤ U (i.e. neither the lower nor the upper specification limit is violated).
+    Inequalities 1) and 2) are cases with a single specification limit, and 3) is
+    a case with double specification limits. Where double specification limits apply,
+    it is assumed in this document that conformity to both specification limits is
+    equally important to the integrity of the product. In such cases, it is appropriate
+    to apply a single AQL to the combined percentage of a product outside the two
+    specification limits. This is referred to as combined control.'
 status:
   stage:
     content: '60'
@@ -133,18 +122,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 3951-1:2013
+    formattedref:
+      content: ISO 3951-1:2013
     docidentifier:
     - content: ISO 3951-1:2013
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

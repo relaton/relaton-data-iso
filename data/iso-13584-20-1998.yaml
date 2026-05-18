@@ -1,45 +1,42 @@
 ---
 id: ISO13584201998
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Parts library — Part 20: Logical resource: Logical model of expressions'
+  content: Parts library
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Industrial automation systems and integration - Parts library — Part 20:
+  content: 'Part 20: Logical resource: Logical model of expressions'
+  type: title-part
+- language: en
+  script: Latn
+  content: 'Industrial automation systems and integration - Parts library - Part 20:
     Logical resource: Logical model of expressions'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Bibliothèque de composants
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 20: Ressource logiques: Modèle logique d''expressions'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Bibliothèque
     de composants - Partie 20: Ressource logiques: Modèle logique d''expressions'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/22328.html
@@ -58,7 +55,7 @@ docidentifier:
 docnumber: '13584'
 date:
 - type: published
-  at: 1998-07
+  at: '1998-07-02'
 contributor:
 - role:
   - type: publisher
@@ -89,40 +86,24 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This part of ISO 13584 specifies:\n— an EXPRESS schema for generic expressions;\n—
-    an EXPRESS schema for expressions, that models the subset of the allowed expressions
+  content: 'This part of ISO 13584 specifies: — an EXPRESS schema for generic expressions;
+    — an EXPRESS schema for expressions, that models the subset of the allowed expressions
     in the EXPRESS language defined in ISO 10303-11 that corresponds to integer, real,
     Boolean and string data types. This schema uses the resources defined in the generic
-    expression schema.\nThe following are within the scope of this part of ISO 13584:
-    \n— the exchange of expressions that involve both constants and variables;\n—
-    the function that checks whether or not a numeric expression should evaluate to
-    an integer value;\n— the constraints which ensure that an expression is semantically
-    correct;\n— the computation of the variables or functions used in an expression;\n—
-    the function that checks if an expression may be mapped on to the SQL query language.
-    The following are outside the scope of this part of ISO 13584: \n— the assignment
-    of values to variables within some context; \n— the triggering mechanism that
-    computes the value of an expression in a given context."
-- language: fr
-  script: Latn
-  content: "This part of ISO 13584 specifies:\n— an EXPRESS schema for generic expressions;\n—
-    an EXPRESS schema for expressions, that models the subset of the allowed expressions
-    in the EXPRESS language defined in ISO 10303-11 that corresponds to integer, real,
-    Boolean and string data types. This schema uses the resources defined in the generic
-    expression schema.\nThe following are within the scope of this part of ISO 13584:
-    \n— the exchange of expressions that involve both constants and variables;\n—
-    the function that checks whether or not a numeric expression should evaluate to
-    an integer value;\n— the constraints which ensure that an expression is semantically
-    correct;\n— the computation of the variables or functions used in an expression;\n—
-    the function that checks if an expression may be mapped on to the SQL query language.
-    The following are outside the scope of this part of ISO 13584: \n— the assignment
-    of values to variables within some context; \n— the triggering mechanism that
-    computes the value of an expression in a given context."
+    expression schema. The following are within the scope of this part of ISO 13584:
+    — the exchange of expressions that involve both constants and variables; — the
+    function that checks whether or not a numeric expression should evaluate to an
+    integer value; — the constraints which ensure that an expression is semantically
+    correct; — the computation of the variables or functions used in an expression;
+    — the function that checks if an expression may be mapped on to the SQL query
+    language. The following are outside the scope of this part of ISO 13584: — the
+    assignment of values to variables within some context; — the triggering mechanism
+    that computes the value of an expression in a given context.'
 status:
   stage:
     content: '90'
@@ -135,21 +116,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13584-20:1998/Cor 1:2014
+    formattedref:
+      content: ISO/NP 13584-20
     docidentifier:
-    - content: ISO 13584-20:1998/Cor 1:2014
+    - content: ISO/NP 13584-20
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-08-09'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

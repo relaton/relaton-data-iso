@@ -1,53 +1,47 @@
 ---
 id: ISO1361612007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International bank account number (IBAN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Structure of the IBAN'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Financial services - International bank account number (IBAN) - Part 1:
     Structure of the IBAN'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Numéro de compte bancaire international (IBAN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Structure de l''IBAN'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Services financiers - Numéro de compte bancaire international (IBAN) -
     Partie 1: Structure de l''IBAN'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41031.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41031:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/10/41031.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '13616'
 date:
 - type: published
-  at: 2007-03
+  at: '2007-02-23'
 contributor:
 - role:
   - type: publisher
@@ -92,20 +86,20 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 13616-1:2007 specifies the elements of an international bank account number (IBAN) used to facilitate the processing of data internationally in data interchange, in financial environments as well as within and between other industries. The IBAN is designed for automated processing, but can also be used conveniently in other media interchange when appropriate (e.g. paper document exchange, etc.).
-    ISO 13616-1:2007 does not specify internal procedures, file organization techniques, storage media, languages, etc. to be used in its implementation, nor is it designed to facilitate the routing of messages within a network. It is applicable to the textual data which might be conveyed through a system (network).
-- language: fr
-  script: Latn
-  content: |-
-    ISO 13616-1:2007 specifies the elements of an international bank account number (IBAN) used to facilitate the processing of data internationally in data interchange, in financial environments as well as within and between other industries. The IBAN is designed for automated processing, but can also be used conveniently in other media interchange when appropriate (e.g. paper document exchange, etc.).
-    ISO 13616-1:2007 does not specify internal procedures, file organization techniques, storage media, languages, etc. to be used in its implementation, nor is it designed to facilitate the routing of messages within a network. It is applicable to the textual data which might be conveyed through a system (network).
+  content: ISO 13616-1:2007 specifies the elements of an international bank account
+    number (IBAN) used to facilitate the processing of data internationally in data
+    interchange, in financial environments as well as within and between other industries.
+    The IBAN is designed for automated processing, but can also be used conveniently
+    in other media interchange when appropriate (e.g. paper document exchange, etc.).
+    ISO 13616-1:2007 does not specify internal procedures, file organization techniques,
+    storage media, languages, etc. to be used in its implementation, nor is it designed
+    to facilitate the routing of messages within a network. It is applicable to the
+    textual data which might be conveyed through a system (network).
 status:
   stage:
     content: '95'
@@ -120,27 +114,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13616:2003
+    formattedref:
+      content: ISO/FDIS 13616-1
     docidentifier:
-    - content: ISO 13616:2003
+    - content: ISO/FDIS 13616-1
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13616-1:2020
+    formattedref:
+      content: ISO 13616-1:2020
     docidentifier:
     - content: ISO 13616-1:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-09-29'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 13616:2003
+    docidentifier:
+    - content: ISO 13616:2003
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

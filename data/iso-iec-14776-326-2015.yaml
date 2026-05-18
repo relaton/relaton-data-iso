@@ -1,50 +1,42 @@
 ---
 id: ISOIEC147763262015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Small computer system interface (SCSI)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 326: Reduced block commands (RBC)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Small computer system interface (SCSI) - Part
     326: Reduced block commands (RBC)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de petit système d'ordinateur (SCSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 326: Commandes en bloc réduit (RBC)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interface de petit système d''ordinateur
     (SCSI) - Partie 326: Commandes en bloc réduit (RBC)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/67739.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '14776'
 date:
 - type: published
-  at: 2015-09
+  at: '2015-09-09'
 contributor:
 - role:
   - type: publisher
@@ -103,7 +95,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -111,22 +102,7 @@ abstract:
   script: Latn
   content: ISO/IEC 14776-326:2015(E) defines a Reduced Block Command set for logical
     block devices. The Reduced Block Commands along with the required SPC-2 commands
-    and their restrictions described in this   standard, fully specify the complete
-    command set for RBC logical block devices. It provides a command set of reduced
-    requirements and options from SCSI Block Commands (SBC) (ISO/IEC 14776-321) for
-    block devices. The reduced command set is intended to more closely match the functionality
-    required for simple block logical units. The specified commands place no restrictions
-    on device performance. The initial focus of this command set was to enable rigid
-    disks and removable media devices attached to Serial Bus and utilizing SBP-2 (ISO/IEC
-    14776-232) for command and control. This second edition cancels and replaces the
-    first edition published in 2002 and constitutes a minor revision. This second
-    edition provides additional explanations and corrects mistakes with respect to
-    the first edition.
-- language: fr
-  script: Latn
-  content: ISO/IEC 14776-326:2015(E) defines a Reduced Block Command set for logical
-    block devices. The Reduced Block Commands along with the required SPC-2 commands
-    and their restrictions described in this   standard, fully specify the complete
+    and their restrictions described in this standard, fully specify the complete
     command set for RBC logical block devices. It provides a command set of reduced
     requirements and options from SCSI Block Commands (SBC) (ISO/IEC 14776-321) for
     block devices. The reduced command set is intended to more closely match the functionality
@@ -149,26 +125,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14776-326:2002
-    docidentifier:
-    - content: ISO/IEC 14776-326:2002
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14776-326:2002/Cor 1:2009
+    formattedref:
+      content: ISO/IEC 14776-326:2002/Cor 1:2009
     docidentifier:
     - content: ISO/IEC 14776-326:2002/Cor 1:2009
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 14776-326:2002
+    docidentifier:
+    - content: ISO/IEC 14776-326:2002
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

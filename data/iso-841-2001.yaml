@@ -1,50 +1,42 @@
 ---
 id: ISO8412001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Numerical control of machines
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Coordinate system and motion nomenclature
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Industrial automation systems and integration - Numerical control of machines
     - Coordinate system and motion nomenclature
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Commande numérique des machines
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Système de coordonnées et nomenclature du mouvement
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration - Commande numérique
     des machines - Système de coordonnées et nomenclature du mouvement
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/23949.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '841'
 date:
 - type: published
-  at: 2001-10
+  at: '2001-10-04'
 contributor:
 - role:
   - type: publisher
@@ -94,38 +86,24 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard describes a machine coordinate system related to the primary motions of individual
-    numerically controlled machines and the associated machine motions.
-    The machine coordinate system is used to provide the coordinates of a moving tool (or a point in the working space
-    or on the drawing) with respect to a stationary workpiece. Thus a programmer can describe the machine operations
-    without having to know whether the tool approaches the workpiece or the workpiece approaches the tool.
-    NOTE 1 Individual numerically controlled machines means that all axes are mounted on one base or frame and all motions
-    are related to one standard coordinate system.
-    NOTE 2 For the sake of simplicity the majority of the text of this International Standard is written in terms accorded to
-    machine tools but nevertheless accorded to numerically controlled machines in general. Coordinate systems and axis motion
-    nomenclature for industrial robots is defined in ISO 9787, Manipulating industrial robots — Coordinate systems and motion
-    nomenclatures.
-- language: fr
-  script: Latn
-  content: |-
-    This International Standard describes a machine coordinate system related to the primary motions of individual
-    numerically controlled machines and the associated machine motions.
-    The machine coordinate system is used to provide the coordinates of a moving tool (or a point in the working space
-    or on the drawing) with respect to a stationary workpiece. Thus a programmer can describe the machine operations
-    without having to know whether the tool approaches the workpiece or the workpiece approaches the tool.
-    NOTE 1 Individual numerically controlled machines means that all axes are mounted on one base or frame and all motions
-    are related to one standard coordinate system.
-    NOTE 2 For the sake of simplicity the majority of the text of this International Standard is written in terms accorded to
-    machine tools but nevertheless accorded to numerically controlled machines in general. Coordinate systems and axis motion
-    nomenclature for industrial robots is defined in ISO 9787, Manipulating industrial robots — Coordinate systems and motion
-    nomenclatures.
+  content: This International Standard describes a machine coordinate system related
+    to the primary motions of individual numerically controlled machines and the associated
+    machine motions. The machine coordinate system is used to provide the coordinates
+    of a moving tool (or a point in the working space or on the drawing) with respect
+    to a stationary workpiece. Thus a programmer can describe the machine operations
+    without having to know whether the tool approaches the workpiece or the workpiece
+    approaches the tool. NOTE 1 Individual numerically controlled machines means that
+    all axes are mounted on one base or frame and all motions are related to one standard
+    coordinate system. NOTE 2 For the sake of simplicity the majority of the text
+    of this International Standard is written in terms accorded to machine tools but
+    nevertheless accorded to numerically controlled machines in general. Coordinate
+    systems and axis motion nomenclature for industrial robots is defined in ISO 9787,
+    Manipulating industrial robots — Coordinate systems and motion nomenclatures.
 status:
   stage:
     content: '90'
@@ -138,18 +116,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 841:1974
+    formattedref:
+      content: ISO 841:1974
     docidentifier:
     - content: ISO 841:1974
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,43 +1,39 @@
 ---
 id: ISO80941984
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Steel cord conveyor belts
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Adhesion strength test of the cover to the core layer
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Steel cord conveyor belts - Adhesion strength test of the cover to the
     core layer
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Courroies transporteuses à câbles d'acier
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai d'adhérence du revêtement à la couche de câbles
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Courroies transporteuses à câbles d'acier - Essai d'adhérence du revêtement
     à la couche de câbles
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/15132.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:15132:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/51/15132.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '8094'
 date:
 - type: published
-  at: 1984-12
+  at: '1984-12-01'
 contributor:
 - role:
   - type: publisher
@@ -93,11 +89,6 @@ abstract:
     the principle, the apparatus, the specimens, the procedure, and the expression
     of results; shows how to set up the test report. Some figures illustrate arrangements
     and reference quantities of concern.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale spécifie une méthode pour déterminer l'adhérence du revêtement à la couche de câbles. Elle est applicable exclusivement aux courroies transporteuses à câbles d'acier.
 status:
   stage:
     content: '95'
@@ -110,21 +101,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8094:2013
+    formattedref:
+      content: ISO/CD 8094
+    docidentifier:
+    - content: ISO/CD 8094
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 8094:2013
     docidentifier:
     - content: ISO 8094:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-04-17'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

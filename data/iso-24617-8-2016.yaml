@@ -1,52 +1,44 @@
 ---
 id: ISO2461782016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Language resource management
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Semantic annotation framework (SemAF)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 8: Semantic relations in discourse, core annotation schema (DR-core)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Language resource management - Semantic annotation framework (SemAF) -
     Part 8: Semantic relations in discourse, core annotation schema (DR-core)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des ressources langagières
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cadre d'annotation sémantique (SemAF)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 8: Relations sémantiques dans le discours, schéma d''annotation
     de base (DR-core)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Gestion des ressources langagières - Cadre d''annotation sémantique (SemAF)
     - Partie 8: Relations sémantiques dans le discours, schéma d''annotation de base
     (DR-core)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/60780.html
@@ -65,7 +57,7 @@ docidentifier:
 docnumber: '24617'
 date:
 - type: published
-  at: 2016-12
+  at: '2016-12-05'
 contributor:
 - role:
   - type: publisher
@@ -102,36 +94,44 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 24617-8:2016 establishes the representation and annotation of local, "low-level" discourse relations between situations mentioned in discourse, where each relation is annotated independently of other relations in the same discourse.
-    ISO 24617-8:2016 provides a basis for annotating discourse relations by specifying a set of core discourse relations, many of which have similar definitions in different frameworks. To the extent possible, this document provides mappings of the semantics across the different frameworks.
-    ISO 24617-8:2016 is applicable to two different situations:
-    -      for annotating discourse relations in natural language corpora;
-    -      as a target representation of automatic methods for shallow discourse parsing, for summarization, and for other applications.
-    The objectives of this specification are to provide:
-    -      a reference set of data categories that define a collection of discourse relation types with an explicit semantics;
-    -      a pivot representation based on a framework for defining discourse relations that can facilitate mapping between different frameworks;
-    -      a basis for developing guidelines for creating new resources that will be immediately interoperable with pre-existing resources.
-    With respect to discourse structure, the limitation of this document to specifications for annotating local, "low-level" discourse relations is based on the view that (a) the analysis at this level is what is well understood and can be clearly defined; (b) further extensions to represent higher-level, global discourse structure is possible where desired; and (c) that it allows for the resulting annotations to be compatible across frameworks, even when they are based on different theories of discourse structure.
-    As a part of the ISO 24617 semantic annotation framework ("SemAF"), the present DR-core standard aims to be transparent in its relation to existing frameworks for discourse relation annotation, but also to be compatible with other ISO 24617 parts. Some discourse relations are specific to interactive discourse, and give rise to an overlap with ISO 24617 Part 2, the ISO standard for dialogue act annotation. Other discourse relations relate to time, and their annotation forms part of ISO 24617‑1 (time and events); still other discourse relations are very similar to certain predicate-argument relations ("semantic roles"), whose annotation is the subject matter of ISO 24617‑4. Since the various parts are required to form a consistent whole, this document pays special attention to the interactions of discourse relation annotation and other semantic annotation schemes (see Clause 8).
-    ISO 24617-8:2016 does not consider global, higher-level discourse structure representation which involves linking local discourse relations to form one or more composite global structures.
-    ISO 24617-8:2016 is, moreover, restricted to strictly semantic relations, to the exclusion of, for example, presentational relations, which concern the way in which a text is presented to its readers or the way in which speakers structure their contributions in a spoken dialogue.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 24617-8:2016 détermine la représentation et l'annotation des relations du discours locales, de «bas niveau», entre les situations mentionnées dans le discours, chaque relation étant annotée indépendamment des autres relations dans le même discours.
-    L'ISO 24617-8:2016 fournit un socle d'annotation des relations du discours, en spécifiant un ensemble de base de relations du discours, un grand nombre d'entre elles revêtant des définitions similaires dans des cadres différents. Dans la mesure du possible, le présent document fournit des transpositions de sémantique dans les différents cadres existants.
-    L'ISO 24617-8:2016 peut être appliqué à deux situations différentes:
-    - pour l'annotation des relations du discours dans les corpus de langage naturel;
-    - en tant que représentation cible des méthodes automatiques d'analyse de surface du discours, pour le résumé automatique et autres applications.
-    Les objectifs de cette spécification sont de fournir:
-    - un ensemble de référence de catégories de données qui définissent une collection de types de relations du discours avec une sémantique explicite;
-    - une représentation pivot basée sur un cadre de définition des relations du discours qui peut faciliter la transposition entre différents cadres;
-    -      une base d'élaboration de lignes directrices en vue de créer de nouvelles ressources qui seront immédiatement interopérables avec des ressources pré-existantes.
-    En ce qui concerne la structure du discours, la limite du présent document aux spécifications d'annotation de relations du discours locales, de «bas niveau», est fondée sur l'idée (a) que l'analyse à ce niveau correspond à ce qui est bien compris et peut être clairement défini, (b) qu'il est possible, s'il y a lieu, de procéder à des extensions complémentaires permettant de représenter une structure de discours globale de niveau plus élevé, et (c) qu'il permettra une compatibilité des annotations en découlant avec les divers cadres, même s'ils reposent sur des théories de structure du discours différentes.
-    En tant que partie intégrante du cadre d'annotation sémantique (SemAF) de l'ISO 24617, l'ISO 24617-8:2016 DR-core a pour objectif d'être transparente dans sa relation avec les cadres d'annotations des relations du discours existants, mais également d'être compatible avec les autres parties de l'ISO 24617. Certaines relations du discours sont spécifiques au discours interactif et recoupent la Partie 2 de l'ISO 24617 consacrée à l'annotation des actes de dialogue. D'autres relations du discours se rapportent au temps, et leur annotation fait partie intégrante de l'ISO 24617‑1 (temps et événements); d'autres relations du discours encore sont très semblables à certaines relations prédicat-argument («rôles sémantiques»), dont l'annotation est l'objet principal de l'ISO 24617‑4. Puisque les différentes parties sont indispensables pour constituer un ensemble cohérent, le présent document porte une attention particulière aux interactions de l'annotation des relations du discours avec les autres schémas d'annotation sémantique (voir Article 8).
-    L'ISO 24617-8:2016 ne traite pas de la représentation des structures de discours globales de niveau élevé, qui implique de relier des relations du discours locales pour constituer une ou plusieurs structures globales plus complexes.
-    L'ISO 24617-8:2016 se limite, en outre, aux relations strictement sémantiques, et exclut donc, par exemple, les relations présentationnelles, qui concernent la façon dont un texte est présenté à ses lecteurs ou la façon dont des locuteurs structurent leurs contributions à un dialogue oral.
+  content: 'ISO 24617-8:2016 establishes the representation and annotation of local,
+    "low-level" discourse relations between situations mentioned in discourse, where
+    each relation is annotated independently of other relations in the same discourse.
+    ISO 24617-8:2016 provides a basis for annotating discourse relations by specifying
+    a set of core discourse relations, many of which have similar definitions in different
+    frameworks. To the extent possible, this document provides mappings of the semantics
+    across the different frameworks. ISO 24617-8:2016 is applicable to two different
+    situations: - for annotating discourse relations in natural language corpora;
+    - as a target representation of automatic methods for shallow discourse parsing,
+    for summarization, and for other applications. The objectives of this specification
+    are to provide: - a reference set of data categories that define a collection
+    of discourse relation types with an explicit semantics; - a pivot representation
+    based on a framework for defining discourse relations that can facilitate mapping
+    between different frameworks; - a basis for developing guidelines for creating
+    new resources that will be immediately interoperable with pre-existing resources.
+    With respect to discourse structure, the limitation of this document to specifications
+    for annotating local, "low-level" discourse relations is based on the view that
+    (a) the analysis at this level is what is well understood and can be clearly defined;
+    (b) further extensions to represent higher-level, global discourse structure is
+    possible where desired; and (c) that it allows for the resulting annotations to
+    be compatible across frameworks, even when they are based on different theories
+    of discourse structure. As a part of the ISO 24617 semantic annotation framework
+    ("SemAF"), the present DR-core standard aims to be transparent in its relation
+    to existing frameworks for discourse relation annotation, but also to be compatible
+    with other ISO 24617 parts. Some discourse relations are specific to interactive
+    discourse, and give rise to an overlap with ISO 24617 Part 2, the ISO standard
+    for dialogue act annotation. Other discourse relations relate to time, and their
+    annotation forms part of ISO 24617‑1 (time and events); still other discourse
+    relations are very similar to certain predicate-argument relations ("semantic
+    roles"), whose annotation is the subject matter of ISO 24617‑4. Since the various
+    parts are required to form a consistent whole, this document pays special attention
+    to the interactions of discourse relation annotation and other semantic annotation
+    schemes (see Clause 8). ISO 24617-8:2016 does not consider global, higher-level
+    discourse structure representation which involves linking local discourse relations
+    to form one or more composite global structures. ISO 24617-8:2016 is, moreover,
+    restricted to strictly semantic relations, to the exclusion of, for example, presentational
+    relations, which concern the way in which a text is presented to its readers or
+    the way in which speakers structure their contributions in a spoken dialogue.'
 status:
   stage:
     content: '90'
@@ -144,9 +144,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

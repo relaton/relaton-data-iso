@@ -1,53 +1,45 @@
 ---
 id: ISOIEC205432019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Test and analysis methods for random bit generators within ISO/IEC 19790
     and ISO/IEC 15408
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Security techniques - Test and analysis methods
     for random bit generators within ISO/IEC 19790 and ISO/IEC 15408
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes d'essai et d'analyse des générateurs de bits aléatoires dans l'ISO/IEC
     19790 et l'ISO/IEC 15408
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques de sécurité - Méthodes d'essai
     et d'analyse des générateurs de bits aléatoires dans l'ISO/IEC 19790 et l'ISO/IEC
     15408
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/68296.html
@@ -66,7 +58,7 @@ docidentifier:
 docnumber: '20543'
 date:
 - type: published
-  at: 2019-10
+  at: '2019-10-03'
 contributor:
 - role:
   - type: publisher
@@ -106,22 +98,29 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a methodology for the evaluation of non-deterministic or deterministic random bit generators intended to be used for cryptographic applications. The provisions given in this document enable the vendor of an RBG to submit well-defined claims of security to an evaluation authority and shall enable an evaluator or a tester, for instance a validation authority, to evaluate, test, certify or reject these claims.
-    This document is implementation-agnostic. Hence, it offers no specific guidance on design and implementation decisions for random bit generators. However, design and implementation issues influence the evaluation of an RBG in this document, for instance because it requires the use of a stochastic model of the random source and because any such model is supported by technical arguments pertaining to the design of the device at hand.
-    Random bit generators as evaluated in this document aim to output bit strings that appear evenly distributed. Depending on the distribution of random numbers required by the consuming application, however, it is worth noting that additional steps can be necessary (and can well be critical to security) for the consuming application to transform the random bit strings produced by the RBG into random numbers of a distribution suitable to the application requirements. Such subsequent transformations are outside the scope of evaluations performed in this document.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies a methodology for the evaluation of non-deterministic or deterministic random bit generators intended to be used for cryptographic applications. The provisions given in this document enable the vendor of an RBG to submit well-defined claims of security to an evaluation authority and shall enable an evaluator or a tester, for instance a validation authority, to evaluate, test, certify or reject these claims.
-    This document is implementation-agnostic. Hence, it offers no specific guidance on design and implementation decisions for random bit generators. However, design and implementation issues influence the evaluation of an RBG in this document, for instance because it requires the use of a stochastic model of the random source and because any such model is supported by technical arguments pertaining to the design of the device at hand.
-    Random bit generators as evaluated in this document aim to output bit strings that appear evenly distributed. Depending on the distribution of random numbers required by the consuming application, however, it is worth noting that additional steps can be necessary (and can well be critical to security) for the consuming application to transform the random bit strings produced by the RBG into random numbers of a distribution suitable to the application requirements. Such subsequent transformations are outside the scope of evaluations performed in this document.
+  content: This document specifies a methodology for the evaluation of non-deterministic
+    or deterministic random bit generators intended to be used for cryptographic applications.
+    The provisions given in this document enable the vendor of an RBG to submit well-defined
+    claims of security to an evaluation authority and shall enable an evaluator or
+    a tester, for instance a validation authority, to evaluate, test, certify or reject
+    these claims. This document is implementation-agnostic. Hence, it offers no specific
+    guidance on design and implementation decisions for random bit generators. However,
+    design and implementation issues influence the evaluation of an RBG in this document,
+    for instance because it requires the use of a stochastic model of the random source
+    and because any such model is supported by technical arguments pertaining to the
+    design of the device at hand. Random bit generators as evaluated in this document
+    aim to output bit strings that appear evenly distributed. Depending on the distribution
+    of random numbers required by the consuming application, however, it is worth
+    noting that additional steps can be necessary (and can well be critical to security)
+    for the consuming application to transform the random bit strings produced by
+    the RBG into random numbers of a distribution suitable to the application requirements.
+    Such subsequent transformations are outside the scope of evaluations performed
+    in this document.
 status:
   stage:
     content: '90'
@@ -134,9 +133,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

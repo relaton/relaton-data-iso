@@ -1,41 +1,37 @@
 ---
 id: ISO32671991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Headlamp cleaners
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Headlamp cleaners
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dispositifs de nettoyage des projecteurs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Dispositifs de nettoyage des projecteurs
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/8493.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:8493:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/84/8493.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '3267'
 date:
 - type: published
-  at: 1991-10
+  at: '1991-10-10'
 contributor:
 - role:
   - type: publisher
@@ -89,11 +85,6 @@ abstract:
   content: Specifies terms and definitions. Gives photometric requirements, and describes
     the test procedure. This second edition cancels and replaces the first edition
     (1975).
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit les caractéristiques des dispositifs de nettoyage des projecteurs destinés aux véhicules routiers.
 status:
   stage:
     content: '95'
@@ -108,16 +99,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3267:1975
+    formattedref:
+      content: ISO/NP 3267
+    docidentifier:
+    - content: ISO/NP 3267
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3267:1975
     docidentifier:
     - content: ISO 3267:1975
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

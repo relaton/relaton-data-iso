@@ -1,54 +1,46 @@
 ---
 id: ISO1743842019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Indoor navigation for personal and vehicle ITS station
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Requirements and specifications for interface between personal/vehicle
     and central ITS stations'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Indoor navigation for personal and vehicle
     ITS station - Part 4: Requirements and specifications for interface between personal/vehicle
     and central ITS stations'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Navigation interne pour station personnelle et véhicule ITS
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Exigences et spécifications de l''interface entre les stations
     personnelle/véhicule et centrale ITS'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de transport intelligents - Navigation interne pour station personnelle
     et véhicule ITS - Partie 4: Exigences et spécifications de l''interface entre
     les stations personnelle/véhicule et centrale ITS'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/67089.html
@@ -67,7 +59,7 @@ docidentifier:
 docnumber: '17438'
 date:
 - type: published
-  at: 2019-04
+  at: '2019-04-12'
 contributor:
 - role:
   - type: publisher
@@ -98,46 +90,32 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines detailed use cases, requirements and message specifications for supporting indoor navigation functionality between a personal/vehicle (P/V) ITS station and a central ITS station.
-    This document defines:
-    a)    Clusters of use cases based on processing flows for indoor navigation between a P/V ITS station and a central ITS station;
-    b)    Detailed use cases derived from the clusters of use cases for indoor navigation;
-    c)    Message specifications to support some of the detailed use cases. The message specifications include mandatory, conditional and optional elements.
-    This document is only applicable to the core flow for the navigational functionality in indoor space. The following issues which are adjunctive but essential for commercial navigation services are beyond the scope of this document:
-    —          Authorized and authenticated access of users and services, including security;
-    —          Payment;
-    —          Preparation of indoor data which are necessary for indoor navigation;
-    —          Detailed data formats for indoor navigation data, including indoor maps and indoor positioning references (these form a part of ISO 17438-2[1] and ISO 17438-3[2]);
-    —          How to transfer and share data required for indoor navigation between a roadside ITS station and a central ITS station, i.e. low-level communication protocols;
-    —          Other issues dependent on implementation of an instance of indoor navigation, e.g. indoor-outdoor seamless navigation.
-    This document uses the XML and Data eXchange Message (DXM) format defined in ISO 13184-2 to encode defined messages.
-    [1] Under development. Current stage 0.00.
-    [2] Under development. Current stage 0.00.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines detailed use cases, requirements and message specifications for supporting indoor navigation functionality between a personal/vehicle (P/V) ITS station and a central ITS station.
-    This document defines:
-    a)    Clusters of use cases based on processing flows for indoor navigation between a P/V ITS station and a central ITS station;
-    b)    Detailed use cases derived from the clusters of use cases for indoor navigation;
-    c)    Message specifications to support some of the detailed use cases. The message specifications include mandatory, conditional and optional elements.
-    This document is only applicable to the core flow for the navigational functionality in indoor space. The following issues which are adjunctive but essential for commercial navigation services are beyond the scope of this document:
-    —          Authorized and authenticated access of users and services, including security;
-    —          Payment;
-    —          Preparation of indoor data which are necessary for indoor navigation;
-    —          Detailed data formats for indoor navigation data, including indoor maps and indoor positioning references (these form a part of ISO 17438-2[1] and ISO 17438-3[2]);
-    —          How to transfer and share data required for indoor navigation between a roadside ITS station and a central ITS station, i.e. low-level communication protocols;
-    —          Other issues dependent on implementation of an instance of indoor navigation, e.g. indoor-outdoor seamless navigation.
-    This document uses the XML and Data eXchange Message (DXM) format defined in ISO 13184-2 to encode defined messages.
-    [1] Under development. Current stage 0.00.
-    [2] Under development. Current stage 0.00.
+  content: 'This document defines detailed use cases, requirements and message specifications
+    for supporting indoor navigation functionality between a personal/vehicle (P/V)
+    ITS station and a central ITS station. This document defines: a) Clusters of use
+    cases based on processing flows for indoor navigation between a P/V ITS station
+    and a central ITS station; b) Detailed use cases derived from the clusters of
+    use cases for indoor navigation; c) Message specifications to support some of
+    the detailed use cases. The message specifications include mandatory, conditional
+    and optional elements. This document is only applicable to the core flow for the
+    navigational functionality in indoor space. The following issues which are adjunctive
+    but essential for commercial navigation services are beyond the scope of this
+    document: — Authorized and authenticated access of users and services, including
+    security; — Payment; — Preparation of indoor data which are necessary for indoor
+    navigation; — Detailed data formats for indoor navigation data, including indoor
+    maps and indoor positioning references (these form a part of ISO 17438-2[1] and
+    ISO 17438-3[2]); — How to transfer and share data required for indoor navigation
+    between a roadside ITS station and a central ITS station, i.e. low-level communication
+    protocols; — Other issues dependent on implementation of an instance of indoor
+    navigation, e.g. indoor-outdoor seamless navigation. This document uses the XML
+    and Data eXchange Message (DXM) format defined in ISO 13184-2 to encode defined
+    messages. [1] Under development. Current stage 0.00. [2] Under development. Current
+    stage 0.00.'
 status:
   stage:
     content: '90'
@@ -152,24 +130,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/AWI 17438-4
+    formattedref:
+      content: ISO/DIS 17438-4
     docidentifier:
-    - content: ISO/AWI 17438-4
+    - content: ISO/DIS 17438-4
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

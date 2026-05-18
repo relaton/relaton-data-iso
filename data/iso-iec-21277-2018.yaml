@@ -1,51 +1,43 @@
 ---
 id: ISOIEC212772018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Radio frequency identification device performance test methods
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Crypto suite
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Radio frequency identification device performance
     test methods - Crypto suite
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes de test de performance des systèmes d'identification par radiofréquence
     (RFID)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Suites cryptographiques
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Méthodes de test de performance des systèmes
     d'identification par radiofréquence (RFID) - Suites cryptographiques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70393.html
@@ -59,12 +51,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 21277:2018(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:21277:stage-90.93
+- content: urn:iso:std:iso-iec:21277:stage-90.92
   type: URN
 docnumber: '21277'
 date:
 - type: published
-  at: 2018-02
+  at: '2018-02-13'
 contributor:
 - role:
   - type: publisher
@@ -104,39 +96,52 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 21277:2018 defines test methods to measure the performance of crypto suites of radio frequency identification (RFID) devices (tags and interrogators) for item management as specified in ISO/IEC 18000‑63 and ISO/IEC 29167 (all parts).
-    These test methods measure the crypto suite system performance (tags and interrogators) against the crypto suite outcomes as required by the desired set of use case requirements for a specific application/service. These test methods are used as an extension of ISO/IEC 18046‑1 but can be used in a standalone manner.
-    Crypto suite performance can vary substantially between crypto suites, implementations of a crypto suite for tags and interrogators and crypto suite outcomes in specific interrogation scenarios. Tag crypto functions require time and energy to complete successfully. The desired crypto strength and method influence the time and energy required. "Crypto suite performance" is therefore defined in this document as "the shortest time to complete a crypto outcome at a given read distance in relation to the RF power available". This document provides guidelines in the evaluation of the measurement results.
-    The test methods do not measure crypto capabilities which include crypto strength, suitability and robustness. They neither measure random generator performance nor deal with key management.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 21277:2018 defines test methods to measure the performance of crypto suites of radio frequency identification (RFID) devices (tags and interrogators) for item management as specified in ISO/IEC 18000‑63 and ISO/IEC 29167 (all parts).
-    These test methods measure the crypto suite system performance (tags and interrogators) against the crypto suite outcomes as required by the desired set of use case requirements for a specific application/service. These test methods are used as an extension of ISO/IEC 18046‑1 but can be used in a standalone manner.
-    Crypto suite performance can vary substantially between crypto suites, implementations of a crypto suite for tags and interrogators and crypto suite outcomes in specific interrogation scenarios. Tag crypto functions require time and energy to complete successfully. The desired crypto strength and method influence the time and energy required. "Crypto suite performance" is therefore defined in this document as "the shortest time to complete a crypto outcome at a given read distance in relation to the RF power available". This document provides guidelines in the evaluation of the measurement results.
-    The test methods do not measure crypto capabilities which include crypto strength, suitability and robustness. They neither measure random generator performance nor deal with key management.
+  content: ISO/IEC 21277:2018 defines test methods to measure the performance of crypto
+    suites of radio frequency identification (RFID) devices (tags and interrogators)
+    for item management as specified in ISO/IEC 18000‑63 and ISO/IEC 29167 (all parts).
+    These test methods measure the crypto suite system performance (tags and interrogators)
+    against the crypto suite outcomes as required by the desired set of use case requirements
+    for a specific application/service. These test methods are used as an extension
+    of ISO/IEC 18046‑1 but can be used in a standalone manner. Crypto suite performance
+    can vary substantially between crypto suites, implementations of a crypto suite
+    for tags and interrogators and crypto suite outcomes in specific interrogation
+    scenarios. Tag crypto functions require time and energy to complete successfully.
+    The desired crypto strength and method influence the time and energy required.
+    "Crypto suite performance" is therefore defined in this document as "the shortest
+    time to complete a crypto outcome at a given read distance in relation to the
+    RF power available". This document provides guidelines in the evaluation of the
+    measurement results. The test methods do not measure crypto capabilities which
+    include crypto strength, suitability and robustness. They neither measure random
+    generator performance nor deal with key management.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2018'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC AWI 21277
+    docidentifier:
+    - content: ISO/IEC AWI 21277
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

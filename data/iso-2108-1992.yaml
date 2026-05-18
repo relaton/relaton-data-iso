@@ -1,42 +1,38 @@
 ---
 id: ISO21081992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International standard book numbering (ISBN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - International standard book numbering (ISBN)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Système international pour la numérotation des livres (ISBN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Système international pour la numérotation
     des livres (ISBN)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6898.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6898:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/68/6898.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '2108'
 date:
 - type: published
-  at: 1992-05
+  at: '1992-05-14'
 contributor:
 - role:
   - type: publisher
@@ -92,11 +88,6 @@ abstract:
     of a book or other monographic publication (serial publications excluded) published
     or produced by a specific publisher or producer. The standard specifies the construction
     of an ISBN and the location of the printed number on the publication.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale a pour objet de coordonner et de normaliser l'utilisation de numéros d'identification, afin que chaque numéro international normalisé du livre (ISUBN) identifie un seul titre ou une seule édition d'un livre ou d'un autre type de monographie, publié ou produit par un éditeur ou un producteur déterminé. Elle précise la composition d'un numéro international normalisé du livre et prescrit l'emplacement du numéro imprimé dans la publication. La présente Norme internationale est applicable aux livres et autres monographies, lesquelles peuvent comprendre : les livres et brochures imprimés (et leurs diverses reliures ou présentations), les publications multi-supports, les autres supports semblables, y compris les films ou vidéos didactiques et les transparents, les livres sur cassettes, les logiciels pour micro-ordinateur, les publications électroniques, les publications sur microforme, les publications en braille et les cartes. Les publications en série, les documents sonores musicaux et la musique imprimée sont exclus, car ils sont couverts par d'autres systèmes d'identification. De plus amples renseignements concernant les usages spécifiques des ISUBN sont fournis dans un manuel de l'utilisateur publié par l'organisme d'enregistrement pour la présente Norme internationale (voir annexe A).
 status:
   stage:
     content: '95'
@@ -111,27 +102,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2108:1978
-    docidentifier:
-    - content: ISO 2108:1978
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 2108:2005
+    formattedref:
+      content: ISO 2108:2005
     docidentifier:
     - content: ISO 2108:2005
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2005-05-30'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2108:1978
+    docidentifier:
+    - content: ISO 2108:1978
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

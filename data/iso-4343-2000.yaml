@@ -1,50 +1,42 @@
 ---
 id: ISO43432000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Numerical control of machines
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: NC processor output -- Post processor commands
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Industrial automation systems - Numerical control of machines - NC processor
     output -- Post processor commands
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Commande numérique des machines
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations de sortie des processeurs CN -- Instructions post-processeur
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle - Commande numérique des machines
     - Informations de sortie des processeurs CN -- Instructions post-processeur
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/33799.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 4343:2000(E)
   type: iso-reference
-- content: urn:iso:std:iso:4343:stage-90.93
+- content: urn:iso:std:iso:4343:stage-90.20
   type: URN
 docnumber: '4343'
 date:
 - type: published
-  at: 2000-10
+  at: '2000-11-16'
 contributor:
 - role:
   - type: publisher
@@ -94,55 +86,27 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard defines the elements of a set of
-    post processor statements to be used in numerical control
-    software. These statements are encoded on 2 000 class
-    and 20 000 class CLDATA records or their equivalent.
-    Each processor using one of the ISO numerical control
-    programming languages shall be capable of producing post
-    processor command type CLDATA records as defined in
-    this International Standard.
-    Each post processor shall be capable of using the post
-    processor command type CLDATA records defined in this
-    international Standard as input.
-    This International Standard does not prescribe
-    a) the mechanism by which the statements are processed;
-    b) the medium on which the input language statements
-    are recorded;
-    c) the medium and format of output machine control data;
-    d) the order of statements within a part program.
-- language: fr
-  script: Latn
-  content: |-
-    This International Standard defines the elements of a set of
-    post processor statements to be used in numerical control
-    software. These statements are encoded on 2 000 class
-    and 20 000 class CLDATA records or their equivalent.
-    Each processor using one of the ISO numerical control
-    programming languages shall be capable of producing post
-    processor command type CLDATA records as defined in
-    this International Standard.
-    Each post processor shall be capable of using the post
-    processor command type CLDATA records defined in this
-    international Standard as input.
-    This International Standard does not prescribe
-    a) the mechanism by which the statements are processed;
-    b) the medium on which the input language statements
-    are recorded;
-    c) the medium and format of output machine control data;
-    d) the order of statements within a part program.
+  content: This International Standard defines the elements of a set of post processor
+    statements to be used in numerical control software. These statements are encoded
+    on 2 000 class and 20 000 class CLDATA records or their equivalent. Each processor
+    using one of the ISO numerical control programming languages shall be capable
+    of producing post processor command type CLDATA records as defined in this International
+    Standard. Each post processor shall be capable of using the post processor command
+    type CLDATA records defined in this international Standard as input. This International
+    Standard does not prescribe a) the mechanism by which the statements are processed;
+    b) the medium on which the input language statements are recorded; c) the medium
+    and format of output machine control data; d) the order of statements within a
+    part program.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2000'
   owner:
@@ -150,18 +114,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 4343:1978
+    formattedref:
+      content: ISO 4343:1978
     docidentifier:
     - content: ISO 4343:1978
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

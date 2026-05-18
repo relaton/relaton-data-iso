@@ -1,53 +1,47 @@
 ---
 id: ISO95631990
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Belt drives
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Electrical conductivity of antistatic endless synchronous belts
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Characteristics and test method
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Belt drives - Electrical conductivity of antistatic endless synchronous
     belts - Characteristics and test method
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions par courroies
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Conductibilité électrique des courroies synchrones sans fin, anti-électrostatiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification et méthode d'essai
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions par courroies - Conductibilité électrique des courroies synchrones
     sans fin, anti-électrostatiques - Spécification et méthode d'essai
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/17308.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:17308:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/73/17308.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '9563'
 date:
 - type: published
-  at: 1990-09
+  at: '1990-09-06'
 contributor:
 - role:
   - type: publisher
@@ -95,12 +89,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit la résistance électrique maximale que doit présenter une courroie synchrone sans fin, dite "anti- électrostatique» ainsi qu'une méthode d'essai correspondante. Cet essai permet de s'assurer que la courroie est suffisamment conductrice pour écouler les charges d'électricité statique susceptibles de s'y former en service. L'application de la présente Norme internationale est limitée aux cas de contestations sur des courroies neuves destinées à être utilisées en atmosphère explosive, dans les endroits où existe un risque d'incendie ou dans les endroits où il est impossible d'écouler les charges d'électricité statique. Dans ce cas, il est laissé aux normes nationales ou aux accords entre les parties intéressées le soin de décider si cet essai doit être effectué sur chaque courroie d'un lot à contrôler ou sur certaines courroies prélevées dans le lot.
 status:
   stage:
     content: '95'
@@ -113,21 +101,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9563:2015
+    formattedref:
+      content: ISO/NP 9563
+    docidentifier:
+    - content: ISO/NP 9563
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 9563
+    docidentifier:
+    - content: ISO/NP 9563
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9563:2015
     docidentifier:
     - content: ISO 9563:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-09-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,54 +1,46 @@
 ---
 id: ISO21219192023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Traffic and travel information (TTI) via transport protocol experts group,
     generation 2 (TPEG2)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 19: Weather information (TPEG2-WEA)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Traffic and travel information (TTI) via
     transport protocol experts group, generation 2 (TPEG2) - Part 19: Weather information
     (TPEG2-WEA)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations sur le trafic et le tourisme via le groupe expert du protocole
     de transport, génération 2 (TPEG2)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 19: Renseignements météorologiques (TPEG2-WEA)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes intelligents de transport - Informations sur le trafic et le
     tourisme via le groupe expert du protocole de transport, génération 2 (TPEG2)
     - Partie 19: Renseignements météorologiques (TPEG2-WEA)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/79440.html
@@ -67,7 +59,7 @@ docidentifier:
 docnumber: '21219'
 date:
 - type: published
-  at: 2023-06
+  at: '2023-06-09'
 contributor:
 - role:
   - type: publisher
@@ -98,26 +90,24 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the TPEG Weather (WEA) application for reporting weather information for travellers. It provides general weather-related information to all travellers and is not limited to a specific mode of transportation.
-    This application does not provide specific weather-related safety warnings to drivers; these are provided as safety related messages as part of the TPEG2-TEC application (ISO 21219-15).
-    The WEA application provides weather-related forecasts and status information over multiple time periods and for multiple, possibly linked, geographical areas.
-    NOTE            The presentation of the information is dependent on the specific human-machine interface (HMI) of the receiving device. Therefore, this document does not define any prerequisites for the HMI of the device.
-    This document contains examples to help explain how some typical weather reports can be signalled (see Annex C) and suggested translations between WEA table codes and WMO SYNOP weather observation codes (see Annex D).
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the TPEG Weather (WEA) application for reporting weather information for travellers. It provides general weather-related information to all travellers and is not limited to a specific mode of transportation.
-    This application does not provide specific weather-related safety warnings to drivers; these are provided as safety related messages as part of the TPEG2-TEC application (ISO 21219-15).
-    The WEA application provides weather-related forecasts and status information over multiple time periods and for multiple, possibly linked, geographical areas.
-    NOTE            The presentation of the information is dependent on the specific human-machine interface (HMI) of the receiving device. Therefore, this document does not define any prerequisites for the HMI of the device.
-    This document contains examples to help explain how some typical weather reports can be signalled (see Annex C) and suggested translations between WEA table codes and WMO SYNOP weather observation codes (see Annex D).
+  content: This document defines the TPEG Weather (WEA) application for reporting
+    weather information for travellers. It provides general weather-related information
+    to all travellers and is not limited to a specific mode of transportation. This
+    application does not provide specific weather-related safety warnings to drivers;
+    these are provided as safety related messages as part of the TPEG2-TEC application
+    (ISO 21219-15). The WEA application provides weather-related forecasts and status
+    information over multiple time periods and for multiple, possibly linked, geographical
+    areas. NOTE            The presentation of the information is dependent on the
+    specific human-machine interface (HMI) of the receiving device. Therefore, this
+    document does not define any prerequisites for the HMI of the device. This document
+    contains examples to help explain how some typical weather reports can be signalled
+    (see Annex C) and suggested translations between WEA table codes and WMO SYNOP
+    weather observation codes (see Annex D).
 status:
   stage:
     content: '60'
@@ -130,26 +120,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/TS 21219-19:2016
+    formattedref:
+      content: ISO/TS 21219-19:2016
     docidentifier:
     - content: ISO/TS 21219-19:2016
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

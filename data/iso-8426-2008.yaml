@@ -1,50 +1,42 @@
 ---
 id: ISO84262008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hydraulic fluid power
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Positive displacement pumps and motors
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of derived capacity
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Hydraulic fluid power - Positive displacement pumps and motors - Determination
     of derived capacity
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions hydrauliques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Pompes et moteurs volumétriques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la cylindrée mesurée
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions hydrauliques - Pompes et moteurs volumétriques - Détermination
     de la cylindrée mesurée
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/40351.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 8426:2008(E)
   type: iso-reference
-- content: urn:iso:std:iso:8426:stage-90.92
+- content: urn:iso:std:iso:8426:stage-95.99
   type: URN
 docnumber: '8426'
 date:
 - type: published
-  at: 2008-02
+  at: '2008-01-22'
 contributor:
 - role:
   - type: publisher
@@ -100,19 +92,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 8426:2008 specifies the methods of determining the derived capacity of hydraulic fluid power positive displacement pumps and motors under steady-state conditions and at defined, continuous shaft rotational frequencies.
-    Units can be tested as a positive displacement pump, with mechanical energy applied to the shaft and hydraulic energy obtained at the outlet fluid connection, or as a motor, with hydraulic energy supplied to the inlet fluid connection and mechanical energy obtained at the shaft.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 8426:2008 spécifie les méthodes à employer pour déterminer la cylindrée des pompes et des moteurs volumétriques pour transmissions hydrauliques fonctionnant en régime stationnaire et à des fréquences déterminées de rotation des arbres tournants.
-    Le groupe est soumis à essai comme une pompe, c'est-à-dire en appliquant une énergie mécanique à l'arbre et en recueillant l'énergie hydraulique au niveau des raccords de sortie de fluides, ou comme un moteur, c'est-à-dire en fournissant une énergie hydraulique aux raccords d'alimentation de fluides et en recueillant l'énergie mécanique obtenue au niveau de l'arbre.
+  content: ISO 8426:2008 specifies the methods of determining the derived capacity
+    of hydraulic fluid power positive displacement pumps and motors under steady-state
+    conditions and at defined, continuous shaft rotational frequencies. Units can
+    be tested as a positive displacement pump, with mechanical energy applied to the
+    shaft and hydraulic energy obtained at the outlet fluid connection, or as a motor,
+    with hydraulic energy supplied to the inlet fluid connection and mechanical energy
+    obtained at the shaft.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2008'
   owner:
@@ -122,32 +113,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8426:1988
+    formattedref:
+      content: ISO 8426-1:2025
+    docidentifier:
+    - content: ISO 8426-1:2025
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 8426-2:2025
+    docidentifier:
+    - content: ISO 8426-2:2025
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 8426
+    docidentifier:
+    - content: ISO/WD 8426
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8426:1988
     docidentifier:
     - content: ISO 8426:1988
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/FDIS 8426-1
-    docidentifier:
-    - content: ISO/FDIS 8426-1
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/FDIS 8426-2
-    docidentifier:
-    - content: ISO/FDIS 8426-2
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

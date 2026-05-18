@@ -1,49 +1,41 @@
 ---
 id: ISOIEC70642003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Check character systems
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Security techniques - Check character systems
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de caractères de contrôle
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques de sécurité - Systèmes de caractères
     de contrôle
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/31531.html
@@ -62,7 +54,7 @@ docidentifier:
 docnumber: '7064'
 date:
 - type: published
-  at: 2003-02
+  at: '2003-03-07'
 contributor:
 - role:
   - type: publisher
@@ -102,58 +94,32 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 7064:2002 specifies a set of check character systems capable of protecting strings against errors which occur when people copy or key data. The strings may be of fixed or variable length and may have character sets which are
-    - numeric (10 digits: 0 to 9);
-    - alphabetic (26 letters: A to Z);
-    - alphanumeric (letters and digits).
-    Embedded spaces and special characters are ignored.
-    ISO/IEC 7064:2002 specifies conformance requirements for products described as generating check characters or checking strings using the systems given in this International Standard.
-    ISO/IEC 7064:2002 is for use in information interchange between organizations; it is also strongly recommended as good practice for internal information systems.
-    The check character systems specified in ISO/IEC 7064:2002 can detect:
-    - all single substitution errors (the substitution of a single character for another, for example 4234 for 1234);
-    - all or nearly all single (local) transposition errors (the transposition of two single characters, either adjacent or with one character between them, for example 12354 or 12543 for 12345);
-    - all or nearly all shift errors (shifts of the whole string to the left or right);
-    - a high proportion of double substitution errors (two separate single substitution errors in the same string, for example 7234587 for 1234567);
-    - a high proportion of all other errors.
-    ISO/IEC 7064:2002 excludes systems designed specifically to:
-    - permit both error detection and automatic correction;
-    - detect deliberate falsification;
-    - check strings interchanged solely between machines.
-    ISO/IEC 7064:2002 specifies two types of systems:
-    - pure systems;
-    - hybrid systems.
-    The pure systems use a single modulus for all stages of the calculation.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 7064:2002 specifies a set of check character systems capable of protecting strings against errors which occur when people copy or key data. The strings may be of fixed or variable length and may have character sets which are
-    - numeric (10 digits: 0 to 9);
-    - alphabetic (26 letters: A to Z);
-    - alphanumeric (letters and digits).
-    Embedded spaces and special characters are ignored.
-    ISO/IEC 7064:2002 specifies conformance requirements for products described as generating check characters or checking strings using the systems given in this International Standard.
-    ISO/IEC 7064:2002 is for use in information interchange between organizations; it is also strongly recommended as good practice for internal information systems.
-    The check character systems specified in ISO/IEC 7064:2002 can detect:
-    - all single substitution errors (the substitution of a single character for another, for example 4234 for 1234);
-    - all or nearly all single (local) transposition errors (the transposition of two single characters, either adjacent or with one character between them, for example 12354 or 12543 for 12345);
-    - all or nearly all shift errors (shifts of the whole string to the left or right);
-    - a high proportion of double substitution errors (two separate single substitution errors in the same string, for example 7234587 for 1234567);
-    - a high proportion of all other errors.
-    ISO/IEC 7064:2002 excludes systems designed specifically to:
-    - permit both error detection and automatic correction;
-    - detect deliberate falsification;
-    - check strings interchanged solely between machines.
-    ISO/IEC 7064:2002 specifies two types of systems:
-    - pure systems;
-    - hybrid systems.
-    The pure systems use a single modulus for all stages of the calculation.
+  content: 'ISO/IEC 7064:2002 specifies a set of check character systems capable of
+    protecting strings against errors which occur when people copy or key data. The
+    strings may be of fixed or variable length and may have character sets which are
+    numeric (10 digits: 0 to 9);alphabetic (26 letters: A to Z);alphanumeric (letters
+    and digits). Embedded spaces and special characters are ignored. ISO/IEC 7064:2002
+    specifies conformance requirements for products described as generating check
+    characters or checking strings using the systems given in this International Standard.
+    ISO/IEC 7064:2002 is for use in information interchange between organizations;
+    it is also strongly recommended as good practice for internal information systems.
+    The check character systems specified in ISO/IEC 7064:2002 can detect: all single
+    substitution errors (the substitution of a single character for another, for example
+    4234 for 1234);all or nearly all single (local) transposition errors (the transposition
+    of two single characters, either adjacent or with one character between them,
+    for example 12354 or 12543 for 12345);all or nearly all shift errors (shifts of
+    the whole string to the left or right);a high proportion of double substitution
+    errors (two separate single substitution errors in the same string, for example
+    7234587 for 1234567);a high proportion of all other errors. ISO/IEC 7064:2002
+    excludes systems designed specifically to: permit both error detection and automatic
+    correction;detect deliberate falsification;check strings interchanged solely between
+    machines. ISO/IEC 7064:2002 specifies two types of systems: pure systems;hybrid
+    systems. The pure systems use a single modulus for all stages of the calculation.'
 status:
   stage:
     content: '90'
@@ -166,18 +132,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 7064:1983
+    formattedref:
+      content: ISO 7064:1983
     docidentifier:
     - content: ISO 7064:1983
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

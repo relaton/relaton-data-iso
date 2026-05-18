@@ -1,41 +1,37 @@
 ---
 id: ISO80151985
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Technical drawings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fundamental tolerancing principle
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Technical drawings - Fundamental tolerancing principle
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dessins techniques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Principe de tolérancement de base
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dessins techniques - Principe de tolérancement de base
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/15023.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:15023:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/50/15023.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '8015'
 date:
 - type: published
-  at: 1985-12
+  at: '1985-12-18'
 contributor:
 - role:
   - type: publisher
@@ -91,15 +87,6 @@ abstract:
     tolerances, angular dimensions and their tolerances and geometrical tolerances
     which define the following four aspects for each feature of the part: size form,
     orientation, and location. Refers to ISO 286/1, ISO 1101, and ISO 2692.'
-- language: fr
-  script: Latn
-  content: "\nLa présente Norme internationale spécifie le principe de la relation
-    entre les tolérances dimensionnelles (linéaires et angulaires) et les tolérances
-    géométriques.\n\n\nLe principe spécifié doit être appliqué sur les dessins techniques
-    et les documents connexes aux\n\n- cotes linéaires et à leurs tolérances ; \n-
-    cotes angulaires et à leurs tolérances ; \n- tolérances géométriques ; qui définissent,
-    pour chaque élément d'une pièce, les quatre aspects suivants :\n- dimension ;
-    \n- forme ; \n- orientation ; \n- position."
 status:
   stage:
     content: '95'
@@ -112,21 +99,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8015:2011
+    formattedref:
+      content: ISO 8015:2011
     docidentifier:
     - content: ISO 8015:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-05-23'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 8015
+    docidentifier:
+    - content: ISO/WD 8015
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

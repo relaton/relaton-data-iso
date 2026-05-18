@@ -1,48 +1,40 @@
 ---
 id: ISOIEC2480032010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: JPSearch
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Query format'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - JPSearch - Part 3: Query format'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: JPSearch
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Format d''interrogation'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - JPSearch - Partie 3: Format d''interrogation'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/50412.html
@@ -56,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 24800-3:2010(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:24800:-3:stage-90.93
+- content: urn:iso:std:iso-iec:24800:-3:stage-90.20
   type: URN
 docnumber: '24800'
 date:
 - type: published
-  at: 2010-05
+  at: '2010-04-15'
 contributor:
 - role:
   - type: publisher
@@ -101,19 +93,18 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 24800-3:2010, also known as “JPSearch Query Format (JPQF)”, provides
+  content: ISO/IEC 24800-3:2010, also known as “JPSearch Query Format (JPQF)”, provides
     a standardized interface for image search and retrieval systems in three aspects
     - input query format, output result format and query management - as a specialization
-    of ISO/IEC 15938-12:2008 for images and accompanying metadata.\nThe top-level
-    tools defined in ISO/IEC 24800-3:2010 are InputQuery, FetchResult, OutputResult
-    and Management. Both InputQuery and FetchResult tools belong to input query format.
-    \nThe input query format provides users/systems with a set of precise input parameters
+    of ISO/IEC 15938-12:2008 for images and accompanying metadata. The top-level tools
+    defined in ISO/IEC 24800-3:2010 are InputQuery, FetchResult, OutputResult and
+    Management. Both InputQuery and FetchResult tools belong to input query format.
+    The input query format provides users/systems with a set of precise input parameters
     to describe their search criteria in addition to a set of preferred output parameters
     to depict the return result sets through InputQuery. Through InputQuery, users
     can use queries of various types, such as query by media, query by description,
@@ -122,85 +113,33 @@ abstract:
     a query request is issued using the asynchronous mode, the FetchResult element
     is used to indicate the preparedness of the user to receive results. When a query
     request is issued using the synchronous mode, the FetchResult element is used
-    to receive individual pages of the result set (if paging is activated).\nThe OutputResult,
+    to receive individual pages of the result set (if paging is activated). The OutputResult,
     which is the output result format, provides users/systems with a set of output
     parameters to describe the aggregated return result sets for user presentation
-    or machine consumption. \nThe Management tool, which is the query management tool
+    or machine consumption. The Management tool, which is the query management tool
     set, provides a means for selecting services (e.g. MPEG-7 database or Core Metadata
     services) or aggregated services (e.g. service provider that administers a set
     of different services) based on service properties (e.g. supported query format,
-    supported metadata standard). \nThe goal is to define a query language that provides
+    supported metadata standard). The goal is to define a query language that provides
     the industry with a standardized format to accept and respond to user/system specification
     for image searches. In the framework of JPSearch, the JPSearch Query Format is
     designed to be used as an interface between querying client and answering servers,
-    as well as between aggregation service agent and individual service providers."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 24800-3:2010, also known as “JPSearch Query Format (JPQF)”, provides
-    a standardized interface for image search and retrieval systems in three aspects
-    - input query format, output result format and query management - as a specialization
-    of ISO/IEC 15938-12:2008 for images and accompanying metadata.\nThe top-level
-    tools defined in ISO/IEC 24800-3:2010 are InputQuery, FetchResult, OutputResult
-    and Management. Both InputQuery and FetchResult tools belong to input query format.
-    \nThe input query format provides users/systems with a set of precise input parameters
-    to describe their search criteria in addition to a set of preferred output parameters
-    to depict the return result sets through InputQuery. Through InputQuery, users
-    can use queries of various types, such as query by media, query by description,
-    query by free text, and combine them using algebraic or logical expressions. Through
-    FetchResult, users can retrieve search results of a query from the past. When
-    a query request is issued using the asynchronous mode, the FetchResult element
-    is used to indicate the preparedness of the user to receive results. When a query
-    request is issued using the synchronous mode, the FetchResult element is used
-    to receive individual pages of the result set (if paging is activated).\nThe OutputResult,
-    which is the output result format, provides users/systems with a set of output
-    parameters to describe the aggregated return result sets for user presentation
-    or machine consumption. \nThe Management tool, which is the query management tool
-    set, provides a means for selecting services (e.g. MPEG-7 database or Core Metadata
-    services) or aggregated services (e.g. service provider that administers a set
-    of different services) based on service properties (e.g. supported query format,
-    supported metadata standard). \nThe goal is to define a query language that provides
-    the industry with a standardized format to accept and respond to user/system specification
-    for image searches. In the framework of JPSearch, the JPSearch Query Format is
-    designed to be used as an interface between querying client and answering servers,
-    as well as between aggregation service agent and individual service providers."
+    as well as between aggregation service agent and individual service providers.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2010'
   owner:
   - organization:
       name:
       - content: ISO/IEC
-relation:
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24800-3:2010/Cor 1:2012
-    docidentifier:
-    - content: ISO/IEC 24800-3:2010/Cor 1:2012
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-06-22'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24800-3:2010/Amd 1:2015
-    docidentifier:
-    - content: ISO/IEC 24800-3:2010/Amd 1:2015
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2021-06-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

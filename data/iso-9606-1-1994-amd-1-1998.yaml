@@ -1,53 +1,47 @@
 ---
 id: ISO960611994Amd11998
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Approval testing of welders
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Fusion welding
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Steels -- Amendment 1'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Approval testing of welders - Fusion welding - Part 1: Steels -- Amendment
     1'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualification des soudeurs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Soudage par fusion
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Aciers -- Amendement 1'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Qualification des soudeurs - Soudage par fusion - Partie 1: Aciers --
     Amendement 1'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/28046.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:28046:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/80/28046.detail.rss
 docidentifier:
@@ -56,14 +50,10 @@ docidentifier:
   primary: true
 - content: ISO 9606-1:1994/Amd 1:1998(E)
   type: iso-reference
-- content: urn:iso:std:iso:9606:-1:ed-1:stage-95.99:amd:1998:v1
-  type: URN
 docnumber: '9606'
 date:
 - type: published
-  at: '1994'
-- type: updated
-  at: 1998-07
+  at: '1998-07-23'
 contributor:
 - role:
   - type: publisher
@@ -109,28 +99,40 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9606-1:2012
+    formattedref:
+      content: ISO/DIS 9606-1
+    docidentifier:
+    - content: ISO/DIS 9606-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9606-1:2012
     docidentifier:
     - content: ISO 9606-1:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2012-07-13'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 9606-1.3
+    docidentifier:
+    - content: ISO/DIS 9606-1.3
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: 25.160.01
     text: Welding, brazing and soldering in general
   structuredidentifier:
-    type: ISO
     project_number:
       content: '28046'

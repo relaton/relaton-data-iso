@@ -1,38 +1,32 @@
 ---
 id: ISO191482021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Linear referencing
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Linear referencing
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Référencement linéaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Référencement linéaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/75150.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 19148:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:19148:stage-60.60
+- content: urn:iso:std:iso:19148:stage-90.20
   type: URN
 docnumber: '19148'
 date:
 - type: published
-  at: 2021-04
+  at: '2021-04-06'
 contributor:
 - role:
   - type: publisher
@@ -88,19 +82,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a conceptual schema for locations relative to a one-dimensional object as measurement along (and optionally offset from) that object. It defines a description of the data and operations required to use and support linear referencing.
-    This document is applicable to transportation, utilities, environmental protection, location-based services and other applications which define locations relative to linear objects. For ease of reading, most examples discussed in this document come from the transportation domain.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie un schéma conceptuel pour les localisations par rapport à un objet à une seule dimension sous la forme d'une mesure le long de cet objet (et éventuellement décalées par rapport à celui-ci). Il définit une description des données et des opérations nécessaires pour utiliser et prendre en charge le référencement linéaire.
-    Le présent document est applicable aux transports, aux utilités, à la protection de l'environnement, aux services géolocalisés et aux autres applications qui définissent des localisations par rapport à des objets linéaires. Afin de faciliter la lecture, la plupart des exemples abordés dans le présent document proviennent du domaine des transports.
+  content: This document specifies a conceptual schema for locations relative to a
+    one-dimensional object as measurement along (and optionally offset from) that
+    object. It defines a description of the data and operations required to use and
+    support linear referencing. This document is applicable to transportation, utilities,
+    environmental protection, location-based services and other applications which
+    define locations relative to linear objects. For ease of reading, most examples
+    discussed in this document come from the transportation domain.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -108,18 +101,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 19148:2012
+    formattedref:
+      content: ISO 19148:2012
     docidentifier:
     - content: ISO 19148:2012
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

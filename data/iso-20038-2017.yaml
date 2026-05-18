@@ -1,38 +1,32 @@
 ---
 id: ISO200382017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Banking and related financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Key wrap using AES
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Banking and related financial services - Key wrap using AES
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque et autres services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Enveloppe de clé utilisant AES
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque et autres services financiers - Enveloppe de clé utilisant AES
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/64400.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '20038'
 date:
 - type: published
-  at: 2017-11
+  at: '2017-11-10'
 contributor:
 - role:
   - type: publisher
@@ -82,20 +76,16 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 20038:2017 defines a method for packaging cryptographic keys for transport. This method can also be used for the storage of keys under an AES key. The method uses the block cipher AES as the wrapping cipher algorithm.
-    Other methods for wrapping keys are outside the scope of this document but can use the authenticated encryption algorithms specified in ISO/IEC 19772.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 20038:2017 defines a method for packaging cryptographic keys for transport. This method can also be used for the storage of keys under an AES key. The method uses the block cipher AES as the wrapping cipher algorithm.
-    Other methods for wrapping keys are outside the scope of this document but can use the authenticated encryption algorithms specified in ISO/IEC 19772.
+  content: ISO 20038:2017 defines a method for packaging cryptographic keys for transport.
+    This method can also be used for the storage of keys under an AES key. The method
+    uses the block cipher AES as the wrapping cipher algorithm. Other methods for
+    wrapping keys are outside the scope of this document but can use the authenticated
+    encryption algorithms specified in ISO/IEC 19772.
 status:
   stage:
     content: '90'
@@ -110,16 +100,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 20038.2
+    formattedref:
+      content: ISO 20038
     docidentifier:
-    - content: ISO/DIS 20038.2
+    - content: ISO 20038
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 20038:2017/CD Amd 1
+    docidentifier:
+    - content: ISO 20038:2017/CD Amd 1
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

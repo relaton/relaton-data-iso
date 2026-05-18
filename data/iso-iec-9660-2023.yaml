@@ -1,41 +1,35 @@
 ---
 id: ISOIEC96602023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information processing
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Volume and file structure of CD-ROM for information interchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information processing - Volume and file structure of CD-ROM for information
     interchange
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Traitement de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Structure de volume et de fichier des disques optiques compacts à mémoire
     fixe (CD-ROM) destinés à l'échange d'information
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Traitement de l'information - Structure de volume et de fichier des disques
     optiques compacts à mémoire fixe (CD-ROM) destinés à l'échange d'information
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81979.html
@@ -54,7 +48,7 @@ docidentifier:
 docnumber: '9660'
 date:
 - type: published
-  at: 2023-01
+  at: '2023-01-31'
 contributor:
 - role:
   - type: publisher
@@ -94,36 +88,25 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the volume and file structure of compact disc read-only memory (CD-ROM) for the interchange of information between users of information processing systems.
-    This document specifies:
-    —    the attributes of the volume and the descriptors recorded on it;
-    —    the relationship among volumes of a volume set;
-    —    the placement of the files;
-    —    the attributes of the files;
-    —    record structures intended for use in the input or output data streams of an application program when such data streams are required to be organized as sets of records;
-    —    three nested levels of medium interchange;
-    —    two nested levels of implementation;
-    —    requirements for the processes which are provided within information processing systems, to enable information to be interchanged between different systems, utilizing recorded CD-ROM as the medium of interchange; for this purpose, this document specifies the functions to be provided within systems which are intended to originate or receive CD-ROM which conform to this document.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the volume and file structure of compact disc read-only memory (CD-ROM) for the interchange of information between users of information processing systems.
-    This document specifies:
-    —    the attributes of the volume and the descriptors recorded on it;
-    —    the relationship among volumes of a volume set;
-    —    the placement of the files;
-    —    the attributes of the files;
-    —    record structures intended for use in the input or output data streams of an application program when such data streams are required to be organized as sets of records;
-    —    three nested levels of medium interchange;
-    —    two nested levels of implementation;
-    —    requirements for the processes which are provided within information processing systems, to enable information to be interchanged between different systems, utilizing recorded CD-ROM as the medium of interchange; for this purpose, this document specifies the functions to be provided within systems which are intended to originate or receive CD-ROM which conform to this document.
+  content: 'This document specifies the volume and file structure of compact disc
+    read-only memory (CD-ROM) for the interchange of information between users of
+    information processing systems. This document specifies: —    the attributes of
+    the volume and the descriptors recorded on it; —    the relationship among volumes
+    of a volume set; —    the placement of the files; —    the attributes of the files;
+    —    record structures intended for use in the input or output data streams of
+    an application program when such data streams are required to be organized as
+    sets of records; —    three nested levels of medium interchange; —    two nested
+    levels of implementation; —    requirements for the processes which are provided
+    within information processing systems, to enable information to be interchanged
+    between different systems, utilizing recorded CD-ROM as the medium of interchange;
+    for this purpose, this document specifies the functions to be provided within
+    systems which are intended to originate or receive CD-ROM which conform to this
+    document.'
 status:
   stage:
     content: '60'
@@ -136,34 +119,34 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 9660:1988
-    docidentifier:
-    - content: ISO 9660:1988
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 9660:1988/Amd 1:2013
-    docidentifier:
-    - content: ISO 9660:1988/Amd 1:2013
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 9660:1988/Amd 2:2020
+    formattedref:
+      content: ISO 9660:1988/Amd 2:2020
     docidentifier:
     - content: ISO 9660:1988/Amd 2:2020
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 9660:1988/Amd 1:2013
+    docidentifier:
+    - content: ISO 9660:1988/Amd 1:2013
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 9660:1988
+    docidentifier:
+    - content: ISO 9660:1988
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

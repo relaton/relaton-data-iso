@@ -1,42 +1,36 @@
 ---
 id: ISO23022014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Test code for machine tools
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Determination of accuracy and repeatability of positioning of
     numerically controlled axes'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Test code for machine tools - Part 2: Determination of accuracy and repeatability
     of positioning of numerically controlled axes'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Code d'essai des machines-outils
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Détermination de l''exactitude et de la répétabilité de positionnement
     des axes à commande numérique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Code d''essai des machines-outils - Partie 2: Détermination de l''exactitude
     et de la répétabilité de positionnement des axes à commande numérique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/55295.html
@@ -55,7 +49,7 @@ docidentifier:
 docnumber: '230'
 date:
 - type: published
-  at: 2014-05
+  at: '2014-04-23'
 contributor:
 - role:
   - type: publisher
@@ -87,19 +81,21 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 230-2:2014 specifies methods for testing and evaluating the accuracy and repeatability of positioning of numerically controlled machine tool axes by direct measurement of individual axes on the machine. These methods apply equally to linear and rotary axes.
-    ISO 230-2:2014 can be used for type testing, acceptance tests, comparison testing, periodic verification, machine compensation, etc. The methods involve repeated measurements at each position. The related parameters of the test are defined and calculated. Their uncertainties are estimated as described in ISO/TR 230-9:2005, Annex C.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 230-2:2014 spécifie les méthodes de contrôle et d'évaluation de l'exactitude et de la répétabilité de positionnement des axes des machines-outils à commande numérique par mesurage direct d'axes individuels sur la machine. Les méthodes décrites s'appliquent aussi bien aux axes linéaires que rotatifs.
-    L'ISO 230-2:2014 peut être utilisée pour les essais de type, les essais de réception, les essais de comparaison, la vérification périodique, la compensation machine, etc. Les méthodes utilisées comportent des mesurages successifs en chaque position. Les paramètres concernés de l'essai sont définis et calculés. Leurs incertitudes sont évaluées conformément à l'ISO/TR 230-9, Annexe C.
+  content: ISO 230-2:2014 specifies methods for testing and evaluating the accuracy
+    and repeatability of positioning of numerically controlled machine tool axes by
+    direct measurement of individual axes on the machine. These methods apply equally
+    to linear and rotary axes. ISO 230-2:2014 can be used for type testing, acceptance
+    tests, comparison testing, periodic verification, machine compensation, etc. The
+    methods involve repeated measurements at each position. The related parameters
+    of the test are defined and calculated. Their uncertainties are estimated as described
+    in ISO/TR 230-9:2005, Annex C.
 status:
   stage:
     content: '90'
@@ -112,29 +108,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 230-2:2006
+    formattedref:
+      content: ISO 230-2:2006
     docidentifier:
     - content: ISO 230-2:2006
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 230-2:2014/Amd 1:2016
-    docidentifier:
-    - content: ISO 230-2:2014/Amd 1:2016
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2025-02-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

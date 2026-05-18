@@ -1,48 +1,41 @@
 ---
 id: ISO2800442014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Security management systems for the supply chain
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Guidelines for the implementation of ISO 28000
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Additional specific guidance on implementing ISO 28000 if compliance
     with ISO 28001 is a management objective'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Security management systems for the supply chain - Guidelines for the
     implementation of ISO 28000 - Part 4: Additional specific guidance on implementing
     ISO 28000 if compliance with ISO 28001 is a management objective'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de management de la sûreté pour la chaîne d'approvisionnement
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes directrices pour la mise en application de l'ISO 28000
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Lignes directrices spécifiques supplémentaires concernant la
     mise en oeuvre de l''ISO 28000 si la conformité à l''ISO 28001 est un objectif
     de management'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de management de la sûreté pour la chaîne d''approvisionnement
@@ -50,7 +43,6 @@ title:
     directrices spécifiques supplémentaires concernant la mise en oeuvre de l''ISO
     28000 si la conformité à l''ISO 28001 est un objectif de management'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/60914.html
@@ -69,7 +61,7 @@ docidentifier:
 docnumber: '28004'
 date:
 - type: published
-  at: 2014-02
+  at: '2014-02-03'
 contributor:
 - role:
   - type: publisher
@@ -100,20 +92,24 @@ edition:
   content: '1'
 language:
 - en
-- fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 28004-4:2014 provides additional guidance for organizations adopting ISO 28000 that also wish to incorporate the Best Practices identified in ISO 28001 as a management objective on their international supply chains. The Best Practices in ISO 28001 both help organizations establish and document levels of security within an international supply chain and facilitate validation in national Authorized Economic Operator (AEO) programmes that are designed in accordance with the World Customs Organization (WCO) Framework of Standards.
-    ISO 28004-4:2014 is not designed as a standalone document. The main body of ISO 28004-1 provides significant guidance pertaining to required inputs, processes, outputs and other elements required by ISO 28000. ISO 28004-4:2014 provides additional specific guidance on implementing ISO 28000 if compliance with ISO 28001 is a management objective.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 28004-4:2014 provides additional guidance for organizations adopting ISO 28000 that also wish to incorporate the Best Practices identified in ISO 28001 as a management objective on their international supply chains. The Best Practices in ISO 28001 both help organizations establish and document levels of security within an international supply chain and facilitate validation in national Authorized Economic Operator (AEO) programmes that are designed in accordance with the World Customs Organization (WCO) Framework of Standards.
-    ISO 28004-4:2014 is not designed as a standalone document. The main body of ISO 28004-1 provides significant guidance pertaining to required inputs, processes, outputs and other elements required by ISO 28000. ISO 28004-4:2014 provides additional specific guidance on implementing ISO 28000 if compliance with ISO 28001 is a management objective.
+  content: ISO 28004-4:2014 provides additional guidance for organizations adopting
+    ISO 28000 that also wish to incorporate the Best Practices identified in ISO 28001
+    as a management objective on their international supply chains. The Best Practices
+    in ISO 28001 both help organizations establish and document levels of security
+    within an international supply chain and facilitate validation in national Authorized
+    Economic Operator (AEO) programmes that are designed in accordance with the World
+    Customs Organization (WCO) Framework of Standards. ISO 28004-4:2014 is not designed
+    as a standalone document. The main body of ISO 28004-1 provides significant guidance
+    pertaining to required inputs, processes, outputs and other elements required
+    by ISO 28000. ISO 28004-4:2014 provides additional specific guidance on implementing
+    ISO 28000 if compliance with ISO 28001 is a management objective.
 status:
   stage:
     content: '90'
@@ -126,26 +122,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/PAS 28004-4:2012
+    formattedref:
+      content: ISO 28004-1:2007/DAmd 3
+    docidentifier:
+    - content: ISO 28004-1:2007/DAM 3
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/PAS 28004-4:2012
     docidentifier:
     - content: ISO/PAS 28004-4:2012
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.100.01
-    text: Company organization and management in general
   - code: 03.100.70
     text: Management systems
+  - code: 03.100.01
+    text: Company organization and management in general
   structuredidentifier:
     type: ISO
     project_number:

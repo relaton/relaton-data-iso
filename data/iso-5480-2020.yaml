@@ -1,38 +1,32 @@
 ---
 id: ISO54802020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Ships and marine technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Guardrails for cargo ships
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Ships and marine technology - Guardrails for cargo ships
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Navires et technologie maritime
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Garde-corps pour navire de charge
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Navires et technologie maritime - Garde-corps pour navire de charge
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74627.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 5480:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:5480:stage-90.20
+- content: urn:iso:std:iso:5480:stage-90.92
   type: URN
 docnumber: '5480'
 date:
 - type: published
-  at: 2020-02
+  at: '2020-02-24'
 contributor:
 - role:
   - type: publisher
@@ -82,7 +76,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -92,17 +85,11 @@ abstract:
     finish for guardrails and stanchions fitted on exposed freeboard and superstructure
     decks of cargo ships to prevent personnel falling overboard or to lower decks.
     It is not applicable to guardrails fitted near compasses.
-- language: fr
-  script: Latn
-  content: This document specifies dimensions, materials, quality of manufacture and
-    finish for guardrails and stanchions fitted on exposed freeboard and superstructure
-    decks of cargo ships to prevent personnel falling overboard or to lower decks.
-    It is not applicable to guardrails fitted near compasses.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '92'
 copyright:
 - from: '2020'
   owner:
@@ -112,16 +99,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5480:1979
+    formattedref:
+      content: ISO/AWI 5480
+    docidentifier:
+    - content: ISO/AWI 5480
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 5480:1979
     docidentifier:
     - content: ISO 5480:1979
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

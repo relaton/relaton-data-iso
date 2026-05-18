@@ -1,50 +1,42 @@
 ---
 id: ISOIEC202482022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic identification and data capture techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Digital signature data structure schema
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Automatic identification and data capture techniques
     - Digital signature data structure schema
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques d'identification automatique et de capture de données
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Schéma de structure de données de signature numérique
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques d'identification automatique
     et de capture de données - Schéma de structure de données de signature numérique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81314.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '20248'
 date:
 - type: published
-  at: 2022-06
+  at: '2022-06-10'
 contributor:
 - role:
   - type: publisher
@@ -103,38 +95,33 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document is an ISO/IEC 9594‑8 [public key infrastructure (PKI) digital signatures and certificates] application specification for automated identification services. It specifies a method whereby data stored within a barcode and/or RFID tag are structured, encoded and digitally signed. ISO/IEC 9594‑8 is used to provide a standard method for key and data description management and distribution. The data capacity and/or data transfer capacity of automated identification data carriers are restricted. This restricts the normal use of a digital signature as specified in ISO/IEC 9594‑8 within automated identification services.
-    The purpose of this document is to provide an open and interoperable method, between automated identification services and data carriers, to read data, verify data originality and data integrity in an offline use case.
-    This document specifies
-    —    the meta data structure, the DigSig, which contains the digital signature and encoded structured data,
-    —    the public key certificate parameter and extension use, the DigSig certificate, which contains the certified associated public key, the structured data description, the read methods, and private containers,
-    —    the method to specify, read, describe, sign, verify, encode, and decode the structured data, the DigSig Data Description,
-    —    the DigSig EncoderGenerator which generates the relevant asymmetric key pairs, keeps the private key secret, and generates the DigSigs, and
-    —    the DigSig DecoderVerifier which, by using to the DigSig certificate, reads the DigSig from the set of data carriers, verifies the DigSig and extracts the structured data from the DigSig.
-    This document does not specify
-    —    cryptographic methods, or
-    —    key management methods.
-- language: fr
-  script: Latn
-  content: |-
-    This document is an ISO/IEC 9594‑8 [public key infrastructure (PKI) digital signatures and certificates] application specification for automated identification services. It specifies a method whereby data stored within a barcode and/or RFID tag are structured, encoded and digitally signed. ISO/IEC 9594‑8 is used to provide a standard method for key and data description management and distribution. The data capacity and/or data transfer capacity of automated identification data carriers are restricted. This restricts the normal use of a digital signature as specified in ISO/IEC 9594‑8 within automated identification services.
-    The purpose of this document is to provide an open and interoperable method, between automated identification services and data carriers, to read data, verify data originality and data integrity in an offline use case.
-    This document specifies
-    —    the meta data structure, the DigSig, which contains the digital signature and encoded structured data,
-    —    the public key certificate parameter and extension use, the DigSig certificate, which contains the certified associated public key, the structured data description, the read methods, and private containers,
-    —    the method to specify, read, describe, sign, verify, encode, and decode the structured data, the DigSig Data Description,
-    —    the DigSig EncoderGenerator which generates the relevant asymmetric key pairs, keeps the private key secret, and generates the DigSigs, and
-    —    the DigSig DecoderVerifier which, by using to the DigSig certificate, reads the DigSig from the set of data carriers, verifies the DigSig and extracts the structured data from the DigSig.
-    This document does not specify
-    —    cryptographic methods, or
-    —    key management methods.
+  content: This document is an ISO/IEC 9594‑8 [public key infrastructure (PKI) digital
+    signatures and certificates] application specification for automated identification
+    services. It specifies a method whereby data stored within a barcode and/or RFID
+    tag are structured, encoded and digitally signed. ISO/IEC 9594‑8 is used to provide
+    a standard method for key and data description management and distribution. The
+    data capacity and/or data transfer capacity of automated identification data carriers
+    are restricted. This restricts the normal use of a digital signature as specified
+    in ISO/IEC 9594‑8 within automated identification services. The purpose of this
+    document is to provide an open and interoperable method, between automated identification
+    services and data carriers, to read data, verify data originality and data integrity
+    in an offline use case. This document specifies —    the meta data structure,
+    the DigSig, which contains the digital signature and encoded structured data,
+    —    the public key certificate parameter and extension use, the DigSig certificate,
+    which contains the certified associated public key, the structured data description,
+    the read methods, and private containers, —    the method to specify, read, describe,
+    sign, verify, encode, and decode the structured data, the DigSig Data Description,
+    —    the DigSig EncoderGenerator which generates the relevant asymmetric key pairs,
+    keeps the private key secret, and generates the DigSigs, and —    the DigSig DecoderVerifier
+    which, by using to the DigSig certificate, reads the DigSig from the set of data
+    carriers, verifies the DigSig and extracts the structured data from the DigSig.
+    This document does not specify —    cryptographic methods, or —    key management
+    methods.
 status:
   stage:
     content: '60'
@@ -147,29 +134,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 20248:2018
+    formattedref:
+      content: ISO/IEC 20248:2018
     docidentifier:
     - content: ISO/IEC 20248:2018
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 20248:2022/Amd 1:2024
-    docidentifier:
-    - content: ISO/IEC 20248:2022/Amd 1:2024
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-06-10'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

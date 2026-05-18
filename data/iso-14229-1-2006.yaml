@@ -1,53 +1,47 @@
 ---
 id: ISO1422912006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Unified diagnostic services (UDS)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Specification and requirements'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Unified diagnostic services (UDS) - Part 1: Specification
     and requirements'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Services de diagnostic unifiés (SDU)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Spécification et exigences'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Services de diagnostic unifiés (SDU) - Partie 1:
     Spécification et exigences'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45293.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45293:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/52/45293.detail.rss
 docidentifier:
@@ -61,9 +55,7 @@ docidentifier:
 docnumber: '14229'
 date:
 - type: published
-  at: 2006-12
-- type: corrected
-  at: 2007-04
+  at: '2006-11-28'
 contributor:
 - role:
   - type: publisher
@@ -94,20 +86,23 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 14229:2006 specifies data link independent requirements of diagnostic services, which allow a diagnostic tester (client) to control diagnostic functions in an on-vehicle Electronic Control Unit (server) such as an electronic fuel injection, automatic gear box, anti-lock braking system, etc. connected on a serial data link embedded in a road vehicle. It specifies generic services, which allow the diagnostic tester (client) to stop or to resume non-diagnostic message transmission on the data link. ISO 14229:2006 does not apply to non-diagnostic message transmission, or to use of the communication data link between two Electronic Control Units. It does not specify any implementation requirements.
-    The vehicle diagnostic architecture of ISO 14229:2006 applies to a single tester (client) that may be temporarily or permanently connected to the on-vehicle diagnostic data link and several on-vehicle Electronic Control Units (servers) connected directly or indirectly.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 14229:2006 specifies data link independent requirements of diagnostic services, which allow a diagnostic tester (client) to control diagnostic functions in an on-vehicle Electronic Control Unit (server) such as an electronic fuel injection, automatic gear box, anti-lock braking system, etc. connected on a serial data link embedded in a road vehicle. It specifies generic services, which allow the diagnostic tester (client) to stop or to resume non-diagnostic message transmission on the data link. ISO 14229:2006 does not apply to non-diagnostic message transmission, or to use of the communication data link between two Electronic Control Units. It does not specify any implementation requirements.
-    The vehicle diagnostic architecture of ISO 14229:2006 applies to a single tester (client) that may be temporarily or permanently connected to the on-vehicle diagnostic data link and several on-vehicle Electronic Control Units (servers) connected directly or indirectly.
+  content: ISO 14229:2006 specifies data link independent requirements of diagnostic
+    services, which allow a diagnostic tester (client) to control diagnostic functions
+    in an on-vehicle Electronic Control Unit (server) such as an electronic fuel injection,
+    automatic gear box, anti-lock braking system, etc. connected on a serial data
+    link embedded in a road vehicle. It specifies generic services, which allow the
+    diagnostic tester (client) to stop or to resume non-diagnostic message transmission
+    on the data link. ISO 14229:2006 does not apply to non-diagnostic message transmission,
+    or to use of the communication data link between two Electronic Control Units.
+    It does not specify any implementation requirements. The vehicle diagnostic architecture
+    of ISO 14229:2006 applies to a single tester (client) that may be temporarily
+    or permanently connected to the on-vehicle diagnostic data link and several on-vehicle
+    Electronic Control Units (servers) connected directly or indirectly.
 status:
   stage:
     content: '95'
@@ -122,27 +117,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 14229:1998
-    docidentifier:
-    - content: ISO 14229:1998
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 14229-1:2013
+    formattedref:
+      content: ISO 14229-1:2013
     docidentifier:
     - content: ISO 14229-1:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-03-15'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 14229:1998
+    docidentifier:
+    - content: ISO 14229:1998
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

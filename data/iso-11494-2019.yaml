@@ -1,50 +1,42 @@
 ---
 id: ISO114942019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Jewellery and precious metals
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of platinum in platinum alloys
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: ICP-OES method using an internal standard element
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Jewellery and precious metals - Determination of platinum in platinum alloys
     - ICP-OES method using an internal standard element
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Joaillerie, bijouterie et métaux précieux
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dosage du platine dans les alliages de platine
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode par ICP-OES utilisant un étalon interne
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Joaillerie, bijouterie et métaux précieux - Dosage du platine dans les
     alliages de platine - Méthode par ICP-OES utilisant un étalon interne
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/75285.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 11494:2019(E)
   type: iso-reference
-- content: urn:iso:std:iso:11494:stage-90.60
+- content: urn:iso:std:iso:11494:stage-90.92
   type: URN
 docnumber: '11494'
 date:
 - type: published
-  at: 2019-07
+  at: '2019-07-10'
 contributor:
 - role:
   - type: publisher
@@ -100,19 +92,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "\uFEFF\nThis document describes an analytical procedure for the determination
+  content: "\uFEFFThis document describes an analytical procedure for the determination
     of platinum in platinum alloys with a nominal content up to 990 ‰ (parts per thousand),
     including alloys according to ISO 9202."
-- language: fr
-  script: Latn
-  content: Le présent document décrit un mode opératoire analytique pour le dosage
-    du platine dans les alliages de platine, d'une teneur nominale allant jusqu'à
-    990 ? (millièmes), notamment pour les alliages conformes à l'ISO 9202.
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2019'
   owner:
@@ -122,16 +109,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11494:2014
+    formattedref:
+      content: ISO/CD 11494
+    docidentifier:
+    - content: ISO/CD 11494
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11494:2014
     docidentifier:
     - content: ISO 11494:2014
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

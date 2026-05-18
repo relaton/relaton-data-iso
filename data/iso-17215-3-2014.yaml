@@ -1,53 +1,47 @@
 ---
 id: ISO1721532014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Video communication interface for cameras (VCIC)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Camera message dictionary'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Video communication interface for cameras (VCIC) - Part
     3: Camera message dictionary'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de communication vidéo pour caméras (ICVC)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Dictionnaire de message de caméra'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Interface de communication vidéo pour caméras (ICVC)
     - Partie 3: Dictionnaire de message de caméra'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/59547.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:59547:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/95/59547.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '17215'
 date:
 - type: published
-  at: 2014-04
+  at: '2014-04-30'
 contributor:
 - role:
   - type: publisher
@@ -92,24 +86,19 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 17215-3:2014 specifies the standardized camera messages and data types used by a VCIC camera (OSI Layer 7).
-    Applications hosted on ECUs want to communicate with one or more cameras (e.g. "Ask camera for parameters."). If the applications can use standardized services supported by the cameras (API layer 7), the development of a vision application should be independent of the camera used. The services can be implemented by general libraries.
-    The definition of streaming data are not an issue of this API.
-    The general terminology defined in ISO 17215-1 is also used in ISO 17215-3:2014.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 17215-3:2014 specifies the standardized camera messages and data types used by a VCIC camera (OSI Layer 7).
-    Applications hosted on ECUs want to communicate with one or more cameras (e.g. "Ask camera for parameters."). If the applications can use standardized services supported by the cameras (API layer 7), the development of a vision application should be independent of the camera used. The services can be implemented by general libraries.
-    The definition of streaming data are not an issue of this API.
-    The general terminology defined in ISO 17215-1 is also used in ISO 17215-3:2014.
+  content: ISO 17215-3:2014 specifies the standardized camera messages and data types
+    used by a VCIC camera (OSI Layer 7). Applications hosted on ECUs want to communicate
+    with one or more cameras (e.g. "Ask camera for parameters."). If the applications
+    can use standardized services supported by the cameras (API layer 7), the development
+    of a vision application should be independent of the camera used. The services
+    can be implemented by general libraries. The definition of streaming data are
+    not an issue of this API. The general terminology defined in ISO 17215-1 is also
+    used in ISO 17215-3:2014.
 status:
   stage:
     content: '95'
@@ -122,21 +111,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 17215-3:2021
+    formattedref:
+      content: ISO 17215-3:2021
     docidentifier:
     - content: ISO 17215-3:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-05-25'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

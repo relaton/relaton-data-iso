@@ -1,40 +1,29 @@
 ---
 id: ISOTS43982022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Guided transportation service planning data exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Guided transportation service planning
     data exchange
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Intelligent transport systems
-  type: title-intro
-  format: text/plain
-- language: fr
-  script: Latn
-  content: Guided transportation service planning data exchange
+  content: Titre manque
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Intelligent transport systems - Guided transportation service planning
-    data exchange
+  content: Titre manque
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/79916.html
@@ -48,12 +37,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 4398:2022(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:4398:stage-60.60
+- content: urn:iso:std:iso:ts:4398:stage-90.92
   type: URN
 docnumber: '4398'
 date:
 - type: published
-  at: 2022-09
+  at: '2022-09-13'
 contributor:
 - role:
   - type: publisher
@@ -84,41 +73,58 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies an open, XML-based data format which enables an efficient and unambiguous exchange of static information concerning the operational functionality of the infrastructure, rolling stock and timetable of a track-bound transportation system. The main objective is to enable heterogeneous railway applications to communicate with each other.
-    The purpose of the data format is to facilitate common (integrated) planning of track-bound operations between organizations in the transportation sector.
-    Railway Data Exchange (RailDax) serves as a data exchange format between applications used for railway service planning: connecting information about infrastructure, rolling stock and timetable basics which are necessary for capacity management and timetable planning.
-    This document describes infrastructure and rolling stock from an operational perspective. To achieve this, the infrastructure and rolling stock is described with a clearly defined meaning from an operational perspective.
-    RailDax will typically be used by railway authorities, train operators, infrastructure managers and suppliers to the railway industry for communication between applications serving the use cases listed in Clause 7 in this document.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies an open, XML-based data format which enables an efficient and unambiguous exchange of static information concerning the operational functionality of the infrastructure, rolling stock and timetable of a track-bound transportation system. The main objective is to enable heterogeneous railway applications to communicate with each other.
-    The purpose of the data format is to facilitate common (integrated) planning of track-bound operations between organizations in the transportation sector.
-    Railway Data Exchange (RailDax) serves as a data exchange format between applications used for railway service planning: connecting information about infrastructure, rolling stock and timetable basics which are necessary for capacity management and timetable planning.
-    This document describes infrastructure and rolling stock from an operational perspective. To achieve this, the infrastructure and rolling stock is described with a clearly defined meaning from an operational perspective.
-    RailDax will typically be used by railway authorities, train operators, infrastructure managers and suppliers to the railway industry for communication between applications serving the use cases listed in Clause 7 in this document.
+  content: 'This document specifies an open, XML-based data format which enables an
+    efficient and unambiguous exchange of static information concerning the operational
+    functionality of the infrastructure, rolling stock and timetable of a track-bound
+    transportation system. The main objective is to enable heterogeneous railway applications
+    to communicate with each other. The purpose of the data format is to facilitate
+    common (integrated) planning of track-bound operations between organizations in
+    the transportation sector. Railway Data Exchange (RailDax) serves as a data exchange
+    format between applications used for railway service planning: connecting information
+    about infrastructure, rolling stock and timetable basics which are necessary for
+    capacity management and timetable planning. This document describes infrastructure
+    and rolling stock from an operational perspective. To achieve this, the infrastructure
+    and rolling stock is described with a clearly defined meaning from an operational
+    perspective. RailDax will typically be used by railway authorities, train operators,
+    infrastructure managers and suppliers to the railway industry for communication
+    between applications serving the use cases listed in Clause 7 in this document.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2022'
   owner:
   - organization:
       name:
       - content: ISO/TS
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/AWI 4398
+    docidentifier:
+    - content: ISO/AWI 4398
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 4398
+    docidentifier:
+    - content: ISO/WD 4398
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

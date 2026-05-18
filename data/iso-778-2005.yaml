@@ -1,42 +1,38 @@
 ---
 id: ISO7782005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paper, board and pulp
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of acid-soluble copper
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paper, board and pulp - Determination of acid-soluble copper
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Papier, carton et pâte
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la teneur en cuivre soluble dans l'acide
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Papier, carton et pâte - Détermination de la teneur en cuivre soluble dans
     l'acide
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41588.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41588:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/15/41588.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '778'
 date:
 - type: published
-  at: 2005-05
+  at: '2005-04-27'
 contributor:
 - role:
   - type: publisher
@@ -82,21 +78,22 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 778:2005 specifies the procedure for the determination of acid-soluble copper by atomic absorption spectrometry or by plasma emission spectrometry.
-    It is applicable to all types of paper, board and pulp.
-    It specifies a method to determine the acid-soluble part of the incineration residue, i.e. that part of the ignition residue obtained after incineration which is soluble in hydrochloric acid. If the residue is completely soluble, the result obtained by the procedure specified in ISO 778:2005 is taken as the total amount of copper in the sample. The limit of determination is normally 0,1 mg/kg of paper, board or pulp, but it depends on the spectrometer used.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 778:2005 spécifie une méthode de détermination de la teneur en cuivre soluble dans l'acide par spectrométrie d'absorption atomique ou par spectrométrie d'émission de plasma.
-    Elle est applicable à tous les types de papier, de carton et de pâte.
-    Elle spécifie une méthode de détermination de la partie soluble dans l'acide des résidus d'incinération, à savoir la partie des cendres qui est soluble dans l'acide chlorhydrique. Si le résidu est complètement soluble, le résultat obtenu, en utilisant la procédure spécifiée dans l'ISO 778:2005, correspond à la quantité totale de cuivre dans l'échantillon. La limite de détermination est normalement 0,1 mg/kg de papier, carton ou pâte, mais elle dépend du spectromètre utilisé.
+  content: ISO 778:2005 specifies the procedure for the determination of acid-soluble
+    copper by atomic absorption spectrometry or by plasma emission spectrometry. It
+    is applicable to all types of paper, board and pulp. It specifies a method to
+    determine the acid-soluble part of the incineration residue, i.e. that part of
+    the ignition residue obtained after incineration which is soluble in hydrochloric
+    acid. If the residue is completely soluble, the result obtained by the procedure
+    specified in ISO 778:2005 is taken as the total amount of copper in the sample.
+    The limit of determination is normally 0,1 mg/kg of paper, board or pulp, but
+    it depends on the spectrometer used.
 status:
   stage:
     content: '95'
@@ -111,35 +108,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 778:2001
-    docidentifier:
-    - content: ISO 778:2001
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 12830:2011
+    formattedref:
+      content: ISO 12830:2011
     docidentifier:
     - content: ISO 12830:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-11-15'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 778:2001
+    docidentifier:
+    - content: ISO 778:2001
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '85.040'
-    text: Pulps
   - code: '85.060'
     text: Paper and board
+  - code: '85.040'
+    text: Pulps
   structuredidentifier:
     type: ISO
     project_number:

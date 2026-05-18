@@ -1,35 +1,33 @@
 ---
 id: ISO92771995
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Determination of the specific surface area of solids by gas adsorption
     using the BET method
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of the specific surface area of solids by gas adsorption
     using the BET method
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de l'aire massique (surface spécifique) des solides par adsorption
     de gaz à l'aide de la méthode BET
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de l'aire massique (surface spécifique) des solides par adsorption
     de gaz à l'aide de la méthode BET
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16928.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16928:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/69/16928.detail.rss
 docidentifier:
@@ -43,7 +41,7 @@ docidentifier:
 docnumber: '9277'
 date:
 - type: published
-  at: 1995-05
+  at: '1995-05-18'
 contributor:
 - role:
   - type: publisher
@@ -86,11 +84,6 @@ abstract:
     The BET method is applicable only to adsorption isotherms of type II and type
     IV. The BET method cannot reliably be applied to type I isotherms or to solids
     which adsorb the measuring gas.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit la détermination de l'aire massique totale1) externe et interne des solides poreux ou dispersés en mesurant selon la méthode de Brunauer, Emmett et Teller[1] la quantité d'un gaz physiquement adsorbé. Elle tient compte des recommandations de l'IUPAC de 1984[2]. La méthode BET n'est applicable qu'aux isothermes de type II (solides dispersés et non poreux ou macroporeux) et de type IV (solides mésoporeux dont les pores ont un diamètre de 2 nm à 50 nm) (voir figure 1). Les pores fermés (inaccessibles) ne sont pas détectés. La méthode BET ne peut pas s'appliquer avec fiabilité aux isothermes de type I ni aux solides qui absorbent le gaz de mesure.
 status:
   stage:
     content: '95'
@@ -103,21 +96,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9277:2010
+    formattedref:
+      content: ISO/PWI 9277-1
+    docidentifier:
+    - content: ISO/PWI 9277-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9277:2010
     docidentifier:
     - content: ISO 9277:2010
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2010-08-20'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 9277-2
+    docidentifier:
+    - content: ISO/PWI 9277-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,41 +1,37 @@
 ---
 id: ISO7991980
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Shipbuilding
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Pilot ladders
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Shipbuilding - Pilot ladders
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Construction navale
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échelles de pilote
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Construction navale - Échelles de pilote
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5137.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5137:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/51/5137.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '799'
 date:
 - type: published
-  at: 1980-07
+  at: '1980-07-01'
 contributor:
 - role:
   - type: publisher
@@ -80,7 +76,6 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -97,27 +92,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/R 799:1968
-    docidentifier:
-    - content: ISO/R 799:1968
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 799:1986
+    formattedref:
+      content: ISO 799:1986
     docidentifier:
     - content: ISO 799:1986
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1986-09-01'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/R 799:1968
+    docidentifier:
+    - content: ISO/R 799:1968
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

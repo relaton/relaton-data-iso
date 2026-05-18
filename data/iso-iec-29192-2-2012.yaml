@@ -1,54 +1,48 @@
 ---
 id: ISOIEC2919222012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Lightweight cryptography -- Part 2: Block ciphers'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Lightweight cryptography
     -- Part 2: Block ciphers'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cryptographie pour environnements contraints -- Partie 2: Chiffrements
     par blocs'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Cryptographie
     pour environnements contraints -- Partie 2: Chiffrements par blocs'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/56552.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:56552:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/65/56552.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '29192'
 date:
 - type: published
-  at: 2012-01
+  at: '2012-01-10'
 contributor:
 - role:
   - type: publisher
@@ -102,22 +96,15 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 29192-2:2012 specifies two block ciphers suitable for lightweight cryptography:
-    a)     PRESENT: a lightweight block cipher with a block size of 64 bits and a key size of 80 or 128 bits;
-    b)     CLEFIA: a lightweight block cipher with a block size of 128 bits and a key size of 128, 192 or 256 bits.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 29192-2:2012 specifies two block ciphers suitable for lightweight cryptography:
-    a)     PRESENT: a lightweight block cipher with a block size of 64 bits and a key size of 80 or 128 bits;
-    b)     CLEFIA: a lightweight block cipher with a block size of 128 bits and a key size of 128, 192 or 256 bits.
+  content: 'ISO/IEC 29192-2:2012 specifies two block ciphers suitable for lightweight
+    cryptography: a) PRESENT: a lightweight block cipher with a block size of 64 bits
+    and a key size of 80 or 128 bits; b) CLEFIA: a lightweight block cipher with a
+    block size of 128 bits and a key size of 128, 192 or 256 bits.'
 status:
   stage:
     content: '95'
@@ -130,21 +117,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 29192-2:2019
+    formattedref:
+      content: ISO/IEC 29192-2:2019
     docidentifier:
     - content: ISO/IEC 29192-2:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-11-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

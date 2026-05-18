@@ -1,49 +1,41 @@
 ---
 id: ISOTR1482322019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Graphic data dictionary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Examples'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Graphic data dictionary - Part 2: Examples'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dictionnaire de données graphiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Exemples'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de transport intelligents - Dictionnaire de données graphiques
     - Partie 2: Exemples'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73764.html
@@ -57,12 +49,12 @@ docidentifier:
   primary: true
 - content: ISO/TR 14823-2:2019(E)
   type: iso-reference
-- content: urn:iso:std:iso:tr:14823:-2:stage-60.60
+- content: urn:iso:std:iso:tr:14823:-2:stage-90.92
   type: URN
 docnumber: '14823'
 date:
 - type: published
-  at: 2019-09
+  at: '2019-09-03'
 contributor:
 - role:
   - type: publisher
@@ -93,37 +85,39 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document reports examples of ASN.1 codes based on ISO 14823-1[1], which specifies a graphic data dictionary (GDD) including the ASN.1 coding rule for GDD.
-    NOTE       Some of the ASN.1 codes described in this document are re-formatted based on ISO 14813-6.
-    [1] To be published.
-- language: fr
-  script: Latn
-  content: |-
-    This document reports examples of ASN.1 codes based on ISO 14823-1[1], which specifies a graphic data dictionary (GDD) including the ASN.1 coding rule for GDD.
-    NOTE       Some of the ASN.1 codes described in this document are re-formatted based on ISO 14813-6.
-    [1] To be published.
+  content: This document reports examples of ASN.1 codes based on ISO 14823-1[1],
+    which specifies a graphic data dictionary (GDD) including the ASN.1 coding rule
+    for GDD. NOTE Some of the ASN.1 codes described in this document are re-formatted
+    based on ISO 14813-6. [1] To be published.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2019'
   owner:
   - organization:
       name:
       - content: ISO/TR
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/AWI TR 14823-2
+    docidentifier:
+    - content: ISO/AWI TR 14823-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

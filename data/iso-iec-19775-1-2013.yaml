@@ -1,54 +1,48 @@
 ---
 id: ISOIEC1977512013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Computer graphics, image processing and environmental data representation
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Extensible 3D (X3D) -- Part 1: Architecture and base components'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Computer graphics, image processing and environmental
     data representation - Extensible 3D (X3D) -- Part 1: Architecture and base components'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Infographie, traitement de l'image et représentation des données environnementales
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: '3D extensible (X3D) -- Partie 1: Architecture et composants de base'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Infographie, traitement de l''image et
     représentation des données environnementales - 3D extensible (X3D) -- Partie 1:
     Architecture et composants de base'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/60760.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:60760:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/07/60760.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '19775'
 date:
 - type: published
-  at: 2013-11
+  at: '2013-11-19'
 contributor:
 - role:
   - type: publisher
@@ -102,22 +96,29 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 19775, X3D, defines a software system that integrates network-enabled 3D graphics and multimedia. Conceptually, each X3D application is a 3D time-based space that contains graphic and aural objects that can be dynamically modified through a variety of mechanisms. ISO/IEC 19775-1:2013 defines the architecture and base components of X3D.
-    The semantics of X3D describe an abstract functional behaviour of time-based, interactive 3D, multimedia information. ISO/IEC 19775-1:2013 does not define physical devices or any other implementation-dependent concepts (e.g. screen resolution and input devices). It is intended for a wide variety of devices and applications, and provides wide latitude in interpretation and implementation of the functionality. For example, it does not assume the existence of a mouse or 2D display device.
-    Each X3D application:
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 19775, X3D, defines a software system that integrates network-enabled 3D graphics and multimedia. Conceptually, each X3D application is a 3D time-based space that contains graphic and aural objects that can be dynamically modified through a variety of mechanisms. ISO/IEC 19775-1:2013 defines the architecture and base components of X3D.
-    The semantics of X3D describe an abstract functional behaviour of time-based, interactive 3D, multimedia information. ISO/IEC 19775-1:2013 does not define physical devices or any other implementation-dependent concepts (e.g. screen resolution and input devices). It is intended for a wide variety of devices and applications, and provides wide latitude in interpretation and implementation of the functionality. For example, it does not assume the existence of a mouse or 2D display device.
-    Each X3D application:
+  content: 'ISO/IEC 19775, X3D, defines a software system that integrates network-enabled
+    3D graphics and multimedia. Conceptually, each X3D application is a 3D time-based
+    space that contains graphic and aural objects that can be dynamically modified
+    through a variety of mechanisms. ISO/IEC 19775-1:2013 defines the architecture
+    and base components of X3D. The semantics of X3D describe an abstract functional
+    behaviour of time-based, interactive 3D, multimedia information. ISO/IEC 19775-1:2013
+    does not define physical devices or any other implementation-dependent concepts
+    (e.g. screen resolution and input devices). It is intended for a wide variety
+    of devices and applications, and provides wide latitude in interpretation and
+    implementation of the functionality. For example, it does not assume the existence
+    of a mouse or 2D display device. Each X3D application: implicitly establishes
+    a world coordinate space for all objects defined, as well as all objects included
+    by the application; explicitly defines and composes a set of 3D and multimedia
+    objects; can specify hyperlinks to other files and applications; can define programmatic
+    or data-driven object behaviours; can connect to external modules or applications
+    via programming and scripting languages; explicitly declares its functional requirements
+    by specifying a profile; can declare additional functional requirements by specifying
+    components.'
 status:
   stage:
     content: '95'
@@ -132,27 +133,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 19775-1:2008
-    docidentifier:
-    - content: ISO/IEC 19775-1:2008
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 19775-1:2023
+    formattedref:
+      content: ISO/IEC 19775-1:2023
     docidentifier:
     - content: ISO/IEC 19775-1:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-12-20'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 19775-1:2008
+    docidentifier:
+    - content: ISO/IEC 19775-1:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

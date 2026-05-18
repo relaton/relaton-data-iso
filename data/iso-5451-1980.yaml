@@ -1,41 +1,37 @@
 ---
 id: ISO54511980
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Ferrovanadium
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Specification and conditions of delivery
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Ferrovanadium - Specification and conditions of delivery
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ferro-vanadium
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications et conditions de livraison
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ferro-vanadium - Spécifications et conditions de livraison
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/11496.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:11496:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/14/11496.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '5451'
 date:
 - type: published
-  at: 1980-12
+  at: '1980-12-01'
 contributor:
 - role:
   - type: publisher
@@ -89,11 +85,6 @@ abstract:
   content: Refers to ferrovanadium usually supplied for steelmaking and foundry use.
     Specifies definition, information for ordering, requirements, testing, despatch
     and storage.
-- language: fr
-  script: Latn
-  content: Refers to ferrovanadium usually supplied for steelmaking and foundry use.
-    Specifies definition, information for ordering, requirements, testing, despatch
-    and storage.
 status:
   stage:
     content: '95'
@@ -106,21 +97,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5451:2022
+    formattedref:
+      content: ISO/PWI 5451
+    docidentifier:
+    - content: ISO/PWI 5451
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 5451:2022
     docidentifier:
     - content: ISO 5451:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-12-09'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

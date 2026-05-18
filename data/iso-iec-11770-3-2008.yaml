@@ -1,53 +1,47 @@
 ---
 id: ISOIEC1177032008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Key management -- Part 3: Mechanisms using asymmetric techniques'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Key management -- Part
     3: Mechanisms using asymmetric techniques'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Gestion de clés -- Partie 3: Mécanismes utilisant des techniques asymétriques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Gestion de clés
     -- Partie 3: Mécanismes utilisant des techniques asymétriques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46542.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:46542:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/65/46542.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '11770'
 date:
 - type: published
-  at: 2008-07
+  at: '2008-07-02'
 contributor:
 - role:
   - type: publisher
@@ -101,32 +95,36 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 11770-3:2008 defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals.
-    Some of the mechanisms of ISO/IEC 11770-3:2008 are based on the corresponding authentication mechanisms in ISO/IEC 9798-3.
-    ISO/IEC 11770-3:2008 does not cover aspects of key management such as
-    - key lifecycle management,
-    - mechanisms to generate or validate asymmetric key pairs,
-    - mechanisms to store, archive, delete, destroy, etc. keys.
-    While ISO/IEC 11770-3:2008 does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means like smart cards, etc.
-    ISO/IEC 11770-3:2008 does not cover the implementations of the transformations used in the key management mechanisms.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 11770-3:2008 defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals.
-    Some of the mechanisms of ISO/IEC 11770-3:2008 are based on the corresponding authentication mechanisms in ISO/IEC 9798-3.
-    ISO/IEC 11770-3:2008 does not cover aspects of key management such as
-    - key lifecycle management,
-    - mechanisms to generate or validate asymmetric key pairs,
-    - mechanisms to store, archive, delete, destroy, etc. keys.
-    While ISO/IEC 11770-3:2008 does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means like smart cards, etc.
-    ISO/IEC 11770-3:2008 does not cover the implementations of the transformations used in the key management mechanisms.
+  content: ISO/IEC 11770-3:2008 defines key management mechanisms based on asymmetric
+    cryptographic techniques. It specifically addresses the use of asymmetric techniques
+    to achieve the following goals. Establish a shared secret key for a symmetric
+    cryptographic technique between two entities A and B by key agreement. In a secret
+    key agreement mechanism, the secret key is the result of a data exchange between
+    the two entities A and B. Neither of them can predetermine the value of the shared
+    secret key. Establish a shared secret key for a symmetric cryptographic technique
+    between two entities A and B by key transport. In a secret key transport mechanism,
+    the secret key is chosen by one entity A and is transferred to another entity
+    B, suitably protected by asymmetric techniques. Make an entity's public key available
+    to other entities by key transport. In a public key transport mechanism, the public
+    key of entity A must be transferred to other entities in an authenticated way,
+    but not requiring secrecy. Some of the mechanisms of ISO/IEC 11770-3:2008 are
+    based on the corresponding authentication mechanisms in ISO/IEC 9798-3. ISO/IEC
+    11770-3:2008 does not cover aspects of key management such as key lifecycle management,
+    mechanisms to generate or validate asymmetric key pairs, mechanisms to store,
+    archive, delete, destroy, etc. keys. While ISO/IEC 11770-3:2008 does not explicitly
+    cover the distribution of an entity's private key (of an asymmetric key pair)
+    from a trusted third party to a requesting entity, the key transport mechanisms
+    described can be used to achieve this. A private key can in all cases be distributed
+    with these mechanisms where an existing, non-compromised key already exists. However,
+    in practice the distribution of private keys is usually a manual process that
+    relies on technological means like smart cards, etc. ISO/IEC 11770-3:2008 does
+    not cover the implementations of the transformations used in the key management
+    mechanisms.
 status:
   stage:
     content: '95'
@@ -141,46 +139,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 11770-3:1999
-    docidentifier:
-    - content: ISO/IEC 11770-3:1999
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 15946-3:2002
-    docidentifier:
-    - content: ISO/IEC 15946-3:2002
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 11770-3:2015
+    formattedref:
+      content: ISO/IEC 11770-3:2015
     docidentifier:
     - content: ISO/IEC 11770-3:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-08-04'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 11770-3:2008/Cor 1:2009
+    formattedref:
+      content: ISO/IEC 11770-3:1999
     docidentifier:
-    - content: ISO/IEC 11770-3:2008/Cor 1:2009
+    - content: ISO/IEC 11770-3:1999
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-08-04'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 15946-3:2002
+    docidentifier:
+    - content: ISO/IEC 15946-3:2002
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

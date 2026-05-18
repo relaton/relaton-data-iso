@@ -2,27 +2,16 @@
 
 require "relaton/iso/data_fetcher"
 
-ENV["GITHUB_TOKEN"] = ARGV.last if ARGV.last
+# The reusable crawler workflow forwards inputs as
+#   ruby crawler.rb <args> <secrets.args>
+# so ARGV looks like ["iso-open-data-all"?, "<token>"?]. Pick out the source
+# mode (if the dispatch passed one) and treat the remaining arg as the token.
+source = ARGV.find { |a| a.start_with?("iso-open-data") }
+token  = (ARGV - [source].compact).last
+ENV["GITHUB_TOKEN"] = token if token
 
-# Run data fetcher. It will download 10,000 ISO standards and
-# save them to the default data directory in default YAML format.
-# Next run it will download next 10,000 standards.
-Relaton::Iso::DataFetcher.fetch
-
-index_file = "#{Relaton::Iso::HitCollection::INDEXFILE}.yaml"
-index = Relaton::Index.find_or_create :iso, file: index_file
-
-Dir["data/**/*.yaml"].each do |f|
-  item = Relaton::Iso::Item.from_yml File.read(f, encoding: "UTF-8")
-  id = item.docidentifier.detect(&:primary)
-  index.add_or_update id.to_h, f
-end
-
-Dir["static/**/*.yaml"].each do |f|
-  item = Relaton::Iso::Item.from_yml File.read(f, encoding: "UTF-8")
-  id = item.docidentifier.detect(&:primary)
-  index.add_or_update id.to_h, f
-end
-index.save
-
-`git add #{Relaton::Iso::Queue::FILE}`
+# DataFetcher decides whether to refresh based on the upstream `Last-Modified`
+# header; wiping `data/` here would race the short-circuit and leave an empty
+# tree. Pass `"iso-open-data-all"` (or remove `last_modified.txt`) to force a
+# full rebuild.
+Relaton::Iso::DataFetcher.fetch(source)

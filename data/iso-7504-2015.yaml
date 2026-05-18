@@ -1,38 +1,32 @@
 ---
 id: ISO75042015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Gas analysis
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Gas analysis - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse des gaz
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse des gaz - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/53596.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 7504:2015(E)
   type: iso-reference
-- content: urn:iso:std:iso:7504:stage-90.93
+- content: urn:iso:std:iso:7504:stage-90.92
   type: URN
 docnumber: '7504'
 date:
 - type: published
-  at: 2015-05
+  at: '2015-05-11'
 contributor:
 - role:
   - type: publisher
@@ -91,17 +85,11 @@ abstract:
   content: ISO 7504:2015 defines terms related to gas analysis, with the main focus
     on terms related to calibration gas mixtures for use in gas analysis and gas measurements.
     It does not cover terms which relate only to specific applications.
-- language: fr
-  script: Latn
-  content: L'ISO 7504:2015 définit les termes relatifs à l'analyse des gaz, en insistant
-    plus particulièrement sur les termes relatifs aux mélanges de gaz pour étalonnage
-    utilisés dans l'analyse des gaz et les mesurages de gaz. Les termes qui recouvrent
-    des applications spécifiques n'y figurent pas.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2015'
   owner:
@@ -111,24 +99,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7504:2001
+    formattedref:
+      content: ISO/AWI 7504
+    docidentifier:
+    - content: ISO/AWI 7504
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 7504:2001
     docidentifier:
     - content: ISO 7504:2001
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.71
-    text: Chemical technology (Vocabularies)
   - code: 71.040.40
     text: Chemical analysis
+  - code: 01.040.71
+    text: Chemical technology (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

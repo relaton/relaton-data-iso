@@ -1,41 +1,37 @@
 ---
 id: ISO9991975
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Index of a publication
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Documentation - Index of a publication
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Index d'une publication
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation - Index d'une publication
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5445.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5445:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/54/5445.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '999'
 date:
 - type: published
-  at: 1975-09
+  at: '1975-09-01'
 contributor:
 - role:
   - type: publisher
@@ -95,21 +91,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 999:1996
+    formattedref:
+      content: ISO 999:1996
     docidentifier:
     - content: ISO 999:1996
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1996-11-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

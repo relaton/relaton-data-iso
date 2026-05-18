@@ -1,53 +1,47 @@
 ---
 id: ISO1320932012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Test sequence eXchange format (OTX)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Standard extensions and requirements'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Open Test sequence eXchange format (OTX) - Part 3: Standard
     extensions and requirements'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Format public d'échange de séquence-tests (OTX)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Exigences et spécifications des extensions du standard'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Format public d''échange de séquence-tests (OTX)
     - Partie 3: Exigences et spécifications des extensions du standard'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/55599.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:55599:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/55/55599.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '13209'
 date:
 - type: published
-  at: 2012-08
+  at: '2012-08-09'
 contributor:
 - role:
   - type: publisher
@@ -92,48 +86,28 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "The Open Test sequence eXchange (OTX) Core, defined in ISO 13209-2, describes
+  content: The Open Test sequence eXchange (OTX) Core, defined in ISO 13209-2, describes
     the basic structure underlying every OTX document. ISO 13209-3:2012 extends the
     Core by a set of additional features, using the extension mechanism rules described
     in ISO 13209-2. The extensions defined in ISO 13209-3:2012 comprise features which
     allow diagnostic communication to a vehicle's diagnostic interface, flashing,
     executing diagnostic jobs, controlling measurement equipment, internationalization,
     working with physical units, accessing the environment, communication via a human
-    machine interface (HMI) and other utility extensions. \nISO 13209-3:2012 defines
-    the OTX extension requirements and data model specifications.\nThe requirements
-    are derived from the use cases described in ISO 13209-1.\nThe data model specification
+    machine interface (HMI) and other utility extensions. ISO 13209-3:2012 defines
+    the OTX extension requirements and data model specifications. The requirements
+    are derived from the use cases described in ISO 13209-1. The data model specification
     aims at an exhaustive definition of all features of the OTX extensions which have
     been implemented to satisfy the requirements. ISO 13209-3:2012 establishes rules
     for the syntactical entities of each extension. Each of these syntactical entities
     is accompanied by semantic rules which determine how OTX documents containing
     extension features are to be interpreted. The syntax rules are provided by UML
     class diagrams and XML schemas, whereas the semantics are given by UML activity
-    diagrams and prose definitions."
-- language: fr
-  script: Latn
-  content: "The Open Test sequence eXchange (OTX) Core, defined in ISO 13209-2, describes
-    the basic structure underlying every OTX document. ISO 13209-3:2012 extends the
-    Core by a set of additional features, using the extension mechanism rules described
-    in ISO 13209-2. The extensions defined in ISO 13209-3:2012 comprise features which
-    allow diagnostic communication to a vehicle's diagnostic interface, flashing,
-    executing diagnostic jobs, controlling measurement equipment, internationalization,
-    working with physical units, accessing the environment, communication via a human
-    machine interface (HMI) and other utility extensions. \nISO 13209-3:2012 defines
-    the OTX extension requirements and data model specifications.\nThe requirements
-    are derived from the use cases described in ISO 13209-1.\nThe data model specification
-    aims at an exhaustive definition of all features of the OTX extensions which have
-    been implemented to satisfy the requirements. ISO 13209-3:2012 establishes rules
-    for the syntactical entities of each extension. Each of these syntactical entities
-    is accompanied by semantic rules which determine how OTX documents containing
-    extension features are to be interpreted. The syntax rules are provided by UML
-    class diagrams and XML schemas, whereas the semantics are given by UML activity
-    diagrams and prose definitions."
+    diagrams and prose definitions.
 status:
   stage:
     content: '95'
@@ -146,29 +120,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13209-3:2022
+    formattedref:
+      content: ISO 13209-3:2022
     docidentifier:
     - content: ISO 13209-3:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-06-21'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.180'
-    text: Diagnostic, maintenance and test equipment
   - code: 43.040.15
     text: Car informatics. On board computer systems
+  - code: '43.180'
+    text: Diagnostic, maintenance and test equipment
   structuredidentifier:
     type: ISO
     project_number:

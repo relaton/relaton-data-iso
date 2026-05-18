@@ -1,51 +1,45 @@
 ---
 id: ISO1156812005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Banking
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Key management (retail)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Principles'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Banking - Key management (retail) - Part 1: Principles'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion de clés (services aux particuliers)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Principes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Banque - Gestion de clés (services aux particuliers) - Partie 1: Principes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/34937.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:34937:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/49/34937.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '11568'
 date:
 - type: published
-  at: 2005-06
+  at: '2005-06-17'
 contributor:
 - role:
   - type: publisher
@@ -90,64 +84,36 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO 11568-1:2005 specifies the principles for the management of keys used
+  content: ISO 11568-1:2005 specifies the principles for the management of keys used
     in cryptosystems implemented within the retail-banking environment. The retail-banking
     environment includes the interface between a card accepting device and an acquirer,
-    an acquirer and a card issuer, an ICC and a card-accepting device. \nAn example
+    an acquirer and a card issuer, an ICC and a card-accepting device. An example
     of this environment and threats associated with the implementation of ISO 11568-1:2005
-    in the retail-banking environment are also described.\nISO 11568-1:2005 is applicable
+    in the retail-banking environment are also described. ISO 11568-1:2005 is applicable
     both to the keys of symmetric cipher systems, where both originator and recipient
     use the same secret key(s), and to the private and public keys of asymmetric cryptosystems,
     unless otherwise stated. The procedure for the approval of cryptographic algorithms
-    used for key management is specified.\nThe use of ciphers often involves control
+    used for key management is specified. The use of ciphers often involves control
     information other than keys, e.g. initialization vectors and key identifiers.
-    This other information is collectively called \"keying material\". Although ISO
+    This other information is collectively called "keying material". Although ISO
     11568-1:2005 specifically addresses the management of keys, the principles, services,
-    and techniques applicable to keys may also be applicable to keying material.\nISO
+    and techniques applicable to keys may also be applicable to keying material. ISO
     11568-1:2005 is appropriate for use by financial institutions and other organizations
     engaged in the area of retail financial services, where the interchange of information
     requires confidentiality, integrity, or authentication. Retail financial services
     include but are not limited to such processes as POS debit and credit authorizations,
-    automated dispensing machine and ATM transactions, etc.\nISO 9564 and ISO 16609
+    automated dispensing machine and ATM transactions, etc. ISO 9564 and ISO 16609
     specify the use of cryptographic operations within retail financial transactions
     for personal identification number (PIN) encipherment and message authentication,
     respectively. The ISO 11568 series of standards is applicable to the management
     of the keys introduced by those standards. Additionally, the key management procedures
     may themselves require the introduction of further keys, e.g. key encipherment
-    keys. The key management procedures are equally applicable to those keys."
-- language: fr
-  script: Latn
-  content: "ISO 11568-1:2005 specifies the principles for the management of keys used
-    in cryptosystems implemented within the retail-banking environment. The retail-banking
-    environment includes the interface between a card accepting device and an acquirer,
-    an acquirer and a card issuer, an ICC and a card-accepting device. \nAn example
-    of this environment and threats associated with the implementation of ISO 11568-1:2005
-    in the retail-banking environment are also described.\nISO 11568-1:2005 is applicable
-    both to the keys of symmetric cipher systems, where both originator and recipient
-    use the same secret key(s), and to the private and public keys of asymmetric cryptosystems,
-    unless otherwise stated. The procedure for the approval of cryptographic algorithms
-    used for key management is specified.\nThe use of ciphers often involves control
-    information other than keys, e.g. initialization vectors and key identifiers.
-    This other information is collectively called \"keying material\". Although ISO
-    11568-1:2005 specifically addresses the management of keys, the principles, services,
-    and techniques applicable to keys may also be applicable to keying material.\nISO
-    11568-1:2005 is appropriate for use by financial institutions and other organizations
-    engaged in the area of retail financial services, where the interchange of information
-    requires confidentiality, integrity, or authentication. Retail financial services
-    include but are not limited to such processes as POS debit and credit authorizations,
-    automated dispensing machine and ATM transactions, etc.\nISO 9564 and ISO 16609
-    specify the use of cryptographic operations within retail financial transactions
-    for personal identification number (PIN) encipherment and message authentication,
-    respectively. The ISO 11568 series of standards is applicable to the management
-    of the keys introduced by those standards. Additionally, the key management procedures
-    may themselves require the introduction of further keys, e.g. key encipherment
-    keys. The key management procedures are equally applicable to those keys."
+    keys. The key management procedures are equally applicable to those keys.
 status:
   stage:
     content: '95'
@@ -162,27 +128,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11568-1:1994
-    docidentifier:
-    - content: ISO 11568-1:1994
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 11568:2023
+    formattedref:
+      content: ISO 11568:2023
     docidentifier:
     - content: ISO 11568:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-02-17'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11568-1:1994
+    docidentifier:
+    - content: ISO 11568-1:1994
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

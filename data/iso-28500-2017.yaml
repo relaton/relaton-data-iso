@@ -1,38 +1,32 @@
 ---
 id: ISO285002017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: WARC file format
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - WARC file format
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Format de fichier WARC
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Format de fichier WARC
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/68004.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '28500'
 date:
 - type: published
-  at: 2017-08
+  at: '2017-08-14'
 contributor:
 - role:
   - type: publisher
@@ -82,34 +76,22 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 28500:2017 specifies the WARC file format:
-    -      to store both the payload content and control information from mainstream Internet application layer protocols, such as the HTTP, DNS, and FTP;
-    -      to store arbitrary metadata linked to other stored data (e.g. subject classifier, discovered language, encoding);
-    -      to support data compression and maintain data record integrity;
-    -      to store all control information from the harvesting protocol (e.g. request headers), not just response information;
-    -      to store the results of data transformations linked to other stored data;
-    -      to store a duplicate detection event linked to other stored data (to reduce storage in the presence of identical or substantially similar resources);
-    -      to be extended without disruption to existing functionality;
-    -      to support handling of overly long records by truncation or segmentation, where desired.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 28500:2017 specifies the WARC file format:
-    -      to store both the payload content and control information from mainstream Internet application layer protocols, such as the HTTP, DNS, and FTP;
-    -      to store arbitrary metadata linked to other stored data (e.g. subject classifier, discovered language, encoding);
-    -      to support data compression and maintain data record integrity;
-    -      to store all control information from the harvesting protocol (e.g. request headers), not just response information;
-    -      to store the results of data transformations linked to other stored data;
-    -      to store a duplicate detection event linked to other stored data (to reduce storage in the presence of identical or substantially similar resources);
-    -      to be extended without disruption to existing functionality;
-    -      to support handling of overly long records by truncation or segmentation, where desired.
+  content: 'ISO 28500:2017 specifies the WARC file format: - to store both the payload
+    content and control information from mainstream Internet application layer protocols,
+    such as the HTTP, DNS, and FTP; - to store arbitrary metadata linked to other
+    stored data (e.g. subject classifier, discovered language, encoding); - to support
+    data compression and maintain data record integrity; - to store all control information
+    from the harvesting protocol (e.g. request headers), not just response information;
+    - to store the results of data transformations linked to other stored data; -
+    to store a duplicate detection event linked to other stored data (to reduce storage
+    in the presence of identical or substantially similar resources); - to be extended
+    without disruption to existing functionality; - to support handling of overly
+    long records by truncation or segmentation, where desired.'
 status:
   stage:
     content: '90'
@@ -122,18 +104,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 28500:2009
+    formattedref:
+      content: ISO 28500:2009
     docidentifier:
     - content: ISO 28500:2009
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,51 +1,43 @@
 ---
 id: ISOTR2212622025
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Semantic technology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: OWL representation of the ISO 20022 metamodel and e-repository'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Financial services - Semantic technology - Part 2: OWL representation
     of the ISO 20022 metamodel and e-repository'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologie sémantique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Représentation OWL du métamodèle et du référentiel de l''ISO
     20022'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Services financiers - Technologie sémantique - Partie 2: Représentation
     OWL du métamodèle et du référentiel de l''ISO 20022'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/76310.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '22126'
 date:
 - type: published
-  at: 2025-01
+  at: '2025-01-08'
 contributor:
 - role:
   - type: publisher
@@ -95,42 +87,25 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document is concerned with the representation of the ISO 20022 e-Repository
+  content: This document is concerned with the representation of the ISO 20022 e-Repository
     contents in RDF and OWL by developing a case study around the ISO 20022 auth.016
-    sample message (hereafter simply referred to as “auth.016”). This includes:  \na)      
-    transformation of the sample message into an RDF instance graph;  \nb)       demonstrating
+    sample message (hereafter simply referred to as “auth.016”). This includes:  a)      
+    transformation of the sample message into an RDF instance graph;  b)       demonstrating
     a set of SPARQL rules that transform the auth.016 message into a FIX TradeCaptureReport(35=AE)
-    message (hereafter simply referred to as “FIX AE”); \nc)        expressing the
-    metamodel, business components and message components exactly with a custom RDF
-    vocabulary; \nd)       representing those schemas as OWL schemas using OWL vocabulary
-    when possible and annotation properties otherwise;\ne)       creating instance
-    graphs for the auth.016 sample messaging using the vocabulary of the business
-    components and message components. \nThis document also discusses the choices
-    that arise in structuring RDF documents equivalent to documents in XML, and FIX
-    Tag-Value format balancing considerations such as preserving the order of parts
-    of the message versus creating graphs that are suitable for RDFS and OWL inference."
-- language: fr
-  script: Latn
-  content: "This document is concerned with the representation of the ISO 20022 e-Repository
-    contents in RDF and OWL by developing a case study around the ISO 20022 auth.016
-    sample message (hereafter simply referred to as “auth.016”). This includes:  \na)      
-    transformation of the sample message into an RDF instance graph;  \nb)       demonstrating
-    a set of SPARQL rules that transform the auth.016 message into a FIX TradeCaptureReport(35=AE)
-    message (hereafter simply referred to as “FIX AE”); \nc)        expressing the
-    metamodel, business components and message components exactly with a custom RDF
-    vocabulary; \nd)       representing those schemas as OWL schemas using OWL vocabulary
-    when possible and annotation properties otherwise;\ne)       creating instance
-    graphs for the auth.016 sample messaging using the vocabulary of the business
-    components and message components. \nThis document also discusses the choices
-    that arise in structuring RDF documents equivalent to documents in XML, and FIX
-    Tag-Value format balancing considerations such as preserving the order of parts
-    of the message versus creating graphs that are suitable for RDFS and OWL inference."
+    message (hereafter simply referred to as “FIX AE”); c)        expressing the metamodel,
+    business components and message components exactly with a custom RDF vocabulary;
+    d)       representing those schemas as OWL schemas using OWL vocabulary when possible
+    and annotation properties otherwise; e)       creating instance graphs for the
+    auth.016 sample messaging using the vocabulary of the business components and
+    message components. This document also discusses the choices that arise in structuring
+    RDF documents equivalent to documents in XML, and FIX Tag-Value format balancing
+    considerations such as preserving the order of parts of the message versus creating
+    graphs that are suitable for RDFS and OWL inference.
 status:
   stage:
     content: '60'
@@ -143,9 +118,9 @@ copyright:
       name:
       - content: ISO/TR
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

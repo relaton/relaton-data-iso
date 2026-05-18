@@ -1,53 +1,47 @@
 ---
 id: ISO35921978
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Numerical control of machines
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: NC processor output
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Logical structure (and major words)
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Numerical control of machines - NC processor output - Logical structure
     (and major words)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Commande numérique des machines
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations de sortie des processeurs CN
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Structure logique (et mots majeurs)
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Commande numérique des machines - Informations de sortie des processeurs
     CN - Structure logique (et mots majeurs)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9003.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9003:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/90/9003.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '3592'
 date:
 - type: published
-  at: 1978-12
+  at: '1978-12-01'
 contributor:
 - role:
   - type: publisher
@@ -107,21 +101,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3592:2000
+    formattedref:
+      content: ISO/DIS 3592
+    docidentifier:
+    - content: ISO/DIS 3592
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 3592:2000
     docidentifier:
     - content: ISO 3592:2000
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2000-09-21'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

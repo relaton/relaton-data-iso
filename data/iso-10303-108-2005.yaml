@@ -1,54 +1,46 @@
 ---
 id: ISO103031082005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Product data representation and exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 108: Integrated application resource: Parameterization and constraints
     for explicit geometric product models'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 108: Integrated application resource: Parameterization and
     constraints for explicit geometric product models'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation et échange de données de produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 108: Ressources d''application intégrées: Paramétrage et contraintes
     pour les modèles de produits géométriques explicites'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 108: Ressources d''application intégrées:
     Paramétrage et contraintes pour les modèles de produits géométriques explicites'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/34697.html
@@ -62,12 +54,12 @@ docidentifier:
   primary: true
 - content: ISO 10303-108:2005(E)
   type: iso-reference
-- content: urn:iso:std:iso:10303:-108:stage-90.60
+- content: urn:iso:std:iso:10303:-108:stage-90.93
   type: URN
 docnumber: '10303'
 date:
 - type: published
-  at: 2005-02
+  at: '2005-01-24'
 contributor:
 - role:
   - type: publisher
@@ -98,13 +90,12 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO 10303-108:2005 specifies the resource constructs for the representation
+  content: 'ISO 10303-108:2005 specifies the resource constructs for the representation
     of model parameters and constraints in CAD or other kinds of models, together
     with the mechanisms necessary for associating them with geometric or other elements
     of transferred models. The use of these capabilities potentially allows certain
@@ -115,95 +106,52 @@ abstract:
     Ideally, this will enable the model to be edited in the receiving system just
     as as though it had been created there. That would not be possible without the
     exchange of what is known as design intent information. ISO 10303-108:2005 enables
-    the capture and transfer of an important aspect of design intent.\nThe following
-    are within the scope of ISO 10303-108:2005:\n- parameterization of models through
+    the capture and transfer of an important aspect of design intent. The following
+    are within the scope of ISO 10303-108:2005: parameterization of models through
     the association of variables with quantities occurring in them, including dimensional
-    values; \n- constraints defining mathematical relationships between variable parameters;
-    \n- constraints on models expressed as descriptive relationships between their
-    constituent elements or attributes of those elements; \n- specialized descriptive
-    constraints corresponding to the geometric constraints commonly used in product
-    shape modelling (e.g., parallelism or tangency between geometric elements); \n-
-    applications of parameterization and constraints to two- and three-dimensional
-    shape models; \n- specialized representations for two-dimensional geometric sketches
-    or profiles; \n- representation of models that are incompletely defined in the
-    sense that certain values in the model may be regarded as not fully constrained.
-    \nThe following are outside the scope of ISO 10303-108:2005:\n- procedural or
-    history-based model representations, expressed in terms of sequences of constructional
-    operations; \n- implicit or procedurally defined constraints, inherent in the
-    operation of constructional operations; \n- solution methods for systems of constraint
-    equations; \n- form features of shape models; \n- behaviour of a system in which
-    a variational model is edited following a transfer; \n- considerations of accuracy
-    in constraint satisfaction. \nThe following notes apply to the excluded capabilities."
-- language: fr
-  script: Latn
-  content: "ISO 10303-108:2005 specifies the resource constructs for the representation
-    of model parameters and constraints in CAD or other kinds of models, together
-    with the mechanisms necessary for associating them with geometric or other elements
-    of transferred models. The use of these capabilities potentially allows certain
-    aspects of the behaviour of a model in its originating system to be conveyed together
-    with the basic model itself. The intention in transferring this additional information
-    is to provide the receiving system with data that will enable it to reconstruct
-    corresponding behavioural characteristics in the model following the transfer.
-    Ideally, this will enable the model to be edited in the receiving system just
-    as as though it had been created there. That would not be possible without the
-    exchange of what is known as design intent information. ISO 10303-108:2005 enables
-    the capture and transfer of an important aspect of design intent.\nThe following
-    are within the scope of ISO 10303-108:2005:\n- parameterization of models through
-    the association of variables with quantities occurring in them, including dimensional
-    values; \n- constraints defining mathematical relationships between variable parameters;
-    \n- constraints on models expressed as descriptive relationships between their
-    constituent elements or attributes of those elements; \n- specialized descriptive
-    constraints corresponding to the geometric constraints commonly used in product
-    shape modelling (e.g., parallelism or tangency between geometric elements); \n-
-    applications of parameterization and constraints to two- and three-dimensional
-    shape models; \n- specialized representations for two-dimensional geometric sketches
-    or profiles; \n- representation of models that are incompletely defined in the
-    sense that certain values in the model may be regarded as not fully constrained.
-    \nThe following are outside the scope of ISO 10303-108:2005:\n- procedural or
-    history-based model representations, expressed in terms of sequences of constructional
-    operations; \n- implicit or procedurally defined constraints, inherent in the
-    operation of constructional operations; \n- solution methods for systems of constraint
-    equations; \n- form features of shape models; \n- behaviour of a system in which
-    a variational model is edited following a transfer; \n- considerations of accuracy
-    in constraint satisfaction. \nThe following notes apply to the excluded capabilities."
+    values; constraints defining mathematical relationships between variable parameters;
+    constraints on models expressed as descriptive relationships between their constituent
+    elements or attributes of those elements; specialized descriptive constraints
+    corresponding to the geometric constraints commonly used in product shape modelling
+    (e.g., parallelism or tangency between geometric elements); applications of parameterization
+    and constraints to two- and three-dimensional shape models; specialized representations
+    for two-dimensional geometric sketches or profiles; representation of models that
+    are incompletely defined in the sense that certain values in the model may be
+    regarded as not fully constrained. The following are outside the scope of ISO
+    10303-108:2005: procedural or history-based model representations, expressed in
+    terms of sequences of constructional operations; implicit or procedurally defined
+    constraints, inherent in the operation of constructional operations; solution
+    methods for systems of constraint equations; form features of shape models; behaviour
+    of a system in which a variational model is edited following a transfer; considerations
+    of accuracy in constraint satisfaction. The following notes apply to the excluded
+    capabilities. Procedural or history-based representations are the subject of ISO
+    10303-55. Methods of solving constraint equations are the responsibility of the
+    application systems involved in the exchange. ISO 10303-108:2005 merely transfers
+    the constraint relationships that need to be solved. Various other parts of ISO
+    10303 provide representations for different application-oriented views of form
+    features. The information transmitted by the use of ISO 10303-108:2005 is intended
+    to allow implementers to provide ''reasonable'' or ''intuitive'' behaviour by
+    receiving systems following the transfer of a model in the circumstances mentioned
+    above, but ISO 10303-108:2005 does not prescribe the detailed nature of such behaviour
+    or of its presentation to the system user. Accuracy considerations are essentially
+    the same in the ISO 10303-108:2005 context as those arising generally in the geometric
+    modelling of product shape. Means are provided elsewhere in ISO 10303 for addressing
+    accuracy issues.'
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2005'
   owner:
   - organization:
       name:
       - content: ISO
-relation:
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 10303-108:2005/Cor 1:2008
-    docidentifier:
-    - content: ISO 10303-108:2005/Cor 1:2008
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2025-03-05'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 10303-108:2005/Cor 2:2014
-    docidentifier:
-    - content: ISO 10303-108:2005/Cor 2:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2025-03-05'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

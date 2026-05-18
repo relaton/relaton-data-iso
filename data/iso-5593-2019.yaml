@@ -1,41 +1,37 @@
 ---
 id: ISO55932019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rolling bearings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Rolling bearings - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Roulements
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Roulements - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/50185.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:50185:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/01/50185.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '5593'
 date:
 - type: published
-  at: 2019-04
+  at: '2019-04-30'
 contributor:
 - role:
   - type: publisher
@@ -81,25 +77,23 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document establishes a vocabulary of terms, with their definitions, applied in the field of rolling bearings and their technology under ISO Technical Committee TC 4 management.
-    It includes terms related to all types of rolling bearings wherein the principal degree of freedom is continuous rotation about an axis enabled by an ordered set of rolling elements between two circular raceways such that loads can be transmitted between them in a particular range of radial and/or axial directions. Also included are accessories to these products.
-    The following types of terms are not included:
-    —          terms specified in ISO 76, ISO 281 and ISO 1132‑1;
-    —          terms which are narrowly applied in only one specialised rolling bearing International Standard.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document établit un vocabulaire de termes d'usage courant, avec leur définition, dans le domaine des roulements et de leur technologie, sous la direction du Comité Technique ISO/TC 4.
-    Il contient des termes associés à tous les types de roulements dans lesquels le principal degré de liberté est une rotation continue autour d'un axe, rendue possible par un ensemble ordonné d'éléments roulants entre deux chemins de roulement circulaires, de telle sorte que les charges puissent être transmises entre eux dans une plage particulière de directions radiales et/ou axiales. Les accessoires associés à ces produits sont également inclus.
-    Les types de termes suivants ne sont pas inclus:
-    —          les termes spécifiés dans l'ISO 76, l'ISO 281 et l'ISO 1132-1;
-    —          les termes qui ne sont utilisés que dans une Norme internationale spécialisée relative aux roulements.
+  content: 'This document establishes a vocabulary of terms, with their definitions,
+    applied in the field of rolling bearings and their technology under ISO Technical
+    Committee TC 4 management. It includes terms related to all types of rolling bearings
+    wherein the principal degree of freedom is continuous rotation about an axis enabled
+    by an ordered set of rolling elements between two circular raceways such that
+    loads can be transmitted between them in a particular range of radial and/or axial
+    directions. Also included are accessories to these products. The following types
+    of terms are not included: — terms specified in ISO 76, ISO 281 and ISO 1132‑1;
+    — terms which are narrowly applied in only one specialised rolling bearing International
+    Standard.'
 status:
   stage:
     content: '95'
@@ -114,43 +108,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5593:1997
-    docidentifier:
-    - content: ISO 5593:1997
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 5593:1997/Amd 1:2007
-    docidentifier:
-    - content: ISO 5593:1997/Amd 1:2007
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 5593:2023
+    formattedref:
+      content: ISO 5593:2023
     docidentifier:
     - content: ISO 5593:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-02-28'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 5593:1997
+    docidentifier:
+    - content: ISO 5593:1997
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 5593:1997/Amd 1:2007
+    docidentifier:
+    - content: ISO 5593:1997/Amd 1:2007
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.21
-    text: Mechanical systems and components for general use (Vocabularies)
   - code: 21.100.20
     text: Rolling bearings
+  - code: 01.040.21
+    text: Mechanical systems and components for general use (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

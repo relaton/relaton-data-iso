@@ -1,46 +1,42 @@
 ---
 id: ISO285921985
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Sampling procedures for inspection by attributes
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Sampling plans indexed by limiting quality (LQ) for isolated lot
     inspection'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Sampling procedures for inspection by attributes - Part 2: Sampling plans
     indexed by limiting quality (LQ) for isolated lot inspection'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Règles d'échantillonnage pour les contrôles par attributs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Plans d''échantillonnage pour les contrôles de lots isolés,
     indexés d''après la qualité limite (QL)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Règles d''échantillonnage pour les contrôles par attributs - Partie 2:
     Plans d''échantillonnage pour les contrôles de lots isolés, indexés d''après la
     qualité limite (QL)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7867.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7867:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/78/7867.detail.rss
 docidentifier:
@@ -54,7 +50,7 @@ docidentifier:
 docnumber: '2859'
 date:
 - type: published
-  at: 1985-08
+  at: '1985-08-29'
 contributor:
 - role:
   - type: publisher
@@ -98,15 +94,6 @@ abstract:
     the lot in isolation (shall be used unless there is a specific instruction to
     use procedure B), procedure B to be used when the supplier regards the lot as
     one of continuing series but the consumer considers the lot received in isolation.'
-- language: fr
-  script: Latn
-  content: 'Can be used when the switching rules in ISO 2859-1 are not applied. Indexing
-    is by a preferred series of limiting qualities with a consumer''s risk usually
-    below 10 % and always below 13 %. Procedures are provided to cater for two situations:
-    Procedure A to be used when the supplier and the consumer both wish to regard
-    the lot in isolation (shall be used unless there is a specific instruction to
-    use procedure B), procedure B to be used when the supplier regards the lot as
-    one of continuing series but the consumer considers the lot received in isolation.'
 status:
   stage:
     content: '95'
@@ -119,21 +106,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2859-2:2020
+    formattedref:
+      content: ISO/CD 2859-2
+    docidentifier:
+    - content: ISO/CD 2859-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 2859-2
+    docidentifier:
+    - content: ISO/DIS 2859-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2859-2:2020
     docidentifier:
     - content: ISO 2859-2:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-02-13'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

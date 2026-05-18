@@ -1,41 +1,37 @@
 ---
 id: ISO2262003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Acoustics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Normal equal-loudness-level contours
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Acoustics - Normal equal-loudness-level contours
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acoustique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes isosoniques normales
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acoustique - Lignes isosoniques normales
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/34222.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:34222:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/42/34222.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '226'
 date:
 - type: published
-  at: 2003-08
+  at: '2003-08-21'
 contributor:
 - role:
   - type: publisher
@@ -95,17 +91,6 @@ abstract:
     centre of the listener''s head would be, but in the absence of the listener; listening
     is binaural; the listeners are otologically normal persons in the age range from
     18 years to 25 years inclusive.'
-- language: fr
-  script: Latn
-  content: 'L''ISO 266:2003 spécifie les combinaisons de niveaux de pression acoustique
-    et de fréquences de sons purs continus qui sont perçus comme isosoniques par des
-    auditeurs humains. Les spécifications sont basées sur les conditions suivantes
-    : le champ acoustique en l''absence de l''auditeur consiste en une onde plane
-    progressive libre ; la source de bruit fait directement face à l''auditeur ; les
-    signaux sonores sont des sons purs ; le niveau de pression acoustique est mesuré
-    en la position du centre de la tête de l''auditeur en l''absence de ce dernier
-    ; l''écoute est binaurale ; les auditeurs sont des sujets otologiquement normaux
-    âgés de 18 ans à 25 ans inclusivement.'
 status:
   stage:
     content: '95'
@@ -120,27 +105,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 226:1987
+    formattedref:
+      content: ISO/DIS 226
     docidentifier:
-    - content: ISO 226:1987
+    - content: ISO/DIS 226
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 226:2023
+    formattedref:
+      content: ISO 226:2023
     docidentifier:
     - content: ISO 226:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-03-29'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 226
+    docidentifier:
+    - content: ISO/NP 226
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 226:1987
+    docidentifier:
+    - content: ISO 226:1987
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

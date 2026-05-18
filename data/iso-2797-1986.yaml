@@ -1,51 +1,45 @@
 ---
 id: ISO27971986
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Textile glass
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Rovings
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Basis for a specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Textile glass - Rovings - Basis for a specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Verre textile
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Stratifils
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Base de spécification
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Verre textile - Stratifils - Base de spécification
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7788.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7788:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/77/7788.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '2797'
 date:
 - type: published
-  at: 1986-08
+  at: '1986-08-28'
 contributor:
 - role:
   - type: publisher
@@ -103,11 +97,6 @@ abstract:
     Standards are quoted: Designation, type of glass, filament diameter, linear density,
     size and size content, properties and methods of test, delivery and packaging,
     labelling, sampling, batch acceptance, and storage conditions.'
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale établit une base de spécification pour les stratifils, qu'il s'agisse de stratifils directs ou de stratifils assemblés.
 status:
   stage:
     content: '95'
@@ -122,27 +111,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2797:1974
+    formattedref:
+      content: ISO/WD 2797
     docidentifier:
-    - content: ISO 2797:1974
+    - content: ISO/WD 2797
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2797:2017
+    formattedref:
+      content: ISO 2797:2017
     docidentifier:
     - content: ISO 2797:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-11-30'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2797:1974
+    docidentifier:
+    - content: ISO 2797:1974
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

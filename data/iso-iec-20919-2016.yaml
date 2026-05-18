@@ -1,42 +1,38 @@
 ---
 id: ISOIEC209192016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Linear Tape File System (LTFS) Format Specification
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Linear Tape File System (LTFS) Format Specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification du format de système de fichier à bande magnétique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Spécification du format de système de fichier
     à bande magnétique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69458.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:69458:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/94/69458.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '20919'
 date:
 - type: published
-  at: 2016-04
+  at: '2016-03-29'
 contributor:
 - role:
   - type: publisher
@@ -90,22 +86,20 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 20919:2016 defines the LTFS Format requirements for interchanged media that claims LTFS compliance. Those requirements are specified as the size and sequence of data blocks and file marks on the media, the content and form of special data constructs (the LTFS Label and LTFS Index), and the content of the partition labels and use of MAM parameters.
-    The data content (not the physical media) of the LTFS format shall be interchangeable among all data storage systems claiming conformance to this format. Physical media interchange is dependent on compatibility of physical media and the media access devices in use.
-    ISO/IEC 20919:2016 does not contain instructions or tape command sequences to build the LTFS structure.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 20919:2016 defines the LTFS Format requirements for interchanged media that claims LTFS compliance. Those requirements are specified as the size and sequence of data blocks and file marks on the media, the content and form of special data constructs (the LTFS Label and LTFS Index), and the content of the partition labels and use of MAM parameters.
-    The data content (not the physical media) of the LTFS format shall be interchangeable among all data storage systems claiming conformance to this format. Physical media interchange is dependent on compatibility of physical media and the media access devices in use.
-    ISO/IEC 20919:2016 does not contain instructions or tape command sequences to build the LTFS structure.
+  content: ISO/IEC 20919:2016 defines the LTFS Format requirements for interchanged
+    media that claims LTFS compliance. Those requirements are specified as the size
+    and sequence of data blocks and file marks on the media, the content and form
+    of special data constructs (the LTFS Label and LTFS Index), and the content of
+    the partition labels and use of MAM parameters. The data content (not the physical
+    media) of the LTFS format shall be interchangeable among all data storage systems
+    claiming conformance to this format. Physical media interchange is dependent on
+    compatibility of physical media and the media access devices in use. ISO/IEC 20919:2016
+    does not contain instructions or tape command sequences to build the LTFS structure.
 status:
   stage:
     content: '95'
@@ -118,21 +112,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 20919:2021
+    formattedref:
+      content: ISO/IEC 20919:2021
     docidentifier:
     - content: ISO/IEC 20919:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-07-27'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

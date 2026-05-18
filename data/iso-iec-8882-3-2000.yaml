@@ -1,54 +1,46 @@
 ---
 id: ISOIEC888232000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Telecommunications and information exchange between systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'X.25 DTE conformance testing -- Part 3: Packet layer conformance test
     suite'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Telecommunications and information exchange between
     systems - X.25 DTE conformance testing -- Part 3: Packet layer conformance test
     suite'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Télécommunications et échange d'information entre systèmes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Test de conformité X.25 DTE -- Partie 3: Suite d''essais de conformité
     pour la couche paquet'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Télécommunications et échange d''information
     entre systèmes - Test de conformité X.25 DTE -- Partie 3: Suite d''essais de conformité
     pour la couche paquet'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/29517.html
@@ -67,7 +59,7 @@ docidentifier:
 docnumber: '8882'
 date:
 - type: published
-  at: 2000-04
+  at: '2000-06-01'
 contributor:
 - role:
   - type: publisher
@@ -107,38 +99,24 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO/IEC 8882 specifies a set of abstract tests for verifying that the implementation of X.25 protocols for use by Data
-    Terminal Equipment (DTE), conforms to the requirements of International Standards that specify those protocols.
-    Testing of a DCE is not subject of this test suite. Testing of a DTE in DCE mode is covered in test group 28 of this test suite
-    a) specifies a PIXIT proforma;
-    b) describes the relationship of the PICS to the test suite,
-    c) describes the relationship of the PIXIT to the test suite,
-    d) specifies a set of abstract tests using TTCN Graphical notation.
-    This part of ISO/IEC 8882 defines the testing of a DTE operating at the packet layer designed to access a public or private
-    packet-switched network conforming to CCITT respectively ITU-T Recommendation X.25 (1980, 1984, 1988, 1993) or another
-    DTE conforming to ISO 8208. The specification of test cases in executable/machine processable TTCN is outside the scope of
-    this part of ISO/IEC 8882.
-- language: fr
-  script: Latn
-  content: |-
-    This part of ISO/IEC 8882 specifies a set of abstract tests for verifying that the implementation of X.25 protocols for use by Data
-    Terminal Equipment (DTE), conforms to the requirements of International Standards that specify those protocols.
-    Testing of a DCE is not subject of this test suite. Testing of a DTE in DCE mode is covered in test group 28 of this test suite
-    a) specifies a PIXIT proforma;
-    b) describes the relationship of the PICS to the test suite,
-    c) describes the relationship of the PIXIT to the test suite,
-    d) specifies a set of abstract tests using TTCN Graphical notation.
-    This part of ISO/IEC 8882 defines the testing of a DTE operating at the packet layer designed to access a public or private
-    packet-switched network conforming to CCITT respectively ITU-T Recommendation X.25 (1980, 1984, 1988, 1993) or another
-    DTE conforming to ISO 8208. The specification of test cases in executable/machine processable TTCN is outside the scope of
-    this part of ISO/IEC 8882.
+  content: This part of ISO/IEC 8882 specifies a set of abstract tests for verifying
+    that the implementation of X.25 protocols for use by Data Terminal Equipment (DTE),
+    conforms to the requirements of International Standards that specify those protocols.
+    Testing of a DCE is not subject of this test suite. Testing of a DTE in DCE mode
+    is covered in test group 28 of this test suite a) specifies a PIXIT proforma;
+    b) describes the relationship of the PICS to the test suite, c) describes the
+    relationship of the PIXIT to the test suite, d) specifies a set of abstract tests
+    using TTCN Graphical notation. This part of ISO/IEC 8882 defines the testing of
+    a DTE operating at the packet layer designed to access a public or private packet-switched
+    network conforming to CCITT respectively ITU-T Recommendation X.25 (1980, 1984,
+    1988, 1993) or another DTE conforming to ISO 8208. The specification of test cases
+    in executable/machine processable TTCN is outside the scope of this part of ISO/IEC
+    8882.
 status:
   stage:
     content: '90'
@@ -151,18 +129,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8882-3:1995
+    formattedref:
+      content: ISO/IEC 8882-3:1995
     docidentifier:
     - content: ISO/IEC 8882-3:1995
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8882-3:1995/Cor 1:1997
+    docidentifier:
+    - content: ISO/IEC 8882-3:1995/Cor 1:1997
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

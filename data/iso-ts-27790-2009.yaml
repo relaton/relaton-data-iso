@@ -1,38 +1,32 @@
 ---
 id: ISOTS277902009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Document registry framework
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Health informatics - Document registry framework
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cadre d'enregistrement de document
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé - Cadre d'enregistrement de document
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44316.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 27790:2009(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:27790:stage-90.92
+- content: urn:iso:std:iso:ts:27790:stage-95.99
   type: URN
 docnumber: '27790'
 date:
 - type: published
-  at: 2009-12
+  at: '2009-11-27'
 contributor:
 - role:
   - type: publisher
@@ -82,25 +76,32 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/TS 27790:2009 specifies a general purpose document registry framework for transmitting, storing and utilizing documents in clinical and personalized health environments. It is quite broad in its applicability to realise the goal of sharing health related documents spanning a broad spectrum of health domains such as healthcare specialities covering laboratory, cardiology, eye care, etc and the many areas of personalized health.
-    ISO/TS 27790:2009 also references a number of companion standards-based specifications that offer optional extensions to enhance the basic capabilities offered by IHE XDS. It references the support of the following.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/TS 27790:2009 specifies a general purpose document registry framework for transmitting, storing and utilizing documents in clinical and personalized health environments. It is quite broad in its applicability to realise the goal of sharing health related documents spanning a broad spectrum of health domains such as healthcare specialities covering laboratory, cardiology, eye care, etc and the many areas of personalized health.
-    ISO/TS 27790:2009 also references a number of companion standards-based specifications that offer optional extensions to enhance the basic capabilities offered by IHE XDS. It references the support of the following.
+  content: 'ISO/TS 27790:2009 specifies a general purpose document registry framework
+    for transmitting, storing and utilizing documents in clinical and personalized
+    health environments. It is quite broad in its applicability to realise the goal
+    of sharing health related documents spanning a broad spectrum of health domains
+    such as healthcare specialities covering laboratory, cardiology, eye care, etc
+    and the many areas of personalized health. ISO/TS 27790:2009 also references a
+    number of companion standards-based specifications that offer optional extensions
+    to enhance the basic capabilities offered by IHE XDS. It references the support
+    of the following. An XDS extension supporting the fragmentation of the content
+    of the documents into two parts: a header fragment and a body fragment. This separation
+    scheme enhances confidentiality because the gathering both of header and body
+    and their relational information involves cracking into multiple repository servers.
+    This has been developed as an IHE Korean Extension on the IHE XDS Profile. A series
+    of security- and privacy-related IHE profiles, such as Patient Identification
+    Cross-Referencing (PIX), Patient Demographics Query (PDQ), Basic Patient Privacy
+    Consent (BPPC), Cross-Enterprise User Assertion (XUA).'
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2009'
   owner:
@@ -110,16 +111,16 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/CD TS 27790
+    formattedref:
+      content: ISO/TS 27790:2026
     docidentifier:
-    - content: ISO/CD TS 27790
+    - content: ISO/TS 27790:2026
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

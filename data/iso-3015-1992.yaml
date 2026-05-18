@@ -1,41 +1,37 @@
 ---
 id: ISO30151992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Petroleum products
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of cloud point
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Petroleum products - Determination of cloud point
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits pétroliers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination du point de trouble
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits pétroliers - Détermination du point de trouble
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/8095.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:8095:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/80/8095.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '3015'
 date:
 - type: published
-  at: 1992-08
+  at: '1992-08-27'
 contributor:
 - role:
   - type: publisher
@@ -90,11 +86,6 @@ abstract:
   content: The method specified applies to petroleum products which are transparent
     in layers 40 mm in thickness and have a cloud point below 49 °C. The use of this
     standard may involve hazardous materials, operations and equipment.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit une méthode de détermination du point de trouble des produits pétroliers qui sont limpides sous une épaisseur de 40 mm et dont le point de trouble est inférieur à 49 °C.
 status:
   stage:
     content: '95'
@@ -109,27 +100,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3015:1974
+    formattedref:
+      content: ISO/PWI 3015
     docidentifier:
-    - content: ISO 3015:1974
+    - content: ISO/PWI 3015
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3015:2019
+    formattedref:
+      content: ISO/NP 3015
+    docidentifier:
+    - content: ISO/NP 3015
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 3015:2019
     docidentifier:
     - content: ISO 3015:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-04-25'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3015:1974
+    docidentifier:
+    - content: ISO 3015:1974
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

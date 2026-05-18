@@ -1,38 +1,32 @@
 ---
 id: ISO762006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rolling bearings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Static load ratings
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Rolling bearings - Static load ratings
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Roulements
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Charges statiques de base
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Roulements - Charges statiques de base
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38101.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 76:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso:76:stage-90.93
+- content: urn:iso:std:iso:76:stage-90.60
   type: URN
 docnumber: '76'
 date:
 - type: published
-  at: 2006-05
+  at: '2006-05-05'
 contributor:
 - role:
   - type: publisher
@@ -88,23 +82,31 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 76:2006 specifies methods of calculating the basic static load rating and the static equivalent load for rolling bearings within the size ranges shown in the relevant ISO standards, manufactured from contemporary, commonly used, high quality, hardened bearing steel in accordance with good manufacturing practice and basically of conventional design as regards the shape of the rolling contact surfaces.
-    Calculations carried out in accordance with ISO 76:2006 do not yield satisfactory results for bearings in which, because of application conditions and/or internal design, there is a considerable truncation of the area of contact between the rolling elements and the ring raceways. The same limitation applies where application conditions cause deviations from a normal load distribution in the bearing, for example misalignment, preload or extra large clearance or where special surface treatment or coatings are used. Where there is reason to assume that such conditions prevail, the user should consult the bearing manufacturer for recommendations and the evaluation of the static equivalent load.
-    ISO 76:2006 is not applicable to designs where the rolling elements operate directly on a shaft or housing surface, unless that surface is equivalent in all respects to the bearing surface it replaces.
-    Double-row radial bearings and double-direction thrust bearings are, when referred to in ISO 76:2006, presumed to be symmetrical.
-    In addition, guidelines are given for static safety factors to be applied in heavy loaded applications.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 76:2006 spécifie des méthodes de calcul de la charge statique de base et de la charge statique équivalente de roulements dans les gammes de dimensions présentées dans les normes ISO correspondantes. Ces roulements sont réputés fabriqués par des méthodes éprouvées à partir d'un acier trempé de haute qualité couramment utilisé, et de conception classique en ce qui concerne la forme des surfaces de contact roulantes.
-    Des calculs conduits conformément à l'ISO 76:2006 ne donneront pas de résultats satisfaisants pour des roulements, dans lesquels, à cause des conditions d'application et/ou de conception interne, la surface de contact entre éléments roulants et chemins soit fortement tronquée. Il en sera de même si les conditions de fonctionnement perturbent la répartition normale des charges dans le roulement, par exemple défaut d'alignement, précharge ou jeu excessif, ou en cas de traitement de surface ou de revêtement particuliers. En pareil cas, il convient que l'utilisateur consulte le fabricant pour obtenir ses conseils sur l'évaluation de la charge statique équivalente.
-    L'ISO 76:2006 ne s'applique pas à des conceptions dans lesquelles les éléments roulants portent directement sur un arbre ou dans un logement, à moins que la surface de ces derniers ne soit à tous égards équivalente à celle du chemin qu'ils remplacent.
+  content: ISO 76:2006 specifies methods of calculating the basic static load rating
+    and the static equivalent load for rolling bearings within the size ranges shown
+    in the relevant ISO standards, manufactured from contemporary, commonly used,
+    high quality, hardened bearing steel in accordance with good manufacturing practice
+    and basically of conventional design as regards the shape of the rolling contact
+    surfaces. Calculations carried out in accordance with ISO 76:2006 do not yield
+    satisfactory results for bearings in which, because of application conditions
+    and/or internal design, there is a considerable truncation of the area of contact
+    between the rolling elements and the ring raceways. The same limitation applies
+    where application conditions cause deviations from a normal load distribution
+    in the bearing, for example misalignment, preload or extra large clearance or
+    where special surface treatment or coatings are used. Where there is reason to
+    assume that such conditions prevail, the user should consult the bearing manufacturer
+    for recommendations and the evaluation of the static equivalent load. ISO 76:2006
+    is not applicable to designs where the rolling elements operate directly on a
+    shaft or housing surface, unless that surface is equivalent in all respects to
+    the bearing surface it replaces. Double-row radial bearings and double-direction
+    thrust bearings are, when referred to in ISO 76:2006, presumed to be symmetrical.
+    In addition, guidelines are given for static safety factors to be applied in heavy
+    loaded applications.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '2006'
   owner:
@@ -112,37 +114,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 76:1987
+    formattedref:
+      content: ISO 76:1987
     docidentifier:
     - content: ISO 76:1987
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 76:1987/Amd 1:1999
+    formattedref:
+      content: ISO 76:1987/Amd 1:1999
     docidentifier:
     - content: ISO 76:1987/Amd 1:1999
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 76:2006/Amd 1:2017
-    docidentifier:
-    - content: ISO 76:2006/Amd 1:2017
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2020-09-28'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

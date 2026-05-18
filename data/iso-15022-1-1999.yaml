@@ -1,52 +1,44 @@
 ---
 id: ISO1502211999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Securities
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Scheme for messages (Data Field Dictionary)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Data field and message design rules and guidelines'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Securities - Scheme for messages (Data Field Dictionary) - Part 1: Data
     field and message design rules and guidelines'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Valeurs mobilières
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Schéma des messages (Dictionnaire des Champs de Données)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Règles de construction des champs de données et des messages
     et guide d''utilisation'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Valeurs mobilières - Schéma des messages (Dictionnaire des Champs de Données)
     - Partie 1: Règles de construction des champs de données et des messages et guide
     d''utilisation'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/25775.html
@@ -65,7 +57,7 @@ docidentifier:
 docnumber: '15022'
 date:
 - type: published
-  at: 1999-03
+  at: '1999-03-11'
 contributor:
 - role:
   - type: publisher
@@ -102,19 +94,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO 15022 consists of:-  the description of the Enhanced ISO 7775 syntax and message design rules;-  the contents and organization of the dictionary of Enhanced ISO 7775 and EDIFACT fields for securities messages; and-  the contents and organization of the catalogue of securities messages built in the Enhanced ISO 7775 and EDIFACT syntaxes.
-    It refers to the EDIFACT syntax when necessary to ensure an easy cross-reference between Enhanced ISO 7775 concepts and EDIFACT concepts. The EDIFACT syntax is not described in this part of ISO 15022; it is defined in ISO 9735 which is incorporated by reference.
-    This part of ISO 15022 is used for electronic data interchange between securities industry participants, independently of the communication network. Network dependent rules, for example, on how to specify where and when the message is to be sent, message acknowledgement and message protection are outside the scope of this part of ISO 15022.
-    The maintenance of this part of ISO 15022 is described in part 2 of ISO 15022.
-- language: fr
-  script: Latn
-  content: |-
-    La présente partie de l'ISO 15022 présente- une description des règles de création des messages et de la syntaxe de l'ISO 7775 améliorée;- le contenu et l’organisation du dictionnaire des champs de l'ISO 7775 améliorée et EDIFACT pour les messages relatifs aux valeurs mobilières;- le contenu et l’organisation du catalogue des messages relatifs aux valeurs mobilières élaborés à partir des syntaxes de l'ISO 7775 améliorée et EDIFACT.
-    Si nécessaire, elle se réfère à la syntaxe EDIFACT afin de faciliter les références croisées entre les conceptsspécifiques à l'ISO 7775 améliorée et ceux propres à EDIFACT. La présente partie de l'ISO 15022 ne décrit pas lasyntaxe EDIFACT: cette dernière est définie dans l'ISO 9735 à laquelle il est fait référence ici.
-    La présente partie de l'ISO 15022 concerne l’échange électronique de données entre les acteurs du secteur desvaleurs mobilières, indépendamment de tout réseau de communication. Ainsi, les règles permettant de définir lamanière et le moment où le message doit être envoyé, les accusés de réception et la protection des messages nefont pas partie du domaine d’application de la présente partie de l'ISO 15022 car elles dépendent du réseau.
-    La mise à jour de la présente partie de l'ISO 15022 est décrite dans la partie 2 de l'ISO 15022.
-    La présente partie de l'ISO 15022 contient des éléments de données liés à des dates où l'année est formatée enmoins de quatre chiffres. Le format de ces éléments de données sera considéré, et si nécessaire amendé, àl'occasion de la prochaine révision. En attendant, il est recommandé que les utilisateurs considèrent, dans lecontexte de leur mise en application de la présente partie de l'ISO 15022, toutes prescriptions d'amendement enrelation avec l'an 2000 et leur environnement des affaires.
+  content: This part of ISO 15022 consists of:-  the description of the Enhanced ISO
+    7775 syntax and message design rules;-  the contents and organization of the dictionary
+    of Enhanced ISO 7775 and EDIFACT fields for securities messages; and-  the contents
+    and organization of the catalogue of securities messages built in the Enhanced
+    ISO 7775 and EDIFACT syntaxes. It refers to the EDIFACT syntax when necessary
+    to ensure an easy cross-reference between Enhanced ISO 7775 concepts and EDIFACT
+    concepts. The EDIFACT syntax is not described in this part of ISO 15022; it is
+    defined in ISO 9735 which is incorporated by reference. This part of ISO 15022
+    is used for electronic data interchange between securities industry participants,
+    independently of the communication network. Network dependent rules, for example,
+    on how to specify where and when the message is to be sent, message acknowledgement
+    and message protection are outside the scope of this part of ISO 15022. The maintenance
+    of this part of ISO 15022 is described in part 2 of ISO 15022.
 status:
   stage:
     content: '90'
@@ -127,37 +119,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/TR 7775:1997
-    docidentifier:
-    - content: ISO/TR 7775:1997
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 11521:1996
+    formattedref:
+      content: ISO 11521:1996
     docidentifier:
     - content: ISO 11521:1996
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 15022-1:1999/Cor 1:1999
+    formattedref:
+      content: ISO/TR 7775:1997
     docidentifier:
-    - content: ISO 15022-1:1999/Cor 1:1999
+    - content: ISO/TR 7775:1997
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-03-28'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

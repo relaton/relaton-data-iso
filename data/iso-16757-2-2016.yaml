@@ -1,42 +1,35 @@
 ---
 id: ISO1675722016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Data structures for electronic product catalogues for building services
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Geometry'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Data structures for electronic product catalogues for building services
     - Part 2: Geometry'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Structures de données pour catalogues électroniques de produits pour les
     services du bâtiment
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Géométrie'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Structures de données pour catalogues électroniques de produits pour les
     services du bâtiment - Partie 2: Géométrie'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/62080.html
@@ -55,7 +48,7 @@ docidentifier:
 docnumber: '16757'
 date:
 - type: published
-  at: 2016-11
+  at: '2016-11-14'
 contributor:
 - role:
   - type: publisher
@@ -93,30 +86,26 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 16757-2:2016 describes the modelling of building services product geometry. The description is optimized for the interchange of product catalogue data and includes
-    -      shapes for representing the product itself,
-    -      symbolic shapes for the visualization of the product's function in schematic diagrams,
-    -      spaces for functional requirements,
-    -      surfaces for visualization, and
-    -      ports to represent connectivity between different objects.
-    The shape and space geometry is expressed as Constructive Solid Geometry (CSG) based on geometric primitives concatenated to boundary representations by Boolean operations. ISO 16757-2:2016 uses the applicable primitives from ISO 10303‑42 and from ISO 16739 and adds primitives which are required for the special geometry of building services products. For symbolic shapes, line elements are also used.
-    ISO 16757-2:2016 neither describes the inner structure and internal functionality of the product nor the manufacturing information because this is typically not published within a product catalogue.
-    Building services products can have millions of variant dimensions. To avoid the exchange of millions of geometries, a parametric model is introduced which allows the derivation of variant-specific geometries from the generic model. This is necessary to reduce the data to be exchanged in a catalogue to a manageable size. The parametric model will result in smaller data files, which can be easier transmitted during data exchanges.
-    The geometry model used does not contain any drawing information such as views, line styles or hatching.
-- language: fr
-  script: Latn
-  content: |-
-    La présente partie de l'ISO 16757 décrit la modélisation de la géométrie des produits pour les services du bâtiment. La description est optimisée pour l'échange de données de catalogues de produits et inclut:
-    —          les formes permettant de représenter le produit lui-même;
-    —          les formes symboliques pour la visualisation de la fonction du produit sous forme de schémas;
-    —          les espaces pour les exigences fonctionnelles;
-    —          les surfaces pour la visualisation; et
-    —          les interfaces pour représenter la connectivité entre différents objets.
-    La forme et la géométrie spatiale sont exprimées au moyen de la géométrie de construction de solides (CSG) sur la base de primitives géométriques concaténées en représentations de limites au moyen d'opérations booléennes. La présente partie de l'ISO 16757 utilise les primitives applicables tirées de l'ISO 10303-42 et de l'ISO 16739, et ajoute des primitives qui sont exigées pour la géométrie spéciale des produits pour les services du bâtiment. Des éléments linéaires sont également utilisés pour les formes symboliques.
-    La présente partie de l'ISO 16757 ne décrit pas la structure intérieure et la fonctionnalité interne du produit ni les informations de fabrication, car ces éléments ne sont généralement pas publiés dans un catalogue de produits.
-    Les produits pour les services du bâtiment peuvent avoir des millions de variantes de dimensions. Pour éviter l'échange de millions de géométries, un modèle paramétrique est introduit pour permettre la dérivation de géométries de variantes spécifiques à partir du modèle générique. Cela est nécessaire pour réduire la quantité de données à échanger dans un catalogue à une taille qu'il est possible de gérer. Le modèle paramétrique créera des fichiers de données de plus petite taille qui peuvent être plus facilement transmis au cours d'échanges de données.
-    Le modèle géométrique utilisé ne contient aucune information de dessin, comme des vues, des styles de traits ou des hachures.
+  content: ISO 16757-2:2016 describes the modelling of building services product geometry.
+    The description is optimized for the interchange of product catalogue data and
+    includes - shapes for representing the product itself, - symbolic shapes for the
+    visualization of the product's function in schematic diagrams, - spaces for functional
+    requirements, - surfaces for visualization, and - ports to represent connectivity
+    between different objects. The shape and space geometry is expressed as Constructive
+    Solid Geometry (CSG) based on geometric primitives concatenated to boundary representations
+    by Boolean operations. ISO 16757-2:2016 uses the applicable primitives from ISO
+    10303‑42 and from ISO 16739 and adds primitives which are required for the special
+    geometry of building services products. For symbolic shapes, line elements are
+    also used. ISO 16757-2:2016 neither describes the inner structure and internal
+    functionality of the product nor the manufacturing information because this is
+    typically not published within a product catalogue. Building services products
+    can have millions of variant dimensions. To avoid the exchange of millions of
+    geometries, a parametric model is introduced which allows the derivation of variant-specific
+    geometries from the generic model. This is necessary to reduce the data to be
+    exchanged in a catalogue to a manageable size. The parametric model will result
+    in smaller data files, which can be easier transmitted during data exchanges.
+    The geometry model used does not contain any drawing information such as views,
+    line styles or hatching.
 status:
   stage:
     content: '90'
@@ -129,9 +118,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -141,5 +130,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      part: 2
-      content: ISO 16757
+      content: '62080'

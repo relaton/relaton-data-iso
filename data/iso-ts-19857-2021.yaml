@@ -1,32 +1,42 @@
 ---
 id: ISOTS198572021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
-  content: Paper, board and printing inks – Printability – Laboratory test method
-    for offset ink setting
-  type: title-main
-  format: text/plain
+  content: Paper, board and printing inks
+  type: title-intro
 - language: en
   script: Latn
-  content: Paper, board and printing inks – Printability – Laboratory test method
+  content: Printability
+  type: title-main
+- language: en
+  script: Latn
+  content: Laboratory test method for offset ink setting
+  type: title-part
+- language: en
+  script: Latn
+  content: Paper, board and printing inks - Printability - Laboratory test method
     for offset ink setting
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Papier, carton et encres d'impression – Imprimabilité – Méthode d'essai
-    de laboratoire pour le séchage de l'encre offset
+  content: Papier, carton et encres d'impression
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Imprimabilité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Papier, carton et encres d'impression – Imprimabilité – Méthode d'essai
+  content: Méthode d'essai de laboratoire pour le séchage de l'encre offset
+  type: title-part
+- language: fr
+  script: Latn
+  content: Papier, carton et encres d'impression - Imprimabilité - Méthode d'essai
     de laboratoire pour le séchage de l'encre offset
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/77220.html
@@ -40,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 19857:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:19857:stage-90.93
+- content: urn:iso:std:iso:ts:19857:stage-90.92
   type: URN
 docnumber: '19857'
 date:
 - type: published
-  at: 2021-06
+  at: '2021-06-25'
 contributor:
 - role:
   - type: publisher
@@ -76,53 +86,68 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document describes a laboratory test method, using an IGT1-type or a prüfbau2-type printability tester, for the preparation of specimens to evaluate the absorption rate of an ink on a substrate in offset lithography by setting-off the printed surface to an unprinted surface.
-    This method describes testing with an amount of ink simulating either single colour or multi-colour printing. The print and the set-off print (counter print) are made with interval times, between print and set-off, common for the target process.
-    This method evaluates a particular ink and substrate combination.
-     
-    1These materials are available from IGT Testing Systems, www.igt.nl. This information is given for the convenience of the users of this document and does not constitute an endorsement by ISO of the products. Equivalent products may be used if they can be shown to lead to the same results.
-    2These materials are available from prüfbau, Dr.-Ing. H. Dürner GmbH, www.pruefbau.de. This information is given for the convenience of the users of this document and does not constitute an endorsement by ISO of the products. Equivalent products may be used if they can be shown to lead to the same results.
-- language: fr
-  script: Latn
-  content: |-
-    This document describes a laboratory test method, using an IGT1-type or a prüfbau2-type printability tester, for the preparation of specimens to evaluate the absorption rate of an ink on a substrate in offset lithography by setting-off the printed surface to an unprinted surface.
-    This method describes testing with an amount of ink simulating either single colour or multi-colour printing. The print and the set-off print (counter print) are made with interval times, between print and set-off, common for the target process.
-    This method evaluates a particular ink and substrate combination.
-     
-    1These materials are available from IGT Testing Systems, www.igt.nl. This information is given for the convenience of the users of this document and does not constitute an endorsement by ISO of the products. Equivalent products may be used if they can be shown to lead to the same results.
-    2These materials are available from prüfbau, Dr.-Ing. H. Dürner GmbH, www.pruefbau.de. This information is given for the convenience of the users of this document and does not constitute an endorsement by ISO of the products. Equivalent products may be used if they can be shown to lead to the same results.
+  content: This document describes a laboratory test method, using an IGT1-type or
+    a prüfbau2-type printability tester, for the preparation of specimens to evaluate
+    the absorption rate of an ink on a substrate in offset lithography by setting-off
+    the printed surface to an unprinted surface. This method describes testing with
+    an amount of ink simulating either single colour or multi-colour printing. The
+    print and the set-off print (counter print) are made with interval times, between
+    print and set-off, common for the target process. This method evaluates a particular
+    ink and substrate combination.   1These materials are available from IGT Testing
+    Systems, www.igt.nl. This information is given for the convenience of the users
+    of this document and does not constitute an endorsement by ISO of the products.
+    Equivalent products may be used if they can be shown to lead to the same results.
+    2These materials are available from prüfbau, Dr.-Ing. H. Dürner GmbH, www.pruefbau.de.
+    This information is given for the convenience of the users of this document and
+    does not constitute an endorsement by ISO of the products. Equivalent products
+    may be used if they can be shown to lead to the same results.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2021'
   owner:
   - organization:
       name:
       - content: ISO/TS
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/AWI TS 19857-1
+    docidentifier:
+    - content: ISO/AWI TS 19857-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD TS 19857-2
+    docidentifier:
+    - content: ISO/CD TS 19857-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: '85.060'
-    text: Paper and board
-  - code: '87.080'
-    text: Inks. Printing inks
   - code: 37.100.20
     text: Materials for graphic technology
+  - code: '87.080'
+    text: Inks. Printing inks
+  - code: '85.060'
+    text: Paper and board
   structuredidentifier:
     type: ISO
     project_number:

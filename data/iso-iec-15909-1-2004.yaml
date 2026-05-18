@@ -1,53 +1,47 @@
 ---
 id: ISOIEC1590912004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Systems and software engineering
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: High-level Petri nets
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Concepts, definitions and graphical notation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Systems and software engineering - High-level Petri nets - Part 1: Concepts,
     definitions and graphical notation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ingénierie des systèmes et du logiciel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Réseaux de Petri de haut niveau
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Concepts, définitions et notation graphique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Ingénierie des systèmes et du logiciel - Réseaux de Petri de haut niveau
     - Partie 1: Concepts, définitions et notation graphique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38225.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:38225:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/82/38225.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '15909'
 date:
 - type: published
-  at: 2004-12
+  at: '2004-12-02'
 contributor:
 - role:
   - type: publisher
@@ -101,28 +95,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO/IEC 15909-1:2004 defines a semi-graphical modelling language for the
-    specification, design and analysis of discrete event systems, including software
-    and in particular distributed and parallel systems where concurrency is an important
-    characteristic. The technique, High-level Petri Nets, is mathematically defined
-    and may thus be used to provide unambiguous specifications and descriptions of
-    applications. The graphical nature of the technique allows information, or resource
-    flow, and control flow to be visualised, providing a powerful aid to understanding
-    system behaviour. It is also an executable technique, allowing specification prototypes
-    to be developed to test ideas at the earliest and cheapest opportunity. Specifications
-    written in the technique may be subjected to analysis methods to prove properties
-    about the specifications, before implementation commences, thus saving on testing
-    and maintenance time. The field of application encompasses a wide range of systems
-    from technical systems such as manufacturing, business processes, computer software
-    and hardware, telecommunication networks and signalling systems, defence systems,
-    mechatronics, postal services and avionics to biological and sociotechnical systems.
-- language: fr
   script: Latn
   content: ISO/IEC 15909-1:2004 defines a semi-graphical modelling language for the
     specification, design and analysis of discrete event systems, including software
@@ -151,32 +127,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15909-1:2019
+    formattedref:
+      content: ISO/IEC CD 15909-1
+    docidentifier:
+    - content: ISO/IEC CD 15909-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 15909-1:2019
     docidentifier:
     - content: ISO/IEC 15909-1:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-08-27'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 15909-1:2004/Amd 1:2010
-    docidentifier:
-    - content: ISO/IEC 15909-1:2004/Amd 1:2010
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2019-08-27'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

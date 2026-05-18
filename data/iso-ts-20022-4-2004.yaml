@@ -1,53 +1,47 @@
 ---
 id: ISOTS2002242004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: UNIversal Financial Industry message scheme
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: ISO 20022 XML design rules'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Financial services - UNIversal Financial Industry message scheme - Part
     4: ISO 20022 XML design rules'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Schéma universel de messages pour l'industrie financière
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Règles conceptuelles ISO 20022 XML'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Services financiers - Schéma universel de messages pour l''industrie financière
     - Partie 4: Règles conceptuelles ISO 20022 XML'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41128.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41128:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/11/41128.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '20022'
 date:
 - type: published
-  at: 2004-12
+  at: '2004-12-02'
 contributor:
 - role:
   - type: publisher
@@ -92,24 +86,28 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    XML is a technical standard defined by the World Wide Web Consortium (W3C) that can be used for the physical representation (i.e. the syntax) of standardized ISO 20022 Messages. XML leaves a lot of freedom for the exact way it is used in a particular application. Therefore, merely stating that XML is used is not sufficient to guarantee predictability; one must also explain how it will be used.
-    ISO/TS 20022-4:2004 contains a set of XML design rules, called ISO 20022 XML. These design rules define how a standardized Message - described by a Message Definition in UML according to the Modelling Guidelines of ISO/TS 20022-3 - must be represented as a valid ISO 20022 compliant XML document.
-    A valid XML document (referred to as an "XML instance") as defined by W3C is any XML document that has an associated description and that complies with the constraints expressed in that description. The associated description in this case is derived from the Message Definition, which is originally described in UML.
-    ISO/TS 20022-4:2004 also describes how (a part of) the UML Message Definition can be converted into a W3C XML Schema. This XML schema will then make it possible to use a validating XML schema parser to automatically verify that a given XML instance complies with (a subset of) the constraints described in the Message Definition.
-- language: fr
-  script: Latn
-  content: |-
-    XML is a technical standard defined by the World Wide Web Consortium (W3C) that can be used for the physical representation (i.e. the syntax) of standardized ISO 20022 Messages. XML leaves a lot of freedom for the exact way it is used in a particular application. Therefore, merely stating that XML is used is not sufficient to guarantee predictability; one must also explain how it will be used.
-    ISO/TS 20022-4:2004 contains a set of XML design rules, called ISO 20022 XML. These design rules define how a standardized Message - described by a Message Definition in UML according to the Modelling Guidelines of ISO/TS 20022-3 - must be represented as a valid ISO 20022 compliant XML document.
-    A valid XML document (referred to as an "XML instance") as defined by W3C is any XML document that has an associated description and that complies with the constraints expressed in that description. The associated description in this case is derived from the Message Definition, which is originally described in UML.
-    ISO/TS 20022-4:2004 also describes how (a part of) the UML Message Definition can be converted into a W3C XML Schema. This XML schema will then make it possible to use a validating XML schema parser to automatically verify that a given XML instance complies with (a subset of) the constraints described in the Message Definition.
+  content: XML is a technical standard defined by the World Wide Web Consortium (W3C)
+    that can be used for the physical representation (i.e. the syntax) of standardized
+    ISO 20022 Messages. XML leaves a lot of freedom for the exact way it is used in
+    a particular application. Therefore, merely stating that XML is used is not sufficient
+    to guarantee predictability; one must also explain how it will be used. ISO/TS
+    20022-4:2004 contains a set of XML design rules, called ISO 20022 XML. These design
+    rules define how a standardized Message - described by a Message Definition in
+    UML according to the Modelling Guidelines of ISO/TS 20022-3 - must be represented
+    as a valid ISO 20022 compliant XML document. A valid XML document (referred to
+    as an "XML instance") as defined by W3C is any XML document that has an associated
+    description and that complies with the constraints expressed in that description.
+    The associated description in this case is derived from the Message Definition,
+    which is originally described in UML. ISO/TS 20022-4:2004 also describes how (a
+    part of) the UML Message Definition can be converted into a W3C XML Schema. This
+    XML schema will then make it possible to use a validating XML schema parser to
+    automatically verify that a given XML instance complies with (a subset of) the
+    constraints described in the Message Definition.
 status:
   stage:
     content: '95'
@@ -122,21 +120,18 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 20022-4:2013
+    formattedref:
+      content: ISO 20022-4:2013
     docidentifier:
     - content: ISO 20022-4:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-05-07'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

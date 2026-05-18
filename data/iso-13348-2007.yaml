@@ -1,40 +1,34 @@
 ---
 id: ISO133482007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial fans
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Tolerances, methods of conversion and technical data presentation
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Industrial fans - Tolerances, methods of conversion and technical data
     presentation
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ventilateurs industriels
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Tolérances, méthodes de conversion et présentation des données techniques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Ventilateurs industriels - Tolérances, méthodes de conversion et présentation
     des données techniques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45118.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 13348:2007(E)
   type: iso-reference
-- content: urn:iso:std:iso:13348:stage-90.92
+- content: urn:iso:std:iso:13348:stage-95.99
   type: URN
 docnumber: '13348'
 date:
 - type: published
-  at: 2007-01
+  at: '2007-01-15'
 contributor:
 - role:
   - type: publisher
@@ -90,23 +84,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 13348:2007 specifies performance tolerances and the technical data
+  content: 'ISO 13348:2007 specifies performance tolerances and the technical data
     presentation of industrial fans of all types. It does not apply for fans designed
     solely for low-volume air circulation, such as those used for household or similar
-    purposes (ceiling and table fans, extractor fans, etc.). \nISO 13348:2007 covers
+    purposes (ceiling and table fans, extractor fans, etc.). ISO 13348:2007 covers
     the four installation categories defined in ISO 5801: A, free inlet, free outlet;
     B, free inlet, ducted outlet; C, ducted inlet, free outlet; D, ducted inlet, ducted
-    outlet."
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 13348:2007 spécifie les tolérances sur les performances et la présentation des données techniques des ventilateurs industriels de tous types. Elle ne s'applique pas aux ventilateurs conçus uniquement pour le brassage de l'air, tels que ceux utilisés pour les besoins domestiques et analogues (par exemple, ventilateurs plafonniers ou de table, ventilateurs d'extraction, etc.).
-    L'ISO 13348:2007 couvre les quatre catégories d'installation définies dans l'ISO 5801: A, aspiration libre, refoulement libre; B, aspiration libre, refoulement en conduit, C, aspiration en conduit, refoulement libre, D, aspiration en conduit, refoulement en conduit.
+    outlet.'
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2007'
   owner:
@@ -116,27 +105,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13348:2006
+    formattedref:
+      content: ISO/CD 13348
     docidentifier:
-    - content: ISO 13348:2006
+    - content: ISO/CD 13348
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 13348:2025
+    docidentifier:
+    - content: ISO 13348:2025
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 13348
+    formattedref:
+      content: ISO 13348:2006
     docidentifier:
-    - content: ISO 13348
+    - content: ISO 13348:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-08-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

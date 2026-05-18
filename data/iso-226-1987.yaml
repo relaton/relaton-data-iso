@@ -1,41 +1,37 @@
 ---
 id: ISO2261987
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Acoustics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Normal equal-loudness level contours
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Acoustics - Normal equal-loudness level contours
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acoustique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes isosoniques normales
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acoustique - Lignes isosoniques normales
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4100.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4100:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/41/4100.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '226'
 date:
 - type: published
-  at: 1987-05
+  at: '1987-05-07'
 contributor:
 - role:
   - type: publisher
@@ -90,22 +86,6 @@ abstract:
     frequencies of pure sinusoidal continuous tones in several conditions. These relations
     are expressed as curves and represent a fundamental property of the human auditory
     system.
-- language: fr
-  script: Latn
-  content: " La présente Norme internationale spécifie la relation entre\n  le niveau
-    de pression acoustique et la fréquence de sons purs (sinusoïdaux)\n  continus,
-    dans des conditions de niveaux d'isosonie constants, dans les conditions\n  suivantes
-    : \na) la source de bruit fait face directement à l'auditeur (incidence\n  frontale);
-    \nb) le champ acoustique en l'absence de l'auditeur est une onde plane progressive\n
-    \ libre; \nc) le niveau de pression acoustique est mesuré dans l'onde plane progressive\n
-    \ libre en l'absence de l'auditeur; \nd) l'écoute est binauriculaire; \ne) les
-    conditions d'isosonie sont déterminées par la valeur modale\n  des jugements d'un
-    nombre suffisamment important d'auditeurs; \nf) les auditeurs sont des sujets
-    otologiquement normaux âgés de\n  18 à 30 ans inclusivement.\nLa relation est
-    exprimée au moyen d'une équation bilinéaire,\n  le niveau de pression acoustique
-    étant la variable indépendante\n  et le niveau de sonie la variable dépendante,
-    pour les fréquences\n  préférentielles de tiers d\x92octave comprises entre 20
-    et 12\n  500 Hz inclusivement."
 status:
   stage:
     content: '95'
@@ -120,27 +100,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/R 226:1961
-    docidentifier:
-    - content: ISO/R 226:1961
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 226:2003
+    formattedref:
+      content: ISO 226:2003
     docidentifier:
     - content: ISO 226:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2003-08-21'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 226
+    docidentifier:
+    - content: ISO/WD 226
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/R 226:1961
+    docidentifier:
+    - content: ISO/R 226:1961
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

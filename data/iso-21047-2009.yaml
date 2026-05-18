@@ -1,42 +1,38 @@
 ---
 id: ISO210472009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International Standard Text Code (ISTC)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - International Standard Text Code (ISTC)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Code international normalisé des  textes (ISTC)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Code international normalisé des  textes
     (ISTC)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41603.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41603:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/16/41603.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '21047'
 date:
 - type: published
-  at: 2009-03
+  at: '2009-03-09'
 contributor:
 - role:
   - type: publisher
@@ -87,14 +83,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 21047 specifies the International Standard Text Code (ISTC) which is applicable to any textual work, whenever there is an intention to produce such a textual work in the form of one or more manifestations. It provides an identification data element for applications that record and exchange information about textual works and related manifestations. For example, the ISTC can be used for the purposes of collocating subsequent manifestations of the same textual work or derivations of the same textual work in applications involving electronic rights administration or information retrieval.
-    The ISTC is not applicable to manifestations of a textual work, including any physical products (e.g. a printed article) or electronic formats (e.g. an electronic book). Manifestations of textual works are the subject of separate identification systems.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 21047:2009 spécifie le code international normalisé des textes (ISTC) qui s'applique à toute œuvre textuelle, dès lors qu'il y a intention de produire une œuvre textuelle de ce type sous la forme d'une ou de plusieurs manifestations. Elle fournit un élément de données d'identification pour les applications qui permettent d'enregistrer et d'échanger des informations concernant les œuvres textuelles et les manifestations qui leur sont associées.
-    L'ISTC ne s'applique pas aux manifestations d'une œuvre textuelle, qui recouvrent tout produit matériel (par exemple un article imprimé) ou tout format électronique (par exemple un livre électronique). Les manifestations textuelles font l'objet de systèmes distincts d'identification.
+  content: ISO 21047 specifies the International Standard Text Code (ISTC) which is
+    applicable to any textual work, whenever there is an intention to produce such
+    a textual work in the form of one or more manifestations. It provides an identification
+    data element for applications that record and exchange information about textual
+    works and related manifestations. For example, the ISTC can be used for the purposes
+    of collocating subsequent manifestations of the same textual work or derivations
+    of the same textual work in applications involving electronic rights administration
+    or information retrieval. The ISTC is not applicable to manifestations of a textual
+    work, including any physical products (e.g. a printed article) or electronic formats
+    (e.g. an electronic book). Manifestations of textual works are the subject of
+    separate identification systems.
 status:
   stage:
     content: '95'
@@ -106,10 +105,19 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 21047
+    docidentifier:
+    - content: ISO/WD 21047
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

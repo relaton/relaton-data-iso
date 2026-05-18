@@ -1,39 +1,33 @@
 ---
 id: ISO28132014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints and varnishes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of gloss value at 20°, 60° and 85°
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints and varnishes - Determination of gloss value at 20°, 60° and 85°
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de l'indice de brillance à 20°, 60° et 85°
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis - Détermination de l'indice de brillance à 20°, 60°
     et 85°
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/56807.html
@@ -52,7 +46,7 @@ docidentifier:
 docnumber: '2813'
 date:
 - type: published
-  at: 2014-10
+  at: '2014-09-18'
 contributor:
 - role:
   - type: publisher
@@ -84,20 +78,16 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
   content: ISO 2813:2014 specifies a method for determining the gloss of coatings
     using the three geometries of 20°, 60° or 85°. The method is suitable for the
     gloss measurement of non-textured coatings on plane, opaque substrates.
-- language: fr
-  script: Latn
-  content: 'L''ISO 2813:2014 spécifie une méthode pour la détermination de l''indice
-    de brillance des revêtements selon trois géométries: 20°, 60° ou 85°. La méthode
-    convient pour le mesurage du brillant de revêtements non texturés sur des subjectiles
-    plans et opaques.'
 status:
   stage:
     content: '90'
@@ -112,24 +102,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2813:1994
+    formattedref:
+      content: ISO/WD 2813
+    docidentifier:
+    - content: ISO/WD 2813
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2813:1994
     docidentifier:
     - content: ISO 2813:1994
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 2813:1994/Cor 1:1997
+    formattedref:
+      content: ISO 2813:1994/Cor 1:1997
     docidentifier:
     - content: ISO 2813:1994/Cor 1:1997
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

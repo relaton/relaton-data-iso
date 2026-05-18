@@ -1,37 +1,35 @@
 ---
 id: ISO166782014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Guidelines for interoperable object identification and related authentication
     systems to deter counterfeiting and illicit trade
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Guidelines for interoperable object identification and related authentication
     systems to deter counterfeiting and illicit trade
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes directrices pour l'identification interopérable d'objets et systèmes
     d'authentification associés destinés à décourager la contrefaçon et le commerce
     illicite
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes directrices pour l'identification interopérable d'objets et systèmes
     d'authentification associés destinés à décourager la contrefaçon et le commerce
     illicite
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/57391.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:57391:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/73/57391.detail.rss
 docidentifier:
@@ -45,7 +43,7 @@ docidentifier:
 docnumber: '16678'
 date:
 - type: published
-  at: 2014-07
+  at: '2014-07-07'
 contributor:
 - role:
   - type: publisher
@@ -77,45 +75,27 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 16678:2014 describes framework for identification and authentication systems. It provides recommendations and best practice guidance that include:
-    - consequences and guidance of
-
-    management and verification of identifiers,
-    physical expression of identifiers, and
-    participants' due diligence;
-
-
-    - vetting of all participants within the system;
-    - relationship between the unique identifier and possible authentication elements related to it;
-    - questions that deal with the identification of the inspector and any authorized access to privileged information about the object; and
-    - inspector access history (logs).
-    Accordingly, ISO 16678:2014 establishes a framework and outlines functional units used to achieve trustworthiness and interoperability of such systems.
-    It does not specify any specific technical solutions, but instead describes processes, functions, and functional units using a generic model to illustrate what solutions have in common.
-    Object identification systems can incorporate other functions and features such as supply chain traceability, quality traceability, marketing activities, and others, but these aspects are out of scope of ISO 16678:2014.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 16678:2014 décrit le cadre relatif aux systèmes d'identification et d'authentification. Elle fournit des recommandations et des lignes directrices de bonne pratique concernant les points suivants:
-    - conséquences et lignes directrices relatives à
-
-    la gestion et la vérification des identificateurs,
-    l'expression physique des identificateurs, et
-    la diligence raisonnable des participants;
-
-
-    - filtrage de tous les participants intégrés au système;
-    - relation entre l'identificateur unique et les éventuels éléments d'authentification qui lui sont associés;
-    - questions relatives à l'identification du contrôleur et à tout accès autorisé à des informations protégées concernant l'objet; et
-    - historique (journaux) d'accès des contrôleurs.
-    En conséquence, l'ISO 16678:2014 établit un cadre et décrit les unités fonctionnelles utilisées pour obtenir la fiabilité et l'interopérabilité de ces systèmes.
-    Elle ne spécifie pas de solutions techniques spécifiques, mais décrit les processus, les fonctions et les unités fonctionnelles en utilisant un modèle générique pour illustrer ce que les différentes solutions ont en commun.
-    Les systèmes d'identification des objets peuvent incorporer d'autres fonctions et caractéristiques telles que la traçabilité de la chaîne d'approvisionnement, la traçabilité de la qualité, les activités de commercialisation et autres, mais ces aspects ne relèvent pas du domaine d'application des présentes lignes directrices.
+  content: 'ISO 16678:2014 describes framework for identification and authentication
+    systems. It provides recommendations and best practice guidance that include:
+    consequences and guidance of management and verification of identifiers, physical
+    expression of identifiers, and participants'' due diligence; vetting of all participants
+    within the system; relationship between the unique identifier and possible authentication
+    elements related to it; questions that deal with the identification of the inspector
+    and any authorized access to privileged information about the object; and inspector
+    access history (logs). Accordingly, ISO 16678:2014 establishes a framework and
+    outlines functional units used to achieve trustworthiness and interoperability
+    of such systems. It does not specify any specific technical solutions, but instead
+    describes processes, functions, and functional units using a generic model to
+    illustrate what solutions have in common. Object identification systems can incorporate
+    other functions and features such as supply chain traceability, quality traceability,
+    marketing activities, and others, but these aspects are out of scope of ISO 16678:2014.'
 status:
   stage:
     content: '95'
@@ -128,21 +108,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 22378:2022
+    formattedref:
+      content: ISO/PWI 16678-2
+    docidentifier:
+    - content: ISO/PWI 16678-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 22378:2022
     docidentifier:
     - content: ISO 22378:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-12-08'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

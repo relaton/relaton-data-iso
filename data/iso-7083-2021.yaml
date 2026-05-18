@@ -1,50 +1,42 @@
 ---
 id: ISO70832021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Technical product documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Symbols used in technical product documentation
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Proportions and dimensions
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Technical product documentation - Symbols used in technical product documentation
     - Proportions and dimensions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation technique de produits
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Symboles utilisés dans la documentation technique de produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Proportions et dimensions
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation technique de produits - Symboles utilisés dans la documentation
     technique de produits - Proportions et dimensions
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/66740.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 7083:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:7083:stage-60.60
+- content: urn:iso:std:iso:7083:stage-90.20
   type: URN
 docnumber: '7083'
 date:
 - type: published
-  at: 2021-05
+  at: '2021-05-14'
 contributor:
 - role:
   - type: publisher
@@ -100,21 +92,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the recommended proportions for the symbols used in technical product documentation. It gives recommended dimensions based on the grid related to the line width to be used.
-    This document does not apply to symbols used in process plant documentation, which are covered in ISO 81714-1.
-    The proportions of the symbols are based on the standard heights of lettering given in ISO 3098-1.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie les proportions recommandées pour les symboles utilisés dans la documentation technique de produits. Il donne des dimensions recommandées en fonction de la grille liée à la largeur de trait à utiliser.
-    Le présent document ne s’applique pas aux symboles utilisés dans la documentation des installations de procédé qui sont couverts dans l’ISO 81714-1.
-    Les proportions des symboles sont basées sur les hauteurs standard d’écriture données dansl’ISO 3098‑1.
+  content: This document specifies the recommended proportions for the symbols used
+    in technical product documentation. It gives recommended dimensions based on the
+    grid related to the line width to be used. This document does not apply to symbols
+    used in process plant documentation, which are covered in ISO 81714-1. The proportions
+    of the symbols are based on the standard heights of lettering given in ISO 3098-1.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -124,16 +111,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7083:1983
+    formattedref:
+      content: ISO/PWI 7083
+    docidentifier:
+    - content: ISO/PWI 7083
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 7083:1983
     docidentifier:
     - content: ISO 7083:1983
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISO1021990
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aircraft
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Gravity filling orifices
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Aircraft - Gravity filling orifices
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Orifices de remplissage par gravité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs - Orifices de remplissage par gravité
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/3771.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '102'
 date:
 - type: published
-  at: 1990-07
+  at: '1990-06-20'
 contributor:
 - role:
   - type: publisher
@@ -90,10 +84,6 @@ abstract:
   script: Latn
   content: Specifies the minimum internal diameters of the orifice for fuel, lubricants
     and other fluids.
-- language: fr
-  script: Latn
-  content: Specifies the minimum internal diameters of the orifice for fuel, lubricants
-    and other fluids.
 status:
   stage:
     content: '90'
@@ -108,24 +98,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 102:1976
+    formattedref:
+      content: ISO/DIS 102
+    docidentifier:
+    - content: ISO/DIS 102
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 102:1976
     docidentifier:
     - content: ISO 102:1976
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '49.080'
-    text: Aerospace fluid systems and components
   - code: '49.100'
     text: Ground service and maintenance equipment
+  - code: '49.080'
+    text: Aerospace fluid systems and components
   structuredidentifier:
     type: ISO
     project_number:

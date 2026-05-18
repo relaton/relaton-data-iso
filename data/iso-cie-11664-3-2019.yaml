@@ -1,38 +1,32 @@
 ---
 id: ISOCIE1166432019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Colorimetry
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: CIE tristimulus values'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Colorimetry - Part 3: CIE tristimulus values'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Colorimétrie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Composantes trichromatiques CIE'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Colorimétrie - Partie 3: Composantes trichromatiques CIE'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74165.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '11664'
 date:
 - type: published
-  at: 2019-06
+  at: '2019-06-12'
 contributor:
 - role:
   - type: publisher
@@ -80,7 +74,7 @@ contributor:
     - content: " International Commission on Illumination"
     subdivision:
     - name:
-      - content: International Commission on Illumination
+      - content: CIE
       identifier:
       - content: CIE
       type: technical-committee
@@ -97,18 +91,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies methods of calculating the tristimulus values of colour stimuli for which the spectral distributions are provided. These colour stimuli can be produced by self-luminous light sources or by reflecting or transmitting objects.
-    This document requires that the colour stimulus function be tabulated at measurement intervals of 5 nm or less in a wavelength range of at least 380 nm to 780 nm. Extrapolation methods are suggested for cases where the measured wavelength range is less than 380 nm to 780 nm.
-    The standard method is defined as summation at 1 nm intervals over the wavelength range from 360 nm to 830 nm. Alternative abridged methods are defined for larger intervals (up to 5 nm) and shorter ranges (down to 380 nm to 780 nm). The alternative methods are to be used only when appropriate and when the user has reviewed the impact on the final results.
-    This document can be used in conjunction with the CIE 1931 standard colorimetric observer or the CIE 1964 standard colorimetric observer.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie les méthodes de calcul des composantes trichromatiques des stimulus de couleur dont les répartitions spectrales sont disponibles. Ces stimulus de couleur peuvent être produits par des sources primaires de lumière ou par des objets qui réfléchissent ou qui transmettent la lumière.
-    Le présent document impose que la fonction de répartition spectrale du stimulus étudié soit donnée à des intervalles de mesure de 5 nm, ou à des intervalles plus faibles, dans un domaine de longueurs d'onde s'étendant au moins de 380 nm à 780 nm. Des méthodes d'extrapolation sont suggérées dans les cas où le domaine de longueurs d'onde mesuré est moindre que de 380 nm à 780 nm.
-    La méthode normalisée est définie comme une sommation à des intervalles de 1 nm sur un domaine de longueurs d'onde compris entre 360 nm et 830 nm. Des méthodes alternatives simplifiées sont définies pour des intervalles plus grands (jusqu'à 5 nm) et des domaines plus réduits (limités de 380 nm à 780 nm). Ces méthodes alternatives ne sont à utiliser que si leur emploi le nécessite et si l'utilisateur a évalué leur impact sur les résultats définitifs.
-    Le présent document peut être utilisé en liaison soit avec l'observateur CIE 1931 de référence pour la colorimétrie, soit avec l'observateur CIE 1964 de référence pour la colorimétrie.
+  content: This document specifies methods of calculating the tristimulus values of
+    colour stimuli for which the spectral distributions are provided. These colour
+    stimuli can be produced by self-luminous light sources or by reflecting or transmitting
+    objects. This document requires that the colour stimulus function be tabulated
+    at measurement intervals of 5 nm or less in a wavelength range of at least 380
+    nm to 780 nm. Extrapolation methods are suggested for cases where the measured
+    wavelength range is less than 380 nm to 780 nm. The standard method is defined
+    as summation at 1 nm intervals over the wavelength range from 360 nm to 830 nm.
+    Alternative abridged methods are defined for larger intervals (up to 5 nm) and
+    shorter ranges (down to 380 nm to 780 nm). The alternative methods are to be used
+    only when appropriate and when the user has reviewed the impact on the final results.
+    This document can be used in conjunction with the CIE 1931 standard colorimetric
+    observer or the CIE 1964 standard colorimetric observer.
 status:
   stage:
     content: '90'
@@ -123,24 +118,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11664-3:2012
-    docidentifier:
-    - content: ISO 11664-3:2012
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/CIE CD 11664-3
+    formattedref:
+      content: ISO/CIE CD 11664-3
     docidentifier:
     - content: ISO/CIE CD 11664-3
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11664-3:2012
+    docidentifier:
+    - content: ISO 11664-3:2012
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

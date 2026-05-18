@@ -1,30 +1,26 @@
 ---
 id: ISO67092022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Standard representation of geographic point location by coordinates
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Standard representation of geographic point location by coordinates
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation normalisée de la localisation des points géographiques par
     coordonnées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation normalisée de la localisation des points géographiques par
     coordonnées
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/75147.html
@@ -43,7 +39,7 @@ docidentifier:
 docnumber: '6709'
 date:
 - type: published
-  at: 2022-09
+  at: '2022-09-27'
 contributor:
 - role:
   - type: publisher
@@ -80,16 +76,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the representation of latitude and longitude and optionally height or depth compatible with previous editions of ISO 6709.
-    This document also supports the representations of other coordinate types and time that can be associated with those coordinates as defined through one or more coordinate reference systems (CRS).
-    This document describes a text string of coordinates, suitable for electronic data exchange, for one point, including reference system identification to ensure that the coordinates unambiguously represent the position of that point. Files containing multiple points with a single common reference system identification are out of scope. This document also describes a simpler text string structure for coordinate representation of a point location that is more suitable for human readability.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie la représentation de la latitude et la longitude, et, facultativement, de la hauteur ou de la profondeur compatible avec les versions précédentes de l'ISO 6709.
-    Le présent document prend également en charge les représentations d'autres types de coordonnées et de temps qui peuvent être associées à ces coordonnées, telles que définies par un ou plusieurs systèmes de référence de coordonnées (CRS, Coordinate Reference System).
-    Le présent document décrit une chaîne de texte de coordonnées, adaptée à l'échange de données électroniques, pour un point comprenant une identification de système de référence afin d'assurer que les coordonnées représentent la position de ce point sans ambiguïté. Les fichiers contenant plusieurs points avec une identification de système de référence commune unique n'entrent pas dans le domaine d'application. Le présent document décrit également une structure de chaîne de texte plus simple pour la représentation des coordonnées d'une localisation de point plus adaptée à la lisibilité humaine.
+  content: This document specifies the representation of latitude and longitude and
+    optionally height or depth compatible with previous editions of ISO 6709. This
+    document also supports the representations of other coordinate types and time
+    that can be associated with those coordinates as defined through one or more coordinate
+    reference systems (CRS). This document describes a text string of coordinates,
+    suitable for electronic data exchange, for one point, including reference system
+    identification to ensure that the coordinates unambiguously represent the position
+    of that point. Files containing multiple points with a single common reference
+    system identification are out of scope. This document also describes a simpler
+    text string structure for coordinate representation of a point location that is
+    more suitable for human readability.
 status:
   stage:
     content: '60'
@@ -102,26 +99,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 6709:2008
-    docidentifier:
-    - content: ISO 6709:2008
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 6709:2008/Cor 1:2009
+    formattedref:
+      content: ISO 6709:2008/Cor 1:2009
     docidentifier:
     - content: ISO 6709:2008/Cor 1:2009
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 6709:2008
+    docidentifier:
+    - content: ISO 6709:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

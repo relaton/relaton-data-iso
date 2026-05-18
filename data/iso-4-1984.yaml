@@ -1,43 +1,39 @@
 ---
 id: ISO41984
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Rules for the abbreviation of title words and titles of publications
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Documentation - Rules for the abbreviation of title words and titles of
     publications
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Règles pour l'abréviation des mots dans les titres et des titres des publications
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation - Règles pour l'abréviation des mots dans les titres et des
     titres des publications
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/3568.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:3568:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/35/3568.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '4'
 date:
 - type: published
-  at: 1984-12
+  at: '1984-12-01'
 contributor:
 - role:
   - type: publisher
@@ -99,27 +95,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4:1972
-    docidentifier:
-    - content: ISO 4:1972
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 4:1997
+    formattedref:
+      content: ISO 4:1997
     docidentifier:
     - content: ISO 4:1997
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1997-12-18'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4:1972
+    docidentifier:
+    - content: ISO 4:1972
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISO191272019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Geodetic register
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Geodetic register
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Registre géodésiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Registre géodésiques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/67252.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '19127'
 date:
 - type: published
-  at: 2019-02
+  at: '2019-02-13'
 contributor:
 - role:
   - type: publisher
@@ -82,16 +76,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: This document defines the management and operations of the ISO geodetic
-    register and identifies the data elements, in accordance with ISO 19111:2007 and
-    the core schema within ISO 19135‑1:2015, required within the geodetic register.
-- language: fr
   script: Latn
   content: This document defines the management and operations of the ISO geodetic
     register and identifies the data elements, in accordance with ISO 19111:2007 and
@@ -110,24 +98,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 19127:2005
+    formattedref:
+      content: ISO/FDIS 19127
     docidentifier:
-    - content: ISO/TS 19127:2005
+    - content: ISO/FDIS 19127
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 19127
+    formattedref:
+      content: ISO/WD 19127
     docidentifier:
-    - content: ISO/DIS 19127
+    - content: ISO/WD 19127
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TS 19127:2005
+    docidentifier:
+    - content: ISO/TS 19127:2005
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

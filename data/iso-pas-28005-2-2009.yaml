@@ -1,54 +1,48 @@
 ---
 id: ISOPAS2800522009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Security management systems for the supply chain
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Electronic port clearance (EPC)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Core data elements'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Security management systems for the supply chain - Electronic port clearance
     (EPC) - Part 2: Core data elements'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de management de la sûreté pour la chaîne d'approvisionnement
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Operations portuaires assistées par systèmes électroniques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Éléments de données principaux'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de management de la sûreté pour la chaîne d''approvisionnement
     - Operations portuaires assistées par systèmes électroniques - Partie 2: Éléments
     de données principaux'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/54501.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:54501:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/45/54501.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '28005'
 date:
 - type: published
-  at: 2009-10
+  at: '2009-10-14'
 contributor:
 - role:
   - type: publisher
@@ -93,60 +87,40 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/PAS 28005-2:2009 contains technical specifications that facilitate
+  content: ISO/PAS 28005-2:2009 contains technical specifications that facilitate
     efficient exchange of electronic information between ships and shore for coastal
     transit or port calls. It is intended to cover safety and security information
     requirements related mainly to the relationships between the ship and the port
-    and coastal state authorities as defined below.\nISO/PAS 28005-2:2009 contains
+    and coastal state authorities as defined below. ISO/PAS 28005-2:2009 contains
     the definition of core data elements for use in electronic port clearance (EPC)
     messages. It contains definitions of core data elements for electronic messaging
     between ships and shore in the areas of safety, security and marine operations.
     It does not define any structuring of messages or provide any guidance on what
     information is required for a particular purpose; it is rather a general data
-    dictionary for safety, security or operation-related maritime information.\nIt
+    dictionary for safety, security or operation-related maritime information. It
     is intended for use in XML messages and will for that reason differ somewhat from
     the similar trade data elements directory (TDED) International Standard (ISO 7372).
-    \nThe core data elements defined in ISO/PAS 28005-2:2009 are specified so that
-    their meaning and interpretation in general shall be independent of the context
-    they are used in.\nISO/PAS 28005-2:2009 does not define the message formats required
-    to exchange information.\nISO/PAS 28005-2:2009 contains definitions of core data
+    The core data elements defined in ISO/PAS 28005-2:2009 are specified so that their
+    meaning and interpretation in general shall be independent of the context they
+    are used in. ISO/PAS 28005-2:2009 does not define the message formats required
+    to exchange information. ISO/PAS 28005-2:2009 contains definitions of core data
     elements for electronic port clearance. These elements cover all requirements
-    for ship-to-shore and shore-to-ship reporting as defined in the following.\nISO/PAS
+    for ship-to-shore and shore-to-ship reporting as defined in the following. All
+    FAL standard declarations (FAL 1 to 7) as defined in the FAL Convention. ISPS
+    reporting requirements as defined in ISPS and MSC 1130. All general ship reporting
+    requirements as defined in IMO A.851] Recommended reporting on ship generated
+    waste as defined in MEPC 644 (mandatory within the European Union, as described
+    in EU/2000/59). Required reporting as defined in the bulk loading and unloading
+    code IMO A.862. ETA reporting to pilot station as defined in IMO A.960. ISO/PAS
     28005-2:2009 can also be used for information exchanges between the ship and the
     ship agent, the port as well as ship operator or manager. It will not necessarily
     cover issues such as customs clearance of imported or exported goods or transport
-    service provisions to goods owners."
-- language: fr
-  script: Latn
-  content: "ISO/PAS 28005-2:2009 contains technical specifications that facilitate
-    efficient exchange of electronic information between ships and shore for coastal
-    transit or port calls. It is intended to cover safety and security information
-    requirements related mainly to the relationships between the ship and the port
-    and coastal state authorities as defined below.\nISO/PAS 28005-2:2009 contains
-    the definition of core data elements for use in electronic port clearance (EPC)
-    messages. It contains definitions of core data elements for electronic messaging
-    between ships and shore in the areas of safety, security and marine operations.
-    It does not define any structuring of messages or provide any guidance on what
-    information is required for a particular purpose; it is rather a general data
-    dictionary for safety, security or operation-related maritime information.\nIt
-    is intended for use in XML messages and will for that reason differ somewhat from
-    the similar trade data elements directory (TDED) International Standard (ISO 7372).
-    \nThe core data elements defined in ISO/PAS 28005-2:2009 are specified so that
-    their meaning and interpretation in general shall be independent of the context
-    they are used in.\nISO/PAS 28005-2:2009 does not define the message formats required
-    to exchange information.\nISO/PAS 28005-2:2009 contains definitions of core data
-    elements for electronic port clearance. These elements cover all requirements
-    for ship-to-shore and shore-to-ship reporting as defined in the following.\nISO/PAS
-    28005-2:2009 can also be used for information exchanges between the ship and the
-    ship agent, the port as well as ship operator or manager. It will not necessarily
-    cover issues such as customs clearance of imported or exported goods or transport
-    service provisions to goods owners."
+    service provisions to goods owners.
 status:
   stage:
     content: '95'
@@ -159,21 +133,18 @@ copyright:
       name:
       - content: ISO/PAS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 28005-2:2011
+    formattedref:
+      content: ISO 28005-2:2011
     docidentifier:
     - content: ISO 28005-2:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2011-02-25'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: publicly-available-specification
   flavor: iso

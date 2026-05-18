@@ -1,48 +1,40 @@
 ---
 id: ISO91441991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Securities
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Optical character recognition line
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Position and structure
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Securities - Optical character recognition line - Position and structure
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Valeurs mobilières
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Ligne de lecture optique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Position et structure
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Valeurs mobilières - Ligne de lecture optique - Position et structure
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16741.html
@@ -56,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO 9144:1991(E)
   type: iso-reference
-- content: urn:iso:std:iso:9144:stage-90.93
+- content: urn:iso:std:iso:9144:stage-90.60
   type: URN
 docnumber: '9144'
 date:
 - type: published
-  at: 1991-10
+  at: '1991-10-03'
 contributor:
 - role:
   - type: publisher
@@ -102,26 +94,30 @@ abstract:
     for the printing of a line of characters; the position of this line; the structure
     and the contents of this line. Annexes A, B, C and D form an integral part of
     this standard.'
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale a pour but a) de définir sur les valeurs mobilières (corps des titres, coupons, talons) l'emplacement et les dimensions d'une ou plusieurs zone(s) réservée(s) à l'impression d'une ligne de caractères lisibles par un équipement de ROC; b) de définir la position de cette ligne dans la (les) zone(s) mentionnée(s) ci-dessus; c) de définir la structure et le contenu de cette ligne. La présente Norme internationale s'applique à toutes les sortes de titres imprimés (au porteur comme nominatifs), tels que les obligations, les actions, les certificats, les warrants, les coupons et les talons, qu'ils aient une circulation internationale ou nationale. Lorsque la présente Norme internationale permet des options, il est recommandé, au niveau national de choisir et de normaliser l'une d'entre elles. Au moment de sa publication, des titres qui ont des lignes ROC non conformes à la présente Norme internationale, existaient déjà, par exemple les eurobonds, les «certificats représentatifs» français. Des exemples sont donnés en annexe A.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '1991'
   owner:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 9144
+    docidentifier:
+    - content: ISO/WD 9144
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

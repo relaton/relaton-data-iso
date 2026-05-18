@@ -1,53 +1,47 @@
 ---
 id: ISOIEC159612004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Radio frequency identification (RFID) for item management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Data protocol: application interface'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Radio frequency identification (RFID) for item
     management - Data protocol: application interface'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification par radiofréquence (RFID) pour la gestion d'objets
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Protocole de données: interface d''application'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Identification par radiofréquence (RFID)
     pour la gestion d''objets - Protocole de données: interface d''application'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/30528.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:30528:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/05/30528.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '15961'
 date:
 - type: published
-  at: 2004-10
+  at: '2004-10-18'
 contributor:
 - role:
   - type: publisher
@@ -101,40 +95,31 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The data protocol used to exchange information in a radio-frequency identification (RFID) system for item management is specified in ISO/IEC 15961:2004 and in ISO/IEC 15962:2004. Both are required for a complete understanding of the data protocol in its entirety; but each focuses on one particular interface:
-    - ISO/IEC 15961:2004 addresses the information interface with the application system.
-    - ISO/IEC 15962:2004 deals with the processing of data and its presentation to the RF tag, and the initial processing of data captured from the RF tag.
-    ISO/IEC 15961:2004 focuses on the interface between the application and the data protocol processor, and includes the specification of the transfer syntax and definition of application commands and responses. It allows data and commands to be specified in a standardized way, independent of the particular air interface of ISO/IEC 18000.
-    ISO/IEC 15961:2004
-    - provides guidelines on how data shall be presented as objects;
-    - defines the structure of object identifiers, based on ISO/IEC 9834-1;
-    - specifies the commands that are supported for transferring data between the application and the RF tag;
-    - specifies the responses that are supported for transferring data between the RF tag and the application;
-    - provides a formal description of all the processes using ASN.1, as specified in ISO/IEC 8824-1;
-    - specifies the transfer syntax, based on the Basic Encoding Rules of ISO/IEC 8825-1, for data to be transferred from and to the application.
-    It is expected that ISO/IEC 15961:2004 will be used as a reference to develop software appropriate for particular applications, or for particular RF equipment.
-- language: fr
-  script: Latn
-  content: |-
-    The data protocol used to exchange information in a radio-frequency identification (RFID) system for item management is specified in ISO/IEC 15961:2004 and in ISO/IEC 15962:2004. Both are required for a complete understanding of the data protocol in its entirety; but each focuses on one particular interface:
-    - ISO/IEC 15961:2004 addresses the information interface with the application system.
-    - ISO/IEC 15962:2004 deals with the processing of data and its presentation to the RF tag, and the initial processing of data captured from the RF tag.
-    ISO/IEC 15961:2004 focuses on the interface between the application and the data protocol processor, and includes the specification of the transfer syntax and definition of application commands and responses. It allows data and commands to be specified in a standardized way, independent of the particular air interface of ISO/IEC 18000.
-    ISO/IEC 15961:2004
-    - provides guidelines on how data shall be presented as objects;
-    - defines the structure of object identifiers, based on ISO/IEC 9834-1;
-    - specifies the commands that are supported for transferring data between the application and the RF tag;
-    - specifies the responses that are supported for transferring data between the RF tag and the application;
-    - provides a formal description of all the processes using ASN.1, as specified in ISO/IEC 8824-1;
-    - specifies the transfer syntax, based on the Basic Encoding Rules of ISO/IEC 8825-1, for data to be transferred from and to the application.
-    It is expected that ISO/IEC 15961:2004 will be used as a reference to develop software appropriate for particular applications, or for particular RF equipment.
+  content: 'The data protocol used to exchange information in a radio-frequency identification
+    (RFID) system for item management is specified in ISO/IEC 15961:2004 and in ISO/IEC
+    15962:2004. Both are required for a complete understanding of the data protocol
+    in its entirety; but each focuses on one particular interface: ISO/IEC 15961:2004
+    addresses the information interface with the application system.ISO/IEC 15962:2004
+    deals with the processing of data and its presentation to the RF tag, and the
+    initial processing of data captured from the RF tag. ISO/IEC 15961:2004 focuses
+    on the interface between the application and the data protocol processor, and
+    includes the specification of the transfer syntax and definition of application
+    commands and responses. It allows data and commands to be specified in a standardized
+    way, independent of the particular air interface of ISO/IEC 18000. ISO/IEC 15961:2004
+    provides guidelines on how data shall be presented as objects;defines the structure
+    of object identifiers, based on ISO/IEC 9834-1;specifies the commands that are
+    supported for transferring data between the application and the RF tag;specifies
+    the responses that are supported for transferring data between the RF tag and
+    the application;provides a formal description of all the processes using ASN.1,
+    as specified in ISO/IEC 8824-1;specifies the transfer syntax, based on the Basic
+    Encoding Rules of ISO/IEC 8825-1, for data to be transferred from and to the application.
+    It is expected that ISO/IEC 15961:2004 will be used as a reference to develop
+    software appropriate for particular applications, or for particular RF equipment.'
 status:
   stage:
     content: '95'
@@ -147,54 +132,42 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15961-1:2013
-    docidentifier:
-    - content: ISO/IEC 15961-1:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2019-08-08'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 15961-2:2019
+    formattedref:
+      content: ISO/IEC 15961-2:2019
     docidentifier:
     - content: ISO/IEC 15961-2:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-08-08'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15961-3:2019
+    formattedref:
+      content: ISO/IEC 15961-1:2013
+    docidentifier:
+    - content: ISO/IEC 15961-1:2013
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 15961-3:2019
     docidentifier:
     - content: ISO/IEC 15961-3:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-08-08'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15961-4:2016
+    formattedref:
+      content: ISO/IEC 15961-4:2016
     docidentifier:
     - content: ISO/IEC 15961-4:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-08-08'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

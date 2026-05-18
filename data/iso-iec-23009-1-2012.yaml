@@ -1,54 +1,48 @@
 ---
 id: ISOIEC2300912012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Dynamic adaptive streaming over HTTP (DASH)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Media presentation description and segment formats'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Dynamic adaptive streaming over HTTP (DASH) -
     Part 1: Media presentation description and segment formats'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Diffusion en flux adaptatif dynamique sur HTTP (DASH)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Description de la présentation et formats de remise des médias'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Diffusion en flux adaptatif dynamique
     sur HTTP (DASH) - Partie 1: Description de la présentation et formats de remise
     des médias'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/57623.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:57623:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/76/57623.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '23009'
 date:
 - type: published
-  at: 2012-04
+  at: '2012-04-03'
 contributor:
 - role:
   - type: publisher
@@ -102,24 +96,26 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 23009-1:2012 primarily specifies formats for the Media Presentation Description (MPD) and Segments for dynamic adaptive streaming delivery of MPEG media over HTTP.
-    -        The Media Presentation Description (MPD) is an XML-formatted document and describes a Media Presentation, i.e. a bounded or unbounded presentation of media content. In particular, it defines formats to announce resource identifiers for Segments and to provide the context for these identified resources within a Media Presentation. These resource identifiers are HTTP-URLs possibly combined with a byte range.
-    -        The Segment formats specify the formats of the HTTP requests. Segments typically contain efficiently coded media data and metadata according to or aligned with common media formats. ISO/IEC 23009-1:2012 specifies ISO/IEC 23009 focuses on Segment formats based on MPEG container formats. Specifically, Segment formats are described for use with Media Segments based on the ISO Base Media File Format as defined in ISO/IEC 14496-12 and based on the MPEG-2 Transport Stream as defined in ISO/IEC 13818-2.
-    ISO/IEC 23009-1:2012 is applicable to streaming services over the Internet.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 23009-1:2012 primarily specifies formats for the Media Presentation Description (MPD) and Segments for dynamic adaptive streaming delivery of MPEG media over HTTP.
-    -        The Media Presentation Description (MPD) is an XML-formatted document and describes a Media Presentation, i.e. a bounded or unbounded presentation of media content. In particular, it defines formats to announce resource identifiers for Segments and to provide the context for these identified resources within a Media Presentation. These resource identifiers are HTTP-URLs possibly combined with a byte range.
-    -        The Segment formats specify the formats of the HTTP requests. Segments typically contain efficiently coded media data and metadata according to or aligned with common media formats. ISO/IEC 23009-1:2012 specifies ISO/IEC 23009 focuses on Segment formats based on MPEG container formats. Specifically, Segment formats are described for use with Media Segments based on the ISO Base Media File Format as defined in ISO/IEC 14496-12 and based on the MPEG-2 Transport Stream as defined in ISO/IEC 13818-2.
-    ISO/IEC 23009-1:2012 is applicable to streaming services over the Internet.
+  content: ISO/IEC 23009-1:2012 primarily specifies formats for the Media Presentation
+    Description (MPD) and Segments for dynamic adaptive streaming delivery of MPEG
+    media over HTTP. The Media Presentation Description (MPD) is an XML-formatted
+    document and describes a Media Presentation, i.e. a bounded or unbounded presentation
+    of media content. In particular, it defines formats to announce resource identifiers
+    for Segments and to provide the context for these identified resources within
+    a Media Presentation. These resource identifiers are HTTP-URLs possibly combined
+    with a byte range. The Segment formats specify the formats of the HTTP requests.
+    Segments typically contain efficiently coded media data and metadata according
+    to or aligned with common media formats. ISO/IEC 23009-1:2012 specifies ISO/IEC
+    23009 focuses on Segment formats based on MPEG container formats. Specifically,
+    Segment formats are described for use with Media Segments based on the ISO Base
+    Media File Format as defined in ISO/IEC 14496-12 and based on the MPEG-2 Transport
+    Stream as defined in ISO/IEC 13818-2. ISO/IEC 23009-1:2012 is applicable to streaming
+    services over the Internet.
 status:
   stage:
     content: '95'
@@ -132,32 +128,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23009-1:2014
+    formattedref:
+      content: ISO/IEC 23009-1:2014
     docidentifier:
     - content: ISO/IEC 23009-1:2014
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2014-05-12'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23009-1:2012/Cor 1:2013
-    docidentifier:
-    - content: ISO/IEC 23009-1:2012/Cor 1:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2014-05-12'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

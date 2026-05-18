@@ -1,41 +1,37 @@
 ---
 id: ISO4721999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Plastics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Plastics - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/26821.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26821:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/68/26821.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '472'
 date:
 - type: published
-  at: 1999-11
+  at: '1999-11-25'
 contributor:
 - role:
   - type: publisher
@@ -83,34 +79,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: "\nLa présente Norme Internationale définit les termes utilisés dans l'industrie
-    des plastiques, en français et en anglais. Les termes sont répertoriés d'après
-    l'ordre alphabétique des termes anglais avec définition et en regard les termes
-    français et leur définition.  Tous les termes sont classés alphabétiquement en
-    index français-ang lais, anglais-russe et russe-anglais, selon l'ordre normal
-    des mots composant ces termes.  Lorsqu'il existe un ou plusieurs terme(s) synonyme(s)
-    d'un terme, le (ou les) synonyme(s) est (sont) donnés à la suite du terme à employer
-    de préférence. Les synonymes à éviter sont indiqués par «(à éviter)». Les synonymes
-    sont cités à la suite du terme principal et également dans la liste alphabétique
-    où ils sont suivis du signe ---> qui renvoie au terme principal.  L'abréviation
-    «cf.» est utilisée après la définition ou note pour renvoyer à un terme (non un
-    synonyme) dont la définition ou la note contiennent une information relative au
-    terme précédent le signe.   \nNOTE 1 Pour les termes concernant les oléfines,
-    le nom (scientifique) approuvé par l'IUPAC est donné entre crochets à la suite
-    du nom généralement employé dans l'industrie des plastiques, par exemple polyéthylène
-    [polyéthène].   \nNOTE 2 Les règles de l'IUPAC concernant les termes relatifs
-    aux produits de base des polymères, précisent que, lorsque «poly» est suivi d'une
-    expression comportant plus d'un mot, on doit utiliser les parenthèses. La présente
-    Norme Internationale respecte la pratique recommandée par l'IUPAC. Dans l'usage
-    courant, on néglige souvent l'emploi des parenthèses.   \nNOTE 3 Certains termes
-    de la présente Norme Internationale sont suivis d'une information entre parenthèses,
-    pour indiquer une limitation de l'équivalence à un domaine particulier.   \nNOTE
-    4 Dans le texte anglais, les termes définis sont indiqués par «noun», «verb».
-    or «adjective».   \nNOTE 5 Le signe ---> veut dire: pour la définition, se référer
-    à.\n"
 status:
   stage:
     content: '95'
@@ -125,67 +93,72 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 472:1988
+    formattedref:
+      content: ISO 472:2013
+    docidentifier:
+    - content: ISO 472:2013
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 472
+    docidentifier:
+    - content: ISO/CD 472
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 472:1988
     docidentifier:
     - content: ISO 472:1988
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 472:1988/Amd 1:1993
-    docidentifier:
-    - content: ISO 472:1988/Amd 1:1993
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 472:1988/Amd 3:1993
-    docidentifier:
-    - content: ISO 472:1988/Amd 3:1993
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 472:1988/Amd 4:1993
+    formattedref:
+      content: ISO 472:1988/Amd 4:1993
     docidentifier:
     - content: ISO 472:1988/Amd 4:1993
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 472:1988/Amd 5:1996
+    formattedref:
+      content: ISO 472:1988/Amd 3:1993
+    docidentifier:
+    - content: ISO 472:1988/Amd 3:1993
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 472:1988/Amd 5:1996
     docidentifier:
     - content: ISO 472:1988/Amd 5:1996
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 472:2013
+    formattedref:
+      content: ISO 472:1988/Amd 1:1993
     docidentifier:
-    - content: ISO 472:2013
+    - content: ISO 472:1988/Amd 1:1993
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-01-30'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.83
-    text: Rubber and plastics industries (Vocabularies)
   - code: 83.080.01
     text: Plastics in general
+  - code: 01.040.83
+    text: Rubber and plastics industries (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,31 +1,29 @@
 ---
 id: ISO42172008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Codes for the representation of currencies and funds
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Codes for the representation of currencies and funds
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Codes pour la représentation des monnaies et types de fonds
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Codes pour la représentation des monnaies et types de fonds
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46121.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:46121:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/61/46121.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '4217'
 date:
 - type: published
-  at: 2008-07
+  at: '2008-07-07'
 contributor:
 - role:
   - type: publisher
@@ -76,16 +74,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 4217:2008 specifies the structure for a three-letter alphabetic code and an equivalent three-digit numeric code for the representation of currencies and funds. For those currencies having minor units, it also shows the decimal relationship between such units and the currency itself.
-    ISO 4217:2008 also establishes procedures for a Maintenance Agency, and specifies the method of application for codes.
-    ISO 4217:2008 is intended for use in any application of trade, commerce and banking, where currencies and, where appropriate, funds are required to be described. It is designed to be equally suitable for manual users and for those employing automated systems.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 4217:2008 spécifie un code alphabétique à trois caractères et un code numérique à trois chiffres équivalent, pour la représentation des monnaies et types de fonds. Pour les monnaies possédant une partie fractionnaire, elle indique également la relation décimale qui existe entre l'unité monétaire et sa partie fractionnaire éventuelle.
-    L'ISO 4217:2008 établit également les procédures de fonctionnement d'une agence de mise à jour et spécifie la méthode de demande d'attribution des codes.
-    L'ISO 4217:2008 est destinée à être utilisée dans toute application d'ordre commercial ou bancaire pour identifier les monnaies et, le cas échéant, les types de fonds. Elle est également destinée à être employée tant dans des applications manuelles qu'automatisées.
+  content: ISO 4217:2008 specifies the structure for a three-letter alphabetic code
+    and an equivalent three-digit numeric code for the representation of currencies
+    and funds. For those currencies having minor units, it also shows the decimal
+    relationship between such units and the currency itself. ISO 4217:2008 also establishes
+    procedures for a Maintenance Agency, and specifies the method of application for
+    codes. ISO 4217:2008 is intended for use in any application of trade, commerce
+    and banking, where currencies and, where appropriate, funds are required to be
+    described. It is designed to be equally suitable for manual users and for those
+    employing automated systems.
 status:
   stage:
     content: '95'
@@ -100,46 +97,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4217:2001
+    formattedref:
+      content: ISO 4217:2015
     docidentifier:
-    - content: ISO 4217:2001
+    - content: ISO 4217:2015
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 4217:2001/Cor 1:2004
+    formattedref:
+      content: ISO 4217:2001/Cor 1:2004
     docidentifier:
     - content: ISO 4217:2001/Cor 1:2004
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 4217:2015
+    formattedref:
+      content: ISO 4217:2001
     docidentifier:
-    - content: ISO 4217:2015
+    - content: ISO 4217:2001
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-08-05'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 4217:2008/Cor 1:2008
-    docidentifier:
-    - content: ISO 4217:2008/Cor 1:2008
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2015-08-05'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

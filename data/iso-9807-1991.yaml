@@ -1,43 +1,39 @@
 ---
 id: ISO98071991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Banking and related financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Requirements for message authentication (retail)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Banking and related financial services - Requirements for message authentication
     (retail)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque et services financiers liés aux opérations bancaires
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications liées à l'authentification des messages (service aux particuliers)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Banque et services financiers liés aux opérations bancaires - Spécifications
     liées à l'authentification des messages (service aux particuliers)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/17681.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:17681:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/76/17681.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '9807'
 date:
 - type: published
-  at: 1991-12
+  at: '1991-12-16'
 contributor:
 - role:
   - type: publisher
@@ -91,11 +87,6 @@ abstract:
   content: Specifies procedures to be used for protecting the integrity of retail
     banking messages and for verifying that the message originated from an authorized
     source. Describes the method by which algorithms are approved.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit des procédures à utiliser pour protéger l'intégrité des messages du service aux particuliers et pour vérifier que le message a pour origine une source autorisée. Elle décrit également la méthode permettant d'approuver les algorithmes utilisés pour l'authentification des messages du service aux particuliers. Les règles relatives à la représentation des données ne sont pas spécifiées bien qu'il soit nécessaire que les deux correspondants utilisent les mêmes manières de représenter les données. Les procédures sont également indépendantes du processus de transmission utilisé. Une liste des algorithmes approuvés pour le calcul du code d'authentification de message (MAC) est donnée dans l'annexe A. La méthode à utiliser pour approuver les algorithmes d'authentification est donnée dans l'annexe B. La procédure permettant d'empêcher toute détermination exhaustive des clés est donnée dans l'annexe C. L'annexe D fournit un guide pour le choix des éléments d'authentification. L'annexe E donne des informations générales sur la protection contre la fraude interne de l'expéditeur et du destinataire, par exemple falsification d'un code d'authentification de message (MAC) par le destinataire, tandis que l'annexe F décrit une méthode pour la génération de clé pseudo-aléatoire. L'annexe G donne des références bibliographiques. L  481a présente Norme internationale ne prescrit pas a) le chiffrement pour la protection des messages contre toute divulgation non autorisée; ni b) la protection contre la perte ou la duplication des messages, qu'elle soit accidentelle ou intentionnelle. La présente Norme internationale s'adresse aux institutions responsables de la mise en oeuvre de techniques permettant l'authentification de messages utilisés dans le service aux particuliers.
 status:
   stage:
     content: '95'
@@ -108,21 +99,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 16609:2004
+    formattedref:
+      content: ISO 16609:2004
     docidentifier:
     - content: ISO 16609:2004
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2004-02-27'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

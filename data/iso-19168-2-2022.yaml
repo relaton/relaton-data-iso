@@ -1,45 +1,42 @@
 ---
 id: ISO1916822022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
-  content: Geographic information – Geospatial API for features
+  content: Geographic information
+  type: title-intro
+- language: en
+  script: Latn
+  content: Geospatial API for features
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Coordinate Reference Systems by Reference'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Geographic information – Geospatial API for features - Part 2: Coordinate
+  content: 'Geographic information - Geospatial API for features - Part 2: Coordinate
     Reference Systems by Reference'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: API géospatiale pour les entités
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Systèmes de coordonnées de référence par référence'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Information géographique - API géospatiale pour les entités - Partie 2:
     Systèmes de coordonnées de référence par référence'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/82464.html
@@ -58,7 +55,7 @@ docidentifier:
 docnumber: '19168'
 date:
 - type: published
-  at: 2022-09
+  at: '2022-09-13'
 contributor:
 - role:
   - type: publisher
@@ -95,24 +92,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies an extension to the Geospatial API for Features — Part 1: Core standard that defines the behaviour of a server that supports the ability to present geometry valued properties in a response document in one from a list of supported Coordinates Reference Systems (CRS).
-    Each supported CRS is specified by reference using a uniform resource identifier (URI).
-    This document specifies:
-    —    how, for each offered feature collection, a server advertises the list of supported CRS identifiers;
-    —    how the coordinates of geometry valued feature properties can be accessed in one of the supported CRSs;
-    —    how features can be accessed from the server using a bounding box specified in one of the supported CRSs; and
-    —    how a server can declare the CRS used to present feature resources.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie une extension à la norme «API géospatiale pour les entités — Partie 1: Profil minimal» qui définit le comportement d'un serveur qui est en capacité de présenter des propriétés associées à une valeur géométrique dans un document de réponse dans une liste de Systèmes de coordonnées de référence (CRS) pris en charge.
-    Chaque CRS pris en charge est spécifié par référence à l'aide d'un identifiant de ressource universel (URI).
-    Le présent document spécifie:
-    —    comment, pour chaque collection d'entités proposée, un serveur publie la liste des identifiants de CRS pris en charge;
-    —    comment les coordonnées des propriétés d'entités associées à une valeur géométrique peuvent être accessibles dans l'un des CRS pris en charge;
-    —    comment les entités peuvent être accessibles depuis le serveur à l'aide d'un rectangle englobant spécifié dans l'un des CRS pris en charge; et
-    —    comment un serveur peut déclarer le système de CRS utilisé pour présenter des ressources d'entités.
+  content: 'This document specifies an extension to the Geospatial API for Features —
+    Part 1: Core standard that defines the behaviour of a server that supports the
+    ability to present geometry valued properties in a response document in one from
+    a list of supported Coordinates Reference Systems (CRS). Each supported CRS is
+    specified by reference using a uniform resource identifier (URI). This document
+    specifies: —    how, for each offered feature collection, a server advertises
+    the list of supported CRS identifiers; —    how the coordinates of geometry valued
+    feature properties can be accessed in one of the supported CRSs; —    how features
+    can be accessed from the server using a bounding box specified in one of the supported
+    CRSs; and —    how a server can declare the CRS used to present feature resources.'
 status:
   stage:
     content: '60'
@@ -125,9 +114,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

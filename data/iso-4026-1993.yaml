@@ -1,31 +1,29 @@
 ---
 id: ISO40261993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hexagon socket set screws with flat point
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Hexagon socket set screws with flat point
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vis sans tête à six pans creux, à bout plat
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vis sans tête à six pans creux, à bout plat
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9714.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9714:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/97/9714.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '4026'
 date:
 - type: published
-  at: 1993-12
+  at: '1993-12-16'
 contributor:
 - role:
   - type: publisher
@@ -81,13 +79,6 @@ abstract:
     A. If, in special cases, specifications other than those listed are required,
     they should be selected from existing international standards, e.g., ISO 261,
     ISO 888, ISO 898-5 and ISO 965-2. Annex A describes gauging of hexagon socket.
-- language: fr
-  script: Latn
-  content: Specifies the characteristics (dimensions, specifications, designation)
-    for screws having threads from M1,6 up to and including M24 and of product grade
-    A. If, in special cases, specifications other than those listed are required,
-    they should be selected from existing international standards, e.g., ISO 261,
-    ISO 888, ISO 898-5 and ISO 965-2. Annex A describes gauging of hexagon socket.
 status:
   stage:
     content: '95'
@@ -102,27 +93,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4026:1977
+    formattedref:
+      content: ISO/CD 4026
     docidentifier:
-    - content: ISO 4026:1977
+    - content: ISO/CD 4026
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4026:2003
+    formattedref:
+      content: ISO 4026:2003
     docidentifier:
     - content: ISO 4026:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2003-12-05'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4026:1977
+    docidentifier:
+    - content: ISO 4026:1977
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,58 +1,52 @@
 ---
 id: ISOIECTR143692014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Programming languages, their environments and system software interfaces
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Guidelines for the preparation of Language-Independent Service Specifications
     (LISS)
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Programming languages, their environments and
     system software interfaces - Guidelines for the preparation of Language-Independent
     Service Specifications (LISS)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation, leurs environnements et interfaces du logiciel
     d'exploitation
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes directrices pour l'élaboration de spécifications de service indépendantes
     du langage (LISS)
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Langages de programmation, leurs environnements
     et interfaces du logiciel d'exploitation - Lignes directrices pour l'élaboration
     de spécifications de service indépendantes du langage (LISS)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/67466.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:67466:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/74/67466.detail.rss
 docidentifier:
@@ -66,7 +60,7 @@ docidentifier:
 docnumber: '14369'
 date:
 - type: published
-  at: 2014-12
+  at: '2014-11-24'
 contributor:
 - role:
   - type: publisher
@@ -106,20 +100,28 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC TR 14369:2014 provides guidelines to those concerned with developing specifications of information technology services and their interfaces intended for use by clients of the services, in particular by external applications that do not necessarily all share the environment and assumptions of one particular programming language. The guidelines do not directly or fully cover all aspects of service or interface specifications, but they do cover those aspects required to achieve language independence, i.e. required to make a specification neutral with respect to the language environment from which the service is invoked. The guidelines are primarily concerned with the interface between the service and the external applications making use of the service, including the special case where the service itself is already specified in a language-dependent way but needs to be invoked from environments of other languages. Language bindings, already addressed by another Technical Report, ISO/IEC/TR 10182, are dealt with by providing advice on how to use the two Technical Reports together.
-    ISO/IEC TR 14369:2014 provides technical guidelines, rather than organizational or administrative guidelines for the management of the development process, though in some cases the technical guidelines may have organizational or administrative implications.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC TR 14369:2014 provides guidelines to those concerned with developing specifications of information technology services and their interfaces intended for use by clients of the services, in particular by external applications that do not necessarily all share the environment and assumptions of one particular programming language. The guidelines do not directly or fully cover all aspects of service or interface specifications, but they do cover those aspects required to achieve language independence, i.e. required to make a specification neutral with respect to the language environment from which the service is invoked. The guidelines are primarily concerned with the interface between the service and the external applications making use of the service, including the special case where the service itself is already specified in a language-dependent way but needs to be invoked from environments of other languages. Language bindings, already addressed by another Technical Report, ISO/IEC/TR 10182, are dealt with by providing advice on how to use the two Technical Reports together.
-    ISO/IEC TR 14369:2014 provides technical guidelines, rather than organizational or administrative guidelines for the management of the development process, though in some cases the technical guidelines may have organizational or administrative implications.
+  content: ISO/IEC TR 14369:2014 provides guidelines to those concerned with developing
+    specifications of information technology services and their interfaces intended
+    for use by clients of the services, in particular by external applications that
+    do not necessarily all share the environment and assumptions of one particular
+    programming language. The guidelines do not directly or fully cover all aspects
+    of service or interface specifications, but they do cover those aspects required
+    to achieve language independence, i.e. required to make a specification neutral
+    with respect to the language environment from which the service is invoked. The
+    guidelines are primarily concerned with the interface between the service and
+    the external applications making use of the service, including the special case
+    where the service itself is already specified in a language-dependent way but
+    needs to be invoked from environments of other languages. Language bindings, already
+    addressed by another Technical Report, ISO/IEC/TR 10182, are dealt with by providing
+    advice on how to use the two Technical Reports together. ISO/IEC TR 14369:2014
+    provides technical guidelines, rather than organizational or administrative guidelines
+    for the management of the development process, though in some cases the technical
+    guidelines may have organizational or administrative implications.
 status:
   stage:
     content: '95'
@@ -132,21 +134,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC TR 14369:2018
+    formattedref:
+      content: ISO/IEC TR 14369:2018
     docidentifier:
     - content: ISO/IEC TR 14369:2018
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2018-01-30'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

@@ -1,31 +1,29 @@
 ---
 id: ISO39302000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Instruments for measuring vehicle exhaust emissions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Instruments for measuring vehicle exhaust emissions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Instruments de mesure des gaz d'échappement des véhicules
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Instruments de mesure des gaz d'échappement des véhicules
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/30772.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:30772:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/07/30772.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '3930'
 date:
 - type: published
-  at: 2000-09
+  at: '2000-09-21'
 contributor:
 - role:
   - type: publisher
@@ -73,12 +71,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme/Recommandation Internationale spécifie les exigences métrologiques et techniques et les essais s'appliquant aux instruments de mesure (ci-après désignés «instrument(s»» servant à déterminer les fractions volumiques de certains composants des gaz d'échappement des véhicules à moteur et fixe les conditions auxquelles ces instruments doivent satisfaire pour conformité aux exigences de performance définies par l'OIML.  Elle est applicable aux instruments utilisés en particulier selon la procédure définie dans l'ISO 3929 destinés au contrôle et à l'entretien des véhicules en service à moteurs avec allumage par étincelle. Ces instruments sont utilisés afin de déterminer la fraction volumique d'un ou de plusieurs des composants suivants des gaz d'échappement:  - monoxyde de carbone (CO);  - dioxyde de carbone (CO2);  - hydrocarbures (HC, en équivalent n-hexane); et  - oxygène (O2).  au taux d'humidité de l'échantillon au moment de son analyse.  La présente Norme/Recommandation Internationale couvre les instruments dont le principe de détection est basé sur l'absorption infrarouge dans les gaz pour le CO, le CO2 et les HC (l'oxygène est généralement mesuré avec une cellule à carburant). Elle n'est cependant pas destinée à exclure d'autres types d'instruments qui, bien que basés sur d'autres modes de détection, sont conformes aux exigences métrologiques et techniques et satisfont aux essais  associés. Trois classes d'exactitude des instruments sont couvertes: Classe 0, Classe 1 et Classe Il.
 status:
   stage:
     content: '95'
@@ -93,46 +85,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3930:1993
-    docidentifier:
-    - content: ISO 3930:1993
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/PAS 3930:2009
+    formattedref:
+      content: ISO/PAS 3930:2009
     docidentifier:
     - content: ISO/PAS 3930:2009
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2009-12-15'
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3930:2000/Amd 1:2004
+    formattedref:
+      content: ISO/CD 3930-2
     docidentifier:
-    - content: ISO 3930:2000/Amd 1:2004
+    - content: ISO/CD 3930-2
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2009-12-15'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3930:1993
+    docidentifier:
+    - content: ISO 3930:1993
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.180'
-    text: Diagnostic, maintenance and test equipment
   - code: 13.040.50
     text: Transport exhaust emissions
+  - code: '43.180'
+    text: Diagnostic, maintenance and test equipment
   structuredidentifier:
     type: ISO
     project_number:

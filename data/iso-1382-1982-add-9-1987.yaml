@@ -1,51 +1,45 @@
 ---
 id: ISO13821982Add91987
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rubber
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Addendum 9
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Rubber - Vocabulary - Addendum 9
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Caoutchouc
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Additif 9
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Caoutchouc - Vocabulaire - Additif 9
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5924.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5924:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/59/5924.detail.rss
 docidentifier:
@@ -54,14 +48,12 @@ docidentifier:
   primary: true
 - content: ISO 1382:1982/Add 9:1987(E)
   type: iso-reference
-- content: urn:iso:std:iso:1382:ed-2:stage-95.99:sup:1987:v9
+- content: urn:iso:std:iso:1382:stage-95.99:sup:1987:v9
   type: URN
 docnumber: '1382'
 date:
 - type: published
-  at: '1982'
-- type: updated
-  at: 1987-06
+  at: '1987-06-18'
 contributor:
 - role:
   - type: publisher
@@ -93,8 +85,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 status:
   stage:
     content: '95'
@@ -107,23 +101,20 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1382:1982/Add 9:1988
+    formattedref:
+      content: ISO 1382:1982/Add 9:1988
     docidentifier:
     - content: ISO 1382:1982/Add 9:1988
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1988-07-12'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: addendum
   flavor: iso
   ics:
   - code: '83.060'
@@ -131,6 +122,5 @@ ext:
   - code: 01.040.83
     text: Rubber and plastics industries (Vocabularies)
   structuredidentifier:
-    type: ISO
     project_number:
       content: '5924'

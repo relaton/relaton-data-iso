@@ -1,25 +1,22 @@
 ---
 id: ISOIEC1444342008Amd22012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Contactless integrated circuit cards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Proximity cards -- Part 4: Transmission protocol -- Amendment 2: Bit rates
     of fc/8, fc/4 and fc/2, protocol activation of PICC Type A and frame size from
     512 bytes to 4 096 bytes'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Identification cards - Contactless integrated circuit cards - Proximity
@@ -27,24 +24,20 @@ title:
     and fc/2, protocol activation of PICC Type A and frame size from 512 bytes to
     4 096 bytes'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes à circuit(s) intégré(s) sans contact
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes de proximité -- Partie 4: Protocole de transmission -- Amendement
     2: Débits binaires de fc/8, fc/4 et fc/2, activation de protocole de la PICC type
     A et taille de trame comprise entre 512 octets et 4 096 octets'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes d''identification - Cartes à circuit(s) intégré(s) sans contact
@@ -52,10 +45,11 @@ title:
     Débits binaires de fc/8, fc/4 et fc/2, activation de protocole de la PICC type
     A et taille de trame comprise entre 512 octets et 4 096 octets'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/58025.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:58025:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/80/58025.detail.rss
 docidentifier:
@@ -64,14 +58,10 @@ docidentifier:
   primary: true
 - content: ISO/IEC 14443-4:2008/Amd 2:2012(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:14443:-4:ed-2:stage-95.99:amd:2012:v2
-  type: URN
 docnumber: '14443'
 date:
 - type: published
-  at: '2008'
-- type: updated
-  at: 2012-09
+  at: '2012-09-07'
 contributor:
 - role:
   - type: publisher
@@ -111,7 +101,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -126,28 +115,24 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-4:2016
+    formattedref:
+      content: ISO/IEC 14443-4:2016
     docidentifier:
     - content: ISO/IEC 14443-4:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-05-27'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    type: ISO
     project_number:
       content: '58025'

@@ -1,31 +1,29 @@
 ---
 id: ISOR4631965
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Dial gauges reading in 0.01 mm, 0.001 in and 0.0001 in
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Dial gauges reading in 0.01 mm, 0.001 in and 0.0001 in
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Comparateurs à cadran au 0,01 mm, au 0,001 in et au 0,0001 in
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Comparateurs à cadran au 0,01 mm, au 0,001 in et au 0,0001 in
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4490.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4490:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/44/4490.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '463'
 date:
 - type: published
-  at: 1965-12
+  at: '1965-12-01'
 contributor:
 - role:
   - type: publisher
@@ -80,12 +78,6 @@ abstract:
     and gives certain recommendations on characteristics of accuracy. Methods of tests
     for checking these characteristics are described. A figure illustrates the instrument
     and a table gives the tolrances of concern.
-- language: fr
-  script: Latn
-  content: Establishes the most important dimensional and functional characteristics
-    and gives certain recommendations on characteristics of accuracy. Methods of tests
-    for checking these characteristics are described. A figure illustrates the instrument
-    and a table gives the tolrances of concern.
 status:
   stage:
     content: '95'
@@ -98,23 +90,36 @@ copyright:
       name:
       - content: ISO/R
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 463:2006
+    formattedref:
+      content: ISO 463:2006
     docidentifier:
     - content: ISO 463:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-02-28'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 463.3
+    docidentifier:
+    - content: ISO/DIS 463.3
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 463.2
+    docidentifier:
+    - content: ISO/DIS 463.2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: recommendation
   flavor: iso
   ics:
   - code: 17.040.30

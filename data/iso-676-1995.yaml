@@ -1,38 +1,32 @@
 ---
 id: ISO6761995
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Spices and condiments
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Botanical nomenclature
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Spices and condiments - Botanical nomenclature
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Épices
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Nomenclature botanique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Épices - Nomenclature botanique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4844.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '676'
 date:
 - type: published
-  at: 1995-12
+  at: '1995-12-21'
 contributor:
 - role:
   - type: publisher
@@ -91,13 +85,6 @@ abstract:
   content: Gives a non-exhaustive list of the botanical names and common names in
     English and French of plants or parts of plants used as spices or condiments.
     Replaces the first edition, which has been technically revised.
-- language: fr
-  script: Latn
-  content: "\nLa présente Norme internationale établit une liste non exhaustive des
-    noms botaniques et des noms communs des plantes ou parties de plantes utilisées
-    en tant qu'épices ou aromates, en anglais et en français.  \nNOTE 1 Les noms des
-    botanistes sont donnés sous forme abrégée, conformément à la liste de l'ISTA1),
-    mais ceux-ci figurent en entier en annexe B.\n"
 status:
   stage:
     content: '90'
@@ -112,35 +99,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 676:1982
+    formattedref:
+      content: ISO/NP 676
     docidentifier:
-    - content: ISO 676:1982
+    - content: ISO/NP 676
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 676
+    docidentifier:
+    - content: ISO/CD 676
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 676:1995/Cor 1:1997
+    formattedref:
+      content: ISO 676:1982
     docidentifier:
-    - content: ISO 676:1995/Cor 1:1997
+    - content: ISO 676:1982
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-05-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.67
-    text: Food technology (Vocabularies)
   - code: 67.220.10
     text: Spices and condiments
+  - code: 01.040.67
+    text: Food technology (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

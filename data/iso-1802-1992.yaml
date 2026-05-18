@@ -1,39 +1,32 @@
 ---
 id: ISO18021992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Natural rubber latex concentrate
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of boric acid content
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Natural rubber latex concentrate - Determination of boric acid content
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Latex concentré de caoutchouc naturel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dosage de l'acide borique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Latex concentré de caoutchouc naturel - Dosage de l'acide borique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6438.html
@@ -47,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 1802:1992(E)
   type: iso-reference
-- content: urn:iso:std:iso:1802:stage-90.93
+- content: urn:iso:std:iso:1802:stage-90.20
   type: URN
 docnumber: '1802'
 date:
 - type: published
-  at: 1992-03
+  at: '1992-03-08'
 contributor:
 - role:
   - type: publisher
@@ -91,15 +84,11 @@ abstract:
   script: Latn
   content: Describes the principle, the reagents, the apparatus, the procedure, the
     expression of results and the contents of the test report.
-- language: fr
-  script: Latn
-  content: Describes the principle, the reagents, the apparatus, the procedure, the
-    expression of results and the contents of the test report.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '1992'
   owner:
@@ -109,24 +98,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1802:1974
+    formattedref:
+      content: ISO/WD 1802
+    docidentifier:
+    - content: ISO/WD 1802
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1802:1974
     docidentifier:
     - content: ISO 1802:1974
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1802:1985
+    formattedref:
+      content: ISO 1802:1985
     docidentifier:
     - content: ISO 1802:1985
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -136,4 +133,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 1802
+      content: '6438'

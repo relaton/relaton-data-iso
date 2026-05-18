@@ -1,56 +1,50 @@
 ---
 id: ISO635822013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Pneumatic fluid power
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of flow-rate characteristics of components using compressible
     fluids
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Alternative test methods'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Pneumatic fluid power - Determination of flow-rate characteristics of
     components using compressible fluids - Part 2: Alternative test methods'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions pneumatiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination des caractéristiques de débit des composants traversés par
     un fluide compressible
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Méthodes d''essai alternatives'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Transmissions pneumatiques - Détermination des caractéristiques de débit
     des composants traversés par un fluide compressible - Partie 2: Méthodes d''essai
     alternatives'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/56613.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:56613:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/66/56613.detail.rss
 docidentifier:
@@ -64,7 +58,7 @@ docidentifier:
 docnumber: '6358'
 date:
 - type: published
-  at: 2013-05
+  at: '2013-05-08'
 contributor:
 - role:
   - type: publisher
@@ -101,7 +95,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 6358-2:2013 specifies a discharge test and a charge test as alternative
+  content: 'ISO 6358-2:2013 specifies a discharge test and a charge test as alternative
     methods for testing pneumatic fluid power components that use compressible fluids,
     i.e. gases, and that have internal flow passages that can be either fixed or variable
     in size to determine their flow-rate characteristics. However, ISO 6358-2:2013
@@ -111,29 +105,15 @@ abstract:
     (such as regulators), or components that have a cracking pressure such as non-return
     (check) valves and quick-exhaust valves. In addition, it does not apply to components
     that exchange energy with the fluid during flow-rate measurement, e.g. cylinders,
-    accumulators, etc.\nISO 6358-2:2013 does not provide a method to determine if
-    a component has hysteretic behaviour; ISO 6358-1 does provide such a method.\nThe
+    accumulators, etc. ISO 6358-2:2013 does not provide a method to determine if a
+    component has hysteretic behaviour; ISO 6358-1 does provide such a method. The
     charge test cannot be performed on components that do not have downstream port
-    connections.\nISO 6358-2:2013 specifies requirements for the test installation,
-    the test procedure, and the presentation of results.\nAnnexes provide the following:\n-
-    evaluation of measurement uncertainties; \n- requirements for a method to test
-    the volume of an isothermal tank; \n- guidance on the isothermal tank; \n- requirements
-    for a method to test isothermal performance;\n- guidance on the equation for calculating
-    characteristics; \n- guidance on calculating flow-rate characteristics."
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 6358-2:2013 spécifie des méthodes d'essai de décharge et de charge en tant que méthodes alternatives pour l'essai des composants de transmissions pneumatiques utilisant des fluides compressibles, c'est-à-dire des gaz, et ayant des voies d'écoulement interne de taille fixe ou variable, pour déterminer leurs caractéristiques de débit. Toutefois, elle ne s'applique pas aux composants dont le coefficient de débit est instable pendant leur fonctionnement, c'est-à-dire ceux présentant un comportement avec hystérésis significatif (car ils peuvent contenir des pièces flexibles qui se déforment sous l'écoulement) ou un phénomène de boucle de retour interne (tels que les régulateurs) ni aux composants ayant une pression d'ouverture, tels que les clapets anti-retour et les vannes d'échappement rapide. De plus, elle ne s'applique pas aux composants qui échangent de l'énergie avec le fluide au cours de la mesure de débit, par exemple vérins, accumulateurs, etc.
-    L'ISO 6358-2:2013 ne fournit pas de méthode pour déterminer si un composant a un comportement hystérétique; l'ISO 6358‑1 fournit une telle méthode.
-    L'essai de charge ne peut pas être effectué sur des composants ne comportant pas de connexion d'échappement.
-    L'ISO 6358-2:2013 spécifie les exigences de l'installation d'essai, du mode opératoire d'essai et de la présentation des résultats.
-    Les éléments suivants sont décrits dans les annexes de l'ISO 6358-2:2013:
-    - l'évaluation des incertitudes de mesure
-    - les exigences pour une méthode d'essai de volume dans un réservoir isotherme
-    - les lignes directrices concernant les réservoirs isothermes
-    - les exigences d'une méthode d'essai de performance isotherme
-    - les lignes directrices concernant les équations de calcul des caractéristiques
-    - les lignes directrices concernant le calcul des caractéristiques de débit.
+    connections. ISO 6358-2:2013 specifies requirements for the test installation,
+    the test procedure, and the presentation of results. Annexes provide the following:
+    evaluation of measurement uncertainties; requirements for a method to test the
+    volume of an isothermal tank; guidance on the isothermal tank; requirements for
+    a method to test isothermal performance; guidance on the equation for calculating
+    characteristics; guidance on calculating flow-rate characteristics.'
 status:
   stage:
     content: '95'
@@ -148,27 +128,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6358:1989
+    formattedref:
+      content: ISO 6358-2:2019
+    docidentifier:
+    - content: ISO 6358-2:2019
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 6358:1989
     docidentifier:
     - content: ISO 6358:1989
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 6358-2:2019
+    formattedref:
+      content: ISO/DIS 6358-3.2
     docidentifier:
-    - content: ISO 6358-2:2019
+    - content: ISO/DIS 6358-3.2
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-09-02'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/DIS 6358-4.2
+    docidentifier:
+    - content: ISO/DIS 6358-4.2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

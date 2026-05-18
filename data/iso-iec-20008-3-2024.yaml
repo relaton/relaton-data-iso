@@ -1,50 +1,42 @@
 ---
 id: ISOIEC2000832024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information security
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Anonymous digital signatures
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Mechanisms using multiple public keys'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information security - Anonymous digital signatures - Part 3: Mechanisms
     using multiple public keys'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité de l’information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Signatures numériques anonymes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Mécanismes utilisant plusieurs clés publiques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Sécurité de l’information - Signatures numériques anonymes - Partie 3:
     Mécanismes utilisant plusieurs clés publiques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80503.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '20008'
 date:
 - type: published
-  at: 2024-12
+  at: '2024-12-03'
 contributor:
 - role:
   - type: publisher
@@ -103,42 +95,24 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies anonymous digital signature mechanisms in which a verifier uses multiple public keys to verify a digital signature.
-    This document provides:
-    —     a general description of an anonymous digital signature mechanism using multiple public keys;
-    —     a variety of mechanisms that provide such anonymous digital signatures.
-    For each mechanism, this document specifies the process for:
-    —     generating the private key and public key of each user;
-    —     producing signatures;
-    —     verifying signatures;
-    —     linking signatures (if the mechanism supports linking);
-    —     tracing signatures (if the mechanism supports tracing);
-    —     producing signatures with threshold capability (if the mechanism supports a threshold capability);
-    —     verifying signatures with threshold capability (if the mechanism supports a threshold capability).
-    This document does not define the implementation of a public key infrastructure (PKI) and the means for distinct entities to exchange, extract and verify their respective public key certificates.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies anonymous digital signature mechanisms in which a verifier uses multiple public keys to verify a digital signature.
-    This document provides:
-    —     a general description of an anonymous digital signature mechanism using multiple public keys;
-    —     a variety of mechanisms that provide such anonymous digital signatures.
-    For each mechanism, this document specifies the process for:
-    —     generating the private key and public key of each user;
-    —     producing signatures;
-    —     verifying signatures;
-    —     linking signatures (if the mechanism supports linking);
-    —     tracing signatures (if the mechanism supports tracing);
-    —     producing signatures with threshold capability (if the mechanism supports a threshold capability);
-    —     verifying signatures with threshold capability (if the mechanism supports a threshold capability).
-    This document does not define the implementation of a public key infrastructure (PKI) and the means for distinct entities to exchange, extract and verify their respective public key certificates.
+  content: 'This document specifies anonymous digital signature mechanisms in which
+    a verifier uses multiple public keys to verify a digital signature. This document
+    provides: —     a general description of an anonymous digital signature mechanism
+    using multiple public keys; —     a variety of mechanisms that provide such anonymous
+    digital signatures. For each mechanism, this document specifies the process for:
+    —     generating the private key and public key of each user; —     producing
+    signatures; —     verifying signatures; —     linking signatures (if the mechanism
+    supports linking); —     tracing signatures (if the mechanism supports tracing);
+    —     producing signatures with threshold capability (if the mechanism supports
+    a threshold capability); —     verifying signatures with threshold capability
+    (if the mechanism supports a threshold capability). This document does not define
+    the implementation of a public key infrastructure (PKI) and the means for distinct
+    entities to exchange, extract and verify their respective public key certificates.'
 status:
   stage:
     content: '60'
@@ -151,9 +125,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,50 +1,42 @@
 ---
 id: ISOIEC865141995
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Computer graphics
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Graphical Kernel System (GKS) language bindings -- Part 4: C'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Computer graphics - Graphical Kernel System (GKS)
     language bindings -- Part 4: C'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Infographie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Interfaces langage avec GKS -- Partie 4: C'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Infographie - Interfaces langage avec
     GKS -- Partie 4: C'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/23070.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '8651'
 date:
 - type: published
-  at: 1995-06
+  at: '1995-06-15'
 contributor:
 - role:
   - type: publisher
@@ -103,7 +95,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -114,13 +105,6 @@ abstract:
     GKS is embedded in a language dependent layer obeying the particular conventions
     of that language. This part of ISO/IEC 8651 specifies such a language dependent
     layer for the C language.
-- language: fr
-  script: Latn
-  content: Le système graphique GKS, ISO 7942:1994, spécifie un noyau graphique indépendant
-    du langage. Pour être intégré dans un langage de programmation, GKS est inclus
-    dans une couche dépendante du langage et obéissant aux conventions particulières
-    de ce langage. La présente partie de l'ISO/CEI 8651 spécifie une couche dépendante
-    du langage pour le langage C.
 status:
   stage:
     content: '90'
@@ -135,24 +119,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8651-4:1991
+    formattedref:
+      content: ISO/IEC CD 8651-4
+    docidentifier:
+    - content: ISO/IEC CD 8651-4
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8651-4:1991
     docidentifier:
     - content: ISO/IEC 8651-4:1991
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '35.060'
-    text: Languages used in information technology
   - code: '35.140'
     text: Computer graphics
+  - code: '35.060'
+    text: Languages used in information technology
   structuredidentifier:
     type: ISO
     project_number:

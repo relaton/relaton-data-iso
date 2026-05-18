@@ -1,52 +1,47 @@
 ---
 id: ISO42412013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cinematography
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: " Projection leader (time-based), trailer and cue marks"
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Specifications
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Cinematography -  Projection leader (time-based), trailer and cue marks
     - Specifications
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cinématographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
-  content: Amorces, <> et <> pour projection (dans le temps)
+  content: Amorces, <<trailer>> et <<cue marks>> pour projection (dans le temps)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
-  content: Cinématographie - Amorces, <> et <> pour projection (dans le temps) - Spécifications
+  content: Cinématographie - Amorces, <<trailer>> et <<cue marks>> pour projection
+    (dans le temps) - Spécifications
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63387.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63387:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/33/63387.detail.rss
 docidentifier:
@@ -60,9 +55,7 @@ docidentifier:
 docnumber: '4241'
 date:
 - type: published
-  at: 2013-07
-- type: corrected
-  at: 2013-08
+  at: '2013-07-18'
 contributor:
 - role:
   - type: publisher
@@ -93,15 +86,10 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO 4241:2013 specifies the make-up or assembly of time-based leaders and
-    cue marks for 70 mm, 35 mm and 16 mm motion-picture release prints.
-- language: fr
   script: Latn
   content: ISO 4241:2013 specifies the make-up or assembly of time-based leaders and
     cue marks for 70 mm, 35 mm and 16 mm motion-picture release prints.
@@ -119,27 +107,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4241:2001
-    docidentifier:
-    - content: ISO 4241:2001
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 4241:2019
+    formattedref:
+      content: ISO 4241:2019
     docidentifier:
     - content: ISO 4241:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-07-23'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4241:2001
+    docidentifier:
+    - content: ISO 4241:2001
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

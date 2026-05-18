@@ -1,38 +1,32 @@
 ---
 id: ISO53881981
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Stationary air compressors
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Safety rules and code of practice
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Stationary air compressors - Safety rules and code of practice
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Compresseurs d'air fixes
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Règles de sécurité et code d'exploitation
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Compresseurs d'air fixes - Règles de sécurité et code d'exploitation
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/11424.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 5388:1981(E)
   type: iso-reference
-- content: urn:iso:std:iso:5388:stage-90.93
+- content: urn:iso:std:iso:5388:stage-90.20
   type: URN
 docnumber: '5388'
 date:
 - type: published
-  at: 1981-08
+  at: '1981-08-01'
 contributor:
 - role:
   - type: publisher
@@ -95,30 +89,38 @@ abstract:
     are excluded: with a shaft input less than 2 kW; with an effective discharge pressure
     less than 0,5 bar or exceeding 50 bar; supplying air for breathing, diving or
     surgery, such used for air brake systems; ejektors.'
-- language: fr
-  script: Latn
-  content: 'Establishes provisions for the safe design, construction, installation
-    and operation of stationary and skid-mounted compressors. Specifies requirements
-    to help minimizing compressor accidents and defines general safety practices for
-    the field. It does not apply to prime movers. The following types of compressor
-    are excluded: with a shaft input less than 2 kW; with an effective discharge pressure
-    less than 0,5 bar or exceeding 50 bar; supplying air for breathing, diving or
-    surgery, such used for air brake systems; ejektors.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '1981'
   owner:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 5388-1
+    docidentifier:
+    - content: ISO/PWI 5388-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 5388-2
+    docidentifier:
+    - content: ISO/PWI 5388-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

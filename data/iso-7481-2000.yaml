@@ -1,56 +1,50 @@
 ---
 id: ISO74812000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aerospace
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Nuts, self-locking, with maximum operating temperature less than or equal
     to 425 degrees C
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Test methods
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Aerospace - Nuts, self-locking, with maximum operating temperature less
     than or equal to 425 degrees C - Test methods
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronautique et espace
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Écrous à freinage interne dont la température maximale d'utilisation est
     inférieure ou égale à 425 degrés C
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes de contrôle et d'essai
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronautique et espace - Écrous à freinage interne dont la température
     maximale d'utilisation est inférieure ou égale à 425 degrés C - Méthodes de contrôle
     et d'essai
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/14223.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:14223:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/42/14223.detail.rss
 docidentifier:
@@ -64,7 +58,7 @@ docidentifier:
 docnumber: '7481'
 date:
 - type: published
-  at: 2000-02
+  at: '2000-02-03'
 contributor:
 - role:
   - type: publisher
@@ -101,28 +95,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard specifies test methods for metric self-locking nuts with MJ threads intended for use in
-    aerospace construction at maximum operating temperatures less than or equal to 425 °C. It describes the test
-    device and the method for each test.
-    It applies to self-locking nuts as defined above, provided that the relevant documents (dimensional standard,
-    drawing, procurement specification, etc.) refer to this International Standard.
-    This International Standard shall be used in conjunction with ISO 5858.
-    NOTE This International Standard only specifies tests for ambient and elevated temperature applications. Tests for
-    applications at less than ambient temperatures, for example cryogenic, shall be as agreed upon between seller and purchaser.
-- language: fr
-  script: Latn
-  content: |-
-    La présente Norme internationale spécifie les méthodes de contrôle et d'essai des écrous à freinage interne,
-    métriques, à filetage MJ, utilisés dans les constructions aérospatiales à des températures maximales d'utilisation
-    inférieures ou égales à 425 °C. Elle décrit le dispositif d'essai et le mode opératoire pour chaque contrôle ou essai.
-    Elle est applicable aux écrous à freinage interne répondant à la définition ci-dessus, à condition que les documents
-    les concernant (norme dimensionnelle, document de définition, spécification d'approvisionnement, etc.) y fassent
-    référence.
-    La présente Norme internationale est à utiliser conjointement avec l'ISO 5858.
-    NOTE La présente Norme internationale ne spécifie que des essais pour des applications à température ambiante et
-    élevée. Les essais pour des applications à des températures inférieures à la température ambiante, par exemple en cryogénie,
-    sont à effectuer comme convenu entre vendeur et acheteur.
+  content: This International Standard specifies test methods for metric self-locking
+    nuts with MJ threads intended for use in aerospace construction at maximum operating
+    temperatures less than or equal to 425 °C. It describes the test device and the
+    method for each test. It applies to self-locking nuts as defined above, provided
+    that the relevant documents (dimensional standard, drawing, procurement specification,
+    etc.) refer to this International Standard. This International Standard shall
+    be used in conjunction with ISO 5858. NOTE This International Standard only specifies
+    tests for ambient and elevated temperature applications. Tests for applications
+    at less than ambient temperatures, for example cryogenic, shall be as agreed upon
+    between seller and purchaser.
 status:
   stage:
     content: '95'
@@ -137,27 +119,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7481:1984
+    formattedref:
+      content: ISO/NP 7481
     docidentifier:
-    - content: ISO 7481:1984
+    - content: ISO/NP 7481
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7481:2023
+    formattedref:
+      content: ISO 7481:2023
     docidentifier:
     - content: ISO 7481:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-11-02'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 7481:1984
+    docidentifier:
+    - content: ISO 7481:1984
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

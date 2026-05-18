@@ -1,53 +1,45 @@
 ---
 id: ISO15638202020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Framework for cooperative telematics applications for regulated commercial
     freight vehicles (TARV)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 20: Weigh-in-motion monitoring'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Framework for cooperative telematics applications
     for regulated commercial freight vehicles (TARV) - Part 20: Weigh-in-motion monitoring'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cadre pour applications télématiques collaboratives pour véhicules de fret
     commercial réglementé (TARV)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 20: Contrôle du pesage en marche'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes intelligents de transport - Cadre pour applications télématiques
     collaboratives pour véhicules de fret commercial réglementé (TARV) - Partie 20:
     Contrôle du pesage en marche'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69031.html
@@ -61,12 +53,12 @@ docidentifier:
   primary: true
 - content: ISO 15638-20:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:15638:-20:stage-60.60
+- content: urn:iso:std:iso:15638:-20:stage-90.60
   type: URN
 docnumber: '15638'
 date:
 - type: published
-  at: 2020-07
+  at: '2020-07-03'
 contributor:
 - role:
   - type: publisher
@@ -97,65 +89,59 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document addresses the provision of ?weigh-in-motion monitoring' and specifies the form and content of the transmission of such data required to support such systems, and access methods to that data.
-    This document provides specifications for both on-board weighing (WIM-O) systems and in-road "weigh-in-motion" (WIM-R) systems, and provides a profile where the vehicle weight measured is recorded on-board using equipment already installed for "Remote Tachograph Monitoring".
-    This document provides specifications for common communications and data exchange aspects of the application service weigh-in-motion monitoring (WIM-O and WIM-R) that a jurisdiction regulator can elect to require or support as an option, including:
-    a)    High level definition of the service that a service provider has to provide (the service definition describes common service elements, but does not define the detail of how such an application service is instantiated, nor the acceptable value ranges of the data concepts defined);
-    b)    Means to realize the service;
-    c)    Application data naming, content and quality that an IVS has to deliver, including a number of profiles for data (noting that requirements and constraints of what can/cannot be transmitted over the air can vary between jurisdictions);
-    d)    Support for a number of defined communication profiles to enable remote inspection.
-    The present version of this document provides specifications for the following application profiles:
-    —          Application Profile A1: Vehicle weight measurement from "On-Board Weighing" systems (WIM-O);
-    —          Application Profile A2: Vehicle weight measurement from in-road ?weigh-in-motion' systems where data is transferred to the IVS (WIM-R).
-    NOTE 1    Vehicle weight measurement from in-road ?weigh-in-motion' systems where data is linked to a specific vehicle by ANPR or other techniques and sent via landline or cellular communications to a processing centre is also a viable and alternate option, but as it does not include carrying data on-board the vehicle is not a TARV use case.
-    The present version of this document provides specifications for the following communication profiles:
-    —          Communication Profile 1: Roadside inspection using a short range wireless communication interrogator instigating a physical roadside inspection (master-:-slave):
-    - —   Profile C1a: via a hand aimed or temporary roadside mounted and aimed interrogator;
-    - —   Profile C1b: via a vehicle mounted and directed interrogator;
-    - —   Profile C1c: via a permanent or semi-permanent roadside or overhead gantry.
-    —          Communication Profile 2: Roadside inspection using a short range wireless communication interrogator instigating a download of data to an application service provider via an ITS-station communication (master-:-slave + peer-:-peer):
-    - —   Profile C2a: via a hand aimed or temporary roadside mounted and aimed interrogator;
-    - —   Profile C2b: via a vehicle mounted and directed interrogator;
-    - —   Profile C2c: via a permanent or semi-permanent roadside or overhead gantry.
-    —          Communication Profile 3: Remote inspection addressed via an ITS-station instigating a download of data to an application service provider via a wireless communications interface (as defined in ISO 15638-2).
-    Subsequent versions of this document can support additional communication profiles.
-    NOTE 2    The ISO 15638 series of standards has been developed for use in the context of regulated commercial freight vehicles (hereinafter referred to as ?regulated vehicles'). There is nothing, however, to prevent a jurisdiction from extending or adapting the scope to include other types of regulated vehicles, as it deems appropriate.
-- language: fr
-  script: Latn
-  content: |-
-    This document addresses the provision of ?weigh-in-motion monitoring' and specifies the form and content of the transmission of such data required to support such systems, and access methods to that data.
-    This document provides specifications for both on-board weighing (WIM-O) systems and in-road "weigh-in-motion" (WIM-R) systems, and provides a profile where the vehicle weight measured is recorded on-board using equipment already installed for "Remote Tachograph Monitoring".
-    This document provides specifications for common communications and data exchange aspects of the application service weigh-in-motion monitoring (WIM-O and WIM-R) that a jurisdiction regulator can elect to require or support as an option, including:
-    a)    High level definition of the service that a service provider has to provide (the service definition describes common service elements, but does not define the detail of how such an application service is instantiated, nor the acceptable value ranges of the data concepts defined);
-    b)    Means to realize the service;
-    c)    Application data naming, content and quality that an IVS has to deliver, including a number of profiles for data (noting that requirements and constraints of what can/cannot be transmitted over the air can vary between jurisdictions);
-    d)    Support for a number of defined communication profiles to enable remote inspection.
-    The present version of this document provides specifications for the following application profiles:
-    —          Application Profile A1: Vehicle weight measurement from "On-Board Weighing" systems (WIM-O);
-    —          Application Profile A2: Vehicle weight measurement from in-road ?weigh-in-motion' systems where data is transferred to the IVS (WIM-R).
-    NOTE 1    Vehicle weight measurement from in-road ?weigh-in-motion' systems where data is linked to a specific vehicle by ANPR or other techniques and sent via landline or cellular communications to a processing centre is also a viable and alternate option, but as it does not include carrying data on-board the vehicle is not a TARV use case.
-    The present version of this document provides specifications for the following communication profiles:
-    —          Communication Profile 1: Roadside inspection using a short range wireless communication interrogator instigating a physical roadside inspection (master-:-slave):
-    - —   Profile C1a: via a hand aimed or temporary roadside mounted and aimed interrogator;
-    - —   Profile C1b: via a vehicle mounted and directed interrogator;
-    - —   Profile C1c: via a permanent or semi-permanent roadside or overhead gantry.
-    —          Communication Profile 2: Roadside inspection using a short range wireless communication interrogator instigating a download of data to an application service provider via an ITS-station communication (master-:-slave + peer-:-peer):
-    - —   Profile C2a: via a hand aimed or temporary roadside mounted and aimed interrogator;
-    - —   Profile C2b: via a vehicle mounted and directed interrogator;
-    - —   Profile C2c: via a permanent or semi-permanent roadside or overhead gantry.
-    —          Communication Profile 3: Remote inspection addressed via an ITS-station instigating a download of data to an application service provider via a wireless communications interface (as defined in ISO 15638-2).
-    Subsequent versions of this document can support additional communication profiles.
-    NOTE 2    The ISO 15638 series of standards has been developed for use in the context of regulated commercial freight vehicles (hereinafter referred to as ?regulated vehicles'). There is nothing, however, to prevent a jurisdiction from extending or adapting the scope to include other types of regulated vehicles, as it deems appropriate.
+  content: 'This document addresses the provision of ?weigh-in-motion monitoring''
+    and specifies the form and content of the transmission of such data required to
+    support such systems, and access methods to that data. This document provides
+    specifications for both on-board weighing (WIM-O) systems and in-road "weigh-in-motion"
+    (WIM-R) systems, and provides a profile where the vehicle weight measured is recorded
+    on-board using equipment already installed for "Remote Tachograph Monitoring".
+    This document provides specifications for common communications and data exchange
+    aspects of the application service weigh-in-motion monitoring (WIM-O and WIM-R)
+    that a jurisdiction regulator can elect to require or support as an option, including:
+    a) High level definition of the service that a service provider has to provide
+    (the service definition describes common service elements, but does not define
+    the detail of how such an application service is instantiated, nor the acceptable
+    value ranges of the data concepts defined); b) Means to realize the service; c)
+    Application data naming, content and quality that an IVS has to deliver, including
+    a number of profiles for data (noting that requirements and constraints of what
+    can/cannot be transmitted over the air can vary between jurisdictions); d) Support
+    for a number of defined communication profiles to enable remote inspection. The
+    present version of this document provides specifications for the following application
+    profiles: — Application Profile A1: Vehicle weight measurement from "On-Board
+    Weighing" systems (WIM-O); — Application Profile A2: Vehicle weight measurement
+    from in-road ?weigh-in-motion'' systems where data is transferred to the IVS (WIM-R).
+    NOTE 1 Vehicle weight measurement from in-road ?weigh-in-motion'' systems where
+    data is linked to a specific vehicle by ANPR or other techniques and sent via
+    landline or cellular communications to a processing centre is also a viable and
+    alternate option, but as it does not include carrying data on-board the vehicle
+    is not a TARV use case. The present version of this document provides specifications
+    for the following communication profiles: — Communication Profile 1: Roadside
+    inspection using a short range wireless communication interrogator instigating
+    a physical roadside inspection (master-:-slave): — Profile C1a: via a hand aimed
+    or temporary roadside mounted and aimed interrogator; — Profile C1b: via a vehicle
+    mounted and directed interrogator; — Profile C1c: via a permanent or semi-permanent
+    roadside or overhead gantry. — Communication Profile 2: Roadside inspection using
+    a short range wireless communication interrogator instigating a download of data
+    to an application service provider via an ITS-station communication (master-:-slave
+    + peer-:-peer): — Profile C2a: via a hand aimed or temporary roadside mounted
+    and aimed interrogator; — Profile C2b: via a vehicle mounted and directed interrogator;
+    — Profile C2c: via a permanent or semi-permanent roadside or overhead gantry.
+    — Communication Profile 3: Remote inspection addressed via an ITS-station instigating
+    a download of data to an application service provider via a wireless communications
+    interface (as defined in ISO 15638-2). Subsequent versions of this document can
+    support additional communication profiles. NOTE 2 The ISO 15638 series of standards
+    has been developed for use in the context of regulated commercial freight vehicles
+    (hereinafter referred to as ?regulated vehicles''). There is nothing, however,
+    to prevent a jurisdiction from extending or adapting the scope to include other
+    types of regulated vehicles, as it deems appropriate.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
     content: '60'
 copyright:
@@ -165,17 +151,17 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

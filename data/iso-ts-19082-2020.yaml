@@ -1,42 +1,30 @@
 ---
 id: ISOTS190822020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Definition of data elements and data frames between roadside modules and
     signal controllers for cooperative signal control
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Definition of data elements and data frames
     between roadside modules and signal controllers for cooperative signal control
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Intelligent transport systems
-  type: title-intro
-  format: text/plain
-- language: fr
-  script: Latn
-  content: Definition of data elements and data frames between roadside modules and
-    signal controllers for cooperative signal control
+  content: Titre manque
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Intelligent transport systems - Definition of data elements and data frames
-    between roadside modules and signal controllers for cooperative signal control
+  content: Titre manque
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63889.html
@@ -50,12 +38,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 19082:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:19082:stage-90.92
+- content: urn:iso:std:iso:ts:19082:stage-95.99
   type: URN
 docnumber: '19082'
 date:
 - type: published
-  at: 2020-01
+  at: '2020-01-24'
 contributor:
 - role:
   - type: publisher
@@ -86,41 +74,31 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies data elements and data frames for messages
-    a)    exchanged between roadside modules and:
-    1)   signal controllers,
-    2)   traffic management centres, and/or
-    3)   other roadside modules.
-    b)   exchanged between traffic management centres and signal controllers.
-    NOTE       Roadside modules can generate data based on inputs from vehicle detectors and/or probe data transmitted by vehicles. This document does not address how the roadside module generates the data; it only addresses communication after receiving and processing raw data from one or more sources.
-    EXAMPLE    A roadside module can calculate vehicle volume, average speed, and queue length by utilizing data from vehicle detectors and probe information.
-    The data structure follows the framework specified in ISO 14817-1, and the data elements and data frames are described by description name, object identifier, definition, and data type following ISO 14817-1. The specifications of this document complement those from ISO/TS 19091 and other standards.
-    The roadside modules can be constructed in any manner using any architecture including the ITS station as described in ISO 21217, or other hardware and software constructs.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies data elements and data frames for messages
-    a)    exchanged between roadside modules and:
-    1)   signal controllers,
-    2)   traffic management centres, and/or
-    3)   other roadside modules.
-    b)   exchanged between traffic management centres and signal controllers.
-    NOTE       Roadside modules can generate data based on inputs from vehicle detectors and/or probe data transmitted by vehicles. This document does not address how the roadside module generates the data; it only addresses communication after receiving and processing raw data from one or more sources.
-    EXAMPLE    A roadside module can calculate vehicle volume, average speed, and queue length by utilizing data from vehicle detectors and probe information.
-    The data structure follows the framework specified in ISO 14817-1, and the data elements and data frames are described by description name, object identifier, definition, and data type following ISO 14817-1. The specifications of this document complement those from ISO/TS 19091 and other standards.
-    The roadside modules can be constructed in any manner using any architecture including the ITS station as described in ISO 21217, or other hardware and software constructs.
+  content: 'This document specifies data elements and data frames for messages a)
+    exchanged between roadside modules and: 1) signal controllers, 2) traffic management
+    centres, and/or 3) other roadside modules. b) exchanged between traffic management
+    centres and signal controllers. NOTE Roadside modules can generate data based
+    on inputs from vehicle detectors and/or probe data transmitted by vehicles. This
+    document does not address how the roadside module generates the data; it only
+    addresses communication after receiving and processing raw data from one or more
+    sources. EXAMPLE A roadside module can calculate vehicle volume, average speed,
+    and queue length by utilizing data from vehicle detectors and probe information.
+    The data structure follows the framework specified in ISO 14817-1, and the data
+    elements and data frames are described by description name, object identifier,
+    definition, and data type following ISO 14817-1. The specifications of this document
+    complement those from ISO/TS 19091 and other standards. The roadside modules can
+    be constructed in any manner using any architecture including the ITS station
+    as described in ISO 21217, or other hardware and software constructs.'
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2020'
   owner:
@@ -130,24 +108,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 19082
+    formattedref:
+      content: ISO 19082:2025
     docidentifier:
-    - content: ISO/DIS 19082
+    - content: ISO 19082:2025
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

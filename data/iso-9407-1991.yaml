@@ -1,41 +1,37 @@
 ---
 id: ISO94071991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Shoe sizes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Mondopoint system of sizing and marking
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Shoe sizes - Mondopoint system of sizing and marking
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pointure des chaussures
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Système Mondopoint de mesure et de marquage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pointure des chaussures - Système Mondopoint de mesure et de marquage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/17106.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:17106:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/71/17106.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '9407'
 date:
 - type: published
-  at: 1991-10
+  at: '1991-10-24'
 contributor:
 - role:
   - type: publisher
@@ -89,11 +85,6 @@ abstract:
   content: Specifies the method of size marking for shoes and applies to all types
     of shoe, without restriction. This first edition cancels and replaces ISO 2816,
     ISO 3355, and ISO 3844.
-- language: fr
-  script: Latn
-  content: Specifies the method of size marking for shoes and applies to all types
-    of shoe, without restriction. This first edition cancels and replaces ISO 2816,
-    ISO 3355, and ISO 3844.
 status:
   stage:
     content: '95'
@@ -108,43 +99,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2816:1973
+    formattedref:
+      content: ISO 9407:2019
     docidentifier:
-    - content: ISO 2816:1973
+    - content: ISO 9407:2019
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 3355:1975
-    docidentifier:
-    - content: ISO 3355:1975
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 3844:1977
+    formattedref:
+      content: ISO 3844:1977
     docidentifier:
     - content: ISO 3844:1977
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 9407:2019
+    formattedref:
+      content: ISO 3355:1975
     docidentifier:
-    - content: ISO 9407:2019
+    - content: ISO 3355:1975
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-07-03'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2816:1973
+    docidentifier:
+    - content: ISO 2816:1973
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

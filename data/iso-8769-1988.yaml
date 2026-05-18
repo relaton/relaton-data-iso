@@ -1,46 +1,42 @@
 ---
 id: ISO87691988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Reference sources for the calibration of surface contamination monitors
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Beta-emitters (maximum beta energy greater than 0,15 MeV) and alpha-emitters
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Reference sources for the calibration of surface contamination monitors
     - Beta-emitters (maximum beta energy greater than 0,15 MeV) and alpha-emitters
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sources de référence pour l'étalonnage des moniteurs de contamination de
     surface
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Émetteurs bêta (énergie bêta maximale supérieure à 0,15 MeV) et émetteurs
     alpha
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sources de référence pour l'étalonnage des moniteurs de contamination de
     surface - Émetteurs bêta (énergie bêta maximale supérieure à 0,15 MeV) et émetteurs
     alpha
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16182.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16182:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/61/16182.detail.rss
 docidentifier:
@@ -54,7 +50,7 @@ docidentifier:
 docnumber: '8769'
 date:
 - type: published
-  at: 1988-06
+  at: '1988-06-23'
 contributor:
 - role:
   - type: publisher
@@ -98,11 +94,6 @@ abstract:
     of monitoring instruments is related directly to the radiation emitted (i.e. they
     indicate surface emission rate). Does not describe the procedure involved in the
     use of these sources (see e.g. IEC Publication 325).
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale spécifie les caractéristiques de sources de référence, traçables à des étalons nationaux de mesurage, permettant l'étalonnage des moniteurs de contamination de surface. Elle se rapporte aux émetteurs alpha et aux émetteurs bêta dont l'énergie bêta maximale est supérieure à 0,15 MeV. Elle ne décrit pas les modes opératoires qu'implique l'utilisation de ces sources de référence pour l'étalonnage des moniteurs de contamination de surface. Ces modes opératoires sont spécifiés dans la Publication CEI 325. La présente Norme internationale spécifie que les rayonnements de référence pour l'étalonnage des moniteurs de contamination de surface doivent provenir de sources de grande surface convenablement spécifiées et caractérisées, sans exception, en termes d'activité et de flux d'émission de surface, l'évaluation de ces grandeurs étant traçable à des étalons nationaux.
 status:
   stage:
     content: '95'
@@ -115,21 +106,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8769:2010
+    formattedref:
+      content: ISO/WD 8769
+    docidentifier:
+    - content: ISO/WD 8769
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 8769:2010
     docidentifier:
     - content: ISO 8769:2010
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2010-09-03'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

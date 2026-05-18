@@ -1,54 +1,46 @@
 ---
 id: ISO2714512012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Implementation of World-Wide Harmonized On-Board Diagnostics (WWH-OBD)
     communication requirements
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: General information and use case definition'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Implementation of World-Wide Harmonized On-Board Diagnostics
     (WWH-OBD) communication requirements - Part 1: General information and use case
     definition'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mise en application des exigences de communication pour le diagnostic embarqué
     harmonisé à l'échelle mondiale (WWH-OBD)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Informations générales et définition de cas d''usage'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Mise en application des exigences de communication
     pour le diagnostic embarqué harmonisé à l''échelle mondiale (WWH-OBD) - Partie
     1: Informations générales et définition de cas d''usage'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46273.html
@@ -67,7 +59,7 @@ docidentifier:
 docnumber: '27145'
 date:
 - type: published
-  at: 2012-08
+  at: '2012-08-14'
 contributor:
 - role:
   - type: publisher
@@ -98,48 +90,30 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO 27145 provides an overview of the structure and the partitioning of the different parts of
-    ISO 27145 and shows the relationship between the parts. In addition, it outlines the use case scenarios where
-    the ISO 27145 series is used. All terminology that is common throughout the ISO 27145 series is also outlined.
-    ISO 27145 is intended to become the single communication standard for access to OBD-related information. To
-    allow for a smooth migration from the existing communication standards to this future world-wide communication
-    standard, the initial communication concept is based on the ISO 15765 series, i.e. Diagnostic communication
-    over Control Area Network (DoCAN).
-    The intention is for the future communication concept to be based on the ISO 13400 series, i.e. Diagnostic
-    communication over Internet Protocol (DoIP) utilizing Ethernet. In view of the usage of standard network layer
+  content: 'This part of ISO 27145 provides an overview of the structure and the partitioning
+    of the different parts of ISO 27145 and shows the relationship between the parts.
+    In addition, it outlines the use case scenarios where the ISO 27145 series is
+    used. All terminology that is common throughout the ISO 27145 series is also outlined.
+    ISO 27145 is intended to become the single communication standard for access to
+    OBD-related information. To allow for a smooth migration from the existing communication
+    standards to this future world-wide communication standard, the initial communication
+    concept is based on the ISO 15765 series, i.e. Diagnostic communication over Control
+    Area Network (DoCAN). The intention is for the future communication concept to
+    be based on the ISO 13400 series, i.e. Diagnostic communication over Internet
+    Protocol (DoIP) utilizing Ethernet. In view of the usage of standard network layer
     protocols, future extensions to optional physical layers (e.g. wireless) are possible.
-    ISO 27145 has been extended to define the world-wide harmonized On-Board Diagnostics (OBD) communication
-    standard. Based on the results of the initialization, the external test equipment determines which protocol and
-    diagnostic services are supported by the vehicle's emissions-related system, i.e.
-    — legislated OBD: ISO 15031 series (based on DoCAN), and
-    — legislated WWH-OBD: ISO 27145 series (based on DoCAN and DoIP).
-    IMPORTANT — Use cases deriving from country-specific implementation of Global
-- language: fr
-  script: Latn
-  content: |-
-    This part of ISO 27145 provides an overview of the structure and the partitioning of the different parts of
-    ISO 27145 and shows the relationship between the parts. In addition, it outlines the use case scenarios where
-    the ISO 27145 series is used. All terminology that is common throughout the ISO 27145 series is also outlined.
-    ISO 27145 is intended to become the single communication standard for access to OBD-related information. To
-    allow for a smooth migration from the existing communication standards to this future world-wide communication
-    standard, the initial communication concept is based on the ISO 15765 series, i.e. Diagnostic communication
-    over Control Area Network (DoCAN).
-    The intention is for the future communication concept to be based on the ISO 13400 series, i.e. Diagnostic
-    communication over Internet Protocol (DoIP) utilizing Ethernet. In view of the usage of standard network layer
-    protocols, future extensions to optional physical layers (e.g. wireless) are possible.
-    ISO 27145 has been extended to define the world-wide harmonized On-Board Diagnostics (OBD) communication
-    standard. Based on the results of the initialization, the external test equipment determines which protocol and
-    diagnostic services are supported by the vehicle's emissions-related system, i.e.
-    — legislated OBD: ISO 15031 series (based on DoCAN), and
-    — legislated WWH-OBD: ISO 27145 series (based on DoCAN and DoIP).
-    IMPORTANT — Use cases deriving from country-specific implementation of Global
+    ISO 27145 has been extended to define the world-wide harmonized On-Board Diagnostics
+    (OBD) communication standard. Based on the results of the initialization, the
+    external test equipment determines which protocol and diagnostic services are
+    supported by the vehicle''s emissions-related system, i.e. — legislated OBD: ISO
+    15031 series (based on DoCAN), and — legislated WWH-OBD: ISO 27145 series (based
+    on DoCAN and DoIP). IMPORTANT — Use cases deriving from country-specific implementation
+    of Global'
 status:
   stage:
     content: '90'
@@ -154,24 +128,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/PAS 27145-1:2006
+    formattedref:
+      content: ISO/PWI 27145-1
+    docidentifier:
+    - content: ISO/PWI 27145-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/SAE PWI 27145-1
+    docidentifier:
+    - content: ISO/SAE PWI 27145-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/PAS 27145-1:2006
     docidentifier:
     - content: ISO/PAS 27145-1:2006
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.180'
-    text: Diagnostic, maintenance and test equipment
   - code: 43.040.10
     text: Electrical and electronic equipment
+  - code: '43.180'
+    text: Diagnostic, maintenance and test equipment
   structuredidentifier:
     type: ISO
     project_number:

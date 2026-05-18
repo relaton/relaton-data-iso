@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1177072021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information security
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Key management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 7: Cross-domain password-based authenticated key exchange'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information security - Key management - Part 7: Cross-domain password-based
     authenticated key exchange'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Gestion des clés
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 7: Échange de clés authentifié entre mots de passe entre domaines'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Sécurité de l''information - Gestion des clés - Partie 7: Échange de clés
     authentifié entre mots de passe entre domaines'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80097.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '11770'
 date:
 - type: published
-  at: 2021-07
+  at: '2021-07-06'
 contributor:
 - role:
   - type: publisher
@@ -103,20 +95,23 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies mechanisms for cross-domain password-based authenticated key exchange, all of which are four-party password-based authenticated key exchange (4PAKE) protocols. Such protocols let two communicating entities establish a shared session key using just the login passwords that they share with their respective domain authentication servers. The authentication servers, assumed to be part of a standard public key infrastructure (PKI), act as ephemeral certification authorities (CAs) that certify key materials that the users can subsequently use to exchange and agree on as a session key.
-    This document does not specify the means to be used to establish a shared password between an entity and its corresponding domain server. This document also does not define the implementation of a PKI and the means for two distinct domain servers to exchange or verify their respective public key certificates.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies mechanisms for cross-domain password-based authenticated key exchange, all of which are four-party password-based authenticated key exchange (4PAKE) protocols. Such protocols let two communicating entities establish a shared session key using just the login passwords that they share with their respective domain authentication servers. The authentication servers, assumed to be part of a standard public key infrastructure (PKI), act as ephemeral certification authorities (CAs) that certify key materials that the users can subsequently use to exchange and agree on as a session key.
-    This document does not specify the means to be used to establish a shared password between an entity and its corresponding domain server. This document also does not define the implementation of a PKI and the means for two distinct domain servers to exchange or verify their respective public key certificates.
+  content: This document specifies mechanisms for cross-domain password-based authenticated
+    key exchange, all of which are four-party password-based authenticated key exchange
+    (4PAKE) protocols. Such protocols let two communicating entities establish a shared
+    session key using just the login passwords that they share with their respective
+    domain authentication servers. The authentication servers, assumed to be part
+    of a standard public key infrastructure (PKI), act as ephemeral certification
+    authorities (CAs) that certify key materials that the users can subsequently use
+    to exchange and agree on as a session key. This document does not specify the
+    means to be used to establish a shared password between an entity and its corresponding
+    domain server. This document also does not define the implementation of a PKI
+    and the means for two distinct domain servers to exchange or verify their respective
+    public key certificates.
 status:
   stage:
     content: '60'
@@ -129,9 +124,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISO10702018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hydrometry
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Slope-area method
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Hydrometry - Slope-area method
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Hydrometrie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Methode de la pente de la ligne d'eau
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Hydrometrie - Methode de la pente de la ligne d'eau
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69287.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '1070'
 date:
 - type: published
-  at: 2018-11
+  at: '2018-11-05'
 contributor:
 - role:
   - type: publisher
@@ -88,27 +82,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "This document specifies a method of determining discharge in open channels
+  content: This document specifies a method of determining discharge in open channels
     from observations of the surface slope and cross-sectional area of the channel.
-    \nIt is applicable to use under special conditions when direct measurement of
-    discharge by typically more accurate methods, such as the velocity-area method,
-    is not possible. Generally, the method can be used to determine discharge\na)
-    \   for a peak flow that left high-water marks along the stream banks,\nb)    for
-    a peak flow that left marks on a series of water-level gauges or where peak stages
-    were recorded by that series of gauges, and\nc)    for flow observed at the time
-    of determining gauge heights from a series of gauges.\nThe method is commonly
-    used to undertake the extension of stage?discharge relationships above the highest
-    gauged flows. \nIt does not apply to determining discharges in tidal reaches."
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document décrit une méthode d'estimation du débit pour les écoulements à surface libre à partir d'observations de la pente de la ligne d'eau et d'observations de la surface mouillée du chenal.
-    Elle s'applique dans des conditions particulières, lorsque le calcul direct du débit par des méthodes plus précises, comme celle de l'exploration du champ des vitesses, n'est pas possible. Cette méthode peut être utilisée pour estimer le débit:
-    a)    d'une pointe de crue ayant déposé des laisses de crue le long des rives du cours d'eau;
-    b)    d'une pointe de crue ayant déposé des laisses de crue sur une série d'échelles limnimétriques ou si cette pointe de crue a été enregistrée par des limnigraphes associés;
-    c)    observé, simultanément, sur une série d'échelles limnimétriques.
-    La méthode est généralement utilisée pour extrapoler les courbes de tarage vers le haut.
-    Elle ne s'applique pas à la détermination des débits dans les zones de marée.
+    It is applicable to use under special conditions when direct measurement of discharge
+    by typically more accurate methods, such as the velocity-area method, is not possible.
+    Generally, the method can be used to determine discharge a) for a peak flow that
+    left high-water marks along the stream banks, b) for a peak flow that left marks
+    on a series of water-level gauges or where peak stages were recorded by that series
+    of gauges, and c) for flow observed at the time of determining gauge heights from
+    a series of gauges. The method is commonly used to undertake the extension of
+    stage?discharge relationships above the highest gauged flows. It does not apply
+    to determining discharges in tidal reaches.
 status:
   stage:
     content: '90'
@@ -121,26 +105,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1070:1992
-    docidentifier:
-    - content: ISO 1070:1992
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 1070:1992/Amd 1:1997
+    formattedref:
+      content: ISO 1070:1992/Amd 1:1997
     docidentifier:
     - content: ISO 1070:1992/Amd 1:1997
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1070:1992
+    docidentifier:
+    - content: ISO 1070:1992
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

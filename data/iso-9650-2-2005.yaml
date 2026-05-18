@@ -1,51 +1,45 @@
 ---
 id: ISO965022005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Small craft
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Inflatable liferafts
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Type II'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Small craft - Inflatable liferafts - Part 2: Type II'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Petits navires
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Radeaux de survie gonflables
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Type II'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Petits navires - Radeaux de survie gonflables - Partie 2: Type II'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37479.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:37479:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/74/37479.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '9650'
 date:
 - type: published
-  at: 2005-03
+  at: '2005-03-02'
 contributor:
 - role:
   - type: publisher
@@ -98,11 +92,6 @@ abstract:
   script: Latn
   content: 'ISO 9650-2:2005 specifies the design, performance and marking characteristics,
     and gives the test methods for inflatable liferafts of Type II:'
-- language: fr
-  script: Latn
-  content: L'ISO 9650-2:2005 spécifie la conception, les performances, les caractéristiques
-    de marquage et elle donne les méthodes d'essai des radeaux de survie gonflables
-    de type II.
 status:
   stage:
     content: '95'
@@ -115,21 +104,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9650-1:2022
+    formattedref:
+      content: ISO/AWI 9650-2
+    docidentifier:
+    - content: ISO/AWI 9650-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9650-1:2022
     docidentifier:
     - content: ISO 9650-1:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-05-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

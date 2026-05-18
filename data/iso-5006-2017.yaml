@@ -1,50 +1,42 @@
 ---
 id: ISO50062017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Earth-moving machinery
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Operator's field of view
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Test method and performance criteria
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Earth-moving machinery - Operator's field of view - Test method and performance
     criteria
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Engins de terrassement
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Visibilité de l'opérateur
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode d'essai et critères de performance
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Engins de terrassement - Visibilité de l'opérateur - Méthode d'essai et
     critères de performance
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45609.html
@@ -63,9 +55,7 @@ docidentifier:
 docnumber: '5006'
 date:
 - type: published
-  at: 2017-04
-- type: corrected
-  at: 2017-07
+  at: '2017-04-26'
 contributor:
 - role:
   - type: publisher
@@ -102,14 +92,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 5006:2017 specifies a static test method for determining and evaluating the operator's field of view on a rectangular boundary around the machine and on a 12 m visibility test circle (VTC).
-    It is applicable to the earth-moving machines as defined in ISO 6165 that have a seated operator, and which are intended to operate on work sites and travel on public roads. It provides visibility performance criteria for machines up to the maximum operating mass according to ISO 6016, depending on the type of machine family listed in Table 1. For those machines not listed ? including larger machines, derivative and other types of earth-moving machinery ? the visibility test procedures can be used along with the risk assessment process defined in 10.4.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 5006:2017 spécifie une méthode d'essai statique qui permet de déterminer et d'évaluer le champ de vision de l'opérateur, mesurée sur un contour rectangulaire entourant l'engin et sur un cercle d'essai de visibilité (VTC) de 12 m de rayon.
-    Il s'applique aux engins de terrassement tels que définis dans l'ISO 6165, qui ont un poste de l'opérateur assis, et qui sont destinés à fonctionner sur des chantiers et circuler sur les voies publiques. Il fournit des critères de performance de visibilité pour des engins ayant une masse en service maximale selon  l'ISO 6016, dépendant du type de la famille d'engins énumérés dans le Tableau 1. Pour les engins non mentionnés dans le Tableau 1, y compris les engins de grand gabarit, les engins de terrassement dérivés et autres types d'engins de terrassement, les modes opératoires d'essai de visibilité peuvent être utilisés  avec le processus de l'appréciation du risque défini en 10.4.
+  content: ISO 5006:2017 specifies a static test method for determining and evaluating
+    the operator's field of view on a rectangular boundary around the machine and
+    on a 12 m visibility test circle (VTC). It is applicable to the earth-moving machines
+    as defined in ISO 6165 that have a seated operator, and which are intended to
+    operate on work sites and travel on public roads. It provides visibility performance
+    criteria for machines up to the maximum operating mass according to ISO 6016,
+    depending on the type of machine family listed in Table 1. For those machines
+    not listed ? including larger machines, derivative and other types of earth-moving
+    machinery ? the visibility test procedures can be used along with the risk assessment
+    process defined in 10.4.
 status:
   stage:
     content: '90'
@@ -124,24 +116,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5006:2006
+    formattedref:
+      content: ISO/PWI 5006
+    docidentifier:
+    - content: ISO/PWI 5006
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 5006:2006
     docidentifier:
     - content: ISO 5006:2006
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 5006:2006/Cor 1:2008
+    formattedref:
+      content: ISO 5006:2006/Cor 1:2008
     docidentifier:
     - content: ISO 5006:2006/Cor 1:2008
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

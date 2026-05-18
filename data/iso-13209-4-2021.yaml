@@ -1,53 +1,47 @@
 ---
 id: ISO1320942021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Test sequence eXchange format (OTX)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Expanded extensions interface definition'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Open Test sequence eXchange format (OTX) - Part 4: Expanded
     extensions interface definition'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Format public d'échange de séquence-tests (OTX)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Définition de l''interface des extensions étendues'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Format public d''échange de séquence-tests (OTX)
     - Partie 4: Définition de l''interface des extensions étendues'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74090.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74090:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/40/74090.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '13209'
 date:
 - type: published
-  at: 2021-05
+  at: '2021-05-21'
 contributor:
 - role:
   - type: publisher
@@ -92,22 +86,21 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the Open Test sequence eXchange (OTX) additional extension requirements and data model specifications.
-    The requirements are derived from the use cases described in ISO 13209-1. They are listed in Clause 4.
-    The data model specification aims at an exhaustive definition of all features of the OTX extensions which have been implemented to satisfy the requirements. This document establishes rules for the syntactical entities of each extension. Each of these syntactical entities is accompanied by semantic rules which determine how OTX documents containing extension features are to be interpreted. The syntax rules are provided by UML class diagrams and XML schemas, whereas the semantics are given by UML activity diagrams and prose definitions.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the Open Test sequence eXchange (OTX) additional extension requirements and data model specifications.
-    The requirements are derived from the use cases described in ISO 13209-1. They are listed in Clause 4.
-    The data model specification aims at an exhaustive definition of all features of the OTX extensions which have been implemented to satisfy the requirements. This document establishes rules for the syntactical entities of each extension. Each of these syntactical entities is accompanied by semantic rules which determine how OTX documents containing extension features are to be interpreted. The syntax rules are provided by UML class diagrams and XML schemas, whereas the semantics are given by UML activity diagrams and prose definitions.
+  content: This document defines the Open Test sequence eXchange (OTX) additional
+    extension requirements and data model specifications. The requirements are derived
+    from the use cases described in ISO 13209-1. They are listed in Clause 4. The
+    data model specification aims at an exhaustive definition of all features of the
+    OTX extensions which have been implemented to satisfy the requirements. This document
+    establishes rules for the syntactical entities of each extension. Each of these
+    syntactical entities is accompanied by semantic rules which determine how OTX
+    documents containing extension features are to be interpreted. The syntax rules
+    are provided by UML class diagrams and XML schemas, whereas the semantics are
+    given by UML activity diagrams and prose definitions.
 status:
   stage:
     content: '95'
@@ -120,29 +113,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13209-4:2024
+    formattedref:
+      content: ISO 13209-4:2024
     docidentifier:
     - content: ISO 13209-4:2024
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-11-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.180'
-    text: Diagnostic, maintenance and test equipment
   - code: 43.040.15
     text: Car informatics. On board computer systems
+  - code: '43.180'
+    text: Diagnostic, maintenance and test equipment
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,54 +1,46 @@
 ---
 id: ISO2714542016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Implementation of World-Wide Harmonized On-Board Diagnostics (WWH-OBD)
     communication requirements
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Connection between vehicle and test equipment'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Implementation of World-Wide Harmonized On-Board Diagnostics
     (WWH-OBD) communication requirements - Part 4: Connection between vehicle and
     test equipment'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mise en application des exigences de communication pour le diagnostic embarqué
     harmonisé à l'échelle mondiale (WWH-OBD)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Connexion entre véhicule et équipement d''essai'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Mise en application des exigences de communication
     pour le diagnostic embarqué harmonisé à l''échelle mondiale (WWH-OBD) - Partie
     4: Connexion entre véhicule et équipement d''essai'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/68571.html
@@ -62,12 +54,12 @@ docidentifier:
   primary: true
 - content: ISO 27145-4:2016(E)
   type: iso-reference
-- content: urn:iso:std:iso:27145:-4:stage-90.93
+- content: urn:iso:std:iso:27145:-4:stage-90.20
   type: URN
 docnumber: '27145'
 date:
 - type: published
-  at: 2016-04
+  at: '2016-03-29'
 contributor:
 - role:
   - type: publisher
@@ -98,33 +90,33 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 27145-4:2016 defines the requirements to successfully establish, maintain and terminate communication with a vehicle that implements the requirements of the WWH-OBD GTR (Global technical regulation No. 5; see Reference [16]). This requires plug and play communication capabilities for the vehicle, as well as for any test equipment that intends to establish communication with a vehicle. This part of ISO 27145 details all the OSI layer requirements to achieve this goal.
-    ISO 27145-4:2016 is intended to become the single communication standard for access to information relating to vehicle on-board diagnostics (VOBD). To allow for a smooth migration from the existing communication standards to this future world-wide standardized communication standard, the communication concept as specified in this part of ISO 27145 is based on two different data links:
-    -      diagnostic communication over Controller Area Network (DoCAN), ISO 15765‑4;
-    -      diagnostic communication over Internet Protocol (DoIP), ISO 13400 (all parts).
-    NOTE          It is intended that this part of ISO 27145 will be extended as necessary upon introduction of additional communication media.
-    IMPORTANT ? Use cases deriving from country-specific implementation of GTR No. 5 into local legislation are not included in this part of ISO 27145.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 27145-4:2016 defines the requirements to successfully establish, maintain and terminate communication with a vehicle that implements the requirements of the WWH-OBD GTR (Global technical regulation No. 5; see Reference [16]). This requires plug and play communication capabilities for the vehicle, as well as for any test equipment that intends to establish communication with a vehicle. This part of ISO 27145 details all the OSI layer requirements to achieve this goal.
-    ISO 27145-4:2016 is intended to become the single communication standard for access to information relating to vehicle on-board diagnostics (VOBD). To allow for a smooth migration from the existing communication standards to this future world-wide standardized communication standard, the communication concept as specified in this part of ISO 27145 is based on two different data links:
-    -      diagnostic communication over Controller Area Network (DoCAN), ISO 15765‑4;
-    -      diagnostic communication over Internet Protocol (DoIP), ISO 13400 (all parts).
-    NOTE          It is intended that this part of ISO 27145 will be extended as necessary upon introduction of additional communication media.
-    IMPORTANT ? Use cases deriving from country-specific implementation of GTR No. 5 into local legislation are not included in this part of ISO 27145.
+  content: 'ISO 27145-4:2016 defines the requirements to successfully establish, maintain
+    and terminate communication with a vehicle that implements the requirements of
+    the WWH-OBD GTR (Global technical regulation No. 5; see Reference [16]). This
+    requires plug and play communication capabilities for the vehicle, as well as
+    for any test equipment that intends to establish communication with a vehicle.
+    This part of ISO 27145 details all the OSI layer requirements to achieve this
+    goal. ISO 27145-4:2016 is intended to become the single communication standard
+    for access to information relating to vehicle on-board diagnostics (VOBD). To
+    allow for a smooth migration from the existing communication standards to this
+    future world-wide standardized communication standard, the communication concept
+    as specified in this part of ISO 27145 is based on two different data links: -
+    diagnostic communication over Controller Area Network (DoCAN), ISO 15765‑4; -
+    diagnostic communication over Internet Protocol (DoIP), ISO 13400 (all parts).
+    NOTE It is intended that this part of ISO 27145 will be extended as necessary
+    upon introduction of additional communication media. IMPORTANT ? Use cases deriving
+    from country-specific implementation of GTR No. 5 into local legislation are not
+    included in this part of ISO 27145.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2016'
   owner:
@@ -132,26 +124,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 27145-4:2012
+    formattedref:
+      content: ISO 27145-4:2012
     docidentifier:
     - content: ISO 27145-4:2012
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.180'
-    text: Diagnostic, maintenance and test equipment
   - code: 43.040.10
     text: Electrical and electronic equipment
+  - code: '43.180'
+    text: Diagnostic, maintenance and test equipment
   structuredidentifier:
     type: ISO
     project_number:

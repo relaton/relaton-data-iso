@@ -1,42 +1,38 @@
 ---
 id: ISO191122003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Spatial referencing by geographic identifiers
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Spatial referencing by geographic identifiers
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Système de références spatiales par identificateurs géographiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Système de références spatiales par identificateurs
     géographiques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/26017.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26017:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/60/26017.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '19112'
 date:
 - type: published
-  at: 2003-10
+  at: '2003-10-21'
 contributor:
 - role:
   - type: publisher
@@ -81,20 +77,22 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 19112:2003 defines the conceptual schema for spatial references based on geographic identifiers. It establishes a general model for spatial referencing using geographic identifiers, defines the components of a spatial reference system and defines the essential components of a gazetteer. Spatial referencing by coordinates is not addressed in this document; however, a mechanism for recording complementary coordinate references is included.
-    ISO 19112:2003 assists users in understanding the spatial references used in datasets. It enables gazetteers to be constructed in a consistent manner and supports the development of other standards in the field of geographic information. It is applicable to digital geographic data, and its principles may be extended to other forms of geographic data such as maps, charts and textual documents.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 19112:2003 defines the conceptual schema for spatial references based on geographic identifiers. It establishes a general model for spatial referencing using geographic identifiers, defines the components of a spatial reference system and defines the essential components of a gazetteer. Spatial referencing by coordinates is not addressed in this document; however, a mechanism for recording complementary coordinate references is included.
-    ISO 19112:2003 assists users in understanding the spatial references used in datasets. It enables gazetteers to be constructed in a consistent manner and supports the development of other standards in the field of geographic information. It is applicable to digital geographic data, and its principles may be extended to other forms of geographic data such as maps, charts and textual documents.
+  content: ISO 19112:2003 defines the conceptual schema for spatial references based
+    on geographic identifiers. It establishes a general model for spatial referencing
+    using geographic identifiers, defines the components of a spatial reference system
+    and defines the essential components of a gazetteer. Spatial referencing by coordinates
+    is not addressed in this document; however, a mechanism for recording complementary
+    coordinate references is included. ISO 19112:2003 assists users in understanding
+    the spatial references used in datasets. It enables gazetteers to be constructed
+    in a consistent manner and supports the development of other standards in the
+    field of geographic information. It is applicable to digital geographic data,
+    and its principles may be extended to other forms of geographic data such as maps,
+    charts and textual documents.
 status:
   stage:
     content: '95'
@@ -107,21 +105,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 19112:2019
+    formattedref:
+      content: ISO/PWI 19112
+    docidentifier:
+    - content: ISO/PWI 19112
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 19112:2019
     docidentifier:
     - content: ISO 19112:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-02-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISO151102017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints and varnishes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Artificial weathering including acidic deposition
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints and varnishes - Artificial weathering including acidic deposition
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vieillissement artificiel comportant un dépôt acide
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis - Vieillissement artificiel comportant un dépôt acide
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/66948.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 15110:2017(E)
   type: iso-reference
-- content: urn:iso:std:iso:15110:stage-90.93
+- content: urn:iso:std:iso:15110:stage-90.92
   type: URN
 docnumber: '15110'
 date:
 - type: published
-  at: 2017-07
+  at: '2017-08-08'
 contributor:
 - role:
   - type: publisher
@@ -101,27 +95,11 @@ abstract:
     allows fewer specimens to be exposed (and hence more rapid testing) and enables
     evaluation of the exposed specimens to be carried out using methods which are
     more objective than visual assessment.
-- language: fr
-  script: Latn
-  content: ISO 15110:2017 spécifie un essai dit à la rosée et au brouillard acides
-    (essai ADF), une méthode d'essai accéléré en laboratoire qui simule, par l'utilisation
-    de précipitations acides artificielles, la détérioration sous l'effet de précipitations
-    atmosphériques acides combinées au rayonnement UV, à la condensation de précipitations
-    neutres et à des variations de température et d'humidité. Cette méthode d'essai
-    est destinée à évaluer l'aptitude à l'emploi de matériaux peints dans des environnements
-    extérieurs comportant des précipitations acides en les classant selon leurs performances
-    relatives. Son but n'est pas de reproduire des détériorations de même étendue
-    ou le même mode de détérioration que dans le cas du vieillissement en extérieur,
-    mais d'établir un classement analogue à celui qui serait obtenu dans des conditions
-    de vieillissement en extérieur. La méthode provoque des détériorations plus homogènes
-    et permet d'exposer un nombre moins important d'éprouvettes (et donc de réduire
-    la durée des essais). Elle permet également d'évaluer les éprouvettes exposées
-    à l'aide de méthodes plus objectives que l'examen visuel.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2017'
   owner:
@@ -131,16 +109,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 15110:2013
+    formattedref:
+      content: ISO/AWI 15110
+    docidentifier:
+    - content: ISO/AWI 15110
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 15110:2013
     docidentifier:
     - content: ISO 15110:2013
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

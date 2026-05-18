@@ -1,44 +1,40 @@
 ---
 id: ISO92951988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Acoustics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Measurement of high-frequency noise emitted by computer and business equipment
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Acoustics - Measurement of high-frequency noise emitted by computer and
     business equipment
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acoustique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesurage du bruit à haute fréquence émis par les matériels informatiques
     et de bureau
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acoustique - Mesurage du bruit à haute fréquence émis par les matériels
     informatiques et de bureau
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16950.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16950:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/69/16950.detail.rss
 docidentifier:
@@ -52,7 +48,7 @@ docidentifier:
 docnumber: '9295'
 date:
 - type: published
-  at: 1988-11
+  at: '1988-11-10'
 contributor:
 - role:
   - type: publisher
@@ -93,11 +89,6 @@ abstract:
     frequency range between 11,2 kHz and 22,4 kHz with the centre frequency of 16
     kHz. The first three methods are based on the reverberation room technique, the
     fourth on a free field over a reflecting plane.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale spécifie quatre méthodes pour la détermination des niveaux de puissance acoustique du bruit à haute fréquence émis par les matériels informatiques et de bureau dans le domaine de fréquences couvert par la bande d'octave centrée sur 16 kHz. Ces méthodes sont complémentaires aux méthodes décrites dans l'ISO 7779. Les trois premières méthodes reposent sur la technique en salle réverbérante décrite au chapitre 5 de l'ISO 7779 : 1988, tandis que la quatrième méthode fait appel à un champ libre au-dessus d'un plan réfléchissant décrit au chapitre 6 de l'ISO 7779 : 1988. Les conditions d'essai qui déterminent l'installation et le fonctionnement des matériels sont celles spécifiées dans l'ISO 7779. Les quatre méthodes spécifiées dans la présente Norme internationale s'appliquent particulièrement aux matériels informatiques et de bureau, mais peuvent convenir à d'autres types de matériel. La présente Norme internationale spécifie des méthodes pour la dét
 status:
   stage:
     content: '95'
@@ -110,21 +101,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9295:2015
+    formattedref:
+      content: ISO/WD 9295
+    docidentifier:
+    - content: ISO/WD 9295
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9295:2015
     docidentifier:
     - content: ISO 9295:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-05-18'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

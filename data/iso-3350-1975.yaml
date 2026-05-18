@@ -1,41 +1,37 @@
 ---
 id: ISO33501975
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Wood
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of static hardness
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Wood - Determination of static hardness
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bois
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la dureté statique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bois - Détermination de la dureté statique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/8634.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:8634:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/86/8634.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '3350'
 date:
 - type: published
-  at: 1975-08
+  at: '1975-08-01'
 contributor:
 - role:
   - type: publisher
@@ -89,11 +85,6 @@ abstract:
   content: Specifies a method that determines the resistance of a test piece to the
     penetration of a plunger to a specified depth under a gradually increasing load.
     References are made to ISO 3129 and ISO 3130.
-- language: fr
-  script: Latn
-  content: Specifies a method that determines the resistance of a test piece to the
-    penetration of a plunger to a specified depth under a gradually increasing load.
-    References are made to ISO 3129 and ISO 3130.
 status:
   stage:
     content: '95'
@@ -106,21 +97,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13061-12:2017
+    formattedref:
+      content: ISO/WD 13061-12
+    docidentifier:
+    - content: ISO/WD 13061-12
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 13061-12:2017
     docidentifier:
     - content: ISO 13061-12:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-10-27'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

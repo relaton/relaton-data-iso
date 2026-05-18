@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1011812016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Hash-functions -- Part 1: General'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Security techniques - Hash-functions -- Part
     1: General'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Fonctions de hachage -- Partie 1: Généralités'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Techniques de sécurité - Fonctions de
     hachage -- Partie 1: Généralités'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/64213.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '10118'
 date:
 - type: published
-  at: 2016-10
+  at: '2016-10-14'
 contributor:
 - role:
   - type: publisher
@@ -103,26 +95,26 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 10118-1:2016 specifies hash-functions and is therefore applicable to the provision of authentication, integrity and non-repudiation services. Hash-functions map strings of bits of variable (but usually upper bounded) length to fixed-length strings of bits, using a specified algorithm. They can be used for
-    -      reducing a message to a short imprint for input to a digital signature mechanism, and
-    -      committing the user to a given string of bits without revealing this string.
-    NOTE          The hash-functions specified in ISO/IEC 10118 (all parts) do not involve the use of secret keys. However, these hash-functions may be used, in conjunction with secret keys, to build message authentication codes. Message Authentication Codes (MACs) provide data origin authentication as well as message integrity. Techniques for computing a MAC using a hash-function are specified in ISO/IEC 9797‑2 [1].
-    ISO/IEC 10118-1:2016 contains definitions, symbols, abbreviations and requirements that are common to all the other parts of ISO/IEC 10118. The criteria used to select the algorithms specified in subsequent parts of ISO/IEC 10118 are defined in Annex B of this document.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 10118-1:2016 specifies hash-functions and is therefore applicable to the provision of authentication, integrity and non-repudiation services. Hash-functions map strings of bits of variable (but usually upper bounded) length to fixed-length strings of bits, using a specified algorithm. They can be used for
-    -      reducing a message to a short imprint for input to a digital signature mechanism, and
-    -      committing the user to a given string of bits without revealing this string.
-    NOTE          The hash-functions specified in ISO/IEC 10118 (all parts) do not involve the use of secret keys. However, these hash-functions may be used, in conjunction with secret keys, to build message authentication codes. Message Authentication Codes (MACs) provide data origin authentication as well as message integrity. Techniques for computing a MAC using a hash-function are specified in ISO/IEC 9797‑2 [1].
-    ISO/IEC 10118-1:2016 contains definitions, symbols, abbreviations and requirements that are common to all the other parts of ISO/IEC 10118. The criteria used to select the algorithms specified in subsequent parts of ISO/IEC 10118 are defined in Annex B of this document.
+  content: ISO/IEC 10118-1:2016 specifies hash-functions and is therefore applicable
+    to the provision of authentication, integrity and non-repudiation services. Hash-functions
+    map strings of bits of variable (but usually upper bounded) length to fixed-length
+    strings of bits, using a specified algorithm. They can be used for - reducing
+    a message to a short imprint for input to a digital signature mechanism, and -
+    committing the user to a given string of bits without revealing this string. NOTE
+    The hash-functions specified in ISO/IEC 10118 (all parts) do not involve the use
+    of secret keys. However, these hash-functions may be used, in conjunction with
+    secret keys, to build message authentication codes. Message Authentication Codes
+    (MACs) provide data origin authentication as well as message integrity. Techniques
+    for computing a MAC using a hash-function are specified in ISO/IEC 9797‑2 [1].
+    ISO/IEC 10118-1:2016 contains definitions, symbols, abbreviations and requirements
+    that are common to all the other parts of ISO/IEC 10118. The criteria used to
+    select the algorithms specified in subsequent parts of ISO/IEC 10118 are defined
+    in Annex B of this document.
 status:
   stage:
     content: '90'
@@ -135,29 +127,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 10118-1:2000
+    formattedref:
+      content: ISO/IEC 10118-1:2000
     docidentifier:
     - content: ISO/IEC 10118-1:2000
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 10118-1:2016/Amd 1:2021
-    docidentifier:
-    - content: ISO/IEC 10118-1:2016/Amd 1:2021
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-05-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

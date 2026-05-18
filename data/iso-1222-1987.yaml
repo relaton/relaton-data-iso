@@ -1,42 +1,38 @@
 ---
 id: ISO12221987
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Photography
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Tripod connections
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Photography - Tripod connections
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Photographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Pièces d'assemblage d'un appareil photographique sur un pied
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Photographie - Pièces d'assemblage d'un appareil photographique sur un
     pied
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5836.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5836:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/58/5836.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '1222'
 date:
 - type: published
-  at: 1987-11
+  at: '1987-11-19'
 contributor:
 - role:
   - type: publisher
@@ -90,11 +86,6 @@ abstract:
   content: Specified are details of the screw connectins to be used between a camera
     and a tripod or other accessory. The form of the connection is shown, and details
     are given of the nut and bolt screw threads.
-- language: fr
-  script: Latn
-  content: Specified are details of the screw connectins to be used between a camera
-    and a tripod or other accessory. The form of the connection is shown, and details
-    are given of the nut and bolt screw threads.
 status:
   stage:
     content: '95'
@@ -109,27 +100,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1222:1973
-    docidentifier:
-    - content: ISO 1222:1973
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 1222:2003
+    formattedref:
+      content: ISO 1222:2003
     docidentifier:
     - content: ISO 1222:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2003-03-03'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 1222
+    docidentifier:
+    - content: ISO/WD 1222
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1222:1973
+    docidentifier:
+    - content: ISO 1222:1973
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

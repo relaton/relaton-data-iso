@@ -1,52 +1,46 @@
 ---
 id: ISOIEC1117922005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: 'Information technology '
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Metadata registries (MDR)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Classification'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology  - Metadata registries (MDR) - Part 2: Classification'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Registres de métadonnées (RM)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Classification'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Registres de métadonnées (RM) - Partie
     2: Classification'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/35345.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:35345:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/53/35345.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '11179'
 date:
 - type: published
-  at: 2005-11
+  at: '2005-11-14'
 contributor:
 - role:
   - type: publisher
@@ -100,20 +94,28 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 11179-2:2005 restates and elaborates on the procedures and techniques of ISO/IEC 11179-3:2003 for registering classification schemes and classifying administered items in a metadata registry (MDR). All types of administered items can be classified, including object classes, properties, representations, value domains, and data element concepts, as well as data elements themselves.
-    ISO/IEC 11179-2:2005 develops a set of principles, methods, and procedures for specifying what is needed (at a minimum) to document the association between the various types of administered items and one or more classification schemes. This includes the names, definitions, and other aspects of the classification scheme and its contents. These can be captured through the use of a set of attributes. Particular attributes are specified in ISO/IEC 11179-2:2005, along with a structure for the contents of these attributes. Users may extend the set of attributes as necessary. Additional information may accompany a taxonomy or ontology; for example, to provide a suggested set of qualifiers that could be applied to the object class, property, or representation taxa to more fully qualify the classification of the particular administered item. ISO/IEC 11179-2:2005 summarizes the basic attributes and model specified in ISO/IEC 11179-3:2003.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 11179-2:2005 restates and elaborates on the procedures and techniques of ISO/IEC 11179-3:2003 for registering classification schemes and classifying administered items in a metadata registry (MDR). All types of administered items can be classified, including object classes, properties, representations, value domains, and data element concepts, as well as data elements themselves.
-    ISO/IEC 11179-2:2005 develops a set of principles, methods, and procedures for specifying what is needed (at a minimum) to document the association between the various types of administered items and one or more classification schemes. This includes the names, definitions, and other aspects of the classification scheme and its contents. These can be captured through the use of a set of attributes. Particular attributes are specified in ISO/IEC 11179-2:2005, along with a structure for the contents of these attributes. Users may extend the set of attributes as necessary. Additional information may accompany a taxonomy or ontology; for example, to provide a suggested set of qualifiers that could be applied to the object class, property, or representation taxa to more fully qualify the classification of the particular administered item. ISO/IEC 11179-2:2005 summarizes the basic attributes and model specified in ISO/IEC 11179-3:2003.
+  content: ISO/IEC 11179-2:2005 restates and elaborates on the procedures and techniques
+    of ISO/IEC 11179-3:2003 for registering classification schemes and classifying
+    administered items in a metadata registry (MDR). All types of administered items
+    can be classified, including object classes, properties, representations, value
+    domains, and data element concepts, as well as data elements themselves. ISO/IEC
+    11179-2:2005 develops a set of principles, methods, and procedures for specifying
+    what is needed (at a minimum) to document the association between the various
+    types of administered items and one or more classification schemes. This includes
+    the names, definitions, and other aspects of the classification scheme and its
+    contents. These can be captured through the use of a set of attributes. Particular
+    attributes are specified in ISO/IEC 11179-2:2005, along with a structure for the
+    contents of these attributes. Users may extend the set of attributes as necessary.
+    Additional information may accompany a taxonomy or ontology; for example, to provide
+    a suggested set of qualifiers that could be applied to the object class, property,
+    or representation taxa to more fully qualify the classification of the particular
+    administered item. ISO/IEC 11179-2:2005 summarizes the basic attributes and model
+    specified in ISO/IEC 11179-3:2003.
 status:
   stage:
     content: '95'
@@ -128,27 +130,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 11179-2:2000
+    formattedref:
+      content: ISO/IEC NP 11179-2
     docidentifier:
-    - content: ISO/IEC 11179-2:2000
+    - content: ISO/IEC NP 11179-2
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC TR 11179-2:2019
+    formattedref:
+      content: ISO/IEC TR 11179-2:2019
     docidentifier:
     - content: ISO/IEC TR 11179-2:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-04-24'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 11179-2:2000
+    docidentifier:
+    - content: ISO/IEC 11179-2:2000
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

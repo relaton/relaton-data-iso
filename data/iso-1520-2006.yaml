@@ -1,38 +1,32 @@
 ---
 id: ISO15202006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints and varnishes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Cupping test
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints and varnishes - Cupping test
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai d'emboutissage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis - Essai d'emboutissage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/40923.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 1520:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso:1520:stage-90.93
+- content: urn:iso:std:iso:1520:stage-90.20
   type: URN
 docnumber: '1520'
 date:
 - type: published
-  at: 2006-11
+  at: '2006-11-15'
 contributor:
 - role:
   - type: publisher
@@ -83,30 +77,27 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 1520:2006 specifies an empirical test procedure for assessing the resistance of a coating of paint, varnish or related product to cracking and/or detachment from a metal substrate when subjected to gradual deformation by indentation under standard conditions.
-    For a multi-coat system, each coat may be tested separately or the complete system may be tested.
-    The method may be carried out as follows:
-    - either as a 'pass/fail' test, by testing to a specified depth of indentation to assess compliance with a particular requirement;
-    - or by gradually increasing the depth of indentation to determine the minimum depth at which the coating cracks and/or becomes detached from the substrate.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 1520:2006 spécifie une méthode d'essai empirique d'évaluation de la résistance d'un revêtement de peinture, de vernis ou d'un produit assimilé, aux craquelures et/ou au décollement d'un subjectile métallique lorsque celui-ci est soumis à une déformation progressive par emboutissage dans des conditions normalisées.
-    En cas d'utilisation d'un système multicouche, l'essai peut être fait sur chaque couche séparément ou sur l'ensemble du système.
-    La méthode peut être exécutée de la façon suivante:
-    - soit comme un essai «tout ou rien», l'essai étant effectué à une profondeur d'emboutissage spécifiée, pour évaluer la conformité à une exigence particulière;
-    - soit en augmentant graduellement la profondeur d'emboutissage pour déterminer la profondeur minimale à laquelle la couche se craquelle et/ou se décolle du subjectile.
+  content: 'ISO 1520:2006 specifies an empirical test procedure for assessing the
+    resistance of a coating of paint, varnish or related product to cracking and/or
+    detachment from a metal substrate when subjected to gradual deformation by indentation
+    under standard conditions. For a multi-coat system, each coat may be tested separately
+    or the complete system may be tested. The method may be carried out as follows:
+    either as a ''pass/fail'' test, by testing to a specified depth of indentation
+    to assess compliance with a particular requirement;or by gradually increasing
+    the depth of indentation to determine the minimum depth at which the coating cracks
+    and/or becomes detached from the substrate.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2006'
   owner:
@@ -114,18 +105,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1520:1999
+    formattedref:
+      content: ISO 1520:1999
     docidentifier:
     - content: ISO 1520:1999
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

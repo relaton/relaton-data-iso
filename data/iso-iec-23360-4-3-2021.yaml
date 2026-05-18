@@ -1,41 +1,35 @@
 ---
 id: ISOIEC23360432021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Linux Standard Base (LSB)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4-3: Desktop specification for AMD64 (X86-64) architecture'
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Linux Standard Base (LSB) - Part 4-3: Desktop specification for AMD64
     (X86-64) architecture'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Noyau de base normalisé Linux (LSB)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4-3: Spécification du module de bureau "Desktop" pour l''architecture
     AMD64 (X86-64)'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Noyau de base normalisé Linux (LSB) - Partie 4-3: Spécification du module
     de bureau "Desktop" pour l''architecture AMD64 (X86-64)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/77876.html
@@ -54,7 +48,7 @@ docidentifier:
 docnumber: '23360'
 date:
 - type: published
-  at: 2021-10
+  at: '2021-10-08'
 contributor:
 - role:
   - type: publisher
@@ -94,41 +88,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: 'The Linux Standard Base (LSB) defines a system interface for compiled
-    applications and a minimal environment for support of installation scripts. Its
-    purpose is to enable a uniform industry standard environment for high-volume applications
-    conforming to the LSB. These specifications are composed of two basic parts: a
-    common part describing those parts of the interface that remain constant across
-    all implementations of the LSB, and an architecture-specific part describing the
-    parts of the interface that vary by processor architecture. Together, the common
-    part and the relevant architecture-specific part for a single hardware architecture
-    provide a complete interface specification for compiled application programs on
-    systems that share a common hardware architecture. The LSB contains both a set
-    of Application Program Interfaces (APIs) and Application Binary Interfaces (ABIs).
-    APIs may appear in the source code of portable applications, while the compiled
-    binary of that application may use the larger set of ABIs. A conforming implementation
-    provides all of the ABIs listed here. The compilation system may replace (e.g.
-    by macro definition) certain APIs with calls to one or more of the underlying
-    binary interfaces, and may insert calls to binary interfaces as needed. The LSB
-    is primarily a binary interface definition. Not all of the source level APIs available
-    to applications may be contained in this specification. This is the X86-64 architecture
-    specific part of the Desktop module of the Linux Standard Base (LSB). This part
-    supplements the common part of the LSB Desktop module with those interfaces that
-    differ between architectures. This part should be used in conjunction with the
-    common part of LSB Desktop. Whenever a section of the common part is supplemented
-    by architecture-specific information, the common part includes a reference to
-    the architecture-specific part. This part may also contain additional information
-    that is not referenced in the common part. Interfaces described in this part of
-    LSB Desktop are mandatory except where explicitly listed otherwise. Interfaces
-    described in the LSB Desktop module supplement those described in the LSB Core
-    module. They do not depend on other LSB modules. '
-- language: fr
   script: Latn
   content: 'The Linux Standard Base (LSB) defines a system interface for compiled
     applications and a minimal environment for support of installation scripts. Its
@@ -170,18 +133,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23360-4:2006
+    formattedref:
+      content: ISO/IEC 23360-4:2006
     docidentifier:
     - content: ISO/IEC 23360-4:2006
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

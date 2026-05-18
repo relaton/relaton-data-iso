@@ -1,40 +1,34 @@
 ---
 id: ISO572512023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Accuracy (trueness and precision) of measurement methods and results
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: General principles and definitions'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Accuracy (trueness and precision) of measurement methods and results -
     Part 1: General principles and definitions'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Exactitude (justesse et fidélité) des résultats et méthodes de mesure
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Principes généraux et définitions'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Exactitude (justesse et fidélité) des résultats et méthodes de mesure
     - Partie 1: Principes généraux et définitions'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69418.html
@@ -53,7 +47,7 @@ docidentifier:
 docnumber: '5725'
 date:
 - type: published
-  at: 2023-07
+  at: '2023-07-20'
 contributor:
 - role:
   - type: publisher
@@ -90,28 +84,23 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document
-    —     introduces conditions, constraints and resources necessary to evaluate a measurement method or a result;
-    —     defines an organizational scheme for the acquisition of trueness and precision data by study;
-    —     provides the necessary definitions, statistical model and principles for ISO 5725 (all parts).
-    —     is not applicable to proficiency testing or production of the reference item that has their own standards (ISO 13528, respectively and ISO Guide 35).
-    This document is concerned exclusively with measurement methods which yield results on a continuous scale and give a single value as the test result, although this single value may be the outcome of a calculation from a set of observations.
-    It defines values which describe, in quantitative terms, the ability of a measurement method to give a true result (trueness) or to replicate a given result (precision). Thus, there is an implication that exactly the identical item is being measured, in exactly the same way, and that the measurement process is under control.
-    This document may be applied to a very wide range of test items, including gas, liquids, powders and solid objects, manufactured or naturally occurring, provided that due consideration is given to any heterogeneity of the test item.
-    This document does not include methods of calculation that are described in the other parts.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document
-    —     décrit les conditions, les contraintes et les ressources nécessaires pour évaluer une méthode de mesure ou un résultat;
-    —     définit un cadre organisationnel pour l’acquisition de données de justesse et de fidélité par l’étude;
-    —     fournit les définitions, le modèle statistique et les principes nécessaires à l’utilisation des normes de l’ISO 5725 (toutes les parties);
-    —     ne s’applique pas aux essais d’aptitude ni à la production d’un individu de référence, des thèmes abordés par d’autres normes (ISO 13528 et ISO Guide 35).
-    Le présent document traite exclusivement des méthodes de mesure qui fournissent des résultats sur une échelle continue et qui donnent comme résultat d’essai une seule valeur, bien que cette valeur unique puisse être le résultat d’un calcul effectué à partir d’un ensemble d’observations.
-    Il définit des valeurs qui décrivent, en termes quantitatifs, la capacité d’une méthode de mesure à donner un résultat correct (justesse) ou à répéter un résultat donné (fidélité). Cette capacité suppose donc de mesurer un individu identique exactement de la même façon et de maîtriser le processus de mesure.
-    Le présent document peut être appliqué à une très grande variété d’individus d’essai, y compris des gaz, des liquides, des poudres et des objets solides, fabriqués ou naturels, sous réserve de prendre correctement en compte l’hétérogénéité éventuelle de l’individu d’essai.
-    Le présent document ne porte pas sur les méthodes de calcul qui sont décrites dans les autres parties.
+  content: This document —     introduces conditions, constraints and resources necessary
+    to evaluate a measurement method or a result; —     defines an organizational
+    scheme for the acquisition of trueness and precision data by study; —     provides
+    the necessary definitions, statistical model and principles for ISO 5725 (all
+    parts). —     is not applicable to proficiency testing or production of the reference
+    item that has their own standards (ISO 13528, respectively and ISO Guide 35).
+    This document is concerned exclusively with measurement methods which yield results
+    on a continuous scale and give a single value as the test result, although this
+    single value may be the outcome of a calculation from a set of observations. It
+    defines values which describe, in quantitative terms, the ability of a measurement
+    method to give a true result (trueness) or to replicate a given result (precision).
+    Thus, there is an implication that exactly the identical item is being measured,
+    in exactly the same way, and that the measurement process is under control. This
+    document may be applied to a very wide range of test items, including gas, liquids,
+    powders and solid objects, manufactured or naturally occurring, provided that
+    due consideration is given to any heterogeneity of the test item. This document
+    does not include methods of calculation that are described in the other parts.
 status:
   stage:
     content: '60'
@@ -124,34 +113,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 5725-1:1994
-    docidentifier:
-    - content: ISO 5725-1:1994
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 5725-1:1994/Cor 1:1998
+    formattedref:
+      content: ISO 5725-1:1994/Cor 1:1998
     docidentifier:
     - content: ISO 5725-1:1994/Cor 1:1998
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 5725-1:1994
+    docidentifier:
+    - content: ISO 5725-1:1994
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '17.020'
-    text: Metrology and measurement in general
   - code: 03.120.30
     text: Application of statistical methods
+  - code: '17.020'
+    text: Metrology and measurement in general
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,42 +1,36 @@
 ---
 id: ISO80972001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aircraft
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Minimum airworthiness requirements and test conditions for certified air
     cargo unit load devices
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Aircraft - Minimum airworthiness requirements and test conditions for certified
     air cargo unit load devices
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Caractéristiques minimales de navigabilité et conditions d'essai des unités
     de charge certifiées pour fret aérien
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs - Caractéristiques minimales de navigabilité et conditions d'essai
     des unités de charge certifiées pour fret aérien
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/32356.html
@@ -55,7 +49,7 @@ docidentifier:
 docnumber: '8097'
 date:
 - type: published
-  at: 2001-08
+  at: '2001-08-23'
 contributor:
 - role:
   - type: publisher
@@ -92,23 +86,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard specifies the minimum requirements and test conditions for certified cargo unit load
-    devices to be installed in certified aircraft. It covers pallets, nets and containers intended for use with the following
-    classes of aircraft loading and restraint systems:
-    _ Class I: Unit load device restraint in conformity with all flight and ground load conditions, including 9g forward
-    emergency loading conditions.
-    _ Class II: All other unit load device restraints.
-- language: fr
-  script: Latn
-  content: |-
-    La présente Norme internationale spécifie les exigences minimales et les conditions d'essai des unités de charge
-    certifiées pour fret aérien destinées à être installées dans les aéronefs certifiés. Elle couvre les palettes, les filets
-    de palette et les conteneurs utilisables avec les classes suivantes de systèmes de chargement et de maintien dans
-    les aéronefs.
-    _ Classe I: dispositifs de maintien des unités de charge conformes à toutes les exigences de charge en vol et au
-    sol, y compris en situation d'atterrissage d'urgence avec une accélération vers l'avant de 9g.
-    _ Classe II: tous les autres dispositifs de maintien des unités de charge.
+  content: 'This International Standard specifies the minimum requirements and test
+    conditions for certified cargo unit load devices to be installed in certified
+    aircraft. It covers pallets, nets and containers intended for use with the following
+    classes of aircraft loading and restraint systems: _ Class I: Unit load device
+    restraint in conformity with all flight and ground load conditions, including
+    9g forward emergency loading conditions. _ Class II: All other unit load device
+    restraints.'
 status:
   stage:
     content: '90'
@@ -123,16 +107,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8097:1995
+    formattedref:
+      content: ISO/CD 21100
+    docidentifier:
+    - content: ISO/CD 21100
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8097:1995
     docidentifier:
     - content: ISO 8097:1995
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,35 +1,33 @@
 ---
 id: ISOR16801970
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Test code for the measurement of the airborne noise emitted by rotating
     electrical machinery
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Test code for the measurement of the airborne noise emitted by rotating
     electrical machinery
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Code d'essai pour la mesure du bruit aérien émis par les machines électriques
     tournantes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Code d'essai pour la mesure du bruit aérien émis par les machines électriques
     tournantes
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6293.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6293:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/62/6293.detail.rss
 docidentifier:
@@ -43,7 +41,7 @@ docidentifier:
 docnumber: '1680'
 date:
 - type: published
-  at: 1970-07
+  at: '1970-07-01'
 contributor:
 - role:
   - type: publisher
@@ -89,40 +87,34 @@ copyright:
       name:
       - content: ISO/R
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1680-1:1986
-    docidentifier:
-    - content: ISO 1680-1:1986
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '1986-06-01'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 1680-2:1986
+    formattedref:
+      content: ISO 1680-2:1986
     docidentifier:
     - content: ISO 1680-2:1986
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '1986-06-01'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 1680-1:1986
+    docidentifier:
+    - content: ISO 1680-1:1986
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: recommendation
   flavor: iso
   ics:
-  - code: 17.140.20
-    text: Noise emitted by machines and equipment
   - code: 29.160.01
     text: Rotating machinery in general
+  - code: 17.140.20
+    text: Noise emitted by machines and equipment
   structuredidentifier:
     type: ISO
     project_number:

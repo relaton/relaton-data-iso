@@ -1,44 +1,40 @@
 ---
 id: ISO91271988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information processing systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: User documentation and cover information for consumer software packages
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information processing systems - User documentation and cover information
     for consumer software packages
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de traitement de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Documentation pour l'utilisateur et renseignements sur l'emballage des
     progiciels grand public
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de traitement de l'information - Documentation pour l'utilisateur
     et renseignements sur l'emballage des progiciels grand public
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16723.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16723:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/67/16723.detail.rss
 docidentifier:
@@ -52,7 +48,7 @@ docidentifier:
 docnumber: '9127'
 date:
 - type: published
-  at: 1988-09
+  at: '1988-09-01'
 contributor:
 - role:
   - type: publisher
@@ -92,11 +88,6 @@ abstract:
   content: 'Describes user documentation and cover information supplied with software
     packages. Is applicable to software packages sold off-the-shelf to consumers for
     business, scientific, educational and home use. References: ISO 6592; ISO 7185.'
-- language: fr
-  script: Latn
-  content: 'Describes user documentation and cover information supplied with software
-    packages. Is applicable to software packages sold off-the-shelf to consumers for
-    business, scientific, educational and home use. References: ISO 6592; ISO 7185.'
 status:
   stage:
     content: '95'
@@ -109,21 +100,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 26514:2008
+    formattedref:
+      content: ISO/IEC FCD 9127
+    docidentifier:
+    - content: ISO/IEC FCD 9127
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 26514:2008
     docidentifier:
     - content: ISO/IEC 26514:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-06-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

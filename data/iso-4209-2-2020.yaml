@@ -1,39 +1,33 @@
 ---
 id: ISO420922020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Truck and bus tyres and rims (metric series)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Rims'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Truck and bus tyres and rims (metric series) - Part 2: Rims'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Pneumatiques et jantes (séries millimétriques) pour camions et autobus
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Jantes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Pneumatiques et jantes (séries millimétriques) pour camions et autobus
     - Partie 2: Jantes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73865.html
@@ -47,14 +41,12 @@ docidentifier:
   primary: true
 - content: ISO 4209-2:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:4209:-2:stage-60.60
+- content: urn:iso:std:iso:4209:-2:stage-90.92
   type: URN
 docnumber: '4209'
 date:
 - type: published
-  at: 2020-07
-- type: corrected
-  at: 2021-01
+  at: '2020-07-06'
 contributor:
 - role:
   - type: publisher
@@ -91,21 +83,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the designations, contours and dimensions of drop-centre (one-piece) rims for use on trucks and buses.
-    The rim dimensions are those rim contour dimensions necessary for mounting and fitment of the tyre to the rim.
+  content: This document specifies the designations, contours and dimensions of drop-centre
+    (one-piece) rims for use on trucks and buses. The rim dimensions are those rim
+    contour dimensions necessary for mounting and fitment of the tyre to the rim.
     Tyre designations, dimensions and load ratings are given in ISO 4209‑1.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie la désignation, les profils et les cotes des jantes à base creuse (en une pièce) utilisées sur les camions et les autobus.
-    Les cotes des jantes sont les cotes du profil de jante nécessaires au montage et à la tenue du pneumatique sur la jante.
-    Les désignations, les cotes et les capacités de charge des pneumatiques sont données dans l'ISO 4209‑1.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2020'
   owner:
@@ -115,16 +101,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4209-2:2012
+    formattedref:
+      content: ISO/AWI 4209-2
+    docidentifier:
+    - content: ISO/AWI 4209-2
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4209-2:2012
     docidentifier:
     - content: ISO 4209-2:2012
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

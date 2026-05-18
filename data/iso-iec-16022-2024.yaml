@@ -1,51 +1,43 @@
 ---
 id: ISOIEC160222024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic identification and data capture techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Data Matrix bar code symbology specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Automatic identification and data capture techniques
     - Data Matrix bar code symbology specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques automatiques d'identification et de capture des données
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification de symbologie de code à barres Data Matrix
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques automatiques d'identification
     et de capture des données - Spécification de symbologie de code à barres Data
     Matrix
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80926.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '16022'
 date:
 - type: published
-  at: 2024-05
+  at: '2024-05-16'
 contributor:
 - role:
   - type: publisher
@@ -104,20 +96,16 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the requirements for the symbology known as Data Matrix. It specifies the Data Matrix symbology characteristics, data character encodation, symbol formats, dimensions and print quality requirements, error correction rules, decoding algorithm, and user-selectable application parameters.
-    It applies to all Data Matrix symbols produced by any printing or marking technology.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the requirements for the symbology known as Data Matrix. It specifies the Data Matrix symbology characteristics, data character encodation, symbol formats, dimensions and print quality requirements, error correction rules, decoding algorithm, and user-selectable application parameters.
-    It applies to all Data Matrix symbols produced by any printing or marking technology.
+  content: This document defines the requirements for the symbology known as Data
+    Matrix. It specifies the Data Matrix symbology characteristics, data character
+    encodation, symbol formats, dimensions and print quality requirements, error correction
+    rules, decoding algorithm, and user-selectable application parameters. It applies
+    to all Data Matrix symbols produced by any printing or marking technology.
 status:
   stage:
     content: '60'
@@ -130,18 +118,34 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 16022:2006
+    formattedref:
+      content: ISO/IEC 16022:2006/Cor 1:2008
+    docidentifier:
+    - content: ISO/IEC 16022:2006/Cor 1:2008
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 16022:2006/Cor 2:2011
+    docidentifier:
+    - content: ISO/IEC 16022:2006/Cor 2:2011
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 16022:2006
     docidentifier:
     - content: ISO/IEC 16022:2006
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

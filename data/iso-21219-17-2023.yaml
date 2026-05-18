@@ -1,53 +1,45 @@
 ---
 id: ISO21219172023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Traffic and travel information via transport protocol experts group, generation
     2 (TPEG2)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 17: Speed information (TPEG2-SPI)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Traffic and travel information via transport
     protocol experts group, generation 2 (TPEG2) - Part 17: Speed information (TPEG2-SPI)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations sur le trafic et le tourisme via le groupe expert du protocole
     de transport, génération 2 (TPEG2)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 17: Information de vitesse (TPEG2-SPI)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes intelligents de transport - Informations sur le trafic et le
     tourisme via le groupe expert du protocole de transport, génération 2 (TPEG2)
     - Partie 17: Information de vitesse (TPEG2-SPI)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78398.html
@@ -66,7 +58,7 @@ docidentifier:
 docnumber: '21219'
 date:
 - type: published
-  at: 2023-05
+  at: '2023-05-25'
 contributor:
 - role:
   - type: publisher
@@ -97,52 +89,30 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document defines the TPEG Speed information (SPI) application for
+  content: This document defines the TPEG Speed information (SPI) application for
     reporting speed information for travellers. Speed limits are usually indicated
     to the driver through roadside signs. Drivers who are aware of the speed limit
     at all times are more likely to drive safely, which improves road safety. Most
     speed limit signs are static and remain unchanged for years and are thus available
     through navigation system map databases. However, there is an increasing number
     of variable message signs, temporary signing (e.g. for road works) and also changed
-    speed limits which are not yet reflected in the map databases. \nWith the TPEG-SPI
+    speed limits which are not yet reflected in the map databases. With the TPEG-SPI
     application, speed limit information is offered in an accurate way so that different
     lanes and different vehicle types can be differentiated. TPEG-SPI also allows
     the drivers to be aware of the current allowed (maximum) speed, by delivering
     timely information about the current position and values of speed limits to the
     navigation or driver assistance systems. These data are seen as informational
-    and are intended to be encoded in a compact way to minimize bandwidth consumption.\nTPEG2-SPI
-    supports direct and indirect speed limits. Direct speed limits are used for signs
-    showing a maximum speed at which a vehicle is allowed to travel. Such speed limit
-    signs can be static or dynamic. Indirect speed limits refer to the speed of other
-    road users. It is primarily the vehicle in front of the own vehicle that is used
-    as a reference."
-- language: fr
-  script: Latn
-  content: "This document defines the TPEG Speed information (SPI) application for
-    reporting speed information for travellers. Speed limits are usually indicated
-    to the driver through roadside signs. Drivers who are aware of the speed limit
-    at all times are more likely to drive safely, which improves road safety. Most
-    speed limit signs are static and remain unchanged for years and are thus available
-    through navigation system map databases. However, there is an increasing number
-    of variable message signs, temporary signing (e.g. for road works) and also changed
-    speed limits which are not yet reflected in the map databases. \nWith the TPEG-SPI
-    application, speed limit information is offered in an accurate way so that different
-    lanes and different vehicle types can be differentiated. TPEG-SPI also allows
-    the drivers to be aware of the current allowed (maximum) speed, by delivering
-    timely information about the current position and values of speed limits to the
-    navigation or driver assistance systems. These data are seen as informational
-    and are intended to be encoded in a compact way to minimize bandwidth consumption.\nTPEG2-SPI
-    supports direct and indirect speed limits. Direct speed limits are used for signs
-    showing a maximum speed at which a vehicle is allowed to travel. Such speed limit
-    signs can be static or dynamic. Indirect speed limits refer to the speed of other
-    road users. It is primarily the vehicle in front of the own vehicle that is used
-    as a reference."
+    and are intended to be encoded in a compact way to minimize bandwidth consumption.
+    TPEG2-SPI supports direct and indirect speed limits. Direct speed limits are used
+    for signs showing a maximum speed at which a vehicle is allowed to travel. Such
+    speed limit signs can be static or dynamic. Indirect speed limits refer to the
+    speed of other road users. It is primarily the vehicle in front of the own vehicle
+    that is used as a reference.
 status:
   stage:
     content: '60'
@@ -155,19 +125,19 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
+  - code: 35.240.60
+    text: IT applications in transport
   - code: 03.220.01
     text: Transport in general
   - code: 03.220.20
     text: Road transport
-  - code: 35.240.60
-    text: IT applications in transport
   structuredidentifier:
     type: ISO
     project_number:

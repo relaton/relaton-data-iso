@@ -1,51 +1,43 @@
 ---
 id: ISOIECTR159422000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Programming languages
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Guide for the use of the Ada programming language in high integrity systems
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Programming languages - Guide for the use of the
     Ada programming language in high integrity systems
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Guide pour l'emploi du langage de programmation Ada dans les systèmes de
     haute intégrité
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Langages de programmation - Guide pour
     l'emploi du langage de programmation Ada dans les systèmes de haute intégrité
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/29575.html
@@ -59,12 +51,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC TR 15942:2000(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:tr:15942:stage-90.93
+- content: urn:iso:std:iso-iec:tr:15942:stage-90.92
   type: URN
 docnumber: '15942'
 date:
 - type: published
-  at: 2000-03
+  at: '2000-03-16'
 contributor:
 - role:
   - type: publisher
@@ -104,137 +96,81 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    1 Scope
-    This Technical Report provides guidance on the use of Ada when producing high integrity systems. In producing such
-    applications it is usually the case that adherence to guidelines or standards has to be demonstrated to independent bodies.
-    These guidelines or standards vary according to the application area, industrial sector or nature of the risk involved.
-    For safety applications, the international generic standard is [IEC 61508] of which part 3 is concerned with software.
-    For security systems, the multi-national generic assessment guide is [ISO CD 15408].
-    For sector-specific guidance and standards there are:
-    Airborne civil avionics: [DO-178B]
-    Nuclear power plants: [IEC 880]
-    Medical systems: [IEC 601-4]
-    Pharmaceutical: [GAMP]
-    For national/regional guidance and standards there are the following:
-    UK Defence: [DS 00-55]
-    European rail: [EN 50128]
-    European security: [ITSEC]
-    US nuclear: [NRC]
-    UK automotive: [MISRA]
-    US medical: [FDA]
-    US space: [NASA]
-    The above standards and guides are referred to as Standards in this Technical Report. The above list is not exhaustive but
-    indicative of the type of Standard to which this Technical Report provides guidance.
-    The specific Standards above are not addressed individually but this Technical Report is synthesized from an analysis of their
-    requirements and recommendations.
-    1.1 Within the scope
-    This Technical Report assumes that a system is being developed in Ada to meet a standard listed above or one of a similar
-    nature. The primary goal of this Technical Report is to translate general requirements into Ada specific ones. For example, a
-    general standard might require that dynamic testing provides evidence of the execution of all the statements in the code of the
-    application. In the case of generics, this is interpreted by this Technical Report to mean all instantiations of the generic should
-    be executed.
-    ISO/IEC TR 15942:2000 (E)
-    2 © ISO/IEC 2000 - All rights reserved
-    This Technical Report is intended to provide guidance only, and hence there are no ?shalls'. However, this Technical Report
-    identifies verification and validation issues which should be resolved and documented according to the sector-specific
-    standards being employed.
-    The following topics are within the scope of this Technical Report:
-    _ the choice of features of the language which aid verification and compliance to the standards,
-    _ identification of language features requiring additional verification steps,
-    _ the use of tools to aid design and verification,
-    _ issues concerning qualification of compilers for use on high integrity applications,
-    _ tools, such as graphic design tools, which generate Ada source code which is accessible to users.
-    Tools which generate Ada source code require special consideration. Where generated code may be modified or extended,
-    verification of the extensions and overall system will be assisted if the guidelines have been taken into account. Even where
-    modification is not planned, inspection and analysis of the generated code may be unavoidable unless the generator is trusted or
-    ?qualified' according to an applicable standard. Finally, even if generated code is neither modified nor inspected, the overall
-    verification process may be made more complicated if the code deviates from guidelines intended to facilitate testing and
-    analysis. Potential users of such tools should evaluate their code generation against the guidance provided in this Technical
-    Report.
-    1.2 Out of scope
-    The following topics are considered to be out of scope with respect to this Technical Report:
-    _ Domain-specific standards,
-    _ Application-specific issues,
-    _ Hardware and system-specific issues,
-    _ Human factor
-- language: fr
-  script: Latn
-  content: |-
-    1 Scope
-    This Technical Report provides guidance on the use of Ada when producing high integrity systems. In producing such
-    applications it is usually the case that adherence to guidelines or standards has to be demonstrated to independent bodies.
-    These guidelines or standards vary according to the application area, industrial sector or nature of the risk involved.
-    For safety applications, the international generic standard is [IEC 61508] of which part 3 is concerned with software.
-    For security systems, the multi-national generic assessment guide is [ISO CD 15408].
-    For sector-specific guidance and standards there are:
-    Airborne civil avionics: [DO-178B]
-    Nuclear power plants: [IEC 880]
-    Medical systems: [IEC 601-4]
-    Pharmaceutical: [GAMP]
-    For national/regional guidance and standards there are the following:
-    UK Defence: [DS 00-55]
-    European rail: [EN 50128]
-    European security: [ITSEC]
-    US nuclear: [NRC]
-    UK automotive: [MISRA]
-    US medical: [FDA]
-    US space: [NASA]
-    The above standards and guides are referred to as Standards in this Technical Report. The above list is not exhaustive but
-    indicative of the type of Standard to which this Technical Report provides guidance.
-    The specific Standards above are not addressed individually but this Technical Report is synthesized from an analysis of their
-    requirements and recommendations.
-    1.1 Within the scope
-    This Technical Report assumes that a system is being developed in Ada to meet a standard listed above or one of a similar
-    nature. The primary goal of this Technical Report is to translate general requirements into Ada specific ones. For example, a
-    general standard might require that dynamic testing provides evidence of the execution of all the statements in the code of the
-    application. In the case of generics, this is interpreted by this Technical Report to mean all instantiations of the generic should
-    be executed.
-    ISO/IEC TR 15942:2000 (E)
-    2 © ISO/IEC 2000 - All rights reserved
-    This Technical Report is intended to provide guidance only, and hence there are no ?shalls'. However, this Technical Report
-    identifies verification and validation issues which should be resolved and documented according to the sector-specific
-    standards being employed.
-    The following topics are within the scope of this Technical Report:
-    _ the choice of features of the language which aid verification and compliance to the standards,
-    _ identification of language features requiring additional verification steps,
-    _ the use of tools to aid design and verification,
-    _ issues concerning qualification of compilers for use on high integrity applications,
-    _ tools, such as graphic design tools, which generate Ada source code which is accessible to users.
-    Tools which generate Ada source code require special consideration. Where generated code may be modified or extended,
-    verification of the extensions and overall system will be assisted if the guidelines have been taken into account. Even where
-    modification is not planned, inspection and analysis of the generated code may be unavoidable unless the generator is trusted or
-    ?qualified' according to an applicable standard. Finally, even if generated code is neither modified nor inspected, the overall
-    verification process may be made more complicated if the code deviates from guidelines intended to facilitate testing and
-    analysis. Potential users of such tools should evaluate their code generation against the guidance provided in this Technical
-    Report.
-    1.2 Out of scope
-    The following topics are considered to be out of scope with respect to this Technical Report:
-    _ Domain-specific standards,
-    _ Application-specific issues,
-    _ Hardware and system-specific issues,
-    _ Human factor
+  content: '1 Scope This Technical Report provides guidance on the use of Ada when
+    producing high integrity systems. In producing such applications it is usually
+    the case that adherence to guidelines or standards has to be demonstrated to independent
+    bodies. These guidelines or standards vary according to the application area,
+    industrial sector or nature of the risk involved. For safety applications, the
+    international generic standard is [IEC 61508] of which part 3 is concerned with
+    software. For security systems, the multi-national generic assessment guide is
+    [ISO CD 15408]. For sector-specific guidance and standards there are: Airborne
+    civil avionics: [DO-178B] Nuclear power plants: [IEC 880] Medical systems: [IEC
+    601-4] Pharmaceutical: [GAMP] For national/regional guidance and standards there
+    are the following: UK Defence: [DS 00-55] European rail: [EN 50128] European security:
+    [ITSEC] US nuclear: [NRC] UK automotive: [MISRA] US medical: [FDA] US space: [NASA]
+    The above standards and guides are referred to as Standards in this Technical
+    Report. The above list is not exhaustive but indicative of the type of Standard
+    to which this Technical Report provides guidance. The specific Standards above
+    are not addressed individually but this Technical Report is synthesized from an
+    analysis of their requirements and recommendations. 1.1 Within the scope This
+    Technical Report assumes that a system is being developed in Ada to meet a standard
+    listed above or one of a similar nature. The primary goal of this Technical Report
+    is to translate general requirements into Ada specific ones. For example, a general
+    standard might require that dynamic testing provides evidence of the execution
+    of all the statements in the code of the application. In the case of generics,
+    this is interpreted by this Technical Report to mean all instantiations of the
+    generic should be executed. ISO/IEC TR 15942:2000 (E) 2 © ISO/IEC 2000 - All rights
+    reserved This Technical Report is intended to provide guidance only, and hence
+    there are no ?shalls''. However, this Technical Report identifies verification
+    and validation issues which should be resolved and documented according to the
+    sector-specific standards being employed. The following topics are within the
+    scope of this Technical Report: _ the choice of features of the language which
+    aid verification and compliance to the standards, _ identification of language
+    features requiring additional verification steps, _ the use of tools to aid design
+    and verification, _ issues concerning qualification of compilers for use on high
+    integrity applications, _ tools, such as graphic design tools, which generate
+    Ada source code which is accessible to users. Tools which generate Ada source
+    code require special consideration. Where generated code may be modified or extended,
+    verification of the extensions and overall system will be assisted if the guidelines
+    have been taken into account. Even where modification is not planned, inspection
+    and analysis of the generated code may be unavoidable unless the generator is
+    trusted or ?qualified'' according to an applicable standard. Finally, even if
+    generated code is neither modified nor inspected, the overall verification process
+    may be made more complicated if the code deviates from guidelines intended to
+    facilitate testing and analysis. Potential users of such tools should evaluate
+    their code generation against the guidance provided in this Technical Report.
+    1.2 Out of scope The following topics are considered to be out of scope with respect
+    to this Technical Report: _ Domain-specific standards, _ Application-specific
+    issues, _ Hardware and system-specific issues, _ Human factor'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2000'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC AWI TR 15942
+    docidentifier:
+    - content: ISO/IEC AWI TR 15942
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

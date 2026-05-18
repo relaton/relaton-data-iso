@@ -1,38 +1,32 @@
 ---
 id: ISOTS210892018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Trusted end-to-end information flows
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Health informatics - Trusted end-to-end information flows
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Flux d'informations "trusted end-to-end"
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé - Flux d'informations "trusted end-to-end"
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/66936.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 21089:2018(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:21089:stage-90.20
+- content: urn:iso:std:iso:ts:21089:stage-90.92
   type: URN
 docnumber: '21089'
 date:
 - type: published
-  at: 2018-04
+  at: '2018-04-09'
 contributor:
 - role:
   - type: publisher
@@ -82,27 +76,30 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/TS 21089:2018 describes trusted end-to-end flow for health information and health data/record management. Health data is originated and retained, typically as discrete record entries within a trusted electronic health record (EHR), personal health record (PHR) or other system/device. Health data can include clinical genomics information.
-    Health record entries have a lifespan (period of time managed by one or more systems) and within that lifespan, various lifecycle events starting with "originate/retain". Subsequent record lifecycle events may include "update", "attest", "disclose", "transmit", "receive", "access/view" and more.
-    A record entry instance is managed ? over its lifespan ? by the source system. If record entry content is exchanged, this instance may also be managed intact by one or more downstream systems. Consistent, trusted management of record entry instances is the objective of this document, continuously and consistently whether the instance is at rest or in motion, before/during/after each lifecycle event, across one or more systems.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/TS 21089:2018 describes trusted end-to-end flow for health information and health data/record management. Health data is originated and retained, typically as discrete record entries within a trusted electronic health record (EHR), personal health record (PHR) or other system/device. Health data can include clinical genomics information.
-    Health record entries have a lifespan (period of time managed by one or more systems) and within that lifespan, various lifecycle events starting with "originate/retain". Subsequent record lifecycle events may include "update", "attest", "disclose", "transmit", "receive", "access/view" and more.
-    A record entry instance is managed ? over its lifespan ? by the source system. If record entry content is exchanged, this instance may also be managed intact by one or more downstream systems. Consistent, trusted management of record entry instances is the objective of this document, continuously and consistently whether the instance is at rest or in motion, before/during/after each lifecycle event, across one or more systems.
+  content: ISO/TS 21089:2018 describes trusted end-to-end flow for health information
+    and health data/record management. Health data is originated and retained, typically
+    as discrete record entries within a trusted electronic health record (EHR), personal
+    health record (PHR) or other system/device. Health data can include clinical genomics
+    information. Health record entries have a lifespan (period of time managed by
+    one or more systems) and within that lifespan, various lifecycle events starting
+    with "originate/retain". Subsequent record lifecycle events may include "update",
+    "attest", "disclose", "transmit", "receive", "access/view" and more. A record
+    entry instance is managed ? over its lifespan ? by the source system. If record
+    entry content is exchanged, this instance may also be managed intact by one or
+    more downstream systems. Consistent, trusted management of record entry instances
+    is the objective of this document, continuously and consistently whether the instance
+    is at rest or in motion, before/during/after each lifecycle event, across one
+    or more systems.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '92'
 copyright:
 - from: '2018'
   owner:
@@ -112,16 +109,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TR 21089:2004
+    formattedref:
+      content: ISO/AWI 21089
+    docidentifier:
+    - content: ISO/AWI 21089
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TR 21089:2004
     docidentifier:
     - content: ISO/TR 21089:2004
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

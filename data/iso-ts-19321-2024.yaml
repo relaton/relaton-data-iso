@@ -1,51 +1,43 @@
 ---
 id: ISOTS193212024
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Cooperative ITS
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Dictionary of in-vehicle information (IVI) data structures
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Cooperative ITS - Dictionary of in-vehicle
     information (IVI) data structures
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Coopérative STI
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dictionnaire de structures de données d'informations dans les véhicules
     (IVI)
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport - Coopérative STI - Dictionnaire de
     structures de données d'informations dans les véhicules (IVI)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/82956.html
@@ -59,12 +51,12 @@ docidentifier:
   primary: true
 - content: ISO/TS 19321:2024(E)
   type: iso-reference
-- content: urn:iso:std:iso:ts:19321:stage-60.60
+- content: urn:iso:std:iso:ts:19321:stage-90.92
   type: URN
 docnumber: '19321'
 date:
 - type: published
-  at: 2024-07
+  at: '2024-07-05'
 contributor:
 - role:
   - type: publisher
@@ -95,25 +87,28 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the in-vehicle information (IVI) data structures that are required by different intelligent transport system (ITS) services for exchanging information between ITS stations (ITS-S). A general, extensible data structure is specified, which is split into structures called containers to accommodate current-day information. Transmitted information includes IVI such as contextual speed, road works warnings, vehicle restrictions, lane restrictions, road hazard warnings, location-based services and re-routing. The information in the containers is organized in sub-structures called data frames and data elements, which are described in terms of their content and syntax.
-    The data structures are specified as communications-agnostic. This document does not provide the communication protocols. This document provides scenarios for usage of the data structure, e.g. in case of real time, short-range communications.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the in-vehicle information (IVI) data structures that are required by different intelligent transport system (ITS) services for exchanging information between ITS stations (ITS-S). A general, extensible data structure is specified, which is split into structures called containers to accommodate current-day information. Transmitted information includes IVI such as contextual speed, road works warnings, vehicle restrictions, lane restrictions, road hazard warnings, location-based services and re-routing. The information in the containers is organized in sub-structures called data frames and data elements, which are described in terms of their content and syntax.
-    The data structures are specified as communications-agnostic. This document does not provide the communication protocols. This document provides scenarios for usage of the data structure, e.g. in case of real time, short-range communications.
+  content: This document specifies the in-vehicle information (IVI) data structures
+    that are required by different intelligent transport system (ITS) services for
+    exchanging information between ITS stations (ITS-S). A general, extensible data
+    structure is specified, which is split into structures called containers to accommodate
+    current-day information. Transmitted information includes IVI such as contextual
+    speed, road works warnings, vehicle restrictions, lane restrictions, road hazard
+    warnings, location-based services and re-routing. The information in the containers
+    is organized in sub-structures called data frames and data elements, which are
+    described in terms of their content and syntax. The data structures are specified
+    as communications-agnostic. This document does not provide the communication protocols.
+    This document provides scenarios for usage of the data structure, e.g. in case
+    of real time, short-range communications.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2024'
   owner:
@@ -123,16 +118,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 19321:2020
+    formattedref:
+      content: ISO/DIS 19321
+    docidentifier:
+    - content: ISO/DIS 19321
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TS 19321:2020
     docidentifier:
     - content: ISO/TS 19321:2020
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

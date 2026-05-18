@@ -1,57 +1,51 @@
 ---
 id: ISO1030421995
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Water quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of dissolved anions by liquid chromatography of ions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Determination of bromide, chloride, nitrate, nitrite, orthophosphate
     and sulfate in waste water'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Water quality - Determination of dissolved anions by liquid chromatography
     of ions - Part 2: Determination of bromide, chloride, nitrate, nitrite, orthophosphate
     and sulfate in waste water'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dosage des anions dissous par chromatographie des ions en phase liquide
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Dosage des ions bromure, chlorure, nitrate, nitrite, orthophosphate
     et sulfate dans les eaux usées'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Qualité de l''eau - Dosage des anions dissous par chromatographie des
     ions en phase liquide - Partie 2: Dosage des ions bromure, chlorure, nitrate,
     nitrite, orthophosphate et sulfate dans les eaux usées'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/18350.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:18350:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/83/18350.detail.rss
 docidentifier:
@@ -65,7 +59,7 @@ docidentifier:
 docnumber: '10304'
 date:
 - type: published
-  at: 1995-04
+  at: '1995-04-06'
 contributor:
 - role:
   - type: publisher
@@ -104,10 +98,6 @@ abstract:
   script: Latn
   content: Specifies a method for the determination of the dissolved anions bromide,
     chloride, nitrate, nitrite, orthophosphate and sulfate in waste waters.
-- language: fr
-  script: Latn
-  content: Specifies a method for the determination of the dissolved anions bromide,
-    chloride, nitrate, nitrite, orthophosphate and sulfate in waste waters.
 status:
   stage:
     content: '95'
@@ -120,29 +110,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10304-1:2007
+    formattedref:
+      content: ISO/DIS 10304-1
+    docidentifier:
+    - content: ISO/DIS 10304-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 10304-1:2007
     docidentifier:
     - content: ISO 10304-1:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2007-08-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 13.060.30
-    text: Sewage water
   - code: 13.060.50
     text: Examination of water for chemical substances
+  - code: 13.060.30
+    text: Sewage water
   structuredidentifier:
     type: ISO
     project_number:

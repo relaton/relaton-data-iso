@@ -1,44 +1,39 @@
 ---
 id: ISO8021976
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Aluminium oxide primarily used for the production of aluminium
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Preparation and storage of test samples
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Aluminium oxide primarily used for the production of aluminium - Preparation
     and storage of test samples
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Oxyde d'aluminium principalement utilisé pour la production de l'aluminium
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Préparation et conservation des échantillons pour essai
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Oxyde d'aluminium principalement utilisé pour la production de l'aluminium
     - Préparation et conservation des échantillons pour essai
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5147.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5147:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/51/5147.detail.rss
 docidentifier:
@@ -52,7 +47,7 @@ docidentifier:
 docnumber: '802'
 date:
 - type: published
-  at: 1976-09
+  at: '1976-09-01'
 contributor:
 - role:
   - type: publisher
@@ -95,14 +90,6 @@ abstract:
     consists in grinding and sieving of the sample until passing completely through
     a sieve of meshes having apertures of 0,2 mm. Mixing and drying at about 300 °C.
     Replaces ISO Recommendation R 802-1968.
-- language: fr
-  script: Latn
-  content: Specifies the preparation of laboratory samples, crude samples for the
-    determination of certain geometric properties and physical and pysico-chemical
-    tests including the determination of moisture content and dried samples. The principle
-    consists in grinding and sieving of the sample until passing completely through
-    a sieve of meshes having apertures of 0,2 mm. Mixing and drying at about 300 °C.
-    Replaces ISO Recommendation R 802-1968.
 status:
   stage:
     content: '95'
@@ -115,21 +102,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 23028:2019
+    formattedref:
+      content: ISO/NP 802
+    docidentifier:
+    - content: ISO/NP 802
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 23028:2019
     docidentifier:
     - content: ISO 23028:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-07-23'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 802
+    docidentifier:
+    - content: ISO/WD 802
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -139,4 +139,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 802
+      content: '5147'

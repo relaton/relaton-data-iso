@@ -1,53 +1,47 @@
 ---
 id: ISO1481932004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Traffic and Travel Information (TTI)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: TTI messages via traffic message coding
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Location referencing for ALERT-C'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Traffic and Travel Information (TTI) - TTI messages via traffic message
     coding - Part 3: Location referencing for ALERT-C'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations sur le trafic et le tourisme (TTI)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Messages TTI via le codage de messages sur le trafic
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Références de localisants pour ALERT-C'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informations sur le trafic et le tourisme (TTI) - Messages TTI via le
     codage de messages sur le trafic - Partie 3: Références de localisants pour ALERT-C'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/35984.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:35984:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/59/35984.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '14819'
 date:
 - type: published
-  at: 2004-03
+  at: '2004-03-01'
 contributor:
 - role:
   - type: publisher
@@ -98,14 +92,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 14819-3:2004 primarily addresses the needs of RDS-TMC ALERT-C messages, which are already being implemented. However, the modular approach used here is intended to facilitate future extension of the location referencing rules to other traffic and travel messaging systems.
-    The location referencing rules defined in ISO 14819-3:2004 address the specific requirements of Traffic Message Channel (TMC) systems, which use abbreviated coding formats to provide TTI messages over mobile bearers (e.g. GSM, DAB) or via exchange protocols like DATEX. In particular, the rules address the Radio Data System-Traffic Message Channel (RDS-TMC), a means of providing digitally-coded traffic and travel information to travellers using a silent data channel (RDS) on FM radio stations, based on the ALERT-C protocol.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 14819-3:2004 couvre principalement les besoins des messages RDS-TMC selon le protocole ALERT-C, qui sont déjà en cours de mise en oeuvre. Cependant, l'approche modulaire utilisée ici est destinée à faciliter l'extension future des règles de référencement géographique à d'autres systèmes de messagerie d'informations trafic et voyageurs.
-    Les règles de référencement géographique définies dans l'ISO 14819-3:2004 couvrent les exigences spécifiques des systèmes TMC (Traffic Message Channel, Canal de messages routiers), qui utilisent des formats de codage abrégés pour fournir des messages TTI sur des supports d'information vers les mobiles (tels que GSM, DAB) ou par l'intermédiaire de protocoles d'échange comme DATEX. Ces règles traitent notamment du RDS-TMC qui est un moyen de fournir des informations trafic et voyageurs codées numériquement à des usagers utilisant un canal de données silencieux (RDS) diffusées par des stations de radiodiffusion en FM, sur la base du protocole ALERT-C.
+  content: ISO 14819-3:2004 primarily addresses the needs of RDS-TMC ALERT-C messages,
+    which are already being implemented. However, the modular approach used here is
+    intended to facilitate future extension of the location referencing rules to other
+    traffic and travel messaging systems. The location referencing rules defined in
+    ISO 14819-3:2004 address the specific requirements of Traffic Message Channel
+    (TMC) systems, which use abbreviated coding formats to provide TTI messages over
+    mobile bearers (e.g. GSM, DAB) or via exchange protocols like DATEX. In particular,
+    the rules address the Radio Data System-Traffic Message Channel (RDS-TMC), a means
+    of providing digitally-coded traffic and travel information to travellers using
+    a silent data channel (RDS) on FM radio stations, based on the ALERT-C protocol.
 status:
   stage:
     content: '95'
@@ -120,35 +116,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 14819-3:2000
-    docidentifier:
-    - content: ISO/TS 14819-3:2000
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 14819-3:2013
+    formattedref:
+      content: ISO 14819-3:2013
     docidentifier:
     - content: ISO 14819-3:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-11-21'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/TS 14819-3:2000
+    docidentifier:
+    - content: ISO/TS 14819-3:2000
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

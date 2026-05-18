@@ -1,47 +1,40 @@
 ---
 id: ISO2800422014
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Security management systems for the supply chain
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Guidelines for the implementation of ISO 28000
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Guidelines for adopting ISO 28000 for use in medium and small
     seaport operations'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Security management systems for the supply chain - Guidelines for the
     implementation of ISO 28000 - Part 2: Guidelines for adopting ISO 28000 for use
     in medium and small seaport operations'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de management de la sûreté pour la chaîne d'approvisionnement
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Lignes directrices pour la mise en application de l'ISO 28000
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Lignes directrices pour l''adoption de l''ISO 28000 lors de
     l''utilisation dans les opérations portuaires petites et moyennes'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de management de la sûreté pour la chaîne d''approvisionnement
@@ -49,7 +42,6 @@ title:
     directrices pour l''adoption de l''ISO 28000 lors de l''utilisation dans les opérations
     portuaires petites et moyennes'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/60905.html
@@ -68,7 +60,7 @@ docidentifier:
 docnumber: '28004'
 date:
 - type: published
-  at: 2014-02
+  at: '2014-02-03'
 contributor:
 - role:
   - type: publisher
@@ -99,24 +91,12 @@ edition:
   content: '1'
 language:
 - en
-- fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
-  script: Latn
-  content: ISO 28004-2:2014 identifies supply chain risk and threat scenarios, procedures
-    for conducting risks/threat assessments, and evaluation criteria for measuring
-    conformance and effectiveness of the documented security plans in accordance with
-    ISO 28000 and the ISO 28004 series implementation guidelines. An output of this
-    effort will be a level of confidence rating system based on the quality of the
-    security management plans and procedures implemented by the seaport to safeguard
-    the security and ensure continuity of operations of the supply chain cargo being
-    processed by the seaport. The rating system will be used as a means of identifying
-    a measurable level of confidence (on a scale of 1 to 5) that the seaport security
-    operations are in conformance with ISO 28000 for protecting the integrity of the
-    supply chain.
-- language: fr
   script: Latn
   content: ISO 28004-2:2014 identifies supply chain risk and threat scenarios, procedures
     for conducting risks/threat assessments, and evaluation criteria for measuring
@@ -141,26 +121,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/PAS 28004-2:2012
+    formattedref:
+      content: ISO 28004-1:2007/DAmd 1
+    docidentifier:
+    - content: ISO 28004-1:2007/DAM 1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/PAS 28004-2:2012
     docidentifier:
     - content: ISO/PAS 28004-2:2012
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.100.01
-    text: Company organization and management in general
   - code: 03.100.70
     text: Management systems
+  - code: 03.100.01
+    text: Company organization and management in general
   structuredidentifier:
     type: ISO
     project_number:

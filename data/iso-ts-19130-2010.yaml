@@ -1,41 +1,37 @@
 ---
 id: ISOTS191302010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Imagery sensor models for geopositioning
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Imagery sensor models for geopositioning
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Modèles de capteurs d'images de géopositionnement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Modèles de capteurs d'images de géopositionnement
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/51789.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:51789:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/17/51789.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '19130'
 date:
 - type: published
-  at: 2010-06
+  at: '2010-06-10'
 contributor:
 - role:
   - type: publisher
@@ -80,30 +76,36 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/TS 19130:2010 identifies the information required to determine the
+  content: ISO/TS 19130:2010 identifies the information required to determine the
     relationship between the position of a remotely sensed pixel in image coordinates
     and its geoposition. It supports exploitation of remotely sensed images. It defines
     the metadata to be distributed with the image to enable user determination of
-    geographic position from the observations. \nISO/TS 19130:2010 specifies several
-    ways in which information in support of geopositioning may be provided. \nISO/TS
-    19130:2010 does not specify either how users derive geoposition data or the format
-    or content of the data the users generate. "
-- language: fr
-  script: Latn
-  content: "ISO/TS 19130:2010 identifies the information required to determine the
-    relationship between the position of a remotely sensed pixel in image coordinates
-    and its geoposition. It supports exploitation of remotely sensed images. It defines
-    the metadata to be distributed with the image to enable user determination of
-    geographic position from the observations. \nISO/TS 19130:2010 specifies several
-    ways in which information in support of geopositioning may be provided. \nISO/TS
-    19130:2010 does not specify either how users derive geoposition data or the format
-    or content of the data the users generate. "
+    geographic position from the observations. ISO/TS 19130:2010 specifies several
+    ways in which information in support of geopositioning may be provided. It may
+    be provided as a sensor description with the associated physical and geometric
+    information necessary to rigorously construct a Physical Sensor Model. For the
+    case where precise geoposition information is needed, ISO/TS 19130:2010 identifies
+    the mathematical formulae for rigorously constructing Physical Sensor Models that
+    relate two-dimensional image space to three-dimensional ground space and the calculation
+    of the associated propagated errors. ISO/TS 19130:2010 provides detailed information
+    for three types of passive electro-optical/infrared (IR) sensors (frame, pushbroom
+    and whiskbroom) and for an active microwave sensing system [Synthetic Aperture
+    Radar (SAR)]. It provides a framework by which these sensor models can be extended
+    to other sensor types. It may be provided as a True Replacement Model, using functions
+    whose coefficients are based on a Physical Sensor Model so that they provide information
+    for precise geopositioning, including the calculation of errors, as precisely
+    as the Physical Sensor Model they replace. It may be provided as a Correspondence
+    Model that provides a functional fitting based on observed relationships between
+    the geopositions of a set of ground control points and their image coordinates.
+    It may be provided as a set of ground control points that can be used to develop
+    a Correspondence Model or to refine a Physical Sensor Model or True Replacement
+    Model. ISO/TS 19130:2010 does not specify either how users derive geoposition
+    data or the format or content of the data the users generate.
 status:
   stage:
     content: '95'
@@ -116,21 +118,18 @@ copyright:
       name:
       - content: ISO/TS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 19130-1:2018
+    formattedref:
+      content: ISO 19130-1:2018
     docidentifier:
     - content: ISO 19130-1:2018
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2018-09-05'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

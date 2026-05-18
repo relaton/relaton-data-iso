@@ -1,51 +1,45 @@
 ---
 id: ISO41201983
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Sensory analysis
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Methodology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Triangular test
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Sensory analysis - Methodology - Triangular test
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse sensorielle
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodologie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai triangulaire
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse sensorielle - Méthodologie - Essai triangulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9870.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9870:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/98/9870.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '4120'
 date:
 - type: published
-  at: 1983-11
+  at: '1983-11-01'
 contributor:
 - role:
   - type: publisher
@@ -101,13 +95,6 @@ abstract:
     consists in simultaneous presentation to the assessors of a set of three samples,
     two of which are identical. Following testing, written response by the assessors,
     and interpretation of the replies obtained.
-- language: fr
-  script: Latn
-  content: The method is applicable for revealing slight differences between samples.
-    The differences may concern either all attribute of the samples, the principle
-    consists in simultaneous presentation to the assessors of a set of three samples,
-    two of which are identical. Following testing, written response by the assessors,
-    and interpretation of the replies obtained.
 status:
   stage:
     content: '95'
@@ -120,21 +107,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4120:2004
+    formattedref:
+      content: ISO/CD 4120
+    docidentifier:
+    - content: ISO/CD 4120
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 4120:2004
     docidentifier:
     - content: ISO 4120:2004
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2004-06-23'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

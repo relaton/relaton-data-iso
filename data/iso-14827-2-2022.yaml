@@ -1,50 +1,37 @@
 ---
 id: ISO1482722022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Data interfaces between centres for transport information and control systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: AP-DATEX'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Data interfaces between centres for transport
     information and control systems - Part 2: AP-DATEX'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Intelligent transport systems
-  type: title-intro
-  format: text/plain
-- language: fr
-  script: Latn
-  content: Data interfaces between centres for transport information and control systems
+  content: Titre manque
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Part 2: AP-DATEX'
+  content: 'Partie 2: Titre manque'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Intelligent transport systems - Data interfaces between centres for transport
-    information and control systems - Part 2: AP-DATEX'
+  content: 'Titre manque - Partie 2: Titre manque'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/81957.html
@@ -63,7 +50,7 @@ docidentifier:
 docnumber: '14827'
 date:
 - type: published
-  at: 2022-12
+  at: '2022-12-20'
 contributor:
 - role:
   - type: publisher
@@ -94,20 +81,22 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines a platform-specific model (PSM) for data exchange, which specifically uses ASN.1 and TCP/UDP (transmission control protocol/user datagram protocol) datagrams which were defined as “DATEX-ASN” in the first edition of this document for AP-DATEX (application profile-data exchange) and other Internet protocol (IP) networks. A PSM is an actual implementation of a platform-independent model (PIM) for exchange. This document specifies the message rules and procedures for communication between different systems for ITS using TCP/UDP datagrams.
-    This document deals mainly with the communication interfaces. It has been designed to meet the unique requirements of intelligent transport systems (ITS). However, it has also been designed in a generic fashion and thus can be used for other data exchanges as well.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines a platform-specific model (PSM) for data exchange, which specifically uses ASN.1 and TCP/UDP (transmission control protocol/user datagram protocol) datagrams which were defined as “DATEX-ASN” in the first edition of this document for AP-DATEX (application profile-data exchange) and other Internet protocol (IP) networks. A PSM is an actual implementation of a platform-independent model (PIM) for exchange. This document specifies the message rules and procedures for communication between different systems for ITS using TCP/UDP datagrams.
-    This document deals mainly with the communication interfaces. It has been designed to meet the unique requirements of intelligent transport systems (ITS). However, it has also been designed in a generic fashion and thus can be used for other data exchanges as well.
+  content: This document defines a platform-specific model (PSM) for data exchange,
+    which specifically uses ASN.1 and TCP/UDP (transmission control protocol/user
+    datagram protocol) datagrams which were defined as “DATEX-ASN” in the first edition
+    of this document for AP-DATEX (application profile-data exchange) and other Internet
+    protocol (IP) networks. A PSM is an actual implementation of a platform-independent
+    model (PIM) for exchange. This document specifies the message rules and procedures
+    for communication between different systems for ITS using TCP/UDP datagrams. This
+    document deals mainly with the communication interfaces. It has been designed
+    to meet the unique requirements of intelligent transport systems (ITS). However,
+    it has also been designed in a generic fashion and thus can be used for other
+    data exchanges as well.
 status:
   stage:
     content: '60'
@@ -120,26 +109,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 14827-2:2005
+    formattedref:
+      content: ISO 14827-2:2005
     docidentifier:
     - content: ISO 14827-2:2005
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,42 +1,37 @@
 ---
 id: ISO9451975
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Cast iron
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Designation of microstructure of graphite
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cast iron - Designation of microstructure of graphite
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Fonte
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Désignation de la microstructure du graphite
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Fonte - Désignation de la microstructure du graphite
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5365.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5365:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/53/5365.detail.rss
 docidentifier:
@@ -50,7 +45,7 @@ docidentifier:
 docnumber: '945'
 date:
 - type: published
-  at: 1975-11
+  at: '1975-11-01'
 contributor:
 - role:
   - type: publisher
@@ -91,11 +86,6 @@ abstract:
     as a basis for acceptance specifications. Specifies general, sampling, microscopic
     examination, reference diagramms, designation of graphite by form, distribution
     and size.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme Internationale établit une désignation de la microstructure du graphite dans la fonte. Elle n'est pas destinée à servir de base à des spécifications de réception.
 status:
   stage:
     content: '95'
@@ -108,21 +98,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 945-1:2008
+    formattedref:
+      content: ISO/WD 945
+    docidentifier:
+    - content: ISO/WD 945
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 945-1:2008
     docidentifier:
     - content: ISO 945-1:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-11-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -132,4 +127,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 945
+      content: '5365'

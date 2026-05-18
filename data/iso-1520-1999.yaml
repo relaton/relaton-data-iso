@@ -1,41 +1,37 @@
 ---
 id: ISO15201999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Paints and varnishes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Cupping test
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paints and varnishes - Cupping test
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai d'emboutissage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Peintures et vernis - Essai d'emboutissage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/26621.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:26621:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/66/26621.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '1520'
 date:
 - type: published
-  at: 1999-02
+  at: '1999-02-04'
 contributor:
 - role:
   - type: publisher
@@ -83,15 +79,6 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 1520:1999 spécifie une méthode d'essai empirique pour évaluer la résistance d'une couche de peinture, vernis ou produit assimilé aux craquelures et/ou au décollement d'un subjectile métallique lorsque celui-ci est soumis à une déformation progressive par emboutissage dans des conditions normalisées.
-    Dans le cas d'un système multicouche, chaque couche peut être soumise à essai séparément, ou bien l'essai peut porter sur le système complet.
-    La méthode spécifiée peut être mise en oeuvre
-    - soit comme un essai «tout ou rien», l'essai étant effectué à une profondeur d'emboutissage spécifiée, pour évaluer la conformité avec une spécification particulière;
-    - soit en augmentant graduellement la profondeur d'emboutissage pour déterminer la profondeur minimale à laquelle la couche se craquelle et/ou se décolle du subjectile.
 status:
   stage:
     content: '95'
@@ -106,27 +93,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1520:1973
-    docidentifier:
-    - content: ISO 1520:1973
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 1520:2006
+    formattedref:
+      content: ISO 1520:2006
     docidentifier:
     - content: ISO 1520:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-11-15'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1520:1973
+    docidentifier:
+    - content: ISO 1520:1973
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

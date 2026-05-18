@@ -1,54 +1,48 @@
 ---
 id: ISOIEC1037362011Amd12012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Test methods
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 6: Proximity cards -- Amendment 1: Additional PICC classes'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Identification cards - Test methods - Part 6: Proximity cards -- Amendment
     1: Additional PICC classes'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes d'essai
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Cartes de proximité -- Amendement 1: Classes addtionnelles de
     PICC'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes d''identification - Méthodes d''essai - Partie 6: Cartes de proximité
     -- Amendement 1: Classes addtionnelles de PICC'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/59429.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:59429:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/94/59429.detail.rss
 docidentifier:
@@ -57,14 +51,10 @@ docidentifier:
   primary: true
 - content: ISO/IEC 10373-6:2011/Amd 1:2012(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:10373:-6:ed-2:stage-95.99:amd:2012:v1
-  type: URN
 docnumber: '10373'
 date:
 - type: published
-  at: '2011'
-- type: updated
-  at: 2012-05
+  at: '2012-04-19'
 contributor:
 - role:
   - type: publisher
@@ -104,7 +94,6 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -119,28 +108,32 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 10373-6:2016
+    formattedref:
+      content: ISO/IEC 10373-6:2016
     docidentifier:
     - content: ISO/IEC 10373-6:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-07-18'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 10373-6:2001/DAM 1
+    docidentifier:
+    - content: ISO/IEC 10373-6:2001/DAM 1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    type: ISO
     project_number:
       content: '59429'

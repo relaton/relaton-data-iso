@@ -1,53 +1,47 @@
 ---
 id: ISOIEC1444332016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Contactless integrated circuit cards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Proximity cards -- Part 3: Initialization and anticollision'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Identification cards - Contactless integrated circuit cards - Proximity
     cards -- Part 3: Initialization and anticollision'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes à circuit intégré sans contact
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes de proximité -- Partie 3: Initialisation et anticollision'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes d''identification - Cartes à circuit intégré sans contact - Cartes
     de proximité -- Partie 3: Initialisation et anticollision'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70171.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:70171:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/01/70171.detail.rss
 docidentifier:
@@ -61,9 +55,7 @@ docidentifier:
 docnumber: '14443'
 date:
 - type: published
-  at: 2016-06
-- type: corrected
-  at: 2016-08
+  at: '2016-05-27'
 contributor:
 - role:
   - type: publisher
@@ -103,40 +95,27 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO/IEC 14443 describes the following:
-    -      polling for proximity cards or objects (PICCs) entering the field of a proximity coupling device (PCD);
-    -      the byte format, the frames and timing used during the initial phase of communication between PCDs and PICCs;
-    -      the initial Request and Answer to Request command content;
-    -      methods to detect and communicate with one PICC among several PICCs (anticollision);
-    -      other parameters required to initialize communications between a PICC and PCD;
-    -      optional means to ease and speed up the selection of one PICC among several PICCs based on application criteria;
-    -      optional capability to allow a device to alternate between the functions of a PICC and a PCD to communicate with a PCD or a PICC, respectively. A device which implements this capability is called a PXD.
-    Protocol and commands used by higher layers and by applications and which are used after the initial phase are described in ISO/IEC 14443‑4.
-    This part of ISO/IEC 14443 is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443‑2) and PCDs (as described in ISO/IEC 14443‑2) and to PXDs.
-    NOTE 1       Part of the timing of data communication is defined in ISO/IEC 14443‑2.
-    NOTE 2       Test methods for this part of ISO/IEC 14443 are defined in ISO/IEC 10373‑6.
-- language: fr
-  script: Latn
-  content: |-
-    This part of ISO/IEC 14443 describes the following:
-    -      polling for proximity cards or objects (PICCs) entering the field of a proximity coupling device (PCD);
-    -      the byte format, the frames and timing used during the initial phase of communication between PCDs and PICCs;
-    -      the initial Request and Answer to Request command content;
-    -      methods to detect and communicate with one PICC among several PICCs (anticollision);
-    -      other parameters required to initialize communications between a PICC and PCD;
-    -      optional means to ease and speed up the selection of one PICC among several PICCs based on application criteria;
-    -      optional capability to allow a device to alternate between the functions of a PICC and a PCD to communicate with a PCD or a PICC, respectively. A device which implements this capability is called a PXD.
-    Protocol and commands used by higher layers and by applications and which are used after the initial phase are described in ISO/IEC 14443‑4.
-    This part of ISO/IEC 14443 is applicable to PICCs of Type A and of Type B (as described in ISO/IEC 14443‑2) and PCDs (as described in ISO/IEC 14443‑2) and to PXDs.
-    NOTE 1       Part of the timing of data communication is defined in ISO/IEC 14443‑2.
-    NOTE 2       Test methods for this part of ISO/IEC 14443 are defined in ISO/IEC 10373‑6.
+  content: 'This part of ISO/IEC 14443 describes the following: - polling for proximity
+    cards or objects (PICCs) entering the field of a proximity coupling device (PCD);
+    - the byte format, the frames and timing used during the initial phase of communication
+    between PCDs and PICCs; - the initial Request and Answer to Request command content;
+    - methods to detect and communicate with one PICC among several PICCs (anticollision);
+    - other parameters required to initialize communications between a PICC and PCD;
+    - optional means to ease and speed up the selection of one PICC among several
+    PICCs based on application criteria; - optional capability to allow a device to
+    alternate between the functions of a PICC and a PCD to communicate with a PCD
+    or a PICC, respectively. A device which implements this capability is called a
+    PXD. Protocol and commands used by higher layers and by applications and which
+    are used after the initial phase are described in ISO/IEC 14443‑4. This part of
+    ISO/IEC 14443 is applicable to PICCs of Type A and of Type B (as described in
+    ISO/IEC 14443‑2) and PCDs (as described in ISO/IEC 14443‑2) and to PXDs. NOTE
+    1 Part of the timing of data communication is defined in ISO/IEC 14443‑2. NOTE
+    2 Test methods for this part of ISO/IEC 14443 are defined in ISO/IEC 10373‑6.'
 status:
   stage:
     content: '95'
@@ -151,70 +130,64 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2011
+    formattedref:
+      content: ISO/IEC 14443-3:2018
+    docidentifier:
+    - content: ISO/IEC 14443-3:2018
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 14443-3:2011
     docidentifier:
     - content: ISO/IEC 14443-3:2011
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2011/Amd 1:2011
-    docidentifier:
-    - content: ISO/IEC 14443-3:2011/Amd 1:2011
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2011/Amd 2:2012
+    formattedref:
+      content: ISO/IEC 14443-3:2011/Amd 2:2012
     docidentifier:
     - content: ISO/IEC 14443-3:2011/Amd 2:2012
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2011/Amd 3:2014
+    formattedref:
+      content: ISO/IEC 14443-3:2011/Amd 3:2014
     docidentifier:
     - content: ISO/IEC 14443-3:2011/Amd 3:2014
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2011/Amd 6:2014
+    formattedref:
+      content: ISO/IEC 14443-3:2011/Amd 6:2014
     docidentifier:
     - content: ISO/IEC 14443-3:2011/Amd 6:2014
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2018
+    formattedref:
+      content: ISO/IEC 14443-3:2011/DAmd 4.2
     docidentifier:
-    - content: ISO/IEC 14443-3:2018
+    - content: ISO/IEC 14443-3:2011/DAM 4.2
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2018-06-19'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-3:2016/Amd 1:2016
+    formattedref:
+      content: ISO/IEC 14443-3:2011/Amd 1:2011
     docidentifier:
-    - content: ISO/IEC 14443-3:2016/Amd 1:2016
+    - content: ISO/IEC 14443-3:2011/Amd 1:2011
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2018-06-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

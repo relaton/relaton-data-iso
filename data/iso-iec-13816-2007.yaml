@@ -1,51 +1,43 @@
 ---
 id: ISOIEC138162007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Programming languages, their environments and system software interfaces
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Programming language ISLISP
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Programming languages, their environments and
     system software interfaces - Programming language ISLISP
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation, leurs environnements et interfaces de logiciel
     système
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Langage de programmation ISLISP
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Langages de programmation, leurs environnements
     et interfaces de logiciel système - Langage de programmation ISLISP
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44338.html
@@ -59,12 +51,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 13816:2007(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:13816:stage-90.93
+- content: urn:iso:std:iso-iec:13816:stage-90.20
   type: URN
 docnumber: '13816'
 date:
 - type: published
-  at: 2007-10
+  at: '2007-10-01'
 contributor:
 - role:
   - type: publisher
@@ -104,43 +96,32 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 13816:2007 specifies syntax and semantics of the computer programming
+  content: 'ISO/IEC 13816:2007 specifies syntax and semantics of the computer programming
     language ISLisp by specifying requirements for a conforming ISLisp processor and
-    a conforming ISLisp text. The design goals for ISLisp are the following. \nISO/IEC
-    13816:2007 does not specify: \n- the size or complexity of an ISLisp text that
-    exceeds the capacity of any specific data processing system or the capacity of
-    a particular processor, nor the actions to be taken when the corresponding limits
-    are exceeded; \n- the minimal requirements of a data processing system that is
-    capable of supporting an implementation of a processor for ISLisp; \n- the method
-    of preparation of an ISLisp text for execution and the method of activation of
-    this ISLisp text, prepared for execution; \n- the typographical presentation of
-    an ISLisp text published for human reading; \n- extensions that might or might
-    not be provided by the implementation."
-- language: fr
-  script: Latn
-  content: "ISO/IEC 13816:2007 specifies syntax and semantics of the computer programming
-    language ISLisp by specifying requirements for a conforming ISLisp processor and
-    a conforming ISLisp text. The design goals for ISLisp are the following. \nISO/IEC
-    13816:2007 does not specify: \n- the size or complexity of an ISLisp text that
-    exceeds the capacity of any specific data processing system or the capacity of
-    a particular processor, nor the actions to be taken when the corresponding limits
-    are exceeded; \n- the minimal requirements of a data processing system that is
-    capable of supporting an implementation of a processor for ISLisp; \n- the method
-    of preparation of an ISLisp text for execution and the method of activation of
-    this ISLisp text, prepared for execution; \n- the typographical presentation of
-    an ISLisp text published for human reading; \n- extensions that might or might
-    not be provided by the implementation."
+    a conforming ISLisp text. The design goals for ISLisp are the following. ISLisp
+    shall be compatible with existing Lisp dialects where feasible. ISLisp shall have
+    as a primary goal to provide basic functionality. ISLisp shall be object-oriented.
+    ISLisp shall be designed with extensibility in mind. ISLisp shall give priority
+    to industrial needs over academic needs. ISLisp shall promote efficient implementations
+    and applications. ISO/IEC 13816:2007 does not specify: the size or complexity
+    of an ISLisp text that exceeds the capacity of any specific data processing system
+    or the capacity of a particular processor, nor the actions to be taken when the
+    corresponding limits are exceeded; the minimal requirements of a data processing
+    system that is capable of supporting an implementation of a processor for ISLisp;
+    the method of preparation of an ISLisp text for execution and the method of activation
+    of this ISLisp text, prepared for execution; the typographical presentation of
+    an ISLisp text published for human reading; extensions that might or might not
+    be provided by the implementation.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2007'
   owner:
@@ -148,18 +129,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 13816:1997
+    formattedref:
+      content: ISO/IEC 13816:1997
     docidentifier:
     - content: ISO/IEC 13816:1997
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

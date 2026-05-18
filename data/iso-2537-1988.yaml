@@ -1,42 +1,38 @@
 ---
 id: ISO25371988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Liquid flow measurement in open channels
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Rotating element current-meters
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Liquid flow measurement in open channels - Rotating element current-meters
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesure de débit des liquides dans les canaux découverts
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Moulinets à élément rotatif
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesure de débit des liquides dans les canaux découverts - Moulinets à élément
     rotatif
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7481.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7481:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/74/7481.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '2537'
 date:
 - type: published
-  at: 1988-06
+  at: '1988-06-09'
 contributor:
 - role:
   - type: publisher
@@ -92,11 +88,6 @@ abstract:
     in open channels. Does not define the form of the signal produced by the equipment
     or the signal receiving equipment. Cancels and replaces the second edition (ISO
     2537 : 1985), of which it constitutes a technical revision.'
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale fixe les spécifications de fonctionnement, de construction, d'étalonnage et d'entretien des appareils munis d'un élément rotatif pour le mesurage de la vitesse de l'écoulement dans les canaux découverts. Elle ne définit ni la forme du signal produit par l'appareil, ni l'appareil récepteur de signaux. Pour l'utilisation de ces appareils, se référer à l'ISO 748.
 status:
   stage:
     content: '95'
@@ -111,27 +102,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2537:1985
-    docidentifier:
-    - content: ISO 2537:1985
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 2537:2007
+    formattedref:
+      content: ISO 2537:2007
     docidentifier:
     - content: ISO 2537:2007
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2007-04-30'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2537:1985/Amd 1:1983
+    docidentifier:
+    - content: ISO 2537:1985/Amd 1:1983
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2537:1985
+    docidentifier:
+    - content: ISO 2537:1985
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

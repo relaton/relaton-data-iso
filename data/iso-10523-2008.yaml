@@ -1,38 +1,32 @@
 ---
 id: ISO105232008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Water quality
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of pH
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Water quality - Determination of pH
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination du pH
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Qualité de l'eau - Détermination du pH
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/51994.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '10523'
 date:
 - type: published
-  at: 2008-12
+  at: '2008-11-28'
 contributor:
 - role:
   - type: publisher
@@ -91,14 +85,7 @@ abstract:
   content: ISO 10523:2008 specifies a method for determining the pH value in rain,
     drinking and mineral waters, bathing waters, surface and ground waters, as well
     as municipal and industrial waste waters, and liquid sludge, within the range
-    pH 2 to pH 12 with an ionic strength below I =  0,3 mol/kg (conductivity at 25
-    °C <2 000 mS/m) solvent and in the temperature range 0 °C to 50 °C.
-- language: fr
-  script: Latn
-  content: ISO 10523:2008 specifies a method for determining the pH value in rain,
-    drinking and mineral waters, bathing waters, surface and ground waters, as well
-    as municipal and industrial waste waters, and liquid sludge, within the range
-    pH 2 to pH 12 with an ionic strength below I =  0,3 mol/kg (conductivity at 25
+    pH 2 to pH 12 with an ionic strength below I = 0,3 mol/kg (conductivity at 25
     °C <2 000 mS/m) solvent and in the temperature range 0 °C to 50 °C.
 status:
   stage:
@@ -112,18 +99,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 10523:1994
+    formattedref:
+      content: ISO/DIS 26149
+    docidentifier:
+    - content: ISO/DIS 26149
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10523:1994
     docidentifier:
     - content: ISO 10523:1994
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

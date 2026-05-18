@@ -1,41 +1,37 @@
 ---
 id: ISOPAS214482019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Safety of the intended functionality
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Safety of the intended functionality
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité de la fonction attendue
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Sécurité de la fonction attendue
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70939.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:70939:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/09/70939.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '21448'
 date:
 - type: published
-  at: 2019-01
+  at: '2019-01-10'
 contributor:
 - role:
   - type: publisher
@@ -80,26 +76,36 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The absence of unreasonable risk due to hazards resulting from functional insufficiencies of the intended functionality or by reasonably foreseeable misuse by persons is referred to as the Safety Of The Intended Functionality (SOTIF). This document provides guidance on the applicable design, verification and validation measures needed to achieve the SOTIF. This document does not apply to faults covered by the ISO 26262 series or to hazards directly caused by the system technology (e.g. eye damage from a laser sensor).
-    This document is intended to be applied to intended functionality where proper situational awareness is critical to safety, and where that situational awareness is derived from complex sensors and processing algorithms; especially emergency intervention systems (e.g. emergency braking systems) and Advanced Driver Assistance Systems (ADAS) with levels 1 and 2 on the OICA/SAE standard J3016 automation scales. This edition of the document can be considered for higher levels of automation, however additional measures might be necessary. This document is not intended for functions of existing systems for which well-established and well-trusted design, verification and validation (V&V) measures exist at the time of publication (e.g. Dynamic Stability Control (DSC) systems, airbag, etc.). Some measures described in this document are applicable to innovative functions of such systems, if situational awareness derived from complex sensors and processing algorithms is part of the innovation.
-    Intended use and reasonably foreseeable misuse are considered in combination with potentially hazardous system behaviour when identifying hazardous events.
-    Reasonably foreseeable misuse, which could lead directly to potentially hazardous system behaviour, is also considered as a possible event that could directly trigger a SOTIF-related hazardous event.
-    Intentional alteration to the system operation is considered feature abuse. Feature abuse is not in scope of this document.
-- language: fr
-  script: Latn
-  content: |-
-    The absence of unreasonable risk due to hazards resulting from functional insufficiencies of the intended functionality or by reasonably foreseeable misuse by persons is referred to as the Safety Of The Intended Functionality (SOTIF). This document provides guidance on the applicable design, verification and validation measures needed to achieve the SOTIF. This document does not apply to faults covered by the ISO 26262 series or to hazards directly caused by the system technology (e.g. eye damage from a laser sensor).
-    This document is intended to be applied to intended functionality where proper situational awareness is critical to safety, and where that situational awareness is derived from complex sensors and processing algorithms; especially emergency intervention systems (e.g. emergency braking systems) and Advanced Driver Assistance Systems (ADAS) with levels 1 and 2 on the OICA/SAE standard J3016 automation scales. This edition of the document can be considered for higher levels of automation, however additional measures might be necessary. This document is not intended for functions of existing systems for which well-established and well-trusted design, verification and validation (V&V) measures exist at the time of publication (e.g. Dynamic Stability Control (DSC) systems, airbag, etc.). Some measures described in this document are applicable to innovative functions of such systems, if situational awareness derived from complex sensors and processing algorithms is part of the innovation.
-    Intended use and reasonably foreseeable misuse are considered in combination with potentially hazardous system behaviour when identifying hazardous events.
-    Reasonably foreseeable misuse, which could lead directly to potentially hazardous system behaviour, is also considered as a possible event that could directly trigger a SOTIF-related hazardous event.
-    Intentional alteration to the system operation is considered feature abuse. Feature abuse is not in scope of this document.
+  content: The absence of unreasonable risk due to hazards resulting from functional
+    insufficiencies of the intended functionality or by reasonably foreseeable misuse
+    by persons is referred to as the Safety Of The Intended Functionality (SOTIF).
+    This document provides guidance on the applicable design, verification and validation
+    measures needed to achieve the SOTIF. This document does not apply to faults covered
+    by the ISO 26262 series or to hazards directly caused by the system technology
+    (e.g. eye damage from a laser sensor). This document is intended to be applied
+    to intended functionality where proper situational awareness is critical to safety,
+    and where that situational awareness is derived from complex sensors and processing
+    algorithms; especially emergency intervention systems (e.g. emergency braking
+    systems) and Advanced Driver Assistance Systems (ADAS) with levels 1 and 2 on
+    the OICA/SAE standard J3016 automation scales. This edition of the document can
+    be considered for higher levels of automation, however additional measures might
+    be necessary. This document is not intended for functions of existing systems
+    for which well-established and well-trusted design, verification and validation
+    (V&V) measures exist at the time of publication (e.g. Dynamic Stability Control
+    (DSC) systems, airbag, etc.). Some measures described in this document are applicable
+    to innovative functions of such systems, if situational awareness derived from
+    complex sensors and processing algorithms is part of the innovation. Intended
+    use and reasonably foreseeable misuse are considered in combination with potentially
+    hazardous system behaviour when identifying hazardous events. Reasonably foreseeable
+    misuse, which could lead directly to potentially hazardous system behaviour, is
+    also considered as a possible event that could directly trigger a SOTIF-related
+    hazardous event. Intentional alteration to the system operation is considered
+    feature abuse. Feature abuse is not in scope of this document.
 status:
   stage:
     content: '95'
@@ -112,21 +118,18 @@ copyright:
       name:
       - content: ISO/PAS
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 21448:2022
+    formattedref:
+      content: ISO 21448:2022
     docidentifier:
     - content: ISO 21448:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-06-30'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: publicly-available-specification
   flavor: iso

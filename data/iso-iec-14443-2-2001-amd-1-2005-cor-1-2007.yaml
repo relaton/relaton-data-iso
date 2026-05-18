@@ -1,48 +1,41 @@
 ---
 id: ISOIEC1444322001Amd12005Cor12007
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Contactless integrated circuit(s) cards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Proximity cards -- Part 2: Radio frequency power and signal interface
     -- Amendment 1: Bit rates of fc/64, fc/32 and fc/16 -- Technical Corrigendum 1'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Identification cards - Contactless integrated circuit(s) cards - Proximity
     cards -- Part 2: Radio frequency power and signal interface -- Amendment 1: Bit
     rates of fc/64, fc/32 and fc/16 -- Technical Corrigendum 1'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes à circuit(s) intégré(s) sans contact
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes de proximité -- Partie 2: Interface radiofréquence et des signaux
     de communication -- Amendement 1: Débit binaires de fc/64, fc/32 et fc/16 -- Rectificatif
     technique 1'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes d''identification - Cartes à circuit(s) intégré(s) sans contact
@@ -50,10 +43,11 @@ title:
     communication -- Amendement 1: Débit binaires de fc/64, fc/32 et fc/16 -- Rectificatif
     technique 1'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/46499.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:46499:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/64/46499.detail.rss
 docidentifier:
@@ -62,14 +56,10 @@ docidentifier:
   primary: true
 - content: ISO/IEC 14443-2:2001/Amd 1:2005/Cor 1:2007(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:14443:-2:ed-1:amd:2005:v1:stage-95.99:cor:2007:v1
-  type: URN
 docnumber: '14443'
 date:
 - type: published
-  at: '2001'
-- type: updated
-  at: 2007-11
+  at: '2007-10-30'
 contributor:
 - role:
   - type: publisher
@@ -109,7 +99,6 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -124,28 +113,24 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14443-2:2010
+    formattedref:
+      content: ISO/IEC 14443-2:2010
     docidentifier:
     - content: ISO/IEC 14443-2:2010
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2010-08-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: technical-corrigendum
   flavor: iso
   ics:
   - code: 35.240.15
     text: Identification cards. Chip cards. Biometrics
   structuredidentifier:
-    type: ISO
     project_number:
       content: '46499'

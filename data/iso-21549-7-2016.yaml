@@ -1,52 +1,46 @@
 ---
 id: ISO2154972016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Patient healthcard data
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 7: Medication data'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Health informatics - Patient healthcard data - Part 7: Medication data'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Données relatives aux cartes de santé des patients
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 7: Données de médication'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informatique de santé - Données relatives aux cartes de santé des patients
     - Partie 7: Données de médication'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63739.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63739:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/37/63739.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '21549'
 date:
 - type: published
-  at: 2016-12
+  at: '2016-11-23'
 contributor:
 - role:
   - type: publisher
@@ -97,30 +91,33 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 21549-7:2016 applies to situations in which such data is recorded on or transported by patient healthcards compliant with the physical dimensions of ID-1 cards defined by ISO/IEC 7810.
-    ISO 21549-7:2016 specifies the basic structure of the data contained within the medication data object, but does not specify or mandate particular data sets for storage on devices.
-    The purpose of this document is for cards to provide information to other health professionals and to the patient or its non-professional caregiver.
-    It can also be used to carry a new prescription from the prescriber to the dispenser/pharmacy in the design of its sets.
-    Medication data include the following four components:
-    -      medication notes: additional information related to medication and the safe use of medicines by the patient such as medication history, sensitivities and allergies;
-    -      medication prescriptions: to carry a new prescription from the prescriber to the dispenser/pharmacy;
-    -      medication dispensed: the records of medications dispensed for the patient;
-    -      medication references: pointers to other systems that contain information that makes up medication prescription and the authority to dispense.
-    The following topics are beyond the scope of this document:
-    -      physical or logical solutions for the practical functioning of particular types of data cards;
-    -      how the message is processed further "downstream" of the interface between two systems;
-    -      the form which the data takes for use outside the data card, or the way in which such data is visibly represented on the data card or elsewhere.
-    NOTE          Not only does the definition of "medicinal products" differ from country to country, but also the same name can relate to entirely different products in some countries. Therefore, it is important to consider the safety of the patient when the card is used across borders.
-    ISO 21549-7:2016 describes and defines the Medication data objects used within or referenced by patient-held health data cards using UML, plain text and Abstract Syntax Notation (ASN.1).
-    ISO 21549-7:2016 does not describe nor define the common objects defined within ISO 21549-2, even though they are referenced and utilized within this document.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 21549-7 :2016 s'applique aux situations dans lesquelles des données sont enregistrées sur ou transportées par des cartes de santé des patients conformes aux dimensions physiques des cartes ID-1 définies par l'ISO/IEC 7810.
-    L'ISO 21549-7 :2016 spécifie la structure de base des données contenues dans l'objet de données de médication, sans toutefois spécifier ou recommander des ensembles de données particuliers destinés à être stockés sur des dispositifs.
-    L'ISO 21549-7 :2016 a pour objet de définir des cartes qui fournissent des informations aux autres professionnels de santé et au patient ou à son soignant non professionnel.
-    Il peut également être utilisé pour transporter une nouvelle prescription du prescripteur à l'agent délivrant/pharmacien dans le cadre de la définition de ses ensembles.
+  content: 'ISO 21549-7:2016 applies to situations in which such data is recorded
+    on or transported by patient healthcards compliant with the physical dimensions
+    of ID-1 cards defined by ISO/IEC 7810. ISO 21549-7:2016 specifies the basic structure
+    of the data contained within the medication data object, but does not specify
+    or mandate particular data sets for storage on devices. The purpose of this document
+    is for cards to provide information to other health professionals and to the patient
+    or its non-professional caregiver. It can also be used to carry a new prescription
+    from the prescriber to the dispenser/pharmacy in the design of its sets. Medication
+    data include the following four components: - medication notes: additional information
+    related to medication and the safe use of medicines by the patient such as medication
+    history, sensitivities and allergies; - medication prescriptions: to carry a new
+    prescription from the prescriber to the dispenser/pharmacy; - medication dispensed:
+    the records of medications dispensed for the patient; - medication references:
+    pointers to other systems that contain information that makes up medication prescription
+    and the authority to dispense. The following topics are beyond the scope of this
+    document: - physical or logical solutions for the practical functioning of particular
+    types of data cards; - how the message is processed further "downstream" of the
+    interface between two systems; - the form which the data takes for use outside
+    the data card, or the way in which such data is visibly represented on the data
+    card or elsewhere. NOTE Not only does the definition of "medicinal products" differ
+    from country to country, but also the same name can relate to entirely different
+    products in some countries. Therefore, it is important to consider the safety
+    of the patient when the card is used across borders. ISO 21549-7:2016 describes
+    and defines the Medication data objects used within or referenced by patient-held
+    health data cards using UML, plain text and Abstract Syntax Notation (ASN.1).
+    ISO 21549-7:2016 does not describe nor define the common objects defined within
+    ISO 21549-2, even though they are referenced and utilized within this document.'
 status:
   stage:
     content: '95'
@@ -135,27 +132,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 21549-7:2007
-    docidentifier:
-    - content: ISO 21549-7:2007
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 21549-7:2024
+    formattedref:
+      content: ISO 21549-7:2024
     docidentifier:
     - content: ISO 21549-7:2024
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-02-08'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 21549-7:2007
+    docidentifier:
+    - content: ISO 21549-7:2007
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

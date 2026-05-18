@@ -1,41 +1,37 @@
 ---
 id: ISO223082005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cork stoppers
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Sensory analysis
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cork stoppers - Sensory analysis
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bouchons en liège
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse sensorielle
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bouchons en liège - Analyse sensorielle
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/34938.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:34938:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/49/34938.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '22308'
 date:
 - type: published
-  at: 2005-06
+  at: '2005-06-22'
 contributor:
 - role:
   - type: publisher
@@ -81,19 +77,17 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 22308:2005 defines a test method for detecting, qualifying and eventually evaluating the exogenous odours/flavours of cork stoppers.
-    ISO 22308:2005 is applicable to all kinds of cork stoppers, ready for use, designed to be in contact with alcoholic drinks.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 23308:2005 définit une méthode d'essai pour la détection, la qualification et éventuellement l'évaluation des odeurs/flaveurs exogènes aux bouchons en liège.
-    L'ISO 23308:2005 est applicable à tous les types de bouchons en liège, prêts à l'emploi, destinés à être en contact avec des boissons alcoolisées.
+  content: ISO 22308:2005 defines a test method for detecting, qualifying and eventually
+    evaluating the exogenous odours/flavours of cork stoppers. ISO 22308:2005 is applicable
+    to all kinds of cork stoppers, ready for use, designed to be in contact with alcoholic
+    drinks.
 status:
   stage:
     content: '95'
@@ -106,21 +100,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 22308-1:2021
+    formattedref:
+      content: ISO 22308-1:2021
     docidentifier:
     - content: ISO 22308-1:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-01-07'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 22308-2
+    docidentifier:
+    - content: ISO/PWI 22308-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

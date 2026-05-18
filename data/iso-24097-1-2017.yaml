@@ -1,46 +1,39 @@
 ---
 id: ISO2409712017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Using web services (machine-machine delivery) for ITS service delivery
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Realization of interoperable web services'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Using web services (machine-machine delivery)
     for ITS service delivery - Part 1: Realization of interoperable web services'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Utilisation des services du Web (livraison de machine à machine) pour la
     livraison de services ITS
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Réalisation des services du Web interopérables'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Utilisation des services du Web (livraison de machine à machine) pour
     la livraison de services ITS - Partie 1: Réalisation des services du Web interopérables'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69117.html
@@ -59,7 +52,7 @@ docidentifier:
 docnumber: '24097'
 date:
 - type: published
-  at: 2017-07
+  at: '2017-07-19'
 contributor:
 - role:
   - type: publisher
@@ -90,22 +83,29 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 24097-1:2017 establishes a Service Oriented Architecture (SOA) for the realization of interoperable web services for Intelligent Transport Systems (ITS).
-    Web service behaviour is described at the metadata level, i.e. a higher level of abstraction, to enable auto-generation of both a ?service requester' program as well as a ?service provider' program. Figure 1 presents the principal entities involved in a web service scenario. They are service provider, service requester, and 'registry'. The registry includes business information and technical information such as interface and policy. Figure 1 also depicts the actions of the service provider and the service requester. A service provider interacts with the registry to enable it to "publish" the provided service. The service is characterized in the form of a web service interface describer in the form of a standardized web service description language (WSDL) and policy (WS-Policy). A service requester interacts with the registry to "discover" a provider for the service he is seeking. That interaction takes place through "Universal Description Discovery, and Integration" (UDDI) dialogue and endpoint reference (EPR). Once the service requester identifies a service provider, he "binds" to the service provider via an SOA protocol.
-    ISO 24097-1:2017 is applicable to inter-ITS sector web services as well as ITS web services for non-ITS users.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 24097-1:2017 establishes a Service Oriented Architecture (SOA) for the realization of interoperable web services for Intelligent Transport Systems (ITS).
-    Web service behaviour is described at the metadata level, i.e. a higher level of abstraction, to enable auto-generation of both a ?service requester' program as well as a ?service provider' program. Figure 1 presents the principal entities involved in a web service scenario. They are service provider, service requester, and 'registry'. The registry includes business information and technical information such as interface and policy. Figure 1 also depicts the actions of the service provider and the service requester. A service provider interacts with the registry to enable it to "publish" the provided service. The service is characterized in the form of a web service interface describer in the form of a standardized web service description language (WSDL) and policy (WS-Policy). A service requester interacts with the registry to "discover" a provider for the service he is seeking. That interaction takes place through "Universal Description Discovery, and Integration" (UDDI) dialogue and endpoint reference (EPR). Once the service requester identifies a service provider, he "binds" to the service provider via an SOA protocol.
-    ISO 24097-1:2017 is applicable to inter-ITS sector web services as well as ITS web services for non-ITS users.
+  content: ISO 24097-1:2017 establishes a Service Oriented Architecture (SOA) for
+    the realization of interoperable web services for Intelligent Transport Systems
+    (ITS). Web service behaviour is described at the metadata level, i.e. a higher
+    level of abstraction, to enable auto-generation of both a ?service requester'
+    program as well as a ?service provider' program. Figure 1 presents the principal
+    entities involved in a web service scenario. They are service provider, service
+    requester, and 'registry'. The registry includes business information and technical
+    information such as interface and policy. Figure 1 also depicts the actions of
+    the service provider and the service requester. A service provider interacts with
+    the registry to enable it to "publish" the provided service. The service is characterized
+    in the form of a web service interface describer in the form of a standardized
+    web service description language (WSDL) and policy (WS-Policy). A service requester
+    interacts with the registry to "discover" a provider for the service he is seeking.
+    That interaction takes place through "Universal Description Discovery, and Integration"
+    (UDDI) dialogue and endpoint reference (EPR). Once the service requester identifies
+    a service provider, he "binds" to the service provider via an SOA protocol. ISO
+    24097-1:2017 is applicable to inter-ITS sector web services as well as ITS web
+    services for non-ITS users.
 status:
   stage:
     content: '90'
@@ -118,18 +118,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 24097-1:2009
+    formattedref:
+      content: ISO 24097-1:2009
     docidentifier:
     - content: ISO 24097-1:2009
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,50 +1,42 @@
 ---
 id: ISO2125412011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Lasers and laser-related equipment
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Test methods for laser-induced damage threshold
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Definitions and general principles'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Lasers and laser-related equipment - Test methods for laser-induced damage
     threshold - Part 1: Definitions and general principles'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Lasers et équipements associés aux lasers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes d'essai du seuil d'endommagement provoqué par laser
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Définitions et principes de base'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Lasers et équipements associés aux lasers - Méthodes d''essai du seuil
     d''endommagement provoqué par laser - Partie 1: Définitions et principes de base'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/43001.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 21254-1:2011(E)
   type: iso-reference
-- content: urn:iso:std:iso:21254:-1:stage-90.92
+- content: urn:iso:std:iso:21254:-1:stage-95.99
   type: URN
 docnumber: '21254'
 date:
 - type: published
-  at: 2011-07
+  at: '2011-07-15'
 contributor:
 - role:
   - type: publisher
@@ -103,16 +95,11 @@ abstract:
   content: ISO 21254-1:2011 defines terms used in conjunction with, and the general
     principles of, test methods for determining the laser-induced damage threshold
     and for the assurance of optical laser components subjected to laser radiation.
-- language: fr
-  script: Latn
-  content: L'ISO 21254-1:2011 définit les termes et les principes de base des méthodes
-    d'essai permettant de déterminer le seuil d'endommagement provoqué par laser et
-    de vérifier les composants optiques du laser soumis à un rayonnement laser.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2011'
   owner:
@@ -122,32 +109,48 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11254-1:2000
+    formattedref:
+      content: ISO/WD 21254-1
+    docidentifier:
+    - content: ISO/WD 21254-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 21254-1:2025
+    docidentifier:
+    - content: ISO 21254-1:2025
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 21254-1
+    docidentifier:
+    - content: ISO/PWI 21254-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11254-1:2000
     docidentifier:
     - content: ISO 11254-1:2000
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 11254-2:2001
+    formattedref:
+      content: ISO 11254-2:2001
     docidentifier:
     - content: ISO 11254-2:2001
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/FDIS 21254-1
-    docidentifier:
-    - content: ISO/FDIS 21254-1
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

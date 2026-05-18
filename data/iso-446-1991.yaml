@@ -1,52 +1,46 @@
 ---
 id: ISO4461991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Micrographics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: ISO character and ISO test chart No. 1
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Description and use
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Micrographics - ISO character and ISO test chart No. 1 - Description and
     use
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Micrographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Caractère ISO et mire ISO no. 1
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Description et utilisation
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Micrographie - Caractère ISO et mire ISO no. 1 - Description et utilisation
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4465.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4465:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/44/4465.detail.rss
 docidentifier:
@@ -60,7 +54,7 @@ docidentifier:
 docnumber: '446'
 date:
 - type: published
-  at: 1991-02
+  at: '1991-02-14'
 contributor:
 - role:
   - type: publisher
@@ -102,13 +96,6 @@ abstract:
     with that system. Annex A gives optional features for ISO test chart No. 1. This
     second edition cancels and replaces the first editions (ISO 435:1975 and ISO 446:1975),
     which have been merged into a single International Standard.
-- language: fr
-  script: Latn
-  content: Applies to the quality testing of microimages produced with a given micrographic
-    system and allows to determine the potential legibility of documents recorded
-    with that system. Annex A gives optional features for ISO test chart No. 1. This
-    second edition cancels and replaces the first editions (ISO 435:1975 and ISO 446:1975),
-    which have been merged into a single International Standard.
 status:
   stage:
     content: '95'
@@ -123,35 +110,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 435:1975
-    docidentifier:
-    - content: ISO 435:1975
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 446:1975
-    docidentifier:
-    - content: ISO 446:1975
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 446:2004
+    formattedref:
+      content: ISO 446:2004
     docidentifier:
     - content: ISO 446:2004
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2004-03-15'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 435:1975
+    docidentifier:
+    - content: ISO 435:1975
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 446:1975
+    docidentifier:
+    - content: ISO 446:1975
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

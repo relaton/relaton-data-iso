@@ -1,51 +1,43 @@
 ---
 id: ISO1178392012
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Tractors and machinery for agriculture and forestry
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Serial control and communications data network
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 9: Tractor ECU'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Tractors and machinery for agriculture and forestry - Serial control and
     communications data network - Part 9: Tractor ECU'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tracteurs et matériels agricoles et forestiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Réseaux de commande et de communication de données en série
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 9: Unité de commande électronique du tracteur'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Tracteurs et matériels agricoles et forestiers - Réseaux de commande et
     de communication de données en série - Partie 9: Unité de commande électronique
     du tracteur'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/54390.html
@@ -64,7 +56,7 @@ docidentifier:
 docnumber: '11783'
 date:
 - type: published
-  at: 2012-02
+  at: '2012-01-30'
 contributor:
 - role:
   - type: publisher
@@ -108,17 +100,6 @@ abstract:
     units, whether mounted on, or part of, the tractor or implement. ISO 11783-9:2012
     describes the Tractor ECU, the control function that provides the gateway between
     the network's tractor and implement buses, as well as performing other functions.
-- language: fr
-  script: Latn
-  content: L'ISO 11783, prise dans son ensemble, spécifie un réseau de commande et
-    de communication de données en série pour les tracteurs forestiers ou agricoles
-    et les équipements portés, semi-portés, traînés ou automoteurs. Elle vise à normaliser
-    la méthode et le format du transfert de données entre capteurs, actionneurs, dispositifs
-    de commande, unités de stockage et d'affichage de données, que ces éléments soient
-    montés sur le tracteur ou l'équipement, ou qu'ils en soient un composant. L'ISO
-    11783-9:2012 décrit l'unité de commande électronique (UCE) du tracteur, la fonction
-    de commande (FC) qui assure la fonction de passerelle entre le bus tracteur et
-    le bus tracteur-outil, ainsi que des fonctions complémentaires.
 status:
   stage:
     content: '90'
@@ -133,24 +114,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 11783-9:2002
+    formattedref:
+      content: ISO/DIS 11783-9
+    docidentifier:
+    - content: ISO/DIS 11783-9
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 11783-9:2002
     docidentifier:
     - content: ISO 11783-9:2002
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 35.240.99
-    text: IT applications in other fields
   - code: 65.060.01
     text: Agricultural machines and equipment in general
+  - code: 35.240.99
+    text: IT applications in other fields
   structuredidentifier:
     type: ISO
     project_number:

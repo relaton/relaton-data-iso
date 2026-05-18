@@ -1,50 +1,42 @@
 ---
 id: ISOIEC291602020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Radio frequency identification for item management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: RFID Emblem
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Radio frequency identification for item management
     - RFID Emblem
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification par radiofréquence (RFID) pour la gestion d'objets
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Emblème RFID
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Identification par radiofréquence (RFID)
     pour la gestion d'objets - Emblème RFID
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/75130.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 29160:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:29160:stage-60.60
+- content: urn:iso:std:iso-iec:29160:stage-90.92
   type: URN
 docnumber: '29160'
 date:
 - type: published
-  at: 2020-12
+  at: '2020-12-11'
 contributor:
 - role:
   - type: publisher
@@ -103,25 +95,26 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the design and use of the RFID Emblem: an easily identified visual guide that indicates the presence of radio frequency identification (RFID). It does not address the location of the RFID Emblem on a label. Specific placement requirements are left to application standards developers.
-    This document also specifies an RFID Index, which can be included in the RFID Emblem and which addresses the complication added by the wide range of RFID tags in existence (frequency, protocol and data structure). The RFID Index is a two-character code that provides specific information about tags and interrogators. Successful reading of RFID tags requires knowledge of the frequency, protocol and data structure information provided by the RFID Index.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the design and use of the RFID Emblem: an easily identified visual guide that indicates the presence of radio frequency identification (RFID). It does not address the location of the RFID Emblem on a label. Specific placement requirements are left to application standards developers.
-    This document also specifies an RFID Index, which can be included in the RFID Emblem and which addresses the complication added by the wide range of RFID tags in existence (frequency, protocol and data structure). The RFID Index is a two-character code that provides specific information about tags and interrogators. Successful reading of RFID tags requires knowledge of the frequency, protocol and data structure information provided by the RFID Index.
+  content: 'This document specifies the design and use of the RFID Emblem: an easily
+    identified visual guide that indicates the presence of radio frequency identification
+    (RFID). It does not address the location of the RFID Emblem on a label. Specific
+    placement requirements are left to application standards developers. This document
+    also specifies an RFID Index, which can be included in the RFID Emblem and which
+    addresses the complication added by the wide range of RFID tags in existence (frequency,
+    protocol and data structure). The RFID Index is a two-character code that provides
+    specific information about tags and interrogators. Successful reading of RFID
+    tags requires knowledge of the frequency, protocol and data structure information
+    provided by the RFID Index.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2020'
   owner:
@@ -131,16 +124,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 29160:2012
+    formattedref:
+      content: ISO/IEC CD 29160
+    docidentifier:
+    - content: ISO/IEC CD 29160
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 29160:2012
     docidentifier:
     - content: ISO/IEC 29160:2012
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

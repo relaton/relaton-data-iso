@@ -1,41 +1,37 @@
 ---
 id: ISOIEC247752011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Storage management
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Storage management
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologie de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Management du stockage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologie de l'information - Management du stockage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/55234.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:55234:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/52/55234.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '24775'
 date:
 - type: published
-  at: 2011-02
+  at: '2011-03-01'
 contributor:
 - role:
   - type: publisher
@@ -89,9 +85,34 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'ISO/IEC 24775:2011(E) defines an interface for the secure, extensible,
+    and interoperable management of a distributed and heterogeneous storage system.
+    This interface uses an object-oriented, XML-based, messagingbased protocol designed
+    to support the specific requirements of managing devices and subsystems in this
+    storage environment. Using this protocol, this International Standard describes
+    the information available to a WBEM Client from an SMI-S compliant CIM WBEM Server.
+    This second edition cancels and replaces the first edition published in 2007 and
+    constitutes a technical. This edition includes the following significant changes 
+    with respect to the previous edition: - Expanded scope: The range of SAN components
+    modeled by the profiles defined in this specification has been greatly expanded.
+    Many of the profiles that were identified as either future work or experimental
+    content at the time of the initial publication have  matured to full profiles.
+    In addition, new areas have been modeled and included (e.g., SCSI Target Ports).
+    - Improved organization: The specification has been reorganized to provide more
+    information more easily. The experimental content has been incorporated into the
+    body of the document, rather than being segregated in an annex, to ease planning
+    for adoption of emerging techniques. - Additional documentation of best practices
+    and deployment concerns: The specification now includes a more formal representation
+    of common deployment and usage practices, a more  complete treatment of backward
+    compatibility issues and a more detailed discussion of the capabilities of the
+    API, grouping them into a five-level architecture, spanning from physical devices
+    to application-level manipulation, and addressing error conditions, configuration,
+    accounting performance and security issues at each level.'
 status:
   stage:
     content: '95'
@@ -106,104 +127,88 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775:2007
-    docidentifier:
-    - content: ISO/IEC 24775:2007
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775-1:2014
-    docidentifier:
-    - content: ISO/IEC 24775-1:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2014-12-18'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775-2:2014
-    docidentifier:
-    - content: ISO/IEC 24775-2:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2014-12-18'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775-3:2014
-    docidentifier:
-    - content: ISO/IEC 24775-3:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2014-12-18'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775-4:2014
-    docidentifier:
-    - content: ISO/IEC 24775-4:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2014-12-18'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775-5:2014
-    docidentifier:
-    - content: ISO/IEC 24775-5:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2014-12-18'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775-6:2014
-    docidentifier:
-    - content: ISO/IEC 24775-6:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2014-12-18'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775-7:2014
-    docidentifier:
-    - content: ISO/IEC 24775-7:2014
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2014-12-18'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24775-8:2014
+    formattedref:
+      content: ISO/IEC 24775-8:2014
     docidentifier:
     - content: ISO/IEC 24775-8:2014
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2014-12-18'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 24775-6:2014
+    docidentifier:
+    - content: ISO/IEC 24775-6:2014
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 24775-2:2014
+    docidentifier:
+    - content: ISO/IEC 24775-2:2014
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 24775-3:2014
+    docidentifier:
+    - content: ISO/IEC 24775-3:2014
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 24775-4:2014
+    docidentifier:
+    - content: ISO/IEC 24775-4:2014
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 24775-1:2014
+    docidentifier:
+    - content: ISO/IEC 24775-1:2014
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 24775-7:2014
+    docidentifier:
+    - content: ISO/IEC 24775-7:2014
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC 24775-5:2014
+    docidentifier:
+    - content: ISO/IEC 24775-5:2014
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC DIS 13186
+    docidentifier:
+    - content: ISO/IEC DIS 13186
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 24775:2007
+    docidentifier:
+    - content: ISO/IEC 24775:2007
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,41 +1,34 @@
 ---
 id: ISO205012019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Fine ceramics (advanced ceramics, advanced technical ceramics)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Weibull statistics for strength data
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Fine ceramics (advanced ceramics, advanced technical ceramics) - Weibull
     statistics for strength data
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Céramiques techniques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Analyse statistique de Weibull des données de résistance à la rupture
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Céramiques techniques - Analyse statistique de Weibull des données de résistance
     à la rupture
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69875.html
@@ -49,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 20501:2019(E)
   type: iso-reference
-- content: urn:iso:std:iso:20501:stage-90.20
+- content: urn:iso:std:iso:20501:stage-90.92
   type: URN
 docnumber: '20501'
 date:
 - type: published
-  at: 2019-03
+  at: '2019-03-05'
 contributor:
 - role:
   - type: publisher
@@ -91,19 +84,28 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document covers the reporting of uniaxial strength data and the estimation of probability distribution parameters for advanced ceramics which fail in a brittle fashion. The failure strength of advanced ceramics is treated as a continuous random variable. Typically, a number of test specimens with well-defined geometry are brought to failure under well-defined isothermal loading conditions. The load at which each specimen fails is recorded. The resulting failure stresses are used to obtain parameter estimates associated with the underlying population distribution.
-    This document is restricted to the assumption that the distribution underlying the failure strengths is the two-parameter Weibull distribution with size scaling. Furthermore, this document is restricted to test specimens (tensile, flexural, pressurized ring, etc.) that are primarily subjected to uniaxial stress states. Subclauses 6.4 and 6.5 outline methods of correcting for bias errors in the estimated Weibull parameters, and to calculate confidence bounds on those estimates from data sets where all failures originate from a single flaw population (i.e. a single failure mode). In samples where failures originate from multiple independent flaw populations (e.g. competing failure modes), the methods outlined in 6.4 and 6.5 for bias correction and confidence bounds are not applicable.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document traite de l'analyse statistique des données de résistance uniaxiale à la rupture et de l'estimation des paramètres de leur distribution statistique pour les céramiques techniques qui rompent de manière fragile. La résistance à la rupture des céramiques techniques est traitée comme une variable aléatoire continue. En général, plusieurs éprouvettes de géométrie bien définie sont rompues dans des conditions de chargement isothermes bien définies. La charge à laquelle se rompt chaque éprouvette est enregistrée. Les paramètres associés à la distribution statistique des contraintes de rupture correspondantes sont déterminés.
-    Le présent document est limité à l'hypothèse que la distribution des résistances à la rupture est la distribution de Weibull à deux paramètres avec correction d'échelle. En outre, le présent document est limité aux éprouvettes (résistance à la traction, à la flexion, anneau sous pression, etc.) qui sont principalement soumises à des états de contrainte uniaxiaux. Les paragraphes 6.4 et 6.5 présentent des méthodes pour corriger les biais dans les paramètres de Weibull estimés, et pour calculer les limites de confiance de ces estimations à partir de séries de données où toutes les ruptures proviennent d'une population de défauts unique (c'est-à-dire un seul mode de rupture). Dans les échantillons où les ruptures proviennent de plusieurs populations de défauts indépendantes (par exemple, modes de rupture concurrents), les méthodes présentées en 6.4 et en 6.5 pour la correction du biais et les limites de confiance ne sont pas applicables.
+  content: This document covers the reporting of uniaxial strength data and the estimation
+    of probability distribution parameters for advanced ceramics which fail in a brittle
+    fashion. The failure strength of advanced ceramics is treated as a continuous
+    random variable. Typically, a number of test specimens with well-defined geometry
+    are brought to failure under well-defined isothermal loading conditions. The load
+    at which each specimen fails is recorded. The resulting failure stresses are used
+    to obtain parameter estimates associated with the underlying population distribution.
+    This document is restricted to the assumption that the distribution underlying
+    the failure strengths is the two-parameter Weibull distribution with size scaling.
+    Furthermore, this document is restricted to test specimens (tensile, flexural,
+    pressurized ring, etc.) that are primarily subjected to uniaxial stress states.
+    Subclauses 6.4 and 6.5 outline methods of correcting for bias errors in the estimated
+    Weibull parameters, and to calculate confidence bounds on those estimates from
+    data sets where all failures originate from a single flaw population (i.e. a single
+    failure mode). In samples where failures originate from multiple independent flaw
+    populations (e.g. competing failure modes), the methods outlined in 6.4 and 6.5
+    for bias correction and confidence bounds are not applicable.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '92'
 copyright:
 - from: '2019'
   owner:
@@ -113,24 +115,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 20501:2003
+    formattedref:
+      content: ISO/WD 20501
     docidentifier:
-    - content: ISO 20501:2003
+    - content: ISO/WD 20501
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 20501:2003/Cor 1:2009
+    formattedref:
+      content: ISO 20501:2003/Cor 1:2009
     docidentifier:
     - content: ISO 20501:2003/Cor 1:2009
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 20501:2003
+    docidentifier:
+    - content: ISO 20501:2003
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -140,4 +150,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 20501
+      content: '69875'

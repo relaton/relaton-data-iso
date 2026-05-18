@@ -1,41 +1,37 @@
 ---
 id: ISO20261974
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Aircraft
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Connections for starting engines by air
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Aircraft - Connections for starting engines by air
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Raccords pour le démarrage à l'air des moteurs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Aéronefs - Raccords pour le démarrage à l'air des moteurs
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6796.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6796:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/67/6796.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '2026'
 date:
 - type: published
-  at: 1974-11
+  at: '1974-11-01'
 contributor:
 - role:
   - type: publisher
@@ -92,14 +88,6 @@ abstract:
     and tolerances for connections on aircraft and the minimum clearances around the
     connector, on the aircraft, are given in figure 1 and table 1 and figure 2 and
     table 2, respectively.
-- language: fr
-  script: Latn
-  content: Specifies the dimensions which are necessary to ensure international interchangeability
-    of connectors with adaptors. Also gives the minimum clearances required on the
-    aircraft to provide adequate access for the ground adaptor. The basic dimensions
-    and tolerances for connections on aircraft and the minimum clearances around the
-    connector, on the aircraft, are given in figure 1 and table 1 and figure 2 and
-    table 2, respectively.
 status:
   stage:
     content: '95'
@@ -112,29 +100,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2026:2020
+    formattedref:
+      content: ISO/NP 2026
+    docidentifier:
+    - content: ISO/NP 2026
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2026:2020
     docidentifier:
     - content: ISO 2026:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-01-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '49.080'
-    text: Aerospace fluid systems and components
   - code: '49.100'
     text: Ground service and maintenance equipment
+  - code: '49.080'
+    text: Aerospace fluid systems and components
   structuredidentifier:
     type: ISO
     project_number:

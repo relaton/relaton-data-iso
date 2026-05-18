@@ -1,50 +1,42 @@
 ---
 id: ISO11012017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geometrical product specifications (GPS)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Geometrical tolerancing
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Tolerances of form, orientation, location and run-out
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Geometrical product specifications (GPS) - Geometrical tolerancing - Tolerances
     of form, orientation, location and run-out
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification géométrique des produits (GPS)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Tolérancement géométrique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Tolérancement de forme, orientation, position et battement
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification géométrique des produits (GPS) - Tolérancement géométrique
     - Tolérancement de forme, orientation, position et battement
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/66777.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '1101'
 date:
 - type: published
-  at: 2017-02
+  at: '2017-02-01'
 contributor:
 - role:
   - type: publisher
@@ -100,26 +92,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 1101:2017 defines the symbol language for geometrical specification
-    of workpieces and the rules for its interpretation.\nIt provides the foundation
-    for geometrical specification.\nThe illustrations in this document are intended
+  content: ISO 1101:2017 defines the symbol language for geometrical specification
+    of workpieces and the rules for its interpretation. It provides the foundation
+    for geometrical specification. The illustrations in this document are intended
     to illustrate how a specification can be fully indicated with visible annotation
-    (including e.g. TEDs).\nNOTE 1       Other International Standards referenced
-    in Clause 2 and in Tables 3 and 4 provide more detailed information on geometrical
-    tolerancing.\nNOTE 2       This document gives rules for explicit and direct indications
-    of geometrical specifications. Alternatively, the same specifications can be indicated
-    indirectly in accordance with ISO 16792 by attaching them to a 3D CAD model. In
-    this case, it is possible that some elements of the specification are available
-    through a query function or other interrogation of information on the model instead
-    of being indicated using visible annotation "
-- language: fr
-  script: Latn
-  content: |-
-    ISO 1101:2017 définit le langage symbolique utilisé pour la spécification géométrique des pièces, ainsi que ses règles d'interprétation.
-    Il établit la base de la spécification géométrique.
-    Les illustrations du présent document visent à illustrer la façon dont une spécification peut être indiquée dans son intégralité avec annotation visible (y compris par exemple les TEDs).
-    NOTE 1       D'autres Normes internationales, citées à l'Article 2 et dans les Tableaux 3 et 4, fournissent des informations plus détaillées sur le tolérancement géométrique.
-    NOTE 2       Le présent document spécifie les règles pour des indications explicites et directes des spécifications géométriques. Les mêmes spécifications peuvent également être indiquées de façon indirecte, conformément à l'ISO 16792, en les rattachant à un modèle CAO en 3D. Dans ce cas, il est possible que certains éléments de la spécification soient disponibles par une fonction de requête ou d'une autre méthode d'interrogation des informations sur le modèle, plutôt que d'être indiqués au moyen d'une annotation visible.
+    (including e.g. TEDs). NOTE 1 Other International Standards referenced in Clause
+    2 and in Tables 3 and 4 provide more detailed information on geometrical tolerancing.
+    NOTE 2 This document gives rules for explicit and direct indications of geometrical
+    specifications. Alternatively, the same specifications can be indicated indirectly
+    in accordance with ISO 16792 by attaching them to a 3D CAD model. In this case,
+    it is possible that some elements of the specification are available through a
+    query function or other interrogation of information on the model instead of being
+    indicated using visible annotation
 status:
   stage:
     content: '90'
@@ -132,34 +116,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1101:2012
-    docidentifier:
-    - content: ISO 1101:2012
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 1101:2012/Cor 1:2013
+    formattedref:
+      content: ISO 1101:2012/Cor 1:2013
     docidentifier:
     - content: ISO 1101:2012/Cor 1:2013
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1101:2012
+    docidentifier:
+    - content: ISO 1101:2012
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.100.20
-    text: Mechanical engineering drawings
   - code: 17.040.10
     text: Limits and fits
+  - code: 01.100.20
+    text: Mechanical engineering drawings
   structuredidentifier:
     type: ISO
     project_number:

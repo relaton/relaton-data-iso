@@ -1,50 +1,42 @@
 ---
 id: ISO2290112008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open diagnostic data exchange (ODX)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Data model specification'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Open diagnostic data exchange (ODX) - Part 1: Data model
     specification'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échange de données de diagnostic ouvert (ODX)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Spécification de modèle de données'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Échange de données de diagnostic ouvert (ODX) - Partie
     1: Spécification de modèle de données'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41207.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 22901-1:2008(E)
   type: iso-reference
-- content: urn:iso:std:iso:22901:-1:stage-90.60
+- content: urn:iso:std:iso:22901:-1:stage-90.93
   type: URN
 docnumber: '22901'
 date:
 - type: published
-  at: 2008-11
+  at: '2008-11-06'
 contributor:
 - role:
   - type: publisher
@@ -94,41 +86,40 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 22901-1:2008 specifies the concept of using a new industry standard diagnostic format to make diagnostic data stream information available to diagnostic tool application manufacturers, in order to simplify the support of the aftermarket automotive service industry. The Open Diagnostic Data Exchange (ODX) modelled diagnostic data are compatible with the software requirements of the Modular Vehicle Communication Interface (MVCI), as specified in ISO 22900-2 and ISO 22900-3. The ODX modelled diagnostic data will enable an MVCI device to communicate with the vehicle Electronic Control Unit(s) (ECU) and interpret the diagnostic data contained in the messages exchanged between the external test equipment and the ECU(s). For ODX compliant external test equipment, no software programming is necessary to convert diagnostic data into technician readable information to be displayed by the tester.
-    The ODX specification contains the data model to describe all diagnostic data of a vehicle and physical ECU, e.g. diagnostic trouble codes, data parameters, identification data, input/output parameters, ECU configuration (variant coding) data and communication parameters. ODX is described in Unified Modelling Language (UML) diagrams and the data exchange format uses Extensible Mark-up Language (XML).
-    The ODX modelled diagnostic data describe:
-    -        protocol specification for diagnostic communication of ECUs;
-    -        communication parameters for different protocols and data link layers and for ECU software;
-    -        ECU programming data (Flash);
-    -        related vehicle interface description (connectors and pinout);
-    -        functional description of diagnostic capabilities of a network of ECUs;
-    -        ECU configuration data (variant coding).
-    The purpose of ISO 22901-1:2008 is to ensure that diagnostic data from any vehicle manufacturer is independent of the testing hardware and protocol software supplied by any test equipment manufacturer.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 22901-1:2008 specifies the concept of using a new industry standard diagnostic format to make diagnostic data stream information available to diagnostic tool application manufacturers, in order to simplify the support of the aftermarket automotive service industry. The Open Diagnostic Data Exchange (ODX) modelled diagnostic data are compatible with the software requirements of the Modular Vehicle Communication Interface (MVCI), as specified in ISO 22900-2 and ISO 22900-3. The ODX modelled diagnostic data will enable an MVCI device to communicate with the vehicle Electronic Control Unit(s) (ECU) and interpret the diagnostic data contained in the messages exchanged between the external test equipment and the ECU(s). For ODX compliant external test equipment, no software programming is necessary to convert diagnostic data into technician readable information to be displayed by the tester.
-    The ODX specification contains the data model to describe all diagnostic data of a vehicle and physical ECU, e.g. diagnostic trouble codes, data parameters, identification data, input/output parameters, ECU configuration (variant coding) data and communication parameters. ODX is described in Unified Modelling Language (UML) diagrams and the data exchange format uses Extensible Mark-up Language (XML).
-    The ODX modelled diagnostic data describe:
-    -        protocol specification for diagnostic communication of ECUs;
-    -        communication parameters for different protocols and data link layers and for ECU software;
-    -        ECU programming data (Flash);
-    -        related vehicle interface description (connectors and pinout);
-    -        functional description of diagnostic capabilities of a network of ECUs;
-    -        ECU configuration data (variant coding).
-    The purpose of ISO 22901-1:2008 is to ensure that diagnostic data from any vehicle manufacturer is independent of the testing hardware and protocol software supplied by any test equipment manufacturer.
+  content: 'ISO 22901-1:2008 specifies the concept of using a new industry standard
+    diagnostic format to make diagnostic data stream information available to diagnostic
+    tool application manufacturers, in order to simplify the support of the aftermarket
+    automotive service industry. The Open Diagnostic Data Exchange (ODX) modelled
+    diagnostic data are compatible with the software requirements of the Modular Vehicle
+    Communication Interface (MVCI), as specified in ISO 22900-2 and ISO 22900-3. The
+    ODX modelled diagnostic data will enable an MVCI device to communicate with the
+    vehicle Electronic Control Unit(s) (ECU) and interpret the diagnostic data contained
+    in the messages exchanged between the external test equipment and the ECU(s).
+    For ODX compliant external test equipment, no software programming is necessary
+    to convert diagnostic data into technician readable information to be displayed
+    by the tester. The ODX specification contains the data model to describe all diagnostic
+    data of a vehicle and physical ECU, e.g. diagnostic trouble codes, data parameters,
+    identification data, input/output parameters, ECU configuration (variant coding)
+    data and communication parameters. ODX is described in Unified Modelling Language
+    (UML) diagrams and the data exchange format uses Extensible Mark-up Language (XML).
+    The ODX modelled diagnostic data describe: protocol specification for diagnostic
+    communication of ECUs; communication parameters for different protocols and data
+    link layers and for ECU software; ECU programming data (Flash); related vehicle
+    interface description (connectors and pinout); functional description of diagnostic
+    capabilities of a network of ECUs; ECU configuration data (variant coding). The
+    purpose of ISO 22901-1:2008 is to ensure that diagnostic data from any vehicle
+    manufacturer is independent of the testing hardware and protocol software supplied
+    by any test equipment manufacturer.'
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2008'
   owner:
@@ -136,9 +127,9 @@ copyright:
       name:
       - content: ISO
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

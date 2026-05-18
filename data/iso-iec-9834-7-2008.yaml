@@ -1,54 +1,46 @@
 ---
 id: ISOIEC983472008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open Systems Interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Procedures for the operation of OSI Registration Authorities -- Part 7:
     Joint ISO and ITU-T Registration of International Organizations'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open Systems Interconnection - Procedures for
     the operation of OSI Registration Authorities -- Part 7: Joint ISO and ITU-T Registration
     of International Organizations'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Procédures opérationnelles pour les organismes d''enregistrement de l''OSI
     -- Partie 7: Enregistrement conjoint par l''ISO et l''UIT-T d''organisations internationales'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
     - Procédures opérationnelles pour les organismes d''enregistrement de l''OSI --
     Partie 7: Enregistrement conjoint par l''ISO et l''UIT-T d''organisations internationales'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/53415.html
@@ -62,12 +54,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 9834-7:2008(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:9834:-7:stage-90.93
+- content: urn:iso:std:iso-iec:9834:-7:stage-90.60
   type: URN
 docnumber: '9834'
 date:
 - type: published
-  at: 2008-12
+  at: '2008-12-15'
 contributor:
 - role:
   - type: publisher
@@ -107,7 +99,6 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -115,17 +106,15 @@ abstract:
   script: Latn
   content: 'ISO/IEC 9834-7:2008 specifies procedures for Registration Authorities
     that are responsible for the assignment to international organizations of names
-    that are globally unambiguous in the context of:'
-- language: fr
-  script: Latn
-  content: 'ISO/IEC 9834-7:2008 specifies procedures for Registration Authorities
-    that are responsible for the assignment to international organizations of names
-    that are globally unambiguous in the context of:'
+    that are globally unambiguous in the context of: O/R addresses, as defined in
+    ISO/IEC 10021-2; Directory names, as defined in ISO/IEC 9594-2; The joint international
+    organizations arc of the International Object Identifier tree, as defined in ISO/IEC
+    9834-1.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '2008'
   owner:
@@ -133,18 +122,26 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9834-7:2005
+    formattedref:
+      content: ISO/IEC 9834-7:2005
     docidentifier:
     - content: ISO/IEC 9834-7:2005
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 9834-7:2005/PDAM 1
+    docidentifier:
+    - content: ISO/IEC 9834-7:2005/CD Amd 1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

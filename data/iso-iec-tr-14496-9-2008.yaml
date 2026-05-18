@@ -1,53 +1,47 @@
 ---
 id: ISOIECTR1449692008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Coding of audio-visual objects
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 9: Reference hardware description'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Coding of audio-visual objects - Part 9: Reference
     hardware description'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Codage des objets audiovisuels
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 9: Description de matériel de référence'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Codage des objets audiovisuels - Partie
     9: Description de matériel de référence'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/42946.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:42946:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/29/42946.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '14496'
 date:
 - type: published
-  at: 2008-08
+  at: '2008-08-11'
 contributor:
 - role:
   - type: publisher
@@ -101,22 +95,32 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    The main goal of ISO/IEC TR 14496-9:2008 is to facilitate a more widespread use of the MPEG-4 standard.
-    Design methodologies of the EDA industry have evolved from schematics to Hardware Description Languages (HDLs) to address the needs of the vast number of gates available on a single device. The increased number of gates allowed more elaborate algorithms to be deployed but also required a shift in design paradigm to handle the complexity created. Through HDLs, more complicated systems could be designed faster through the enabling technology of synthesis of the HDL code towards different silicon technologies where trade offs could be explored. Now the EDA industry again faces challenges where HDLs may not provide the level of abstraction needed for system designers to evaluate system level parameters and complexity issues. There have been a number of tool investigations under way to address this problem. Profiling tools aid in exposing bottlenecks in an abstract way so that early design decisions can be made. C to gates tools allow a C based simulation environment while also enabling direct synthesis to gates for hardware acceleration.
-    In conclusion, it is the aim of this ISO/IEC TR 14496-9:2008 to enable more widespread use of the MPEG-4 standard through reference hardware descriptions and close integration with ISO/IEC TR 14496-7 (MPEG-4 Part 7 Optimized Reference Software). Additionally, it is aimed that exposure to such a platform will enable a more systematic way to investigate the complexity of new codecs and open up the algorithm search space with an order of magnitude more compute cycles.
-- language: fr
-  script: Latn
-  content: |-
-    The main goal of ISO/IEC TR 14496-9:2008 is to facilitate a more widespread use of the MPEG-4 standard.
-    Design methodologies of the EDA industry have evolved from schematics to Hardware Description Languages (HDLs) to address the needs of the vast number of gates available on a single device. The increased number of gates allowed more elaborate algorithms to be deployed but also required a shift in design paradigm to handle the complexity created. Through HDLs, more complicated systems could be designed faster through the enabling technology of synthesis of the HDL code towards different silicon technologies where trade offs could be explored. Now the EDA industry again faces challenges where HDLs may not provide the level of abstraction needed for system designers to evaluate system level parameters and complexity issues. There have been a number of tool investigations under way to address this problem. Profiling tools aid in exposing bottlenecks in an abstract way so that early design decisions can be made. C to gates tools allow a C based simulation environment while also enabling direct synthesis to gates for hardware acceleration.
-    In conclusion, it is the aim of this ISO/IEC TR 14496-9:2008 to enable more widespread use of the MPEG-4 standard through reference hardware descriptions and close integration with ISO/IEC TR 14496-7 (MPEG-4 Part 7 Optimized Reference Software). Additionally, it is aimed that exposure to such a platform will enable a more systematic way to investigate the complexity of new codecs and open up the algorithm search space with an order of magnitude more compute cycles.
+  content: The main goal of ISO/IEC TR 14496-9:2008 is to facilitate a more widespread
+    use of the MPEG-4 standard. Design methodologies of the EDA industry have evolved
+    from schematics to Hardware Description Languages (HDLs) to address the needs
+    of the vast number of gates available on a single device. The increased number
+    of gates allowed more elaborate algorithms to be deployed but also required a
+    shift in design paradigm to handle the complexity created. Through HDLs, more
+    complicated systems could be designed faster through the enabling technology of
+    synthesis of the HDL code towards different silicon technologies where trade offs
+    could be explored. Now the EDA industry again faces challenges where HDLs may
+    not provide the level of abstraction needed for system designers to evaluate system
+    level parameters and complexity issues. There have been a number of tool investigations
+    under way to address this problem. Profiling tools aid in exposing bottlenecks
+    in an abstract way so that early design decisions can be made. C to gates tools
+    allow a C based simulation environment while also enabling direct synthesis to
+    gates for hardware acceleration. In conclusion, it is the aim of this ISO/IEC
+    TR 14496-9:2008 to enable more widespread use of the MPEG-4 standard through reference
+    hardware descriptions and close integration with ISO/IEC TR 14496-7 (MPEG-4 Part
+    7 Optimized Reference Software). Additionally, it is aimed that exposure to such
+    a platform will enable a more systematic way to investigate the complexity of
+    new codecs and open up the algorithm search space with an order of magnitude more
+    compute cycles.
 status:
   stage:
     content: '95'
@@ -131,27 +135,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC TR 14496-9:2004
-    docidentifier:
-    - content: ISO/IEC TR 14496-9:2004
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC TR 14496-9:2009
+    formattedref:
+      content: ISO/IEC TR 14496-9:2009
     docidentifier:
     - content: ISO/IEC TR 14496-9:2009
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2009-01-20'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC TR 14496-9:2004
+    docidentifier:
+    - content: ISO/IEC TR 14496-9:2004
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

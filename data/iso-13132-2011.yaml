@@ -1,41 +1,37 @@
 ---
 id: ISO131322011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Laboratory glassware
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Petri dishes
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Laboratory glassware - Petri dishes
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Verrerie de laboratoire
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Boîtes de Petri
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Verrerie de laboratoire - Boîtes de Petri
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/53054.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:53054:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/30/53054.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '13132'
 date:
 - type: published
-  at: 2011-07
+  at: '2011-07-06'
 contributor:
 - role:
   - type: publisher
@@ -81,18 +77,15 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
   content: ISO 13132:2011 specifies requirements and tests for glass Petri dishes
     intended for general laboratory purposes and microbiological work.
-- language: fr
-  script: Latn
-  content: L'ISO 13132:2011 spécifie les exigences et les essais relatifs aux boîtes
-    de Petri en verre destinées à des utilisations générales en laboratoire et en
-    microbiologie.
 status:
   stage:
     content: '95'
@@ -105,21 +98,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 13132:2023
+    formattedref:
+      content: ISO 13132:2023
     docidentifier:
     - content: ISO 13132:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-04-20'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 13132
+    docidentifier:
+    - content: ISO/PWI 13132
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

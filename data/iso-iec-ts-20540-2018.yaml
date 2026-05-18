@@ -1,50 +1,42 @@
 ---
 id: ISOIECTS205402018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Testing cryptographic modules in their operational environment
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Security techniques - Testing cryptographic modules
     in their operational environment
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Test de modules cryptographiques dans leur environnement d'exploitation
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques de sécurité - Test de modules
     cryptographiques dans leur environnement d'exploitation
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/68294.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC TS 20540:2018(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:ts:20540:stage-90.92
+- content: urn:iso:std:iso-iec:ts:20540:stage-95.99
   type: URN
 docnumber: '20540'
 date:
 - type: published
-  at: 2018-05
+  at: '2018-05-18'
 contributor:
 - role:
   - type: publisher
@@ -103,75 +95,44 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document provides recommendations and checklists which can be used
+  content: 'This document provides recommendations and checklists which can be used
     to support the specification and operational testing of cryptographic modules
-    in their operational environment within an organization's security system. \nThe
+    in their operational environment within an organization''s security system. The
     cryptographic modules have four security levels which ISO/IEC 19790 defines to
     provide for a wide spectrum of data sensitivity (e.g. low-value administrative
     data, million-dollar funds transfers, life-protecting data, personal identity
     information, and sensitive information used by government) and a diversity of
     application environments (e.g. a guarded facility, an office, removable media,
-    and a completely unprotected location).\nThis document includes:\na)    recommendations
+    and a completely unprotected location). This document includes: a) recommendations
     to perform secure assessing for cryptographic module installation, configuration
-    and operation;\nb)    recommendations to inspecting the key management system,
-    protection of authentication credentials, and public and critical security parameters
-    in the operational environment;\nc)    recommendations for identifying cryptographic
-    module vulnerabilities;\nd)    checklists for the cryptographic algorithm policy,
+    and operation; b) recommendations to inspecting the key management system, protection
+    of authentication credentials, and public and critical security parameters in
+    the operational environment; c) recommendations for identifying cryptographic
+    module vulnerabilities; d) checklists for the cryptographic algorithm policy,
     security guidance and regulation, security manage requirements, security level
     for each of the 11 requirement areas, the strength of the security function, etc.;
-    and\ne)    recommendations to determine that the cryptographic module's deployment
-    satisfies the security requirements of the organization.\nThis document assumes
-    that the cryptographic module has been validated as conformant with ISO/IEC 19790.\nIt
-    can be used by an operational tester along with other recommendations if needed.\nThis
-    document is limited to the security related to the cryptographic module. It does
-    not include assessing the security of the operational or application environment.
+    and e) recommendations to determine that the cryptographic module''s deployment
+    satisfies the security requirements of the organization. This document assumes
+    that the cryptographic module has been validated as conformant with ISO/IEC 19790.
+    It can be used by an operational tester along with other recommendations if needed.
+    This document is limited to the security related to the cryptographic module.
+    It does not include assessing the security of the operational or application environment.
     It does not define techniques for the identification, assessment and acceptance
-    of the organization's operational risk. \nThe organization's accreditation, deployment
+    of the organization''s operational risk. The organization''s accreditation, deployment
     and operation processes, shown in Figure 1, is not included to the scope of this
-    document.\nThis document addresses operational testers who perform the operational
+    document. This document addresses operational testers who perform the operational
     testing for the cryptographic modules in their operational environment authorizing
-    officials of cryptographic modules."
-- language: fr
-  script: Latn
-  content: "This document provides recommendations and checklists which can be used
-    to support the specification and operational testing of cryptographic modules
-    in their operational environment within an organization's security system. \nThe
-    cryptographic modules have four security levels which ISO/IEC 19790 defines to
-    provide for a wide spectrum of data sensitivity (e.g. low-value administrative
-    data, million-dollar funds transfers, life-protecting data, personal identity
-    information, and sensitive information used by government) and a diversity of
-    application environments (e.g. a guarded facility, an office, removable media,
-    and a completely unprotected location).\nThis document includes:\na)    recommendations
-    to perform secure assessing for cryptographic module installation, configuration
-    and operation;\nb)    recommendations to inspecting the key management system,
-    protection of authentication credentials, and public and critical security parameters
-    in the operational environment;\nc)    recommendations for identifying cryptographic
-    module vulnerabilities;\nd)    checklists for the cryptographic algorithm policy,
-    security guidance and regulation, security manage requirements, security level
-    for each of the 11 requirement areas, the strength of the security function, etc.;
-    and\ne)    recommendations to determine that the cryptographic module's deployment
-    satisfies the security requirements of the organization.\nThis document assumes
-    that the cryptographic module has been validated as conformant with ISO/IEC 19790.\nIt
-    can be used by an operational tester along with other recommendations if needed.\nThis
-    document is limited to the security related to the cryptographic module. It does
-    not include assessing the security of the operational or application environment.
-    It does not define techniques for the identification, assessment and acceptance
-    of the organization's operational risk. \nThe organization's accreditation, deployment
-    and operation processes, shown in Figure 1, is not included to the scope of this
-    document.\nThis document addresses operational testers who perform the operational
-    testing for the cryptographic modules in their operational environment authorizing
-    officials of cryptographic modules."
+    officials of cryptographic modules.'
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2018'
   owner:
@@ -179,21 +140,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC TS 20540
+    formattedref:
+      content: ISO/IEC TS 20540:2025
     docidentifier:
-    - content: ISO/IEC TS 20540
+    - content: ISO/IEC TS 20540:2025
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-05-08'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

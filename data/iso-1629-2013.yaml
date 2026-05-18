@@ -1,41 +1,37 @@
 ---
 id: ISO16292013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rubber and latices
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Nomenclature
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Rubber and latices - Nomenclature
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Caoutchouc et latex
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Nomenclature
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Caoutchouc et latex - Nomenclature
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/60242.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:60242:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/02/60242.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '1629'
 date:
 - type: published
-  at: 2013-06
+  at: '2013-06-13'
 contributor:
 - role:
   - type: publisher
@@ -81,8 +77,10 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
@@ -91,14 +89,6 @@ abstract:
     The purpose is to standardize the abbreviated terms used in industry, commerce
     and government, and it is not intended to conflict with, but rather to act as
     a supplement to, existing trade names and trademarks.
-- language: fr
-  script: Latn
-  content: L'ISO 1629:2013 établit un système de symboles pour les caoutchoucs de
-    base sous la forme sèche ou la forme de latex, basé sur la composition chimique
-    de la chaîne polymérique. Le but est de normaliser les termes abrégés utilisés
-    dans l'industrie, le commerce et les administrations. Elle n'est pas en opposition
-    avec les noms commerciaux et marques de fabrique existants, mais doit être considérée
-    plutôt comme un complément.
 status:
   stage:
     content: '95'
@@ -113,35 +103,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1629:1995
+    formattedref:
+      content: ISO 1629:2025
+    docidentifier:
+    - content: ISO 1629:2025
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1629:1995
     docidentifier:
     - content: ISO 1629:1995
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1629:1995/Amd 1:2007
+    formattedref:
+      content: ISO 1629:1995/Amd 1:2007
     docidentifier:
     - content: ISO 1629:1995/Amd 1:2007
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1629:2025
+    formattedref:
+      content: ISO 1629:1995/Amd 1:2007/Cor 1:2009
     docidentifier:
-    - content: ISO 1629:2025
+    - content: ISO 1629:1995/Amd 1:2007/Cor 1:2009
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-04-10'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

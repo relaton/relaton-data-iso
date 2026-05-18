@@ -1,53 +1,47 @@
 ---
 id: ISO28782011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rubber, vulcanized or thermoplastic
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Antistatic and conductive products
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of electrical resistance
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Rubber, vulcanized or thermoplastic - Antistatic and conductive products
     - Determination of electrical resistance
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Caoutchouc vulcanisé ou thermoplastique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits antistatiques et conducteurs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la résistance électrique
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Caoutchouc vulcanisé ou thermoplastique - Produits antistatiques et conducteurs
     - Détermination de la résistance électrique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/53021.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:53021:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/30/53021.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '2878'
 date:
 - type: published
-  at: 2011-09
+  at: '2011-09-12'
 contributor:
 - role:
   - type: publisher
@@ -93,21 +87,24 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 2878:2011 specifies a method of test to determine the electrical resistance of antistatic and conductive products manufactured wholly or in part from rubber whose electrical resistance measured between defined points, when new, does not exceed 3 x 108 ohms and whose conductivity is derived from the addition of carbon black and/or other appropriate substances to the bulk of the material.
-    It specifies the electrode configuration for basic geometries, but reference should be made to relevant product specifications for requirements for specific products.
-    It does not apply to:
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 2878:2011 spécifie une méthode d'essai pour déterminer la résistance électrique des produits antistatiques et conducteurs fabriqués totalement ou partiellement avec du caoutchouc, dont la résistance électrique, mesurée entre des points définis, ne dépasse pas 3 x 108 ohms à l'état neuf et dont la conductivité résulte de l'addition de noir de carbone et/ou d'autres substances appropriées à la masse du matériau.
-    Elle spécifie la configuration des électrodes pour des géométries de base mais il convient de faire référence aux spécifications de produit applicables pour les exigences de produits particuliers.
-    Elle ne s'applique pas:
+  content: 'ISO 2878:2011 specifies a method of test to determine the electrical resistance
+    of antistatic and conductive products manufactured wholly or in part from rubber
+    whose electrical resistance measured between defined points, when new, does not
+    exceed 3 x 108 ohms and whose conductivity is derived from the addition of carbon
+    black and/or other appropriate substances to the bulk of the material. It specifies
+    the electrode configuration for basic geometries, but reference should be made
+    to relevant product specifications for requirements for specific products. It
+    does not apply to: products the relevant surfaces of which are composed of mixtures
+    of insulating and conductive areas; products with a substantial surface area of
+    insulating material, except for footwear (which does not normally have a conductive
+    or antistatic upper).'
 status:
   stage:
     content: '95'
@@ -122,27 +119,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2878:2005
-    docidentifier:
-    - content: ISO 2878:2005
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 2878:2017
+    formattedref:
+      content: ISO 2878:2017
     docidentifier:
     - content: ISO 2878:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-06-12'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 2878:2005
+    docidentifier:
+    - content: ISO 2878:2005
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,40 +1,34 @@
 ---
 id: ISO316632020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Codes for the representation of names of countries and their subdivisions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Code for formerly used names of countries'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Codes for the representation of names of countries and their subdivisions
     - Part 3: Code for formerly used names of countries'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Codes pour la représentation des noms de pays et de leurs subdivisions
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Code pour les noms de pays antérieurement utilisés'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Codes pour la représentation des noms de pays et de leurs subdivisions
     - Partie 3: Code pour les noms de pays antérieurement utilisés'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/72484.html
@@ -53,7 +47,7 @@ docidentifier:
 docnumber: '3166'
 date:
 - type: published
-  at: 2020-08
+  at: '2020-08-25'
 contributor:
 - role:
   - type: publisher
@@ -90,15 +84,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "This document specifies basic guidelines for the implementation and maintenance
-    of codes for formerly used names of countries.\nThis code is intended to represent
+  content: This document specifies basic guidelines for the implementation and maintenance
+    of codes for formerly used names of countries. This code is intended to represent
     non-current country names, i.e. the country names deleted from ISO 3166 since
-    its first publication in 1974. "
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie les principes directeurs pour la mise en application et la mise à jour des codes pour les noms de pays antérieurement utilisés.
-    Ce code est établi pour représenter les noms de pays atsoumis à essais dans le passé, c'est-à-dire des pays dont les noms ont été supprimés de l'ISO 3166 depuis sa première publication en 1974.
+    its first publication in 1974.
 status:
   stage:
     content: '90'
@@ -113,16 +102,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3166-3:2013
+    formattedref:
+      content: ISO/PWI 3166-3
+    docidentifier:
+    - content: ISO/PWI 3166-3
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3166-3:2013
     docidentifier:
     - content: ISO 3166-3:2013
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

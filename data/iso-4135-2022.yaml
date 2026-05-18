@@ -1,38 +1,32 @@
 ---
 id: ISO41352022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Anaesthetic and respiratory equipment
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Anaesthetic and respiratory equipment - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Matériel d'anesthésie et de réanimation respiratoire
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Matériel d'anesthésie et de réanimation respiratoire - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/75315.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '4135'
 date:
 - type: published
-  at: 2022-01
+  at: '2022-01-19'
 contributor:
 - role:
   - type: publisher
@@ -81,6 +75,7 @@ contributor:
 edition:
   content: '4'
 language:
+- de
 - en
 - fr
 script:
@@ -88,16 +83,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document establishes a vocabulary of terms used for anaesthetic and respiratory equipment and supplies, related devices and supply systems.
-    NOTE 1    To avoid multiple definitions of the same term in different categories, this document attempts to ensure consistency by the inclusion of a ‘general’ category, and by use of domain specifiers and unique pre-coordinated domain-specific term names.
-    NOTE 2    In addition to terms and definitions used in two of the three official ISO languages (English and French), this document gives the equivalent terms in the German language; these are published under the responsibility of the member body for Germany. However, only the terms and definitions given in the official languages can be considered as ISO terms and definitions.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document établit un vocabulaire des termes utilisés pour le matériel d’anesthésie et de réanimation respiratoire et les fournitures, les dispositifs connexes et les systèmes d’alimentation et/ou de distribution.
-    NOTE 1        Afin d’éviter des définitions multiples du même terme dans différentes catégories, le présent document tente d’assurer la cohérence par l’inclusion d’une catégorie «générale» et par l’utilisation de spécificateurs de domaine et de désignations uniques de termes pré-coordonnés spécifiques au domaine.
-    NOTE 2        En complément des termes et définitions dans deux des trois langues officielles de l’ISO (anglais et français), le présent document donne les termes équivalents en allemand; ces termes sont publiés sous la responsabilité du comité membre pour l’Allemagne. Toutefois, seuls les termes et définitions donnés dans les langues officielles peuvent être considérés comme étant des termes et définitions de l’ISO.
+  content: This document establishes a vocabulary of terms used for anaesthetic and
+    respiratory equipment and supplies, related devices and supply systems. NOTE 1   
+    To avoid multiple definitions of the same term in different categories, this document
+    attempts to ensure consistency by the inclusion of a ‘general’ category, and by
+    use of domain specifiers and unique pre-coordinated domain-specific term names.
+    NOTE 2    In addition to terms and definitions used in two of the three official
+    ISO languages (English and French), this document gives the equivalent terms in
+    the German language; these are published under the responsibility of the member
+    body for Germany. However, only the terms and definitions given in the official
+    languages can be considered as ISO terms and definitions.
 status:
   stage:
     content: '60'
@@ -112,24 +107,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4135:2001
+    formattedref:
+      content: ISO/PWI 4135
+    docidentifier:
+    - content: ISO/PWI 4135
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 4135:2001
     docidentifier:
     - content: ISO 4135:2001
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
   - code: 11.040.10
     text: Anaesthetic, respiratory and reanimation equipment
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

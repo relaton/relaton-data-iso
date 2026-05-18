@@ -1,50 +1,42 @@
 ---
 id: ISO1221322006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Natural gas
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Calculation of compression factor
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Calculation using molar-composition analysis'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Natural gas - Calculation of compression factor - Part 2: Calculation
     using molar-composition analysis'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Gaz naturel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Calcul du facteur de compression
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Calcul à partir de l''analyse de la composition molaire'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Gaz naturel - Calcul du facteur de compression - Partie 2: Calcul à partir
     de l''analyse de la composition molaire'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44411.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 12213-2:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso:12213:-2:stage-90.93
+- content: urn:iso:std:iso:12213:-2:stage-90.60
   type: URN
 docnumber: '12213'
 date:
 - type: published
-  at: 2006-11
+  at: '2006-11-14'
 contributor:
 - role:
   - type: publisher
@@ -100,21 +92,21 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 12213 specifies methods for the calculation of compression factors of natural gases, natural gases containing a synthetic admixture and similar mixtures at conditions under which the mixture can exist only as a gas.
-    It is divided into three parts: this part, ISO 12213-2:2006, specifies a method for the calculation of compression factors when the detailed composition of the gas by mole fractions is known, together with the relevant pressures and temperatures.
-    The method is applicable to pipeline quality gases within the ranges of pressure p and temperature T at which transmission and distribution operations normally take place, with an uncertainty of about +/- 0,1 %. It can be applied, with greater uncertainty, to wider ranges of gas composition, pressure and temperature.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 12213 spécifie des méthodes pour le calcul des facteurs de compression des gaz naturels, des gaz naturels contenant un adjuvant synthétique et de mélanges similaires dans des conditions telles que le mélange ne peut exister que sous forme gazeuse.
-    Elle est divisée en trois parties: la présente partie, l'ISO 12213-2:2006, spécifie une méthode pour le calcul des facteurs de compression lorsque la composition détaillée du gaz par fractions molaires est connue, ainsi que les pressions et les températures correspondantes.
-    La méthode est applicable au gaz de qualité réseau dans les plages de pression, p, et de température, T, dans lesquelles s'effectuent normalement les opérations de transport et de distribution, avec une incertitude de l'ordre de +/- 0,1 %. Elle peut s'appliquer, avec une incertitude plus élevée, à des plages plus étendues de composition des gaz, de pression et de température.
+  content: 'ISO 12213 specifies methods for the calculation of compression factors
+    of natural gases, natural gases containing a synthetic admixture and similar mixtures
+    at conditions under which the mixture can exist only as a gas. It is divided into
+    three parts: this part, ISO 12213-2:2006, specifies a method for the calculation
+    of compression factors when the detailed composition of the gas by mole fractions
+    is known, together with the relevant pressures and temperatures. The method is
+    applicable to pipeline quality gases within the ranges of pressure p and temperature
+    T at which transmission and distribution operations normally take place, with
+    an uncertainty of about +/- 0,1 %. It can be applied, with greater uncertainty,
+    to wider ranges of gas composition, pressure and temperature.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '60'
 copyright:
 - from: '2006'
   owner:
@@ -122,18 +114,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 12213-2:1997
+    formattedref:
+      content: ISO 12213-2:1997
     docidentifier:
     - content: ISO 12213-2:1997
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 12213-2:1997/DAmd 1
+    docidentifier:
+    - content: ISO 12213-2:1997/DAM 1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,51 +1,45 @@
 ---
 id: ISO72721993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Photography
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Paper dimensions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Paper for documentary reproduction
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Photography - Paper dimensions - Paper for documentary reproduction
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Photographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dimensions des papiers
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Papiers pour reproduction de documents
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Photographie - Dimensions des papiers - Papiers pour reproduction de documents
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/13930.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:13930:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/39/13930.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '7272'
 date:
 - type: published
-  at: 1993-10
+  at: '1993-10-14'
 contributor:
 - role:
   - type: publisher
@@ -104,10 +98,19 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 7272
+    docidentifier:
+    - content: ISO/CD 7272
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,38 +1,32 @@
 ---
 id: ISO18912009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Fasteners
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Terminology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Fasteners - Terminology
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments de fixation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Terminologie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments de fixation - Terminologie
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38530.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '1891'
 date:
 - type: published
-  at: 2009-02
+  at: '2009-02-03'
 contributor:
 - role:
   - type: publisher
@@ -83,23 +77,28 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 1891:2009 provides translation guidance for terms commonly used to describe fasteners. ISO 1891:2009 lays down the terminology of fasteners in English, French and Russian, recommended for use unless otherwise specified in the appropriate product standard.
-    At present, not all of the fasteners listed are covered by ISO documents. For the main part, the items have been selected from existing national standards. Also included are obsolescent types (those being used up from stock) in order that their terminology may be standardized at the same time.
-    The drawings are essentially diagrammatic, in particular those showing bolts and screws having special characteristics.
-    In addition to terms used in the three official ISO languages (English, French and Russian), ISO 1891:2009 gives the equivalent terms in Chinese, German, Italian, Japanese, Spanish, and Swedish; these are published under the responsibility of the member bodies for China (SAC), Germany (DIN), Italy (UNI), Japan (JISC), Spain (AENOR), and Sweden (SIS), respectively, and are given for information only. Only the terms given in the official languages can be considered as ISO terms.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 1891:2009 donne des lignes directrices pour la traduction des termes communément utilisés pour décrire les éléments de fixation. Elle spécifie la terminologie des éléments de fixation, en anglais, français, et russe, recommandés pour l'utilisation, sauf en cas de spécification contraire dans la norme de produit appropriée.
-    Les pièces représentées ne font pas toutes l'objet, pour l'instant, de normes ISO. Elles ont pour l'essentiel été sélectionnées dans les normes nationales existantes. Sont également incluses des pièces qui ne sont plus d'usage courant (les stocks étant en voie d'épuisement), cela afin d'en normaliser également la terminologie.
-    La représentation des pièces est purement schématique, particulièrement pour les vis à caractéristiques spéciales.
-    En complément des termes utilisés dans les trois langues officielles de l'ISO (anglais, français et russe), l'ISO 1891:2009 donne les termes équivalents en chinois, allemand, italien, japonais, espagnol et suédois; ces termes sont publiés sous la responsabilité des comités membres de la Chine (SAC), de l'Allemagne (DIN), de l'Italie (UNI), du Japon (JISC), de l'Espagne (AENOR) et de la Suède (SIS), et sont donnés uniquement pour information. Seuls les termes dans les langues officielles peuvent être considérés comme étant des termes de l'ISO.
+  content: ISO 1891:2009 provides translation guidance for terms commonly used to
+    describe fasteners. ISO 1891:2009 lays down the terminology of fasteners in English,
+    French and Russian, recommended for use unless otherwise specified in the appropriate
+    product standard. At present, not all of the fasteners listed are covered by ISO
+    documents. For the main part, the items have been selected from existing national
+    standards. Also included are obsolescent types (those being used up from stock)
+    in order that their terminology may be standardized at the same time. The drawings
+    are essentially diagrammatic, in particular those showing bolts and screws having
+    special characteristics. In addition to terms used in the three official ISO languages
+    (English, French and Russian), ISO 1891:2009 gives the equivalent terms in Chinese,
+    German, Italian, Japanese, Spanish, and Swedish; these are published under the
+    responsibility of the member bodies for China (SAC), Germany (DIN), Italy (UNI),
+    Japan (JISC), Spain (AENOR), and Sweden (SIS), respectively, and are given for
+    information only. Only the terms given in the official languages can be considered
+    as ISO terms.
 status:
   stage:
     content: '90'
@@ -114,32 +113,56 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1891:1979
+    formattedref:
+      content: ISO/PWI 1891-1
     docidentifier:
-    - content: ISO 1891:1979
+    - content: ISO/PWI 1891-1
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/AWI 1891-1
+    formattedref:
+      content: ISO/PWI 1891
+    docidentifier:
+    - content: ISO/PWI 1891
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/AWI 1891-1
     docidentifier:
     - content: ISO/AWI 1891-1
       type: ISO
       primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 1891-1
+    docidentifier:
+    - content: ISO/NP 1891-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1891:1979
+    docidentifier:
+    - content: ISO 1891:1979
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.21
-    text: Mechanical systems and components for general use (Vocabularies)
   - code: 21.060.01
     text: Fasteners in general
+  - code: 01.040.21
+    text: Mechanical systems and components for general use (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

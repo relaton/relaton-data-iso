@@ -1,53 +1,42 @@
 ---
 id: ISOIEC2112212019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: JPEG XS low-latency lightweight image coding system
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Core coding system'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - JPEG XS low-latency lightweight image coding
     system - Part 1: Core coding system'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Information technology
-  type: title-intro
-  format: text/plain
-- language: fr
-  script: Latn
-  content: JPEG XS low-latency lightweight image coding system
+  content: Titre manque
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Part 1: Core coding system'
+  content: 'Partie 1: Titre manque'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Information technology - JPEG XS low-latency lightweight image coding
-    system - Part 1: Core coding system'
+  content: 'Titre manque - Partie 1: Titre manque'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74535.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74535:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/45/74535.detail.rss
 docidentifier:
@@ -61,7 +50,7 @@ docidentifier:
 docnumber: '21122'
 date:
 - type: published
-  at: 2019-05
+  at: '2019-05-02'
 contributor:
 - role:
   - type: publisher
@@ -101,26 +90,24 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines a syntax (and an accompanying decompression process) that is capable to represent continuous-tone grey-scale, or continuous-tone colour digital images without visual loss at moderate compression rates. Typical compression rates are between 2:1 and 6:1 but can also be higher depending on the nature of the image. In particular, the syntax and the decoding process specified in this document allow lightweight encoder and decoder implementations that limit the end-to-end latency to a fraction of the frame size. However, the definition of transmission channel buffer models necessary to ensure such latency is beyond the scope of this document.
-    This document:
-    —          specifies a decoding process for converting compressed image data to reconstructed image data;
-    —          specifies a codestream syntax containing information for interpreting the compressed image data;
-    —          provides guidance on encoding processes for converting source image data to compressed image data.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines a syntax (and an accompanying decompression process) that is capable to represent continuous-tone grey-scale, or continuous-tone colour digital images without visual loss at moderate compression rates. Typical compression rates are between 2:1 and 6:1 but can also be higher depending on the nature of the image. In particular, the syntax and the decoding process specified in this document allow lightweight encoder and decoder implementations that limit the end-to-end latency to a fraction of the frame size. However, the definition of transmission channel buffer models necessary to ensure such latency is beyond the scope of this document.
-    This document:
-    —          specifies a decoding process for converting compressed image data to reconstructed image data;
-    —          specifies a codestream syntax containing information for interpreting the compressed image data;
-    —          provides guidance on encoding processes for converting source image data to compressed image data.
+  content: 'This document defines a syntax (and an accompanying decompression process)
+    that is capable to represent continuous-tone grey-scale, or continuous-tone colour
+    digital images without visual loss at moderate compression rates. Typical compression
+    rates are between 2:1 and 6:1 but can also be higher depending on the nature of
+    the image. In particular, the syntax and the decoding process specified in this
+    document allow lightweight encoder and decoder implementations that limit the
+    end-to-end latency to a fraction of the frame size. However, the definition of
+    transmission channel buffer models necessary to ensure such latency is beyond
+    the scope of this document. This document: — specifies a decoding process for
+    converting compressed image data to reconstructed image data; — specifies a codestream
+    syntax containing information for interpreting the compressed image data; — provides
+    guidance on encoding processes for converting source image data to compressed
+    image data.'
 status:
   stage:
     content: '95'
@@ -133,21 +120,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 21122-1:2022
+    formattedref:
+      content: ISO/IEC 21122-1:2022
     docidentifier:
     - content: ISO/IEC 21122-1:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-03-29'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,45 +1,41 @@
 ---
 id: ISO857921993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Acceptance code for gears
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Determination of mechanical vibrations of gear units during acceptance
     testing'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Acceptance code for gears - Part 2: Determination of mechanical vibrations
     of gear units during acceptance testing'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Code de réception des engrenages
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Détermination des vibrations mécaniques d''une transmission
     par engrenages au cours des essais de réception'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Code de réception des engrenages - Partie 2: Détermination des vibrations
     mécaniques d''une transmission par engrenages au cours des essais de réception'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/15866.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:15866:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/58/15866.detail.rss
 docidentifier:
@@ -53,7 +49,7 @@ docidentifier:
 docnumber: '8579'
 date:
 - type: published
-  at: 1993-02
+  at: '1993-02-04'
 contributor:
 - role:
   - type: publisher
@@ -97,15 +93,6 @@ abstract:
     grades for acceptance are included. Applies only to a gear unit under test and
     operating within its design speed, load, temperature range and lubrication for
     acceptance testing at the manufacturer's facility.
-- language: fr
-  script: Latn
-  content: Specifies the methods for determining mechanical vibration of individually
-    housed, enclosed, speed-increasing and speed-reducing gear units. Specifies methods
-    for measuring housing and shaft vibrations, and the types of instrumentation,
-    measurement methods and testing procedures for determining vibration levels. Vibration
-    grades for acceptance are included. Applies only to a gear unit under test and
-    operating within its design speed, load, temperature range and lubrication for
-    acceptance testing at the manufacturer's facility.
 status:
   stage:
     content: '95'
@@ -118,29 +105,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 20816-9:2020
+    formattedref:
+      content: ISO/WD 8579-2
+    docidentifier:
+    - content: ISO/WD 8579-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 20816-9:2020
     docidentifier:
     - content: ISO 20816-9:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-03-03'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '17.160'
-    text: Vibrations, shock and vibration measurements
   - code: '21.200'
     text: Gears
+  - code: '17.160'
+    text: Vibrations, shock and vibration measurements
   structuredidentifier:
     type: ISO
     project_number:

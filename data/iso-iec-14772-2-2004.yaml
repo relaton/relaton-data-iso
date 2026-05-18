@@ -1,54 +1,46 @@
 ---
 id: ISOIEC1477222004
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Computer graphics and image processing
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'The Virtual Reality Modeling Language (VRML) -- Part 2: External authoring
     interface (EAI)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Computer graphics and image processing - The
     Virtual Reality Modeling Language (VRML) -- Part 2: External authoring interface
     (EAI)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Infographie et traitement de l'image
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Le langage de modélisation de réalité virtuelle (VRML) -- Partie 2: Interface
     externe de présentation (EAI)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Infographie et traitement de l''image
     - Le langage de modélisation de réalité virtuelle (VRML) -- Partie 2: Interface
     externe de présentation (EAI)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/30893.html
@@ -62,12 +54,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 14772-2:2004(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:14772:-2:stage-90.93
+- content: urn:iso:std:iso-iec:14772:-2:stage-90.20
   type: URN
 docnumber: '14772'
 date:
 - type: published
-  at: 2004-03
+  at: '2004-03-03'
 contributor:
 - role:
   - type: publisher
@@ -107,61 +99,37 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 14772-1, the Virtual Reality Modeling Language (VRML), defines
+  content: ISO/IEC 14772-1, the Virtual Reality Modeling Language (VRML), defines
     a file format that integrates 3D graphics and multimedia. Conceptually, each VRML
     file is a 3D time-based space that contains graphic and aural objects that can
     be dynamically modified through a variety of mechanisms. This part of ISO/IEC
     14772 defines the interface that applications external to the VRML browser may
-    use to access and manipulate the objects defined in ISO/IEC 14772-1.\nThe interface
+    use to access and manipulate the objects defined in ISO/IEC 14772-1. The interface
     described here is designed to allow an external environment to access nodes in
     a VRML scene using the existing VRML event model. In this model, an eventOut of
     a given node can be routed to an eventIn of another node. When the eventOut generates
     an event, the eventIn is notified and its node processes that event. Additionally,
     if a script in a Script node has a reference to a given node it can send events
     directly to any eventIn of that node and it can read the last value sent from
-    any of its eventOuts. \nThe scope of this standard is to cover all forms of access
+    any of its eventOuts. The scope of this standard is to cover all forms of access
     to a VRML browser from external applications. It is equally valid for a database
     with a object interface to access a standalone browser in a presentation slide
     as it is for a Java applet operating within a web browser and the available services
-    do not vary. \nThis standard does not provide a byte level protocol description
+    do not vary. This standard does not provide a byte level protocol description
     as there can be many valid ways of expressing an interaction with a browser. Instead,
     it represents the interface in terms of the services provided and the parameters
     that are passed to access these services. Individual language and protocol bindings
-    to these services are available as annexes to this part of ISO/IEC 14772. "
-- language: fr
-  script: Latn
-  content: "ISO/IEC 14772-1, the Virtual Reality Modeling Language (VRML), defines
-    a file format that integrates 3D graphics and multimedia. Conceptually, each VRML
-    file is a 3D time-based space that contains graphic and aural objects that can
-    be dynamically modified through a variety of mechanisms. This part of ISO/IEC
-    14772 defines the interface that applications external to the VRML browser may
-    use to access and manipulate the objects defined in ISO/IEC 14772-1.\nThe interface
-    described here is designed to allow an external environment to access nodes in
-    a VRML scene using the existing VRML event model. In this model, an eventOut of
-    a given node can be routed to an eventIn of another node. When the eventOut generates
-    an event, the eventIn is notified and its node processes that event. Additionally,
-    if a script in a Script node has a reference to a given node it can send events
-    directly to any eventIn of that node and it can read the last value sent from
-    any of its eventOuts. \nThe scope of this standard is to cover all forms of access
-    to a VRML browser from external applications. It is equally valid for a database
-    with a object interface to access a standalone browser in a presentation slide
-    as it is for a Java applet operating within a web browser and the available services
-    do not vary. \nThis standard does not provide a byte level protocol description
-    as there can be many valid ways of expressing an interaction with a browser. Instead,
-    it represents the interface in terms of the services provided and the parameters
-    that are passed to access these services. Individual language and protocol bindings
-    to these services are available as annexes to this part of ISO/IEC 14772. "
+    to these services are available as annexes to this part of ISO/IEC 14772.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2004'
   owner:
@@ -169,17 +137,17 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '35.060'
-    text: Languages used in information technology
   - code: '35.140'
     text: Computer graphics
+  - code: '35.060'
+    text: Languages used in information technology
   structuredidentifier:
     type: ISO
     project_number:

@@ -1,41 +1,37 @@
 ---
 id: ISO92841992
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Abrasive grains
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Test-sieving machines
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Abrasive grains - Test-sieving machines
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Grains abrasifs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Machine à tamiser de contrôle
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Grains abrasifs - Machine à tamiser de contrôle
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16939.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16939:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/69/16939.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '9284'
 date:
 - type: published
-  at: 1992-06
+  at: '1992-06-25'
 contributor:
 - role:
   - type: publisher
@@ -90,11 +86,6 @@ abstract:
     on the installation, checking and maintenance of test-sieving machines. These
     machines are used for determining the size distribution of bonded and coated abrasive
     macrograins.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit les exigences de fonctionnement et techniques des machines à tamiser. Elle donne également des directives sur leur installation, leur vérification et leur entretien. Ces machines sont utilisées pour déterminer la distribution granulométrique des macrograins pour abrasifs agglomérés et appliqués.
 status:
   stage:
     content: '95'
@@ -107,29 +98,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9284:2013
+    formattedref:
+      content: ISO 9284:2013
     docidentifier:
     - content: ISO 9284:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-04-10'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 9284
+    docidentifier:
+    - content: ISO/NP 9284
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '19.120'
-    text: Particle size analysis. Sieving
   - code: 25.100.70
     text: Abrasives
+  - code: '19.120'
+    text: Particle size analysis. Sieving
   structuredidentifier:
     type: ISO
     project_number:

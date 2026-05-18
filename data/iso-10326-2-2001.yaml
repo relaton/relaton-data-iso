@@ -1,53 +1,47 @@
 ---
 id: ISO1032622001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Mechanical vibration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Laboratory method for evaluating vehicle seat vibration
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Application to railway vehicles'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Mechanical vibration - Laboratory method for evaluating vehicle seat vibration
     - Part 2: Application to railway vehicles'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vibrations mécaniques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode en laboratoire pour l'évaluation des vibrations du siège de véhicules
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Application aux véhicules ferroviaires'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Vibrations mécaniques - Méthode en laboratoire pour l''évaluation des
     vibrations du siège de véhicules - Partie 2: Application aux véhicules ferroviaires'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/33066.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:33066:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/30/33066.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '10326'
 date:
 - type: published
-  at: 2001-08
+  at: '2001-08-23'
 contributor:
 - role:
   - type: publisher
@@ -98,24 +92,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO 10326 defines specifications covering laboratory tests for seats designed for passengers and crew
-    in railway tractive and trailer vehicles.
-    It concerns tri-axial rectilinear vibration within the frequency range 0,5 Hz to 50 Hz. It specifies the input test
-    vibration to be used at seat testing.
-    This part of ISO 10326 makes it possible to characterize, in the form of frequency response functions, the manner
-    in which vibration is transmitted to the seat occupant. However, this characterization is fully valid only when the
-    man-seat system can be considered to be sufficiently linear.
-- language: fr
-  script: Latn
-  content: |-
-    La présente partie de l'ISO 10326 définit les spécifications traitant des essais de laboratoire effectués avec des
-    sièges conçus pour les passagers et le personnel des véhicules ferroviaires de traction et de remorquage.
-    Elle concerne les vibrations rectilignes triaxiales relevant de la gamme de fréquence comprise entre 0,5 Hz et
-    50 Hz. Elle spécifie les vibrations d'entrée à utiliser pour l'essai du siège.
-    La présente partie de l'ISO 10326 permet de caractériser, sous la forme de réponses en fréquence, la façon dont
-    les vibrations sont transmises à l'occupant du siège. Cependant, cette caractérisation n'est complètement valable
-    que lorsque le système homme-siège peut être considéré comme suffisamment linéaire.
+  content: This part of ISO 10326 defines specifications covering laboratory tests
+    for seats designed for passengers and crew in railway tractive and trailer vehicles.
+    It concerns tri-axial rectilinear vibration within the frequency range 0,5 Hz
+    to 50 Hz. It specifies the input test vibration to be used at seat testing. This
+    part of ISO 10326 makes it possible to characterize, in the form of frequency
+    response functions, the manner in which vibration is transmitted to the seat occupant.
+    However, this characterization is fully valid only when the man-seat system can
+    be considered to be sufficiently linear.
 status:
   stage:
     content: '95'
@@ -128,29 +112,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10326-2:2022
+    formattedref:
+      content: ISO 10326-2:2022
     docidentifier:
     - content: ISO 10326-2:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-03-29'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 10326-2
+    docidentifier:
+    - content: ISO/PWI 10326-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '13.160'
-    text: Vibration and shock with respect to human beings
   - code: 45.060.01
     text: Railway rolling stock in general
+  - code: '13.160'
+    text: Vibration and shock with respect to human beings
   structuredidentifier:
     type: ISO
     project_number:

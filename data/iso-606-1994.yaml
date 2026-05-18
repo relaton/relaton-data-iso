@@ -1,33 +1,31 @@
 ---
 id: ISO6061994
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Short-pitch transmission precision roller chains and chain wheels
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Short-pitch transmission precision roller chains and chain wheels
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Chaînes de transmission de précision à rouleaux à pas courts et roues dentées
     correspondantes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Chaînes de transmission de précision à rouleaux à pas courts et roues dentées
     correspondantes
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/4720.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:4720:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/47/4720.detail.rss
 docidentifier:
@@ -41,7 +39,7 @@ docidentifier:
 docnumber: '606'
 date:
 - type: published
-  at: 1994-02
+  at: '1994-02-10'
 contributor:
 - role:
   - type: publisher
@@ -85,11 +83,6 @@ abstract:
     strengths. Although it applies to chain wheels for cycles and motor cycles, it
     does not apply to chains for cycles and motor cycles, which are covered by ISO
     9633 and ISO 10190 respectively.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit les caractéristiques des chaînes à rouleaux de précision à pas courts simples et multiples utilisées pour la transmission mécanique de puissance et les applications connexes, ainsi que celles des roues correspondantes. Elle couvre les dimensions, les tolérances, les longueurs de mesurage, les épreuves préalables et les résistances minimales à la traction. Bien qu'elle s'applique aux roues de chaînes pour cycles et motocycles, elle ne s'applique pas aux chaînes à usage spécifique pour cycles et motocycles qui sont couvertes respectivement par l'ISO 9633 et l'ISO 10190.
 status:
   stage:
     content: '95'
@@ -104,27 +97,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 606:1982
-    docidentifier:
-    - content: ISO 606:1982
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 606:2004
+    formattedref:
+      content: ISO 606:2004
     docidentifier:
     - content: ISO 606:2004
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2004-03-12'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 606
+    docidentifier:
+    - content: ISO/DIS 606
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 606:1982
+    docidentifier:
+    - content: ISO 606:1982
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

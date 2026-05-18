@@ -1,54 +1,48 @@
 ---
 id: ISOIEC2300172016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: MPEG systems technologies
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 7: Common encryption in ISO base media file format files'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - MPEG systems technologies - Part 7: Common encryption
     in ISO base media file format files'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies des systèmes MPEG
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 7: Cryptage commun des fichiers au format de fichier de médias
     de la base ISO'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
     7: Cryptage commun des fichiers au format de fichier de médias de la base ISO'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/68042.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:68042:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/80/68042.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '23001'
 date:
 - type: published
-  at: 2016-02
+  at: '2016-02-15'
 contributor:
 - role:
   - type: publisher
@@ -102,24 +96,26 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 23001-7:2016 specifies common encryption formats for use in any file format based on ISO/IEC 14496‑12. File, track, and track fragment metadata is specified to enable multiple digital rights and key management systems (DRMs) to access the same common encrypted file or stream. This part of ISO/IEC 23001 does not define a DRM system.
-    The AES-128 symmetric block cipher is incorporated by reference to encrypt elementary stream data contained in media samples. Both AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate protection schemes. Partial encryption using a pattern of encrypted and clear blocks is also specified in separate protection schemes. The identification of encryption keys, Initialization Vector storage and processing is specified for each scheme.
-    Subsample encryption is specified for NAL structured video, such as AVC and HEVC, to enable normal processing and editing of video elementary streams prior to decryption.
-    An XML representation is specified for important common encryption information so that it can be included in XML files as standard elements and attributes to enable interoperable license and key management prior to media file download.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 23001-7:2016 specifies common encryption formats for use in any file format based on ISO/IEC 14496‑12. File, track, and track fragment metadata is specified to enable multiple digital rights and key management systems (DRMs) to access the same common encrypted file or stream. This part of ISO/IEC 23001 does not define a DRM system.
-    The AES-128 symmetric block cipher is incorporated by reference to encrypt elementary stream data contained in media samples. Both AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate protection schemes. Partial encryption using a pattern of encrypted and clear blocks is also specified in separate protection schemes. The identification of encryption keys, Initialization Vector storage and processing is specified for each scheme.
-    Subsample encryption is specified for NAL structured video, such as AVC and HEVC, to enable normal processing and editing of video elementary streams prior to decryption.
-    An XML representation is specified for important common encryption information so that it can be included in XML files as standard elements and attributes to enable interoperable license and key management prior to media file download.
+  content: ISO/IEC 23001-7:2016 specifies common encryption formats for use in any
+    file format based on ISO/IEC 14496‑12. File, track, and track fragment metadata
+    is specified to enable multiple digital rights and key management systems (DRMs)
+    to access the same common encrypted file or stream. This part of ISO/IEC 23001
+    does not define a DRM system. The AES-128 symmetric block cipher is incorporated
+    by reference to encrypt elementary stream data contained in media samples. Both
+    AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate
+    protection schemes. Partial encryption using a pattern of encrypted and clear
+    blocks is also specified in separate protection schemes. The identification of
+    encryption keys, Initialization Vector storage and processing is specified for
+    each scheme. Subsample encryption is specified for NAL structured video, such
+    as AVC and HEVC, to enable normal processing and editing of video elementary streams
+    prior to decryption. An XML representation is specified for important common encryption
+    information so that it can be included in XML files as standard elements and attributes
+    to enable interoperable license and key management prior to media file download.
 status:
   stage:
     content: '95'
@@ -134,38 +130,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23001-7:2015
-    docidentifier:
-    - content: ISO/IEC 23001-7:2015
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 23001-7:2023
+    formattedref:
+      content: ISO/IEC 23001-7:2023
     docidentifier:
     - content: ISO/IEC 23001-7:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-08-08'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 23001-7:2016/Amd 1:2019
+    formattedref:
+      content: ISO/IEC 23001-7:2015
     docidentifier:
-    - content: ISO/IEC 23001-7:2016/Amd 1:2019
+    - content: ISO/IEC 23001-7:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-08-08'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

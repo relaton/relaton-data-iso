@@ -1,32 +1,29 @@
 ---
 id: ISO38491981
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Oil of Ceylon citronella
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Oil of Ceylon citronella
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Huile essentielle de citronnelle type Ceylan
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Huile essentielle de citronnelle type Ceylan
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9412.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9412:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/94/9412.detail.rss
 docidentifier:
@@ -40,7 +37,7 @@ docidentifier:
 docnumber: '3849'
 date:
 - type: published
-  at: 1981-02
+  at: '1981-02-01'
 contributor:
 - role:
   - type: publisher
@@ -83,14 +80,6 @@ abstract:
     index at 20 °C: 1,4790 - 1,4870. Optical rotation at 20 °C: Range from - 22 to
     - 12 . Miscibility with 80 % (V/V) ethanol at 20 °C: 1 : 2. Ester value after
     acetylation: 157 - 200. Carbonyl value: 18 - 55.'
-- language: fr
-  script: Latn
-  content: 'The Standard specifies the following characteristics of the oil. Appearance:
-    Clear, mobile liquid. Colour: Pale yellow to pale brownish yellow. Odour: Characteristic
-    of oil of Ceylon citronella. Relative density at 20/20 °C: 0,894 - 0,910. Refractive
-    index at 20 °C: 1,4790 - 1,4870. Optical rotation at 20 °C: Range from - 22 to
-    - 12 . Miscibility with 80 % (V/V) ethanol at 20 °C: 1 : 2. Ester value after
-    acetylation: 157 - 200. Carbonyl value: 18 - 55.'
 status:
   stage:
     content: '95'
@@ -103,21 +92,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3849:2003
+    formattedref:
+      content: ISO/CD 3849
+    docidentifier:
+    - content: ISO/CD 3849
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 3849:2003
     docidentifier:
     - content: ISO 3849:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2003-03-28'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -127,4 +121,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 3849
+      content: '9412'

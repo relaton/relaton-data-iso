@@ -1,48 +1,40 @@
 ---
 id: ISO60552023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial trucks
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Overhead guards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Specification and testing
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Industrial trucks - Overhead guards - Specification and testing
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Chariots de manutention
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Protège-conducteurs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécifications et essais
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Chariots de manutention - Protège-conducteurs - Spécifications et essais
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/75711.html
@@ -61,7 +53,7 @@ docidentifier:
 docnumber: '6055'
 date:
 - type: published
-  at: 2023-03
+  at: '2023-03-31'
 contributor:
 - role:
   - type: publisher
@@ -98,14 +90,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the requirements and testing of overhead guards, operator’s leg(s)/feet protection for industrial trucks and overturning testing of industrial variable-reach trucks with operator position not protected by the boom (hereafter referred to as "trucks") requiring an overhead guard according to ISO 3691‑1 and ISO 3691‑2.
-    This document is not applicable to rough-terrain variable-reach trucks and slewing rough-terrain variable-reach trucks.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie les exigences et les essais pour les protège-conducteurs, la protection de la jambe (des jambes)/du pied (des pieds) de l'opérateur des chariots de manutention, ainsi que les essais de retournement pour les chariots de manutention à portée variable avec le poste de l'opérateur non protégé par la flèche (ci-après désignés «chariots») exigeant un protège-conducteur conformément à l'ISO 3691-1 et à l’ISO 3691-2.
-    Le présent document n’est pas applicable aux chariots tout-terrain à portée variable ni aux chariots tout-terrain à portée variable rotatifs.
+  content: This document specifies the requirements and testing of overhead guards,
+    operator’s leg(s)/feet protection for industrial trucks and overturning testing
+    of industrial variable-reach trucks with operator position not protected by the
+    boom (hereafter referred to as "trucks") requiring an overhead guard according
+    to ISO 3691‑1 and ISO 3691‑2. This document is not applicable to rough-terrain
+    variable-reach trucks and slewing rough-terrain variable-reach trucks.
 status:
   stage:
     content: '90'
@@ -120,24 +110,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6055:2004
+    formattedref:
+      content: ISO/CD 6055
+    docidentifier:
+    - content: ISO/CD 6055
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 6055:2004
     docidentifier:
     - content: ISO 6055:2004
       type: ISO
       primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/AWI 6055
-    docidentifier:
-    - content: ISO/AWI 6055
-      type: ISO
-      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

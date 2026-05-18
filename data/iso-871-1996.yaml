@@ -1,42 +1,38 @@
 ---
 id: ISO8711996
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Plastics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of ignition temperature using a hot-air furnace
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Plastics - Determination of ignition temperature using a hot-air furnace
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la température d'allumage au moyen d'un four à air chaud
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques - Détermination de la température d'allumage au moyen d'un four
     à air chaud
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/5256.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:5256:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/52/5256.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '871'
 date:
 - type: published
-  at: 1996-09
+  at: '1996-09-19'
 contributor:
 - role:
   - type: publisher
@@ -91,12 +87,6 @@ abstract:
     and spontaneous-ignition temperature of plastics using a hot-air furnace. Does
     not give a direct measure of the combustability or rate of burning of plastics.
     Replaces the first edition.
-- language: fr
-  script: Latn
-  content: Gives a laboratory method for determining the flash-ignition temperature
-    and spontaneous-ignition temperature of plastics using a hot-air furnace. Does
-    not give a direct measure of the combustability or rate of burning of plastics.
-    Replaces the first edition.
 status:
   stage:
     content: '95'
@@ -111,35 +101,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 871:1980
-    docidentifier:
-    - content: ISO 871:1980
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 871:2006
+    formattedref:
+      content: ISO 871:2006
     docidentifier:
     - content: ISO 871:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-11-15'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 871
+    docidentifier:
+    - content: ISO/WD 871
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 871:1980
+    docidentifier:
+    - content: ISO 871:1980
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 13.220.40
-    text: Ignitability and burning behaviour of materials and products
   - code: 83.080.01
     text: Plastics in general
+  - code: 13.220.40
+    text: Ignitability and burning behaviour of materials and products
   structuredidentifier:
     type: ISO
     project_number:

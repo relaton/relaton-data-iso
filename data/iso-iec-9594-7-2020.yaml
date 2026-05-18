@@ -1,50 +1,42 @@
 ---
 id: ISOIEC959472020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open systems interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 7: The Directory: Selected object classes'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open systems interconnection - Part 7: The Directory:
     Selected object classes'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Information technology
+  content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
-  content: Open systems interconnection
+  content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Part 7: The Directory: Selected object classes'
+  content: 'Partie 7: Titre manque'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Information technology - Open systems interconnection - Part 7: The Directory:
-    Selected object classes'
+  content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
+    - Partie 7: Titre manque'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80324.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 9594-7:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:9594:-7:stage-60.60
+- content: urn:iso:std:iso-iec:9594:-7:stage-90.93
   type: URN
 docnumber: '9594'
 date:
 - type: published
-  at: 2020-11
+  at: '2020-12-01'
 contributor:
 - role:
   - type: publisher
@@ -103,55 +95,34 @@ edition:
   content: '9'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "This document defines a number of object classes and name forms which
-    may be found useful across a range of applications of the Directory. The definition
+  content: This document defines a number of object classes and name forms which may
+    be found useful across a range of applications of the Directory. The definition
     of an object class involves listing a number of attribute types which are relevant
     to objects of that class. The definition of a name form involves naming the object
     class to which it applies and listing the attributes to be used in forming names
     for objects of that class. These definitions are used by the administrative authority
-    which is responsible for the management of the directory information.\nAny administrative
+    which is responsible for the management of the directory information. Any administrative
     authority can define its own object classes or subclasses and name forms for any
-    purpose. \nNOTE 1 ? Those definitions may or may not use the notation specified
-    in Rec. ITU-T X.501 | ISO/IEC 9594-2.\nNOTE 2 ? It is recommended that an object
+    purpose. NOTE 1 ? Those definitions may or may not use the notation specified
+    in Rec. ITU-T X.501 | ISO/IEC 9594-2. NOTE 2 ? It is recommended that an object
     class defined in this Recommendation | International Standard, or a subclass derived
     from one, or a name form defined in this Recommendation | International Standard,
     be used in preference to the generation of a new one, whenever the semantics is
-    appropriate for the application.\nAdministrative authorities may support some
-    or all the selected object classes and name forms, and may also add additional
-    ones.\nAll administrative authorities shall support the object classes which the
-    directory uses for its own purpose (the top, alias and Directory system agent
-    (DSA) object classes)."
-- language: fr
-  script: Latn
-  content: "This document defines a number of object classes and name forms which
-    may be found useful across a range of applications of the Directory. The definition
-    of an object class involves listing a number of attribute types which are relevant
-    to objects of that class. The definition of a name form involves naming the object
-    class to which it applies and listing the attributes to be used in forming names
-    for objects of that class. These definitions are used by the administrative authority
-    which is responsible for the management of the directory information.\nAny administrative
-    authority can define its own object classes or subclasses and name forms for any
-    purpose. \nNOTE 1 ? Those definitions may or may not use the notation specified
-    in Rec. ITU-T X.501 | ISO/IEC 9594-2.\nNOTE 2 ? It is recommended that an object
-    class defined in this Recommendation | International Standard, or a subclass derived
-    from one, or a name form defined in this Recommendation | International Standard,
-    be used in preference to the generation of a new one, whenever the semantics is
-    appropriate for the application.\nAdministrative authorities may support some
-    or all the selected object classes and name forms, and may also add additional
-    ones.\nAll administrative authorities shall support the object classes which the
-    directory uses for its own purpose (the top, alias and Directory system agent
-    (DSA) object classes)."
+    appropriate for the application. Administrative authorities may support some or
+    all the selected object classes and name forms, and may also add additional ones.
+    All administrative authorities shall support the object classes which the directory
+    uses for its own purpose (the top, alias and Directory system agent (DSA) object
+    classes).
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2020'
   owner:
@@ -159,29 +130,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-7:2017
+    formattedref:
+      content: ISO/IEC 9594-7:2017
     docidentifier:
     - content: ISO/IEC 9594-7:2017
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-7:2020/Amd 1:2025
-    docidentifier:
-    - content: ISO/IEC 9594-7:2020/Amd 1:2025
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2020-12-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

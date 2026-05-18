@@ -1,51 +1,45 @@
 ---
 id: ISO68722015Amd12018
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Dentistry
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Ceramic materials
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Amendment 1
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Dentistry - Ceramic materials - Amendment 1
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Médecine bucco-dentaire
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Matériaux céramiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Amendement 1
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Médecine bucco-dentaire - Matériaux céramiques - Amendement 1
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74247.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:74247:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/42/74247.detail.rss
 docidentifier:
@@ -54,14 +48,10 @@ docidentifier:
   primary: true
 - content: ISO 6872:2015/Amd 1:2018(E)
   type: iso-reference
-- content: urn:iso:std:iso:6872:ed-4:stage-95.99:amd:2018:v1
-  type: URN
 docnumber: '6872'
 date:
 - type: published
-  at: '2015'
-- type: updated
-  at: 2018-04
+  at: '2018-04-23'
 contributor:
 - role:
   - type: publisher
@@ -107,28 +97,40 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6872:2024
+    formattedref:
+      content: ISO/NP 6872
+    docidentifier:
+    - content: ISO/NP 6872
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 6872
+    docidentifier:
+    - content: ISO/PWI 6872
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 6872:2024
     docidentifier:
     - content: ISO 6872:2024
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-08-12'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: amendment
   flavor: iso
   ics:
   - code: 11.060.10
     text: Dental materials
   structuredidentifier:
-    type: ISO
     project_number:
       content: '74247'

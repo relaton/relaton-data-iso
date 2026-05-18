@@ -1,54 +1,48 @@
 ---
 id: ISO1508632008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hydraulic fluid power
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of the fluid-borne noise characteristics of components and
     systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Measurement of hydraulic impedance'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Hydraulic fluid power - Determination of the fluid-borne noise characteristics
     of components and systems - Part 3: Measurement of hydraulic impedance'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions hydrauliques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Évaluation des caractéristiques du bruit liquidien des composants et systèmes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Mesurage de l''impédance hydraulique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Transmissions hydrauliques - Évaluation des caractéristiques du bruit
     liquidien des composants et systèmes - Partie 3: Mesurage de l''impédance hydraulique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41577.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41577:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/15/41577.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '15086'
 date:
 - type: published
-  at: 2008-12
+  at: '2008-12-11'
 contributor:
 - role:
   - type: publisher
@@ -99,14 +93,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 15086-3:2008 describes the procedure for the determination of the impedance characteristics of hydraulic components, by means of measurements from pressure transducers mounted in a pipe.
-    ISO 15086-3:2008 is applicable to passive components, irrespective of size, operating under steady-state conditions, over a frequency range from 10 Hz to 3 kHz.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 15086-3:2008 décrit le mode opératoire de détermination des caractéristiques d'impédance des composants hydrauliques à partir de mesurages effectués par des capteurs de pression montés dans la tuyauterie.
-    L'ISO 15086-3:2008 est applicable aux composants passifs, quelle que soit leur taille, fonctionnant en régime permanent sur une plage de fréquences comprise entre 10 Hz et 3 kHz.
+  content: ISO 15086-3:2008 describes the procedure for the determination of the impedance
+    characteristics of hydraulic components, by means of measurements from pressure
+    transducers mounted in a pipe. ISO 15086-3:2008 is applicable to passive components,
+    irrespective of size, operating under steady-state conditions, over a frequency
+    range from 10 Hz to 3 kHz.
 status:
   stage:
     content: '95'
@@ -119,29 +110,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 15086-3:2022
+    formattedref:
+      content: ISO/NP 15086-3
+    docidentifier:
+    - content: ISO/NP 15086-3
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 15086-3:2022
     docidentifier:
     - content: ISO 15086-3:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-07-20'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 17.140.20
-    text: Noise emitted by machines and equipment
   - code: 23.100.01
     text: Fluid power systems in general
+  - code: 17.140.20
+    text: Noise emitted by machines and equipment
   structuredidentifier:
     type: ISO
     project_number:

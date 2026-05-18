@@ -1,36 +1,33 @@
 ---
 id: ISO93331990
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Dentistry -Brazing materials
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Dentistry -Brazing materials
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Art dentaire
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits pour brasage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Art dentaire - Produits pour brasage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/17015.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:17015:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/70/17015.detail.rss
 docidentifier:
@@ -44,7 +41,7 @@ docidentifier:
 docnumber: '9333'
 date:
 - type: published
-  at: 1990-05
+  at: '1990-05-24'
 contributor:
 - role:
   - type: publisher
@@ -85,11 +82,6 @@ abstract:
     for use in brazing cast dental restorations. Important terms are defined. Specific
     qualitative and quantitative requirements for freedom from biological hazard are
     not included.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale fixe les prescriptions et les méthodes d'essai relatives aux produits pour brasage dont l'utilisation convient à la coulée des brasures pour les restaurations dentaires extra-buccales.
 status:
   stage:
     content: '95'
@@ -102,21 +94,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9333:2006
+    formattedref:
+      content: ISO/WD 9333
+    docidentifier:
+    - content: ISO/WD 9333
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 9333:2006
     docidentifier:
     - content: ISO 9333:2006
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2006-07-12'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

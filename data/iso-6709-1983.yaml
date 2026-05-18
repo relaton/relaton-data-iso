@@ -1,35 +1,33 @@
 ---
 id: ISO67091983
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Standard representation of latitude, longitude and altitude for geographic
     point locations
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Standard representation of latitude, longitude and altitude for geographic
     point locations
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation normalisée des latitude, longitude et altitude pour la localisation
     des points géographiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation normalisée des latitude, longitude et altitude pour la localisation
     des points géographiques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/13152.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:13152:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/31/13152.detail.rss
 docidentifier:
@@ -43,7 +41,7 @@ docidentifier:
 docnumber: '6709'
 date:
 - type: published
-  at: 1983-05
+  at: '1983-05-01'
 contributor:
 - role:
   - type: publisher
@@ -85,13 +83,6 @@ abstract:
     notations involving degrees, minutes and seconds as well as various combinations
     of sexagesimal and decimal notations. Uses numeric characters 0 to 9, graphic
     characters plus (+), minus (-), full stop (.) and comma (,).
-- language: fr
-  script: Latn
-  content: Describes a variable-length format for the representation of latitude,
-    longitude and altitude for use in data interchange. Allows the use of normal sexagesimal
-    notations involving degrees, minutes and seconds as well as various combinations
-    of sexagesimal and decimal notations. Uses numeric characters 0 to 9, graphic
-    characters plus (+), minus (-), full stop (.) and comma (,).
 status:
   stage:
     content: '95'
@@ -104,21 +95,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6709:2008
+    formattedref:
+      content: ISO 6709:2008
     docidentifier:
     - content: ISO 6709:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-07-02'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 6709
+    docidentifier:
+    - content: ISO/WD 6709
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,42 +1,35 @@
 ---
 id: ISO857352001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Compressed air
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: Test methods for oil vapour and organic solvent content'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Compressed air - Part 5: Test methods for oil vapour and organic solvent
     content'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Air comprimé
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Méthodes d''essai pour la détermination de la teneur en vapeurs
     d''huile et en solvants organiques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Air comprimé - Partie 5: Méthodes d''essai pour la détermination de la
     teneur en vapeurs d''huile et en solvants organiques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/33712.html
@@ -50,12 +43,12 @@ docidentifier:
   primary: true
 - content: ISO 8573-5:2001(E)
   type: iso-reference
-- content: urn:iso:std:iso:8573:-5:stage-90.92
+- content: urn:iso:std:iso:8573:-5:stage-95.99
   type: URN
 docnumber: '8573'
 date:
 - type: published
-  at: 2001-12
+  at: '2001-12-20'
 contributor:
 - role:
   - type: publisher
@@ -89,18 +82,11 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 8573-5:2001 spécifie la méthode d'essai par chromatographie en phase gazeuse pour la détermination de la teneur en vapeurs d'huile (hydrocarbures composés de six atomes de carbone ou plus) dans l'air comprimé, indépendamment de l'origine de l'air comprimé, tout comme de la présence de tout solvant organique dans la vapeur, difficile à séparer des autres hydrocarbures. Elle donne également des indications sur la procédure de mise en oeuvre de tubes indicateurs chimiques lors d'une première évaluation de présence de vapeurs d'huile.
-    L'ISO 8573-5:2001 fournit des considérations sur l'échantillonnage, le mesurage, l'évaluation, les incertitudes de mesure et la présentation du rapport d'essai en ce qui concerne le paramètre «vapeurs d'huile» de la classe de pureté de l'air comprimé, conformément à l'ISO 8573-1.
-    NOTE Les hydrocarbures plus légers composés de 5 carbones ou moins sont traités comme des polluants gazeux dans l'ISO 8573-6.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2001'
   owner:
@@ -110,16 +96,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/CD 8573-5
+    formattedref:
+      content: ISO 8573-5:2025
     docidentifier:
-    - content: ISO/CD 8573-5
+    - content: ISO 8573-5:2025
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 8573-5
+    docidentifier:
+    - content: ISO/PWI 8573-5
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -129,5 +123,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      part: 5
-      content: ISO 8573
+      content: '33712'

@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1979432006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Biometric data interchange formats
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 3: Finger pattern spectral data'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Biometric data interchange formats - Part 3:
     Finger pattern spectral data'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Formats d'échange de données biométriques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 3: Données spectrales de la forme du doigt'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Formats d''échange de données biométriques
     - Partie 3: Données spectrales de la forme du doigt'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38747.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 19794-3:2006(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:19794:-3:stage-90.93
+- content: urn:iso:std:iso-iec:19794:-3:stage-90.20
   type: URN
 docnumber: '19794'
 date:
 - type: published
-  at: 2006-08
+  at: '2006-08-16'
 contributor:
 - role:
   - type: publisher
@@ -103,7 +95,6 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
@@ -118,32 +109,30 @@ abstract:
     be retained, which enables data representations in a form that is more compact
     than storage of the entire fingerprint image. ISO/IEC 19794-3:2006 provides example
     data records for each of the spectral representations.
-- language: fr
-  script: Latn
-  content: ISO/IEC 19794-3:2006, the finger pattern spectral data interchange format,
-    specifies requirements for the representation of local or global spectral data
-    derived from a fingerprint image. The format is designed to provide flexibility
-    in the choice of spectral representation in that spectral components may be based
-    on quantized co-sinusoidal triplets, Discrete Fourier Transformations or Gabor
-    filters. The format also allows for a variable number of spectral components to
-    be retained, which enables data representations in a form that is more compact
-    than storage of the entire fingerprint image. ISO/IEC 19794-3:2006 provides example
-    data records for each of the spectral representations.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2006'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC NP 19794-3
+    docidentifier:
+    - content: ISO/IEC NP 19794-3
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

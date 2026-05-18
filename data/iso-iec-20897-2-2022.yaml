@@ -1,50 +1,42 @@
 ---
 id: ISOIEC2089722022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information security, cybersecurity and privacy protection
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Physically unclonable functions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Test and evaluation methods'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information security, cybersecurity and privacy protection - Physically
     unclonable functions - Part 2: Test and evaluation methods'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Sécurité de l'information, cybersécurité et protection de la vie privée
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Fonctions non clonables physiquement
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Méthodes d''essai et d''évaluation'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Sécurité de l''information, cybersécurité et protection de la vie privée
     - Fonctions non clonables physiquement - Partie 2: Méthodes d''essai et d''évaluation'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/76354.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 20897-2:2022(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:20897:-2:stage-60.60
+- content: urn:iso:std:iso-iec:20897:-2:stage-90.92
   type: URN
 docnumber: '20897'
 date:
 - type: published
-  at: 2022-05
+  at: '2022-05-25'
 contributor:
 - role:
   - type: publisher
@@ -103,35 +95,44 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the test and evaluation methods for physically unclonable functions (PUFs). The test and evaluation methods consist of inspection of the design rationale of the PUF and comparison between statistical analyses of the responses from a batch of PUFs or a unique PUF versus specified thresholds.
-    This document is related to ISO/IEC 19790 which specifies security requirements for cryptographic modules. In those modules, critical security parameters (key) and public security parameters (product serial number, identification code, etc.) are the assets to protect. PUF is one solution to avoid storing security parameters, thereby increasing the overall security of a cryptographic module.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the test and evaluation methods for physically unclonable functions (PUFs). The test and evaluation methods consist of inspection of the design rationale of the PUF and comparison between statistical analyses of the responses from a batch of PUFs or a unique PUF versus specified thresholds.
-    This document is related to ISO/IEC 19790 which specifies security requirements for cryptographic modules. In those modules, critical security parameters (key) and public security parameters (product serial number, identification code, etc.) are the assets to protect. PUF is one solution to avoid storing security parameters, thereby increasing the overall security of a cryptographic module.
+  content: This document specifies the test and evaluation methods for physically
+    unclonable functions (PUFs). The test and evaluation methods consist of inspection
+    of the design rationale of the PUF and comparison between statistical analyses
+    of the responses from a batch of PUFs or a unique PUF versus specified thresholds.
+    This document is related to ISO/IEC 19790 which specifies security requirements
+    for cryptographic modules. In those modules, critical security parameters (key)
+    and public security parameters (product serial number, identification code, etc.)
+    are the assets to protect. PUF is one solution to avoid storing security parameters,
+    thereby increasing the overall security of a cryptographic module.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2022'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/IEC AWI 20897-2
+    docidentifier:
+    - content: ISO/IEC AWI 20897-2
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,42 +1,38 @@
 ---
 id: ISO32972020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International standard serial number  (ISSN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - International standard serial number  (ISSN)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Numéro international normalisé des publications en série (ISSN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Numéro international normalisé des publications
     en série (ISSN)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/73846.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:73846:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/38/73846.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '3297'
 date:
 - type: published
-  at: 2020-10
+  at: '2020-10-07'
 contributor:
 - role:
   - type: publisher
@@ -87,42 +83,26 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines and promotes the use of a standard code (ISSN) for the unique identification of serials and other continuing resources.
-    Each International Standard Serial Number (ISSN) is a unique identifier for a serial or other continuing resource in a defined medium whether print or electronic.
-    This document also allows for grouping related continuing resources into clusters identified by a separately-prefixed ISSN as defined in this document.
-    ISSNs are applicable to serials and to other continuing resources, whatever the business model or modes of distribution (e.g. free, open access, on subscription, etc.) and irrespective of whether the serial is currently in publication, has ceased publication, or publication is planned for the foreseeable future. Continuing resources include whatever the medium of production (print or electronic):
-    —     serials, such as newspapers, periodicals, journals, magazines, conference proceedings, monographic series with no predetermined conclusion, annual or other periodic reports, and
-    —     ongoing integrating resources that are updated, such as loose-leaf publications, updating websites, blogs, institutional repositories, directories and databases.
-    Monographs, sound and video recordings, notated music publications, audiovisual works, textual works and musical works have their own standard identifiers and are not specifically mentioned in this document. Such items can carry an ISSN in addition to their appropriate identifiers when they are part of a continuing resource.
-    NOTE    This document does not contain any operational guidance for its practical implementation.
-- language: fr
-  script: Latn
-  content: "Le présent document définit et encourage l'emploi d'un code normalisé
-    (ISSN), destiné à l'identification unique des publications en série et des autres
-    ressources continues.\nChaque Numéro international normalisé des publications
-    en série (ISSN) est l'identifiant unique d'une publication en série ou d'une autre
-    ressource continue sur un support déterminé, que celui-ci soit imprimé ou électronique.\nLe
-    présent document permet aussi de regrouper des ressources continues en relation
-    au sein de regroupements identifiés par un ISSN précédé d'un préfixe distinct
-    tel que défini dans le présent document.\nL'ISSN s'applique aux publications en
-    série et autres ressources continues, quel que soit le modèle économique ou les
-    modes de distribution (gratuité, accès libre ou par abonnement.) et indépendamment
-    du fait que la publication soit passée, présente ou à paraître dans un avenir
-    prévisible. Les ressources continues comprennent, quel que soit leur support de
-    production (imprimé ou électronique):\n—     les publications en série telles
-    que les journaux, les revues, les périodiques, les magazines, les actes de congrès,
-    les collections de monographies sans fin de parution programmée, les rapports
-    annuels ou autres rapports périodiques; et\n—     les ressources intégratrices
-    continues à mise à jour telles que les publications à feuillets mobiles, les sites
-    web à mise à jour, les blogues, les dépôts institutionnels, les répertoires permanents
-    et les bases de données.\nLes monographies, les enregistrements sonores et visuels,
-    les publications de musique imprimée, les œuvres textuelles et les œuvres musicales
-    ont leur propre identifiant normalisé et ne sont donc pas explicitement visés
-    par le présent document. Ces documents peuvent porter un ISSN en complément de
-    leur identifiant dédié lorsqu'ils font partie d'une publication en série ou d'une
-    ressource continue.\nNOTE    Le présent document ne contient pas de recommandations
-    pour sa mise en pratique. "
+  content: 'This document defines and promotes the use of a standard code (ISSN) for
+    the unique identification of serials and other continuing resources. Each International
+    Standard Serial Number (ISSN) is a unique identifier for a serial or other continuing
+    resource in a defined medium whether print or electronic. This document also allows
+    for grouping related continuing resources into clusters identified by a separately-prefixed
+    ISSN as defined in this document. ISSNs are applicable to serials and to other
+    continuing resources, whatever the business model or modes of distribution (e.g.
+    free, open access, on subscription, etc.) and irrespective of whether the serial
+    is currently in publication, has ceased publication, or publication is planned
+    for the foreseeable future. Continuing resources include whatever the medium of
+    production (print or electronic): — serials, such as newspapers, periodicals,
+    journals, magazines, conference proceedings, monographic series with no predetermined
+    conclusion, annual or other periodic reports, and — ongoing integrating resources
+    that are updated, such as loose-leaf publications, updating websites, blogs, institutional
+    repositories, directories and databases. Monographs, sound and video recordings,
+    notated music publications, audiovisual works, textual works and musical works
+    have their own standard identifiers and are not specifically mentioned in this
+    document. Such items can carry an ISSN in addition to their appropriate identifiers
+    when they are part of a continuing resource. NOTE This document does not contain
+    any operational guidance for its practical implementation.'
 status:
   stage:
     content: '95'
@@ -137,27 +117,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3297:2017
-    docidentifier:
-    - content: ISO 3297:2017
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 3297:2022
+    formattedref:
+      content: ISO 3297:2022
     docidentifier:
     - content: ISO 3297:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-06-17'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3297:2017
+    docidentifier:
+    - content: ISO 3297:2017
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,25 +1,22 @@
 ---
 id: ISOIEC214092001
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Telecommunications and information exchange between systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Corporate telecommunication networks -- Signalling interworking between
     QSIG and H.323 -- Generic functional protocol for the support of supplementary
     services
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Telecommunications and information exchange between
@@ -27,23 +24,19 @@ title:
     QSIG and H.323 -- Generic functional protocol for the support of supplementary
     services
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Télécommunications et échange d'information entre systèmes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Réseaux de télécommunications corporatifs -- Signalisation de travail entre
     QSIG et H.323 -- Protocole fonctionnel général pour le support des services supplémentaires
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Télécommunications et échange d'information
@@ -51,7 +44,6 @@ title:
     travail entre QSIG et H.323 -- Protocole fonctionnel général pour le support des
     services supplémentaires
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/34502.html
@@ -70,7 +62,7 @@ docidentifier:
 docnumber: '21409'
 date:
 - type: published
-  at: 2001-08
+  at: '2001-08-30'
 contributor:
 - role:
   - type: publisher
@@ -110,56 +102,39 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This International Standard specifies signalling interworking between "QSIG" and "H.323" in support of generic functional
-    procedures for supplementary services within a Corporate telecommunication Network (CN).
-    "QSIG" is a signalling protocol that operates at the Q reference point between Private Integrated Services eXchanges (PINX)
-    within a Private Integrated Services Network (PISN). The Q reference point is defined in ISO/IEC 11579-1. A PISN provides
-    circuit-switched basic services and supplementary services to its users. QSIG is specified in other Standards, in particular
-    ISO/IEC 11572 (call control in support of basic services), ISO/IEC 11582 (generic functional protocol for the support of
-    supplementary services) and a number of standards specifying individual supplementary services.
-    "H.323" is a set of signalling protocols for the support of voice or multimedia communication within a packet network, in
-    particular a packet network that uses the Internet Protocol (IP) as its network layer protocol (IP network). H.323 signalling
-    protocols operate between endpoints in an IP network, either indirectly via one or more gatekeepers, or directly. An endpoint
-    can be a terminal or a gateway to another network. H.323 is an "umbrella" recommendation, referring to various ITU-T
-    recommendations, in particular Recommendations H.225.0 and H.245 (basic communication capabilities) and
-    Recommendation H.450.1 (generic functional protocol for the support of supplementary services).
-    NOTE - H.450.1 applies to the 1998 version of H.323 (also known as H.323 version 2) and to later versions.
-    Interworking between QSIG and H.323 permits a call originating at a user of a PISN to terminate at a user of an IP network, or
-    a call originating at a user of an IP network to terminate at a user of a PISN. In addition this International Standard enables the
-    participants of a call to exchange supplementary service control information in a generic way. The more specific aspects of
-    interworking particular supplementary services are specified in other Standards.
-    This International Standard is applicable to any interworking unit that can act as a gateway between a PISN employing QSIG
-    and an IP network employing H.323.
-- language: fr
-  script: Latn
-  content: |-
-    This International Standard specifies signalling interworking between "QSIG" and "H.323" in support of generic functional
-    procedures for supplementary services within a Corporate telecommunication Network (CN).
-    "QSIG" is a signalling protocol that operates at the Q reference point between Private Integrated Services eXchanges (PINX)
-    within a Private Integrated Services Network (PISN). The Q reference point is defined in ISO/IEC 11579-1. A PISN provides
-    circuit-switched basic services and supplementary services to its users. QSIG is specified in other Standards, in particular
-    ISO/IEC 11572 (call control in support of basic services), ISO/IEC 11582 (generic functional protocol for the support of
-    supplementary services) and a number of standards specifying individual supplementary services.
-    "H.323" is a set of signalling protocols for the support of voice or multimedia communication within a packet network, in
-    particular a packet network that uses the Internet Protocol (IP) as its network layer protocol (IP network). H.323 signalling
-    protocols operate between endpoints in an IP network, either indirectly via one or more gatekeepers, or directly. An endpoint
-    can be a terminal or a gateway to another network. H.323 is an "umbrella" recommendation, referring to various ITU-T
-    recommendations, in particular Recommendations H.225.0 and H.245 (basic communication capabilities) and
-    Recommendation H.450.1 (generic functional protocol for the support of supplementary services).
-    NOTE - H.450.1 applies to the 1998 version of H.323 (also known as H.323 version 2) and to later versions.
-    Interworking between QSIG and H.323 permits a call originating at a user of a PISN to terminate at a user of an IP network, or
-    a call originating at a user of an IP network to terminate at a user of a PISN. In addition this International Standard enables the
-    participants of a call to exchange supplementary service control information in a generic way. The more specific aspects of
-    interworking particular supplementary services are specified in other Standards.
-    This International Standard is applicable to any interworking unit that can act as a gateway between a PISN employing QSIG
-    and an IP network employing H.323.
+  content: This International Standard specifies signalling interworking between "QSIG"
+    and "H.323" in support of generic functional procedures for supplementary services
+    within a Corporate telecommunication Network (CN). "QSIG" is a signalling protocol
+    that operates at the Q reference point between Private Integrated Services eXchanges
+    (PINX) within a Private Integrated Services Network (PISN). The Q reference point
+    is defined in ISO/IEC 11579-1. A PISN provides circuit-switched basic services
+    and supplementary services to its users. QSIG is specified in other Standards,
+    in particular ISO/IEC 11572 (call control in support of basic services), ISO/IEC
+    11582 (generic functional protocol for the support of supplementary services)
+    and a number of standards specifying individual supplementary services. "H.323"
+    is a set of signalling protocols for the support of voice or multimedia communication
+    within a packet network, in particular a packet network that uses the Internet
+    Protocol (IP) as its network layer protocol (IP network). H.323 signalling protocols
+    operate between endpoints in an IP network, either indirectly via one or more
+    gatekeepers, or directly. An endpoint can be a terminal or a gateway to another
+    network. H.323 is an "umbrella" recommendation, referring to various ITU-T recommendations,
+    in particular Recommendations H.225.0 and H.245 (basic communication capabilities)
+    and Recommendation H.450.1 (generic functional protocol for the support of supplementary
+    services). NOTE - H.450.1 applies to the 1998 version of H.323 (also known as
+    H.323 version 2) and to later versions. Interworking between QSIG and H.323 permits
+    a call originating at a user of a PISN to terminate at a user of an IP network,
+    or a call originating at a user of an IP network to terminate at a user of a PISN.
+    In addition this International Standard enables the participants of a call to
+    exchange supplementary service control information in a generic way. The more
+    specific aspects of interworking particular supplementary services are specified
+    in other Standards. This International Standard is applicable to any interworking
+    unit that can act as a gateway between a PISN employing QSIG and an IP network
+    employing H.323.
 status:
   stage:
     content: '90'
@@ -172,9 +147,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

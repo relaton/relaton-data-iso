@@ -1,53 +1,47 @@
 ---
 id: ISOTR149041997
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road transport and traffic telematics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic fee collection (AFC)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Interface specification for clearing between operators
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Road transport and traffic telematics - Automatic fee collection (AFC)
     - Interface specification for clearing between operators
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Transport routier et télématique du trafic
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Prélèvement automatique de frais (AFC)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification d'interface pour clarification entre opérateurs
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Transport routier et télématique du trafic - Prélèvement automatique de
     frais (AFC) - Spécification d'interface pour clarification entre opérateurs
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/25215.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:25215:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/52/25215.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '14904'
 date:
 - type: published
-  at: 1997-05
+  at: '1997-05-15'
 contributor:
 - role:
   - type: publisher
@@ -92,40 +86,33 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "La présente prénorme définit les interfaces permettant la compensation
+  content: 'La présente prénorme définit les interfaces permettant la compensation
     entre exploitants et elle donne un plan type pour la structure des messages communs
     et des données à utiliser sur les interfaces. Elle a pour objectif de permettre
     le transfert des paiements et des données concernant le recouvrement automatique
-    des droits (AFC) 1) entre différents systèmes de paiement d'une part, et entre
-    des exploitants différents d'autre part, comme des agents collecteurs, des opérateurs
+    des droits (AFC) 1) entre différents systèmes de paiement d''une part, et entre
+    des exploitants différents d''autre part, comme des agents collecteurs, des opérateurs
     de compensation ou des prestataires de services de transport publics et privés.
-    La présente prénorme peut s'appliquer à : \n- a) différents modes de paiement
-    (par exemple pré-paiement, post-paiement) ; \n- b) une grande variété de services
-    de transport et de services liés au transport (péage, stationnement, ferry/pont/tunnel,
-    transport public, paiement pour guidage routier, etc.) ; \n- c) des services d'exploitants
-    (coordination entre des collecteurs d'argent et des points de paiement, etc.)
-    ; \n- d) la sécurité et la confidentialité."
-- language: fr
-  script: Latn
-  content: "La présente prénorme définit les interfaces permettant la compensation
-    entre exploitants et elle donne un plan type pour la structure des messages communs
-    et des données à utiliser sur les interfaces. Elle a pour objectif de permettre
-    le transfert des paiements et des données concernant le recouvrement automatique
-    des droits (AFC) 1) entre différents systèmes de paiement d'une part, et entre
-    des exploitants différents d'autre part, comme des agents collecteurs, des opérateurs
-    de compensation ou des prestataires de services de transport publics et privés.
-    La présente prénorme peut s'appliquer à : \n- a) différents modes de paiement
-    (par exemple pré-paiement, post-paiement) ; \n- b) une grande variété de services
-    de transport et de services liés au transport (péage, stationnement, ferry/pont/tunnel,
-    transport public, paiement pour guidage routier, etc.) ; \n- c) des services d'exploitants
-    (coordination entre des collecteurs d'argent et des points de paiement, etc.)
-    ; \n- d) la sécurité et la confidentialité."
+    La présente prénorme peut s''appliquer à : a) différents modes de paiement (par
+    exemple pré-paiement, post-paiement) ; b) une grande variété de services de transport
+    et de services liés au transport (péage, stationnement, ferry/pont/tunnel, transport
+    public, paiement pour guidage routier, etc.) ; c) des services d''exploitants
+    (coordination entre des collecteurs d''argent et des points de paiement, etc.)
+    ; d) la sécurité et la confidentialité. Il n''est pas dans l''objet de la présente
+    prénorme de définir des procédures administratives et des structures organisationnelles.
+    La spécification d''un système de paiement interopérable à une plus grande échelle
+    (paneuropéenne par exemple) est en dehors du domaine d''application de la présente
+    prénorme. Dans la présente prénorme ne sont pas décrits les participants indirects
+    (extérieurs) comme les autorités promulguant la législation générale ou particulière
+    relative au systè 269me de paiement et autres règlements nationaux. Les modèles
+    présentés dans la présente prénorme sont génériques. Des systèmes simples (systèmes
+    fermés) peuvent être conçus en sélectionnant des sous-ensembles du plan type d''interface
+    défini ici.'
 status:
   stage:
     content: '95'
@@ -138,29 +125,26 @@ copyright:
       name:
       - content: ISO/TR
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TS 14904:2002
+    formattedref:
+      content: ISO/TS 14904:2002
     docidentifier:
     - content: ISO/TS 14904:2002
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2002-12-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

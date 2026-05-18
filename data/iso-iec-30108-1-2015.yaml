@@ -1,50 +1,42 @@
 ---
 id: ISOIEC3010812015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Biometric Identity Assurance Services
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: BIAS services'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Biometric Identity Assurance Services - Part
     1: BIAS services'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Service d'assurance de l'identité biométrique (BIAS)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Services BIAS'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Service d''assurance de l''identité biométrique
     (BIAS) - Partie 1: Services BIAS'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/53228.html
@@ -58,14 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 30108-1:2015(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:30108:-1:stage-90.92
+- content: urn:iso:std:iso-iec:30108:-1:stage-95.99
   type: URN
 docnumber: '30108'
 date:
 - type: published
-  at: 2015-11
-- type: corrected
-  at: 2016-04
+  at: '2015-11-03'
 contributor:
 - role:
   - type: publisher
@@ -105,31 +95,37 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 30108-1:2015 defines the architecture, operations, data elements, and basic requirements for biometric identity assurance services ? a framework for the implementation of generic, biometric-based identity services within a services-oriented environment. An identity in the context of BIAS comprises a subject, biographic data, and biometric data. Other parts are intended to define specific BIAS implementations (or bindings) within specific environments, for example, SOAP web services.
-    BIAS services are generic in nature, being modality neutral, and not targeted at any particular business application. These services include those related to identity data management, transformation, and biometric comparison. Services are invoked by a BIAS requester and implemented by a BIAS service provider (responder). It does not prescribe the architecture or business logic of either the requester or service provider.
-    Two categories of identity services are defined ? primitive and aggregate. Primitive services are more atomic and well-defined, whereas the aggregate services tend to be higher level and enable more flexibility on the part of the BIAS service provider.
-    Two identity models are also defined ? person-centric and encounter-based. Person-centric systems maintain a single up-to-date record (set of data) for a given subject, whereas an encounter-based system retains data related to each interaction the subject has with the system.
-    ISO/IEC 30108-1:2015 represents a version of BIAS subsequent to that previously standardized by INCITS and OASIS, therefore, it is denoted as version 2.0.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 30108-1:2015 defines the architecture, operations, data elements, and basic requirements for biometric identity assurance services ? a framework for the implementation of generic, biometric-based identity services within a services-oriented environment. An identity in the context of BIAS comprises a subject, biographic data, and biometric data. Other parts are intended to define specific BIAS implementations (or bindings) within specific environments, for example, SOAP web services.
-    BIAS services are generic in nature, being modality neutral, and not targeted at any particular business application. These services include those related to identity data management, transformation, and biometric comparison. Services are invoked by a BIAS requester and implemented by a BIAS service provider (responder). It does not prescribe the architecture or business logic of either the requester or service provider.
-    Two categories of identity services are defined ? primitive and aggregate. Primitive services are more atomic and well-defined, whereas the aggregate services tend to be higher level and enable more flexibility on the part of the BIAS service provider.
-    Two identity models are also defined ? person-centric and encounter-based. Person-centric systems maintain a single up-to-date record (set of data) for a given subject, whereas an encounter-based system retains data related to each interaction the subject has with the system.
-    ISO/IEC 30108-1:2015 represents a version of BIAS subsequent to that previously standardized by INCITS and OASIS, therefore, it is denoted as version 2.0.
+  content: ISO/IEC 30108-1:2015 defines the architecture, operations, data elements,
+    and basic requirements for biometric identity assurance services ? a framework
+    for the implementation of generic, biometric-based identity services within a
+    services-oriented environment. An identity in the context of BIAS comprises a
+    subject, biographic data, and biometric data. Other parts are intended to define
+    specific BIAS implementations (or bindings) within specific environments, for
+    example, SOAP web services. BIAS services are generic in nature, being modality
+    neutral, and not targeted at any particular business application. These services
+    include those related to identity data management, transformation, and biometric
+    comparison. Services are invoked by a BIAS requester and implemented by a BIAS
+    service provider (responder). It does not prescribe the architecture or business
+    logic of either the requester or service provider. Two categories of identity
+    services are defined ? primitive and aggregate. Primitive services are more atomic
+    and well-defined, whereas the aggregate services tend to be higher level and enable
+    more flexibility on the part of the BIAS service provider. Two identity models
+    are also defined ? person-centric and encounter-based. Person-centric systems
+    maintain a single up-to-date record (set of data) for a given subject, whereas
+    an encounter-based system retains data related to each interaction the subject
+    has with the system. ISO/IEC 30108-1:2015 represents a version of BIAS subsequent
+    to that previously standardized by INCITS and OASIS, therefore, it is denoted
+    as version 2.0.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2015'
   owner:
@@ -139,16 +135,16 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC DIS 30108-1
+    formattedref:
+      content: ISO/IEC 30108-1:2026
     docidentifier:
-    - content: ISO/IEC DIS 30108-1
+    - content: ISO/IEC 30108-1:2026
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

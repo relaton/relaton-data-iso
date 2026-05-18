@@ -1,41 +1,37 @@
 ---
 id: ISO191232005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geographic information
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Schema for coverage geometry and functions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic information - Schema for coverage geometry and functions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Schéma de la géométrie et des fonctions de couverture
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information géographique - Schéma de la géométrie et des fonctions de couverture
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/40121.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:40121:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/01/40121.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '19123'
 date:
 - type: published
-  at: 2005-08
+  at: '2005-08-31'
 contributor:
 - role:
   - type: publisher
@@ -86,7 +82,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 19123:2005 defines a conceptual schema for the spatial characteristics
+  content: ISO 19123:2005 defines a conceptual schema for the spatial characteristics
     of coverages. Coverages support mapping from a spatial, temporal or spatiotemporal
     domain to feature attribute values where feature attribute types are common to
     all geographic positions within the domain. A coverage domain consists of a collection
@@ -95,15 +91,10 @@ abstract:
     include rasters, triangulated irregular networks, point coverages and polygon
     coverages. Coverages are the prevailing data structures in a number of application
     areas, such as remote sensing, meteorology and mapping of bathymetry, elevation,
-    soil and vegetation. \nISO 19123:2005 defines the relationship between the domain
+    soil and vegetation. ISO 19123:2005 defines the relationship between the domain
     of a coverage and an associated attribute range. The characteristics of the spatial
     domain are defined whereas the characteristics of the attribute range are not
-    part of ISO 19123:2005."
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 19123:2005 définit un schéma conceptuel des caractéristiques spatiales des couvertures. Les couvertures servent de base à la cartographie réalisée à partir d'un domaine spatial, temporel ou spatio-emporel permettant ainsi d'obtenir les valeurs attributaires d'entités dont les types d'attributs sont communs à toutes les positions géographiques existant dans le domaine. Un domaine de couverture se compose d'un ensemble de positions directes dans un espace de coordonnées qui peut être défini comme tridimensionnel ou bien temporel. Parmi les exemples de couverture, citons les matrices, les réseaux irréguliers de triangles, les couvertures de points et les couvertures de polygones. Les couvertures sont les structures de données courantes dans divers champs d'application, notamment la télédétection, la météorologie, la bathymétrie, l'altitude, le sol et la végétation.
-    L'ISO 19123:2005 définit la relation entre le domaine d'une couverture et une plage d'attributs associée. Les caractéristiques du domaine spatial sont définies, mais les caractéristiques des attributs ne font pas partie du domaine d'application de l'ISO 19123:2005.
+    part of ISO 19123:2005.
 status:
   stage:
     content: '95'
@@ -116,21 +107,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 19123-1:2023
+    formattedref:
+      content: ISO 19123-1:2023
     docidentifier:
     - content: ISO 19123-1:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-06-21'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/PWI 19123
+    docidentifier:
+    - content: ISO/PWI 19123
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

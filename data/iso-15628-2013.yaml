@@ -1,50 +1,42 @@
 ---
 id: ISO156282013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Dedicated short range communication (DSRC)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: DSRC application layer
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Dedicated short range communication (DSRC)
     - DSRC application layer
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Communications spécialisées à courte portée (DSRC)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Couche d'application DSRC
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport - Communications spécialisées à courte
     portée (DSRC) - Couche d'application DSRC
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/59288.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 15628:2013(E)
   type: iso-reference
-- content: urn:iso:std:iso:15628:stage-90.93
+- content: urn:iso:std:iso:15628:stage-90.92
   type: URN
 docnumber: '15628'
 date:
 - type: published
-  at: 2013-11
+  at: '2013-11-04'
 contributor:
 - role:
   - type: publisher
@@ -94,51 +86,34 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 15628:2013 specifies the application layer core which provides communication tools for applications based on DSRC. These tools consist of kernels that can be used by application processes via service primitives. The application processes, including application data and application-specific functions, are outside the scope of ISO 15628:2013.
-    ISO 15628:2013 is named "application layer", although it does not cover all functionality of OSI Layer 7 and it includes functionality from lower layers.
-    It uses services provided by DSRC data link layer, and covers functionality of intermediate layers of the "OSI Basic Reference Model" (ISO/IEC 7498-1).
-    The following subjects are covered by ISO 15628:2013:
-    a) application layer structure and framework;
-    b) services to enable data transfer and remote operations;
-    c) application multiplexing procedure;
-    d) fragmentation procedure;
-    e) concatenation and chaining procedures;
-    f) common encoding rules to translate data from abstract syntax ASN.1 (ISO/IEC 8824-1) into transfer syntax (ISO/IEC 8825‑2:2002) and vice versa;
-    g) communication initialisation and release procedures;
-    h) broadcast service support;
-    i) DSRC management support including communication profile handling; and
-    j) extensibility for different lower layer services and application interfaces.
-    It is outside the scope of ISO 15628:2013 to define a security policy. Some transport mechanisms for security-related data are provided.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 15628:2013 specifies the application layer core which provides communication tools for applications based on DSRC. These tools consist of kernels that can be used by application processes via service primitives. The application processes, including application data and application-specific functions, are outside the scope of ISO 15628:2013.
-    ISO 15628:2013 is named "application layer", although it does not cover all functionality of OSI Layer 7 and it includes functionality from lower layers.
-    It uses services provided by DSRC data link layer, and covers functionality of intermediate layers of the "OSI Basic Reference Model" (ISO/IEC 7498-1).
-    The following subjects are covered by ISO 15628:2013:
-    a) application layer structure and framework;
-    b) services to enable data transfer and remote operations;
-    c) application multiplexing procedure;
-    d) fragmentation procedure;
-    e) concatenation and chaining procedures;
-    f) common encoding rules to translate data from abstract syntax ASN.1 (ISO/IEC 8824-1) into transfer syntax (ISO/IEC 8825‑2:2002) and vice versa;
-    g) communication initialisation and release procedures;
-    h) broadcast service support;
-    i) DSRC management support including communication profile handling; and
-    j) extensibility for different lower layer services and application interfaces.
-    It is outside the scope of ISO 15628:2013 to define a security policy. Some transport mechanisms for security-related data are provided.
+  content: 'ISO 15628:2013 specifies the application layer core which provides communication
+    tools for applications based on DSRC. These tools consist of kernels that can
+    be used by application processes via service primitives. The application processes,
+    including application data and application-specific functions, are outside the
+    scope of ISO 15628:2013. ISO 15628:2013 is named "application layer", although
+    it does not cover all functionality of OSI Layer 7 and it includes functionality
+    from lower layers. It uses services provided by DSRC data link layer, and covers
+    functionality of intermediate layers of the "OSI Basic Reference Model" (ISO/IEC
+    7498-1). The following subjects are covered by ISO 15628:2013: a) application
+    layer structure and framework; b) services to enable data transfer and remote
+    operations; c) application multiplexing procedure; d) fragmentation procedure;
+    e) concatenation and chaining procedures; f) common encoding rules to translate
+    data from abstract syntax ASN.1 (ISO/IEC 8824-1) into transfer syntax (ISO/IEC
+    8825‑2:2002) and vice versa; g) communication initialisation and release procedures;
+    h) broadcast service support; i) DSRC management support including communication
+    profile handling; and j) extensibility for different lower layer services and
+    application interfaces. It is outside the scope of ISO 15628:2013 to define a
+    security policy. Some transport mechanisms for security-related data are provided.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2013'
   owner:
@@ -148,24 +123,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 15628:2007
+    formattedref:
+      content: ISO/AWI 15628
+    docidentifier:
+    - content: ISO/AWI 15628
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 15628:2007
     docidentifier:
     - content: ISO 15628:2007
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

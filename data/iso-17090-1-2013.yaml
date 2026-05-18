@@ -1,53 +1,47 @@
 ---
 id: ISO1709012013
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Public key infrastructure
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Overview of digital certificate services'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Health informatics - Public key infrastructure - Part 1: Overview of digital
     certificate services'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Infrastructure de clé publique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Vue d''ensemble des services de certificat numérique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informatique de santé - Infrastructure de clé publique - Partie 1: Vue
     d''ensemble des services de certificat numérique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63019.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63019:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/30/63019.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '17090'
 date:
 - type: published
-  at: 2013-05
+  at: '2013-05-06'
 contributor:
 - role:
   - type: publisher
@@ -92,20 +86,22 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 17090-1:2013 defines the basic concepts underlying the use of digital certificates in healthcare and provides a scheme of interoperability requirements to establish a digital certificate-enabled secure communication of health information. It also identifies the major stakeholders who are communicating health-related information, as well as the main security services required for health communication where digital certificates may be required.
-    ISO 17090-1:2013 gives a brief introduction to public key cryptography and the basic components needed to deploy digital certificates in healthcare. It further introduces different types of digital certificates ? identity certificates and associated attribute certificates for relying parties, self-signed certification authority (CA) certificates, and CA hierarchies and bridging structures.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 17090-1:2013 defines the basic concepts underlying the use of digital certificates in healthcare and provides a scheme of interoperability requirements to establish a digital certificate-enabled secure communication of health information. It also identifies the major stakeholders who are communicating health-related information, as well as the main security services required for health communication where digital certificates may be required.
-    ISO 17090-1:2013 gives a brief introduction to public key cryptography and the basic components needed to deploy digital certificates in healthcare. It further introduces different types of digital certificates ? identity certificates and associated attribute certificates for relying parties, self-signed certification authority (CA) certificates, and CA hierarchies and bridging structures.
+  content: ISO 17090-1:2013 defines the basic concepts underlying the use of digital
+    certificates in healthcare and provides a scheme of interoperability requirements
+    to establish a digital certificate-enabled secure communication of health information.
+    It also identifies the major stakeholders who are communicating health-related
+    information, as well as the main security services required for health communication
+    where digital certificates may be required. ISO 17090-1:2013 gives a brief introduction
+    to public key cryptography and the basic components needed to deploy digital certificates
+    in healthcare. It further introduces different types of digital certificates ?
+    identity certificates and associated attribute certificates for relying parties,
+    self-signed certification authority (CA) certificates, and CA hierarchies and
+    bridging structures.
 status:
   stage:
     content: '95'
@@ -120,27 +116,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 17090-1:2008
-    docidentifier:
-    - content: ISO 17090-1:2008
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 17090-1:2021
+    formattedref:
+      content: ISO 17090-1:2021
     docidentifier:
     - content: ISO 17090-1:2021
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-03-08'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 17090-1:2008
+    docidentifier:
+    - content: ISO 17090-1:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

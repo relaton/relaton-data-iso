@@ -1,51 +1,45 @@
 ---
 id: ISO89661987
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Logging industry
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Products
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Terms and definitions
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Logging industry - Products - Terms and definitions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Exploitation forestière
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Termes et définitions
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Exploitation forestière - Produits - Termes et définitions
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/16489.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:16489:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/64/16489.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '8966'
 date:
 - type: published
-  at: 1987-10
+  at: '1987-10-29'
 contributor:
 - role:
   - type: publisher
@@ -91,16 +85,12 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
-  script: Latn
-  content: Covers products used in various fields, e.g. logs for the pulp and paper
-    industry, board production and chemical processing as well as fuel-woods. Is a
-    trilingual edition and includes an alphabetical index in English, French, and
-    Russian.
-- language: fr
   script: Latn
   content: Covers products used in various fields, e.g. logs for the pulp and paper
     industry, board production and chemical processing as well as fuel-woods. Is a
@@ -118,21 +108,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 24294:2013
+    formattedref:
+      content: ISO/DIS 24294
+    docidentifier:
+    - content: ISO/DIS 24294
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 24294:2013
     docidentifier:
     - content: ISO 24294:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-09-03'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

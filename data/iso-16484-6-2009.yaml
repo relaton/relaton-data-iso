@@ -1,43 +1,39 @@
 ---
 id: ISO1648462009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Building automation and control systems (BACS)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 6: Data communication conformance testing'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Building automation and control systems (BACS) - Part 6: Data communication
     conformance testing'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation et de gestion technique du bâtiment
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Essais de conformité de la communication de données'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation et de gestion technique du bâtiment - Partie
     6: Essais de conformité de la communication de données'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/52149.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:52149:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/21/52149.detail.rss
 docidentifier:
@@ -51,7 +47,7 @@ docidentifier:
 docnumber: '16484'
 date:
 - type: published
-  at: 2009-03
+  at: '2009-03-09'
 contributor:
 - role:
   - type: publisher
@@ -88,14 +84,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 16484-6:2009 defines a standard method for verifying that an implementation of the BACnet protocol provides each capability claimed in its Protocol Implementation Conformance Statement (PICS) in conformance with the BACnet standard.
-    ISO 16484-6:2009 provides a comprehensive set of procedures for verifying the correct implementation of each capability claimed on a BACnet PICS, including upport of each claimed BACnet service, either as an initiator, executor, or both, support of each claimed BACnet object-type, including both required properties and each claimed optional property, support of the BACnet network layer protocol, support of each claimed data link option, and support of all claimed special functionality.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 16484-6:2009 définit une méthode normalisée permettant de vérifier qu'une mise en œuvre du protocole BACnet fournit l'ensemble des fonctionnalités citées dans la Déclaration de conformité d'une mise en œuvre de protocole (PICS) correspondante, conformément à la norme BACnet.
-    L'ISO 16484-6:2009 fournit un ensemble complet de modes opératoires permettant de vérifier la bonne mise en œuvre de chaque fonctionnalité citée dans une déclaration PICS BACnet, notamment la prise en charge de chaque service BACnet déclaré, qu'il s'agisse d'un initiateur, d'un exécutant ou des deux, la prise en charge de chaque type d'objet BACnet déclaré, y compris les propriétés requises et chaque propriété facultative déclarée, la prise en charge du protocole de couche réseau BACnet, la prise en charge de chaque option de liaison de données déclarée, et la prise en charge de toutes les fonctionnalités spéciales déclarées.
+  content: ISO 16484-6:2009 defines a standard method for verifying that an implementation
+    of the BACnet protocol provides each capability claimed in its Protocol Implementation
+    Conformance Statement (PICS) in conformance with the BACnet standard. ISO 16484-6:2009
+    provides a comprehensive set of procedures for verifying the correct implementation
+    of each capability claimed on a BACnet PICS, including upport of each claimed
+    BACnet service, either as an initiator, executor, or both, support of each claimed
+    BACnet object-type, including both required properties and each claimed optional
+    property, support of the BACnet network layer protocol, support of each claimed
+    data link option, and support of all claimed special functionality.
 status:
   stage:
     content: '95'
@@ -110,27 +107,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 16484-6:2005
+    formattedref:
+      content: ISO 16484-6:2014
+    docidentifier:
+    - content: ISO 16484-6:2014
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 16484-6:2005
     docidentifier:
     - content: ISO 16484-6:2005
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 16484-6:2014
+    formattedref:
+      content: ISO 16484-6:2005/DAmd 1
     docidentifier:
-    - content: ISO 16484-6:2014
+    - content: ISO 16484-6:2005/DAM 1
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2014-05-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

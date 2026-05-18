@@ -1,38 +1,32 @@
 ---
 id: ISO192992020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Electronic fee collection
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security framework
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Electronic fee collection - Security framework
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception de télépéage
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cadre de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Perception de télépéage - Cadre de sécurité
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/78357.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 19299:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:19299:stage-60.60
+- content: urn:iso:std:iso:19299:stage-90.93
   type: URN
 docnumber: '19299'
 date:
 - type: published
-  at: 2020-08
+  at: '2020-08-13'
 contributor:
 - role:
   - type: publisher
@@ -88,21 +82,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines an information security framework for all organizational and technical entities of an EFC scheme and for the related interfaces, based on the system architecture defined in ISO 17573-1. The security framework describes a set of security requirements and associated security measures.
-    Annex D contains a list of potential threats to EFC systems and a possible relation to the defined security requirements. These threats can be used for a threat analysis to identify the relevant security requirements for an EFC system.
-    The relevant security measures to secure EFC systems can then be derived from the identified security requirements.
-- language: fr
-  script: Latn
-  content: |-
-    Ce document définit un cadre de sécurité de l'information pour toutes les entités organisationnelles et techniques d'un système EFC et pour les interfaces correspondantes, sur la base de l'architecture système définie dans la norme ISO 17573-1. Le cadre de sécurité décrit un ensemble d'exigences de sécurité et de mesures de sécurité associées.
-    L'Annexe D contient une liste des menaces potentielles pour les systèmes EFC et une relation possible avec les exigences de sécurité définies. Ces menaces peuvent être utilisées pour une analyse des menaces afin d'identifier les exigences de sécurité pertinentes pour un système EFC.
-    Les mesures de sécurité pertinentes pour sécuriser les systèmes EFC peuvent ensuite être dérivées des exigences de sécurité identifiées.
+  content: This document defines an information security framework for all organizational
+    and technical entities of an EFC scheme and for the related interfaces, based
+    on the system architecture defined in ISO 17573-1. The security framework describes
+    a set of security requirements and associated security measures. Annex D contains
+    a list of potential threats to EFC systems and a possible relation to the defined
+    security requirements. These threats can be used for a threat analysis to identify
+    the relevant security requirements for an EFC system. The relevant security measures
+    to secure EFC systems can then be derived from the identified security requirements.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2020'
   owner:
@@ -110,26 +102,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/TS 19299:2015
+    formattedref:
+      content: ISO/TS 19299:2015
     docidentifier:
     - content: ISO/TS 19299:2015
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

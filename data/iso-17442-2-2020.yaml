@@ -1,50 +1,42 @@
 ---
 id: ISO1744222020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Financial services
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Legal entity identifier (LEI)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Application in digital certificates'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Financial services - Legal entity identifier (LEI) - Part 2: Application
     in digital certificates'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Services financiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Schéma d'identifiant d'entité légale (IEL)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Utilisation dans les certificats numériques'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Services financiers - Schéma d''identifiant d''entité légale (IEL) - Partie
     2: Utilisation dans les certificats numériques'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/79917.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO 17442-2:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:17442:-2:stage-60.60
+- content: urn:iso:std:iso:17442:-2:stage-90.93
   type: URN
 docnumber: '17442'
 date:
 - type: published
-  at: 2020-08
+  at: '2020-08-18'
 contributor:
 - role:
   - type: publisher
@@ -94,25 +86,22 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a standardised way of embedding the legal entity identifier (LEI) code, as represented in ISO 17442-1, in digital certificates, represented by the International Telecommunications Union (ITU) Recommendation X.509 and its ISO equivalent standard, ISO/IEC 9594-8.
-    This document specifies the structure of a public key certificate conforming with ISO/IEC 9594-8 in which the LEI is embedded.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies a standardised way of embedding the legal entity identifier (LEI) code, as represented in ISO 17442-1, in digital certificates, represented by the International Telecommunications Union (ITU) Recommendation X.509 and its ISO equivalent standard, ISO/IEC 9594-8.
-    This document specifies the structure of a public key certificate conforming with ISO/IEC 9594-8 in which the LEI is embedded.
+  content: This document specifies a standardised way of embedding the legal entity
+    identifier (LEI) code, as represented in ISO 17442-1, in digital certificates,
+    represented by the International Telecommunications Union (ITU) Recommendation
+    X.509 and its ISO equivalent standard, ISO/IEC 9594-8. This document specifies
+    the structure of a public key certificate conforming with ISO/IEC 9594-8 in which
+    the LEI is embedded.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2020'
   owner:
@@ -120,18 +109,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 17442:2019
+    formattedref:
+      content: ISO 17442:2019
     docidentifier:
     - content: ISO 17442:2019
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

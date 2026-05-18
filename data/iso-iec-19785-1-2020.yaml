@@ -1,50 +1,42 @@
 ---
 id: ISOIEC1978512020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Common Biometric Exchange Formats Framework
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Data element specification'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Common Biometric Exchange Formats Framework -
     Part 1: Data element specification'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cadre de formats d'échange biométriques communs
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Spécification des éléments de données'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Cadre de formats d''échange biométriques
     communs - Partie 1: Spécification des éléments de données'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/77892.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 19785-1:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:19785:-1:stage-60.60
+- content: urn:iso:std:iso-iec:19785:-1:stage-90.60
   type: URN
 docnumber: '19785'
 date:
 - type: published
-  at: 2020-09
+  at: '2020-09-14'
 contributor:
 - role:
   - type: publisher
@@ -103,41 +95,35 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines:
-    —     structures and data elements for biometric information records (BIRs);
-    —     the concept of a domain of use to establish the applicability of a standard or specification that conforms with CBEFF requirements;
-    —     the concept of a CBEFF patron format, which is a published BIR format specification that complies with CBEFF requirements, specified by a CBEFF patron;
-    —     the abstract values and associated semantics of a set of CBEFF data elements to be used in the definition of CBEFF patron formats;
-    This document describes methods to define CBEFF patron formats using CBEFF data elements to specify the structure of BIRs, including the standard biometric headers (SBHs).
-    This document also provides the means for identification of BDB formats in a BIR, but the standardization and interoperability of BDB formats is not within the scope of this document. This document provides a security block (SB) as a means for BIRs to carry information about the encryption of a BDB in the BIR and about integrity mechanisms applied to the BIR itself. The structure and content of SBs is not within the scope of this document. Further, the specification of encryption mechanisms for BDBs and of integrity mechanisms for BIRs is not within the scope of this document.
-    This document specifies transformations from one CBEFF patron format to a different CBEFF patron format.
-    The following are not within the scope of this document:
-    —     the encoding of the abstract values of CBEFF data elements to be used in the specification of CBEFF patron formats; and
-    —     protection of the privacy of individuals from inappropriate dissemination and use of biometric data.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines:
-    —     structures and data elements for biometric information records (BIRs);
-    —     the concept of a domain of use to establish the applicability of a standard or specification that conforms with CBEFF requirements;
-    —     the concept of a CBEFF patron format, which is a published BIR format specification that complies with CBEFF requirements, specified by a CBEFF patron;
-    —     the abstract values and associated semantics of a set of CBEFF data elements to be used in the definition of CBEFF patron formats;
-    This document describes methods to define CBEFF patron formats using CBEFF data elements to specify the structure of BIRs, including the standard biometric headers (SBHs).
-    This document also provides the means for identification of BDB formats in a BIR, but the standardization and interoperability of BDB formats is not within the scope of this document. This document provides a security block (SB) as a means for BIRs to carry information about the encryption of a BDB in the BIR and about integrity mechanisms applied to the BIR itself. The structure and content of SBs is not within the scope of this document. Further, the specification of encryption mechanisms for BDBs and of integrity mechanisms for BIRs is not within the scope of this document.
-    This document specifies transformations from one CBEFF patron format to a different CBEFF patron format.
-    The following are not within the scope of this document:
-    —     the encoding of the abstract values of CBEFF data elements to be used in the specification of CBEFF patron formats; and
-    —     protection of the privacy of individuals from inappropriate dissemination and use of biometric data.
+  content: 'This document defines: — structures and data elements for biometric information
+    records (BIRs); — the concept of a domain of use to establish the applicability
+    of a standard or specification that conforms with CBEFF requirements; — the concept
+    of a CBEFF patron format, which is a published BIR format specification that complies
+    with CBEFF requirements, specified by a CBEFF patron; — the abstract values and
+    associated semantics of a set of CBEFF data elements to be used in the definition
+    of CBEFF patron formats; This document describes methods to define CBEFF patron
+    formats using CBEFF data elements to specify the structure of BIRs, including
+    the standard biometric headers (SBHs). This document also provides the means for
+    identification of BDB formats in a BIR, but the standardization and interoperability
+    of BDB formats is not within the scope of this document. This document provides
+    a security block (SB) as a means for BIRs to carry information about the encryption
+    of a BDB in the BIR and about integrity mechanisms applied to the BIR itself.
+    The structure and content of SBs is not within the scope of this document. Further,
+    the specification of encryption mechanisms for BDBs and of integrity mechanisms
+    for BIRs is not within the scope of this document. This document specifies transformations
+    from one CBEFF patron format to a different CBEFF patron format. The following
+    are not within the scope of this document: — the encoding of the abstract values
+    of CBEFF data elements to be used in the specification of CBEFF patron formats;
+    and — protection of the privacy of individuals from inappropriate dissemination
+    and use of biometric data.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
     content: '60'
 copyright:
@@ -147,18 +133,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 19785-1:2015
+    formattedref:
+      content: ISO/IEC 19785-1:2015
     docidentifier:
     - content: ISO/IEC 19785-1:2015
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

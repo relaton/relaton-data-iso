@@ -1,39 +1,33 @@
 ---
 id: ISO21082017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information and documentation
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International Standard Book Number (ISBN)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Information and documentation - International Standard Book Number (ISBN)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Numéro international normalisé du livre (ISBN)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Information et documentation - Numéro international normalisé du livre
     (ISBN)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/65483.html
@@ -52,7 +46,7 @@ docidentifier:
 docnumber: '2108'
 date:
 - type: published
-  at: 2017-12
+  at: '2017-12-15'
 contributor:
 - role:
   - type: publisher
@@ -89,16 +83,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 2108:2017 establishes the specifications for the International Standard Book Number (ISBN) as a unique international identification system for each product form or edition of a separately available monographic publication published or produced by a specific publisher that is available to the public. It specifies the construction of an ISBN, the rules for its assignment and use, the metadata to be associated with the ISBN allocation, and the administration of the ISBN system.
-    ISO 2108:2017 is applicable to monographic publications (books), not to textual works (content). Monographic publications include individual sections or chapters where these are made separately available and certain types of related products that are available to the public irrespective of whether those publications are made available for sale or on a gratis basis. Examples of applicable and non-applicable products are provided in Annex A.
-    NOTE       More detailed, operational guidance is provided in the latest version of the Users' Manual available from the Registration Authority for this document (see Clause 7).
-- language: fr
-  script: Latn
-  content: |-
-    ISO 2108:2017 a pour objet d'établir les spécifications faisant du Numéro international normalisé du livre (ISBN) un système d'identification international unique pour chaque format de produit ou édition d'une monographie mise à disposition séparément, publiée ou produite par un éditeur en particulier, qui est mise à la disposition du public. Elle spécifie la composition d'un ISBN, les règles pour son attribution et son utilisation, les métadonnées devant être associées à l'attribution de l'ISBN ainsi que l'administration du système ISBN.
-    ISO 2108:2017 est applicable aux monographies (livres), et non aux ?uvres textuelles (contenu). Les monographies comprennent les parties individuelles ou chapitres lorsqu'ils sont mis à disposition séparément et certains types de produits connexes mis à la disposition du public, que ce soit à la vente ou gratuitement. L'Annexe A fournit des exemples de produits pour lesquels la norme est ou non applicable.
-    NOTE       Des conseils opérationnels plus détaillés sont fournis dans la dernière version du Manuel d'utilisation, disponible auprès de l'Autorité d'enregistrement pour le présent document (voir Article 7).
+  content: ISO 2108:2017 establishes the specifications for the International Standard
+    Book Number (ISBN) as a unique international identification system for each product
+    form or edition of a separately available monographic publication published or
+    produced by a specific publisher that is available to the public. It specifies
+    the construction of an ISBN, the rules for its assignment and use, the metadata
+    to be associated with the ISBN allocation, and the administration of the ISBN
+    system. ISO 2108:2017 is applicable to monographic publications (books), not to
+    textual works (content). Monographic publications include individual sections
+    or chapters where these are made separately available and certain types of related
+    products that are available to the public irrespective of whether those publications
+    are made available for sale or on a gratis basis. Examples of applicable and non-applicable
+    products are provided in Annex A. NOTE More detailed, operational guidance is
+    provided in the latest version of the Users' Manual available from the Registration
+    Authority for this document (see Clause 7).
 status:
   stage:
     content: '90'
@@ -111,18 +109,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 2108:2005
+    formattedref:
+      content: ISO 2108:2005
     docidentifier:
     - content: ISO 2108:2005
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

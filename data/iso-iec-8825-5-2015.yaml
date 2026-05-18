@@ -1,54 +1,48 @@
 ---
 id: ISOIEC882552015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: 'ASN.1 encoding rules:  Mapping W3C XML schema definitions into ASN.1'
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5:'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - ASN.1 encoding rules:  Mapping W3C XML schema
     definitions into ASN.1 - Part 5:'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Règles de codage ASN.1: Mappage en ASN.1 des définitions de schéma XML
     du W3C'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5:'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Règles de codage ASN.1: Mappage en ASN.1
     des définitions de schéma XML du W3C - Partie 5:'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/68349.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:68349:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/83/68349.detail.rss
 docidentifier:
@@ -62,7 +56,7 @@ docidentifier:
 docnumber: '8825'
 date:
 - type: published
-  at: 2015-11
+  at: '2015-11-12'
 contributor:
 - role:
   - type: publisher
@@ -102,24 +96,27 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 8825-5:2015 specifies two Versions of a mapping from any XSD Schema into an ASN.1 schema. The ASN.1 schema for both Versions support the same semantics and validate the same set of XML documents.
-    ISO/IEC 8825-5:2015 specifies the final XER encoding instructions that are to be applied as part of the defined mapping to ASN.1 types, but does not specify which syntactic form is to be used for the specification of those final XER encoding instructions, or the order or manner of their assignment.
-    NOTE ? Implementers of tools generating these mappings may choose any syntactic form or order of assignment that results in the specified final XER encoding instructions being applied. Examples in this Recommendation | International Standard generally use the type prefix form, but use of an XER Encoding Control Section may be preferred for the mapping of a complete XSD Schema, as a matter of style.
-    There are different ways (syntactically) of assigning XER encoding instructions for use in EXTENDED-XER encodings (for example, use of ASN.1 type prefix encoding instructions or use of an XER encoding control section). The choice of these syntactic forms is a matter of style and is outside the scope of this Recommendation | International Standard.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC 8825-5:2015 specifies two Versions of a mapping from any XSD Schema into an ASN.1 schema. The ASN.1 schema for both Versions support the same semantics and validate the same set of XML documents.
-    ISO/IEC 8825-5:2015 specifies the final XER encoding instructions that are to be applied as part of the defined mapping to ASN.1 types, but does not specify which syntactic form is to be used for the specification of those final XER encoding instructions, or the order or manner of their assignment.
-    NOTE ? Implementers of tools generating these mappings may choose any syntactic form or order of assignment that results in the specified final XER encoding instructions being applied. Examples in this Recommendation | International Standard generally use the type prefix form, but use of an XER Encoding Control Section may be preferred for the mapping of a complete XSD Schema, as a matter of style.
-    There are different ways (syntactically) of assigning XER encoding instructions for use in EXTENDED-XER encodings (for example, use of ASN.1 type prefix encoding instructions or use of an XER encoding control section). The choice of these syntactic forms is a matter of style and is outside the scope of this Recommendation | International Standard.
+  content: ISO/IEC 8825-5:2015 specifies two Versions of a mapping from any XSD Schema
+    into an ASN.1 schema. The ASN.1 schema for both Versions support the same semantics
+    and validate the same set of XML documents. ISO/IEC 8825-5:2015 specifies the
+    final XER encoding instructions that are to be applied as part of the defined
+    mapping to ASN.1 types, but does not specify which syntactic form is to be used
+    for the specification of those final XER encoding instructions, or the order or
+    manner of their assignment. NOTE ? Implementers of tools generating these mappings
+    may choose any syntactic form or order of assignment that results in the specified
+    final XER encoding instructions being applied. Examples in this Recommendation
+    | International Standard generally use the type prefix form, but use of an XER
+    Encoding Control Section may be preferred for the mapping of a complete XSD Schema,
+    as a matter of style. There are different ways (syntactically) of assigning XER
+    encoding instructions for use in EXTENDED-XER encodings (for example, use of ASN.1
+    type prefix encoding instructions or use of an XER encoding control section).
+    The choice of these syntactic forms is a matter of style and is outside the scope
+    of this Recommendation | International Standard.
 status:
   stage:
     content: '95'
@@ -134,43 +131,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-5:2008
+    formattedref:
+      content: ISO/IEC 8825-5:2021
     docidentifier:
-    - content: ISO/IEC 8825-5:2008
+    - content: ISO/IEC 8825-5:2021
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-5:2008/Cor 1:2012
-    docidentifier:
-    - content: ISO/IEC 8825-5:2008/Cor 1:2012
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-5:2008/Cor 2:2014
+    formattedref:
+      content: ISO/IEC 8825-5:2008/Cor 2:2014
     docidentifier:
     - content: ISO/IEC 8825-5:2008/Cor 2:2014
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 8825-5:2021
+    formattedref:
+      content: ISO/IEC 8825-5:2008/Cor 1:2012
     docidentifier:
-    - content: ISO/IEC 8825-5:2021
+    - content: ISO/IEC 8825-5:2008/Cor 1:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-06-30'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 8825-5:2008
+    docidentifier:
+    - content: ISO/IEC 8825-5:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

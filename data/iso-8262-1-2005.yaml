@@ -1,54 +1,45 @@
 ---
 id: ISO826212005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Milk products and milk-based foods
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of fat content by the Weibull-Berntrop gravimetric method
     (Reference method)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Infant foods'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Milk products and milk-based foods - Determination of fat content by the
     Weibull-Berntrop gravimetric method (Reference method) - Part 1: Infant foods'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits laitiers et produits à base de lait
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination de la teneur en matière grasse par la méthode gravimétrique
     Weibull-Berntrop (Méthode de référence)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Aliments pour enfants en bas âge'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Produits laitiers et produits à base de lait - Détermination de la teneur
     en matière grasse par la méthode gravimétrique Weibull-Berntrop (Méthode de référence)
     - Partie 1: Aliments pour enfants en bas âge'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/42070.html
@@ -62,12 +53,12 @@ docidentifier:
   primary: true
 - content: ISO 8262-1:2005(E)
   type: iso-reference
-- content: urn:iso:std:iso:8262:-1:stage-90.60
+- content: urn:iso:std:iso:8262:-1:stage-90.92
   type: URN
 docnumber: '8262'
 date:
 - type: published
-  at: 2005-09
+  at: '2005-09-20'
 contributor:
 - role:
   - type: publisher
@@ -99,28 +90,25 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: "ISO 8262-1|IDF 124-1:2005 specifies the reference method for the determination
+  content: ISO 8262-1|IDF 124-1:2005 specifies the reference method for the determination
     of the fat content of infant foods to which the Röse-Gottlieb method is not applicable,
     i.e. those milk-based and other types of infant food that contain more than 5
     % (mass fraction) (dry matter) of starch or dextrin, or vegetable, fruit, meat,
-    etc. \nThe method is also applicable if the product contains free fatty acids
-    in significant quantities or if hard lumps that do not dissolve completely in
-    ammonia are present in the product."
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 8262-1|FIL 124-1:2005 spécifie la méthode de référence pour la détermination de la teneur en matière grasse des aliments pour enfants en bas âge, pour lesquels la méthode Röse-Gottlieb n'est pas applicable, car ces produits à base de lait et les autres types d'aliments pour enfants en bas âge contiennent plus de 5 % (fraction massique) (matière sèche) d'amidon, de dextrines, de légumes, de fruits, de viande, etc.
-    La méthode est également applicable si le produit contient des acides gras libres en quantités importantes, ou si des morceaux durs ne se dissolvants pas complètement dans l'ammoniaque sont présents dans le produit.
+    etc. The method is also applicable if the product contains free fatty acids in
+    significant quantities or if hard lumps that do not dissolve completely in ammonia
+    are present in the product.
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2005'
   owner:
@@ -130,16 +118,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 8262-1:1987
+    formattedref:
+      content: ISO/CD 8262
+    docidentifier:
+    - content: ISO/CD 8262
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 8262-1:1987
     docidentifier:
     - content: ISO 8262-1:1987
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -149,5 +145,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      part: 1
-      content: ISO 8262
+      content: '42070'

@@ -1,41 +1,37 @@
 ---
 id: ISO65021999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rubber
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Guide to the use of curemeters
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Rubber - Guide to the use of curemeters
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Caoutchouc
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Guide pour l'emploi des rhéomètres
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Caoutchouc - Guide pour l'emploi des rhéomètres
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/20179.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:20179:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/02/01/20179.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '6502'
 date:
 - type: published
-  at: 1999-12
+  at: '1999-12-02'
 contributor:
 - role:
   - type: publisher
@@ -80,7 +76,6 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 status:
@@ -97,27 +92,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6502:1991
-    docidentifier:
-    - content: ISO 6502:1991
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 6502:2016
+    formattedref:
+      content: ISO 6502:2016
     docidentifier:
     - content: ISO 6502:2016
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2016-01-12'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 6502:1991
+    docidentifier:
+    - content: ISO 6502:1991
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

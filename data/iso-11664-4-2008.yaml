@@ -1,41 +1,37 @@
 ---
 id: ISO1166442008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Colorimetry
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: CIE 1976 L*a*b* Colour space'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Colorimetry - Part 4: CIE 1976 L*a*b* Colour space'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Colorimétrie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Espace chromatique L*a*b* CIE 1976'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Colorimétrie - Partie 4: Espace chromatique L*a*b* CIE 1976'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/52497.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:52497:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/24/52497.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '11664'
 date:
 - type: published
-  at: 2008-11
+  at: '2008-11-07'
 contributor:
 - role:
   - type: publisher
@@ -69,7 +65,7 @@ contributor:
     - content: " International Commission on Illumination"
     subdivision:
     - name:
-      - content: International Commission on Illumination
+      - content: CIE
       identifier:
       - content: CIE
       type: technical-committee
@@ -86,14 +82,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 11664-4:2008 specifies the method of calculating the coordinates of the CIE 1976 L*a*b* colour space including correlates of lightness, chroma and hue. It includes two methods for calculating Euclidean distances in this space to represent the perceived magnitude of colour differences.
-    ISO 11664-4:2008 is applicable to tristimulus values calculated using colour-matching functions of the CIE 1931 standard colorimetric system or the CIE 1964 standard colorimetric system. ISO 11664-4:2008 may be used for the specification of colour stimuli perceived as belonging to a reflecting or transmitting object, where a three-dimensional space more uniform than tristimulus space is required. It does not apply to colour stimuli perceived as belonging to an area that appears to be emitting light as a primary light source, or that appears to be specularly reflecting such light. ISO 11664-4:2008 does apply to self-luminous displays, like cathode ray tubes, if they are being used to simulate reflecting or transmitting objects and if the stimuli are appropriately normalized.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 11664-4:2008 spécifie la méthode de calcul des coordonnées de l'espace chromatique L*a*b* CIE 1976 ainsi que des correspondants de clarté, de chroma et de teinte. Elle donne deux méthodes de calcul de la distance euclidienne dans cet espace, représentant la valeur perçue des différences de couleur.
-    L'ISO 11664-4:2008 est applicable aux composantes trichromatiques calculées en utilisant les fonctions colorimétriques du système colorimétrique CIE 1931 normalisé ou du système colorimétrique CIE 1964 normalisé. Elle peut être utilisée pour la spécification de stimulus de couleur se rapportant à des objets qui réfléchissent ou qui transmettent la lumière, pour lesquels un espace chromatique tridimensionnel plus uniforme que le système trichromatique est nécessaire. Elle ne s'applique pas à des stimulus de couleur se rapportant à des surfaces qui paraissent émettre de la lumière comme le font les sources primaires de lumière ou qui apparaissent réfléchir spéculairement de telles lumières. L'ISO 11664-4:2008 s'applique aux afficheurs auto-lumineux, tels que des tubes cathodiques, quand ils sont utilisés pour simuler des objets réfléchissants ou transparents, à condition que les stimulus soient convenablement normalisés.
+  content: ISO 11664-4:2008 specifies the method of calculating the coordinates of
+    the CIE 1976 L*a*b* colour space including correlates of lightness, chroma and
+    hue. It includes two methods for calculating Euclidean distances in this space
+    to represent the perceived magnitude of colour differences. ISO 11664-4:2008 is
+    applicable to tristimulus values calculated using colour-matching functions of
+    the CIE 1931 standard colorimetric system or the CIE 1964 standard colorimetric
+    system. ISO 11664-4:2008 may be used for the specification of colour stimuli perceived
+    as belonging to a reflecting or transmitting object, where a three-dimensional
+    space more uniform than tristimulus space is required. It does not apply to colour
+    stimuli perceived as belonging to an area that appears to be emitting light as
+    a primary light source, or that appears to be specularly reflecting such light.
+    ISO 11664-4:2008 does apply to self-luminous displays, like cathode ray tubes,
+    if they are being used to simulate reflecting or transmitting objects and if the
+    stimuli are appropriately normalized.
 status:
   stage:
     content: '95'
@@ -106,21 +108,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/CIE 11664-4:2019
+    formattedref:
+      content: ISO/CIE 11664-4:2019
     docidentifier:
     - content: ISO/CIE 11664-4:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-06-19'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/FDIS 11664
+    docidentifier:
+    - content: ISO/FDIS 11664
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

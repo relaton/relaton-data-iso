@@ -1,53 +1,47 @@
 ---
 id: ISO43431978
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Numerical control of machines
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: NC processor output
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Minor elements of 2000- type records (Post-processor commands)
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Numerical control of machines - NC processor output - Minor elements of
     2000- type records (Post-processor commands)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Commande numérique des machines
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations de sortie des processeurs CN
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Éléments mineurs des enregistrements de type 2000 (Instruction post-processeur)
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Commande numérique des machines - Informations de sortie des processeurs
     CN - Éléments mineurs des enregistrements de type 2000 (Instruction post-processeur)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/10221.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:10221:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/02/10221.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '4343'
 date:
 - type: published
-  at: 1978-04
+  at: '1978-04-01'
 contributor:
 - role:
   - type: publisher
@@ -107,21 +101,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4343:2000
+    formattedref:
+      content: ISO/DIS 4343
+    docidentifier:
+    - content: ISO/DIS 4343
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 4343:2000
     docidentifier:
     - content: ISO 4343:2000
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2000-11-16'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

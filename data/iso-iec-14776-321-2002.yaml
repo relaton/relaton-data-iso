@@ -1,50 +1,42 @@
 ---
 id: ISOIEC147763212002
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Small Computer System Interface-3 (SCSI-3)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 321: SCSI-3 Block Commands (SBC)'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Small Computer System Interface-3 (SCSI-3) -
     Part 321: SCSI-3 Block Commands (SBC)'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface 3 de petit système d'ordinateur (SCSI-3)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 321: Commandes du bloc SCSI-3 (SBC)'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Interface 3 de petit système d''ordinateur
     (SCSI-3) - Partie 321: Commandes du bloc SCSI-3 (SBC)'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/36003.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '14776'
 date:
 - type: published
-  at: 2002-08
+  at: '2002-09-26'
 contributor:
 - role:
   - type: publisher
@@ -103,58 +95,30 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This part of ISO/IEC 14776 defines the command set extensions to facilitate operation of SCSI
-    block devices.
-    It specifies the functional requirements for the SCSI-Block Command set (SBC). SBC permits
-    that SCSI block logical units, such as flexible disks, rigid disks, optical disks, etc. be attached
-    to computers, and it provides the definition for their use.
-    This standard defines a logical unit model for SCSI block logical units. Also defined are SCSI
-    commands that apply to SCSI block logical units.
-    The clause(s) of this standard pertaining to the SCSI block device class, implemented in
-    conjunction with the applicable clauses of ISO/IEC 14776-311, fully specify the standard
-    command set for SCSI block devices.
-    The objectives of this standard are the following:
-    a) permit an application client to communicate with a logical unit that declares itself to be a
-    direct-access device, write-once device and optical memory device in the device type field
-    of the INQUIRY command response data over an SCSI service delivery subsystem;
-    b) define commands unique to the type of SCSI block devices;
-    c) define commands to manage the operation of SCSI block devices;
-    d) define the differences between types of SCSI block devices.
-    Figure 1 ? SCSI standards ? General structure
-    Figure 1 shows the general structure of SCSI standards. The figure does not imply a
-    relationship such as a hierarchy, protocol stack, or system architecture. It indicates the
-    applicability of a standard to the implementation of a given transport.
-- language: fr
-  script: Latn
-  content: |-
-    This part of ISO/IEC 14776 defines the command set extensions to facilitate operation of SCSI
-    block devices.
-    It specifies the functional requirements for the SCSI-Block Command set (SBC). SBC permits
-    that SCSI block logical units, such as flexible disks, rigid disks, optical disks, etc. be attached
-    to computers, and it provides the definition for their use.
-    This standard defines a logical unit model for SCSI block logical units. Also defined are SCSI
-    commands that apply to SCSI block logical units.
-    The clause(s) of this standard pertaining to the SCSI block device class, implemented in
-    conjunction with the applicable clauses of ISO/IEC 14776-311, fully specify the standard
-    command set for SCSI block devices.
-    The objectives of this standard are the following:
-    a) permit an application client to communicate with a logical unit that declares itself to be a
-    direct-access device, write-once device and optical memory device in the device type field
-    of the INQUIRY command response data over an SCSI service delivery subsystem;
-    b) define commands unique to the type of SCSI block devices;
-    c) define commands to manage the operation of SCSI block devices;
-    d) define the differences between types of SCSI block devices.
-    Figure 1 ? SCSI standards ? General structure
-    Figure 1 shows the general structure of SCSI standards. The figure does not imply a
-    relationship such as a hierarchy, protocol stack, or system architecture. It indicates the
-    applicability of a standard to the implementation of a given transport.
+  content: 'This part of ISO/IEC 14776 defines the command set extensions to facilitate
+    operation of SCSI block devices. It specifies the functional requirements for
+    the SCSI-Block Command set (SBC). SBC permits that SCSI block logical units, such
+    as flexible disks, rigid disks, optical disks, etc. be attached to computers,
+    and it provides the definition for their use. This standard defines a logical
+    unit model for SCSI block logical units. Also defined are SCSI commands that apply
+    to SCSI block logical units. The clause(s) of this standard pertaining to the
+    SCSI block device class, implemented in conjunction with the applicable clauses
+    of ISO/IEC 14776-311, fully specify the standard command set for SCSI block devices.
+    The objectives of this standard are the following: a) permit an application client
+    to communicate with a logical unit that declares itself to be a direct-access
+    device, write-once device and optical memory device in the device type field of
+    the INQUIRY command response data over an SCSI service delivery subsystem; b)
+    define commands unique to the type of SCSI block devices; c) define commands to
+    manage the operation of SCSI block devices; d) define the differences between
+    types of SCSI block devices. Figure 1 ? SCSI standards ? General structure Figure
+    1 shows the general structure of SCSI standards. The figure does not imply a relationship
+    such as a hierarchy, protocol stack, or system architecture. It indicates the
+    applicability of a standard to the implementation of a given transport.'
 status:
   stage:
     content: '90'
@@ -167,9 +131,9 @@ copyright:
       name:
       - content: ISO/IEC
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

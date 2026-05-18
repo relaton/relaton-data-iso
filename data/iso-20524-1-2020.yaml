@@ -1,52 +1,44 @@
 ---
 id: ISO2052412020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Geographic Data Files (GDF) GDF5.1
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: Application independent map data shared between multiple sources'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Intelligent transport systems - Geographic Data Files (GDF) GDF5.1 - Part
     1: Application independent map data shared between multiple sources'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transport intelligents
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Fichiers de données géographiques (GDF) GDF5.1
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Données cartographiques partagées entre sources multiples et
     indépendantes des applications'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes de transport intelligents - Fichiers de données géographiques
     (GDF) GDF5.1 - Partie 1: Données cartographiques partagées entre sources multiples
     et indépendantes des applications'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/68244.html
@@ -60,12 +52,12 @@ docidentifier:
   primary: true
 - content: ISO 20524-1:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:20524:-1:stage-90.20
+- content: urn:iso:std:iso:20524:-1:stage-90.60
   type: URN
 docnumber: '20524'
 date:
 - type: published
-  at: 2020-03
+  at: '2020-03-31'
 contributor:
 - role:
   - type: publisher
@@ -102,29 +94,32 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the conceptual and logical data model and physical encoding formats for geographic databases for Intelligent Transport Systems (ITS) applications and services. It includes a specification of potential contents of such databases (data dictionaries for Features, Attributes and Relationships), a specification of how these contents shall be represented, and of how relevant information about the database itself may be specified (metadata).
-    The focus of this document is on ITS applications and services and it emphasizes road and road-related information. ITS applications and services, however, also require information in addition to road and road-related information.
-    EXAMPLE 1    ITS applications and services need information about addressing systems in order to specify locations and/or destinations. Consequently, information about the administrative and postal subdivisions of an area is essential.
-    EXAMPLE 2    Map display is an important component of ITS applications and services. For proper map display, the inclusion of contextual information such as land and water cover is essential.
-    EXAMPLE 3    Point-of-Interest (POI) or service information is a key feature of traveller information. It adds value to end-user ITS applications and services.
-    Typical ITS applications and services targeted by this document are in-vehicle or portable navigation systems, traffic management centres, or services linked with road management systems, including public transport systems.
-    The Conceptual Data Model has a broader focus than ITS applications and services. It is application independent, allowing for future harmonization of this document with other geographic database standards.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie le modèle de données conceptuel et logique, ainsi que les formats de codage physique pour les bases de données géographiques destinées aux applications et services pour Systèmes de transport intelligents (STI). Il comporte une spécification du contenu potentiel de ces bases de données (dictionnaires de données pour les entités, attributs et relations), une spécification de la manière dont leur contenu doit être représenté et de la façon dont les informations pertinentes relatives à la base de données elle-même peuvent être spécifiées (métadonnées).
-    Le présent document est axé sur les applications et services STI et met l’accent sur les informations routières et connexes. Cependant, les applications et services STI nécessitent également des informations complémentaires aux informations routières et connexes.
-    EXEMPLE 1         Les applications et services STI nécessitent des informations relatives aux systèmes d’adressage afin de spécifier les emplacements et/ou les destinations. Par conséquent, les informations sur les subdivisions administratives et postales d’une zone sont indispensables.
-    EXEMPLE 2         L’affichage cartographique est une composante importante des applications et services STI. Pour un affichage cartographique correct, l’insertion d’informations contextuelles, telles que la couverture terrestre et maritime, est indispensable.
-    EXEMPLE 3         Les informations relatives aux points d’intérêt (POI) ou aux services constituent un élément clé des informations destinées aux voyageurs. Elles apportent de la valeur ajoutée aux applications et services STI destinés à l’utilisateur final.
-    Les applications et services STI typiques ciblés par le présent document sont les systèmes de navigation embarqués ou portatifs, les systèmes de gestion du trafic ou les services liés aux systèmes de gestion de la circulation routière, y compris les systèmes de transport public.
-    Le modèle de données conceptuel a une portée plus étendue que les applications et services STI. Il est indépendant des applications et permettra une future harmonisation du présent document avec d’autres normes relatives aux bases de données géographiques.
+  content: This document specifies the conceptual and logical data model and physical
+    encoding formats for geographic databases for Intelligent Transport Systems (ITS)
+    applications and services. It includes a specification of potential contents of
+    such databases (data dictionaries for Features, Attributes and Relationships),
+    a specification of how these contents shall be represented, and of how relevant
+    information about the database itself may be specified (metadata). The focus of
+    this document is on ITS applications and services and it emphasizes road and road-related
+    information. ITS applications and services, however, also require information
+    in addition to road and road-related information. EXAMPLE 1 ITS applications and
+    services need information about addressing systems in order to specify locations
+    and/or destinations. Consequently, information about the administrative and postal
+    subdivisions of an area is essential. EXAMPLE 2 Map display is an important component
+    of ITS applications and services. For proper map display, the inclusion of contextual
+    information such as land and water cover is essential. EXAMPLE 3 Point-of-Interest
+    (POI) or service information is a key feature of traveller information. It adds
+    value to end-user ITS applications and services. Typical ITS applications and
+    services targeted by this document are in-vehicle or portable navigation systems,
+    traffic management centres, or services linked with road management systems, including
+    public transport systems. The Conceptual Data Model has a broader focus than ITS
+    applications and services. It is application independent, allowing for future
+    harmonization of this document with other geographic database standards.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -132,26 +127,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 14825:2011
+    formattedref:
+      content: ISO 14825:2011
     docidentifier:
     - content: ISO 14825:2011
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

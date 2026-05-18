@@ -1,53 +1,47 @@
 ---
 id: ISO1340012011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Diagnostic communication over Internet Protocol (DoIP)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: General information and use case definition'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Road vehicles - Diagnostic communication over Internet Protocol (DoIP)
     - Part 1: General information and use case definition'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Communication de diagnostic au travers du protocole internet (DoIP)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Informations générales et définition de cas d''usage'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Véhicules routiers - Communication de diagnostic au travers du protocole
     internet (DoIP) - Partie 1: Informations générales et définition de cas d''usage'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/53765.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:53765:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/05/37/53765.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '13400'
 date:
 - type: published
-  at: 2011-10
+  at: '2011-10-18'
 contributor:
 - role:
   - type: publisher
@@ -92,26 +86,21 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 13400-1:2011 describes the general use cases and communication scenarios which are covered by an Internet Protocol-based vehicle communication standard. Each use case drives specific communication capabilities of the vehicle communication interface, for instance in order to be interoperable in an existing computer network.
-    The diagnostic communication over Internet Protocol (DoIP) protocol supports the standardized service primitive interface as specified in ISO 14229-2.
-    The descriptions in ISO 13400-1:2011 cover different application layer implementations, such as:
-    - enhanced vehicle diagnostics (system diagnostics beyond legislated functionality, non-emissions-related system diagnostics);
-    - WWH-OBD (World-Wide Harmonized On-Board Diagnostics)  as specified in ISO 27145-2 and ISO 27145-3.
-- language: fr
-  script: Latn
-  content: |-
-    ISO 13400-1:2011 describes the general use cases and communication scenarios which are covered by an Internet Protocol-based vehicle communication standard. Each use case drives specific communication capabilities of the vehicle communication interface, for instance in order to be interoperable in an existing computer network.
-    The diagnostic communication over Internet Protocol (DoIP) protocol supports the standardized service primitive interface as specified in ISO 14229-2.
-    The descriptions in ISO 13400-1:2011 cover different application layer implementations, such as:
-    - enhanced vehicle diagnostics (system diagnostics beyond legislated functionality, non-emissions-related system diagnostics);
-    - WWH-OBD (World-Wide Harmonized On-Board Diagnostics)  as specified in ISO 27145-2 and ISO 27145-3.
+  content: 'ISO 13400-1:2011 describes the general use cases and communication scenarios
+    which are covered by an Internet Protocol-based vehicle communication standard.
+    Each use case drives specific communication capabilities of the vehicle communication
+    interface, for instance in order to be interoperable in an existing computer network.
+    The diagnostic communication over Internet Protocol (DoIP) protocol supports the
+    standardized service primitive interface as specified in ISO 14229-2. The descriptions
+    in ISO 13400-1:2011 cover different application layer implementations, such as:
+    enhanced vehicle diagnostics (system diagnostics beyond legislated functionality,
+    non-emissions-related system diagnostics); WWH-OBD (World-Wide Harmonized On-Board
+    Diagnostics) as specified in ISO 27145-2 and ISO 27145-3.'
 status:
   stage:
     content: '95'
@@ -123,18 +112,27 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 13400-1
+    docidentifier:
+    - content: ISO/NP 13400-1
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '43.180'
-    text: Diagnostic, maintenance and test equipment
   - code: 43.040.10
     text: Electrical and electronic equipment
+  - code: '43.180'
+    text: Diagnostic, maintenance and test equipment
   structuredidentifier:
     type: ISO
     project_number:

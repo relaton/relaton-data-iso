@@ -1,41 +1,37 @@
 ---
 id: ISO59821981
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Vibration and shock
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Mechanical driving point impedance of the human body
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Vibration and shock - Mechanical driving point impedance of the human body
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vibrations et chocs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Impédance mécanique d'entrée du corps humain
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vibrations et chocs - Impédance mécanique d'entrée du corps humain
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/12174.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:12174:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/21/12174.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '5982'
 date:
 - type: published
-  at: 1981-08
+  at: '1981-08-01'
 contributor:
 - role:
   - type: publisher
@@ -89,11 +85,6 @@ abstract:
   content: Definies the mechanical characteristics of the body in the form of whole
     body mechanical input impedance. Information is restricted to the frequency range
     from 0,5 to 30 Hz and for a limited number of body positions.
-- language: fr
-  script: Latn
-  content: Definies the mechanical characteristics of the body in the form of whole
-    body mechanical input impedance. Information is restricted to the frequency range
-    from 0,5 to 30 Hz and for a limited number of body positions.
 status:
   stage:
     content: '95'
@@ -106,21 +97,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 5982:2001
+    formattedref:
+      content: ISO/CD 5982
+    docidentifier:
+    - content: ISO/CD 5982
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 5982:2001
     docidentifier:
     - content: ISO 5982:2001
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2001-11-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

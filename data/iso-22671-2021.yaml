@@ -1,52 +1,44 @@
 ---
 id: ISO226712021
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Space data and information transfer systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Space link extension (SLE)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Forward communications link transmission unit (CLTU) service specification
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Space data and information transfer systems - Space link extension (SLE)
     - Forward communications link transmission unit (CLTU) service specification
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Extension de liaisons spatiales (SLE)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Service de l'unité de transmission pour la liaison d'envoi de télécommande
     (CLTU)
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes de transfert des informations et données spatiales - Extension
     de liaisons spatiales (SLE) - Service de l'unité de transmission pour la liaison
     d'envoi de télécommande (CLTU)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/74557.html
@@ -60,12 +52,12 @@ docidentifier:
   primary: true
 - content: ISO 22671:2021(E)
   type: iso-reference
-- content: urn:iso:std:iso:22671:stage-60.60
+- content: urn:iso:std:iso:22671:stage-90.20
   type: URN
 docnumber: '22671'
 date:
 - type: published
-  at: 2021-06
+  at: '2021-06-30'
 contributor:
 - role:
   - type: publisher
@@ -96,27 +88,31 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the Communications Link Transmission Unit (CLTU) service in conformance with the transfer services specified in reference [1], Cross Support Reference Model—Part 1: SLE Services.  The Forward CLTU service is a Space Link Extension (SLE) transfer service that enables a mission to send Communications Link Transmission Units (CLTUs) to a spacecraft.
-    This document defines, in an abstract manner, the Forward CLTU service in terms of:
-    It does not specify:
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the Communications Link Transmission Unit (CLTU) service in conformance with the transfer services specified in reference [1], Cross Support Reference Model—Part 1: SLE Services.  The Forward CLTU service is a Space Link Extension (SLE) transfer service that enables a mission to send Communications Link Transmission Units (CLTUs) to a spacecraft.
-    This document defines, in an abstract manner, the Forward CLTU service in terms of:
-    It does not specify:
+  content: 'This document defines the Communications Link Transmission Unit (CLTU)
+    service in conformance with the transfer services specified in reference [1],
+    Cross Support Reference Model—Part 1: SLE Services.  The Forward CLTU service
+    is a Space Link Extension (SLE) transfer service that enables a mission to send
+    Communications Link Transmission Units (CLTUs) to a spacecraft. This document
+    defines, in an abstract manner, the Forward CLTU service in terms of: the operations
+    necessary to provide the transfer service; the parameter data associated with
+    each operation; the behaviors that result from the invocation of each operation;
+    and the relationship between, and the valid sequence of, the operations and resulting
+    behaviors. It does not specify: individual implementations or products; the implementation
+    of entities or interfaces within real systems; the methods or technologies required
+    to radiate data to a spacecraft and to acquire telemetry frames from the signals
+    received from that spacecraft for extraction of the Operational Control Field;
+    the methods or technologies required for communications; or the management activities
+    necessary to schedule, configure, and control the Forward CLTU service.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '20'
 copyright:
 - from: '2021'
   owner:
@@ -124,18 +120,18 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 22671:2011
+    formattedref:
+      content: ISO 22671:2011
     docidentifier:
     - content: ISO 22671:2011
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

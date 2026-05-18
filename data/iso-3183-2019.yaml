@@ -1,40 +1,34 @@
 ---
 id: ISO31832019
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Petroleum and natural gas industries
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Steel pipe for pipeline transportation systems
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Petroleum and natural gas industries - Steel pipe for pipeline transportation
     systems
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Industries du pétrole et du gaz naturel
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Tubes en acier pour les systèmes de transport par conduites
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Industries du pétrole et du gaz naturel - Tubes en acier pour les systèmes
     de transport par conduites
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/76676.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 3183:2019(E)
   type: iso-reference
-- content: urn:iso:std:iso:3183:stage-90.60
+- content: urn:iso:std:iso:3183:stage-90.93
   type: URN
 docnumber: '3183'
 date:
 - type: published
-  at: 2019-10
+  at: '2019-10-07'
 contributor:
 - role:
   - type: publisher
@@ -90,21 +84,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies requirements for the manufacture of two product specification levels (PSL 1 and PSL 2) of seamless and welded steel pipes for use in pipeline transportation systems in the petroleum and natural gas industries.
-    This document supplements API Spec 5L, 46th edition (2018), the requirements of which are applicable with the exceptions specified in this document.
-    This document is not applicable to cast pipe.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie les exigences relatives à la fabrication de tubes en acier sans soudure et soudés utilisés dans des systèmes de transport par conduites dans les industries du pétrole et du gaz naturel et répondant à deux niveaux de spécifications de produit (PSL 1 et PSL 2).
-    Le présent document complète la spécification API 5L, 46e édition (2018), dont les exigences sont applicables sauf exceptions spécifiées dans le présent document.
-    Le présent document ne s'applique pas aux tuyaux en fonte.
+  content: This document specifies requirements for the manufacture of two product
+    specification levels (PSL 1 and PSL 2) of seamless and welded steel pipes for
+    use in pipeline transportation systems in the petroleum and natural gas industries.
+    This document supplements API Spec 5L, 46th edition (2018), the requirements of
+    which are applicable with the exceptions specified in this document. This document
+    is not applicable to cast pipe.
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2019'
   owner:
@@ -114,32 +104,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3183:2012
+    formattedref:
+      content: ISO/PWI 3183
     docidentifier:
-    - content: ISO 3183:2012
+    - content: ISO/PWI 3183
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 3183:2012/Amd 1:2017
+    formattedref:
+      content: ISO 3183:2012/Amd 1:2017
     docidentifier:
     - content: ISO 3183:2012/Amd 1:2017
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3183:2012
+    docidentifier:
+    - content: ISO 3183:2012
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '75.200'
-    text: Petroleum products and natural gas handling equipment
   - code: 77.140.75
     text: Steel pipes and tubes for specific use
+  - code: '75.200'
+    text: Petroleum products and natural gas handling equipment
   structuredidentifier:
     type: ISO
     project_number:

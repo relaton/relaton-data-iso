@@ -1,39 +1,32 @@
 ---
 id: ISO6421999
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Steel
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Hardenability test by end quenching (Jominy test)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Steel - Hardenability test by end quenching (Jominy test)
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acier
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Essai de trempabilité par trempe en bout (essai Jominy)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Acier - Essai de trempabilité par trempe en bout (essai Jominy)
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/1228.html
@@ -47,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 642:1999(E)
   type: iso-reference
-- content: urn:iso:std:iso:642:stage-90.92
+- content: urn:iso:std:iso:642:stage-95.99
   type: URN
 docnumber: '642'
 date:
 - type: published
-  at: 1999-09
+  at: '1999-09-09'
 contributor:
 - role:
   - type: publisher
@@ -86,17 +79,11 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale spécifie la méthode de détermination de la trempabilité de l'acier par trempe en bout (essai Jominy), à l'aide d'une éprouvette de 25 mm de diamètre et 100 mm de longueur.NOTE Par accord et pour un domaine donné d'application, l'essai décrit dans la présente Norme internationale peut être remplacé par le calcul de la courbe Jominy conformément à un modèle mathématique accepté (voir annexe C). En cas de litige, l'essai doit être effectué.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '1999'
   owner:
@@ -106,24 +93,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 642:1979
+    formattedref:
+      content: ISO 642:2024
     docidentifier:
-    - content: ISO 642:1979
+    - content: ISO 642:2024
       type: ISO
       primary: true
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 642
+    formattedref:
+      content: ISO/DIS 642
     docidentifier:
     - content: ISO/DIS 642
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 642:1979
+    docidentifier:
+    - content: ISO 642:1979
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -133,4 +128,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 642
+      content: '1228'

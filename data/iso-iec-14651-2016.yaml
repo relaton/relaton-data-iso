@@ -1,57 +1,51 @@
 ---
 id: ISOIEC146512016
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: International string ordering and comparison
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Method for comparing character strings and description of the common template
     tailorable ordering
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - International string ordering and comparison -
     Method for comparing character strings and description of the common template
     tailorable ordering
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Classement international et comparaison de chaînes de caractères
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode de comparaison de chaînes de caractères et description du modèle
     commun et adaptable d'ordre de classement
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Classement international et comparaison
     de chaînes de caractères - Méthode de comparaison de chaînes de caractères et
     description du modèle commun et adaptable d'ordre de classement
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/68309.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:68309:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/83/68309.detail.rss
 docidentifier:
@@ -65,9 +59,7 @@ docidentifier:
 docnumber: '14651'
 date:
 - type: published
-  at: 2016-02
-- type: corrected
-  at: 2016-05
+  at: '2016-02-17'
 contributor:
 - role:
   - type: publisher
@@ -113,40 +105,49 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC 14651:2016 defines the following.
-    -      A reference comparison method. This method is applicable to two character strings to determine their collating order in a sorted list. The method can be applied to strings containing characters from the full repertoire of ISO/IEC 10646. This method is also applicable to subsets of that repertoire, such as those of the different ISO/IEC 8-bit standard character sets, or any other character set, standardized or not, to produce ordering results valid (after tailoring) for a given set of languages for each script. This method uses collation tables derived either from the Common Template Table defined in this International Standard or from one of its tailorings. This method provides a reference format. The format is described using the Backus-Naur Form (BNF). This format is used to describe the Common Template Table. The format is used normatively within this International Standard.
-    -      A Common Template Table. A given tailoring of the Common Template Table is used by the reference comparison method. The Common Template Table describes an order for all characters encoded in the Unicode 8.0 standard, included in ISO/IEC 10646:2014 and its Amendment 1. It allows for a specification of a fully deterministic ordering. This table enables the specification of a string ordering adapted to local ordering rules, without requiring an implementer to have knowledge of all the different scripts already encoded in the Universal Coded Character Set (UCS).
-    NOTE 1    This Common Template Table is to be modified to suit the needs of a local environment. The main worldwide benefit is that, for other scripts, often no modification is required and the order will remain as consistent as possible and predictable from an international point of view.
-    NOTE 2    The character repertoire used in this International Standard is equivalent to that of the Unicode Standard version 6.0.
-    -      A reference name. The reference name refers to this particular version of the Common Template Table, for use as a reference when tailoring. In particular, this name implies that the table is linked to a particular stage of development of the ISO/IEC 10646 Universal coded character set.
-    -      Requirements for a declaration of the differences (delta) between the collation table and the Common Template Table.
-    This International Standard does not mandate the following.
-    -      A specific comparison method; any equivalent method giving the same results is acceptable.
-    -      A specific format for describing or tailoring tables in a given implementation.
-    -      Specific symbols to be used by implementations, except for the name of the Common Template Table.
-    -      Any specific user interface for choosing options.
-    -      Any specific internal format for intermediate keys used when comparing, nor for the table used. The use of numeric keys is not mandated either.
-    -      A context-dependent ordering.
-    -      Any particular preparation of character strings prior to comparison.
-    NOTE          It is normally necessary to do preparation of character strings prior to comparison even if it is not prescribed by this International Standard (see Annex C).
-    Although no user interface is required to choose options or to specify tailoring of the Common Template Table, conformance requires always declaring the applicable delta, a declaration of differences with this table. It is recommended that processes present available tailoring options to users.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO/IEC 14651:2016 définit ce qui suit.
-           Une méthode de référence pour la comparaison de deux chaînes de caractères ayant pour but de déterminer leur ordre de classement dans une liste triée. La méthode s'applique à des chaînes utilisant le répertoire complet de l'ISO/CEI 10646, des sous-répertoires tels que ceux des divers jeux normalisés ISO/CEI à 8 bits ou tout autre jeu de caractères, et permet de produire des résultats de tri valables (après adaptation) pour un ensemble de langues de chaque système d'écriture. Cette méthode de référence utilise des tables de tri dérivées soit de la table-modèle commune de classement définie dans la présente Norme internationale, soit d'une de ses adaptations. La méthode procure un format de référence de la table-modèle commune. Ce format est décrit en notation BNF (forme de Backus-Naur). Son emploi est normatif dans l'ISO/IEC 14651:2016.
-           Une table-modèle commune de classement utilisée par la méthode de référence. Cette table décrit un ordre de base pour tous les caractères du standard Unicode 8.0 compris dans l'ISO/CEI 10646:2014 et son amendement 1. Tout cela permet de spécifier un ordre complètement déterministe. Cette table constitue le point de départ permettant de préciser un ordre de classement adapté aux règles de classement locales, sans qu'il soit nécessaire de connaître tous les systèmes d'écriture repris dans le jeu universel de caractères codés (JUC).
-           Un nom de référence représentant cette version particulière de la table-modèle commune, à utiliser comme point de départ à toute adaptation. Ce nom implique notamment que la table est liée à un stade de développement particulier du jeu universel de caractères codés (ISO/CEI 10646).
-           Des exigences pour la déclaration de différences (delta) entre une table de tri et la table-modèle commune.
-    L'ISO/IEC 14651:2016 ne prescrit pas ce qui suit.
-           Une méthode particulière de comparaison; toute méthode équivalente conduisant aux mêmes résultats est acceptable.
-           Un format précis pour décrire ou pour adapter les tables dans une mise en ?uvre donnée.
-           Des symboles précis à utiliser par les mise en ?uvre, sauf pour ce qui est du nom de la table-modèle commune de classement.
-           Une interface utilisateur particulière destinée à choisir les options.
-           Un format interne particulier pour les clés intermédiaires utilisées dans les comparaisons ou pour la table de tri. L'utilisation de clés numériques n'est pas prescrite non plus.
-           Un ordre dépendant du contexte.
-           Un prétraitement particulier des chaînes de caractères avant comparaison.
+  content: ISO/IEC 14651:2016 defines the following. - A reference comparison method.
+    This method is applicable to two character strings to determine their collating
+    order in a sorted list. The method can be applied to strings containing characters
+    from the full repertoire of ISO/IEC 10646. This method is also applicable to subsets
+    of that repertoire, such as those of the different ISO/IEC 8-bit standard character
+    sets, or any other character set, standardized or not, to produce ordering results
+    valid (after tailoring) for a given set of languages for each script. This method
+    uses collation tables derived either from the Common Template Table defined in
+    this International Standard or from one of its tailorings. This method provides
+    a reference format. The format is described using the Backus-Naur Form (BNF).
+    This format is used to describe the Common Template Table. The format is used
+    normatively within this International Standard. - A Common Template Table. A given
+    tailoring of the Common Template Table is used by the reference comparison method.
+    The Common Template Table describes an order for all characters encoded in the
+    Unicode 8.0 standard, included in ISO/IEC 10646:2014 and its Amendment 1. It allows
+    for a specification of a fully deterministic ordering. This table enables the
+    specification of a string ordering adapted to local ordering rules, without requiring
+    an implementer to have knowledge of all the different scripts already encoded
+    in the Universal Coded Character Set (UCS). NOTE 1 This Common Template Table
+    is to be modified to suit the needs of a local environment. The main worldwide
+    benefit is that, for other scripts, often no modification is required and the
+    order will remain as consistent as possible and predictable from an international
+    point of view. NOTE 2 The character repertoire used in this International Standard
+    is equivalent to that of the Unicode Standard version 6.0. - A reference name.
+    The reference name refers to this particular version of the Common Template Table,
+    for use as a reference when tailoring. In particular, this name implies that the
+    table is linked to a particular stage of development of the ISO/IEC 10646 Universal
+    coded character set. - Requirements for a declaration of the differences (delta)
+    between the collation table and the Common Template Table. This International
+    Standard does not mandate the following. - A specific comparison method; any equivalent
+    method giving the same results is acceptable. - A specific format for describing
+    or tailoring tables in a given implementation. - Specific symbols to be used by
+    implementations, except for the name of the Common Template Table. - Any specific
+    user interface for choosing options. - Any specific internal format for intermediate
+    keys used when comparing, nor for the table used. The use of numeric keys is not
+    mandated either. - A context-dependent ordering. - Any particular preparation
+    of character strings prior to comparison. NOTE It is normally necessary to do
+    preparation of character strings prior to comparison even if it is not prescribed
+    by this International Standard (see Annex C). Although no user interface is required
+    to choose options or to specify tailoring of the Common Template Table, conformance
+    requires always declaring the applicable delta, a declaration of differences with
+    this table. It is recommended that processes present available tailoring options
+    to users.
 status:
   stage:
     content: '95'
@@ -161,54 +162,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14651:2011
-    docidentifier:
-    - content: ISO/IEC 14651:2011
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14651:2011/Amd 1:2012
-    docidentifier:
-    - content: ISO/IEC 14651:2011/Amd 1:2012
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14651:2011/Amd 2:2015
-    docidentifier:
-    - content: ISO/IEC 14651:2011/Amd 2:2015
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 14651:2019
+    formattedref:
+      content: ISO/IEC 14651:2019
     docidentifier:
     - content: ISO/IEC 14651:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-01-30'
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 14651:2016/Amd 1:2017
+    formattedref:
+      content: ISO/IEC 14651:2011/Amd 1:2012
     docidentifier:
-    - content: ISO/IEC 14651:2016/Amd 1:2017
+    - content: ISO/IEC 14651:2011/Amd 1:2012
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-01-30'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 14651:2011
+    docidentifier:
+    - content: ISO/IEC 14651:2011
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 14651:2011/Amd 2:2015
+    docidentifier:
+    - content: ISO/IEC 14651:2011/Amd 2:2015
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

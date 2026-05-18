@@ -1,53 +1,47 @@
 ---
 id: ISO2154952015
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Health informatics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Patient healthcard data
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5: Identification data'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Health informatics - Patient healthcard data - Part 5: Identification
     data'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informatique de santé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Données relatives aux cartes de santé des patients
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5: Données d''identification'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informatique de santé - Données relatives aux cartes de santé des patients
     - Partie 5: Données d''identification'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/63030.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:63030:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/30/63030.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '21549'
 date:
 - type: published
-  at: 2015-09
+  at: '2015-09-16'
 contributor:
 - role:
   - type: publisher
@@ -98,26 +92,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 21549-5:2015 describes and defines the basic structure of the identification data objects held on healthcare data cards, but does not specify particular data sets for storage on devices.
-    The detailed functions and mechanisms of the following services are not within the scope of this part of ISO 21549 (although its structures can accommodate suitable data objects elsewhere specified):
-    -      security functions and related services that are likely to be specified by users for data cards depending on their specific application, e.g. confidentiality protection, data integrity protection and authentication of persons and devices related to these functions;
-    -      access control services;
-    -      the initialization and issuing process (which begins the operating lifetime of an individual data card, and by which the data card is prepared for the data to be subsequently communicated to it according to this part of ISO 21549).
-    The following topics are therefore beyond the scope of this part of ISO 21549:
-    -      physical or logical solutions for the practical functioning of particular types of data card;
-    -      the forms that data take for use outside the data card, or the way in which such data are visibly represented on the data card or elsewhere.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 21549-5:2015 définit et décrit la structure de base des objets associés aux données d'identification se trouvant sur les cartes de santé, mais ne spécifie pas de jeu de données particulier pour le stockage sur la carte.
-    Les fonctions et les mécanismes détaillés des services ci-après ne relèvent pas du domaine d'application de la présente partie de l'ISO 21549 (bien que ces structures puissent prendre en charge des objets de cette nature, spécifiés par ailleurs):
-    ?   les fonctions de sécurité et les services associés susceptibles d'être spécifiés par les utilisateurs de cartes de données selon leurs applications spécifiques, par exemple la protection des données confidentielles, la protection de l'intégrité des données et l'authentification des personnes et les dispositifs liés à ces fonctions;
-    ?   les services de contrôle de l'accès;
-    ?   l'initialisation et le processus qui en découle (qui débute la durée de vie d'une carte individuelle et par lequel la carte de données est préparée pour les données qui seront communiquées ultérieurement, conformément à la présente partie de l'ISO 21549).
-    Les sujets suivants sont donc en dehors du domaine d'application de la présente partie de l'ISO 21549:
-    ?   les solutions physiques ou logiques pour le fonctionnement de type de cartes particulières;
-    ?   la forme que prennent les données pour leur utilisation en dehors de la carte ou la manière de représenter visuellement ces données sur la carte ou ailleurs.
+  content: 'ISO 21549-5:2015 describes and defines the basic structure of the identification
+    data objects held on healthcare data cards, but does not specify particular data
+    sets for storage on devices. The detailed functions and mechanisms of the following
+    services are not within the scope of this part of ISO 21549 (although its structures
+    can accommodate suitable data objects elsewhere specified): - security functions
+    and related services that are likely to be specified by users for data cards depending
+    on their specific application, e.g. confidentiality protection, data integrity
+    protection and authentication of persons and devices related to these functions;
+    - access control services; - the initialization and issuing process (which begins
+    the operating lifetime of an individual data card, and by which the data card
+    is prepared for the data to be subsequently communicated to it according to this
+    part of ISO 21549). The following topics are therefore beyond the scope of this
+    part of ISO 21549: - physical or logical solutions for the practical functioning
+    of particular types of data card; - the forms that data take for use outside the
+    data card, or the way in which such data are visibly represented on the data card
+    or elsewhere.'
 status:
   stage:
     content: '95'
@@ -132,27 +122,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 21549-5:2008
-    docidentifier:
-    - content: ISO 21549-5:2008
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 21549-5:2023
+    formattedref:
+      content: ISO 21549-5:2023
     docidentifier:
     - content: ISO 21549-5:2023
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2023-10-31'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 21549-5:2008
+    docidentifier:
+    - content: ISO 21549-5:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

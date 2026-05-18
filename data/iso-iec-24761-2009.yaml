@@ -1,53 +1,47 @@
 ---
 id: ISOIEC247612009
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Security techniques
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Authentication context for biometrics
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Information technology - Security techniques - Authentication context for
     biometrics
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques de sécurité
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Contexte d'authentification biométrique
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information - Techniques de sécurité - Contexte d'authentification
     biométrique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/41531.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:41531:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/15/41531.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '24761'
 date:
 - type: published
-  at: 2009-05
+  at: '2009-05-11'
 contributor:
 - role:
   - type: publisher
@@ -101,27 +95,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO/IEC 24761:2009 specifies the structure and the data elements of Authentication
-    Context for Biometrics (ACBio), which is used for checking the validity of the
-    result of a biometric verification process executed at a remote site. ISO/IEC
-    24761:2009 allows any ACBio instance to accompany any data item that is involved
-    in any biometric process related to verification and enrolment. The specification
-    of ACBio is applicable not only to single modal biometric verification but also
-    to multimodal fusion. ISO/IEC 24761:2009 specifies the cryptographic syntax of
-    an ACBio instance. The cryptographic syntax of an ACBio instance is based on an
-    abstract Cryptographic Message Syntax (CMS) schema whose concrete values can be
-    represented using either a compact binary encoding or a human-readable XML encoding.
-    ISO/IEC 24761:2009 does not define protocols to be used between entities such
-    as biometric processing units, claimant, and validator. Its concern is entirely
-    with the content and encoding of the ACBio instances for the various processing
-    activities.
-- language: fr
   script: Latn
   content: ISO/IEC 24761:2009 specifies the structure and the data elements of Authentication
     Context for Biometrics (ACBio), which is used for checking the validity of the
@@ -149,32 +126,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 24761:2019
+    formattedref:
+      content: ISO/IEC 24761:2019
     docidentifier:
     - content: ISO/IEC 24761:2019
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2019-10-14'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 24761:2009/Cor 1:2013
-    docidentifier:
-    - content: ISO/IEC 24761:2009/Cor 1:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2019-10-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,48 +1,40 @@
 ---
 id: ISO101002020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Hydraulic fluid power
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Cylinders
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Acceptance tests
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Hydraulic fluid power - Cylinders - Acceptance tests
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions hydrauliques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vérins
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais de réception
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Transmissions hydrauliques - Vérins - Essais de réception
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/75271.html
@@ -56,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO 10100:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso:10100:stage-90.20
+- content: urn:iso:std:iso:10100:stage-90.60
   type: URN
 docnumber: '10100'
 date:
 - type: published
-  at: 2020-06
+  at: '2020-06-12'
 contributor:
 - role:
   - type: publisher
@@ -100,15 +92,11 @@ abstract:
   script: Latn
   content: This document specifies acceptance and function tests for hydraulic fluid
     power cylinders.
-- language: fr
-  script: Latn
-  content: Le présent document spécifie les essais de réception et de fonctionnement
-    des vérins hydrauliques.
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '60'
 copyright:
 - from: '2020'
   owner:
@@ -116,26 +104,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 10100:2001
-    docidentifier:
-    - content: ISO 10100:2001
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 10100:2001/Amd 1:2012
+    formattedref:
+      content: ISO 10100:2001/Amd 1:2012
     docidentifier:
     - content: ISO 10100:2001/Amd 1:2012
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10100:2001
+    docidentifier:
+    - content: ISO 10100:2001
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

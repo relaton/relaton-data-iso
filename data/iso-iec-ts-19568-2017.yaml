@@ -1,41 +1,37 @@
 ---
 id: ISOIECTS195682017
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Programming Languages
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: C++ Extensions for Library Fundamentals
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Programming Languages - C++ Extensions for Library Fundamentals
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Extensions C++ pour la bibliothèque fondamentaux
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Langages de programmation - Extensions C++ pour la bibliothèque fondamentaux
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70587.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:70587:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/07/05/70587.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '19568'
 date:
 - type: published
-  at: 2017-03
+  at: '2017-03-30'
 contributor:
 - role:
   - type: publisher
@@ -89,22 +85,22 @@ edition:
   content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO/IEC TS 19568:2017 describes extensions to the C++ Standard Library (1.2). These extensions are classes and functions that are likely to be used widely within a program and/or on the interface boundaries between libraries written by different organizations.
-    ISO/IEC TS 19568:2017 is non-normative. Some of the library components in this technical specification may be considered for standardization in a future version of C++, but they are not currently part of any C++ standard. Some of the components in this technical specification may never be standardized, and others may be standardized in a substantially changed form.
-    The goal of this technical specification is to build more widespread existing practice for an expanded C++ standard library. It gives advice on extensions to those vendors who wish to provide them.
-- language: fr
-  script: Latn
-  content: |-
-    ISO/IEC TS 19568:2017 describes extensions to the C++ Standard Library (1.2). These extensions are classes and functions that are likely to be used widely within a program and/or on the interface boundaries between libraries written by different organizations.
-    ISO/IEC TS 19568:2017 is non-normative. Some of the library components in this technical specification may be considered for standardization in a future version of C++, but they are not currently part of any C++ standard. Some of the components in this technical specification may never be standardized, and others may be standardized in a substantially changed form.
-    The goal of this technical specification is to build more widespread existing practice for an expanded C++ standard library. It gives advice on extensions to those vendors who wish to provide them.
+  content: ISO/IEC TS 19568:2017 describes extensions to the C++ Standard Library
+    (1.2). These extensions are classes and functions that are likely to be used widely
+    within a program and/or on the interface boundaries between libraries written
+    by different organizations. ISO/IEC TS 19568:2017 is non-normative. Some of the
+    library components in this technical specification may be considered for standardization
+    in a future version of C++, but they are not currently part of any C++ standard.
+    Some of the components in this technical specification may never be standardized,
+    and others may be standardized in a substantially changed form. The goal of this
+    technical specification is to build more widespread existing practice for an expanded
+    C++ standard library. It gives advice on extensions to those vendors who wish
+    to provide them.
 status:
   stage:
     content: '95'
@@ -119,27 +115,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC TS 19568:2015
+    formattedref:
+      content: ISO/IEC WD TS 19568
     docidentifier:
-    - content: ISO/IEC TS 19568:2015
+    - content: ISO/IEC WD TS 19568
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC TS 19568:2024
+    formattedref:
+      content: ISO/IEC TS 19568:2024
     docidentifier:
     - content: ISO/IEC TS 19568:2024
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-08-26'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC TS 19568:2015
+    docidentifier:
+    - content: ISO/IEC TS 19568:2015
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso

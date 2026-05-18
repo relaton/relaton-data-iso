@@ -1,46 +1,41 @@
 ---
 id: ISO27141980
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Liquid hydrocarbons
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Volumetric measurement by displacement meter systems other than dispensing
     pumps
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Liquid hydrocarbons - Volumetric measurement by displacement meter systems
     other than dispensing pumps
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Hydrocarbures liquides
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesurage volumétrique au moyen de compteurs à chambre mesureuse autres
     que ceux des ensembles de mesurage routiers
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Hydrocarbures liquides - Mesurage volumétrique au moyen de compteurs à
     chambre mesureuse autres que ceux des ensembles de mesurage routiers
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7682.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7682:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/76/7682.detail.rss
 docidentifier:
@@ -54,7 +49,7 @@ docidentifier:
 docnumber: '2714'
 date:
 - type: published
-  at: 1980-10
+  at: '1980-10-01'
 contributor:
 - role:
   - type: publisher
@@ -95,12 +90,6 @@ abstract:
     applying appropriate consideration to the nature of the liquids to be measured,
     to the installation of a metering system, and to the selection, performance, operation
     and maintenance of the same.
-- language: fr
-  script: Latn
-  content: Gives the characteristics of such equipment and rules for systematically
-    applying appropriate consideration to the nature of the liquids to be measured,
-    to the installation of a metering system, and to the selection, performance, operation
-    and maintenance of the same.
 status:
   stage:
     content: '95'
@@ -113,21 +102,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2714:2017
+    formattedref:
+      content: ISO/CD 2714
+    docidentifier:
+    - content: ISO/CD 2714
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2714:2017
     docidentifier:
     - content: ISO 2714:2017
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2017-11-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -137,4 +131,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 2714
+      content: '7682'

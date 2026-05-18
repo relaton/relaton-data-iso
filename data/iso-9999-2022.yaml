@@ -1,38 +1,32 @@
 ---
 id: ISO99992022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Assistive products
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Classification and terminology
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Assistive products - Classification and terminology
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits d’assistance
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Classification et terminologie
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits d’assistance - Classification et terminologie
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/72464.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 9999:2022(E)
   type: iso-reference
-- content: urn:iso:std:iso:9999:stage-60.60
+- content: urn:iso:std:iso:9999:stage-90.92
   type: URN
 docnumber: '9999'
 date:
 - type: published
-  at: 2022-05
+  at: '2022-05-16'
 contributor:
 - role:
   - type: publisher
@@ -88,35 +82,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a classification and terminology of assistive products, especially produced or generally available, for persons to optimize functioning and reduce disability.
-    Assistive products used by a person to optimize functioning and reduce disability, but which require the assistance of another person for their operation, are included in the classification.
-    The following items are specifically excluded from this document:
-    —    items used for the installation of assistive products;
-    —    solutions obtained by combinations of assistive products that are individually classified in this document;
-    —    medicines;
-    —    assistive products and instruments used exclusively by healthcare professionals or by teachers;
+  content: 'This document specifies a classification and terminology of assistive
+    products, especially produced or generally available, for persons to optimize
+    functioning and reduce disability. Assistive products used by a person to optimize
+    functioning and reduce disability, but which require the assistance of another
+    person for their operation, are included in the classification. The following
+    items are specifically excluded from this document: —    items used for the installation
+    of assistive products; —    solutions obtained by combinations of assistive products
+    that are individually classified in this document; —    medicines; —    assistive
+    products and instruments used exclusively by healthcare professionals or by teachers;
     —    non-technical solutions, such as personal assistance, guide dogs or lip-reading;
-    —    implanted devices;
-    —    financial support.
-- language: fr
-  script: Latn
-  content: |-
-    Le présent document spécifie une classification ainsi qu’une terminologie des produits d’assistance, fabriqués spécialement ou existants sur le marché, dans le but d’optimiser le fonctionnement et de réduire l’incapacité des personnes.
-    Les produits d’assistance utilisés par une personne pour optimiser son fonctionnement et réduire son incapacité, qui nécessitent l’aide d’une autre personne pour les faire fonctionner, font partie de la classification.
-    Les articles suivants sont spécifiquement exclus du présent document:
-    —    les articles utilisés pour l’installation des produits d’assistance;
-    —    les solutions obtenues par la combinaison de produits d’assistance individuellement classés dans le présent document;
-    —    les médicaments;
-    —    les produits d’assistance et les instruments que seuls les professionnels de la santé ou les enseignants utilisent;
-    —    les solutions non techniques, telles que l’assistance personnelle, les chiens guides d’aveugles ou la lecture labiale;
-    —    les dispositifs implantés;
-    —    l’aide financière.
+    —    implanted devices; —    financial support.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2022'
   owner:
@@ -126,16 +107,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 9999:2016
+    formattedref:
+      content: ISO/AWI 9999
+    docidentifier:
+    - content: ISO/AWI 9999
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 9999:2016
     docidentifier:
     - content: ISO 9999:2016
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

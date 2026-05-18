@@ -1,53 +1,47 @@
 ---
 id: ISO292812011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Intelligent transport systems
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Communications access for land mobiles (CALM)
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Non-IP networking
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Intelligent transport systems - Communications access for land mobiles
     (CALM) - Non-IP networking
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Accès aux communications des services mobiles terrestres (CALM)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Réseautique non-IP
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes intelligents de transport - Accès aux communications des services
     mobiles terrestres (CALM) - Réseautique non-IP
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/45379.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:45379:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/53/45379.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '29281'
 date:
 - type: published
-  at: 2011-04
+  at: '2011-03-24'
 contributor:
 - role:
   - type: publisher
@@ -92,18 +86,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO 29281:2011 specifies FAST services, i.e. FAST networking & transport
-    layer protocols for single-hop communications, N-hop broadcast communications,
-    ITS-MUX, and ITS station-internal forwarding; FAST service for 15628 CI (DSRC
-    CI) support; FAST service for 15628 application support; and the related support
-    of the MN-SAP and MF-SAP.
-- language: fr
   script: Latn
   content: ISO 29281:2011 specifies FAST services, i.e. FAST networking & transport
     layer protocols for single-hop communications, N-hop broadcast communications,
@@ -122,40 +108,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 29281-1:2013
-    docidentifier:
-    - content: ISO 29281-1:2013
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2013-04-11'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 29281-2:2013
+    formattedref:
+      content: ISO 29281-2:2013
     docidentifier:
     - content: ISO 29281-2:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2013-04-11'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 29281-1:2013
+    docidentifier:
+    - content: ISO 29281-1:2013
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

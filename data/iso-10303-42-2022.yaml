@@ -1,56 +1,50 @@
 ---
 id: ISO10303422022
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Industrial automation systems and integration
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Product data representation and exchange
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 42: Integrated generic resource: Geometric and topological representation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Industrial automation systems and integration - Product data representation
     and exchange - Part 42: Integrated generic resource: Geometric and topological
     representation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Systèmes d'automatisation industrielle et intégration
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Représentation et échange de données de produits
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 42: Ressources génériques intégrées: Représentation géométrique
     et topologique'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Systèmes d''automatisation industrielle et intégration - Représentation
     et échange de données de produits - Partie 42: Ressources génériques intégrées:
     Représentation géométrique et topologique'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/84672.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:84672:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/08/46/84672.detail.rss
 docidentifier:
@@ -64,7 +58,7 @@ docidentifier:
 docnumber: '10303'
 date:
 - type: published
-  at: 2022-12
+  at: '2022-12-19'
 contributor:
 - role:
   - type: publisher
@@ -95,106 +89,46 @@ edition:
   content: '7'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the integrated generic resource constructs for geometric and topological representation.  The following are within the scope of this document:
-    The following are in the scope of the geometry schema:
-    - definition of points, vectors, parametric curves and parametric surfaces;
-    - definition of finite volumes with internal parametrisation;
-    - definition of transformation operators;
-    - points defined directly by their coordinate values or in terms of the parameters of an existing curve or surface;
-    - definition of conic curves and elementary surfaces;
-    - definition of curves defined on a parametric surface;
-    - definition of general parametric spline curves, surfaces and volumes;
-    - definition of locally refined spline curves, surfaces and volumes;
-    - definition of point, curve and surface replicas;
-    - definition of offset curves and surfaces;
-    - definition of intersection curves.
-    The following are in the scope of the topology schema:
-    - definition of the fundamental topological entities vertex, edge, and face, each with a specialised subtype to enable it to be associated with the geometry of a point, curve, or surface, respectively;
-    - collections of the basic entities to form topological structures of path, loop and shell and constraints to ensure the integrity of these structures;
-    - the association of faces with geometric volumes;
-    - orientation of topological entities.
-    The following are in the scope of the geometric model schema:
-    - data describing the precise geometric form of three-dimensional solid
-    - objects;
-    - constructive solid geometry (CSG) models;
-    - CSG models in two-dimensional space;
-    - definition of CSG primitives and half-spaces;
-    - creation of solid models by sweeping operations;
-    - manifold boundary representation (B-rep) models;
-    - constraints to ensure the integrity of B-rep models;
-    - surface models;
-    - wireframe models;
-    - geometric sets;
-    - creation of a replica of a solid model in a new location;
-    - tessellated geometry;
-    - the association of tessellated geometry with exact geometry.
-    The following are in the scope of the scan data 3d shape model schema:
-    - representation of a shape as a cloud of points produced by a scanning process.
-    The following are outside the scope of this document:
-    - all other forms of procedurally defined curves and surfaces;
-    - curves and surfaces which do not have a parametric form of representation;
-    - any form of explicit representation of a ruled surface.
-    NOTE    For a ruled surface the geometry is critically dependent upon the parametrisation of the boundary curves and the method of associating pairs of points on the two curves. A ruled surface with B-spline boundary curves can however be exactly represented by the B-spline surface entity.
-
-    - spatial occupancy forms of solid models (such as octree models);
-    - geometric tolerances;
-    - implicit forms of representation in terms of features;
-    - assemblies and mechanisms.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the integrated generic resource constructs for geometric and topological representation.  The following are within the scope of this document:
-    The following are in the scope of the geometry schema:
-    - definition of points, vectors, parametric curves and parametric surfaces;
-    - definition of finite volumes with internal parametrisation;
-    - definition of transformation operators;
-    - points defined directly by their coordinate values or in terms of the parameters of an existing curve or surface;
-    - definition of conic curves and elementary surfaces;
-    - definition of curves defined on a parametric surface;
-    - definition of general parametric spline curves, surfaces and volumes;
-    - definition of locally refined spline curves, surfaces and volumes;
-    - definition of point, curve and surface replicas;
-    - definition of offset curves and surfaces;
-    - definition of intersection curves.
-    The following are in the scope of the topology schema:
-    - definition of the fundamental topological entities vertex, edge, and face, each with a specialised subtype to enable it to be associated with the geometry of a point, curve, or surface, respectively;
-    - collections of the basic entities to form topological structures of path, loop and shell and constraints to ensure the integrity of these structures;
-    - the association of faces with geometric volumes;
-    - orientation of topological entities.
-    The following are in the scope of the geometric model schema:
-    - data describing the precise geometric form of three-dimensional solid
-    - objects;
-    - constructive solid geometry (CSG) models;
-    - CSG models in two-dimensional space;
-    - definition of CSG primitives and half-spaces;
-    - creation of solid models by sweeping operations;
-    - manifold boundary representation (B-rep) models;
-    - constraints to ensure the integrity of B-rep models;
-    - surface models;
-    - wireframe models;
-    - geometric sets;
-    - creation of a replica of a solid model in a new location;
-    - tessellated geometry;
-    - the association of tessellated geometry with exact geometry.
-    The following are in the scope of the scan data 3d shape model schema:
-    - representation of a shape as a cloud of points produced by a scanning process.
-    The following are outside the scope of this document:
-    - all other forms of procedurally defined curves and surfaces;
-    - curves and surfaces which do not have a parametric form of representation;
-    - any form of explicit representation of a ruled surface.
-    NOTE    For a ruled surface the geometry is critically dependent upon the parametrisation of the boundary curves and the method of associating pairs of points on the two curves. A ruled surface with B-spline boundary curves can however be exactly represented by the B-spline surface entity.
-
-    - spatial occupancy forms of solid models (such as octree models);
-    - geometric tolerances;
-    - implicit forms of representation in terms of features;
-    - assemblies and mechanisms.
+  content: 'This document specifies the integrated generic resource constructs for
+    geometric and topological representation.  The following are within the scope
+    of this document: The following are in the scope of the geometry schema: definition
+    of points, vectors, parametric curves and parametric surfaces; definition of finite
+    volumes with internal parametrisation; definition of transformation operators;
+    points defined directly by their coordinate values or in terms of the parameters
+    of an existing curve or surface; definition of conic curves and elementary surfaces;
+    definition of curves defined on a parametric surface; definition of general parametric
+    spline curves, surfaces and volumes; definition of locally refined spline curves,
+    surfaces and volumes; definition of point, curve and surface replicas; definition
+    of offset curves and surfaces; definition of intersection curves. The following
+    are in the scope of the topology schema: definition of the fundamental topological
+    entities vertex, edge, and face, each with a specialised subtype to enable it
+    to be associated with the geometry of a point, curve, or surface, respectively;
+    collections of the basic entities to form topological structures of path, loop
+    and shell and constraints to ensure the integrity of these structures; the association
+    of faces with geometric volumes; orientation of topological entities. The following
+    are in the scope of the geometric model schema: data describing the precise geometric
+    form of three-dimensional solid objects; constructive solid geometry (CSG) models;
+    CSG models in two-dimensional space; definition of CSG primitives and half-spaces;
+    creation of solid models by sweeping operations; manifold boundary representation
+    (B-rep) models; constraints to ensure the integrity of B-rep models; surface models;
+    wireframe models; geometric sets; creation of a replica of a solid model in a
+    new location; tessellated geometry; the association of tessellated geometry with
+    exact geometry. The following are in the scope of the scan data 3d shape model
+    schema: representation of a shape as a cloud of points produced by a scanning
+    process. The following are outside the scope of this document: all other forms
+    of procedurally defined curves and surfaces; curves and surfaces which do not
+    have a parametric form of representation; any form of explicit representation
+    of a ruled surface. NOTE    For a ruled surface the geometry is critically dependent
+    upon the parametrisation of the boundary curves and the method of associating
+    pairs of points on the two curves. A ruled surface with B-spline boundary curves
+    can however be exactly represented by the B-spline surface entity. spatial occupancy
+    forms of solid models (such as octree models); geometric tolerances; implicit
+    forms of representation in terms of features; assemblies and mechanisms.'
 status:
   stage:
     content: '95'
@@ -209,27 +143,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10303-42:2019
-    docidentifier:
-    - content: ISO 10303-42:2019
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 10303-42:2024
+    formattedref:
+      content: ISO 10303-42:2024
     docidentifier:
     - content: ISO 10303-42:2024
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2024-09-03'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10303-42:2019
+    docidentifier:
+    - content: ISO 10303-42:2019
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

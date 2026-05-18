@@ -1,41 +1,37 @@
 ---
 id: ISO14581988
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Metallic coatings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Electrodeposited coatings of nickel
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Metallic coatings - Electrodeposited coatings of nickel
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Revêtements métalliques
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dépôts électrolytiques de nickel
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Revêtements métalliques - Dépôts électrolytiques de nickel
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6050.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6050:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/60/6050.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '1458'
 date:
 - type: published
-  at: 1988-09
+  at: '1988-09-01'
 contributor:
 - role:
   - type: publisher
@@ -91,13 +87,6 @@ abstract:
     iron, steel, zinc alloys, cooper and copper alloys, and aluminium and aluminium
     alloys to provide an attractive appearance and corrosion resistance. According
     to the service conditions several classes of coatings are distinguished.
-- language: fr
-  script: Latn
-  content: This second edition cancels and replaces the first edition (i. e. ISO 1458:1974).
-    Specifies requirements for these electrodeposited coatings that are applied to
-    iron, steel, zinc alloys, cooper and copper alloys, and aluminium and aluminium
-    alloys to provide an attractive appearance and corrosion resistance. According
-    to the service conditions several classes of coatings are distinguished.
 status:
   stage:
     content: '95'
@@ -112,27 +101,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1458:1974
+    formattedref:
+      content: ISO/DIS 1458.2
     docidentifier:
-    - content: ISO 1458:1974
+    - content: ISO/DIS 1458.2
       type: ISO
       primary: true
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1458:2002
+    formattedref:
+      content: ISO 1458:2002
     docidentifier:
     - content: ISO 1458:2002
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2002-12-02'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1458:1974
+    docidentifier:
+    - content: ISO 1458:1974
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

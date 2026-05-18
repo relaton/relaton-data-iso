@@ -1,31 +1,29 @@
 ---
 id: ISO47061989
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Refillable welded steel gas cylinders
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Refillable welded steel gas cylinders
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bouteilles à gaz soudées en acier destinées à être rechargées
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bouteilles à gaz soudées en acier destinées à être rechargées
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/10688.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:10688:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/01/06/10688.detail.rss
 docidentifier:
@@ -39,7 +37,7 @@ docidentifier:
 docnumber: '4706'
 date:
 - type: published
-  at: 1989-11
+  at: '1989-11-23'
 contributor:
 - role:
   - type: publisher
@@ -83,15 +81,6 @@ abstract:
     dissolved gases, exposed to ambient temperatures. Comprises definitions and symbols.
     Annex A gives a special prototype test. An example of acceptance certificate is
     included in annex B.
-- language: fr
-  script: Latn
-  content: Specifies minimum requirements for certain aspects concerning material,
-    design, construction, and workmanship, manufacturing processes and test at manufacture
-    of refillable gas cylinders of a test pressure not greater than 75 bar, and of
-    water capacities from 1 up to and including 150 L for compressed, liquefied or
-    dissolved gases, exposed to ambient temperatures. Comprises definitions and symbols.
-    Annex A gives a special prototype test. An example of acceptance certificate is
-    included in annex B.
 status:
   stage:
     content: '95'
@@ -104,21 +93,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4706:2008
+    formattedref:
+      content: ISO/WD 4706-2
+    docidentifier:
+    - content: ISO/WD 4706-2
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 4706:2008
     docidentifier:
     - content: ISO 4706:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-04-08'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

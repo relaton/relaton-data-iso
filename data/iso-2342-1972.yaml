@@ -1,41 +1,37 @@
 ---
 id: ISO23421972
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Slotted headless screws
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Metric series
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Slotted headless screws - Metric series
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vis sans tête, fendues
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Série métrique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Vis sans tête, fendues - Série métrique
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/7179.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:7179:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/71/7179.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '2342'
 date:
 - type: published
-  at: 1972-04
+  at: '1972-04-01'
 contributor:
 - role:
   - type: publisher
@@ -89,11 +85,6 @@ abstract:
   content: Specifies the dimensions for diameters from 1 mm up to and including 10
     mm; refers to ISO/R 888 for length, and to ISO/R 262 for thread series; for the
     different shapes and dimensions of screw ends no reference has been made.
-- language: fr
-  script: Latn
-  content: Specifies the dimensions for diameters from 1 mm up to and including 10
-    mm; refers to ISO/R 888 for length, and to ISO/R 262 for thread series; for the
-    different shapes and dimensions of screw ends no reference has been made.
 status:
   stage:
     content: '95'
@@ -106,21 +97,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2342:2003
+    formattedref:
+      content: ISO/WD 2342
+    docidentifier:
+    - content: ISO/WD 2342
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2342:2003
     docidentifier:
     - content: ISO 2342:2003
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2003-12-05'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

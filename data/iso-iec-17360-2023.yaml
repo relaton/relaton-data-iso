@@ -1,47 +1,40 @@
 ---
 id: ISOIEC173602023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Automatic identification and data capture techniques
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Supply chain applications of RFID
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Product tagging, product packaging, transport units, returnable transport
     units and returnable packaging items
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic identification and data capture techniques - Supply chain applications
     of RFID - Product tagging, product packaging, transport units, returnable transport
     units and returnable packaging items
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques automatiques d'identification et de capture des données
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Applications de chaîne d'approvisionnements de RFID
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Étiquetage de produits, empaquetage de produits, unités de transport, éléments
     restituables de transport et éléments d'empaquetage restituables
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Techniques automatiques d'identification et de capture des données - Applications
@@ -49,7 +42,6 @@ title:
     produits, unités de transport, éléments restituables de transport et éléments
     d'empaquetage restituables
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/83586.html
@@ -63,12 +55,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 17360:2023(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:17360:stage-60.60
+- content: urn:iso:std:iso-iec:17360:stage-90.92
   type: URN
 docnumber: '17360'
 date:
 - type: published
-  at: 2023-05
+  at: '2023-05-25'
 contributor:
 - role:
   - type: publisher
@@ -108,37 +100,26 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document defines the basic features of RFID for use in the supply chain when applied to product tagging, product packaging, transport units and returnable transport items (RTIs) and returnable packaging items (RPIs). This document:
-    —    provides specifications for the identification of the items,
-    —    makes recommendations about additional information on the RF tag,
-    —    specifies the semantics and data syntax to be used,
-    —    specifies the data protocol to be used to interface with business applications and the RFID system,
-    —    specifies the minimum performance requirements,
-    —    specifies the air interface standards between the RF interrogator and RF tag, and
-    —    specifies the reuse and recyclability of the RF tag.
-- language: fr
-  script: Latn
-  content: |-
-    This document defines the basic features of RFID for use in the supply chain when applied to product tagging, product packaging, transport units and returnable transport items (RTIs) and returnable packaging items (RPIs). This document:
-    —    provides specifications for the identification of the items,
-    —    makes recommendations about additional information on the RF tag,
-    —    specifies the semantics and data syntax to be used,
-    —    specifies the data protocol to be used to interface with business applications and the RFID system,
-    —    specifies the minimum performance requirements,
-    —    specifies the air interface standards between the RF interrogator and RF tag, and
-    —    specifies the reuse and recyclability of the RF tag.
+  content: 'This document defines the basic features of RFID for use in the supply
+    chain when applied to product tagging, product packaging, transport units and
+    returnable transport items (RTIs) and returnable packaging items (RPIs). This
+    document: —    provides specifications for the identification of the items, —   
+    makes recommendations about additional information on the RF tag, —    specifies
+    the semantics and data syntax to be used, —    specifies the data protocol to
+    be used to interface with business applications and the RFID system, —    specifies
+    the minimum performance requirements, —    specifies the air interface standards
+    between the RF interrogator and RF tag, and —    specifies the reuse and recyclability
+    of the RF tag.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '92'
 copyright:
 - from: '2023'
   owner:
@@ -148,40 +129,56 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 17364:2013
+    formattedref:
+      content: ISO/IEC AWI 17360
     docidentifier:
-    - content: ISO 17364:2013
+    - content: ISO/IEC AWI 17360
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 17365:2013
+    formattedref:
+      content: ISO 17365:2013
     docidentifier:
     - content: ISO 17365:2013
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 17366:2013
+    formattedref:
+      content: ISO/IEC DIS 17367
+    docidentifier:
+    - content: ISO/IEC DIS 17367
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 17366:2013
     docidentifier:
     - content: ISO 17366:2013
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 17367:2013
+    formattedref:
+      content: ISO 17367:2013
     docidentifier:
     - content: ISO 17367:2013
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 17364:2013
+    docidentifier:
+    - content: ISO 17364:2013
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

@@ -1,50 +1,42 @@
 ---
 id: ISO148162005
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road transport and traffic telematics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Automatic vehicle and equipment identification
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Numbering and data structure
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Road transport and traffic telematics - Automatic vehicle and equipment
     identification - Numbering and data structure
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Télématique de la circulation et du transport routier
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Identification automatique des véhicules et des équipements
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Codification et structure des données
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Télématique de la circulation et du transport routier - Identification
     automatique des véhicules et des équipements - Codification et structure des données
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/38667.html
@@ -63,7 +55,7 @@ docidentifier:
 docnumber: '14816'
 date:
 - type: published
-  at: 2005-11
+  at: '2005-11-03'
 contributor:
 - role:
   - type: publisher
@@ -100,32 +92,23 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO 14816:2005 establishes a common framework data structure for unambiguous
+  content: ISO 14816:2005 establishes a common framework data structure for unambiguous
     identification in RTTT/ITS systems. It excludes any physical aspects such as interfaces.
-    It is neither frequency- nor air interface protocol-specific.\nData elements that
+    It is neither frequency- nor air interface protocol-specific. Data elements that
     form part of transmission or storage protocols such as headers, frame markers
-    and checksums are thus excluded. \nThe specifications for protecting against changes,
+    and checksums are thus excluded. The specifications for protecting against changes,
     classifying and qualifying security aspects of the data structure elements are
-    not included within ISO 14816:2005.\nThe principles of data element structure
-    and description determined in ISO/IEC 8824, ISO/IEC 8825-1 and ISO/IEC 8825-2
-    have been adopted to provide an interoperable architecture within a standard framework
-    according to guidelines from ISO/TC 204 and CEN/TC 278.\nISO 14816:2005 defines
+    not included within ISO 14816:2005. The principles of data element structure and
+    description determined in ISO/IEC 8824, ISO/IEC 8825-1 and ISO/IEC 8825-2 have
+    been adopted to provide an interoperable architecture within a standard framework
+    according to guidelines from ISO/TC 204 and CEN/TC 278. ISO 14816:2005 defines
     data structures based on the ISO/IEC 8824-1 ASN.1 UNIVERSAL CLASS types that may
     be directly IMPORTED to other application standards that would need only subsets
     of the full APPLICATION CLASS types. These UNIVERSAL CLASS and APPLICATION CLASS
     types are uniquely defined as an ASN.1 module in Annex B. This module may be directly
-    linked into an application data definition.\nISO 14816:2005 defines default encoding
+    linked into an application data definition. ISO 14816:2005 defines default encoding
     for simple AVI/AEI applications where no other relevant application standard exists.
-    This definition forms Clause 4."
-- language: fr
-  script: Latn
-  content: |-
-    La présente Norme internationale établit une structure de données au cadre commun permettant une identification univoque au sein de systèmes RTTT/ITS. Elle exclut tous les aspects physiques tels que les interfaces. Elle ne se rapporte à aucun protocole d'interface radio-fréquence.
-    Les éléments de données faisant partie des protocoles de transmission ou de stockage tels que les en-têtes, les repères de trame et les sommes de contrôle en sont donc exclus.
-    Les spécifications relatives à la protection contre les changements, la classification et la qualification des aspects relatifs à la sécurité des éléments de structures de données ne sont pas couvertes par la présente Norme internationale.
-    Les principes relatifs à la structure des éléments de données et à leur description déterminés dans l'ISO/IEC 8824, l'ISO/IEC 8825‑1 et l'ISO/IEC 8825‑2 ont été adoptés afin de fournir une architecture interopérable au sein d'un cadre normalisé selon les consignes des ISO/TC 204 et CEN/TC 278.
-    La présente Norme internationale définit des structures de données fondées sur les types CLASSE UNIVERSELLE (universal class) de l'ASN.1 de l'ISO/IEC 8824‑1 qui peuvent être directement IMPORTÉS vers d'autres normes d'application et nécessiteraient uniquement des sous-ensembles des types complets de CLASSE APPLICATION (application class). Ces types UNIVERSAL CLASS et APPLICATION CLASS sont définis de manière univoque en tant que module de l'ASN.1 à l'Annexe B. Ce module peut être directement associé à une définition de données d'application.
-    La présente Norme internationale définit un codage par défaut pour les applications AVI/AEI simples, lorsqu'aucune norme d'application pertinente n'existe. Cette définition fait l'objet de l'Article 4.
+    This definition forms Clause 4.
 status:
   stage:
     content: '90'
@@ -138,37 +121,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/TS 14816:2000
+    formattedref:
+      content: ISO/TS 14816:2000
     docidentifier:
     - content: ISO/TS 14816:2000
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 14816:2005/Amd 1:2019
-    docidentifier:
-    - content: ISO 14816:2005/Amd 1:2019
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2022-07-29'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

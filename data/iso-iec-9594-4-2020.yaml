@@ -1,50 +1,42 @@
 ---
 id: ISOIEC959442020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Open systems interconnection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: The Directory: Procedures for distributed operation'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - Open systems interconnection - Part 4: The Directory:
     Procedures for distributed operation'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Information technology
+  content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
-  content: Open systems interconnection
+  content: Interconnexion de systèmes ouverts (OSI)
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Part 4: The Directory: Procedures for distributed operation'
+  content: 'Partie 4: Titre manque'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Information technology - Open systems interconnection - Part 4: The Directory:
-    Procedures for distributed operation'
+  content: 'Technologies de l''information - Interconnexion de systèmes ouverts (OSI)
+    - Partie 4: Titre manque'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/80318.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 9594-4:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:9594:-4:stage-60.60
+- content: urn:iso:std:iso-iec:9594:-4:stage-90.93
   type: URN
 docnumber: '9594'
 date:
 - type: published
-  at: 2020-11
+  at: '2020-12-01'
 contributor:
 - role:
   - type: publisher
@@ -103,25 +95,26 @@ edition:
   content: '9'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the behaviour of DSAs taking part in a distributed directory consisting of multiple Directory systems agents (DSAs) and/or LDAP servers with at least one DSA. The allowed behaviour has been designed to ensure a consistent service given a wide distribution of the DIB across a distributed directory. Only the behaviour of DSAs taking part in a distributed directory is specified. The behaviour of LDAP servers are specified in relevant LDAP specifications. There are no special requirements on an LDAP server beyond those given by the LDAP specifications.
-    The Directory is not intended to be a general purpose database system, although it may be built on such systems. It is assumed that there is a considerably higher frequency of queries than of updates.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the behaviour of DSAs taking part in a distributed directory consisting of multiple Directory systems agents (DSAs) and/or LDAP servers with at least one DSA. The allowed behaviour has been designed to ensure a consistent service given a wide distribution of the DIB across a distributed directory. Only the behaviour of DSAs taking part in a distributed directory is specified. The behaviour of LDAP servers are specified in relevant LDAP specifications. There are no special requirements on an LDAP server beyond those given by the LDAP specifications.
-    The Directory is not intended to be a general purpose database system, although it may be built on such systems. It is assumed that there is a considerably higher frequency of queries than of updates.
+  content: This document specifies the behaviour of DSAs taking part in a distributed
+    directory consisting of multiple Directory systems agents (DSAs) and/or LDAP servers
+    with at least one DSA. The allowed behaviour has been designed to ensure a consistent
+    service given a wide distribution of the DIB across a distributed directory. Only
+    the behaviour of DSAs taking part in a distributed directory is specified. The
+    behaviour of LDAP servers are specified in relevant LDAP specifications. There
+    are no special requirements on an LDAP server beyond those given by the LDAP specifications.
+    The Directory is not intended to be a general purpose database system, although
+    it may be built on such systems. It is assumed that there is a considerably higher
+    frequency of queries than of updates.
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2020'
   owner:
@@ -129,29 +122,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-4:2017
+    formattedref:
+      content: ISO/IEC 9594-4:2017
     docidentifier:
     - content: ISO/IEC 9594-4:2017
       type: ISO
       primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 9594-4:2020/Amd 1:2025
-    docidentifier:
-    - content: ISO/IEC 9594-4:2020/Amd 1:2025
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2020-12-01'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

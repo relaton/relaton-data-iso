@@ -1,58 +1,52 @@
 ---
 id: ISO1481962006
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Traffic and Traveller Information (TTI)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: TTI messages via traffic message coding
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Part 6: Encryption and conditional access for the Radio Data System —
+  content: 'Part 6: Encryption and conditional access for the Radio Data System --
     Traffic Message Channel ALERT C coding'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Traffic and Traveller Information (TTI) - TTI messages via traffic message
-    coding - Part 6: Encryption and conditional access for the Radio Data System —
+    coding - Part 6: Encryption and conditional access for the Radio Data System --
     Traffic Message Channel ALERT C coding'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Informations sur le trafic et le tourisme (TTI)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Messages TTI via le codage de messages sur le trafic
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 6: Accès au cryptage et accès conditionnel pour le système de radiodiffusion
-    de données — Codage ALERT C du canal de messages sur le trafic'
+    de données -- Codage ALERT C du canal de messages sur le trafic'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Informations sur le trafic et le tourisme (TTI) - Messages TTI via le
     codage de messages sur le trafic - Partie 6: Accès au cryptage et accès conditionnel
-    pour le système de radiodiffusion de données — Codage ALERT C du canal de messages
+    pour le système de radiodiffusion de données -- Codage ALERT C du canal de messages
     sur le trafic'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/37267.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:37267:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/72/37267.detail.rss
 docidentifier:
@@ -66,7 +60,7 @@ docidentifier:
 docnumber: '14819'
 date:
 - type: published
-  at: 2006-04
+  at: '2006-04-07'
 contributor:
 - role:
   - type: publisher
@@ -103,20 +97,24 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 14819-6:2006 establishes a method of encrypting certain elements of the ALERT-C coded data carried in the RDS-TMC type 8A data group, such that without application by a terminal or receiver of an appropriate keys, the information conveyed is virtually worthless.
-    Before a terminal is able to decrypt the data, the terminal requires two "keys". The first is given in confidence by the service provider to terminal manufacturers with whom they have a commercial relationship; the second is broadcast in the "Encryption Administration Group," which is also a type 8A group. This specification explains the purpose of the two keys and how often and when the transmitted key may be changed.
-    Before an individual terminal may present decrypted messages to the end-user, it must have been activated to do so. Activation requires that a PIN code be entered. The PIN code controls access rights to each service and subscription period, allowing both lifetime and term business models to co-exist.
-    The specification also describes the considerations for service providers wishing to introduce an encrypted RDS-TMC service, migrating from either a "free-to-air" service based on public "Location Tables" or a commercial service based on a proprietary Location Table.
-    Finally, "hooks" have been left in the bit allocation of the type 8A group to allow extension of encryption to other RDS-TMC services.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 14819-6:2006 établit une méthode de chiffrement de certains éléments de données codées en ALERT-C transportés dans le groupe de données RDS-TMC du type 8A afin que les informations acheminées n'aient virtuellement aucune valeur sans l'application par un terminal ou récepteur d'une clé adéquate.
-    Avant qu'un terminal ne puisse déchiffrer les données, il lui faut deux «clés». La première est donnée en toute confiance par le prestataire de services aux fabricants de terminaux avec lesquels il entretient une relation commerciale; la seconde est diffusée dans le «Groupe de gestion du chiffrement», qui est aussi un groupe de type 8A. L'ISO 14819-6:2006 explique le but des deux clés ainsi que la fréquence et le moment auxquels il est permis de changer la clé émise.
-    Avant qu'un terminal individuel ne puisse présenter des messages déchiffrés à l'utilisateur final, il faut l'activer à cet effet. L'activation requiert la saisie d'un code PIN. Le code PIN commande les droits d'accès à chaque service et la période d'abonnement, permettant la coexistence de modèles commerciaux tant à terme qu'à vie.
-    L'ISO 14819-6:2006 décrit aussi les considérations pour les prestataires de services souhaitant introduire un service RDS-TMC chiffré, en migrant d'un service «à diffuser en clair» basé sur des «Tables de localisants» publiques ou d'un service commercial basé sur une «Table de localisants» propriétaire.
-    Finalement, des «crochets» ont été laissés dans l'allocation des bits du groupe de type 8A pour permettre l'extension du chiffrement à d'autres services du RDS-TMC.
+  content: ISO 14819-6:2006 establishes a method of encrypting certain elements of
+    the ALERT-C coded data carried in the RDS-TMC type 8A data group, such that without
+    application by a terminal or receiver of an appropriate keys, the information
+    conveyed is virtually worthless. Before a terminal is able to decrypt the data,
+    the terminal requires two "keys". The first is given in confidence by the service
+    provider to terminal manufacturers with whom they have a commercial relationship;
+    the second is broadcast in the "Encryption Administration Group," which is also
+    a type 8A group. This specification explains the purpose of the two keys and how
+    often and when the transmitted key may be changed. Before an individual terminal
+    may present decrypted messages to the end-user, it must have been activated to
+    do so. Activation requires that a PIN code be entered. The PIN code controls access
+    rights to each service and subscription period, allowing both lifetime and term
+    business models to co-exist. The specification also describes the considerations
+    for service providers wishing to introduce an encrypted RDS-TMC service, migrating
+    from either a "free-to-air" service based on public "Location Tables" or a commercial
+    service based on a proprietary Location Table. Finally, "hooks" have been left
+    in the bit allocation of the type 8A group to allow extension of encryption to
+    other RDS-TMC services.
 status:
   stage:
     content: '95'
@@ -128,18 +126,27 @@ copyright:
   - organization:
       name:
       - content: ISO
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/CD 14819-6
+    docidentifier:
+    - content: ISO/CD 14819-6
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 03.220.20
-    text: Road transport
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.20
+    text: Road transport
   structuredidentifier:
     type: ISO
     project_number:

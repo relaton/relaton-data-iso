@@ -1,41 +1,37 @@
 ---
 id: ISO20801981
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Electroplating and related processes
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vocabulary
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Electroplating and related processes - Vocabulary
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dépôts électrolytiques et opérations s'y rattachant
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Vocabulaire
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Dépôts électrolytiques et opérations s'y rattachant - Vocabulaire
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6867.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6867:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/68/6867.detail.rss
 docidentifier:
@@ -49,7 +45,7 @@ docidentifier:
 docnumber: '2080'
 date:
 - type: published
-  at: 1981-11
+  at: '1981-11-01'
 contributor:
 - role:
   - type: publisher
@@ -81,18 +77,12 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
-  script: Latn
-  content: This second edition cancels and replaces the first edition (i. e. ISO 2080:1973).
-    Includes terms widely used in the science and industry of elektrodeposition and
-    metal- finishing. In addition to terms used in the three official ISO languages
-    (English, French and Russian), this International Standard includes the equivalent
-    terms in the German language.Elektrolytisches Herstellen von Metallüberzügen und
-    verwandte Verfahren; Begriffe
-- language: fr
   script: Latn
   content: This second edition cancels and replaces the first edition (i. e. ISO 2080:1973).
     Includes terms widely used in the science and industry of elektrodeposition and
@@ -112,29 +102,42 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 2080:2008
+    formattedref:
+      content: ISO/DIS 2080
+    docidentifier:
+    - content: ISO/DIS 2080
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 2080:2008
     docidentifier:
     - content: ISO 2080:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-07-07'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/WD 2080
+    docidentifier:
+    - content: ISO/WD 2080
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 01.040.25
-    text: Manufacturing engineering (Vocabularies)
   - code: 25.220.40
     text: Metallic coatings
+  - code: 01.040.25
+    text: Manufacturing engineering (Vocabularies)
   structuredidentifier:
     type: ISO
     project_number:

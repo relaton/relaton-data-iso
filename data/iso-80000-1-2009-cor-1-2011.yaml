@@ -1,42 +1,38 @@
 ---
 id: ISO8000012009Cor12011
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Quantities and units
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 1: General -- Technical Corrigendum 1'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Quantities and units - Part 1: General -- Technical Corrigendum 1'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Grandeurs et unités
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 1: Généralités -- Rectificatif technique 1'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Grandeurs et unités - Partie 1: Généralités -- Rectificatif technique
     1'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/60241.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:60241:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/06/02/60241.detail.rss
 docidentifier:
@@ -45,14 +41,10 @@ docidentifier:
   primary: true
 - content: ISO 80000-1:2009/Cor 1:2011(E)
   type: iso-reference
-- content: urn:iso:std:iso:80000:-1:ed-1:stage-95.99:cor:2011:v1
-  type: URN
 docnumber: '80000'
 date:
 - type: published
-  at: '2009'
-- type: updated
-  at: 2011-10
+  at: '2011-09-22'
 contributor:
 - role:
   - type: publisher
@@ -98,28 +90,32 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 80000-1:2022
+    formattedref:
+      content: ISO/DIS 80000-1
+    docidentifier:
+    - content: ISO/DIS 80000-1
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 80000-1:2022
     docidentifier:
     - content: ISO 80000-1:2022
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2022-12-06'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
-    content: international-standard
+    content: technical-corrigendum
   flavor: iso
   ics:
   - code: '01.060'
     text: Quantities and units
   structuredidentifier:
-    type: ISO
     project_number:
       content: '60241'

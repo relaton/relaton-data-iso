@@ -1,54 +1,46 @@
 ---
 id: ISO28622010
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Geometrical product specifications (GPS)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: ISO code system for tolerances on linear sizes
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 2: Tables of standard tolerance classes and limit deviations for
     holes and shafts'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Geometrical product specifications (GPS) - ISO code system for tolerances
     on linear sizes - Part 2: Tables of standard tolerance classes and limit deviations
     for holes and shafts'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Spécification géométrique des produits (GPS)
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Système de codification ISO pour les tolérances sur les tailles linéaires
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 2: Tableaux des classes de tolérance normalisées et des écarts
     limites des alésages et des arbres'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Spécification géométrique des produits (GPS) - Système de codification
     ISO pour les tolérances sur les tailles linéaires - Partie 2: Tableaux des classes
     de tolérance normalisées et des écarts limites des alésages et des arbres'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/54915.html
@@ -62,12 +54,12 @@ docidentifier:
   primary: true
 - content: ISO 286-2:2010(E)
   type: iso-reference
-- content: urn:iso:std:iso:286:-2:stage-90.93
+- content: urn:iso:std:iso:286:-2:stage-90.20
   type: URN
 docnumber: '286'
 date:
 - type: published
-  at: 2010-06
+  at: '2010-06-07'
 contributor:
 - role:
   - type: publisher
@@ -99,26 +91,29 @@ edition:
 language:
 - en
 - fr
+- ru
 script:
 - Latn
+- Cyrl
 abstract:
 - language: en
   script: Latn
-  content: |-
-    ISO 286-2:2010 gives values of the limit deviations for commonly used tolerance classes for holes and shafts calculated from the tables given in ISO 286‑1. ISO 286-2 covers values for the upper limit deviations eU, hole (for holes) and eU, shaft (for shafts) and the lower limit deviations eL, hole (for holes) and eL, shaft (for shafts).
-    The ISO system for tolerances on linear size provides a system of tolerances and deviations suitable for features of the following types:
-    For simplicity, and also because of the importance of cylindrical workpieces of circular section, only these are referred to explicitly. It should be clearly understood, however, that the tolerances and deviations given in ISO 286-2 equally apply to workpieces of other than circular sections.
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO 286-2:2010 donne les valeurs des écarts limites des classes de tolérance communément utilisées pour les alésages et les arbres. Les valeurs sont calculées d'après les tableaux de l'ISO 286‑1. L'ISO 286-2:2010 indique l'écart limite supérieur des alésages, eU, hole, l'écart limite supérieur des arbres, eU, shaft, l'écart limite inférieur des alésages, eL, hole, et l'écart limite inférieur des arbres, eL, shaft (voir les Figures 1 et 2).
-    Le système ISO de codification pour les tolérances sur les tailles linéaires s'applique aux entités dimensionnelles des types suivants:
-    Pour plus de simplicité et étant donné l'importance particulière des pièces cylindriques à section circulaire, seules celles-ci sont prévues explicitement. Mais il reste bien entendu que les tolérances et écarts donnés dans l'ISO 286-1:2010 s'appliquent également aux pièces de section autre que circulaire.
+  content: 'ISO 286-2:2010 gives values of the limit deviations for commonly used
+    tolerance classes for holes and shafts calculated from the tables given in ISO
+    286‑1. ISO 286-2 covers values for the upper limit deviations eU, hole (for holes)
+    and eU, shaft (for shafts) and the lower limit deviations eL, hole (for holes)
+    and eL, shaft (for shafts). The ISO system for tolerances on linear size provides
+    a system of tolerances and deviations suitable for features of the following types:
+    cylinders; two parallel opposite surfaces. For simplicity, and also because of
+    the importance of cylindrical workpieces of circular section, only these are referred
+    to explicitly. It should be clearly understood, however, that the tolerances and
+    deviations given in ISO 286-2 equally apply to workpieces of other than circular
+    sections.'
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '20'
 copyright:
 - from: '2010'
   owner:
@@ -126,37 +121,34 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 286-2:1988
-    docidentifier:
-    - content: ISO 286-2:1988
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 286-2:1988/Cor 1:2006
+    formattedref:
+      content: ISO 286-2:1988/Cor 1:2006
     docidentifier:
     - content: ISO 286-2:1988/Cor 1:2006
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 286-2:2010/Cor 1:2013
+    formattedref:
+      content: ISO 286-2:1988/DAmd 1
     docidentifier:
-    - content: ISO 286-2:2010/Cor 1:2013
+    - content: ISO 286-2:1988/DAM 1
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2021-06-09'
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 286-2:1988
+    docidentifier:
+    - content: ISO 286-2:1988
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

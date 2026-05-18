@@ -1,40 +1,34 @@
 ---
 id: ISO106052023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Test methods for electrical disturbances from electrostatic discharge
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Test methods for electrical disturbances from electrostatic
     discharge
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthodes d'essai des perturbations électriques provenant de décharges électrostatiques
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Méthodes d'essai des perturbations électriques provenant
     de décharges électrostatiques
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/79094.html
@@ -48,12 +42,12 @@ docidentifier:
   primary: true
 - content: ISO 10605:2023(E)
   type: iso-reference
-- content: urn:iso:std:iso:10605:stage-60.60
+- content: urn:iso:std:iso:10605:stage-90.93
   type: URN
 docnumber: '10605'
 date:
 - type: published
-  at: 2023-06
+  at: '2023-06-02'
 contributor:
 - role:
   - type: publisher
@@ -84,35 +78,26 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies the electrostatic discharge (ESD) test methods necessary to evaluate electronic modules intended for vehicle use. It applies to discharges in the following cases:
-    —     ESD in assembly;
-    —     ESD caused by service staff;
-    —     ESD caused by occupants.
-    This document describes test procedures for evaluating both electronic modules on the bench and complete vehicles. This document applies to all types of road vehicles regardless of the propulsion system (e.g. spark-ignition engine, diesel engine, electric motor).
-    The test for electronic modules on the bench described in this document applies to any DUT (powered by an unshielded power system, DUT powered by a shielded power system, self-powered DUT, etc.).
-    This document does not apply to pyrotechnic modules.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies the electrostatic discharge (ESD) test methods necessary to evaluate electronic modules intended for vehicle use. It applies to discharges in the following cases:
-    —     ESD in assembly;
-    —     ESD caused by service staff;
-    —     ESD caused by occupants.
-    This document describes test procedures for evaluating both electronic modules on the bench and complete vehicles. This document applies to all types of road vehicles regardless of the propulsion system (e.g. spark-ignition engine, diesel engine, electric motor).
-    The test for electronic modules on the bench described in this document applies to any DUT (powered by an unshielded power system, DUT powered by a shielded power system, self-powered DUT, etc.).
-    This document does not apply to pyrotechnic modules.
+  content: 'This document specifies the electrostatic discharge (ESD) test methods
+    necessary to evaluate electronic modules intended for vehicle use. It applies
+    to discharges in the following cases: —     ESD in assembly; —     ESD caused
+    by service staff; —     ESD caused by occupants. This document describes test
+    procedures for evaluating both electronic modules on the bench and complete vehicles.
+    This document applies to all types of road vehicles regardless of the propulsion
+    system (e.g. spark-ignition engine, diesel engine, electric motor). The test for
+    electronic modules on the bench described in this document applies to any DUT
+    (powered by an unshielded power system, DUT powered by a shielded power system,
+    self-powered DUT, etc.). This document does not apply to pyrotechnic modules.'
 status:
   stage:
-    content: '60'
+    content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '2023'
   owner:
@@ -122,32 +107,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 10605:2008
+    formattedref:
+      content: ISO/NP 10605
     docidentifier:
-    - content: ISO 10605:2008
+    - content: ISO/NP 10605
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 10605:2008/Amd 1:2014
+    formattedref:
+      content: ISO 10605:2008/Amd 1:2014
     docidentifier:
     - content: ISO 10605:2008/Amd 1:2014
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 10605:2008/Cor 1:2010
+    formattedref:
+      content: ISO 10605:2008/Cor 1:2010
     docidentifier:
     - content: ISO 10605:2008/Cor 1:2010
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 10605:2008
+    docidentifier:
+    - content: ISO 10605:2008
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

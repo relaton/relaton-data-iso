@@ -1,53 +1,47 @@
 ---
 id: ISOIEC1544452003
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Information technology
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: 'JPEG 2000 image coding system: Reference software'
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 5:'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Information technology - JPEG 2000 image coding system: Reference software
     - Part 5:'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Technologies de l'information
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Système de codage d''images JPEG 2000: Logiciel de référence'
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 5:'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Technologies de l''information - Système de codage d''images JPEG 2000:
     Logiciel de référence - Partie 5:'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/33877.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:33877:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/03/38/33877.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '15444'
 date:
 - type: published
-  at: 2003-11
+  at: '2003-11-20'
 contributor:
 - role:
   - type: publisher
@@ -107,34 +101,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "ISO/IEC 15444-5:2003 provides two independently created software reference
+  content: 'ISO/IEC 15444-5:2003 provides two independently created software reference
     implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC
     15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set
     of lossless and lossy compression methods for coding continuous-tone, bi-level,
-    greyscale or colour digital still images.\nThe reference software is informative
+    greyscale or colour digital still images. The reference software is informative
     only. ISO/IEC 15444-5:2003 does not define any additional part of the JPEG 2000
-    image coding system.\nEach version of the reference software contains source code,
-    which may be compiled to provide the following functionality: \n- transcoding
-    from selected, widely available image formats into a JPEG 2000 codestream; \n-
-    transcoding from selected, widely available image formats into the JP2 file format;\n-
-    selection of a wide range of JPEG 2000 encoding options (as documented in each
-    reference software);\n- decoding from a JPEG 2000 codestream to a range of selected
-    widely available image formats;\n- partial processing of a JP2 file to extract
-    a JPEG 2000 codestream for decoding to a range of selected widely available image
-    formats (Note that the reference software does not implement a conforming JP2
-    file reader.);\n- some additional tools to help with evaluation and testing."
-- language: fr
-  script: Latn
-  content: |-
-    L'ISO/CEI 15444-5:2003 contient deux implémentations de référence de l'ISO/CEI 15444-1 sous forme de logiciels créés indépendamment l'un de l'autre, afin d'aider les personnes chargées de l'implémentation de l'ISO/CEI 15444-1 à tester et à comprendre son contenu. L'ISO/CEI 15444-1 définit un ensemble de méthodes de compression sans perte et avec perte pour le codage d'images numériques fixes à modelé continu, monochromes, en échelle de gris ou en couleur.
-    Les logiciels de référence ne sont donnés qu'à titre indicatif. L'ISO/CEI 15444-5:2003 ne définit pas d'autres parties du système de codage d'images JPEG 2000.
-    Chaque version des logiciels de référence contient un code source, qui peut être compilé pour offrir les fonctionnalités suivantes:
-    -- transcodage de formats d'images courants en un flux codé JPEG 2000;
-    -- transcodage de formats d'images courants en un format de fichier JP2;
-    -- choix d'une large gamme d'options de codage JPEG 2000 (telles qu'indiquées dans chaque logiciel de référence);
-    -- décodage d'un flux codé JPEG 2000 en une série de formats d'images courants;
-    -- traitement partiel d'un fichier JP2 en vue de l'extraction d'un flux codé JPEG 2000 nécessaire au décodage d'une série de formats d'images courants (noter que les logiciels de référence n'implémentent pas un lecteur de fichier JP2 conforme);
-    -- d'autres outils permettant de procéder à une évaluation et à des essais.
+    image coding system. Each version of the reference software contains source code,
+    which may be compiled to provide the following functionality: transcoding from
+    selected, widely available image formats into a JPEG 2000 codestream; transcoding
+    from selected, widely available image formats into the JP2 file format;selection
+    of a wide range of JPEG 2000 encoding options (as documented in each reference
+    software);decoding from a JPEG 2000 codestream to a range of selected widely available
+    image formats;partial processing of a JP2 file to extract a JPEG 2000 codestream
+    for decoding to a range of selected widely available image formats (Note that
+    the reference software does not implement a conforming JP2 file reader.);some
+    additional tools to help with evaluation and testing.'
 status:
   stage:
     content: '95'
@@ -147,43 +129,18 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 15444-5:2015
+    formattedref:
+      content: ISO/IEC 15444-5:2015
     docidentifier:
     - content: ISO/IEC 15444-5:2015
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2015-10-14'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 15444-5:2003/Amd 1:2003
-    docidentifier:
-    - content: ISO/IEC 15444-5:2003/Amd 1:2003
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2015-10-14'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 15444-5:2003/Amd 2:2015
-    docidentifier:
-    - content: ISO/IEC 15444-5:2003/Amd 2:2015
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2015-10-14'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

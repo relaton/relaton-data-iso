@@ -1,50 +1,42 @@
 ---
 id: ISOIEC781642020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Identification cards
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Integrated circuit cards
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: 'Part 4: Organization, security and commands for interchange'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: 'Identification cards - Integrated circuit cards - Part 4: Organization,
     security and commands for interchange'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes d'identification
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Cartes à circuit intégré
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Partie 4: Organisation, sécurité et commandes pour les échanges'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: 'Cartes d''identification - Cartes à circuit intégré - Partie 4: Organisation,
     sécurité et commandes pour les échanges'
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/77180.html
@@ -58,12 +50,12 @@ docidentifier:
   primary: true
 - content: ISO/IEC 7816-4:2020(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:7816:-4:stage-90.20
+- content: urn:iso:std:iso-iec:7816:-4:stage-90.93
   type: URN
 docnumber: '7816'
 date:
 - type: published
-  at: 2020-05
+  at: '2020-05-27'
 contributor:
 - role:
   - type: publisher
@@ -103,45 +95,31 @@ edition:
   content: '4'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document is intended to be used in any sector of activity. It specifies:
-    —     contents of command-response pairs exchanged at the interface,
-    —     means of retrieval of data elements and data objects in the card,
-    —     structures and contents of historical bytes to describe operating characteristics of the card,
-    —     structures for applications and data in the card, as seen at the interface when processing commands,
-    —     access methods to files and data in the card,
-    —     a security architecture defining access rights to files and data in the card,
-    —     means and mechanisms for identifying and addressing applications in the card,
-    —     methods for secure messaging,
-    —     access methods to the algorithms processed by the card. It does not describe these algorithms.
+  content: 'This document is intended to be used in any sector of activity. It specifies:
+    — contents of command-response pairs exchanged at the interface, — means of retrieval
+    of data elements and data objects in the card, — structures and contents of historical
+    bytes to describe operating characteristics of the card, — structures for applications
+    and data in the card, as seen at the interface when processing commands, — access
+    methods to files and data in the card, — a security architecture defining access
+    rights to files and data in the card, — means and mechanisms for identifying and
+    addressing applications in the card, — methods for secure messaging, — access
+    methods to the algorithms processed by the card. It does not describe these algorithms.
     It does not cover the internal implementation within the card or the outside world.
-    This document is independent from the physical interface technology. It applies to cards accessed by one or more of the following methods: contacts, close coupling and radio frequency. If the card supports simultaneous use of more than one physical interface, the relationship between what happens on different physical interfaces is out of the scope of this document.
-- language: fr
-  script: Latn
-  content: |-
-    This document is intended to be used in any sector of activity. It specifies:
-    —     contents of command-response pairs exchanged at the interface,
-    —     means of retrieval of data elements and data objects in the card,
-    —     structures and contents of historical bytes to describe operating characteristics of the card,
-    —     structures for applications and data in the card, as seen at the interface when processing commands,
-    —     access methods to files and data in the card,
-    —     a security architecture defining access rights to files and data in the card,
-    —     means and mechanisms for identifying and addressing applications in the card,
-    —     methods for secure messaging,
-    —     access methods to the algorithms processed by the card. It does not describe these algorithms.
-    It does not cover the internal implementation within the card or the outside world.
-    This document is independent from the physical interface technology. It applies to cards accessed by one or more of the following methods: contacts, close coupling and radio frequency. If the card supports simultaneous use of more than one physical interface, the relationship between what happens on different physical interfaces is out of the scope of this document.
+    This document is independent from the physical interface technology. It applies
+    to cards accessed by one or more of the following methods: contacts, close coupling
+    and radio frequency. If the card supports simultaneous use of more than one physical
+    interface, the relationship between what happens on different physical interfaces
+    is out of the scope of this document.'
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '93'
 copyright:
 - from: '2020'
   owner:
@@ -149,64 +127,42 @@ copyright:
       name:
       - content: ISO/IEC
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-4:2013
-    docidentifier:
-    - content: ISO/IEC 7816-4:2013
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-4:2013/Amd 1:2018
-    docidentifier:
-    - content: ISO/IEC 7816-4:2013/Amd 1:2018
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-4:2013/Cor 1:2014
+    formattedref:
+      content: ISO/IEC 7816-4:2013/Cor 1:2014
     docidentifier:
     - content: ISO/IEC 7816-4:2013/Cor 1:2014
       type: ISO
       primary: true
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-4:2013/Amd 2:2018
+    formattedref:
+      content: ISO/IEC 7816-4:2013/Amd 1:2018
+    docidentifier:
+    - content: ISO/IEC 7816-4:2013/Amd 1:2018
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO/IEC 7816-4:2013/Amd 2:2018
     docidentifier:
     - content: ISO/IEC 7816-4:2013/Amd 2:2018
       type: ISO
       primary: true
 - type: updates
   bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-4:2020/Amd 1:2023
+    formattedref:
+      content: ISO/IEC 7816-4:2013
     docidentifier:
-    - content: ISO/IEC 7816-4:2020/Amd 1:2023
+    - content: ISO/IEC 7816-4:2013
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2025-04-15'
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO/IEC 7816-4:2020/CD Amd 2
-    docidentifier:
-    - content: ISO/IEC 7816-4:2020/CD Amd 2
-      type: ISO
-      primary: true
-    date:
-    - type: circulated
-      at: '2025-04-15'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

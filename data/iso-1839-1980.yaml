@@ -1,39 +1,32 @@
 ---
 id: ISO18391980
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-16'
 title:
 - language: en
   script: Latn
   content: Tea
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Sampling
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Tea - Sampling
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Thé
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Échantillonnage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Thé - Échantillonnage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6493.html
@@ -47,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO 1839:1980(E)
   type: iso-reference
-- content: urn:iso:std:iso:1839:stage-90.60
+- content: urn:iso:std:iso:1839:stage-90.93
   type: URN
 docnumber: '1839'
 date:
 - type: published
-  at: 1980-02
+  at: '1980-02-01'
 contributor:
 - role:
   - type: publisher
@@ -82,6 +75,7 @@ contributor:
 edition:
   content: '1'
 language:
+- ar
 - en
 - fr
 script:
@@ -93,16 +87,11 @@ abstract:
     of relevant terms, followed by a description of apparatus, general information,
     sampling from containers, packaging, labelling and dispatch of samples, and the
     sampling report.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale spécifie des méthodes pour l'échantillonnage du thé. Elle s'applique à l'échantillonnage des emballages de toutes tailles.
 status:
   stage:
     content: '90'
   substage:
-    content: '60'
+    content: '93'
 copyright:
 - from: '1980'
   owner:
@@ -110,26 +99,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: obsoletes
+- type: updates
   bibitem:
-    type: standard
-    formattedref: ISO 1839-1:1975
-    docidentifier:
-    - content: ISO 1839-1:1975
-      type: ISO
-      primary: true
-- type: obsoletes
-  bibitem:
-    type: standard
-    formattedref: ISO 1839-2:1976
+    formattedref:
+      content: ISO 1839-2:1976
     docidentifier:
     - content: ISO 1839-2:1976
       type: ISO
       primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1839-1:1975
+    docidentifier:
+    - content: ISO 1839-1:1975
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
@@ -139,4 +128,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: ISO 1839
+      content: '6493'

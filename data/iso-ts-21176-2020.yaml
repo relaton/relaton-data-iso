@@ -1,36 +1,34 @@
 ---
 id: ISOTS211762020
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cooperative intelligent transport systems (C-ITS)
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Position, velocity and time functionality in the ITS station
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cooperative intelligent transport systems (C-ITS) - Position, velocity
     and time functionality in the ITS station
   type: main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Systèmes de transport intelligents coopératifs (C-ITS) – Fonctionnalité
-    de position, de vitesse et de temps dans la Station ITS
+  content: Systèmes de transport intelligents coopératifs (C-ITS)
+  type: title-intro
+- language: fr
+  script: Latn
+  content: Fonctionnalité de position, de vitesse et de temps dans la Station ITS
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Systèmes de transport intelligents coopératifs (C-ITS) – Fonctionnalité
+  content: Systèmes de transport intelligents coopératifs (C-ITS) - Fonctionnalité
     de position, de vitesse et de temps dans la Station ITS
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/70055.html
@@ -49,7 +47,7 @@ docidentifier:
 docnumber: '21176'
 date:
 - type: published
-  at: 2020-09
+  at: '2020-09-17'
 contributor:
 - role:
   - type: publisher
@@ -80,40 +78,31 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document specifies a generic position, velocity and time (PVT) service. It further specifies the PVT service within the ITS station (ITS-S) facilities layer (ISO 21217) and its interface to other functionalities in an ITS-S such as:
-    —     ITS-S application processes (ITS-S-APs), defined in ISO 21217;
-    —     the generic facilities service handler (FSH) functionality of the ITS station facilities layer, defined in ISO/TS 17429.
-    This document specifies:
-    —     a PVT service which, dependent on a specific implementation, uses a variety of positioning-related sources such as global navigation satellite systems (GNSSs, e.g. GALILEO, GLONASS and GPS), roadside infrastructure, cellular infrastructure, kinematic state sensors, vision sensors;
-    —     a PVT service which merges data from the above-mentioned positioning-related sources and provides the PVT output parameters (carrying the PVT information) including the associated quality (e.g. accuracy);
-    —     how the PVT service is integrated as an ITS-S capability of the ITS station facilities layer;
-    —     the interface function calls and responses (Service Access Point ? service primitives) between the PVT ITS-S capability and other functionalities of the ITS station architecture;
-    —     optionally, the PVT service as a capability of the ITS-S facilities layer; see ISO 24102-6;
-    —     an ASN.1 module C-itsPvt, providing ASN.1 type and value definitions (in Annex A);
-    —     an implementation conformance statement proforma (in Annex B), as a basis for assessment of conformity to this document.
-    NOTE    It is outside the scope of this document to define the associated conformance evaluation test procedures.
-- language: fr
-  script: Latn
-  content: |-
-    This document specifies a generic position, velocity and time (PVT) service. It further specifies the PVT service within the ITS station (ITS-S) facilities layer (ISO 21217) and its interface to other functionalities in an ITS-S such as:
-    —     ITS-S application processes (ITS-S-APs), defined in ISO 21217;
-    —     the generic facilities service handler (FSH) functionality of the ITS station facilities layer, defined in ISO/TS 17429.
-    This document specifies:
-    —     a PVT service which, dependent on a specific implementation, uses a variety of positioning-related sources such as global navigation satellite systems (GNSSs, e.g. GALILEO, GLONASS and GPS), roadside infrastructure, cellular infrastructure, kinematic state sensors, vision sensors;
-    —     a PVT service which merges data from the above-mentioned positioning-related sources and provides the PVT output parameters (carrying the PVT information) including the associated quality (e.g. accuracy);
-    —     how the PVT service is integrated as an ITS-S capability of the ITS station facilities layer;
-    —     the interface function calls and responses (Service Access Point ? service primitives) between the PVT ITS-S capability and other functionalities of the ITS station architecture;
-    —     optionally, the PVT service as a capability of the ITS-S facilities layer; see ISO 24102-6;
-    —     an ASN.1 module C-itsPvt, providing ASN.1 type and value definitions (in Annex A);
-    —     an implementation conformance statement proforma (in Annex B), as a basis for assessment of conformity to this document.
-    NOTE    It is outside the scope of this document to define the associated conformance evaluation test procedures.
+  content: 'This document specifies a generic position, velocity and time (PVT) service.
+    It further specifies the PVT service within the ITS station (ITS-S) facilities
+    layer (ISO 21217) and its interface to other functionalities in an ITS-S such
+    as: — ITS-S application processes (ITS-S-APs), defined in ISO 21217; — the generic
+    facilities service handler (FSH) functionality of the ITS station facilities layer,
+    defined in ISO/TS 17429. This document specifies: — a PVT service which, dependent
+    on a specific implementation, uses a variety of positioning-related sources such
+    as global navigation satellite systems (GNSSs, e.g. GALILEO, GLONASS and GPS),
+    roadside infrastructure, cellular infrastructure, kinematic state sensors, vision
+    sensors; — a PVT service which merges data from the above-mentioned positioning-related
+    sources and provides the PVT output parameters (carrying the PVT information)
+    including the associated quality (e.g. accuracy); — how the PVT service is integrated
+    as an ITS-S capability of the ITS station facilities layer; — the interface function
+    calls and responses (Service Access Point ? service primitives) between the PVT
+    ITS-S capability and other functionalities of the ITS station architecture; —
+    optionally, the PVT service as a capability of the ITS-S facilities layer; see
+    ISO 24102-6; — an ASN.1 module C-itsPvt, providing ASN.1 type and value definitions
+    (in Annex A); — an implementation conformance statement proforma (in Annex B),
+    as a basis for assessment of conformity to this document. NOTE It is outside the
+    scope of this document to define the associated conformance evaluation test procedures.'
 status:
   stage:
     content: '90'
@@ -126,17 +115,17 @@ copyright:
       name:
       - content: ISO/TS
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-specification
   flavor: iso
   ics:
-  - code: 03.220.01
-    text: Transport in general
   - code: 35.240.60
     text: IT applications in transport
+  - code: 03.220.01
+    text: Transport in general
   structuredidentifier:
     type: ISO
     project_number:

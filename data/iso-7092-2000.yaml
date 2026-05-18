@@ -1,48 +1,40 @@
 ---
 id: ISO70922000
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Plain washers
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Small series
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Product grade A
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Plain washers - Small series - Product grade A
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Rondelles plates
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Série étroite
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Grade A
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Rondelles plates - Série étroite - Grade A
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/13674.html
@@ -56,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO 7092:2000(E)
   type: iso-reference
-- content: urn:iso:std:iso:7092:stage-90.93
+- content: urn:iso:std:iso:7092:stage-90.92
   type: URN
 docnumber: '7092'
 date:
 - type: published
-  at: 2000-06
+  at: '2000-06-01'
 contributor:
 - role:
   - type: publisher
@@ -95,17 +87,11 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale spécifie les caractéristiques des rondelles plates, série étroite, de grade A, de classes de dureté 200 HV et 300 HV et de diamètre nominal (diamètre nominal de filetage) de 1,6 mm à 36 mm inclus.  Les rondelles de classe de dureté 200 HV conviennent à des  - vis à tête cylindrique de classes de qualité jusqu'à 8.8 inclus ou en acier inoxydable;  - vis à tête cylindrique à six pans creux de classes de qualité jusqu'à 8.8 inclus ou en acier inoxydable;  - vis à tête cylindrique à six lobes internes de classes de qualité jusqu'à 8.8 inclus ou en acier inoxydable;  - vis autotaraudeuses par déformation, cémentées et trempées à tête cylindrique.  Les rondelles de classe de dureté 300 HV conviennent à des  - vis à tête cylindrique à six pans creux de classes de qualité jusqu'à 10.9 inclus;  - vis à tête cylindrique à six lobes internes de classes de qualité jusqu'à 10.9 inclus.  Si des dimensions différentes de celles données dans la présente Norme internationale sont requises, il convient de les choisir parmi celles données dans l'ISO 887. En cas de serrage d'éléments en métal doux ou de larges trous de passage dans la pièce, il convient que l'utilisateur vérifie l'aptitude à l'emploi de ce type de rondelle.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2000'
   owner:
@@ -115,16 +101,24 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 7092:1983
+    formattedref:
+      content: ISO/CD 7092
+    docidentifier:
+    - content: ISO/CD 7092
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 7092:1983
     docidentifier:
     - content: ISO 7092:1983
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

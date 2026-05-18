@@ -1,38 +1,32 @@
 ---
 id: ISO15021996
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: ISO general-purpose metric screw threads
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Gauges and gauging
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: ISO general-purpose metric screw threads - Gauges and gauging
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Filetages métriques ISO pour usages généraux
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Calibres à limites et vérification
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Filetages métriques ISO pour usages généraux - Calibres à limites et vérification
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6092.html
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '1502'
 date:
 - type: published
-  at: 1996-02
+  at: '1996-01-17'
 contributor:
 - role:
   - type: publisher
@@ -93,13 +87,6 @@ abstract:
     for checking external and internal screw threads of workpieces. Provides means
     of distinguishing between threads that comply with the limits of size and those
     that do not.
-- language: fr
-  script: Latn
-  content: Gives details for the manufacture and use of gauges for checking ISO general
-    purpose metric screw threads. Specifies the features of gauges which are recommended
-    for checking external and internal screw threads of workpieces. Provides means
-    of distinguishing between threads that comply with the limits of size and those
-    that do not.
 status:
   stage:
     content: '90'
@@ -114,24 +101,40 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1502:1978
+    formattedref:
+      content: ISO/NP 1502
+    docidentifier:
+    - content: ISO/NP 1502
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/NP 1502
+    docidentifier:
+    - content: ISO/NP 1502
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 1502:1978
     docidentifier:
     - content: ISO 1502:1978
       type: ISO
       primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: 17.040.30
-    text: Measuring instruments
   - code: 21.040.10
     text: Metric screw threads
+  - code: 17.040.30
+    text: Measuring instruments
   structuredidentifier:
     type: ISO
     project_number:

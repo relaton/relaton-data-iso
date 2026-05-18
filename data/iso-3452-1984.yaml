@@ -1,51 +1,45 @@
 ---
 id: ISO34521984
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Non-destructive testing
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Penetrant inspection
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: General principles
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Non-destructive testing - Penetrant inspection - General principles
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais non destructifs
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Contrôle par ressuage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Principes généraux
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Essais non destructifs - Contrôle par ressuage - Principes généraux
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/8787.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:8787:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/87/8787.detail.rss
 docidentifier:
@@ -59,7 +53,7 @@ docidentifier:
 docnumber: '3452'
 date:
 - type: published
-  at: 1984-09
+  at: '1984-09-01'
 contributor:
 - role:
   - type: publisher
@@ -101,13 +95,6 @@ abstract:
     Penetrant inspection is used to locate laps, folds, cracks, porosity and fissures,
     which are open to the surface of a material or component. It can be used with
     materials irrespective of their physical properties.
-- language: fr
-  script: Latn
-  content: Applies to penetrant inspection on materials and components both during
-    manufacture and in service. Does not deal with levels of acceptance or rejection.
-    Penetrant inspection is used to locate laps, folds, cracks, porosity and fissures,
-    which are open to the surface of a material or component. It can be used with
-    materials irrespective of their physical properties.
 status:
   stage:
     content: '95'
@@ -122,27 +109,32 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 3879:1977
-    docidentifier:
-    - content: ISO 3879:1977
-      type: ISO
-      primary: true
-- type: updates
-  bibitem:
-    type: standard
-    formattedref: ISO 3452-1:2008
+    formattedref:
+      content: ISO 3452-1:2008
     docidentifier:
     - content: ISO 3452-1:2008
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2008-08-28'
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/DIS 3452-1
+    docidentifier:
+    - content: ISO/DIS 3452-1
+      type: ISO
+      primary: true
+- type: updates
+  bibitem:
+    formattedref:
+      content: ISO 3879:1977
+    docidentifier:
+    - content: ISO 3879:1977
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

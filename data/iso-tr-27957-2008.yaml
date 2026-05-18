@@ -1,53 +1,47 @@
 ---
 id: ISOTR279572008
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Temperature measurement in anthropomorphic test devices
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Definition of the temperature sensor locations
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Road vehicles - Temperature measurement in anthropomorphic test devices
     - Definition of the temperature sensor locations
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Mesure de la température dans les dispositifs d'essai anthropomorphes
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Définitions des positions des capteurs de température
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers - Mesure de la température dans les dispositifs d'essai
     anthropomorphes - Définitions des positions des capteurs de température
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/44444.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:44444:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/04/44/44444.detail.rss
 docidentifier:
@@ -61,7 +55,7 @@ docidentifier:
 docnumber: '27957'
 date:
 - type: published
-  at: 2008-08
+  at: '2008-07-29'
 contributor:
 - role:
   - type: publisher
@@ -92,17 +86,10 @@ edition:
   content: '1'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
-  script: Latn
-  content: ISO 27957:2008 defines the number and the arrangement of temperature measuring
-    points for anthropomorphic test devices (ATDs), in order to ensure that the temperature
-    of the ATD is in accordance with the temperature corridor prescribed by the applied
-    test procedure.
-- language: fr
   script: Latn
   content: ISO 27957:2008 defines the number and the arrangement of temperature measuring
     points for anthropomorphic test devices (ATDs), in order to ensure that the temperature
@@ -120,21 +107,26 @@ copyright:
       name:
       - content: ISO/TR
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TR 27957:2020
+    formattedref:
+      content: ISO/NP TR 27957
+    docidentifier:
+    - content: ISO/NP TR 27957
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO/TR 27957:2020
     docidentifier:
     - content: ISO/TR 27957:2020
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2020-04-23'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

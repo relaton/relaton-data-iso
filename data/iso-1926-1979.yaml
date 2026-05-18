@@ -1,42 +1,38 @@
 ---
 id: ISO19261979
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Cellular plastics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of tensile properties of rigid materials
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Cellular plastics - Determination of tensile properties of rigid materials
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques alvéolaires
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination des caractéristiques de traction des matériaux rigides
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Plastiques alvéolaires - Détermination des caractéristiques de traction
     des matériaux rigides
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/6622.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:6622:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/66/6622.detail.rss
 docidentifier:
@@ -50,7 +46,7 @@ docidentifier:
 docnumber: '1926'
 date:
 - type: published
-  at: 1979-06
+  at: '1979-06-01'
 contributor:
 - role:
   - type: publisher
@@ -93,14 +89,6 @@ abstract:
     means of a suitable device. The corresponding stress-strain curve shall be recorded.
     In the case of low compression resistance the bonding of reinforcing metall plates
     to the gripping ends of test pieces is possible.
-- language: fr
-  script: Latn
-  content: Applies primarily to ceelular materials having a sufficient compression
-    resistance to permit suitable gripping of the test pieces. The test piece of a
-    given shape is subjected to a tensile stress, transmitted to the test piece by
-    means of a suitable device. The corresponding stress-strain curve shall be recorded.
-    In the case of low compression resistance the bonding of reinforcing metall plates
-    to the gripping ends of test pieces is possible.
 status:
   stage:
     content: '95'
@@ -113,21 +101,26 @@ copyright:
       name:
       - content: ISO
 relation:
-- type: updates
+- type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 1926:2005
+    formattedref:
+      content: ISO/WD 1926
+    docidentifier:
+    - content: ISO/WD 1926
+      type: ISO
+      primary: true
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 1926:2005
     docidentifier:
     - content: ISO 1926:2005
       type: ISO
       primary: true
-    date:
-    - type: circulated
-      at: '2005-06-22'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
