@@ -50,7 +50,7 @@ docidentifier:
   primary: true
 - content: ISO/IEC TR 24720:2008(E)
   type: iso-reference
-- content: urn:iso:std:iso-iec:tr:24720:stage-90.93
+- content: urn:iso:std:iso-iec:24720:stage-90.92
   type: URN
 docnumber: '24720'
 date:
@@ -110,13 +110,22 @@ status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '2008'
   owner:
   - organization:
       name:
       - content: ISO/IEC
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC AWI TR 24720
+    docidentifier:
+    - content: ISO/IEC AWI TR 24720
+      type: ISO
+      primary: true
 place:
 - city: Geneva
 ext:
@@ -128,6 +137,6 @@ ext:
   - code: 35.040.50
     text: Automatic identification and data capture techniques
   structuredidentifier:
-    type: ISO
+    type: ISO/IEC
     project_number:
       content: '38830'
