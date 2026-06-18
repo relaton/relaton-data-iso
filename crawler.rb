@@ -33,6 +33,13 @@ end
 # Fetch documents into `data/` and (re)build `index-v2` (parsed with pubid v2).
 Relaton::Iso::DataFetcher.fetch(source)
 
+# Persist the `Last-Modified` short-circuit state. The reusable crawler workflow
+# only auto-commits `data/*` and `index*.yaml`; other files must be staged
+# explicitly (as the sibling data repos do for their index files), or
+# `last_modified.txt` never survives between CI runs and the incremental
+# short-circuit can never trigger.
+system("git", "add", "last_modified.txt") if File.exist?("last_modified.txt")
+
 # `index-v1` serves the released relaton-iso gem line, whose identifiers are
 # parsed with pubid v1. pubid v1 and the pubid v2 loaded above both define
 # `Pubid::Iso::Identifier` and cannot coexist in one process, so rebuild it in a
