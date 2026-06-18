@@ -22,9 +22,16 @@ gemfile do
   gem "relaton-index"
 end
 
+require "fileutils"
 require "yaml"
 
 INDEX_FILE = "index-v1.yaml"
+
+# crawler.rb only runs this after a full replace of `data/`, so rebuild from
+# scratch: drop any existing index first (Type would otherwise read it back in
+# and merge, leaving entries for files that have since been removed dangling).
+# Removing the file also skips parsing it.
+FileUtils.rm_f(INDEX_FILE)
 
 index = Relaton::Index::Type.new(
   :iso, nil, INDEX_FILE, nil, Pubid::Iso::Identifier
