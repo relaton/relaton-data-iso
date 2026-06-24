@@ -246,7 +246,6 @@
     - IEC
     subgroup:
       value: JTC 1
-      number: JTC 1
   :file: static/iso-iec-dir-jtc-1.yaml
 - :id:
     _type: pubid:iso:directives
@@ -255,7 +254,6 @@
     - IEC
     subgroup:
       value: JTC 1
-      number: JTC 1
   :file: static/iso-iec-jtc-1-dir-2004.yaml
 - :id:
     _type: pubid:iso:directives
@@ -264,7 +262,6 @@
     - IEC
     subgroup:
       value: JTC 1
-      number: JTC 1
   :file: static/iso-iec-jtc-1-dir-2005.yaml
 - :id:
     _type: pubid:iso:directives
@@ -273,7 +270,6 @@
     - IEC
     subgroup:
       value: JTC 1
-      number: JTC 1
   :file: static/iso-iec-jtc-1-dir-2006.yaml
 - :id:
     _type: pubid:iso:directives
@@ -282,7 +278,6 @@
     - IEC
     subgroup:
       value: JTC 1
-      number: JTC 1
   :file: static/iso-iec-jtc-1-dir-2007.yaml
 - :id:
     _type: pubid:iso:international-standard
@@ -7009,8 +7004,8 @@
     _type: pubid:iso:international-standard
     number: '10110'
     part: '9'
-    stage: cdis
-  :file: data/iso-cd-10110-9.yaml
+    stage: dis
+  :file: data/iso-dis-10110-9.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10111'
@@ -7061,6 +7056,11 @@
     number: '10113'
     year: '2020'
   :file: data/iso-10113-2020.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '10113'
+    stage: cdis
+  :file: data/iso-cd-10113.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10114'
@@ -11404,6 +11404,12 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '10241'
+    part: '1'
+    stage: pwiis
+  :file: data/iso-pwi-10241-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '10241'
     part: '2'
     stage_iteration: '2'
     stage: awiis
@@ -11793,8 +11799,7 @@
     _type: pubid:iso:international-standard
     number: '10256'
     part: '5'
-    stage: fdis
-  :file: data/iso-fdis-10256-5.yaml
+  :file: data/iso-10256-5.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10257'
@@ -12436,8 +12441,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '10292'
-    stage: fdis
-  :file: data/iso-fdis-10292.yaml
+  :file: data/iso-10292.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10293'
@@ -12571,7 +12575,8 @@
     _type: pubid:iso:international-standard
     number: '10295'
     part: '1'
-  :file: data/iso-10295-1.yaml
+    year: '2026'
+  :file: data/iso-10295-1-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10296'
@@ -28018,8 +28023,8 @@
     _type: pubid:iso:international-standard
     number: '10395'
     stage_iteration: '2'
-    stage: pwiis
-  :file: data/iso-pwi-10395-2.yaml
+    stage: isnp
+  :file: data/iso-np-10395-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10396'
@@ -29872,8 +29877,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '10477'
-    stage: fdis
-  :file: data/iso-fdis-10477.yaml
+  :file: data/iso-10477.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10478'
@@ -31988,7 +31992,8 @@
     _type: pubid:iso:international-standard
     number: '105'
     part: X11
-  :file: data/iso-105-x11.yaml
+    year: '2026'
+  :file: data/iso-105-x11-2026.yaml
 - :id:
     _type: pubid:iso:recommendation
     number: '1050'
@@ -34285,12 +34290,12 @@
 - :id:
     _type: pubid:iso:amendment
     number: '1'
-    stage: committee_draft_amd
+    stage: damd
     base:
       _type: pubid:iso:international-standard
       number: '10605'
       year: '2023'
-  :file: data/iso-10605-2023-cd-amd-1.yaml
+  :file: data/iso-10605-2023-dam-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10606'
@@ -38430,6 +38435,12 @@
   :file: data/iso-10725-2000.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '10725'
+    part: '1'
+    stage: awiis
+  :file: data/iso-awi-10725-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '10726'
     year: '1992'
   :file: data/iso-10726-1992.yaml
@@ -40979,8 +40990,8 @@
     _type: pubid:iso:international-standard
     number: '10848'
     part: '1'
-    stage: isnp
-  :file: data/iso-np-10848-1.yaml
+    stage: awiis
+  :file: data/iso-awi-10848-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10849'
@@ -41297,7 +41308,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '10873'
-  :file: data/iso-10873.yaml
+    year: '2026'
+  :file: data/iso-10873-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '10874'
@@ -46528,32 +46540,32 @@
     part: '10419'
     copublishers:
     - IEEE
-    stage: dis
-  :file: data/iso-ieee-dis-11073-10419.yaml
+    stage: fdis
+  :file: data/iso-ieee-fdis-11073-10419.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '11073'
     part: '10417'
     copublishers:
     - IEEE
-    stage: dis
-  :file: data/iso-ieee-dis-11073-10417.yaml
+    stage: fdis
+  :file: data/iso-ieee-fdis-11073-10417.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '11073'
     part: '10406'
     copublishers:
     - IEEE
-    stage: dis
-  :file: data/iso-ieee-dis-11073-10406.yaml
+    stage: fdis
+  :file: data/iso-ieee-fdis-11073-10406.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '11073'
     part: '10442'
     copublishers:
     - IEEE
-    stage: dis
-  :file: data/iso-ieee-dis-11073-10442.yaml
+    stage: fdis
+  :file: data/iso-ieee-fdis-11073-10442.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -48337,6 +48349,12 @@
     part: '10'
     year: '2025'
   :file: data/iso-11126-10-2025.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '11126'
+    part: '9'
+    stage: cdis
+  :file: data/iso-cd-11126-9.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '11127'
@@ -50444,6 +50462,14 @@
       copublishers:
       - IEC
   :file: data/iso-iec-11179-3-2023-amd-1-2026.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '11179'
+    part: '36'
+    copublishers:
+    - IEC
+    stage: isnp
+  :file: data/iso-iec-np-11179-36.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '11179'
@@ -57842,8 +57868,7 @@
     _type: pubid:iso:international-standard
     number: '1151'
     part: '13'
-    stage: prfis
-  :file: data/iso-prf-1151-13.yaml
+  :file: data/iso-1151-13.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '11510'
@@ -66701,6 +66726,12 @@
   :file: data/iso-11890-2-2020-amd-1-2024.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '11890'
+    part: '2'
+    stage: awiis
+  :file: data/iso-awi-11890-2.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '11891'
     year: '2012'
   :file: data/iso-11891-2012.yaml
@@ -67821,6 +67852,18 @@
   :file: data/iso-pwi-11943.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '11943'
+    part: '1'
+    stage: isnp
+  :file: data/iso-np-11943-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '11943'
+    part: '2'
+    stage: isnp
+  :file: data/iso-np-11943-2.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '11944'
     year: '1993'
   :file: data/iso-11944-1993.yaml
@@ -68118,8 +68161,8 @@
 - :id:
     _type: pubid:iso:technical-specification
     number: '11967'
-    stage: npts
-  :file: data/iso-np-ts-11967.yaml
+    stage: awits
+  :file: data/iso-awi-ts-11967.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '11968'
@@ -73992,6 +74035,16 @@
     part: '3'
     year: '2006'
   :file: data/iso-12213-3-2006.yaml
+- :id:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage: awi_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '12213'
+      part: '2'
+      year: '2006'
+  :file: data/iso-12213-2-2006-awi-amd-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '12214'
@@ -84438,6 +84491,12 @@
   :file: data/iso-pwi-129-1.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '129'
+    part: '1'
+    stage: awiis
+  :file: data/iso-awi-129-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '12900'
     year: '1997'
   :file: data/iso-12900-1997.yaml
@@ -87428,6 +87487,11 @@
   :file: data/iso-tr-13062-2015.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '13062'
+    stage: isnp
+  :file: data/iso-np-13062.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '13063'
     year: '2012'
   :file: data/iso-13063-2012.yaml
@@ -87970,6 +88034,11 @@
   :file: data/iso-np-13101.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '13101'
+    stage: cdis
+  :file: data/iso-cd-13101.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '13102'
     year: '2012'
   :file: data/iso-13102-2012.yaml
@@ -88052,6 +88121,11 @@
     number: '13110'
     year: '2025'
   :file: data/iso-13110-2025.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '13110'
+    stage: dis
+  :file: data/iso-dis-13110.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '13111'
@@ -92337,8 +92411,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '13356'
-    stage: cdis
-  :file: data/iso-cd-13356.yaml
+    stage: dis
+  :file: data/iso-dis-13356.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '13357'
@@ -103471,6 +103545,12 @@
   :file: data/iso-13885-3-2020.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '13885'
+    part: '1'
+    stage: awiis
+  :file: data/iso-awi-13885-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '13886'
     year: '1996'
     copublishers:
@@ -108248,6 +108328,11 @@
     number: '14155'
     year: '2026'
   :file: data/iso-14155-2026.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '14155'
+    stage: awiis
+  :file: data/iso-awi-14155.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '14156'
@@ -120421,8 +120506,7 @@
     _type: pubid:iso:international-standard
     number: '14505'
     part: '2'
-    stage: fdis
-  :file: data/iso-fdis-14505-2.yaml
+  :file: data/iso-14505-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '14505'
@@ -121324,8 +121408,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '14532'
-    stage: fdis
-  :file: data/iso-fdis-14532.yaml
+  :file: data/iso-14532.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '14533'
@@ -121790,8 +121873,7 @@
     subpart: '303'
     copublishers:
     - IEC
-    stage: awiis
-  :file: data/iso-iec-awi-14543-4-303.yaml
+  :file: data/iso-iec-14543-4-303.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '14543'
@@ -121799,8 +121881,7 @@
     subpart: '304'
     copublishers:
     - IEC
-    stage: awiis
-  :file: data/iso-iec-awi-14543-4-304.yaml
+  :file: data/iso-iec-14543-4-304.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '14544'
@@ -122274,7 +122355,8 @@
     _type: pubid:iso:international-standard
     number: '14577'
     part: '2'
-  :file: data/iso-14577-2.yaml
+    year: '2026'
+  :file: data/iso-14577-2-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '14577'
@@ -127105,6 +127187,13 @@
     stage: wdis
   :file: data/iso-wd-14798-1.yaml
 - :id:
+    _type: pubid:iso:technical-specification
+    number: '14798'
+    part: '2'
+    stage_iteration: '3'
+    stage: npts
+  :file: data/iso-np-ts-14798-2-3.yaml
+- :id:
     _type: pubid:iso:international-standard
     number: '14798'
     part: '1'
@@ -127713,13 +127802,12 @@
 - :id:
     _type: pubid:iso:amendment
     number: '1'
-    stage: prf_amd
     base:
       _type: pubid:iso:international-standard
       number: '14819'
       part: '2'
       year: '2021'
-  :file: data/iso-14819-2-2021-prf-amd-1.yaml
+  :file: data/iso-14819-2-2021-amd-1.yaml
 - :id:
     _type: pubid:iso:recommendation
     number: '1482'
@@ -129800,8 +129888,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '14918'
-    stage: dis
-  :file: data/iso-dis-14918.yaml
+    stage: fdis
+  :file: data/iso-fdis-14918.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '14919'
@@ -131788,6 +131876,11 @@
     number: '15008'
     stage: wdis
   :file: data/iso-wd-15008.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '15008'
+    stage: cdis
+  :file: data/iso-cd-15008.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '15009'
@@ -135721,7 +135814,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '15193'
-  :file: data/iso-15193.yaml
+    year: '2026'
+  :file: data/iso-15193-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '15194'
@@ -135735,7 +135829,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '15194'
-  :file: data/iso-15194.yaml
+    year: '2026'
+  :file: data/iso-15194-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '15195'
@@ -146912,20 +147007,20 @@
     _type: pubid:iso:international-standard
     number: '15686'
     part: '1'
-    stage: prfis
-  :file: data/iso-prf-15686-1.yaml
+    stage: fdis
+  :file: data/iso-fdis-15686-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '15686'
     part: '2'
-    stage: prfis
-  :file: data/iso-prf-15686-2.yaml
+    stage: fdis
+  :file: data/iso-fdis-15686-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '15686'
     part: '3'
-    stage: prfis
-  :file: data/iso-prf-15686-3.yaml
+    stage: fdis
+  :file: data/iso-fdis-15686-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '15688'
@@ -160287,7 +160382,8 @@
     _type: pubid:iso:technical-report
     number: '16355'
     part: '9'
-  :file: data/iso-tr-16355-9.yaml
+    year: '2026'
+  :file: data/iso-tr-16355-9-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '16355'
@@ -160426,8 +160522,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '16364'
-    stage: fdis
-  :file: data/iso-fdis-16364.yaml
+  :file: data/iso-16364.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '16365'
@@ -164777,7 +164872,8 @@
     _type: pubid:iso:international-standard
     number: '16659'
     part: '2'
-  :file: data/iso-16659-2.yaml
+    year: '2026'
+  :file: data/iso-16659-2-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '16659'
@@ -165262,8 +165358,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '16708'
-    stage: awiis
-  :file: data/iso-awi-16708.yaml
+    stage: dis
+  :file: data/iso-dis-16708.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '16709'
@@ -168599,6 +168695,12 @@
     stage: wdis
   :file: data/iso-wd-16921-3.yaml
 - :id:
+    _type: pubid:iso:international-standard
+    number: '16921'
+    part: '4'
+    stage: isnp
+  :file: data/iso-np-16921-4.yaml
+- :id:
     _type: pubid:iso:technical-specification
     number: '16922'
     year: '2002'
@@ -168623,6 +168725,11 @@
     number: '16922'
     year: '2022'
   :file: data/iso-ts-16922-2022.yaml
+- :id:
+    _type: pubid:iso:technical-specification
+    number: '16922'
+    stage: awits
+  :file: data/iso-awi-ts-16922.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '16923'
@@ -171788,8 +171895,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '17140'
-    stage: wdis
-  :file: data/iso-wd-17140.yaml
+    stage: cdis
+  :file: data/iso-cd-17140.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '17141'
@@ -171805,8 +171912,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '17142'
-    stage: wdis
-  :file: data/iso-wd-17142.yaml
+    stage: cdis
+  :file: data/iso-cd-17142.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '17143'
@@ -172145,6 +172252,11 @@
     number: '17175'
     year: '2017'
   :file: data/iso-17175-2017.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '17175'
+    stage: awiis
+  :file: data/iso-awi-17175.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '17176'
@@ -178405,8 +178517,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '17597'
-    stage: dis
-  :file: data/iso-dis-17597.yaml
+    stage: fdis
+  :file: data/iso-fdis-17597.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '17598'
@@ -180913,8 +181025,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '17779'
-    stage: dis
-  :file: data/iso-dis-17779.yaml
+    stage: prfis
+  :file: data/iso-prf-17779.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '17780'
@@ -183101,8 +183213,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '17929'
-    stage: cdis
-  :file: data/iso-cd-17929.yaml
+    stage: dis
+  :file: data/iso-dis-17929.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '1793'
@@ -183268,8 +183380,8 @@
     _type: pubid:iso:international-standard
     number: '17947'
     part: '1'
-    stage: dis
-  :file: data/iso-dis-17947-1.yaml
+    stage: prfis
+  :file: data/iso-prf-17947-1.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '17948'
@@ -184607,14 +184719,14 @@
     _type: pubid:iso:international-standard
     number: '18006'
     part: '2'
-    stage: awiis
-  :file: data/iso-awi-18006-2.yaml
+    stage: cdis
+  :file: data/iso-cd-18006-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18006'
     part: '1'
-    stage: awiis
-  :file: data/iso-awi-18006-1.yaml
+    stage: cdis
+  :file: data/iso-cd-18006-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18006'
@@ -188217,8 +188329,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '1817'
-    stage: fdis
-  :file: data/iso-fdis-1817.yaml
+  :file: data/iso-1817.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18170'
@@ -190345,8 +190456,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '18308'
-    stage: cdis
-  :file: data/iso-cd-18308.yaml
+    stage: dis
+  :file: data/iso-dis-18308.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18309'
@@ -191601,6 +191712,12 @@
     year: '2026'
   :file: data/iso-18379-1-2026.yaml
 - :id:
+    _type: pubid:iso:international-standard
+    number: '18379'
+    part: '2'
+    stage: isnp
+  :file: data/iso-np-18379-2.yaml
+- :id:
     _type: pubid:iso:recommendation
     number: '1838'
     year: '1970'
@@ -192567,8 +192684,8 @@
     _type: pubid:iso:international-standard
     number: '18436'
     part: '9'
-    stage: fdis
-  :file: data/iso-fdis-18436-9.yaml
+    stage: dis
+  :file: data/iso-dis-18436-9.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18436'
@@ -192591,8 +192708,8 @@
     _type: pubid:iso:international-standard
     number: '18436'
     part: '2'
-    stage: fdis
-  :file: data/iso-fdis-18436-2.yaml
+    stage: dis
+  :file: data/iso-dis-18436-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18436'
@@ -192615,8 +192732,8 @@
     _type: pubid:iso:international-standard
     number: '18436'
     part: '8'
-    stage: fdis
-  :file: data/iso-fdis-18436-8.yaml
+    stage: dis
+  :file: data/iso-dis-18436-8.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18436'
@@ -193349,7 +193466,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '18491'
-  :file: data/iso-18491.yaml
+    year: '2026'
+  :file: data/iso-18491-2026.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '18492'
@@ -194050,6 +194168,18 @@
     part: '2'
     year: '2009'
   :file: data/iso-18549-2-2009.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '18549'
+    part: '1'
+    stage: awiis
+  :file: data/iso-awi-18549-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '18549'
+    part: '2'
+    stage: awiis
+  :file: data/iso-awi-18549-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '1855'
@@ -196518,14 +196648,14 @@
     _type: pubid:iso:international-standard
     number: '18722'
     part: '1'
-    stage: dis
-  :file: data/iso-dis-18722-1.yaml
+    stage: fdis
+  :file: data/iso-fdis-18722-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18722'
     part: '2'
-    stage: dis
-  :file: data/iso-dis-18722-2.yaml
+    stage: fdis
+  :file: data/iso-fdis-18722-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18723'
@@ -196544,9 +196674,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '18726'
-    stage_iteration: '2'
-    stage: dis
-  :file: data/iso-dis-18726-2.yaml
+    stage: prfis
+  :file: data/iso-prf-18726.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '18727'
@@ -196799,11 +196928,12 @@
 - :id:
     _type: pubid:iso:amendment
     number: '1'
+    year: '2026'
     base:
       _type: pubid:iso:international-standard
       number: '18744'
       year: '2016'
-  :file: data/iso-18744-2016-amd-1.yaml
+  :file: data/iso-18744-2016-amd-1-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '18745'
@@ -200012,8 +200142,7 @@
     _type: pubid:iso:international-standard
     number: '19013'
     part: '1'
-    stage: fdis
-  :file: data/iso-fdis-19013-1.yaml
+  :file: data/iso-19013-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '19014'
@@ -200264,7 +200393,8 @@
 - :id:
     _type: pubid:iso:technical-report
     number: '19032'
-  :file: data/iso-tr-19032.yaml
+    year: '2026'
+  :file: data/iso-tr-19032-2026.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '19033'
@@ -202658,8 +202788,8 @@
     _type: pubid:iso:international-standard
     number: '19144'
     part: '1'
-    stage: awiis
-  :file: data/iso-awi-19144-1.yaml
+    stage: dis
+  :file: data/iso-dis-19144-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '19145'
@@ -203240,6 +203370,12 @@
     part: '3'
     stage: cdis
   :file: data/iso-cd-19178-3.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '19178'
+    part: '1'
+    stage: dis
+  :file: data/iso-dis-19178-1.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '19179'
@@ -207234,6 +207370,11 @@
     number: '19494'
     stage: wdis
   :file: data/iso-wd-19494.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '19494'
+    stage: pwiis
+  :file: data/iso-pwi-19494.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '19495'
@@ -215025,8 +215166,8 @@
     number: '1989'
     copublishers:
     - IEC
-    stage: cdis
-  :file: data/iso-iec-cd-1989.yaml
+    stage: dis
+  :file: data/iso-iec-dis-1989.yaml
 - :id:
     _type: pubid:iso:pas
     number: '19891'
@@ -218090,7 +218231,7 @@
     number: '1'
     copublishers:
     - IEC
-    stage: damd
+    stage: prf_amd
     base:
       _type: pubid:iso:international-standard
       number: '20009'
@@ -218098,7 +218239,7 @@
       year: '2017'
       copublishers:
       - IEC
-  :file: data/iso-iec-20009-4-2017-dam-1.yaml
+  :file: data/iso-iec-20009-4-2017-prf-amd-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '20010'
@@ -222808,8 +222949,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '20387'
-    stage: dis
-  :file: data/iso-dis-20387.yaml
+    stage: fdis
+  :file: data/iso-fdis-20387.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '20388'
@@ -222888,8 +223029,7 @@
     _type: pubid:iso:international-standard
     number: '20391'
     part: '1'
-    stage: fdis
-  :file: data/iso-fdis-20391-1.yaml
+  :file: data/iso-20391-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '20392'
@@ -222944,6 +223084,24 @@
     part: '3'
     year: '2025'
   :file: data/iso-20397-3-2025.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '20397'
+    part: '1'
+    stage: awiis
+  :file: data/iso-awi-20397-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '20397'
+    part: '3'
+    stage: awiis
+  :file: data/iso-awi-20397-3.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '20397'
+    part: '2'
+    stage: awiis
+  :file: data/iso-awi-20397-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '20398'
@@ -223723,8 +223881,8 @@
     _type: pubid:iso:international-standard
     number: '20468'
     part: '12'
-    stage: isnp
-  :file: data/iso-np-20468-12.yaml
+    stage: awiis
+  :file: data/iso-awi-20468-12.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '20469'
@@ -224080,8 +224238,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '20482'
-    stage: cdis
-  :file: data/iso-cd-20482.yaml
+    stage: dis
+  :file: data/iso-dis-20482.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '20483'
@@ -227786,6 +227944,11 @@
   :file: data/iso-20778-2018.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '20778'
+    stage: dis
+  :file: data/iso-dis-20778.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '20779'
     year: '2018'
   :file: data/iso-20779-2018.yaml
@@ -227798,6 +227961,11 @@
       number: '20779'
       year: '2018'
   :file: data/iso-20779-2018-amd-1-2019.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '20779'
+    stage: dis
+  :file: data/iso-dis-20779.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '2078'
@@ -229294,8 +229462,8 @@
     part: '1'
     copublishers:
     - IEC
-    stage: awiis
-  :file: data/iso-iec-awi-20897-1.yaml
+    stage: wdis
+  :file: data/iso-iec-wd-20897-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '20897'
@@ -232781,8 +232949,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '21025'
-    stage: fdis
-  :file: data/iso-fdis-21025.yaml
+  :file: data/iso-21025.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21026'
@@ -233469,8 +233636,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '21073'
-    stage: awiis
-  :file: data/iso-awi-21073.yaml
+    stage: cdis
+  :file: data/iso-cd-21073.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '21074'
@@ -233597,8 +233764,7 @@
 - :id:
     _type: pubid:iso:technical-specification
     number: '21085'
-    stage: dts
-  :file: data/iso-dts-21085.yaml
+  :file: data/iso-ts-21085.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21086'
@@ -234042,8 +234208,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '21113'
-    stage: cdis
-  :file: data/iso-cd-21113.yaml
+    stage: dis
+  :file: data/iso-dis-21113.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21114'
@@ -236412,20 +236578,20 @@
     _type: pubid:iso:international-standard
     number: '21282'
     part: '1'
-    stage: cdis
-  :file: data/iso-cd-21282-1.yaml
+    stage: dis
+  :file: data/iso-dis-21282-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21282'
     part: '2'
-    stage: cdis
-  :file: data/iso-cd-21282-2.yaml
+    stage: dis
+  :file: data/iso-dis-21282-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21282'
     part: '3'
-    stage: cdis
-  :file: data/iso-cd-21282-3.yaml
+    stage: dis
+  :file: data/iso-dis-21282-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21283'
@@ -236812,8 +236978,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '21317'
-    stage: dis
-  :file: data/iso-dis-21317.yaml
+    stage: fdis
+  :file: data/iso-fdis-21317.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21318'
@@ -236921,6 +237087,11 @@
     number: '21330'
     year: '2018'
   :file: data/iso-21330-2018.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '21330'
+    stage: dis
+  :file: data/iso-dis-21330.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '21331'
@@ -237248,8 +237419,8 @@
     _type: pubid:iso:international-standard
     number: '21360'
     part: '7'
-    stage: wdis
-  :file: data/iso-wd-21360-7.yaml
+    stage: cdis
+  :file: data/iso-cd-21360-7.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21360'
@@ -241316,8 +241487,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '21709'
-    stage: cdis
-  :file: data/iso-cd-21709.yaml
+    stage: dis
+  :file: data/iso-dis-21709.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '2171'
@@ -241483,6 +241654,11 @@
     number: '21721'
     stage: cdts
   :file: data/iso-cdts-21721.yaml
+- :id:
+    _type: pubid:iso:technical-specification
+    number: '21721'
+    stage: npts
+  :file: data/iso-np-ts-21721.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '21722'
@@ -241670,7 +241846,8 @@
 - :id:
     _type: pubid:iso:technical-specification
     number: '21738'
-  :file: data/iso-ts-21738.yaml
+    year: '2026'
+  :file: data/iso-ts-21738-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21739'
@@ -242800,8 +242977,8 @@
     _type: pubid:iso:international-standard
     number: '21809'
     part: '3'
-    stage: dis
-  :file: data/iso-dis-21809-3.yaml
+    stage: fdis
+  :file: data/iso-fdis-21809-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21810'
@@ -244145,20 +244322,20 @@
     _type: pubid:iso:international-standard
     number: '21920'
     part: '1'
-    stage: awiis
-  :file: data/iso-awi-21920-1.yaml
+    stage: cdis
+  :file: data/iso-cd-21920-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21920'
     part: '2'
-    stage: awiis
-  :file: data/iso-awi-21920-2.yaml
+    stage: cdis
+  :file: data/iso-cd-21920-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21920'
     part: '3'
-    stage: awiis
-  :file: data/iso-awi-21920-3.yaml
+    stage: cdis
+  :file: data/iso-cd-21920-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21921'
@@ -245161,8 +245338,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '21988'
-    stage: awiis
-  :file: data/iso-awi-21988.yaml
+    stage: cdis
+  :file: data/iso-cd-21988.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '21989'
@@ -247469,8 +247646,8 @@
     _type: pubid:iso:international-standard
     number: '22161'
     part: '3'
-    stage: dis
-  :file: data/iso-dis-22161-3.yaml
+    stage: fdis
+  :file: data/iso-fdis-22161-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '22162'
@@ -248558,8 +248735,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '22238'
-    stage: dis
-  :file: data/iso-dis-22238.yaml
+    stage: fdis
+  :file: data/iso-fdis-22238.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '22239'
@@ -248820,6 +248997,11 @@
     number: '22253'
     year: '2019'
   :file: data/iso-22253-2019.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '22253'
+    stage: dis
+  :file: data/iso-dis-22253.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '22254'
@@ -253802,6 +253984,12 @@
   :file: data/iso-dis-22634-2.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '22634'
+    part: '1'
+    stage: dis
+  :file: data/iso-dis-22634-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '22635'
     year: '2019'
   :file: data/iso-22635-2019.yaml
@@ -254524,6 +254712,11 @@
   :file: data/iso-dis-22700.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '22701'
+    stage: pwiis
+  :file: data/iso-pwi-22701.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '22702'
     year: '2003'
   :file: data/iso-22702-2003.yaml
@@ -254549,8 +254742,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '22702'
-    stage: dis
-  :file: data/iso-dis-22702.yaml
+    stage: fdis
+  :file: data/iso-fdis-22702.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '22703'
@@ -255648,14 +255841,12 @@
     _type: pubid:iso:international-standard
     number: '22785'
     part: '1'
-    stage: fdis
-  :file: data/iso-fdis-22785-1.yaml
+  :file: data/iso-22785-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '22785'
     part: '2'
-    stage: fdis
-  :file: data/iso-fdis-22785-2.yaml
+  :file: data/iso-22785-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '22785'
@@ -255665,14 +255856,12 @@
     _type: pubid:iso:international-standard
     number: '22785'
     part: '4'
-    stage: fdis
-  :file: data/iso-fdis-22785-4.yaml
+  :file: data/iso-22785-4.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '22785'
     part: '5'
-    stage: fdis
-  :file: data/iso-fdis-22785-5.yaml
+  :file: data/iso-22785-5.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '22785'
@@ -258696,6 +258885,12 @@
   :file: data/iso-230-1-2012-cd-amd-1.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '230'
+    part: '14'
+    stage: isnp
+  :file: data/iso-np-230-14.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '2300'
     year: '1973'
   :file: data/iso-2300-1973.yaml
@@ -260188,7 +260383,7 @@
     number: '1'
     copublishers:
     - IEC
-    stage: damd
+    stage: fdamd
     base:
       _type: pubid:iso:international-standard
       number: '23001'
@@ -260196,7 +260391,7 @@
       year: '2023'
       copublishers:
       - IEC
-  :file: data/iso-iec-23001-7-2023-dam-1.yaml
+  :file: data/iso-iec-23001-7-2023-fdam-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23002'
@@ -263342,8 +263537,9 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '23033'
+    part: '1'
     stage: awiis
-  :file: data/iso-awi-23033.yaml
+  :file: data/iso-awi-23033-1.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '23034'
@@ -263831,7 +264027,8 @@
     _type: pubid:iso:technical-report
     number: '23081'
     part: '4'
-  :file: data/iso-tr-23081-4.yaml
+    year: '2026'
+  :file: data/iso-tr-23081-4-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23082'
@@ -265287,8 +265484,8 @@
     _type: pubid:iso:international-standard
     number: '23098'
     part: '3'
-    stage: cdis
-  :file: data/iso-cd-23098-3.yaml
+    stage: dis
+  :file: data/iso-dis-23098-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23098'
@@ -265640,6 +265837,12 @@
     part: '3'
     stage: pwiis
   :file: data/iso-pwi-23137-3.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '23137'
+    part: '2'
+    stage: isnp
+  :file: data/iso-np-23137-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23138'
@@ -266171,8 +266374,8 @@
     number: '23187'
     copublishers:
     - IEC
-    stage: wdts
-  :file: data/iso-iec-wd-ts-23187.yaml
+    stage: cdts
+  :file: data/iso-iec-cdts-23187.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '23188'
@@ -266692,8 +266895,8 @@
     part: '9'
     copublishers:
     - IEC
-    stage: npts
-  :file: data/iso-iec-np-ts-23220-9.yaml
+    stage: awits
+  :file: data/iso-iec-awi-ts-23220-9.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23221'
@@ -267611,6 +267814,12 @@
     part: '1'
     stage: dis
   :file: data/iso-dis-23299-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '23299'
+    part: '2'
+    stage: isnp
+  :file: data/iso-np-23299-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '233'
@@ -269766,7 +269975,8 @@
     _type: pubid:iso:international-standard
     number: '23494'
     part: '2'
-  :file: data/iso-23494-2.yaml
+    year: '2026'
+  :file: data/iso-23494-2-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23494'
@@ -269779,6 +269989,12 @@
     part: '1'
     year: '2026'
   :file: data/iso-23494-1-2026.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '23494'
+    part: '4'
+    stage: isnp
+  :file: data/iso-np-23494-4.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23495'
@@ -270113,8 +270329,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '23511'
-    stage: fdis
-  :file: data/iso-fdis-23511.yaml
+  :file: data/iso-23511.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23512'
@@ -271486,8 +271701,8 @@
     part: '2'
     copublishers:
     - IEC
-    stage: isnp
-  :file: data/iso-iec-np-23620-2.yaml
+    stage: awiis
+  :file: data/iso-iec-awi-23620-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23620'
@@ -272091,7 +272306,8 @@
     _type: pubid:iso:international-standard
     number: '23693'
     part: '3'
-  :file: data/iso-23693-3.yaml
+    year: '2026'
+  :file: data/iso-23693-3-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23694'
@@ -274842,9 +275058,19 @@
   :file: data/iso-23904-2020.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '23904'
+    stage: dis
+  :file: data/iso-dis-23904.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '23905'
     year: '2020'
   :file: data/iso-23905-2020.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '23905'
+    stage: dis
+  :file: data/iso-dis-23905.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23906'
@@ -274857,6 +275083,18 @@
     part: '2'
     year: '2023'
   :file: data/iso-23906-2-2023.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '23906'
+    part: '1'
+    stage: dis
+  :file: data/iso-dis-23906-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '23906'
+    part: '2'
+    stage: dis
+  :file: data/iso-dis-23906-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23907'
@@ -275044,6 +275282,11 @@
     number: '23923'
     year: '2020'
   :file: data/iso-23923-2020.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '23923'
+    stage: dis
+  :file: data/iso-dis-23923.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23924'
@@ -275682,8 +275925,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '23985'
-    stage: dis
-  :file: data/iso-dis-23985.yaml
+    stage: fdis
+  :file: data/iso-fdis-23985.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '23986'
@@ -276185,8 +276428,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '24031'
-    stage: dis
-  :file: data/iso-dis-24031.yaml
+    stage: fdis
+  :file: data/iso-fdis-24031.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '24032'
@@ -276329,8 +276572,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '24046'
-    stage: prfis
-  :file: data/iso-prf-24046.yaml
+  :file: data/iso-24046.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '24047'
@@ -277305,8 +277547,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '24132'
-    stage: cdis
-  :file: data/iso-cd-24132.yaml
+    stage: dis
+  :file: data/iso-dis-24132.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '24133'
@@ -277898,16 +278140,16 @@
     part: '1'
     copublishers:
     - IEC
-    stage: awits
-  :file: data/iso-iec-awi-ts-24192-1.yaml
+    stage: wdts
+  :file: data/iso-iec-wd-ts-24192-1.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '24192'
     part: '2'
     copublishers:
     - IEC
-    stage: awits
-  :file: data/iso-iec-awi-ts-24192-2.yaml
+    stage: wdts
+  :file: data/iso-iec-wd-ts-24192-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '24193'
@@ -278130,8 +278372,9 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '24221'
+    part: '1'
     stage: awiis
-  :file: data/iso-awi-24221.yaml
+  :file: data/iso-awi-24221-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '24222'
@@ -280659,8 +280902,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '24499'
-    stage: fdis
-  :file: data/iso-fdis-24499.yaml
+  :file: data/iso-24499.yaml
 - :id:
     _type: pubid:iso:recommendation
     number: '245'
@@ -281785,8 +282027,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '24603'
-    stage: cdis
-  :file: data/iso-cd-24603.yaml
+    stage: dis
+  :file: data/iso-dis-24603.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '24604'
@@ -282511,6 +282753,12 @@
     part: '1'
     year: '2023'
   :file: data/iso-pas-24644-1-2023.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '24644'
+    part: '1'
+    stage: prfis
+  :file: data/iso-prf-24644-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '24645'
@@ -286771,8 +287019,8 @@
     _type: pubid:iso:technical-specification
     number: '24854'
     part: '1'
-    stage: cdts
-  :file: data/iso-cdts-24854-1.yaml
+    stage: dts
+  :file: data/iso-dts-24854-1.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '24854'
@@ -287143,8 +287391,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '24904'
-    stage: isnp
-  :file: data/iso-np-24904.yaml
+    stage: awiis
+  :file: data/iso-awi-24904.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '24906'
@@ -287169,8 +287417,8 @@
     _type: pubid:iso:technical-specification
     number: '24910'
     part: '1'
-    stage: cdts
-  :file: data/iso-cdts-24910-1.yaml
+    stage: dts
+  :file: data/iso-dts-24910-1.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '24910'
@@ -287235,8 +287483,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '24922'
-    stage: awiis
-  :file: data/iso-awi-24922.yaml
+    stage: wdis
+  :file: data/iso-wd-24922.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '24923'
@@ -287259,8 +287507,8 @@
     number: '24927'
     copublishers:
     - IEC
-    stage: awiis
-  :file: data/iso-iec-awi-24927.yaml
+    stage: cdis
+  :file: data/iso-iec-cd-24927.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '24928'
@@ -287582,7 +287830,8 @@
     _type: pubid:iso:technical-specification
     number: '24971'
     part: '2'
-  :file: data/iso-ts-24971-2.yaml
+    year: '2026'
+  :file: data/iso-ts-24971-2-2026.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '24971'
@@ -287861,8 +288110,7 @@
     part: '1'
     copublishers:
     - IEC
-    stage: fdis
-  :file: data/iso-iec-fdis-25005-1.yaml
+  :file: data/iso-iec-25005-1.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '25005'
@@ -288135,18 +288383,18 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '25034'
-    stage: awiis
-  :file: data/iso-awi-25034.yaml
+    stage: wdis
+  :file: data/iso-wd-25034.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25035'
-    stage: awiis
-  :file: data/iso-awi-25035.yaml
+    stage: wdis
+  :file: data/iso-wd-25035.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25036'
-    stage: awiis
-  :file: data/iso-awi-25036.yaml
+    stage: wdis
+  :file: data/iso-wd-25036.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25037'
@@ -289064,13 +289312,13 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '25121'
-    stage: dis
-  :file: data/iso-dis-25121.yaml
+    stage: prfis
+  :file: data/iso-prf-25121.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25122'
-    stage: dis
-  :file: data/iso-dis-25122.yaml
+    stage: prfis
+  :file: data/iso-prf-25122.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25123'
@@ -289303,8 +289551,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '25161'
-    stage: cdis
-  :file: data/iso-cd-25161.yaml
+    stage: dis
+  :file: data/iso-dis-25161.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25162'
@@ -289728,8 +289976,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '25186'
-    stage: prfis
-  :file: data/iso-prf-25186.yaml
+  :file: data/iso-25186.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25187'
@@ -290387,8 +290634,8 @@
     _type: pubid:iso:international-standard
     number: '25264'
     part: '1'
-    stage: dis
-  :file: data/iso-dis-25264-1.yaml
+    stage: prfis
+  :file: data/iso-prf-25264-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25264'
@@ -290634,8 +290881,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '25301'
-    stage: wdis
-  :file: data/iso-wd-25301.yaml
+    stage: cdis
+  :file: data/iso-cd-25301.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25302'
@@ -290942,8 +291189,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '25342'
-    stage: cdis
-  :file: data/iso-cd-25342.yaml
+    stage: dis
+  :file: data/iso-dis-25342.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25343'
@@ -290958,8 +291205,8 @@
     _type: pubid:iso:technical-specification
     number: '25344'
     part: '1'
-    stage: cdts
-  :file: data/iso-cdts-25344-1.yaml
+    stage: dts
+  :file: data/iso-dts-25344-1.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '25344'
@@ -291489,8 +291736,8 @@
     _type: pubid:iso:international-standard
     number: '25414'
     part: '1'
-    stage: isnp
-  :file: data/iso-np-25414-1.yaml
+    stage: awiis
+  :file: data/iso-awi-25414-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25415'
@@ -291555,8 +291802,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '25423'
-    stage: cdis
-  :file: data/iso-cd-25423.yaml
+    stage: dis
+  :file: data/iso-dis-25423.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25424'
@@ -291878,6 +292125,12 @@
   :file: data/iso-awi-ts-25462.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '25464'
+    stage_iteration: '3'
+    stage: isnp
+  :file: data/iso-np-25464-3.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '25465'
     stage: pwiis
   :file: data/iso-pwi-25465.yaml
@@ -292092,44 +292345,44 @@
     _type: pubid:iso:international-standard
     number: '25500'
     part: '1'
-    stage: dis
-  :file: data/iso-dis-25500-1.yaml
+    stage: prfis
+  :file: data/iso-prf-25500-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25500'
     part: '2'
-    stage: dis
-  :file: data/iso-dis-25500-2.yaml
+    stage: prfis
+  :file: data/iso-prf-25500-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25500'
     part: '3'
-    stage: dis
-  :file: data/iso-dis-25500-3.yaml
+    stage: prfis
+  :file: data/iso-prf-25500-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25500'
     part: '100'
-    stage: dis
-  :file: data/iso-dis-25500-100.yaml
+    stage: prfis
+  :file: data/iso-prf-25500-100.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25500'
     part: '110'
-    stage: dis
-  :file: data/iso-dis-25500-110.yaml
+    stage: prfis
+  :file: data/iso-prf-25500-110.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25500'
     part: '240'
-    stage: dis
-  :file: data/iso-dis-25500-240.yaml
+    stage: prfis
+  :file: data/iso-prf-25500-240.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25500'
     part: '120'
-    stage: dis
-  :file: data/iso-dis-25500-120.yaml
+    stage: prfis
+  :file: data/iso-prf-25500-120.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25502'
@@ -292344,8 +292597,8 @@
 - :id:
     _type: pubid:iso:technical-specification
     number: '25536'
-    stage: awits
-  :file: data/iso-awi-ts-25536.yaml
+    stage: wdts
+  :file: data/iso-wd-ts-25536.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25537'
@@ -292730,8 +292983,8 @@
     _type: pubid:iso:international-standard
     number: '25581'
     part: '1'
-    stage: cdis
-  :file: data/iso-cd-25581-1.yaml
+    stage: dis
+  :file: data/iso-dis-25581-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25581'
@@ -293040,13 +293293,13 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '25621'
-    stage: pwiis
-  :file: data/iso-pwi-25621.yaml
+    stage: isnp
+  :file: data/iso-np-25621.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25622'
-    stage: pwiis
-  :file: data/iso-pwi-25622.yaml
+    stage: isnp
+  :file: data/iso-np-25622.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25623'
@@ -293094,8 +293347,8 @@
     _type: pubid:iso:international-standard
     number: '25630'
     part: '1'
-    stage: wdis
-  :file: data/iso-wd-25630-1.yaml
+    stage: cdis
+  :file: data/iso-cd-25630-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25631'
@@ -294579,8 +294832,7 @@
 - :id:
     _type: pubid:iso:technical-report
     number: '25775'
-    stage: dtr
-  :file: data/iso-dtr-25775.yaml
+  :file: data/iso-tr-25775.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25776'
@@ -294680,14 +294932,14 @@
     _type: pubid:iso:international-standard
     number: '25789'
     part: '1'
-    stage: awiis
-  :file: data/iso-awi-25789-1.yaml
+    stage: wdis
+  :file: data/iso-wd-25789-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25789'
     part: '2'
-    stage: awiis
-  :file: data/iso-awi-25789-2.yaml
+    stage: wdis
+  :file: data/iso-wd-25789-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '2579'
@@ -294970,6 +295222,12 @@
     number: '25821'
     stage: cdis
   :file: data/iso-cd-25821.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '25822'
+    part: '1'
+    stage: isnp
+  :file: data/iso-np-25822-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25823'
@@ -295396,8 +295654,8 @@
     number: '25880'
     copublishers:
     - IEC
-    stage: isnp
-  :file: data/iso-iec-np-25880.yaml
+    stage: awiis
+  :file: data/iso-iec-awi-25880.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25881'
@@ -296320,8 +296578,8 @@
     number: '25985'
     copublishers:
     - IEC
-    stage: awiis
-  :file: data/iso-iec-awi-25985.yaml
+    stage: cdis
+  :file: data/iso-iec-cd-25985.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25986'
@@ -296333,8 +296591,8 @@
     _type: pubid:iso:international-standard
     number: '25987'
     part: '1'
-    stage: isnp
-  :file: data/iso-np-25987-1.yaml
+    stage: awiis
+  :file: data/iso-awi-25987-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '25988'
@@ -296624,6 +296882,13 @@
   :file: data/iso-wd-26024.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '26029'
+    copublishers:
+    - IEC
+    stage: isnp
+  :file: data/iso-iec-np-26029.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '2603'
     year: '1983'
   :file: data/iso-2603-1983.yaml
@@ -296650,8 +296915,9 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26032'
-    stage: pwiis
-  :file: data/iso-pwi-26032.yaml
+    stage_iteration: '2'
+    stage: isnp
+  :file: data/iso-np-26032-2.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '26033'
@@ -296710,6 +296976,11 @@
     part: '8'
     year: '1985'
   :file: data/iso-2604-8-1985.yaml
+- :id:
+    _type: pubid:iso:technical-specification
+    number: '26040'
+    stage: npts
+  :file: data/iso-np-ts-26040.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26041'
@@ -296854,8 +297125,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26065'
-    stage: awiis
-  :file: data/iso-awi-26065.yaml
+    stage: wdis
+  :file: data/iso-wd-26065.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26066'
@@ -296891,8 +297162,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26077'
-    stage: isnp
-  :file: data/iso-np-26077.yaml
+    stage: awiis
+  :file: data/iso-awi-26077.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26079'
@@ -297541,8 +297812,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26164'
-    stage: awiis
-  :file: data/iso-awi-26164.yaml
+    stage: wdis
+  :file: data/iso-wd-26164.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26166'
@@ -297680,8 +297951,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26190'
-    stage: wdis
-  :file: data/iso-wd-26190.yaml
+    stage: cdis
+  :file: data/iso-cd-26190.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26191'
@@ -298462,8 +298733,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26296'
-    stage: awiis
-  :file: data/iso-awi-26296.yaml
+    stage: wdis
+  :file: data/iso-wd-26296.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26298'
@@ -298851,6 +299122,12 @@
     number: '2631'
     part: '2'
   :file: data/iso-2631-2.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '2631'
+    part: '4'
+    stage: pwiis
+  :file: data/iso-pwi-2631-4.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26310'
@@ -299250,8 +299527,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26386'
-    stage: awiis
-  :file: data/iso-awi-26386.yaml
+    stage: cdis
+  :file: data/iso-cd-26386.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26387'
@@ -299297,6 +299574,16 @@
     number: '26392'
     stage: awits
   :file: data/iso-awi-ts-26392.yaml
+- :id:
+    _type: pubid:iso:technical-specification
+    number: '26393'
+    stage: npts
+  :file: data/iso-np-ts-26393.yaml
+- :id:
+    _type: pubid:iso:technical-specification
+    number: '26395'
+    stage: npts
+  :file: data/iso-np-ts-26395.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '264'
@@ -299804,8 +300091,8 @@
     number: '26487'
     copublishers:
     - IEC
-    stage: awitr
-  :file: data/iso-iec-awi-tr-26487.yaml
+    stage: cdtr
+  :file: data/iso-iec-cd-tr-26487.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26488'
@@ -300086,8 +300373,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26518'
-    stage: isnp
-  :file: data/iso-np-26518.yaml
+    stage: awiis
+  :file: data/iso-awi-26518.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26519'
@@ -300356,6 +300643,20 @@
     copublishers:
     - IEC
   :file: data/iso-iec-26566-2026.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26567'
+    copublishers:
+    - IEC
+    stage: isnp
+  :file: data/iso-iec-np-26567.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26568'
+    copublishers:
+    - IEC
+    stage: isnp
+  :file: data/iso-iec-np-26568.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26569'
@@ -300900,18 +301201,18 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26659'
-    stage: isnp
-  :file: data/iso-np-26659.yaml
+    stage: awiis
+  :file: data/iso-awi-26659.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26660'
-    stage: isnp
-  :file: data/iso-np-26660.yaml
+    stage: awiis
+  :file: data/iso-awi-26660.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26661'
-    stage: isnp
-  :file: data/iso-np-26661.yaml
+    stage: awiis
+  :file: data/iso-awi-26661.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26662'
@@ -300920,8 +301221,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26663'
-    stage: isnp
-  :file: data/iso-np-26663.yaml
+    stage: awiis
+  :file: data/iso-awi-26663.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26664'
@@ -300982,8 +301283,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26675'
-    stage: isnp
-  :file: data/iso-np-26675.yaml
+    stage: awiis
+  :file: data/iso-awi-26675.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26676'
@@ -301007,13 +301308,13 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26680'
-    stage: isnp
-  :file: data/iso-np-26680.yaml
+    stage: awiis
+  :file: data/iso-awi-26680.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26681'
-    stage: isnp
-  :file: data/iso-np-26681.yaml
+    stage: awiis
+  :file: data/iso-awi-26681.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '26682'
@@ -301135,8 +301436,8 @@
 - :id:
     _type: pubid:iso:technical-specification
     number: '26691'
-    stage: npts
-  :file: data/iso-np-ts-26691.yaml
+    stage: awits
+  :file: data/iso-awi-ts-26691.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26692'
@@ -301145,8 +301446,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26693'
-    stage: isnp
-  :file: data/iso-np-26693.yaml
+    stage: awiis
+  :file: data/iso-awi-26693.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26694'
@@ -301185,8 +301486,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26700'
-    stage: isnp
-  :file: data/iso-np-26700.yaml
+    stage: awiis
+  :file: data/iso-awi-26700.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '26701'
@@ -301387,8 +301688,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26738'
-    stage: isnp
-  :file: data/iso-np-26738.yaml
+    stage: awiis
+  :file: data/iso-awi-26738.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26739'
@@ -301902,6 +302203,21 @@
   :file: data/iso-iec-awi-tr-26851.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '26857'
+    stage: isnp
+  :file: data/iso-np-26857.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26858'
+    stage: isnp
+  :file: data/iso-np-26858.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26859'
+    stage: isnp
+  :file: data/iso-np-26859.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '26862'
     stage: isnp
   :file: data/iso-np-26862.yaml
@@ -302004,6 +302320,45 @@
     number: '26873'
     year: '2010'
   :file: data/iso-ts-26873-2010.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26874'
+    part: '1'
+    stage: isnp
+  :file: data/iso-np-26874-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26875'
+    part: '1'
+    stage: isnp
+  :file: data/iso-np-26875-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26876'
+    stage: isnp
+  :file: data/iso-np-26876.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26877'
+    stage: isnp
+  :file: data/iso-np-26877.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26881'
+    stage: isnp
+  :file: data/iso-np-26881.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26882'
+    copublishers:
+    - IEC
+    stage: isnp
+  :file: data/iso-iec-np-26882.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '26883'
+    stage: isnp
+  :file: data/iso-np-26883.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26885'
@@ -302232,8 +302587,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '26957'
-    stage: cdis
-  :file: data/iso-cd-26957.yaml
+    stage: dis
+  :file: data/iso-dis-26957.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '26958'
@@ -303843,8 +304198,7 @@
     _type: pubid:iso:international-standard
     number: '2710'
     part: '1'
-    stage: fdis
-  :file: data/iso-fdis-2710-1.yaml
+  :file: data/iso-2710-1.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '27100'
@@ -304256,8 +304610,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '27186'
-    stage: fdis
-  :file: data/iso-fdis-27186.yaml
+  :file: data/iso-27186.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '2719'
@@ -307112,11 +307465,10 @@
     _type: pubid:iso:international-standard
     number: '28033'
     part: '4'
-    stage_iteration: '2'
     copublishers:
     - IEC
-    stage: dis
-  :file: data/iso-iec-dis-28033-4-2.yaml
+    stage: fdis
+  :file: data/iso-iec-fdis-28033-4.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '28033'
@@ -309489,8 +309841,8 @@
     _type: pubid:iso:international-standard
     number: '28706'
     part: '6'
-    stage: isnp
-  :file: data/iso-np-28706-6.yaml
+    stage: awiis
+  :file: data/iso-awi-28706-6.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '2871'
@@ -311132,6 +311484,11 @@
     year: '2002'
   :file: data/iso-2909-2002.yaml
 - :id:
+    _type: pubid:iso:international-standard
+    number: '2909'
+    stage: cdis
+  :file: data/iso-cd-2909.yaml
+- :id:
     _type: pubid:iso:recommendation
     number: '291'
     year: '1963'
@@ -312479,14 +312836,14 @@
     number: '1'
     copublishers:
     - IEC
-    stage: awi_amd
+    stage: committee_draft_amd
     base:
       _type: pubid:iso:international-standard
       number: '29121'
       year: '2021'
       copublishers:
       - IEC
-  :file: data/iso-iec-29121-2021-awi-amd-1.yaml
+  :file: data/iso-iec-29121-2021-cd-amd-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '29122'
@@ -320392,10 +320749,11 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '30111'
+    stage_iteration: '2'
     copublishers:
     - IEC
     stage: wdis
-  :file: data/iso-iec-wd-30111.yaml
+  :file: data/iso-iec-wd-30111-2.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '30112'
@@ -322121,14 +322479,14 @@
     number: '1'
     copublishers:
     - IEC
-    stage: awi_amd
+    stage: committee_draft_amd
     base:
       _type: pubid:iso:international-standard
       number: '30190'
       year: '2021'
       copublishers:
       - IEC
-  :file: data/iso-iec-30190-2021-awi-amd-1.yaml
+  :file: data/iso-iec-30190-2021-cd-amd-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '30191'
@@ -322168,14 +322526,14 @@
     number: '1'
     copublishers:
     - IEC
-    stage: awi_amd
+    stage: committee_draft_amd
     base:
       _type: pubid:iso:international-standard
       number: '30191'
       year: '2021'
       copublishers:
       - IEC
-  :file: data/iso-iec-30191-2021-awi-amd-1.yaml
+  :file: data/iso-iec-30191-2021-cd-amd-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '30192'
@@ -322228,14 +322586,14 @@
     number: '1'
     copublishers:
     - IEC
-    stage: awi_amd
+    stage: committee_draft_amd
     base:
       _type: pubid:iso:international-standard
       number: '30192'
       year: '2021'
       copublishers:
       - IEC
-  :file: data/iso-iec-30192-2021-awi-amd-1.yaml
+  :file: data/iso-iec-30192-2021-cd-amd-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '30193'
@@ -322450,7 +322808,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '30201'
-  :file: data/iso-30201.yaml
+    year: '2026'
+  :file: data/iso-30201-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '30202'
@@ -322969,8 +323328,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '30404'
-    stage: awiis
-  :file: data/iso-awi-30404.yaml
+    stage: cdis
+  :file: data/iso-cd-30404.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '30405'
@@ -326012,8 +326371,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '31513'
-    stage: prfis
-  :file: data/iso-prf-31513.yaml
+  :file: data/iso-31513.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '31514'
@@ -327556,6 +327914,11 @@
     number: '32126'
     stage: awiis
   :file: data/iso-awi-32126.yaml
+- :id:
+    _type: pubid:iso:technical-report
+    number: '32128'
+    stage: awitr
+  :file: data/iso-awi-tr-32128.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '3213'
@@ -329538,8 +329901,8 @@
     number: '33063'
     copublishers:
     - IEC
-    stage: dis
-  :file: data/iso-iec-dis-33063.yaml
+    stage: fdis
+  :file: data/iso-iec-fdis-33063.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '33064'
@@ -329642,6 +330005,11 @@
     number: '3308'
     year: '2012'
   :file: data/iso-3308-2012.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '3308'
+    stage: awiis
+  :file: data/iso-awi-3308.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '33080'
@@ -330471,7 +330839,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '33400'
-  :file: data/iso-33400.yaml
+    year: '2026'
+  :file: data/iso-33400-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '33401'
@@ -340260,8 +340629,8 @@
     _type: pubid:iso:international-standard
     number: '37700'
     part: '2'
-    stage: cdis
-  :file: data/iso-cd-37700-2.yaml
+    stage: dis
+  :file: data/iso-dis-37700-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '37700'
@@ -340272,20 +340641,20 @@
     _type: pubid:iso:international-standard
     number: '37700'
     part: '4'
-    stage: cdis
-  :file: data/iso-cd-37700-4.yaml
+    stage: dis
+  :file: data/iso-dis-37700-4.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '37700'
     part: '5'
-    stage: cdis
-  :file: data/iso-cd-37700-5.yaml
+    stage: dis
+  :file: data/iso-dis-37700-5.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '37701'
     part: '1'
-    stage: cdis
-  :file: data/iso-cd-37701-1.yaml
+    stage: dis
+  :file: data/iso-dis-37701-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '37701'
@@ -343481,7 +343850,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '39004'
-  :file: data/iso-39004.yaml
+    year: '2026'
+  :file: data/iso-39004-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '39005'
@@ -348122,12 +348492,13 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '41002'
-  :file: data/iso-41002.yaml
+    year: '2026'
+  :file: data/iso-41002-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '41003'
-    stage: isnp
-  :file: data/iso-np-41003.yaml
+    stage: wdis
+  :file: data/iso-wd-41003.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '4101'
@@ -351745,12 +352116,6 @@
     part: '2'
     year: '2023'
   :file: data/iso-4250-2-2023.yaml
-- :id:
-    _type: pubid:iso:international-standard
-    number: '4250'
-    part: '3'
-    stage: awiis
-  :file: data/iso-awi-4250-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '42500'
@@ -361577,8 +361942,8 @@
     _type: pubid:iso:international-standard
     number: '472'
     part: '6'
-    stage: awiis
-  :file: data/iso-awi-472-6.yaml
+    stage: cdis
+  :file: data/iso-cd-472-6.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '472'
@@ -362841,11 +363206,11 @@
     year: '2023'
   :file: data/iso-4825-1-2023.yaml
 - :id:
-    _type: pubid:iso:international-standard
+    _type: pubid:iso:technical-report
     number: '4825'
     part: '2'
-    stage: wdis
-  :file: data/iso-wd-4825-2.yaml
+    stage: wdtr
+  :file: data/iso-wd-tr-4825-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '4825'
@@ -364010,8 +364375,8 @@
     _type: pubid:iso:international-standard
     number: '4892'
     part: '2'
-    stage: awiis
-  :file: data/iso-awi-4892-2.yaml
+    stage: wdis
+  :file: data/iso-wd-4892-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '4893'
@@ -365652,8 +366017,9 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '4995'
+    stage_iteration: '2'
     stage: wdis
-  :file: data/iso-wd-4995.yaml
+  :file: data/iso-wd-4995-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '4996'
@@ -365687,8 +366053,9 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '4996'
+    stage_iteration: '2'
     stage: wdis
-  :file: data/iso-wd-4996.yaml
+  :file: data/iso-wd-4996-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '4997'
@@ -374295,12 +374662,12 @@
 - :id:
     _type: pubid:iso:amendment
     number: '1'
-    stage: committee_draft_amd
+    stage: damd
     base:
       _type: pubid:iso:international-standard
       number: '5367'
       year: '2023'
-  :file: data/iso-5367-2023-cd-amd-1.yaml
+  :file: data/iso-5367-2023-dam-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '5368'
@@ -374818,6 +375185,11 @@
     number: '54001'
     year: '2019'
   :file: data/iso-ts-54001-2019.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '54001'
+    stage: awiis
+  :file: data/iso-awi-54001.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '54002'
@@ -377928,8 +378300,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '56013'
-    stage: awiis
-  :file: data/iso-awi-56013.yaml
+    stage: cdis
+  :file: data/iso-cd-56013.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '5602'
@@ -378676,8 +379048,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '5627'
-    stage: dis
-  :file: data/iso-dis-5627.yaml
+    stage: fdis
+  :file: data/iso-fdis-5627.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '5628'
@@ -380839,6 +381211,16 @@
     part: '2'
     year: '2025'
   :file: data/iso-5725-2-2025.yaml
+- :id:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage: awi_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '5725'
+      part: '2'
+      year: '2025'
+  :file: data/iso-5725-2-2025-awi-amd-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '5726'
@@ -391627,8 +392009,9 @@
     _type: pubid:iso:technical-specification
     number: '6268'
     part: '3'
+    stage_iteration: '2'
     stage: dts
-  :file: data/iso-dts-6268-3.yaml
+  :file: data/iso-dts-6268-3-2.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '6269'
@@ -391901,8 +392284,8 @@
     part: '4'
     subpart: '15'
     publisher: IEC
-    stage: isnp
-  :file: data/iec-np-62841-4-15.yaml
+    stage: awiis
+  :file: data/iec-awi-62841-4-15.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '6285'
@@ -400310,14 +400693,14 @@
     _type: pubid:iso:international-standard
     number: '6647'
     part: '1'
-    stage: awiis
-  :file: data/iso-awi-6647-1.yaml
+    stage: wdis
+  :file: data/iso-wd-6647-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '6647'
     part: '2'
-    stage: awiis
-  :file: data/iso-awi-6647-2.yaml
+    stage: wdis
+  :file: data/iso-wd-6647-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '6648'
@@ -404000,13 +404383,13 @@
 - :id:
     _type: pubid:iso:amendment
     number: '1'
-    stage: committee_draft_amd
+    stage: damd
     base:
       _type: pubid:iso:international-standard
       number: '683'
       part: '3'
       year: '2022'
-  :file: data/iso-683-3-2022-cd-amd-1.yaml
+  :file: data/iso-683-3-2022-dam-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '6830'
@@ -404428,8 +404811,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '6868'
-    stage: fdis
-  :file: data/iso-fdis-6868.yaml
+  :file: data/iso-6868.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '6869'
@@ -406750,11 +407132,6 @@
     number: '6976'
     year: '2016'
   :file: data/iso-6976-2016.yaml
-- :id:
-    _type: pubid:iso:international-standard
-    number: '6976'
-    stage: awiis
-  :file: data/iso-awi-6976.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '6977'
@@ -411950,8 +412327,9 @@
 - :id:
     _type: pubid:iso:technical-specification
     number: '7014'
+    stage_iteration: '2'
     stage: cdts
-  :file: data/iso-cdts-7014.yaml
+  :file: data/iso-cdts-7014-2.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '7015'
@@ -415246,8 +415624,8 @@
     number: '7184'
     copublishers:
     - IEC
-    stage: wdis
-  :file: data/iso-iec-wd-7184.yaml
+    stage: cdis
+  :file: data/iso-iec-cd-7184.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7185'
@@ -419387,8 +419765,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '7377'
-    stage: cdis
-  :file: data/iso-cd-7377.yaml
+    stage: dis
+  :file: data/iso-dis-7377.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7378'
@@ -419496,8 +419874,7 @@
     _type: pubid:iso:international-standard
     number: '7383'
     part: '3'
-    stage: fdis
-  :file: data/iso-fdis-7383-3.yaml
+  :file: data/iso-7383-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7384'
@@ -421047,11 +421424,6 @@
     number: '7481'
     year: '2023'
   :file: data/iso-7481-2023.yaml
-- :id:
-    _type: pubid:iso:international-standard
-    number: '7481'
-    stage: cdis
-  :file: data/iso-cd-7481.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7482'
@@ -422621,12 +422993,14 @@
     _type: pubid:iso:international-standard
     number: '7554'
     part: '2'
-  :file: data/iso-7554-2.yaml
+    year: '2026'
+  :file: data/iso-7554-2-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7554'
     part: '3'
-  :file: data/iso-7554-3.yaml
+    year: '2026'
+  :file: data/iso-7554-3-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7555'
@@ -423265,8 +423639,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '7604'
-    stage: awiis
-  :file: data/iso-awi-7604.yaml
+    stage: wdis
+  :file: data/iso-wd-7604.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7605'
@@ -429370,6 +429744,18 @@
   :file: data/iso-7867-2-2018.yaml
 - :id:
     _type: pubid:iso:international-standard
+    number: '7867'
+    part: '1'
+    stage: cdis
+  :file: data/iso-cd-7867-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '7867'
+    part: '2'
+    stage: cdis
+  :file: data/iso-cd-7867-2.yaml
+- :id:
+    _type: pubid:iso:international-standard
     number: '7868'
     stage: cdis
   :file: data/iso-cd-7868.yaml
@@ -429728,8 +430114,8 @@
     _type: pubid:iso:international-standard
     number: '787'
     part: '1'
-    stage: dis
-  :file: data/iso-dis-787-1.yaml
+    stage: fdis
+  :file: data/iso-fdis-787-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '787'
@@ -429860,6 +430246,12 @@
     stage_iteration: '2'
     stage: dis
   :file: data/iso-dis-7870-5-2.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '7870'
+    part: '1'
+    stage: awiis
+  :file: data/iso-awi-7870-1.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '7871'
@@ -430011,8 +430403,8 @@
     _type: pubid:iso:international-standard
     number: '7876'
     part: '4'
-    stage: cdis
-  :file: data/iso-cd-7876-4.yaml
+    stage: dis
+  :file: data/iso-dis-7876-4.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7877'
@@ -430126,6 +430518,12 @@
     part: '8'
     year: '1987'
   :file: data/iso-7884-8-1987.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '7884'
+    part: '2'
+    stage: awiis
+  :file: data/iso-awi-7884-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7885'
@@ -430988,8 +431386,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '7925'
-    stage: dis
-  :file: data/iso-dis-7925.yaml
+    stage: prfis
+  :file: data/iso-prf-7925.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '7926'
@@ -439481,8 +439879,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '8174'
-    stage: dis
-  :file: data/iso-dis-8174.yaml
+    stage: prfis
+  :file: data/iso-prf-8174.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8175'
@@ -444529,8 +444927,8 @@
     _type: pubid:iso:international-standard
     number: '8434'
     part: '2'
-    stage: dis
-  :file: data/iso-dis-8434-2.yaml
+    stage: fdis
+  :file: data/iso-fdis-8434-2.yaml
 - :id:
     _type: pubid:iso:technical-report
     number: '8435'
@@ -444679,7 +445077,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '844'
-  :file: data/iso-844.yaml
+    year: '2026'
+  :file: data/iso-844-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8440'
@@ -444994,6 +445393,11 @@
     number: '8454'
     year: '2024'
   :file: data/iso-8454-2024.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '8454'
+    stage: dis
+  :file: data/iso-dis-8454.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8455'
@@ -446298,8 +446702,8 @@
     _type: pubid:iso:international-standard
     number: '8502'
     part: '2'
-    stage: cdis
-  :file: data/iso-cd-8502-2.yaml
+    stage: dis
+  :file: data/iso-dis-8502-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8502'
@@ -446312,6 +446716,12 @@
     part: '15'
     stage: cdis
   :file: data/iso-cd-8502-15.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '8502'
+    part: '6'
+    stage: awiis
+  :file: data/iso-awi-8502-6.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8503'
@@ -446381,8 +446791,8 @@
     _type: pubid:iso:international-standard
     number: '8503'
     part: '5'
-    stage: cdis
-  :file: data/iso-cd-8503-5.yaml
+    stage: dis
+  :file: data/iso-dis-8503-5.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8504'
@@ -451001,20 +451411,20 @@
     _type: pubid:iso:international-standard
     number: '8637'
     part: '1'
-    stage: dis
-  :file: data/iso-dis-8637-1.yaml
+    stage: fdis
+  :file: data/iso-fdis-8637-1.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8637'
     part: '2'
-    stage: dis
-  :file: data/iso-dis-8637-2.yaml
+    stage: fdis
+  :file: data/iso-fdis-8637-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8637'
     part: '3'
-    stage: dis
-  :file: data/iso-dis-8637-3.yaml
+    stage: fdis
+  :file: data/iso-fdis-8637-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8638'
@@ -462329,7 +462739,8 @@
     _type: pubid:iso:international-standard
     number: '8980'
     part: '4'
-  :file: data/iso-8980-4.yaml
+    year: '2026'
+  :file: data/iso-8980-4-2026.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '8981'
@@ -472375,8 +472786,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '9358'
-    stage: cdis
-  :file: data/iso-cd-9358.yaml
+    stage: dis
+  :file: data/iso-dis-9358.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '9359'
@@ -472432,6 +472843,18 @@
     part: '1'
     stage: cdis
   :file: data/iso-cd-9360-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '9360'
+    part: '1'
+    stage: dis
+  :file: data/iso-dis-9360-1.yaml
+- :id:
+    _type: pubid:iso:international-standard
+    number: '9360'
+    part: '2'
+    stage: dis
+  :file: data/iso-dis-9360-2.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '9361'
@@ -474223,8 +474646,8 @@
     _type: pubid:iso:international-standard
     number: '9455'
     part: '8'
-    stage: dis
-  :file: data/iso-dis-9455-8.yaml
+    stage: fdis
+  :file: data/iso-fdis-9455-8.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '9456'
@@ -474489,12 +474912,6 @@
     stage: pwitr
   :file: data/iso-pwi-tr-9472-30100.yaml
 - :id:
-    _type: pubid:iso:technical-specification
-    number: '9472'
-    part: '10200'
-    stage: cdts
-  :file: data/iso-cdts-9472-10200.yaml
-- :id:
     _type: pubid:iso:international-standard
     number: '9473'
     year: '1988'
@@ -474663,7 +475080,8 @@
     _type: pubid:iso:international-standard
     number: '9491'
     part: '1'
-  :file: data/iso-9491-1.yaml
+    year: '2026'
+  :file: data/iso-9491-1-2026.yaml
 - :id:
     _type: pubid:iso:technical-specification
     number: '9491'
@@ -485874,8 +486292,7 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '9782'
-    stage: prfis
-  :file: data/iso-prf-9782.yaml
+  :file: data/iso-9782.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '9783'
@@ -487247,8 +487664,8 @@
     _type: pubid:iso:international-standard
     number: '9828'
     part: '3'
-    stage: cdis
-  :file: data/iso-cd-9828-3.yaml
+    stage: dis
+  :file: data/iso-dis-9828-3.yaml
 - :id:
     _type: pubid:iso:international-standard
     number: '9828'
@@ -490962,8 +491379,8 @@
 - :id:
     _type: pubid:iso:international-standard
     number: '9994'
-    stage: dis
-  :file: data/iso-dis-9994.yaml
+    stage: fdis
+  :file: data/iso-fdis-9994.yaml
 - :id:
     _type: pubid:iso:amendment
     number: '1'
