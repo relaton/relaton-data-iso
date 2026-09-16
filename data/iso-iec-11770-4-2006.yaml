@@ -1,4 +1,3 @@
----
 id: ISOIEC1177042006
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Security techniques - Key management -- Part
-    4: Mechanisms based on weak secrets'
+  content: 'Information technology - Security techniques - Key management -- Part 4: Mechanisms based on weak secrets'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologies de l''information - Techniques de sécurité - Gestion de clés
-    -- Partie 4: Mécanismes basés sur des secrets faibles'
+  content: 'Technologies de l''information - Techniques de sécurité - Gestion de clés -- Partie 4: Mécanismes basés sur des secrets faibles'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 11770-4:2006
   type: ISO
   primary: true
+- content: ISO/IEC 11770-4
+  type: iso-undated
 - content: ISO/IEC 11770-4:2006(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:11770:-4:stage-95.99
@@ -100,35 +99,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'ISO/IEC 11770-4:2006 defines key establishment mechanisms based on weak
-    secrets, i.e., secrets that can be readily memorized by a human, and hence secrets
-    that will be chosen from a relatively small set of possibilities. It specifies
-    cryptographic techniques specifically designed to establish one or more secret
-    keys based on a weak secret derived from a memorized password, while preventing
-    off-line brute-force attacks associated with the weak secret. More specifically,
-    these mechanisms are designed to achieve one of the following three goals. Balanced
-    password-authenticated key agreement: Establish one or more shared secret keys
-    between two entities that share a common weak secret. In a balanced password-authenticated
-    key agreement mechanism, the shared secret keys are the result of a data exchange
-    between the two entities, the shared secret keys are established if and only if
-    the two entities have used the same weak secret, and neither of the two entities
-    can predetermine the values of the shared secret keys.Augmented password-authenticated
-    key agreement: Establish one or more shared secret keys between two entities A
-    and B, where A has a weak secret and B has verification data derived from a one-way
-    function of A''s weak secret. In an augmented password-authenticated key agreement
-    mechanism, the shared secret keys are the result of a data exchange between the
-    two entities, the shared secret keys are established if and only if the two entities
-    have used the weak secret and the corresponding verification data, and neither
-    of the two entities can predetermine the values of the shared secret keys. Password-authenticated
-    key retrieval: Establish one or more secret keys for an entity, A, associated
-    with another entity, B, where A has a weak secret and B has a strong secret associated
-    with A''s weak secret. In an authenticated key retrieval mechanism, the secret
-    keys, retrievable by A (not necessarily derivable by B), are the result of a data
-    exchange between the two entities, and the secret keys are established if and
-    only if the two entities have used the weak secret and the associated strong secret.
-    However, although B''s strong secret is associated with A''s weak secret, the
-    strong secret does not (in itself) contain sufficient information to permit either
-    the weak secret or the secret keys established in the mechanism to be determined.'
+  content: 'ISO/IEC 11770-4:2006 defines key establishment mechanisms based on weak secrets, i.e., secrets that can be readily memorized by a human, and hence secrets that will be chosen from a relatively small set of possibilities. It specifies cryptographic techniques specifically designed to establish one or more secret keys based on a weak secret derived from a memorized password, while preventing off-line brute-force attacks associated with the weak secret. More specifically, these mechanisms are designed to achieve one of the following three goals. Balanced password-authenticated key agreement: Establish one or more shared secret keys between two entities that share a common weak secret. In a balanced password-authenticated key agreement mechanism, the shared secret keys are the result of a data exchange between the two entities, the shared secret keys are established if and only if the two entities have used the same weak secret, and neither of the two entities can predetermine the values of the shared secret keys.Augmented password-authenticated key agreement: Establish one or more shared secret keys between two entities A and B, where A has a weak secret and B has verification data derived from a one-way function of A''s weak secret. In an augmented password-authenticated key agreement mechanism, the shared secret keys are the result of a data exchange between the two entities, the shared secret keys are established if and only if the two entities have used the weak secret and the corresponding verification data, and neither of the two entities can predetermine the values of the shared secret keys. Password-authenticated key retrieval: Establish one or more secret keys for an entity, A, associated with another entity, B, where A has a weak secret and B has a strong secret associated with A''s weak secret. In an authenticated key retrieval mechanism, the secret keys, retrievable by A (not necessarily derivable by B), are the result of a data exchange between the two entities, and the secret keys are established if and only if the two entities have used the weak secret and the associated strong secret. However, although B''s strong secret is associated with A''s weak secret, the strong secret does not (in itself) contain sufficient information to permit either the weak secret or the secret keys established in the mechanism to be determined.'
 status:
   stage:
     content: '95'

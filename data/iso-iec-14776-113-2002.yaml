@@ -1,4 +1,3 @@
----
 id: ISOIEC147761132002
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Small Computer System Interface (SCSI) - Part
-    113: Parallel Interface-3 (SPI-3)'
+  content: 'Information technology - Small Computer System Interface (SCSI) - Part 113: Parallel Interface-3 (SPI-3)'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologies de l''information - Interface de petit système d''ordinateur
-    (SCSI) - Partie 113: Interface parallèle 3 (SPI-3)'
+  content: 'Technologies de l''information - Interface de petit système d''ordinateur (SCSI) - Partie 113: Interface parallèle 3 (SPI-3)'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 14776-113:2002
   type: ISO
   primary: true
+- content: ISO/IEC 14776-113
+  type: iso-undated
 - content: ISO/IEC 14776-113:2002(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:14776:-113:stage-90.93
@@ -100,38 +99,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard defines the mechanical, electrical, timing, and protocol
-    requirements of the SCSI parallel interface to allow conforming SCSI devices to
-    inter-operate. The SCSI parallel interface is a local I/O bus that may be operated
-    over a wide range of transfer rates. The objectives of the SCSI parallel interface
-    are:a) To provide host computers with device independence within a class of devices.
-    Thus, different disk drives, tape drives, printers, optical media drives and other
-    SCSI devices may be added to the host computers without requiring modifications
-    to generic system hardware. Provision is made for theaddition of special features
-    and functions through the use of vendor-specific options. Reserved areas are provided
-    for future standardization.b) To provide compatibility such that conforming SCSI-2
-    and SPI-2 devices may interoperate with SPI-3 devices given that the systems engineering
-    is correctly done. Conforming SCSI-2 and SPI-2 devices should respond in an acceptable
-    manner to reject SPI-3 protocol extensions. SPI-3 protocolextensions are designed
-    to be permissive of such rejections and thus allow SCSI-2 and SPI-2 devices to
-    continue operation without requiring the use of the extensions.The interface protocol
-    includes provision for the connection of multiple initiators (SCSI devices capable
-    of initiating an I/O process) and multiple targets (SCSI devices capable of responding
-    to a request to perform an I/O process). Distributed arbitration (i.e., bus-contention
-    logic) is built into the architecture of this standard. A default priority system
-    awards interface control to the highest priority SCSI device that is contending
-    for use of the bus and an optional fairness algorithm is defined.This standard
-    defines the physical attributes of an input/output bus for interconnecting computers
-    and peripheral devices.This standard has made obsolete the following:a) The high
-    voltage differential (HVD) option of differential driver/receivers. Implementations
-    that useHVD should reference the SCSI Parallel Interface-2 standard (ISO/IEC 14776-112).b)
-    The 32-bit SCSI bus width option. Implementations that use 32-bit wide buses should
-    referencethe SCSI Parallel Interface-2 standard (ISO/IEC 14776-112).c) The SCSI
-    configured automatically (SCAM) option. Implementations that use SCAM shouldreference
-    the SCSI Parallel Interface-2 standard (ISO/IEC 14776-112).d) The CONTINUE TASK
-    message and the TARGET TRANSFER DISABLE message. Implementationsthat use the CONTINUE
-    TASK message or TARGET TRANSFER DISABLE message shouldreference the SCSI Parallel
-    Interface-2 standard (ISO/IEC 14776-112).
+  content: This standard defines the mechanical, electrical, timing, and protocol requirements of the SCSI parallel interface to allow conforming SCSI devices to inter-operate. The SCSI parallel interface is a local I/O bus that may be operated over a wide range of transfer rates. The objectives of the SCSI parallel interface are:a) To provide host computers with device independence within a class of devices. Thus, different disk drives, tape drives, printers, optical media drives and other SCSI devices may be added to the host computers without requiring modifications to generic system hardware. Provision is made for theaddition of special features and functions through the use of vendor-specific options. Reserved areas are provided for future standardization.b) To provide compatibility such that conforming SCSI-2 and SPI-2 devices may interoperate with SPI-3 devices given that the systems engineering is correctly done. Conforming SCSI-2 and SPI-2 devices should respond in an acceptable manner to reject SPI-3 protocol extensions. SPI-3 protocolextensions are designed to be permissive of such rejections and thus allow SCSI-2 and SPI-2 devices to continue operation without requiring the use of the extensions.The interface protocol includes provision for the connection of multiple initiators (SCSI devices capable of initiating an I/O process) and multiple targets (SCSI devices capable of responding to a request to perform an I/O process). Distributed arbitration (i.e., bus-contention logic) is built into the architecture of this standard. A default priority system awards interface control to the highest priority SCSI device that is contending for use of the bus and an optional fairness algorithm is defined.This standard defines the physical attributes of an input/output bus for interconnecting computers and peripheral devices.This standard has made obsolete the following:a) The high voltage differential (HVD) option of differential driver/receivers. Implementations that useHVD should reference the SCSI Parallel Interface-2 standard (ISO/IEC 14776-112).b) The 32-bit SCSI bus width option. Implementations that use 32-bit wide buses should referencethe SCSI Parallel Interface-2 standard (ISO/IEC 14776-112).c) The SCSI configured automatically (SCAM) option. Implementations that use SCAM shouldreference the SCSI Parallel Interface-2 standard (ISO/IEC 14776-112).d) The CONTINUE TASK message and the TARGET TRANSFER DISABLE message. Implementationsthat use the CONTINUE TASK message or TARGET TRANSFER DISABLE message shouldreference the SCSI Parallel Interface-2 standard (ISO/IEC 14776-112).
 status:
   stage:
     content: '90'

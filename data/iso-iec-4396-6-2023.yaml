@@ -1,4 +1,3 @@
----
 id: ISOIEC439662023
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Telecommunications and information exchange between systems - Recursive
-    inter-network architecture - Part 6: RINA data transfer service'
+  content: 'Telecommunications and information exchange between systems - Recursive inter-network architecture - Part 6: RINA data transfer service'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Télécommunications et échange d''information entre systèmes - Architecture
-    récursive inter-réseaux - Partie 6: Service de transfert de données RINA'
+  content: 'Télécommunications et échange d''information entre systèmes - Architecture récursive inter-réseaux - Partie 6: Service de transfert de données RINA'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 4396-6:2023
   type: ISO
   primary: true
+- content: ISO/IEC 4396-6
+  type: iso-undated
 - content: ISO/IEC 4396-6:2023(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:4396:-6
@@ -100,24 +99,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This document is a service definition that provides an abstract description
-    of the application programming interface (API) seen by an Application Process
-    using a distributed inter-process communication (IPC) facility (DIF). APIs reflect
-    the specific constraints and conventions of an operating system or programming
-    language. This document does not do that. A service definition specifies the interactions
-    between an Application Process and IPC independent of such specifics. The application
-    process may be an IPC process and the member of a (N+1)-DIF. Actual APIs will
-    be system specific (or may not exist at all), but this sequence of interaction
-    will be maintained. The notation here is used to emphasize that the participants
-    can only act on what they see and must not make assumptions about any events that
-    may have occurred elsewhere. Hence the primitives are described in terms of primitives
-    invoked locally to cause an action, submit, and primitives locally invoked to
-    deliver information on state. This is not a design for an API. It cannot be as
-    a basis for any conformance tests. An actual API may make some, all or none of
-    the parameters noted here visible to the user and may add additional primitives
-    of local significance. The purpose of this service definition is to specify information
-    that must or may be available by whatever means, explicit or implicit, to drive
-    the operation of the DIF.
+  content: This document is a service definition that provides an abstract description of the application programming interface (API) seen by an Application Process using a distributed inter-process communication (IPC) facility (DIF). APIs reflect the specific constraints and conventions of an operating system or programming language. This document does not do that. A service definition specifies the interactions between an Application Process and IPC independent of such specifics. The application process may be an IPC process and the member of a (N+1)-DIF. Actual APIs will be system specific (or may not exist at all), but this sequence of interaction will be maintained. The notation here is used to emphasize that the participants can only act on what they see and must not make assumptions about any events that may have occurred elsewhere. Hence the primitives are described in terms of primitives invoked locally to cause an action, submit, and primitives locally invoked to deliver information on state. This is not a design for an API. It cannot be as a basis for any conformance tests. An actual API may make some, all or none of the parameters noted here visible to the user and may add additional primitives of local significance. The purpose of this service definition is to specify information that must or may be available by whatever means, explicit or implicit, to drive the operation of the DIF.
 status:
   stage:
     content: '60'

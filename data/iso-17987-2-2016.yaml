@@ -1,4 +1,3 @@
----
 id: ISO1798722016
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Road vehicles - Local Interconnect Network (LIN) - Part 2: Transport protocol
-    and network layer services'
+  content: 'Road vehicles - Local Interconnect Network (LIN) - Part 2: Transport protocol and network layer services'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Véhicules routiers - Réseau Internet local (LIN) - Partie 2: Protocole
-    de transport et couches de services réseau'
+  content: 'Véhicules routiers - Réseau Internet local (LIN) - Partie 2: Protocole de transport et couches de services réseau'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO 17987-2:2016
   type: ISO
   primary: true
+- content: ISO 17987-2
+  type: iso-undated
 - content: ISO 17987-2:2016(E)
   type: iso-reference
 - content: urn:iso:std:iso:17987:-2:stage-95.99
@@ -91,23 +90,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: ISO 17987-2:2016 specifies a transport protocol and network layer services
-    tailored to meet the requirements of LIN‑based vehicle network systems on local
-    interconnect networks. The protocol specifies an unconfirmed communication. The
-    LIN protocol supports the standardized service primitive interface as specified
-    in ISO 14229‑2. ISO 17987-2:2016 provides the transport protocol and network layer
-    services to support different application layer implementations like - normal
-    communication messages, and - diagnostic communication messages. The transport
-    layer defines transportation of data that is contained in one or more frames.
-    The transport layer messages are transported by diagnostic frames. A standardized
-    API is specified for the transport layer. Use of the transport layer is targeting
-    systems where diagnostics are performed on the backbone bus (e.g. CAN) and where
-    the system builder wants to use the same diagnostic capabilities on the LIN sub-bus
-    clusters. The messages are in fact identical to the ISO 15765‑2 and the PDUs carrying
-    the messages are very similar. The goals of the transport layer are - low load
-    on LIN master node, - to provide full (or a subset thereof) diagnostics directly
-    on the LIN slave nodes, and - targeting clusters built with powerful LIN nodes
-    (not the mainstream low cost).
+  content: ISO 17987-2:2016 specifies a transport protocol and network layer services tailored to meet the requirements of LIN‑based vehicle network systems on local interconnect networks. The protocol specifies an unconfirmed communication. The LIN protocol supports the standardized service primitive interface as specified in ISO 14229‑2. ISO 17987-2:2016 provides the transport protocol and network layer services to support different application layer implementations like - normal communication messages, and - diagnostic communication messages. The transport layer defines transportation of data that is contained in one or more frames. The transport layer messages are transported by diagnostic frames. A standardized API is specified for the transport layer. Use of the transport layer is targeting systems where diagnostics are performed on the backbone bus (e.g. CAN) and where the system builder wants to use the same diagnostic capabilities on the LIN sub-bus clusters. The messages are in fact identical to the ISO 15765‑2 and the PDUs carrying the messages are very similar. The goals of the transport layer are - low load on LIN master node, - to provide full (or a subset thereof) diagnostics directly on the LIN slave nodes, and - targeting clusters built with powerful LIN nodes (not the mainstream low cost).
 status:
   stage:
     content: '95'

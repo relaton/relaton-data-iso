@@ -1,4 +1,3 @@
----
 id: ISOIEC139612000
 schema_version: v1.5.6
 type: standard
@@ -38,6 +37,8 @@ docidentifier:
 - content: ISO/IEC 13961:2000
   type: ISO
   primary: true
+- content: ISO/IEC 13961
+  type: iso-undated
 - content: ISO/IEC 13961:2000(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:13961:stage-90.93
@@ -90,19 +91,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The scalable coherent interface (SCI) provides computer-bus-like services
-    but, instead of a bus, uses a collection of fast point-to-point unidirectional
-    links to provide the far higher throughput needed for high-performance multiprocessor
-    systems. SCI supports distributed, shared memory with optional cache coherence
-    for tightly coupled systems, and message-passing for loosely coupled systems.
-    Initial SCI links are defined at 1 Gbyte/s (16-bit parallel) and 1 Gb/s (serial).
-    For applications requiring modular packaging, an interchangeable module is specified
-    along with connector and power. The packets and protocols that implement transactions
-    are defined and their formal specification is provided in the form of computerprograms.
-    In addition to the usual read-and-write transactions, SCI supports efficient multiprocessor
-    lock transactions. The distributed cache-coherence protocols are efficient and
-    can recover from an arbitrary number of transmission failures. SCI protocols ensure
-    forward progress despite multiprocessor conflicts (no deadlocks or starvation).
+  content: The scalable coherent interface (SCI) provides computer-bus-like services but, instead of a bus, uses a collection of fast point-to-point unidirectional links to provide the far higher throughput needed for high-performance multiprocessor systems. SCI supports distributed, shared memory with optional cache coherence for tightly coupled systems, and message-passing for loosely coupled systems. Initial SCI links are defined at 1 Gbyte/s (16-bit parallel) and 1 Gb/s (serial). For applications requiring modular packaging, an interchangeable module is specified along with connector and power. The packets and protocols that implement transactions are defined and their formal specification is provided in the form of computerprograms. In addition to the usual read-and-write transactions, SCI supports efficient multiprocessor lock transactions. The distributed cache-coherence protocols are efficient and can recover from an arbitrary number of transmission failures. SCI protocols ensure forward progress despite multiprocessor conflicts (no deadlocks or starvation).
 status:
   stage:
     content: '90'

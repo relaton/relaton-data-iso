@@ -1,4 +1,3 @@
----
 id: ISO2463172012
 schema_version: v1.5.6
 type: standard
@@ -13,8 +12,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Radiofrequency identification of animals - Part 7: Synchronization of
-    ISO 11785 identification systems'
+  content: 'Radiofrequency identification of animals - Part 7: Synchronization of ISO 11785 identification systems'
   type: main
 - language: fr
   script: Latn
@@ -22,13 +20,11 @@ title:
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 7: Synchronisation des systèmes d''identification conformes à l''ISO
-    11785'
+  content: 'Partie 7: Synchronisation des systèmes d''identification conformes à l''ISO 11785'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Identification des animaux par radiofréquence - Partie 7: Synchronisation
-    des systèmes d''identification conformes à l''ISO 11785'
+  content: 'Identification des animaux par radiofréquence - Partie 7: Synchronisation des systèmes d''identification conformes à l''ISO 11785'
   type: main
 source:
 - type: src
@@ -41,6 +37,8 @@ docidentifier:
 - content: ISO 24631-7:2012
   type: ISO
   primary: true
+- content: ISO 24631-7
+  type: iso-undated
 - content: ISO 24631-7:2012(E)
   type: iso-reference
 - content: urn:iso:std:iso:24631:-7:stage-90.93
@@ -85,26 +83,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: ISO 24631-7:2012 specifies rules and procedures for synchronizing RFID
-    transceivers while reading transponders used in individual animal identification
-    complying to ISO 11784 and ISO 11785. The synchronization scheme described herein
-    may be fully implemented within each reader, and such readers when attached to
-    the synchronization bus create a peer-to-peer network (all readers are equal ?
-    there is no dedicated master). Additionally, a cluster of readers, which could
-    be in a master/slave configuration, may also be added to the bus using a dedicated,
-    manufacturer specific Synchronization Interface. The Synchronization Interface
-    presents to the synchronization bus electrical characteristics identical to those
-    of a single peer-to-peer reader. The transceiver conformance standard ISO 24631-2
-    permits activation on/off timing tolerances of −0/+1 ms and therefore gives reader
-    manufacturers options as to their preferred method for detecting the HDX header;
-    partial or full. However, when synchronizing readers, irrespective of which header
-    detection method is used, it is critical that all readers adhere strictly to the
-    specific timings and timing tolerances as given in the timing diagrams. Particular
-    attention should also be given to fault diagnostics which becomes more important
-    when a reader network comprises products from different manufacturers. The obvious
-    case is where a reader which is part of a network has become detached e.g. sync
-    cable break, and it considers it's self to be now standalone and thus permitted
-    to operate asynchronously to the detriment of all other readers.
+  content: ISO 24631-7:2012 specifies rules and procedures for synchronizing RFID transceivers while reading transponders used in individual animal identification complying to ISO 11784 and ISO 11785. The synchronization scheme described herein may be fully implemented within each reader, and such readers when attached to the synchronization bus create a peer-to-peer network (all readers are equal ? there is no dedicated master). Additionally, a cluster of readers, which could be in a master/slave configuration, may also be added to the bus using a dedicated, manufacturer specific Synchronization Interface. The Synchronization Interface presents to the synchronization bus electrical characteristics identical to those of a single peer-to-peer reader. The transceiver conformance standard ISO 24631-2 permits activation on/off timing tolerances of −0/+1 ms and therefore gives reader manufacturers options as to their preferred method for detecting the HDX header; partial or full. However, when synchronizing readers, irrespective of which header detection method is used, it is critical that all readers adhere strictly to the specific timings and timing tolerances as given in the timing diagrams. Particular attention should also be given to fault diagnostics which becomes more important when a reader network comprises products from different manufacturers. The obvious case is where a reader which is part of a network has become detached e.g. sync cable break, and it considers it's self to be now standalone and thus permitted to operate asynchronously to the detriment of all other readers.
 status:
   stage:
     content: '90'

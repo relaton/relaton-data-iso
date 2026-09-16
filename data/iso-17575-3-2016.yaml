@@ -1,4 +1,3 @@
----
 id: ISO1757532016
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Electronic fee collection - Application interface definition for autonomous
-    systems - Part 3: Context data'
+  content: 'Electronic fee collection - Application interface definition for autonomous systems - Part 3: Context data'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Perception du télépéage - Définition de l''interface d''application pour
-    les systèmes autonomes - Partie 3: Données du contexte'
+  content: 'Perception du télépéage - Définition de l''interface d''application pour les systèmes autonomes - Partie 3: Données du contexte'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO 17575-3:2016
   type: ISO
   primary: true
+- content: ISO 17575-3
+  type: iso-undated
 - content: ISO 17575-3:2016(E)
   type: iso-reference
 - content: urn:iso:std:iso:17575:-3
@@ -92,40 +91,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'ISO 17575-3:2016 defines the content, semantics and format of the data
-    exchange between a Front End (OBE plus optional proxy) and the corresponding Back
-    End in autonomous toll systems. It defines the data elements used to specify and
-    describe the toll context details. Context data are transmitted from the Back
-    End to the Front End to configure it for the charging processes of the associated
-    toll context. In ISO 17575, context data is the description of the properties
-    of a single instance of an electronic fee collection (EFC) context. This single
-    instance of an EFC context operates according to one of the basic tolling principles
-    such as - road section charging, - area charging (according to travelled distance
-    or duration of time), and - cordon charging. EFC context data comprise a set of
-    rules for charging, including the description of the charged network, the charging
-    principles, the liable vehicles and a definition of the required contents of the
-    charge report. This set of rules is defined individually for each EFC context
-    according to local needs. The following data and associated procedures are defined
-    in this part of ISO 17575: - data providing toll context overview information;
-    - data providing tariff information (including definitions of required tariff
-    determinants such as vehicle parameters, time classe, etc.); - data providing
-    context layout information; - data providing reporting rules information. ISO
-    17575-3:2016 also provides the required definitions and data specifications to
-    be applied when one single toll context is spilt inot more than one toll context
-    partitions. This is applicable to cases where one EFC scheme and the rules applied
-    cannot be described with a single set of context data. Annex A provides the data
-    type specification using ASN.1 notation. The protocol implementation conformity
-    statements (PICS) proforma are provided in Annex B. Annex C provides a graphical
-    presentation of the structure of the toll context data. Annexes D, E and F contain
-    further information and descriptions, which may support the understanding and
-    the implementation of the rules specified in this part of ISO 17575. Annex G provides
-    information how this part of ISO 17575 can be used in a European Electronic Toll
-    Service (EETS) environment, with reference to EU Decision 2009/750.'
+  content: 'ISO 17575-3:2016 defines the content, semantics and format of the data exchange between a Front End (OBE plus optional proxy) and the corresponding Back End in autonomous toll systems. It defines the data elements used to specify and describe the toll context details. Context data are transmitted from the Back End to the Front End to configure it for the charging processes of the associated toll context. In ISO 17575, context data is the description of the properties of a single instance of an electronic fee collection (EFC) context. This single instance of an EFC context operates according to one of the basic tolling principles such as - road section charging, - area charging (according to travelled distance or duration of time), and - cordon charging. EFC context data comprise a set of rules for charging, including the description of the charged network, the charging principles, the liable vehicles and a definition of the required contents of the charge report. This set of rules is defined individually for each EFC context according to local needs. The following data and associated procedures are defined in this part of ISO 17575: - data providing toll context overview information; - data providing tariff information (including definitions of required tariff determinants such as vehicle parameters, time classe, etc.); - data providing context layout information; - data providing reporting rules information. ISO 17575-3:2016 also provides the required definitions and data specifications to be applied when one single toll context is spilt inot more than one toll context partitions. This is applicable to cases where one EFC scheme and the rules applied cannot be described with a single set of context data. Annex A provides the data type specification using ASN.1 notation. The protocol implementation conformity statements (PICS) proforma are provided in Annex B. Annex C provides a graphical presentation of the structure of the toll context data. Annexes D, E and F contain further information and descriptions, which may support the understanding and the implementation of the rules specified in this part of ISO 17575. Annex G provides information how this part of ISO 17575 can be used in a European Electronic Toll Service (EETS) environment, with reference to EU Decision 2009/750.'
 status:
   stage:
     content: '90'
   substage:
-    content: '20'
+    content: '60'
 copyright:
 - from: '2016'
   owner:

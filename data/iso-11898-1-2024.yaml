@@ -1,4 +1,3 @@
----
 id: ISO1189812024
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Road vehicles - Controller area network (CAN) - Part 1: Data link layer
-    and physical coding sublayer'
+  content: 'Road vehicles - Controller area network (CAN) - Part 1: Data link layer and physical coding sublayer'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Véhicules routiers - Gestionnaire de réseau de communication (CAN) - Partie
-    1: Couche liaison de données et sous-couche de codage physique'
+  content: 'Véhicules routiers - Gestionnaire de réseau de communication (CAN) - Partie 1: Couche liaison de données et sous-couche de codage physique'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO 11898-1:2024
   type: ISO
   primary: true
+- content: ISO 11898-1
+  type: iso-undated
 - content: ISO 11898-1:2024(E)
   type: iso-reference
 - content: urn:iso:std:iso:11898:-1
@@ -91,27 +90,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'This document specifies the controller area network (CAN) data link layer
-    (DLL) and the physical coding sub-layer (PCS). The CAN DLL features data fields
-    of up to 2048 byte when the CAN extended data field length (XL) frame format is
-    used. This document divides the CAN DLL into the logical link control (LLC) and
-    the medium access control (MAC) sub-layers. The DLL’s service data unit (SDU),
-    which interfaces the LLC and the MAC, is implemented by means of the LLC frame.
-    The LLC frame also features the service data unit type (SDT) and the virtual CAN
-    channel identifier (VCID), which provide higher-layer protocol configuration and
-    identification information. How the higher-layer functions are handled is not
-    specified in this document. There are five implementation options: 1)       support
-    of the CAN classic frame format only, not tolerating the CAN flexible data rate
-    (FD) frame format; 2)       support of the CAN classic frame format and tolerating
-    the CAN FD frame format; 3)       support of the CAN classic frame format and
-    the CAN FD frame format; 4)       support of the CAN classic frame format, the
-    CAN FD frame format and the CAN XL frame format; 5)       support of the CAN FD
-    frame format for CAN FD light responders (Annex A). NOTE            Nodes of the
-    first option can communicate with nodes of the third and fourth option when only
-    the CAN classic frame format is used. Nodes of the first option cannot communicate
-    with nodes of the fifth option: any attempt at communication generates error frames.
-    Therefore, new designs implementing the fourth option can communicate with all
-    other nodes.'
+  content: 'This document specifies the controller area network (CAN) data link layer (DLL) and the physical coding sub-layer (PCS). The CAN DLL features data fields of up to 2048 byte when the CAN extended data field length (XL) frame format is used. This document divides the CAN DLL into the logical link control (LLC) and the medium access control (MAC) sub-layers. The DLL’s service data unit (SDU), which interfaces the LLC and the MAC, is implemented by means of the LLC frame. The LLC frame also features the service data unit type (SDT) and the virtual CAN channel identifier (VCID), which provide higher-layer protocol configuration and identification information. How the higher-layer functions are handled is not specified in this document. There are five implementation options: 1)       support of the CAN classic frame format only, not tolerating the CAN flexible data rate (FD) frame format; 2)       support of the CAN classic frame format and tolerating the CAN FD frame format; 3)       support of the CAN classic frame format and the CAN FD frame format; 4)       support of the CAN classic frame format, the CAN FD frame format and the CAN XL frame format; 5)       support of the CAN FD frame format for CAN FD light responders (Annex A). NOTE            Nodes of the first option can communicate with nodes of the third and fourth option when only the CAN classic frame format is used. Nodes of the first option cannot communicate with nodes of the fifth option: any attempt at communication generates error frames. Therefore, new designs implementing the fourth option can communicate with all other nodes.'
 status:
   stage:
     content: '60'

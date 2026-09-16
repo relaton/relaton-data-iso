@@ -1,4 +1,3 @@
----
 id: ISO193892014
 schema_version: v1.5.6
 type: standard
@@ -25,8 +24,7 @@ title:
   type: title-main
 - language: fr
   script: Latn
-  content: Systèmes de transfert des données et informations spatiales - Message de
-    données de conjonction
+  content: Systèmes de transfert des données et informations spatiales - Message de données de conjonction
   type: main
 source:
 - type: src
@@ -39,6 +37,8 @@ docidentifier:
 - content: ISO 19389:2014
   type: ISO
   primary: true
+- content: ISO 19389
+  type: iso-undated
 - content: ISO 19389:2014(E)
   type: iso-reference
 - content: urn:iso:std:iso:19389:stage-90.93
@@ -82,40 +82,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'ISO 19389:2014 specifies a standard message format for use in exchanging
-    spacecraft conjunction information between originators of Conjunction Assessments
-    (CAs) and satellite owner/operators and other authorized parties. Such exchanges
-    are used to inform satellite owner/operators of conjunctions between objects in
-    space to enable consistent warning by different organizations employing diverse
-    CA techniques. ISO 19389:2014 will: facilitate interoperability and enable consistent
-    warning between data originators who supply CA and the satellite owner/operators
-    who use it; facilitate automation for the CA processes; and provide critical information
-    to enable timely CA decisions. This document includes requirements and criteria
-    that the message format has been designed to meet (see Annex D). Also included
-    are informative descriptions of conjunction information pertinent to performing
-    CA (see Annex E). ISO 19389:2014 is applicable to satellite operations in all
-    environments in which close approaches and collisions among satellites are concerns.
-    It contains the specification for a Conjunction Data Message (CDM) designed for
-    applications involving conjunction information interchange between originators
-    of CAs and recipients. Conjunction information includes data types such as miss
-    distance, probability of collision, Time of Closest Approach (TCA), and closest
-    approach relative position and velocity. Further information describing the conjunction
-    information contained in this message can be found in section 3 and Annex E. This
-    message is suited for exchanges that involve manual or automated interaction.
-    The attributes of a CDM make it suitable for use in machine-to-machine interfaces
-    because of the large amount of data typically present. The CDM is self contained.
-    However, additional information could be specified in an Interface Control Document
-    (ICD) written jointly by the service originator and recipients. It is desirable
-    that CDM originators maintain consistency with respect to the optional keywords
-    provided in their implementations; i.e., it is desirable that the composition
-    of the CDMs provided not change on a frequent basis. ISO 19389:2014 is applicable
-    only to the message format and content, but not to its transmission nor to the
-    algorithms used to produce the data within. The method of transmitting the message
-    between exchange partners is beyond the scope of this document and could be specified
-    in an ICD. The methods used to predict conjunctions and calculate the probability
-    of collision, and the definition of the conjunction assessment accuracy underlying
-    a particular CDM, are also outside the scope of ISO 19389:2014 (the interested
-    reader can consult references in Annex F).'
+  content: 'ISO 19389:2014 specifies a standard message format for use in exchanging spacecraft conjunction information between originators of Conjunction Assessments (CAs) and satellite owner/operators and other authorized parties. Such exchanges are used to inform satellite owner/operators of conjunctions between objects in space to enable consistent warning by different organizations employing diverse CA techniques. ISO 19389:2014 will: facilitate interoperability and enable consistent warning between data originators who supply CA and the satellite owner/operators who use it; facilitate automation for the CA processes; and provide critical information to enable timely CA decisions. This document includes requirements and criteria that the message format has been designed to meet (see Annex D). Also included are informative descriptions of conjunction information pertinent to performing CA (see Annex E). ISO 19389:2014 is applicable to satellite operations in all environments in which close approaches and collisions among satellites are concerns. It contains the specification for a Conjunction Data Message (CDM) designed for applications involving conjunction information interchange between originators of CAs and recipients. Conjunction information includes data types such as miss distance, probability of collision, Time of Closest Approach (TCA), and closest approach relative position and velocity. Further information describing the conjunction information contained in this message can be found in section 3 and Annex E. This message is suited for exchanges that involve manual or automated interaction. The attributes of a CDM make it suitable for use in machine-to-machine interfaces because of the large amount of data typically present. The CDM is self contained. However, additional information could be specified in an Interface Control Document (ICD) written jointly by the service originator and recipients. It is desirable that CDM originators maintain consistency with respect to the optional keywords provided in their implementations; i.e., it is desirable that the composition of the CDMs provided not change on a frequent basis. ISO 19389:2014 is applicable only to the message format and content, but not to its transmission nor to the algorithms used to produce the data within. The method of transmitting the message between exchange partners is beyond the scope of this document and could be specified in an ICD. The methods used to predict conjunctions and calculate the probability of collision, and the definition of the conjunction assessment accuracy underlying a particular CDM, are also outside the scope of ISO 19389:2014 (the interested reader can consult references in Annex F).'
 status:
   stage:
     content: '90'

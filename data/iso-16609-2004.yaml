@@ -1,4 +1,3 @@
----
 id: ISO166092004
 schema_version: v1.5.6
 type: standard
@@ -25,8 +24,7 @@ title:
   type: title-main
 - language: fr
   script: Latn
-  content: Banque - Exigences pour authentification des messages utilisant des techniques
-    symétriques
+  content: Banque - Exigences pour authentification des messages utilisant des techniques symétriques
   type: main
 source:
 - type: src
@@ -39,6 +37,8 @@ docidentifier:
 - content: ISO 16609:2004
   type: ISO
   primary: true
+- content: ISO 16609
+  type: iso-undated
 - content: ISO 16609:2004(E)
   type: iso-reference
 - content: urn:iso:std:iso:16609:stage-95.99
@@ -82,22 +82,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: ISO 16609:2004 specifies procedures, independent of the transmission process,
-    for protecting the integrity of transmitted banking messages and for verifying
-    that a message has originated from an authorized source. It also specifies a method
-    by which block ciphers can be approved for use in the authentication of banking
-    messages. In addition, because of the necessity for both members in a communicating
-    pair to use the same means for data representation, it defines some methods for
-    data representation. A list of block ciphers approved for the calculation of a
-    message authentication code (MAC), as well as the method to be used to approve
-    additional block ciphers, is also provided. The authentication methods it defines
-    are applicable to messages formatted and transmitted both as coded character sets
-    and as binary data. ISO 16609:2004 is designed for use with symmetric algorithms
-    where both sender and receiver use the same key. It does not specify methods for
-    establishing the shared key, nor does it provide for encipherment for the protection
-    of messages against unauthorized disclosure. Its application will not protect
-    the user against internal fraud by sender or receiver, or forgery of a MAC by
-    the receiver.
+  content: ISO 16609:2004 specifies procedures, independent of the transmission process, for protecting the integrity of transmitted banking messages and for verifying that a message has originated from an authorized source. It also specifies a method by which block ciphers can be approved for use in the authentication of banking messages. In addition, because of the necessity for both members in a communicating pair to use the same means for data representation, it defines some methods for data representation. A list of block ciphers approved for the calculation of a message authentication code (MAC), as well as the method to be used to approve additional block ciphers, is also provided. The authentication methods it defines are applicable to messages formatted and transmitted both as coded character sets and as binary data. ISO 16609:2004 is designed for use with symmetric algorithms where both sender and receiver use the same key. It does not specify methods for establishing the shared key, nor does it provide for encipherment for the protection of messages against unauthorized disclosure. Its application will not protect the user against internal fraud by sender or receiver, or forgery of a MAC by the receiver.
 status:
   stage:
     content: '95'

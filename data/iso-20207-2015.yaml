@@ -1,4 +1,3 @@
----
 id: ISO202072015
 schema_version: v1.5.6
 type: standard
@@ -13,8 +12,7 @@ title:
   type: title-main
 - language: en
   script: Latn
-  content: Space data and information transfer systems - CCSDS Space Link Protocols
-    over ETSI DVB-S2 Standard
+  content: Space data and information transfer systems - CCSDS Space Link Protocols over ETSI DVB-S2 Standard
   type: main
 - language: fr
   script: Latn
@@ -26,8 +24,7 @@ title:
   type: title-main
 - language: fr
   script: Latn
-  content: Systèmes de transfert des informations et données spatiales - Protocole
-    pour liaisons spatiales CCSDS utilisant la Norme ETSI DVB-S2
+  content: Systèmes de transfert des informations et données spatiales - Protocole pour liaisons spatiales CCSDS utilisant la Norme ETSI DVB-S2
   type: main
 source:
 - type: src
@@ -40,6 +37,8 @@ docidentifier:
 - content: ISO 20207:2015
   type: ISO
   primary: true
+- content: ISO 20207
+  type: iso-undated
 - content: ISO 20207:2015(E)
   type: iso-reference
 - content: urn:iso:std:iso:20207:stage-90.93
@@ -83,32 +82,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The DVB-S2 standard (reference [1]) proposes advanced modulation techniques
-    (QPSK, 8PSK, 16APSK, and 32APSK) and a wide range of coding rates (from 1/4 to
-    9/10) with near-Shannon coding schemes (LDPC codes). This high number of modulation
-    and coding schemes allows a wide range of possibilities to satisfy specific mission
-    constraints. Moreover, to maximize the telemetry system throughput, it appears
-    possible to adapt the transmitted waveform (and the useful data rate) to the variable
-    conditions of the link. The DVB-S2 standard can actually implement Variable Coding
-    and Modulation (VCM) mode, which adapts the transmission scheme to the channel
-    conditions following a predetermined schedule (for example, following a dynamic
-    link budget). When a channel is available to provide feedback (e.g., via a telecommand
-    link), the transmission scheme can be dynamically adjusted using the Adaptive
-    Coding and Modulation (ACM) mode. The use of the DVB-S2 standard for telemetry
-    makes possible the use of generic Very High Scale Integrated Circuits (VHSIC)
-    Hardware Description Language (VHDL) Intellectual Property (IP) modules for developments.
-    The use of a widely implemented standard simplifies finding transmitting or receiving
-    equipment to check compatibility. Finally, for the ground part, some telecom DVB-S2
-    receivers or Application Specific Integrated Circuits (ASICs) developed for the
-    telecom market could be reused. ISO 20207:2015 is an adaptation profile describing
-    how to use the DVB-S2 standard to transmit CCSDS Transfer Frames for telemetry
-    purpose. The interface between CCSDS and DVB-S2 is based on the Attached Synchronization
-    Marker (ASM) and Channel Access Data Unit (CADU) already introduced in reference
-    [2]. DVB-S2 is used in this adaptation profile as a complete and self-sufficient
-    standard, and definitions and specifications taken from DVB-S2 are applicable
-    only in the context of this Recommended Standard. However, individual DVB-S2 functions
-    or components (e.g., VCM/ACM, 8-PSK, and higher-order modulations) might be reused,
-    redefined, and/or respecified by CCSDS in future Recommended Standards.
+  content: The DVB-S2 standard (reference [1]) proposes advanced modulation techniques (QPSK, 8PSK, 16APSK, and 32APSK) and a wide range of coding rates (from 1/4 to 9/10) with near-Shannon coding schemes (LDPC codes). This high number of modulation and coding schemes allows a wide range of possibilities to satisfy specific mission constraints. Moreover, to maximize the telemetry system throughput, it appears possible to adapt the transmitted waveform (and the useful data rate) to the variable conditions of the link. The DVB-S2 standard can actually implement Variable Coding and Modulation (VCM) mode, which adapts the transmission scheme to the channel conditions following a predetermined schedule (for example, following a dynamic link budget). When a channel is available to provide feedback (e.g., via a telecommand link), the transmission scheme can be dynamically adjusted using the Adaptive Coding and Modulation (ACM) mode. The use of the DVB-S2 standard for telemetry makes possible the use of generic Very High Scale Integrated Circuits (VHSIC) Hardware Description Language (VHDL) Intellectual Property (IP) modules for developments. The use of a widely implemented standard simplifies finding transmitting or receiving equipment to check compatibility. Finally, for the ground part, some telecom DVB-S2 receivers or Application Specific Integrated Circuits (ASICs) developed for the telecom market could be reused. ISO 20207:2015 is an adaptation profile describing how to use the DVB-S2 standard to transmit CCSDS Transfer Frames for telemetry purpose. The interface between CCSDS and DVB-S2 is based on the Attached Synchronization Marker (ASM) and Channel Access Data Unit (CADU) already introduced in reference [2]. DVB-S2 is used in this adaptation profile as a complete and self-sufficient standard, and definitions and specifications taken from DVB-S2 are applicable only in the context of this Recommended Standard. However, individual DVB-S2 functions or components (e.g., VCM/ACM, 8-PSK, and higher-order modulations) might be reused, redefined, and/or respecified by CCSDS in future Recommended Standards.
 status:
   stage:
     content: '90'

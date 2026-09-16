@@ -1,4 +1,3 @@
----
 id: ISO143032002
 schema_version: v1.5.6
 type: standard
@@ -25,8 +24,7 @@ title:
   type: title-main
 - language: fr
   script: Latn
-  content: Systèmes spatiaux - Interfaces entre le lanceur spatial et le véhicule
-    spatial
+  content: Systèmes spatiaux - Interfaces entre le lanceur spatial et le véhicule spatial
   type: main
 source:
 - type: src
@@ -39,9 +37,11 @@ docidentifier:
 - content: ISO 14303:2002
   type: ISO
   primary: true
+- content: ISO 14303
+  type: iso-undated
 - content: ISO 14303:2002(E)
   type: iso-reference
-- content: urn:iso:std:iso:14303:stage-90.92
+- content: urn:iso:std:iso:14303:stage-95.99
   type: URN
 docnumber: '14303'
 date:
@@ -83,17 +83,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: ISO 14303 specifies the interfaces between a launch vehicle (LV) and the
-    spacecraft (SC) being launched, to provide LV and SC organizations with the necessary
-    format for presenting the required technical data on existing and future interfaces.
-    Its intended purpose is to minimize costs and reduce the risks from errors resulting
-    from miscommunication. It does not limit the ability of LV or SC organizations
-    to specify unique requirements.
+  content: ISO 14303 specifies the interfaces between a launch vehicle (LV) and the spacecraft (SC) being launched, to provide LV and SC organizations with the necessary format for presenting the required technical data on existing and future interfaces. Its intended purpose is to minimize costs and reduce the risks from errors resulting from miscommunication. It does not limit the ability of LV or SC organizations to specify unique requirements.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2002'
   owner:
@@ -104,11 +99,14 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ISO 14303
+      content: ISO 14303:2026
     docidentifier:
-    - content: ISO 14303
+    - content: ISO 14303:2026
       type: ISO
       primary: true
+    date:
+    - type: published
+      at: '2026-08-10'
 - type: updatedBy
   bibitem:
     formattedref:

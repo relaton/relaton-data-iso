@@ -1,4 +1,3 @@
----
 id: ISOIEC1978542025
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Common Biometric Exchange Formats Framework -
-    Part 4: Security block format specifications'
+  content: 'Information technology - Common Biometric Exchange Formats Framework - Part 4: Security block format specifications'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologies de l''information - Cadre de formats d''échange biométriques
-    communs - Partie 4: Spécifications de format de bloc de sécurité'
+  content: 'Technologies de l''information - Cadre de formats d''échange biométriques communs - Partie 4: Spécifications de format de bloc de sécurité'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 19785-4:2025
   type: ISO
   primary: true
+- content: ISO/IEC 19785-4
+  type: iso-undated
 - content: ISO/IEC 19785-4:2025(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:19785:-4
@@ -100,25 +99,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This document specifies security block (SB) formats (see ISO/IEC 19785-1)
-    registered in accordance with ISO/IEC 19785-2 as formats defined by the Common
-    Biometric Exchange Formats Framework (CBEFF) biometric organization ISO/IEC JTC
-    1/SC 37. This document also specifies registered SB format identifiers. NOTE           
-    The SB format identifier is recorded in the standard biometric header (SBH) of
-    a patron format (or defined by that patron format as the only available SB format).
-    The general-purpose SB format specifies whether the biometric data block (BDB)
-    is encrypted or the SBH and BDB have integrity applied (or both). The general-purpose
-    SB format can include ACBio instances (see ISO/IEC 24761). This SB provides all
-    necessary security parameters, including those used for encryption or integrity.
-    This document does not restrict the algorithms and parameters used for encryption
-    or integrity, but it provides for the recording of such algorithms and parameter
-    values. This document does not cover profiling to determine what algorithms and
-    parameter ranges can be used by the generator of an SB for a particular application
-    area, and hence what algorithms and parameter ranges have to be supported by the
-    user of an SB. The second SB format is more limited but simpler. In particular,
-    it cannot contain ACBio instances and does not support encryption of the BDB.
-    The general-purpose SB format in XML provides for specification of whether the
-    BDB is encrypted or the SBH and BDB have integrity applied (or both).
+  content: This document specifies security block (SB) formats (see ISO/IEC 19785-1) registered in accordance with ISO/IEC 19785-2 as formats defined by the Common Biometric Exchange Formats Framework (CBEFF) biometric organization ISO/IEC JTC 1/SC 37. This document also specifies registered SB format identifiers. NOTE            The SB format identifier is recorded in the standard biometric header (SBH) of a patron format (or defined by that patron format as the only available SB format). The general-purpose SB format specifies whether the biometric data block (BDB) is encrypted or the SBH and BDB have integrity applied (or both). The general-purpose SB format can include ACBio instances (see ISO/IEC 24761). This SB provides all necessary security parameters, including those used for encryption or integrity. This document does not restrict the algorithms and parameters used for encryption or integrity, but it provides for the recording of such algorithms and parameter values. This document does not cover profiling to determine what algorithms and parameter ranges can be used by the generator of an SB for a particular application area, and hence what algorithms and parameter ranges have to be supported by the user of an SB. The second SB format is more limited but simpler. In particular, it cannot contain ACBio instances and does not support encryption of the BDB. The general-purpose SB format in XML provides for specification of whether the BDB is encrypted or the SBH and BDB have integrity applied (or both).
 status:
   stage:
     content: '60'

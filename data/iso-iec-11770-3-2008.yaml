@@ -1,4 +1,3 @@
----
 id: ISOIEC1177032008
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Security techniques - Key management -- Part
-    3: Mechanisms using asymmetric techniques'
+  content: 'Information technology - Security techniques - Key management -- Part 3: Mechanisms using asymmetric techniques'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologies de l''information - Techniques de sécurité - Gestion de clés
-    -- Partie 3: Mécanismes utilisant des techniques asymétriques'
+  content: 'Technologies de l''information - Techniques de sécurité - Gestion de clés -- Partie 3: Mécanismes utilisant des techniques asymétriques'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 11770-3:2008
   type: ISO
   primary: true
+- content: ISO/IEC 11770-3
+  type: iso-undated
 - content: ISO/IEC 11770-3:2008(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:11770:-3:stage-95.99
@@ -100,31 +99,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: ISO/IEC 11770-3:2008 defines key management mechanisms based on asymmetric
-    cryptographic techniques. It specifically addresses the use of asymmetric techniques
-    to achieve the following goals. Establish a shared secret key for a symmetric
-    cryptographic technique between two entities A and B by key agreement. In a secret
-    key agreement mechanism, the secret key is the result of a data exchange between
-    the two entities A and B. Neither of them can predetermine the value of the shared
-    secret key. Establish a shared secret key for a symmetric cryptographic technique
-    between two entities A and B by key transport. In a secret key transport mechanism,
-    the secret key is chosen by one entity A and is transferred to another entity
-    B, suitably protected by asymmetric techniques. Make an entity's public key available
-    to other entities by key transport. In a public key transport mechanism, the public
-    key of entity A must be transferred to other entities in an authenticated way,
-    but not requiring secrecy. Some of the mechanisms of ISO/IEC 11770-3:2008 are
-    based on the corresponding authentication mechanisms in ISO/IEC 9798-3. ISO/IEC
-    11770-3:2008 does not cover aspects of key management such as key lifecycle management,
-    mechanisms to generate or validate asymmetric key pairs, mechanisms to store,
-    archive, delete, destroy, etc. keys. While ISO/IEC 11770-3:2008 does not explicitly
-    cover the distribution of an entity's private key (of an asymmetric key pair)
-    from a trusted third party to a requesting entity, the key transport mechanisms
-    described can be used to achieve this. A private key can in all cases be distributed
-    with these mechanisms where an existing, non-compromised key already exists. However,
-    in practice the distribution of private keys is usually a manual process that
-    relies on technological means like smart cards, etc. ISO/IEC 11770-3:2008 does
-    not cover the implementations of the transformations used in the key management
-    mechanisms.
+  content: ISO/IEC 11770-3:2008 defines key management mechanisms based on asymmetric cryptographic techniques. It specifically addresses the use of asymmetric techniques to achieve the following goals. Establish a shared secret key for a symmetric cryptographic technique between two entities A and B by key agreement. In a secret key agreement mechanism, the secret key is the result of a data exchange between the two entities A and B. Neither of them can predetermine the value of the shared secret key. Establish a shared secret key for a symmetric cryptographic technique between two entities A and B by key transport. In a secret key transport mechanism, the secret key is chosen by one entity A and is transferred to another entity B, suitably protected by asymmetric techniques. Make an entity's public key available to other entities by key transport. In a public key transport mechanism, the public key of entity A must be transferred to other entities in an authenticated way, but not requiring secrecy. Some of the mechanisms of ISO/IEC 11770-3:2008 are based on the corresponding authentication mechanisms in ISO/IEC 9798-3. ISO/IEC 11770-3:2008 does not cover aspects of key management such as key lifecycle management, mechanisms to generate or validate asymmetric key pairs, mechanisms to store, archive, delete, destroy, etc. keys. While ISO/IEC 11770-3:2008 does not explicitly cover the distribution of an entity's private key (of an asymmetric key pair) from a trusted third party to a requesting entity, the key transport mechanisms described can be used to achieve this. A private key can in all cases be distributed with these mechanisms where an existing, non-compromised key already exists. However, in practice the distribution of private keys is usually a manual process that relies on technological means like smart cards, etc. ISO/IEC 11770-3:2008 does not cover the implementations of the transformations used in the key management mechanisms.
 status:
   stage:
     content: '95'

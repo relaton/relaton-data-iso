@@ -1,4 +1,3 @@
----
 id: ISOIEC2300172023
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - MPEG systems technologies - Part 7: Common encryption
-    in ISO base media file format files'
+  content: 'Information technology - MPEG systems technologies - Part 7: Common encryption in ISO base media file format files'
   type: main
 - language: fr
   script: Latn
@@ -30,13 +28,11 @@ title:
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 7: Cryptage commun des fichiers au format de fichier de médias
-    de la base ISO'
+  content: 'Partie 7: Cryptage commun des fichiers au format de fichier de médias de la base ISO'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie
-    7: Cryptage commun des fichiers au format de fichier de médias de la base ISO'
+  content: 'Technologies de l''information - Technologies des systèmes MPEG - Partie 7: Cryptage commun des fichiers au format de fichier de médias de la base ISO'
   type: main
 source:
 - type: src
@@ -49,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 23001-7:2023
   type: ISO
   primary: true
+- content: ISO/IEC 23001-7
+  type: iso-undated
 - content: ISO/IEC 23001-7:2023(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:23001:-7
@@ -101,21 +99,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This document specifies common encryption formats for use in any file format
-    based on ISO/IEC 14496-12. File, item, track, and track fragment metadata is specified
-    to enable multiple digital rights and key management systems (DRMs) to access
-    the same common encrypted file or stream. This document does not define a DRM
-    system. The AES-128 symmetric block cipher is used to encrypt elementary stream
-    data contained in media samples. Both AES counter mode (CTR) and Cipher Block
-    Chaining (CBC) are specified in separate protection schemes. Partial encryption
-    using a pattern of encrypted and clear blocks is also specified in separate protection
-    schemes. The identification of encryption keys, initialization vector storage
-    and processing is specified for each scheme. Subsample encryption is specified
-    for NAL structured video, such as AVC and HEVC, to enable normal processing and
-    editing of video elementary streams prior to decryption. An XML representation
-    is specified for important common encryption information so that it can be included
-    in XML files as standard elements and attributes to enable interoperable license
-    and key management prior to media file download.
+  content: This document specifies common encryption formats for use in any file format based on ISO/IEC 14496-12. File, item, track, and track fragment metadata is specified to enable multiple digital rights and key management systems (DRMs) to access the same common encrypted file or stream. This document does not define a DRM system. The AES-128 symmetric block cipher is used to encrypt elementary stream data contained in media samples. Both AES counter mode (CTR) and Cipher Block Chaining (CBC) are specified in separate protection schemes. Partial encryption using a pattern of encrypted and clear blocks is also specified in separate protection schemes. The identification of encryption keys, initialization vector storage and processing is specified for each scheme. Subsample encryption is specified for NAL structured video, such as AVC and HEVC, to enable normal processing and editing of video elementary streams prior to decryption. An XML representation is specified for important common encryption information so that it can be included in XML files as standard elements and attributes to enable interoperable license and key management prior to media file download.
 status:
   stage:
     content: '60'
@@ -156,6 +140,14 @@ relation:
       content: ISO/IEC 23001-7:2023/FDAmd 1
     docidentifier:
     - content: ISO/IEC 23001-7:2023/FDAM 1
+      type: ISO
+      primary: true
+- type: updatedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC 23001-7:2023/CD Amd 2
+    docidentifier:
+    - content: ISO/IEC 23001-7:2023/CD Amd 2
       type: ISO
       primary: true
 place:

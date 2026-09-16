@@ -1,4 +1,3 @@
----
 id: ISO202172015
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: Space data and information transfer systems - Spacecraft onboard interface
-    services - File and packet store services
+  content: Space data and information transfer systems - Spacecraft onboard interface services - File and packet store services
   type: main
 - language: fr
   script: Latn
@@ -34,9 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: Systèmes de transfert des informations et données spatiales - Services
-    d'interfaces à bord des véhicules spatiaux - Services de mémoire fichiers et mémoire
-    paquets
+  content: Systèmes de transfert des informations et données spatiales - Services d'interfaces à bord des véhicules spatiaux - Services de mémoire fichiers et mémoire paquets
   type: main
 source:
 - type: src
@@ -49,6 +45,8 @@ docidentifier:
 - content: ISO 20217:2015
   type: ISO
   primary: true
+- content: ISO 20217
+  type: iso-undated
 - content: ISO 20217:2015(E)
   type: iso-reference
 - content: urn:iso:std:iso:20217:stage-95.99
@@ -92,23 +90,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'ISO 20217:2015 defines the Spacecraft Onboard Interface Services (SOIS)
-    File and Packet Store Services (FPSS). The definition encompasses specification
-    of the service interface exposed to onboard software (user applications and libraries)
-    as well as the conceptual mapping of the FPSS primitives to the protocols implementing
-    such services. The SOIS File and Packet Store Services are for use by onboard
-    software to: ? Access, and manage files residing in a file store. The files residing
-    in the file store could contain any type of data, including for example telemetry,
-    commands and command sequences, software updates, imagery, and other science observations.
-    ? Access and manage packets residing in a packet store. It should be noted that
-    the packet store may or may not be aware of, and its actions may or may not be
-    informed by, the contents of a packet. To achieve this, the FPSS comprise the
-    following services: ? File Access Service (FAS); ? File Management Service (FMS);
-    ? Packet Store Access Service (PSAS); ? Packet Store Management Service (PSMS).
-    It should be noted that the SOIS File and Packet Store Services do NOT define
-    the file and packet stores themselves, but only their minimum provided service.
-    The initialization and configuration of the file and packet stores is out of scope
-    for this document.'
+  content: 'ISO 20217:2015 defines the Spacecraft Onboard Interface Services (SOIS) File and Packet Store Services (FPSS). The definition encompasses specification of the service interface exposed to onboard software (user applications and libraries) as well as the conceptual mapping of the FPSS primitives to the protocols implementing such services. The SOIS File and Packet Store Services are for use by onboard software to: ? Access, and manage files residing in a file store. The files residing in the file store could contain any type of data, including for example telemetry, commands and command sequences, software updates, imagery, and other science observations. ? Access and manage packets residing in a packet store. It should be noted that the packet store may or may not be aware of, and its actions may or may not be informed by, the contents of a packet. To achieve this, the FPSS comprise the following services: ? File Access Service (FAS); ? File Management Service (FMS); ? Packet Store Access Service (PSAS); ? Packet Store Management Service (PSMS). It should be noted that the SOIS File and Packet Store Services do NOT define the file and packet stores themselves, but only their minimum provided service. The initialization and configuration of the file and packet stores is out of scope for this document.'
 status:
   stage:
     content: '95'

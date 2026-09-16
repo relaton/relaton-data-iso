@@ -1,4 +1,3 @@
----
 id: ISO1578422024
 schema_version: v1.5.6
 type: standard
@@ -13,14 +12,11 @@ title:
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 2: Centre to field device communications using Simple Network Management
-    Protocol (SNMP)'
+  content: 'Part 2: Centre to field device communications using Simple Network Management Protocol (SNMP)'
   type: title-part
 - language: en
   script: Latn
-  content: 'Intelligent transport systems - Data exchange involving roadside modules
-    communication - Part 2: Centre to field device communications using Simple Network
-    Management Protocol (SNMP)'
+  content: 'Intelligent transport systems - Data exchange involving roadside modules communication - Part 2: Centre to field device communications using Simple Network Management Protocol (SNMP)'
   type: main
 - language: fr
   script: Latn
@@ -28,20 +24,15 @@ title:
   type: title-intro
 - language: fr
   script: Latn
-  content: Échange de données impliquant la communication de modules en bordure de
-    route
+  content: Échange de données impliquant la communication de modules en bordure de route
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 2: Communications par dispositif du centre au terrain en utilisant
-    le protocole simple de gestion de réseau (SNMP)'
+  content: 'Partie 2: Communications par dispositif du centre au terrain en utilisant le protocole simple de gestion de réseau (SNMP)'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Systèmes intelligents de transport (SIT) - Échange de données impliquant
-    la communication de modules en bordure de route - Partie 2: Communications par
-    dispositif du centre au terrain en utilisant le protocole simple de gestion de
-    réseau (SNMP)'
+  content: 'Systèmes intelligents de transport (SIT) - Échange de données impliquant la communication de modules en bordure de route - Partie 2: Communications par dispositif du centre au terrain en utilisant le protocole simple de gestion de réseau (SNMP)'
   type: main
 source:
 - type: src
@@ -54,6 +45,8 @@ docidentifier:
 - content: ISO 15784-2:2024
   type: ISO
   primary: true
+- content: ISO 15784-2
+  type: iso-undated
 - content: ISO 15784-2:2024(E)
   type: iso-reference
 - content: urn:iso:std:iso:15784:-2
@@ -97,35 +90,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'This document specifies a mechanism for exchanging data and messages in
-    the following cases: a)       exchange between a traffic management centre and
-    ITS roadside equipment for traffic management; b)       exchange between ITS roadside
-    equipment used for traffic management. This document is not applicable to: —    
-    communication between traffic management centres and in-vehicle units; —     communication
-    between ITS roadside equipment and in-vehicle units; —     in-vehicle communication;
-    —     in-cabinet communication; —     motion video transmission from a camera
-    or recorded media. This document is suitable for use when both of the following
-    conditions apply: 1)       The data to be exchanged can be defined as one or more
-    elements that can be retrieved or stored – SNMP can support a wide variety of
-    devices and has adopted the concept of a management information base (MIB), which
-    identifies the configuration, control and monitoring parameters for ITS roadside
-    equipment. This standardized approach is commonly used for network management
-    applications for devices such as routers, switches, bridges and firewalls. It
-    is also used in many regions to control devices such as dynamic message signs.
-    2)       Guaranteed, deterministic, real-time exchange of data is not critical
-    – SNMP operations typically require less than 100 ms, but the underlying network
-    can cause multi-second delays in delivering messages or even lost messages; thus,
-    SNMP is not intended for applications that require reliable sub-second communications.
-    This document can be used for: —     intermittent exchange of any defined data
-    (normal SNMP operations allow messages to be structured by combining any group
-    of elements into a retrieval or storage request); —     repeated, frequent exchanges
-    of the same message structure (with potentially different values), even on relatively
-    low-bandwidth links; NOTE 1        The dynamic object feature, defined in ISO/TS
-    26048-1, can be used to eliminate a considerable amount of overhead that is normally
-    associated with SNMP communications to make it more suitable for low-bandwidth
-    links. —     allowing ITS roadside equipment to issue exception reports when special
-    conditions arise. NOTE 2        Exception reporting uses SNMP notifications in
-    combination with the notification management features defined in ISO/TS 26048-1.'
+  content: 'This document specifies a mechanism for exchanging data and messages in the following cases: a)       exchange between a traffic management centre and ITS roadside equipment for traffic management; b)       exchange between ITS roadside equipment used for traffic management. This document is not applicable to: —     communication between traffic management centres and in-vehicle units; —     communication between ITS roadside equipment and in-vehicle units; —     in-vehicle communication; —     in-cabinet communication; —     motion video transmission from a camera or recorded media. This document is suitable for use when both of the following conditions apply: 1)       The data to be exchanged can be defined as one or more elements that can be retrieved or stored – SNMP can support a wide variety of devices and has adopted the concept of a management information base (MIB), which identifies the configuration, control and monitoring parameters for ITS roadside equipment. This standardized approach is commonly used for network management applications for devices such as routers, switches, bridges and firewalls. It is also used in many regions to control devices such as dynamic message signs. 2)       Guaranteed, deterministic, real-time exchange of data is not critical – SNMP operations typically require less than 100 ms, but the underlying network can cause multi-second delays in delivering messages or even lost messages; thus, SNMP is not intended for applications that require reliable sub-second communications. This document can be used for: —     intermittent exchange of any defined data (normal SNMP operations allow messages to be structured by combining any group of elements into a retrieval or storage request); —     repeated, frequent exchanges of the same message structure (with potentially different values), even on relatively low-bandwidth links; NOTE 1        The dynamic object feature, defined in ISO/TS 26048-1, can be used to eliminate a considerable amount of overhead that is normally associated with SNMP communications to make it more suitable for low-bandwidth links. —     allowing ITS roadside equipment to issue exception reports when special conditions arise. NOTE 2        Exception reporting uses SNMP notifications in combination with the notification management features defined in ISO/TS 26048-1.'
 status:
   stage:
     content: '60'

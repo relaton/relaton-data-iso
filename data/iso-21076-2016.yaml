@@ -1,4 +1,3 @@
----
 id: ISO210762016
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: Space data and information transfer systems - Space communications cross
-    support - Architecture requirements document
+  content: Space data and information transfer systems - Space communications cross support - Architecture requirements document
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: Données spatiales et systèmes de transfert d'information - Support croisé
-    des communications spatiales  - Exigences d'architecture
+  content: Données spatiales et systèmes de transfert d'information - Support croisé des communications spatiales  - Exigences d'architecture
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO 21076:2016
   type: ISO
   primary: true
+- content: ISO 21076
+  type: iso-undated
 - content: ISO 21076:2016(E)
   type: iso-reference
 - content: urn:iso:std:iso:21076:stage-90.93
@@ -91,60 +90,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'ISO 21076:2016 describes SCCS architecture in terms of the following:
-    - definitions of all key elements, on ground and in space, that are involved in
-    space communications; - definitions of concepts that characterize SCCS services;
-    - requirements on system elements and components that provide secure SCCS services;
-    - recommended protocol stack configurations for each element type; and - recommended
-    end-to-end system configurations to provide interoperable and cross-supportable
-    space communications services. ISO 21076:2016 does not specify: - the details
-    of how to implement systems that provide SCCS services; - explicit technologies
-    needed to implement SCCS services; - application or mission operations protocols
-    except for those used for data transfer; - mission operations except for those
-    involved in planning, scheduling, and executing space communications; - spacecraft
-    onboard cross support, except for space communication services. ISO 21076:2016
-    contains references to other CCSDS technical engineering and architectural recommendations
-    describing how systems doing space communication cross support should be engineered,
-    deployed, organized, and operated to provide interoperable SCCS services. While
-    this document does not specify detailed internal implementation approaches, which
-    are a private matter, it does recommend specific protocols and protocol stacks,
-    service interfaces, element behaviors, and end-to-end architectures. Some of the
-    standards that are referenced in this document, especially those relating to the
-    SSI, are still in development. They are included here so the reader gets a clear
-    understanding of how they fit into an overall architecture. The protocol-related
-    parts of this document make liberal reference to the layers defined in the Open
-    Systems Interconnection (OSI) Basic Reference Model (reference [4]). Subsection
-    6.2 of the Architecture Description Document (ADD) (reference [D5]) contains a
-    discussion of the OSI stack and the functions associated with each layer. The
-    technical scope of single-hop cross support is the provision of Data Link Layer
-    (Layer 2) data communications services across the Solar System in support of space
-    mission users, using the interoperable infrastructure of one or more space agencies.
-    Services above the Data Link Layer, such as CCSDS File Delivery Protocol (CFDP),
-    Cross-Support File Service (CXFS), or Delta-Differential One-way Range (DOR),
-    may also be provided. All mission operations application in CCSDS-compliant, interoperable,
-    single-hop deployments are expected to utilize these underlying space link and
-    file communications layers. The technical scope of the SSI is the provision of
-    internetworked (Layer 3) data communications services across the Solar System
-    in support of space mission users, using the confederated and interoperable infrastructure
-    of one or more space agencies to achieve a level of service that individual agencies
-    would otherwise be unlikely to achieve. All mission operations application in
-    CCSDS-compliant, interoperable, SSI deployments are expected to utilize these
-    underlying space internetworking communications layers. The temporal scope of
-    this document covers current, single-hop, secure interoperable cross support installations,
-    future deployments of an interoperable and evolving space networking infrastructure,
-    and the transition strategies to evolve from current deployments to a future SSI
-    state. Included in this discussion are mission-driven considerations, such as
-    use of hybrid science/routing missions, as well as identification of optional
-    configurations that are considered acceptable because they are in line with the
-    transition strategies defined in this document. Any agency that wishes to participate
-    as a peer in the SSI should implement interoperable services and interfaces at
-    least up to the Network Layer, along with related support services, as described
-    in this document and specified in the relevant CCSDS and Internet standards. Agencies
-    that are not yet ready to adopt the SSI themselves, but that wish to offer compliant
-    ground station cross support services that can support SSI services, may also
-    take advantage of this document for guidance on developing Data Link Layer services
-    that will both meet their immediate needs and also interoperate with SSI-enabled
-    missions.'
+  content: 'ISO 21076:2016 describes SCCS architecture in terms of the following: - definitions of all key elements, on ground and in space, that are involved in space communications; - definitions of concepts that characterize SCCS services; - requirements on system elements and components that provide secure SCCS services; - recommended protocol stack configurations for each element type; and - recommended end-to-end system configurations to provide interoperable and cross-supportable space communications services. ISO 21076:2016 does not specify: - the details of how to implement systems that provide SCCS services; - explicit technologies needed to implement SCCS services; - application or mission operations protocols except for those used for data transfer; - mission operations except for those involved in planning, scheduling, and executing space communications; - spacecraft onboard cross support, except for space communication services. ISO 21076:2016 contains references to other CCSDS technical engineering and architectural recommendations describing how systems doing space communication cross support should be engineered, deployed, organized, and operated to provide interoperable SCCS services. While this document does not specify detailed internal implementation approaches, which are a private matter, it does recommend specific protocols and protocol stacks, service interfaces, element behaviors, and end-to-end architectures. Some of the standards that are referenced in this document, especially those relating to the SSI, are still in development. They are included here so the reader gets a clear understanding of how they fit into an overall architecture. The protocol-related parts of this document make liberal reference to the layers defined in the Open Systems Interconnection (OSI) Basic Reference Model (reference [4]). Subsection 6.2 of the Architecture Description Document (ADD) (reference [D5]) contains a discussion of the OSI stack and the functions associated with each layer. The technical scope of single-hop cross support is the provision of Data Link Layer (Layer 2) data communications services across the Solar System in support of space mission users, using the interoperable infrastructure of one or more space agencies. Services above the Data Link Layer, such as CCSDS File Delivery Protocol (CFDP), Cross-Support File Service (CXFS), or Delta-Differential One-way Range (DOR), may also be provided. All mission operations application in CCSDS-compliant, interoperable, single-hop deployments are expected to utilize these underlying space link and file communications layers. The technical scope of the SSI is the provision of internetworked (Layer 3) data communications services across the Solar System in support of space mission users, using the confederated and interoperable infrastructure of one or more space agencies to achieve a level of service that individual agencies would otherwise be unlikely to achieve. All mission operations application in CCSDS-compliant, interoperable, SSI deployments are expected to utilize these underlying space internetworking communications layers. The temporal scope of this document covers current, single-hop, secure interoperable cross support installations, future deployments of an interoperable and evolving space networking infrastructure, and the transition strategies to evolve from current deployments to a future SSI state. Included in this discussion are mission-driven considerations, such as use of hybrid science/routing missions, as well as identification of optional configurations that are considered acceptable because they are in line with the transition strategies defined in this document. Any agency that wishes to participate as a peer in the SSI should implement interoperable services and interfaces at least up to the Network Layer, along with related support services, as described in this document and specified in the relevant CCSDS and Internet standards. Agencies that are not yet ready to adopt the SSI themselves, but that wish to offer compliant ground station cross support services that can support SSI services, may also take advantage of this document for guidance on developing Data Link Layer services that will both meet their immediate needs and also interoperate with SSI-enabled missions.'
 status:
   stage:
     content: '90'

@@ -1,4 +1,3 @@
----
 id: ISOIEC1381812023
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Information technology - Generic coding of moving pictures and associated
-    audio information - Part 1: Systems'
+  content: 'Information technology - Generic coding of moving pictures and associated audio information - Part 1: Systems'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Technologies de l''information - Codage générique des images animées et
-    du son associé - Partie 1: Systèmes'
+  content: 'Technologies de l''information - Codage générique des images animées et du son associé - Partie 1: Systèmes'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 13818-1:2023
   type: ISO
   primary: true
+- content: ISO/IEC 13818-1
+  type: iso-undated
 - content: ISO/IEC 13818-1:2023(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:13818:-1:stage-95.99
@@ -100,30 +99,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'This document specifies the system layer of the coding. It was developed
-    principally to support the combination of the video and audio coding methods defined
-    in Parts 2 and 3 of ISO/IEC 13818. The system layer supports six basic functions:
-    1)     the synchronization of multiple compressed streams on decoding; 2)    
-    the interleaving of multiple compressed streams into a single stream; 3)     the
-    initialization of buffering for decoding start up; 4)     continuous buffer management;
-    5)     time identification; 6)     multiplexing and signalling of various components
-    in a system stream. A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream
-    is either a transport stream or a program stream. Both streams are constructed
-    from PES packets and packets containing other necessary information. Both stream
-    types support multiplexing of video and audio compressed streams from one program
-    with a common time base. The transport stream additionally supports the multiplexing
-    of video and audio compressed streams from multiple programs with independent
-    time bases. For almost error-free environments the program stream is generally
-    more appropriate, supporting software processing of program information. The transport
-    stream is more suitable for use in environments where errors are likely. A Rec.
-    ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream, whether a transport stream
-    or a program stream, is constructed in two layers: the outermost layer is the
-    system layer, and the innermost is the compression layer. The system layer provides
-    the functions necessary for using one or more compressed data streams in a system.
-    The video and audio parts of this Specification define the compression coding
-    layer for audio and video data. Coding of other types of data is not defined by
-    this Specification, but is supported by the system layer provided that the other
-    types of data adhere to the constraints defined in 2.7.'
+  content: 'This document specifies the system layer of the coding. It was developed principally to support the combination of the video and audio coding methods defined in Parts 2 and 3 of ISO/IEC 13818. The system layer supports six basic functions: 1)     the synchronization of multiple compressed streams on decoding; 2)     the interleaving of multiple compressed streams into a single stream; 3)     the initialization of buffering for decoding start up; 4)     continuous buffer management; 5)     time identification; 6)     multiplexing and signalling of various components in a system stream. A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream is either a transport stream or a program stream. Both streams are constructed from PES packets and packets containing other necessary information. Both stream types support multiplexing of video and audio compressed streams from one program with a common time base. The transport stream additionally supports the multiplexing of video and audio compressed streams from multiple programs with independent time bases. For almost error-free environments the program stream is generally more appropriate, supporting software processing of program information. The transport stream is more suitable for use in environments where errors are likely. A Rec. ITU-T H.222.0 | ISO/IEC 13818-1 multiplexed bit stream, whether a transport stream or a program stream, is constructed in two layers: the outermost layer is the system layer, and the innermost is the compression layer. The system layer provides the functions necessary for using one or more compressed data streams in a system. The video and audio parts of this Specification define the compression coding layer for audio and video data. Coding of other types of data is not defined by this Specification, but is supported by the system layer provided that the other types of data adhere to the constraints defined in 2.7.'
 status:
   stage:
     content: '95'

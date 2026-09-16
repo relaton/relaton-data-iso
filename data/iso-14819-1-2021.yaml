@@ -1,4 +1,3 @@
----
 id: ISO1481912021
 schema_version: v1.5.6
 type: standard
@@ -13,14 +12,11 @@ title:
   type: title-main
 - language: en
   script: Latn
-  content: 'Part 1: Coding protocol for Radio Data System-Traffic Message Channel
-    (RDS-TMC) using ALERT-C'
+  content: 'Part 1: Coding protocol for Radio Data System-Traffic Message Channel (RDS-TMC) using ALERT-C'
   type: title-part
 - language: en
   script: Latn
-  content: 'Intelligent transport systems - Traffic and travel information messages
-    via traffic message coding - Part 1: Coding protocol for Radio Data System-Traffic
-    Message Channel (RDS-TMC) using ALERT-C'
+  content: 'Intelligent transport systems - Traffic and travel information messages via traffic message coding - Part 1: Coding protocol for Radio Data System-Traffic Message Channel (RDS-TMC) using ALERT-C'
   type: main
 - language: fr
   script: Latn
@@ -28,20 +24,15 @@ title:
   type: title-intro
 - language: fr
   script: Latn
-  content: Informations sur le trafic et les déplacements via le codage de messages
-    sur le trafic
+  content: Informations sur le trafic et les déplacements via le codage de messages sur le trafic
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 1: Protocole de codage pour le système de radiodiffusion de données
-    -- canal de messages d''informations sur le trafic (RDS-TMC) avec Alert-C'
+  content: 'Partie 1: Protocole de codage pour le système de radiodiffusion de données -- canal de messages d''informations sur le trafic (RDS-TMC) avec Alert-C'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Systèmes de transport intelligents - Informations sur le trafic et les
-    déplacements via le codage de messages sur le trafic - Partie 1: Protocole de
-    codage pour le système de radiodiffusion de données -- canal de messages d''informations
-    sur le trafic (RDS-TMC) avec Alert-C'
+  content: 'Systèmes de transport intelligents - Informations sur le trafic et les déplacements via le codage de messages sur le trafic - Partie 1: Protocole de codage pour le système de radiodiffusion de données -- canal de messages d''informations sur le trafic (RDS-TMC) avec Alert-C'
   type: main
 source:
 - type: src
@@ -54,6 +45,8 @@ docidentifier:
 - content: ISO 14819-1:2021
   type: ISO
   primary: true
+- content: ISO 14819-1
+  type: iso-undated
 - content: ISO 14819-1:2021(E)
   type: iso-reference
 - content: urn:iso:std:iso:14819:-1:stage-90.93
@@ -98,26 +91,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The ALERT-C protocol is designed to provide mostly event-oriented road
-    end-user information messages. This document specifies the messages which are
-    presented to the user in accordance with a set of general requirements. It defines
-    the message structure and content and its presentation to the end-user. The message
-    management component of this document describes the message management functions
-    of RDS-TMC. The ALERT-C protocol distinguishes between user messages and system
-    messages. User messages are those potentially made known to the end-user, as defined
-    in Clause 5. System messages are of use only to the RDS-TMC terminal, for message
-    management purposes. RDS-TMC information comprises both ?system information' and
-    ?user messages'. System information relates to the TMC service and details the
-    parameters that the terminal needs to be able to find, identify and decode the
-    TMC information. System information is transmitted in type 3A groups and in type
-    8A groups. User messages contain the details of the traffic events; these may
-    use one or more type 8A groups. Most messages may be transmitted using a single
-    type 8A group, however messages with more detail (e.g. diversion advice) may use
-    up to a total of five, type 8A groups. The transmission component of this document
-    conveys the messages over-air. The ALERT-C protocol, used by RDS-TMC, has the
-    fundamental approach of aiming to code most messages entirely within a single
-    RDS group. The ALERT-C Event List, which contains all event descriptions, is described
-    in ISO 14819‑2.
+  content: The ALERT-C protocol is designed to provide mostly event-oriented road end-user information messages. This document specifies the messages which are presented to the user in accordance with a set of general requirements. It defines the message structure and content and its presentation to the end-user. The message management component of this document describes the message management functions of RDS-TMC. The ALERT-C protocol distinguishes between user messages and system messages. User messages are those potentially made known to the end-user, as defined in Clause 5. System messages are of use only to the RDS-TMC terminal, for message management purposes. RDS-TMC information comprises both ?system information' and ?user messages'. System information relates to the TMC service and details the parameters that the terminal needs to be able to find, identify and decode the TMC information. System information is transmitted in type 3A groups and in type 8A groups. User messages contain the details of the traffic events; these may use one or more type 8A groups. Most messages may be transmitted using a single type 8A group, however messages with more detail (e.g. diversion advice) may use up to a total of five, type 8A groups. The transmission component of this document conveys the messages over-air. The ALERT-C protocol, used by RDS-TMC, has the fundamental approach of aiming to code most messages entirely within a single RDS group. The ALERT-C Event List, which contains all event descriptions, is described in ISO 14819‑2.
 status:
   stage:
     content: '90'

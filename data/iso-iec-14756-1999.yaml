@@ -1,4 +1,3 @@
----
 id: ISOIEC147561999
 schema_version: v1.5.6
 type: standard
@@ -13,8 +12,7 @@ title:
   type: title-main
 - language: en
   script: Latn
-  content: Information technology - Measurement and rating of performance of computer-based
-    software systems
+  content: Information technology - Measurement and rating of performance of computer-based software systems
   type: main
 - language: fr
   script: Latn
@@ -26,8 +24,7 @@ title:
   type: title-main
 - language: fr
   script: Latn
-  content: Technologies de l'information - Mesurage et gradation de la performance
-    des systèmes de logiciels d'ordinateurs
+  content: Technologies de l'information - Mesurage et gradation de la performance des systèmes de logiciels d'ordinateurs
   type: main
 source:
 - type: src
@@ -40,6 +37,8 @@ docidentifier:
 - content: ISO/IEC 14756:1999
   type: ISO
   primary: true
+- content: ISO/IEC 14756
+  type: iso-undated
 - content: ISO/IEC 14756:1999(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:14756:stage-90.93
@@ -92,78 +91,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'This International Standard defines how user oriented performance of computer-based
-    software systems (CBSS) may be measured and rated. A CBSS is a data processing
-    system as it is seen by its users, e.g. by users at various terminals, or as it
-    is seen by operational users and business users at the data processing center.
-    A CBSS includes hardware and all its software (system software and application
-    software) which is needed to realize the data processing functions required by
-    the users or what may influence to the CBSS''s time behaviour. This International
-    Standard is applicable for tests of all time constrained systems or system parts.
-    Also a network may be part of a system or may be the main subject of a test. The
-    method defined in this International Standard is not limited to special cases
-    like classic batch or terminal-host systems, e.g. also included are client server
-    systems or, with a broader comprehension of the definition of ?task'', real time
-    systems. But the practicability of tests may be limited by the expenditure required
-    to test large environments. This International Standard specifies the key figures
-    of user oriented performance terms and specifies a method of measuring and rating
-    these performance values. The specified performance values are those which describe
-    the execution speed of user orders (tasks), namely the triple of: - execution
-    time, - throughput, - timeliness. The user orders, subsequently called tasks,
-    may be of simple or complex internal structure. A task may be a job, transaction,
-    process or a more complex structure, but with a defined start and end depending
-    on the needs of the evaluator. When evaluating the performance it is possible
-    to use this International Standard for measuring the time behaviour with reference
-    to business transaction completion times in addition to other individual response
-    times. The rating is done with respect to users requirements or by comparing two
-    or more measured systems (types or versions). Intentionally no proposals for measuring
-    internal values, such as: - utilisation values, - mean instruction rates, - path
-    lengths, - cache hit rates, - queuing times, - service times, are given, because
-    the definition of internal values depends on the architecture of the hardware
-    and the software of the system under test. Contrary to this the user oriented
-    performance values which are defined in this International Standard are independent
-    of architecture. The definition of internal performance values can be done independently
-    from the definition of user oriented performance values. They may be used and
-    can be measured in addition to the user oriented performance values. Also the
-    definition of terms for the efficiency with which the user oriented values are
-    produced can be done freely. In addition this International Standard gives guidance
-    on how to establish at a data processing system a stable and reproducible state
-    of operation. This reproducible state may be used to measure other performance
-    values such as the above mentioned internal values. This International Standard
-    focuses on: - application software; - system software; - turn-key systems (i.e.
-    systems consisting of an application software, the system software and the hardware
-    for which it was designed); - general data processing systems. This International
-    Standard specifies the requirements for an emulation (by a technical system -
-    the so-called remote terminal emulator (RTE) - of user interactions with a data
-    processing system. It is the guideline for precisely measuring and rating the
-    user oriented performance values. It provides the guideline for estimating these
-    values with the required accuracy and repeatability of CBSSs with deterministic
-    as well as random behaviour of users. It is also a guidance for implementing a
-    RTE or proving whether it works according to this International Standard. This
-    International Standard provides the guideline to measure and rate the performance
-    of CBSS with random user behaviour when the accuracy and repeatability is required.
-    It specifies in detail how to prepare and carry out the measurement procedure.
-    Along with a description of the analysis of the measured values, the formulas
-    for computing the performance value and the rating value, are provided. This International
-    Standard also gives guidance on: - how to design a user oriented benchmark test
-    using a: * transaction oriented workload, * batch oriented workload, * or transaction
-    and batch mixed workload. It specifies: - how to describe such a workload, - how
-    to perform the measurement procedure, - how to rate the measured results. This
-    International Standard is of interest to: - evaluators, - developers, - buyers
-    (including users of a data processing system), - system integrators of CBSSs.
-    NOTE 1 The field of application of this International Standard may be extended
-    to include the following aspects. Workloads fulfilling the specifications of this
-    standard and having a sufficiently general structure may be used as standard workloads.
-    They may be used to measure and rate performance of data processing systems used
-    in specific fields. E.g. a standard workload for word-processing may be used to
-    compare the time efficiency of different software products or different versions
-    of the same product running on the same hardware system. Such a standard workload
-    may also be used if always applying the same application software version and
-    the same hardware to compare the efficiency of the system software. When applying
-    the same application software and workload to different systems, consisting of
-    hardware and system software, as normally sold by system vendors, the efficiency
-    of the data processing systems may be compared with respect to the application
-    and workload used.'
+  content: 'This International Standard defines how user oriented performance of computer-based software systems (CBSS) may be measured and rated. A CBSS is a data processing system as it is seen by its users, e.g. by users at various terminals, or as it is seen by operational users and business users at the data processing center. A CBSS includes hardware and all its software (system software and application software) which is needed to realize the data processing functions required by the users or what may influence to the CBSS''s time behaviour. This International Standard is applicable for tests of all time constrained systems or system parts. Also a network may be part of a system or may be the main subject of a test. The method defined in this International Standard is not limited to special cases like classic batch or terminal-host systems, e.g. also included are client server systems or, with a broader comprehension of the definition of ?task'', real time systems. But the practicability of tests may be limited by the expenditure required to test large environments. This International Standard specifies the key figures of user oriented performance terms and specifies a method of measuring and rating these performance values. The specified performance values are those which describe the execution speed of user orders (tasks), namely the triple of: - execution time, - throughput, - timeliness. The user orders, subsequently called tasks, may be of simple or complex internal structure. A task may be a job, transaction, process or a more complex structure, but with a defined start and end depending on the needs of the evaluator. When evaluating the performance it is possible to use this International Standard for measuring the time behaviour with reference to business transaction completion times in addition to other individual response times. The rating is done with respect to users requirements or by comparing two or more measured systems (types or versions). Intentionally no proposals for measuring internal values, such as: - utilisation values, - mean instruction rates, - path lengths, - cache hit rates, - queuing times, - service times, are given, because the definition of internal values depends on the architecture of the hardware and the software of the system under test. Contrary to this the user oriented performance values which are defined in this International Standard are independent of architecture. The definition of internal performance values can be done independently from the definition of user oriented performance values. They may be used and can be measured in addition to the user oriented performance values. Also the definition of terms for the efficiency with which the user oriented values are produced can be done freely. In addition this International Standard gives guidance on how to establish at a data processing system a stable and reproducible state of operation. This reproducible state may be used to measure other performance values such as the above mentioned internal values. This International Standard focuses on: - application software; - system software; - turn-key systems (i.e. systems consisting of an application software, the system software and the hardware for which it was designed); - general data processing systems. This International Standard specifies the requirements for an emulation (by a technical system - the so-called remote terminal emulator (RTE) - of user interactions with a data processing system. It is the guideline for precisely measuring and rating the user oriented performance values. It provides the guideline for estimating these values with the required accuracy and repeatability of CBSSs with deterministic as well as random behaviour of users. It is also a guidance for implementing a RTE or proving whether it works according to this International Standard. This International Standard provides the guideline to measure and rate the performance of CBSS with random user behaviour when the accuracy and repeatability is required. It specifies in detail how to prepare and carry out the measurement procedure. Along with a description of the analysis of the measured values, the formulas for computing the performance value and the rating value, are provided. This International Standard also gives guidance on: - how to design a user oriented benchmark test using a: * transaction oriented workload, * batch oriented workload, * or transaction and batch mixed workload. It specifies: - how to describe such a workload, - how to perform the measurement procedure, - how to rate the measured results. This International Standard is of interest to: - evaluators, - developers, - buyers (including users of a data processing system), - system integrators of CBSSs. NOTE 1 The field of application of this International Standard may be extended to include the following aspects. Workloads fulfilling the specifications of this standard and having a sufficiently general structure may be used as standard workloads. They may be used to measure and rate performance of data processing systems used in specific fields. E.g. a standard workload for word-processing may be used to compare the time efficiency of different software products or different versions of the same product running on the same hardware system. Such a standard workload may also be used if always applying the same application software version and the same hardware to compare the efficiency of the system software. When applying the same application software and workload to different systems, consisting of hardware and system software, as normally sold by system vendors, the efficiency of the data processing systems may be compared with respect to the application and workload used.'
 status:
   stage:
     content: '90'

@@ -1,4 +1,3 @@
----
 id: ISOIEC2326422024
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: 'Information security - Redaction of authentic data - Part 2: Redactable
-    signature schemes based on asymmetric mechanisms'
+  content: 'Information security - Redaction of authentic data - Part 2: Redactable signature schemes based on asymmetric mechanisms'
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: 'Sécurité de l''information - Rédaction de données authentifiées - Partie
-    2: Schémas de signature éditable basés sur des mécanismes asymétriques'
+  content: 'Sécurité de l''information - Rédaction de données authentifiées - Partie 2: Schémas de signature éditable basés sur des mécanismes asymétriques'
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 23264-2:2024
   type: ISO
   primary: true
+- content: ISO/IEC 23264-2
+  type: iso-undated
 - content: ISO/IEC 23264-2:2024(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:23264:-2
@@ -100,25 +99,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'This document specifies cryptographic mechanisms to redact authentic data.
-    The mechanisms described in this document offer different combinations of the
-    security properties defined and described in ISO/IEC 23264-1. For all mechanisms,
-    this document describes the processes for key generation, generating the redactable
-    attestation, carrying out redactions and verifying redactable attestations. This
-    document contains mechanisms that are based on asymmetric cryptography using three
-    related transformations: ¾      a public transformation defined by a verification
-    key (verification process for verifying a redactable attestation), ¾      a private
-    transformation defined by a private attestation key (redactable attestation process
-    for generating a redactable attestation), and ¾      a third transformation defined
-    by the redaction key (redaction process) allowing to redact authentic information
-    within the constraints set forth during generation of the attestation such that
-    redacted information cannot be reconstructed.  This document contains mechanisms
-    which, after a successful redaction, allow the attestation to remain verifiable
-    using the verification transformation and attest that non-redacted fields of the
-    attested message are unmodified. This document further details that the three
-    transformations have the property whereby it is computationally infeasible to
-    derive the private attestation transformation, given the redaction and or the
-    verification transformation and key(s).'
+  content: 'This document specifies cryptographic mechanisms to redact authentic data. The mechanisms described in this document offer different combinations of the security properties defined and described in ISO/IEC 23264-1. For all mechanisms, this document describes the processes for key generation, generating the redactable attestation, carrying out redactions and verifying redactable attestations. This document contains mechanisms that are based on asymmetric cryptography using three related transformations: ¾      a public transformation defined by a verification key (verification process for verifying a redactable attestation), ¾      a private transformation defined by a private attestation key (redactable attestation process for generating a redactable attestation), and ¾      a third transformation defined by the redaction key (redaction process) allowing to redact authentic information within the constraints set forth during generation of the attestation such that redacted information cannot be reconstructed.  This document contains mechanisms which, after a successful redaction, allow the attestation to remain verifiable using the verification transformation and attest that non-redacted fields of the attested message are unmodified. This document further details that the three transformations have the property whereby it is computationally infeasible to derive the private attestation transformation, given the redaction and or the verification transformation and key(s).'
 status:
   stage:
     content: '60'

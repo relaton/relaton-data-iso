@@ -1,4 +1,3 @@
----
 id: ISO148162005
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: Road transport and traffic telematics - Automatic vehicle and equipment
-    identification - Numbering and data structure
+  content: Road transport and traffic telematics - Automatic vehicle and equipment identification - Numbering and data structure
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: Télématique de la circulation et du transport routier - Identification
-    automatique des véhicules et des équipements - Codification et structure des données
+  content: Télématique de la circulation et du transport routier - Identification automatique des véhicules et des équipements - Codification et structure des données
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO 14816:2005
   type: ISO
   primary: true
+- content: ISO 14816
+  type: iso-undated
 - content: ISO 14816:2005(E)
   type: iso-reference
 - content: urn:iso:std:iso:14816:stage-90.93
@@ -92,23 +91,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: ISO 14816:2005 establishes a common framework data structure for unambiguous
-    identification in RTTT/ITS systems. It excludes any physical aspects such as interfaces.
-    It is neither frequency- nor air interface protocol-specific. Data elements that
-    form part of transmission or storage protocols such as headers, frame markers
-    and checksums are thus excluded. The specifications for protecting against changes,
-    classifying and qualifying security aspects of the data structure elements are
-    not included within ISO 14816:2005. The principles of data element structure and
-    description determined in ISO/IEC 8824, ISO/IEC 8825-1 and ISO/IEC 8825-2 have
-    been adopted to provide an interoperable architecture within a standard framework
-    according to guidelines from ISO/TC 204 and CEN/TC 278. ISO 14816:2005 defines
-    data structures based on the ISO/IEC 8824-1 ASN.1 UNIVERSAL CLASS types that may
-    be directly IMPORTED to other application standards that would need only subsets
-    of the full APPLICATION CLASS types. These UNIVERSAL CLASS and APPLICATION CLASS
-    types are uniquely defined as an ASN.1 module in Annex B. This module may be directly
-    linked into an application data definition. ISO 14816:2005 defines default encoding
-    for simple AVI/AEI applications where no other relevant application standard exists.
-    This definition forms Clause 4.
+  content: ISO 14816:2005 establishes a common framework data structure for unambiguous identification in RTTT/ITS systems. It excludes any physical aspects such as interfaces. It is neither frequency- nor air interface protocol-specific. Data elements that form part of transmission or storage protocols such as headers, frame markers and checksums are thus excluded. The specifications for protecting against changes, classifying and qualifying security aspects of the data structure elements are not included within ISO 14816:2005. The principles of data element structure and description determined in ISO/IEC 8824, ISO/IEC 8825-1 and ISO/IEC 8825-2 have been adopted to provide an interoperable architecture within a standard framework according to guidelines from ISO/TC 204 and CEN/TC 278. ISO 14816:2005 defines data structures based on the ISO/IEC 8824-1 ASN.1 UNIVERSAL CLASS types that may be directly IMPORTED to other application standards that would need only subsets of the full APPLICATION CLASS types. These UNIVERSAL CLASS and APPLICATION CLASS types are uniquely defined as an ASN.1 module in Annex B. This module may be directly linked into an application data definition. ISO 14816:2005 defines default encoding for simple AVI/AEI applications where no other relevant application standard exists. This definition forms Clause 4.
 status:
   stage:
     content: '90'

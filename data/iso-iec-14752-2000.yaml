@@ -1,4 +1,3 @@
----
 id: ISOIEC147522000
 schema_version: v1.5.6
 type: standard
@@ -17,8 +16,7 @@ title:
   type: title-part
 - language: en
   script: Latn
-  content: Information technology - Open Distributed Processing - Protocol support
-    for computational interactions
+  content: Information technology - Open Distributed Processing - Protocol support for computational interactions
   type: main
 - language: fr
   script: Latn
@@ -34,8 +32,7 @@ title:
   type: title-part
 - language: fr
   script: Latn
-  content: Technologies de l'information - Traitement réparti ouvert - Prise en charge
-    des protocoles pour les interactions informatiques
+  content: Technologies de l'information - Traitement réparti ouvert - Prise en charge des protocoles pour les interactions informatiques
   type: main
 source:
 - type: src
@@ -48,6 +45,8 @@ docidentifier:
 - content: ISO/IEC 14752:2000
   type: ISO
   primary: true
+- content: ISO/IEC 14752
+  type: iso-undated
 - content: ISO/IEC 14752:2000(E)
   type: iso-reference
 - content: urn:iso:std:iso-iec:14752:stage-90.93
@@ -101,42 +100,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'This Recommendation | International Standard is based on the framework
-    of abstractions and concepts developed in the Reference Model for Open Distributed
-    Processing (ITU-T Rec. X.902 | ISO/IEC 10746-2 and ITU-T Rec. X.903 | ISO/IEC
-    10746-3). This Recommendation | International Standard defines how interactions
-    between computational objects in a computational specification of a system relate
-    to protocol support for those interactions in an engineering specification of
-    that system. In particular it: ? defines a General Interworking Framework (GIF);
-    ? within the GIF, defines a set of facilities each comprising a set of functionally-related
-    service primitives as abstract definitions of the interactions of basic engineering
-    objects and channel objects; ? defines the parameters of the service primitives
-    of the GIF; ? defines the permitted sequence of the service primitives by means
-    of state tables; ? specifies, in annexes, the mapping of the GIF service primitives
-    and their parameters to the messages and fields of particular protocols. As specified
-    in this Recommendation | International Standard, the GIF defines protocol support
-    for a pragmatic subset of the possible computational interactions defined in ITU-T
-    Rec. X.903 | ISO/IEC 10746-3. It is also restricted in the features of the protocol
-    support and the supported transparencies. The GIF, as specified here, defines:
-    ? support for computational operations, but not for streams; ? support using stub,
-    binder and protocol objects hierarchically, such that any interaction at the interworking
-    reference point of the supporting protocol object supports liaisons of one of
-    those objects or of the basic engineering object, and any interaction to support
-    those liaisons is passed via that interworking reference point; and ? interactions
-    at a single interworking reference point, from the perspective of one side; interceptors
-    are not explicitly considered; NOTE 1 ? It is intended that the GIF could be extended,
-    in a future amendment, to support streams and flows. The present specification
-    is restricted to areas that are technically stable. The GIF supports at least
-    some forms of: ? access transparency; and ? location transparency. The GIF as
-    specified here also supports a limited equivalent of relocation transparency.
-    Other transparencies are not addressed in this present specification. NOTE 2 ?
-    It is intended that the GIF could be extended, in future amendments, to support
-    additional transparencies. The GIF does not explicitly model Quality of Service
-    requirements. The application of security-related issues to the GIF are not included
-    in the current text and are for further study. The set of mappings to particular
-    protocols specified in annexes to this Recommendation | International Standard
-    is not exhaustive. The GIF could be mapped to other protocols. NOTE 3 ? In particular,
-    a mapping to the DCOM protocol family would be a candidate for an additional annex.'
+  content: 'This Recommendation | International Standard is based on the framework of abstractions and concepts developed in the Reference Model for Open Distributed Processing (ITU-T Rec. X.902 | ISO/IEC 10746-2 and ITU-T Rec. X.903 | ISO/IEC 10746-3). This Recommendation | International Standard defines how interactions between computational objects in a computational specification of a system relate to protocol support for those interactions in an engineering specification of that system. In particular it: ? defines a General Interworking Framework (GIF); ? within the GIF, defines a set of facilities each comprising a set of functionally-related service primitives as abstract definitions of the interactions of basic engineering objects and channel objects; ? defines the parameters of the service primitives of the GIF; ? defines the permitted sequence of the service primitives by means of state tables; ? specifies, in annexes, the mapping of the GIF service primitives and their parameters to the messages and fields of particular protocols. As specified in this Recommendation | International Standard, the GIF defines protocol support for a pragmatic subset of the possible computational interactions defined in ITU-T Rec. X.903 | ISO/IEC 10746-3. It is also restricted in the features of the protocol support and the supported transparencies. The GIF, as specified here, defines: ? support for computational operations, but not for streams; ? support using stub, binder and protocol objects hierarchically, such that any interaction at the interworking reference point of the supporting protocol object supports liaisons of one of those objects or of the basic engineering object, and any interaction to support those liaisons is passed via that interworking reference point; and ? interactions at a single interworking reference point, from the perspective of one side; interceptors are not explicitly considered; NOTE 1 ? It is intended that the GIF could be extended, in a future amendment, to support streams and flows. The present specification is restricted to areas that are technically stable. The GIF supports at least some forms of: ? access transparency; and ? location transparency. The GIF as specified here also supports a limited equivalent of relocation transparency. Other transparencies are not addressed in this present specification. NOTE 2 ? It is intended that the GIF could be extended, in future amendments, to support additional transparencies. The GIF does not explicitly model Quality of Service requirements. The application of security-related issues to the GIF are not included in the current text and are for further study. The set of mappings to particular protocols specified in annexes to this Recommendation | International Standard is not exhaustive. The GIF could be mapped to other protocols. NOTE 3 ? In particular, a mapping to the DCOM protocol family would be a candidate for an additional annex.'
 status:
   stage:
     content: '90'
