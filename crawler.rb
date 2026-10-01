@@ -3,6 +3,7 @@
 require "relaton/iso/data_fetcher"
 require "rbconfig"
 require "bundler"
+require_relative "pubid_check"
 
 # The reusable crawler workflow forwards inputs as
 #   ruby crawler.rb <args> <secrets.args>
@@ -11,6 +12,9 @@ require "bundler"
 source = ARGV.find { |a| a.start_with?("iso-open-data") }
 token  = (ARGV - [source].compact).last
 ENV["GITHUB_TOKEN"] = token if token
+
+# Stop here, before anything is wiped or saved, if pubid cannot parse ISO ids.
+PubidCheck.verify!
 
 # Fetch into `data/` and rebuild `index-v2` (parsed with pubid v2).
 #

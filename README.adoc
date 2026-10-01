@@ -7,3 +7,25 @@ which cannot be retrieved on ISO's website, including
 ISO/IEC Directives and ISO TC 184/SC 4 publications.
 
 Data is stored in the Relaton YAML format.
+
+== Crawler
+
+`crawler.rb` fetches the ISO Open Data feed into `data/` and rebuilds
+`index-v2.yaml` (pubid v2) and `index-v1.yaml` (pubid v1, via
+`build_index_v1.rb`).
+
+pubid is pinned in the `Gemfile` to a fixed ref. Do not move it to pubid
+`main` until pubid declares a released parsanol in its gemspec: without
+parsanol every identifier fails to parse, and the full replace empties the
+index (issue #42).
+
+Before it fetches, the crawler runs `PubidCheck.verify!` (`pubid_check.rb`),
+which parses a few known identifiers and aborts the run if pubid cannot parse
+them. This stops a broken pubid before `data/`, the indexes, or
+`last_modified.txt` change.
+
+The crawl is skipped when the feed's `Last-Modified` has not changed. To force a
+full rebuild (for example, after a bad crawl), run the Crawler workflow by hand
+with `force_refresh` set.
+
+Run the specs with `bundle exec rake`.
