@@ -34,17 +34,6 @@ on:
     workflows: [ Crawler ]
     types: [ completed ]
     branches: [ master, main, v2 ]
-  # Fallback only, and it is NOT about days the crawler commits nothing —
-  # `types: [completed]` fires on every crawler run regardless of whether the
-  # "Push data" step committed. What this covers is a crawler that never ran or
-  # was disabled, and picking up upstream relaton/relaton changes that alter the
-  # generated index. Cost: a second full build per day (~3 min on the largest
-  # flavor, which includes compiling the frontend); drop to weekly if it bites.
-  #
-  # Set clear of the crawler's observed run window rather than one hour after
-  # its nominal cron — see the note on workflow_run above.
-  schedule:
-  - cron: '0 18 * * *'
   workflow_dispatch:
 
 jobs:
