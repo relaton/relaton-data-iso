@@ -10,7 +10,11 @@ gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
 # its gemspec, so on pubid `main` every parse fails with `uninitialized constant
 # Pubid::Parg::Backend::Parsanol` and the crawl wipes the index (issue #42).
 # Move to `main` once pubid depends on a released parsanol.
-gem "pubid", git: "https://github.com/metanorma/pubid.git", ref: "27454393", branch: "main"
+pubid = { git: "https://github.com/metanorma/pubid.git", ref: "27454393" }
+# A `local.pubid` override needs `branch:`. Without the override, `branch:`
+# makes Bundler fetch only the tip (`--depth 1`) and lose the pinned ref.
+pubid[:branch] = "main" if Bundler.settings["local.pubid"]
+gem "pubid", **pubid
 
 gem "rake"
 
