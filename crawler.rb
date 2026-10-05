@@ -25,4 +25,3 @@ Dir["static/**/*.yaml"].each do |f|
 end
 index.save
 
-`git add #{Relaton::Iso::Queue::FILE}`
