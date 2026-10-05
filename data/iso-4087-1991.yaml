@@ -1,43 +1,37 @@
 ---
 id: ISO40871991
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Micrographics
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Microfilming of newspapers for archival purposes on 35 mm microfilm
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
-  content: Micrographics - Microfilming of newspapers for archival purposes on 35
-    mm microfilm
+  content: Micrographics - Microfilming of newspapers for archival purposes on 35 mm microfilm
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Micrographie
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Enregistrement des journaux sur microfilm de 35 mm pour l'archivage
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: Micrographie - Enregistrement des journaux sur microfilm de 35 mm pour
-    l'archivage
+  content: Micrographie - Enregistrement des journaux sur microfilm de 35 mm pour l'archivage
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/9818.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:9818:en
 - type: rss
   content: https://www.iso.org/contents/data/standard/00/98/9818.detail.rss
 docidentifier:
@@ -51,7 +45,7 @@ docidentifier:
 docnumber: '4087'
 date:
 - type: published
-  at: 1991-05
+  at: '1991-05-09'
 contributor:
 - role:
   - type: publisher
@@ -88,16 +82,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Includes requirements for targets to ensure proper bibliographic control
-    and to provide verification that the film meets International Standards required
-    for archival microfilming. This second edition cancels and replaces the first
-    edition (1979).
-- language: fr
-  script: Latn
-  content: Includes requirements for targets to ensure proper bibliographic control
-    and to provide verification that the film meets International Standards required
-    for archival microfilming. This second edition cancels and replaces the first
-    edition (1979).
+  content: Includes requirements for targets to ensure proper bibliographic control and to provide verification that the film meets International Standards required for archival microfilming. This second edition cancels and replaces the first edition (1979).
 status:
   stage:
     content: '95'
@@ -112,35 +97,38 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 4087:1979
+    formattedref:
+      content: ISO 4087:1979
     docidentifier:
     - content: ISO 4087:1979
       type: ISO
       primary: true
-- type: updates
+    date:
+    - type: published
+      at: '1979-04-01'
+- type: obsoletedBy
   bibitem:
-    type: standard
-    formattedref: ISO 4087:2005
+    formattedref:
+      content: ISO 4087:2005
     docidentifier:
     - content: ISO 4087:2005
       type: ISO
       primary: true
     date:
-    - type: circulated
+    - type: published
       at: '2005-04-13'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
   ics:
-  - code: '37.080'
-    text: Document imaging applications
   - code: 01.140.20
     text: Information sciences
+  - code: '37.080'
+    text: Document imaging applications
   structuredidentifier:
     type: ISO
     project_number:

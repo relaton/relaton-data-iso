@@ -1,48 +1,40 @@
 ---
 id: ISO66151993
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Petroleum products
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Determination of carbon residue
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Conradson method
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Petroleum products - Determination of carbon residue - Conradson method
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits pétroliers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Détermination du résidu de carbone
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Méthode Conradson
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Produits pétroliers - Détermination du résidu de carbone - Méthode Conradson
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/20865.html
@@ -56,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO 6615:1993(E)
   type: iso-reference
-- content: urn:iso:std:iso:6615:stage-90.93
+- content: urn:iso:std:iso:6615:stage-90.92
   type: URN
 docnumber: '6615'
 date:
 - type: published
-  at: 1993-09
+  at: '1993-09-02'
 contributor:
 - role:
   - type: publisher
@@ -81,8 +73,7 @@ contributor:
     - content: International Organization for Standardization
     subdivision:
     - name:
-      - content: Petroleum and related products, fuels and lubricants from natural
-          or synthetic sources
+      - content: Petroleum and related products, fuels and lubricants from natural or synthetic sources
       identifier:
       - content: ISO/TC 28
       type: technical-committee
@@ -99,24 +90,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The principle of the method specified is placing a weighed test portion
-    in a crucible and subjecting to destructive distillation. The residue undergoes
-    cracking and coking reactions during a fixed period of severe heating. At the
-    end of the specified heat period, the test crucible containing the carbonaceous
-    residue is cooled in a desiccator and weighed. The residue remaining is calculated
-    as a mass percentage of the original test portion. The method may be used to determine
-    amounts of carbon residues in the range of 0,01 % (m/m) to 30,0 % (m/m), left
-    after evaporation and pyrolysis.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit une méthode permettant de déterminer la quantité de résidu de carbone, entre 0,01 % (m/m) et 30,0 % (m/m), restant après évaporation et pyrolyse d'une huile. Elle est destinée à donner une certaine indication de la tendance relative du produit à former du coke. La méthode s'applique d'une manière générale à des produits pétroliers relativement non volatils, qui se décomposent partiellement lors d'une distillation à la pression atmosphérique. Les produits pétroliers contenant des constituants formant des cendres déterminées selon l'ISO 6245 donnent un résidu de carbone trop élevé, qui dépend de la quantité de cendres formées.
+  content: The principle of the method specified is placing a weighed test portion in a crucible and subjecting to destructive distillation. The residue undergoes cracking and coking reactions during a fixed period of severe heating. At the end of the specified heat period, the test crucible containing the carbonaceous residue is cooled in a desiccator and weighed. The residue remaining is calculated as a mass percentage of the original test portion. The method may be used to determine amounts of carbon residues in the range of 0,01 % (m/m) to 30,0 % (m/m), left after evaporation and pyrolysis.
 status:
   stage:
     content: '90'
   substage:
-    content: '93'
+    content: '92'
 copyright:
 - from: '1993'
   owner:
@@ -126,16 +105,27 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 6615:1983
+    formattedref:
+      content: ISO 6615:1983
     docidentifier:
     - content: ISO 6615:1983
       type: ISO
       primary: true
+    date:
+    - type: published
+      at: '1983-10-01'
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/CD 6615
+    docidentifier:
+    - content: ISO/CD 6615
+      type: ISO
+      primary: true
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

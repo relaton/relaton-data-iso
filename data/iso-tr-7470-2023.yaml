@@ -1,38 +1,32 @@
 ---
 id: ISOTR74702023
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Gas cylinders
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: List of provisions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Gas cylinders - List of provisions
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bouteilles à gaz
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Inventaire des dispositions
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Bouteilles à gaz - Inventaire des dispositions
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/69940.html
@@ -46,12 +40,12 @@ docidentifier:
   primary: true
 - content: ISO/TR 7470:2023(E)
   type: iso-reference
-- content: urn:iso:std:iso:tr:7470:stage-90.92
+- content: urn:iso:std:iso:tr:7470:stage-95.99
   type: URN
 docnumber: '7470'
 date:
 - type: published
-  at: 2023-07
+  at: '2023-07-06'
 contributor:
 - role:
   - type: publisher
@@ -82,27 +76,17 @@ edition:
   content: '3'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: |-
-    This document lists gas cylinders valve outlets in use.
-    This document provides details of thread types and sizes.
-    NOTE       Complete descriptions of particular valve outlets are given in national standards.
-- language: fr
-  script: Latn
-  content: |-
-    This document lists gas cylinders valve outlets in use.
-    This document provides details of thread types and sizes.
-    NOTE       Complete descriptions of particular valve outlets are given in national standards.
+  content: This document lists gas cylinders valve outlets in use. This document provides details of thread types and sizes. NOTE       Complete descriptions of particular valve outlets are given in national standards.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '2023'
   owner:
@@ -112,24 +96,30 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO/TR 7470:1988
+    formattedref:
+      content: ISO/TR 7470:1988
     docidentifier:
     - content: ISO/TR 7470:1988
       type: ISO
       primary: true
-- type: obsoletes
+    date:
+    - type: published
+      at: '1988-12-15'
+- type: obsoletedBy
   bibitem:
-    type: standard
-    formattedref: ISO/AWI TR 7470
+    formattedref:
+      content: ISO/TR 7470:2026
     docidentifier:
-    - content: ISO/AWI TR 7470
+    - content: ISO/TR 7470:2026
       type: ISO
       primary: true
+    date:
+    - type: published
+      at: '2026-08-11'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: technical-report
   flavor: iso

@@ -1,48 +1,40 @@
 ---
 id: ISO5821995
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
   content: Rolling bearings
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Chamfer dimensions
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
   content: Maximum values
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
   content: Rolling bearings - Chamfer dimensions - Maximum values
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Roulements
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Dimensions des arrondis
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
   content: Valeurs maximales
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
   content: Roulements - Dimensions des arrondis - Valeurs maximales
   type: main
-  format: text/plain
 source:
 - type: src
   content: https://www.iso.org/standard/20515.html
@@ -56,12 +48,12 @@ docidentifier:
   primary: true
 - content: ISO 582:1995(E)
   type: iso-reference
-- content: urn:iso:std:iso:582:stage-90.92
+- content: urn:iso:std:iso:582:stage-95.99
   type: URN
 docnumber: '582'
 date:
 - type: published
-  at: 1995-05
+  at: '1995-05-18'
 contributor:
 - role:
   - type: publisher
@@ -81,8 +73,7 @@ contributor:
     - content: International Organization for Standardization
     subdivision:
     - name:
-      - content: Rolling bearings - Vocabulary, boundary dimensions and geometrical
-          product specifications
+      - content: Rolling bearings - Vocabulary, boundary dimensions and geometrical product specifications
       identifier:
       - content: ISO/TC 4/SC 4
       type: technical-committee
@@ -99,22 +90,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Cancels and replaces the second edition (1979). Specifies the maximum chamfer
-    dimensions of metric series rolling bearings, for which boundary dimensions, including
-    chamfer minimum dimensions, are given in other International Standards. Gives
-    also requirements for the maximum dimensions of the corresponding shaft and housing
-    filet radii. Does not apply to chamfers, for which dimensions are not specified,
-    or for which other dimensions are specified in other International Standards.
-- language: fr
-  script: Latn
-  content: |2
-
-    La présente Norme internationale prescrit les dimensions maximales des arrondis des roulements de la série métrique, dont les dimensions d'encombrement, y compris les dimensions minimales d'arrondi, sont données dans d'autres Normes internationales ISO. Elle définit également le rayon maximal correspondant des congés d'arbre et de logement. La présente Norme internationale ne s'applique pas aux arrondis des roulements dont les dimensions ne sont pas normalisées, ou pour lesquels d'autres dimensions sont données dans les Normes internationales ISO correspondantes.
+  content: Cancels and replaces the second edition (1979). Specifies the maximum chamfer dimensions of metric series rolling bearings, for which boundary dimensions, including chamfer minimum dimensions, are given in other International Standards. Gives also requirements for the maximum dimensions of the corresponding shaft and housing filet radii. Does not apply to chamfers, for which dimensions are not specified, or for which other dimensions are specified in other International Standards.
 status:
   stage:
-    content: '90'
+    content: '95'
   substage:
-    content: '92'
+    content: '99'
 copyright:
 - from: '1995'
   owner:
@@ -124,35 +105,41 @@ copyright:
 relation:
 - type: obsoletes
   bibitem:
-    type: standard
-    formattedref: ISO 582:1979
+    formattedref:
+      content: ISO 582:1979
     docidentifier:
     - content: ISO 582:1979
       type: ISO
       primary: true
-- type: obsoletes
+    date:
+    - type: published
+      at: '1979-10-01'
+- type: obsoletedBy
   bibitem:
-    type: standard
-    formattedref: ISO/DIS 582
+    formattedref:
+      content: ISO 582:2026
     docidentifier:
-    - content: ISO/DIS 582
+    - content: ISO 582:2026
       type: ISO
       primary: true
-- type: updates
+    date:
+    - type: published
+      at: '2026-02-25'
+- type: updatedBy
   bibitem:
-    type: standard
-    formattedref: ISO 582:1995/Amd 1:2013
+    formattedref:
+      content: ISO 582:1995/Amd 1:2013
     docidentifier:
     - content: ISO 582:1995/Amd 1:2013
       type: ISO
       primary: true
     date:
-    - type: circulated
-      at: '2022-10-20'
+    - type: published
+      at: '2013-06-25'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso

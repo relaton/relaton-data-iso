@@ -1,60 +1,47 @@
 ---
 id: ISOCD1511821
+schema_version: v1.5.6
 type: standard
-schema_version: v1.4.1
-fetched: '2024-01-19'
 title:
 - language: en
   script: Latn
   content: Road vehicles
   type: title-intro
-  format: text/plain
 - language: en
   script: Latn
   content: Vehicle to grid communication interface
   type: title-main
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Part 21: Common 2nd generation network layer and application layer requirements
-    conformance test plan'
+  content: 'Part 21: Common 2nd generation network layer and application layer requirements conformance test plan'
   type: title-part
-  format: text/plain
 - language: en
   script: Latn
-  content: 'Road vehicles - Vehicle to grid communication interface - Part 21: Common
-    2nd generation network layer and application layer requirements conformance test
-    plan'
+  content: 'Road vehicles - Vehicle to grid communication interface - Part 21: Common 2nd generation network layer and application layer requirements conformance test plan'
   type: main
-  format: text/plain
 - language: fr
   script: Latn
   content: Véhicules routiers
   type: title-intro
-  format: text/plain
 - language: fr
   script: Latn
   content: Interface de communication entre véhicule et réseau électrique
   type: title-main
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Partie 21: Plan de test de conformité aux exigences communes de la couche
-    réseau et de la couche application de 2ème génération'
+  content: 'Partie 21: Plan de test de conformité aux exigences communes de la couche réseau et de la couche application de 2ème génération'
   type: title-part
-  format: text/plain
 - language: fr
   script: Latn
-  content: 'Véhicules routiers - Interface de communication entre véhicule et réseau
-    électrique - Partie 21: Plan de test de conformité aux exigences communes de la
-    couche réseau et de la couche application de 2ème génération'
+  content: 'Véhicules routiers - Interface de communication entre véhicule et réseau électrique - Partie 21: Plan de test de conformité aux exigences communes de la couche réseau et de la couche application de 2ème génération'
   type: main
-  format: text/plain
 source:
 - type: src
-  content: https://www.iso.org/standard/84170.html
+  content: https://www.iso.org/standard/94024.html
+- type: obp
+  content: https://www.iso.org/obp/ui/en/#!iso:std:94024:en
 - type: rss
-  content: https://www.iso.org/contents/data/standard/08/41/84170.detail.rss
+  content: https://www.iso.org/contents/data/standard/09/40/94024.detail.rss
 docidentifier:
 - content: ISO/CD 15118-21
   type: ISO
@@ -91,82 +78,40 @@ contributor:
     abbreviation:
       content: ISO
 edition:
-  content: '1'
+  content: '2'
 language:
 - en
-- fr
 script:
 - Latn
 abstract:
 - language: en
   script: Latn
-  content: "The document specifies all common test cases to be applied to and correctly
-    handled by EVs (EVCC) and EVSEs (SECC) implementing ISO 15118-20 that are independent
-    of a particular charging type (AC, DC, ACD, WPT charging). The document considers
-    the use cases defined in ISO 15118-1:2019\nThe test system will comprise:\n-\tA
-    simulated SECC to verify the correct behaviour of a real EVCC\n-\tA simulated
-    EVCC to verify the correct behaviour of a real SECC\nThe document specifies test
-    cases for all requirements defined in ISO 15118-20, verifying at least the following
-    aspects:\n-\tCharge spot discovery and initialization of communication (TCP /
-    TLS connection establishment).\n-\tSession establishment, session interruption
-    and session re-establishment.\n-\tAuthentication process for charging session
-    (e.g. EIM and PNC)\n-\tService discovery and selection\n-\tCommon and charging
-    type independent service implementation\n-\tTermination of charging session\n-\tError
-    handling\nThe test cases cover positive tests (according to ISO 15118-20). In
-    addition, error scenarios (e.g., incorrectly formatted requests, invalid content
-    of messages, etc.) as well as tests for timing behaviour are defined which are
-    also handled by EVCC and SECC ensuring interoperability between EVs and EVSEs.\nThe
-    test cases will be structured according to OSI-layers 3 to 7 depending on their
-    testability from a (non-) functional perspective (e.g., IPv6, TCP, TLS.\nThe test
-    cases will include standard test case attributes like pre-conditions, test behaviours,
-    expected results to evaluate pass or fail and post-conditions to be applied returning
-    the system under test to a safe state."
-- language: fr
-  script: Latn
-  content: "The document specifies all common test cases to be applied to and correctly
-    handled by EVs (EVCC) and EVSEs (SECC) implementing ISO 15118-20 that are independent
-    of a particular charging type (AC, DC, ACD, WPT charging). The document considers
-    the use cases defined in ISO 15118-1:2019\nThe test system will comprise:\n-\tA
-    simulated SECC to verify the correct behaviour of a real EVCC\n-\tA simulated
-    EVCC to verify the correct behaviour of a real SECC\nThe document specifies test
-    cases for all requirements defined in ISO 15118-20, verifying at least the following
-    aspects:\n-\tCharge spot discovery and initialization of communication (TCP /
-    TLS connection establishment).\n-\tSession establishment, session interruption
-    and session re-establishment.\n-\tAuthentication process for charging session
-    (e.g. EIM and PNC)\n-\tService discovery and selection\n-\tCommon and charging
-    type independent service implementation\n-\tTermination of charging session\n-\tError
-    handling\nThe test cases cover positive tests (according to ISO 15118-20). In
-    addition, error scenarios (e.g., incorrectly formatted requests, invalid content
-    of messages, etc.) as well as tests for timing behaviour are defined which are
-    also handled by EVCC and SECC ensuring interoperability between EVs and EVSEs.\nThe
-    test cases will be structured according to OSI-layers 3 to 7 depending on their
-    testability from a (non-) functional perspective (e.g., IPv6, TCP, TLS.\nThe test
-    cases will include standard test case attributes like pre-conditions, test behaviours,
-    expected results to evaluate pass or fail and post-conditions to be applied returning
-    the system under test to a safe state."
+  content: This document specifies conformance tests in the form of an abstract test suite (ATS) for a system under test (SUT) that implements an electric-vehicle communication controller (EVCC) or a supply-equipment communication controller (SECC) for all common requirements specified in ISO 15118-20 that are independent of a particular charging type (AC, DC, ACD, WPT charging). These conformance tests specify the testing of capabilities and behaviours of an SUT, as well as checking what is observed against the conformance requirements specified in ISO 15118-20 and against what the implementer states the SUT implementation's capabilities are. The capability tests within the ATS check that the observable capabilities of the SUT are in accordance with the static conformance requirements specified in ISO 15118-20. The behaviour tests of the ATS examine an implementation as thoroughly as practical over the full range of dynamic conformance requirements specified in ISO 15118-20 and within the capabilities of the SUT. A test architecture is described in correspondence to the ATS. The abstract test cases in this document are described leveraging this test architecture and are specified in descriptive tabular format covering the ISO/OSI layer 3 to 7 (network to application layers). In terms of coverage, this document only covers normative sections and requirements in ISO 15118-20. This document additionally refers to specific tests for requirements on referenced standards (e.g. IETF RFCs, W3C Recommendation, etc.) if they are relevant in terms of conformance for implementations according to ISO 15118-20. However, it is explicitly not intended to widen the scope of this conformance specification to such external standards, if it is not technically necessary for the purpose of conformance testing for ISO 15118-20. Furthermore, the conformance tests specified in this document do not include the assessment of performance nor robustness or reliability of an implementation. They cannot provide judgments on the physical realization of abstract service primitives, how a system is implemented, how it provides any requested service, or the environment of the protocol implementation. Furthermore, the abstract test cases specified in this document only consider the communication protocol and the system's behaviour specified in ISO 15118-20. Power flow between the EVSE and the EV is no prerequisite for the test cases specified in this document.
 status:
   stage:
     content: '30'
   substage:
     content: '99'
-copyright:
-- from: '2023'
-  owner:
-  - organization:
-      name:
-      - content: ISO/CD
+relation:
+- type: obsoletes
+  bibitem:
+    formattedref:
+      content: ISO 15118-21:2025
+    docidentifier:
+    - content: ISO 15118-21:2025
+      type: ISO
+      primary: true
+    date:
+    - type: published
+      at: '2025-09-19'
 place:
-- formatted_place: Geneva
+- city: Geneva
 ext:
-  schema_version: v1.0.5
+  schema_version: v1.1.2
   doctype:
     content: international-standard
   flavor: iso
-  ics:
-  - code: '43.120'
-    text: Electric road vehicles
   structuredidentifier:
     type: ISO
     project_number:
-      part: 21
-      content: ISO 15118
+      content: '94024'
