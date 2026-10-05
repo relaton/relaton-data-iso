@@ -9,7 +9,7 @@ ENV["GITHUB_TOKEN"] = ARGV.last if ARGV.last
 # Next run it will download next 10,000 standards.
 Relaton::Iso::DataFetcher.fetch
 
-index_file = "#{Relaton::Iso::HitCollection::INDEXFILE}.yaml"
+index_file = "#{Relaton::Iso::INDEXFILE}.yaml"
 index = Relaton::Index.find_or_create :iso, file: index_file
 
 Dir["data/**/*.yaml"].each do |f|
