@@ -13,13 +13,13 @@ index_file = "#{Relaton::Iso::INDEXFILE}.yaml"
 index = Relaton::Index.find_or_create :iso, file: index_file
 
 Dir["data/**/*.yaml"].each do |f|
-  item = Relaton::Iso::Item.from_yml File.read(f, encoding: "UTF-8")
+  item = Relaton::Iso::Item.from_yaml File.read(f, encoding: "UTF-8")
   id = item.docidentifier.detect(&:primary)
   index.add_or_update id.to_h, f
 end
 
 Dir["static/**/*.yaml"].each do |f|
-  item = Relaton::Iso::Item.from_yml File.read(f, encoding: "UTF-8")
+  item = Relaton::Iso::Item.from_yaml File.read(f, encoding: "UTF-8")
   id = item.docidentifier.detect(&:primary)
   index.add_or_update id.to_h, f
 end
