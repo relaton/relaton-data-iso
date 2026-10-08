@@ -29,19 +29,19 @@ title:
   type: title-main
 - language: fr
   script: Latn
-  content: 'Partie 4: Essai de conformité du protocole d''application et du réseau'
+  content: 'Partie 4: Test de conformité du protocole d''application et du réseau'
   type: title-part
 - language: fr
   script: Latn
-  content: 'Véhicules routiers - Interface de communication entre véhicule et réseau électrique - Partie 4: Essai de conformité du protocole d''application et du réseau'
+  content: 'Véhicules routiers - Interface de communication entre véhicule et réseau électrique - Partie 4: Test de conformité du protocole d''application et du réseau'
   type: main
 source:
 - type: src
-  content: https://www.iso.org/standard/88767.html
+  content: https://www.iso.org/standard/80524.html
 - type: obp
-  content: https://www.iso.org/obp/ui/en/#!iso:std:88767:en
+  content: https://www.iso.org/obp/ui/en/#!iso:std:80524:en
 - type: rss
-  content: https://www.iso.org/contents/data/standard/08/87/88767.detail.rss
+  content: https://www.iso.org/contents/data/standard/08/05/80524.detail.rss
 docidentifier:
 - content: ISO/DIS 15118-4
   type: ISO
@@ -84,15 +84,11 @@ language:
 - fr
 script:
 - Latn
-abstract:
-- language: en
-  script: Latn
-  content: ISO 15118-4:2018 specifies conformance tests in the form of an Abstract Test Suite (ATS) for a System Under Test (SUT) implementing an EVCC or SECC according to ISO 15118-2. These conformance tests specify the testing of capabilities and behaviors of an SUT as well as checking what is observed against the conformance requirements specified in ISO 15118-2 and against what the supplier states the SUT implementation's capabilities are. The capability tests within the ATS check that the observable capabilities of the SUT are in accordance with the static conformance requirements defined in ISO 15118-2. The behavior tests of the ATS examine an implementation as thoroughly as is practical over the full range of dynamic conformance requirements defined in ISO 15118-2 and within the capabilities of the SUT (see NOTE). A test architecture is described in correspondence to the ATS. The conformance test cases in this document are described leveraging this test architecture and are specified in TTCN-3 Core Language for ISO/OSI Network Layer (Layer 3) and above. The conformance test cases for the Data Link Layer (Layer 2) and Physical Layer (Layer 1) are described in ISO 15118-5. Test cases with overlapping scopes are explicitly detailed. This document does not include specific tests of other standards referenced within ISO 15118-2, e.g. IETF RFCs. Furthermore, the conformance tests specified in this document do not include the assessment of performance nor robustness or reliability of an implementation. They cannot provide judgments on the physical realization of abstract service primitives, how a system is implemented, how it provides any requested service, nor the environment of the protocol implementation. Furthermore, the test cases defined in this document only consider the communication protocol defined ISO 15118-2. Power flow between the EVSE and the EV is not considered. NOTE 1 Practical limitations make it impossible to define an exhaustive test suite, and economic considerations can restrict testing even further. Hence, the purpose of this document is to increase the probability that different implementations are able to interwork. This is achieved by verifying them by means of a protocol test suite, thereby increasing the confidence that each implementation conforms to the protocol specification. However, the specified protocol test suite cannot guarantee conformance to the specification since it detects errors rather than their absence. Thus conformance to a test suite alone cannot guarantee interworking. What it does do is give confidence that an implementation has the required capabilities and that its behavior conforms consistently in representative instances of communication. NOTE 2 This document has some interdependencies to the conformance tests defined in ISO 15118-5 which result from ISO/OSI cross layer dependencies in the underlying protocol specification (e.g. for sleep mode)
 status:
   stage:
     content: '40'
   substage:
-    content: '60'
+    content: '98'
 relation:
 - type: obsoletes
   bibitem:
@@ -118,4 +114,4 @@ ext:
   structuredidentifier:
     type: ISO
     project_number:
-      content: '88767'
+      content: '80524'
