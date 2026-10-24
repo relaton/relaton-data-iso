@@ -15,10 +15,6 @@ RSpec.describe "index files" do
   end
 
   it "index-v2.yaml has no file indexed twice" do
-    # Relaton::Iso::DataFetcher#fetch_pub calls `output_file`, which maps "."
-    # and "-" alike to "-": `ISO/DIS 15869.3` and `ISO/DIS 15869-3` collide.
-    # Fixed when the ISO flavor uses Relaton::Core::DataFetcher#unique_output_file.
-    pending "ISO DataFetcher does not use unique_output_file yet"
     expect(duplicate_files("index-v2.yaml")).to be_empty
   end
 end
