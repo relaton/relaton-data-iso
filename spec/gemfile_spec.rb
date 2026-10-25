@@ -3,33 +3,20 @@
 require "bundler"
 
 RSpec.describe "Gemfile" do
-  subject(:options) do
+  subject(:pubid) do
     gemfile = File.expand_path("../Gemfile", __dir__)
     Bundler::Dsl.new.tap { |dsl| dsl.eval_gemfile(gemfile) }
-      .dependencies.find { |dep| dep.name == "pubid" }.source.options
+      .dependencies.find { |dep| dep.name == "pubid" }
   end
 
-  before do
-    allow(Bundler.settings).to receive(:[]).and_call_original
-    allow(Bundler.settings).to receive(:[]).with("local.pubid").and_return(local_pubid)
+  # relaton `main` requires pubid ~> 2.0.0.pre.alpha.21, which parses through
+  # the released parsanol. A git pin to an older (parslet-era) pubid ref does
+  # not resolve against it, and the crawler's `bundle install` fails (issue #42).
+  it "takes pubid from rubygems, not from git" do
+    expect(pubid.source).to be_nil
   end
 
-  # With `branch:` Bundler clones only the branch tip (`--depth 1`), so an
-  # older pinned `ref:` is not in the clone and `bundle install` fails in CI.
-  context "without a local.pubid override" do
-    let(:local_pubid) { nil }
-
-    it "pins pubid by ref without a branch" do
-      expect(options).to include("ref" => "27454393")
-      expect(options).not_to have_key("branch")
-    end
-  end
-
-  context "with a local.pubid override" do
-    let(:local_pubid) { "../../metanorma/pubid" }
-
-    it "adds the branch that the override needs" do
-      expect(options).to include("ref" => "27454393", "branch" => "main")
-    end
+  it "requires the pubid 2.0.0.pre.alpha.21 line" do
+    expect(pubid.requirement).to eq Gem::Requirement.new("~> 2.0.0.pre.alpha.21")
   end
 end
