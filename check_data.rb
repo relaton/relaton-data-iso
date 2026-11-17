@@ -1,58 +1,63 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require "yaml"
-require "relaton_iso_bib"
+# Check that each file parses with the v2 relaton-iso model: load it, write it
+# back to YAML, and compare the two. A difference means the model drops or
+# changes data. Usage: check_data.rb [glob] (default: the static files).
 
-def fix_doctype(hash)
-  if hash["doctype"].is_a? String
-    hash["doctype"] = { "type" => hash["doctype"] }
-  end
-end
+require "yaml"
+require "relaton/iso"
 
 #
 # Compare elements of source and destination
 #
-# @param [Array, String, Hash] src source element
-# @param [Array, String, Hash] dest destination element
+# @param [Array, Hash, Object] src source element
+# @param [Array, Hash, Object] dest destination element
+# @param [String] path location of the elements in the document
 #
-# @return [Array<Hash, Array, String, false>, false] not equal elements
+# @return [Array<Hash, Array, String>, false, nil] not equal elements
 #
-def compare(src, dest) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
-  if !src.is_a?(dest.class) && !(dest.is_a?(Array) || src.is_a?(Array)) &&
-      !((dest.is_a?(Hash) && dest["content"]) || (src.is_a?(Hash) && src["content"]))
-    return ["- #{src.to_s[0..70]}#{src.to_s.size > 70 ? '...' : ''}",
-            "+ #{dest.to_s[0..70]}#{dest.to_s.size > 70 ? '...' : ''}"]
-  elsif dest.is_a?(Array)
-    return compare src, dest.first
-  elsif src.is_a?(Array)
-    return compare src.first, dest
-  elsif dest.is_a?(Hash) && dest["content"] && src.is_a?(String)
-    return compare src, dest["content"]
-  elsif src.is_a?(Hash) && src["content"] && dest.is_a?(String)
-    return compare src["content"], dest
+def compare(src, dest, path = "") # rubocop:disable Metrics/MethodLength, Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+  if src == dest
+    return
+  elsif dest.nil?
+    return ["- #{short(src)} (at #{path})", "+ nil (at #{path})"]
+  elsif src.is_a?(Array) != dest.is_a?(Array)
+    return compare(src.first, dest, path) if src.is_a?(Array)
+
+    return compare(src, dest.first, path)
+  elsif src.is_a?(String) && dest.is_a?(Hash) && dest.key?("content")
+    # The model writes a plain string as `content: <string>`.
+    return compare src, dest["content"], path
+  elsif src.is_a?(Hash) != dest.is_a?(Hash)
+    return ["- #{short(src)} (at #{path})", "+ #{short(dest)} (at #{path})"]
   end
+
   case src
   when Array
-    result = src.map.with_index { |s, i| compare s, array(dest)[i] }
-    compact result
-  when String
-    src != dest && ["- #{src}", "+ #{dest}"]
+    compact(src.map.with_index { |s, i| compare s, dest[i], "#{path}[#{i}]" })
   when Hash
     result = src.map do |k, v|
-      res = compare v, dest[k]
+      res = compare v, dest[k], path.empty? ? k.to_s : "#{path}.#{k}"
       { k => res } if res && !res.empty?
     end
     compact result
+  else
+    src.to_s != dest.to_s && ["- #{src} (at #{path})", "+ #{dest} (at #{path})"]
   end
+end
+
+def short(obj)
+  str = obj.to_s
+  str.size > 70 ? "#{str[0..70]}..." : str
 end
 
 #
 # Remove falsey values from array
 #
-# @param [Array<Hash, Array, String, false>] arr error messages
+# @param [Array<Hash, Array, String, false, nil>] arr error messages
 #
-# @return [Array<Hash, Array, String>] error messages without falsey values
+# @return [Array<Hash, Array, String>, nil] error messages without falsey values
 #
 def compact(arr)
   result = arr.select { |v| v }
@@ -61,59 +66,61 @@ def compact(arr)
   result
 end
 
-def array(arg)
-  arg.is_a?(Array) ? arg : [arg]
-end
-
 #
 # Prints diff between source and destination
 #
 # @param [Hash, Array] messages diff messages
 # @param [String] indent indentation
 #
-# @return [<Type>] <description>
-#
-def print_msg(messages, indent = '') # rubocop:disable Metrics/MethodLength, Metrics/PerceivedComplexity
+def print_msg(messages, indent = "")
   if messages.is_a? Hash
     messages.each do |k, v|
       puts "#{indent}#{k}:"
-      if v.is_a?(String)
-        puts "#{indent}  #{v}"
-      else
-        print_msg v, "#{indent}  "
-      end
+      v.is_a?(String) ? puts("#{indent}  #{v}") : print_msg(v, "#{indent}  ")
     end
   else
     messages.each do |msg|
-      if msg.is_a? String
-        puts "#{indent}#{msg}"
-      else
-        print_msg msg, indent
-      end
+      msg.is_a?(String) ? puts("#{indent}#{msg}") : print_msg(msg, indent)
     end
+  end
+end
+
+#
+# Remove the differences that come from a newer gem, not from a parse error
+#
+# @param [Hash] src source hash
+# @param [Hash] dest destination hash
+#
+def normalize!(src, dest)
+  [src, dest, src["ext"], dest["ext"]].each do |h|
+    h.delete "schema_version" if h.is_a?(Hash)
   end
 end
 
 path = ARGV.first || "static/*.{yaml,yml}"
 
+files = Dir[path]
+abort "No files match #{path}" if files.empty?
+
 errors = false
-Dir[path].each do |f|
-  yaml = YAML.load_file(f)
-  fix_doctype yaml
-  hash = RelatonIsoBib::HashConverter.hash_to_bib yaml
-  item = RelatonIsoBib::IsoBibliographicItem.new(**hash)
-  if (messages = compare(yaml, item.to_hash))&.any?
+files.each do |f|
+  yaml = File.read(f, encoding: "UTF-8")
+  src = YAML.safe_load yaml, permitted_classes: [Date]
+  item = Relaton::Iso::Item.from_yaml yaml
+  dest = YAML.safe_load Relaton::Iso::Item.to_yaml(item),
+                        permitted_classes: [Date]
+  normalize! src, dest
+  if (messages = compare(src, dest))&.any?
     errors = true
     puts "Parsing #{f} failed. Parsed content doesn't match to source."
     print_msg messages
     puts
   end
-  primary_id = item.docidentifier.detect(&:primary)
-  unless primary_id
+  unless item.docidentifier.detect(&:primary)
     errors = true
     puts "Parsing #{f} failed. No primary id."
   end
-rescue ArgumentError, NoMethodError, TypeError => e
+rescue StandardError => e
   errors = true
   puts "Parsing #{f} failed. Error: #{e.message}."
   puts e.backtrace
