@@ -29,6 +29,12 @@ RSpec.describe "index files" do
         missing = entries.map { |e| e[:file] }.reject { |f| File.exist?(File.join(root, f)) }
         expect(missing).to be_empty
       end
+
+      # `static/` is curated by hand, so a new file can miss the index rebuild.
+      it "indexes every static file" do
+        static = Dir.chdir(root) { Dir["static/**/*.yaml"] }
+        expect(static - entries.map { |e| e[:file] }).to be_empty
+      end
     end
   end
 end
