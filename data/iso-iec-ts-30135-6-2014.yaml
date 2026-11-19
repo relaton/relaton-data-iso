@@ -119,16 +119,16 @@ abstract:
     following considerations have strongly influenced the design and scope of this
     scheme: · The mechanism used to reference content should be interoperable: references
     to a reading position created by one Reading System should be usable by another.
-    · Document references to EPUB content should be enabled in the same way that existing
-    hyperlinks enable references throughout the Web. · Each location in an EPUB file
-    should be able to be identified without the need to modify the document. · All
-    fragment identifiers that reference the same logical location should be equal
-    when compared. · Comparison operations, including tests for sorting and comparison,
-    should be able to be performed without accessing the referenced files. · Simple
-    manipulations should be possible without access to the original files (e.g., given
-    a reference deep in a file, it should be possible to generate a reference to the
-    start of the file). · Identifier resolution should be reasonably efficient (e.g.,
-    processing of the first chapter is not required to resolve a fragment identifier
+    · Document references to EPUB content should be enabled in the same way that
+    existing hyperlinks enable references throughout the Web. · Each location in
+    an EPUB file should be able to be identified without the need to modify the document.
+    · All fragment identifiers that reference the same logical location should be
+    equal when compared. · Comparison operations, including tests for sorting and
+    comparison, should be able to be performed without accessing the referenced files.
+    · Simple manipulations should be possible without access to the original files
+    (e.g., given a reference deep in a file, it should be possible to generate a reference
+    to the start of the file). · Identifier resolution should be reasonably efficient
+    (e.g., processing of the first chapter is not required to resolve a fragment identifier
     that points to the last chapter). · References should be able to recover their
     target locations through parser variations and document revisions. · Expression
     of simple, contiguous ranges should be supported. · An extensible mechanism to

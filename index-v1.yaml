@@ -7581,9 +7581,19 @@
 - :id:
     :publisher: ISO
     :number: '10121'
+    :part: '1'
+  :file: data/iso-10121-1.yaml
+- :id:
+    :publisher: ISO
+    :number: '10121'
     :year: 2013
     :part: '2'
   :file: data/iso-10121-2-2013.yaml
+- :id:
+    :publisher: ISO
+    :number: '10121'
+    :part: '2'
+  :file: data/iso-10121-2.yaml
 - :id:
     :publisher: ISO
     :number: '10121'
@@ -7596,18 +7606,6 @@
     :stage: AWI
     :part: '4'
   :file: data/iso-awi-10121-4.yaml
-- :id:
-    :publisher: ISO
-    :number: '10121'
-    :stage: :fdis
-    :part: '1'
-  :file: data/iso-fdis-10121-1.yaml
-- :id:
-    :publisher: ISO
-    :number: '10121'
-    :stage: :fdis
-    :part: '2'
-  :file: data/iso-fdis-10121-2.yaml
 - :id:
     :publisher: ISO
     :number: '10121'
@@ -11750,6 +11748,12 @@
 - :id:
     :publisher: ISO
     :number: '10245'
+    :stage: AWI
+    :part: '1'
+  :file: data/iso-awi-10245-1.yaml
+- :id:
+    :publisher: ISO
+    :number: '10245'
     :stage: :dis
     :part: '4'
   :file: data/iso-dis-10245-4.yaml
@@ -12853,8 +12857,7 @@
 - :id:
     :publisher: ISO
     :number: '10298'
-    :stage: :fdis
-  :file: data/iso-fdis-10298.yaml
+  :file: data/iso-10298.yaml
 - :id:
     :publisher: ISO
     :number: '10299'
@@ -30220,6 +30223,12 @@
   :file: data/iso-10406-4-2025.yaml
 - :id:
     :publisher: ISO
+    :number: '10406'
+    :stage: AWI
+    :part: '3'
+  :file: data/iso-awi-10406-3.yaml
+- :id:
+    :publisher: ISO
     :number: '10407'
     :year: 1993
   :file: data/iso-10407-1993.yaml
@@ -46101,6 +46110,17 @@
     :part: '1'
   :file: data/iso-10993-1-2018.yaml
 - :id:
+    :publisher: ''
+    :number: '1'
+    :stage: AWI
+    :base:
+      :publisher: ISO
+      :number: '10993'
+      :year: 2025
+      :part: '1'
+    :type: AMD
+  :file: data/iso-10993-1-2025-awi-amd-1.yaml
+- :id:
     :publisher: ISO
     :number: '10993'
     :year: 2025
@@ -46359,6 +46379,17 @@
     :part: '3'
   :file: data/iso-10993-3-2014.yaml
 - :id:
+    :publisher: ''
+    :number: '1'
+    :stage: AWI
+    :base:
+      :publisher: ISO
+      :number: '10993'
+      :year: 2026
+      :part: '3'
+    :type: AMD
+  :file: data/iso-10993-3-2026-awi-amd-1.yaml
+- :id:
     :publisher: ISO
     :number: '10993'
     :year: 2026
@@ -46492,6 +46523,17 @@
     :part: '7'
   :file: data/iso-10993-7-2008.yaml
 - :id:
+    :publisher: ''
+    :number: '1'
+    :stage: AWI
+    :base:
+      :publisher: ISO
+      :number: '10993'
+      :year: 2026
+      :part: '7'
+    :type: AMD
+  :file: data/iso-10993-7-2026-awi-amd-1.yaml
+- :id:
     :publisher: ISO
     :number: '10993'
     :year: 2026
@@ -46533,6 +46575,19 @@
     :stage: AWI
     :part: '14'
   :file: data/iso-awi-10993-14.yaml
+- :id:
+    :publisher: ISO
+    :number: '10993'
+    :stage: AWI
+    :part: '6'
+  :file: data/iso-awi-10993-6.yaml
+- :id:
+    :publisher: ISO
+    :number: '10993'
+    :stage: AWI
+    :part: '20'
+    :type: TS
+  :file: data/iso-awi-ts-10993-20.yaml
 - :id:
     :publisher: ISO
     :number: '10993'
@@ -59638,13 +59693,6 @@
     :publisher: ISO
     :number: '11452'
     :stage: :dis
-    :iteration: 2
-    :part: '8'
-  :file: data/iso-dis-11452-8-2.yaml
-- :id:
-    :publisher: ISO
-    :number: '11452'
-    :stage: :dis
     :part: '8'
   :file: data/iso-dis-11452-8.yaml
 - :id:
@@ -59659,6 +59707,12 @@
     :stage: NP
     :part: '4'
   :file: data/iso-np-11452-4.yaml
+- :id:
+    :publisher: ISO
+    :number: '11452'
+    :stage: PRF
+    :part: '8'
+  :file: data/iso-prf-11452-8.yaml
 - :id:
     :publisher: ''
     :number: '1'
@@ -60818,12 +60872,6 @@
       :type: TR
     :type: AMD
   :file: data/iso-tr-1151-13-np-amd-1.yaml
-- :id:
-    :publisher: ISO
-    :number: '1151'
-    :stage: WD
-    :part: '1'
-  :file: data/iso-wd-1151-1.yaml
 - :id:
     :publisher: ISO
     :number: '1151'
@@ -64416,9 +64464,9 @@
 - :id:
     :publisher: ISO
     :number: '1167'
-    :stage: CD
+    :stage: :dis
     :part: '2'
-  :file: data/iso-cd-1167-2.yaml
+  :file: data/iso-dis-1167-2.yaml
 - :id:
     :publisher: ISO
     :number: '1167'
@@ -66685,17 +66733,16 @@
     :number: '11770'
     :copublisher:
     - IEC
-    :stage: :dis
-    :part: '4'
-  :file: data/iso-iec-dis-11770-4.yaml
+    :part: '8'
+  :file: data/iso-iec-11770-8.yaml
 - :id:
     :publisher: ISO
     :number: '11770'
     :copublisher:
     - IEC
-    :stage: :fdis
-    :part: '8'
-  :file: data/iso-iec-fdis-11770-8.yaml
+    :stage: :dis
+    :part: '4'
+  :file: data/iso-iec-dis-11770-4.yaml
 - :id:
     :publisher: ISO
     :number: '11770'
@@ -67601,7 +67648,8 @@
 - :id:
     :publisher: ISO
     :number: '11798'
-  :file: data/iso-11798.yaml
+    :year: 2026
+  :file: data/iso-11798-2026.yaml
 - :id:
     :publisher: ISO
     :number: '11799'
@@ -68035,15 +68083,6 @@
     :part: '9905'
     :type: TR
   :file: data/iso-iec-tr-11801-9905-2018.yaml
-- :id:
-    :publisher: ISO
-    :number: '11801'
-    :copublisher:
-    - IEC
-    :year: 2020
-    :part: '9906'
-    :type: TR
-  :file: data/iso-iec-tr-11801-9906-2020.yaml
 - :id:
     :publisher: ISO
     :number: '11801'
@@ -81143,20 +81182,18 @@
 - :id:
     :publisher: ISO
     :number: '12467'
+    :part: '1'
+  :file: data/iso-12467-1.yaml
+- :id:
+    :publisher: ISO
+    :number: '12467'
     :part: '2'
   :file: data/iso-12467-2.yaml
 - :id:
     :publisher: ISO
     :number: '12467'
-    :stage: :fdis
-    :part: '1'
-  :file: data/iso-fdis-12467-1.yaml
-- :id:
-    :publisher: ISO
-    :number: '12467'
-    :stage: :fdis
     :part: '3'
-  :file: data/iso-fdis-12467-3.yaml
+  :file: data/iso-12467-3.yaml
 - :id:
     :publisher: ''
     :number: '1'
@@ -83605,8 +83642,7 @@
 - :id:
     :publisher: ISO
     :number: '12619'
-    :stage: :fdis
-  :file: data/iso-fdis-12619.yaml
+  :file: data/iso-12619.yaml
 - :id:
     :publisher: ISO
     :number: '12619'
@@ -85119,6 +85155,11 @@
 - :id:
     :publisher: ISO
     :number: '1268'
+    :part: '8'
+  :file: data/iso-1268-8.yaml
+- :id:
+    :publisher: ISO
+    :number: '1268'
     :year: 2003
     :part: '9'
   :file: data/iso-1268-9-2003.yaml
@@ -85127,12 +85168,6 @@
     :number: '1268'
     :stage: CD
   :file: data/iso-cd-1268.yaml
-- :id:
-    :publisher: ISO
-    :number: '1268'
-    :stage: PRF
-    :part: '8'
-  :file: data/iso-prf-1268-8.yaml
 - :id:
     :publisher: ISO
     :number: '1268'
@@ -86189,6 +86224,14 @@
 - :id:
     :publisher: ISO
     :number: '12768'
+    :stage: CD
+    :iteration: 2
+    :part: '2'
+    :type: PAS
+  :file: data/iso-cd-pas-12768-2-2.yaml
+- :id:
+    :publisher: ISO
+    :number: '12768'
     :stage: :fdis
     :part: '1'
   :file: data/iso-fdis-12768-1.yaml
@@ -86197,14 +86240,6 @@
     :number: '12768'
     :stage: WD
   :file: data/iso-wd-12768.yaml
-- :id:
-    :publisher: ISO
-    :number: '12768'
-    :stage: WD
-    :iteration: 2
-    :part: '2'
-    :type: PAS
-  :file: data/iso-wd-pas-12768-2-2.yaml
 - :id:
     :publisher: ISO
     :number: '12769'
@@ -86930,13 +86965,12 @@
 - :id:
     :publisher: ISO
     :number: '12800'
-    :stage: CD
-  :file: data/iso-cd-12800.yaml
+  :file: data/iso-12800.yaml
 - :id:
     :publisher: ISO
     :number: '12800'
-    :stage: :fdis
-  :file: data/iso-fdis-12800.yaml
+    :stage: CD
+  :file: data/iso-cd-12800.yaml
 - :id:
     :publisher: ISO
     :number: '12801'
@@ -93199,9 +93233,9 @@
 - :id:
     :publisher: ISO
     :number: '13208'
-    :stage: WD
-    :iteration: 2
-  :file: data/iso-wd-13208-2.yaml
+    :stage: CD
+    :iteration: 3
+  :file: data/iso-cd-13208-3.yaml
 - :id:
     :publisher: ISO
     :number: '13209'
@@ -100140,6 +100174,11 @@
   :file: data/iso-dis-13533.yaml
 - :id:
     :publisher: ISO
+    :number: '13533'
+    :stage: PWI
+  :file: data/iso-pwi-13533.yaml
+- :id:
+    :publisher: ISO
     :number: '13534'
     :year: 2000
   :file: data/iso-13534-2000.yaml
@@ -104245,8 +104284,8 @@
 - :id:
     :publisher: ISO
     :number: '13772'
-    :stage: :dis
-  :file: data/iso-dis-13772.yaml
+    :stage: :fdis
+  :file: data/iso-fdis-13772.yaml
 - :id:
     :publisher: ISO
     :number: '13772'
@@ -107312,12 +107351,6 @@
     :year: 2001
     :part: '1'
   :file: data/iso-13856-1-2001.yaml
-- :id:
-    :publisher: ISO
-    :number: '13856'
-    :year: 2013
-    :part: '1'
-  :file: data/iso-13856-1-2013.yaml
 - :id:
     :publisher: ISO
     :number: '13856'
@@ -114603,7 +114636,8 @@
 - :id:
     :publisher: ISO
     :number: '14250'
-  :file: data/iso-14250.yaml
+    :year: 2026
+  :file: data/iso-14250-2026.yaml
 - :id:
     :publisher: ISO
     :number: '14250'
@@ -125504,8 +125538,8 @@
 - :id:
     :publisher: ISO
     :number: '14524'
-    :stage: CD
-  :file: data/iso-cd-14524.yaml
+    :stage: :dis
+  :file: data/iso-dis-14524.yaml
 - :id:
     :publisher: ISO
     :number: '14525'
@@ -125834,14 +125868,6 @@
     :number: '14543'
     :copublisher:
     - IEC
-    :year: 2020
-    :part: 3-10
-  :file: data/iso-iec-14543-3-10-2020.yaml
-- :id:
-    :publisher: ISO
-    :number: '14543'
-    :copublisher:
-    - IEC
     :year: 2016
     :part: 3-11
   :file: data/iso-iec-14543-3-11-2016.yaml
@@ -125957,14 +125983,6 @@
     :year: 2010
     :part: 5-1
   :file: data/iso-iec-14543-5-1-2010.yaml
-- :id:
-    :publisher: ISO
-    :number: '14543'
-    :copublisher:
-    - IEC
-    :year: 2019
-    :part: 5-101
-  :file: data/iso-iec-14543-5-101-2019.yaml
 - :id:
     :publisher: ISO
     :number: '14543'
@@ -131189,14 +131207,6 @@
     :copublisher:
     - IEC
     :stage: NP
-    :part: '351'
-  :file: data/iso-iec-np-14776-351.yaml
-- :id:
-    :publisher: ISO
-    :number: '14776'
-    :copublisher:
-    - IEC
-    :stage: NP
     :part: '363'
   :file: data/iso-iec-np-14776-363.yaml
 - :id:
@@ -133621,6 +133631,7 @@
 - :id:
     :publisher: ''
     :number: '1'
+    :year: 2026
     :base:
       :publisher: ISO
       :number: '14888'
@@ -133629,7 +133640,7 @@
       :year: 2018
       :part: '3'
     :type: AMD
-  :file: data/iso-iec-14888-3-2018-amd-1.yaml
+  :file: data/iso-iec-14888-3-2018-amd-1-2026.yaml
 - :id:
     :publisher: ISO
     :number: '14888'
@@ -143301,7 +143312,8 @@
     :publisher: ISO
     :number: '15384'
     :stage: :dis
-  :file: data/iso-dis-15384.yaml
+    :iteration: 2
+  :file: data/iso-dis-15384-2.yaml
 - :id:
     :publisher: ISO
     :number: '15385'
@@ -153966,8 +153978,8 @@
 - :id:
     :publisher: ISO
     :number: '15799'
-    :stage: :dis
-  :file: data/iso-dis-15799.yaml
+    :stage: :fdis
+  :file: data/iso-fdis-15799.yaml
 - :id:
     :publisher: ISO
     :number: '158'
@@ -154893,9 +154905,7 @@
 - :id:
     :publisher: ISO
     :number: '15858'
-    :stage: :fdis
-    :iteration: 2
-  :file: data/iso-fdis-15858-2.yaml
+  :file: data/iso-15858.yaml
 - :id:
     :publisher: ISO
     :number: '15859'
@@ -156687,6 +156697,12 @@
     :year: 2024
     :part: '6'
   :file: data/iso-15926-6-2024.yaml
+- :id:
+    :publisher: ISO
+    :number: '15926'
+    :stage: AWI
+    :part: '100'
+  :file: data/iso-awi-15926-100.yaml
 - :id:
     :publisher: ISO
     :number: '15926'
@@ -161926,12 +161942,13 @@
 - :id:
     :publisher: ''
     :number: '1'
+    :year: 2026
     :base:
       :publisher: ISO
       :number: '16117'
       :year: 2013
     :type: AMD
-  :file: data/iso-16117-2013-amd-1.yaml
+  :file: data/iso-16117-2013-amd-1-2026.yaml
 - :id:
     :publisher: ISO
     :number: '16117'
@@ -162074,6 +162091,18 @@
     :year: 2017
     :part: '4'
   :file: data/iso-16120-4-2017.yaml
+- :id:
+    :publisher: ISO
+    :number: '16120'
+    :stage: AWI
+    :part: '2'
+  :file: data/iso-awi-16120-2.yaml
+- :id:
+    :publisher: ISO
+    :number: '16120'
+    :stage: AWI
+    :part: '4'
+  :file: data/iso-awi-16120-4.yaml
 - :id:
     :publisher: ISO
     :number: '16120'
@@ -170798,8 +170827,8 @@
 - :id:
     :publisher: ISO
     :number: '16701'
-    :stage: CD
-  :file: data/iso-cd-16701.yaml
+    :stage: :dis
+  :file: data/iso-dis-16701.yaml
 - :id:
     :publisher: ISO
     :number: '16702'
@@ -174172,18 +174201,6 @@
 - :id:
     :publisher: ISO
     :number: '16900'
-    :stage: AWI
-    :part: '15'
-  :file: data/iso-awi-16900-15.yaml
-- :id:
-    :publisher: ISO
-    :number: '16900'
-    :stage: AWI
-    :part: '16'
-  :file: data/iso-awi-16900-16.yaml
-- :id:
-    :publisher: ISO
-    :number: '16900'
     :stage: CD
     :part: '1'
   :file: data/iso-cd-16900-1.yaml
@@ -174193,6 +174210,18 @@
     :stage: CD
     :part: '14'
   :file: data/iso-cd-16900-14.yaml
+- :id:
+    :publisher: ISO
+    :number: '16900'
+    :stage: CD
+    :part: '15'
+  :file: data/iso-cd-16900-15.yaml
+- :id:
+    :publisher: ISO
+    :number: '16900'
+    :stage: CD
+    :part: '16'
+  :file: data/iso-cd-16900-16.yaml
 - :id:
     :publisher: ISO
     :number: '16900'
@@ -174297,6 +174326,11 @@
 - :id:
     :publisher: ISO
     :number: '16911'
+    :part: '1'
+  :file: data/iso-16911-1.yaml
+- :id:
+    :publisher: ISO
+    :number: '16911'
     :year: 2013
     :part: '2'
   :file: data/iso-16911-2-2013.yaml
@@ -174306,12 +174340,6 @@
     :stage: CD
     :part: '2'
   :file: data/iso-cd-16911-2.yaml
-- :id:
-    :publisher: ISO
-    :number: '16911'
-    :stage: :fdis
-    :part: '1'
-  :file: data/iso-fdis-16911-1.yaml
 - :id:
     :publisher: ISO
     :number: '16912'
@@ -177370,8 +177398,8 @@
 - :id:
     :publisher: ISO
     :number: '17115'
-    :stage: AWI
-  :file: data/iso-awi-17115.yaml
+    :stage: CD
+  :file: data/iso-cd-17115.yaml
 - :id:
     :publisher: ISO
     :number: '17116'
@@ -178264,8 +178292,7 @@
 - :id:
     :publisher: ISO
     :number: '17186'
-    :stage: :fdis
-  :file: data/iso-fdis-17186.yaml
+  :file: data/iso-17186.yaml
 - :id:
     :publisher: ISO
     :number: '17187'
@@ -178931,8 +178958,7 @@
 - :id:
     :publisher: ISO
     :number: '17218'
-    :stage: :fdis
-  :file: data/iso-fdis-17218.yaml
+  :file: data/iso-17218.yaml
 - :id:
     :publisher: ISO
     :number: '17219'
@@ -179210,8 +179236,7 @@
 - :id:
     :publisher: ISO
     :number: '17228'
-    :stage: :fdis
-  :file: data/iso-fdis-17228.yaml
+  :file: data/iso-17228.yaml
 - :id:
     :publisher: ISO
     :number: '17229'
@@ -180553,8 +180578,7 @@
 - :id:
     :publisher: ISO
     :number: '17324'
-    :stage: :fdis
-  :file: data/iso-fdis-17324.yaml
+  :file: data/iso-17324.yaml
 - :id:
     :publisher: ISO
     :number: '17325'
@@ -180629,8 +180653,9 @@
 - :id:
     :publisher: ISO
     :number: '17329'
+    :year: 2026
     :type: TR
-  :file: data/iso-tr-17329.yaml
+  :file: data/iso-tr-17329-2026.yaml
 - :id:
     :publisher: ISO
     :number: '17330'
@@ -184414,13 +184439,14 @@
 - :id:
     :publisher: ''
     :number: '1'
+    :year: 2026
     :base:
       :publisher: ISO
       :number: '17573'
       :year: 2024
       :part: '3'
     :type: AMD
-  :file: data/iso-17573-3-2024-amd-1.yaml
+  :file: data/iso-17573-3-2024-amd-1-2026.yaml
 - :id:
     :publisher: ISO
     :number: '17573'
@@ -184743,7 +184769,8 @@
 - :id:
     :publisher: ISO
     :number: '17597'
-  :file: data/iso-17597.yaml
+    :year: 2026
+  :file: data/iso-17597-2026.yaml
 - :id:
     :publisher: ISO
     :number: '17598'
@@ -187096,8 +187123,8 @@
 - :id:
     :publisher: ISO
     :number: '1776'
-    :stage: :dis
-  :file: data/iso-dis-1776.yaml
+    :stage: :fdis
+  :file: data/iso-fdis-1776.yaml
 - :id:
     :publisher: ISO
     :number: '1776'
@@ -187368,6 +187395,11 @@
     :number: '17781'
     :year: 2017
   :file: data/iso-17781-2017.yaml
+- :id:
+    :publisher: ISO
+    :number: '17781'
+    :stage: CD
+  :file: data/iso-cd-17781.yaml
 - :id:
     :publisher: ISO
     :number: '17782'
@@ -187975,6 +188007,11 @@
   :file: data/iso-17832-2018.yaml
 - :id:
     :publisher: ISO
+    :number: '17832'
+    :stage: AWI
+  :file: data/iso-awi-17832.yaml
+- :id:
+    :publisher: ISO
     :number: '17833'
     :stage: CD
   :file: data/iso-cd-17833.yaml
@@ -188290,8 +188327,8 @@
 - :id:
     :publisher: ISO
     :number: '17850'
-    :stage: CD
-  :file: data/iso-cd-17850.yaml
+    :stage: :dis
+  :file: data/iso-dis-17850.yaml
 - :id:
     :publisher: ISO
     :number: '17851'
@@ -188463,6 +188500,12 @@
 - :id:
     :publisher: ISO
     :number: '17870'
+    :stage: AWI
+    :part: '3'
+  :file: data/iso-awi-17870-3.yaml
+- :id:
+    :publisher: ISO
+    :number: '17870'
     :stage: PWI
     :iteration: 2
     :part: '2'
@@ -188531,12 +188574,13 @@
 - :id:
     :publisher: ''
     :number: '2'
+    :year: 2026
     :base:
       :publisher: ISO
       :number: '17871'
       :year: 2020
     :type: AMD
-  :file: data/iso-17871-2020-amd-2.yaml
+  :file: data/iso-17871-2020-amd-2-2026.yaml
 - :id:
     :publisher: ISO
     :number: '17871'
@@ -188807,6 +188851,12 @@
     :number: '17889'
     :part: '3'
   :file: data/iso-17889-3.yaml
+- :id:
+    :publisher: ISO
+    :number: '17889'
+    :stage: AWI
+    :part: '1'
+  :file: data/iso-awi-17889-1.yaml
 - :id:
     :publisher: ISO
     :number: '17889'
@@ -198356,9 +198406,9 @@
 - :id:
     :publisher: ISO
     :number: '18379'
-    :stage: AWI
+    :stage: WD
     :part: '2'
-  :file: data/iso-awi-18379-2.yaml
+  :file: data/iso-wd-18379-2.yaml
 - :id:
     :publisher: ISO
     :number: '1838'
@@ -198435,8 +198485,8 @@
     :publisher: ISO
     :number: '18385'
     :stage: CD
-    :iteration: 2
-  :file: data/iso-cd-18385-2.yaml
+    :iteration: 3
+  :file: data/iso-cd-18385-3.yaml
 - :id:
     :publisher: ISO
     :number: '18386'
@@ -199719,8 +199769,8 @@
 - :id:
     :publisher: ISO
     :number: '18460'
-    :stage: AWI
-  :file: data/iso-awi-18460.yaml
+    :stage: CD
+  :file: data/iso-cd-18460.yaml
 - :id:
     :publisher: ISO
     :number: '18461'
@@ -205343,28 +205393,12 @@
   :file: data/iso-iec-ieee-18880-2015.yaml
 - :id:
     :publisher: ISO
-    :number: '18881'
-    :copublisher:
-    - IEC
-    - IEEE
-    :year: 2016
-  :file: data/iso-iec-ieee-18881-2016.yaml
-- :id:
-    :publisher: ISO
     :number: '18882'
     :copublisher:
     - IEC
     - IEEE
     :year: 2017
   :file: data/iso-iec-ieee-18882-2017.yaml
-- :id:
-    :publisher: ISO
-    :number: '18883'
-    :copublisher:
-    - IEC
-    - IEEE
-    :year: 2016
-  :file: data/iso-iec-ieee-18883-2016.yaml
 - :id:
     :publisher: ISO
     :number: '18884'
@@ -208186,8 +208220,9 @@
 - :id:
     :publisher: ISO
     :number: '19085'
+    :year: 2026
     :part: '10'
-  :file: data/iso-19085-10.yaml
+  :file: data/iso-19085-10-2026.yaml
 - :id:
     :publisher: ISO
     :number: '19085'
@@ -208269,18 +208304,21 @@
 - :id:
     :publisher: ISO
     :number: '19085'
+    :year: 2026
     :part: '20'
-  :file: data/iso-19085-20.yaml
+  :file: data/iso-19085-20-2026.yaml
 - :id:
     :publisher: ISO
     :number: '19085'
+    :year: 2026
     :part: '21'
-  :file: data/iso-19085-21.yaml
+  :file: data/iso-19085-21-2026.yaml
 - :id:
     :publisher: ISO
     :number: '19085'
+    :year: 2026
     :part: '22'
-  :file: data/iso-19085-22.yaml
+  :file: data/iso-19085-22-2026.yaml
 - :id:
     :publisher: ISO
     :number: '19085'
@@ -208679,10 +208717,9 @@
 - :id:
     :publisher: ISO
     :number: '19093'
-    :stage: WD
-    :iteration: 2
+    :stage: CD
     :part: '2'
-  :file: data/iso-wd-19093-2-2.yaml
+  :file: data/iso-cd-19093-2.yaml
 - :id:
     :publisher: ISO
     :number: '19094'
@@ -211687,6 +211724,13 @@
     :publisher: ISO
     :number: '19264'
     :stage: WD
+    :iteration: 2
+    :part: '2'
+  :file: data/iso-wd-19264-2-2.yaml
+- :id:
+    :publisher: ISO
+    :number: '19264'
+    :stage: WD
     :part: '2'
   :file: data/iso-wd-19264-2.yaml
 - :id:
@@ -212681,8 +212725,8 @@
 - :id:
     :publisher: ISO
     :number: '19377'
-    :stage: :dis
-  :file: data/iso-dis-19377.yaml
+    :stage: PRF
+  :file: data/iso-prf-19377.yaml
 - :id:
     :publisher: ISO
     :number: '19378'
@@ -214936,22 +214980,6 @@
   :file: data/iso-iec-19514-2017.yaml
 - :id:
     :publisher: ISO
-    :number: '19514'
-    :copublisher:
-    - IEC
-    :stage: :dis
-    :part: '1'
-  :file: data/iso-iec-dis-19514-1.yaml
-- :id:
-    :publisher: ISO
-    :number: '19514'
-    :copublisher:
-    - IEC
-    :stage: :dis
-    :part: '2'
-  :file: data/iso-iec-dis-19514-2.yaml
-- :id:
-    :publisher: ISO
     :number: '19515'
     :copublisher:
     - IEC
@@ -215015,6 +215043,22 @@
     :number: '1952'
     :stage: WD
   :file: data/iso-wd-1952.yaml
+- :id:
+    :publisher: ISO
+    :number: '19520'
+    :copublisher:
+    - IEC
+    :stage: :dis
+    :part: '1'
+  :file: data/iso-iec-dis-19520-1.yaml
+- :id:
+    :publisher: ISO
+    :number: '19520'
+    :copublisher:
+    - IEC
+    :stage: :dis
+    :part: '2'
+  :file: data/iso-iec-dis-19520-2.yaml
 - :id:
     :publisher: ISO
     :number: '1953'
@@ -216337,6 +216381,11 @@
     :number: '19645'
     :stage: PWI
   :file: data/iso-pwi-19645.yaml
+- :id:
+    :publisher: ISO
+    :number: '19646'
+    :stage: PWI
+  :file: data/iso-pwi-19646.yaml
 - :id:
     :publisher: ISO
     :number: '19646'
@@ -221897,9 +221946,10 @@
     :publisher: ISO
     :number: '19844'
     :stage: CD
+    :iteration: 2
     :part: '2'
     :type: TS
-  :file: data/iso-cdts-19844-2.yaml
+  :file: data/iso-cdts-19844-2-2.yaml
 - :id:
     :publisher: ISO
     :number: '19844'
@@ -224619,7 +224669,8 @@
 - :id:
     :publisher: ISO
     :number: '19998'
-  :file: data/iso-19998.yaml
+    :year: 2026
+  :file: data/iso-19998-2026.yaml
 - :id:
     :publisher: ISO
     :number: '19999'
@@ -226286,13 +226337,13 @@
 - :id:
     :publisher: ''
     :number: '1'
-    :stage: :damd
+    :stage: PRF
     :base:
       :publisher: ISO
       :number: '20035'
       :year: 2019
     :type: AMD
-  :file: data/iso-20035-2019-dam-1.yaml
+  :file: data/iso-20035-2019-prf-amd-1.yaml
 - :id:
     :publisher: ISO
     :number: '20035'
@@ -232568,7 +232619,8 @@
 - :id:
     :publisher: ISO
     :number: '20507'
-  :file: data/iso-20507.yaml
+    :year: 2026
+  :file: data/iso-20507-2026.yaml
 - :id:
     :publisher: ISO
     :number: '20508'
@@ -232594,9 +232646,8 @@
     :publisher: ISO
     :number: '20510'
     :stage: CD
-    :iteration: 2
     :type: TS
-  :file: data/iso-cdts-20510-2.yaml
+  :file: data/iso-cdts-20510.yaml
 - :id:
     :publisher: ISO
     :number: '20511'
@@ -236490,9 +236541,9 @@
     :number: '20803'
     :copublisher:
     - IEC
-    :stage: AWI
+    :stage: WD
     :iteration: 2
-  :file: data/iso-iec-awi-20803-2.yaml
+  :file: data/iso-iec-wd-20803-2.yaml
 - :id:
     :publisher: ISO
     :number: '20804'
@@ -241251,7 +241302,8 @@
 - :id:
     :publisher: ISO
     :number: '21033'
-  :file: data/iso-21033.yaml
+    :year: 2026
+  :file: data/iso-21033-2026.yaml
 - :id:
     :publisher: ISO
     :number: '21033'
@@ -243578,9 +243630,8 @@
 - :id:
     :publisher: ISO
     :number: '21205'
-    :stage: WD
-    :iteration: 2
-  :file: data/iso-wd-21205-2.yaml
+    :stage: :dis
+  :file: data/iso-dis-21205.yaml
 - :id:
     :publisher: ISO
     :number: '21205'
@@ -244215,6 +244266,12 @@
 - :id:
     :publisher: ISO
     :number: '21227'
+    :stage: CD
+    :part: '2'
+  :file: data/iso-cd-21227-2.yaml
+- :id:
+    :publisher: ISO
+    :number: '21227'
     :stage: :dis
     :part: '1'
   :file: data/iso-dis-21227-1.yaml
@@ -244224,12 +244281,6 @@
     :stage: :fdis
     :part: '4'
   :file: data/iso-fdis-21227-4.yaml
-- :id:
-    :publisher: ISO
-    :number: '21227'
-    :stage: WD
-    :part: '2'
-  :file: data/iso-wd-21227-2.yaml
 - :id:
     :publisher: ISO
     :number: '21228'
@@ -247305,8 +247356,8 @@
 - :id:
     :publisher: ISO
     :number: '21488'
-    :stage: NP
-  :file: data/iso-np-21488.yaml
+    :stage: AWI
+  :file: data/iso-awi-21488.yaml
 - :id:
     :publisher: ISO
     :number: '21488'
@@ -247651,8 +247702,7 @@
 - :id:
     :publisher: ISO
     :number: '21511'
-    :stage: PRF
-  :file: data/iso-prf-21511.yaml
+  :file: data/iso-21511.yaml
 - :id:
     :publisher: ISO
     :number: '21511'
@@ -249098,7 +249148,8 @@
 - :id:
     :publisher: ISO
     :number: '21611'
-  :file: data/iso-21611.yaml
+    :year: 2026
+  :file: data/iso-21611-2026.yaml
 - :id:
     :publisher: ISO
     :number: '21612'
@@ -251558,6 +251609,11 @@
 - :id:
     :publisher: ISO
     :number: '21809'
+    :part: '3'
+  :file: data/iso-21809-3.yaml
+- :id:
+    :publisher: ISO
+    :number: '21809'
     :year: 2009
     :part: '4'
   :file: data/iso-21809-4-2009.yaml
@@ -251603,12 +251659,6 @@
     :stage: :dis
     :part: '2'
   :file: data/iso-dis-21809-2.yaml
-- :id:
-    :publisher: ISO
-    :number: '21809'
-    :stage: :fdis
-    :part: '3'
-  :file: data/iso-fdis-21809-3.yaml
 - :id:
     :publisher: ISO
     :number: '21809'
@@ -251720,8 +251770,9 @@
 - :id:
     :publisher: ISO
     :number: '21815'
+    :year: 2026
     :part: '4'
-  :file: data/iso-21815-4.yaml
+  :file: data/iso-21815-4-2026.yaml
 - :id:
     :publisher: ISO
     :number: '21815'
@@ -251795,14 +251846,6 @@
     :year: 2019
     :part: '1'
   :file: data/iso-iec-21823-1-2019.yaml
-- :id:
-    :publisher: ISO
-    :number: '21823'
-    :copublisher:
-    - IEC
-    :year: 2020
-    :part: '2'
-  :file: data/iso-iec-21823-2-2020.yaml
 - :id:
     :publisher: ISO
     :number: '21823'
@@ -252216,9 +252259,9 @@
 - :id:
     :publisher: ISO
     :number: '21850'
-    :stage: NP
+    :stage: AWI
     :part: '3'
-  :file: data/iso-np-21850-3.yaml
+  :file: data/iso-awi-21850-3.yaml
 - :id:
     :publisher: ISO
     :number: '21851'
@@ -254896,6 +254939,12 @@
   :file: data/iso-22040-3-2025.yaml
 - :id:
     :publisher: ISO
+    :number: '22040'
+    :stage: WD
+    :part: '1'
+  :file: data/iso-wd-22040-1.yaml
+- :id:
+    :publisher: ISO
     :number: '22041'
     :year: 2019
   :file: data/iso-22041-2019.yaml
@@ -256519,9 +256568,8 @@
 - :id:
     :publisher: ISO
     :number: '22161'
-    :stage: :fdis
     :part: '3'
-  :file: data/iso-fdis-22161-3.yaml
+  :file: data/iso-22161-3.yaml
 - :id:
     :publisher: ISO
     :number: '22161'
@@ -259760,15 +259808,15 @@
 - :id:
     :publisher: ISO
     :number: '22400'
-    :stage: :dis
-    :part: '2'
-  :file: data/iso-dis-22400-2.yaml
-- :id:
-    :publisher: ISO
-    :number: '22400'
     :stage: NP
     :part: '1'
   :file: data/iso-np-22400-1.yaml
+- :id:
+    :publisher: ISO
+    :number: '22400'
+    :stage: PRF
+    :part: '2'
+  :file: data/iso-prf-22400-2.yaml
 - :id:
     :publisher: ISO
     :number: '22400'
@@ -259843,10 +259891,10 @@
 - :id:
     :publisher: ISO
     :number: '22411'
-    :stage: CD
+    :stage: :dtr
     :part: '2'
     :type: TR
-  :file: data/iso-cd-tr-22411-2.yaml
+  :file: data/iso-dtr-22411-2.yaml
 - :id:
     :publisher: ISO
     :number: '22411'
@@ -260357,9 +260405,9 @@
 - :id:
     :publisher: ISO
     :number: '22449'
-    :stage: AWI
+    :stage: WD
     :part: '3'
-  :file: data/iso-awi-22449-3.yaml
+  :file: data/iso-wd-22449-3.yaml
 - :id:
     :publisher: ISO
     :number: '2245'
@@ -262415,8 +262463,9 @@
 - :id:
     :publisher: ISO
     :number: '22572'
+    :year: 2026
     :type: TR
-  :file: data/iso-tr-22572.yaml
+  :file: data/iso-tr-22572-2026.yaml
 - :id:
     :publisher: ISO
     :number: '22573'
@@ -264609,8 +264658,8 @@
 - :id:
     :publisher: ISO
     :number: '22755'
-    :stage: CD
-  :file: data/iso-cd-22755.yaml
+    :stage: :dis
+  :file: data/iso-dis-22755.yaml
 - :id:
     :publisher: ISO
     :number: '22756'
@@ -265083,13 +265132,15 @@
 - :id:
     :publisher: ISO
     :number: '22785'
+    :year: 2026
     :part: '7'
-  :file: data/iso-22785-7.yaml
+  :file: data/iso-22785-7-2026.yaml
 - :id:
     :publisher: ISO
     :number: '22785'
+    :year: 2026
     :part: '8'
-  :file: data/iso-22785-8.yaml
+  :file: data/iso-22785-8-2026.yaml
 - :id:
     :publisher: ISO
     :number: '22785'
@@ -266851,6 +266902,11 @@
 - :id:
     :publisher: ISO
     :number: '22915'
+    :part: '4'
+  :file: data/iso-22915-4.yaml
+- :id:
+    :publisher: ISO
+    :number: '22915'
     :year: 2014
     :part: '5'
   :file: data/iso-22915-5-2014.yaml
@@ -266963,12 +267019,6 @@
     :stage: :fdis
     :part: '21'
   :file: data/iso-fdis-22915-21.yaml
-- :id:
-    :publisher: ISO
-    :number: '22915'
-    :stage: :fdis
-    :part: '4'
-  :file: data/iso-fdis-22915-4.yaml
 - :id:
     :publisher: ISO
     :number: '22915'
@@ -273041,8 +273091,8 @@
 - :id:
     :publisher: ISO
     :number: '23056'
-    :stage: WD
-  :file: data/iso-wd-23056.yaml
+    :stage: CD
+  :file: data/iso-cd-23056.yaml
 - :id:
     :publisher: ISO
     :number: '23057'
@@ -273110,6 +273160,12 @@
     :number: '23067'
     :year: 2022
   :file: data/iso-23067-2022.yaml
+- :id:
+    :publisher: ISO
+    :number: '23067'
+    :stage: PWI
+    :part: '2'
+  :file: data/iso-pwi-23067-2.yaml
 - :id:
     :publisher: ISO
     :number: '23068'
@@ -273554,6 +273610,18 @@
   :file: data/iso-iec-23090-14-2023.yaml
 - :id:
     :publisher: ''
+    :number: '1'
+    :base:
+      :publisher: ISO
+      :number: '23090'
+      :copublisher:
+      - IEC
+      :year: 2025
+      :part: '14'
+    :type: AMD
+  :file: data/iso-iec-23090-14-2025-amd-1.yaml
+- :id:
+    :publisher: ''
     :number: '2'
     :stage: AWI
     :base:
@@ -273565,19 +273633,6 @@
       :part: '14'
     :type: AMD
   :file: data/iso-iec-23090-14-2025-awi-amd-2.yaml
-- :id:
-    :publisher: ''
-    :number: '1'
-    :stage: :fdamd
-    :base:
-      :publisher: ISO
-      :number: '23090'
-      :copublisher:
-      - IEC
-      :year: 2025
-      :part: '14'
-    :type: AMD
-  :file: data/iso-iec-23090-14-2025-fdam-1.yaml
 - :id:
     :publisher: ISO
     :number: '23090'
@@ -275381,6 +275436,12 @@
     :stage: PWI
     :part: '2'
   :file: data/iso-pwi-23145-2.yaml
+- :id:
+    :publisher: ISO
+    :number: '23145'
+    :stage: PWI
+    :part: '3'
+  :file: data/iso-pwi-23145-3.yaml
 - :id:
     :publisher: ISO
     :number: '23146'
@@ -277368,14 +277429,14 @@
     :publisher: ISO
     :number: '233'
     :stage: :dis
-    :part: '1'
-  :file: data/iso-dis-233-1.yaml
+    :part: '4'
+  :file: data/iso-dis-233-4.yaml
 - :id:
     :publisher: ISO
     :number: '233'
-    :stage: :dis
-    :part: '4'
-  :file: data/iso-dis-233-4.yaml
+    :stage: :fdis
+    :part: '1'
+  :file: data/iso-fdis-233-1.yaml
 - :id:
     :publisher: ISO
     :number: '233'
@@ -280024,6 +280085,11 @@
   :file: data/iso-23523-2021.yaml
 - :id:
     :publisher: ISO
+    :number: '23523'
+    :stage: AWI
+  :file: data/iso-awi-23523.yaml
+- :id:
+    :publisher: ISO
     :number: '23524'
     :year: 2022
   :file: data/iso-23524-2022.yaml
@@ -281555,13 +281621,13 @@
 - :id:
     :publisher: ISO
     :number: '23640'
-    :stage: :dis
-  :file: data/iso-dis-23640.yaml
+    :stage: NP
+  :file: data/iso-np-23640.yaml
 - :id:
     :publisher: ISO
     :number: '23640'
-    :stage: NP
-  :file: data/iso-np-23640.yaml
+    :stage: PRF
+  :file: data/iso-prf-23640.yaml
 - :id:
     :publisher: ISO
     :number: '23641'
@@ -281660,9 +281726,8 @@
 - :id:
     :publisher: ISO
     :number: '23654'
-    :stage: WD
-    :iteration: 3
-  :file: data/iso-wd-23654-3.yaml
+    :stage: CD
+  :file: data/iso-cd-23654.yaml
 - :id:
     :publisher: ISO
     :number: '23655'
@@ -282789,15 +282854,15 @@
 - :id:
     :publisher: ISO
     :number: '23768'
-    :stage: :dis
-  :file: data/iso-dis-23768.yaml
-- :id:
-    :publisher: ISO
-    :number: '23768'
     :stage: :dts
     :part: '1'
     :type: TS
   :file: data/iso-dts-23768-1.yaml
+- :id:
+    :publisher: ISO
+    :number: '23768'
+    :stage: :fdis
+  :file: data/iso-fdis-23768.yaml
 - :id:
     :publisher: ISO
     :number: '23768'
@@ -283106,6 +283171,12 @@
 - :id:
     :publisher: ISO
     :number: '23795'
+    :stage: NP
+    :part: '4'
+  :file: data/iso-np-23795-4.yaml
+- :id:
+    :publisher: ISO
+    :number: '23795'
     :stage: PWI
     :part: '4'
   :file: data/iso-pwi-23795-4.yaml
@@ -283326,16 +283397,16 @@
     :publisher: ISO
     :number: '23818'
     :stage: CD
-    :part: '2'
-    :type: TS
-  :file: data/iso-cdts-23818-2.yaml
-- :id:
-    :publisher: ISO
-    :number: '23818'
-    :stage: CD
     :part: '4'
     :type: TS
   :file: data/iso-cdts-23818-4.yaml
+- :id:
+    :publisher: ISO
+    :number: '23818'
+    :stage: :dts
+    :part: '2'
+    :type: TS
+  :file: data/iso-dts-23818-2.yaml
 - :id:
     :publisher: ISO
     :number: '23818'
@@ -287211,8 +287282,8 @@
 - :id:
     :publisher: ISO
     :number: '24104'
-    :stage: :dis
-  :file: data/iso-dis-24104.yaml
+    :stage: :fdis
+  :file: data/iso-fdis-24104.yaml
 - :id:
     :publisher: ISO
     :number: '24105'
@@ -287902,9 +287973,8 @@
 - :id:
     :publisher: ISO
     :number: '24168'
-    :stage: :dtr
     :type: TR
-  :file: data/iso-dtr-24168.yaml
+  :file: data/iso-tr-24168.yaml
 - :id:
     :publisher: ISO
     :number: '24169'
@@ -289462,8 +289532,8 @@
 - :id:
     :publisher: ISO
     :number: '24333'
-    :stage: WD
-  :file: data/iso-wd-24333.yaml
+    :stage: CD
+  :file: data/iso-cd-24333.yaml
 - :id:
     :publisher: ISO
     :number: '24334'
@@ -292976,8 +293046,9 @@
 - :id:
     :publisher: ISO
     :number: '24644'
+    :year: 2026
     :part: '1'
-  :file: data/iso-24644-1.yaml
+  :file: data/iso-24644-1-2026.yaml
 - :id:
     :publisher: ISO
     :number: '24644'
@@ -293320,6 +293391,11 @@
 - :id:
     :publisher: ISO
     :number: '24678'
+    :part: '7'
+  :file: data/iso-24678-7.yaml
+- :id:
+    :publisher: ISO
+    :number: '24678'
     :year: 2022
     :part: '9'
   :file: data/iso-24678-9-2022.yaml
@@ -293329,12 +293405,6 @@
     :stage: CD
     :part: '8'
   :file: data/iso-cd-24678-8.yaml
-- :id:
-    :publisher: ISO
-    :number: '24678'
-    :stage: :fdis
-    :part: '7'
-  :file: data/iso-fdis-24678-7.yaml
 - :id:
     :publisher: ISO
     :number: '24678'
@@ -296263,8 +296333,8 @@
 - :id:
     :publisher: ISO
     :number: '24776'
-    :stage: CD
-  :file: data/iso-cd-24776.yaml
+    :stage: :dis
+  :file: data/iso-dis-24776.yaml
 - :id:
     :publisher: ISO
     :number: '24777'
@@ -296338,14 +296408,6 @@
     :stage: CD
     :part: '1'
   :file: data/iso-iec-cd-24779-1.yaml
-- :id:
-    :publisher: ISO
-    :number: '24779'
-    :copublisher:
-    - IEC
-    :stage: CD
-    :part: '2'
-  :file: data/iso-iec-cd-24779-2.yaml
 - :id:
     :publisher: ISO
     :number: '24779'
@@ -297243,8 +297305,7 @@
 - :id:
     :publisher: ISO
     :number: '24831'
-    :stage: :fdis
-  :file: data/iso-fdis-24831.yaml
+  :file: data/iso-24831.yaml
 - :id:
     :publisher: ISO
     :number: '24832'
@@ -297913,8 +297974,8 @@
 - :id:
     :publisher: ISO
     :number: '24908'
-    :stage: CD
-  :file: data/iso-cd-24908.yaml
+    :stage: :dis
+  :file: data/iso-dis-24908.yaml
 - :id:
     :publisher: ISO
     :number: '24909'
@@ -298263,8 +298324,7 @@
 - :id:
     :publisher: ISO
     :number: '24952'
-    :stage: :fdis
-  :file: data/iso-fdis-24952.yaml
+  :file: data/iso-24952.yaml
 - :id:
     :publisher: ISO
     :number: '24953'
@@ -298459,7 +298519,8 @@
 - :id:
     :publisher: ISO
     :number: '24987'
-  :file: data/iso-24987.yaml
+    :year: 2026
+  :file: data/iso-24987-2026.yaml
 - :id:
     :publisher: ISO
     :number: '24988'
@@ -298706,19 +298767,15 @@
 - :id:
     :publisher: ISO
     :number: '25008'
-    :stage: :dts
-    :iteration: 2
     :part: '1'
     :type: TS
-  :file: data/iso-dts-25008-1-2.yaml
+  :file: data/iso-ts-25008-1.yaml
 - :id:
     :publisher: ISO
     :number: '25008'
-    :stage: :dts
-    :iteration: 2
     :part: '2'
     :type: TS
-  :file: data/iso-dts-25008-2-2.yaml
+  :file: data/iso-ts-25008-2.yaml
 - :id:
     :publisher: ISO
     :number: '25009'
@@ -299181,7 +299238,8 @@
     :publisher: ISO
     :number: '25056'
     :stage: :dis
-  :file: data/iso-dis-25056.yaml
+    :iteration: 2
+  :file: data/iso-dis-25056-2.yaml
 - :id:
     :publisher: ISO
     :number: '25057'
@@ -299210,6 +299268,18 @@
     - IEC
     :year: 2023
   :file: data/iso-iec-25059-2023.yaml
+- :id:
+    :publisher: ''
+    :number: '1'
+    :stage: AWI
+    :base:
+      :publisher: ISO
+      :number: '25059'
+      :copublisher:
+      - IEC
+      :stage: :fdis
+    :type: AMD
+  :file: data/iso-iec-fdis-25059-awi-amd-1.yaml
 - :id:
     :publisher: ISO
     :number: '25059'
@@ -300638,7 +300708,8 @@
 - :id:
     :publisher: ISO
     :number: '25188'
-  :file: data/iso-25188.yaml
+    :year: 2026
+  :file: data/iso-25188-2026.yaml
 - :id:
     :publisher: ISO
     :number: '25189'
@@ -301266,8 +301337,7 @@
 - :id:
     :publisher: ISO
     :number: '25256'
-    :stage: :fdis
-  :file: data/iso-fdis-25256.yaml
+  :file: data/iso-25256.yaml
 - :id:
     :publisher: ISO
     :number: '25257'
@@ -302011,8 +302081,8 @@
 - :id:
     :publisher: ISO
     :number: '25350'
-    :stage: :dis
-  :file: data/iso-dis-25350.yaml
+    :stage: :fdis
+  :file: data/iso-fdis-25350.yaml
 - :id:
     :publisher: ISO
     :number: '25351'
@@ -302035,8 +302105,8 @@
 - :id:
     :publisher: ISO
     :number: '25355'
-    :stage: :dis
-  :file: data/iso-dis-25355.yaml
+    :stage: :fdis
+  :file: data/iso-fdis-25355.yaml
 - :id:
     :publisher: ISO
     :number: '25356'
@@ -303258,9 +303328,9 @@
     :number: '25508'
     :copublisher:
     - IEC
-    :stage: :fdis
+    :stage: :dis
     :part: '1'
-  :file: data/iso-iec-fdis-25508-1.yaml
+  :file: data/iso-iec-dis-25508-1.yaml
 - :id:
     :publisher: ISO
     :number: '25509'
@@ -303338,9 +303408,9 @@
     :number: '25523'
     :copublisher:
     - IEC
-    :stage: CD
+    :stage: :dtr
     :type: TR
-  :file: data/iso-iec-cd-tr-25523.yaml
+  :file: data/iso-iec-dtr-25523.yaml
 - :id:
     :publisher: ISO
     :number: '25524'
@@ -303813,9 +303883,9 @@
     :number: '25570'
     :copublisher:
     - IEC
-    :stage: WD
+    :stage: CD
     :type: TS
-  :file: data/iso-iec-wd-ts-25570.yaml
+  :file: data/iso-iec-cdts-25570.yaml
 - :id:
     :publisher: ISO
     :number: '25571'
@@ -304089,9 +304159,8 @@
 - :id:
     :publisher: ISO
     :number: '25609'
-    :stage: :dtr
     :type: TR
-  :file: data/iso-dtr-25609.yaml
+  :file: data/iso-tr-25609.yaml
 - :id:
     :publisher: ISO
     :number: '2561'
@@ -304245,9 +304314,9 @@
 - :id:
     :publisher: ISO
     :number: '25624'
-    :stage: CD
+    :stage: :dis
     :part: '1'
-  :file: data/iso-cd-25624-1.yaml
+  :file: data/iso-dis-25624-1.yaml
 - :id:
     :publisher: ISO
     :number: '25626'
@@ -304658,7 +304727,8 @@
     :publisher: ISO
     :number: '25671'
     :stage: CD
-  :file: data/iso-cd-25671.yaml
+    :iteration: 2
+  :file: data/iso-cd-25671-2.yaml
 - :id:
     :publisher: ISO
     :number: '25672'
@@ -306189,8 +306259,8 @@
 - :id:
     :publisher: ISO
     :number: '25809'
-    :stage: WD
-  :file: data/iso-wd-25809.yaml
+    :stage: CD
+  :file: data/iso-cd-25809.yaml
 - :id:
     :publisher: ISO
     :number: '2581'
@@ -306674,9 +306744,8 @@
 - :id:
     :publisher: ISO
     :number: '25874'
-    :stage: WD
-    :iteration: 2
-  :file: data/iso-wd-25874-2.yaml
+    :stage: CD
+  :file: data/iso-cd-25874.yaml
 - :id:
     :publisher: ISO
     :number: '25877'
@@ -307793,9 +307862,9 @@
 - :id:
     :publisher: ISO
     :number: '25991'
-    :stage: NP
+    :stage: AWI
     :iteration: 2
-  :file: data/iso-np-25991-2.yaml
+  :file: data/iso-awi-25991-2.yaml
 - :id:
     :publisher: ISO
     :number: '25992'
@@ -308315,6 +308384,13 @@
   :file: data/iso-cd-26068.yaml
 - :id:
     :publisher: ISO
+    :number: '26070'
+    :copublisher:
+    - IEC
+    :stage: NP
+  :file: data/iso-iec-np-26070.yaml
+- :id:
+    :publisher: ISO
     :number: '26071'
     :stage: CD
   :file: data/iso-cd-26071.yaml
@@ -308759,8 +308835,8 @@
 - :id:
     :publisher: ISO
     :number: '26129'
-    :stage: CD
-  :file: data/iso-cd-26129.yaml
+    :stage: :dis
+  :file: data/iso-dis-26129.yaml
 - :id:
     :publisher: ISO
     :number: '2613'
@@ -308954,15 +309030,15 @@
 - :id:
     :publisher: ISO
     :number: '26159'
-    :stage: AWI
-    :part: '2'
-  :file: data/iso-awi-26159-2.yaml
+    :stage: CD
+    :part: '1'
+  :file: data/iso-cd-26159-1.yaml
 - :id:
     :publisher: ISO
     :number: '26159'
     :stage: CD
-    :part: '1'
-  :file: data/iso-cd-26159-1.yaml
+    :part: '2'
+  :file: data/iso-cd-26159-2.yaml
 - :id:
     :publisher: ISO
     :number: '2616'
@@ -309036,8 +309112,8 @@
 - :id:
     :publisher: ISO
     :number: '26166'
-    :stage: CD
-  :file: data/iso-cd-26166.yaml
+    :stage: :dis
+  :file: data/iso-dis-26166.yaml
 - :id:
     :publisher: ISO
     :number: '26167'
@@ -309150,8 +309226,8 @@
 - :id:
     :publisher: ISO
     :number: '26184'
-    :stage: AWI
-  :file: data/iso-awi-26184.yaml
+    :stage: WD
+  :file: data/iso-wd-26184.yaml
 - :id:
     :publisher: ISO
     :number: '26185'
@@ -309950,8 +310026,8 @@
 - :id:
     :publisher: ISO
     :number: '26280'
-    :stage: WD
-  :file: data/iso-wd-26280.yaml
+    :stage: CD
+  :file: data/iso-cd-26280.yaml
 - :id:
     :publisher: ISO
     :number: '26281'
@@ -310013,8 +310089,8 @@
 - :id:
     :publisher: ISO
     :number: '26296'
-    :stage: WD
-  :file: data/iso-wd-26296.yaml
+    :stage: CD
+  :file: data/iso-cd-26296.yaml
 - :id:
     :publisher: ISO
     :number: '26298'
@@ -310934,6 +311010,12 @@
     :type: TS
   :file: data/iso-awi-ts-26395.yaml
 - :id:
+    :publisher: ISO
+    :number: '26397'
+    :stage: AWI
+    :type: TR
+  :file: data/iso-awi-tr-26397.yaml
+- :id:
     :publisher: ''
     :number: '1'
     :year: 1982
@@ -311391,8 +311473,8 @@
 - :id:
     :publisher: ISO
     :number: '26473'
-    :stage: CD
-  :file: data/iso-cd-26473.yaml
+    :stage: :dis
+  :file: data/iso-dis-26473.yaml
 - :id:
     :publisher: ISO
     :number: '26474'
@@ -311407,8 +311489,9 @@
 - :id:
     :publisher: ISO
     :number: '26478'
+    :year: 2026
     :type: TR
-  :file: data/iso-tr-26478.yaml
+  :file: data/iso-tr-26478-2026.yaml
 - :id:
     :publisher: ISO
     :number: '26479'
@@ -311474,8 +311557,8 @@
 - :id:
     :publisher: ISO
     :number: '26488'
-    :stage: AWI
-  :file: data/iso-awi-26488.yaml
+    :stage: CD
+  :file: data/iso-cd-26488.yaml
 - :id:
     :publisher: ISO
     :number: '26489'
@@ -311504,8 +311587,8 @@
 - :id:
     :publisher: ISO
     :number: '26492'
-    :stage: AWI
-  :file: data/iso-awi-26492.yaml
+    :stage: WD
+  :file: data/iso-wd-26492.yaml
 - :id:
     :publisher: ISO
     :number: '26493'
@@ -311845,8 +311928,8 @@
 - :id:
     :publisher: ISO
     :number: '26532'
-    :stage: AWI
-  :file: data/iso-awi-26532.yaml
+    :stage: CD
+  :file: data/iso-cd-26532.yaml
 - :id:
     :publisher: ISO
     :number: '26533'
@@ -311864,8 +311947,10 @@
 - :id:
     :publisher: ISO
     :number: '26539'
+    :copublisher:
+    - IEC
     :stage: AWI
-  :file: data/iso-awi-26539.yaml
+  :file: data/iso-iec-awi-26539.yaml
 - :id:
     :publisher: ISO
     :number: '26540'
@@ -312365,9 +312450,8 @@
 - :id:
     :publisher: ISO
     :number: '26618'
-    :stage: NP
-    :iteration: 2
-  :file: data/iso-np-26618-2.yaml
+    :stage: AWI
+  :file: data/iso-awi-26618.yaml
 - :id:
     :publisher: ISO
     :number: '26621'
@@ -312470,8 +312554,8 @@
 - :id:
     :publisher: ISO
     :number: '26629'
-    :stage: NP
-  :file: data/iso-np-26629.yaml
+    :stage: AWI
+  :file: data/iso-awi-26629.yaml
 - :id:
     :publisher: ISO
     :number: '26631'
@@ -313282,10 +313366,10 @@
   :file: data/iso-np-26772-1.yaml
 - :id:
     :publisher: ISO
-    :number: '26773'
+    :number: '26772'
     :stage: NP
     :part: '2'
-  :file: data/iso-np-26773-2.yaml
+  :file: data/iso-np-26772-2.yaml
 - :id:
     :publisher: ISO
     :number: '26774'
@@ -313369,8 +313453,10 @@
 - :id:
     :publisher: ISO
     :number: '26787'
-    :stage: NP
-  :file: data/iso-np-26787.yaml
+    :stage: AWI
+    :part: '1'
+    :type: TR
+  :file: data/iso-awi-tr-26787-1.yaml
 - :id:
     :publisher: ISO
     :number: '26788'
@@ -313682,8 +313768,8 @@
     :number: '26852'
     :copublisher:
     - IEC
-    :stage: NP
-  :file: data/iso-iec-np-26852.yaml
+    :stage: PWI
+  :file: data/iso-iec-pwi-26852.yaml
 - :id:
     :publisher: ISO
     :number: '26857'
@@ -314099,9 +314185,9 @@
 - :id:
     :publisher: ISO
     :number: '26920'
-    :stage: NP
+    :stage: AWI
     :type: TS
-  :file: data/iso-np-ts-26920.yaml
+  :file: data/iso-awi-ts-26920.yaml
 - :id:
     :publisher: ISO
     :number: '26921'
@@ -314225,8 +314311,8 @@
 - :id:
     :publisher: ISO
     :number: '26934'
-    :stage: NP
-  :file: data/iso-np-26934.yaml
+    :stage: AWI
+  :file: data/iso-awi-26934.yaml
 - :id:
     :publisher: ISO
     :number: '26937'
@@ -314301,15 +314387,15 @@
 - :id:
     :publisher: ISO
     :number: '26947'
-    :stage: NP
+    :stage: PWI
     :part: '2'
-  :file: data/iso-np-26947-2.yaml
+  :file: data/iso-pwi-26947-2.yaml
 - :id:
     :publisher: ISO
     :number: '26948'
-    :stage: NP
+    :stage: PWI
     :part: '1'
-  :file: data/iso-np-26948-1.yaml
+  :file: data/iso-pwi-26948-1.yaml
 - :id:
     :publisher: ISO
     :number: '2695'
@@ -314330,8 +314416,8 @@
 - :id:
     :publisher: ISO
     :number: '26953'
-    :stage: NP
-  :file: data/iso-np-26953.yaml
+    :stage: AWI
+  :file: data/iso-awi-26953.yaml
 - :id:
     :publisher: ISO
     :number: '26956'
@@ -317392,6 +317478,11 @@
   :file: data/iso-ts-27265-2026.yaml
 - :id:
     :publisher: ISO
+    :number: '27268'
+    :stage: NP
+  :file: data/iso-np-27268.yaml
+- :id:
+    :publisher: ISO
     :number: '27269'
     :year: 2021
   :file: data/iso-27269-2021.yaml
@@ -317407,6 +317498,47 @@
   :file: data/iso-2727-1973.yaml
 - :id:
     :publisher: ISO
+    :number: '27271'
+    :copublisher:
+    - IEC
+    :stage: NP
+    :type: TS
+  :file: data/iso-iec-np-ts-27271.yaml
+- :id:
+    :publisher: ISO
+    :number: '27272'
+    :copublisher:
+    - IEC
+    :stage: NP
+    :type: TS
+  :file: data/iso-iec-np-ts-27272.yaml
+- :id:
+    :publisher: ISO
+    :number: '27273'
+    :stage: NP
+  :file: data/iso-np-27273.yaml
+- :id:
+    :publisher: ISO
+    :number: '27274'
+    :stage: NP
+  :file: data/iso-np-27274.yaml
+- :id:
+    :publisher: ISO
+    :number: '27275'
+    :stage: NP
+  :file: data/iso-np-27275.yaml
+- :id:
+    :publisher: ISO
+    :number: '27278'
+    :stage: NP
+  :file: data/iso-np-27278.yaml
+- :id:
+    :publisher: ISO
+    :number: '27279'
+    :stage: NP
+  :file: data/iso-np-27279.yaml
+- :id:
+    :publisher: ISO
     :number: '2728'
     :year: 1973
   :file: data/iso-2728-1973.yaml
@@ -317417,9 +317549,20 @@
   :file: data/iso-2728-1982.yaml
 - :id:
     :publisher: ISO
+    :number: '27280'
+    :stage: NP
+  :file: data/iso-np-27280.yaml
+- :id:
+    :publisher: ISO
     :number: '27281'
     :stage: :fdis
   :file: data/iso-fdis-27281.yaml
+- :id:
+    :publisher: ISO
+    :number: '27282'
+    :stage: NP
+    :part: '1'
+  :file: data/iso-np-27282-1.yaml
 - :id:
     :publisher: ISO
     :number: '2729'
@@ -317895,7 +318038,8 @@
 - :id:
     :publisher: ISO
     :number: '27468'
-  :file: data/iso-27468.yaml
+    :year: 2026
+  :file: data/iso-27468-2026.yaml
 - :id:
     :publisher: ISO
     :number: '27469'
@@ -317980,6 +318124,14 @@
     :stage: :dis
     :iteration: 2
   :file: data/iso-dis-27502-2.yaml
+- :id:
+    :publisher: ISO
+    :number: '27503'
+    :copublisher:
+    - IEC
+    :stage: NP
+    :part: '1'
+  :file: data/iso-iec-np-27503-1.yaml
 - :id:
     :publisher: ISO
     :number: '27504'
@@ -320089,16 +320241,16 @@
     :copublisher:
     - IEC
     :stage: :dis
-    :part: '1'
-  :file: data/iso-iec-dis-28033-1.yaml
+    :part: '2'
+  :file: data/iso-iec-dis-28033-2.yaml
 - :id:
     :publisher: ISO
     :number: '28033'
     :copublisher:
     - IEC
-    :stage: :dis
-    :part: '2'
-  :file: data/iso-iec-dis-28033-2.yaml
+    :stage: :fdis
+    :part: '1'
+  :file: data/iso-iec-fdis-28033-1.yaml
 - :id:
     :publisher: ISO
     :number: '28033'
@@ -323574,8 +323726,9 @@
     :publisher: ISO
     :number: '28927'
     :stage: WD
+    :iteration: 2
     :part: '13'
-  :file: data/iso-wd-28927-13.yaml
+  :file: data/iso-wd-28927-13-2.yaml
 - :id:
     :publisher: ISO
     :number: '28927'
@@ -324871,8 +325024,9 @@
     :number: '29110'
     :copublisher:
     - IEC
+    :year: 2026
     :part: 5-5
-  :file: data/iso-iec-29110-5-5.yaml
+  :file: data/iso-iec-29110-5-5-2026.yaml
 - :id:
     :publisher: ISO
     :number: '29110'
@@ -327264,7 +327418,7 @@
 - :id:
     :publisher: ''
     :number: '1'
-    :stage: AWI
+    :stage: WD
     :base:
       :publisher: ISO
       :number: '29192'
@@ -327273,7 +327427,7 @@
       :year: 2016
       :part: '5'
     :type: AMD
-  :file: data/iso-iec-29192-5-2016-awi-amd-1.yaml
+  :file: data/iso-iec-29192-5-2016-wd-amd-1.yaml
 - :id:
     :publisher: ISO
     :number: '29192'
@@ -327300,19 +327454,6 @@
   :file: data/iso-iec-29192-7-2019.yaml
 - :id:
     :publisher: ''
-    :number: '2'
-    :stage: AWI
-    :base:
-      :publisher: ISO
-      :number: '29192'
-      :copublisher:
-      - IEC
-      :year: 2022
-      :part: '8'
-    :type: AMD
-  :file: data/iso-iec-29192-8-2022-awi-amd-2.yaml
-- :id:
-    :publisher: ''
     :number: '1'
     :stage: :damd
     :base:
@@ -327324,6 +327465,19 @@
       :part: '8'
     :type: AMD
   :file: data/iso-iec-29192-8-2022-dam-1.yaml
+- :id:
+    :publisher: ''
+    :number: '2'
+    :stage: WD
+    :base:
+      :publisher: ISO
+      :number: '29192'
+      :copublisher:
+      - IEC
+      :year: 2022
+      :part: '8'
+    :type: AMD
+  :file: data/iso-iec-29192-8-2022-wd-amd-2.yaml
 - :id:
     :publisher: ISO
     :number: '29192'
@@ -329040,14 +329194,6 @@
     :copublisher:
     - IEC
     :year: 2008
-    :part: 8-1
-  :file: data/iso-iec-29341-8-1-2008.yaml
-- :id:
-    :publisher: ISO
-    :number: '29341'
-    :copublisher:
-    - IEC
-    :year: 2008
     :part: 8-10
   :file: data/iso-iec-29341-8-10-2008.yaml
 - :id:
@@ -329154,14 +329300,6 @@
     :year: 2008
     :part: 8-3
   :file: data/iso-iec-29341-8-3-2008.yaml
-- :id:
-    :publisher: ISO
-    :number: '29341'
-    :copublisher:
-    - IEC
-    :year: 2008
-    :part: 8-4
-  :file: data/iso-iec-29341-8-4-2008.yaml
 - :id:
     :publisher: ISO
     :number: '29341'
@@ -331473,8 +331611,9 @@
     :copublisher:
     - IEC
     :stage: CD
+    :iteration: 2
     :part: '1'
-  :file: data/iso-iec-cd-29794-1.yaml
+  :file: data/iso-iec-cd-29794-1-2.yaml
 - :id:
     :publisher: ISO
     :number: '29794'
@@ -332176,13 +332315,13 @@
 - :id:
     :publisher: ISO
     :number: '29998'
-    :stage: NP
-  :file: data/iso-np-29998.yaml
+    :stage: CD
+  :file: data/iso-cd-29998.yaml
 - :id:
     :publisher: ISO
     :number: '29998'
-    :stage: WD
-  :file: data/iso-wd-29998.yaml
+    :stage: NP
+  :file: data/iso-np-29998.yaml
 - :id:
     :publisher: ISO
     :number: '29999'
@@ -334761,20 +334900,6 @@
   :file: data/iso-iec-30142-2-2022.yaml
 - :id:
     :publisher: ISO
-    :number: '30142'
-    :copublisher:
-    - IEC
-    :year: 2020
-  :file: data/iso-iec-30142-2020.yaml
-- :id:
-    :publisher: ISO
-    :number: '30143'
-    :copublisher:
-    - IEC
-    :year: 2020
-  :file: data/iso-iec-30143-2020.yaml
-- :id:
-    :publisher: ISO
     :number: '30144'
     :copublisher:
     - IEC
@@ -334901,17 +335026,17 @@
     :number: '30150'
     :copublisher:
     - IEC
-    :stage: :dis
+    :stage: :fdis
     :part: '11'
-  :file: data/iso-iec-dis-30150-11.yaml
+  :file: data/iso-iec-fdis-30150-11.yaml
 - :id:
     :publisher: ISO
     :number: '30150'
     :copublisher:
     - IEC
-    :stage: :dis
+    :stage: :fdis
     :part: '31'
-  :file: data/iso-iec-dis-30150-31.yaml
+  :file: data/iso-iec-fdis-30150-31.yaml
 - :id:
     :publisher: ISO
     :number: '30150'
@@ -335052,14 +335177,6 @@
     - IEC
     :year: 2021
   :file: data/iso-iec-30165-2021.yaml
-- :id:
-    :publisher: ISO
-    :number: '30166'
-    :copublisher:
-    - IEC
-    :year: 2020
-    :type: TR
-  :file: data/iso-iec-tr-30166-2020.yaml
 - :id:
     :publisher: ISO
     :number: '30167'
@@ -335930,8 +336047,7 @@
 - :id:
     :publisher: ISO
     :number: '30301'
-    :stage: PRF
-  :file: data/iso-prf-30301.yaml
+  :file: data/iso-30301.yaml
 - :id:
     :publisher: ISO
     :number: '30302'
@@ -337652,13 +337768,12 @@
 - :id:
     :publisher: ''
     :number: '1'
-    :stage: PRF
     :base:
       :publisher: ISO
       :number: '3093'
       :year: 2009
     :type: AMD
-  :file: data/iso-3093-2009-prf-amd-1.yaml
+  :file: data/iso-3093-2009-amd-1.yaml
 - :id:
     :publisher: ISO
     :number: '3093'
@@ -338528,11 +338643,6 @@
     :year: 2009
   :file: data/iec-31010-2009.yaml
 - :id:
-    :publisher: IEC
-    :number: '31010'
-    :year: 2019
-  :file: data/iec-31010-2019.yaml
-- :id:
     :publisher: ISO
     :number: '31011'
     :stage: WD
@@ -338590,13 +338700,13 @@
 - :id:
     :publisher: ISO
     :number: '31032'
-    :stage: NP
-  :file: data/iso-np-31032.yaml
+    :stage: AWI
+  :file: data/iso-awi-31032.yaml
 - :id:
     :publisher: ISO
     :number: '31033'
-    :stage: NP
-  :file: data/iso-np-31033.yaml
+    :stage: AWI
+  :file: data/iso-awi-31033.yaml
 - :id:
     :publisher: ISO
     :number: '3104'
@@ -339289,6 +339399,12 @@
     :number: '3142'
     :year: 1997
   :file: data/iso-3142-1997.yaml
+- :id:
+    :publisher: ISO
+    :number: '31423'
+    :stage: AWI
+    :type: TR
+  :file: data/iso-awi-tr-31423.yaml
 - :id:
     :publisher: ISO
     :number: '3143'
@@ -340764,9 +340880,8 @@
 - :id:
     :publisher: ISO
     :number: '32009'
-    :stage: :dts
     :type: TS
-  :file: data/iso-dts-32009.yaml
+  :file: data/iso-ts-32009.yaml
 - :id:
     :publisher: ISO
     :number: '3201'
@@ -351806,6 +351921,13 @@
 - :id:
     :publisher: ISO
     :number: '3691'
+    :stage: AWI
+    :part: '8'
+    :type: TS
+  :file: data/iso-awi-ts-3691-8.yaml
+- :id:
+    :publisher: ISO
+    :number: '3691'
     :stage: CD
   :file: data/iso-cd-3691.yaml
 - :id:
@@ -352254,8 +352376,10 @@
 - :id:
     :publisher: ISO
     :number: '37101'
+    :copublisher:
+    - IEC
     :stage: WD
-  :file: data/iso-wd-37101.yaml
+  :file: data/iso-iec-wd-37101.yaml
 - :id:
     :publisher: ISO
     :number: '37102'
@@ -352432,15 +352556,19 @@
 - :id:
     :publisher: ISO
     :number: '37126'
+    :copublisher:
+    - IEC
     :stage: AWI
     :part: '1'
-  :file: data/iso-awi-37126-1.yaml
+  :file: data/iso-iec-awi-37126-1.yaml
 - :id:
     :publisher: ISO
     :number: '37126'
+    :copublisher:
+    - IEC
     :stage: AWI
     :part: '2'
-  :file: data/iso-awi-37126-2.yaml
+  :file: data/iso-iec-awi-37126-2.yaml
 - :id:
     :publisher: ISO
     :number: '37127'
@@ -352472,9 +352600,11 @@
 - :id:
     :publisher: ISO
     :number: '37132'
+    :copublisher:
+    - IEC
     :stage: AWI
     :type: TR
-  :file: data/iso-awi-tr-37132.yaml
+  :file: data/iso-iec-awi-tr-37132.yaml
 - :id:
     :publisher: ISO
     :number: '37134'
@@ -352842,8 +352972,8 @@
     :number: '37188'
     :copublisher:
     - IEC
-    :stage: WD
-  :file: data/iso-iec-wd-37188.yaml
+    :stage: CD
+  :file: data/iso-iec-cd-37188.yaml
 - :id:
     :publisher: ISO
     :number: '37189'
@@ -352870,8 +353000,8 @@
     :number: '37191'
     :copublisher:
     - IEC
-    :stage: WD
-  :file: data/iso-iec-wd-37191.yaml
+    :stage: CD
+  :file: data/iso-iec-cd-37191.yaml
 - :id:
     :publisher: ISO
     :number: '37192'
@@ -352953,8 +353083,8 @@
 - :id:
     :publisher: ISO
     :number: '37201'
-    :stage: CD
-  :file: data/iso-cd-37201.yaml
+    :stage: :dis
+  :file: data/iso-dis-37201.yaml
 - :id:
     :publisher: ISO
     :number: '37202'
@@ -365707,8 +365837,9 @@
 - :id:
     :publisher: ISO
     :number: '4240'
+    :year: 2026
     :part: '4'
-  :file: data/iso-4240-4.yaml
+  :file: data/iso-4240-4-2026.yaml
 - :id:
     :publisher: ISO
     :number: '4240'
@@ -372857,7 +372988,8 @@
 - :id:
     :publisher: ISO
     :number: '4576'
-  :file: data/iso-4576.yaml
+    :year: 2026
+  :file: data/iso-4576-2026.yaml
 - :id:
     :publisher: ISO
     :number: '4577'
@@ -380245,10 +380377,10 @@
 - :id:
     :publisher: ISO
     :number: '4982'
-    :stage: CD
+    :stage: :dts
     :part: '2'
     :type: TS
-  :file: data/iso-cdts-4982-2.yaml
+  :file: data/iso-dts-4982-2.yaml
 - :id:
     :publisher: ISO
     :number: '4983'
@@ -381410,8 +381542,7 @@
 - :id:
     :publisher: ISO
     :number: '5013'
-    :stage: :fdis
-  :file: data/iso-fdis-5013.yaml
+  :file: data/iso-5013.yaml
 - :id:
     :publisher: ISO
     :number: '5013'
@@ -383004,13 +383135,6 @@
   :file: data/iso-astm-51261-2002.yaml
 - :id:
     :publisher: ISO
-    :number: '51261'
-    :copublisher:
-    - ASTM
-    :year: 2013
-  :file: data/iso-astm-51261-2013.yaml
-- :id:
-    :publisher: ISO
     :number: '5127'
     :year: 1983
     :part: '1'
@@ -384473,13 +384597,6 @@
   :file: data/iso-astm-51702-2004.yaml
 - :id:
     :publisher: ISO
-    :number: '51702'
-    :copublisher:
-    - ASTM
-    :year: 2013
-  :file: data/iso-astm-51702-2013.yaml
-- :id:
-    :publisher: ISO
     :number: '51707'
     :copublisher:
     - ASTM
@@ -384978,13 +385095,6 @@
     - ASTM
     :year: 2004
   :file: data/iso-astm-51940-2004.yaml
-- :id:
-    :publisher: ISO
-    :number: '51940'
-    :copublisher:
-    - ASTM
-    :year: 2013
-  :file: data/iso-astm-51940-2013.yaml
 - :id:
     :publisher: ISO
     :number: '51940'
@@ -393163,8 +393273,8 @@
 - :id:
     :publisher: ISO
     :number: '56005'
-    :stage: AWI
-  :file: data/iso-awi-56005.yaml
+    :stage: CD
+  :file: data/iso-cd-56005.yaml
 - :id:
     :publisher: ISO
     :number: '56006'
@@ -396129,14 +396239,14 @@
 - :id:
     :publisher: ''
     :number: '1'
-    :stage: AWI
+    :stage: CD
     :base:
       :publisher: ISO
       :number: '5725'
       :year: 2025
       :part: '2'
     :type: AMD
-  :file: data/iso-5725-2-2025-awi-amd-1.yaml
+  :file: data/iso-5725-2-2025-cd-amd-1.yaml
 - :id:
     :publisher: ISO
     :number: '5725'
@@ -396221,9 +396331,8 @@
 - :id:
     :publisher: ISO
     :number: '5725'
-    :stage: PRF
     :part: '6'
-  :file: data/iso-prf-5725-6.yaml
+  :file: data/iso-5725-6.yaml
 - :id:
     :publisher: ISO
     :number: '5725'
@@ -399508,8 +399617,7 @@
 - :id:
     :publisher: ISO
     :number: '5878'
-    :stage: :fdis
-  :file: data/iso-fdis-5878.yaml
+  :file: data/iso-5878.yaml
 - :id:
     :publisher: ISO
     :number: '5879'
@@ -399785,8 +399893,8 @@
 - :id:
     :publisher: ISO
     :number: '59004'
-    :stage: WD
-  :file: data/iso-wd-59004.yaml
+    :stage: CD
+  :file: data/iso-cd-59004.yaml
 - :id:
     :publisher: ISO
     :number: '5901'
@@ -400578,8 +400686,7 @@
     :number: '5962'
     :copublisher:
     - IEC
-    :stage: PRF
-  :file: data/iso-iec-prf-5962.yaml
+  :file: data/iso-iec-5962.yaml
 - :id:
     :publisher: ISO
     :number: '5963'
@@ -407461,9 +407568,9 @@
 - :id:
     :publisher: IEC
     :number: '62841'
-    :stage: AWI
+    :stage: CD
     :part: 4-15
-  :file: data/iec-awi-62841-4-15.yaml
+  :file: data/iec-cd-62841-4-15.yaml
 - :id:
     :publisher: ISO
     :number: '6285'
@@ -410240,7 +410347,8 @@
 - :id:
     :publisher: ISO
     :number: '6376'
-  :file: data/iso-6376.yaml
+    :year: 2026
+  :file: data/iso-6376-2026.yaml
 - :id:
     :publisher: ISO
     :number: '63760'
@@ -419143,7 +419251,8 @@
 - :id:
     :publisher: ISO
     :number: '6791'
-  :file: data/iso-6791.yaml
+    :year: 2026
+  :file: data/iso-6791-2026.yaml
 - :id:
     :publisher: ISO
     :number: '6792'
@@ -422727,6 +422836,11 @@
 - :id:
     :publisher: ISO
     :number: '6974'
+    :part: '4'
+  :file: data/iso-6974-4.yaml
+- :id:
+    :publisher: ISO
+    :number: '6974'
     :year: 2000
     :part: '5'
   :file: data/iso-6974-5-2000.yaml
@@ -422759,12 +422873,6 @@
     :stage: CD
     :part: '5'
   :file: data/iso-cd-6974-5.yaml
-- :id:
-    :publisher: ISO
-    :number: '6974'
-    :stage: :fdis
-    :part: '4'
-  :file: data/iso-fdis-6974-4.yaml
 - :id:
     :publisher: ISO
     :number: '6974'
@@ -433640,8 +433748,9 @@
 - :id:
     :publisher: ISO
     :number: '7240'
+    :year: 2026
     :part: '33'
-  :file: data/iso-7240-33.yaml
+  :file: data/iso-7240-33-2026.yaml
 - :id:
     :publisher: ISO
     :number: '7240'
@@ -440877,14 +440986,14 @@
 - :id:
     :publisher: ''
     :number: '1'
-    :stage: AWI
+    :stage: :damd
     :base:
       :publisher: ISO
       :number: '7637'
       :year: 2011
       :part: '2'
     :type: AMD
-  :file: data/iso-7637-2-2011-awi-amd-1.yaml
+  :file: data/iso-7637-2-2011-dam-1.yaml
 - :id:
     :publisher: ISO
     :number: '7637'
@@ -450675,14 +450784,6 @@
     :number: '80005'
     :copublisher:
     - IEEE
-    :year: 2019
-    :part: '1'
-  :file: data/iec-ieee-80005-1-2019.yaml
-- :id:
-    :publisher: IEC
-    :number: '80005'
-    :copublisher:
-    - IEEE
     :year: 2016
     :part: '2'
   :file: data/iec-ieee-80005-2-2016.yaml
@@ -450861,14 +450962,6 @@
     :year: 2011
     :part: '34'
   :file: data/iso-iec-80079-34-2011.yaml
-- :id:
-    :publisher: ISO
-    :number: '80079'
-    :copublisher:
-    - IEC
-    :year: 2018
-    :part: '34'
-  :file: data/iso-iec-80079-34-2018.yaml
 - :id:
     :publisher: ISO
     :number: '80079'
@@ -452324,12 +452417,6 @@
       :part: 2-78
     :type: AMD
   :file: data/iec-80601-2-78-2019-amd-1-2024.yaml
-- :id:
-    :publisher: IEC
-    :number: '80601'
-    :year: 2019
-    :part: 2-78
-  :file: data/iec-80601-2-78-2019.yaml
 - :id:
     :publisher: IEC
     :number: '80601'
@@ -455847,12 +455934,6 @@
 - :id:
     :publisher: IEC
     :number: '81346'
-    :year: 2019
-    :part: '2'
-  :file: data/iec-81346-2-2019.yaml
-- :id:
-    :publisher: IEC
-    :number: '81346'
     :stage: CD
     :part: '20'
   :file: data/iec-cd-81346-20.yaml
@@ -456760,6 +456841,11 @@
 - :id:
     :publisher: ISO
     :number: '8178'
+    :part: '4'
+  :file: data/iso-8178-4.yaml
+- :id:
+    :publisher: ISO
+    :number: '8178'
     :year: 1997
     :part: '5'
   :file: data/iso-8178-5-1997.yaml
@@ -456881,12 +456967,6 @@
     :stage: PRF
     :part: '1'
   :file: data/iso-prf-8178-1.yaml
-- :id:
-    :publisher: ISO
-    :number: '8178'
-    :stage: PRF
-    :part: '4'
-  :file: data/iso-prf-8178-4.yaml
 - :id:
     :publisher: ISO
     :number: '8178'
@@ -460302,9 +460382,9 @@
 - :id:
     :publisher: ISO
     :number: '8351'
-    :stage: :dis
+    :stage: :fdis
     :part: '1'
-  :file: data/iso-dis-8351-1.yaml
+  :file: data/iso-fdis-8351-1.yaml
 - :id:
     :publisher: ISO
     :number: '8352'
@@ -465200,7 +465280,8 @@
 - :id:
     :publisher: ISO
     :number: '8553'
-  :file: data/iso-8553.yaml
+    :year: 2026
+  :file: data/iso-8553-2026.yaml
 - :id:
     :publisher: ISO
     :number: '8553'
@@ -466738,6 +466819,12 @@
     :iteration: 2
     :part: '7'
   :file: data/iso-dis-8600-7-2.yaml
+- :id:
+    :publisher: ISO
+    :number: '8600'
+    :stage: PWI
+    :part: '9'
+  :file: data/iso-pwi-8600-9.yaml
 - :id:
     :publisher: ''
     :number: '1'
@@ -468316,6 +468403,11 @@
 - :id:
     :publisher: ISO
     :number: '8637'
+    :part: '1'
+  :file: data/iso-8637-1.yaml
+- :id:
+    :publisher: ISO
+    :number: '8637'
     :year: 1989
   :file: data/iso-8637-1989.yaml
 - :id:
@@ -468330,6 +468422,11 @@
     :year: 2024
     :part: '2'
   :file: data/iso-8637-2-2024.yaml
+- :id:
+    :publisher: ISO
+    :number: '8637'
+    :part: '2'
+  :file: data/iso-8637-2.yaml
 - :id:
     :publisher: ISO
     :number: '8637'
@@ -468365,6 +468462,11 @@
 - :id:
     :publisher: ISO
     :number: '8637'
+    :part: '3'
+  :file: data/iso-8637-3.yaml
+- :id:
+    :publisher: ISO
+    :number: '8637'
     :stage: CD
     :part: '1'
   :file: data/iso-cd-8637-1.yaml
@@ -468374,24 +468476,6 @@
     :stage: CD
     :part: '3'
   :file: data/iso-cd-8637-3.yaml
-- :id:
-    :publisher: ISO
-    :number: '8637'
-    :stage: :fdis
-    :part: '1'
-  :file: data/iso-fdis-8637-1.yaml
-- :id:
-    :publisher: ISO
-    :number: '8637'
-    :stage: :fdis
-    :part: '2'
-  :file: data/iso-fdis-8637-2.yaml
-- :id:
-    :publisher: ISO
-    :number: '8637'
-    :stage: :fdis
-    :part: '3'
-  :file: data/iso-fdis-8637-3.yaml
 - :id:
     :publisher: ISO
     :number: '8638'
@@ -479931,8 +480015,8 @@
 - :id:
     :publisher: ISO
     :number: '9'
-    :stage: :dis
-  :file: data/iso-dis-9.yaml
+    :stage: :fdis
+  :file: data/iso-fdis-9.yaml
 - :id:
     :publisher: ISO
     :number: '9'
@@ -492146,7 +492230,8 @@
 - :id:
     :publisher: ISO
     :number: '9490'
-  :file: data/iso-9490.yaml
+    :year: 2026
+  :file: data/iso-9490-2026.yaml
 - :id:
     :publisher: ISO
     :number: '9491'
@@ -493451,8 +493536,8 @@
 - :id:
     :publisher: ISO
     :number: '9554'
-    :stage: WD
-  :file: data/iso-wd-9554.yaml
+    :stage: CD
+  :file: data/iso-cd-9554.yaml
 - :id:
     :publisher: ISO
     :number: '9555'
@@ -501513,7 +501598,8 @@
 - :id:
     :publisher: ISO
     :number: '9681'
-  :file: data/iso-9681.yaml
+    :year: 2026
+  :file: data/iso-9681-2026.yaml
 - :id:
     :publisher: ISO
     :number: '9682'
@@ -504325,21 +504411,21 @@
 - :id:
     :publisher: ISO
     :number: '9809'
-    :stage: AWI
-    :part: '2'
-  :file: data/iso-awi-9809-2.yaml
-- :id:
-    :publisher: ISO
-    :number: '9809'
-    :stage: AWI
-    :part: '3'
-  :file: data/iso-awi-9809-3.yaml
+    :stage: CD
+    :part: '1'
+  :file: data/iso-cd-9809-1.yaml
 - :id:
     :publisher: ISO
     :number: '9809'
     :stage: CD
-    :part: '1'
-  :file: data/iso-cd-9809-1.yaml
+    :part: '2'
+  :file: data/iso-cd-9809-2.yaml
+- :id:
+    :publisher: ISO
+    :number: '9809'
+    :stage: CD
+    :part: '3'
+  :file: data/iso-cd-9809-3.yaml
 - :id:
     :publisher: ISO
     :number: '9809'
