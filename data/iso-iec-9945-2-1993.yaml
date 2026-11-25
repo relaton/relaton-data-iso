@@ -131,42 +131,41 @@ abstract:
     that is tailored for bit-mapped or graphics display terminals, although it is
     expected that such terminals could emu-late the character orientation required
     by this environment. When facili-ties require cursor addressability from the terminal
-    hardware, this is specifically identified in this part ofISO/IEC 9945. (3)  
-     The facilities to be provided are based on the historical models of the fol-
-    lowing documents: the System V Interface Definition {B37}, the BSD User Manual
-    {B46}, the X/Open Portability Guide {B49}, and documentation for the KornShell
-    {B38}. Emphasis is placed on standardizing existing practice for existing users,
-    with changes or additions limited to correcting deficiencies in the following
-    areas: (a)    Support for international character sets and other localization
-    requirements, such as date formats, collation sequences, etc. (b)    Reconciliation
-    of differences between the historical implementa­tions. (c)    Elimination
-    of system or device dependencies. (d)    Corrections of features that could
-    reduce system or user security/integrity. Portions of this part of ISO/IEC 9945
-    comprise optional language bindings to sys-tern service interfaces. (See, for
-    example, the C-Language Bindings Option in Annex B.) This part of ISO/IEC 9945
-    is intended to describe language interfaces and utilities in sufficient detail
-    so that an application developer can understand the required interfaces without
-    access to the source code of existing implementations on which they may be based.
-    Therefore, it does not attempt to describe the source programming language or
-    internal design of the utilities; they should be , considered "black boxes" that
-    exhibit the described functionality. For language interfaces, or functions, this
-    part of ISO/IEC 9945 has been defined exclusively at the source-code level. The
-    objective is that a conforming portable application source program can be translated
-    to execute on a conforming implementation. This part of ISO/IEC 9945 assumes that
-    the source program may need to be retranslated to produce target code for a new
-    environment prior to execution in that environment.  There is no requirement
-    that the base operating system supporting the shell and utilities be one that
-    fully conforms to ISO/1EC 9945-1: 1990 {8}. (The base system could contain a subset
-    of POSIX.1 {8} functionality, enough to support the require- ments for this part
-    of ISO/IEC 9945 as described in 2.9.1, but it could not claim full conformance
-    to all of POSIX.l {8}.) Furthermore, there is no requirement that the shell command
-    interpreter or any of the standard utilities be written as POSIX.1 {8} conforming
-    programs or be written in any particular language.  Although not requiring a
-    fully conforming POSIX.1 {8} base, this part of ISO/IEC 9945 is based upon documentation
-    and the knowledge of existing programs that assume an interface and architecture
-    similar to that described by POSIX.1 {8}. Any questions regarding the definition
-    of terms or the semantics of an underlying concept should be referred to POSIX.1
-    {8}. '
+    hardware, this is specifically identified in this part ofISO/IEC 9945. (3)    The
+    facilities to be provided are based on the historical models of the fol- lowing
+    documents: the System V Interface Definition {B37}, the BSD User Manual {B46},
+    the X/Open Portability Guide {B49}, and documentation for the KornShell {B38}.
+    Emphasis is placed on standardizing existing practice for existing users, with
+    changes or additions limited to correcting deficiencies in the following areas:
+    (a)    Support for international character sets and other localization requirements,
+    such as date formats, collation sequences, etc. (b)    Reconciliation of differences
+    between the historical implementa­tions. (c)    Elimination of system or device
+    dependencies. (d)    Corrections of features that could reduce system or user
+    security/integrity. Portions of this part of ISO/IEC 9945 comprise optional language
+    bindings to sys-tern service interfaces. (See, for example, the C-Language Bindings
+    Option in Annex B.) This part of ISO/IEC 9945 is intended to describe language
+    interfaces and utilities in sufficient detail so that an application developer
+    can understand the required interfaces without access to the source code of existing
+    implementations on which they may be based. Therefore, it does not attempt to
+    describe the source programming language or internal design of the utilities;
+    they should be , considered "black boxes" that exhibit the described functionality.
+    For language interfaces, or functions, this part of ISO/IEC 9945 has been defined
+    exclusively at the source-code level. The objective is that a conforming portable
+    application source program can be translated to execute on a conforming implementation.
+    This part of ISO/IEC 9945 assumes that the source program may need to be retranslated
+    to produce target code for a new environment prior to execution in that environment. 
+    There is no requirement that the base operating system supporting the shell and
+    utilities be one that fully conforms to ISO/1EC 9945-1: 1990 {8}. (The base system
+    could contain a subset of POSIX.1 {8} functionality, enough to support the require-
+    ments for this part of ISO/IEC 9945 as described in 2.9.1, but it could not claim
+    full conformance to all of POSIX.l {8}.) Furthermore, there is no requirement
+    that the shell command interpreter or any of the standard utilities be written
+    as POSIX.1 {8} conforming programs or be written in any particular language. 
+    Although not requiring a fully conforming POSIX.1 {8} base, this part of ISO/IEC
+    9945 is based upon documentation and the knowledge of existing programs that assume
+    an interface and architecture similar to that described by POSIX.1 {8}. Any questions
+    regarding the definition of terms or the semantics of an underlying concept should
+    be referred to POSIX.1 {8}. '
 status:
   stage:
     content: '95'
